@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Probability</title>
+    <link href="//fonts.googleapis.com/css?family=Lato:100,200,300,400" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../css/chapter-style.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS Imports -->
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Assistant:300,400,600,700" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="../img/favicon.png" />
+    <!-- JavaScript Imports -->
+    <!-- D3 -->
+    <script src="../js/d3.min.js"></script>
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- jstat -->
+    <script src="../js/jstat.min.js"></script>
+    <!-- MathJax -->
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script src="../js/LaTeXMathML.js"></script>
+    <!-- Tool Tip -->
+    <script src="../js/d3.tip.v0.6.3.js"></script>
+    <!-- General Chapter -->
+    <script src="../js/chapter.js"></script>
+    <!-- Visualizations -->
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <section class="title">
+      <div class="title-region">
+        <h1 class="title">Conditional Probability</h1>
+        <h3 class="by-line">Visually Explained</h3>
+      </div>
+    </section>
+    <section>
+      <p>By Mr. Abraham</p>
+      <div class="small"> Bringing you more things that Ann can't read...</div>
+    </section>
+    <section>
+      <br>
+      <p> A conditional probability is the probability of an event, given some other event has already occurred. In the below example, there are two possible events that can occur. A ball falling could either hit the <span class="A">orange</span> shelf (we'll call this event <span class="A">A</span>) or hit the <span class="B">green</span> shelf (we'll call this event <span class="B">B</span>) or both.
+      </p>
+      <p>If we know the statistics of these events across the entire population and then were to be given a single ball and told "this ball hit the <span class="B">green</span> shelf (event <span class="B">B</span>), what's the probability it also hit the <span class="A">orange</span> shelf (event <span class="A">A</span>)?" we could answer this question by providing the conditional probability of <span class="A">A</span> given that <span class="B">B</span> occurred or P(<span class="A">A</span>|<span class="B">B</span>). </p>
+      <div class="Row">
+        <div class="Column" style="text-align: center">P(<span class="A">A</span>|<span class="B">B</span>) = <div class="frac"><span>P(<span class="A">A</span> and <span class="B">B</span>)</span><span class="symbol">/</span><span class="bottom">P(<span class="B">B</span>)</span></div></div>
+        <div class="Column" style="text-align: center">P(<span class="B">B</span>|<span class="A">A</span>) = <div class="frac"><span>P(<span class="A">A</span> and <span class="B">B</span>)</span><span class="symbol">/</span><span class="bottom">P(<span class="A">A</span>)</span></div></div>
+        <div class="Column" style="text-align: center">P(<span class="A">A</span>|<span class="B">B</span>) = <div class="frac"><span>P(<span class="A">A</span>)P(<span class="B">B</span>|<span class="A">A</span>)</span><span class="symbol">/</span><span class="bottom">P(<span class="B">B</span>)</span></div></div>
+      </div>
+      <div class="Row">
+        <div class="Column">
+          <p><label>P(<span class="A">A</span>)</label><span id="pOfA"></span></p>
+          <p><label>P(<span class="B">B</span>)</label><span id="pOfB"></span></p>
+          <p><label>P(<span class="C">C</span>)</label><span id="pOfC"></span></p>
+          <p><label>P(<span class="A">A</span> and <span class="B">B</span>)</label><span id="pOfAAndB"></span></p>
+          <p><label>P(<span class="B">B</span> and <span class="C">C</span>)</label><span id="pOfBAndC"></span></p>
+          <p><label>P(<span class="A">A</span> and <span class="C">C</span>)</label><span id="pOfAAndC"></span></p>
+
+
+        </div>
+        <div class="Column">
+          <p>P(<span class="A">A</span>|<span class="B">B</span>) = <span id="pOfAGivenB"></span></p>
+          <p>
+            <small>
+              If we have a ball and we know it hit the <span class="B">green</span> shelf, there's a <span id="pOfAGivenB_Percentage"></span>% chance it also hit the <span class="A">orange</span> shelf.
+            </small>
+          </p>
+          <p>P(<span class="B">B</span>|<span class="A">A</span>) = <span id="pOfBGivenA"></span></p>
+          <p>
+            <small>
+              If we have a ball and we know it hit the <span class="A">orange</span> shelf, there's a <span id="pOfBGivenA_Percentage"></span>% chance it also hit the <span class="B">green</span> shelf.
+            </small>
+          </p>
+        </div>
+        <div class="Column">
+          <p>P(<span class="B">B</span>|<span class="C">C</span>) = <span id="pOfBGivenC"></span></p>
+          <p>
+            <small>
+              If we have a ball and we know it hit the <span class="C">blue</span> shelf, there's a <span id="pOfBGivenC_Percentage"></span>% chance it also hit the <span class="B">green</span> shelf.
+            </small>
+          </p>
+          <p>P(<span class="C">C</span>|<span class="B">B</span>) = <span id="pOfCGivenB"></span></p>
+          <p>
+            <small>
+              If we have a ball and we know it hit the <span class="B">green</span> shelf, there's a <span id="pOfCGivenB_Percentage"></span>% chance it also hit the <span class="C">blue</span> shelf.
+            </small>
+          </p>
+        </div>
+        <div class="Column">
+          <p>P(<span class="A">A</span>|<span class="C">C</span>) = <span id="pOfAGivenC"></span></p>
+          <p>
+            <small>
+              If we have a ball and we know it hit the <span class="C">blue</span> shelf, there's a <span id="pOfAGivenC_Percentage"></span>% chance it also hit the <span class="A">orange</span> shelf.
+            </small>
+          </p>
+          <p>P(<span class="C">C</span>|<span class="A">A</span>) = <span id="pOfCGivenA"></span></p>
+          <p>
+            <small>
+              If we have a ball and we know it hit the <span class="A">orange</span> shelf, there's a <span id="pOfCGivenA_Percentage"></span>% chance it also hit the <span class="C">blue</span> shelf.
+            </small>
+          </p>
+        </div>
+      </div>
+      <div style="clear:both"></div>
+    </section>
+    <section id="conditional-probability">
+        <div class="interactive-wrapper" id="svgBallCP">
+          <div id="perspectiveControl">
+              <div class="button-1 perspective" id="a">A</div>
+              <div class="button-1 perspective" id="b">B</div>
+              <div class="button-1 perspective" id="c">C</div>
+              <div class="button-1 perspective active" id="universe">Universe</div>
+        </div>
+      </div>
+      <div class="Row">
+        <div class="Column">
+          <div id='svgProbCP'></div>
+        </div>
+        <div class="Column">
+          <div id='svgTreeCP'></div>
+        </div>
+      </div>
+    </section>
+
+</html>
