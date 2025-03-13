@@ -584,10 +584,10 @@ function conditional() {
         .text(function (d) { if (d.name != "P") return d.name + " (" + d.probability.toFixed(3) + ")"; });
 
     function getFillColor(name) {
-        if (name.includes("A")) return "#FF9B3C";
-        if (name.includes("B")) return "#00d0a1";
-        if (name.includes("C")) return "#64bdff";
-        if (name.includes("¬")) return "#ccc";
+        if (name.startsWith("A")) return "#FF9B3C";
+        if (name.startsWith("B")) return "#00d0a1";
+        if (name.startsWith("C")) return "#64bdff";
+        if (name.startsWith("¬")) return "#ccc";
         return "#222";
     }
 
