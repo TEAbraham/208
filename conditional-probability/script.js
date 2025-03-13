@@ -382,45 +382,45 @@ function conditional() {
         probability: 1,
         children: [
           {
-            name: "A",
+            name: "A|A",
             probability: 1,
             children: [
               {
-                name: "B",
+                name: "B|A",
                 probability: pBGivenA,
                 children: [
-                  { name: "C", probability: pCGivenA },
-                  { name: "¬C", probability: 1 - pCGivenA }
+                  { name: "C|A", probability: pCGivenA },
+                  { name: "¬C|A", probability: 1 - pCGivenA }
                 ]
               },
               {
-                name: "¬B",
+                name: "¬B|A",
                 probability: 1 - pBGivenA,
                 children: [
-                  { name: "C", probability: pCGivenA },
-                  { name: "¬C", probability: 1 - pCGivenA }
+                  { name: "C|A", probability: pCGivenA },
+                  { name: "¬C|A", probability: 1 - pCGivenA }
                 ]
               }
             ]
           },
           {
-            name: "¬A",
+            name: "¬A|A",
             probability: 0,
             children: [
               {
-                name: "B",
+                name: "B|A",
                 probability: pBGivenA,
                 children: [
-                  { name: "C", probability: pCGivenA },
-                  { name: "¬C", probability: 1 - pCGivenA }
+                  { name: "C|A", probability: pCGivenA },
+                  { name: "¬C|A", probability: 1 - pCGivenA }
                 ]
               },
               {
-                name: "¬B",
+                name: "¬B|A",
                 probability: 1 - pBGivenA,
                 children: [
-                  { name: "C", probability: pCGivenA },
-                  { name: "¬C", probability: 1 - pCGivenA }
+                  { name: "C|A", probability: pCGivenA },
+                  { name: "¬C|A", probability: 1 - pCGivenA }
                 ]
               }
             ]
@@ -433,45 +433,45 @@ function conditional() {
         probability: 1,
         children: [
           {
-            name: "A",
+            name: "A|B",
             probability: pAGivenB,
             children: [
               {
-                name: "B",
+                name: "B|B",
                 probability: 1,
                 children: [
-                  { name: "C", probability: pCGivenB },
-                  { name: "¬C", probability: 1 - pCGivenB }
+                  { name: "C|B", probability: pCGivenB },
+                  { name: "¬C|B", probability: 1 - pCGivenB }
                 ]
               },
               {
-                name: "¬B",
+                name: "¬B|B",
                 probability: 0,
                 children: [
-                  { name: "C", probability: pCGivenB },
-                  { name: "¬C", probability: 1 - pCGivenB }
+                  { name: "C|B", probability: pCGivenB },
+                  { name: "¬C|B", probability: 1 - pCGivenB }
                 ]
               }
             ]
           },
           {
-            name: "¬A",
+            name: "¬A|B",
             probability: 1 - pAGivenB,
             children: [
               {
-                name: "B",
+                name: "B|B",
                 probability: 1,
                 children: [
-                  { name: "C", probability: pCGivenB },
-                  { name: "¬C", probability: 1 - pCGivenB }
+                  { name: "C|B", probability: pCGivenB },
+                  { name: "¬C|B", probability: 1 - pCGivenB }
                 ]
               },
               {
-                name: "¬B",
+                name: "¬B|B",
                 probability: 0,
                 children: [
-                  { name: "C", probability: pCGivenB },
-                  { name: "¬C", probability: 1 - pCGivenB }
+                  { name: "C|B", probability: pCGivenB },
+                  { name: "¬C|B", probability: 1 - pCGivenB }
                 ]
               }
             ]
@@ -484,45 +484,45 @@ function conditional() {
         probability: 1,
         children: [
           {
-            name: "A",
+            name: "A|C",
             probability: pAGivenC,
             children: [
               {
-                name: "B",
+                name: "B|C",
                 probability: pBGivenC,
                 children: [
-                  { name: "C", probability: 1 },
-                  { name: "¬C", probability: 0 }
+                  { name: "C|C", probability: 1 },
+                  { name: "¬C|C", probability: 0 }
                 ]
               },
               {
-                name: "¬B",
+                name: "¬B|C",
                 probability: 1 - pBGivenC,
                 children: [
-                  { name: "C", probability: 1 },
-                  { name: "¬C", probability: 0 }
+                  { name: "C|C", probability: 1 },
+                  { name: "¬C|C", probability: 0 }
                 ]
               }
             ]
           },
           {
-            name: "¬A",
+            name: "¬A|C",
             probability: 1 - pAGivenC,
             children: [
               {
-                name: "B",
+                name: "B|C",
                 probability: pBGivenC,
                 children: [
-                  { name: "C", probability: 1 },
-                  { name: "¬C", probability: 0 }
+                  { name: "C|C", probability: 1 },
+                  { name: "¬C|C", probability: 0 }
                 ]
               },
               {
-                name: "¬B",
+                name: "¬B|C",
                 probability: 1 - pBGivenC,
                 children: [
-                  { name: "C", probability: 1 },
-                  { name: "¬C", probability: 0 }
+                  { name: "C|C", probability: 1 },
+                  { name: "¬C|C", probability: 0 }
                 ]
               }
             ]
