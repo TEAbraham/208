@@ -75,7 +75,7 @@ function conditional() {
                 .offset([-10, 0])
                 .html(function(d,i) { 
                   var prob = calcOverlap(i,currentPerspective)/(xWidthCP.domain()[1]);
-                  return round(prob,2);});
+                  return round(prob,3);});
 
   //Ball SVG elements
   var events = containerBallCP.selectAll('g.event').data(eventsData).enter().append('g').attr('class', 'event');
@@ -135,10 +135,11 @@ function conditional() {
       .attr('width', function(d,i){ return xScaleProbCP.rangeBand(); })
       .attr('height', function(d,i){ return yScaleProbCP(1-calcOverlap(i,currentPerspective)/xWidthCP.domain()[1]); });
 
+    probEvents.append('rect').attr('class', function(d){ return (d.name + ' probability') })
     // Call updateProbabilities() whenever the rectangles update
     calcIndependence();
     updateProbabilities();
-    // createProbabilityTree();
+
   }
 
 
@@ -232,7 +233,6 @@ function conditional() {
       mapper = {0: "P(A)", 1: "P(B)", 2: "P(C)"};
     }
     probAxis.call(xAxis);
-    // createProbabilityTree();
   }
 
 
@@ -252,7 +252,7 @@ function conditional() {
       a1 = 0; 
       a2 = 1;
     }
-    
+
     var b1 = eventsData[index].x;
     var b2 = b1 + eventsData[index].width;
 
@@ -599,20 +599,20 @@ function conditional() {
 
   //Check if event pairs are Independent
   function calcIndependence(){
-    if(round(calcOverlap(0,'b')/eventsData[1].width,2) == round(eventsData[0].width,2)) {
-      $('#AB').html('independent');
+    if(round(calcOverlap(0,'b')/eventsData[1].width,3) == round(eventsData[0].width,3)) {
+      $('#AB').html('&#10987;');
     } else {
-      $('#AB').html('dependent');
+      $('#AB').html('&#8527;');
     }
-    if(round(calcOverlap(1,'c')/eventsData[2].width,2) == round(eventsData[1].width,2)) {
-      $('#BC').html('independent');
+    if(round(calcOverlap(1,'c')/eventsData[2].width,3) == round(eventsData[1].width,3)) {
+      $('#BC').html('&#10987;');
     } else {
-      $('#BC').html('dependent');
+      $('#BC').html('&#8527;');
     }
-    if(round(calcOverlap(2,'a')/eventsData[0].width,2) == round(eventsData[2].width,2)) {
-      $('#CA').html('independent');
+    if(round(calcOverlap(2,'a')/eventsData[0].width,3) == round(eventsData[2].width,3)) {
+      $('#CA').html('&#10987;');
     } else {
-      $('#CA').html('dependent');
+      $('#CA').html('&#8527;');
     }
   }
 
@@ -663,6 +663,5 @@ function conditional() {
   $(document).ready(function () {
     calcIndependence();
     updateProbabilities();
-    // createProbabilityTree();
   });
 }
