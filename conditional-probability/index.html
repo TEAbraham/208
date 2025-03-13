@@ -50,55 +50,39 @@
       <p>If we know the statistics of these events across the entire population and then were to be given a single ball and told "this ball hit the <span class="B">green</span> shelf (event <span class="B">B</span>), what's the probability it also hit the <span class="A">orange</span> shelf (event <span class="A">A</span>)?" we could answer this question by providing the conditional probability of <span class="A">A</span> given that <span class="B">B</span> occurred or P(<span class="A">A</span>|<span class="B">B</span>). </p>
       <div class="Row">
         <div class="Column" style="text-align: center">P(<span class="A">A</span>|<span class="B">B</span>) = <div class="frac"><span>P(<span class="A">A</span> and <span class="B">B</span>)</span><span class="symbol">/</span><span class="bottom">P(<span class="B">B</span>)</span></div></div>
-        <div class="Column" style="text-align: center">P(<span class="B">B</span>|<span class="A">A</span>) = <div class="frac"><span>P(<span class="A">A</span> and <span class="B">B</span>)</span><span class="symbol">/</span><span class="bottom">P(<span class="A">A</span>)</span></div></div>
-        <div class="Column" style="text-align: center">P(<span class="A">A</span>|<span class="B">B</span>) = <div class="frac"><span>P(<span class="A">A</span>)P(<span class="B">B</span>|<span class="A">A</span>)</span><span class="symbol">/</span><span class="bottom">P(<span class="B">B</span>)</span></div></div>
+        <div class="Column" style="text-align: center">P(<span class="B">B</span>|<span class="C">C</span>) = <div class="frac"><span>P(<span class="B">B</span> and <span class="C">C</span>)</span><span class="symbol">/</span><span class="bottom">P(<span class="C">C</span>)</span></div></div>
+        <div class="Column" style="text-align: center">P(<span class="C">C</span>|<span class="A">A</span>) = <div class="frac"><span>P(<span class="C">C</span> and <span class="A">A</span>)</span><span class="symbol">/</span><span class="bottom">P(<span class="A">A</span>)</span></div></div>
       </div>
       <div class="Row">
-        <div class="Column">
-          <p><label>P(<span class="A">A</span>)</label><span id="pOfA"></span></p>
-          <p><label>P(<span class="B">B</span>)</label><span id="pOfB"></span></p>
-          <p><label>P(<span class="C">C</span>)</label><span id="pOfC"></span></p>
-          <p><label>P(<span class="A">A</span> and <span class="B">B</span>)</label><span id="pOfAAndB"></span></p>
-          <p><label>P(<span class="B">B</span> and <span class="C">C</span>)</label><span id="pOfBAndC"></span></p>
-          <p><label>P(<span class="A">A</span> and <span class="C">C</span>)</label><span id="pOfAAndC"></span></p>
-
-
+        <div class="Column" style="text-align: center">
+          <p><label>P(<span class="A">A</span>)</label> = <span id="pOfA"></span></p>
+          <p><label>P(<span class="B">B</span>)</label> = <span id="pOfB"></span></p>
+          <p><label>P(<span class="C">C</span>)</label> = <span id="pOfC"></span></p>
         </div>
-        <div class="Column">
+        <div class="Column" style="text-align: center">
+          <p><label>P(<span class="A">A</span> and <span class="B">B</span>)</label> = <span id="pOfAAndB"></span></p>
+          <p><label>P(<span class="B">B</span> and <span class="C">C</span>)</label> = <span id="pOfBAndC"></span></p>
+          <p><label>P(<span class="C">C</span> and <span class="A">A</span>)</label> = <span id="pOfCAndA"></span></p>
+        </div>
+      </div>
+      <div class="Row">
+        <div class="Column" style="text-align: center">
           <p>P(<span class="A">A</span>|<span class="B">B</span>) = <span id="pOfAGivenB"></span></p>
           <p>
             <small>
               If we have a ball and we know it hit the <span class="B">green</span> shelf, there's a <span id="pOfAGivenB_Percentage"></span>% chance it also hit the <span class="A">orange</span> shelf.
             </small>
           </p>
-          <p>P(<span class="B">B</span>|<span class="A">A</span>) = <span id="pOfBGivenA"></span></p>
-          <p>
-            <small>
-              If we have a ball and we know it hit the <span class="A">orange</span> shelf, there's a <span id="pOfBGivenA_Percentage"></span>% chance it also hit the <span class="B">green</span> shelf.
-            </small>
-          </p>
         </div>
-        <div class="Column">
+        <div class="Column" style="text-align: center">
           <p>P(<span class="B">B</span>|<span class="C">C</span>) = <span id="pOfBGivenC"></span></p>
           <p>
             <small>
               If we have a ball and we know it hit the <span class="C">blue</span> shelf, there's a <span id="pOfBGivenC_Percentage"></span>% chance it also hit the <span class="B">green</span> shelf.
             </small>
           </p>
-          <p>P(<span class="C">C</span>|<span class="B">B</span>) = <span id="pOfCGivenB"></span></p>
-          <p>
-            <small>
-              If we have a ball and we know it hit the <span class="B">green</span> shelf, there's a <span id="pOfCGivenB_Percentage"></span>% chance it also hit the <span class="C">blue</span> shelf.
-            </small>
-          </p>
         </div>
-        <div class="Column">
-          <p>P(<span class="A">A</span>|<span class="C">C</span>) = <span id="pOfAGivenC"></span></p>
-          <p>
-            <small>
-              If we have a ball and we know it hit the <span class="C">blue</span> shelf, there's a <span id="pOfAGivenC_Percentage"></span>% chance it also hit the <span class="A">orange</span> shelf.
-            </small>
-          </p>
+        <div class="Column" style="text-align: center">
           <p>P(<span class="C">C</span>|<span class="A">A</span>) = <span id="pOfCGivenA"></span></p>
           <p>
             <small>

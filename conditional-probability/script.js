@@ -138,7 +138,7 @@ function conditional() {
     // Call updateProbabilities() whenever the rectangles update
     calcIndependence();
     updateProbabilities();
-    updateProbabilityTree();
+    // createProbabilityTree();
   }
 
 
@@ -208,28 +208,32 @@ function conditional() {
     updateRects(1000);
   })
 
-// Ensure tree updates when perspective changes
-function changePerspective(p) {
-  if (p === 'a' && eventsData[0].width) {
-      xScaleCP.domain([eventsData[0].x, (eventsData[0].x + eventsData[0].width)]);
-      xWidthCP.domain([0, eventsData[0].width]);
+  //Changes Perspective
+  function changePerspective(p){
+    if(p=='a' && eventsData[0].width) {
+      xScaleCP.domain([eventsData[0].x,(eventsData[0].x+eventsData[0].width)]);
+      xWidthCP.domain([0,eventsData[0].width]);
       currentPerspective = 'a';
-  } else if (p === 'b' && eventsData[1].width) {
-      xScaleCP.domain([eventsData[1].x, (eventsData[1].x + eventsData[1].width)]);
-      xWidthCP.domain([0, eventsData[1].width]);
+      mapper = {0: "P(A|A)", 1: "P(B|A)", 2: "P(C|A)"};
+    } else if(p=='b' && eventsData[1].width) {
+      xScaleCP.domain([eventsData[1].x,(eventsData[1].x+eventsData[1].width)]);
+      xWidthCP.domain([0,eventsData[1].width]);
       currentPerspective = 'b';
-  } else if (p === 'c' && eventsData[2].width) {
-      xScaleCP.domain([eventsData[2].x, (eventsData[2].x + eventsData[2].width)]);
-      xWidthCP.domain([0, eventsData[2].width]);
+      mapper = {0: "P(A|B)", 1: "P(B|B)", 2: "P(C|B)"};
+    } else if(p=='c' && eventsData[2].width) {
+      xScaleCP.domain([eventsData[2].x,(eventsData[2].x+eventsData[2].width)]);
+      xWidthCP.domain([0,eventsData[2].width]);
       currentPerspective = 'c';
-  } else {
-      xScaleCP.domain([0, 1]);
-      xWidthCP.domain([0, 1]);
+      mapper = {0: "P(A|C)", 1: "P(B|C)", 2: "P(C|C)"};
+    } else if (p=='universe') {
+      xScaleCP.domain([0,1]);
+      xWidthCP.domain([0,1]);
       currentPerspective = 'universe';
+      mapper = {0: "P(A)", 1: "P(B)", 2: "P(C)"};
+    }
+    probAxis.call(xAxis);
+    // createProbabilityTree();
   }
-  probAxis.call(xAxis);
-  updateProbabilityTree();
-}
 
 
   //Calculates overlap of rectangles
@@ -294,13 +298,13 @@ function changePerspective(p) {
     let pCGivenA = pA ? pAAndC / pA : 0;
 
 
-    $("#pOfA").text(pA.toFixed(3) + " or " + (pA * 100).toFixed(1) + "%");
-    $("#pOfB").text(pB.toFixed(3) + " or " + (pB * 100).toFixed(1) + "%");
-    $("#pOfC").text(pC.toFixed(3) + " or " + (pC * 100).toFixed(1) + "%");
+    $("#pOfA").text(pA.toFixed(3));
+    $("#pOfB").text(pB.toFixed(3));
+    $("#pOfC").text(pC.toFixed(3));
 
-    $("#pOfAAndB").text(pAAndB.toFixed(3) + " or " + (pAAndB * 100).toFixed(1) + "%");
-    $("#pOfBAndC").text(pBAndC.toFixed(3) + " or " + (pBAndC * 100).toFixed(1) + "%");
-    $("#pOfAAndC").text(pAAndC.toFixed(3) + " or " + (pAAndC * 100).toFixed(1) + "%");
+    $("#pOfAAndB").text(pAAndB.toFixed(3));
+    $("#pOfBAndC").text(pBAndC.toFixed(3));
+    $("#pOfCAndA").text(pAAndC.toFixed(3));
 
     $("#pOfAGivenB").text(pAGivenB.toFixed(3));
     $("#pOfAGivenB_Percentage").text((pAGivenB * 100).toFixed(1));
@@ -317,91 +321,214 @@ function changePerspective(p) {
     $("#pOfCGivenA").text(pCGivenA.toFixed(3));
     $("#pOfCGivenA_Percentage").text((pCGivenA * 100).toFixed(1));
 
-  }
+    // Modify the `createProbabilityTree()` function
 
-  // Modify the `createProbabilityTree()` function
-  function createProbabilityTree(rootEvent = "P") {
     let treeData;
 
-    if (rootEvent === "P") {
-        treeData = {
-            name: "P",
+    if (currentPerspective == 'universe') {
+      treeData = {
+        name: "P",
+        probability: 1,
+        children: [
+          {
+            name: "A",
+            probability: pA,
+            children: [
+              {
+                name: "B",
+                probability: pB,
+                children: [
+                  { name: "C", probability: pC },
+                  { name: "¬C", probability: 1 - pC }
+                ]
+              },
+              {
+                name: "¬B",
+                probability: 1 - pB,
+                children: [
+                  { name: "C", probability: pC },
+                  { name: "¬C", probability: 1 - pC }
+                ]
+              }
+            ]
+          },
+          {
+            name: "¬A",
+            probability: 1 - pA,
+            children: [
+              {
+                name: "B",
+                probability: pB,
+                children: [
+                  { name: "C", probability: pC },
+                  { name: "¬C", probability: 1 - pC }
+                ]
+              },
+              {
+                name: "¬B",
+                probability: 1 - pB,
+                children: [
+                  { name: "C", probability: pC },
+                  { name: "¬C", probability: 1 - pC }
+                ]
+              }
+            ]
+          }
+        ]
+      };
+    } else if (currentPerspective == 'a') {
+      treeData = {
+        name: "P",
+        probability: 1,
+        children: [
+          {
+            name: "A",
             probability: 1,
             children: [
-                {
-                    name: "A",
-                    probability: eventsData[0].width,
-                    children: [
-                        {
-                            name: "B",
-                            probability: calcOverlap(0, 'b'),
-                            children: [
-                                { name: "C", probability: calcOverlap(0, 'c') },
-                                { name: "¬C", probability: calcOverlap(0, 'b') - calcOverlap(0, 'c') }
-                            ]
-                        },
-                        {
-                            name: "¬B",
-                            probability: eventsData[0].width - calcOverlap(0, 'b'),
-                            children: [
-                                { name: "C", probability: calcOverlap(0, 'c') - calcOverlap(0, 'b') },
-                                { name: "¬C", probability: eventsData[0].width - calcOverlap(0, 'c') }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    name: "¬A",
-                    probability: 1 - eventsData[0].width,
-                    children: [
-                        {
-                            name: "B",
-                            probability: calcOverlap(1, 'b'),
-                            children: [
-                                { name: "C", probability: calcOverlap(1, 'c') },
-                                { name: "¬C", probability: calcOverlap(1, 'b') - calcOverlap(1, 'c') }
-                            ]
-                        },
-                        {
-                            name: "¬B",
-                            probability: 1 - eventsData[1].width,
-                            children: [
-                                { name: "C", probability: calcOverlap(2, 'c') },
-                                { name: "¬C", probability: 1 - calcOverlap(2, 'c') }
-                            ]
-                        }
-                    ]
-                }
+              {
+                name: "B",
+                probability: pBGivenA,
+                children: [
+                  { name: "C", probability: pCGivenA },
+                  { name: "¬C", probability: 1 - pCGivenA }
+                ]
+              },
+              {
+                name: "¬B",
+                probability: 1 - pBGivenA,
+                children: [
+                  { name: "C", probability: pCGivenA },
+                  { name: "¬C", probability: 1 - pCGivenA }
+                ]
+              }
             ]
-        };
-    } else {
-        let otherEvents = ["A", "B", "C"].filter(e => e !== rootEvent);
-        treeData = {
-            name: rootEvent,
-            probability: eventsData.find(e => e.name === rootEvent).width,
+          },
+          {
+            name: "¬A",
+            probability: 0,
             children: [
-                {
-                    name: otherEvents[0],
-                    probability: calcOverlap(["A", "B", "C"].indexOf(rootEvent), otherEvents[0].toLowerCase()),
-                    children: [
-                        {
-                            name: otherEvents[1],
-                            probability: calcOverlap(["A", "B", "C"].indexOf(rootEvent), otherEvents[1].toLowerCase())
-                        },
-                        {
-                            name: `¬${otherEvents[1]}`,
-                            probability: eventsData.find(e => e.name === rootEvent).width -
-                                calcOverlap(["A", "B", "C"].indexOf(rootEvent), otherEvents[1].toLowerCase())
-                        }
-                    ]
-                },
-                {
-                    name: `¬${otherEvents[0]}`,
-                    probability: eventsData.find(e => e.name === rootEvent).width -
-                        calcOverlap(["A", "B", "C"].indexOf(rootEvent), otherEvents[0].toLowerCase())
-                }
+              {
+                name: "B",
+                probability: pBGivenA,
+                children: [
+                  { name: "C", probability: pCGivenA },
+                  { name: "¬C", probability: 1 - pCGivenA }
+                ]
+              },
+              {
+                name: "¬B",
+                probability: 1 - pBGivenA,
+                children: [
+                  { name: "C", probability: pCGivenA },
+                  { name: "¬C", probability: 1 - pCGivenA }
+                ]
+              }
             ]
-        };
+          }
+        ]
+      };
+    } else if (currentPerspective == 'b') {
+      treeData = {
+        name: "P",
+        probability: 1,
+        children: [
+          {
+            name: "A",
+            probability: pAGivenB,
+            children: [
+              {
+                name: "B",
+                probability: 1,
+                children: [
+                  { name: "C", probability: pCGivenB },
+                  { name: "¬C", probability: 1 - pCGivenB }
+                ]
+              },
+              {
+                name: "¬B",
+                probability: 0,
+                children: [
+                  { name: "C", probability: pCGivenB },
+                  { name: "¬C", probability: 1 - pCGivenB }
+                ]
+              }
+            ]
+          },
+          {
+            name: "¬A",
+            probability: 1 - pAGivenB,
+            children: [
+              {
+                name: "B",
+                probability: 1,
+                children: [
+                  { name: "C", probability: pCGivenB },
+                  { name: "¬C", probability: 1 - pCGivenB }
+                ]
+              },
+              {
+                name: "¬B",
+                probability: 0,
+                children: [
+                  { name: "C", probability: pCGivenB },
+                  { name: "¬C", probability: 1 - pCGivenB }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    } else if (currentPerspective == 'c') {
+      treeData = {
+        name: "P",
+        probability: 1,
+        children: [
+          {
+            name: "A",
+            probability: pAGivenC,
+            children: [
+              {
+                name: "B",
+                probability: pBGivenC,
+                children: [
+                  { name: "C", probability: 1 },
+                  { name: "¬C", probability: 0 }
+                ]
+              },
+              {
+                name: "¬B",
+                probability: 1 - pBGivenC,
+                children: [
+                  { name: "C", probability: 1 },
+                  { name: "¬C", probability: 0 }
+                ]
+              }
+            ]
+          },
+          {
+            name: "¬A",
+            probability: 1 - pAGivenC,
+            children: [
+              {
+                name: "B",
+                probability: pBGivenC,
+                children: [
+                  { name: "C", probability: 1 },
+                  { name: "¬C", probability: 0 }
+                ]
+              },
+              {
+                name: "¬B",
+                probability: 1 - pBGivenC,
+                children: [
+                  { name: "C", probability: 1 },
+                  { name: "¬C", probability: 0 }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     }
 
     var container = d3.select("#svgTreeCP");
@@ -425,7 +552,7 @@ function changePerspective(p) {
     });
 
     nodes.forEach(function (d) {
-        d.y = d.depth * (width / 5);
+        d.y = d.depth * (width / 4);
     });
 
     svg.selectAll(".link")
@@ -454,7 +581,7 @@ function changePerspective(p) {
         .attr("dy", 4)
         .style("font-size", "12px")
         .style("text-anchor", function (d) { return d.children ? "end" : "start"; })
-      .text(function (d) { if (d.name == "P") { return null } else { return d.name + " (" + (d.probability * 100).toFixed(1) + "%)"; } });
+        .text(function (d) { if (d.name != "P") return d.name + " (" + d.probability.toFixed(3) + ")"; });
 
     function getFillColor(name) {
         if (name.includes("A")) return "#FF9B3C";
@@ -463,13 +590,10 @@ function changePerspective(p) {
         if (name.includes("¬")) return "#ccc";
         return "#222";
     }
+
   }
 
 
-  // Update tree when rectangles change
-  function updateProbabilityTree() {
-    createProbabilityTree(currentPerspective === "universe" ? "P" : currentPerspective.toUpperCase());
-  }
 
 
 
@@ -539,6 +663,6 @@ function changePerspective(p) {
   $(document).ready(function () {
     calcIndependence();
     updateProbabilities();
-    updateProbabilityTree();
+    // createProbabilityTree();
   });
 }
