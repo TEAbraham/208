@@ -77,31 +77,29 @@
     </div>
 
     <div class="content" id="fullpage">
-        <div class="section " id="section0 ">
+        <div class="section " id="section0">
             <div class="section-wrapper">
                 <div class="intro">
                     <h1>AP Statistics</h1>
                     <p>Trinity High School</p>
 
-
-                    <a href="#section1">
-                        <div class='rec_button'>Start</div>
-                    </a>
+                        <!-- <div >Start</div> -->
+                        <div class='rec_button'>
+                            <input type="email" id="email" placeholder="Enter email">
+                            <input type="password" id="password" placeholder="Enter password">
+                            <button onclick="signUp()">Sign Up</button>
+                            <button onclick="login()">Login</button>
+                            <button onclick="logout()">Logout</button>
+                        </div>
 
 
                 </div>
+                <a href="#secondPage" data-menuanchor="secondPage"><div class="scroll-down"> <img src="img/button/bottom-arrow.svg"></div></a>
+
             </div>
         </div>
         <div class="section" id="section1">
-                    <div>
-                        <input type="email" id="email" placeholder="Enter email">
-                        <input type="password" id="password" placeholder="Enter password">
-                        <button onclick="signUp()">Sign Up</button>
-                        <button onclick="login()">Login</button>
-                        <button onclick="logout()">Logout</button>
-                    </div>
-        </div>
-<!-- 
+
             <div class="chapter-submenu">
                 <ul class="menu-sub">
                     <li class="active" id='submenu-bp'><a href="#secondPage/chapter1">Basic Probability</a></li>
@@ -330,7 +328,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
     </div>
 
 </body>

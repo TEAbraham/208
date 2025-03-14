@@ -104,7 +104,7 @@ p{
 
 .scroll-down {
     /*Scroll down Arrow*/
-    
+
     /*width: 20px;*/
     position: absolute;
     bottom: 30px;
@@ -219,15 +219,14 @@ p{
 }
 
 #section1,#section2,#section3{
-	pointer-events: auto;
+	pointer-events: auto !important;
 }
 
 #background{
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	
-	
+
 }
 
 
@@ -242,6 +241,7 @@ p{
 
 .intro{
 	text-align: center;
+	pointer-events: auto !important;
 }
 
 
@@ -298,10 +298,6 @@ p{
 	color: #B0B0B0;
 }
 
-#language-menu{
-	float: right;
-}
-
 
 
 .chapter-submenu {
@@ -334,42 +330,6 @@ ul.menu-sub{
 	position: absolute;
 }
 
-
-
-.buy-book{
-	margin: 0 auto;
-	text-align: center;
-}
-
-.buy-book p{
-	text-align: left;
-	
-}
-
-.book img{
-	width: 100%;
-}
-
-
-.book{
-	width: 40%;
-	display: inline-block;
-	padding: 0 2.5%;
-	text-align: center;
-	vertical-align: top;
-
-}
-
-.book img{
-	
-	text-align: center;
-	display: block;
-
-	 max-width: 200px;
-	 margin: 0 auto 8% auto;
-
-}
-
 .right, .left{
 	display: inline-block;
 	width: 40%;
@@ -395,13 +355,13 @@ ul.menu-sub{
     text-align: left;
     background-color: white;
 
-     box-shadow: 0px 0px 20px rgba(135,152,160,0.3);
+    box-shadow: 0px 0px 20px rgba(135,152,160,0.3);
     -webkit-transition: box-shadow 0.5s ease-out;
 }
 
 .nav-unit-wrapper-s:hover{
     box-shadow: 0px 0px 40px rgb(255,255,255);
-  
+
 }
 
 .nav-unit-wrapper-s img{
@@ -427,7 +387,7 @@ ul.menu-sub{
 		font-size:0.7em;
 	}
 
-	.section-wrapper,{
+	.section-wrapper{
 		width:80%;
 	}
 
@@ -471,15 +431,6 @@ ul.menu-sub{
 		padding: 2% 8%;
 	}
 
-
-	.book{
-		width: 60%;
-	}
-
-	/*.buy-book p{
-		padding-bottom: 2%;
-	}*/
-}
 
 @media screen and (min-width: 680px) {
 	.menu-bottom ul li {
@@ -556,11 +507,6 @@ ul.menu-sub{
 		padding: 1.5% 8%;
 	}
 
-	.book{
-		width: 35%;
-	}
-
-
 
 
 
@@ -620,17 +566,6 @@ ul.menu-sub{
 		padding: 1% 8%;
 	}
 
-	.book{
-		width: 30%;
-	}
-
-	.book img{
-	
-	 max-width: 200px;
-	 margin: 0 auto;
-	 padding-bottom: 5%;
-	}
-
 	.right{
 		padding-top: 8em;
 	}
@@ -650,6 +585,8 @@ ul.menu-sub{
 	border-radius: 35px;
 	text-align: center;
 	display: block;
+
+}
 
 }
 
