@@ -659,7 +659,7 @@ th, td{
 
 
 
-#seeing-theory,#display-unit {
+#ap-stats,#display-unit {
     vertical-align: middle;
     float: left;
     display: block;
@@ -667,7 +667,7 @@ th, td{
 }
 
 
-#seeing-theory:hover, #display-unit:hover {
+#ap-stats:hover, #display-unit:hover {
     cursor: pointer;
 }
 
@@ -943,7 +943,7 @@ th, td{
     font-size: 8px;
     }
 
-    #seeing-theory{
+    #ap-stats{
    
        font-size: 16px;
     }
@@ -1077,7 +1077,7 @@ th, td{
         font-size: 1.6em;
     }
 
-    #seeing-theory,#display-unit {
+    #ap-stats,#display-unit {
    
        font-size: 16px;
     }
