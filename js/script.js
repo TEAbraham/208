@@ -1,8 +1,6 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
 import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
 import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
-import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-analytics.js";
-
 
 // Initialize Firebase
 const firebaseConfig = {
@@ -18,15 +16,27 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
-const analytics = getAnalytics(app);
+
+// Make Firebase available globally
+window.auth = auth;
+window.db = db;
 
 
-// Firebase Authentication Functions
 
-// Sign up new users
+function validateFields(email, password) {
+  if (!email || !password) {
+      alert("Email and password cannot be empty!");
+      return false;
+  }
+  return true;
+}
+
+// Update signUp() function:
 async function signUp() {
   let email = document.getElementById("email").value;
   let password = document.getElementById("password").value;
+
+  if (!validateFields(email, password)) return;
 
   try {
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
@@ -36,6 +46,7 @@ async function signUp() {
       alert(error.message);
   }
 }
+
 
 // Login function
 async function login() {
@@ -95,17 +106,7 @@ async function saveQuizScore(userId, score) {
   }
 }
 
-function validateFields(email, password) {
-  if (!email || !password) {
-      alert("Email and password cannot be empty!");
-      return false;
-  }
-  return true;
-}
-
 // Expose functions to global scope for button clicks
-window.auth = auth;
-window.db = db;
 window.signUp = signUp;
 window.login = login;
 window.logout = logout;
