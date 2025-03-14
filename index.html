@@ -30,11 +30,11 @@
     <script src="js/jquery.fullpage.js" defer></script>
 
     <!-- Firebase SDKs -->
-    <!-- <script type="module">
+    <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
         import { getAuth } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
-        import { getFirestore } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js"; -->
-    <script>
+        import { getFirestore } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
+
         // Firebase configuration
         const firebaseConfig = {
             apiKey: "AIzaSyBnwybCXOLYyuUT5c_T07crYXPXvwY18v0",
@@ -45,8 +45,8 @@
             appId: "1:141435743547:web:dfba9776ffef593d7b9b1e",
             measurementId: "G-Z6RGNYY4JN"
         };
-    </script>
-        <!-- // Initialize Firebase
+
+        // Initialize Firebase
         const app = initializeApp(firebaseConfig);
         const auth = getAuth(app);
         const db = getFirestore(app);
@@ -54,13 +54,13 @@
         // Attach Firebase objects to window for global access in script.js
         window.auth = auth;
         window.db = db;
-    </script> -->
+    </script>
 
     <!-- D3.js -->
     <script src="./js/d3.min.js" defer></script>
 
     <!-- Main JavaScript (deferred to ensure Firebase is initialized) -->
-    <script src="./js/script.js" defer></script>
+    <script type="module" src="./js/script.js" defer></script>
 </head>
 
 
