@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,73 +13,85 @@
 
     <!-- Fonts -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="//fonts.googleapis.com/css?family=Lato:100,200,300,400" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400" rel="stylesheet" type="text/css">
 
-    <!-- Home Page CSS -->
+    <!-- CSS Files -->
     <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css">
 
-    <!-- Full Page CSS -->
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css" />
-    
-    <!--Favicon-->
+    <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 
-    <!--Jquery-->
+    <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
-    <!-- Full Page -->
-    <script src="js/jquery.fullpage.js"></script>
+    <!-- Full Page.js -->
+    <script src="js/jquery.fullpage.js" defer></script>
 
+    <!-- Firebase SDKs -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
+        import { getAuth } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
+        import { getFirestore } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
 
-    <!-- Full Page Setup -->
-    <script type="text/javascript">
-    $(document).ready(function() {
-        $('#fullpage').fullpage({
-            anchors: ['firstPage', 'secondPage'],
-            menu: '#menu',
-            afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex) {
-                $('.menu-sub li.active').removeClass('active');
-                $('.menu-sub li').eq(slideIndex).addClass('active');
-            }
+        // Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyBnwybCXOLYyuUT5c_T07crYXPXvwY18v0",
+            authDomain: "ap-statistics.firebaseapp.com",
+            projectId: "ap-statistics",
+            storageBucket: "ap-statistics.firebasestorage.app",
+            messagingSenderId: "141435743547",
+            appId: "1:141435743547:web:dfba9776ffef593d7b9b1e",
+            measurementId: "G-Z6RGNYY4JN"
+        };
 
-        });
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+        const db = getFirestore(app);
 
-
-    $('.scroll-down').show("fade");
-    $('.scroll-down').fadeIn(1000).fadeOut(1000).fadeIn(1000).fadeOut(1000).fadeIn(1000);
-
-    });
+        // Attach Firebase objects to window for global access in script.js
+        window.auth = auth;
+        window.db = db;
     </script>
 
+    <!-- D3.js -->
+    <script src="./js/d3.min.js" defer></script>
 
-
+    <!-- Main JavaScript (deferred to ensure Firebase is initialized) -->
+    <script src="./js/script.js" defer></script>
 </head>
+
 
 <body>
     <div id="background"></div>
-    <div class="header">
-         
 
-    </div>
+    <div class="header"></div>
+
     <div class="menu-bottom">
-
         <ul id="menu">
             <li data-menuanchor="firstPage" class="active" id='home'><a href="#firstPage">Home</a></li>
             <li data-menuanchor="secondPage" id="chapter-menu"><a href="#secondPage">Units</a></li>
-        </div></li>
-
         </ul>
-
     </div>
+
+    <div>
+        <input type="email" id="email" placeholder="Enter email">
+        <input type="password" id="password" placeholder="Enter password">
+        <button onclick="signUp()">Sign Up</button>
+        <button onclick="login()">Login</button>
+        <button onclick="logout()">Logout</button>
+    </div>
+
     <div class="content" id="fullpage">
         <div class="section " id="section0 ">
             <div class="section-wrapper">
                 <div class="intro">
                     <h1>AP Statistics</h1>
                     <p>Trinity High School</p>
-                  
-                    <a href="./basic-probability/index.html">
+
+                    <a href="./conditional-probability/index.html">
                         <div class='rec_button'>Start</div>
                     </a>
 
@@ -312,7 +323,7 @@
                                         <img src="img/tiles/6-3.png" class="nav-unit-tile-s">
                                         <span class="nav-unit-title-s"> Analysis of Variance </span>
                                     </div>
-                                </a>                            
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -320,22 +331,6 @@
             </div>
         </div> -->
     </div>
-    <!-- D3 -->
-    <script src="./js/d3.min.js"></script>
-
-    <!-- Home JavaScript -->
-    <script src="./js/home.js"></script>
-
-    <!-- Google Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-85617614-1', 'auto');
-      ga('send', 'pageview');
-    </script>
 
 </body>
 
