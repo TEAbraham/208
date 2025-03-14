@@ -6,7 +6,7 @@
     <script type="module">
             import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
             import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
-        
+
             // Your Firebase configuration (Use your actual Firebase credentials!)
             const firebaseConfig = {
                 apiKey: "AIzaSyBnwybCXOLYyuUT5c_T07crYXPXvwY18v0",
@@ -17,10 +17,11 @@
                 appId: "1:141435743547:web:dfba9776ffef593d7b9b1e",
                 measurementId: "G-Z6RGNYY4JN"
             };
-        
+
             const app = initializeApp(firebaseConfig);
             const auth = getAuth(app);
-        
+            const db = getFirestore(app);
+
         // Check if user is logged in
         onAuthStateChanged(auth, (user) => {
             if (!user) {
