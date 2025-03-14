@@ -152,7 +152,7 @@ function create_slider(slide, svg, width, height, margin) {
 
 
 
-// Jingru's Code
+// Tom's Code
 
 var n = $(window).height() * 0.75;
 var m = n * 0.6; // where to update the card

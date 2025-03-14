@@ -5,14 +5,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="chapter" content="ra">
+    <meta name="unit" content="ra">
 
     <!-- For Facebook Sharing -->
-    <meta property="og:url" content="http://students.brown.edu/seeing-theory/regression-analysis/" />
+    <meta property="og:url" content="http://teabraham.github.io/208/regression-analysis/" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="Regression Analysis" />
     <meta property="og:description" content="Linear regression is an approach for modeling the linear relationship between two variables." />
-    <meta property="og:image" content="http://students.brown.edu/seeing-theory/img/share/6.png" />
+    <meta property="og:image" content="img/share/6.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
 
@@ -28,7 +28,7 @@
     <!--Favicon-->
     <link rel="shortcut icon" type="image/png" href="../img/favicon.png" />
     <!-- General Unit -->
-    <link rel="stylesheet" type="text/css" href="../css/chapter-style.css">
+    <link rel="stylesheet" type="text/css" href="../css/unit-style.css">
     <!-- Specific Unit -->
     <link rel="stylesheet" type="text/css" href="regression.css">
     <!-- JavaScript Imports -->
@@ -44,25 +44,10 @@
     <!-- Tool Tip -->
     <script src="../js/d3.tip.v0.6.3.js"></script>
     <!-- General Unit -->
-    <script src="../js/chapter.js"></script>
+    <script src="../js/unit.js"></script>
     <!-- Visualizations -->
     <script src="regression.js"></script>
-    <!-- Google Analytics -->
-    <script>
-    (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-85617614-1', 'auto');
-    ga('send', 'pageview');
-    </script>
+
 </head>
 
 <body id='1'>
@@ -72,19 +57,19 @@
             <div class="progress-bar-color"></div>
         </div>
         <div class="header-wrapper">
-            <ul class="chapter-nav">
+            <ul class="unit-nav">
                 <li>
                     <span onclick="openNav()" id="hamburger">&#9776; </span>
                 </li>
                 <li><a href="../index.html" id="seeing-theory">Seeing Theory</a></li>
-                <li><a onclick='toTop()' id='display-chapter'>Unit 6: Regression Analysis</a></li>
+                <li><a onclick='toTop()' id='display-unit'>Unit 6: Regression Analysis</a></li>
             </ul>
         </div>
     </div>
     <div class="col-left">
         <div class="col-left-wrapper">
             <div id="section0">
-                <div class="chapter-intro">
+                <div class="unit-intro">
                     <h4>Unit 6</h4>
                     <h1>Regression Analysis</h1>
                     <p>Linear regression is an approach for modeling the linear relationship between two variables.
@@ -345,37 +330,16 @@
                 </div>
             </div>
         </div>
-        <div class="action-buttons">
-            <ul>
-                <a href="../doc/regression-analysis.pdf">
-                    <li><i class="fa fa-file-text-o action-icon" aria-hidden="true"></i> <span>Download</span></li>
-                </a>
-                <a id="share-button" class="inline-share">
-
-                    <li><i class="fa fa-share-square-o action-icon" aria-hidden="true"></i>Share</li>
-                    <li><div id="share"></div></li>
-                    <li><div id="share-modal"></div></li>
-
-                </a>
-            </ul>
-        </div>
         <a href="../index.html">
-            <div class="chapter-footer" id="next-chapter-color">
-                <div class="chapter-footer-wrapper">
+            <div class="unit-footer" id="next-unit-color">
+                <div class="unit-footer-wrapper">
                     <h4>Next</h4>
-                    <p id='next-chapter'>Home → </p>
+                    <p id='next-unit'>Home → </p>
                 </div>
             </div>
         </a>
     </div>
     <div class="col-right">
-        <div class='language-setting'>
-            <select class="languageSetting">
-                <option selected>English</option>
-                <option data-url="cn.html">中文</option>
-                <option data-url="es.html">Español</option>
-            </select>
-        </div>
         <div class="nav-section" id="section-0">
             <div class="nav-unit-wrapper" id='one'>
                 <img src="../img/tiles/6-1.png">
@@ -401,29 +365,16 @@
         </div>
     </div>
     <div id="overlay">
-        <div class="modal-header">
-            <div class="closebtn" onclick="closeNav()">&times;</div>
-            <ul>
-                <li>
-                    <select class="languageSetting">
-                        <option selected>English</option>
-                        <option data-url="cn.html">中文</option>
-                        <option data-url="es.html">Español</option>
-                    </select>
-                </li>
-                <li><a href="../index.html">HOME</a></li>
-            </ul>
-        </div>
         <div class="modal-wrapper">
-            <div class="modal-chapter">
-                <div id="chapter-text"><span>CHAPTER</span></div>
-                <ul class="modal-chapter-titles">
+            <div class="modal-unit">
+                <div id="unit-text"><span>CHAPTER</span></div>
+                <ul class="modal-unit-titles">
                     <li id="bp-li">Basic Probability</li>
                     <li id="cp-li">Compound Probability</li>
                     <li id="pd-li">Probability Distributions</li>
                     <li id="fi-li">Frequentist Inference</li>
                     <li id="bi-li">Bayesian Inference</li>
-                    <li id="ra-li" class="chapter-highlighted">Regression Analysis</li>
+                    <li id="ra-li" class="unit-highlighted">Regression Analysis</li>
                 </ul>
             </div>
             <div class="modal-visualization">
@@ -514,23 +465,6 @@
             </div>
         </div>
     </div>
-    <!-- Share CSS and JavaScript -->
-    <link rel="stylesheet" type="text/css" href="../css/jssocials.css" />
-    <link rel="stylesheet" type="text/css" href="../css/jssocials-theme-flat.css" />
-    <script src="../js/jssocials.min.js"></script>
-    <script>
-        $("#share").jsSocials({
-            showLabel: false,
-            showCount: false,
-            shareIn: "popup",
-            shares: ["email", "twitter", "facebook", "googleplus", "linkedin"]
-        });
-
-        $(".languageSetting").change(function() {
-          var option = $(this).find('option:selected');
-          window.location.href = option.data("url");
-        });
-    </script>
 </body>
 
 </html>
