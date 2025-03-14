@@ -214,9 +214,9 @@ p{
 
 /*Layout*/
 
-.content{
+/* .content{
 	pointer-events: none;
-}
+} */
 
 #section1,#section2,#section3{
 	pointer-events: auto !important;
