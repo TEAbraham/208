@@ -282,13 +282,13 @@ p{
 
 
 
-.chapter-submenu {
+.unit-submenu {
 	width: 86%;
 	padding: 5% 0 0 0;
 	margin: 0 auto;
 	z-index: 1000;
 }
-.chapter-submenu ul li{
+.unit-submenu ul li{
 	display: inline;
 	margin-right:  2%;
 }
@@ -308,7 +308,7 @@ ul.menu-sub{
 	height: 100vh;
 }
 
-.chapter-submenu{
+.unit-submenu{
 	position: absolute;
 }
 
@@ -367,7 +367,7 @@ ul.menu-sub{
 
 
 
-.chapter-nav{
+.unit-nav{
 	text-align: center;
 }
 
@@ -403,7 +403,7 @@ ul.menu-sub{
 		font-size:16px;
 	}
 
-	.chapter-submenu{
+	.unit-submenu{
 		padding-top: 10%;
 		padding-left: 8%;
 	}
@@ -474,7 +474,7 @@ ul.menu-sub{
 		font-size:0.75em;
 	}
 
-	.chapter-submenu{
+	.unit-submenu{
 		padding-top: 8%;
 		padding-left: 8%;
 	}
@@ -555,7 +555,7 @@ ul.menu-sub{
 		font-size: 20px;
 	}
 
-	.chapter-submenu{
+	.unit-submenu{
 		padding-top: 5%;
 		padding-left: 8%;
 	}

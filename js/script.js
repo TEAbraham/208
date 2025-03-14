@@ -85,7 +85,7 @@ async function logout() {
 onAuthStateChanged(auth, (user) => {
   if (user) {
       console.log(`User logged in: ${user.email}`);
-      
+
       // Redirect logged-in users to home.html
       if (window.location.pathname.includes("index.html")) {
           window.location.href = "home.html";
