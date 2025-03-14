@@ -48,7 +48,7 @@ async function signUp() {
 }
 
 
-// Login function
+// Login function with redirect
 async function login() {
   let email = document.getElementById("email").value;
   let password = document.getElementById("password").value;
@@ -58,27 +58,43 @@ async function login() {
   try {
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
       alert("Login successful!");
+
+      // Log user activity
       logActivity(userCredential.user.uid, "Logged In");
+
+      // Redirect to home.html after login
+      window.location.href = "home.html"; 
   } catch (error) {
       alert(error.message);
   }
 }
 
 
-// Logout function
+
+// Logout function with redirect
 async function logout() {
   await signOut(auth);
   alert("Logged out!");
+
+  // Redirect to index.html after logout
+  window.location.href = "index.html";
 }
 
-// Track user authentication state
+
+// Track user authentication state and redirect if already logged in
 onAuthStateChanged(auth, (user) => {
   if (user) {
       console.log(`User logged in: ${user.email}`);
+      
+      // Redirect logged-in users to home.html
+      if (window.location.pathname.includes("index.html")) {
+          window.location.href = "home.html";
+      }
   } else {
       console.log("User logged out.");
   }
 });
+
 
 // Log user actions to Firestore
 async function logActivity(userId, action) {
