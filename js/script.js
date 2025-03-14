@@ -235,9 +235,9 @@ window.addEventListener('load', function(){
  
 })
 
-window.auth = auth;
-window.db = db;
-window.signUp = signUp;
-window.login = login;
-window.logout = logout;
+window.auth = auth();
+window.db = db();
+window.signUp = signUp();
+window.login = login();
+window.logout = logout();
 
