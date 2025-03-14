@@ -3,9 +3,7 @@
 body{
 	margin: 0;
 	font-family: 'Assistant', sans-serif;
-	background-color: #2A2738;
-	/*min-height: 600px;
-*/
+	background-color: white;
 }
 
 .header a{
@@ -18,7 +16,7 @@ body{
 h1{
 
 	font-weight: 400;
-	color: white;
+	color: black;
 	margin-top: 0;
 	margin-bottom: 10px;
 
@@ -41,7 +39,7 @@ h4{
 	margin-bottom: 0; 
 	margin-top: 0;
 	font-weight: 300;
-	color: white;
+	color: gray;
 }
 
 a{
@@ -49,23 +47,18 @@ a{
 	color: #4A4A4A;
 }
 
-
-.language a {
-	color: rgba(255,255,255,0.8);
-}
-
 #menu li a{
-	color: white;
+	color: gray;
 }
 
 #menu li.active{
-	border-bottom: 2px solid white;
+	border-bottom: 2px solid gray;
 }
 
 ul, li{
 	text-decoration: none;
 	 list-style-type: none;
-	 color: white;
+	 color: gray;
 }
 
 
@@ -74,7 +67,7 @@ p{
 	
 	line-height: 1.3 ;
 	letter-spacing: 0.2;
-	color:white;
+	color:gray;
 
 }
 
@@ -312,48 +305,6 @@ ul.menu-sub{
 	position: absolute;
 }
 
-
-
-.buy-book{
-	margin: 0 auto;
-	text-align: center;
-}
-
-.buy-book p{
-	text-align: left;
-	
-}
-
-.team{
-	width: 15%;
-	display: inline-block;
-	padding-right: 4%;
-	vertical-align: top;
-}
-.team img, .book img{
-	width: 100%;
-}
-
-
-.book{
-	width: 40%;
-	display: inline-block;
-	padding: 0 2.5%;
-	text-align: center;
-	vertical-align: top;
-
-}
-
-.book img{
-	
-	text-align: center;
-	display: block;
-
-	 max-width: 200px;
-	 margin: 0 auto 8% auto;
-
-}
-
 .right, .left{
 	display: inline-block;
 	width: 40%;
@@ -455,16 +406,6 @@ ul.menu-sub{
 		padding: 2% 8%;
 	}
 
-
-	.book{
-		width: 60%;
-	}
-
-	/*.buy-book p{
-		padding-bottom: 2%;
-	}*/
-}
-
 @media screen and (min-width: 680px) {
 	.menu-bottom ul li {
 		font-size:18px;
@@ -540,11 +481,6 @@ ul.menu-sub{
 		padding: 1.5% 8%;
 	}
 
-	.book{
-		width: 35%;
-	}
-
-
 
 
 
@@ -604,168 +540,11 @@ ul.menu-sub{
 		padding: 1% 8%;
 	}
 
-	.book{
-		width: 30%;
-	}
-
-/*	.book img{
-	
-	 max-width: 200px;
-	 margin: 0 auto;
-	 padding-bottom: 5%;
-	}*/
-
 	.right{
 		padding-top: 8em;
 	}
 
 
 }
-
-
-/*Social*/
-#social{
-	margin: 0 auto;
-	width: 100%;
-}
-#social ul {
-        display: block;
-        list-style-type: none;
-        margin: 0 auto;
-        text-align: center;
-        padding: 4em 0 0 0;
-
-        width: 100%;
-    }
-
-#social ul li{
-		display: inline-block;
-		padding: 2%;
-	}  
-
-	h6{
-		margin: 0.8em;
-		font-weight: 400;
-	}
-
-    .btn-social {
-        display: inline-block;
-        height: 50px;
-        width: 50px;
-        border: 2px rgba(255, 255, 255, 0.2);
-        border-radius: 100%;
-        text-align: center;
-        vertical-align: middle;
-        font-size: 20px;
-        line-height: 45px;
-    }
-
-    .btn-outline {
-        color: rgba(255, 255, 255, 0.2);
-        font-size: 20px;
-        border: solid 2px rgba(255, 255, 255, 0.2);
-        background: transparent;
-        transition: all 0.1s ease-in-out;
-    }
-
-    .fa-fw{
-    	vertical-align: middle;
-    }
-    .dollar:hover,
-    .dollar:focus,
-    .dollar:active,
-    .dollar.active {
-        /*color: white;*/
-        color: #00d0a1;
-        background: white;
-        border: solid 2px white;
-    }
-
-    .envelope:hover,
-    .envelope:focus,
-    .envelope:active,
-    .envelope.active {
-        color: #FF9B3C;
-        background: white;
-        border: solid 2px white;
-    }
-
-    .github:hover,
-    .github:focus,
-    .github:active,
-    .github.active {
-        color: #6e5494;
-        background: white;
-        border: solid 2px white;
-    }
-
-    .twitter:hover,
-    .twitter:focus,
-    .twitter:active,
-    .twitter.active {
-        color: #1dcaff;
-        background: white;
-        border: solid 2px white;
-    }
-
-
-/***extra****/
-
-.round-button-x{
-	/*border: 1px solid white;*/
-	display: inline-block;
-	padding: 4% 12%;
-	color: gray;
-	background-color: rgba(255,255,255,0.2);
-	border-radius: 35px;
-	text-align: center;
-	display: block;
-
-}
-
-.award {
-	display: inline-block;
-	padding-right: 10px;
-	padding-bottom: 5px;
-	opacity: 0.4;
-}
-
-
-
-@media screen and (min-width: 0px) {
-	.award {
-		height: 20px;
-	}
-}
-
-@media screen and (min-width: 680px) {
-	.award {
-		height: 40px;
-	}
-}
-
-
-.award:hover {
-	opacity: 1;
-}
-
-
-.language-setting select {
-	padding-right: 20px;
-	color: white;
-    width: auto;
-    border: none;
-    background: url(../img/button/languageSettingArrow-w.svg) no-repeat right;
-    font-size: 16px;
-    font-family: 'Assistant';
-    text-align: right;
-    -moz-appearance: none; 
-    -webkit-appearance: none; 
-}
-
-
-
-}
-
 
 
