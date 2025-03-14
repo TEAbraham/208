@@ -2,6 +2,34 @@
 <html lang="en">
 
 <head>
+    <!-- Firebase -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
+        import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
+
+        // Your Firebase configuration (Use your actual Firebase credentials!)
+        const firebaseConfig = {
+            apiKey: "AIzaSyBnwybCXOLYyuUT5c_T07crYXPXvwY18v0",
+            authDomain: "ap-statistics.firebaseapp.com",
+            projectId: "ap-statistics",
+            storageBucket: "ap-statistics.firebasestorage.app",
+            messagingSenderId: "141435743547",
+            appId: "1:141435743547:web:dfba9776ffef593d7b9b1e",
+            measurementId: "G-Z6RGNYY4JN"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+
+        // Check if user is logged in
+        onAuthStateChanged(auth, (user) => {
+            if (!user) {
+                // User not logged in, save current page before redirecting
+                localStorage.setItem("redirectAfterLogin", window.location.href);
+                window.location.href = "index.html";
+            }
+        });
+    </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">

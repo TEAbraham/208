@@ -50,24 +50,26 @@ async function signUp() {
 
 // Login function with redirect
 async function login() {
-  let email = document.getElementById("email").value;
-  let password = document.getElementById("password").value;
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
 
-  if (!validateFields(email, password)) return;
+    if (!validateFields(email, password)) return;
 
-  try {
-      const userCredential = await signInWithEmailAndPassword(auth, email, password);
-      alert("Login successful!");
+    try {
+        const userCredential = await signInWithEmailAndPassword(auth, email, password);
+        alert("Login successful!");
+        logActivity(userCredential.user.uid, "Logged In");
 
-      // Log user activity
-      logActivity(userCredential.user.uid, "Logged In");
+        // Redirect user back to the originally requested page, if available
+        const redirectPage = localStorage.getItem("redirectAfterLogin") || "home.html";
+        localStorage.removeItem("redirectAfterLogin");  // Clean up localStorage
+        window.location.href = redirectPage;
 
-      // Redirect to home.html after login
-      window.location.href = "home.html"; 
-  } catch (error) {
-      alert(error.message);
-  }
+    } catch (error) {
+        alert(error.message);
+    }
 }
+
 
 
 
