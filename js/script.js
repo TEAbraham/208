@@ -20,6 +20,9 @@ const auth = getAuth(app);
 const db = getFirestore(app);
 const analytics = getAnalytics(app);
 
+window.auth = auth;
+window.db = db;
+
 
 // Firebase Authentication Functions
 
