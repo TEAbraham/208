@@ -1,5 +1,5 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
-import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
+import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, onAuthStateChanged, signInWithPopup, GoogleAuthProvider  } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
 import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
 
 // Initialize Firebase
@@ -16,116 +16,166 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
+// Google provider instance
+const provider = new GoogleAuthProvider();
+// Google login function
+const googleLoginBtn = document.getElementById('googleLogin');
 
-// Make Firebase available globally
-window.auth = auth;
-window.db = db;
+window.signUp = () => {
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+    createUserWithEmailAndPassword(auth, email, password).then(() => {
+        alert('Signup successful');
+    }).catch(err => alert(err.message));
+};
+
+window.login = () => {
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+    signInWithEmailAndPassword(auth, email, password).then(() => {
+        alert('Login successful');
+        window.location.href = "home.html";
+    }).catch(err => alert(err.message));
+};
+
+window.logout = () => {
+    signOut(auth).then(() => {
+        alert('Logged out');
+    });
+};
 
 
-
-function validateFields(email, password) {
-  if (!email || !password) {
-      alert("Email and password cannot be empty!");
-      return false;
-  }
-  return true;
+if (googleLoginBtn) {
+    googleLoginBtn.addEventListener('click', () => {
+        signInWithPopup(auth, provider)
+            .then((result) => {
+                const user = result.user;
+                alert(`Google login successful. Welcome, ${user.displayName}`);
+                window.location.href = "home.html";
+            })
+            .catch((error) => {
+                console.error("Error during Google sign-in", error);
+                alert("Error during Google login: " + error.message);
+            });
+    });
 }
 
-// Update signUp() function:
-async function signUp() {
-  let email = document.getElementById("email").value;
-  let password = document.getElementById("password").value;
 
-  if (!validateFields(email, password)) return;
+onAuthStateChanged(auth, user => {
+    const currentPage = window.location.pathname.split("/").pop();
+    const logoutButton = document.getElementById('logoutButton');
 
-  try {
-      const userCredential = await createUserWithEmailAndPassword(auth, email, password);
-      alert("Signup successful!");
-      logActivity(userCredential.user.uid, "Signed Up");
-  } catch (error) {
-      alert(error.message);
-  }
-}
-
-
-// Login function with redirect
-async function login() {
-    let email = document.getElementById("email").value;
-    let password = document.getElementById("password").value;
-
-    if (!validateFields(email, password)) return;
-
-    try {
-        const userCredential = await signInWithEmailAndPassword(auth, email, password);
-        alert("Login successful!");
-        logActivity(userCredential.user.uid, "Logged In");
-
-        // Redirect user back to the originally requested page, if available
-        const redirectPage = localStorage.getItem("redirectAfterLogin") || "home.html";
-        localStorage.removeItem("redirectAfterLogin");  // Clean up localStorage
-        window.location.href = redirectPage;
-
-    } catch (error) {
-        alert(error.message);
+    if (user) {
+        if (currentPage === "index.html" || currentPage === "") {
+            window.location.href = "home.html";
+        }
+        if (logoutButton) logoutButton.style.display = 'block';
+    } else {
+        if (currentPage !== "index.html" && currentPage !== "") {
+            window.location.href = "index.html";
+        }
+        if (logoutButton) logoutButton.style.display = 'none';
     }
-}
-
-
-
-
-// Logout function with redirect
-async function logout() {
-  await signOut(auth);
-  alert("Logged out!");
-
-  // Redirect to index.html after logout
-  window.location.href = "index.html";
-}
-
-
-// Track user authentication state and redirect if already logged in
-onAuthStateChanged(auth, (user) => {
-  if (user) {
-      console.log(`User logged in: ${user.email}`);
-
-      // Redirect logged-in users to home.html
-      if (window.location.pathname.includes("index.html")) {
-          window.location.href = "home.html";
-      }
-  } else {
-      console.log("User logged out.");
-  }
 });
 
 
-// Log user actions to Firestore
-async function logActivity(userId, action) {
-  try {
-      await addDoc(collection(db, "activity"), {
-          userId: userId,
-          action: action,
-          timestamp: serverTimestamp()
+document.addEventListener('DOMContentLoaded', function() {
+  var backgroundNode = d3.select("#background").node();
+
+  if (backgroundNode) {
+      var width = backgroundNode.clientWidth,
+          height = backgroundNode.clientHeight;
+
+      var num = 300,
+          base = 4,
+          dif = 12;
+
+      var nodes = d3.range(num).map(function() { return {radius: Math.random() * dif + base }; }),
+          root = nodes[0],
+          color = ['#009cde', '#46c8b2', '#f5d800', '#ff8b22', '#ff6859', '#fc4d77'];
+
+      root.radius = 0;
+      root.fixed = true;
+      root.px = width/2;
+      root.py = height/2;
+
+      var force = d3.layout.force()
+          .gravity(0.015)
+          .charge(function(d, i) { return i ? 0 : - (height + width); })
+          .nodes(nodes)
+          .size([width, height]);
+
+      force.start();
+
+      var canvas = d3.select("#background").append("canvas")
+          .attr("width", width)
+          .attr("height", height);
+
+      var context = canvas.node().getContext("2d");
+
+      force.on("tick", function(e) {
+        var q = d3.geom.quadtree(nodes),
+            i,
+            d,
+            n = nodes.length;
+
+        for (i = 1; i < n; ++i) q.visit(collide(nodes[i]));
+
+        context.clearRect(0, 0, width, height);
+        force.size([width, height]);
+        for (i = 1; i < n; ++i) {
+          context.fillStyle = color[i % color.length];
+          context.globalAlpha = 0.6;
+          d = nodes[i];
+          context.moveTo(d.x, d.y);
+          context.beginPath();
+          context.arc(d.x, d.y, d.radius, 0, 2 * Math.PI);
+          context.fill();
+        }
       });
-  } catch (error) {
-      console.error("Error logging activity:", error);
-  }
-}
 
-// Save user quiz score
-async function saveQuizScore(userId, score) {
-  try {
-      await addDoc(collection(db, "quizScores"), {
-          userId: userId,
-          score: score,
-          timestamp: serverTimestamp()
+      canvas.on("mousemove", move);
+      canvas.on("touchmove", move);
+
+      function move() {
+        var p1 = d3.mouse(this);
+        root.px = p1[0];
+        root.py = p1[1];
+        force.resume();
+      };
+
+      function collide(node) {
+        var r = node.radius + 16,
+            nx1 = node.x - r,
+            nx2 = node.x + r,
+            ny1 = node.y - r,
+            ny2 = node.y + r;
+        return function(quad, x1, y1, x2, y2) {
+          if (quad.point && (quad.point !== node)) {
+            var x = node.x - quad.point.x,
+                y = node.y - quad.point.y,
+                l = Math.sqrt(x * x + y * y),
+                r = node.radius + quad.point.radius + 7;
+            if (l < r) {
+              l = (l - r) / l * .5;
+              node.x -= x *= l;
+              node.y -= y *= l;
+              quad.point.x += x;
+              quad.point.y += y;
+            }
+          }
+          return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
+        };
+      }
+
+      $(window).on("resize", function () {
+        width = d3.select("#background").node().clientWidth,
+        height = d3.select("#background").node().clientHeight;
+        canvas.attr("width", width).attr("height", height);
+        force.start();
       });
-  } catch (error) {
-      console.error("Error saving quiz score:", error);
+
+  } else {
+      console.error('Element #background not found');
   }
-}
-
-// Expose functions to global scope for button clicks
-window.signUp = signUp;
-window.login = login;
-window.logout = logout;
-
+});

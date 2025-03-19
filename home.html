@@ -1,53 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Firebase -->
-    <script type="module">
-            import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
-            import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
-
-            // Your Firebase configuration (Use your actual Firebase credentials!)
-            const firebaseConfig = {
-                apiKey: "AIzaSyBnwybCXOLYyuUT5c_T07crYXPXvwY18v0",
-                authDomain: "ap-statistics.firebaseapp.com",
-                projectId: "ap-statistics",
-                storageBucket: "ap-statistics.firebasestorage.app",
-                messagingSenderId: "141435743547",
-                appId: "1:141435743547:web:dfba9776ffef593d7b9b1e",
-                measurementId: "G-Z6RGNYY4JN"
-            };
-
-            const app = initializeApp(firebaseConfig);
-            const auth = getAuth(app);
-            const db = getFirestore(app);
-
-        // Check if user is logged in
-        onAuthStateChanged(auth, (user) => {
-            if (!user) {
-                // User not logged in, save current page before redirecting
-                localStorage.setItem("redirectAfterLogin", window.location.href);
-                window.location.href = "index.html";
-            }
-        });
-    </script>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A visual introduction to probability and statistics for the College Board AP Exam.">
-    <meta name="author" content="Thomas Abraham">
- 
-
-    <!-- For Facebook Sharing -->
-    <meta property="og:url" content="http://teabraham.github.io/208" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="AP Stats" />
-    <meta property="og:description" content="A visual introduction to probability and statistics." />
-    <meta property="og:image" content="img/share/home.png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-
-    <title>AP Stats</title>
+    <title>AP Statistics</title>
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <script type="module" src="https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js"></script>
+    <script type="module" src="./js/script.js"></script>
 
     <!-- Fonts -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -58,7 +18,7 @@
 
     <!-- Full Page CSS -->
     <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css" />
-    
+
     <!--Favicon-->
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 
@@ -67,313 +27,140 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
     <!-- Full Page -->
-    <script src="js/jquery.fullpage.js"></script>
-
-
-    <!-- Full Page Setup -->
-    <script type="text/javascript">
-    $(document).ready(function() {
-        $('#fullpage').fullpage({
-            anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
-            menu: '#menu',
-            afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex) {
-                $('.menu-sub li.active').removeClass('active');
-                $('.menu-sub li').eq(slideIndex).addClass('active');
-            }
-
-        });
-
-
-    $('.scroll-down').show("fade");
-    $('.scroll-down').fadeIn(1000).fadeOut(1000).fadeIn(1000).fadeOut(1000).fadeIn(1000);
-
-    });
-    </script>
-
-
-
-</head>
-
-<body>
-    <div id="background"></div>
-    <div class="header">
-
-
-    </div>
-    <div class="menu-bottom">
-
-        <ul id="menu">
-            <li data-menuanchor="firstPage" class="active" id='home'><a href="#firstPage">Home</a></li>
-            <li data-menuanchor="secondPage" id="unit-menu"><a href="#secondPage">Units</a></li>
-            <li data-menuanchor="3rdPage"><a href="#3rdPage">About</a> </li>
-            <li data-menuanchor="4thPage"><a href="#4thPage">Book</a> </li>
-        </ul>
-
-    </div>
-    <div class="content" id="fullpage">
-        <div class="section " id="section0 ">
-            <div class="section-wrapper">
-                <div class="intro">
-                    <h1>AP Statistics</h1>
-                    <p >A visual introduction to probability and statistics for the College Board Exam.</p>
-
-                    <a href="./basic-probability/index.html">
-                        <div class='rec_button'>Start</div>
-                    </a>
-
-
-                </div>
-                <a href="#secondPage" data-menuanchor="secondPage"><div class="scroll-down"> <img src="img/button/bottom-arrow.svg"></div></a>
-            </div>
-        </div>
-        <div class="section" id="section1">
-            <div class="unit-submenu">
-                <ul class="menu-sub">
-                    <li class="active" id='submenu-bp'><a href="#secondPage/unit1">Basic Probability</a></li>
-                    <li id='submenu-cp'><a href="#secondPage/unit2">Compound Probability</a></li>
-                    <li id='submenu-pd'><a href="#secondPage/unit3">Probability Distributions</a> </li>
-                    <li id='submenu-fi'><a href="#secondPage/unit4">Frequentist Inference</a> </li>
-                    <li id='submenu-bi'><a href="#secondPage/unit5">Bayesian Inference</a> </li>
-                    <li id='submenu-ra'><a href="#secondPage/unit6">Regression Analysis</a> </li>
-                </ul>
-            </div>
-            <div class='slide-section-wrapper'>
-                <div class="slide" id="unit1" data-anchor="unit1">
-                    <div class="unit-nav">
-                        <div class="left">
-                            <h4>Unit 1</h4>
-                            <h1>Basic Probability</h1>
-                            <p>This unit is an introduction to the basic concepts of probability theory.</p>
-                            </br>
-                            </br>
-                            <a href="./basic-probability/index.html">
-                                <div id="bp" class='rec_button'>Go to Basic Probability</div>
-                            </a>
-                        </div>
-                        <div class="right">
-                            <div>
-                                <a href="./basic-probability/index.html#section1">
-                                    <div class="nav-unit-wrapper-s tile1">
-                                        <img src="img/tiles/1-1.png" class="nav-unit-tile-s">
-                                        <span class="nav-unit-title-s"> Chance Events </span>
-                                    </div>
-                                </a>
-                                <a href="./basic-probability/index.html#section2">
-                                    <div class="nav-unit-wrapper-s tile2">
-                                        <img src="img/tiles/1-2.png" class="nav-unit-tile-s">
-                                        <span class="nav-unit-title-s"> Expectation </span>
-                                    </div>
-                                </a>
-                                <a href="./basic-probability/index.html#section3">
-                                    <div class="nav-unit-wrapper-s tile3">
-                                        <img src="img/tiles/1-3.png" class="nav-unit-tile-s">
-                                        <span class="nav-unit-title-s"> Variance </span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide" id="unit2" data-anchor="unit2">
-                    <div class="unit-nav">
-                        <div class="left">
-                            <h4>Unit 2</h4>
-                            <h1>Compound Probability</h1>
-                            <p>This unit discusses further concepts that lie at the core of probability theory.</p>
-                            </br>
-                            </br>
-                            <a href="./compound-probability/index.html">
-                                <div id="cp" class='rec_button'>Go to Compound Probability</div>
-                            </a>
-                        </div>
-                        <div class="right">
-                            <div>
-                                <a href="./compound-probability/index.html#section1">
-                                    <div class="nav-unit-wrapper-s tile1">
-                                        <img src="img/tiles/2-1.png" class="nav-unit-tile-s">
-                                        <span class="nav-unit-title-s"> Set Theory </span>
-                                    </div>
-                                </a>
-                                <a href="./compound-probability/index.html#section2">
-                                    <div class="nav-unit-wrapper-s tile2">
-                                        <img src="img/tiles/2-2.png" class="nav-unit-tile-s">
-                                        <span class="nav-unit-title-s"> Counting </span>
-                                    </div>
-                                </a>
-                                <a href="./compound-probability/index.html#section3">
-                                    <div class="nav-unit-wrapper-s tile3">
-                                        <img src="img/tiles/2-3.png" class="nav-unit-tile-s">
-                                        <span class="nav-unit-title-s"> Conditional Probability </span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide " id="unit3" data-anchor="unit3">
-                    <div class="unit-nav">
-                        <div class="left">
-                            <h4>Unit 3</h4>
-                            <h1>Probability Distributions</h1>
-                            <p>A probability distribution specifies the relative likelihoods of all possible outcomes.</p>
-                            </br>
-                            </br>
-                            <a href="./probability-distributions/index.html">
-                                <div id="pd" class='rec_button'>Go to Probability Distributions</div>
-                            </a>
-                        </div>
-                        <div class="right">
-                            <div>
-                                <a href="./probability-distributions/index.html#section1">
-                                    <div class="nav-unit-wrapper-s tile1">
-                                        <img src="img/tiles/3-1.png" class="nav-unit-tile-s">
-                                        <span class="nav-unit-title-s"> Random Variables </span>
-                                    </div>
-                                </a>
-                                <a href="./probability-distributions/index.html#section2">
-                                    <div class="nav-unit-wrapper-s tile2">
-                                        <img src="img/tiles/3-2.png" class="nav-unit-tile-s">
-                                        <span class="nav-unit-title-s"> Discrete and Continuous </span>
-                                    </div>
-                                </a>
-                                <a href="./probability-distributions/index.html#section3">
-                                    <div class="nav-unit-wrapper-s tile3">
-                                        <img src="img/tiles/3-3.png" class="nav-unit-tile-s">
-                                        <span class="nav-unit-title-s"> Central Limit Theorem </span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide" id="unit4" data-anchor="unit4">
-                    <div class="unit-nav">
-                        <div class="left">
-                            <h4>Unit 4</h4>
-                            <h1>Frequentist Inference</h1>
-                            <p>Frequentist inference is the process of determining properties of an underlying distribution via the observation of data.</p>
-                            </br>
-                            </br>
-                            <a href="./frequentist-inference/index.html">
-                                <div id="fi" class='rec_button'>Go to Frequentist Inference</div>
-                            </a>
-                        </div>
-                        <div class="right">
-                            <div>
-                                <a href="./frequentist-inference/index.html#section1">
-                                    <div class="nav-unit-wrapper-s tile1">
-                                        <img src="img/tiles/4-1.png" class="nav-unit-tile-s">
-                                        <span class="nav-unit-title-s"> Point Estimation </span>
-                                    </div>
-                                </a>
-                                <a href="./frequentist-inference/index.html#section2">
-                                    <div class="nav-unit-wrapper-s tile2">
-                                        <img src="img/tiles/4-2.png" class="nav-unit-tile-s">
-                                        <span class="nav-unit-title-s"> Interval Estimation </span>
-                                    </div>
-                                </a>
-                                <a href="./frequentist-inference/index.html#section3">
-                                    <div class="nav-unit-wrapper-s tile3">
-                                        <img src="img/tiles/4-3.png" class="nav-unit-tile-s">
-                                        <span class="nav-unit-title-s"> The Bootstrap </span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide" id="unit5" data-anchor="unit5">
-                    <div class="unit-nav">
-                        <div class="left">
-                            <h4>Unit 5</h4>
-                            <h1>Bayesian Inference</h1>
-                            <p>Bayesian inference techniques specify how one should update one’s beliefs upon observing data.</p>
-                            </br>
-                            </br>
-                            <a href="./bayesian-inference/index.html">
-                                <div id="bi" class='rec_button'>Go to Bayesian Inference</div>
-                            </a>
-                        </div>
-                        <div class="right">
-                            <div>
-                                <a href="./bayesian-inference/index.html#section1">
-                                    <div class="nav-unit-wrapper-s tile1">
-                                        <img src="img/tiles/5-1.png" class="nav-unit-tile-s">
-                                        <span class="nav-unit-title-s"> Bayes' Theorem </span>
-                                    </div>
-                                </a>
-                                <a href="./bayesian-inference/index.html#section2">
-                                    <div class="nav-unit-wrapper-s tile2">
-                                        <img src="img/tiles/5-2.png" class="nav-unit-tile-s">
-                                        <span class="nav-unit-title-s"> Likelihood </span>
-                                    </div>
-                                </a>
-                                <a href="./bayesian-inference/index.html#section3">
-                                    <div class="nav-unit-wrapper-s tile3">
-                                        <img src="img/tiles/5-3.png" class="nav-unit-tile-s">
-                                        <span class="nav-unit-title-s"> Prior to Posterior </span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="slide" id="unit6" data-anchor="unit6">
-                    <div class="unit-nav">
-                        <div class="left">
-                            <h4>Unit 6</h4>
-                            <h1>Regression Analysis</h1>
-                            <p>Regression Analysis is an approach for modeling the linear relationship between two variables.</p>
-                            </br>
-                            </br>
-                            <a href="./regression-analysis/index.html">
-                                <div id="ra" class='rec_button'>Go to Regression Analysis</div>
-                            </a>
-                        </div>
-                        <div class="right">
-                            <div>
-                                <a href="./regression-analysis/index.html#section1">
-                                    <div class="nav-unit-wrapper-s tile1">
-                                        <img src="img/tiles/6-1.png" class="nav-unit-tile-s">
-                                        <span class="nav-unit-title-s"> Ordinary Least Square </span>
-                                    </div>
-                                </a>
-                                <a href="./regression-analysis/index.html#section2">
-                                    <div class="nav-unit-wrapper-s tile2">
-                                        <img src="img/tiles/6-2.png" class="nav-unit-tile-s">
-                                        <span class="nav-unit-title-s"> Correlation </span>
-                                    </div>
-                                </a>
-                                <a href="./regression-analysis/index.html#section3">
-                                    <div class="nav-unit-wrapper-s tile3">
-                                        <img src="img/tiles/6-3.png" class="nav-unit-tile-s">
-                                        <span class="nav-unit-title-s"> Analysis of Variance </span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section" id="section2">
-            <div class="section-wrapper">
-                <div class="about">
-
-                </div>
-            </div>
-        </div>
-        <div class="section" id="section3">
-            <div class="section-wrapper">
-            </div>
-        </div>
-    </div>
-    <!-- D3 -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/jquery.fullpage.js"></script>
+    <!-- load D3 library -->
     <script src="./js/d3.min.js"></script>
+    <script src="./js/d3.tip.v0.6.3.js"></script>
 
-    <!-- Home JavaScript -->
     <script src="./js/home.js"></script>
 
-</body>
+</head>
+<body>
 
+    <div class="header"><h1>AP Statistics</h1></div>
+    <button id="logoutButton" class="google-button" onclick="logout()" style="position:absolute; top:10px; right:10px; display:none;">
+        Logout
+    </button>
+
+    <div class="menu-bottom">
+        <ul id="menu" style="list-style-type: none;">
+            <li class="active"><a href="#unit1">Unit 1</a></li>
+            <li><a href="#unit2">Unit 2</a></li>
+            <li><a href="#unit3">Unit 3</a></li>
+            <li><a href="#unit4">Unit 4</a></li>
+            <li><a href="#unit5">Unit 5</a></li>
+            <li><a href="#unit6">Unit 6</a></li>
+            <li><a href="#unit7">Unit 7</a></li>
+            <li><a href="#unit8">Unit 8</a></li>
+            <li><a href="#unit9">Unit 9</a></li>
+        </ul>
+    </div>
+
+
+    <div class="content">
+        <div id="unit1" class="section">
+            <h2>Unit 1: Exploring One-Variable Data</h2>
+            <h4>Part I: Data Analysis</h4>
+            <ul>
+                <li><a href="./unit1/1A.html">1A: Statistics: Language of Variation</a></li>
+                <li><a href="./unit1/1B.html">1B: Displaying Categorical Data</a></li>
+                <li><a href="./unit1/1C.html">1C: Displaying Quantitative Data with Graphs</a></li>
+                <li><a href="./unit1/1D.html">1D: Describing Quantitative Data with Numbers</a></li>
+            </ul>
+            <h4>Part II: Modeling Distributions of Quantitative Data</h4>
+            <ul>
+                <li><a href="./unit1/1E.html">1E: Position and Transforming Data</a></li>
+                <li><a href="./unit1/1F.html">1F: Normal Distributions</a></li>
+            </ul>
+        </div>
+
+        <div id="unit2" class="section">
+            <h2>Unit 2: Exploring Two-Variable Data</h2>
+            <ul>
+                <li><a href="./unit2/2A.html">2A: Relationships Between Two Categorical Variables</a></li>
+                <li><a href="./unit2/2B.html">2B: Relationships Between Two Quantitative Variables</a></li>
+                <li><a href="./unit2/2C.html">2C: Linear Regression Models</a></li>
+                <li><a href="./unit2/2D.html">2D: Analyzing Departures from Linearity</a></li>
+            </ul>
+        </div>
+
+        <div id="unit3" class="section">
+            <h2>Unit 3: Collecting Data</h2>
+            <ul>
+                <li><a href="./unit3/3A.html">3A: Introduction to Data Collection</a></li>
+                <li><a href="./unit3/3B.html">3B: Sampling and Surveys</a></li>
+                <li><a href="./unit3/3C.html">3C: Experiments</a></li>
+            </ul>
+        </div>
+
+        <div id="unit4" class="section">
+            <h2>Unit 4: Probability, Random Variables, and Probability Distributions</h2>
+            <h4>Part I: Probability</h4>
+            <ul>
+                <li><a href="./unit4/4A.html">4A: Randomness, Probability, and Simulation</a></li>
+                <li><a href="./unit4/4B.html">4B: Probability Rules</a></li>
+                <li><a href="./unit4/4C.html">4C: Conditional Probability and Independent Events</a></li>
+            </ul>
+            <h4>Part II: Random Variables and Probability Distributions</h4>
+            <ul>
+                <li><a href="./unit4/4D.html">4D: Introduction to Discrete Random Variables</a></li>
+                <li><a href="./unit4/4E.html">4E: Transforming and Combining Random Variables</a></li>
+                <li><a href="./unit4/4F.html">4F: Binomial and Geometric Random Variables</a></li>
+            </ul>
+        </div>
+
+        <div id="unit5" class="section">
+            <h2>Unit 5: Sampling Distributions</h2>
+            <ul>
+                <li><a href="./unit5/5A.html">5A: Normal Distributions, Revisited</a></li>
+                <li><a href="./unit5/5B.html">5B: What is a Sampling Distribution?</a></li>
+                <li><a href="./unit5/5C.html">5C: Sample Proportions</a></li>
+                <li><a href="./unit5/5D.html">5D: Sample Means</a></li>
+            </ul>
+        </div>
+        <div id="unit6" class="section">
+            <h2>Unit 6: Inference for Categorical Data - Proportions</h2>
+            <h4>Part I: Inference for One Sample</h4>
+            <ul>
+                <li><a href="./unit6/6A.html">6A: Confidence Intervals - The Basics</a></li>
+                <li><a href="./unit6/6B.html">6B: Confidence Intervals for a Population Proportion</a></li>
+                <li><a href="./unit6/6C.html">6C: Significance Tests - The Basics</a></li>
+                <li><a href="./unit6/6D.html">6D: Significance Tests for a Population Proportion</a></li>
+            </ul>
+            <h4>Part II: Inference for Two Samples</h4>
+            <ul>
+                <li><a href="./unit6/6E.html">6E: Confidence Intervals for a Population Proportion</a></li>
+                <li><a href="./unit6/6F.html">6F: Significance Tests for a Population Proportion</a></li>
+            </ul>
+        </div>
+
+        <div id="unit7" class="section">
+            <h2>Unit 7: Inference for Quantitative Data - Means</h2>
+            <ul>
+                <li><a href="./unit7/7A.html">7A: Confidence Intervals for a Population Mean or Mean Difference</a></li>
+                <li><a href="./unit7/7B.html">7B: Significance Tests for a Population Mean or Mean Difference</a></li>
+                <li><a href="./unit7/7C.html">7C: Confidence Intervals for a Difference in Population Means</a></li>
+                <li><a href="./unit7/7D.html">7D: Significance Tests for a Difference in Population Means</a></li>
+            </ul>
+        </div>
+
+        <div id="unit8" class="section">
+            <h2>Unit 8: Inference for Categorical Data - Chi-Square</h2>
+            <ul>
+                <li><a href="./unit8/8A.html">8A: Chi-Square Tests for Goodness-of-Fit</a></li>
+                <li><a href="./unit8/8B.html">8B: Chi-Square Tests for Independence or Homogeneity</a></li>
+            </ul>
+        </div>
+
+        <div id="unit9" class="section">
+            <h2>Unit 9: Inference for Quantitative Data - Slopes</h2>
+            <ul>
+                <li><a href="./unit9/9A.html">9A: Confidence Intervals for the Slope of a Population Regression Line</a></li>
+                <li><a href="./unit9/9B.html">9B: Significance Tests for the Slope of a Population Regression Line</a></li>
+            </ul>
+        </div>
+
+    </div>
+</body>
 </html>

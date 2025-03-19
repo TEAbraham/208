@@ -2,55 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A visual introduction to probability and statistics.">
-    <meta name="author" content="Thomas Abraham">
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="600" />
+    <title>Login - AP Statistics</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
 
-    <title>AP Statistics</title>
+    <!-- load jQuery first -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/jquery.fullpage.js"></script>
+    <!-- load D3 library -->
+    <script src="./js/d3.min.js"></script>
+    <script src="./js/d3.tip.v0.6.3.js"></script>
 
-    <!-- Fonts -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400" rel="stylesheet" type="text/css">
+    <script type="module" src="https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js"></script>
+    <script type="module" src="./js/script.js"></script>
 
-    <!-- CSS Files -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css">
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
-
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-    <!-- Full Page.js -->
-    <script src="js/jquery.fullpage.js"></script>
-
-    <!-- D3.js -->
-    <script src="./js/d3.min.js" defer></script>
-
-    <!-- Main JavaScript (deferred to ensure Firebase is initialized) -->
-    <script type="module" src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
-
 <body>
-    <div class="login">
+    <div id="background"></div>
+
+    <div class="login-container">
         <h1>AP Statistics</h1>
         <p>Trinity High School</p>
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
 
-            <div>
-                <input type="email" id="email" placeholder="Enter email">
-                <input type="password" id="password" placeholder="Enter password">
-                <button onclick="signUp()">Sign Up</button>
-                <button onclick="login()">Login</button>
-                <button onclick="logout()">Logout</button>
-            </div>
-
+        <div class="button-container">
+            <button onclick="signUp()" id="signup">Sign Up</button>
+            <button onclick="login()" id="login">Login</button>
+        </div>
+        <button id="googleLogin" class="google-button">Login with Google</button>
     </div>
-</body>
 
+</body>
 </html>
