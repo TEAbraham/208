@@ -9,11 +9,37 @@ const db = getFirestore(app);
 const provider = new GoogleAuthProvider();
 const googleLoginBtn = document.getElementById('googleLogin');
 
+// Request additional Google Classroom scopes explicitly
+provider.addScope('https://www.googleapis.com/auth/classroom.courses.readonly');
+provider.addScope('https://www.googleapis.com/auth/classroom.coursework.me.readonly');
+provider.addScope('https://www.googleapis.com/auth/classroom.rosters.readonly');
+
+
 // Google login function
 document.addEventListener('DOMContentLoaded', function() {
     if (googleLoginBtn) {
         googleLoginBtn.addEventListener('click', googleLogin);
     }
+});
+
+signInWithPopup(auth, provider).then(result => {
+    const credential = GoogleAuthProvider.credentialFromResult(result);
+    const token = credential.accessToken;
+
+    fetch('https://classroom.googleapis.com/v1/courses', {
+        method: 'GET',
+        headers: new Headers({ 'Authorization': 'Bearer ' + token }),
+    })
+    .then(res => res.json())
+    .then(data => {
+        console.log(data); // Your Classroom data clearly displayed here
+    })
+    .catch(err => {
+        console.error('Error fetching classroom data', err);
+    });
+
+}).catch(error => {
+    console.error('Authentication error:', error);
 });
 
 
