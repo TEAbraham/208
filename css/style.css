@@ -60,6 +60,7 @@ body {
     border: none;
     cursor: pointer;
     border-radius: 3px;
+    z-index: 2; /* Above background */
 }
 
 .google-button:hover {
