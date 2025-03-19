@@ -1,25 +1,21 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
 import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, onAuthStateChanged, signInWithPopup, GoogleAuthProvider  } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
 import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
-
-// Initialize Firebase
-const firebaseConfig = {
-    apiKey: "AIzaSyBnwybCXOLYyuUT5c_T07crYXPXvwY18v0",
-    authDomain: "ap-statistics.firebaseapp.com",
-    projectId: "ap-statistics",
-    storageBucket: "ap-statistics.firebasestorage.app",
-    messagingSenderId: "141435743547",
-    appId: "1:141435743547:web:dfba9776ffef593d7b9b1e",
-    measurementId: "G-Z6RGNYY4JN"
-};
+import { firebaseConfig } from './firebase-config.js';
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
-// Google provider instance
 const provider = new GoogleAuthProvider();
-// Google login function
 const googleLoginBtn = document.getElementById('googleLogin');
+
+// Google login function
+document.addEventListener('DOMContentLoaded', function() {
+    if (googleLoginBtn) {
+        googleLoginBtn.addEventListener('click', googleLogin);
+    }
+});
+
 
 window.signUp = () => {
     const email = document.getElementById('email').value;
@@ -79,103 +75,67 @@ onAuthStateChanged(auth, user => {
 });
 
 
+// Updated D3 v7 force layout
 document.addEventListener('DOMContentLoaded', function() {
-  var backgroundNode = d3.select("#background").node();
+    const backgroundNode = document.getElementById("background");
 
-  if (backgroundNode) {
-      var width = backgroundNode.clientWidth,
-          height = backgroundNode.clientHeight;
+    if (backgroundNode) {
+        let width = backgroundNode.clientWidth;
+        let height = backgroundNode.clientHeight;
 
-      var num = 300,
-          base = 4,
-          dif = 12;
+        const num = 300, base = 4, dif = 12;
 
-      var nodes = d3.range(num).map(function() { return {radius: Math.random() * dif + base }; }),
-          root = nodes[0],
-          color = ['#009cde', '#46c8b2', '#f5d800', '#ff8b22', '#ff6859', '#fc4d77'];
+        const nodes = d3.range(num).map(() => ({ radius: Math.random() * dif + base }));
+        const root = nodes[0];
+        const colors = ['#009cde', '#46c8b2', '#f5d800', '#ff8b22', '#ff6859', '#fc4d77'];
 
-      root.radius = 0;
-      root.fixed = true;
-      root.px = width/2;
-      root.py = height/2;
+        root.radius = 0;
+        root.fx = width / 2;
+        root.fy = height / 2;
 
-      var force = d3.layout.force()
-          .gravity(0.015)
-          .charge(function(d, i) { return i ? 0 : - (height + width); })
-          .nodes(nodes)
-          .size([width, height]);
+        const simulation = d3.forceSimulation(nodes)
+            .force('charge', d3.forceManyBody().strength(-12))  // stronger repulsion
+            .force('collision', d3.forceCollide().radius(d => d.radius + 2).strength(7)) // stronger collision force
+            .force('x', d3.forceX(width / 2).strength(0.02))  // gentle horizontal centering
+            .force('y', d3.forceY(height / 2).strength(0.02)) // gentle vertical centering
+            .on('tick', ticked);
+    
 
-      force.start();
+        const canvas = d3.select("#background").append("canvas")
+            .attr("width", width)
+            .attr("height", height)
+            .node();
 
-      var canvas = d3.select("#background").append("canvas")
-          .attr("width", width)
-          .attr("height", height);
+        const context = canvas.getContext("2d");
 
-      var context = canvas.node().getContext("2d");
+        d3.select(canvas)
+            .on("mousemove", event => {
+                const [x, y] = d3.pointer(event);
+                root.fx = x;
+                root.fy = y;
+                simulation.alpha(1).restart();
+            });
 
-      force.on("tick", function(e) {
-        var q = d3.geom.quadtree(nodes),
-            i,
-            d,
-            n = nodes.length;
-
-        for (i = 1; i < n; ++i) q.visit(collide(nodes[i]));
-
-        context.clearRect(0, 0, width, height);
-        force.size([width, height]);
-        for (i = 1; i < n; ++i) {
-          context.fillStyle = color[i % color.length];
-          context.globalAlpha = 0.6;
-          d = nodes[i];
-          context.moveTo(d.x, d.y);
-          context.beginPath();
-          context.arc(d.x, d.y, d.radius, 0, 2 * Math.PI);
-          context.fill();
+        function ticked() {
+            context.clearRect(0, 0, width, height);
+            nodes.forEach((d, i) => {
+                context.beginPath();
+                context.fillStyle = colors[i % colors.length];
+                context.globalAlpha = 0.6;
+                context.arc(d.x, d.y, d.radius, 0, 2 * Math.PI);
+                context.fill();
+            });
         }
-      });
 
-      canvas.on("mousemove", move);
-      canvas.on("touchmove", move);
-
-      function move() {
-        var p1 = d3.mouse(this);
-        root.px = p1[0];
-        root.py = p1[1];
-        force.resume();
-      };
-
-      function collide(node) {
-        var r = node.radius + 16,
-            nx1 = node.x - r,
-            nx2 = node.x + r,
-            ny1 = node.y - r,
-            ny2 = node.y + r;
-        return function(quad, x1, y1, x2, y2) {
-          if (quad.point && (quad.point !== node)) {
-            var x = node.x - quad.point.x,
-                y = node.y - quad.point.y,
-                l = Math.sqrt(x * x + y * y),
-                r = node.radius + quad.point.radius + 7;
-            if (l < r) {
-              l = (l - r) / l * .5;
-              node.x -= x *= l;
-              node.y -= y *= l;
-              quad.point.x += x;
-              quad.point.y += y;
-            }
-          }
-          return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;
-        };
-      }
-
-      $(window).on("resize", function () {
-        width = d3.select("#background").node().clientWidth,
-        height = d3.select("#background").node().clientHeight;
-        canvas.attr("width", width).attr("height", height);
-        force.start();
-      });
-
-  } else {
-      console.error('Element #background not found');
-  }
+        window.addEventListener("resize", () => {
+            width = backgroundNode.clientWidth;
+            height = backgroundNode.clientHeight;
+            canvas.width = width;
+            canvas.height = height;
+            simulation.force('center', d3.forceCenter(width / 2, height / 2));
+            simulation.alpha(1).restart();
+        });
+    } else {
+        console.error('Element #background not found');
+    }
 });

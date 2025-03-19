@@ -2,16 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>AP Statistics</title>
-    <link rel="stylesheet" type="text/css" href="css/home.css">
+
+    <!-- Firebase -->
     <script type="module" src="https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js"></script>
     <script type="module" src="https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js"></script>
     <script type="module" src="https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js"></script>
-    <script type="module" src="./js/script.js"></script>
 
     <!-- Fonts -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Assistant:300,400,600,700" rel="stylesheet">
+
+    <!-- Project Pages CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <!-- Home Page CSS -->
     <link rel="stylesheet" type="text/css" href="css/home.css">
@@ -19,27 +24,30 @@
     <!-- Full Page CSS -->
     <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css" />
 
-    <!--Favicon-->
+    <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 
-    <!--Jquery-->
+    <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
     <!-- Full Page -->
     <script src="./js/jquery.js"></script>
     <script src="./js/jquery.fullpage.js"></script>
-    <!-- load D3 library -->
-    <script src="./js/d3.min.js"></script>
-    <script src="./js/d3.tip.v0.6.3.js"></script>
 
-    <script src="./js/home.js"></script>
+    <!-- D3 library -->
+    <script src="./js/d3.min.js"></script>
+    <!-- <script src="./js/d3.tip.v0.6.3.js"></script> -->
+
+    <!-- Module scripts -->
+    <script type="module" src="./js/script.js"></script>
+    <script type="module" src="./js/home.js"></script>
 
 </head>
 <body>
 
     <div class="header"><h1>AP Statistics</h1></div>
-    <button id="logoutButton" class="google-button" onclick="logout()" style="position:absolute; top:10px; right:10px; display:none;">
+    <button id="logoutButton" class="google-button" onclick="logout()" style="position:fixed; top:10px; right:10px; display:none;">
         Logout
     </button>
 
