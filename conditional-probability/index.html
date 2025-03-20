@@ -3,23 +3,14 @@
   <head>
     <!-- Firebase -->
     <script type="module">
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
-        import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
+      import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, onAuthStateChanged, signInWithPopup, GoogleAuthProvider  } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
+      import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
+      import { firebaseConfig } from '../js/firebase-config.js';
 
-        // Your Firebase configuration (Use your actual Firebase credentials!)
-        const firebaseConfig = {
-            apiKey: "AIzaSyBnwybCXOLYyuUT5c_T07crYXPXvwY18v0",
-            authDomain: "ap-statistics.firebaseapp.com",
-            projectId: "ap-statistics",
-            storageBucket: "ap-statistics.firebasestorage.app",
-            messagingSenderId: "141435743547",
-            appId: "1:141435743547:web:dfba9776ffef593d7b9b1e",
-            measurementId: "G-Z6RGNYY4JN"
-        };
-
-        const app = initializeApp(firebaseConfig);
-        const auth = getAuth(app);
-        const db = getFirestore(app);
+      const app = initializeApp(firebaseConfig);
+      const auth = getAuth(app);
+      const db = getFirestore(app);
 
         // Check if user is logged in
         onAuthStateChanged(auth, (user) => {
@@ -45,7 +36,7 @@
     <link rel="shortcut icon" type="image/png" href="../img/favicon.png" />
     <!-- JavaScript Imports -->
     <!-- D3 -->
-    <script src="../js/d3.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
     <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>

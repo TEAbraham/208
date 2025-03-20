@@ -3,32 +3,93 @@ body {
     font-family: 'Lato', sans-serif;
     background-color: #ffffff;
 }
-.header, .menu-bottom, .content {
-    position: relative;
-    z-index: 2; /* clearly above your interactive backgrounds */
-}
-
-.header {
-    text-align: center;
-    padding: 20px;
-}
-
-.menu-bottom ul {
+/* Top menu container */
+.menu-top {
     display: flex;
-    justify-content: center;
-    background-color: #f5f5f5;
+    justify-content: space-between; /* puts menu left and logout right */
+    align-items: center; /* vertically aligns content */
+    background-color: #ffffff;
     padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
-.menu-bottom ul li {
-    margin: 0 10px;
+
+/* Menu items styling */
+.menu-top ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
-.menu-bottom ul li a {
-    color: #333;
+
+.menu-top ul li {
+    position: relative;
+}
+
+.menu-top ul li a {
+    display: block;
+    padding: 8px 12px;
     text-decoration: none;
+    color: #333;
 }
-.menu-bottom ul li.active a {
-    border-bottom: 2px solid #007bff;
+
+.menu-top ul li a:hover {
+    background-color: #f0f0f0;
 }
+
+/* Dropdown menu styling */
+.dropdown:hover .dropdown-content,
+.dropdown-content:hover {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.dropdown-content {
+    display: none;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+.dropdown-content li {
+    width: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Logout button styling (keeping consistent) */
+.google-button {
+    padding: 8px 12px;
+    background-color: #db4437;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.google-button:hover {
+    background-color: #c33d2e;
+}
+
+/* Header styling for alignment */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header h1 {
+    margin-top: 15px;
+}
+
+
 .content {
 	overflow-y: auto;
 	max-height: 85vh; /* Adjust as necessary */

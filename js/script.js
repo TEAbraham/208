@@ -17,8 +17,18 @@ provider.addScope('https://www.googleapis.com/auth/classroom.rosters.readonly');
 
 // Google login function
 document.addEventListener('DOMContentLoaded', function() {
+    const googleLoginBtn = document.getElementById('googleLogin');
     if (googleLoginBtn) {
-        googleLoginBtn.addEventListener('click', googleLogin);
+        googleLoginBtn.addEventListener('click', () => {
+            signInWithPopup(auth, provider).then(result => {
+                const user = result.user;
+                alert(`Google login successful. Welcome, ${user.displayName}`);
+                window.location.href = "home.html";
+            }).catch(error => {
+                console.error("Error during Google sign-in", error);
+                alert("Error during Google login: " + error.message);
+            });
+        });
     }
 });
 
