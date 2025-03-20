@@ -1,121 +1,167 @@
 //Handles functionality of Compound Probability
-$(window).load(function () {
+window.onload = function () {
   conditional();
-  document.querySelectorAll(".perspective").forEach(button => {
-    button.addEventListener("click", function() {
-        document.querySelectorAll(".perspective").forEach(btn => btn.classList.remove("active"));
-        this.classList.add("active");
-        changePerspective(this.id);
-        updateRects(1000);
+  document.querySelectorAll(".perspective").forEach((button) => {
+    button.addEventListener("click", function () {
+      document.querySelectorAll(".perspective").forEach((btn) =>
+        btn.classList.remove("active")
+      );
+      this.classList.add("active");
+      changePerspective(this.id);
+      updateRects(1000);
     });
-});
-
-});
+  });
+};
 
 //*******************************************************************************//
 //Conditional Probability
 //*******************************************************************************//
 function conditional() {
 
-  //Constants
-  var currentPerspective = 'universe'
-  var radius = 5;
-  var eventsData = [
-          { x: 1/6, y: 0.2, width: 1/3, height: 0.05, name: 'A' },
-          { x: 1/3, y: 0.4, width: 1/3, height: 0.05, name: 'B' },
-          { x: 1/2, y: 0.6, width: 1/3, height: 0.05, name: 'C' }
-      ];
-  var mapper = {0: "P(A)", 1: "P(B)", 2: "P(C)"};
+  // Constants
+  let currentPerspective = "universe";
+  let radius = 5;
+  let eventsData = [
+    { x: 1 / 6, y: 0.2, width: 1 / 3, height: 0.05, name: "A" },
+    { x: 1 / 3, y: 0.4, width: 1 / 3, height: 0.05, name: "B" },
+    { x: 1 / 2, y: 0.6, width: 1 / 3, height: 0.05, name: "C" },
+  ];
+  let mapper = { 0: "P(A)", 1: "P(B)", 2: "P(C)" };
 
-  //Create SVG
-  var svgBallCP = d3.select('#svgBallCP').append('svg');
-  var svgProbCP = d3.select('#svgProbCP').append('svg');
-  var svgTreeCP = d3.select('#svgTreeCP').append('svg');
+  // Create SVG Elements
+  let svgBallCP = d3.select("#svgBallCP").append("svg").attr("width", 1000).attr("height", 400);
+  let svgProbCP = d3.select("#svgProbCP").append("svg").attr("width", 400).attr("height", 200);
+  let svgTreeCP = d3.select("#svgTreeCP").append("svg").attr("width", 600).attr("height", 200);
 
-  //Create Clip Path
-  var clipCP = svgBallCP.append("clipPath").attr("id", "viewCP").append("rect");
+  // Create Clip Path
+  let clipCP = svgBallCP.append("clipPath").attr("id", "viewCP").append("rect");
 
-  //Create Container
-  var containerBallCP = svgBallCP.append('g').attr("clip-path", "url(#viewCP)");
-  var containerProbCP = svgProbCP.append('g');
-  var containerTreeCP = svgTreeCP.append('g');
+  // Create Container
+  let containerBallCP = svgBallCP.append("g").attr("clip-path", "url(#viewCP)");
+  let containerProbCP = svgProbCP.append("g");
+  let containerTreeCP = svgTreeCP.append("g");
 
-  //Create Scales
-  var xScaleCP = d3.scale.linear().domain([0, 1]);
-  var xWidthCP = d3.scale.linear().domain([0, 1]);
-  var yScaleCP = d3.scale.linear().domain([0, 1]);
+  // Create Scales (D3v7)
+  let xScaleCP = d3.scaleLinear().domain([0, 1]).range([0, 980]);
+  let xWidthCP = d3.scaleLinear().domain([0, 1]).range([0, 980]);
+  let yScaleCP = d3.scaleLinear().domain([0, 1]).range([0, 380]);
 
-  var xScaleProbCP = d3.scale.ordinal().domain([0,1,2]);
-  var yScaleProbCP = d3.scale.linear().domain([0, 1]);
+  let xScaleProbCP = d3.scaleBand().domain(d3.range(eventsData.length)).range([0, 380]).padding(0.1);
+  let yScaleProbCP = d3.scaleLinear().domain([0, 1]).range([180, 0]);
+
+  // Drag Functions (D3v7)
+  let dragRect = d3
+    .drag()
+    .on("start", function () {
+      d3.select(this.parentNode).raise();
+    })
+    .on("drag", function (event, d) {
+      let x = Math.max(0, Math.min(xScaleCP.invert(event.x), 1 - d.width));
+      d.x = x;
+      changePerspective(currentPerspective);
+      updateRects(0);
+    });
+
+  let dragLeft = d3
+    .drag()
+    .on("start", function () {
+      d3.select(this).raise();
+    })
+    .on("drag", function (event, d) {
+      let x = Math.max(0, Math.min(xScaleCP.invert(event.x), d.x + d.width));
+      let change = d.x - x;
+      d.x = x;
+      d.width = Math.max(0, d.width + change);
+      changePerspective(currentPerspective);
+      updateRects(0);
+    });
+
+  let dragRight = d3
+    .drag()
+    .on("start", function () {
+      d3.select(this).raise();
+    })
+    .on("drag", function (event, d) {
+      let w = Math.max(0, Math.min(xScaleCP.invert(event.x) - d.x, 1 - d.x));
+      d.width = w;
+      changePerspective(currentPerspective);
+      updateRects(0);
+    });
 
 
-  //Drag Functions
-  var dragRect = d3.behavior.drag()
-           .origin(function() { return {x: d3.select(this).attr("x"),y:0};})
-           .on('dragstart', function(){d3.select(this.parentNode).moveToFront();}) 
-           .on('drag', function(d,i) {
-              var x = Math.max(0,Math.min(xScaleCP.invert(d3.event.x),(1-eventsData[i].width)));
-              eventsData[i].x = x;
-              changePerspective(currentPerspective);
-              updateRects(0);
-            })
-  var dragLeft = d3.behavior.drag()
-           .on('dragstart', function(){d3.select(this).moveToFront();})
-           .on('drag', function(d,i) {
-              var x = Math.max(0,Math.min(xScaleCP.invert(d3.event.x),(eventsData[i].x+eventsData[i].width),1));
-              var change = eventsData[i].x - x;
-              eventsData[i].x = x;
-              eventsData[i].width = Math.max(0,eventsData[i].width + change);
-              changePerspective(currentPerspective);
-              updateRects(0);
-           })
-  var dragRight = d3.behavior.drag()
-           .on('dragstart', function(){d3.select(this).moveToFront();})
-           .on('drag', function(d,i) {
-              var w = Math.max(0,Math.min(xScaleCP.invert(d3.event.x)-eventsData[i].x,(1-eventsData[i].x)));
-              eventsData[i].width = w;
-              changePerspective(currentPerspective);
-              updateRects(0);
-           })
+  // Create Tooltip
+  let tipCP = d3.select("body").append("div")
+    .attr("class", "d3-tip")
+    .style("position", "absolute")
+    .style("visibility", "hidden")
+    .style("background", "lightgray")
+    .style("padding", "5px")
+    .style("border-radius", "5px")
+    .style("pointer-events", "none");
 
-  //Tool tip for Prob
-  var tipCP = d3.tip()
-                .attr('class', 'd3-tip')
-                .offset([-10, 0])
-                .html(function(d,i) { 
-                  var prob = calcOverlap(i,currentPerspective)/(xWidthCP.domain()[1]);
-                  return round(prob,3);});
 
-  //Ball SVG elements
-  var events = containerBallCP.selectAll('g.event').data(eventsData).enter().append('g').attr('class', 'event');
+  // Ball SVG elements
+  let events = containerBallCP
+    .selectAll("g.event")
+    .data(eventsData)
+    .enter()
+    .append("g")
+    .attr("class", "event");
 
-  var rects = events.append('rect').attr('class', function(d){ return (d.name + ' shelf') }).call(dragRect);
+  let rects = events
+    .append("rect")
+    .attr("class", (d) => d.name + " shelf")
+    .call(dragRect);
 
-  var leftBorders = events.append('line').attr('class', function(d){ return (d.name + ' border') }).call(dragLeft);
+  let leftBorders = events
+    .append("line")
+    .attr("class", (d) => d.name + " border")
+    .call(dragLeft);
 
-  var rightBorders = events.append('line').attr('class', function(d){ return (d.name + ' border') }).call(dragRight);
+  let rightBorders = events
+    .append("line")
+    .attr("class", (d) => d.name + " border")
+    .call(dragRight);
 
-  var texts = events.append('text').text(function(d){ return d.name }).attr('class', function(d){ return d.name + ' label'});
+  let texts = events
+    .append("text")
+    .text((d) => d.name)
+    .attr("class", (d) => d.name + " label");
 
-  var circles = containerBallCP.append("g").attr("class", "ball").moveToBack();
+  let circles = containerBallCP.append("g").attr("class", "ball");
+
 
   //Prob SVG elements
   var probEvents = containerProbCP.selectAll('g.event').data(eventsData).enter().append('g').attr('class', 'event');
 
   var probRects = probEvents.append('rect').attr('class', function(d){ return (d.name + ' probability') }).on("mouseover", function(d,i) { tipCP.show(d,i);}).on("mouseout", function() { tipCP.hide();});;
 
-  var probAxis = containerProbCP.append("g").attr("class", "x axis");
+  // Create Axis (D3v7)
+  let xAxis = d3.axisBottom(xScaleProbCP).tickFormat((d) => mapper[d]);
+  let probAxis = containerProbCP.append("g").attr("class", "x axis");
 
-  var xAxis = d3.svg.axis().scale(xScaleProbCP).orient("bottom").tickFormat(function (d) { return mapper[d]});
+  // Event Listeners for Tooltip
+  function handleMouseOver(event, d) {
+    tipCP.style("visibility", "visible")
+          .html(`Value: ${d}`)
+          .style("top", `${event.pageY - 10}px`)
+          .style("left", `${event.pageX + 10}px`);
+  }
 
+  function handleMouseOut() {
+    tipCP.style("visibility", "hidden");
+  }
 
   //Updates positions of rectangles and lines
   function updateRects(dur) {
-    rects.transition().duration(dur)
-      .attr('x', function(d){ return xScaleCP(d.x) })
-      .attr('y', function(d){ return yScaleCP(d.y) })
-      .attr('width', function(d){ return xWidthCP(d.width) })
-      .attr('height', function(d){ return yScaleCP(d.height) });
+
+    rects
+      .transition()
+      .duration(dur)
+      .attr("x", (d) => xScaleCP(d.x))
+      .attr("y", (d) => yScaleCP(d.y))
+      .attr("width", (d) => xWidthCP(d.width))
+      .attr("height", (d) => yScaleCP(d.height));
 
     leftBorders.transition().duration(dur)
       .attr('x1', function(d){ return xScaleCP(d.x) })
@@ -138,14 +184,38 @@ function conditional() {
         .attr('transform', function(d){return 'translate(' + xScaleCP(d.p) + ',0)'});
     });
 
-    probRects.transition().duration(dur)
-      .attr('x', function(d,i){ return xScaleProbCP(i); })
-      .attr('y', function(d,i){ return yScaleProbCP(calcOverlap(i,currentPerspective)/xWidthCP.domain()[1]); })
-      .attr('width', function(d,i){ return xScaleProbCP.rangeBand(); })
-      .attr('height', function(d,i){ return yScaleProbCP(1-calcOverlap(i,currentPerspective)/xWidthCP.domain()[1]); });
+    let probEvents = containerProbCP.selectAll("g.event").data(eventsData);
 
-    probEvents.append('rect').attr('class', function(d){ return (d.name + ' probability') })
-    // Call updateProbabilities() whenever the rectangles update
+    // Bind data to probability bars
+    let probRects = probEvents.selectAll(".probability").data(eventsData);
+
+    // Update or append rectangles
+    probRects.enter()
+      .append("rect")
+      .merge(probRects)
+      .transition().duration(dur)
+      .attr("x", (d, i) => xScaleProbCP(i))
+      .attr("y", (d, i) => yScaleProbCP(calcOverlap(i, currentPerspective) / xWidthCP.domain()[1]))
+      .attr("width", xScaleProbCP.bandwidth())
+      .attr("height", (d, i) => 180 - yScaleProbCP(calcOverlap(i, currentPerspective) / xWidthCP.domain()[1]))
+      .attr("class", (d) => `${d.name} probability`);
+
+    // Bind data to probability labels
+    let probTexts = probEvents.selectAll(".probability-label").data(eventsData);
+
+    probTexts.enter()
+      .append("text")
+      .merge(probTexts)
+      .transition().duration(dur)
+      .attr("x", (d, i) => xScaleProbCP(i) + xScaleProbCP.bandwidth() / 2)
+      .attr("y", (d, i) => yScaleProbCP(calcOverlap(i, currentPerspective) / xWidthCP.domain()[1]) - 5)
+      .attr("text-anchor", "middle")
+      .attr("class", (d) => `${d.name} probability-label`)
+      .text((d, i) => (calcOverlap(i, currentPerspective) / xWidthCP.domain()[1]).toFixed(2));
+
+    probRects.exit().remove();
+    probTexts.exit().remove();
+
     calcIndependence();
     updateProbabilities();
 
@@ -158,37 +228,45 @@ function conditional() {
     var p = Math.random();
     var pos = [{t: 0}, {t: 1}];
     var a, b, c, events = [];
-    var bisector = d3.bisector(function(d){ return d.t }).right
+    var bisector = d3.bisector(function(d){ return d.t }).right;
 
-    if(data[0].x <= p && p <= data[0].x + data[0].width) a = data[0]
-    if(data[1].x <= p && p <= data[1].x + data[1].width) b = data[1]
-    if(data[2].x <= p && p <= data[2].x + data[2].width) c = data[2]
-    if(a) pos.splice(bisector(pos) - 1, 0, { t: a.y, event: a.name})
-    if(b) pos.splice(bisector(pos) - 1, 0, { t: b.y, event: b.name})
-    if(c) pos.splice(bisector(pos) - 1, 0, { t: c.y, event: c.name})
-    if(a) events.push(a)
-    if(b) events.push(b)
-    if(c) events.push(c)
+    if(data[0].x <= p && p <= data[0].x + data[0].width) a = data[0];
+    if(data[1].x <= p && p <= data[1].x + data[1].width) b = data[1];
+    if(data[2].x <= p && p <= data[2].x + data[2].width) c = data[2];
+
+    if(a) pos.splice(bisector(pos) - 1, 0, { t: a.y, event: a.name });
+    if(b) pos.splice(bisector(pos) - 1, 0, { t: b.y, event: b.name });
+    if(c) pos.splice(bisector(pos) - 1, 0, { t: c.y, event: c.name });
+
+    if(a) events.push(a);
+    if(b) events.push(b);
+    if(c) events.push(c);
+
     var g = circles.append('g').datum({p: p, events: events })
-        .attr('transform', function(d){return 'translate(' + xScaleCP(d.p) + ',0)'})
+        .attr('transform', function(d){ return 'translate(' + xScaleCP(d.p) + ',0)'; });
+
     var circle = g.append('circle')
                   .attr('r', radius)
-                  .attr('cy', function(){ return yScaleCP(0) });
+                  .attr('cy', function(){ return yScaleCP(0); });
 
     pos.forEach(function(d, i){
-      if(i === 0) return
-      var dt = pos[i].t - pos[i - 1].t
-      circle = circle
-        .transition()
-        .duration(dur * dt)
-        .ease('bounce')
-        .attr('cy', function(){ return yScaleCP(d.t) })
-        .each('end', function(){ if(d.event) d3.select(this).classed(d.event, true) })
-    })
-    circle.each('end', function(d){
-      d3.select(this.parentNode).remove();
-    })
-  }
+        if(i === 0) return;
+        var dt = pos[i].t - pos[i - 1].t;
+        circle = circle
+          .transition()
+          .duration(dur * dt)
+          .ease(d3.easeBounce) // Updated for D3 v7
+          .attr('cy', function(){ return yScaleCP(d.t); })
+          .on("end", function(){ // Replacing `each('end', ...)` in D3 v7
+              if(d.event) d3.select(this).classed(d.event, true);
+          });
+    });
+
+    circle.on("end", function(d){
+        d3.select(this.parentNode).remove();
+    });
+}
+
 
   //Start and Stop ball sampling
   var interval;
@@ -220,74 +298,66 @@ function conditional() {
 
   //Changes Perspective
   function changePerspective(p){
-    if(p=='a' && eventsData[0].width) {
-      xScaleCP.domain([eventsData[0].x,(eventsData[0].x+eventsData[0].width)]);
-      xWidthCP.domain([0,eventsData[0].width]);
-      currentPerspective = 'a';
-      mapper = {0: "P(A|A)", 1: "P(B|A)", 2: "P(C|A)"};
-    } else if(p=='b' && eventsData[1].width) {
-      xScaleCP.domain([eventsData[1].x,(eventsData[1].x+eventsData[1].width)]);
-      xWidthCP.domain([0,eventsData[1].width]);
-      currentPerspective = 'b';
-      mapper = {0: "P(A|B)", 1: "P(B|B)", 2: "P(C|B)"};
-    } else if(p=='c' && eventsData[2].width) {
-      xScaleCP.domain([eventsData[2].x,(eventsData[2].x+eventsData[2].width)]);
-      xWidthCP.domain([0,eventsData[2].width]);
-      currentPerspective = 'c';
-      mapper = {0: "P(A|C)", 1: "P(B|C)", 2: "P(C|C)"};
-    } else if (p=='universe') {
-      xScaleCP.domain([0,1]);
-      xWidthCP.domain([0,1]);
-      currentPerspective = 'universe';
-      mapper = {0: "P(A)", 1: "P(B)", 2: "P(C)"};
+    if (p === "a" && eventsData[0].width) {
+      xScaleCP.domain([eventsData[0].x, eventsData[0].x + eventsData[0].width]);
+      xWidthCP.domain([0, eventsData[0].width]);
+      currentPerspective = "a";
+    } else if (p === "b" && eventsData[1].width) {
+      xScaleCP.domain([eventsData[1].x, eventsData[1].x + eventsData[1].width]);
+      xWidthCP.domain([0, eventsData[1].width]);
+      currentPerspective = "b";
+    } else if (p === "c" && eventsData[2].width) {
+      xScaleCP.domain([eventsData[2].x, eventsData[2].x + eventsData[2].width]);
+      xWidthCP.domain([0, eventsData[2].width]);
+      currentPerspective = "c";
+    } else {
+      xScaleCP.domain([0, 1]);
+      xWidthCP.domain([0, 1]);
+      currentPerspective = "universe";
     }
-    probAxis.call(xAxis);
+    updateRects(1000);
   }
 
 
-  //Calculates overlap of rectangles
-  function calcOverlap(index, perspective){
-    var a1,a2;
-    if(perspective=='a') { 
-      a1 = eventsData[0].x; 
+  // Fix: Ensure eventData is within bounds in calcOverlap
+  function calcOverlap(index, perspective) {
+    if (index < 0 || index >= eventsData.length) {
+      console.warn(`Invalid index ${index} for eventsData`);
+      return 0;
+    }
+    var a1, a2;
+    if (perspective === "a") {
+      a1 = eventsData[0].x;
       a2 = a1 + eventsData[0].width;
-    } else if(perspective=='b') { 
-      a1 = eventsData[1].x; 
+    } else if (perspective === "b") {
+      a1 = eventsData[1].x;
       a2 = a1 + eventsData[1].width;
-    } else if(perspective=='c') { 
-      a1 = eventsData[2].x; 
+    } else if (perspective === "c") {
+      a1 = eventsData[2].x;
       a2 = a1 + eventsData[2].width;
-    } else if (perspective=='universe') {
-      a1 = 0; 
+    } else if (perspective === "universe") {
+      a1 = 0;
       a2 = 1;
     }
-
     var b1 = eventsData[index].x;
     var b2 = b1 + eventsData[index].width;
-
-    var overlap = 0
-    // if b1 is between [a1, a2]
-    if(a1 <= b1 && b1 <= a2){
-      // b is entirely inside of a
-      if(b2 <= a2){
-        overlap = b2 - b1
-      }else {
-        overlap = a2 - b1
+    var overlap = 0;
+    if (a1 <= b1 && b1 <= a2) {
+      if (b2 <= a2) {
+        overlap = b2 - b1;
+      } else {
+        overlap = a2 - b1;
       }
-    }
-    // if b2 is between [a1, a2]
-    else if(a1 <= b2 && b2 <= a2){
-      if(b1 <= a1){
-        overlap = b2 - a1
-      }else{
-        overlap = b2 - b1
+    } else if (a1 <= b2 && b2 <= a2) {
+      if (b1 <= a1) {
+        overlap = b2 - a1;
+      } else {
+        overlap = b2 - b1;
       }
+    } else if (b1 <= a1 && a2 <= b2) {
+      overlap = a2 - a1;
     }
-    // if b1 is left of a1 and b2 is right of a2
-    else if(b1 <= a1 && a2 <= b2) {
-      overlap = a2 - a1
-    }
-    return overlap
+    return overlap;
   }
   function updateProbabilities() {
     const totalWidth = 1; // Universe size is normalized to 1
@@ -332,7 +402,57 @@ function conditional() {
 
     // Modify the `createProbabilityTree()` function
 
-    let treeData;
+    let treeData = {
+      name: "P",
+      probability: 1,
+      children: [
+        {
+          name: "A",
+          probability: pA,
+          children: [
+            {
+              name: "B",
+              probability: pB,
+              children: [
+                { name: "C", probability: pC },
+                { name: "¬C", probability: 1 - pC }
+              ]
+            },
+            {
+              name: "¬B",
+              probability: 1 - pB,
+              children: [
+                { name: "C", probability: pC },
+                { name: "¬C", probability: 1 - pC }
+              ]
+            }
+          ]
+        },
+        {
+          name: "¬A",
+          probability: 1 - pA,
+          children: [
+            {
+              name: "B",
+              probability: pB,
+              children: [
+                { name: "C", probability: pC },
+                { name: "¬C", probability: 1 - pC }
+              ]
+            },
+            {
+              name: "¬B",
+              probability: 1 - pB,
+              children: [
+                { name: "C", probability: pC },
+                { name: "¬C", probability: 1 - pC }
+              ]
+            }
+          ]
+        }
+      ]
+    };
+
 
     if (currentPerspective == 'universe') {
       treeData = {
@@ -540,66 +660,60 @@ function conditional() {
       }
     }
 
-    var container = d3.select("#svgTreeCP");
-    var width = container.node().clientWidth;
-    var height = 250;
-    var padding = 15;
-
-    d3.select("#svgTreeCP").html("");
-    var svg = d3.select("#svgTreeCP").append("svg")
-        .attr("width", width)
-        .attr("height", height)
-        .append("g")
-        .attr("transform", "translate(" + padding + "," + padding + ")");
-
-    var treeLayout = d3.layout.tree().size([height - 2 * padding, width - 2 * padding]);
-    var nodes = treeLayout.nodes(treeData);
-    var links = treeLayout.links(nodes);
-
-    var diagonal = d3.svg.diagonal().projection(function (d) {
-        return [d.y, d.x];
-    });
-
-    nodes.forEach(function (d) {
-        d.y = d.depth * (width / 4);
-    });
-
-    svg.selectAll(".link")
-        .data(links)
-        .enter().append("path")
-        .attr("class", "link")
-        .attr("d", diagonal)
-        .style("stroke-width", "2px");
-
-    var node = svg.selectAll(".node")
-        .data(nodes)
-        .enter().append("g")
-        .attr("class", "node")
-        .attr("transform", function (d) {
-            return "translate(" + d.y + "," + d.x + ")";
-        });
-
-    node.append("circle")
-        .attr("r", 8)
-        .style("fill", function (d) {
-            return getFillColor(d.name);
-        });
-
-    node.append("text")
-        .attr("dx", function (d) { return d.children ? -10 : 10; })
-        .attr("dy", 4)
-        .style("font-size", "12px")
-        .style("text-anchor", function (d) { return d.children ? "end" : "start"; })
-        .text(function (d) { if (d.name != "P") return d.name + " (" + d.probability.toFixed(3) + ")"; });
-
-    function getFillColor(name) {
-        if (name.startsWith("A")) return "#FF9B3C";
-        if (name.startsWith("B")) return "#00d0a1";
-        if (name.startsWith("C")) return "#64bdff";
-        if (name.startsWith("¬")) return "#ccc";
-        return "#222";
+    if (!treeData || typeof treeData !== "object" || !treeData.children) {
+      console.error("treeData is not properly initialized or missing children");
+      return;
     }
 
+    // Ensure treeData is valid before further processing
+    console.log("Tree Data initialized:", treeData);
+
+    let width = 600;
+    let height = 200;
+    let treeLayout = d3.tree().size([height - 15, width - 225]);
+    let root = d3.hierarchy(treeData);
+    treeLayout(root);
+
+    d3.select("#svgTreeCP").html("");
+    let svg = d3.select("#svgTreeCP").append("svg")
+      .attr("width", width)
+      .attr("height", height)
+      .append("g")
+      .attr("transform", "translate(-10,25)");
+
+    let link = svg.selectAll(".link")
+      .data(root.links())
+      .enter().append("path")
+      .attr("class", "link")
+      .attr("fill", "none")
+      .attr("stroke", "#555")
+      .attr("stroke-width", 2)
+      .attr("d", d3.linkHorizontal()
+        .x(d => d.y)
+        .y(d => d.x));
+
+    let node = svg.selectAll(".node")
+      .data(root.descendants())
+      .enter().append("g")
+      .attr("class", "node")
+      .attr("transform", d => `translate(${d.y},${d.x})`)
+
+
+    node.append("circle")
+      .attr("r", 6)
+      .attr("fill", "#69b3a2")
+      .style("fill", d =>  {
+        if (d.data.name.startsWith("A")) return "#FF9B3C";
+        if (d.data.name.startsWith("B")) return "#00d0a1";
+        if (d.data.name.startsWith("C")) return "#64bdff";
+        if (d.data.name.startsWith("¬")) return "#ccc";
+        return "#222";
+    })
+
+    node.append("text")
+      .attr("dx", 8)
+      .attr("dy", 4)
+      .text(d => { if (d.data.name != "P") return `${d.data.name} (${d.data.probability.toFixed(2)})` } );
   }
 
 
@@ -627,50 +741,26 @@ function conditional() {
 
   //Draws SVG and elements according to width
   function drawCP() {
-    var w = d3.select('#svgBallCP').node().clientWidth;
-    var wProb = d3.select('#svgProbCP').node().clientWidth;
-    var wTree = d3.select('#svgTreeCP').node().clientWidth;
-    var h = 500;
-    var hProb = 200;
-    var hTree = 200;
-    var padding = 25;
+    let w = 1000;
+    let h = 400;
+    let padding = 25;
 
-    //Update svg size
     svgBallCP.attr("width", w).attr("height", h);
-    svgProbCP.attr("width", wProb).attr("height", hProb).call(tipCP);
-    svgTreeCP.attr("width", wTree).attr("height", hTree).call(tipCP);
+    svgProbCP.attr("width", 400).attr("height", 200);
+    svgTreeCP.attr("width", 600).attr("height", 200);
 
-    //Update Clip Path
-    clipCP.attr("x", 0).attr("y", 0).attr("width", w-2*padding).attr("height", h-2*padding);
-
-    //Update Container
+    clipCP.attr("x", 0).attr("y", 0).attr("width", w - 2 * padding).attr("height", h - 2 * padding);
     containerBallCP.attr("transform", "translate(" + padding + "," + padding + ")");
     containerProbCP.attr("transform", "translate(" + padding + "," + padding + ")");
     containerTreeCP.attr("transform", "translate(" + padding + "," + padding + ")");
-
-    //Update Scale Range
-    xScaleCP.range([0, (w - 2*padding)]);
-    xWidthCP.range([0, (w - 2*padding)]);
-    yScaleCP.range([0, (h-2*padding)]);
-
-    xScaleProbCP.rangeRoundBands([0, wProb - 2*padding], .5);
-    yScaleProbCP.range([hProb-2*padding, 0]);
-
-    //Update Axis
-    probAxis.attr("transform", "translate(" + 0 + "," + (hProb-2*padding+1) + ")").call(xAxis);
-
-    //Update Rectangles
+    probAxis.attr("transform", "translate(0," + 180 + ")").call(xAxis);
     changePerspective(currentPerspective);
-    updateRects(0)
-  }
+    updateRects(0);
+}
 
-
-  start();
+  start()
   drawCP();
-  $(window).on("resize", drawCP);
-
-  $(document).ready(function () {
-    calcIndependence();
-    updateProbabilities();
-  });
+  calcIndependence();
+  updateProbabilities();
+  window.addEventListener("resize", drawCP);
 }
