@@ -1,6 +1,15 @@
 //Handles functionality of Compound Probability
 $(window).load(function () {
   conditional();
+  document.querySelectorAll(".perspective").forEach(button => {
+    button.addEventListener("click", function() {
+        document.querySelectorAll(".perspective").forEach(btn => btn.classList.remove("active"));
+        this.classList.add("active");
+        changePerspective(this.id);
+        updateRects(1000);
+    });
+});
+
 });
 
 //*******************************************************************************//

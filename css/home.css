@@ -1,120 +1,144 @@
+/* Combined home.css and unit-style.css with redundancies removed */
+
 body {
-    margin: 0;
-    font-family: 'Lato', sans-serif;
-    background-color: #ffffff;
+    width: auto;
+    margin-top: 10px;
+    margin: auto;
+    font-family: "Lato", sans-serif;
+    color: #222222;
+    padding: 10px;
+    font-weight: 300;
+    overflow-y: auto;
 }
+
+/* h1 {
+    font-weight: 600;
+    color: black;
+    font-size: 30px;
+} */
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 1%;
+    margin-top: 0;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+h4 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p a {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #009CDE;
+}
+
+ul, li {
+    list-style-type: none;
+    color: black;
+    padding: 5px 0;
+}
+
 /* Top menu container */
 .menu-top {
     display: flex;
-    justify-content: space-between; /* puts menu left and logout right */
-    align-items: center; /* vertically aligns content */
+    justify-content: space-between;
+    align-items: center;
     background-color: #ffffff;
     padding: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-/* Menu items styling */
-.menu-top ul {
+.menu-top ul#menu {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
 }
 
-.menu-top ul li {
+.menu-top ul#menu > li {
     position: relative;
-}
-
-.menu-top ul li a {
-    display: block;
-    padding: 8px 12px;
-    text-decoration: none;
-    color: #333;
-}
-
-.menu-top ul li a:hover {
-    background-color: #f0f0f0;
-}
-
-/* Dropdown menu styling */
-.dropdown:hover .dropdown-content,
-.dropdown-content:hover {
-    display: flex !important;
+    display: flex;
     flex-direction: column;
+}
+
+.menu-top ul#menu > li > a {
+    padding: 10px 15px;
+    display: block;
+    color: #333;
 }
 
 .dropdown-content {
     display: none;
+    position: absolute;
     top: 100%;
     left: 0;
+    flex-direction: column;
     background-color: #ffffff;
     min-width: 160px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
     z-index: 10;
 }
 
-.dropdown-content li {
-    width: 100%;
+.dropdown-content li a {
+    padding: 10px 15px;
+    color: #333;
+    display: block;
 }
 
-.dropdown:hover .dropdown-content {
+.menu-top ul#menu > li.dropdown:hover .dropdown-content {
     display: flex;
-    flex-direction: column;
 }
 
-/* Logout button styling (keeping consistent) */
-.google-button {
-    padding: 8px 12px;
-    background-color: #db4437;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-.google-button:hover {
-    background-color: #c33d2e;
-}
-
-/* Header styling for alignment */
-.header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.header h1 {
-    margin-top: 15px;
-}
-
-
+/* Content Section */
 .content {
-	overflow-y: auto;
-	max-height: 85vh; /* Adjust as necessary */
-  }
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: visible;
+}
 
 .section {
     padding: 20px;
     width: 80%;
     margin: auto;
 }
-.section h2 {
-    border-bottom: 2px solid #007bff;
-    padding-bottom: 5px;
+
+
+/* Responsive Styling */
+@media screen and (max-width: 750px) {
+    .unit-nav li {
+        font-size: 12px;
+    }
+    .button-1 {
+        font-size: 0.6em;
+    }
 }
-.section ul {
-    list-style-type: none;
-    padding: 0;
-}
-.section ul li {
-    padding: 5px 0;
-}
-.section ul li a {
-    color: #007bff;
-    text-decoration: none;
-}
-.section ul li a:hover {
-    text-decoration: underline;
+
+@media screen and (min-width: 1024px) {
+    .unit-intro p {
+        font-size: 1.8em;
+    }
+    .button-1 {
+        font-size: 0.8em;
+    }
 }

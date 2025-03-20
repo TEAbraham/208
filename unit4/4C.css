@@ -240,6 +240,29 @@ h5 {
     fill: black;
 }
 
+#perspectiveControl {
+  display: flex;          /* Ensures buttons appear in a row */
+  justify-content: center; /* Centers the row horizontally */
+  gap: 10px;              /* Adds spacing between buttons */
+  padding: 10px 0;        /* Adds padding above and below */
+  flex-wrap: wrap;        /* Prevents overflow on smaller screens */
+}
+
+.button-1.perspective {
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #46C8B2;
+  background-color: white;
+  color: #333;
+}
+
+.button-1.perspective.active,
+.button-1.perspective:hover {
+  background-color: #46C8B2;
+  color: white;
+}
 
 .radio-inline .checkmark:after {
     background: #46C8B2;
