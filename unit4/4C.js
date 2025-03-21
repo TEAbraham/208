@@ -722,17 +722,17 @@ function conditional() {
 
   //Check if event pairs are Independent
   function calcIndependence(){
-    if(round(calcOverlap(0,'b')/eventsData[1].width,3) == round(eventsData[0].width,3)) {
+    if((calcOverlap(0,'b')/eventsData[1].width).toFixed(3) == (eventsData[0].width).toFixed(3)) {
       $('#AB').html('&#10987;');
     } else {
       $('#AB').html('&#8527;');
     }
-    if(round(calcOverlap(1,'c')/eventsData[2].width,3) == round(eventsData[1].width,3)) {
+    if((calcOverlap(1,'c')/eventsData[2].width).toFixed(3) == (eventsData[1].width).toFixed(3)) {
       $('#BC').html('&#10987;');
     } else {
       $('#BC').html('&#8527;');
     }
-    if(round(calcOverlap(2,'a')/eventsData[0].width,3) == round(eventsData[2].width,3)) {
+    if((calcOverlap(2,'a')/eventsData[0].width).toFixed(3) == (eventsData[2].width).toFixed(3)) {
       $('#CA').html('&#10987;');
     } else {
       $('#CA').html('&#8527;');

@@ -1,7 +1,7 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
-import { 
-    getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, 
-    onAuthStateChanged, signInWithPopup, GoogleAuthProvider  
+import {
+    getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut,
+    onAuthStateChanged, signInWithPopup, GoogleAuthProvider
 } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
 import { firebaseConfig } from './firebase-config.js';
 
@@ -43,6 +43,12 @@ window.signUp = () => {
 window.login = () => {
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
+    const redirectURL = localStorage.getItem("redirectAfterLogin");
+    if (redirectURL) {
+        localStorage.removeItem("redirectAfterLogin");
+        window.location.href = redirectURL;
+    }
+
     signInWithEmailAndPassword(auth, email, password).then(() => {
         alert('Login successful');
         window.location.href = "home.html";

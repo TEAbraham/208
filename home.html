@@ -1,41 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Firebase -->
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
+        import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, onAuthStateChanged, signInWithPopup, GoogleAuthProvider  } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
+        import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
+        import { firebaseConfig } from 'js/firebase-config.js';
 
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+        const db = getFirestore(app);
+
+        // Check if user is logged in
+        onAuthStateChanged(auth, (user) => {
+            if (!user) {
+                // User not logged in, save current page before redirecting
+                localStorage.setItem("redirectAfterLogin", window.location.href);
+                window.location.href = "index.html";
+            }
+        });
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AP Statistics</title>
 
-    <!-- Fonts -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Assistant:300,400,600,700" rel="stylesheet">
-
-    <!-- Project Pages CSS-->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <!-- Home Page CSS -->
-    <link rel="stylesheet" type="text/css" href="css/home.css">
-
-    <!-- Full Page CSS -->
+    <!-- CSS Imports -->
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
     <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css" />
+    <link rel="stylesheet" href="css/home.css">
+    <!--Fonts-->
+    <link href="//fonts.googleapis.com/css?family=Lato:100,200,300,400" rel="stylesheet" type="text/css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="./img/favicon.png"/>
-
+    <!-- JavaScript Imports -->
     <!-- Jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-    <!-- Full Page -->
-    <script src="./js/jquery.js"></script>
-    <script src="./js/jquery.fullpage.js"></script>
-
-    <!-- D3 library -->
-    <script src="./js/d3.min.js"></script>
-
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <!-- jstat -->
+    <script src="js/jstat.min.js"></script>
+    <!-- LaTeXMathML -->
+    <script src="js/LaTeXMathML.js"></script>
+    <!-- D3 -->
+    <script src="js/d3.min.js"></script>
     <!-- Module scripts -->
-    <script type="module" src="./js/script.js"></script>
-    <script type="module" src="./js/home.js"></script>
+    <script type="module" src="js/script.js"></script>
+    <script type="module" src="js/home.js"></script>
 
 </head>
 <body>
@@ -63,7 +76,6 @@
                         <li><a href="https://classroom.google.com/u/1/w/NzA4OTk2OTI3MzAw/t/all">Course Documents</a></li>
                     </ul>
                 </li>
-
                 <li id="logoutButton" style="display:none;"><a href="#" onclick="logout()">Logout</a></li>
             </ul>
         </div>
