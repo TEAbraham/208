@@ -29,25 +29,25 @@ function conditional() {
   let mapper = { 0: "P(A)", 1: "P(B)", 2: "P(C)" };
 
   // Create SVG Elements
-  let svgBallCP = d3.select("#svgBallCP").append("svg").attr("width", 1000).attr("height", 400);
-  let svgProbCP = d3.select("#svgProbCP").append("svg").attr("width", 400).attr("height", 200);
-  let svgTreeCP = d3.select("#svgTreeCP").append("svg").attr("width", 600).attr("height", 200);
+  let svgBall = d3.select("#svgBall").append("svg").attr("width", 1000).attr("height", 400);
+  let svgProb = d3.select("#svgProb").append("svg").attr("width", 600).attr("height", 200);
+  let svgTree = d3.select("#svgTree").append("svg").attr("width", 600).attr("height", 200);
 
   // Create Clip Path
-  let clipCP = svgBallCP.append("clipPath").attr("id", "viewCP").append("rect");
+  let clip = svgBall.append("clipPath").attr("id", "view").append("rect");
 
   // Create Container
-  let containerBallCP = svgBallCP.append("g").attr("clip-path", "url(#viewCP)");
-  let containerProbCP = svgProbCP.append("g");
-  let containerTreeCP = svgTreeCP.append("g");
+  let containerBall = svgBall.append("g").attr("clip-path", "url(#view)");
+  let containerProb = svgProb.append("g");
+  let containerTree = svgTree.append("g");
 
   // Create Scales (D3v7)
-  let xScaleCP = d3.scaleLinear().domain([0, 1]).range([0, 980]);
-  let xWidthCP = d3.scaleLinear().domain([0, 1]).range([0, 980]);
-  let yScaleCP = d3.scaleLinear().domain([0, 1]).range([0, 380]);
+  let xScale = d3.scaleLinear().domain([0, 1]).range([0, 980]);
+  let xWidth = d3.scaleLinear().domain([0, 1]).range([0, 980]);
+  let yScale = d3.scaleLinear().domain([0, 1]).range([0, 380]);
 
-  let xScaleProbCP = d3.scaleBand().domain(d3.range(eventsData.length)).range([0, 380]).padding(0.1);
-  let yScaleProbCP = d3.scaleLinear().domain([0, 1]).range([180, 0]);
+  let xScaleProb = d3.scaleBand().domain(d3.range(eventsData.length)).range([0, 580]).padding(0.1);
+  let yScaleProb = d3.scaleLinear().domain([0, 1]).range([180, 0]);
 
   // Drag Functions (D3v7)
   let dragRect = d3
@@ -56,7 +56,7 @@ function conditional() {
       d3.select(this.parentNode).raise();
     })
     .on("drag", function (event, d) {
-      let x = Math.max(0, Math.min(xScaleCP.invert(event.x), 1 - d.width));
+      let x = Math.max(0, Math.min(xScale.invert(event.x), 1 - d.width));
       d.x = x;
       changePerspective(currentPerspective);
       updateRects(0);
@@ -68,7 +68,7 @@ function conditional() {
       d3.select(this).raise();
     })
     .on("drag", function (event, d) {
-      let x = Math.max(0, Math.min(xScaleCP.invert(event.x), d.x + d.width));
+      let x = Math.max(0, Math.min(xScale.invert(event.x), d.x + d.width));
       let change = d.x - x;
       d.x = x;
       d.width = Math.max(0, d.width + change);
@@ -82,7 +82,7 @@ function conditional() {
       d3.select(this).raise();
     })
     .on("drag", function (event, d) {
-      let w = Math.max(0, Math.min(xScaleCP.invert(event.x) - d.x, 1 - d.x));
+      let w = Math.max(0, Math.min(xScale.invert(event.x) - d.x, 1 - d.x));
       d.width = w;
       changePerspective(currentPerspective);
       updateRects(0);
@@ -90,7 +90,7 @@ function conditional() {
 
 
   // Create Tooltip
-  let tipCP = d3.select("body").append("div")
+  let tip = d3.select("body").append("div")
     .attr("class", "d3-tip")
     .style("position", "absolute")
     .style("visibility", "hidden")
@@ -101,7 +101,7 @@ function conditional() {
 
 
   // Ball SVG elements
-  let events = containerBallCP
+  let events = containerBall
     .selectAll("g.event")
     .data(eventsData)
     .enter()
@@ -128,28 +128,28 @@ function conditional() {
     .text((d) => d.name)
     .attr("class", (d) => d.name + " label");
 
-  let circles = containerBallCP.append("g").attr("class", "ball");
+  let circles = containerBall.append("g").attr("class", "ball");
 
 
   //Prob SVG elements
-  var probEvents = containerProbCP.selectAll('g.event').data(eventsData).enter().append('g').attr('class', 'event');
+  var probEvents = containerProb.selectAll('g.event').data(eventsData).enter().append('g').attr('class', 'event');
 
-  var probRects = probEvents.append('rect').attr('class', function(d){ return (d.name + ' probability') }).on("mouseover", function(d,i) { tipCP.show(d,i);}).on("mouseout", function() { tipCP.hide();});;
+  var probRects = probEvents.append('rect').attr('class', function(d){ return (d.name + ' probability') }).on("mouseover", function(d,i) { tip.show(d,i);}).on("mouseout", function() { tip.hide();});;
 
   // Create Axis (D3v7)
-  let xAxis = d3.axisBottom(xScaleProbCP).tickFormat((d) => mapper[d]);
-  let probAxis = containerProbCP.append("g").attr("class", "x axis");
+  let xAxis = d3.axisBottom(xScaleProb).tickFormat((d) => mapper[d]);
+  let probAxis = containerProb.append("g").attr("class", "x axis");
 
   // Event Listeners for Tooltip
   function handleMouseOver(event, d) {
-    tipCP.style("visibility", "visible")
+    tip.style("visibility", "visible")
           .html(`Value: ${d}`)
           .style("top", `${event.pageY - 10}px`)
           .style("left", `${event.pageX + 10}px`);
   }
 
   function handleMouseOut() {
-    tipCP.style("visibility", "hidden");
+    tip.style("visibility", "hidden");
   }
 
   //Updates positions of rectangles and lines
@@ -158,33 +158,33 @@ function conditional() {
     rects
       .transition()
       .duration(dur)
-      .attr("x", (d) => xScaleCP(d.x))
-      .attr("y", (d) => yScaleCP(d.y))
-      .attr("width", (d) => xWidthCP(d.width))
-      .attr("height", (d) => yScaleCP(d.height));
+      .attr("x", (d) => xScale(d.x))
+      .attr("y", (d) => yScale(d.y))
+      .attr("width", (d) => xWidth(d.width))
+      .attr("height", (d) => yScale(d.height));
 
     leftBorders.transition().duration(dur)
-      .attr('x1', function(d){ return xScaleCP(d.x) })
-      .attr('y1', function(d){ return yScaleCP(d.y) })
-      .attr('x2', function(d){ return xScaleCP(d.x) })
-      .attr('y2', function(d){ return yScaleCP(d.y+d.height) });
+      .attr('x1', function(d){ return xScale(d.x) })
+      .attr('y1', function(d){ return yScale(d.y) })
+      .attr('x2', function(d){ return xScale(d.x) })
+      .attr('y2', function(d){ return yScale(d.y+d.height) });
 
     rightBorders.transition().duration(dur)
-      .attr('x1', function(d){ return xScaleCP(d.x+d.width) })
-      .attr('y1', function(d){ return yScaleCP(d.y) })
-      .attr('x2', function(d){ return xScaleCP(d.x+d.width) })
-      .attr('y2', function(d){ return yScaleCP(d.y+d.height) });
+      .attr('x1', function(d){ return xScale(d.x+d.width) })
+      .attr('y1', function(d){ return yScale(d.y) })
+      .attr('x2', function(d){ return xScale(d.x+d.width) })
+      .attr('y2', function(d){ return yScale(d.y+d.height) });
 
     texts.transition().duration(dur)
-      .attr('x', function(d){ return xScaleCP(d.x + d.width/2) })
-      .attr('y', function(d){ return yScaleCP(d.y + d.height + 0.05) });
+      .attr('x', function(d){ return xScale(d.x + d.width/2) })
+      .attr('y', function(d){ return yScale(d.y + d.height + 0.05) });
 
     circles.selectAll('g').each(function(){
       d3.select(this).transition().duration(dur)
-        .attr('transform', function(d){return 'translate(' + xScaleCP(d.p) + ',0)'});
+        .attr('transform', function(d){return 'translate(' + xScale(d.p) + ',0)'});
     });
 
-    let probEvents = containerProbCP.selectAll("g.event").data(eventsData);
+    let probEvents = containerProb.selectAll("g.event").data(eventsData);
 
     // Bind data to probability bars
     let probRects = probEvents.selectAll(".probability").data(eventsData);
@@ -194,10 +194,10 @@ function conditional() {
       .append("rect")
       .merge(probRects)
       .transition().duration(dur)
-      .attr("x", (d, i) => xScaleProbCP(i))
-      .attr("y", (d, i) => yScaleProbCP(calcOverlap(i, currentPerspective) / xWidthCP.domain()[1]))
-      .attr("width", xScaleProbCP.bandwidth())
-      .attr("height", (d, i) => 180 - yScaleProbCP(calcOverlap(i, currentPerspective) / xWidthCP.domain()[1]))
+      .attr("x", (d, i) => xScaleProb(i))
+      .attr("y", (d, i) => yScaleProb(calcOverlap(i, currentPerspective) / xWidth.domain()[1]))
+      .attr("width", xScaleProb.bandwidth())
+      .attr("height", (d, i) => 180 - yScaleProb(calcOverlap(i, currentPerspective) / xWidth.domain()[1]))
       .attr("class", (d) => `${d.name} probability`);
 
     // Bind data to probability labels
@@ -207,11 +207,11 @@ function conditional() {
       .append("text")
       .merge(probTexts)
       .transition().duration(dur)
-      .attr("x", (d, i) => xScaleProbCP(i) + xScaleProbCP.bandwidth() / 2)
-      .attr("y", (d, i) => yScaleProbCP(calcOverlap(i, currentPerspective) / xWidthCP.domain()[1]) - 5)
+      .attr("x", (d, i) => xScaleProb(i) + xScaleProb.bandwidth() / 2)
+      .attr("y", (d, i) => yScaleProb(calcOverlap(i, currentPerspective) / xWidth.domain()[1]) - 5)
       .attr("text-anchor", "middle")
       .attr("class", (d) => `${d.name} probability-label`)
-      .text((d, i) => (calcOverlap(i, currentPerspective) / xWidthCP.domain()[1]).toFixed(2));
+      .text((d, i) => (calcOverlap(i, currentPerspective) / xWidth.domain()[1]).toFixed(2));
 
     probRects.exit().remove();
     probTexts.exit().remove();
@@ -243,11 +243,11 @@ function conditional() {
     if(c) events.push(c);
 
     var g = circles.append('g').datum({p: p, events: events })
-        .attr('transform', function(d){ return 'translate(' + xScaleCP(d.p) + ',0)'; });
+        .attr('transform', function(d){ return 'translate(' + xScale(d.p) + ',0)'; });
 
     var circle = g.append('circle')
                   .attr('r', radius)
-                  .attr('cy', function(){ return yScaleCP(0); });
+                  .attr('cy', function(){ return yScale(0); });
 
     pos.forEach(function(d, i){
         if(i === 0) return;
@@ -256,7 +256,7 @@ function conditional() {
           .transition()
           .duration(dur * dt)
           .ease(d3.easeBounce) // Updated for D3 v7
-          .attr('cy', function(){ return yScaleCP(d.t); })
+          .attr('cy', function(){ return yScale(d.t); })
           .on("end", function(){ // Replacing `each('end', ...)` in D3 v7
               if(d.event) d3.select(this).classed(d.event, true);
           });
@@ -299,20 +299,20 @@ function conditional() {
   //Changes Perspective
   function changePerspective(p){
     if (p === "a" && eventsData[0].width) {
-      xScaleCP.domain([eventsData[0].x, eventsData[0].x + eventsData[0].width]);
-      xWidthCP.domain([0, eventsData[0].width]);
+      xScale.domain([eventsData[0].x, eventsData[0].x + eventsData[0].width]);
+      xWidth.domain([0, eventsData[0].width]);
       currentPerspective = "a";
     } else if (p === "b" && eventsData[1].width) {
-      xScaleCP.domain([eventsData[1].x, eventsData[1].x + eventsData[1].width]);
-      xWidthCP.domain([0, eventsData[1].width]);
+      xScale.domain([eventsData[1].x, eventsData[1].x + eventsData[1].width]);
+      xWidth.domain([0, eventsData[1].width]);
       currentPerspective = "b";
     } else if (p === "c" && eventsData[2].width) {
-      xScaleCP.domain([eventsData[2].x, eventsData[2].x + eventsData[2].width]);
-      xWidthCP.domain([0, eventsData[2].width]);
+      xScale.domain([eventsData[2].x, eventsData[2].x + eventsData[2].width]);
+      xWidth.domain([0, eventsData[2].width]);
       currentPerspective = "c";
     } else {
-      xScaleCP.domain([0, 1]);
-      xWidthCP.domain([0, 1]);
+      xScale.domain([0, 1]);
+      xWidth.domain([0, 1]);
       currentPerspective = "universe";
     }
     updateRects(1000);
@@ -670,16 +670,16 @@ function conditional() {
 
     let width = 600;
     let height = 200;
-    let treeLayout = d3.tree().size([height - 15, width - 225]);
+    let treeLayout = d3.tree().size([height - 10, width - 200]);
     let root = d3.hierarchy(treeData);
     treeLayout(root);
 
-    d3.select("#svgTreeCP").html("");
-    let svg = d3.select("#svgTreeCP").append("svg")
+    d3.select("#svgTree").html("");
+    let svg = d3.select("#svgTree").append("svg")
       .attr("width", width)
       .attr("height", height)
       .append("g")
-      .attr("transform", "translate(-10,25)");
+      .attr("transform", "translate(20,20)");
 
     let link = svg.selectAll(".link")
       .data(root.links())
@@ -740,27 +740,27 @@ function conditional() {
   }
 
   //Draws SVG and elements according to width
-  function drawCP() {
+  function draw() {
     let w = 1000;
     let h = 400;
     let padding = 25;
 
-    svgBallCP.attr("width", w).attr("height", h);
-    svgProbCP.attr("width", 400).attr("height", 200);
-    svgTreeCP.attr("width", 600).attr("height", 200);
+    svgBall.attr("width", w).attr("height", h);
+    svgProb.attr("width", 600).attr("height", 200);
+    svgTree.attr("width", 600).attr("height", 200);
 
-    clipCP.attr("x", 0).attr("y", 0).attr("width", w - 2 * padding).attr("height", h - 2 * padding);
-    containerBallCP.attr("transform", "translate(" + padding + "," + padding + ")");
-    containerProbCP.attr("transform", "translate(" + padding + "," + padding + ")");
-    containerTreeCP.attr("transform", "translate(" + padding + "," + padding + ")");
+    clip.attr("x", 0).attr("y", 0).attr("width", w - 2 * padding).attr("height", h - 2 * padding);
+    containerBall.attr("transform", "translate(" + padding + "," + padding + ")");
+    containerProb.attr("transform", "translate(" + padding + "," + padding + ")");
+    containerTree.attr("transform", "translate(" + padding + "," + padding + ")");
     probAxis.attr("transform", "translate(0," + 180 + ")").call(xAxis);
     changePerspective(currentPerspective);
     updateRects(0);
 }
 
   start()
-  drawCP();
+  draw();
   calcIndependence();
   updateProbabilities();
-  window.addEventListener("resize", drawCP);
+  window.addEventListener("resize", draw);
 }

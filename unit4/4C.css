@@ -1,6 +1,5 @@
 /* Conditional Probability */
 
-
 .A {
     fill: #FF9B3C;
     color: #FF9B3C;
@@ -178,7 +177,7 @@
   display: table-cell;
 }
 
-#svgTreeCP {
+#svgTree {
   width: 100%;
   height: auto;
   max-height: 250px;
