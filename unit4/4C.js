@@ -42,52 +42,60 @@ function conditional() {
   let containerProb = svgProb.append("g");
   let containerTree = svgTree.append("g");
 
-  // Create Scales (D3v7)
-  let xScale = d3.scaleLinear().domain([0, 1]).range([0, 980]);
-  let xWidth = d3.scaleLinear().domain([0, 1]).range([0, 980]);
-  let yScale = d3.scaleLinear().domain([0, 1]).range([0, 380]);
+  // Create Scales
+  let xScale = d3.scaleLinear().domain([0, 1]).range([0, fullWidth * 0.9 - 50]);
+  let xWidth = d3.scaleLinear().domain([0, 1]).range([0, fullWidth * 0.9 - 50]);
+  let yScale = d3.scaleLinear().domain([0, 1]).range([0, 400 - 50]);
 
-  let xScaleProb = d3.scaleBand().domain(d3.range(eventsData.length)).range([0, 580]).padding(0.1);
-  let yScaleProb = d3.scaleLinear().domain([0, 1]).range([180, 0]);
+  let xScaleProb = d3.scaleBand().domain(d3.range(eventsData.length)).range([0, fullWidth * 0.9 - 50]).padding(0.1);
+  let yScaleProb = d3.scaleLinear().domain([0, 1]).range([200 - 50, 0]);
 
-  // Drag Functions (D3v7)
-  let dragRect = d3
-    .drag()
-    .on("start", function () {
+  // Drag Functions
+  let dragRect = d3.drag()
+    .on("start", function (event, d) {
       d3.select(this.parentNode).raise();
     })
     .on("drag", function (event, d) {
-      let x = Math.max(0, Math.min(xScale.invert(event.x), 1 - d.width));
-      d.x = x;
-      changePerspective(currentPerspective);
+      const mouseX = xScale.invert(event.x);
+      const newX = Math.max(0, Math.min(mouseX, 1 - d.width));
+      d.x = newX;
+      const i = eventsData.findIndex(e => e.name === d.name);
+      if (i >= 0) eventsData[i].x = newX;
       updateRects(0);
     });
 
-  let dragLeft = d3
-    .drag()
-    .on("start", function () {
+  let dragLeft = d3.drag()
+    .on("start", function (event, d) {
       d3.select(this).raise();
     })
     .on("drag", function (event, d) {
-      let x = Math.max(0, Math.min(xScale.invert(event.x), d.x + d.width));
-      let change = d.x - x;
-      d.x = x;
-      d.width = Math.max(0, d.width + change);
-      changePerspective(currentPerspective);
+      const mouseX = xScale.invert(event.x);
+      const newX = Math.max(0, Math.min(mouseX, d.x + d.width));
+      const newWidth = d.x + d.width - newX;
+      d.x = newX;
+      d.width = newWidth;
+      const i = eventsData.findIndex(e => e.name === d.name);
+      if (i >= 0) {
+        eventsData[i].x = newX;
+        eventsData[i].width = newWidth;
+      }
       updateRects(0);
     });
 
-  let dragRight = d3
-    .drag()
-    .on("start", function () {
+  let dragRight = d3.drag()
+    .on("start", function (event, d) {
       d3.select(this).raise();
     })
     .on("drag", function (event, d) {
-      let w = Math.max(0, Math.min(xScale.invert(event.x) - d.x, 1 - d.x));
-      d.width = w;
-      changePerspective(currentPerspective);
+      const mouseX = xScale.invert(event.x);
+      const newWidth = Math.max(0.01, Math.min(mouseX - d.x, 1 - d.x));
+      d.width = newWidth;
+      const i = eventsData.findIndex(e => e.name === d.name);
+      if (i >= 0) eventsData[i].width = newWidth;
       updateRects(0);
     });
+
+
 
   // Ball SVG elements
   let events = containerBall
@@ -198,7 +206,7 @@ function conditional() {
       .attr("y", (d, i) => yScaleProb(calcOverlap(i, currentPerspective) / xWidth.domain()[1]) - 5)
       .attr("text-anchor", "middle")
       .attr("class", (d) => `${d.name} probability-label`)
-      .text((d, i) => (calcOverlap(i, currentPerspective) / xWidth.domain()[1]).toFixed(2));
+      .text((d, i) => (calcOverlap(i, currentPerspective) / xWidth.domain()[1]).toFixed(3));
 
     probRects.exit().remove();
     probTexts.exit().remove();
@@ -697,7 +705,7 @@ function conditional() {
     node.append("text")
       .attr("dx", 0)
       .attr("dy", d => { if (d.data.name != "¬C") return `-10`})
-      .text(d => { if (d.data.name != "P") return `${d.data.name} (${d.data.probability.toFixed(2)})` } );
+      .text(d => { if (d.data.name != "P") return `${d.data.name} (${d.data.probability.toFixed(3)})` } );
   }
 
 
@@ -724,48 +732,43 @@ function conditional() {
   }
 
   //Draws SVG and elements according to width
-// Compound Probability Drawing Module
+  function draw() {
+    const padding = 25;
+    const w = fullWidth * 0.9;
+    const h = 400;
+    const wSmall = fullWidth * 0.45;
+    const hSmall = 200;
 
-function draw() {
-  const padding = 25;
-  const w = fullWidth * 0.9;
-  const h = 400;
-  const wSmall = fullWidth * 0.45;
-  const hSmall = 200;
+    svgBall.attr("width", w).attr("height", h);
+    svgProb.attr("width", wSmall).attr("height", hSmall);
+    svgTree.attr("width", wSmall).attr("height", hSmall);
 
-  svgBall.attr("width", w).attr("height", h);
-  svgProb.attr("width", wSmall).attr("height", hSmall);
-  svgTree.attr("width", wSmall).attr("height", hSmall);
+    xScale.range([0, w - 2 * padding]);
+    xWidth.range([0, w - 2 * padding]);
+    yScale.range([0, h - 2 * padding]);
 
-  xScale.range([0, w - 2 * padding]);
-  xWidth.range([0, w - 2 * padding]);
-  yScale.range([0, h - 2 * padding]);
+    xScaleProb.range([0, wSmall - 2 * padding]);
+    yScaleProb.range([hSmall - 2 * padding, 0]);
 
-  xScaleProb.range([0, wSmall - 2 * padding]);
-  yScaleProb.range([hSmall - 2 * padding, 0]);
+    containerBall.attr("transform", `translate(${padding},${padding})`);
+    containerProb.attr("transform", `translate(${padding},${padding})`);
+    containerTree.attr("transform", `translate(${padding},${padding})`);
 
-  containerBall.attr("transform", `translate(${padding},${padding})`);
-  containerProb.attr("transform", `translate(${padding},${padding})`);
-  containerTree.attr("transform", `translate(${padding},${padding})`);
+    clipBall
+      .attr("x", 0)
+      .attr("y", 0)
+      .attr("width", w - 2 * padding)
+      .attr("height", h - 2 * padding);
 
-  clipBall
-    .attr("x", 0)
-    .attr("y", 0)
-    .attr("width", w - 2 * padding)
-    .attr("height", h - 2 * padding);
+    xAxis.scale(xScaleProb);
+    probAxis.attr("transform", `translate(0,${hSmall - 2 * padding + 1})`).call(xAxis);
 
-  xAxis.scale(xScaleProb);
-  probAxis.attr("transform", `translate(0,${hSmall - 2 * padding + 1})`).call(xAxis);
-
-  changePerspective(currentPerspective);
-  updateRects(0);
-}
+    updateRects(0);
+  }
 
   start();
-
   calcIndependence();
   updateProbabilities();
   draw();
-
   window.addEventListener("resize", draw);
 }
