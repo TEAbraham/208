@@ -652,9 +652,6 @@ function conditional() {
       return;
     }
 
-    // Ensure treeData is valid before further processing
-    console.log("Tree Data initialized:", treeData);
-
     let width = fullWidth * 0.45;
     let height = 200;
     let treeLayout = d3.tree().size([height - 10, width - 200]);
