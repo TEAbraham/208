@@ -89,18 +89,6 @@ function conditional() {
       updateRects(0);
     });
 
-
-  // Create Tooltip
-  let tip = d3.select("body").append("div")
-    .attr("class", "d3-tip")
-    .style("position", "absolute")
-    .style("visibility", "hidden")
-    .style("background", "lightgray")
-    .style("padding", "5px")
-    .style("border-radius", "5px")
-    .style("pointer-events", "none");
-
-
   // Ball SVG elements
   let events = containerBall
     .selectAll("g.event")
@@ -134,9 +122,7 @@ function conditional() {
 
   //Prob SVG elements
   var probEvents = containerProb.selectAll('g.event').data(eventsData).enter().append('g').attr('class', 'event');
-
-  var probRects = probEvents.append('rect').attr('class', function(d){ return (d.name + ' probability') }).on("mouseover", function(d,i) { tip.show(d,i);}).on("mouseout", function() { tip.hide();});;
-
+  
   // Create Axis (D3v7)
   let xAxis = d3.axisBottom(xScaleProb).tickFormat((d) => mapper[d]);
   let probAxis = containerProb.append("g").attr("class", "x axis");

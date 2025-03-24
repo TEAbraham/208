@@ -77,7 +77,56 @@
 .axis text {
     fill: black;
 }
+/*Interactive buttons, etc*/
 
+.interactive-wrapper {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Row {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 10px;
+}
+.Column {
+  display: table-cell;
+}
+
+#svgBall svg,
+#svgProb svg,
+#svgTree svg {
+  display: block;
+  margin: auto;
+}
+.frac {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  letter-spacing: 0.001em;
+  text-align: center;
+}
+.frac > span {
+  display: block;
+  padding: 0.1em;
+}
+.frac span.bottom {
+  border-top: thin solid black;
+}
+.frac span.symbol {
+  display: none;
+}
+.small {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-size: 0.75em;
+  font-weight: 20;
+  color: #c1c0c1;
+}
 #perspectiveControl {
   display: flex;          /* Ensures buttons appear in a row */
   justify-content: center; /* Centers the row horizontally */
@@ -102,19 +151,11 @@
   color: white;
 }
 
-.radio-inline .checkmark:after {
-    background: #46C8B2;
-}
-
-
-
 .button-1.active,.button-1:hover, .button-1-s:hover{
    border: 1px solid #46C8B2;
    background-color: #46C8B2;
    color:white;
 }
-
-
 
 @media screen and (min-width: 320px) {
     .axis text {
@@ -128,86 +169,3 @@
     }
 }
 
-/*Interactive buttons, etc*/
-
-.interactive-wrapper {
-  display: block;
-  width: auto;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.form-group{
-  /*text-align: left;*/
-  display: block;
-  margin: 5% 0;
-}
-
-.form-group-inline{
-  text-align: left;
-  display: inline-block;
-  margin: 0 auto;
-}
-
-
-.interactive-graph {
-  display: inline-block;
-
-  width: 30%;
-  vertical-align: middle;
-  margin: 0 auto;
-}
-
-
-.interactive-button {
-  display: inline-block;
-  width: 50%;
-  vertical-align: middle;
-  margin: 0 auto;
-  padding-left: 5%;
-}
-
-.Row {
-  display: table;
-  width: 100%; /*Optional*/
-  table-layout: fixed; /*Optional*/
-  border-spacing: 10px; /*Optional*/
-}
-.Column {
-  display: table-cell;
-}
-
-#svgBall svg,
-#svgProb svg,
-#svgTree svg {
-  display: block;
-  margin: auto;
-}
-
-
-.frac {
-  display: inline-block;
-  position: relative;
-  vertical-align: middle;
-  letter-spacing: 0.001em;
-  text-align: center;
-}
-.frac > span {
-  display: block;
-  padding: 0.1em;
-}
-.frac span.bottom {
-  border-top: thin solid black;
-}
-.frac span.symbol {
-  display: none;
-}
-
-.small {
-  text-align: left;
-  margin-top: 0;
-  margin-bottom: 0.5em;
-  font-size: 0.75em;
-  font-weight: 20;
-  color: #c1c0c1;
-}
