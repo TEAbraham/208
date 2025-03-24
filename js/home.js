@@ -1,4 +1,12 @@
-// Combined home.js and unit.js with redundancies removed
+// Shrink header on scroll
+window.addEventListener("scroll", () => {
+  const menu = document.querySelector(".menu-top");
+  if (window.scrollY > 10) {
+    menu.classList.add("shrink");
+  } else {
+    menu.classList.remove("shrink");
+  }
+});
 
 // Active menu highlighting
 document.querySelectorAll('.menu-top ul li a').forEach(link => {

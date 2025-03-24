@@ -9,14 +9,11 @@ body {
     overflow-y: auto;
 }
 
-/* h1 {
-    font-weight: 600;
-    color: black;
-    font-size: 30px;
-} */
+h1 {
+    color: #222222;
+}
 
 h2 {
-    font-size: 24px;
     font-weight: 700;
     margin-bottom: 1%;
     margin-top: 0;
@@ -26,13 +23,11 @@ h2 {
 
 h3 {
     font-weight: 400;
-    font-size: 24px;
 }
 
 h4 {
     margin-bottom: 0;
     margin-top: 0;
-    font-weight: 400;
 }
 
 a {
@@ -52,18 +47,27 @@ p a {
 
 ul, li {
     list-style-type: none;
-    color: black;
+    color: #222222;
     padding: 5px 0;
 }
 
-/* Top menu container */
 .menu-top {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #ffffff; /* preserve original block shading */
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: #ffffff;
-    padding: 10px;
+    justify-content: space-between;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 0 20px;
+    height: 80px;
+    transition: all 0.3s ease;
+}
+
+.menu-top.shrink {
+    height: 40px;
 }
 
 .menu-top ul#menu {
@@ -74,15 +78,29 @@ ul, li {
 }
 
 .menu-top ul#menu > li {
-    position: relative;
-    display: flex;
-    flex-direction: column;
+    margin: 0 10px;
 }
 
 .menu-top ul#menu > li > a {
-    padding: 10px 15px;
+    color: #222222;
+    text-decoration: none;
     display: block;
-    color: #333;
+    line-height: 80px;
+    transition: line-height 0.3s;
+}
+
+.menu-top.shrink ul#menu > li > a {
+    line-height: 40px;
+}
+
+/* Optional: scale down the logo a bit when shrunk */
+#logo {
+    height: 60px;
+    transition: transform 0.3s ease;
+}
+.menu-top.shrink #logo {
+    transform: scale(0.5);
+    transform-origin: left center;
 }
 
 .dropdown-content {
