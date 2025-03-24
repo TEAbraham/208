@@ -124,13 +124,15 @@ updateBinomial(+binomialNSlider.value, +binomialPSlider.value);
 
 const galtonMargin = { top: 20, right: 30, bottom: 100, left: 30 };
 const galtonWidth = 600;
-const galtonHeight = 500;
+// Temporary value, redefined later
+let galtonHeight = 500;
 const spacing = 40;
 
-const galtonSvg = d3.select("#galton-chart")
+let galtonSvg = d3.select("#galton-chart")
   .append("svg")
   .attr("width", galtonWidth)
-  .attr("height", galtonHeight);
+  .attr("height", galtonHeight)
+  .attr("id", "galton-svg");
 
 const galtonGroup = galtonSvg.append("g")
   .attr("transform", `translate(${galtonMargin.left},${galtonMargin.top})`);
@@ -206,23 +208,27 @@ function updateGaltonHistogram() {
   const histHeight = 100;
   const maxCount = d3.max(galtonConfig.histogram);
 
-  const x = d3.scaleBand().domain(d3.range(bins)).range([0, galtonWidth]).padding(0.1);
+  const x = d3.scaleLinear().domain([0, bins - 1]).range([
+    galtonWidth / 2 - (bins - 1) * spacing / 2,
+    galtonWidth / 2 + (bins - 1) * spacing / 2
+  ]);
   const y = d3.scaleLinear().domain([0, maxCount || 1]).range([histHeight, 0]);
 
-  const bars = histLayer.selectAll("rect").data(galtonConfig.histogram);
+  const barWidth = spacing;
+const bars = histLayer.selectAll("rect").data(galtonConfig.histogram);
 
   bars.enter()
     .append("rect")
-    .attr("x", (_, i) => x(i))
-    .attr("width", x.bandwidth())
+    .attr("x", (_, i) => galtonWidth / 2 - (bins - 1) * spacing / 2 + i * spacing)
+    .attr("width", barWidth)
     .attr("y", y(0))
     .attr("height", 0)
     .attr("fill", "teal")
     .merge(bars)
     .transition()
     .duration(300)
-    .attr("x", (_, i) => x(i))
-    .attr("width", x.bandwidth())
+    .attr("x", (_, i) => x(i) - spacing / 2)
+    .attr("width", spacing)
     .attr("y", d => y(d))
     .attr("height", d => histHeight - y(d));
 
@@ -239,7 +245,7 @@ function updateGaltonHistogram() {
     .transition()
     .duration(300)
     .text(d => d)
-    .attr("x", (_, i) => x(i) + x.bandwidth() / 2)
+    .attr("x", (_, i) => x(i))
     .attr("y", d => y(d) - 5);
 
   labels.exit().remove();
@@ -248,6 +254,10 @@ function updateGaltonHistogram() {
 }
 
 document.getElementById("depth-slider").addEventListener("input", e => {
+  const galtonSvgElement = document.getElementById("galton-svg");
+  galtonConfig.size = +e.target.value;
+  galtonHeight = galtonConfig.size >= 9 ? 600 : 500;
+  galtonSvgElement.setAttribute("height", galtonHeight);
   const val = +e.target.value;
   document.getElementById("depth-val").textContent = val;
   galtonConfig.size = val;
