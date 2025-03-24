@@ -19,6 +19,7 @@ window.onload = function () {
 function conditional() {
 
   // Constants
+  let fullWidth = document.getElementById("svgBall").clientWidth;
   let currentPerspective = "universe";
   let radius = 5;
   let eventsData = [
@@ -29,12 +30,12 @@ function conditional() {
   let mapper = { 0: "P(A)", 1: "P(B)", 2: "P(C)" };
 
   // Create SVG Elements
-  let svgBall = d3.select("#svgBall").append("svg").attr("width", 1000).attr("height", 400);
-  let svgProb = d3.select("#svgProb").append("svg").attr("width", 600).attr("height", 200);
-  let svgTree = d3.select("#svgTree").append("svg").attr("width", 600).attr("height", 200);
+  let svgBall = d3.select("#svgBall").append("svg").attr("width", fullWidth * 0.9).attr("height", 400);
+  let svgProb = d3.select("#svgProb").append("svg").attr("width", fullWidth * 0.45).attr("height", 200);
+  let svgTree = d3.select("#svgTree").append("svg").attr("width", fullWidth * 0.45).attr("height", 200);
 
   // Create Clip Path
-  let clip = svgBall.append("clipPath").attr("id", "view").append("rect");
+  let clipBall = svgBall.append("clipPath").attr("id", "view").append("rect");
 
   // Create Container
   let containerBall = svgBall.append("g").attr("clip-path", "url(#view)");
@@ -668,7 +669,7 @@ function conditional() {
     // Ensure treeData is valid before further processing
     console.log("Tree Data initialized:", treeData);
 
-    let width = 600;
+    let width = fullWidth * 0.45;
     let height = 200;
     let treeLayout = d3.tree().size([height - 10, width - 200]);
     let root = d3.hierarchy(treeData);
@@ -711,8 +712,8 @@ function conditional() {
     })
 
     node.append("text")
-      .attr("dx", 8)
-      .attr("dy", 4)
+      .attr("dx", 0)
+      .attr("dy", d => { if (d.data.name != "¬C") return `-10`})
       .text(d => { if (d.data.name != "P") return `${d.data.name} (${d.data.probability.toFixed(2)})` } );
   }
 
@@ -740,27 +741,48 @@ function conditional() {
   }
 
   //Draws SVG and elements according to width
-  function draw() {
-    let w = 1000;
-    let h = 400;
-    let padding = 25;
+// Compound Probability Drawing Module
 
-    svgBall.attr("width", w).attr("height", h);
-    svgProb.attr("width", 600).attr("height", 200);
-    svgTree.attr("width", 600).attr("height", 200);
+function draw() {
+  const padding = 25;
+  const w = fullWidth * 0.9;
+  const h = 400;
+  const wSmall = fullWidth * 0.45;
+  const hSmall = 200;
 
-    clip.attr("x", 0).attr("y", 0).attr("width", w - 2 * padding).attr("height", h - 2 * padding);
-    containerBall.attr("transform", "translate(" + padding + "," + padding + ")");
-    containerProb.attr("transform", "translate(" + padding + "," + padding + ")");
-    containerTree.attr("transform", "translate(" + padding + "," + padding + ")");
-    probAxis.attr("transform", "translate(0," + 180 + ")").call(xAxis);
-    changePerspective(currentPerspective);
-    updateRects(0);
+  svgBall.attr("width", w).attr("height", h);
+  svgProb.attr("width", wSmall).attr("height", hSmall);
+  svgTree.attr("width", wSmall).attr("height", hSmall);
+
+  xScale.range([0, w - 2 * padding]);
+  xWidth.range([0, w - 2 * padding]);
+  yScale.range([0, h - 2 * padding]);
+
+  xScaleProb.range([0, wSmall - 2 * padding]);
+  yScaleProb.range([hSmall - 2 * padding, 0]);
+
+  containerBall.attr("transform", `translate(${padding},${padding})`);
+  containerProb.attr("transform", `translate(${padding},${padding})`);
+  containerTree.attr("transform", `translate(${padding},${padding})`);
+
+  clipBall
+    .attr("x", 0)
+    .attr("y", 0)
+    .attr("width", w - 2 * padding)
+    .attr("height", h - 2 * padding);
+
+  xAxis.scale(xScaleProb);
+  probAxis.attr("transform", `translate(0,${hSmall - 2 * padding + 1})`).call(xAxis);
+
+  changePerspective(currentPerspective);
+  updateRects(0);
 }
 
-  start()
-  draw();
+  start();
+
   calcIndependence();
   updateProbabilities();
+  draw();
+
   window.addEventListener("resize", draw);
 }

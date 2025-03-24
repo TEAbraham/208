@@ -177,13 +177,13 @@
   display: table-cell;
 }
 
-#svgTree {
-  width: 100%;
-  height: auto;
-  max-height: 250px;
+#svgBall svg,
+#svgProb svg,
+#svgTree svg {
   display: block;
-  overflow: hidden;
+  margin: auto;
 }
+
 
 .frac {
   display: inline-block;
