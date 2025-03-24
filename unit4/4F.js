@@ -168,38 +168,49 @@ function drawGaltonBoard() {
 function dropBallAnimated() {
   if (!dropping) return;
 
-  const path = [];
   let x = galtonWidth / 2;
   let y = 0;
   let position = 0;
+  const ball = ballLayer.append("circle")
+    .attr("r", 5)
+    .attr("fill", "orange")
+    .attr("cx", x)
+    .attr("cy", y);
+
+  let delay = 0;
 
   for (let i = 0; i < galtonConfig.size; i++) {
     const right = Math.random() < galtonConfig.bias;
     if (right) position++;
-    x += right ? spacing / 2 : -spacing / 2;
-    y += spacing;
-    path.push([x, y]);
+    const xNext = x + (right ? spacing / 2 : -spacing / 2);
+    const yBounce = y - 10; // small upward motion to mimic bounce
+    const yNext = y + spacing;
+
+    // First part: bounce up and sideways
+    ball.transition()
+      .delay(delay)
+      .duration(galtonConfig.speed / 2)
+      .attr("cx", xNext)
+      .attr("cy", yBounce);
+
+    // Second part: drop down to next peg level
+    ball.transition()
+      .delay(delay + galtonConfig.speed / 2)
+      .duration(galtonConfig.speed / 2)
+      .attr("cy", yNext);
+
+    x = xNext;
+    y = yNext;
+    delay += galtonConfig.speed;
   }
 
+  // Increment histogram and update
   galtonConfig.histogram[position]++;
   updateGaltonHistogram();
 
-  const ball = ballLayer.append("circle")
-    .attr("r", 5)
-    .attr("fill", "orange")
-    .attr("cx", galtonWidth / 2)
-    .attr("cy", 0);
-
-  path.forEach(([px, py], i) => {
-    ball.transition()
-      .delay(i * galtonConfig.speed)
-      .duration(galtonConfig.speed)
-      .attr("cx", px)
-      .attr("cy", py);
-  });
-
+  // Remove ball after animation
   ball.transition()
-    .delay(path.length * galtonConfig.speed + 1000)
+    .delay(delay + 1000)
     .remove();
 }
 
