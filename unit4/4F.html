@@ -4,55 +4,52 @@
     <!-- Firebase -->
     <script type="module">
       import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
-      import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, onAuthStateChanged, signInWithPopup, GoogleAuthProvider  } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
-      import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
+      import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
+      import { getFirestore } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
       import { firebaseConfig } from '../js/firebase-config.js';
 
       const app = initializeApp(firebaseConfig);
       const auth = getAuth(app);
       const db = getFirestore(app);
 
-      // Check if user is logged in
       onAuthStateChanged(auth, (user) => {
           if (!user) {
-              // User not logged in, save current page before redirecting
               localStorage.setItem("redirectAfterLogin", window.location.href);
               window.location.href = "index.html";
           }
       });
     </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conditional Probability</title>
+    <title>Bernoulli and Binomial Distribution</title>
 
     <!-- CSS Imports -->
-    <link rel="stylesheet" type="text/css" href="../css/jquery-ui.css" />
-    <link rel="stylesheet" type="text/css" href="../css/jquery.fullpage.css" />
+    <link rel="stylesheet" href="../css/jquery-ui.css">
+    <link rel="stylesheet" href="../css/jquery.fullpage.css">
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="4F.css">
     <!--Fonts-->
-    <link href="//fonts.googleapis.com/css?family=Lato:100,200,300,400" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lato:100,200,300,400" rel="stylesheet">
     <!--Font Awesome-->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Favicon-->
-    <link rel="shortcut icon" type="image/png" href="../img/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="../img/favicon.png">
 
     <!-- JavaScript Imports -->
-    <!-- Jquery -->
     <script src="../js/jquery.min.js"></script>
     <script src="../js/jquery-ui.js"></script>
-    <!-- jstat -->
     <script src="../js/jstat.min.js"></script>
-    <!-- LaTeXMathML -->
     <script src="../js/LaTeXMathML.js"></script>
-    <!-- D3 -->
     <script src="../js/d3.min.js"></script>
-    <!-- Module scripts -->
     <script type="module" src="../js/script.js"></script>
     <script type="module" src="../js/home.js"></script>
-    <!-- Visualizations -->
+
+    <script src="4F.js"></script>
   </head>
-  <header class="menu-top">
+
+  <body>
+    <header class="menu-top">
       <ul id="menu">
           <li class="dropdown">
               <a href="../home.html" class="dropbtn">Home</a>
@@ -79,41 +76,44 @@
       </ul>
       <div id="logo"></div>
   </header>
-  <body>
+  <section class="Row">
     <div id="bernoulli-container">
       <h2>Bernoulli Distribution</h2>
       <div id="bernoulli-chart"></div>
       <div id="bernoulli-slider-container">
         <label>p = <span id="bernoulli-p-value">0.5</span></label>
-        <input type="range" id="bernoulli-slider" min="0" max="1" step="0.01" value="0.5" />
+        <input type="range" id="bernoulli-slider" min="0" max="1" step="0.01" value="0.5">
       </div>
     </div>
-
+  </section>
+  <section class="Row">
     <div id="binomial-container">
       <h2>Binomial Distribution</h2>
       <div id="binomial-chart"></div>
       <div id="binomial-slider-container">
-        <label>n = <span id="binomial-n-value">10</span></label>
-        <input type="range" id="binomial-n-slider" min="1" max="30" step="1" value="10" />
+        <label>n = <span id="binomial-n-value">7</span></label>
+        <input type="range" id="binomial-n-slider" min="1" max="50" step="1" value="7">
         <label>p = <span id="binomial-p-value">0.5</span></label>
-        <input type="range" id="binomial-p-slider" min="0" max="1" step="0.01" value="0.5" />
+        <input type="range" id="binomial-p-slider" min="0" max="1" step="0.01" value="0.5">
       </div>
     </div>
-
+  </section>
+  <section class="Row">
     <div id="galton-container">
       <h2>Galton Board</h2>
       <div id="galton-chart"></div>
       <div id="galton-sliders">
-        <label>Depth: <span id="depth-val">8</span></label>
-        <input type="range" id="depth-slider" min="2" max="20" value="8" />
+        <label>Depth: <span id="depth-val">9</span></label>
+        <input type="range" id="depth-slider" min="1" max="25" value="9">
         <label>Bias (% right): <span id="bias-val">50</span></label>
-        <input type="range" id="bias-slider" min="0" max="100" value="50" />
-        <label>Speed (ms): <span id="speed-val">100</span></label>
-        <input type="range" id="speed-slider" min="10" max="500" value="100" />
-        <button id="reset-btn">Reset</button>
-        <button id="pause-btn">Pause</button>
+        <input type="range" id="bias-slider" min="0" max="100" value="50">
+        <label>Speed (ms): <span id="speed-val">500</span></label>
+        <input type="range" id="speed-slider" min="10" max="1000" value="500">
+        <button class="button-1" id="reset-btn">Reset</button>
+        <button class="button-1" id="pause-btn">Pause</button>
       </div>
     </div>
-    <script src="4F.js"></script>
+  </section>
+
   </body>
 </html>
