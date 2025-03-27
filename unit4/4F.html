@@ -83,22 +83,21 @@
       </ul>
       <div id="logo"></div>
   </header>
+  <h2>Galton Board</h2>
   <section class="Row">
-    <div id="galton-container">
-      <h2>Galton Board</h2>
+    <div class="Column" id="galton-sliders">
+      <label>Depth: <span id="depth-val">9</span></label>
+      <input type="range" id="depth-slider" min="1" max="25" value="9">
+      <label>Bias (% right): <span id="bias-val">50</span></label>
+      <input type="range" id="bias-slider" min="0" max="100" value="50">
+      <label>Speed (ms): <span id="speed-val">500</span></label>
+      <input type="range" id="speed-slider" min="10" max="1000" value="500">
+      <button class="button-1" id="reset-btn">Reset</button>
+      <button class="button-1" id="pause-btn">Pause</button>
+    </div>
+    <div class="Column" id="galton-container">
       <div id="galton-chart"></div>
-      <div id="galton-sliders">
-        <label>Depth: <span id="depth-val">9</span></label>
-        <input type="range" id="depth-slider" min="1" max="25" value="9">
-        <label>Bias (% right): <span id="bias-val">50</span></label>
-        <input type="range" id="bias-slider" min="0" max="100" value="50">
-        <label>Speed (ms): <span id="speed-val">500</span></label>
-        <input type="range" id="speed-slider" min="10" max="1000" value="500">
-        <button class="button-1" id="reset-btn">Reset</button>
-        <button class="button-1" id="pause-btn">Pause</button>
-      </div>
     </div>
   </section>
-
   </body>
 </html>

@@ -1,5 +1,5 @@
 window.onload = function () {
-  distributions();
+  galton();
   document.querySelectorAll(".perspective").forEach((button) => {
     button.addEventListener("click", function () {
       document.querySelectorAll(".perspective").forEach((btn) =>
@@ -13,7 +13,7 @@ window.onload = function () {
 };
 
 
-function distributions() {
+function galton() {
 
   let fullWidth = document.getElementById("galton-container").clientWidth;
 
@@ -28,7 +28,7 @@ function distributions() {
 
   // Galton Board Logic
   const galtonMargin = { top: 20, right: 30, bottom: 100, left: 30 };
-  const galtonWidth = fullWidth * 0.8;
+  const galtonWidth = fullWidth;
   let galtonHeight = 600;
   const spacing = 40;
 

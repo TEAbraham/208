@@ -102,6 +102,9 @@ ul, li {
     padding: 10px 15px;
     color: #333;
     display: block;
+    position: relative;
+    top: 100%;
+    left: 0;
 }
 
 .menu-top ul#menu > li.dropdown:hover .dropdown-content {
