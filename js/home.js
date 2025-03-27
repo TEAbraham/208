@@ -1,3 +1,98 @@
+export function buildLogo(svg, scaleFactor = 1) {
+  const rectWidth = 340 * scaleFactor;
+  const rectHeight = 385 * scaleFactor;
+  const rectX = 200 * scaleFactor;
+  const rectY = 200 * scaleFactor;
+
+  svg.append("rect")
+    .attr("x", rectX)
+    .attr("y", rectY)
+    .attr("width", rectWidth)
+    .attr("height", rectHeight)
+    .attr("fill", "white")
+    .attr("stroke", "darkgreen")
+    .attr("stroke-width", 5 * scaleFactor);
+
+  const arcLeft = d3.arc()
+    .innerRadius(rectHeight / 2 - 0.01)
+    .outerRadius(rectHeight / 2)
+    .startAngle(-Math.PI)
+    .endAngle(-2 * Math.PI);
+
+  const arcRight = d3.arc()
+    .innerRadius(rectHeight / 2 - 0.01)
+    .outerRadius(rectHeight / 2)
+    .startAngle(Math.PI)
+    .endAngle(2 * Math.PI);
+
+  const arcTop = d3.arc()
+    .innerRadius(rectHeight / 2 - 0.01)
+    .outerRadius(rectHeight / 2)
+    .startAngle(-1.05)
+    .endAngle(1.05);
+
+  svg.append("path")
+    .attr("d", arcLeft)
+    .attr("transform", `translate(${rectX - 200 * scaleFactor}, ${rectY + rectHeight / 2})`)
+    .attr("fill", "none")
+    .attr("stroke", "darkgreen")
+    .attr("stroke-width", 5 * scaleFactor)
+    .transition()
+    .duration(1500)
+    .attr("transform", `translate(${rectX + 25 * scaleFactor}, ${rectY + rectHeight / 2})`);
+
+  svg.append("path")
+    .attr("d", arcRight)
+    .attr("transform", `translate(${rectX + rectWidth + 200 * scaleFactor}, ${rectY + rectHeight / 2})`)
+    .attr("fill", "none")
+    .attr("stroke", "darkgreen")
+    .attr("stroke-width", 5 * scaleFactor)
+    .transition()
+    .duration(1500)
+    .attr("transform", `translate(${rectX + rectWidth - 25 * scaleFactor}, ${rectY + rectHeight / 2})`);
+
+  svg.append("path")
+    .attr("d", arcTop)
+    .attr("transform", `translate(${rectX + rectWidth / 2}, ${rectY - 200 * scaleFactor})`)
+    .attr("fill", "white")
+    .attr("stroke", "darkgreen")
+    .attr("stroke-width", 5 * scaleFactor)
+    .transition()
+    .duration(1500)
+    .attr("transform", `translate(${rectX + rectWidth / 2}, ${rectY + rectHeight / 2})`);
+
+    svg.append("rect")
+      .attr("x", 130 * scaleFactor)
+      .attr("y", 300 * scaleFactor)
+      .attr("width", rectWidth / 3)
+      .attr("height", rectHeight)
+      .attr("fill", "white");
+
+    svg.append("rect")
+      .attr("x", 160 * scaleFactor + rectWidth)
+      .attr("y", 300 * scaleFactor)
+      .attr("width", rectWidth / 3)
+      .attr("height", rectHeight)
+      .attr("fill", "white");
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+  if (document.querySelector("#bg-animation")) {
+    buildLogo(d3.select("#bg-animation"), 1);
+  }
+
+  if (document.querySelector("#logo")) {
+    const miniLogo = d3.select("#logo")
+      .append("svg")
+      .attr("width", 100)
+      .attr("height", 100)
+      .style("margin-left", "0px")
+      .style("vertical-align", "middle");
+
+    buildLogo(miniLogo, 0.1);
+  }
+});
+
 // Shrink header on scroll
 window.addEventListener("scroll", () => {
   const menu = document.querySelector(".menu-top");

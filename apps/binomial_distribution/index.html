@@ -36,12 +36,64 @@
         relPath: "",
       });
     </script>
+    <!-- CSS Imports -->
+    <link rel="stylesheet" href="../../css/jquery-ui.css">
+    <link rel="stylesheet" href="../../css/jquery.fullpage.css">
+    <link rel="stylesheet" href="../../css/home.css">
+    <link rel="stylesheet" href="galton.css">
+    <!--Fonts-->
+    <link href="//fonts.googleapis.com/css?family=Lato:100,200,300,400" rel="stylesheet">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="../../img/favicon.png">
+
+    <!-- JavaScript Imports -->
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/jquery-ui.js"></script>
+    <script src="../../js/jstat.min.js"></script>
+    <script src="../../js/LaTeXMathML.js"></script>
+    <script src="../../js/d3.min.js"></script>
+    <script type="module" src="../../js/home.js"></script>
     <link rel="stylesheet" href="./shinylive/style-resets.css" />
     <link rel="stylesheet" href="./shinylive/shinylive.css" />
-
   </head>
   <body>
-
+    <header class="menu-top">
+      <ul id="menu">
+          <li class="dropdown">
+              <a href="../../home.html" class="dropbtn">Home</a>
+              <ul class="dropdown-content">
+                  <li><a href="../../home.html#unit1">Unit 1</a></li>
+                  <li><a href="../../home.html#unit2">Unit 2</a></li>
+                  <li><a href="../../home.html#unit3">Unit 3</a></li>
+                  <li><a href="../../home.html#unit4">Unit 4</a></li>
+                  <li><a href="../../home.html#unit5">Unit 5</a></li>
+                  <li><a href="../../home.html#unit6">Unit 6</a></li>
+                  <li><a href="../../home.html#unit7">Unit 7</a></li>
+                  <li><a href="../../home.html#unit8">Unit 8</a></li>
+                  <li><a href="../../home.html#unit9">Unit 9</a></li>
+              </ul>
+          </li>
+          <li class="dropdown">
+              <a href="https://classroom.google.com/u/1/" class="dropbtn" target="_blank">Classroom</a>
+              <ul class="dropdown-content">
+                  <li><a href="https://classroom.google.com/u/1/c/NzA4OTk2OTI3MzAw" target="_blank">Announcements</a></li>
+                  <li><a href="https://classroom.google.com/u/1/w/NzA4OTk2OTI3MzAw/t/all" target="_blank">Course Documents</a></li>
+              </ul>
+          </li>
+          <li class="dropdown">
+              <a href="../../apps" class="dropbtn" target="_blank">Apps</a>
+              <ul class="dropdown-content">
+                  <li><a href="../../apps/normal_distribution/">Normal Distribution</a></li>
+                  <li><a href="../../apps/binomial_distribution/">Binomial Distribution</a></li>
+                  <li><a href="../../apps/galton_board/">Galton Board</a></li>
+              </ul>
+          </li>
+          <li id="logoutButton" style="display:none;"><a href="../../index.html" onclick="logout()">Logout</a></li>
+      </ul>
+      <div id="logo"></div>
+  </header>
     <div style="height: 100vh; width: 100vw" id="root"></div>
 
   </body>
