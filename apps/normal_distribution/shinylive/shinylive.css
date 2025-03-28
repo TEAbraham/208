@@ -166,7 +166,7 @@ button:disabled {
 .shinylive-example-selector .example:before {
   content: "";
   position: absolute;
-  height: 70%;
+  height: 25%;
   top: 15%;
   width: var(--sidebar-w);
   border-radius: var(--button-roundness, 5px);
