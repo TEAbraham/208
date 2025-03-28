@@ -165,25 +165,30 @@ function galton() {
     document.getElementById("depth-val").textContent = val;
     galtonConfig.size = val;
     galtonConfig.histogram = Array(val + 1).fill(0);
-    drawGaltonBoard();
     updateGaltonHistogram();
+    drawGaltonBoard();
   });
 
   document.getElementById("bias-slider").addEventListener("input", e => {
     const val = +e.target.value;
     document.getElementById("bias-val").textContent = val;
     galtonConfig.bias = val / 100;
+    updateGaltonHistogram();
+    drawGaltonBoard();
   });
 
   document.getElementById("speed-slider").addEventListener("input", e => {
     const val = +e.target.value;
     document.getElementById("speed-val").textContent = val;
     galtonConfig.speed = val;
+    updateGaltonHistogram();
+    drawGaltonBoard();
   });
 
   document.getElementById("reset-btn").addEventListener("click", () => {
     galtonConfig.histogram = Array(galtonConfig.size + 1).fill(0);
     updateGaltonHistogram();
+    drawGaltonBoard();
   });
 
   document.getElementById("pause-btn").addEventListener("click", () => {
@@ -191,6 +196,7 @@ function galton() {
     document.getElementById("pause-btn").textContent = dropping ? "Pause" : "Resume";
   });
 
+  updateGaltonHistogram();
   drawGaltonBoard();
   setInterval(dropBallAnimated, 500);
 }
