@@ -4,43 +4,30 @@
     <!-- Firebase -->
     <script type="module">
       import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
-      import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, onAuthStateChanged, signInWithPopup, GoogleAuthProvider  } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
-      import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
-      import { firebaseConfig } from '../js/firebase-config.js';
+      import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
+      import { getFirestore } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
+      import { firebaseConfig } from '../../js/firebase-config.js';
 
       const app = initializeApp(firebaseConfig);
       const auth = getAuth(app);
       const db = getFirestore(app);
 
-      // Check if user is logged in
       onAuthStateChanged(auth, (user) => {
           if (!user) {
-              // User not logged in, save current page before redirecting
               localStorage.setItem("redirectAfterLogin", window.location.href);
               window.location.href = "index.html";
           }
       });
     </script>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Binomial Distribution</title>
-    <script
-      src="./shinylive/load-shinylive-sw.js"
-      type="module"
-    ></script>
-    <script type="module">
-      import { runExportedApp } from "./shinylive/shinylive.js";
-      runExportedApp({
-        id: "root",
-        appEngine: "python",
-        relPath: "",
-      });
-    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binomial Distribution</title>
+
     <!-- CSS Imports -->
     <link rel="stylesheet" href="../../css/jquery-ui.css">
     <link rel="stylesheet" href="../../css/jquery.fullpage.css">
     <link rel="stylesheet" href="../../css/home.css">
-    <link rel="stylesheet" href="galton.css">
     <!--Fonts-->
     <link href="//fonts.googleapis.com/css?family=Lato:100,200,300,400" rel="stylesheet">
     <!--Font Awesome-->
@@ -55,8 +42,21 @@
     <script src="../../js/LaTeXMathML.js"></script>
     <script src="../../js/d3.min.js"></script>
     <script type="module" src="../../js/home.js"></script>
+    <script
+      src="./shinylive/load-shinylive-sw.js"
+      type="module"
+    ></script>
+    <script type="module">
+      import { runExportedApp } from "./shinylive/shinylive.js";
+      runExportedApp({
+        id: "root",
+        appEngine: "python",
+        relPath: "",
+      });
+    </script>
     <link rel="stylesheet" href="./shinylive/style-resets.css" />
     <link rel="stylesheet" href="./shinylive/shinylive.css" />
+
   </head>
   <body>
     <header class="menu-top">
@@ -94,6 +94,7 @@
       </ul>
       <div id="logo"></div>
   </header>
+
     <div style="height: 100vh; width: 100vw" id="root"></div>
 
   </body>
