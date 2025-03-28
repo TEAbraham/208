@@ -22,13 +22,12 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bernoulli and Binomial Distribution</title>
+    <title>Apps</title>
 
     <!-- CSS Imports -->
     <link rel="stylesheet" href="../css/jquery-ui.css">
     <link rel="stylesheet" href="../css/jquery.fullpage.css">
     <link rel="stylesheet" href="../css/home.css">
-    <link rel="stylesheet" href="4F.css">
     <!--Fonts-->
     <link href="//fonts.googleapis.com/css?family=Lato:100,200,300,400" rel="stylesheet">
     <!--Font Awesome-->
@@ -43,8 +42,6 @@
     <script src="../js/LaTeXMathML.js"></script>
     <script src="../js/d3.min.js"></script>
     <script type="module" src="../js/home.js"></script>
-
-    <script src="4F.js"></script>
   </head>
 
   <body>
@@ -74,30 +71,23 @@
           <li class="dropdown">
               <a href="apps" class="dropbtn" target="_blank">Apps</a>
               <ul class="dropdown-content">
-                <li><a href="apps/normal_distribution/">Normal Distribution</a></li>
-                <li><a href="apps/binomial_distribution/">Binomial Distribution</a></li>
-                <li><a href="apps/galton_board/">Galton Board</a></li>
+                <li><a href="conditional_probability/">Conditional Probability</a></li>
+                <li><a href="normal_distribution/">Normal Distribution</a></li>
+                <li><a href="binomial_distribution/">Binomial Distribution</a></li>
+                <li><a href="galton_board/">Galton Board</a></li>
               </ul>
           </li>
           <li id="logoutButton" style="display:none;"><a href="../index.html" onclick="logout()">Logout</a></li>
       </ul>
       <div id="logo"></div>
   </header>
-  <h2>Galton Board</h2>
-  <section class="Row">
-    <div class="Column" id="galton-sliders">
-      <label>Depth: <span id="depth-val">9</span></label>
-      <input type="range" id="depth-slider" min="1" max="25" value="9">
-      <label>Bias (% right): <span id="bias-val">50</span></label>
-      <input type="range" id="bias-slider" min="0" max="100" value="50">
-      <label>Speed (ms): <span id="speed-val">500</span></label>
-      <input type="range" id="speed-slider" min="10" max="1000" value="500">
-      <button class="button-1" id="reset-btn">Reset</button>
-      <button class="button-1" id="pause-btn">Pause</button>
-    </div>
-    <div class="Column" id="galton-container">
-      <div id="galton-chart"></div>
-    </div>
-  </section>
+  <h1>Apps</h1>
+  <p>Mr. Abraham</p>
+  <div class="content">
+    <h3><a href="conditional_probability/">Conditional Probability</a></h3>
+    <h3><a href="normal_distribution/">Normal Distribution</a></h3>
+    <h3><a href="binomial_distribution/">Binomial Distribution</a></h3>
+    <h3><a href="galton_board/">Galton Board</a></h3>
+  </div>
   </body>
 </html>
