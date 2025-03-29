@@ -150,9 +150,6 @@ onAuthStateChanged(auth, user => {
   const logoutButton = document.getElementById('logoutButton');
 
   if (user) {
-    if (currentPage === "index.html" || currentPage === "") {
-      window.location.href = "home.html";
-    }
     if (logoutButton) logoutButton.style.display = 'block';
   } else {
     if (currentPage !== "index.html" && currentPage !== "") {
