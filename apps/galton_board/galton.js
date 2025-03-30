@@ -41,7 +41,7 @@ function galton() {
   const galtonGroup = galtonSvg.append("g")
     .attr("transform", `translate(${galtonMargin.left},${galtonMargin.top})`);
 
-  let galtonConfig = { size: 10, bias: 0.5, speed: 500, histogram: Array(9).fill(0) };
+  let galtonConfig = { size: 9, bias: 0.5, speed: 500, histogram: Array(10).fill(0) };
 
   const pegLayer = galtonGroup.append("g");
   const ballLayer = galtonGroup.append("g");
