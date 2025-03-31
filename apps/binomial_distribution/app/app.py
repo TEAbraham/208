@@ -26,9 +26,10 @@ app_ui = ui.page_fluid(
                     ui.input_checkbox("use_text_input", "Enter numbers for n and p", value=False),
                     ui.input_checkbox("overlay_normal", "Overlay Normal Distribution", value=False),
                     ui.tags.h4("Probability Table:"),
-                    ui.output_table("prob_table")
+                    ui.output_table("prob_table"),
+                    width=500
                 ),
-                output_widget("binom_plot", height="600px")
+                output_widget("binom_plot", height="500px")
             )
         )
     )
@@ -50,34 +51,23 @@ def server(input, output, session):
         x = np.arange(0, n+1)
         y = binom.pmf(x, n, p)
 
-        marker_offset = 0.02
-
-        def offset_signal(signal_val):
-            if abs(signal_val) <= marker_offset:
-                return 0
-            return signal_val - marker_offset if signal_val > 0 else signal_val + marker_offset
-
         fig = go.Figure()
 
-        # Add vertical lines for lollipops
-        for i in range(len(x)):
-            fig.add_shape(
-                type="line",
-                x0=x[i], y0=0,
-                x1=x[i], y1=offset_signal(y[i]),
-                line=dict(color='red', width=1)
-            )
+        bar_width = 0.6
 
-        # Add markers for lollipop heads
-        fig.add_trace(go.Scatter(
+        # Use bar chart instead of shapes for interactivity
+        fig.add_trace(go.Bar(
+            selectedpoints=[-1],
+            selected=dict(marker=dict(color='#FF9B3C')),
+            unselected=dict(marker=dict(color='rgba(100, 189, 255, 0.8)')),
             x=x,
             y=y,
-            mode='markers',
-            marker=dict(size=8, color='red'),
+            width=[bar_width] * len(x),
+            marker=dict(color='rgba(100, 189, 255, 0.8)'),
+            hovertemplate='x = %{x}<br>P(X=%{x}) = %{y:.4f}<extra></extra>', hoverlabel=dict(bgcolor='#FF9B3C', font_size=14),
             name='Binomial PMF'
         ))
 
-        # Optional normal overlay
         if input.overlay_normal():
             x_cont = np.linspace(0, n, 500)
             mu, sigma = n*p, np.sqrt(n*p*(1-p))
@@ -88,17 +78,113 @@ def server(input, output, session):
             title=f"Binomial Distribution (n={n}, p={p})",
             xaxis_title="Number of Successes (x)",
             yaxis_title="Probability",
-            margin=dict(l=40, r=40, t=40, b=40)
+            margin=dict(l=40, r=40, t=40, b=40),
+            clickmode='event+select',
+            hovermode='closest'
         )
         return fig
 
     @output
-    @render.table
+    @render.ui
     def prob_table():
         n, p = params()
-        x_vals = np.arange(1, n+1)
+        x_vals = np.arange(0, n+1)
         probs = binom.pmf(x_vals, n, p)
-        df = pd.DataFrame({"x": x_vals, "P(X=x)": np.round(probs, 5)})
-        return df
+
+        rows = "\n".join(
+            f"<tr data-x='{x}'><td align='center'>{x}</td><td align='center'>{prob:.5f}</td></tr>"
+            for x, prob in zip(x_vals, probs)
+        )
+
+        html = f"""
+        <table class='table shiny-table table-hover spacing-s' style='width:auto;'>
+        <thead>
+            <tr>
+                <th style='text-align: center;'>x</th>
+                <th style='text-align: center;'>P(X=x)</th>
+            </tr>
+        </thead>
+        <tbody>
+            {rows}
+        </tbody>
+        </table>
+        """
+        return ui.HTML(html)
+
+ui.tags.script("""
+    document.addEventListener("shiny:value", function (e) {
+        if (e.name === "prob_table") {
+            const tbls = document.querySelectorAll("table.shiny-table");
+            tbls.forEach((tbl) => {
+                if (!tbl.id) tbl.id = "prob_table";
+            });
+        }
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        let lockedIndex = null;
+
+        function clearHighlights() {
+            const table = document.getElementById("prob_table");
+            if (!table) return;
+            [...table.querySelectorAll("tbody tr")].forEach(row => row.style.backgroundColor = "");
+        }
+
+        function highlightRow(xval) {
+            const table = document.getElementById("prob_table");
+            if (!table || xval === undefined) return;
+            const row = table.querySelector(`tr[data-x='${xval}']`);
+            if (row) row.style.backgroundColor = "#FF9B3C55";
+        }
+
+
+        document.addEventListener("plotly_hover", function (e) {
+            if (lockedIndex !== null) return;
+            const plot = e.target;
+            const pt = e.detail.points[0];
+            Plotly.restyle(plot, {selectedpoints: [pt.pointIndex]}, [0]);
+            highlightRow(pt.x);
+        });
+
+        document.addEventListener("plotly_unhover", function (e) {
+            if (lockedIndex !== null) return;
+            const plot = e.target;
+            Plotly.restyle(plot, {selectedpoints: [-1]}, [0]);
+            clearHighlights();
+        });
+
+        document.addEventListener("plotly_click", function (e) {
+            const plot = e.target;
+            const pt = e.detail.points[0];
+            lockedIndex = pt.pointIndex;
+            Plotly.restyle(plot, {selectedpoints: [pt.pointIndex]}, [0]);
+            highlightRow(pt.x);
+        });
+
+        document.addEventListener("keydown", function (e) {
+            if (e.key === "Escape") {
+                lockedIndex = null;
+                const plot = document.querySelector(".js-plotly-plot");
+                if (plot) Plotly.restyle(plot, {selectedpoints: [-1]}, [0]);
+                clearHighlights();
+            }
+        });
+            const rows = table.querySelectorAll("tbody tr");
+            for (let row of rows) {
+                const cell = row.cells[0];
+                if (parseInt(cell.textContent.trim()) === xval) {
+                    row.style.backgroundColor = "#FF9B3C55";
+                    break;
+                }
+            }
+        });
+
+        document.addEventListener("plotly_unhover", function (e) {
+            const plot = e.target;
+            Plotly.restyle(plot, {selectedpoints: [-1]}, [0]);
+            clearHighlights();
+        });
+    });
+"""),
 
 app = App(app_ui, server)

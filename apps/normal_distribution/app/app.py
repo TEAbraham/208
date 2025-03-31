@@ -21,10 +21,10 @@ app_ui = ui.page_fluid(
                         ui.input_numeric("mu_text", "μ", value=0, step=0.1),
                         ui.input_numeric("sigma_text", "σ", value=1, min=0.1, step=0.1)
                     ),
-                    width=400
+                    width=500
                 ),
                     ui.tags.p("The normal distribution is a bell-shaped distribution. Its location and spread are determined by the two parameters μ (the mean) and σ (the standard deviation).  Explore how the location and shape of the normal distribution depends on these two parameters by using the sliders below."),
-                    output_widget("dist_plot", height="400px"),
+                    output_widget("dist_plot", height="500px"),
                     ui.tags.p("The blue shaded areas show that 68% of a normal distribution falls within one standard deviation of the mean, i.e., between μ - σ and μ + σ (darkest shade), 95% fall within two standard deviations μ ± 2σ, and 99.7% fall within three standard deviations μ ± 3σ (lightest shade)."),
                     ui.output_ui("interval_table")
             )
@@ -37,8 +37,8 @@ app_ui = ui.page_fluid(
                     ui.input_select("prob_type", "Type of Probability", choices=[
                         "Lower Tail: P(X < x)",
                         "Upper Tail: P(X > x)",
-                        "Interval: P(x_1 < X < x_2)",
-                        "Two-Tail: P(X < x_1) + P(X > x_2)"
+                        "Interval: P(x₁ < X < x₂)",
+                        "Two-Tail: P(X < x₁) + P(X > x₂)"
                     ]),
                     ui.panel_conditional(
                         "!input.prob_type.includes('Interval') && !input.prob_type.includes('Two-Tail')",
@@ -49,9 +49,9 @@ app_ui = ui.page_fluid(
                         ui.input_numeric("x1_prob", "x₁:", value=-1.96),
                         ui.input_numeric("x2_prob", "x₂:", value=1.96)
                     ),
-                    width=400
+                    width=500
                 ),
-                    output_widget("prob_plot", height="400px"),
+                    output_widget("prob_plot", height="500px"),
                     ui.output_ui("prob_table")
             )
         ),
@@ -63,12 +63,12 @@ app_ui = ui.page_fluid(
                     ui.input_select("perc_type", "Type of Percentile", choices=[
                         "Lower Tail: P(X < x)",
                         "Upper Tail: P(X > x)",
-                        "Center: P(x_1 < X < x_2)",
+                        "Center: P(x₁ < X < x₂)",
                     ]),
                     ui.input_text("x_value_perc", "Probability (in %):", value=95),
-                    width=400
+                    width=500
                 ),
-                    output_widget("perc_plot", height="400px"),
+                    output_widget("perc_plot", height="500px"),
                     ui.output_ui("perc_table")
             )
         )
@@ -169,13 +169,13 @@ def server(input, output, session):
             fig.add_trace(go.Scatter(
                 x=np.concatenate([[x_fill_2[0]], x_fill_2, [x_fill_2[-1]]]),
                 y=np.concatenate([[0], y_fill_2, [0]]),
-                fill='toself', fillcolor='lightblue', line=dict(color='rgba(0,0,0,0)'),
+                fill='toself', fillcolor='#64bdff', line=dict(color='rgba(0,0,0,0)'),
                 name=f'P = {prob_2:.4f}' if isinstance(prob_2, float) else 'Shaded Area'))
 
         fig.add_trace(go.Scatter(
                 x=np.concatenate([[x_fill[0]], x_fill, [x_fill[-1]]]),
                 y=np.concatenate([[0], y_fill, [0]]),
-                fill='toself', fillcolor='lightblue', line=dict(color='rgba(0,0,0,0)'),
+                fill='toself', fillcolor='#64bdff', line=dict(color='rgba(0,0,0,0)'),
                 name=f'P = {prob:.4f}' if isinstance(prob, float) else 'Shaded Area'))
 
         fig.update_layout(
@@ -278,11 +278,11 @@ def server(input, output, session):
             fig.add_trace(go.Scatter(
                 x=np.concatenate([[x_fill[0]], x_fill, [x_fill[-1]]]),
                 y=np.concatenate([[0], y_fill, [0]]),
-                fill='toself', fillcolor='lightgreen', line=dict(color='rgba(0,0,0,0)'),
+                fill='toself', fillcolor='#46C8B2', line=dict(color='rgba(0,0,0,0)'),
                 name=f'{p*100:.1f}% Area'))
 
         fig.update_layout(
-            title=f"Normal Distribution — {perc_type}",
+            title=f"Normal Distribution: {perc_type}",
             xaxis_title="X",
             yaxis_title="Density",
             margin=dict(l=20, r=20, t=40, b=20)
