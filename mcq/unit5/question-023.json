@@ -1,32 +1,33 @@
 {
   "question_id": "question-023",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Statistic or Parameter",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Mr. Jones works in a large high school and wants to determine the average grade of all the biology students. Mr. Jones found the average grade in his biology class (<span class=\"tex2jax_process\">$n = 30$</span>) was <span class=\"tex2jax_process\">$80.2$</span>. This compares to the school-wide average of <span class=\"tex2jax_process\">$77.3$</span>.  </div><div class=\"paragraph\">Which of the value is a statistic and which is a parameter?</div>",
+  "question_text": "Mr. Jones works in a large high school and wants to determine the average grade of all the biology students. Mr. Jones found the average grade in his biology class ( $n = 30$ ) was $80.2$ . This compares to the school-wide average of $77.3$ . Which of the value is a statistic and which is a parameter?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Statistic:\n80.2\n; parameter:\n77.3"
+      "text": "Statistic: 80.2 80.2 ; parameter: 77.3 77.3"
     },
     {
       "letter": "B",
-      "text": "Statistic:\n77.3\n; parameter:\n80.2"
+      "text": "Statistic: 77.3 77.3 ; parameter: 80.2 80.2"
     },
     {
       "letter": "C",
-      "text": "Both\n80.2\nand\n77.3\nare statistics."
+      "text": "Both 80.2 80.2 and 77.3 77.3 are statistics."
     },
     {
       "letter": "D",
-      "text": "Both\n80.2\nand\n77.3\nare parameters."
+      "text": "Both 80.2 80.2 and 77.3 77.3 are parameters."
     },
     {
       "letter": "E",
-      "text": "Parameter:\n80.2\n;\n77.3\nis neither a statistic nor a parameter."
+      "text": "Parameter: 80.2 80.2 ; 77.3 77.3 is neither a statistic nor a parameter."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

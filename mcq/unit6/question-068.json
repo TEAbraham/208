@@ -1,32 +1,33 @@
 {
   "question_id": "question-068",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "One Proportion $z$-Interval: Left-Handed Students",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A student at RHAM high school wondered what percent of the students in her school were left-handed. She randomly sampled <span class=\"tex2jax_process\">$150$</span> students at her school and found <span class=\"tex2jax_process\">$21$</span> of them to be left-handed.  </div><div class=\"paragraph\">Which of the following represents a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for the proportion of left-handed students at RHAM High School?</div>",
+  "question_text": "A student at RHAM high school wondered what percent of the students in her school were left-handed. She randomly sampled $150$ students at her school and found $21$ of them to be left-handed. Which of the following represents a $95\\%$ confidence interval for the proportion of left-handed students at RHAM High School?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.14\n±\n1.96\n√\n(\n0.14\n)\n(\n0.86\n)\n150"
+      "text": "0.14 ± 1.96 √ ( 0.14 ) ( 0.86 ) 150 0.14 ± 1.96 ( 0.14 ) ( 0.86 ) 150"
     },
     {
       "letter": "B",
-      "text": "0.14\n±\n1.96\n√\n(\n0.14\n)\n(\n0.86\n)"
+      "text": "0.14 ± 1.96 √ ( 0.14 ) ( 0.86 ) 0.14 ± 1.96 ( 0.14 ) ( 0.86 )"
     },
     {
       "letter": "C",
-      "text": "0.86\n±\n1.96\n√\n(\n0.14\n)\n(\n0.86\n)\n150"
+      "text": "0.86 ± 1.96 √ ( 0.14 ) ( 0.86 ) 150 0.86 ± 1.96 ( 0.14 ) ( 0.86 ) 150"
     },
     {
       "letter": "D",
-      "text": "0.86\n±\n1.96\n√\n(\n0.14\n)\n(\n0.86\n)"
+      "text": "0.86 ± 1.96 √ ( 0.14 ) ( 0.86 ) 0.86 ± 1.96 ( 0.14 ) ( 0.86 )"
     },
     {
       "letter": "E",
-      "text": "0.86\n±\n2.576\n√\n(\n0.14\n)\n(\n0.86\n)"
+      "text": "0.86 ± 2.576 √ ( 0.14 ) ( 0.86 ) 0.86 ± 2.576 ( 0.14 ) ( 0.86 )"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

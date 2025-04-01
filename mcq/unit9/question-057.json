@@ -1,32 +1,33 @@
 {
   "question_id": "question-057",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Hours Studied and Exam Scores",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A study was conducted to see if there was a linear relationship between the number of hours studied and exam scores.  </div><div class=\"paragraph\">The following table of values summarizes the data collected:\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Hours Studied</th><th scope=\"col\">0</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th></tr></thead><tbody><tr><td>Exam Score</td><td>50</td><td>63</td><td>65</td><td>81</td><td>99</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Based on these data, compute a <span class=\"tex2jax_process\">$99\\%$</span> confidence for the slope of the regression line, <span class=\"tex2jax_process\">$β$</span>.</div>",
+  "question_text": "A study was conducted to see if there was a linear relationship between the number of hours studied and exam scores. The following table of values summarizes the data collected: Hours Studied 0 1 2 3 4 Exam Score 50 63 65 81 99 Based on these data, compute a $99\\%$ confidence for the slope of the regression line, $β$ .",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "−\n108.2\n≤\nβ\n≤\n−\n30.99"
+      "text": "− 108.2 ≤ β ≤ − 30.99 − 108.2 ≤ β ≤ − 30.99"
     },
     {
       "letter": "B",
-      "text": "−\n81.18\n≤\nβ\n≤\n−\n58.02"
+      "text": "− 81.18 ≤ β ≤ − 58.02 − 81.18 ≤ β ≤ − 58.02"
     },
     {
       "letter": "C",
-      "text": "2.206\n≤\nβ\n≤\n20.99"
+      "text": "2.206 ≤ β ≤ 20.99 2.206 ≤ β ≤ 20.99"
     },
     {
       "letter": "D",
-      "text": "6.4816\n≤\nβ\n≤\n16.718"
+      "text": "6.4816 ≤ β ≤ 16.718 6.4816 ≤ β ≤ 16.718"
     },
     {
       "letter": "E",
-      "text": "7.8151\n≤\nβ\n≤\n15.385"
+      "text": "7.8151 ≤ β ≤ 15.385 7.8151 ≤ β ≤ 15.385"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

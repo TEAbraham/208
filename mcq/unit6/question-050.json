@@ -1,32 +1,33 @@
 {
   "question_id": "question-050",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Laptop Battery Life: Interpreting a $p$-Value",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">When Carter bought his new laptop computer, the sales person told him that the average battery life was <span class=\"tex2jax_process\">$5$</span> hours and that the number of hours of battery life is approximately normally distributed. After using the computer for a few days, Carter began to have his doubts. The next <span class=\"tex2jax_process\">$10$</span> times that Carter used his computer, he kept track of how long it took for the battery to drain. The sample average was <span class=\"tex2jax_process\">$4.25$</span>.  </div><div class=\"paragraph\">Conducting a one-sided significance test, he found the <span class=\"tex2jax_process\">$p$</span>-value to be <span class=\"tex2jax_process\">$0.038$</span>.  </div><div class=\"paragraph\">What is the best way to interpret this <span class=\"tex2jax_process\">$p$</span>-value in the context of this situation?  </div>",
+  "question_text": "When Carter bought his new laptop computer, the sales person told him that the average battery life was 5 5 hours and that the number of hours of battery life is approximately normally distributed. After using the computer for a few days, Carter began to have his doubts. The next 10 10 times that Carter used his computer, he kept track of how long it took for the battery to drain. The sample average was 4.25 4.25 . Conducting a one-sided significance test, he found the p p -value to be 0.038 0.038 . What is the best way to interpret this p p -value in the context of this situation?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "A\np\n-value as small as\n0.038\ngives Carter good reason to doubt that the average battery life of his laptop really is\n5\nhours."
+      "text": "A p p -value as small as 0.038 0.038 gives Carter good reason to doubt that the average battery life of his laptop really is 5 5 hours."
     },
     {
       "letter": "B",
-      "text": "If the average battery life really is\n5\nhours, then a sample of\n10\nobservations having a sample mean of\n4.25\nhours or lower would only occur about\n3.8\n%\nof the time."
+      "text": "If the average battery life really is 5 5 hours, then a sample of 10 10 observations having a sample mean of 4.25 4.25 hours or lower would only occur about 3.8 % 3.8 % of the time."
     },
     {
       "letter": "C",
-      "text": "When\n10\nobservations are made, the battery life will be as low as\n4.25\nhours in\n3.8\n%\nof the observations."
+      "text": "When 10 10 observations are made, the battery life will be as low as 4.25 4.25 hours in 3.8 % 3.8 % of the observations."
     },
     {
       "letter": "D",
-      "text": "There is a\n3.8\n%\nchance that Carter's laptop computer battery will last for\n4.25\nhours anytime he uses it."
+      "text": "There is a 3.8 % 3.8 % chance that Carter's laptop computer battery will last for 4.25 4.25 hours anytime he uses it."
     },
     {
       "letter": "E",
-      "text": "Only\n3.8\n%\nof all laptop batteries will last as long as\n5\nhours."
+      "text": "Only 3.8 % 3.8 % of all laptop batteries will last as long as 5 5 hours."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

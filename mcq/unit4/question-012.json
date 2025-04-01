@@ -1,17 +1,18 @@
 {
   "question_id": "question-012",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Simulate This!",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">You want to simulate picking two cards from a deck of cards (which includes <span class=\"tex2jax_process\">$4$</span> suits and <span class=\"tex2jax_process\">$13$</span> of each number/type of card) and seeing how often you obtain a pair.  Which of the following would <em>not</em> be well-suited to account for the randomness in this simulation?</div>",
+  "question_text": "You want to simulate picking two cards from a deck of cards (which includes $4$ suits and $13$ of each number/type of card) and seeing how often you obtain a pair.  Which of the following would not be well-suited to account for the randomness in this simulation?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "A\n5\n-sided die."
+      "text": "A 5 5 -sided die."
     },
     {
       "letter": "B",
-      "text": "A\n13\n-sided die."
+      "text": "A 13 13 -sided die."
     },
     {
       "letter": "C",
@@ -26,7 +27,7 @@
       "text": "A deck of cards."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

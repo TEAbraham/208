@@ -1,13 +1,14 @@
 {
   "question_id": "question-071",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Random Sample Convinces the Mayor",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Last year, <span class=\"tex2jax_process\">$100$</span> randomly selected dog owners in a certain town were asked, “Do you walk your dog every day?”  </div><div class=\"paragraph\">Suppose this sampling distribution has a mean of <span class=\"tex2jax_process\">$p = 0.38$</span>.  </div><div class=\"paragraph\">Last week, a random sample in the same town found that <span class=\"tex2jax_process\">$45$</span> out of <span class=\"tex2jax_process\">$100$</span> subjects walk their dogs every day. The mayor is convinced that people in this town now walk their dogs more.  </div><div class=\"paragraph\">Is there evidence to support the claim stated by the mayor?  Use alpha = 10% as your level of statistical significance.  </div>",
+  "question_text": "Last year, $100$ randomly selected dog owners in a certain town were asked, “Do you walk your dog every day?” Suppose this sampling distribution has a mean of $p = 0.38$ . Last week, a random sample in the same town found that $45$ out of $100$ subjects walk their dogs every day. The mayor is convinced that people in this town now walk their dogs more. Is there evidence to support the claim stated by the mayor?  Use alpha = 10% as your level of statistical significance.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "No, since only\n7\npeople walk their dogs more than what would be expected."
+      "text": "No, since only 7 7 people walk their dogs more than what would be expected."
     },
     {
       "letter": "B",
@@ -23,10 +24,10 @@
     },
     {
       "letter": "E",
-      "text": "Yes, the sample clearly shows\n7\nmore people walk their dogs."
+      "text": "Yes, the sample clearly shows 7 7 more people walk their dogs."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

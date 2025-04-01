@@ -1,32 +1,33 @@
 {
   "question_id": "question-060",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Statistics Grade",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Consider the following events, assuming that neither event has a probability of <span class=\"tex2jax_process\">$0$</span>.</div><blockquote><div class=\"paragraph\"><em>Event <span class=\"tex2jax_process\">$A$</span> = Corinne has an A in statistics at the end of the semester.</em><br><em>Event <span class=\"tex2jax_process\">$B$</span> = Corinne has a B in statistics at the end of the same semester.</em>  </div></blockquote><div class=\"paragraph\">Based on this information, which of the following is a true statement?</div>",
+  "question_text": "Consider the following events, assuming that neither event has a probability of $0$ . Event $A$ = Corinne has an A in statistics at the end of the semester. Event $B$ = Corinne has a B in statistics at the end of the same semester. Based on this information, which of the following is a true statement?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Events\nA\nand\nB\nare both disjoint (mutually exclusive), and they are independent."
+      "text": "Events A A and B B are both disjoint (mutually exclusive), and they are independent."
     },
     {
       "letter": "B",
-      "text": "Events\nA\nand\nB\nare both disjoint (mutually exclusive), but they are not independent."
+      "text": "Events A A and B B are both disjoint (mutually exclusive), but they are not independent."
     },
     {
       "letter": "C",
-      "text": "Events\nA\nand\nB\nare not disjoint (mutually exclusive), but they are independent."
+      "text": "Events A A and B B are not disjoint (mutually exclusive), but they are independent."
     },
     {
       "letter": "D",
-      "text": "Events\nA\nand\nB\nare neither disjoint (mutually exclusive) nor independent."
+      "text": "Events A A and B B are neither disjoint (mutually exclusive) nor independent."
     },
     {
       "letter": "E",
-      "text": "Events\nA\nand\nB\nare complementary."
+      "text": "Events A A and B B are complementary."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

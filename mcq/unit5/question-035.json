@@ -1,13 +1,14 @@
 {
   "question_id": "question-035",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Roughly Normal",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A binomial distribution will be approximately normal if</div>",
+  "question_text": "A binomial distribution will be approximately normal if",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The sample size is at least\n30\n."
+      "text": "The sample size is at least 30 30 ."
     },
     {
       "letter": "B",
@@ -15,18 +16,18 @@
     },
     {
       "letter": "C",
-      "text": "n\n(\nP\n)\nand\nn\n(\n1\n−\nP\n)\nare both over\n10\n, where\nn\nis the number of trials and\nP\nis the probability of success."
+      "text": "n ( P ) n ( P ) and n ( 1 − P ) n ( 1 − P ) are both over 10 10 , where n n is the number of trials and P P is the probability of success."
     },
     {
       "letter": "D",
-      "text": "The population is at least\n10\ntimes the sample size."
+      "text": "The population is at least 10 10 times the sample size."
     },
     {
       "letter": "E",
       "text": "Each trial has the same probability."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-077",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "TV Station Standard Deviation",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A television programmer at a local news station surveyed the last <span class=\"tex2jax_process\">$30\\text{ weekday nights}$</span> and recorded the number of viewers on the <span class=\"tex2jax_process\">$10$</span> p.m. news.  </div><div class=\"paragraph\">Last year, approximately <span class=\"tex2jax_process\">$475{,}000\\text{ people}$</span> viewed the weekday evening news per night based off data from the entire year.  </div><div class=\"paragraph\">This year, <span class=\"tex2jax_process\">$30$</span> randomly sampled weekday nights found an average <span class=\"tex2jax_process\">$495{,}000\\text{ people per night}$</span> watching the weekday evening news.  </div><div class=\"paragraph\">If this increase is significant at the <span class=\"tex2jax_process\">$1\\%$</span> level, what is the standard deviation of the sample?</div>",
+  "question_text": "A television programmer at a local news station surveyed the last $30\\text{ weekday nights}$ and recorded the number of viewers on the $10$ p.m. news. Last year, approximately $475{,}000\\text{ people}$ viewed the weekday evening news per night based off data from the entire year. This year, $30$ randomly sampled weekday nights found an average $495{,}000\\text{ people per night}$ watching the weekday evening news. If this increase is significant at the $1\\%$ level, what is the standard deviation of the sample?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "44,494"
+      "text": "44,494 44,494"
     },
     {
       "letter": "B",
-      "text": "44,494\nor greater."
+      "text": "44,494 44,494 or greater."
     },
     {
       "letter": "C",
-      "text": "Less than\n44,494\n."
+      "text": "Less than 44,494 44,494 ."
     },
     {
       "letter": "D",
-      "text": "8,123\nor greater."
+      "text": "8,123 8,123 or greater."
     },
     {
       "letter": "E",
-      "text": "8,123"
+      "text": "8,123 8,123"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

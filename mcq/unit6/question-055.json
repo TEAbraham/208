@@ -1,32 +1,33 @@
 {
   "question_id": "question-055",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Why Do We Reject the Null?",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Which of the following best describes why we would choose to reject the null hypothesis when our <span class=\"tex2jax_process\">$p$</span>-value is very small?</div>",
+  "question_text": "Which of the following best describes why we would choose to reject the null hypothesis when our $p$ -value is very small?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "A small\np\n-value gives us little confidence in our results."
+      "text": "A small p p -value gives us little confidence in our results."
     },
     {
       "letter": "B",
-      "text": "A small\np\n-value leaves little room for margin of error. Therefore, it is best to reject the null hypothesis."
+      "text": "A small p p -value leaves little room for margin of error. Therefore, it is best to reject the null hypothesis."
     },
     {
       "letter": "C",
-      "text": "A small\np\n-value indicates that the standard deviation was quite large. Since there is so much variation around the value in our null hypothesis, we have good reason to doubt that it is really true. Therefore, we should reject it."
+      "text": "A small p p -value indicates that the standard deviation was quite large. Since there is so much variation around the value in our null hypothesis, we have good reason to doubt that it is really true. Therefore, we should reject it."
     },
     {
       "letter": "D",
-      "text": "A very small\np\n-value means that our results were very unlikely based upon the assumption that the null hypothesis is true. This may lead us to reject the null hypothesis."
+      "text": "A very small p p -value means that our results were very unlikely based upon the assumption that the null hypothesis is true. This may lead us to reject the null hypothesis."
     },
     {
       "letter": "E",
-      "text": "If our\np\n-value is very small, we should not reject our null hypothesis! The null hypothesis is probably true!"
+      "text": "If our p p -value is very small, we should not reject our null hypothesis! The null hypothesis is probably true!"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

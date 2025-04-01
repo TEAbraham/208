@@ -1,8 +1,9 @@
 {
   "question_id": "question-087",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Independent Events A and B",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Suppose two events, A and B, are independent.  </div><div class=\"paragraph\">Which of the following statements is/are true?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> <span class=\"tex2jax_process\">$P(A$</span> and <span class=\"tex2jax_process\">$B) = P(A) \\times P(B)$</span>  </div><div class=\"paragraph\"><strong>II.</strong> <span class=\"tex2jax_process\">$P(A|B) = P(A)$</span>  </div><div class=\"paragraph\"><strong>III.</strong> <span class=\"tex2jax_process\">$P(A|B) = P(B)$</span>    </div></blockquote>",
+  "question_text": "Suppose two events, A and B, are independent. Which of the following statements is/are true? I. $P(A$ and $B) = P(A) \\times P(B)$ II. $P(A|B) = P(A)$ III. $P(A|B) = P(B)$",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "I, II, and III."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

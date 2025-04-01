@@ -1,32 +1,33 @@
 {
   "question_id": "question-062",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Independent Events",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Event <span class=\"tex2jax_process\">$A$</span> has a probability of <span class=\"tex2jax_process\">$0.5$</span>, and event <span class=\"tex2jax_process\">$B$</span> has a probability of <span class=\"tex2jax_process\">$0.4$</span>.  </div><div class=\"paragraph\">If <span class=\"tex2jax_process\">$A$</span> and <span class=\"tex2jax_process\">$B$</span> are independent events, what is the probability that either <span class=\"tex2jax_process\">$A$</span> or <span class=\"tex2jax_process\">$B$</span> occurs?</div>",
+  "question_text": "Event $A$ has a probability of $0.5$ , and event $B$ has a probability of $0.4$ . If $A$ and $B$ are independent events, what is the probability that either $A$ or $B$ occurs?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.1"
+      "text": "0.1 0.1"
     },
     {
       "letter": "B",
-      "text": "0.3"
+      "text": "0.3 0.3"
     },
     {
       "letter": "C",
-      "text": "0.5"
+      "text": "0.5 0.5"
     },
     {
       "letter": "D",
-      "text": "0.7"
+      "text": "0.7 0.7"
     },
     {
       "letter": "E",
-      "text": "0.9"
+      "text": "0.9 0.9"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

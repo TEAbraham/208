@@ -1,32 +1,33 @@
 {
   "question_id": "question-114",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Weight Loss",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A new weight-loss drug was on the market.  Its slogan promised that people could lose <span class=\"tex2jax_process\">$10\\%$</span> of their weight in the first month.  A research company wanted to test this and examine the difference between men and women.  <span class=\"tex2jax_process\">$64$</span> men and <span class=\"tex2jax_process\">$66$</span> women were randomly selected from those using the drug.  Of the men, <span class=\"tex2jax_process\">$38$</span> said they lost <span class=\"tex2jax_process\">$10\\%$</span> of their weight and <span class=\"tex2jax_process\">$28$</span> of the women said they did, too. A researcher wanted to know if more men lost weight. </div><div class=\"paragraph\">Write the appropriate hypotheses to test this with <span class=\"tex2jax_process\">$p_1$</span> representing the proportion of men who lost weight and <span class=\"tex2jax_process\">$p_2$</span> representing the proportion of women who lost weight.</div>",
+  "question_text": "A new weight-loss drug was on the market.  Its slogan promised that people could lose $10\\%$ of their weight in the first month.  A research company wanted to test this and examine the difference between men and women. $64$ men and $66$ women were randomly selected from those using the drug.  Of the men, $38$ said they lost $10\\%$ of their weight and $28$ of the women said they did, too. A researcher wanted to know if more men lost weight. Write the appropriate hypotheses to test this with $p_1$ representing the proportion of men who lost weight and $p_2$ representing the proportion of women who lost weight.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "H\n0\n:\np\n1\n−\np\n2\n>\n0 H\na\n:\np\n1\n−\np\n2\n=\n0"
+      "text": "H 0 H 0 : p 1 − p 2 > 0 p 1 − p 2 > 0 H a H a : p 1 − p 2 = 0 p 1 − p 2 = 0"
     },
     {
       "letter": "B",
-      "text": "H\n0\n:\np\n1\n−\np\n2\n<\n0 H\na\n:\np\n1\n−\np\n2\n>\n0"
+      "text": "H 0 H 0 : p 1 − p 2 < 0 p 1 − p 2 < 0 H a H a : p 1 − p 2 > 0 p 1 − p 2 > 0"
     },
     {
       "letter": "C",
-      "text": "H\n0\n:\np\n1\n−\np\n2\n=\n0 H\na\n:\np\n1\n−\np\n2\n>\n0"
+      "text": "H 0 H 0 : p 1 − p 2 = 0 p 1 − p 2 = 0 H a H a : p 1 − p 2 > 0 p 1 − p 2 > 0"
     },
     {
       "letter": "D",
-      "text": "H\n0\n:\n^\np\n1\n−\n^\np\n2\n=\n0 H\na\n:\n^\np\n1\n−\n^\np\n2\n>\n0"
+      "text": "H 0 H 0 : ^ p 1 − ^ p 2 = 0 p ^ 1 − p ^ 2 = 0 H a H a : ^ p 1 − ^ p 2 > 0 p ^ 1 − p ^ 2 > 0"
     },
     {
       "letter": "E",
-      "text": "H\n0\n:\n^\np\n1\n−\n^\np\n2\n>\n0 H\na\n:\n^\np\n1\n−\n^\np\n2\n=\n0"
+      "text": "H 0 H 0 : ^ p 1 − ^ p 2 > 0 p ^ 1 − p ^ 2 > 0 H a H a : ^ p 1 − ^ p 2 = 0 p ^ 1 − p ^ 2 = 0"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

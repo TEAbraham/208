@@ -1,32 +1,33 @@
 {
   "question_id": "question-105",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Overwhelmingly Binomial",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">In a certain large city, <span class=\"tex2jax_process\">$76\\%$</span> of individuals between the age of <span class=\"tex2jax_process\">$12$</span> and <span class=\"tex2jax_process\">$17$</span> have a cell phone.  </div><div class=\"paragraph\">If <span class=\"tex2jax_process\">$250\\text{ individuals}$</span> between the age of <span class=\"tex2jax_process\">$12$</span> and <span class=\"tex2jax_process\">$17$</span> are randomly selected from those in this city, what is the probability that no more than <span class=\"tex2jax_process\">$175$</span> of them will have a cell phone?  </div>",
+  "question_text": "In a certain large city, $76\\%$ of individuals between the age of $12$ and $17$ have a cell phone. If $250\\text{ individuals}$ between the age of $12$ and $17$ are randomly selected from those in this city, what is the probability that no more than $175$ of them will have a cell phone?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.0132"
+      "text": "0.0132 0.0132"
     },
     {
       "letter": "B",
-      "text": "0.0052"
+      "text": "0.0052 0.0052"
     },
     {
       "letter": "C",
-      "text": "0.76"
+      "text": "0.76 0.76"
     },
     {
       "letter": "D",
-      "text": "0.9947"
+      "text": "0.9947 0.9947"
     },
     {
       "letter": "E",
-      "text": "0.9868"
+      "text": "0.9868 0.9868"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

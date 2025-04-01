@@ -1,32 +1,33 @@
 {
   "question_id": "question-097",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Probability Distribution: Everybody Needs a Hero Part II",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">At <em>Burger Bell</em> when someone buys a <em>Hero Meal</em> they receive an action figure.  The distribution of action figures is shown in the table below.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Action Figure</th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th></tr></thead><tbody><tr><td>P(x)</td><td>0.30</td><td>0.10</td><td>0.10</td><td>0.50</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Assuming each Hero Meal is independent of one another, what is the probability when someone buys two Hero Meals they get action figures <em>A</em> and <em>B</em>?</div>",
+  "question_text": "At Burger Bell when someone buys a Hero Meal they receive an action figure.  The distribution of action figures is shown in the table below. Action Figure A B C D P(x) 0.30 0.10 0.10 0.50 Assuming each Hero Meal is independent of one another, what is the probability when someone buys two Hero Meals they get action figures A and B ?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.03"
+      "text": "0.03 0.03"
     },
     {
       "letter": "B",
-      "text": "0.06"
+      "text": "0.06 0.06"
     },
     {
       "letter": "C",
-      "text": "0.16"
+      "text": "0.16 0.16"
     },
     {
       "letter": "D",
-      "text": "0.40"
+      "text": "0.40 0.40"
     },
     {
       "letter": "E",
-      "text": "0.80"
+      "text": "0.80 0.80"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct choice.  ",
+  "correct_answer": "Choice 'B' is the correct choice.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

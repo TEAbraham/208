@@ -1,32 +1,33 @@
 {
   "question_id": "question-067",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Financially Comfortable | 2 of 2",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A community organization wishes to know the proportion of subjects who feel financially comfortable in a certain town.  </div><div class=\"paragraph\">Based on last year’s census, <span class=\"tex2jax_process\">$64\\%$</span> of the residents in this town felt financially comfortable. In this year’s survey, <span class=\"tex2jax_process\">$56$</span> out of <span class=\"tex2jax_process\">$115$</span> randomly chosen subjects felt financially comfortable.  </div><div class=\"paragraph\">If indeed the residents’ economic opinions have not changed from last year, what’s the probability of getting a survey of size <span class=\"tex2jax_process\">$n = 115$</span>, where <span class=\"tex2jax_process\">$56$</span> or fewer subjects say they feel financially comfortable?</div>",
+  "question_text": "A community organization wishes to know the proportion of subjects who feel financially comfortable in a certain town. Based on last year’s census, $64\\%$ of the residents in this town felt financially comfortable. In this year’s survey, $56$ out of $115$ randomly chosen subjects felt financially comfortable. If indeed the residents’ economic opinions have not changed from last year, what’s the probability of getting a survey of size $n = 115$ , where $56$ or fewer subjects say they feel financially comfortable?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.0003"
+      "text": "0.0003 0.0003"
     },
     {
       "letter": "B",
-      "text": "0.9997"
+      "text": "0.9997 0.9997"
     },
     {
       "letter": "C",
-      "text": "0.3245"
+      "text": "0.3245 0.3245"
     },
     {
       "letter": "D",
-      "text": "0.0927"
+      "text": "0.0927 0.0927"
     },
     {
       "letter": "E",
-      "text": "Near\n0\n, as the\nz\n-score is off the standard normal charts."
+      "text": "Near 0 0 , as the z z -score is off the standard normal charts."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

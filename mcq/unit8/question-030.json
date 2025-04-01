@@ -1,32 +1,33 @@
 {
   "question_id": "question-030",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Relating Characteristics of $\\chi^2$",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Which of the following statements about <span class=\"tex2jax_process\">${ \\chi }^{ 2 }$</span> tests is false?</div>",
+  "question_text": "Which of the following statements about ${ \\chi }^{ 2 }$ tests is false?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "For any particular degrees of freedom, as the value of\nχ\n2\nincreases, the related\np\n-value will decrease."
+      "text": "For any particular degrees of freedom, as the value of χ 2 χ 2 increases, the related p p -value will decrease."
     },
     {
       "letter": "B",
-      "text": "A very large\nχ\n2\nvalue indicates that the observed counts were far from what was expected."
+      "text": "A very large χ 2 χ 2 value indicates that the observed counts were far from what was expected."
     },
     {
       "letter": "C",
-      "text": "A very large\nχ\n2\nvalue will probably give us reason to reject our null hypothesis."
+      "text": "A very large χ 2 χ 2 value will probably give us reason to reject our null hypothesis."
     },
     {
       "letter": "D",
-      "text": "A\nχ\n2\nvalue near\n0\nwill likely produce a\np\n-value near\n1\n."
+      "text": "A χ 2 χ 2 value near 0 0 will likely produce a p p -value near 1 1 ."
     },
     {
       "letter": "E",
-      "text": "As the sample size increases, the number of degrees of freedom for a\nχ\n2\nGoodness of Fit Test will also increase."
+      "text": "As the sample size increases, the number of degrees of freedom for a χ 2 χ 2 Goodness of Fit Test will also increase."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

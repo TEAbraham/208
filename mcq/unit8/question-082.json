@@ -1,32 +1,33 @@
 {
   "question_id": "question-082",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Chi-Squared Values and $p$-values",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A <span class=\"tex2jax_process\">${ \\chi }^{ 2 }$</span> test for homogeneity of populations was conducted using data found in a two-way table consisting of <span class=\"tex2jax_process\">$6\\text{ rows}$</span> and <span class=\"tex2jax_process\">$3\\text{ columns}$</span>. The <span class=\"tex2jax_process\">${ \\chi }^{ 2 }$</span> value was found to be <span class=\"tex2jax_process\">$19.63$</span>.  </div><div class=\"paragraph\">What can we conclude about the results of this test?</div>",
+  "question_text": "A ${ \\chi }^{ 2 }$ test for homogeneity of populations was conducted using data found in a two-way table consisting of $6\\text{ rows}$ and $3\\text{ columns}$ . The ${ \\chi }^{ 2 }$ value was found to be $19.63$ . What can we conclude about the results of this test?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Since\np\n=\n0.033\n, we have strong evidence to suggest that the distribution of proportions is not the same for each of the different populations."
+      "text": "Since p = 0.033 p = 0.033 , we have strong evidence to suggest that the distribution of proportions is not the same for each of the different populations."
     },
     {
       "letter": "B",
-      "text": "Since\np\n=\n0.354\n, we do not have enough evidence to suggest that the distribution of proportions is not the same for each of the different populations."
+      "text": "Since p = 0.354 p = 0.354 , we do not have enough evidence to suggest that the distribution of proportions is not the same for each of the different populations."
     },
     {
       "letter": "C",
-      "text": "Since\np\n=\n19.63\n, we do not have any evidence to suggest that the distribution of proportions is not the same for each of the different populations."
+      "text": "Since p = 19.63 p = 19.63 , we do not have any evidence to suggest that the distribution of proportions is not the same for each of the different populations."
     },
     {
       "letter": "D",
-      "text": "Since\np\n<\n0.05\n, we have strong evidence that the populations are independent of each other."
+      "text": "Since p < 0.05 p < 0.05 , we have strong evidence that the populations are independent of each other."
     },
     {
       "letter": "E",
-      "text": "Since\np\n>\n0.05\n, we cannot conclude that the populations are independent of each other."
+      "text": "Since p > 0.05 p > 0.05 , we cannot conclude that the populations are independent of each other."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

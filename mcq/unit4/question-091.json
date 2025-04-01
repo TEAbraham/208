@@ -1,32 +1,33 @@
 {
   "question_id": "question-091",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Probability of Two Bags of Candy Being Overfilled",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">The weights of bags of a popular fruity candy are normally distributed with a mean of <span class=\"tex2jax_process\">$12.14\\text{ ounces}$</span> and standard deviation of <span class=\"tex2jax_process\">$0.22\\text{ ounces}$</span>.  </div><div class=\"paragraph\">If two bags of this candy are selected at random and the weights of the bags are independent, what is the probability that both bags will weigh more than <span class=\"tex2jax_process\">$12.5\\text{ ounces}$</span>?</div>",
+  "question_text": "The weights of bags of a popular fruity candy are normally distributed with a mean of $12.14\\text{ ounces}$ and standard deviation of $0.22\\text{ ounces}$ . If two bags of this candy are selected at random and the weights of the bags are independent, what is the probability that both bags will weigh more than $12.5\\text{ ounces}$ ?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.003"
+      "text": "0.003 0.003"
     },
     {
       "letter": "B",
-      "text": "0.010"
+      "text": "0.010 0.010"
     },
     {
       "letter": "C",
-      "text": "0.051"
+      "text": "0.051 0.051"
     },
     {
       "letter": "D",
-      "text": "0.102"
+      "text": "0.102 0.102"
     },
     {
       "letter": "E",
-      "text": "0.220"
+      "text": "0.220 0.220"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,8 +1,9 @@
 {
   "question_id": "question-194",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Back to Back Stemplot: Mini Golf",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Bart and Lisa each played the same 18 hole mini golf course fourteen times. Their scores are recorded below. Which of the following statements are <strong>TRUE</strong>?  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\" style=\"text-align: right;\"></th><th scope=\"col\" style=\"text-align: center;\">Stem</th><th scope=\"col\" style=\"text-align: left;\"></th></tr></thead><tbody><tr><td style=\"text-align: right;\"><u>Bart (1)</u></td><td style=\"text-align: center;\"><u>(10)</u></td><td style=\"text-align: left;\"><u>Lisa (1)</u></td></tr><tr><td style=\"text-align: right;\">1</td><td style=\"text-align: center;\">2</td><td style=\"text-align: left;\">9</td></tr><tr><td style=\"text-align: right;\">111111</td><td style=\"text-align: center;\">3</td><td style=\"text-align: left;\">999999</td></tr><tr><td style=\"text-align: right;\">999999</td><td style=\"text-align: center;\">4</td><td style=\"text-align: left;\">111111</td></tr><tr><td style=\"text-align: right;\">9</td><td style=\"text-align: center;\">5</td><td style=\"text-align: left;\">1</td></tr></tbody></table></div><div class=\"paragraph\">Key: 3|1=31.</div>",
+  "question_text": "Bart and Lisa each played the same 18 hole mini golf course fourteen times. Their scores are recorded below. Which of the following statements are TRUE ? Stem Bart (1) (10) Lisa (1) 1 2 9 111111 3 999999 999999 4 111111 9 5 1 Key: 3|1=31.",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "Bart’s scores have a higher range than Lisa’s."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

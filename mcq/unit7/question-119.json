@@ -1,32 +1,33 @@
 {
   "question_id": "question-119",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Degrees of Freedom",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">What is an appropriate number of degrees of freedom to use when conducting a two-sample <span class=\"tex2jax_process\">$t$</span>-test for the difference between two means?</div>",
+  "question_text": "What is an appropriate number of degrees of freedom to use when conducting a two-sample $t$ -test for the difference between two means?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "n\n–\n1\n, where\nn\nis the number of different populations."
+      "text": "n – 1 n – 1 , where n n is the number of different populations."
     },
     {
       "letter": "B",
-      "text": "n\n–\n1\n, where\nn\nis the larger of the two sample sizes."
+      "text": "n – 1 n – 1 , where n n is the larger of the two sample sizes."
     },
     {
       "letter": "C",
-      "text": "n\n–\n1\n, where\nn\nis the smaller of the two sample sizes."
+      "text": "n – 1 n – 1 , where n n is the smaller of the two sample sizes."
     },
     {
       "letter": "D",
-      "text": "n\n–\n1\n, where\nn\nis the total number of observations in both samples combined."
+      "text": "n – 1 n – 1 , where n n is the total number of observations in both samples combined."
     },
     {
       "letter": "E",
-      "text": "n\n–\n2\n, where\nn\nis the total number of observations in both samples combined."
+      "text": "n – 2 n – 2 , where n n is the total number of observations in both samples combined."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

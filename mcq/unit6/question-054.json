@@ -1,8 +1,9 @@
 {
   "question_id": "question-054",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Finding the P-value of a 1-sided When Given a 2-sided P-value",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A two-sided hypothesis test obtained a <span class=\"tex2jax_process\">$p$</span>-value of <span class=\"tex2jax_process\">$0.36$</span>.  </div><div class=\"paragraph\">If the test was conducted as a one-tailed test using the same set of data, which of the following is true about the possible <span class=\"tex2jax_process\">$p$</span>-values that could have been acquired?</div>",
+  "question_text": "A two-sided hypothesis test obtained a $p$ -value of $0.36$ . If the test was conducted as a one-tailed test using the same set of data, which of the following is true about the possible $p$ -values that could have been acquired?",
   "image_files": [
     "images/question-054-img1.PNG",
     "images/question-054-img2.PNG",
@@ -11,26 +12,26 @@
   "choices": [
     {
       "letter": "A",
-      "text": "The only possible\np\n- value is\n0.18\n."
+      "text": "The only possible p p - value is 0.18 0.18 ."
     },
     {
       "letter": "B",
-      "text": "The only possible\np\n- value is\n0.72\n."
+      "text": "The only possible p p - value is 0.72 0.72 ."
     },
     {
       "letter": "C",
-      "text": "The only possible\np\n- value is\n0.82\n."
+      "text": "The only possible p p - value is 0.82 0.82 ."
     },
     {
       "letter": "D",
-      "text": "The possible\np\n- values are\n0.18\nand\n0.72\n."
+      "text": "The possible p p - values are 0.18 0.18 and 0.72 0.72 ."
     },
     {
       "letter": "E",
-      "text": "The possible\np\n- values are\n0.18\nand\n0.82\n."
+      "text": "The  possible p p - values  are 0.18 0.18 and 0.82 0.82 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,8 +1,9 @@
 {
   "question_id": "question-064",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Correlation Coefficient for Scatterplot",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"paragraph\">The approximate correlation of the data above is <span class=\"tex2jax_process\">$r =$</span> ?</div>",
+  "question_text": "The approximate correlation of the data above is $r =$ ?",
   "image_files": [
     "images/question-064-img1.jpg",
     "images/question-064-img2.jpg",
@@ -13,26 +14,26 @@
   "choices": [
     {
       "letter": "A",
-      "text": "0"
+      "text": "0 0"
     },
     {
       "letter": "B",
-      "text": "−\n0.1"
+      "text": "− 0.1 − 0.1"
     },
     {
       "letter": "C",
-      "text": "−\n0.5"
+      "text": "− 0.5 − 0.5"
     },
     {
       "letter": "D",
-      "text": "0.5"
+      "text": "0.5 0.5"
     },
     {
       "letter": "E",
-      "text": "0.1"
+      "text": "0.1 0.1"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

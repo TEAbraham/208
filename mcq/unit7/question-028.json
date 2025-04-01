@@ -1,32 +1,33 @@
 {
   "question_id": "question-028",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Annual Income Interval",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">One hundred randomly chosen adult subjects in Jacksonville, FL, were asked their annual income.</div><div class=\"paragraph\">The data reported from the sample was approximately normal and showed a mean of <span class=\"tex2jax_process\">$\\$46{,}203$</span> with a standard deviation of <span class=\"tex2jax_process\">$\\$10{,}201$</span>.  </div><div class=\"paragraph\">A <span class=\"tex2jax_process\">$95\\%$</span> confidence interval would show, approximately, that we are <span class=\"tex2jax_process\">$95 \\% $</span> confident the average annual income for Jacksonville, Florida residents is between:</div>",
+  "question_text": "One hundred randomly chosen adult subjects in Jacksonville, FL, were asked their annual income. The data reported from the sample was approximately normal and showed a mean of $\\$46{,}203$ with a standard deviation of $\\$10{,}201$ . A $95\\%$ confidence interval would show, approximately, that we are $95 \\% $ confident the average annual income for Jacksonville, Florida residents is between:",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "$\n36,002\nand\n$\n56,404"
+      "text": "$ 36,002 $ 36,002 and $ 56,404 $ 56,404"
     },
     {
       "letter": "B",
-      "text": "$\n44,204\nand\n$\n48,202"
+      "text": "$ 44,204 $ 44,204 and $ 48,202 $ 48,202"
     },
     {
       "letter": "C",
-      "text": "$\n25,801\nand\n$\n66,605"
+      "text": "$ 25,801 $ 25,801 and $ 66,605 $ 66,605"
     },
     {
       "letter": "D",
-      "text": "$\n44,179\nand\n$\n48,227"
+      "text": "$ 44,179 $ 44,179 and $ 48,227 $ 48,227"
     },
     {
       "letter": "E",
-      "text": "Assumptions are not met in this situation to compute an appropriate\n95\n%\nconfidence interval."
+      "text": "Assumptions are not met in this situation to compute an appropriate 95 % 95 % confidence interval."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

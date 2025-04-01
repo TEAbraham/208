@@ -1,32 +1,33 @@
 {
   "question_id": "question-005",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Almond Weights",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">The quality control inspector at an almond packaging plant checks the packaging equipment by randomly selecting and weighing <span class=\"tex2jax_process\">$25\\text{ bags}$</span> each day.  The packaging equipment is calibrated to package bags with a mean weight of <span class=\"tex2jax_process\">$12\\text{ ounces}$</span> and a standard deviation of <span class=\"tex2jax_process\">$0.25\\text{ ounces}$</span>.  </div><div class=\"paragraph\">What should be the mean and standard deviation for the sampling distribution of all the daily mean weights?</div>",
+  "question_text": "The quality control inspector at an almond packaging plant checks the packaging equipment by randomly selecting and weighing $25\\text{ bags}$ each day.  The packaging equipment is calibrated to package bags with a mean weight of $12\\text{ ounces}$ and a standard deviation of $0.25\\text{ ounces}$ . What should be the mean and standard deviation for the sampling distribution of all the daily mean weights?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "μ\n¯¯¯\nx\n=\n300\n,\nσ\n¯¯¯\nx\n=\n6.25"
+      "text": "μ ¯ ¯ ¯ x = 300 , σ ¯ ¯ ¯ x = 6.25 μ x ¯ = 300 , σ x ¯ = 6.25"
     },
     {
       "letter": "B",
-      "text": "μ\n¯¯¯\nx\n=\n300\n,\nσ\n¯¯¯\nx\n=\n0.05"
+      "text": "μ ¯ ¯ ¯ x = 300 , σ ¯ ¯ ¯ x = 0.05 μ x ¯ = 300 , σ x ¯ = 0.05"
     },
     {
       "letter": "C",
-      "text": "μ\n¯¯¯\nx\n=\n300\n,\nσ\n¯¯¯\nx\n=\n0.01"
+      "text": "μ ¯ ¯ ¯ x = 300 , σ ¯ ¯ ¯ x = 0.01 μ x ¯ = 300 , σ x ¯ = 0.01"
     },
     {
       "letter": "D",
-      "text": "μ\n¯¯¯\nx\n=\n12\n,\nσ\n¯¯¯\nx\n=\n0.05"
+      "text": "μ ¯ ¯ ¯ x = 12 , σ ¯ ¯ ¯ x = 0.05 μ x ¯ = 12 , σ x ¯ = 0.05"
     },
     {
       "letter": "E",
-      "text": "μ\n¯¯¯\nx\n=\n12\n,\nσ\n¯¯¯\nx\n=\n0.01"
+      "text": "μ ¯ ¯ ¯ x = 12 , σ ¯ ¯ ¯ x = 0.01 μ x ¯ = 12 , σ x ¯ = 0.01"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,17 +1,18 @@
 {
   "question_id": "question-083",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Ice Cream Containers",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">An ice cream company ran two assembly lines for two of its most popular flavors.  Assembly line <span class=\"tex2jax_process\">$1$</span> had a mean container weight of <span class=\"tex2jax_process\">$15.8$</span> ounces with a standard deviation of <span class=\"tex2jax_process\">$0.6$</span> ounces.  Assembly line <span class=\"tex2jax_process\">$2$</span> had a mean container weight of <span class=\"tex2jax_process\">$16.1$</span> ounces with a standard deviation of <span class=\"tex2jax_process\">$0.7$</span> ounces.  If <span class=\"tex2jax_process\">$40$</span> containers are to be sampled from each assembly line, what is the probability that the weights do not differ by more than <span class=\"tex2jax_process\">$0.1$</span> ounce in either direction?  Round your answer to the nearest percent.</div>",
+  "question_text": "An ice cream company ran two assembly lines for two of its most popular flavors.  Assembly line $1$ had a mean container weight of $15.8$ ounces with a standard deviation of $0.6$ ounces.  Assembly line $2$ had a mean container weight of $16.1$ ounces with a standard deviation of $0.7$ ounces.  If $40$ containers are to be sampled from each assembly line, what is the probability that the weights do not differ by more than $0.1$ ounce in either direction?  Round your answer to the nearest percent.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "9\n%"
+      "text": "9 % 9 %"
     },
     {
       "letter": "B",
-      "text": "91\n%"
+      "text": "91 % 91 %"
     },
     {
       "letter": "C",
@@ -19,14 +20,14 @@
     },
     {
       "letter": "D",
-      "text": "88\n%"
+      "text": "88 % 88 %"
     },
     {
       "letter": "E",
-      "text": "41\n%"
+      "text": "41 % 41 %"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

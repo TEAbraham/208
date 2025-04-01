@@ -1,32 +1,33 @@
 {
   "question_id": "question-042",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Home-Field Advantage",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A sports analyst wishes to make the claim that baseball teams are more likely to win home games than away games.  </div><div class=\"paragraph\">The analyst selects a local baseball team that has won <span class=\"tex2jax_process\">$54$</span> of its <span class=\"tex2jax_process\">$81\\text{ home games}$</span> this season.  </div><div class=\"paragraph\">Assuming an equal number of home and away games, what is the maximum number of away games the home team can win for the analyst’s claim to be true at the <span class=\"tex2jax_process\">$5\\%$</span> level?</div>",
+  "question_text": "A sports analyst wishes to make the claim that baseball teams are more likely to win home games than away games. The analyst selects a local baseball team that has won $54$ of its $81\\text{ home games}$ this season. Assuming an equal number of home and away games, what is the maximum number of away games the home team can win for the analyst’s claim to be true at the $5\\%$ level?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "32"
+      "text": "32 32"
     },
     {
       "letter": "B",
-      "text": "43"
+      "text": "43 43"
     },
     {
       "letter": "C",
-      "text": "54"
+      "text": "54 54"
     },
     {
       "letter": "D",
-      "text": "55"
+      "text": "55 55"
     },
     {
       "letter": "E",
-      "text": "Enough evidence already exists since the sample proportion of\n54\n81\nis already significantly greater than a\n50\n%\nchance of winning."
+      "text": "Enough evidence already exists since the sample proportion of 54 81 54 81 is already significantly greater than a 50 % 50 % chance of winning."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

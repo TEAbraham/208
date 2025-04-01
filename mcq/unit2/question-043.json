@@ -1,8 +1,9 @@
 {
   "question_id": "question-043",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "What Can You Conclude?",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">The following <span class=\"tex2jax_process\">$4$</span> points appear on a scatterplot:  <span class=\"tex2jax_process\">$(2, 7), (8, 4), (12, 2), (0, 8)$</span>.</div><div class=\"paragraph\">What conclusion can you make for sure?</div>",
+  "question_text": "The following $4$ points appear on a scatterplot: $(2, 7), (8, 4), (12, 2), (0, 8)$ . What conclusion can you make for sure?",
   "image_files": [],
   "choices": [
     {
@@ -11,7 +12,7 @@
     },
     {
       "letter": "B",
-      "text": "The point\n(\n12\n,\n2\n)\nis an outlier."
+      "text": "The point ( 12 , 2 ) ( 12 , 2 ) is an outlier."
     },
     {
       "letter": "C",
@@ -26,7 +27,7 @@
       "text": "There is a positive association between the variables."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

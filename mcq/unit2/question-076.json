@@ -1,34 +1,35 @@
 {
   "question_id": "question-076",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Describing an Association: Linear vs. Non-Linear",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Looking at the scatterplot below, which of the following describes the nature of the association?  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div>\n",
+  "question_text": "Looking at the scatterplot below, which of the following describes the nature of the association? Created for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-076-img1.png"
   ],
   "choices": [
     {
       "letter": "A",
-      "text": "There is a strong negative linear association between\nx\nand\ny\n."
+      "text": "There is a strong negative linear association between x x and y y ."
     },
     {
       "letter": "B",
-      "text": "There is a strong positive linear association between\nx\nand\ny\n."
+      "text": "There is a strong positive linear association between x x and y y ."
     },
     {
       "letter": "C",
-      "text": "There is a strong negative non-linear association between\nx\nand\ny\n."
+      "text": "There is a strong negative non-linear association between x x and y y ."
     },
     {
       "letter": "D",
-      "text": "There is a strong positive non-linear association between\nx\nand\ny\n."
+      "text": "There is a strong positive non-linear association between x x and y y ."
     },
     {
       "letter": "E",
-      "text": "There is a weak positive non-linear association between\nx\nand\ny\n."
+      "text": "There is a weak positive non-linear association between x x and y y ."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

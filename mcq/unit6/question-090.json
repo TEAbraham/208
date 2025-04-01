@@ -1,8 +1,9 @@
 {
   "question_id": "question-090",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Reducing Type I Error",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A study on women’s weights was recently completed.  </div><div class=\"paragraph\">Fifteen randomly selected high school females from an urban setting were compared to <span class=\"tex2jax_process\">$16$</span> randomly selected high school women from a rural setting. The results are below:</div><div class=\"paragraph\"><em>Two-Sample T for Urban Weights vs. Rural Weights</em></div><br><div class=\"paragraph\">  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">StDev</th><th scope=\"col\">SE Mean</th></tr></thead><tbody><tr><td>Urban Weights</td><td>15</td><td>126.1</td><td>10.5</td><td>2.7</td></tr><tr><td>Rural Weights</td><td>16</td><td>128.8</td><td>13.2</td><td>3.3</td></tr></tbody></table></div><br><div class=\"paragraph\"><br><span class=\"tex2jax_process\">$\\text{Difference} = \\mu _{\\text{Urban Weights}} - \\mu_{ \\text{Rural Weights}}$</span>  </div><div class=\"paragraph\"><em>Estimate for difference: <span class=\"tex2jax_process\">$-2.68$</span></em><br><em><span class=\"tex2jax_process\">$95\\%$</span> CI for difference: (<span class=\"tex2jax_process\">$-11.45, 6.09$</span>)</em></div><div class=\"paragraph\"><em>T-test of difference = <span class=\"tex2jax_process\">$0$</span> (vs. not =): T-value = <span class=\"tex2jax_process\">$-0.63$</span>, P-value = <span class=\"tex2jax_process\">$0.537$</span>, DF = <span class=\"tex2jax_process\">$28$</span></em>  </div><div class=\"paragraph\">What could be a possible way to reduce the probability of a type I error in this context?</div>",
+  "question_text": "A study on women’s weights was recently completed. Fifteen randomly selected high school females from an urban setting were compared to $16$ randomly selected high school women from a rural setting. The results are below: Two-Sample T for Urban Weights vs. Rural Weights N Mean StDev SE Mean Urban Weights 15 126.1 10.5 2.7 Rural Weights 16 128.8 13.2 3.3 $\\text{Difference} = \\mu _{\\text{Urban Weights}} - \\mu_{ \\text{Rural Weights}}$ Estimate for difference: $-2.68$ $95\\%$ CI for difference: ( $-11.45, 6.09$ ) T-test of difference = $0$ (vs. not =): T-value = $-0.63$ , P-value = $0.537$ , DF = $28$ What could be a possible way to reduce the probability of a type I error in this context?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "Select from different areas across the country to reduce variability."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

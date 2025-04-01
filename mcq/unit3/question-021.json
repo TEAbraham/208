@@ -1,8 +1,9 @@
 {
   "question_id": "question-021",
+  "unit": "Unit 3 | Collecting Data",
   "title": "Census: Education in the Summer",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A large seminar was presented for teachers about possible retirement options.  During the seminar, a random sample of <span class=\"tex2jax_process\">$50$</span> math teachers attending the conference was selected. Among the teachers selected, <span class=\"tex2jax_process\">$85\\%$</span> have been teaching math for more than ten years.  </div><div class=\"paragraph\">For which of the following populations is <span class=\"tex2jax_process\">$85\\%$</span> a reasonable estimate of the percentage of those who have been teaching math for more than ten years?</div>",
+  "question_text": "A large seminar was presented for teachers about possible retirement options.  During the seminar, a random sample of $50$ math teachers attending the conference was selected. Among the teachers selected, $85\\%$ have been teaching math for more than ten years. For which of the following populations is $85\\%$ a reasonable estimate of the percentage of those who have been teaching math for more than ten years?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "All math teachers who attended the seminar."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

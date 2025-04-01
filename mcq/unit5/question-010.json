@@ -1,32 +1,33 @@
 {
   "question_id": "question-010",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Red Candies",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">The Spittles company claimed that there were <span class=\"tex2jax_process\">$20\\%$</span> red candies in its fun-size packs and <span class=\"tex2jax_process\">$20\\%$</span> red candies in its jumbo size bags.  A test was run where the proportion of red candies in <span class=\"tex2jax_process\">$80$</span> samples of each size type were to be recorded.  What would the mean and standard deviation be for the sampling distribution for this difference in sample proportions?</div>",
+  "question_text": "The Spittles company claimed that there were $20\\%$ red candies in its fun-size packs and $20\\%$ red candies in its jumbo size bags.  A test was run where the proportion of red candies in $80$ samples of each size type were to be recorded.  What would the mean and standard deviation be for the sampling distribution for this difference in sample proportions?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The mean of the differences,\nμ\n, is equal to\n0\n. The standard deviation of the differences,\nσ\n, is equal to\n0\n."
+      "text": "The mean of the differences, μ μ , is equal to 0 0 . The standard deviation of the differences, σ σ , is equal to 0 0 ."
     },
     {
       "letter": "B",
-      "text": "The mean of the differences,\nμ\n, is equal to\n0\n. The standard deviation of the differences,\nσ\n, is equal to\n0.063\n."
+      "text": "The mean of the differences, μ μ , is equal to 0 0 . The standard deviation of the differences, σ σ , is equal to 0.063 0.063 ."
     },
     {
       "letter": "C",
-      "text": "The mean of the differences,\nμ\n, is equal to\n0\n. The standard deviation of the differences,\nσ\n, is equal to\n0.004\n."
+      "text": "The mean of the differences, μ μ , is equal to 0 0 . The standard deviation of the differences, σ σ , is equal to 0.004 0.004 ."
     },
     {
       "letter": "D",
-      "text": "The mean of the differences,\nμ\n, is equal to\n0.4\n. The standard deviation of the differences,\nσ\n, is equal to\n0\n."
+      "text": "The mean of the differences, μ μ , is equal to 0.4 0.4 . The standard deviation of the differences, σ σ , is equal to 0 0 ."
     },
     {
       "letter": "E",
-      "text": "The mean of the differences,\nμ\n, is equal to\n0.4\n. The standard deviation of the differences,\nσ\n, is equal to\n0.036\n."
+      "text": "The mean of the differences, μ μ , is equal to 0.4 0.4 . The standard deviation of the differences, σ σ , is equal to 0.036 0.036 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

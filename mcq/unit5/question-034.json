@@ -1,8 +1,9 @@
 {
   "question_id": "question-034",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Predicting Sampling Distribution Shape",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Suppose a random sample size <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-14398-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 114%;\"><span id=\"MJXc-Node-73526\" class=\"mjx-math\"><span id=\"MJXc-Node-73527\" class=\"mjx-mrow\"><span id=\"MJXc-Node-73528\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.222em; padding-bottom: 0.277em;\">n</span></span><span id=\"MJXc-Node-73529\" class=\"mjx-mo MJXc-space3\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.058em; padding-bottom: 0.332em;\">=</span></span><span id=\"MJXc-Node-73530\" class=\"mjx-mn MJXc-space3\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">9</span></span></span></span></span><script type=\"math/tex\" id=\"MathJax-Element-14398\">n = 9</script></span> comes from a population that is approximately normal (bell-shaped).  </div><div class=\"paragraph\">One can conclude from this that the sampling distribution will be</div>",
+  "question_text": "Suppose a random sample size $n = 9$ comes from a population that is approximately normal (bell-shaped). One can conclude from this that the sampling distribution will be",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "Not normal since the sample size is so small."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

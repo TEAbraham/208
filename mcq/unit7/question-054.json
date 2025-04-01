@@ -1,32 +1,33 @@
 {
   "question_id": "question-054",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "ACT Improvement?",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A national test prep firm advertised that ACT scores would go up after taking one of its courses.  To test this, an outside research firm decided to run a matched-pairs test.  Forty randomly selected students would take an ACT test before the course and then again after the course.  The before and after scores would then be examined and tested to see if there was any improvement.  Which of the following would be the correct set of hypotheses for this test?</div>",
+  "question_text": "A national test prep firm advertised that ACT scores would go up after taking one of its courses.  To test this, an outside research firm decided to run a matched-pairs test.  Forty randomly selected students would take an ACT test before the course and then again after the course.  The before and after scores would then be examined and tested to see if there was any improvement.  Which of the following would be the correct set of hypotheses for this test?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "H\n0\n:\nμ\nd\n=\n0 H\na\n:\nμ\nd\n>\n0 where\nμ\nd\n=\nbefore - after ACT scores"
+      "text": "H 0 : μ d = 0 H 0 : μ d = 0 H a : μ d > 0 H a : μ d > 0 where μ d = μ d = before - after ACT scores"
     },
     {
       "letter": "B",
-      "text": "H\n0\n:\nμ\nd\n=\n0 H\na\n:\nμ\nd\n>\n0 where\nμ\nd\n=\nafter - before ACT scores"
+      "text": "H 0 : μ d = 0 H 0 : μ d = 0 H a : μ d > 0 H a : μ d > 0 where μ d = μ d = after - before ACT scores"
     },
     {
       "letter": "C",
-      "text": "H\n0\n:\nμ\nd\n=\n0 H\na\n:\nμ\nd\n≠\n0 where\nμ\nd\n=\nafter - before ACT scores"
+      "text": "H 0 : μ d = 0 H 0 : μ d = 0 H a : μ d ≠ 0 H a : μ d ≠ 0 where μ d = μ d = after - before ACT scores"
     },
     {
       "letter": "D",
-      "text": "H\n0\n:\nμ\na\n−\nμ\nb\n=\n0 H\na\n:\nμ\na\n−\nμ\nb\n>\n0 where\nμ\na\n=\nafter scores and where\nμ\nb\n=\nbefore scores"
+      "text": "H 0 : μ a − μ b = 0 H 0 : μ a − μ b = 0 H a : μ a − μ b > 0 H a : μ a − μ b > 0 where μ a = μ a = after scores and where μ b = μ b = before scores"
     },
     {
       "letter": "E",
-      "text": "H\n0\n:\n¯\nx\nd\n=\n0 H\na\n:\n¯\nx\nd\n≠\n0 where\n¯\nx\nd\n=\nafter - before ACT scores"
+      "text": "H 0 : ¯ x d = 0 H 0 : x ¯ d = 0 H a : ¯ x d ≠ 0 H a : x ¯ d ≠ 0 where ¯ x d = x ¯ d = after - before ACT scores"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

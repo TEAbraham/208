@@ -1,13 +1,14 @@
 {
   "question_id": "question-170",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Lottery Tickets I | 2 of 3",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Each month for the past year, Barbara and Pauline have purchased <span class=\"tex2jax_process\">$30\\text{ scratch-off lottery tickets}$</span> each. Barbara always buys Florida Gold scratch-off tickets, and Pauline always buys Lotsa Cash scratch-off tickets.  </div><div class=\"paragraph\">They have kept track of their number of winning tickets each month. Below are the results of the number of tickets that have been winners each month during the <span class=\"tex2jax_process\">$12\\text{ months}$</span> of their record-keeping. (For ease of calculation, the data have been ordered from smallest to largest, not chronologically.)\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Barbara (Florida Gold)</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">6</th><th scope=\"col\">6</th><th scope=\"col\">6</th><th scope=\"col\">7</th><th scope=\"col\">7</th><th scope=\"col\">8</th><th scope=\"col\">8</th><th scope=\"col\">14</th></tr></thead><tbody><tr><td>Pauline (Lotsa Cash)</td><td>5</td><td>7</td><td>7</td><td>8</td><td>8</td><td>8</td><td>8</td><td>9</td><td>9</td><td>10</td><td>12</td><td>17</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Which is a true statement when comparing these two distributions?</div>",
+  "question_text": "Each month for the past year, Barbara and Pauline have purchased $30\\text{ scratch-off lottery tickets}$ each. Barbara always buys Florida Gold scratch-off tickets, and Pauline always buys Lotsa Cash scratch-off tickets. They have kept track of their number of winning tickets each month. Below are the results of the number of tickets that have been winners each month during the $12\\text{ months}$ of their record-keeping. (For ease of calculation, the data have been ordered from smallest to largest, not chronologically.) Barbara (Florida Gold) 2 3 3 4 6 6 6 7 7 8 8 14 Pauline (Lotsa Cash) 5 7 7 8 8 8 8 9 9 10 12 17 Which is a true statement when comparing these two distributions?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Q\n3\nfor Florida Gold equals\nQ\n1\nfor Lotsa Cash."
+      "text": "Q 3 Q 3 for Florida Gold equals Q 1 Q 1 for Lotsa Cash."
     },
     {
       "letter": "B",
@@ -15,7 +16,7 @@
     },
     {
       "letter": "C",
-      "text": "Florida Gold has a center of about\n6\nand a smaller IQR than Lotsa Cash."
+      "text": "Florida Gold has a center of about 6 6 and a smaller IQR than Lotsa Cash."
     },
     {
       "letter": "D",
@@ -26,7 +27,7 @@
       "text": "Lotsa Cash yields more net profit for Pauline than Florida Gold does for Barbara."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

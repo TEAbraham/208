@@ -1,8 +1,9 @@
 {
   "question_id": "question-020",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Supermarket Survey",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Sam is working on a statistics class project and decides to collect data from people at the local supermarket. The survey he is asking collects information on gender, hair color, number of kids, zip code, number of items in the cart, and how much money in their wallet. </div><div class=\"paragraph\">Once all the data has been collected Sam organizes the data into two groups: Quantitative or Categorical. The groups are listed below. </div><ul><li><strong>Quantitative</strong>: number of kids, zip code, number of Items in the cart, and amount of money in wallet</li><li><strong>Categorical</strong>: gender, hair color</li></ul><div class=\"paragraph\">Did Sam correctly break down the variable into the two groups?</div>",
+  "question_text": "Sam is working on a statistics class project and decides to collect data from people at the local supermarket. The survey he is asking collects information on gender, hair color, number of kids, zip code, number of items in the cart, and how much money in their wallet. Once all the data has been collected Sam organizes the data into two groups: Quantitative or Categorical. The groups are listed below. Quantitative : number of kids, zip code, number of Items in the cart, and amount of money in wallet Categorical : gender, hair color Did Sam correctly break down the variable into the two groups?",
   "image_files": [],
   "choices": [
     {
@@ -26,14 +27,9 @@
       "text": "Sam has the idea of quantitative and categorical variables completely flipped."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer. ",
-  "solution": "Sam's survey collected data on <strong>individuals</strong> from the supermarket. The data can be split into two groups: quantitative or categorical. A <strong>quantitative</strong> variable is one that takes one a value that can be measured whereas a <strong>categorical</strong> variable takes on values that are category names or group names. \n\nAlthough zip code is a numeric value, it is not a value that can be measured from one person to another. Another way to think about it is, we cannot find the average zip code. Since we cannot find the numeric average, the value is categorical. \n\n<strong>Choice 'C'</strong> is correct. ",
-  "distractor_explanations": {
-    "A": "<strong>Choice 'A'</strong> is incorrect. Since zip code is incorrectly labeled as quantitative, Sam does not have the lists correct. ",
-    "B": "<strong>Choice 'B'</strong> is incorrect.  Because we can find the average number of kids for all the people Sam interviewed, number of kids is quantitative. ",
-    "D": "<strong>Choice 'D'</strong> is incorrect.  Again, since we can find the average amount of money in a person's wallet, this is quantitative. ",
-    "E": "<strong>Choice 'E'</strong> is incorrect. Sam has the general idea of quantitative and categorical correct, he was simply off on zip code."
-  },
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "Sam's survey collected data on individuals from the supermarket. The data can be split into two groups: quantitative or categorical. A quantitative variable is one that takes one a value that can be measured whereas a categorical variable takes on values that are category names or group names.\n\nAlthough zip code is a numeric value, it is not a value that can be measured from one person to another. Another way to think about it is, we cannot find the average zip code. Since we cannot find the numeric average, the value is categorical.\n\nChoice 'C' is correct.",
+  "distractor_explanations": {},
   "tags": [
     "VAR-1.C.1",
     "VAR-1.B",

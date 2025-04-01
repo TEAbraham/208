@@ -1,17 +1,18 @@
 {
   "question_id": "question-084",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Statistical Resistance: Getting Ready in the Morning",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A random sample of <span class=\"tex2jax_process\">$20\\text{ high school students}$</span> was surveyed and asked \"How long does it take you to get ready for school in the morning?\"  </div><div class=\"paragraph\">Which of the following measures is most resistant to the addition of an extremely large outlier?</div>",
+  "question_text": "A random sample of $20\\text{ high school students}$ was surveyed and asked \"How long does it take you to get ready for school in the morning?\" Which of the following measures is most resistant to the addition of an extremely large outlier?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The\n95\n%\nconfidence interval for the population mean."
+      "text": "The 95 % 95 % confidence interval for the population mean."
     },
     {
       "letter": "B",
-      "text": "The\np\n-value calculated by using the sample mean to conduct a significance test."
+      "text": "The p p -value calculated by using the sample mean to conduct a significance test."
     },
     {
       "letter": "C",
@@ -26,7 +27,7 @@
       "text": "The maximum value in the data set."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

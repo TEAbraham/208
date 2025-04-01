@@ -1,32 +1,33 @@
 {
   "question_id": "question-173",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Practice Tests",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Mrs. Sippi gives a practice AP test to her two sections of AP Statistics, each with <span class=\"tex2jax_process\">$25$</span> students. Period F has a minimum of <span class=\"tex2jax_process\">$59$</span>, a median of <span class=\"tex2jax_process\">$81$</span>, a mean of <span class=\"tex2jax_process\">$82$</span>, and a maximum of <span class=\"tex2jax_process\">$98$</span>. Period G (G-Unit) has a minimum of <span class=\"tex2jax_process\">$50$</span> percent, a median of <span class=\"tex2jax_process\">$77$</span>, a mean of <span class=\"tex2jax_process\">$84$</span>, and a maximum of <span class=\"tex2jax_process\">$96$</span>.  </div><div class=\"paragraph\">If Mrs. Sippi put all <span class=\"tex2jax_process\">$50$</span> scores in one dataset and recalculated the minimum, maximum, mean, median, and range, which of the following <strong>MUST</strong> be true?</div>",
+  "question_text": "Mrs. Sippi gives a practice AP test to her two sections of AP Statistics, each with $25$ students. Period F has a minimum of $59$ , a median of $81$ , a mean of $82$ , and a maximum of $98$ . Period G (G-Unit) has a minimum of $50$ percent, a median of $77$ , a mean of $84$ , and a maximum of $96$ . If Mrs. Sippi put all $50$ scores in one dataset and recalculated the minimum, maximum, mean, median, and range, which of the following MUST be true?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The new median is\n79\nand the new maximum is\n98\n."
+      "text": "The new median is 79 79 and the new maximum is 98 98 ."
     },
     {
       "letter": "B",
-      "text": "The new mean is\n83\nand the new range is\n48\n."
+      "text": "The new mean is 83 83 and the new range is 48 48 ."
     },
     {
       "letter": "C",
-      "text": "The new range is\n46\nand the new mean is\n83\n."
+      "text": "The new range is 46 46 and the new mean is 83 83 ."
     },
     {
       "letter": "D",
-      "text": "The new median is\n79\nand the new mean is\n83\n."
+      "text": "The new median is 79 79 and the new mean is 83 83 ."
     },
     {
       "letter": "E",
-      "text": "The new range is\n48\nand the new median is\n79\n."
+      "text": "The new range is 48 48 and the new median is 79 79 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

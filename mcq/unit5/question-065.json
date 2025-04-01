@@ -1,32 +1,33 @@
 {
   "question_id": "question-065",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Bachelor's Degrees in the United States",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Chances are, since you are studying AP Statistics, you plan to earn at least a bachelor's degree from college.  According to the U.S. Census Bureau, <span class=\"tex2jax_process\">$29\\%$</span> of Americans age <span class=\"tex2jax_process\">$25\\text{ years}$</span> or older have already earned a bachelor's or more advanced degree.  You decide to randomly select <span class=\"tex2jax_process\">$58\\text{ adults}$</span> over the age of <span class=\"tex2jax_process\">$25$</span> to ask if they have earned at least a bachelor's degree.  </div><div class=\"paragraph\">Describe the sampling distribution of the proportion of respondents who have earned at least a bachelor's degree.</div>",
+  "question_text": "Chances are, since you are studying AP Statistics, you plan to earn at least a bachelor's degree from college.  According to the U.S. Census Bureau, $29\\%$ of Americans age $25\\text{ years}$ or older have already earned a bachelor's or more advanced degree.  You decide to randomly select $58\\text{ adults}$ over the age of $25$ to ask if they have earned at least a bachelor's degree. Describe the sampling distribution of the proportion of respondents who have earned at least a bachelor's degree.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The sampling distribution is nearly normal. μ\n^\np\n=\n0.29\n\nσ\n^\np\n=\n0.06"
+      "text": "The sampling distribution is nearly normal. μ ^ p = 0.29 μ p ^ = 0.29 σ ^ p = 0.06 σ p ^ = 0.06"
     },
     {
       "letter": "B",
-      "text": "The sampling distribution is nearly normal. μ\n^\np\n=\n0.29\n\nσ\n^\np\n=\n0.008"
+      "text": "The sampling distribution is nearly normal. μ ^ p = 0.29 μ p ^ = 0.29 σ ^ p = 0.008 σ p ^ = 0.008"
     },
     {
       "letter": "C",
-      "text": "The sampling distribution is not nearly normal. μ\n^\np\n=\n0.29\n\nσ\n^\np\n=\n0.06"
+      "text": "The sampling distribution is not nearly normal. μ ^ p = 0.29 μ p ^ = 0.29 σ ^ p = 0.06 σ p ^ = 0.06"
     },
     {
       "letter": "D",
-      "text": "The sampling distribution is not nearly normal. μ\n^\np\n=\n0.29\n\nσ\n^\np\n=\n0.008"
+      "text": "The sampling distribution is not nearly normal. μ ^ p = 0.29 μ p ^ = 0.29 σ ^ p = 0.008 σ p ^ = 0.008"
     },
     {
       "letter": "E",
-      "text": "The sampling distribution is not nearly normal. μ\n^\np\n=\n0.29\n\nσ\n^\np\n=\n0.09"
+      "text": "The sampling distribution is not nearly normal. μ ^ p = 0.29 μ p ^ = 0.29 σ ^ p = 0.09 σ p ^ = 0.09"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

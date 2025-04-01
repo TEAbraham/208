@@ -1,32 +1,33 @@
 {
   "question_id": "question-019",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Senator Approval",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Suppose <span class=\"tex2jax_process\">$15$</span> randomly chosen subjects are questioned on whether they approve of their U.S. senator.  </div><div class=\"paragraph\">Of these, <span class=\"tex2jax_process\">$3$</span> ​subjects approved, and <span class=\"tex2jax_process\">$12$</span> did not approve of their senator. A <span class=\"tex2jax_process\">$90\\%$</span> confidence interval was computed on this data.  </div><div class=\"paragraph\">Which of the following statements is correct?</div>",
+  "question_text": "Suppose $15$ randomly chosen subjects are questioned on whether they approve of their U.S. senator. Of these, $3$ ​subjects approved, and $12$ did not approve of their senator. A $90\\%$ confidence interval was computed on this data. Which of the following statements is correct?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "We are\n90\n%\nconfident that the true proportion of subjects who approve of their senator is between\n3\n%\nand\n37\n%\n."
+      "text": "We are 90 % 90 % confident that the true proportion of subjects who approve of their senator is between 3 % 3 % and 37 % 37 % ."
     },
     {
       "letter": "B",
-      "text": "This survey gives strong evidence that the true proportion of subjects who approve of their senator is less than\n35\n%\n."
+      "text": "This survey gives strong evidence that the true proportion of subjects who approve of their senator is less than 35 % 35 % ."
     },
     {
       "letter": "C",
-      "text": "We are\n90\n%\nconfident that the true proportion of subjects who approve of their senator is between\n13.3\n%\nand\n26.6\n%\n."
+      "text": "We are 90 % 90 % confident that the true proportion of subjects who approve of their senator is between 13.3 % 13.3 % and 26.6 % 26.6 % ."
     },
     {
       "letter": "D",
-      "text": "We are\n90\n%\nconfident that the true proportion of subjects who approve of their senator is between\n17\n%\nand\n23\n%\n."
+      "text": "We are 90 % 90 % confident that the true proportion of subjects who approve of their senator is between 17 % 17 % and 23 % 23 % ."
     },
     {
       "letter": "E",
       "text": "A confidence interval in this situation should NOT be done as assumptions are not met."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

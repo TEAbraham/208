@@ -1,8 +1,9 @@
 {
   "question_id": "question-127",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "When to Transform a Model",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Which of the following statements is/are true regarding transforming a model involving an explanatory and response relationship?</div><blockquote><div class=\"paragraph\"><strong>I. </strong> One should consider transforming the data if the residual plot of residuals on <span class=\"tex2jax_process\">$X$</span> fails to show a pattern.  </div><div class=\"paragraph\"><strong>II. </strong> One should consider transforming the data if the scatterplot of <span class=\"tex2jax_process\">$X$</span> against <span class=\"tex2jax_process\">$Y$</span> shows a curved pattern.  </div><div class=\"paragraph\"><strong>III.</strong> One should consider transforming the data if the correlation coefficient, <span class=\"tex2jax_process\">$r$</span>, is <span class=\"tex2jax_process\">$-0.30$</span>.    </div></blockquote>",
+  "question_text": "Which of the following statements is/are true regarding transforming a model involving an explanatory and response relationship? I. One should consider transforming the data if the residual plot of residuals on $X$ fails to show a pattern. II. One should consider transforming the data if the scatterplot of $X$ against $Y$ shows a curved pattern. III. One should consider transforming the data if the correlation coefficient, $r$ , is $-0.30$ .",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "I, II, and III."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

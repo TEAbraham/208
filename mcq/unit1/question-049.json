@@ -1,8 +1,9 @@
 {
   "question_id": "question-049",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Comparing Budgets: SF and LA",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Kim has received two job offers, one in San Francisco and the other in Los Angeles.  She has been comparing the cost of living in both cities and has come up with budgets for both cities.  These budgets (as percents of her salary per year) are displayed in the pie charts below.  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"paragraph\">If both jobs pay <span class=\"tex2jax_process\">$\\$50{,}000$</span> annually, how much more would Kim pay for housing and utilities in San Francisco than in Los Angeles?</div>",
+  "question_text": "Kim has received two job offers, one in San Francisco and the other in Los Angeles.  She has been comparing the cost of living in both cities and has come up with budgets for both cities.  These budgets (as percents of her salary per year) are displayed in the pie charts below. If both jobs pay $\\$50{,}000$ annually, how much more would Kim pay for housing and utilities in San Francisco than in Los Angeles?",
   "image_files": [
     "images/question-049-img1.PNG",
     "images/question-049-img2.PNG"
@@ -10,26 +11,26 @@
   "choices": [
     {
       "letter": "A",
-      "text": "$\n1000"
+      "text": "$ 1000 $ 1000"
     },
     {
       "letter": "B",
-      "text": "$\n4000"
+      "text": "$ 4000 $ 4000"
     },
     {
       "letter": "C",
-      "text": "$\n5000"
+      "text": "$ 5000 $ 5000"
     },
     {
       "letter": "D",
-      "text": "$\n5400"
+      "text": "$ 5400 $ 5400"
     },
     {
       "letter": "E",
-      "text": "$\n8000"
+      "text": "$ 8000 $ 8000"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

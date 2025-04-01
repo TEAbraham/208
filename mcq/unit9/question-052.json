@@ -1,32 +1,33 @@
 {
   "question_id": "question-052",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Linear Regression Slope T-test: NBA Players Height vs Wingspan",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">NBA scouts are always interested in the relationship between the height of NBA players and their respective wingspans. An NBA scout randomly selects <span class=\"tex2jax_process\">$19$</span> players and measures their heights and wingspans. Below is the computer regression analysis of height and wingspan.  </div><div class=\"paragraph\">Dependent variable is wingspan.<br><span class=\"tex2jax_process\">$R^2 = 0.787$</span><br><span class=\"tex2jax_process\">$S = 2.23$</span><br>Degrees of Freedom = <span class=\"tex2jax_process\">$17$</span>\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">Coefficient</th><th scope=\"col\">SE(Coeff)</th><th scope=\"col\">t-ratio</th><th scope=\"col\">P-value</th></tr></thead><tbody><tr><td>Constant</td><td>-2.273</td><td>0.945</td><td>-2.405</td><td>&lt;0.014</td></tr><tr><td>Height</td><td>1.084</td><td>0.24</td><td>4.52</td><td>&lt;0.0001</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Assuming the conditions for inference are met, is there evidence of a linear association between height and wingspan of NBA players at the significance level <span class=\"tex2jax_process\">$\\alpha =0.01$</span> ?  </div>",
+  "question_text": "NBA scouts are always interested in the relationship between the height of NBA players and their respective wingspans. An NBA scout randomly selects $19$ players and measures their heights and wingspans. Below is the computer regression analysis of height and wingspan. Dependent variable is wingspan. $R^2 = 0.787$ $S = 2.23$ Degrees of Freedom = $17$ Variable Coefficient SE(Coeff) t-ratio P-value Constant -2.273 0.945 -2.405 <0.014 Height 1.084 0.24 4.52 <0.0001 Assuming the conditions for inference are met, is there evidence of a linear association between height and wingspan of NBA players at the significance level $\\alpha =0.01$ ?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "No, since the\nP\n-value of\n0.014\nis greater than the\n0.01\nsignificance level, there is insufficient evidence of a linear association between height and wingspan of NBA players."
+      "text": "No, since the P P -value of 0.014 0.014 is greater than the 0.01 0.01 significance level, there is insufficient evidence of a linear association between height and wingspan of NBA players."
     },
     {
       "letter": "B",
-      "text": "Yes, since the\nP\n-value of\n0.014\nis greater than the\n0.01\nsignificance level, there is sufficient evidence of a linear association between height and wingspan of NBA players."
+      "text": "Yes, since the P P -value of 0.014 0.014 is greater than the 0.01 0.01 significance level, there is sufficient evidence of a linear association between height and wingspan of NBA players."
     },
     {
       "letter": "C",
-      "text": "No, since the\nP\n-value of approximately\n0\nis less than the\n0.01\nsignificance level, there is insufficient evidence of a linear association between height and wingspan of NBA players."
+      "text": "No, since the P P -value of approximately 0 0 is less than the 0.01 0.01 significance level, there is insufficient evidence of a linear association between height and wingspan of NBA players."
     },
     {
       "letter": "D",
-      "text": "Yes, since the\nP\n-value of approximately\n0\nis less than the\n0.01\nsignificance level, there is sufficient evidence of a positive linear association between height and wingspan of NBA players."
+      "text": "Yes, since the P P -value of approximately 0 0 is less than the 0.01 0.01 significance level,  there is sufficient evidence of a positive linear association between height and wingspan of NBA players."
     },
     {
       "letter": "E",
-      "text": "Yes, since the\nP\n-value of approximately\n0\nis less than the\n0.01\nsignificance level, there is sufficient evidence of a negative linear association between height and wingspan of NBA players."
+      "text": "Yes, since the P P -value of approximately 0 0 is less than the 0.01 0.01 significance level, there is sufficient evidence of a negative linear association between height and wingspan of NBA players."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

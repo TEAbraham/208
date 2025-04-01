@@ -1,13 +1,14 @@
 {
   "question_id": "question-028",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Type of Smartphones in Usage: Finding Evidence",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Jackie recently read a report claiming that <span class=\"tex2jax_process\">$43.8\\%$</span> of smartphone users have an Apple iPhone, <span class=\"tex2jax_process\">$39.6\\%$</span> have an Android device, <span class=\"tex2jax_process\">$13.6\\%$</span> have a Blackberry, and <span class=\"tex2jax_process\">$3\\%$</span> have some other type of smartphone. She wonders whether this distribution is true for students at her high school.  </div><div class=\"paragraph\">To gather data, she randomly surveyed <span class=\"tex2jax_process\">$30\\text{ students}$</span> who have smartphones. She found that <span class=\"tex2jax_process\">$15$</span> of them have Apple iPhones, <span class=\"tex2jax_process\">$11$</span> have an Android device, <span class=\"tex2jax_process\">$3$</span> have a Blackberry, and <span class=\"tex2jax_process\">$1$</span> has some other type of smartphone.  </div><div class=\"paragraph\">Does this provide evidence that the distribution of smartphones at this high school is not the same as was stated in the report?</div>",
+  "question_text": "Jackie recently read a report claiming that $43.8\\%$ of smartphone users have an Apple iPhone, $39.6\\%$ have an Android device, $13.6\\%$ have a Blackberry, and $3\\%$ have some other type of smartphone. She wonders whether this distribution is true for students at her high school. To gather data, she randomly surveyed $30\\text{ students}$ who have smartphones. She found that $15$ of them have Apple iPhones, $11$ have an Android device, $3$ have a Blackberry, and $1$ has some other type of smartphone. Does this provide evidence that the distribution of smartphones at this high school is not the same as was stated in the report?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Yes.\n50\n%\nof those surveyed had iPhones and this is far greater than the percentage stated in the report."
+      "text": "Yes. 50 % 50 % of those surveyed had iPhones and this is far greater than the percentage stated in the report."
     },
     {
       "letter": "B",
@@ -15,18 +16,18 @@
     },
     {
       "letter": "C",
-      "text": "No. The\np\n-value for the one-proportion\nz\n-test is too large for us to be able to conclude that the proportions stated in the report are not correct."
+      "text": "No. The p p -value for the one-proportion z z -test is too large for us to be able to conclude that the proportions stated in the report are not correct."
     },
     {
       "letter": "D",
-      "text": "No. The\np\n-value from the\nχ\n2\nGoodness of Fit test is too large to provide evidence that the distribution is different from what was reported."
+      "text": "No. The p p -value from the χ 2 χ 2 Goodness of Fit test is too large to provide evidence that the distribution is different from what was reported."
     },
     {
       "letter": "E",
       "text": "An appropriate significance test cannot be conducted in this situation, since not all conditions are satisfied."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

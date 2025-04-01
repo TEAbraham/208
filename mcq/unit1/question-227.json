@@ -1,32 +1,33 @@
 {
   "question_id": "question-227",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Trivia Tycoon: $z$-Scores and Proportions",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Mark is a beast when it comes to trivia. In the game Trivia Tycoon the number of points that players have accumulated is approximately normally distributed.  </div><div class=\"paragraph\">If Mark's <span class=\"tex2jax_process\">$z$</span>-score for points is <span class=\"tex2jax_process\">$2.75$</span>, what proportion of Trivia Tycoon players have accumulated fewer points than Mark? </div>",
+  "question_text": "Mark is a beast when it comes to trivia. In the game Trivia Tycoon the number of points that players have accumulated is approximately normally distributed. If Mark's z z -score for points is 2.75 2.75 , what proportion of Trivia Tycoon players have accumulated fewer points than Mark?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.9949"
+      "text": "0.9949 0.9949"
     },
     {
       "letter": "B",
-      "text": "0.9960"
+      "text": "0.9960 0.9960"
     },
     {
       "letter": "C",
-      "text": "0.9965"
+      "text": "0.9965 0.9965"
     },
     {
       "letter": "D",
-      "text": "0.9970"
+      "text": "0.9970 0.9970"
     },
     {
       "letter": "E",
-      "text": "0.9978"
+      "text": "0.9978 0.9978"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

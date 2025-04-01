@@ -1,8 +1,9 @@
 {
   "question_id": "question-243",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Normal Distribution: Calculus Exam",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Free-response questions on the AP Calculus Exam are scored <span class=\"tex2jax_process\">$0$</span> through <span class=\"tex2jax_process\">$9$</span>.  A question  on one of the previous exams  had an average score of <span class=\"tex2jax_process\">$3.10$</span> with a standard deviation of <span class=\"tex2jax_process\">$2.45$</span>.  </div><div class=\"paragraph\">What was the approximate score achieved by a student that would put him or her in the <span class=\"tex2jax_process\">$87$</span>th percentile on this question?  </div><div class=\"paragraph\">You may  assume the scores on this question are approximately normally distributed.</div>",
+  "question_text": "Free-response questions on the AP Calculus Exam are scored $0$ through $9$ .  A question  on one of the previous exams  had an average score of $3.10$ with a standard deviation of $2.45$ . What was the approximate score achieved by a student that would put him or her in the $87$ th percentile on this question? You may  assume the scores on this question are approximately normally distributed.",
   "image_files": [
     "images/question-243-img1.PNG",
     "images/question-243-img2.PNG"
@@ -10,26 +11,26 @@
   "choices": [
     {
       "letter": "A",
-      "text": "0.34"
+      "text": "0.34 0.34"
     },
     {
       "letter": "B",
-      "text": "0.97"
+      "text": "0.97 0.97"
     },
     {
       "letter": "C",
-      "text": "1.74"
+      "text": "1.74 1.74"
     },
     {
       "letter": "D",
-      "text": "5.23"
+      "text": "5.23 5.23"
     },
     {
       "letter": "E",
-      "text": "5.86"
+      "text": "5.86 5.86"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

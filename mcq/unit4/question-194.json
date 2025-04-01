@@ -1,8 +1,9 @@
 {
   "question_id": "question-194",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Geometric Distribution Shape",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">The shape of a geometric distribution</div>",
+  "question_text": "The shape of a geometric distribution",
   "image_files": [],
   "choices": [
     {
@@ -19,14 +20,14 @@
     },
     {
       "letter": "D",
-      "text": "Depends on\nP\n, the probability of success."
+      "text": "Depends on P P , the probability of success."
     },
     {
       "letter": "E",
       "text": "Will be symmetric but not necessarily normal."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-049",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "One Mean $z$-interval: Finding the Minimum Sample Size",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">You are sampling from a population with a known standard deviation of <span class=\"tex2jax_process\">$10$</span> and an unknown population mean. You want to construct a <span class=\"tex2jax_process\">$99\\%$</span> confidence interval, with a margin of error of no more than <span class=\"tex2jax_process\">$4$</span>.  </div><div class=\"paragraph\">What is the minimum sample that will produce this interval?</div>",
+  "question_text": "You are sampling from a population with a known standard deviation of $10$ and an unknown population mean. You want to construct a $99\\%$ confidence interval, with a margin of error of no more than $4$ . What is the minimum sample that will produce this interval?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "6"
+      "text": "6 6"
     },
     {
       "letter": "B",
-      "text": "7"
+      "text": "7 7"
     },
     {
       "letter": "C",
-      "text": "25"
+      "text": "25 25"
     },
     {
       "letter": "D",
-      "text": "41"
+      "text": "41 41"
     },
     {
       "letter": "E",
-      "text": "42"
+      "text": "42 42"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

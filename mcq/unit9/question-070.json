@@ -1,32 +1,33 @@
 {
   "question_id": "question-070",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Marty McMath Makes Predictions from Computer Output",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Marty McMath wants to know if a student's final grade in Algebra II can be used to predict his or her final grade in Precalculus. To investigate, he gathers data from a random sample of <span class=\"tex2jax_process\">$8$</span> students who have completed both courses.  </div><div class=\"paragraph\">After noticing that the relationship is roughly linear and confirming that the conditions have been satisfied, he decides to use statistical software to conduct a <span class=\"tex2jax_process\">$2$</span>-sided <span class=\"tex2jax_process\">$t$</span>-test for linear regression where the null hypothesis is the slope equals <span class=\"tex2jax_process\">$0$</span>.  </div><div class=\"paragraph\">Computer output is shown below.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Predictor</th><th scope=\"col\">Coef</th><th scope=\"col\">SE Coef</th><th scope=\"col\">T</th></tr></thead><tbody><tr><td>Constant</td><td>16.46</td><td>3.73</td><td>4.41</td></tr><tr><td>Algebra II</td><td>0.82</td><td>0.22</td><td>3.73</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Unfortunately, he can't figure out how to make the computer output display the <span class=\"tex2jax_process\">$p$</span>-value. Luckily, he knows enough statistics to be able to calculate it from the output shown.  </div><div class=\"paragraph\">What is the <span class=\"tex2jax_process\">$p$</span>-value?</div>",
+  "question_text": "Marty McMath wants to know if a student's final grade in Algebra II can be used to predict his or her final grade in Precalculus. To investigate, he gathers data from a random sample of $8$ students who have completed both courses. After noticing that the relationship is roughly linear and confirming that the conditions have been satisfied, he decides to use statistical software to conduct a $2$ -sided $t$ -test for linear regression where the null hypothesis is the slope equals $0$ . Computer output is shown below. Predictor Coef SE Coef T Constant 16.46 3.73 4.41 Algebra II 0.82 0.22 3.73 Unfortunately, he can't figure out how to make the computer output display the $p$ -value. Luckily, he knows enough statistics to be able to calculate it from the output shown. What is the $p$ -value?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.005"
+      "text": "0.005 0.005"
     },
     {
       "letter": "B",
-      "text": "0.007"
+      "text": "0.007 0.007"
     },
     {
       "letter": "C",
-      "text": "0.01"
+      "text": "0.01 0.01"
     },
     {
       "letter": "D",
-      "text": "0.1"
+      "text": "0.1 0.1"
     },
     {
       "letter": "E",
-      "text": "0.22"
+      "text": "0.22 0.22"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

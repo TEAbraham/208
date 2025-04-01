@@ -1,8 +1,9 @@
 {
   "question_id": "question-064",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Type of Significance Test: Energy Drinks",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A study reported that the proportion of college students who experience heart palpitations after drinking energy drinks is <span class=\"tex2jax_process\">$0.18$</span>.  The dean of a university believes that the proportion of students at his university who experience heart palpitations after drinking an energy drink is greater than <span class=\"tex2jax_process\">$0.18$</span>.  </div><div class=\"paragraph\">If a large random sample is used, which of the following is the most appropriate test to investigate the dean’s belief?</div>",
+  "question_text": "A study reported that the proportion of college students who experience heart palpitations after drinking energy drinks is $0.18$ .  The dean of a university believes that the proportion of students at his university who experience heart palpitations after drinking an energy drink is greater than $0.18$ . If a large random sample is used, which of the following is the most appropriate test to investigate the dean’s belief?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "A matched-pairs t-test."
     }
   ],
-  "correct_answer": "<strong>Choice ‘A’</strong> is the correct answer.  ",
+  "correct_answer": "Choice ‘A’ is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

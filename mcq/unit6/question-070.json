@@ -1,32 +1,33 @@
 {
   "question_id": "question-070",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Meaning of a Confidence Interval: Athletes and Steroids",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A random sample of <span class=\"tex2jax_process\">$50\\text{ professional athletes}$</span> were asked: \"Would you use steroids to improve performance?\" A <span class=\"tex2jax_process\">$95\\%$</span> confidence interval was constructed from the data to find the proportion of athletes who would use steroids to improve performance. The resulting interval is <span class=\"tex2jax_process\">$(0.44,0.53)$</span>.  </div><div class=\"paragraph\">Which of the following statements is true?</div>",
+  "question_text": "A random sample of $50\\text{ professional athletes}$ were asked: \"Would you use steroids to improve performance?\" A $95\\%$ confidence interval was constructed from the data to find the proportion of athletes who would use steroids to improve performance. The resulting interval is $(0.44,0.53)$ . Which of the following statements is true?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Between\n44\n%\nto\n53\n%\nof all athletes would use steroids to improve performance."
+      "text": "Between 44 % 44 % to 53 % 53 % of all athletes would use steroids to improve performance."
     },
     {
       "letter": "B",
-      "text": "We are\n95\n%\nconfident that in this particular sample of athletes,\n44\n%\nto\n53\n%\nwould use steroids to improve performance."
+      "text": "We are 95 % 95 % confident that in this particular sample of athletes, 44 % 44 % to 53 % 53 % would use steroids to improve performance."
     },
     {
       "letter": "C",
-      "text": "We are\n95\n%\nconfident that the true proportion of all athletes that would use steroids to improve performance is between\n44\n%\nto\n53\n%\n."
+      "text": "We are 95 % 95 % confident that the true proportion of all athletes that would use steroids to improve performance is between 44 % 44 % to 53 % 53 % ."
     },
     {
       "letter": "D",
-      "text": "In\n95\n%\nof all surveys, between\n44\n%\nto\n53\n%\nof all athletes report they would do steroids to improve performance."
+      "text": "In 95 % 95 % of all surveys, between 44 % 44 % to 53 % 53 % of all athletes report they would do steroids to improve performance."
     },
     {
       "letter": "E",
-      "text": "In\n95\n%\nof all surveys, we would capture the sample proportion of athletes who would use steroids to improve performance."
+      "text": "In 95 % 95 % of all surveys, we would capture the sample proportion of athletes who would use steroids to improve performance."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-016",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Let's Play Ball",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Danny wanted to do a simulation on the types of hits in baseball.  While the percentages change slightly from year to year, he found that in <span class=\"tex2jax_process\">$2020$</span> that approximately <span class=\"tex2jax_process\">$63\\%$</span> of hits were singles, <span class=\"tex2jax_process\">$18\\%$</span> were doubles, <span class=\"tex2jax_process\">$15\\%$</span> were home runs, and <span class=\"tex2jax_process\">$4\\%$</span> were triples.  Danny wanted to simulate <span class=\"tex2jax_process\">$200$</span> at bats using these percentages.  How would he assign numbers using a random number table?  Then, how would he calculate the estimated probabilities from using his table?</div>",
+  "question_text": "Danny wanted to do a simulation on the types of hits in baseball.  While the percentages change slightly from year to year, he found that in $2020$ that approximately $63\\%$ of hits were singles, $18\\%$ were doubles, $15\\%$ were home runs, and $4\\%$ were triples.  Danny wanted to simulate $200$ at bats using these percentages.  How would he assign numbers using a random number table?  Then, how would he calculate the estimated probabilities from using his table?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Let\n00\nto\n62\nindicate a single, let\n63\nto\n80\nindicate a double, let\n81\nto\n84\nindicate a triple, and let\n85\nto\n99\nindicate a home run. Danny would then count up the number in each category and divide each number by its given percentage."
+      "text": "Let 00 00 to 62 62 indicate a single, let 63 63 to 80 80 indicate a double, let 81 81 to 84 84 indicate a triple, and let 85 85 to 99 99 indicate a home run. Danny would then count up the number in each category and divide each number by its given percentage."
     },
     {
       "letter": "B",
-      "text": "Let\n00\nto\n62\nindicate a single, let\n63\nto\n80\nindicate a double, let\n81\nto\n84\nindicate a triple, and let\n85\nto\n99\nindicate a home run. Danny would then count up the number in each category and divide each number by\n100\n."
+      "text": "Let 00 00 to 62 62 indicate a single, let 63 63 to 80 80 indicate a double, let 81 81 to 84 84 indicate a triple, and let 85 85 to 99 99 indicate a home run. Danny would then count up the number in each category and divide each number by 100 100 ."
     },
     {
       "letter": "C",
-      "text": "Let\n01\nto\n63\nindicate a single, let\n64\nto\n81\nindicate a double, let\n82\nto\n85\nindicate a triple, and let\n86\nto\n99\nand\n00\nindicate a home run. Danny would then count up the number in each category and divide each number by\n100\n."
+      "text": "Let 01 01 to 63 63 indicate a single, let 64 64 to 81 81 indicate a double, let 82 82 to 85 85 indicate a triple, and let 86 86 to 99 99 and 00 00 indicate a home run. Danny would then count up the number in each category and divide each number by 100 100 ."
     },
     {
       "letter": "D",
-      "text": "Let\n01\nto\n63\nindicate a single, let\n64\nto\n80\nindicate a double, let\n81\nto\n84\nindicate a triple, and let\n85\nto\n99\nindicate a home run. Skip\n00\n. Danny would then count up the number in each category and divide each number by\n200\n."
+      "text": "Let 01 01 to 63 63 indicate a single, let 64 64 to 80 80 indicate a double, let 81 81 to 84 84 indicate a triple, and let 85 85 to 99 99 indicate a home run. Skip 00 00 . Danny would then count up the number in each category and divide each number by 200 200 ."
     },
     {
       "letter": "E",
-      "text": "Let\n01\nto\n63\nindicate a single, let\n64\nto\n81\nindicate a double, let\n82\nto\n85\nindicate a triple, and let\n86\nto\n99\nand\n00\nindicate a home run. Danny would then count up the number in each category and divide each number by\n200\n."
+      "text": "Let 01 01 to 63 63 indicate a single, let 64 64 to 81 81 indicate a double, let 82 82 to 85 85 indicate a triple, and let 86 86 to 99 99 and 00 00 indicate a home run. Danny would then count up the number in each category and divide each number by 200 200 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

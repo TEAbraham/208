@@ -1,8 +1,9 @@
 {
   "question_id": "question-144",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Males/Females ACT",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Suppose a two-sample T-test hypothesizes that <span class=\"tex2jax_process\">$H_0: { u }_{ 1 }= { u }_{ 2 }$</span> vs. <span class=\"tex2jax_process\">$H_a: { u }_{ 1 } &gt; { u }_{ 2 }$</span>  </div><div class=\"paragraph\">Let <span class=\"tex2jax_process\">${ u }_{ 1 }$</span>= the ACT score of all males in the U.S.<br>Let <span class=\"tex2jax_process\">${ u }_{ 2 }$</span>= the ACT score of all females in the U.S.  </div><div class=\"paragraph\">The two-sample <span class=\"tex2jax_process\">$T$</span>-test gives a <span class=\"tex2jax_process\">$p$</span>-value of <span class=\"tex2jax_process\">$0.013$</span>.  </div><div class=\"paragraph\">When testing at the <span class=\"tex2jax_process\">$5\\%$</span> level, one can conclude that</div>",
+  "question_text": "Suppose a two-sample T-test hypothesizes that H 0 : u 1 = u 2 vs. H a : u 1 > u 2 Let u 1 = the ACT score of all males in the U.S. Let u 2 = the ACT score of all females in the U.S. The two-sample T -test gives a p -value of 0.013 . When testing at the 5 % level, one can conclude that",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "No evidence exists to claim males and females score the same."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

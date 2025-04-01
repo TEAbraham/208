@@ -1,8 +1,9 @@
 {
   "question_id": "question-011",
+  "unit": "Unit 3 | Collecting Data",
   "title": "Burn Treatments",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A medical doctor is trying to determine which medical cream helps her patients recover from burns the best. She recruits the next <span class=\"tex2jax_process\">$60$</span> people, and separates them into three groups <span class=\"tex2jax_process\">$1$</span>, <span class=\"tex2jax_process\">$2$</span>, and <span class=\"tex2jax_process\">$3$</span>. Then she assigns group <span class=\"tex2jax_process\">$1$</span> cream <span class=\"tex2jax_process\">$A$</span>, group <span class=\"tex2jax_process\">$2$</span> cream <span class=\"tex2jax_process\">$B$</span>, and group <span class=\"tex2jax_process\">$3$</span> cream <span class=\"tex2jax_process\">$C$</span>. She then measures the results at the end of the study. </div><div class=\"paragraph\">What are the treatments in this experiment?</div>",
+  "question_text": "A medical doctor is trying to determine which medical cream helps her patients recover from burns the best. She recruits the next $60$ people, and separates them into three groups $1$ , $2$ , and $3$ . Then she assigns group $1$ cream $A$ , group $2$ cream $B$ , and group $3$ cream $C$ . She then measures the results at the end of the study. What are the treatments in this experiment?",
   "image_files": [],
   "choices": [
     {
@@ -11,7 +12,7 @@
     },
     {
       "letter": "B",
-      "text": "The\n60\npatients in the experiment."
+      "text": "The 60 60 patients in the experiment."
     },
     {
       "letter": "C",
@@ -26,14 +27,9 @@
       "text": "The results at the end of the experiment."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer. ",
-  "solution": "In an experiment, different conditions are assigned to the experimental units. The <strong>experimental units</strong> are those that have been recruited or offered to be a part of the study. The different conditions that are assigned to the experimental units are called <strong>treatments</strong>. \n\nIn this experiment, the doctor is trying to determine the best cream to help her patients recover. The experimental units in this study would be the <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7131-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>60</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-33472\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-33473\" class=\"mjx-mrow\"><span id=\"MJXc-Node-33474\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">60</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7131\">60</script></span> patients. The <strong>treatments</strong> that were imposed on the experimental units would be the three different creams. \n\n<strong>Choice 'D'</strong> is correct. ",
-  "distractor_explanations": {
-    "A": "<strong>Choice 'A'</strong> is incorrect.  All patients with burns would represent the population of interest in this experiment. ",
-    "B": "<strong>Choice 'B'</strong> is incorrect.  As noted above, the <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7132-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>60</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-33475\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-33476\" class=\"mjx-mrow\"><span id=\"MJXc-Node-33477\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">60</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7132\">60</script></span> patients in the study make up the experimental units and the sample size. ",
-    "C": "<strong>Choice 'C'</strong> is incorrect. The doctor split the patients into three groups so she could assign the three different treatments. ",
-    "E": "<strong>Choice 'E'</strong> is incorrect. The doctor will examine the results of the study to determine which treatment that was imposed will be the most effective to help her patients."
-  },
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "In an experiment, different conditions are assigned to the experimental units. The experimental units are those that have been recruited or offered to be a part of the study. The different conditions that are assigned to the experimental units are called treatments .\n\nIn this experiment, the doctor is trying to determine the best cream to help her patients recover. The experimental units in this study would be the 60 60 patients. The treatments that were imposed on the experimental units would be the three different creams.\n\nChoice 'D' is correct.",
+  "distractor_explanations": {},
   "tags": [
     "DAT-2",
     "1.C",

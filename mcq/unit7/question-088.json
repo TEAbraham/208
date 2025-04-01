@@ -1,32 +1,33 @@
 {
   "question_id": "question-088",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Annual Income Interval: What Does the Data Show?",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">One hundred randomly chosen adult subjects in Jacksonville, FL, were asked their annual income.  </div><div class=\"paragraph\">The data reported from the sample showed a mean of <span class=\"tex2jax_process\">$\\$46{,}203$</span> with a standard deviation of <span class=\"tex2jax_process\">$\\$10{,}201$</span>.  </div><div class=\"paragraph\">A <span class=\"tex2jax_process\">$95\\%$</span> confidence interval would show, approximately, that</div>",
+  "question_text": "One hundred randomly chosen adult subjects in Jacksonville, FL, were asked their annual income. The data reported from the sample showed a mean of $\\$46{,}203$ with a standard deviation of $\\$10{,}201$ . A $95\\%$ confidence interval would show, approximately, that",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "We are\n95\n%\nconfident the average annual income for United States residents is between\n$\n44,179\nand\n$\n48,227\n."
+      "text": "We are 95 % 95 % confident the average annual income for United States residents is between $ 44,179 $ 44,179 and $ 48,227 $ 48,227 ."
     },
     {
       "letter": "B",
-      "text": "We are\n95\n%\nconfident the average annual income for Jacksonville, FL, adult residents is between\n$\n44,204\nand\n$\n48,202\n."
+      "text": "We are 95 % 95 % confident the average annual income for Jacksonville, FL, adult residents is between $ 44,204 $ 44,204 and $ 48,202 $ 48,202 ."
     },
     {
       "letter": "C",
-      "text": "We are\n95\n%\nconfident the average annual income for Jacksonville, FL, adult residents is between\n$\n25,801\nand\n$\n66,605\n."
+      "text": "We are 95 % 95 % confident the average annual income for Jacksonville, FL, adult residents is between $ 25,801 $ 25,801 and $ 66,605 $ 66,605 ."
     },
     {
       "letter": "D",
-      "text": "We are\n95\n%\nconfident the average annual income for Jacksonville, FL, adult residents is between\n$\n44,179\nand\n$\n48,227\n."
+      "text": "We are 95 % 95 % confident the average annual income for Jacksonville, FL, adult residents is between $ 44,179 $ 44,179 and $ 48,227 $ 48,227 ."
     },
     {
       "letter": "E",
-      "text": "Assumptions are not met in this situation to compute an appropriate\n95\n%\nconfidence interval."
+      "text": "Assumptions are not met in this situation to compute an appropriate 95 % 95 % confidence interval."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

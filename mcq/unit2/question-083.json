@@ -1,8 +1,9 @@
 {
   "question_id": "question-083",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Linear Regression",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Which of the following statements is/are true concerning linear regression?</div><blockquote><div class=\"paragraph\"><strong>I. </strong>One can take the <span class=\"tex2jax_process\">$\\log$</span> of the <span class=\"tex2jax_process\">$x$</span> and <span class=\"tex2jax_process\">$y$</span>-values to transform an exponential relationship into a linear relationship.<br><strong>II.</strong> If the original data is of exponential form, one can increase the correlation coefficient, <span class=\"tex2jax_process\">$r$</span>, by transforming the data to linear form.<br><strong>III. </strong>As long as there is a strong correlation (<span class=\"tex2jax_process\">$|r| &gt; 0.7$</span>), the data is most likely linear.    </div></blockquote>",
+  "question_text": "Which of the following statements is/are true concerning linear regression? I. One can take the log log of the x x and y y -values to transform an exponential relationship into a linear relationship. II. If the original data is of exponential form, one can increase the correlation coefficient, r r , by transforming the data to linear form. III. As long as there is a strong correlation ( | r | > 0.7 | r | > 0.7 ), the data is most likely linear.",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "I, II, and III."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-092",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Gender Balance in Alaska and Rhode Island",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Based on the latest U.S. Census count, only <span class=\"tex2jax_process\">$48.0\\%$</span> of Alaskans are female while <span class=\"tex2jax_process\">$51.7\\%$</span> of Rhode Islanders are female.  </div><div class=\"paragraph\">What is the probability that randomly chosen samples of <span class=\"tex2jax_process\">$50\\text{ residents}$</span> from each of the two states would show a larger proportion of women in Alaska than in Rhode Island?</div>",
+  "question_text": "Based on the latest U.S. Census count, only $48.0\\%$ of Alaskans are female while $51.7\\%$ of Rhode Islanders are female. What is the probability that randomly chosen samples of $50\\text{ residents}$ from each of the two states would show a larger proportion of women in Alaska than in Rhode Island?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.356"
+      "text": "0.356 0.356"
     },
     {
       "letter": "B",
-      "text": "0.394"
+      "text": "0.394 0.394"
     },
     {
       "letter": "C",
-      "text": "0.606"
+      "text": "0.606 0.606"
     },
     {
       "letter": "D",
-      "text": "0.644"
+      "text": "0.644 0.644"
     },
     {
       "letter": "E",
       "text": "Since we know the true proportion of women in Rhode Island is greater than the true proportion of women in Alaska, it is not possible for a randomly selected sample from each state to show a larger proportion of women in Alaska."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

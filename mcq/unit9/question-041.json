@@ -1,32 +1,33 @@
 {
   "question_id": "question-041",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Conditions Check",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Before doing a <span class=\"tex2jax_process\">$t$</span>-test for slope, only one of the following checks is correct. Which answer correctly describes the reason for the check and the check itself?</div>",
+  "question_text": "Before doing a $t$ -test for slope, only one of the following checks is correct. Which answer correctly describes the reason for the check and the check itself?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "If the sample size is less than\n30\nthen the residuals should be checked for linearity."
+      "text": "If the sample size is less than 30 30 then the residuals should be checked for linearity."
     },
     {
       "letter": "B",
-      "text": "The size of the population should be checked to make sure it is less than\n10\ntimes larger than the sample."
+      "text": "The size of the population should be checked to make sure it is less than 10 10 times larger than the sample."
     },
     {
       "letter": "C",
-      "text": "The standard deviation for\ny\ndoes not vary with\nx\n. Residuals should be checked."
+      "text": "The standard deviation for y y does not vary with x x .  Residuals should be checked."
     },
     {
       "letter": "D",
-      "text": "The true relationship between\nx\nand\ny\nshould be linear. The slope value should be estimated and checked."
+      "text": "The true relationship between x x and y y should be linear.  The slope value should be estimated and checked."
     },
     {
       "letter": "E",
-      "text": "If the observed distribution is strongly skewed, then the sample size should be less than\n30\n."
+      "text": "If the observed distribution is strongly skewed, then the sample size should be less than 30 30 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

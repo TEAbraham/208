@@ -1,8 +1,9 @@
 {
   "question_id": "question-025",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Interpret Income | 1 of 2",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Last year, the mean annual income of residents in a small town was <span class=\"tex2jax_process\">$\\$49,382$</span>.  </div><div class=\"paragraph\">This year, a random sample of <span class=\"tex2jax_process\">$100$</span> residents in the same town found an annual income of <span class=\"tex2jax_process\">$\\$52,301$</span>. A <span class=\"tex2jax_process\">$95\\%$</span> confidence interval was calculated and extended from <span class=\"tex2jax_process\">$\\$50,199$</span> to <span class=\"tex2jax_process\">$\\$54,403$</span>.  </div><div class=\"paragraph\">Which of the following statements is correct concerning this interval?</div>",
+  "question_text": "Last year, the mean annual income of residents in a small town was $\\$49,382$ . This year, a random sample of $100$ residents in the same town found an annual income of $\\$52,301$ . A $95\\%$ confidence interval was calculated and extended from $\\$50,199$ to $\\$54,403$ . Which of the following statements is correct concerning this interval?",
   "image_files": [],
   "choices": [
     {
@@ -11,22 +12,22 @@
     },
     {
       "letter": "B",
-      "text": "We’re\n95\n%\nconfident that the true mean income of the town this year is\n$\n52\n,\n301\n."
+      "text": "We’re 95 % 95 % confident that the true mean income of the town this year is $ 52 , 301 $ 52 , 301 ."
     },
     {
       "letter": "C",
-      "text": "We’re\n95\n%\nconfident the true population mean salary of this town last year was between\n$\n50\n,\n199\nand\n$\n54\n,\n403\n."
+      "text": "We’re 95 % 95 % confident the true population mean salary of this town last year was between $ 50 , 199 $ 50 , 199 and $ 54 , 403 $ 54 , 403 ."
     },
     {
       "letter": "D",
-      "text": "We’re\n95\n%\nconfident the sample mean from this year’s survey is between\n$\n50\n,\n199\nand\n$\n54\n,\n403\n."
+      "text": "We’re 95 % 95 % confident the sample mean from this year’s survey is between $ 50 , 199 $ 50 , 199 and $ 54 , 403 $ 54 , 403 ."
     },
     {
       "letter": "E",
-      "text": "95\n%\nof samples such as this one would give an interval that captures the population mean of\n$\n49\n,\n382\n."
+      "text": "95 % 95 % of samples such as this one would give an interval that captures the population mean of $ 49 , 382 $ 49 , 382 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

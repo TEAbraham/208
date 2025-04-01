@@ -1,32 +1,33 @@
 {
   "question_id": "question-216",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Adjustments to Population",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A random variable is normally distributed with <span class=\"tex2jax_process\">$\\mu = 25$</span> and <span class=\"tex2jax_process\">$\\sigma = 5$</span>.  </div><div class=\"paragraph\">What are the new mean and standard deviation if you multiply each value in the underlying population by <span class=\"tex2jax_process\">$2$</span> and then add <span class=\"tex2jax_process\">$10$</span>?</div>",
+  "question_text": "A random variable is normally distributed with $\\mu = 25$ and $\\sigma = 5$ . What are the new mean and standard deviation if you multiply each value in the underlying population by $2$ and then add $10$ ?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "μ\n=\n50\n;\nσ\n=\n5"
+      "text": "μ = 50 ; σ = 5 μ = 50 ; σ = 5"
     },
     {
       "letter": "B",
-      "text": "μ\n=\n50\n;\nσ\n=\n20"
+      "text": "μ = 50 ; σ = 20 μ = 50 ; σ = 20"
     },
     {
       "letter": "C",
-      "text": "μ\n=\n60\n;\nσ\n=\n√\n60"
+      "text": "μ = 60 ; σ = √ 60 μ = 60 ; σ = 60"
     },
     {
       "letter": "D",
-      "text": "μ\n=\n60\n;\nσ\n=\n10"
+      "text": "μ = 60 ; σ = 10 μ = 60 ; σ = 10"
     },
     {
       "letter": "E",
-      "text": "μ\n=\n60\n;\nσ\n=\n20"
+      "text": "μ = 60 ; σ = 20 μ = 60 ; σ = 20"
     }
   ],
-  "correct_answer": "​<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "​ Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

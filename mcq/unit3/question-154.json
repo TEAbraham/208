@@ -1,8 +1,9 @@
 {
   "question_id": "question-154",
+  "unit": "Unit 3 | Collecting Data",
   "title": "Correlation and Causation: Study Session",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Suppose a teacher decided to offer an after-school study session the day before a <span class=\"tex2jax_process\">$100\\text{ point}$</span> test.  </div><div class=\"paragraph\">The <span class=\"tex2jax_process\">$34\\text{ students}$</span> who came to this study session averaged scores <span class=\"tex2jax_process\">$8\\text{ points}$</span> higher on the test than the <span class=\"tex2jax_process\">$72\\text{ students}$</span> who did not come to the study session.  </div><div class=\"paragraph\">Based on this information, what may one conclude?</div>",
+  "question_text": "Suppose a teacher decided to offer an after-school study session the day before a $100\\text{ point}$ test. The $34\\text{ students}$ who came to this study session averaged scores $8\\text{ points}$ higher on the test than the $72\\text{ students}$ who did not come to the study session. Based on this information, what may one conclude?",
   "image_files": [],
   "choices": [
     {
@@ -23,10 +24,10 @@
     },
     {
       "letter": "E",
-      "text": "An increase of\n8\n points\nis not significant enough to determine whether the study session helped."
+      "text": "An increase of 8 points 8 points is not significant enough to determine whether the study session helped."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-067",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "College Football Coach",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A college football coach has had a dismal year.  </div><div class=\"paragraph\">The alumni association queries members of the alumni club. Of an SRS of <span class=\"tex2jax_process\">$100\\text{ members}$</span>, <span class=\"tex2jax_process\">$64$</span> of them are in favor of firing the coach.  </div><div class=\"paragraph\">Compute a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for the true proportion of alumni who favor firing the coach.</div>",
+  "question_text": "A college football coach has had a dismal year. The alumni association queries members of the alumni club. Of an SRS of $100\\text{ members}$ , $64$ of them are in favor of firing the coach. Compute a $95\\%$ confidence interval for the true proportion of alumni who favor firing the coach.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.64\n±\n0.079"
+      "text": "0.64 ± 0.079 0.64 ± 0.079"
     },
     {
       "letter": "B",
-      "text": "0.64\n±\n0.094"
+      "text": "0.64 ± 0.094 0.64 ± 0.094"
     },
     {
       "letter": "C",
-      "text": "0.64\n±\n0.111"
+      "text": "0.64 ± 0.111 0.64 ± 0.111"
     },
     {
       "letter": "D",
-      "text": "0.64\n±\n0.124"
+      "text": "0.64 ± 0.124 0.64 ± 0.124"
     },
     {
       "letter": "E",
-      "text": "0.64\n±\n0.36"
+      "text": "0.64 ± 0.36 0.64 ± 0.36"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

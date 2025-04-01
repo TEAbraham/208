@@ -1,32 +1,33 @@
 {
   "question_id": "question-057",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Those AP Exams",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Suppose that School <span class=\"tex2jax_process\">$a$</span> claims that <span class=\"tex2jax_process\">$0.84$</span> of its students take at least one AP exam and School <span class=\"tex2jax_process\">$b$</span> claims that <span class=\"tex2jax_process\">$0.78$</span> of its students take at least one AP exam.  Random samples of <span class=\"tex2jax_process\">$100$</span> students are taken from each school.  What is the probability that School <span class=\"tex2jax_process\">$a$</span>'s proportion of students taking at least one AP exam is at least <span class=\"tex2jax_process\">$10\\%$</span> higher than School <span class=\"tex2jax_process\">$b$</span>'s?</div>",
+  "question_text": "Suppose that School $a$ claims that $0.84$ of its students take at least one AP exam and School $b$ claims that $0.78$ of its students take at least one AP exam.  Random samples of $100$ students are taken from each school.  What is the probability that School $a$ 's proportion of students taking at least one AP exam is at least $10\\%$ higher than School $b$ 's?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.2358"
+      "text": "0.2358 0.2358"
     },
     {
       "letter": "B",
-      "text": "Nearly\n0"
+      "text": "Nearly 0 0"
     },
     {
       "letter": "C",
-      "text": "0.0838"
+      "text": "0.0838 0.0838"
     },
     {
       "letter": "D",
-      "text": "0.0600"
+      "text": "0.0600 0.0600"
     },
     {
       "letter": "E",
-      "text": "0.7642"
+      "text": "0.7642 0.7642"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

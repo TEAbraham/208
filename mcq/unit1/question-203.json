@@ -1,34 +1,35 @@
 {
   "question_id": "question-203",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Tires and Tread Life: Probability",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A certain type of tire's tread life is approximately normal with a mean of <span class=\"tex2jax_process\">$42,000\\text{ miles}$</span> and standard deviation of <span class=\"tex2jax_process\">$3000\\text{ miles}$</span>.  </div><div class=\"paragraph\">The shaded area in the figure below represents which of the following probabilities?  </div><div class=\"u-overflow-x_hidden\"><div class=\"image-supplement__resizable\" style=\"position: relative; user-select: auto; width: 100%; height: 480px; max-height: 560px; min-width: 100%; min-height: 187.5px; box-sizing: border-box; flex-shrink: 0;\"><figure class=\"image-supplement__figure\" data-testid=\"image-supplement-default-display\"><div class=\"image-supplement__image-container\"><div class=\"image-supplement__controls\"><div style=\"display: inline-block;\"><button class=\"a-button a-button--m a-button-outlined--secondary a-button--secondary a-button--circle m-icon-button image-supplement__controls-button m-icon-button--size-s\" type=\"button\" aria-label=\"Hide Image\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"far\" data-icon=\"eye\" class=\"svg-inline--fa fa-eye a-icon content-inherit a-icon--size-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 576 512\"><path fill=\"currentColor\" d=\"M288 80c-65.2 0-118.8 29.6-159.9 67.7C89.6 183.5 63 226 49.4 256c13.6 30 40.2 72.5 78.6 108.3C169.2 402.4 222.8 432 288 432s118.8-29.6 159.9-67.7C486.4 328.5 513 286 526.6 256c-13.6-30-40.2-72.5-78.6-108.3C406.8 109.6 353.2 80 288 80zM95.4 112.6C142.5 68.8 207.2 32 288 32s145.5 36.8 192.6 80.6c46.8 43.5 78.1 95.4 93 131.1c3.3 7.9 3.3 16.7 0 24.6c-14.9 35.7-46.2 87.7-93 131.1C433.5 443.2 368.8 480 288 480s-145.5-36.8-192.6-80.6C48.6 356 17.3 304 2.5 268.3c-3.3-7.9-3.3-16.7 0-24.6C17.3 208 48.6 156 95.4 112.6zM288 336c44.2 0 80-35.8 80-80s-35.8-80-80-80c-.7 0-1.3 0-2 0c1.3 5.1 2 10.5 2 16c0 35.3-28.7 64-64 64c-5.5 0-10.9-.7-16-2c0 .7 0 1.3 0 2c0 44.2 35.8 80 80 80zm0-208a128 128 0 1 1 0 256 128 128 0 1 1 0-256z\"></path></svg></button></div><div class=\"image-supplement__controls-zoom\"><div style=\"display: inline-block;\"><button class=\"a-button a-button--m a-button-outlined--secondary a-button--secondary a-button--circle m-icon-button image-supplement__controls-button m-icon-button--size-s\" type=\"button\" aria-label=\"Zoom Options\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"far\" data-icon=\"magnifying-glass-plus\" class=\"svg-inline--fa fa-magnifying-glass-plus a-icon content-inherit a-icon--size-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M208 48a160 160 0 1 1 0 320 160 160 0 1 1 0-320zm0 368c48.8 0 93.7-16.8 129.1-44.9L471 505c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9L371.1 337.1C399.2 301.7 416 256.8 416 208C416 93.1 322.9 0 208 0S0 93.1 0 208S93.1 416 208 416zM184 296c0 13.3 10.7 24 24 24s24-10.7 24-24l0-64 64 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-64 0 0-64c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 64-64 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l64 0 0 64z\"></path></svg></button></div></div><div style=\"display: inline-block;\"><button class=\"a-button a-button--m a-button-outlined--secondary a-button--secondary a-button--circle m-icon-button image-supplement__controls-button m-icon-button--size-s\" type=\"button\" aria-label=\"Fullscreen\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"far\" data-icon=\"arrow-up-right-and-arrow-down-left-from-center\" class=\"svg-inline--fa fa-arrow-up-right-and-arrow-down-left-from-center a-icon content-inherit a-icon--size-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M295 183c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l135-135 0 86.1c0 13.3 10.7 24 24 24s24-10.7 24-24l0-144c0-13.3-10.7-24-24-24L344 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l86.1 0L295 183zM217 329c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0L48 430.1 48 344c0-13.3-10.7-24-24-24s-24 10.7-24 24L0 488c0 13.3 10.7 24 24 24l144 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-86.1 0L217 329z\"></path></svg></button></div></div><div class=\"react-transform-wrapper transform-component-module_wrapper__SPB86 \" style=\"width: 100%; height: 100%;\"><div class=\"react-transform-component transform-component-module_content__FBWxo \" style=\"width: 100%; height: 100%; transform: translate(0px, 0px) scale(1);\"></div></div></div><div><figcaption class=\"a-text u-display_flex u-justify-content_center u-pad_1 content-primary a-text--size-xs\"><div class=\"markdown-renderer-v2\"><div class=\"paragraph\">Created for Albert.io. Copyright 2017. All rights reserved.</div></div></figcaption></div><div class=\"image-supplement__resize-handle\"><div></div> <div></div> <div></div></div></figure><div><div style=\"position: absolute; user-select: none; width: 100%; height: 10px; top: -5px; left: 0px; cursor: row-resize;\"></div><div style=\"position: absolute; user-select: none; width: 10px; height: 100%; top: 0px; cursor: col-resize; right: -5px;\"></div><div style=\"position: absolute; user-select: none; width: 100%; height: 10px; left: 0px; cursor: row-resize; bottom: -5px;\"></div><div style=\"position: absolute; user-select: none; width: 10px; height: 100%; top: 0px; left: -5px; cursor: col-resize;\"></div><div style=\"position: absolute; user-select: none; width: 20px; height: 20px; z-index: 1; right: -10px; top: -10px; cursor: ne-resize;\"></div><div style=\"position: absolute; user-select: none; width: 20px; height: 20px; z-index: 1; right: -10px; bottom: -10px; cursor: se-resize;\"></div><div style=\"position: absolute; user-select: none; width: 20px; height: 20px; z-index: 1; left: -10px; bottom: -10px; cursor: sw-resize;\"></div><div style=\"position: absolute; user-select: none; width: 20px; height: 20px; z-index: 1; left: -10px; top: -10px; cursor: nw-resize;\"></div></div></div></div>\n",
+  "question_text": "A certain type of tire's tread life is approximately normal with a mean of $42,000\\text{ miles}$ and standard deviation of $3000\\text{ miles}$ . The shaded area in the figure below represents which of the following probabilities? Created for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-203-img1.PNG"
   ],
   "choices": [
     {
       "letter": "A",
-      "text": "The probability the tread life of this type of tire is between\n36000\n miles\nand\n45000\n miles\n."
+      "text": "The probability the tread life of this type of tire  is between 36000 miles 36000 miles and 45000 miles 45000 miles ."
     },
     {
       "letter": "B",
-      "text": "The probability the tread life of this type of tire is between\n36000\n miles\nand\n48000\n miles\n."
+      "text": "The probability the tread life of this type of tire is between 36000 miles 36000 miles and 48000 miles 48000 miles ."
     },
     {
       "letter": "C",
-      "text": "The probability the tread life of this type of tire is between\n39000\n miles\nand\n45000\n miles\n."
+      "text": "The probability the tread life of this type of tire is between 39000 miles 39000 miles and 45000 miles 45000 miles ."
     },
     {
       "letter": "D",
-      "text": "The probability the tread life of this type of tire is between\n39000\n miles\nand\n48000\n miles\n."
+      "text": "The probability the tread life of this type of tire is between 39000 miles 39000 miles and 48000 miles 48000 miles ."
     },
     {
       "letter": "E",
-      "text": "The probability the tread life of this type of tire is between\n39000\n miles\nand\n51000\n miles\n."
+      "text": "The probability the tread life of this type of tire is between 39000 miles 39000 miles and 51000 miles 51000 miles ."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-046",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Standard Error of the Slope: Make it Rain!",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">​An NBA basketball player is interested if there is an association between the amount of time a player practices his three-point shooting(in hours) and the percentage of three pointers made.  Since the NBA player took AP Statistics in high school,  he knew of a perfect way to design his study and share it with his  NBA friends.  </div><div class=\"paragraph\">He randomly selected  <span class=\"tex2jax_process\">$20$</span> NBA players and asked them how much time they spent practicing shooting behind the arc (shooting <span class=\"tex2jax_process\">$3$</span> pointers).  He then looked up their three-point percentage.  A computer output from fitting a least squares regression line to the data is shown below.  </div><div class=\"paragraph\">Dependent variable is: % of  3-Pointers Made    </div><div class=\"paragraph\"><span class=\"tex2jax_process\">$R^2 = 91.24\\%$</span><br> <span class=\"tex2jax_process\">$S=0.052$</span>\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Variable:</th><th scope=\"col\">Coefficient</th><th scope=\"col\">s.e Coeff</th><th scope=\"col\">t-ratio</th><th scope=\"col\">prob</th></tr></thead><tbody><tr><td>Constant:</td><td>30.1</td><td>20.001</td><td>1.505</td><td>.075</td></tr><tr><td>Practice Time</td><td>0.002</td><td>0.000849</td><td>2.356</td><td>0.03</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Which of the following is the standard error of the slope?</div>",
+  "question_text": "​An NBA basketball player is interested if there is an association between the amount of time a player practices his three-point shooting(in hours) and the percentage of three pointers made.  Since the NBA player took AP Statistics in high school,  he knew of a perfect way to design his study and share it with his  NBA friends. He randomly selected $20$ NBA players and asked them how much time they spent practicing shooting behind the arc (shooting $3$ pointers).  He then looked up their three-point percentage.  A computer output from fitting a least squares regression line to the data is shown below. Dependent variable is: % of  3-Pointers Made $R^2 = 91.24\\%$ $S=0.052$ Variable: Coefficient s.e Coeff t-ratio prob Constant: 30.1 20.001 1.505 .075 Practice Time 0.002 0.000849 2.356 0.03 Which of the following is the standard error of the slope?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.000849\n√\n20"
+      "text": "0.000849 √ 20 0.000849 20"
     },
     {
       "letter": "B",
-      "text": "0.000849"
+      "text": "0.000849 0.000849"
     },
     {
       "letter": "C",
-      "text": "20.001\n√\n20"
+      "text": "20.001 √ 20 20.001 20"
     },
     {
       "letter": "D",
-      "text": "20.001"
+      "text": "20.001 20.001"
     },
     {
       "letter": "E",
-      "text": "0.052"
+      "text": "0.052 0.052"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

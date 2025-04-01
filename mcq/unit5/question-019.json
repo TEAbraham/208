@@ -1,8 +1,9 @@
 {
   "question_id": "question-019",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Estimator Definition",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">The mean of a sampling distribution can be considered an unbiased estimate of <span class=\"tex2jax_process\">$\\mu$</span> when...</div>",
+  "question_text": "The mean of a sampling distribution can be considered an unbiased estimate of $\\mu$ when...",
   "image_files": [],
   "choices": [
     {
@@ -11,22 +12,22 @@
     },
     {
       "letter": "B",
-      "text": "variability is uncertain at first but gets smaller as\nn\nincreases."
+      "text": "variability is uncertain at first but gets smaller as n n increases."
     },
     {
       "letter": "C",
-      "text": "a sample mean and population mean\nμ\nare equal."
+      "text": "a sample mean and population mean μ μ are equal."
     },
     {
       "letter": "D",
-      "text": "the expected value of the sample mean equals the population mean\nμ\n."
+      "text": "the expected value of the sample mean equals the population mean μ μ ."
     },
     {
       "letter": "E",
-      "text": "its expected value changes as the sample size\nn\nincreases."
+      "text": "its expected value changes as the sample size n n increases."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

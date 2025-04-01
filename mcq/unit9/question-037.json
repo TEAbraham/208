@@ -1,32 +1,33 @@
 {
   "question_id": "question-037",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Caffeine and Sleeping",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A firm was asked to do a study which asked if the more caffeine a person consumed each day led to fewer hours of sleep.  If <span class=\"tex2jax_process\">$40$</span> participants were randomly selected, and a <span class=\"tex2jax_process\">$t$</span>-test for slope was to be done, what would the null hypothesis be?</div>",
+  "question_text": "A firm was asked to do a study which asked if the more caffeine a person consumed each day led to fewer hours of sleep.  If $40$ participants were randomly selected, and a $t$ -test for slope was to be done, what would the null hypothesis be?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "H\n0\n:\nβ\n=\n0"
+      "text": "H 0 : β = 0 H 0 : β = 0"
     },
     {
       "letter": "B",
-      "text": "H\n0\n:\nβ\n>\n0"
+      "text": "H 0 : β > 0 H 0 : β > 0"
     },
     {
       "letter": "C",
-      "text": "H\n0\n:\nβ\n<\n0"
+      "text": "H 0 : β < 0 H 0 : β < 0"
     },
     {
       "letter": "D",
-      "text": "H\n0\n:\nb\n≠\n0"
+      "text": "H 0 : b ≠ 0 H 0 : b ≠ 0"
     },
     {
       "letter": "E",
-      "text": "H\n0\n:\nb\n=\n0"
+      "text": "H 0 : b = 0 H 0 : b = 0"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

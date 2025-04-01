@@ -1,8 +1,9 @@
 {
   "question_id": "question-091",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Residual Plot",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A biologist performed linear regression on data and then the plotted the amount of bacteria (response) versus time (explanatory).  </div><div class=\"paragraph\">If the residual plot shows a clear curved pattern, the original scatterplot of the data most likely has what form?</div>",
+  "question_text": "A biologist performed linear regression on data and then the plotted the amount of bacteria (response) versus time (explanatory). If the residual plot shows a clear curved pattern, the original scatterplot of the data most likely has what form?",
   "image_files": [
     "images/question-091-img1.gif",
     "images/question-091-img2.gif"
@@ -29,7 +30,7 @@
       "text": "Unable to tell."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,8 +1,9 @@
 {
   "question_id": "question-103",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Quartiles, Median, Mean, and Range: Oh What Fun!",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">If <span class=\"tex2jax_process\">${ Q }_{ 1 }=38$</span> and <span class=\"tex2jax_process\">${ Q }_{ 3 }=60$</span>, which of the following statements must be true?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> The median is <span class=\"tex2jax_process\">$49$</span>.<br><strong>II.</strong> The mean  is somewhere between <span class=\"tex2jax_process\">$38$</span> and <span class=\"tex2jax_process\">$60$</span>.<br><strong>III.</strong> The  range is <span class=\"tex2jax_process\">$22$</span>.    </div></blockquote>",
+  "question_text": "If ${ Q }_{ 1 }=38$ and ${ Q }_{ 3 }=60$ , which of the following statements must be true? I. The median is $49$ . II. The mean  is somewhere between $38$ and $60$ . III. The  range is $22$ .",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "None of the statements above are necessarily true."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong>  is the correct answer.    ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

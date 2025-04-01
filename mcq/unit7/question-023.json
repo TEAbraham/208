@@ -1,8 +1,9 @@
 {
   "question_id": "question-023",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Constructing Certain Types of Mean Intervals: Respect Your Boss",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">An insurance company is assessing two of its regional managers (Manager <span class=\"tex2jax_process\">$A$</span> and Manager <span class=\"tex2jax_process\">$B$</span>) on how well-respected they are by their employees. The insurance company randomly selects <span class=\"tex2jax_process\">$40$</span> employees from both regions.  </div><div class=\"paragraph\">They ask the employees to rate how much they respect their managers on a <span class=\"tex2jax_process\">$1-10$</span> scale, with <span class=\"tex2jax_process\">$1$</span> representing no respect and <span class=\"tex2jax_process\">$10$</span> representing the utmost respect. Here are the summary results:\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Company</th><th scope=\"col\">N</th><th scope=\"col\">Average</th><th scope=\"col\">Standard Deviation</th></tr></thead><tbody><tr><td>A</td><td>40</td><td>8.1</td><td>1.4</td></tr><tr><td>B</td><td>40</td><td>6.2</td><td>1.1</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Which of the following represents a <span class=\"tex2jax_process\">$99\\%$</span> confidence interval for the difference in the averages between how much company <span class=\"tex2jax_process\">$A$</span>'s employees respect their manager when compared with company <span class=\"tex2jax_process\">$B$</span>'s?</div>",
+  "question_text": "An insurance company is assessing two of its regional managers (Manager $A$ and Manager $B$ ) on how well-respected they are by their employees. The insurance company randomly selects $40$ employees from both regions. They ask the employees to rate how much they respect their managers on a $1-10$ scale, with $1$ representing no respect and $10$ representing the utmost respect. Here are the summary results: Company N Average Standard Deviation A 40 8.1 1.4 B 40 6.2 1.1 Which of the following represents a $99\\%$ confidence interval for the difference in the averages between how much company $A$ 's employees respect their manager when compared with company $B$ 's?",
   "image_files": [
     "images/question-023-img1.PNG",
     "images/question-023-img2.PNG"
@@ -10,26 +11,26 @@
   "choices": [
     {
       "letter": "A",
-      "text": "(\n1.156\n,\n2.644\n)"
+      "text": "( 1.156 , 2.644 ) ( 1.156 , 2.644 )"
     },
     {
       "letter": "B",
-      "text": "(\n1.175\n,\n2.625\n)"
+      "text": "( 1.175 , 2.625 ) ( 1.175 , 2.625 )"
     },
     {
       "letter": "C",
-      "text": "(\n1.780\n,\n2.021\n)"
+      "text": "( 1.780 , 2.021 ) ( 1.780 , 2.021 )"
     },
     {
       "letter": "D",
-      "text": "(\n1.785\n,\n2.015\n)"
+      "text": "( 1.785 , 2.015 ) ( 1.785 , 2.015 )"
     },
     {
       "letter": "E",
-      "text": "(\n6.200\n,\n8.100\n)"
+      "text": "( 6.200 , 8.100 ) ( 6.200 , 8.100 )"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

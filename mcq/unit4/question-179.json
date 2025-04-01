@@ -1,32 +1,33 @@
 {
   "question_id": "question-179",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Plant Survival",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">The probability that a particular species of plant survives the winter is <span class=\"tex2jax_process\">$0.7$</span>. Charlotte has <span class=\"tex2jax_process\">$22$</span> plants of this species.  </div><div class=\"paragraph\">What is the probability that at least <span class=\"tex2jax_process\">$17$</span> of her plants survive the winter?</div>",
+  "question_text": "The probability that a particular species of plant survives the winter is $0.7$ . Charlotte has $22$ plants of this species. What is the probability that at least $17$ of her plants survive the winter?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.165"
+      "text": "0.165 0.165"
     },
     {
       "letter": "B",
-      "text": "0.313"
+      "text": "0.313 0.313"
     },
     {
       "letter": "C",
-      "text": "0.687"
+      "text": "0.687 0.687"
     },
     {
       "letter": "D",
-      "text": "0.773"
+      "text": "0.773 0.773"
     },
     {
       "letter": "E",
-      "text": "0.835"
+      "text": "0.835 0.835"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

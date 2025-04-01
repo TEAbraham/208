@@ -1,32 +1,33 @@
 {
   "question_id": "question-132",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Hypotheses for Two-Proportions",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Suppose a recent survey found that <span class=\"tex2jax_process\">$74\\%$</span> of dog owners say their pet appears cheerful, while only <span class=\"tex2jax_process\">$59\\%$</span> of cat owners say their pet appears cheerful.  </div><div class=\"paragraph\">If one wants to perform a test to see if these two proportions are significantly different, what would the null and alternative hypotheses be?</div>",
+  "question_text": "Suppose a recent survey found that $74\\%$ of dog owners say their pet appears cheerful, while only $59\\%$ of cat owners say their pet appears cheerful. If one wants to perform a test to see if these two proportions are significantly different, what would the null and alternative hypotheses be?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "H\no\n:\np\n=\n59 H\na\n:\np\n>\n0.59"
+      "text": "H o : p = 59 H o : p = 59 H a : p > 0.59 H a : p > 0.59"
     },
     {
       "letter": "B",
-      "text": "H\no\n:\np\n=\n0.59 H\na\n:\np\n=\n0.74"
+      "text": "H o : p = 0.59 H o : p = 0.59 H a : p = 0.74 H a : p = 0.74"
     },
     {
       "letter": "C",
-      "text": "H\no\n:\nP\nd\n=\nP\nc H\na\n:\nP\nd\n≠\nP\nc"
+      "text": "H o : P d = P c H o : P d = P c H a : P d ≠ P c H a : P d ≠ P c"
     },
     {
       "letter": "D",
-      "text": "H\no\n:\nP\nd\n=\nP\nc H\na\n:\nP\nd\n>\nP\nc"
+      "text": "H o : P d = P c H o : P d = P c H a : P d > P c H a : P d > P c"
     },
     {
       "letter": "E",
-      "text": "H\no\n:\nP\nd\n=\n0.74 H\na\n:\nP\nc\n=\n0.59"
+      "text": "H o : P d = 0.74 H o : P d = 0.74 H a : P c = 0.59 H a : P c = 0.59"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

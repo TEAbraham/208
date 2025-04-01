@@ -1,32 +1,33 @@
 {
   "question_id": "question-142",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Cereal Boxes",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A spokesman for a large cereal company is interested in whether a new promotion of including a toy in every box of cereal would greatly increase sales.  </div><div class=\"paragraph\">He figures that age would be a factor, so he selects one pair of subjects at each age range from <span class=\"tex2jax_process\">$10$</span> to <span class=\"tex2jax_process\">$79$</span> by increments of <span class=\"tex2jax_process\">$5\\text{ years}$</span>.  </div><div class=\"paragraph\">The spokesman flips a coin to decide which of the pair gets a coupon for a free prize every time they buy a box of the cereal. After one year, each subject is asked how many boxes of that brand of cereal they bought.</div><div class=\"paragraph\">The data is in the table below (<em>scroll right to see full table</em>):</div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Age Range</th><th scope=\"col\">10- 14</th><th scope=\"col\">15- 19</th><th scope=\"col\">20- 24</th><th scope=\"col\">24- 29</th><th scope=\"col\">30- 34</th><th scope=\"col\">35- 39</th><th scope=\"col\">40- 44</th><th scope=\"col\">45- 49</th><th scope=\"col\">50- 54</th><th scope=\"col\">55- 59</th><th scope=\"col\">60- 64</th><th scope=\"col\">65- 69</th><th scope=\"col\">70- 74</th><th scope=\"col\">75-79</th></tr></thead><tbody><tr><td>With Coupon</td><td>9</td><td>8</td><td>8</td><td>5</td><td>4</td><td>12</td><td>14</td><td>13</td><td>8</td><td>6</td><td>5</td><td>4</td><td>4</td><td>2</td></tr><tr><td>Without Coupon</td><td>7</td><td>4</td><td>8</td><td>6</td><td>5</td><td>7</td><td>8</td><td>7</td><td>6</td><td>6</td><td>4</td><td>3</td><td>4</td><td>1</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>From this data, is there convincing statistical evidence that people buy more cereal when a prize coupon is included?</div>",
+  "question_text": "A spokesman for a large cereal company is interested in whether a new promotion of including a toy in every box of cereal would greatly increase sales. He figures that age would be a factor, so he selects one pair of subjects at each age range from $10$ to $79$ by increments of $5\\text{ years}$ . The spokesman flips a coin to decide which of the pair gets a coupon for a free prize every time they buy a box of the cereal. After one year, each subject is asked how many boxes of that brand of cereal they bought. The data is in the table below ( scroll right to see full table ): Age Range 10- 14 15- 19 20- 24 24- 29 30- 34 35- 39 40- 44 45- 49 50- 54 55- 59 60- 64 65- 69 70- 74 75-79 With Coupon 9 8 8 5 4 12 14 13 8 6 5 4 4 2 Without Coupon 7 4 8 6 5 7 8 7 6 6 4 3 4 1 From this data, is there convincing statistical evidence that people buy more cereal when a prize coupon is included?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Yes, at the\n1\n%\n,\n5\n%\n, and\n10\n%\nalpha levels."
+      "text": "Yes, at the 1 % 1 % , 5 % 5 % , and 10 % 10 % alpha levels."
     },
     {
       "letter": "B",
-      "text": "Yes, at the\n5\n%\nand\n10\n%\nalpha level, but not the\n1\n%\nlevel."
+      "text": "Yes, at the 5 % 5 % and 10 % 10 % alpha level, but not the 1 % 1 % level."
     },
     {
       "letter": "C",
-      "text": "Yes, at the\n10\n%\nalpha level, but not the\n5\n%\nor\n1\n%\nlevels."
+      "text": "Yes, at the 10 % 10 % alpha level, but not the 5 % 5 % or 1 % 1 % levels."
     },
     {
       "letter": "D",
-      "text": "No, not at none of the common alpha levels of\n1\n%\n,\n5\n%\n, or\n10\n%\n."
+      "text": "No, not at none of the common alpha levels of 1 % 1 % , 5 % 5 % , or 10 % 10 % ."
     },
     {
       "letter": "E",
       "text": "Yes, since the mean of the “with prize” is above the mean of the “without prize.”"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

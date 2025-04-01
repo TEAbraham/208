@@ -1,32 +1,33 @@
 {
   "question_id": "question-006",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Is it Random?",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Five situations are described below.  Which one do you think is the <strong>least</strong> likely to indicate randomness?</div>",
+  "question_text": "Five situations are described below.  Which one do you think is the least likely to indicate randomness?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Ana can often answer the Final Jeopardy question. The chances that she answers it correctly tomorrow night."
+      "text": "Ana can often answer the Final Jeopardy question.  The chances that she answers it correctly tomorrow night."
     },
     {
       "letter": "B",
-      "text": "Didi likes to play roulette in Atlantic City. The chances that she wins on a give spin."
+      "text": "Didi likes to play roulette in Atlantic City.  The chances that she wins on a give spin."
     },
     {
       "letter": "C",
-      "text": "Joe attempts to arrive to work on time each morning. When he approaches the traffic light at the corner of Main St. and Elm St., the chances of whether he finds it red, yellow, or green."
+      "text": "Joe attempts to arrive to work on time each morning.  When he approaches the traffic light at the corner of Main St. and Elm St., the chances of whether he finds it red, yellow, or green."
     },
     {
       "letter": "D",
-      "text": "A company's assembly line produces transistors. The goal is to produce\n400\ntransistors per hour around the clock. The chances of producing\n400\ntransistors starting at the midnight hour."
+      "text": "A company's assembly line produces transistors.  The goal is to produce 400 400 transistors per hour around the clock.  The chances of producing 400 400 transistors starting at the midnight hour."
     },
     {
       "letter": "E",
-      "text": "Ed has a favorite parking space at his hardware store. He likes it because he can easily place large items in his truck without another car banging its door into his truck. The chances that he gets this space tomorrow."
+      "text": "Ed has a favorite parking space at his hardware store.  He likes it because he can easily place large items in his truck without another car banging its door into his truck.  The chances that he gets this space tomorrow."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

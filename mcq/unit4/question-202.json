@@ -1,8 +1,9 @@
 {
   "question_id": "question-202",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Geometric vs Binomial Matching Graph",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\"><span class=\"tex2jax_process\">$5000$</span> samples were  generated.  Which graph  below represents a geometric distribution of <span class=\"tex2jax_process\">$5000$</span> samples  with <span class=\"tex2jax_process\">$p=0.70$</span>?</div>",
+  "question_text": "$5000$ samples were  generated.  Which graph  below represents a geometric distribution of $5000$ samples  with $p=0.70$ ?",
   "image_files": [
     "images/question-202-img1.pdf",
     "images/question-202-img2.pdf",
@@ -32,7 +33,7 @@
       "text": "Created for Albert.io. Copyright 2017. All rights reserved."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

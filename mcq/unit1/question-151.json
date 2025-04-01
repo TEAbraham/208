@@ -1,8 +1,9 @@
 {
   "question_id": "question-151",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Shoe Distribution",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">The manager of an athletic-shoe store wants to know the size distribution of shoes for one of her most popular models before she puts in the next order. The manager collects size data for both men’s and women’s shoes on the last <span class=\"tex2jax_process\">$50\\text{ pairs}$</span> of this model sold.  </div><div class=\"paragraph\">What is the best type of graphical display the manager could use for her purposes?</div>",
+  "question_text": "The manager of an athletic-shoe store wants to know the size distribution of shoes for one of her most popular models before she puts in the next order. The manager collects size data for both men’s and women’s shoes on the last $50\\text{ pairs}$ of this model sold. What is the best type of graphical display the manager could use for her purposes?",
   "image_files": [],
   "choices": [
     {
@@ -15,18 +16,18 @@
     },
     {
       "letter": "C",
-      "text": "A single histogram, using bar width of\n1\n."
+      "text": "A single histogram, using bar width of 1 1 ."
     },
     {
       "letter": "D",
-      "text": "Two separate histograms: one for men’s shoes, one for women’s shoes, using bar width of\n1\n."
+      "text": "Two separate histograms: one for men’s shoes, one for women’s shoes, using bar width of 1 1 ."
     },
     {
       "letter": "E",
       "text": "Two separate dot plots: one for men’s shoes, one for women’s shoes."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

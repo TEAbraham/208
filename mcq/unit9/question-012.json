@@ -1,32 +1,33 @@
 {
   "question_id": "question-012",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Find the Standard Error",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">The confidence interval for the slope of a given regression model is <span class=\"tex2jax_process\">$0.6\\pm1.2$</span>.  If the value of <span class=\"tex2jax_process\">$t^{*}$</span> is <span class=\"tex2jax_process\">$0.8$</span>, find the value of the standard error for the slope of the regression line.</div>",
+  "question_text": "The confidence interval for the slope of a given regression model is $0.6\\pm1.2$ .  If the value of $t^{*}$ is $0.8$ , find the value of the standard error for the slope of the regression line.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "1.5"
+      "text": "1.5 1.5"
     },
     {
       "letter": "B",
-      "text": "1.2"
+      "text": "1.2 1.2"
     },
     {
       "letter": "C",
-      "text": "1.8"
+      "text": "1.8 1.8"
     },
     {
       "letter": "D",
-      "text": "0.6"
+      "text": "0.6 0.6"
     },
     {
       "letter": "E",
-      "text": "0.96"
+      "text": "0.96 0.96"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-036",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Calculator: Free-Throw Outcomes",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Suppose a basketball player shoots <span class=\"tex2jax_process\">$10$</span> free throws and makes <span class=\"tex2jax_process\">$8$</span> of them.  </div><div class=\"paragraph\">How many different ways could this happen?</div>",
+  "question_text": "Suppose a basketball player shoots $10$ free throws and makes $8$ of them. How many different ways could this happen?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "10"
+      "text": "10 10"
     },
     {
       "letter": "B",
-      "text": "8"
+      "text": "8 8"
     },
     {
       "letter": "C",
-      "text": "1"
+      "text": "1 1"
     },
     {
       "letter": "D",
-      "text": "45"
+      "text": "45 45"
     },
     {
       "letter": "E",
-      "text": "3\n,\n628\n,\n800"
+      "text": "3 , 628 , 800 3 , 628 , 800"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

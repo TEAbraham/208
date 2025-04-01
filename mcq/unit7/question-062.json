@@ -1,32 +1,33 @@
 {
   "question_id": "question-062",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "$z$ vs. $t$ Distribution",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Which of the following statements is true concerning significance tests for a population mean?</div>",
+  "question_text": "Which of the following statements is true concerning significance tests for a population mean?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Tests for a population mean always use the\nz\n-distribution."
+      "text": "Tests for a population mean always use the z z -distribution."
     },
     {
       "letter": "B",
-      "text": "Tests for a population mean always use the\nt\n-distribution."
+      "text": "Tests for a population mean always use the t t -distribution."
     },
     {
       "letter": "C",
-      "text": "When testing for a population mean we use the\nz\n-distribution if we know the population standard deviation."
+      "text": "When testing for a population mean we use the z z -distribution if we know the population standard deviation."
     },
     {
       "letter": "D",
-      "text": "When testing for a population mean we use the\nt\n-distribution if we know the population standard deviation."
+      "text": "When testing for a population mean we use the t t -distribution if we know the population standard deviation."
     },
     {
       "letter": "E",
-      "text": "When testing for a population mean, we should always complete the procedure using both a\nz\n-distribution and a\nt\n-distribution and then average the resulting\np\n-values."
+      "text": "When testing for a population mean, we should always complete the procedure using both a z z -distribution and a t t -distribution and then average the resulting p p -values."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

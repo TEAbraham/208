@@ -1,8 +1,9 @@
 {
   "question_id": "question-007",
+  "unit": "Unit 3 | Collecting Data",
   "title": "Social Media Poll",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">An author is trying to gather responses on her latest novel. She is very active on a social media site where people must follow her to see her posts. On the poll, she gives two choices to rate the book, \n<div class=\"tex2jax_process\">$$1. \\text{ Love the Book!}$$</div>\n<div class=\"tex2jax_process\">$$2. \\text{ Not My Favorite}$$</div></div><div class=\"paragraph\">The author gets <span class=\"tex2jax_process\">$1425$</span> people to respond and <span class=\"tex2jax_process\">$92\\%$</span> of people select \"Love the Book!\" Who can the author apply the results of the study?</div>",
+  "question_text": "An author is trying to gather responses on her latest novel. She is very active on a social media site where people must follow her to see her posts. On the poll, she gives two choices to rate the book, $$1. \\text{ Love the Book!}$$ $$2. \\text{ Not My Favorite}$$ The author gets $1425$ people to respond and $92\\%$ of people select \"Love the Book!\" Who can the author apply the results of the study?",
   "image_files": [],
   "choices": [
     {
@@ -15,7 +16,7 @@
     },
     {
       "letter": "C",
-      "text": "1425\npeople who responded"
+      "text": "1425 1425 people who responded"
     },
     {
       "letter": "D",
@@ -26,12 +27,9 @@
       "text": "All people"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer. ",
-  "solution": "The author used a <strong>survey</strong> to <strong>collect data</strong>. The poll collects data regarding her new novel on a social media site that requires her fans to follow her. \n\nSince people on the social media site have to follow her, only those who choose to follow her see her social media posts. Therefore, we cannot apply the results to all people or all fans. We can only apply the results to those who follow her on the social media site <strong>and</strong> directly responded to the survey. We cannot say for certain that people who don't follow her on social media sites feel the same way, nor can we say that the results are representative of all her social media followers since only those who care enough to respond take the time to do so. \n\n<strong>Choice 'C'</strong> is correct. ",
-  "distractor_explanations": {
-    "D": "<strong>Choice 'D'</strong> is incorrect. Not all followers may have seen or chosen to participate in the poll. ",
-    "E": "<strong>Choice 'E'</strong> is incorrect. Since the poll was only given to her social media followers, we can not be certain that all people feel the same way."
-  },
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "The author used a survey to collect data . The poll collects data regarding her new novel on a social media site that requires her fans to follow her.\n\nSince people on the social media site have to follow her, only those who choose to follow her see her social media posts. Therefore, we cannot apply the results to all people or all fans. We can only apply the results to those who follow her on the social media site and directly responded to the survey. We cannot say for certain that people who don't follow her on social media sites feel the same way, nor can we say that the results are representative of all her social media followers since only those who care enough to respond take the time to do so.\n\nChoice 'C' is correct.",
+  "distractor_explanations": {},
   "tags": [
     "VAR-1.E",
     "1.A",

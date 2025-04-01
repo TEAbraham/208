@@ -1,32 +1,33 @@
 {
   "question_id": "question-229",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Proportions: Chocolate Manufacturing",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A certain chocolate bar is advertised as having a weight of <span class=\"tex2jax_process\">$1\\text{ ounce}$</span>.  </div><div class=\"paragraph\">To minimize the number of consumer complaints about underweight candy bars, the candy company sets its machines to produce chocolate bars whose weights are normally distributed with <span class=\"tex2jax_process\">$\\mu = 1.1\\text{ ounces}$</span> and <span class=\"tex2jax_process\">$\\sigma = 0.08\\text{ ounces}$</span>.  </div><div class=\"paragraph\">What proportion of chocolate bars will weigh <span class=\"tex2jax_process\">$1\\text{ ounce}$</span> or more?</div>",
+  "question_text": "A certain chocolate bar is advertised as having a weight of $1\\text{ ounce}$ . To minimize the number of consumer complaints about underweight candy bars, the candy company sets its machines to produce chocolate bars whose weights are normally distributed with $\\mu = 1.1\\text{ ounces}$ and $\\sigma = 0.08\\text{ ounces}$ . What proportion of chocolate bars will weigh $1\\text{ ounce}$ or more?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.1056"
+      "text": "0.1056 0.1056"
     },
     {
       "letter": "B",
-      "text": "0.2371"
+      "text": "0.2371 0.2371"
     },
     {
       "letter": "C",
-      "text": "0.5"
+      "text": "0.5 0.5"
     },
     {
       "letter": "D",
-      "text": "0.7629"
+      "text": "0.7629 0.7629"
     },
     {
       "letter": "E",
-      "text": "0.8944"
+      "text": "0.8944 0.8944"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

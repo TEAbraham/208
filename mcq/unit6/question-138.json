@@ -1,32 +1,33 @@
 {
   "question_id": "question-138",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Vampires and $p$-Values",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">One night at twilight, Bella began to wonder if the proportion of teenage males who believe in vampires is lower than the proportion of teenage females who believe in vampires. She decided to investigate and selected a random sample of teenage males and a random sample of teenage females.  </div><div class=\"paragraph\">The samples were independent and people in each sample were asked if they believe in vampires. <span class=\"tex2jax_process\">$14$</span> of the <span class=\"tex2jax_process\">$150$</span> teenage males surveyed said “yes”, while <span class=\"tex2jax_process\">$25$</span> of the <span class=\"tex2jax_process\">$150$</span> teenage females said “yes”.  </div><div class=\"paragraph\">What is the <span class=\"tex2jax_process\">$p$</span>-value for a test to determine whether the proportion of teenage males who believe in vampires is less than the proportion of teenage females who believe in vampires?</div>",
+  "question_text": "One night at twilight, Bella began to wonder if the proportion of teenage males who believe in vampires is lower than the proportion of teenage females who believe in vampires. She decided to investigate and selected a random sample of teenage males and a random sample of teenage females. The samples were independent and people in each sample were asked if they believe in vampires. $14$ of the $150$ teenage males surveyed said “yes”, while $25$ of the $150$ teenage females said “yes”. What is the $p$ -value for a test to determine whether the proportion of teenage males who believe in vampires is less than the proportion of teenage females who believe in vampires?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.001"
+      "text": "0.001 0.001"
     },
     {
       "letter": "B",
-      "text": "0.03"
+      "text": "0.03 0.03"
     },
     {
       "letter": "C",
-      "text": "0.09"
+      "text": "0.09 0.09"
     },
     {
       "letter": "D",
-      "text": "0.13"
+      "text": "0.13 0.13"
     },
     {
       "letter": "E",
-      "text": "0.17"
+      "text": "0.17 0.17"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

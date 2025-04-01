@@ -1,8 +1,9 @@
 {
   "question_id": "question-031",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Chi-Square Goodness of Fit: Voter Population",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A politician projects that the population of voters who support him will be evenly divided between younger voters, middle-aged voters, and older voters.  The table below shows the distribution of a  random sample of 120 of the politician's supporters. \n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Younger Voters</th><th scope=\"col\">Middle-aged Voters</th><th scope=\"col\">Older Voters</th></tr></thead><tbody><tr><td>27</td><td>34</td><td>59</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>What is the value of the <span class=\"tex2jax_process\">${ \\chi  }^{ 2 }$</span> statistic for the goodness of fit test on these data?  </div>",
+  "question_text": "A politician projects that the population of voters who support him will be evenly divided between younger voters, middle-aged voters, and older voters.  The table below shows the distribution of a  random sample of 120 of the politician's supporters. Younger Voters Middle-aged Voters Older Voters 27 34 59 What is the value of the ${ \\chi  }^{ 2 }$ statistic for the goodness of fit test on these data?",
   "image_files": [
     "images/question-031-img1.PNG",
     "images/question-031-img2.PNG"
@@ -10,26 +11,26 @@
   "choices": [
     {
       "letter": "A",
-      "text": "Less than\n1\n."
+      "text": "Less than 1 1 ."
     },
     {
       "letter": "B",
-      "text": "At least\n1\n, but less than\n10\n."
+      "text": "At least 1 1 , but less than 10 10 ."
     },
     {
       "letter": "C",
-      "text": "At least\n10\n, but less than\n20\n."
+      "text": "At least 10 10 , but less than 20 20 ."
     },
     {
       "letter": "D",
-      "text": "At least\n20\n, but less than\n30\n."
+      "text": "At least 20 20 , but less than 30 30 ."
     },
     {
       "letter": "E",
-      "text": "At least\n30\n."
+      "text": "At least 30 30 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

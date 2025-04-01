@@ -1,8 +1,9 @@
 {
   "question_id": "question-103",
-  "title": "Interpreting $r$: Studying in College",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "title": "Interpreting r: Studying in College",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A college professor examined the hours per week that a student studied and the number of tests that the student has failed in his college career. The regression equation is as follows:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$\\text{Tests failed}= 15.6-0.802 \\times \\text{hours studied}$$</div>\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Predictor</th><th scope=\"col\">Coef</th><th scope=\"col\">SE Coef</th><th scope=\"col\">T</th><th scope=\"col\">P</th></tr></thead><tbody><tr><td>Constant</td><td>15.598</td><td>2.720</td><td>5.73</td><td>0.000</td></tr><tr><td>Hours Studied</td><td>-0.8025</td><td>0.3767</td><td>-2.13</td><td>0.057</td></tr></tbody></table></div><br><div class=\"paragraph\"><br><span class=\"tex2jax_process\">$S = 6.29484$</span><br><span class=\"tex2jax_process\">$r^2 = 29.2\\%$</span><br><span class=\"tex2jax_process\">$r^2\\text{(adjusted)} = 22.8\\%$</span>  </div><div class=\"paragraph\">What is a valid interpretation of the correlation coefficient, <span class=\"tex2jax_process\">$r$</span>?</div>",
+  "question_text": "A college professor examined the hours per week that a student studied and the number of tests that the student has failed in his college career. The regression equation is as follows: Tests failed = 15.6 − 0.802 × hours studied Tests failed = 15.6 − 0.802 × hours studied Predictor Coef SE Coef T P Constant 15.598 2.720 5.73 0.000 Hours Studied -0.8025 0.3767 -2.13 0.057 S = 6.29484 S = 6.29484 r 2 = 29.2 % r 2 = 29.2 % r 2 (adjusted) = 22.8 % r 2 (adjusted) = 22.8 % What is a valid interpretation of the correlation coefficient, r r ?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "Weak and negative."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

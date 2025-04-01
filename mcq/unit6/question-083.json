@@ -1,32 +1,33 @@
 {
   "question_id": "question-083",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Type I error: Waiting Time",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A valet company claims that a customer's  average wait time for their car is <span class=\"tex2jax_process\">$8\\text{ minutes}$</span>.   After waiting  <span class=\"tex2jax_process\">$20\\text{ minutes}$</span> to get your car, Bobby believes the valet company's time to get a car is greater than <span class=\"tex2jax_process\">$8\\text{ minutes}$</span>.  </div><div class=\"paragraph\">Which of the following describes a type I error in the context of this situation?</div>",
+  "question_text": "A valet company claims that a customer's  average wait time for their car is $8\\text{ minutes}$ .   After waiting $20\\text{ minutes}$ to get your car, Bobby believes the valet company's time to get a car is greater than $8\\text{ minutes}$ . Which of the following describes a type I error in the context of this situation?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Bobby concludes the average wait time it takes the valet company to get a car is\n8\n minutes\n, when it is actually greater than\n8\n minutes\n."
+      "text": "Bobby concludes the average wait time it takes the valet company to get a car is 8 minutes 8 minutes , when it is actually greater than 8 minutes 8 minutes ."
     },
     {
       "letter": "B",
-      "text": "Bobby concludes the average wait time it takes the valet company to get a car is greater than\n8\n minutes\n, when it is actually\n8\n minutes\n."
+      "text": "Bobby concludes the average wait time it takes the valet company to get a car is  greater than 8 minutes 8 minutes , when it is actually 8 minutes 8 minutes ."
     },
     {
       "letter": "C",
-      "text": "Bobby concludes the average wait time it takes the valet company to get a car is greater than\n8\n minutes\n, when it is actually is greater than\n8\n minutes\n."
+      "text": "Bobby concludes the average wait time it takes the valet company to get a car is greater than 8 minutes 8 minutes , when it is actually is  greater than 8 minutes 8 minutes ."
     },
     {
       "letter": "D",
-      "text": "Bobby concludes the average wait time it takes the valet company to get a car is\n8\n minutes\n, when it is actually is\n8\n minutes\n."
+      "text": "Bobby concludes the average wait time it takes the valet company to get a car is 8 minutes 8 minutes , when it is actually is 8 minutes 8 minutes ."
     },
     {
       "letter": "E",
       "text": "A type I error cannot be committed in this situation"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

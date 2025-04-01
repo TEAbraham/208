@@ -1,32 +1,33 @@
 {
   "question_id": "question-118",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Null and Alternative Hypotheses",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A high school athletic director was interested whether high school males are more likely to compete in sports than high school females are.  </div><div class=\"paragraph\">He randomly sampled <span class=\"tex2jax_process\">$200$</span> high school males across the country and found that <span class=\"tex2jax_process\">$82$</span> of them participated in at least one high school sport at some point during the year. This compares to <span class=\"tex2jax_process\">$68$</span> out of <span class=\"tex2jax_process\">$200$</span> randomly sampled high school females who participated in at least one sport during the year.  </div><div class=\"paragraph\">Suppose you define <span class=\"tex2jax_process\">$p_{1}$</span> as the proportion of high school males who participated in at least one sport over the last year and <span class=\"tex2jax_process\">$p_{2}$</span> as the proportion of high school females who competed in at least one sport in the last year.  </div><div class=\"paragraph\">What would be the appropriate null and alternative hypotheses?</div>",
+  "question_text": "A high school athletic director was interested whether high school males are more likely to compete in sports than high school females are. He randomly sampled $200$ high school males across the country and found that $82$ of them participated in at least one high school sport at some point during the year. This compares to $68$ out of $200$ randomly sampled high school females who participated in at least one sport during the year. Suppose you define $p_{1}$ as the proportion of high school males who participated in at least one sport over the last year and $p_{2}$ as the proportion of high school females who competed in at least one sport in the last year. What would be the appropriate null and alternative hypotheses?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "H\n0\n:\np\n1\n=\n0.41\n,\np\n2\n=\n0.34 H\na\n:\np\n1\n>\n0.41\n,\np\n2\n=\n0.34"
+      "text": "H 0 : p 1 = 0.41 , p 2 = 0.34 H 0 : p 1 = 0.41 , p 2 = 0.34 H a : p 1 > 0.41 , p 2 = 0.34 H a : p 1 > 0.41 , p 2 = 0.34"
     },
     {
       "letter": "B",
-      "text": "H\n0\n:\np\n1\n=\np\n2 H\na\n:\np\n1\n≠\np\n2"
+      "text": "H 0 : p 1 = p 2 H 0 : p 1 = p 2 H a : p 1 ≠ p 2 H a : p 1 ≠ p 2"
     },
     {
       "letter": "C",
-      "text": "H\n0\n:\np\n1\n=\np\n2 H\na\n:\np\n1\n>\np\n2"
+      "text": "H 0 : p 1 = p 2 H 0 : p 1 = p 2 H a : p 1 > p 2 H a : p 1 > p 2"
     },
     {
       "letter": "D",
-      "text": "H\n0\n:\np\n1\n=\n0.82\n,\np\n2\n=\n0.68 H\na\n:\np\n1\n>\n0.82\n,\np\n2\n=\n0.68"
+      "text": "H 0 : p 1 = 0.82 , p 2 = 0.68 H 0 : p 1 = 0.82 , p 2 = 0.68 H a : p 1 > 0.82 , p 2 = 0.68 H a : p 1 > 0.82 , p 2 = 0.68"
     },
     {
       "letter": "E",
-      "text": "H\n0\n:\np\n1\n=\n0.41\n,\np\n2\n=\n0.34 H\na\n:\np\n1\n≠\n0.41\n,\np\n2\n≠\n0.34"
+      "text": "H 0 : p 1 = 0.41 , p 2 = 0.34 H 0 : p 1 = 0.41 , p 2 = 0.34 H a : p 1 ≠ 0.41 , p 2 ≠ 0.34 H a : p 1 ≠ 0.41 , p 2 ≠ 0.34"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-006",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Credit Card Facts: Describe the Sampling Distribution",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A consumer research organization was interested in determining the mean number of credit cards owned by adults living in Kansas.  To investigate, surveys were mailed to a random sample of <span class=\"tex2jax_process\">$500$</span> adults with a Kansas address.  However, only <span class=\"tex2jax_process\">$84$</span> adults actually answered and returned the survey.  </div><div class=\"paragraph\">Given the following facts:</div><blockquote><div class=\"paragraph\"> The population parameter is known to be <span class=\"tex2jax_process\">$2.8$</span> credit cards.<br> The sample mean was found to be <span class=\"tex2jax_process\">$2.9$</span> credit cards.<br> The standard deviation, <span class=\"tex2jax_process\">$\\sigma$</span> is <span class=\"tex2jax_process\">$0.7$</span> credit cards.  </div></blockquote><div class=\"paragraph\">Describe the sampling distribution of <span class=\"tex2jax_process\">$\\bar{x}$</span>.</div>",
+  "question_text": "A consumer research organization was interested in determining the mean number of credit cards owned by adults living in Kansas.  To investigate, surveys were mailed to a random sample of $500$ adults with a Kansas address.  However, only $84$ adults actually answered and returned the survey. Given the following facts: The population parameter is known to be $2.8$ credit cards. The sample mean was found to be $2.9$ credit cards. The standard deviation, $\\sigma$ is $0.7$ credit cards. Describe the sampling distribution of $\\bar{x}$ .",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Since a few people probably have a lot of credit cards, the sampling distribution would be skewed right with a center at\n2.8\nand a standard deviation of\n0.076\n."
+      "text": "Since a few people probably have a lot of credit cards, the sampling distribution would be skewed right with a center at 2.8 2.8 and a standard deviation of 0.076 0.076 ."
     },
     {
       "letter": "B",
-      "text": "Since a few people probably don't have any credit cards at all, the sampling distribution would be skewed left with a center at\n2.9\nand a standard deviation of\n0.7\n."
+      "text": "Since a few people probably don't have any credit cards at all, the sampling distribution would be skewed left with a center at 2.9 2.9 and a standard deviation of 0.7 0.7 ."
     },
     {
       "letter": "C",
-      "text": "Since the sample size of\n500\nis sufficiently large, the sampling distribution will be approximately normal with a center at\n2.9\nand a standard deviation of\n22.36\n."
+      "text": "Since the sample size of 500 500 is sufficiently large, the sampling distribution will be approximately normal with a center at 2.9 2.9 and a standard deviation of 22.36 22.36 ."
     },
     {
       "letter": "D",
-      "text": "Since the sample size of\n84\nis sufficiently large, the sampling distribution will be approximately normal with a center at\n2.8\nand a standard deviation of\n0.076\n."
+      "text": "Since the sample size of 84 84 is sufficiently large, the sampling distribution will be approximately normal with a center at 2.8 2.8 and a standard deviation of 0.076 0.076 ."
     },
     {
       "letter": "E",
-      "text": "Since the sample size of\n84\nis sufficiently large, the sampling distribution will be approximately normal with a center at\n2.8\nand a standard deviation of\n0.7\n."
+      "text": "Since the sample size of 84 84 is sufficiently large, the sampling distribution will be approximately normal with a center at 2.8 2.8 and a standard deviation of 0.7 0.7 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,8 +1,9 @@
 {
   "question_id": "question-135",
+  "unit": "Unit 3 | Collecting Data",
   "title": "Sleepy After Lunch",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Many office workers experience sleepiness after lunch that slows down their productivity.  A psychologist runs a completely randomized experiment in an attempt to identify the causes of this sleepiness.  <span class=\"tex2jax_process\">$144\\text{ office workers}$</span> are randomly assigned to one of the following groups:</div><blockquote><div class=\"paragraph\">Group A is assigned to a low-calorie lunch and a brightly-lit office.<br>Group B is assigned to a low-calorie lunch and a softly-lit office.<br>Group C is assigned to a high-calorie lunch and a brightly-lit office.<br>Group D is assigned to a high-calorie lunch and a softly-lit office.  </div></blockquote><div class=\"paragraph\">An hour after lunch, all the workers are asked to rate their sleepiness on a scale from <span class=\"tex2jax_process\">$1$</span> to <span class=\"tex2jax_process\">$10$</span>.  </div><div class=\"paragraph\">Which of the following statements is false?</div>",
+  "question_text": "Many office workers experience sleepiness after lunch that slows down their productivity.  A psychologist runs a completely randomized experiment in an attempt to identify the causes of this sleepiness. 144 office workers are randomly assigned to one of the following groups: Group A is assigned to a low-calorie lunch and a brightly-lit office. Group B is assigned to a low-calorie lunch and a softly-lit office. Group C is assigned to a high-calorie lunch and a brightly-lit office. Group D is assigned to a high-calorie lunch and a softly-lit office. An hour after lunch, all the workers are asked to rate their sleepiness on a scale from 1 to 10 . Which of the following statements is false?",
   "image_files": [],
   "choices": [
     {
@@ -15,7 +16,7 @@
     },
     {
       "letter": "C",
-      "text": "The experimental units are the\n144\n office workers\n."
+      "text": "The experimental units are the 144 office workers 144 office workers ."
     },
     {
       "letter": "D",
@@ -26,7 +27,7 @@
       "text": "There are two levels of lunch type and two levels of office lighting."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

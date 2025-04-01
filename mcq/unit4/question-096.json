@@ -1,8 +1,9 @@
 {
   "question_id": "question-096",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Town Budget",
   "difficulty": "Difficult",
-  "question_text": "\n<div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Vote</th><th scope=\"col\">Male</th><th scope=\"col\">Female</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Yes</td><td>2,304</td><td>3,024</td><td>5,328</td></tr><tr><td>No</td><td>3,156</td><td>2,016</td><td>5,172</td></tr><tr><td>Total</td><td>5,460</td><td>5,040</td><td>10,500</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>In a small town, <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-36044\"><span class=\"MJXp-mn\" id=\"MJXp-Span-36045\">10,500</span></span></span><span id=\"MathJax-Element-10177-Frame\" class=\"mjx-chtml MathJax_CHTML MJXc-processing\" tabindex=\"0\"></span><script type=\"math/tex\" id=\"MathJax-Element-10177\">10{,}500</script></span> residents were asked to vote whether they were in favor of increasing the budget to pay for a new local library. The responses were broken down by gender and are shown in the table above.  </div><div class=\"paragraph\">Is the event “in favor of increase” independent of gender?</div>",
+  "question_text": "Vote Male Female Total Yes 2,304 3,024 5,328 No 3,156 2,016 5,172 Total 5,460 5,040 10,500 In a small town, $10{,}500$ residents were asked to vote whether they were in favor of increasing the budget to pay for a new local library. The responses were broken down by gender and are shown in the table above. Is the event “in favor of increase” independent of gender?",
   "image_files": [],
   "choices": [
     {
@@ -15,18 +16,18 @@
     },
     {
       "letter": "C",
-      "text": "No, because\nP\n(\nincrease\n)\n=\n0.5075\nand the\nP\n(\nincrease | male\n)\n=\n0.2195\n."
+      "text": "No, because P ( increase ) = 0.5075 P ( increase ) = 0.5075 and the P ( increase | male ) = 0.2195 P ( increase | male ) = 0.2195 ."
     },
     {
       "letter": "D",
-      "text": "No, because\nP\n(\nincrease\n)\n=\n0.5075\nand the\nP\n(\nincrease | male\n)\n=\n0.4222\n."
+      "text": "No, because P ( increase ) = 0.5075 P ( increase ) = 0.5075 and the P ( increase | male ) = 0.4222 P ( increase | male ) = 0.4222 ."
     },
     {
       "letter": "E",
-      "text": "Yes, because\nP\n(\nincrease\n)\n⋅\nP\n(\nmale\n)\n=\n0.2639\nand\nP\n(\nincrease\n)\n⋅\nP\n(\nfemale\n)\n=\n0.2436\n."
+      "text": "Yes, because P ( increase ) ⋅ P ( male ) = 0.2639 P ( increase ) ⋅ P ( male ) = 0.2639 and P ( increase ) ⋅ P ( female ) = 0.2436 P ( increase ) ⋅ P ( female ) = 0.2436 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

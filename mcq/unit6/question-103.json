@@ -1,32 +1,33 @@
 {
   "question_id": "question-103",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Is the Drug Better?",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A study was conducted to determine if there was a difference in the proportions of a new drug and a placebo using a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval.  The resulting confidence interval was <span class=\"tex2jax_process\">$(-0.21, 0.15)$</span>.  Which of the following represents a correct conclusion based on this information?</div>",
+  "question_text": "A study was conducted to determine if there was a difference in the proportions of a new drug and a placebo using a $95\\%$ confidence interval.  The resulting confidence interval was $(-0.21, 0.15)$ .  Which of the following represents a correct conclusion based on this information?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "We are\n95\n%\nconfident that the confidence interval\n(\n−\n0.21\n,\n0.15\n)\ncaptures the difference in population proportions of the drug and the placebo. Because zero is included in the interval, we can state that a difference between the effectiveness of the drug and the placebo exists."
+      "text": "We are 95 % 95 % confident that the confidence interval ( − 0.21 , 0.15 ) ( − 0.21 , 0.15 ) captures the difference in population proportions of the drug and the placebo.  Because zero is included in the interval, we can state that a difference between the effectiveness of the drug and the placebo exists."
     },
     {
       "letter": "B",
-      "text": "We are\n95\n%\nconfident that the confidence interval\n(\n−\n0.21\n,\n0.15\n)\ncaptures the difference in population proportions of the drug and the placebo. Because zero is included in the interval, we cannot state that a difference between the effectiveness of the drug and the placebo exists."
+      "text": "We are 95 % 95 % confident that the confidence interval ( − 0.21 , 0.15 ) ( − 0.21 , 0.15 ) captures the difference in population proportions of the drug and the placebo.  Because zero is included in the interval, we can not state that a difference between the effectiveness of the drug and the placebo exists."
     },
     {
       "letter": "C",
-      "text": "Because\n−\n0.21\n−\n0.15\n=\n−\n0.36\n, we are\n95\n%\nconfident that the difference between the proportions of the drug and placebo effectiveness is\n36\n%\n."
+      "text": "Because − 0.21 − 0.15 = − 0.36 − 0.21 − 0.15 = − 0.36 , we are 95 % 95 % confident that the difference between the proportions of the drug and placebo effectiveness is 36 % 36 % ."
     },
     {
       "letter": "D",
-      "text": "Because zero is included in our confidence interval of\n(\n−\n0.21\n,\n0.15\n)\n, we are\n95\n%\nconfident that there is no difference between the the drug and the placebo."
+      "text": "Because zero is included in our confidence interval of ( − 0.21 , 0.15 ) ( − 0.21 , 0.15 ) , we are 95 % 95 % confident that there is no difference between the the drug and the placebo."
     },
     {
       "letter": "E",
-      "text": "Our confidence interval of\n(\n−\n0.21\n,\n0.15\n)\ntells us that we are\n95\n%\nconfident that the probability of finding that the drug proportion is greater than the placebo proportion is\n0.15\n−\n(\n−\n0.21\n)\n=\n36\n%\n."
+      "text": "Our confidence interval of ( − 0.21 , 0.15 ) ( − 0.21 , 0.15 ) tells us that we are 95 % 95 % confident that the probability of finding that the drug proportion is greater than the placebo proportion is 0.15 − ( − 0.21 ) = 36 % 0.15 − ( − 0.21 ) = 36 % ."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

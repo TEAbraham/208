@@ -1,8 +1,9 @@
 {
   "question_id": "question-060",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Flight Delays",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Air travel can be very frustrating when flights don't leave on time!  Over the last <span class=\"tex2jax_process\">$5\\text{ months}$</span>, <span class=\"tex2jax_process\">$15\\%$</span> of Be Free Airline flights were delayed.  For the same time period, <span class=\"tex2jax_process\">$20\\%$</span> of Fly Me Away Airline flights were delayed.  </div><div class=\"paragraph\">In the process of investigating the difference between the two airlines, a consumer's group randomly selects <span class=\"tex2jax_process\">$80\\text{ flights}$</span> from each company during this time period and finds the proportion of flights that were delayed for each.  They calculate the standard deviation of the sampling distribution of the difference between these two proportions.  Their calculations are shown below:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$${ \\sigma  }_{ { p }_{ B }-{ p }_{ F } }=\\sqrt { \\dfrac { (0.15)(0.85) }{ 80 }  } +\\sqrt { \\dfrac { (0.20)(0.80) }{ 80 }  } =0.085$$</div>  </div><div class=\"paragraph\">Which of the following statements is true?</div>",
+  "question_text": "Air travel can be very frustrating when flights don't leave on time!  Over the last $5\\text{ months}$ , $15\\%$ of Be Free Airline flights were delayed.  For the same time period, $20\\%$ of Fly Me Away Airline flights were delayed. In the process of investigating the difference between the two airlines, a consumer's group randomly selects $80\\text{ flights}$ from each company during this time period and finds the proportion of flights that were delayed for each.  They calculate the standard deviation of the sampling distribution of the difference between these two proportions.  Their calculations are shown below: $${ \\sigma  }_{ { p }_{ B }-{ p }_{ F } }=\\sqrt { \\dfrac { (0.15)(0.85) }{ 80 }  } +\\sqrt { \\dfrac { (0.20)(0.80) }{ 80 }  } =0.085$$ Which of the following statements is true?",
   "image_files": [],
   "choices": [
     {
@@ -19,14 +20,14 @@
     },
     {
       "letter": "D",
-      "text": "The consumer organization added the standard deviation of the Be Free proportion to the standard deviation of the Fly Me Away proportion. Instead it should first add the variances from the two distributions, then take the square root:\nσ\np\nB\n−\np\nF\n=\n√\n(\n0.15\n)\n(\n0.85\n)\n80\n+\n(\n0.20\n)\n(\n0.80\n)\n80\n=\n0.06"
+      "text": "The consumer organization added the standard deviation of the Be Free proportion to the standard deviation of the Fly Me Away proportion.  Instead it should first add the variances from the two distributions, then take the square root: σ p B − p F = √ ( 0.15 ) ( 0.85 ) 80 + ( 0.20 ) ( 0.80 ) 80 = 0.06 σ p B − p F = ( 0.15 ) ( 0.85 ) 80 + ( 0.20 ) ( 0.80 ) 80 = 0.06"
     },
     {
       "letter": "E",
       "text": "The consumer's group calculated the standard deviation correctly."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

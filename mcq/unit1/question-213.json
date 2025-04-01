@@ -1,32 +1,33 @@
 {
   "question_id": "question-213",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Normal Notation",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Distribution <span class=\"tex2jax_process\">$A$</span> is <span class=\"tex2jax_process\">$N(28,1.2)$</span>.<br>Distribution <span class=\"tex2jax_process\">$B$</span> is <span class=\"tex2jax_process\">$N(25, 1.8)$</span>.  </div><div class=\"paragraph\">Which of the following statements is true?</div>",
+  "question_text": "Distribution $A$ is $N(28,1.2)$ . Distribution $B$ is $N(25, 1.8)$ . Which of the following statements is true?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Distribution\nA\nhas a population of\n28\nindividuals and a mean of\n1.2\n, while Distribution\nB\nhas a population of\n25\nindividuals with a mean of\n1.8\n."
+      "text": "Distribution A A has a population of 28 28 individuals and a mean of 1.2 1.2 , while Distribution B B has a population of 25 25 individuals with a mean of 1.8 1.8 ."
     },
     {
       "letter": "B",
-      "text": "Distribution\nA\nhas a higher mean and a lower standard deviation than Distribution\nB\n."
+      "text": "Distribution A A has a higher mean and a lower standard deviation than Distribution B B ."
     },
     {
       "letter": "C",
-      "text": "Distribution\nA\nhas a lower mean and a higher standard deviation than Distribution\nB\n."
+      "text": "Distribution A A has a lower mean and a higher standard deviation than Distribution B B ."
     },
     {
       "letter": "D",
-      "text": "Distribution\nA\nhas a higher mean and a higher variance than Distribution\nB\n."
+      "text": "Distribution A A has a higher mean and a higher variance than Distribution B B ."
     },
     {
       "letter": "E",
-      "text": "Distribution\nA\nhas a lower mean and a lower variance than Distribution\nB\n."
+      "text": "Distribution A A has a lower mean and a lower variance than Distribution B B ."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

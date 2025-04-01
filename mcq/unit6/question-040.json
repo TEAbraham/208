@@ -1,32 +1,33 @@
 {
   "question_id": "question-040",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Sample Size and Significance: Who Has the Smallest Power?",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">In a hypothesis test, <span class=\"tex2jax_process\">${ H }_{ 0 }:p=0.75$</span> versus <span class=\"tex2jax_process\">${ H }_{ a }:p&lt;0.75$</span>, the power of the test <span class=\"tex2jax_process\">$p=0.75$</span> would be the smallest for which of the following choices of sample  size <span class=\"tex2jax_process\">$n$</span> and significance level <span class=\"tex2jax_process\">$\\alpha$</span> ? </div>",
+  "question_text": "In a hypothesis test, ${ H }_{ 0 }:p=0.75$ versus ${ H }_{ a }:p<0.75$ , the power of the test $p=0.75$ would be the smallest for which of the following choices of sample  size $n$ and significance level $\\alpha$ ?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "n\n=\n110\nα\n=\n0.01"
+      "text": "n = 110 α = 0.01 n = 110 α = 0.01"
     },
     {
       "letter": "B",
-      "text": "n\n=\n110\nα\n=\n0.05"
+      "text": "n = 110 α = 0.05 n = 110 α = 0.05"
     },
     {
       "letter": "C",
-      "text": "n\n=\n210\nα\n=\n0.01"
+      "text": "n = 210 α = 0.01 n = 210 α = 0.01"
     },
     {
       "letter": "D",
-      "text": "n\n=\n210\nα\n=\n0.05"
+      "text": "n = 210 α = 0.05 n = 210 α = 0.05"
     },
     {
       "letter": "E",
       "text": "The answer cannot be determined from the information given."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

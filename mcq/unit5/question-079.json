@@ -1,8 +1,9 @@
 {
   "question_id": "question-079",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Different Means",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Jayla is trying to estimate the average GPA at her high school. Her counselor gives her an anonymous list of students and their GPA values. Jayla takes an initial sample of 25 students and finds a mean GPA of <span class=\"tex2jax_process\">$2.45$</span>. Jayla then decides to take a second sample to check her work, and selects a second sample of <span class=\"tex2jax_process\">$25$</span> students. Jayla is surprised when the mean GPA for the second sample was <span class=\"tex2jax_process\">$2.65$</span>. </div><div class=\"paragraph\">What is the best explanation as to why the sample means for the average GPA at her high school were different?</div>",
+  "question_text": "Jayla is trying to estimate the average GPA at her high school. Her counselor gives her an anonymous list of students and their GPA values. Jayla takes an initial sample of 25 students and finds a mean GPA of $2.45$ . Jayla then decides to take a second sample to check her work, and selects a second sample of $25$ students. Jayla is surprised when the mean GPA for the second sample was $2.65$ . What is the best explanation as to why the sample means for the average GPA at her high school were different?",
   "image_files": [],
   "choices": [
     {
@@ -26,14 +27,9 @@
       "text": "The counselors list must have been incomplete or incorrect."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer. ",
-  "solution": "When selecting samples of the same size, <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-15612-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>n</mi></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-80846\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-80847\" class=\"mjx-mrow\"><span id=\"MJXc-Node-80848\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.222em; padding-bottom: 0.277em;\">n</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-15612\">n</script></span>, the samples will rarely result in statistics that are the same. This is the definition of <strong>sampling variability</strong>.  Therefore, when taking samples of the same size, <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-15613-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>n</mi></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-80849\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-80850\" class=\"mjx-mrow\"><span id=\"MJXc-Node-80851\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.222em; padding-bottom: 0.277em;\">n</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-15613\">n</script></span>, the sample means will most likely not be the same value. \n\nSo, Jayla, in fact did nothing wrong. The differences in the sample means are most likely due to the fact of sampling variability. \n\n<strong>Choice 'A'</strong> is correct. ",
-  "distractor_explanations": {
-    "B": "<strong>Choice 'B'</strong> is incorrect.  As mentioned above, two different sample means are completely possible. Therefore, Jayla did not make a mistake in her calculations. ",
-    "C": "<strong>Choice 'C'</strong> is incorrect. Just because the means are different, does not imply that bias is present. ",
-    "D": "<strong>Choice 'D'</strong> is incorrect.  Although Jayla could've found the median, we are led to believe that she found the mean, and we should assume as such. ",
-    "E": "<strong>Choice 'E'</strong> is incorrect. Different means does not imply that the original source of data was incorrect, or incomplete. The difference is due to the fact of sampling variability."
-  },
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "When selecting samples of the same size, n n , the samples will rarely result in statistics that are the same. This is the definition of sampling variability .  Therefore, when taking samples of the same size, n n , the sample means will most likely not be the same value.\n\nSo, Jayla, in fact did nothing wrong. The differences in the sample means are most likely due to the fact of sampling variability.\n\nChoice 'A' is correct.",
+  "distractor_explanations": {},
   "tags": [
     "VAR-1.G",
     "VAR-1.G.1",

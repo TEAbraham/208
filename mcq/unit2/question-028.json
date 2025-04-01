@@ -1,32 +1,33 @@
 {
   "question_id": "question-028",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "What Do You Drive?",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\"><span class=\"tex2jax_process\">$100$</span> men and <span class=\"tex2jax_process\">$100$</span> women selected at random were asked which type of vehicle they drove.  Here are the results:</div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Sport</th><th scope=\"col\">Sedan</th><th scope=\"col\">SUV</th><th scope=\"col\">Truck</th></tr></thead><tbody><tr><td>Men</td><td><span class=\"tex2jax_process\">$30$</span></td><td><span class=\"tex2jax_process\">$20$</span></td><td><span class=\"tex2jax_process\">$20$</span></td><td><span class=\"tex2jax_process\">$30$</span></td></tr><tr><td>Women</td><td><span class=\"tex2jax_process\">$10$</span></td><td><span class=\"tex2jax_process\">$40$</span></td><td><span class=\"tex2jax_process\">$50$</span></td><td><span class=\"tex2jax_process\">$0$</span></td></tr></tbody></table></div><div class=\"paragraph\">What is the marginal relative frequency for owning a sedan?</div>",
+  "question_text": "$100$ men and $100$ women selected at random were asked which type of vehicle they drove.  Here are the results: Sport Sedan SUV Truck Men $30$ $20$ $20$ $30$ Women $10$ $40$ $50$ $0$ What is the marginal relative frequency for owning a sedan?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.60"
+      "text": "0.60 0.60"
     },
     {
       "letter": "B",
-      "text": "0.40"
+      "text": "0.40 0.40"
     },
     {
       "letter": "C",
-      "text": "0.35"
+      "text": "0.35 0.35"
     },
     {
       "letter": "D",
-      "text": "0.30"
+      "text": "0.30 0.30"
     },
     {
       "letter": "E",
-      "text": "0.20"
+      "text": "0.20 0.20"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

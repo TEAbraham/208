@@ -1,13 +1,14 @@
 {
   "question_id": "question-009",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Rejection of Null Hypothesis",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Which of the following statements correctly describes strong evidence for rejection of the null hypothesis?</div>",
+  "question_text": "Which of the following statements correctly describes strong evidence for rejection of the null hypothesis?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The experimental outcome yields a test statistic of\n0\n."
+      "text": "The experimental outcome yields a test statistic of 0 0 ."
     },
     {
       "letter": "B",
@@ -23,10 +24,10 @@
     },
     {
       "letter": "E",
-      "text": "The p-value is\n0.32\n."
+      "text": "The p-value is 0.32 0.32 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

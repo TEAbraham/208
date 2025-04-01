@@ -1,32 +1,33 @@
 {
   "question_id": "question-052",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Average Home Price - Realtor",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A realtor is interested in the average price of homes in his state.  </div><div class=\"paragraph\">He randomly selects <span class=\"tex2jax_process\">$16\\text{ homes}$</span> and records the prices. The <span class=\"tex2jax_process\">$16\\text{ homes}$</span> averaged a price of <span class=\"tex2jax_process\">$\\$183{,}482$</span> with a standard deviation of <span class=\"tex2jax_process\">$\\$41{,}023$</span>.  </div><div class=\"paragraph\">If the realtor wishes to determine if this year’s prices are higher than last year’s state average of <span class=\"tex2jax_process\">$\\$175{,}000$</span>, what would be the appropriate null and alternative hypotheses?</div>",
+  "question_text": "A realtor is interested in the average price of homes in his state. He randomly selects $16\\text{ homes}$ and records the prices. The $16\\text{ homes}$ averaged a price of $\\$183{,}482$ with a standard deviation of $\\$41{,}023$ . If the realtor wishes to determine if this year’s prices are higher than last year’s state average of $\\$175{,}000$ , what would be the appropriate null and alternative hypotheses?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "H\n0\n:\nμ\n=\n175,000 H\na\n:\nμ\n<\n175,000"
+      "text": "H 0 : μ = 175,000 H 0 : μ = 175,000 H a : μ < 175,000 H a : μ < 175,000"
     },
     {
       "letter": "B",
-      "text": "H\n0\n:\nμ\n=\n183,482 H\na\n:\nμ\n>\n183,482"
+      "text": "H 0 : μ = 183,482 H 0 : μ = 183,482 H a : μ > 183,482 H a : μ > 183,482"
     },
     {
       "letter": "C",
-      "text": "H\n0\n:\nμ\n=\n175,000 H\na\n:\nμ\n=\n183,482"
+      "text": "H 0 : μ = 175,000 H 0 : μ = 175,000 H a : μ = 183,482 H a : μ = 183,482"
     },
     {
       "letter": "D",
-      "text": "H\n0\n:\nμ\n=\n175,000 H\na\n:\nμ\n>\n175,000"
+      "text": "H 0 : μ = 175,000 H 0 : μ = 175,000 H a : μ > 175,000 H a : μ > 175,000"
     },
     {
       "letter": "E",
-      "text": "H\n0\n:\nμ\n=\n175,000 H\na\n:\nμ\n<\n183,482"
+      "text": "H 0 : μ = 175,000 H 0 : μ = 175,000 H a : μ < 183,482 H a : μ < 183,482"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

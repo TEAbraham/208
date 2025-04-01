@@ -1,34 +1,35 @@
 {
   "question_id": "question-106",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Getting To School: A Histogram",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Billy surveyed <span class=\"tex2jax_process\">$27$</span> of his friends and asked how long it took for them to get to school each morning.  Results of his survey are shown in the histogram below.  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"paragraph\">What percent of those surveyed said they were able to get to school in under <span class=\"tex2jax_process\">$10$</span> minutes?</div>",
+  "question_text": "Billy surveyed $27$ of his friends and asked how long it took for them to get to school each morning.  Results of his survey are shown in the histogram below. Created for Albert.io. Copyright 2016. All rights reserved. What percent of those surveyed said they were able to get to school in under $10$ minutes?",
   "image_files": [
     "images/question-106-img1.PNG"
   ],
   "choices": [
     {
       "letter": "A",
-      "text": "13\n%"
+      "text": "13 % 13 %"
     },
     {
       "letter": "B",
-      "text": "22\n%"
+      "text": "22 % 22 %"
     },
     {
       "letter": "C",
-      "text": "48\n%"
+      "text": "48 % 48 %"
     },
     {
       "letter": "D",
-      "text": "74\n%"
+      "text": "74 % 74 %"
     },
     {
       "letter": "E",
       "text": "The percent cannot be determined from the histogram."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

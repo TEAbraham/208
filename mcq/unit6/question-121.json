@@ -1,32 +1,33 @@
 {
   "question_id": "question-121",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Attending College?",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">In a school district, there are <span class=\"tex2jax_process\">$5{,}100$</span> boys and <span class=\"tex2jax_process\">$5{,}200$</span> girls attending the public high schools.  The superintendent wanted to know if there is a difference in the proportions of boys and girls planning to attend college.  Random samples of <span class=\"tex2jax_process\">$100$</span> boys and <span class=\"tex2jax_process\">$90$</span> girls were asked this question.  <span class=\"tex2jax_process\">$90\\%$</span> of the girls and <span class=\"tex2jax_process\">$82\\%$</span> of the boys said they planned to attend college.  The superintendent needed to verify the conditions for this test for the difference of two population proportions.  </div><div class=\"paragraph\">Which of the following is actually a correct result?  Let the <span class=\"tex2jax_process\">$1$</span> group be the boys and the <span class=\"tex2jax_process\">$2$</span> group be the girls.</div>",
+  "question_text": "In a school district, there are $5{,}100$ boys and $5{,}200$ girls attending the public high schools.  The superintendent wanted to know if there is a difference in the proportions of boys and girls planning to attend college.  Random samples of $100$ boys and $90$ girls were asked this question. $90\\%$ of the girls and $82\\%$ of the boys said they planned to attend college.  The superintendent needed to verify the conditions for this test for the difference of two population proportions. Which of the following is actually a correct result?  Let the $1$ group be the boys and the $2$ group be the girls.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "n\n1\n≤\n520"
+      "text": "n 1 ≤ 520 n 1 ≤ 520"
     },
     {
       "letter": "B",
-      "text": "n\n1\n^\np\nc\n≈\n86.2"
+      "text": "n 1 ^ p c ≈ 86.2 n 1 p ^ c ≈ 86.2"
     },
     {
       "letter": "C",
-      "text": "n\n2\n^\np\nc\n≈\n77.6"
+      "text": "n 2 ^ p c ≈ 77.6 n 2 p ^ c ≈ 77.6"
     },
     {
       "letter": "D",
-      "text": "n\n1\n(\n1\n−\n^\np\nc\n)\n≈\n14.2"
+      "text": "n 1 ( 1 − ^ p c ) ≈ 14.2 n 1 ( 1 − p ^ c ) ≈ 14.2"
     },
     {
       "letter": "E",
-      "text": "n\n2\n(\n1\n−\n^\np\nc\n)\n≈\n18.2"
+      "text": "n 2 ( 1 − ^ p c ) ≈ 18.2 n 2 ( 1 − p ^ c ) ≈ 18.2"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

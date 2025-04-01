@@ -1,8 +1,9 @@
 {
   "question_id": "question-010",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Science Club",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A high school has four grade levels: Freshman, Sophomore, Junior, and Senior. The school is divided equally among these grades, with <span class=\"tex2jax_process\">$25\\%$</span> of the students in each grade level. A survey of <span class=\"tex2jax_process\">$60$</span>  participants in the school's science club shows the following distribution:</div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Grade Level</th><th scope=\"col\">Number of Participants</th></tr></thead><tbody><tr><td>Freshman</td><td><span class=\"tex2jax_process\">$18$</span></td></tr><tr><td>Sophomore</td><td><span class=\"tex2jax_process\">$22$</span></td></tr><tr><td>Junior</td><td><span class=\"tex2jax_process\">$12$</span></td></tr><tr><td>Senior</td><td><span class=\"tex2jax_process\">$8$</span></td></tr></tbody></table></div><div class=\"paragraph\">If the science club has <span class=\"tex2jax_process\">$240$</span> members, which of the following questions would best help determine if the participation in the science club among different grade levels is random?</div>",
+  "question_text": "A high school has four grade levels: Freshman, Sophomore, Junior, and Senior. The school is divided equally among these grades, with $25\\%$ of the students in each grade level. A survey of $60$ participants in the school's science club shows the following distribution: Grade Level Number of Participants Freshman $18$ Sophomore $22$ Junior $12$ Senior $8$ If the science club has $240$ members, which of the following questions would best help determine if the participation in the science club among different grade levels is random?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "Does the science club have a cap limit on members from each grade?"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

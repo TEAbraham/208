@@ -1,32 +1,33 @@
 {
   "question_id": "question-050",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "SuperChips",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">There had been some recent complaints about the SuperChips Cookie Company that there were fewer chocolate chips per cookie than there used to be.  Ten years ago, there was shown to be an average of <span class=\"tex2jax_process\">$12$</span> chips per cookie.  The current company president decided to randomly sample <span class=\"tex2jax_process\">$100$</span> cookies off the line and have the chips counted.  He wanted to show that there were even more chips per cookie now.  Write the hypotheses that would be used for such a test.</div>",
+  "question_text": "There had been some recent complaints about the SuperChips Cookie Company that there were fewer chocolate chips per cookie than there used to be.  Ten years ago, there was shown to be an average of $12$ chips per cookie.  The current company president decided to randomly sample $100$ cookies off the line and have the chips counted.  He wanted to show that there were even more chips per cookie now.  Write the hypotheses that would be used for such a test.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "H\n0\n:\nμ\n=\n12 H\na\n:\nμ\n>\n12"
+      "text": "H 0 : μ = 12 H 0 : μ = 12 H a : μ > 12 H a : μ > 12"
     },
     {
       "letter": "B",
-      "text": "H\n0\n:\nμ\n>\n12 H\na\n:\nμ\n=\n12"
+      "text": "H 0 : μ > 12 H 0 : μ > 12 H a : μ = 12 H a : μ = 12"
     },
     {
       "letter": "C",
-      "text": "H\n0\n:\nμ\n=\n10 H\na\n:\nμ\n>\n12"
+      "text": "H 0 : μ = 10 H 0 : μ = 10 H a : μ > 12 H a : μ > 12"
     },
     {
       "letter": "D",
-      "text": "H\n0\n:\n¯\nx\n=\n12 H\na\n:\n¯\nx\n>\n12"
+      "text": "H 0 : ¯ x = 12 H 0 : x ¯ = 12 H a : ¯ x > 12 H a : x ¯ > 12"
     },
     {
       "letter": "E",
-      "text": "H\n0\n:\nμ\n=\n12 H\na\n:\n¯\nx\n>\n12"
+      "text": "H 0 : μ = 12 H 0 : μ = 12 H a : ¯ x > 12 H a : x ¯ > 12"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,8 +1,9 @@
 {
   "question_id": "question-099",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Buying Lunch: One But Not the Other",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">On any given day, the probability that Angelo will buy lunch is <span class=\"tex2jax_process\">$0.40$</span> while the probability that Ben will buy lunch is <span class=\"tex2jax_process\">$0.35$</span>.  </div><div class=\"paragraph\">If the probability that neither boy will buy lunch is <span class=\"tex2jax_process\">$0.40$</span>, what is the probability that Ben will buy lunch but Angelo will not?</div>",
+  "question_text": "On any given day, the probability that Angelo will buy lunch is $0.40$ while the probability that Ben will buy lunch is $0.35$ . If the probability that neither boy will buy lunch is $0.40$ , what is the probability that Ben will buy lunch but Angelo will not?",
   "image_files": [
     "images/question-099-img1.PNG",
     "images/question-099-img2.PNG"
@@ -10,26 +11,26 @@
   "choices": [
     {
       "letter": "A",
-      "text": "−\n0.15"
+      "text": "− 0.15 − 0.15"
     },
     {
       "letter": "B",
-      "text": "0.15"
+      "text": "0.15 0.15"
     },
     {
       "letter": "C",
-      "text": "0.20"
+      "text": "0.20 0.20"
     },
     {
       "letter": "D",
-      "text": "0.35"
+      "text": "0.35 0.35"
     },
     {
       "letter": "E",
-      "text": "0.40"
+      "text": "0.40 0.40"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-072",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Will the Sampling Distribution Be Nearly Normal?",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">In which of the following situations is it NOT safe to assume that the sampling distribution of <span class=\"tex2jax_process\">${ \\overline { x }  }_{ A }-{ \\overline { x }  }_{ B }$</span> will be nearly normal?</div>",
+  "question_text": "In which of the following situations is it NOT safe to assume that the sampling distribution of ${ \\overline { x }  }_{ A }-{ \\overline { x }  }_{ B }$ will be nearly normal?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Samples of\n45\nwill be randomly chosen from a skewed right Population A. Samples of\n15\nwill be randomly chosen from a nearly normal Population B."
+      "text": "Samples of 45 45 will be randomly chosen from a skewed right Population A.   Samples of 15 15 will be randomly chosen from a nearly normal Population B."
     },
     {
       "letter": "B",
-      "text": "Samples of\n12\nwill be randomly chosen from a skewed left Population A. Samples of\n15\nwill be randomly chosen from a nearly normal Population B."
+      "text": "Samples of 12 12 will be randomly chosen from a skewed left Population A.   Samples of 15 15 will be randomly chosen from a nearly normal Population B."
     },
     {
       "letter": "C",
-      "text": "Samples of\n45\nwill be randomly chosen from a skewed right Population A. Samples of\n55\nwill be randomly chosen from a bimodal Population B."
+      "text": "Samples of 45 45 will be randomly chosen from a skewed right Population A.   Samples of 55 55 will be randomly chosen from a bimodal Population B."
     },
     {
       "letter": "D",
-      "text": "Samples of\n17\nwill be randomly chosen from a nearly normal Population A. Samples of\n15\nwill be randomly chosen from a nearly normal Population B."
+      "text": "Samples of 17 17 will be randomly chosen from a nearly normal Population A.   Samples of 15 15 will be randomly chosen from a nearly normal Population B."
     },
     {
       "letter": "E",
-      "text": "Samples of\n82\nwill be randomly chosen from a skewed left Population A. Samples of\n67\nwill be randomly chosen from a skewed right Population B."
+      "text": "Samples of 82 82 will be randomly chosen from a skewed left Population A.   Samples of 67 67 will be randomly chosen from a skewed right Population B."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

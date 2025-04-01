@@ -1,32 +1,33 @@
 {
   "question_id": "question-035",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Critical Value for Mean with Unknown Standard Deviation",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">You want to compute a <span class=\"tex2jax_process\">$90\\%$</span> confidence interval for the mean population with an unknown standard deviation. The data is collected from an SRS of <span class=\"tex2jax_process\">$20$</span> observations, and is approximately normal.  </div><div class=\"paragraph\">What critical value would we need for the <span class=\"tex2jax_process\">$90\\%$</span> confidence interval?</div>",
+  "question_text": "You want to compute a $90\\%$ confidence interval for the mean population with an unknown standard deviation. The data is collected from an SRS of $20$ observations, and is approximately normal. What critical value would we need for the $90\\%$ confidence interval?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "1.734"
+      "text": "1.734 1.734"
     },
     {
       "letter": "B",
-      "text": "1.729"
+      "text": "1.729 1.729"
     },
     {
       "letter": "C",
-      "text": "1.725"
+      "text": "1.725 1.725"
     },
     {
       "letter": "D",
-      "text": "1.721"
+      "text": "1.721 1.721"
     },
     {
       "letter": "E",
-      "text": "1.645"
+      "text": "1.645 1.645"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

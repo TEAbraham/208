@@ -1,21 +1,22 @@
 {
   "question_id": "question-033",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Comparing Reading Preferences at Different Ages",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A librarian was interested in whether people tend to read different types of books at different stages of their lives.  To investigate, as people were checking books out of the library she kept track of their age category and the type(s) of books they were checking out.  She did this for several days.  Results are shown in the table below.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Fiction Only</th><th scope=\"col\">Non-Fiction Only</th><th scope=\"col\">Both</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Age 16-25</td><td>41</td><td>29</td><td>20</td><td>90</td></tr><tr><td>Age 26-50</td><td>42</td><td>38</td><td>21</td><td>101</td></tr><tr><td>Over age 50</td><td>31</td><td>44</td><td>18</td><td>93</td></tr><tr><td>Total</td><td>114</td><td>111</td><td>59</td><td>284</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Which of the following statements is NOT indicated by the data?</div>",
+  "question_text": "A librarian was interested in whether people tend to read different types of books at different stages of their lives.  To investigate, as people were checking books out of the library she kept track of their age category and the type(s) of books they were checking out.  She did this for several days.  Results are shown in the table below. Fiction Only Non-Fiction Only Both Total Age 16-25 41 29 20 90 Age 26-50 42 38 21 101 Over age 50 31 44 18 93 Total 114 111 59 284 Which of the following statements is NOT indicated by the data?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Individuals over the age of\n50\nwere most likely to check out non-fiction books only compared to individuals in the other age groups."
+      "text": "Individuals over the age of 50 50 were most likely to check out non-fiction books only compared to individuals in the other age groups."
     },
     {
       "letter": "B",
-      "text": "Individuals in the\n16\n−\n25\nage category were most likely to check out both types of books compared to individuals in the other age groups."
+      "text": "Individuals in the 16 − 25 16 − 25 age category were most likely to check out both types of books compared to individuals in the other age groups."
     },
     {
       "letter": "C",
-      "text": "Individuals in the\n26\n−\n50\nage category were most likely to check out fiction books only compared to individuals in the other age groups."
+      "text": "Individuals in the 26 − 50 26 − 50 age category were most likely to check out fiction books only compared to individuals in the other age groups."
     },
     {
       "letter": "D",
@@ -23,10 +24,10 @@
     },
     {
       "letter": "E",
-      "text": "About\n21\n%\nof the individuals in this sample checked out both types of books."
+      "text": "About 21 % 21 % of the individuals in this sample checked out both types of books."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

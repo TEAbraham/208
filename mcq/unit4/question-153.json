@@ -1,32 +1,33 @@
 {
   "question_id": "question-153",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Nuts and Berries: Combined Standard Deviation",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Nuts and Berries is an online company that sells different types of nut butters (like peanut butter and almond butter) and different types of jams (like raspberry jam and grape jam). Jams are sold in <span class=\"tex2jax_process\">$8\\text{ oz}$</span> quantities and nut butters are sold in <span class=\"tex2jax_process\">$12\\text{ oz}$</span> quantities.  </div><div class=\"paragraph\">If the mean weight of one jar of grape jam is <span class=\"tex2jax_process\">$8.6\\text{ oz}$</span> with a standard deviation of <span class=\"tex2jax_process\">$0.17\\text{ oz}$</span>, and the average weight of a jar of peanut butter is <span class=\"tex2jax_process\">$12.7\\text{ oz}$</span> with a standard deviation of <span class=\"tex2jax_process\">$0.23\\text{ oz}$</span>, what is the standard deviation of the weight of an order consisting of <span class=\"tex2jax_process\">$3\\text{ jars}$</span> of grape jam and <span class=\"tex2jax_process\">$1\\text{ jar}$</span> of peanut butter?  Assume that the weights of all <span class=\"tex2jax_process\">$4$</span> jars in this order are independent. </div>",
+  "question_text": "Nuts and Berries is an online company that sells different types of nut butters (like peanut butter and almond butter) and different types of jams (like raspberry jam and grape jam). Jams are sold in $8\\text{ oz}$ quantities and nut butters are sold in $12\\text{ oz}$ quantities. If the mean weight of one jar of grape jam is $8.6\\text{ oz}$ with a standard deviation of $0.17\\text{ oz}$ , and the average weight of a jar of peanut butter is $12.7\\text{ oz}$ with a standard deviation of $0.23\\text{ oz}$ , what is the standard deviation of the weight of an order consisting of $3\\text{ jars}$ of grape jam and $1\\text{ jar}$ of peanut butter?  Assume that the weights of all $4$ jars in this order are independent.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.559\n oz"
+      "text": "0.559 oz 0.559 oz"
     },
     {
       "letter": "B",
-      "text": "0.17\n oz"
+      "text": "0.17 oz 0.17 oz"
     },
     {
       "letter": "C",
-      "text": "0.23\n oz"
+      "text": "0.23 oz 0.23 oz"
     },
     {
       "letter": "D",
-      "text": "0.74\n oz"
+      "text": "0.74 oz 0.74 oz"
     },
     {
       "letter": "E",
-      "text": "0.374\n oz"
+      "text": "0.374 oz 0.374 oz"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

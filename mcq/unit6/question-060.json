@@ -1,32 +1,33 @@
 {
   "question_id": "question-060",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Not Getting Enough Sleep: One and Two-Sided $p$-Values",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">The National Sleep Foundation recommends that teens should get <span class=\"tex2jax_process\">$8.5$</span> to <span class=\"tex2jax_process\">$9.25\\text{ hours}$</span> of sleep each night, but do they? Boris believes that fewer than <span class=\"tex2jax_process\">$15\\%$</span> of students in his high school would say that they get enough sleep.  </div><div class=\"paragraph\">He conducts a survey by randomly selecting students at school and asking them if they get enough sleep. Completing a one-sided <span class=\"tex2jax_process\">$z$</span>-test for proportions, he calculates his <span class=\"tex2jax_process\">$p$</span>-value to be <span class=\"tex2jax_process\">$0.93$</span>.  </div><div class=\"paragraph\">Using the same data, what would the <span class=\"tex2jax_process\">$p$</span>-value be for a two-sided test? </div>",
+  "question_text": "The National Sleep Foundation recommends that teens should get $8.5$ to $9.25\\text{ hours}$ of sleep each night, but do they? Boris believes that fewer than $15\\%$ of students in his high school would say that they get enough sleep. He conducts a survey by randomly selecting students at school and asking them if they get enough sleep. Completing a one-sided $z$ -test for proportions, he calculates his $p$ -value to be $0.93$ . Using the same data, what would the $p$ -value be for a two-sided test?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.05"
+      "text": "0.05 0.05"
     },
     {
       "letter": "B",
-      "text": "0.07"
+      "text": "0.07 0.07"
     },
     {
       "letter": "C",
-      "text": "0.14"
+      "text": "0.14 0.14"
     },
     {
       "letter": "D",
-      "text": "0.43"
+      "text": "0.43 0.43"
     },
     {
       "letter": "E",
-      "text": "0.86"
+      "text": "0.86 0.86"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

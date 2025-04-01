@@ -1,32 +1,33 @@
 {
   "question_id": "question-021",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Finding a Critical $t$-value for a Confidence Level",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">What is the critical value of <span class=\"tex2jax_process\">$t$</span> for a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval with <span class=\"tex2jax_process\">$20$</span> degrees of freedom?</div>",
+  "question_text": "What is the critical value of $t$ for a $95\\%$ confidence interval with $20$ degrees of freedom?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "1.725"
+      "text": "1.725 1.725"
     },
     {
       "letter": "B",
-      "text": "1.729"
+      "text": "1.729 1.729"
     },
     {
       "letter": "C",
-      "text": "2.080"
+      "text": "2.080 2.080"
     },
     {
       "letter": "D",
-      "text": "2.086"
+      "text": "2.086 2.086"
     },
     {
       "letter": "E",
-      "text": "2.093"
+      "text": "2.093 2.093"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

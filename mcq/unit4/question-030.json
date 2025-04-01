@@ -1,32 +1,33 @@
 {
   "question_id": "question-030",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Encouraging Recycling: A Simulation",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">According to some reports, <span class=\"tex2jax_process\">$25\\%$</span> of Americans never recycle. An environmental group wants to investigate why this is true and if there is anything that can be done to encourage more recycling. They plan on creating and conducting a widespread survey, but first they want to interview <span class=\"tex2jax_process\">$5$</span> people who never recycle in order to better understand the situation.  </div><div class=\"paragraph\">Which of the following describes how they could conduct a simulation to estimate how many people on average they would need to contact before finding <span class=\"tex2jax_process\">$5$</span> who never recycle (let us assume people will be honest about their recycling habits)?</div>",
+  "question_text": "According to some reports, $25\\%$ of Americans never recycle. An environmental group wants to investigate why this is true and if there is anything that can be done to encourage more recycling. They plan on creating and conducting a widespread survey, but first they want to interview $5$ people who never recycle in order to better understand the situation. Which of the following describes how they could conduct a simulation to estimate how many people on average they would need to contact before finding $5$ who never recycle (let us assume people will be honest about their recycling habits)?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Assign the digits\n0\nand\n1\nto represent people who never recycle. Assign the digits\n2\n,\n3\n,\n4\n,\n5\n,\n6\nand\n7\nto represent people who sometimes/always recycle. Looking at a line of the random digit table, go through digit by digit until you have encountered a total of five\n0\n's or\n1\n's. Count how many total digits you had to go through (ignoring the digits\n8\nand\n9\n) to accomplish this. Record this number. Repeat this process many times and then calculate the average from your simulations."
+      "text": "Assign the digits 0 0 and 1 1 to represent people who never recycle. Assign the digits 2 2 , 3 3 , 4 4 , 5 5 , 6 6 and 7 7 to represent people who sometimes/always recycle. Looking at a line of the random digit table, go through digit by digit until you have encountered a total of five 0 0 's or 1 1 's. Count how many total digits you had to go through (ignoring the digits 8 8 and 9 9 ) to accomplish this. Record this number. Repeat this process many times and then calculate the average from your simulations."
     },
     {
       "letter": "B",
-      "text": "Assign the digits\n01\nthrough\n25\nto represent people who never recycle. Assign the digits\n26\nthrough\n100\nto represent people who sometimes/always recycle. Beginning at any line of the random digit table, go through two digits at a time until you have encountered a total of five pairs in the interval from\n01\nto\n25\n. Count how many total pairs you had to go through in order to accomplish this. Record this number. Repeat this process many times and then calculate the average from your simulations."
+      "text": "Assign the digits 01 01 through 25 25 to represent people who never recycle. Assign the digits 26 26 through 100 100 to represent people who sometimes/always recycle. Beginning at any line of the random digit table, go through two digits at a time until you have encountered a total of five pairs in the interval from 01 01 to 25 25 . Count how many total pairs you had to go through in order to accomplish this. Record this number. Repeat this process many times and then calculate the average from your simulations."
     },
     {
       "letter": "C",
-      "text": "Assign the digits\n00\nthrough\n24\nto represent people who never recycle. Assign the digits\n25\nthrough\n99\nto represent people who sometimes/always recycle. Beginning at any line of the random digit table, go through two digits at a time until you have encountered a total of five pairs in the interval from\n00\nto\n24\n. Count how many total pairs you had to go through in order to accomplish this. This number will represent your answer."
+      "text": "Assign the digits 00 00 through 24 24 to represent people who never recycle. Assign the digits 25 25 through 99 99 to represent people who sometimes/always recycle. Beginning at any line of the random digit table, go through two digits at a time until you have encountered a total of five pairs in the interval from 00 00 to 24 24 . Count how many total pairs you had to go through in order to accomplish this. This number will represent your answer."
     },
     {
       "letter": "D",
-      "text": "Assign the numbers\n1\nthrough\n25\nto represent people who never recycle. Assign the numbers\n26\nthrough\n100\nto represent people who sometimes/always recycle. Use a computer to randomly generate\n100\nsets of\n5\nnumbers. Count the number of sets that contain\n5\nnumbers in the interval from\n1\nto\n25\n. Record this number. Repeat this process many times and then calculate the proportion of simulations that resulted in\n5\nnumbers in the interval from\n1\nto\n25\n."
+      "text": "Assign the numbers 1 1 through 25 25 to represent people who never recycle. Assign the numbers 26 26 through 100 100 to represent people who sometimes/always recycle. Use a computer to randomly generate 100 100 sets of 5 5 numbers. Count the number of sets that contain 5 5 numbers in the interval from 1 1 to 25 25 . Record this number. Repeat this process many times and then calculate the proportion of simulations that resulted in 5 5 numbers in the interval from 1 1 to 25 25 ."
     },
     {
       "letter": "E",
       "text": "All of the above describe appropriate ways to conduct the simulation."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

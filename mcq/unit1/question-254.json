@@ -1,32 +1,33 @@
 {
   "question_id": "question-254",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Why Not Normal?",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">At a local company, the mean salary for all employees is <span class=\"tex2jax_process\">$\\$58{,}020$</span> and the standard deviation is <span class=\"tex2jax_process\">$\\$19{,}694$</span>. An individual making <span class=\"tex2jax_process\">$\\$140{,}396$</span> while working at this company would be in the <span class=\"tex2jax_process\">$95^\\text{th}\\text{ percentile}$</span> while an individual in the <span class=\"tex2jax_process\">$25^\\text{th}\\text{ percentile}$</span> would be making about <span class=\"tex2jax_process\">$\\$44{,}735$</span>.  </div><div class=\"paragraph\">Which of the following reasons might cause us to suspect that the distribution of salaries at this company is <em>not</em> approximately normal?</div>",
+  "question_text": "At a local company, the mean salary for all employees is $\\$58{,}020$ and the standard deviation is $\\$19{,}694$ . An individual making $\\$140{,}396$ while working at this company would be in the $95^\\text{th}\\text{ percentile}$ while an individual in the $25^\\text{th}\\text{ percentile}$ would be making about $\\$44{,}735$ . Which of the following reasons might cause us to suspect that the distribution of salaries at this company is not approximately normal?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The difference between the\n95\nth\n percentile\nand the mean is greater than the difference between the mean and the\n25\nth\n percentile\n."
+      "text": "The difference between the 95 th percentile 95 th percentile and the mean is greater than the difference between the mean and the 25 th percentile 25 th percentile ."
     },
     {
       "letter": "B",
-      "text": "If the salaries were normally distributed, we would expect an individual making\n$\n140,396\nto be in a percentile higher than the\n95\nth\n."
+      "text": "If the salaries were normally distributed, we would expect an individual making $ 140,396 $ 140,396 to be in a percentile higher than the 95 th 95 th ."
     },
     {
       "letter": "C",
-      "text": "If the salaries were normally distributed, someone at the\n95\nth\n percentile\nshould be making more than\n$\n140,396\n."
+      "text": "If the salaries were normally distributed, someone at the 95 th percentile 95 th percentile should be making more than $ 140,396 $ 140,396 ."
     },
     {
       "letter": "D",
-      "text": "If the salaries were normally distributed, someone at the\n25\nth\n percentile\nshould be making less than\n$\n44,735\n."
+      "text": "If the salaries were normally distributed, someone at the 25 th percentile 25 th percentile should be making less than $ 44,735 $ 44,735 ."
     },
     {
       "letter": "E",
       "text": "All of the above are valid reasons why we may suspect the distribution is not approximately normal."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

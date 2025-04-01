@@ -1,32 +1,33 @@
 {
   "question_id": "question-205",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Probability of Basketball Scores Above 163 Total Points",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Suppose Jane is interested in the total number of points scored in Division I NCAA college basketball games. She takes a look at several years of data and finds this distribution is approximately normal with a mean of <span class=\"tex2jax_process\">$154\\text{ points}$</span> and standard deviation of <span class=\"tex2jax_process\">$9\\text{ points}$</span>.  </div><div class=\"paragraph\">Using the empirical rule, what is the probability of finding a random game where the total points scored is <span class=\"tex2jax_process\">$163$</span> or greater?</div>",
+  "question_text": "Suppose Jane is interested in the total number of points scored in Division I NCAA college basketball games. She takes a look at several years of data and finds this distribution is approximately normal with a mean of $154\\text{ points}$ and standard deviation of $9\\text{ points}$ . Using the empirical rule, what is the probability of finding a random game where the total points scored is $163$ or greater?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "68\n%"
+      "text": "68 % 68 %"
     },
     {
       "letter": "B",
-      "text": "32\n%"
+      "text": "32 % 32 %"
     },
     {
       "letter": "C",
-      "text": "16\n%"
+      "text": "16 % 16 %"
     },
     {
       "letter": "D",
-      "text": "84\n%"
+      "text": "84 % 84 %"
     },
     {
       "letter": "E",
-      "text": "2.5\n%"
+      "text": "2.5 % 2.5 %"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

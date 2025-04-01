@@ -1,32 +1,33 @@
 {
   "question_id": "question-080",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Extra-Curricular Participation: Find the Probability",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">At a certain large high school, <span class=\"tex2jax_process\">$58\\%$</span> of all students participate in at least one extra-curricular activity. Dora does not know this, however, and is exploring the issue for herself. One day, she stands at the door to the lunchroom and randomly asks students who are entering if they participate in at least one extra-curricular activity.  </div><div class=\"paragraph\">What is the probability that the first student who participates in at least one extra-curricular activity will be either the <span class=\"tex2jax_process\">$2^\\text{nd}$</span> or <span class=\"tex2jax_process\">$3^\\text{rd}$</span> student that Dora questions?</div>",
+  "question_text": "At a certain large high school, $58\\%$ of all students participate in at least one extra-curricular activity. Dora does not know this, however, and is exploring the issue for herself. One day, she stands at the door to the lunchroom and randomly asks students who are entering if they participate in at least one extra-curricular activity. What is the probability that the first student who participates in at least one extra-curricular activity will be either the $2^\\text{nd}$ or $3^\\text{rd}$ student that Dora questions?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.1023"
+      "text": "0.1023 0.1023"
     },
     {
       "letter": "B",
-      "text": "0.2436"
+      "text": "0.2436 0.2436"
     },
     {
       "letter": "C",
-      "text": "0.3459"
+      "text": "0.3459 0.3459"
     },
     {
       "letter": "D",
-      "text": "0.58"
+      "text": "0.58 0.58"
     },
     {
       "letter": "E",
-      "text": "0.7941"
+      "text": "0.7941 0.7941"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,8 +1,9 @@
 {
   "question_id": "question-063",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Types of Music",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A research team collected data on individuals' favorite types of music (Classical, Rock, Pop) from two cities, City A and City B. They aim to determine if music preference is distributed the same across the two cities. </div><div class=\"paragraph\">Which of the following sets of conditions must be satisfied to perform the chi-square test?</div>",
+  "question_text": "A research team collected data on individuals' favorite types of music (Classical, Rock, Pop) from two cities, City A and City B. They aim to determine if music preference is distributed the same across the two cities. Which of the following sets of conditions must be satisfied to perform the chi-square test?",
   "image_files": [],
   "choices": [
     {
@@ -11,7 +12,7 @@
     },
     {
       "letter": "B",
-      "text": "The sample from each city must be a simple random sample, and the total sample size from each city should be more than\n10\n%\nof their respective populations."
+      "text": "The sample from each city must be a simple random sample, and the total sample size from each city should be more than 10 % 10 % of their respective populations."
     },
     {
       "letter": "C",
@@ -19,14 +20,14 @@
     },
     {
       "letter": "D",
-      "text": "The number of expected counts in each category must be greater than\n5\n, and the total sample size from each city should be less than\n10\n%\nof the city's population."
+      "text": "The number of expected counts in each category must be greater than 5 5 , and the total sample size from each city should be less than 10 % 10 % of the city's population."
     },
     {
       "letter": "E",
       "text": "The research team must have equal representation from both City A and City B, and the preference for music types must be distributed uniformly."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,8 +1,9 @@
 {
   "question_id": "question-131",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Two-Proportion Test: Power",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Which of the following statements is/are <strong>NOT</strong> true about power in the context of a two-proportion test?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> Large sample sizes will often allow the statistician to find a significant difference between the two proportions if one really exists.<br><strong>II.</strong> Low alpha levels will allow the statistician to find a significant difference between the two proportions if one really exists.<br><strong>III.</strong> Power will be <span class=\"tex2jax_process\">$1$</span>, the probability of a Type I error.</div></blockquote>",
+  "question_text": "Which of the following statements is/are NOT true about power in the context of a two-proportion test? I. Large sample sizes will often allow the statistician to find a significant difference between the two proportions if one really exists. II. Low alpha levels will allow the statistician to find a significant difference between the two proportions if one really exists. III. Power will be $1$ , the probability of a Type I error.",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "II and III only."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

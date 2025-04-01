@@ -1,32 +1,33 @@
 {
   "question_id": "question-064",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Gym Preferences",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A local gym is studying whether the type of membership (Regular, Premium, VIP) has any association with the choice of workout sessions (Aerobics, Weightlifting, Yoga). For a chi-square test of independence, which of the following sets of hypotheses is appropriate?</div>",
+  "question_text": "A local gym is studying whether the type of membership (Regular, Premium, VIP) has any association with the choice of workout sessions (Aerobics, Weightlifting, Yoga). For a chi-square test of independence, which of the following sets of hypotheses is appropriate?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "H\n0\n: Membership type dictates workout session choices. H\na\n: Membership type has no influence on workout session choices."
+      "text": "H 0 H 0 : Membership type dictates workout session choices. H a H a : Membership type has no influence on workout session choices."
     },
     {
       "letter": "B",
-      "text": "H\n0\n: Workout session choice and membership type are independent. H\na\n: Workout session choice and membership type are dependent."
+      "text": "H 0 H 0 : Workout session choice and membership type are independent. H a H a : Workout session choice and membership type are dependent."
     },
     {
       "letter": "C",
-      "text": "H\n0\n: The popularity of Yoga is the same across all membership types. H\na\n: Yoga is more popular in one membership type compared to others."
+      "text": "H 0 H 0 : The popularity of Yoga is the same across all membership types. H a H a : Yoga is more popular in one membership type compared to others."
     },
     {
       "letter": "D",
-      "text": "H\n0\n: Premium members choose Aerobics and Weightlifting equally. H\na\n: Premium members choose Aerobics more than Weightlifting."
+      "text": "H 0 H 0 : Premium members choose Aerobics and Weightlifting equally. H a H a : Premium members choose Aerobics more than Weightlifting."
     },
     {
       "letter": "E",
-      "text": "H\n0\n: The distribution of workout session preferences is the same for all membership types. H\na\n: The distribution of workout session preferences is not the same for all membership types."
+      "text": "H 0 H 0 : The distribution of workout session preferences is the same for all membership types. H a H a :  The distribution of workout session preferences is not the same for all membership types."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

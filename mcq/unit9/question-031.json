@@ -1,32 +1,33 @@
 {
   "question_id": "question-031",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Gas Tanks",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A study was done to examine gas tank size (in gallons) and miles driven.  Twenty-nine people were randomly chosen, had their gas tanks filled, and then were asked to drive their cars until empty.  The following summary data was collected:</div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Predictor</th><th scope=\"col\">Coef</th><th scope=\"col\">SE Coef</th><th scope=\"col\">T</th><th scope=\"col\">P</th></tr></thead><tbody><tr><td>Constant</td><td><span class=\"tex2jax_process\">$148.6$</span></td><td><span class=\"tex2jax_process\">$1.256$</span></td><td><span class=\"tex2jax_process\">$4.05$</span></td><td><span class=\"tex2jax_process\">$0.0000$</span></td></tr><tr><td>Gas tank</td><td><span class=\"tex2jax_process\">$11.56$</span></td><td><span class=\"tex2jax_process\">$1.769$</span></td><td><span class=\"tex2jax_process\">$5.11$</span></td><td><span class=\"tex2jax_process\">$0.0000$</span></td></tr></tbody></table></div><div class=\"paragraph\">Assuming all conditions have been verified, construct a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for the slope and write an interpretation of your results.</div>",
+  "question_text": "A study was done to examine gas tank size (in gallons) and miles driven.  Twenty-nine people were randomly chosen, had their gas tanks filled, and then were asked to drive their cars until empty.  The following summary data was collected: Predictor Coef SE Coef T P Constant $148.6$ $1.256$ $4.05$ $0.0000$ Gas tank $11.56$ $1.769$ $5.11$ $0.0000$ Assuming all conditions have been verified, construct a $95\\%$ confidence interval for the slope and write an interpretation of your results.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "We are\n95\n%\nconfident that the interval from\n146.02\nto\n151.18\nmiles per gallon captures the true slope of the regression relating gas tank size and miles driven."
+      "text": "We are 95 % 95 % confident that the interval from 146.02 146.02 to 151.18 151.18 miles per gallon captures the true slope of the regression relating gas tank size and miles driven."
     },
     {
       "letter": "B",
-      "text": "We are\n95\n%\nconfident that the mean of the interval from\n7.54\nto\n15.58\nmiles per gallon captures the true slope of the regression relating gas tank size and miles driven."
+      "text": "We are 95 % 95 % confident that the mean of the interval from 7.54 7.54 to 15.58 15.58 miles per gallon captures the true slope of the regression relating gas tank size and miles driven."
     },
     {
       "letter": "C",
-      "text": "We are\n95\n%\nconfident that the interval from\n7.54\nto\n15.58\nmiles per gallon captures the true slope of the regression relating gas tank size and miles driven."
+      "text": "We are 95 % 95 % confident that the interval from 7.54 7.54 to 15.58 15.58 miles per gallon captures the true slope of the regression relating gas tank size and miles driven."
     },
     {
       "letter": "D",
-      "text": "We are\n95\n%\nconfident that the mean of the interval from\n7.93\nto\n15.19\nmiles per gallon captures the true slope of the regression relating gas tank size and miles driven."
+      "text": "We are 95 % 95 % confident that the mean of the interval from 7.93 7.93 to 15.19 15.19 miles per gallon captures the true slope of the regression relating gas tank size and miles driven."
     },
     {
       "letter": "E",
-      "text": "We are\n95\n%\nconfident that the interval from\n7.93\nto\n15.19\nmiles per gallon captures the true slope of the regression relating gas tank size and miles driven."
+      "text": "We are 95 % 95 % confident that the interval from 7.93 7.93 to 15.19 15.19 miles per gallon captures the true slope of the regression relating gas tank size and miles driven."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

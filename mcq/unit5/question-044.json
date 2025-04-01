@@ -1,32 +1,33 @@
 {
   "question_id": "question-044",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "T-Sampling Distribution",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A study on women’s weights was recently completed.  </div><div class=\"paragraph\">Twenty randomly selected high school females from an urban setting were compared to <span class=\"tex2jax_process\">$21$</span> randomly selected females from a rural setting. A portion of the results are below:</div><div class=\"paragraph\"><strong>Two-Sample <span class=\"tex2jax_process\">$T$</span> for Urban Weights vs. Rural Weights</strong>\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">StDev</th><th scope=\"col\">SE Mean</th></tr></thead><tbody><tr><td>Urban Weights</td><td>20</td><td>126.1</td><td>10.5</td><td>2.35</td></tr><tr><td>Rural Weights</td><td>21</td><td>128.8</td><td>13.2</td><td>2.88</td></tr></tbody></table></div><br><div class=\"paragraph\">  </div><div class=\"paragraph\">Describe the sampling distribution of the difference between urban and rural weights.</div>",
+  "question_text": "A study on women’s weights was recently completed. Twenty randomly selected high school females from an urban setting were compared to $21$ randomly selected females from a rural setting. A portion of the results are below: Two-Sample $T$ for Urban Weights vs. Rural Weights N Mean StDev SE Mean Urban Weights 20 126.1 10.5 2.35 Rural Weights 21 128.8 13.2 2.88 Describe the sampling distribution of the difference between urban and rural weights.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Exactly normal. Mean =\n−\n2.7 Standard deviation =\n1.08"
+      "text": "Exactly normal.   Mean = − 2.7 − 2.7 Standard deviation = 1.08 1.08"
     },
     {
       "letter": "B",
-      "text": "Approximately normal. Mean =\n−\n2.7 Standard deviation =\n3.72"
+      "text": "Approximately normal.   Mean = − 2.7 − 2.7 Standard deviation = 3.72 3.72"
     },
     {
       "letter": "C",
-      "text": "Approximately normal. Mean =\n−\n2.7 Standard deviation =\n1.16"
+      "text": "Approximately normal.   Mean = − 2.7 − 2.7 Standard deviation = 1.16 1.16"
     },
     {
       "letter": "D",
-      "text": "Shape unable to be determined. Mean =\n−\n2.7 Standard deviation =\n1.16"
+      "text": "Shape unable to be determined.   Mean = − 2.7 − 2.7 Standard deviation = 1.16 1.16"
     },
     {
       "letter": "E",
-      "text": "Shape unable to be determined. Mean =\n−\n2.7 Standard deviation =\n3.72"
+      "text": "Shape unable to be determined.   Mean = − 2.7 − 2.7 Standard deviation = 3.72 3.72"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

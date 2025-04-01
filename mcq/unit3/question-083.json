@@ -1,8 +1,9 @@
 {
   "question_id": "question-083",
+  "unit": "Unit 3 | Collecting Data",
   "title": "Investigating Relationships: Power Lines",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Researchers are curious if there is a connection between childhood cancer rates and living near power lines.  </div><div class=\"paragraph\">What could be a viable way to investigate this relationship?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> Randomly select <span class=\"tex2jax_process\">$200\\text{ children}$</span> and move half of them near power lines while ensuring the other half do not live near power lines then compare cancer rates.  </div><div class=\"paragraph\"><strong>II.</strong> Randomly select <span class=\"tex2jax_process\">$100\\text{ children}$</span> who live near power lines and another <span class=\"tex2jax_process\">$100\\text{ children}$</span> who do not live near power lines then investigate cancer rates of the respective groups.  </div><div class=\"paragraph\"><strong>III.</strong> Randomly select <span class=\"tex2jax_process\">$100\\text{ children}$</span> who have cancer and another <span class=\"tex2jax_process\">$100\\text{ children}$</span> who do not have cancer and compare where the children live.    </div></blockquote>",
+  "question_text": "Researchers are curious if there is a connection between childhood cancer rates and living near power lines. What could be a viable way to investigate this relationship? I. Randomly select $200\\text{ children}$ and move half of them near power lines while ensuring the other half do not live near power lines then compare cancer rates. II. Randomly select $100\\text{ children}$ who live near power lines and another $100\\text{ children}$ who do not live near power lines then investigate cancer rates of the respective groups. III. Randomly select $100\\text{ children}$ who have cancer and another $100\\text{ children}$ who do not have cancer and compare where the children live.",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "I, II, and III."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

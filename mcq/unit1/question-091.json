@@ -1,17 +1,18 @@
 {
   "question_id": "question-091",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Outlier Effect",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A set of sample data follows a roughly symmetric distribution and contains no outliers.  If an extreme outlier is added to the data set, the median will not change much if at all.  The mean will be affected, however, and the value of the mean will either increase or decrease depending on the value of the outlier.  </div><div class=\"paragraph\">Which of the following bests explains why this happens?</div>",
+  "question_text": "A set of sample data follows a roughly symmetric distribution and contains no outliers.  If an extreme outlier is added to the data set, the median will not change much if at all.  The mean will be affected, however, and the value of the mean will either increase or decrease depending on the value of the outlier. Which of the following bests explains why this happens?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "When an extreme outlier is added, the distribution will become skewed causing the median to shift significantly. The mean will also shift, but not as much."
+      "text": "When an extreme outlier is added, the distribution will become skewed causing the median to shift significantly.  The mean will also shift, but not as much."
     },
     {
       "letter": "B",
-      "text": "The mean is more subject to a Type\nI\nError than the median."
+      "text": "The mean is more subject to a Type I I Error than the median."
     },
     {
       "letter": "C",
@@ -26,7 +27,7 @@
       "text": "The median is an unbiased estimator of the population, but the mean is not."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

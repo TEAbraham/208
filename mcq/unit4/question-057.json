@@ -1,8 +1,9 @@
 {
   "question_id": "question-057",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Online Shopping: Producing a Graph from a Table",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A marketing research firm is interested in whether men and women have similar habits related to shopping online.  To gather data, they surveyed a random sample of men and women and asked them to identify whether they shop online \"Often\", \"Sometimes\", or \"Rarely\".  The results of the survey are shown in the table below.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Men</th><th scope=\"col\">Women</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Often</td><td>29</td><td>48</td><td>77</td></tr><tr><td>Sometimes</td><td>32</td><td>40</td><td>72</td></tr><tr><td>Rarely</td><td>32</td><td>19</td><td>51</td></tr><tr><td>Total</td><td>93</td><td>107</td><td>200</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Which of the following graphs appropriately displays the conditional distribution of online shopping habits by gender?</div>",
+  "question_text": "A marketing research firm is interested in whether men and women have similar habits related to shopping online.  To gather data, they surveyed a random sample of men and women and asked them to identify whether they shop online \"Often\", \"Sometimes\", or \"Rarely\".  The results of the survey are shown in the table below. Men Women Total Often 29 48 77 Sometimes 32 40 72 Rarely 32 19 51 Total 93 107 200 Which of the following graphs appropriately displays the conditional distribution of online shopping habits by gender?",
   "image_files": [
     "images/question-057-img1.PNG",
     "images/question-057-img2.PNG",
@@ -32,7 +33,7 @@
       "text": "Created for Albert.io. Copyright 2016. All rights reserved."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

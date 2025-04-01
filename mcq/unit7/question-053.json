@@ -1,17 +1,18 @@
 {
   "question_id": "question-053",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Comparison: Which Distribution",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">When testing a sample against a set population mean, one should typically use</div>",
+  "question_text": "When testing a sample against a set population mean, one should typically use",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The standard normal\nZ\n-distribution."
+      "text": "The standard normal Z Z -distribution."
     },
     {
       "letter": "B",
-      "text": "The\nT\ndistribution."
+      "text": "The T T distribution."
     },
     {
       "letter": "C",
@@ -23,10 +24,10 @@
     },
     {
       "letter": "E",
-      "text": "The\nF\ndistribution."
+      "text": "The F F distribution."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

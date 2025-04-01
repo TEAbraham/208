@@ -1,32 +1,33 @@
 {
   "question_id": "question-102",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "LSRL Form",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Least squares regression lines have the form of</div>",
+  "question_text": "Least squares regression lines have the form of",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "y\n=\na\nx\n2\n+\nb\nx\n+\nc Define\nx\nand\ny\nas variables. Define\na\n,\nb\n, and\nc\nas constants."
+      "text": "y = a x 2 + b x + c y = a x 2 + b x + c Define x x and y y as variables.   Define a a , b b , and c c as constants."
     },
     {
       "letter": "B",
-      "text": "y\n=\na\n+\nb\nx Define\nx\nand\ny\nas variables. Define\na\nand\nb\nas constants."
+      "text": "y = a + b x y = a + b x Define x x and y y as variables.   Define a a and b b as constants."
     },
     {
       "letter": "C",
-      "text": "y\n=\na\nb\nx Define\nx\nand\ny\nas variables. Define\na\nand\nb\nas constants."
+      "text": "y = a b x y = a b x Define x x and y y as variables.   Define a a and b b as constants."
     },
     {
       "letter": "D",
-      "text": "y\n=\na\nx Define\nx\nand\ny\nas variables. Define\na\nas a constant."
+      "text": "y = a x y = a x Define x x and y y as variables.   Define a a as a constant."
     },
     {
       "letter": "E",
-      "text": "y\n=\na\n+\nb\n⋅\nlog\n(\nx\n) Define\nx\nand\ny\nas variables. Define\na\nand\nb\nas constants."
+      "text": "y = a + b ⋅ log ( x ) y = a + b ⋅ log ⁡ ( x ) Define x x and y y as variables.   Define a a and b b as constants."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

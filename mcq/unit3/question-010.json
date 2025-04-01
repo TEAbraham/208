@@ -1,8 +1,9 @@
 {
   "question_id": "question-010",
+  "unit": "Unit 3 | Collecting Data",
   "title": "Statistics Project",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Robert and Kaliyah are working together on their end of the school year Statistics project. They want to test texting speeds on two different types of cell phones to see which cell phone has the keyboard that allows for the greatest typing speed. The plan is to recruit <span class=\"tex2jax_process\">$60$</span> fellow students and split them into two groups and compare the results against each other. </div><div class=\"paragraph\">Robert's plan is to have the participants select the phone they would like to text on, while Kaliyah's plan is to randomly assign the students to a group. </div><div class=\"paragraph\">Whose plan will give the most trustworthy conclusion?</div>",
+  "question_text": "Robert and Kaliyah are working together on their end of the school year Statistics project. They want to test texting speeds on two different types of cell phones to see which cell phone has the keyboard that allows for the greatest typing speed. The plan is to recruit $60$ fellow students and split them into two groups and compare the results against each other. Robert's plan is to have the participants select the phone they would like to text on, while Kaliyah's plan is to randomly assign the students to a group. Whose plan will give the most trustworthy conclusion?",
   "image_files": [],
   "choices": [
     {
@@ -26,14 +27,9 @@
       "text": "Neither student's plan will result in trustworthy results."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer. ",
-  "solution": "When <strong>collecting data</strong> for an observational study or experiment, it is important to make sure the groups are even, or as even as possible. Allowing subjects to select their own groups will not allow the groups to have a good mix of skills. \n\nIn this case, Robert's plan allows subjects to select their own treatment, therefore his plan is untrustworthy. In fact, data collection without a chance process will most always result in untrustworthy results. Therefore, Kaliyah's plan will result in the most trustworthy results as her plan includes a chance process when she randomly assigns the subjects to their group. \n\n<strong>Choice 'C'</strong> is correct. ",
-  "distractor_explanations": {
-    "A": "<strong>Choice 'A'</strong> is incorrect. Allowing subjects to be comfortable will not compare the keyboards, but how fast the subjects are at their own preferred keyboard. ",
-    "B": "<strong>Choice 'B'</strong> is incorrect. In fact, the phone is the essence of the experiment and it does matter which phone the subject uses. ",
-    "D": "<strong>Choice 'D'</strong> is incorrect. Kaliyah does not know which phone's keyboard is the best, that is the point of the project. ",
-    "E": "<strong>Choice 'E'</strong> is incorrect. Although random assignment does not guarantee that the groups will be even and trustworthy, it is an important step to work towards even split of groups."
-  },
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "When collecting data for an observational study or experiment, it is important to make sure the groups are even, or as even as possible. Allowing subjects to select their own groups will not allow the groups to have a good mix of skills.\n\nIn this case, Robert's plan allows subjects to select their own treatment, therefore his plan is untrustworthy. In fact, data collection without a chance process will most always result in untrustworthy results. Therefore, Kaliyah's plan will result in the most trustworthy results as her plan includes a chance process when she randomly assigns the subjects to their group.\n\nChoice 'C' is correct.",
+  "distractor_explanations": {},
   "tags": [
     "VAR-1.E",
     "1.A",

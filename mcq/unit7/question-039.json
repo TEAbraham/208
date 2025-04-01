@@ -1,8 +1,9 @@
 {
   "question_id": "question-039",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Attendance Records",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A secretary at a local high school keeps track of the attendance records of all students at the high school.  </div><div class=\"paragraph\">The secretary randomly selects <span class=\"tex2jax_process\">$40\\text{ students}$</span> from the records and constructs a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval to estimate the average number of days students miss per year.  </div><div class=\"paragraph\">Why would it be incorrect for the secretary to construct a confidence interval for this data?</div>",
+  "question_text": "A secretary at a local high school keeps track of the attendance records of all students at the high school. The secretary randomly selects $40\\text{ students}$ from the records and constructs a $95\\%$ confidence interval to estimate the average number of days students miss per year. Why would it be incorrect for the secretary to construct a confidence interval for this data?",
   "image_files": [],
   "choices": [
     {
@@ -23,10 +24,10 @@
     },
     {
       "letter": "E",
-      "text": "It is impossible to find the critical\nT\n∗\nvalue for a problem such as this."
+      "text": "It is impossible to find the critical T ∗ T ∗ value for a problem such as this."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

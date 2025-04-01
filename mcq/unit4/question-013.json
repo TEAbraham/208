@@ -1,13 +1,14 @@
 {
   "question_id": "question-013",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Basic Probability",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Which of the following statements about probability is <strong>not</strong> true.</div>",
+  "question_text": "Which of the following statements about probability is not true.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "A probability is a number between\n0\nand\n1\n."
+      "text": "A probability is a number between 0 0 and 1 1 ."
     },
     {
       "letter": "B",
@@ -26,7 +27,7 @@
       "text": "Probability describes the proportion of times something occurs in the long run."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

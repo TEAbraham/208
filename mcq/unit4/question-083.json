@@ -1,32 +1,33 @@
 {
   "question_id": "question-083",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "You Need $\\$25$",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Disorganized Dave has a bunch of bills in his wallet in no particular order. He has one <span class=\"tex2jax_process\">$\\$20$</span> bill, two <span class=\"tex2jax_process\">$\\$10$</span> bills, three <span class=\"tex2jax_process\">$\\$5$</span> bills and four <span class=\"tex2jax_process\">$\\$1$</span> bills.  </div><div class=\"paragraph\">If he reaches into his wallet and randomly pulls out two bills, what is the probability that the value of the two bills totals <span class=\"tex2jax_process\">$\\$25$</span>?</div>",
+  "question_text": "Disorganized Dave has a bunch of bills in his wallet in no particular order. He has one $\\$20$ bill, two $\\$10$ bills, three $\\$5$ bills and four $\\$1$ bills. If he reaches into his wallet and randomly pulls out two bills, what is the probability that the value of the two bills totals $\\$25$ ?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "3\n100"
+      "text": "3 100 3 100"
     },
     {
       "letter": "B",
-      "text": "1\n30"
+      "text": "1 30 1 30"
     },
     {
       "letter": "C",
-      "text": "1\n15"
+      "text": "1 15 1 15"
     },
     {
       "letter": "D",
-      "text": "3\n10"
+      "text": "3 10 3 10"
     },
     {
       "letter": "E",
-      "text": "2\n5"
+      "text": "2 5 2 5"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

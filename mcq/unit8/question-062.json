@@ -1,13 +1,14 @@
 {
   "question_id": "question-062",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "The Correct Condition?",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">To go forward and do a chi-square test for homogeneity, certain conditions must be met.  Of the following <span class=\"tex2jax_process\">$5$</span> conditions, <span class=\"tex2jax_process\">$4$</span> are incorrect.  Which of the following <em>is</em> a correct condition for doing a chi-square test for homogeneity?</div>",
+  "question_text": "To go forward and do a chi-square test for homogeneity, certain conditions must be met.  Of the following $5$ conditions, $4$ are incorrect.  Which of the following is a correct condition for doing a chi-square test for homogeneity?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "All cell counts should be at least\n10\n."
+      "text": "All cell counts should be at least 10 10 ."
     },
     {
       "letter": "B",
@@ -15,18 +16,18 @@
     },
     {
       "letter": "C",
-      "text": "Check that the sample size is at least as big as\n10\n%\nof the population."
+      "text": "Check that the sample size is at least as big as 10 % 10 % of the population."
     },
     {
       "letter": "D",
-      "text": "The sample size should be greater than\n30\n."
+      "text": "The sample size should be greater than 30 30 ."
     },
     {
       "letter": "E",
       "text": "Data should be collected using a simple random sample."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

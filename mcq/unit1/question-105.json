@@ -1,13 +1,14 @@
 {
   "question_id": "question-105",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Mean vs Median in a Skewed Distribution: Buying Prices of Cars",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A graph (not shown) of the buying prices of cars at a local dealership reveals that the distribution is skewed to the right.  </div><div class=\"paragraph\">Which of the following statements below is TRUE?</div>",
+  "question_text": "A graph (not shown) of the buying prices of cars at a local dealership reveals that the distribution is skewed to the right. Which of the following statements below is TRUE?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The median is the average of the\n1\nst\nand\n3\nrd\nquartiles."
+      "text": "The median is the average of the 1 st 1 st and 3 rd 3 rd quartiles."
     },
     {
       "letter": "B",
@@ -15,18 +16,18 @@
     },
     {
       "letter": "C",
-      "text": "The value of the\n1\nst\nquartile minus the minimum is less than the maximum minus the\n3\nrd\nquartile."
+      "text": "The value of the 1 st 1 st quartile minus the minimum is less than the maximum minus the 3 rd 3 rd quartile."
     },
     {
       "letter": "D",
-      "text": "There are more buying prices between the\n1\nst\nquartile and the median than there are between the median and\n3\nrd\nquartile."
+      "text": "There are more buying prices between the 1 st 1 st quartile and the median than there are between the median and 3 rd 3 rd quartile."
     },
     {
       "letter": "E",
       "text": "There are more buying prices that are greater than the mean than buying prices that are less than the mean."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

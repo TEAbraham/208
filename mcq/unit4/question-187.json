@@ -1,32 +1,33 @@
 {
   "question_id": "question-187",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Coke vs Pepsi",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Years ago, Pepsi wanted to show it was more popular than Coke.</div><div class=\"paragraph\">So, Pepsi went around the country to various shopping centers giving people both colas to taste and tried to see if they knew the difference. Assuming that people do not know the difference (so <span class=\"tex2jax_process\">$p=0.5$</span>) if <span class=\"tex2jax_process\">$64$</span> people came by to take the test, and <span class=\"tex2jax_process\">$40$</span> seemed to know the difference, does this show it is likely true that people could tell the difference between Coke and Pepsi?  Say \"yes\" or \"no\" and explain why using appropriate calculations.</div>",
+  "question_text": "Years ago, Pepsi wanted to show it was more popular than Coke. So, Pepsi went around the country to various shopping centers giving people both colas to taste and tried to see if they knew the difference. Assuming that people do not know the difference (so $p=0.5$ ) if $64$ people came by to take the test, and $40$ seemed to know the difference, does this show it is likely true that people could tell the difference between Coke and Pepsi?  Say \"yes\" or \"no\" and explain why using appropriate calculations.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "No. With a mean of\n32\nand a standard deviation of\n16\n, we would expect to find\n16\nto\n48\npeople on average to taste the difference.\n40\nfalls within this range so it is likely they can not taste the difference."
+      "text": "No. With a mean of 32 32 and a standard deviation of 16 16 , we would expect to find 16 16 to 48 48 people on average to taste the difference. 40 40 falls within this range so it is likely they can not taste the difference."
     },
     {
       "letter": "B",
-      "text": "No. With a mean of\n32\nand a standard deviation of 4, we would expect to find\n28\nto\n36\npeople on average to taste the difference.\n40\njust is not that much higher and is not unusual so the people probably could not taste the difference."
+      "text": "No. With a mean of 32 32 and a standard deviation of 4, we would expect to find 28 28 to 36 36 people on average to taste the difference. 40 40 just is not that much higher and is not unusual so the people probably could no t taste the difference."
     },
     {
       "letter": "C",
-      "text": "Yes. With both the mean and the standard deviation equal to\n16\n, we would expect to find up to\n32\npeople on average who could taste the difference. Since\n40\nis higher than\n32\n, then it is likely that they can taste the difference."
+      "text": "Yes.  With both the mean and the standard deviation equal to 16 16 , we would expect to find up to 32 32 people on average who could taste the difference.  Since 40 40 is higher than 32 32 , then it is likely that they can taste the difference."
     },
     {
       "letter": "D",
-      "text": "Yes. With a mean of\n16\nand a standard deviation of\n4\n, we would expect to find up to\n20\npeople on average who could taste the difference.\n40\nis well above this so it is likely they can taste the difference."
+      "text": "Yes.  With a mean of 16 16 and a standard deviation of 4 4 , we would expect to find up to 20 20 people on average who could taste the difference. 40 40 is well above this so it is likely they can taste the difference."
     },
     {
       "letter": "E",
-      "text": "Yes. With a mean of\n32\nand a standard deviation of 4, we would expect to find\n28\nto\n36\npeople on average to taste the difference.\n40\nis\n2\nstandard deviations above\n32\nso it is likely they can taste the difference."
+      "text": "Yes. With a mean of 32 32 and a standard deviation of 4, we would expect to find 28 28 to 36 36 people on average to taste the difference. 40 40 is 2 2 standard deviations above 32 32 so it is likely they can taste the difference."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

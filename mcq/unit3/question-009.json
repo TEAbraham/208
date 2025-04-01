@@ -1,8 +1,9 @@
 {
   "question_id": "question-009",
+  "unit": "Unit 3 | Collecting Data",
   "title": "Blood Pressure Pills",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A doctor has developed a new pill to hopefully lower her patients blood pressure. She recruits <span class=\"tex2jax_process\">$30$</span> patients and prescribes them the new pill. The new patients are <u>not</u> told to keep their diet and exercise routine the same. </div><div class=\"paragraph\">Can the doctor be certain the pill helps lower blood pressure?</div>",
+  "question_text": "A doctor has developed a new pill to hopefully lower her patients blood pressure. She recruits $30$ patients and prescribes them the new pill. The new patients are not told to keep their diet and exercise routine the same. Can the doctor be certain the pill helps lower blood pressure?",
   "image_files": [],
   "choices": [
     {
@@ -26,14 +27,9 @@
       "text": "Yes, as she can compare person to person."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer. ",
-  "solution": "The doctor is putting together a study in order to <strong>collect data</strong> about her new weight loss pill. The hope is that after collecting the data, she would be able to make a conclusion with certainty about whether the pill helped lower blood pressure. \n\nBut, the doctor did not take into account the outside factors that might lower blood pressure that aren't her pill. Since she did not tell her patients to keep the rest of their lives the same, she cannot be sure whether he pill lowered the blood pressure, or the other factors. Therefore, we are unsure whether the data we collected is accurate. \n\n<strong>Choice 'B'</strong> is correct. ",
-  "distractor_explanations": {
-    "A": "<strong>Choice 'A'</strong> is incorrect. Even if people are not recruited randomly, with random assignment we can still run an experiment, but neither happened in this case. ",
-    "C": "<strong>Choice 'C'</strong> is incorrect. Although the doctor developed the pill, it still needs to be proven to help lower blood pressure through a study. ",
-    "D": "<strong>Choice 'D'</strong> is incorrect. As noted above, the doctor cannot be certain the blood pressure decrease is due to the pill or the outside factors. ",
-    "E": "<strong>Choice 'E'</strong> is incorrect. Since the <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7118-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>30</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-33433\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-33434\" class=\"mjx-mrow\"><span id=\"MJXc-Node-33435\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">30</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7118\">30</script></span> people we all prescribed the pill, she cannot compare the pill-takers to non pill-takers."
-  },
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "The doctor is putting together a study in order to collect data about her new weight loss pill. The hope is that after collecting the data, she would be able to make a conclusion with certainty about whether the pill helped lower blood pressure.\n\nBut, the doctor did not take into account the outside factors that might lower blood pressure that aren't her pill. Since she did not tell her patients to keep the rest of their lives the same, she cannot be sure whether he pill lowered the blood pressure, or the other factors. Therefore, we are unsure whether the data we collected is accurate.\n\nChoice 'B' is correct.",
+  "distractor_explanations": {},
   "tags": [
     "VAR-1.E",
     "1.A",

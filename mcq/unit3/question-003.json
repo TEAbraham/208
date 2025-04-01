@@ -1,32 +1,33 @@
 {
   "question_id": "question-003",
+  "unit": "Unit 3 | Collecting Data",
   "title": "Prime Time Wrestling: Sport or Drama, Two-Way Table",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Shane and Emma have been having a big disagreement.  Although they both watch Prime Time Wrestling, Emma believes it is all drama - basically a soap opera for men!  Shane says no way!  \"It's all sport\" he claims.  </div><div class=\"paragraph\">In order to investigate whether gender influences opinions, Shane and Emma conducted a survey of several randomly selected individuals who watch Prime  Time Wrestling.  Respondents were asked to choose between the following three options concerning their beliefs.    </div><div class=\"paragraph\"><span class=\"tex2jax_process\">$\\bullet$</span>  It's All Sport<br><span class=\"tex2jax_process\">$\\bullet$</span>  It's All Drama<br><span class=\"tex2jax_process\">$\\bullet$</span>  It's Part Sport, Part Drama  </div><div class=\"paragraph\">Responses was recorded separately for both men and women and are shown in the two-way table below.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">All Sport</th><th scope=\"col\">All Drama</th><th scope=\"col\">Part Sport, Part Drama</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Men</td><td>28</td><td>5</td><td>15</td><td>48</td></tr><tr><td>Women</td><td>17</td><td>10</td><td>14</td><td>41</td></tr><tr><td>Total</td><td>45</td><td>15</td><td>29</td><td>89</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Which of the following correctly identifies the explanatory and response variables in this study?</div>",
+  "question_text": "Shane and Emma have been having a big disagreement.  Although they both watch Prime Time Wrestling, Emma believes it is all drama - basically a soap opera for men!  Shane says no way!  \"It's all sport\" he claims. In order to investigate whether gender influences opinions, Shane and Emma conducted a survey of several randomly selected individuals who watch Prime  Time Wrestling.  Respondents were asked to choose between the following three options concerning their beliefs. ∙ It's All Sport ∙ It's All Drama ∙ It's Part Sport, Part Drama Responses was recorded separately for both men and women and are shown in the two-way table below. All Sport All Drama Part Sport, Part Drama Total Men 28 5 15 48 Women 17 10 14 41 Total 45 15 29 89 Which of the following correctly identifies the explanatory and response variables in this study?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Explanatory Variable: Opinion on Prime Time Wrestling\nResponse Variable: Gender"
+      "text": "Explanatory Variable:  Opinion on Prime Time Wrestling Response Variable:  Gender"
     },
     {
       "letter": "B",
-      "text": "Explanatory Variable: Gender\nResponse Variable: Opinion on Prime Time Wrestling"
+      "text": "Explanatory Variable:  Gender Response Variable:  Opinion on Prime Time Wrestling"
     },
     {
       "letter": "C",
-      "text": "Explanatory Variable: Male\nResponse Variable: Belief that Prime Time Wrestling is \"All Drama\""
+      "text": "Explanatory Variable:  Male Response Variable:  Belief that Prime Time Wrestling is \"All Drama\""
     },
     {
       "letter": "D",
-      "text": "Explanatory Variable: Female\nResponse Variable: Belief that Prime Time Wrestling is \"All Drama\""
+      "text": "Explanatory Variable:  Female Response Variable:  Belief that Prime Time Wrestling is \"All Drama\""
     },
     {
       "letter": "E",
       "text": "Since both variables of interest are categorical, either of the two variables could be considered the explanatory variable while the other variable would be considered the response variable."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

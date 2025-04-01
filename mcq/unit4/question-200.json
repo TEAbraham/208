@@ -1,32 +1,33 @@
 {
   "question_id": "question-200",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Variable of Interest: Car Color",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Suppose <span class=\"tex2jax_process\">$30\\%$</span> of all cars in a certain town are red.  </div><div class=\"paragraph\">If the variable of interest is the number of cars that drive by until a red car is seen, what is the center and shape of this distribution?</div>",
+  "question_text": "Suppose $30\\%$ of all cars in a certain town are red. If the variable of interest is the number of cars that drive by until a red car is seen, what is the center and shape of this distribution?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Center:\n3.33 Shape: approximately normal"
+      "text": "Center: 3.33 3.33 Shape: approximately normal"
     },
     {
       "letter": "B",
-      "text": "Center:\n3 Shape: approximately normal"
+      "text": "Center: 3 3 Shape: approximately normal"
     },
     {
       "letter": "C",
-      "text": "Center:\n3 Shape: right skewed"
+      "text": "Center: 3 3 Shape: right skewed"
     },
     {
       "letter": "D",
-      "text": "Center:\n3 Shape: normal"
+      "text": "Center: 3 3 Shape: normal"
     },
     {
       "letter": "E",
-      "text": "Center:\n3.33 Shape: right skewed"
+      "text": "Center: 3.33 3.33 Shape: right skewed"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

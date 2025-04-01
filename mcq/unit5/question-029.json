@@ -1,8 +1,9 @@
 {
   "question_id": "question-029",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Shape of the Graph",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">One hundred randomly selected dog owners were asked, “Do you walk your dog every day?”  </div><div class=\"paragraph\">Compare the distribution of samples of size <span class=\"tex2jax_process\">$100$</span> to samples of size <span class=\"tex2jax_process\">$1{,}000$</span>.  We are told the distribution of sample size <span class=\"tex2jax_process\">$100$</span> has a center of <span class=\"tex2jax_process\">$0.38$</span>.</div><div class=\"paragraph\">For distribution of samples of size <span class=\"tex2jax_process\">$n = 1000$</span>, the graph would</div>",
+  "question_text": "One hundred randomly selected dog owners were asked, “Do you walk your dog every day?” Compare the distribution of samples of size $100$ to samples of size $1{,}000$ .  We are told the distribution of sample size $100$ has a center of $0.38$ . For distribution of samples of size $n = 1000$ , the graph would",
   "image_files": [],
   "choices": [
     {
@@ -11,11 +12,11 @@
     },
     {
       "letter": "B",
-      "text": "Have less variability and a center greater than\n0.38\n."
+      "text": "Have less variability and a center greater than 0.38 0.38 ."
     },
     {
       "letter": "C",
-      "text": "Have the same shape but a center greater than\n0.38\n."
+      "text": "Have the same shape but a center greater than 0.38 0.38 ."
     },
     {
       "letter": "D",
@@ -23,10 +24,10 @@
     },
     {
       "letter": "E",
-      "text": "Have the same variability but a center greater than\n0.38\n."
+      "text": "Have the same variability but a center greater than 0.38 0.38 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

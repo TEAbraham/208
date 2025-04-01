@@ -1,8 +1,9 @@
 {
   "question_id": "question-185",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Back to Back Stemplots: Fantasy Defense",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">The following back to back stem and leaf plot represents the amount of fantasy football points scored by two teams, the Defenders and the PointMisers.  </div><div class=\"paragraph\">Which of the following statements is true?  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Stem</th><th scope=\"col\"></th></tr></thead><tbody><tr><td><u>PointMisers (0.1)</u></td><td><u>(1)</u></td><td><u>Defenders (0.1)</u></td></tr><tr><td>000</td><td>0</td><td>00</td></tr><tr><td>3</td><td>1</td><td>3</td></tr><tr><td>5</td><td>2</td><td>1</td></tr><tr><td>7</td><td>3</td><td>6</td></tr><tr><td>-</td><td>4</td><td>-</td></tr><tr><td>2</td><td>5</td><td>555</td></tr><tr><td>85</td><td>6</td><td>0</td></tr><tr><td>95</td><td>7</td><td>-</td></tr><tr><td>-</td><td>8</td><td>0</td></tr><tr><td>0</td><td>9</td><td>04</td></tr><tr><td>3</td><td>10</td><td>03</td></tr><tr><td>9</td><td>11</td><td>4</td></tr><tr><td>0</td><td>12</td><td>-</td></tr><tr><td>5</td><td>13</td><td>-</td></tr><tr><td>-</td><td>14</td><td>-</td></tr><tr><td>-</td><td>15</td><td>1</td></tr><tr><td>-</td><td>16</td><td>-</td></tr><tr><td>1</td><td>17</td><td>-</td></tr></tbody></table></div><div class=\"paragraph\">Key: 10|0=10.0</div>",
+  "question_text": "The following back to back stem and leaf plot represents the amount of fantasy football points scored by two teams, the Defenders and the PointMisers. Which of the following statements is true? Stem PointMisers (0.1) (1) Defenders (0.1) 000 0 00 3 1 3 5 2 1 7 3 6 - 4 - 2 5 555 85 6 0 95 7 - - 8 0 0 9 04 3 10 03 9 11 4 0 12 - 5 13 - - 14 - - 15 1 - 16 - 1 17 - Key: 10|0=10.0",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "Defenders have a greater mean and there is no mode for PointMisers."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

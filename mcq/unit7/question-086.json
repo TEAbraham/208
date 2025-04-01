@@ -1,32 +1,33 @@
 {
   "question_id": "question-086",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Interpreting $T$-Interval",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A television programmer at a local news station surveyed the last <span class=\"tex2jax_process\">$30$</span> weekday nights and recorded the number of viewers on the <span class=\"tex2jax_process\">$10$</span> p.m. news.  </div><div class=\"paragraph\">The programmer constructed a one-sample T-interval to find that there is somewhere between <span class=\"tex2jax_process\">$470{,}000$</span> to <span class=\"tex2jax_process\">$520{,}000\\text{ viewers}$</span> with <span class=\"tex2jax_process\">$95\\%$</span> confidence.  </div><div class=\"paragraph\">Which of the following statements could be valid interpretations of the interval?</div>",
+  "question_text": "A television programmer at a local news station surveyed the last $30$ weekday nights and recorded the number of viewers on the $10$ p.m. news. The programmer constructed a one-sample T-interval to find that there is somewhere between $470{,}000$ to $520{,}000\\text{ viewers}$ with $95\\%$ confidence. Which of the following statements could be valid interpretations of the interval?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "There is a\n2.5\n%\nprobability that more than\n520,000\n viewers\nwatch the weekday nightly news."
+      "text": "There is a 2.5 % 2.5 % probability that more than 520,000 viewers 520,000 viewers watch the weekday nightly news."
     },
     {
       "letter": "B",
-      "text": "There are most likely somewhere near\n500,000\n viewers\nwatching the weekday nightly news."
+      "text": "There are most likely somewhere near 500,000 viewers 500,000 viewers watching the weekday nightly news."
     },
     {
       "letter": "C",
-      "text": "There is a\n95\n%\nchance that between\n470,000\nand\n520,000\n viewers\nwatch the weekday nightly news on any given night."
+      "text": "There is a 95 % 95 % chance that between 470,000 470,000 and 520,000 viewers 520,000 viewers watch the weekday nightly news on any given night."
     },
     {
       "letter": "D",
-      "text": "About\n95\n%\nof nights, this network has between\n470,000\nand\n520,000\n viewers\nwatching the weekday nightly news."
+      "text": "About 95 % 95 % of nights, this network has between 470,000 470,000 and 520,000 viewers 520,000 viewers watching the weekday nightly news."
     },
     {
       "letter": "E",
-      "text": "In the long run,\n95\n%\nof people watch the weekday nightly news in this community."
+      "text": "In the long run, 95 % 95 % of people watch the weekday nightly news in this community."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

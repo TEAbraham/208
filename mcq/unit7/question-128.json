@@ -1,32 +1,33 @@
 {
   "question_id": "question-128",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Formula: Degrees of Freedom",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Determine the appropriate degrees of freedom on a two-sample <span class=\"tex2jax_process\">$T$</span>-test with samples of size <span class=\"tex2jax_process\">$25$</span> and <span class=\"tex2jax_process\">$17$</span>.</div>",
+  "question_text": "Determine the appropriate degrees of freedom on a two-sample $T$ -test with samples of size $25$ and $17$ .",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "16"
+      "text": "16 16"
     },
     {
       "letter": "B",
-      "text": "17"
+      "text": "17 17"
     },
     {
       "letter": "C",
-      "text": "24"
+      "text": "24 24"
     },
     {
       "letter": "D",
-      "text": "40"
+      "text": "40 40"
     },
     {
       "letter": "E",
-      "text": "42"
+      "text": "42 42"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

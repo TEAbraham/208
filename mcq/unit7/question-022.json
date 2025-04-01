@@ -1,32 +1,33 @@
 {
   "question_id": "question-022",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Graduation Gowns",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">College graduates purchase their gowns based on their height.  One graduation gown manufacturer measures a sample of graduates to see if it needs to increase its inventory in the taller sizes.  The average height in the random sample of customers was <span class=\"tex2jax_process\">$67\\text{ inches}$</span> with a standard deviation of <span class=\"tex2jax_process\">$4\\text{ inches}$</span>.  </div><div class=\"paragraph\">Which distribution should the manufacturer use to calculate a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for the average height of its customers?  Why?</div>",
+  "question_text": "College graduates purchase their gowns based on their height.  One graduation gown manufacturer measures a sample of graduates to see if it needs to increase its inventory in the taller sizes.  The average height in the random sample of customers was $67\\text{ inches}$ with a standard deviation of $4\\text{ inches}$ . Which distribution should the manufacturer use to calculate a $95\\%$ confidence interval for the average height of its customers?  Why?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The\nz\n-distribution should be used because the confidence interval is being constructed for a mean."
+      "text": "The z z -distribution should be used because the confidence interval is being constructed for a mean."
     },
     {
       "letter": "B",
-      "text": "The\nz\n-distribution should be used because the confidence interval is being constructed for a proportion."
+      "text": "The z z -distribution should be used because the confidence interval is being constructed for a proportion."
     },
     {
       "letter": "C",
-      "text": "The\nt\n-distribution should be used because the confidence interval is being constructed for a mean."
+      "text": "The t t -distribution should be used because the confidence interval is being constructed for a mean."
     },
     {
       "letter": "D",
-      "text": "The\nt\n-distribution should be used because the confidence interval is being constructed for a proportion."
+      "text": "The t t -distribution should be used because the confidence interval is being constructed for a proportion."
     },
     {
       "letter": "E",
       "text": "The chi-square distribution should be used because the confidence interval is being constructed for a proportion."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

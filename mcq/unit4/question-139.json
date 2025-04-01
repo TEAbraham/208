@@ -1,32 +1,33 @@
 {
   "question_id": "question-139",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "First-Class Letter Delivery: Mean and Standard Deviation of $Z$",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">The U.S. Postal Service recently released data on the number of days it takes for a first-class letter to reach its destination, as shown in the table below.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">x</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th></tr></thead><tbody><tr><td>p(X)</td><td>0.42</td><td>0.27</td><td>0.3</td><td>0.01</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Two first-class letters are randomly selected from all letters mailed on a given day. Let Z be the sum of the number of days it takes for the two letters to reach their respective destinations.  </div><div class=\"paragraph\">What are the mean and standard deviation of the random variable Z?</div>",
+  "question_text": "The U.S. Postal Service recently released data on the number of days it takes for a first-class letter to reach its destination, as shown in the table below. x 1 2 3 4 p(X) 0.42 0.27 0.3 0.01 Two first-class letters are randomly selected from all letters mailed on a given day. Let Z be the sum of the number of days it takes for the two letters to reach their respective destinations. What are the mean and standard deviation of the random variable Z?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "μ\n=\n1.9\n;\nσ\n=\n1.22"
+      "text": "μ = 1.9 ; σ = 1.22 μ = 1.9 ; σ = 1.22"
     },
     {
       "letter": "B",
-      "text": "μ\n=\n1.9\n;\nσ\n=\n1.5"
+      "text": "μ = 1.9 ; σ = 1.5 μ = 1.9 ; σ = 1.5"
     },
     {
       "letter": "C",
-      "text": "μ\n=\n3.8\n;\nσ\n=\n0.75"
+      "text": "μ = 3.8 ; σ = 0.75 μ = 3.8 ; σ = 0.75"
     },
     {
       "letter": "D",
-      "text": "μ\n=\n3.8\n;\nσ\n=\n1.22"
+      "text": "μ = 3.8 ; σ = 1.22 μ = 3.8 ; σ = 1.22"
     },
     {
       "letter": "E",
-      "text": "μ\n=\n3.8\n;\nσ\n=\n1.5"
+      "text": "μ = 3.8 ; σ = 1.5 μ = 3.8 ; σ = 1.5"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

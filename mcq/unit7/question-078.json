@@ -1,8 +1,9 @@
 {
   "question_id": "question-078",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "P-value of a 1-sided Test Given t-test",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A significance test was performed to test <span class=\"tex2jax_process\">${ H }_{ 0 }:\\mu =18$</span> versus the alternative <span class=\"tex2jax_process\">${ H }_{ a }:\\mu &gt; 18$</span>.   Data from a random sample of size <span class=\"tex2jax_process\">$30$</span> makes a normal distribution and produces a test statistic of <span class=\"tex2jax_process\">$t = 1.734$</span>.  </div><div class=\"paragraph\">Which of the following intervals contains the P-value for this test?</div>",
+  "question_text": "A significance test was performed to test ${ H }_{ 0 }:\\mu =18$ versus the alternative ${ H }_{ a }:\\mu > 18$ .   Data from a random sample of size $30$ makes a normal distribution and produces a test statistic of $t = 1.734$ . Which of the following intervals contains the P-value for this test?",
   "image_files": [
     "images/question-078-img1.PNG",
     "images/question-078-img2.PNG"
@@ -10,26 +11,26 @@
   "choices": [
     {
       "letter": "A",
-      "text": "0.01\n<\nP\n<\n0.02"
+      "text": "0.01 < P < 0.02 0.01 < P < 0.02"
     },
     {
       "letter": "B",
-      "text": "0.02\n<\nP\n<\n0.025"
+      "text": "0.02 < P < 0.025 0.02 < P < 0.025"
     },
     {
       "letter": "C",
-      "text": "0.025\n<\nP\n<\n0.05"
+      "text": "0.025 < P < 0.05 0.025 < P < 0.05"
     },
     {
       "letter": "D",
-      "text": "0.05\n<\nP\n<\n0.10"
+      "text": "0.05 < P < 0.10 0.05 < P < 0.10"
     },
     {
       "letter": "E",
-      "text": "0.10\n<\nP\n<\n0.05"
+      "text": "0.10 < P < 0.05 0.10 < P < 0.05"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

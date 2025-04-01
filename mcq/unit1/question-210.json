@@ -1,32 +1,33 @@
 {
   "question_id": "question-210",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Z-score: How Fast Are You?",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Students in an AP Statistics class wanted to measure how fast, in miles per hour, they could throw a tennis ball into the wall.  A student had a standardized score of <span class=\"tex2jax_process\">$1.2$</span>.  </div><div class=\"paragraph\">If the units were changed from miles per hour to feet per second, what would be the new standardized score?</div>",
+  "question_text": "Students in an AP Statistics class wanted to measure how fast, in miles per hour, they could throw a tennis ball into the wall.  A student had a standardized score of $1.2$ . If the units were changed from miles per hour to feet per second, what would be the new standardized score?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "−\n1.2"
+      "text": "− 1.2 − 1.2"
     },
     {
       "letter": "B",
-      "text": "−\n1.76"
+      "text": "− 1.76 − 1.76"
     },
     {
       "letter": "C",
-      "text": "0"
+      "text": "0 0"
     },
     {
       "letter": "D",
-      "text": "1.76"
+      "text": "1.76 1.76"
     },
     {
       "letter": "E",
-      "text": "1.2"
+      "text": "1.2 1.2"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

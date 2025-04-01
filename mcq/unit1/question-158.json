@@ -1,8 +1,9 @@
 {
   "question_id": "question-158",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Fitness Tracker: Determining Shape from a 5-Number Summary",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">For several months now, Wally has been using a fitness tracker to keep track of how many steps he takes each day.  From data that he has collected, he calculated the <span class=\"tex2jax_process\">$5$</span>-number summary to be:    </div><div class=\"paragraph\"><span class=\"tex2jax_process\">$\\text{Min}:  3190$</span><br><span class=\"tex2jax_process\">$\\text{Q1}:  6423$</span><br><span class=\"tex2jax_process\">$\\text{Med}:  7807$</span><br><span class=\"tex2jax_process\">$\\text{Q3}:  9672$</span><br><span class=\"tex2jax_process\">$\\text{Max}:  17210$</span>  </div><div class=\"paragraph\">Wally wants to make a boxplot so that he can determine the shape of the distribution.  Unfortunately, he walked <span class=\"tex2jax_process\">$17210$</span> steps today and is too tired to create the boxplot!  Wanda tells Wally not to worry.  She can determine the shape of the distribution from the <span class=\"tex2jax_process\">$5$</span>-number summary using all the data available.</div><div class=\"paragraph\">What would Wanda tell Wally?</div>",
+  "question_text": "For several months now, Wally has been using a fitness tracker to keep track of how many steps he takes each day.  From data that he has collected, he calculated the $5$ -number summary to be: $\\text{Min}:  3190$ $\\text{Q1}:  6423$ $\\text{Med}:  7807$ $\\text{Q3}:  9672$ $\\text{Max}:  17210$ Wally wants to make a boxplot so that he can determine the shape of the distribution.  Unfortunately, he walked $17210$ steps today and is too tired to create the boxplot!  Wanda tells Wally not to worry.  She can determine the shape of the distribution from the $5$ -number summary using all the data available. What would Wanda tell Wally?",
   "image_files": [
     "images/question-158-img1.PNG"
   ],
@@ -13,7 +14,7 @@
     },
     {
       "letter": "B",
-      "text": "The distribution is roughly symmetric, but not near normal.."
+      "text": "The distribution  is roughly symmetric, but not near normal.."
     },
     {
       "letter": "C",
@@ -25,10 +26,10 @@
     },
     {
       "letter": "E",
-      "text": "A\n5\n-number summary can never determine the shape of the distribution ."
+      "text": "A 5 5 -number summary can never determine the shape of the distribution ."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

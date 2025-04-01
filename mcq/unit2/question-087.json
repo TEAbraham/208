@@ -1,8 +1,9 @@
 {
   "question_id": "question-087",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Statements on Residuals",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Which of the following statements is/are true concerning residuals?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> The sum of the residuals must be equal to zero.  </div><div class=\"paragraph\"><strong>II. </strong> The average of the residuals must be equal to zero.  </div><div class=\"paragraph\"><strong>III.</strong> Residuals represent the horizontal distance between the observation and the prediction from the least squares regression line.    </div></blockquote>",
+  "question_text": "Which of the following statements is/are true concerning residuals? I. The sum of the residuals must be equal to zero. II. The average of the residuals must be equal to zero. III. Residuals represent the horizontal distance between the observation and the prediction from the least squares regression line.",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "I and III."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,13 +1,14 @@
 {
   "question_id": "question-126",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Violating a Two-Sample $T$ Procedure",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A hotel manager wishes to compare the number of guests she has per night to the number of guests per night at the other hotel in town.  </div><div class=\"paragraph\">The manager records the number of guests staying per night during the last <span class=\"tex2jax_process\">$4\\text{ weeks}$</span> at her hotel and compares them to numbers for the last <span class=\"tex2jax_process\">$4\\text{ weeks}$</span> at her competitor’s hotel.  </div><div class=\"paragraph\">If the manager wishes to perform a two-sample <span class=\"tex2jax_process\">$T$</span> procedure, what is a potential condition that could be in violation of the <span class=\"tex2jax_process\">$T$</span> procedure?</div>",
+  "question_text": "A hotel manager wishes to compare the number of guests she has per night to the number of guests per night at the other hotel in town. The manager records the number of guests staying per night during the last $4\\text{ weeks}$ at her hotel and compares them to numbers for the last $4\\text{ weeks}$ at her competitor’s hotel. If the manager wishes to perform a two-sample $T$ procedure, what is a potential condition that could be in violation of the $T$ procedure?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Sample sizes of\n4\nare too small to assume normality."
+      "text": "Sample sizes of 4 4 are too small to assume normality."
     },
     {
       "letter": "B",
@@ -15,7 +16,7 @@
     },
     {
       "letter": "C",
-      "text": "In this situation,\nn\np\nand\nn\n(\n1\n−\np\n)\nwould not be at least\n10\n, where\nn\nis\n4\nand\np\n=\n0.5\n."
+      "text": "In this situation, n p n p and n ( 1 − p ) n ( 1 − p ) would not be at least 10 10 , where n n is 4 4 and p = 0.5 p = 0.5 ."
     },
     {
       "letter": "D",
@@ -26,7 +27,7 @@
       "text": "There appear to be no conditions violated."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

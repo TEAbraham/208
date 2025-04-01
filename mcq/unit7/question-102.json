@@ -1,32 +1,33 @@
 {
   "question_id": "question-102",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Type of Interval to Use: Gender and Distance from Home",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A student at Tolland High School wondered if boys or girls at her school traveled a greater distance to college. The student randomly selected <span class=\"tex2jax_process\">$50\\text{ boys}$</span> and <span class=\"tex2jax_process\">$50\\text{ girls}$</span> and found the distance each boy and girl travels to college.  </div><div class=\"paragraph\">What type of interval should the student use to compute the difference in the average distances between how far boys and girls from Tolland High School travel to college?</div>",
+  "question_text": "A student at Tolland High School wondered if boys or girls at her school traveled a greater distance to college. The student randomly selected $50\\text{ boys}$ and $50\\text{ girls}$ and found the distance each boy and girl travels to college. What type of interval should the student use to compute the difference in the average distances between how far boys and girls from Tolland High School travel to college?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Paired\nz\n-interval for means."
+      "text": "Paired z z -interval for means."
     },
     {
       "letter": "B",
-      "text": "Paired\nt\n-interval for means."
+      "text": "Paired t t -interval for means."
     },
     {
       "letter": "C",
-      "text": "Two sample\nz\n-interval for means."
+      "text": "Two sample z z -interval for means."
     },
     {
       "letter": "D",
-      "text": "Two sample\nt\n-interval for means."
+      "text": "Two sample t t -interval for means."
     },
     {
       "letter": "E",
-      "text": "Two proportion\nz\n-interval."
+      "text": "Two proportion z z -interval."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-025",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Expected Value: Coin Flips",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Suppose a fair coin is flipped <span class=\"tex2jax_process\">$1{,}000$</span> times.  </div><div class=\"paragraph\">Of the <span class=\"tex2jax_process\">$1{,}000\\text{ trials}$</span>, <span class=\"tex2jax_process\">$505$</span> were heads and <span class=\"tex2jax_process\">$495$</span> were tails.  </div><div class=\"paragraph\">If this same coin was flipped <span class=\"tex2jax_process\">$1{,}000$</span> more times, how many heads would be expected?  </div>",
+  "question_text": "Suppose a fair coin is flipped $1{,}000$ times. Of the $1{,}000\\text{ trials}$ , $505$ were heads and $495$ were tails. If this same coin was flipped $1{,}000$ more times, how many heads would be expected?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "495"
+      "text": "495 495"
     },
     {
       "letter": "B",
-      "text": "505"
+      "text": "505 505"
     },
     {
       "letter": "C",
-      "text": "500"
+      "text": "500 500"
     },
     {
       "letter": "D",
-      "text": "502"
+      "text": "502 502"
     },
     {
       "letter": "E",
-      "text": "498"
+      "text": "498 498"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

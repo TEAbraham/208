@@ -1,32 +1,35 @@
 {
   "question_id": "question-162",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Probability of Combining Two Normal Independent Variables",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A farm  stand sells apples and tomatoes as well as other fruits and vegetables  The distributions for the weights of the apples and tomatoes are each approximately normal.  The mean weight of an apple is <span class=\"tex2jax_process\">$4.68$</span> ounces with a standard deviation of <span class=\"tex2jax_process\">$0.20$</span> ounces.  The mean weight of a tomato is <span class=\"tex2jax_process\">$4.19$</span> ounces with a standard deviation of <span class=\"tex2jax_process\">$0.18$</span> ounces.  </div><div class=\"paragraph\">What is the probability when you randomly select one tomato and one apple that the tomato will weigh more than the apple?</div>",
-  "image_files": [],
+  "question_text": "A farm  stand sells apples and tomatoes as well as other fruits and vegetables  The distributions for the weights of the apples and tomatoes are each approximately normal.  The mean weight of an apple is $4.68$ ounces with a standard deviation of $0.20$ ounces.  The mean weight of a tomato is $4.19$ ounces with a standard deviation of $0.18$ ounces. What is the probability when you randomly select one tomato and one apple that the tomato will weigh more than the apple?",
+  "image_files": [
+    "images/question-162-img1.PNG"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "0.007"
+      "text": "0.007 0.007"
     },
     {
       "letter": "B",
-      "text": "0.034"
+      "text": "0.034 0.034"
     },
     {
       "letter": "C",
-      "text": "0.966"
+      "text": "0.966 0.966"
     },
     {
       "letter": "D",
-      "text": "0.993"
+      "text": "0.993 0.993"
     },
     {
       "letter": "E",
-      "text": "1"
+      "text": "1 1"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-014",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Numbering People",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">You want to find out how often you would end up with a group of <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-8102-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>5</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-36844\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-36845\" class=\"mjx-mrow\"><span id=\"MJXc-Node-36846\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">5</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-8102\">5</script></span> men and <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-8103-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>5</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-36847\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-36848\" class=\"mjx-mrow\"><span id=\"MJXc-Node-36849\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">5</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-8103\">5</script></span> women if you were picking a group of <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-8104-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>10</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-36850\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-36851\" class=\"mjx-mrow\"><span id=\"MJXc-Node-36852\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">10</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-8104\">10</script></span> people out of a group of <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-8105-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>350</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-36853\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-36854\" class=\"mjx-mrow\"><span id=\"MJXc-Node-36855\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">350</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>350</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-8105\">350</script></span> men and <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-8106-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>400</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-36856\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-36857\" class=\"mjx-mrow\"><span id=\"MJXc-Node-36858\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">400</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>400</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-8106\">400</script></span> women.  Using a random number table you would choose <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-8107-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>10</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-36859\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-36860\" class=\"mjx-mrow\"><span id=\"MJXc-Node-36861\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">10</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-8107\">10</script></span> people at a time over and over to make this estimate using simulation.  How would the people be numbered?</div>",
+  "question_text": "You want to find out how often you would end up with a group of $5$ men and $5$ women if you were picking a group of $10$ people out of a group of $350$ men and $400$ women.  Using a random number table you would choose $10$ people at a time over and over to make this estimate using simulation.  How would the people be numbered?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Let\n001\n-\n350\nbe men and\n351\n-\n751\nbe women. Skip\n000\nand\n752\n−\n999\n."
+      "text": "Let 001 001 - 350 350 be men and 351 351 - 751 751 be women. Skip 000 000 and 752 − 999 752 − 999 ."
     },
     {
       "letter": "B",
-      "text": "Let\n001\n-\n350\nbe men and\n351\n-\n750\nbe women. Skip\n751\n−\n999\n."
+      "text": "Let 001 001 - 350 350 be men and 351 351 - 750 750 be women. Skip 751 − 999 751 − 999 ."
     },
     {
       "letter": "C",
-      "text": "Let\n000\n-\n349\nbe men and\n350\n-\n749\nbe women. Skip\n750\n−\n999\n."
+      "text": "Let 000 000 - 349 349 be men and 350 350 - 749 749 be women. Skip 750 − 999 750 − 999 ."
     },
     {
       "letter": "D",
-      "text": "Let\n000\n-\n349\nbe men and\n350\n-\n749\nbe women."
+      "text": "Let 000 000 - 349 349 be men and 350 350 - 749 749 be women."
     },
     {
       "letter": "E",
-      "text": "Let\n000\n-\n350\nbe men and\n351\n-\n750\nbe women. Skip\n751\n−\n999\n."
+      "text": "Let 000 000 - 350 350 be men and 351 351 - 750 750 be women. Skip 751 − 999 751 − 999 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

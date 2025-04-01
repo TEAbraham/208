@@ -1,32 +1,33 @@
 {
   "question_id": "question-075",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Random Number Generator",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Suppose a random number generator chooses <span class=\"tex2jax_process\">$30$</span> numbers between <span class=\"tex2jax_process\">$1$</span> and <span class=\"tex2jax_process\">$10$</span>. The generator then takes the average of those numbers selected.  </div><div class=\"paragraph\">If this process is repeated <span class=\"tex2jax_process\">$100$</span> times, the distribution will be</div>",
+  "question_text": "Suppose a random number generator chooses $30$ numbers between $1$ and $10$ . The generator then takes the average of those numbers selected. If this process is repeated $100$ times, the distribution will be",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Approximately normal with a mean of\n5.5\n."
+      "text": "Approximately normal with a mean of 5.5 5.5 ."
     },
     {
       "letter": "B",
-      "text": "Exactly normal with a mean of\n5.5\n."
+      "text": "Exactly normal with a mean of 5.5 5.5 ."
     },
     {
       "letter": "C",
-      "text": "Uniform with a mean of\n5.5\n."
+      "text": "Uniform with a mean of 5.5 5.5 ."
     },
     {
       "letter": "D",
-      "text": "Uniform with a mean of\n110\n."
+      "text": "Uniform with a mean of 110 110 ."
     },
     {
       "letter": "E",
-      "text": "Right-skewed with a mean of\n110\n."
+      "text": "Right-skewed with a mean of 110 110 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

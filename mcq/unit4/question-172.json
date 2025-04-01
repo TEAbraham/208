@@ -1,8 +1,9 @@
 {
   "question_id": "question-172",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Binomial Distribution: Shape of a Binomial Distribution",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">What does the shape of a binomial distribution with <span class=\"tex2jax_process\">$n=10$</span> and <span class=\"tex2jax_process\">$p=0.20$</span> look like?</div>",
+  "question_text": "What does the shape of a binomial distribution with $n=10$ and $p=0.20$ look like?",
   "image_files": [
     "images/question-172-img1.pdf",
     "images/question-172-img2.pdf"
@@ -29,7 +30,7 @@
       "text": "Normal."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

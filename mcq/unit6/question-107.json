@@ -1,32 +1,33 @@
 {
   "question_id": "question-107",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "A Salty Question",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A spice company was curious as to whether people preferred using salt or pepper.  This company sold to many stores on both coasts. The company asked whether sales were higher for salt or pepper in <span class=\"tex2jax_process\">$50$</span> randomly selected stores on the West Coast and another <span class=\"tex2jax_process\">$50$</span> on the East Coast.  On the West Coast, <span class=\"tex2jax_process\">$30$</span> stores said that more salt was sold and on the East Coast, <span class=\"tex2jax_process\">$18$</span> stores said that more salt was sold.  Which would be the correct conclusion for a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval?</div>",
+  "question_text": "A spice company was curious as to whether people preferred using salt or pepper.  This company sold to many stores on both coasts. The company asked whether sales were higher for salt or pepper in $50$ randomly selected stores on the West Coast and another $50$ on the East Coast.  On the West Coast, $30$ stores said that more salt was sold and on the East Coast, $18$ stores said that more salt was sold.  Which would be the correct conclusion for a $95\\%$ confidence interval?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "We are\n95\n%\nconfident that the interval from\n0.05\nto\n0.43\ncaptures the true difference in the proportions of salt preference shown by store sales of the West Coast over the East Coast."
+      "text": "We are 95 % 95 % confident that the interval from 0.05 0.05 to 0.43 0.43 captures the true difference in the proportions of salt preference shown by store sales of the West Coast over the East Coast."
     },
     {
       "letter": "B",
-      "text": "We are\n95\n%\nconfident that the interval from\n0.14\nto\n0.34\ncaptures the true difference in the proportions of salt preference shown by store sales of the West Coast over the East Coast."
+      "text": "We are 95 % 95 % confident that the interval from 0.14 0.14 to 0.34 0.34 captures the true difference in the proportions of salt preference shown by store sales of the West Coast over the East Coast."
     },
     {
       "letter": "C",
-      "text": "We are\n95\n%\nconfident that the interval from\n0.08\nto\n0.40\ncaptures the true difference in the proportions of salt preference shown by store sales of the West Coast over the East Coast."
+      "text": "We are 95 % 95 % confident that the interval from 0.08 0.08 to 0.40 0.40 captures the true difference in the proportions of salt preference shown by store sales of the West Coast over the East Coast."
     },
     {
       "letter": "D",
-      "text": "We are\n95\n%\nconfident that the probability that West Coast stores sell more salt is between\n0.05\nto\n0.43\n."
+      "text": "We are 95 % 95 % confident that the probability that West Coast stores sell more salt is between 0.05 0.05 to 0.43 0.43 ."
     },
     {
       "letter": "E",
-      "text": "We are\n95\n%\nconfident that the probability that West Coast stores sell more salt is between\n0.14\nto\n0.34\n."
+      "text": "We are 95 % 95 % confident that the probability that West Coast stores sell more salt is between 0.14 0.14 to 0.34 0.34 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

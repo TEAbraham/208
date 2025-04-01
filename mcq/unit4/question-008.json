@@ -1,13 +1,14 @@
 {
   "question_id": "question-008",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "All Boys and Girls",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Pete is doing an experiment at his research facility. He gets <span class=\"tex2jax_process\">$50$</span> volunteers to be a part of the study, <span class=\"tex2jax_process\">$25$</span> males and <span class=\"tex2jax_process\">$25$</span> females. He will flip a coin to randomly assign the treatments to the subjects. When he randomly assigned the subjects to the treatments, group <span class=\"tex2jax_process\">$1$</span> contained all <span class=\"tex2jax_process\">$25$</span> males, while group <span class=\"tex2jax_process\">$2$</span> contained all <span class=\"tex2jax_process\">$25$</span> females. </div><div class=\"paragraph\">Pete believes his coin must be defective. Is Pete correct?</div>",
+  "question_text": "Pete is doing an experiment at his research facility. He gets $50$ volunteers to be a part of the study, $25$ males and $25$ females. He will flip a coin to randomly assign the treatments to the subjects. When he randomly assigned the subjects to the treatments, group $1$ contained all $25$ males, while group $2$ contained all $25$ females. Pete believes his coin must be defective. Is Pete correct?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Yes, there's a\n0\n%\nchance all males and females would be in separate groups."
+      "text": "Yes, there's a 0 % 0 % chance all males and females would be in separate groups."
     },
     {
       "letter": "B",
@@ -23,17 +24,12 @@
     },
     {
       "letter": "E",
-      "text": "No, since it's a\n50\n−\n50\nsplit, we would expect all males in one group and all females in the other."
+      "text": "No, since it's a 50 − 50 50 − 50 split, we would expect all males in one group and all females in the other."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer. ",
-  "solution": "When introducing statistics, it is important to examine <strong>random</strong> and <strong>non-random</strong> patterns. Patterns in data will help us answer questions about a set of data. Even when data seems to be random or non-random, the presence of a pattern does not imply a random or non-random pattern. \n\nEven though the groups ended up being all males and all females, since the researcher used a chance process, the groups are still considered to be random. Albeit a small probability, but using a chance process can still lead to non-random looking groups. \n\n<strong>Choice 'D'</strong> is correct. ",
-  "distractor_explanations": {
-    "A": "<strong>Choice 'A'</strong> is incorrect. There is a non-zero probability of getting all males and all females in the groups, even if it's very small. ",
-    "B": "<strong>Choice 'B'</strong> is incorrect. Although very slim, there does exist a probability of getting no males and no females in the groups, so we are not guaranteed one gender in each group. ",
-    "C": "<strong>Choice 'C'</strong> is incorrect. Although a coin is two-sided, it does not guarantee that each group will have half male and half female. ",
-    "E": "<strong>Choice 'E'</strong> is incorrect.  Even though a coin is a <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-8057-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>50</mn><mo>&amp;#x2212;</mo><mn>50</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-36694\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-36695\" class=\"mjx-mrow\"><span id=\"MJXc-Node-36696\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">50</span></span><span id=\"MJXc-Node-36697\" class=\"mjx-mo MJXc-space2\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.277em; padding-bottom: 0.441em;\">−</span></span><span id=\"MJXc-Node-36698\" class=\"mjx-mn MJXc-space2\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">50</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>−</mo><mn>50</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-8057\">50-50</script></span> chance process, this simply means that each subject has a <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-8058-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>50</mn><mo>&amp;#x2212;</mo><mn>50</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-36699\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-36700\" class=\"mjx-mrow\"><span id=\"MJXc-Node-36701\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">50</span></span><span id=\"MJXc-Node-36702\" class=\"mjx-mo MJXc-space2\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.277em; padding-bottom: 0.441em;\">−</span></span><span id=\"MJXc-Node-36703\" class=\"mjx-mn MJXc-space2\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">50</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>−</mo><mn>50</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-8058\">50-50</script></span> chance to be assigned to each treatment."
-  },
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "When introducing statistics, it is important to examine random and non-random patterns. Patterns in data will help us answer questions about a set of data. Even when data seems to be random or non-random, the presence of a pattern does not imply a random or non-random pattern.\n\nEven though the groups ended up being all males and all females, since the researcher used a chance process, the groups are still considered to be random. Albeit a small probability, but using a chance process can still lead to non-random looking groups.\n\nChoice 'D' is correct.",
+  "distractor_explanations": {},
   "tags": [
     "VAR-1.F",
     "VAR-1.F.1",

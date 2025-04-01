@@ -1,21 +1,22 @@
 {
   "question_id": "question-128",
+  "unit": "Unit 3 | Collecting Data",
   "title": "Tennis Racket Strings",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A high school tennis coach wonders if she can improve her team's performance by replacing the nylon strings on the tennis rackets with polyester strings.  The <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7535-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>26</mn><mtext>&amp;#xA0;tennis players</mtext></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-34896\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-34897\" class=\"mjx-mrow\"><span id=\"MJXc-Node-34898\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">26</span></span><span id=\"MJXc-Node-34899\" class=\"mjx-mtext\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.551em;\">&nbsp;tennis players</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>26</mn><mtext>&nbsp;tennis players</mtext></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7535\">26\\text{ tennis players}</script></span> will be randomly assigned to two groups - one group's rackets will get nylon strings and the other group's rackets will get polyester strings.  </div><div class=\"paragraph\">Each player will serve a tennis ball <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7536-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>35</mn><mtext>&amp;#xA0;times</mtext></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-34900\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-34901\" class=\"mjx-mrow\"><span id=\"MJXc-Node-34902\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">35</span></span><span id=\"MJXc-Node-34903\" class=\"mjx-mtext\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.332em;\">&nbsp;times</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>35</mn><mtext>&nbsp;times</mtext></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7536\">35\\text{ times}</script></span>.  For each player, the coach will record the proportion of serves that land in the service box and the average speed of the serves.  </div><div class=\"paragraph\">Which of the following statements is FALSE?</div>",
+  "question_text": "A high school tennis coach wonders if she can improve her team's performance by replacing the nylon strings on the tennis rackets with polyester strings.  The $26\\text{ tennis players}$ will be randomly assigned to two groups - one group's rackets will get nylon strings and the other group's rackets will get polyester strings. Each player will serve a tennis ball $35\\text{ times}$ .  For each player, the coach will record the proportion of serves that land in the service box and the average speed of the serves. Which of the following statements is FALSE?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The treatments are the\n35\n serves\neach player attempts."
+      "text": "The treatments are the 35 serves 35 serves each player attempts."
     },
     {
       "letter": "B",
-      "text": "The experimental units are the\n26\n tennis players\n."
+      "text": "The experimental units are the 26 tennis players 26 tennis players ."
     },
     {
       "letter": "C",
-      "text": "There is replication in this study design because there are\n13\n tennis\nplayers using each type of racket."
+      "text": "There is replication in this study design because there are 13 tennis 13 tennis players using each type of racket."
     },
     {
       "letter": "D",
@@ -26,7 +27,7 @@
       "text": "Because the players were randomly assigned to the two groups, it is unlikely that one group will include all of the best players on the team."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

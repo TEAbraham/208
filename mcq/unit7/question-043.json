@@ -1,32 +1,33 @@
 {
   "question_id": "question-043",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Confidence Level and $2$-sided Significance Testing",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A one sample <span class=\"tex2jax_process\">$t$</span>-test for was used to conduct a test of the null hypotheses:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$${ H }_{ 0 }:\\mu =23.7$$</div><br><div class=\"tex2jax_process\">$${ H }_{ a }:\\mu \\neq 23.7$$</div>  </div><div class=\"paragraph\">The <span class=\"tex2jax_process\">$p$</span>-value was <span class=\"tex2jax_process\">$0.034$</span>. A confidence interval for *<span class=\"tex2jax_process\">$\\mu$</span> * is to be constructed.  </div><div class=\"paragraph\">Of the following, which is the largest level of confidence for which the confidence interval will <em>NOT</em> contain <span class=\"tex2jax_process\">$23.7$</span>?</div>",
+  "question_text": "A one sample $t$ -test for was used to conduct a test of the null hypotheses: $${ H }_{ 0 }:\\mu =23.7$$ $${ H }_{ a }:\\mu \\neq 23.7$$ The $p$ -value was $0.034$ . A confidence interval for * $\\mu$ * is to be constructed. Of the following, which is the largest level of confidence for which the confidence interval will NOT contain $23.7$ ?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "90\n%"
+      "text": "90 % 90 %"
     },
     {
       "letter": "B",
-      "text": "95\n%"
+      "text": "95 % 95 %"
     },
     {
       "letter": "C",
-      "text": "96\n%"
+      "text": "96 % 96 %"
     },
     {
       "letter": "D",
-      "text": "97\n%"
+      "text": "97 % 97 %"
     },
     {
       "letter": "E",
-      "text": "99\n%"
+      "text": "99 % 99 %"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

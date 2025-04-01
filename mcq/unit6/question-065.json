@@ -1,8 +1,9 @@
 {
   "question_id": "question-065",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "P-value of a 1-sided Test When Given the z-score",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A significance test was used to test the null hypothesis <span class=\"tex2jax_process\">${ H }_{ 0 }$</span>: <span class=\"tex2jax_process\">$p =0.34$</span> versus the alternative <span class=\"tex2jax_process\">${ H }_{ a }$</span>: <span class=\"tex2jax_process\">$p &lt;0.34$</span>.  The resulting test statistic is <span class=\"tex2jax_process\">$z=-0.83$</span>.  </div><div class=\"paragraph\">The <span class=\"tex2jax_process\">$P$</span>-value for this test is approximately:</div>",
+  "question_text": "A significance test was used to test the null hypothesis ${ H }_{ 0 }$ : $p =0.34$ versus the alternative ${ H }_{ a }$ : $p <0.34$ .  The resulting test statistic is $z=-0.83$ . The $P$ -value for this test is approximately:",
   "image_files": [
     "images/question-065-img1.PNG",
     "images/question-065-img2.PNG"
@@ -10,26 +11,26 @@
   "choices": [
     {
       "letter": "A",
-      "text": "0.2033"
+      "text": "0.2033 0.2033"
     },
     {
       "letter": "B",
-      "text": "0.3520"
+      "text": "0.3520 0.3520"
     },
     {
       "letter": "C",
-      "text": "0.4066"
+      "text": "0.4066 0.4066"
     },
     {
       "letter": "D",
-      "text": "0.7040"
+      "text": "0.7040 0.7040"
     },
     {
       "letter": "E",
-      "text": "0.7967"
+      "text": "0.7967 0.7967"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

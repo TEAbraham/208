@@ -1,8 +1,9 @@
 {
   "question_id": "question-129",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Conditions for Two-sample T Procedures",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Which of the following statements is/are true regarding the following problem?  </div><div class=\"paragraph\">Two-sample <span class=\"tex2jax_process\">$T$</span> procedures can only be used if</div><blockquote><div class=\"paragraph\"><strong>I.</strong> The samples are two independent SRSs.<br><strong>II.</strong> The sampling distribution of the difference is approximately normal.<br><strong>III.</strong> The sample sizes are each at least <span class=\"tex2jax_process\">$30$</span>.    </div></blockquote>",
+  "question_text": "Which of the following statements is/are true regarding the following problem? Two-sample $T$ procedures can only be used if I. The samples are two independent SRSs. II. The sampling distribution of the difference is approximately normal. III. The sample sizes are each at least $30$ .",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "II and III only."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

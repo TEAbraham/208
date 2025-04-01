@@ -1,13 +1,14 @@
 {
   "question_id": "question-010",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Who Is Better and Why?",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Mike and Ava decided to see who is better at the online game \"Squashing Sweets\".  They each played three games.  Mike's scores were <span class=\"tex2jax_process\">$85, 122, \\text{and } 117$</span>.  Ava's scores were <span class=\"tex2jax_process\">$107, 116,  \\text{and } 101$</span>.</div><div class=\"paragraph\">Who is the better player - Mike or Ava?  Also, what information gives you confidence in your conclusion?</div>",
+  "question_text": "Mike and Ava decided to see who is better at the online game \"Squashing Sweets\".  They each played three games.  Mike's scores were $85, 122, \\text{and } 117$ .  Ava's scores were $107, 116,  \\text{and } 101$ . Who is the better player - Mike or Ava?  Also, what information gives you confidence in your conclusion?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Ava is the better player since her scores are consistently above\n100\npoints."
+      "text": "Ava is the better player since her scores are consistently above 100 100 points."
     },
     {
       "letter": "B",
@@ -15,7 +16,7 @@
     },
     {
       "letter": "C",
-      "text": "Mike is the better player. Although he had one bad game, two of his three scores were higher than two of Ava's three scores."
+      "text": "Mike is the better player.  Although he had one bad game, two of his three scores were higher than two of Ava's three scores."
     },
     {
       "letter": "D",
@@ -26,7 +27,7 @@
       "text": "There is not enough information to determine who is the better player, because the results from these three games may be simply due to chance."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

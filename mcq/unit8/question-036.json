@@ -1,32 +1,33 @@
 {
   "question_id": "question-036",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Plant Manager | 2 of 2",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A plant manager wants to see if there are different proportions of defective items among the four machines at her automotive plant.  </div><div class=\"paragraph\">She randomly selects <span class=\"tex2jax_process\">$100$</span> automobile parts from each of the four machines, as shown in the table below:\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Machine</th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th></tr></thead><tbody><tr><td>Number of Defective Parts</td><td>58</td><td>61</td><td>51</td><td>54</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Suppose a fifth machine, E, was added and had <span class=\"tex2jax_process\">$57$</span> defective parts out of <span class=\"tex2jax_process\">$100$</span> randomly tested.  </div><div class=\"paragraph\">This added data will:</div>",
+  "question_text": "A plant manager wants to see if there are different proportions of defective items among the four machines at her automotive plant. She randomly selects $100$ automobile parts from each of the four machines, as shown in the table below: Machine A B C D Number of Defective Parts 58 61 51 54 Suppose a fifth machine, E, was added and had $57$ defective parts out of $100$ randomly tested. This added data will:",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Increase the\np\n-value."
+      "text": "Increase the p p -value."
     },
     {
       "letter": "B",
-      "text": "Decrease the\np\n-value."
+      "text": "Decrease the p p -value."
     },
     {
       "letter": "C",
-      "text": "Not necessarily change the\np\n-value."
+      "text": "Not necessarily change the p p -value."
     },
     {
       "letter": "D",
-      "text": "Change the\np\n-value somehow, but it is not obvious how exactly."
+      "text": "Change the p p -value somehow, but it is not obvious how exactly."
     },
     {
       "letter": "E",
       "text": "Unable to determine."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

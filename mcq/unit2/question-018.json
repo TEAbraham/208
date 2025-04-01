@@ -1,8 +1,9 @@
 {
   "question_id": "question-018",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "School Start Time Survey: A Mosaic Plot",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Parents of students at Morningtown High School have raised concerns that the school start time is too early.  To investigate opinions on the matter, the Board of Education surveyed students and staff at the high school and asked the question:  \"Would you be in favor of a later starting time for the high school?\"  Results are shown in the mosaic plot below.</div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div>\n<div class=\"paragraph\">Which of the following statements cannot be justified from the mosaic plot?</div>",
+  "question_text": "Parents of students at Morningtown High School have raised concerns that the school start time is too early.  To investigate opinions on the matter, the Board of Education surveyed students and staff at the high school and asked the question:  \"Would you be in favor of a later starting time for the high school?\"  Results are shown in the mosaic plot below. Which of the following statements cannot be justified from the mosaic plot?",
   "image_files": [
     "images/question-018-img1.png",
     "images/question-018-img2.png",
@@ -32,7 +33,7 @@
       "text": "A greater percentage of students said \"Yes\" than did staff."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

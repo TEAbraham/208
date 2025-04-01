@@ -1,32 +1,33 @@
 {
   "question_id": "question-040",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Can You Pick it?",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Of the <span class=\"tex2jax_process\">$5$</span> probability problems listed below, <span class=\"tex2jax_process\">$4$</span> of the probabilities are <strong>not</strong> mutually exclusive.</div><div class=\"paragraph\">Which one <strong>is</strong> mutually exclusive?</div>",
+  "question_text": "Of the $5$ probability problems listed below, $4$ of the probabilities are not mutually exclusive. Which one is mutually exclusive?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "From a school population: Find the probability of picking a male or a senior."
+      "text": "From a school population:   Find the probability of picking a male or a senior."
     },
     {
       "letter": "B",
-      "text": "From a school population: Find the probability of picking a student taking Statistics or a student taking Band."
+      "text": "From a school population:  Find the probability of picking a student taking Statistics or a student taking Band."
     },
     {
       "letter": "C",
-      "text": "For coins: When flipping\n3\ncoins, find the probability of flipping\n2\nheads or\n1\ntail."
+      "text": "For coins:   When flipping 3 3 coins, find the probability of flipping 2 2 heads or 1 1 tail."
     },
     {
       "letter": "D",
-      "text": "From a random number table: Find the probability of selecting an odd one-digit number or a\n6\nor an\n8\n."
+      "text": "From a random number table:   Find the probability of selecting an odd one-digit number or a 6 6 or an 8 8 ."
     },
     {
       "letter": "E",
-      "text": "From a random number table: Find the probability of selecting an odd two-digit number or a\n27\nor a multiple of\n3\n."
+      "text": "From a random number table:   Find the probability of selecting an odd two-digit number or a 27 27 or a multiple of 3 3 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

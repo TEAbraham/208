@@ -1,8 +1,9 @@
 {
   "question_id": "question-041",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Conditions for Two-Way Tables",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Which of the following statements is/are true concerning conditions for chi-squared procedures involving two-way tables?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> Data must come from a random sample or random samples.  </div><div class=\"paragraph\"><strong>II.</strong> Expected counts must all be greater than <span class=\"tex2jax_process\">$1$</span>, and no more than <span class=\"tex2jax_process\">$20\\%$</span> of expected counts can be less than <span class=\"tex2jax_process\">$5$</span>.  </div><div class=\"paragraph\"><strong>III.</strong> <span class=\"tex2jax_process\">$np$</span> and <span class=\"tex2jax_process\">$n(1-p)$</span> must both be greater than <span class=\"tex2jax_process\">$5$</span> where <span class=\"tex2jax_process\">$n$</span> is the number of trials and <span class=\"tex2jax_process\">$p$</span> is the proportion of successes.    </div></blockquote>",
+  "question_text": "Which of the following statements is/are true concerning conditions for chi-squared procedures involving two-way tables? I. Data must come from a random sample or random samples. II. Expected counts must all be greater than $1$ , and no more than $20\\%$ of expected counts can be less than $5$ . III. $np$ and $n(1-p)$ must both be greater than $5$ where $n$ is the number of trials and $p$ is the proportion of successes.",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "II and III only."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

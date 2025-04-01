@@ -1,8 +1,9 @@
 {
   "question_id": "question-040",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Find the Error",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A pharmaceutical company was testing a new drug.  It wanted to show that a higher dose of the drug would result in patients having fewer headaches.  Thirty-two patients were to be randomly selected from a group of headache sufferers from several medical practices in a large city.  Four different dosages of the drug would be administered and the number of headaches would be counted over a period of time.  Data was carefully documented and residuals were examined. A <span class=\"tex2jax_process\">$t$</span>-test was to be done using the following hypotheses:</div><div class=\"paragraph\"><span class=\"tex2jax_process\">$H_{0}: \\beta=0$</span></div><div class=\"paragraph\"><span class=\"tex2jax_process\">$H_{a}: \\beta\\neq0$</span></div><div class=\"paragraph\">Something is wrong here.  What is incorrect?</div>",
+  "question_text": "A pharmaceutical company was testing a new drug.  It wanted to show that a higher dose of the drug would result in patients having fewer headaches.  Thirty-two patients were to be randomly selected from a group of headache sufferers from several medical practices in a large city.  Four different dosages of the drug would be administered and the number of headaches would be counted over a period of time.  Data was carefully documented and residuals were examined. A $t$ -test was to be done using the following hypotheses: $H_{0}: \\beta=0$ $H_{a}: \\beta\\neq0$ Something is wrong here.  What is incorrect?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "The alternative hypothesis should have a less than sign."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

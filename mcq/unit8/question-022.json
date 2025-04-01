@@ -1,32 +1,33 @@
 {
   "question_id": "question-022",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Projected 2022 Employment by Industry Sector",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">The Bureau of Labor Statistics publishes information on the distribution of employment by major industry sector. In December 2013, they also published their predictions for the year 2022. These predictions are shown in the table below.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Industry Sector</th><th scope=\"col\">Percent Distribution</th></tr></thead><tbody><tr><td>Services-providing</td><td>80.9</td></tr><tr><td>Goods-producing, excluding agriculture</td><td>12.1</td></tr><tr><td>Non-agriculture self-employed and unpaid family worker</td><td>5.8</td></tr><tr><td>Agriculture, forestry, fishing, and hunting</td><td>1.2</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>A researcher wants to investigate whether these predictions may already be true and has decided to do a study.  </div><div class=\"paragraph\">Assuming the appropriate conditions for inference have been met, what type of test and how many degrees of freedom should be used in analyzing the results?</div>",
+  "question_text": "The Bureau of Labor Statistics publishes information on the distribution of employment by major industry sector. In December 2013, they also published their predictions for the year 2022. These predictions are shown in the table below. Industry Sector Percent Distribution Services-providing 80.9 Goods-producing, excluding agriculture 12.1 Non-agriculture self-employed and unpaid family worker 5.8 Agriculture, forestry, fishing, and hunting 1.2 A researcher wants to investigate whether these predictions may already be true and has decided to do a study. Assuming the appropriate conditions for inference have been met, what type of test and how many degrees of freedom should be used in analyzing the results?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "χ\n2\nGoodness of Fit Test with\nd\nf\n=\n2"
+      "text": "χ 2 χ 2 Goodness of Fit Test with d f = 2 d f = 2"
     },
     {
       "letter": "B",
-      "text": "χ\n2\nGoodness of Fit Test with\nd\nf\n=\n3"
+      "text": "χ 2 χ 2 Goodness of Fit Test with d f = 3 d f = 3"
     },
     {
       "letter": "C",
-      "text": "χ\n2\nGoodness of Fit Test with\nd\nf\n=\n4"
+      "text": "χ 2 χ 2 Goodness of Fit Test with d f = 4 d f = 4"
     },
     {
       "letter": "D",
-      "text": "A one-sample\nz\n-test for proportions with\nd\nf\n=\n3"
+      "text": "A one-sample z z -test for proportions with d f = 3 d f = 3"
     },
     {
       "letter": "E",
-      "text": "A one-sample\nz\n-test for proportions should be used. However, there is no need to use degrees of freedom with a\nz\n-test."
+      "text": "A one-sample z z -test for proportions should be used. However, there is no need to use degrees of freedom with a z z -test."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

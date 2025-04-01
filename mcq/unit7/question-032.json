@@ -1,32 +1,33 @@
 {
   "question_id": "question-032",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Music Store",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A music store owner was curious about the number of customers his store gets per day.  </div><div class=\"paragraph\">He samples the next <span class=\"tex2jax_process\">$25\\text{ days}$</span> and finds an average of <span class=\"tex2jax_process\">$65.5$</span> customers with a standard deviation of <span class=\"tex2jax_process\">$11.3$</span> customers.  </div><div class=\"paragraph\">Assuming these <span class=\"tex2jax_process\">$25\\text{ days}$</span> represent a random sample of all days, a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for this data would be</div>",
+  "question_text": "A music store owner was curious about the number of customers his store gets per day. He samples the next $25\\text{ days}$ and finds an average of $65.5$ customers with a standard deviation of $11.3$ customers. Assuming these $25\\text{ days}$ represent a random sample of all days, a $95\\%$ confidence interval for this data would be",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "11.3\n±\n1.96\n⋅\n(\n65.5\n25\n)"
+      "text": "11.3 ± 1.96 ⋅ ( 65.5 25 ) 11.3 ± 1.96 ⋅ ( 65.5 25 )"
     },
     {
       "letter": "B",
-      "text": "65.5\n±\n1.96\n⋅\n(\n11.3\n25\n)"
+      "text": "65.5 ± 1.96 ⋅ ( 11.3 25 ) 65.5 ± 1.96 ⋅ ( 11.3 25 )"
     },
     {
       "letter": "C",
-      "text": "65.5\n±\n1.96\n⋅\n(\n11.3\n5\n)"
+      "text": "65.5 ± 1.96 ⋅ ( 11.3 5 ) 65.5 ± 1.96 ⋅ ( 11.3 5 )"
     },
     {
       "letter": "D",
-      "text": "65.5\n±\n2.064\n⋅\n(\n11.3\n5\n)"
+      "text": "65.5 ± 2.064 ⋅ ( 11.3 5 ) 65.5 ± 2.064 ⋅ ( 11.3 5 )"
     },
     {
       "letter": "E",
-      "text": "65.5\n±\n2.06\n⋅\n(\n11.3\n5\n)"
+      "text": "65.5 ± 2.06 ⋅ ( 11.3 5 ) 65.5 ± 2.06 ⋅ ( 11.3 5 )"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

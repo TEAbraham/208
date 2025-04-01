@@ -1,32 +1,33 @@
 {
   "question_id": "question-009",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "College Grads?",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">The town of Adams boasts that <span class=\"tex2jax_process\">$76\\%$</span> of its adult residents have college degrees.  The nearby town of Bates says that its rate is <span class=\"tex2jax_process\">$77\\%$</span>.  A journalist decides to randomly sample the same number of adult residents in each town to see which town has more college graduates.  Which of the numbers below is the <em>minimum</em> number of adults to be sampled in each town which will give an accurate result (so the sampling distribution of the difference of sample proportions will be approximately normal)?</div>",
+  "question_text": "The town of Adams boasts that $76\\%$ of its adult residents have college degrees.  The nearby town of Bates says that its rate is $77\\%$ .  A journalist decides to randomly sample the same number of adult residents in each town to see which town has more college graduates.  Which of the numbers below is the minimum number of adults to be sampled in each town which will give an accurate result (so the sampling distribution of the difference of sample proportions will be approximately normal)?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "13"
+      "text": "13 13"
     },
     {
       "letter": "B",
-      "text": "14"
+      "text": "14 14"
     },
     {
       "letter": "C",
-      "text": "42"
+      "text": "42 42"
     },
     {
       "letter": "D",
-      "text": "44"
+      "text": "44 44"
     },
     {
       "letter": "E",
-      "text": "50"
+      "text": "50 50"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

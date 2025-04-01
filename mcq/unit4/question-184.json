@@ -1,32 +1,33 @@
 {
   "question_id": "question-184",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Six-Sided Dice Rolls",
   "difficulty": "Easy",
-  "question_text": "\n<div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Number on Die</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th><th scope=\"col\">6</th></tr></thead><tbody><tr><td>Frequency</td><td>9</td><td>17</td><td>12</td><td>10</td><td>9</td><td>15</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>A fair six-sided die is rolled <span class=\"tex2jax_process\">$72\\text{ times}$</span>. The distribution of numbers facing up on the dice is in the table above.  </div><div class=\"paragraph\">If the die is rolled another <span class=\"tex2jax_process\">$72\\text{ times}$</span>, how many instances of <span class=\"tex2jax_process\">$2$</span> would you expect?</div>",
+  "question_text": "Number on Die 1 2 3 4 5 6 Frequency 9 17 12 10 9 15 A fair six-sided die is rolled $72\\text{ times}$ . The distribution of numbers facing up on the dice is in the table above. If the die is rolled another $72\\text{ times}$ , how many instances of $2$ would you expect?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "10"
+      "text": "10 10"
     },
     {
       "letter": "B",
-      "text": "4"
+      "text": "4 4"
     },
     {
       "letter": "C",
-      "text": "12"
+      "text": "12 12"
     },
     {
       "letter": "D",
-      "text": "7"
+      "text": "7 7"
     },
     {
       "letter": "E",
-      "text": "17"
+      "text": "17 17"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-040",
+  "unit": "Unit 3 | Collecting Data",
   "title": "Student Random Sample",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Suppose the student council at a large high school wants to measure student approval of school leadership using a simple random sample of size <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-25682\"><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-25683\">n</span><span class=\"MJXp-mo\" id=\"MJXp-Span-25684\" style=\"margin-left: 0.333em; margin-right: 0.333em;\">=</span><span class=\"MJXp-mn\" id=\"MJXp-Span-25685\">100</span></span></span><script type=\"math/tex\" id=\"MathJax-Element-7265\">n = 100</script></span>.  </div><div class=\"paragraph\">What would be the best way to select these students?</div>",
+  "question_text": "Suppose the student council at a large high school wants to measure student approval of school leadership using a simple random sample of size $n = 100$ . What would be the best way to select these students?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Go to the cafeteria during lunch and select\n5\nstudents at each table until the sample size is\n100\n."
+      "text": "Go to the cafeteria during lunch and select 5 5 students at each table until the sample size is 100 100 ."
     },
     {
       "letter": "B",
-      "text": "Since\n100\nstudents are currently enrolled in AP Statistics in this school, sample those\n100\nstudents."
+      "text": "Since 100 100 students are currently enrolled in AP Statistics in this school, sample those 100 100 students."
     },
     {
       "letter": "C",
-      "text": "Obtain a list of all students from the registrar and assign a number to each, then use a random number generator to select\n100\nstudents."
+      "text": "Obtain a list of all students from the registrar and assign a number to each, then use a random number generator to select 100 100 students."
     },
     {
       "letter": "D",
-      "text": "Since government is a required daily course, survey all the students in the government classes during one school day until\nn\n=\n100\n."
+      "text": "Since government is a required daily course, survey all the students in the government classes during one school day until n = 100 n = 100 ."
     },
     {
       "letter": "E",
-      "text": "Have each of the\n10\nmembers of the student council ask\n10\nof their friends, telling the members try to ask different types of people."
+      "text": "Have each of the 10 10 members of the student council ask 10 10 of their friends, telling the members try to ask different types of people."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

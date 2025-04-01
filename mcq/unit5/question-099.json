@@ -1,8 +1,9 @@
 {
   "question_id": "question-099",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "News Stories Distribution",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A TV broadcaster is deciding on news stories for the 10 PM evening news.  </div><div class=\"paragraph\">The network strives to make sure that stories cover an equal representation of four news topics: education, crime/police activity, community, and national news.  </div><div class=\"paragraph\">Over the last year, the network covered a total of <span class=\"tex2jax_process\">$980\\text{ stories}$</span>, <span class=\"tex2jax_process\">$204$</span> of which focused on national news.  </div><div class=\"paragraph\">Utilizing sample proportions, is this statistically significant evidence that the network covered fewer national news stories than it should have last year?</div>",
+  "question_text": "A TV broadcaster is deciding on news stories for the 10 PM evening news. The network strives to make sure that stories cover an equal representation of four news topics: education, crime/police activity, community, and national news. Over the last year, the network covered a total of $980\\text{ stories}$ , $204$ of which focused on national news. Utilizing sample proportions, is this statistically significant evidence that the network covered fewer national news stories than it should have last year?",
   "image_files": [],
   "choices": [
     {
@@ -11,22 +12,22 @@
     },
     {
       "letter": "B",
-      "text": "Yes, since\n204\nis less than\nn\np\n=\n980\n⋅\n0.25\n=\n245\n."
+      "text": "Yes, since 204 204 is less than n p = 980 ⋅ 0.25 = 245 n p = 980 ⋅ 0.25 = 245 ."
     },
     {
       "letter": "C",
-      "text": "Yes, since the result of\n204\nout of\n980\nis more than three standard deviations away from the mean."
+      "text": "Yes, since the result of 204 204 out of 980 980 is more than three standard deviations away from the mean."
     },
     {
       "letter": "D",
-      "text": "No, since\n204\n980\n=\n20.8\n%\n, which is within\n5\n%\nof the targeted goal."
+      "text": "No, since 204 980 = 20.8 % 204 980 = 20.8 % , which is within 5 % 5 % of the targeted goal."
     },
     {
       "letter": "E",
       "text": "Unable to tell as conditions are not met."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

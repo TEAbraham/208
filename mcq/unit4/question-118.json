@@ -1,32 +1,33 @@
 {
   "question_id": "question-118",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "First-Class Letter Delivery",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">The U.S. Postal Service recently released data on the number of days it takes for a first-class letter to reach its destination, as shown in the table below.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">x</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th></tr></thead><tbody><tr><td>p(X)</td><td>0.42</td><td>0.27</td><td>0.3</td><td>0.01</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>What are the mean and standard deviation for the number of days it takes for a first-class letter to reach its destination?</div>",
+  "question_text": "The U.S. Postal Service recently released data on the number of days it takes for a first-class letter to reach its destination, as shown in the table below. x 1 2 3 4 p(X) 0.42 0.27 0.3 0.01 What are the mean and standard deviation for the number of days it takes for a first-class letter to reach its destination?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "μ\n=\n1.9\n;\nσ\n=\n0.75"
+      "text": "μ = 1.9 ; σ = 0.75 μ = 1.9 ; σ = 0.75"
     },
     {
       "letter": "B",
-      "text": "μ\n=\n1.9\n;\nσ\n=\n0.87"
+      "text": "μ = 1.9 ; σ = 0.87 μ = 1.9 ; σ = 0.87"
     },
     {
       "letter": "C",
-      "text": "μ\n=\n2\n;\nσ\n=\n1"
+      "text": "μ = 2 ; σ = 1 μ = 2 ; σ = 1"
     },
     {
       "letter": "D",
-      "text": "μ\n=\n2\n;\nσ\n=\n1.5"
+      "text": "μ = 2 ; σ = 1.5 μ = 2 ; σ = 1.5"
     },
     {
       "letter": "E",
-      "text": "μ\n=\n2.5\n;\nσ\n=\n1"
+      "text": "μ = 2.5 ; σ = 1 μ = 2.5 ; σ = 1"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

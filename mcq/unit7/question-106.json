@@ -1,32 +1,33 @@
 {
   "question_id": "question-106",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Size of the Samples",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A research firm was trying to decide how large or small its samples should be when constructing confidence intervals for clients.  Suppose it was taking samples of two independent means and it chose these sample sizes:  <span class=\"tex2jax_process\">$n_{1}=42$</span> and <span class=\"tex2jax_process\">$n_{2}=52$</span>.  For this research the firm wanted to increase the width of the interval as much as possible by changing these sample sizes.  Choose the answer below which would achieve the greatest increase in the width of the confidence interval.</div>",
+  "question_text": "A research firm was trying to decide how large or small its samples should be when constructing confidence intervals for clients.  Suppose it was taking samples of two independent means and it chose these sample sizes: $n_{1}=42$ and $n_{2}=52$ .  For this research the firm wanted to increase the width of the interval as much as possible by changing these sample sizes.  Choose the answer below which would achieve the greatest increase in the width of the confidence interval.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "n\n1\n=\n32\nand\nn\n2\n=\n42"
+      "text": "n 1 = 32 n 1 = 32 and n 2 = 42 n 2 = 42"
     },
     {
       "letter": "B",
-      "text": "n\n1\n=\n37\nand\nn\n2\n=\n47"
+      "text": "n 1 = 37 n 1 = 37 and n 2 = 47 n 2 = 47"
     },
     {
       "letter": "C",
-      "text": "n\n1\n=\n52\nand\nn\n2\n=\n52"
+      "text": "n 1 = 52 n 1 = 52 and n 2 = 52 n 2 = 52"
     },
     {
       "letter": "D",
-      "text": "n\n1\n=\n48\nand\nn\n2\n=\n48"
+      "text": "n 1 = 48 n 1 = 48 and n 2 = 48 n 2 = 48"
     },
     {
       "letter": "E",
-      "text": "n\n1\n=\n52\nand\nn\n2\n=\n62"
+      "text": "n 1 = 52 n 1 = 52 and n 2 = 62 n 2 = 62"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

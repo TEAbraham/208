@@ -1,32 +1,33 @@
 {
   "question_id": "question-098",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Smoking Habits | 2 of 2",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Last week, a random sample of size <span class=\"tex2jax_process\">$300$</span> found that <span class=\"tex2jax_process\">$31\\%$</span> of people smoke cigarettes on a weekly basis. This compares to <span class=\"tex2jax_process\">$35\\%$</span> nationally.  </div><div class=\"paragraph\">Suppose the sample was increased to <span class=\"tex2jax_process\">$3{,}000$</span> people.  </div><div class=\"paragraph\">To be as unlikely as the <span class=\"tex2jax_process\">$31\\%$</span> sample proportion found for a sample of size <span class=\"tex2jax_process\">$n=300$</span>, how much below the population proportion of <span class=\"tex2jax_process\">$35\\%$</span> must the sample of <span class=\"tex2jax_process\">$n=3{,}000$</span> be?</div>",
+  "question_text": "Last week, a random sample of size $300$ found that $31\\%$ of people smoke cigarettes on a weekly basis. This compares to $35\\%$ nationally. Suppose the sample was increased to $3{,}000$ people. To be as unlikely as the $31\\%$ sample proportion found for a sample of size $n=300$ , how much below the population proportion of $35\\%$ must the sample of $n=3{,}000$ be?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "4\n%"
+      "text": "4 % 4 %"
     },
     {
       "letter": "B",
-      "text": "4\n%\n10\n=\n2.5\n%"
+      "text": "4 % 10 = 2.5 % 4 % 10 = 2.5 %"
     },
     {
       "letter": "C",
-      "text": "0.4\n%"
+      "text": "0.4 % 0.4 %"
     },
     {
       "letter": "D",
-      "text": "1.263\n%"
+      "text": "1.263 % 1.263 %"
     },
     {
       "letter": "E",
-      "text": "0.15\n%\naccording to the\n68\n−\n95\n−\n99.7\nrule."
+      "text": "0.15 % 0.15 % according to the 68 − 95 − 99.7 68 − 95 − 99.7 rule."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

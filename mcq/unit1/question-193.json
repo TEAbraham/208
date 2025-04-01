@@ -1,8 +1,9 @@
 {
   "question_id": "question-193",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Shot in the Dark",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Basketball Scores Dot Net records the results of every game in the National Basketball Association history. List X contains the amount of points scored by each winning team and list Y contains the amount of points scored by each losing team (assume that there are no ties in the NBA).  </div><div class=\"paragraph\">Which of the following MUST be true about X and Y?</div>",
+  "question_text": "Basketball Scores Dot Net records the results of every game in the National Basketball Association history. List X contains the amount of points scored by each winning team and list Y contains the amount of points scored by each losing team (assume that there are no ties in the NBA). Which of the following MUST be true about X and Y?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "The maximum of X is greater than the maximum of Y and the range of X is greater than the range of Y."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

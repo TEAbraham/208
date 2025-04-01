@@ -1,34 +1,35 @@
 {
   "question_id": "question-058",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Annual Sales Forecast",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">The manager of a large supermarket chain would like to forecast annual sales for his stores based on selling space.  </div><div class=\"paragraph\">The Square Footage (<span class=\"tex2jax_process\">$x$</span>) and the Annual Sales (<span class=\"tex2jax_process\">$y$</span>) are as follows:  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Store</th><th scope=\"col\">Square Footage (Thousands)</th><th scope=\"col\">Annual Sales ( Millions)</th></tr></thead><tbody><tr><td>1</td><td>1.5</td><td>3.5</td></tr><tr><td>2</td><td>2.8</td><td>4.8</td></tr><tr><td>3</td><td>2.2</td><td>4.2</td></tr><tr><td>4</td><td>4.5</td><td>8.1</td></tr><tr><td>5</td><td>3.3</td><td>5.7</td></tr><tr><td>6</td><td>1.3</td><td>3.2</td></tr><tr><td>7</td><td>3.4</td><td>5.8</td></tr><tr><td>8</td><td>4.6</td><td>8.3</td></tr><tr><td>9</td><td>1.7</td><td>3.8</td></tr><tr><td>10</td><td>3.1</td><td>5.2</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Find,  </div><div class=\"paragraph\">a.) the predicted annual sales for a store with <span class=\"tex2jax_process\">$4{,}000$</span> square feet of selling space and  </div><div class=\"paragraph\">b.) the coefficient of correlation for this data</div>",
+  "question_text": "The manager of a large supermarket chain would like to forecast annual sales for his stores based on selling space. The Square Footage ( x x ) and the Annual Sales ( y y ) are as follows: Store Square Footage (Thousands) Annual Sales ( Millions) 1 1.5 3.5 2 2.8 4.8 3 2.2 4.2 4 4.5 8.1 5 3.3 5.7 6 1.3 3.2 7 3.4 5.8 8 4.6 8.3 9 1.7 3.8 10 3.1 5.2 Find, a.) the predicted annual sales for a store with 4,000 4,000 square feet of selling space and b.) the coefficient of correlation for this data",
   "image_files": [
     "images/question-058-img1.JPG"
   ],
   "choices": [
     {
       "letter": "A",
-      "text": "a.)\n$\n5,533,625\n\nb.)\n0.982455695"
+      "text": "a.) $ 5,533,625 $ 5,533,625 b.) 0.982455695 0.982455695"
     },
     {
       "letter": "B",
-      "text": "a.)\n$\n5,533,625\n\nb.)\n0.965219194"
+      "text": "a.) $ 5,533,625 $ 5,533,625 b.) 0.965219194 0.965219194"
     },
     {
       "letter": "C",
-      "text": "a.)\n$\n7,235,925\n\nb.)\n0.982455695"
+      "text": "a.) $ 7,235,925 $ 7,235,925 b.) 0.982455695 0.982455695"
     },
     {
       "letter": "D",
-      "text": "a.)\n$\n6,996,235\n\nb.)\n0.982455695693"
+      "text": "a.) $ 6,996,235 $ 6,996,235 b.) 0.982455695693 0.982455695693"
     },
     {
       "letter": "E",
-      "text": "a.)\n$\n6,996,235\n\nb.)\n0.965219194"
+      "text": "a.) $ 6,996,235 $ 6,996,235 b.) 0.965219194 0.965219194"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

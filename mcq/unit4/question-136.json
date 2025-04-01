@@ -1,32 +1,33 @@
 {
   "question_id": "question-136",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Johnny's Photos: Total Mean Processing Time",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Johnny is a photographer who frames and sells his best photos. It is a long process. Once Johnny finds a photo that he thinks will sell, he spends time editing and enhancing the photo on his computer.  </div><div class=\"paragraph\">Then he prints the photo, cuts the mat and mats the photo. Finally, he frames the photo so that it is ready to go. The chart below shows the mean and standard deviation of the number of minutes required for various parts of this process.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Mean</th><th scope=\"col\">Standard Deviation</th></tr></thead><tbody><tr><td>Photo Editing on Computer</td><td>16.2</td><td>3.7</td></tr><tr><td>Printing and Matting</td><td>12.7</td><td>2.4</td></tr><tr><td>Framing</td><td>8.2</td><td>2.2</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>What is the total mean time it takes Johnny to fully prepare one photo for sale?</div>",
+  "question_text": "Johnny is a photographer who frames and sells his best photos. It is a long process. Once Johnny finds a photo that he thinks will sell, he spends time editing and enhancing the photo on his computer. Then he prints the photo, cuts the mat and mats the photo. Finally, he frames the photo so that it is ready to go. The chart below shows the mean and standard deviation of the number of minutes required for various parts of this process. Mean Standard Deviation Photo Editing on Computer 16.2 3.7 Printing and Matting 12.7 2.4 Framing 8.2 2.2 What is the total mean time it takes Johnny to fully prepare one photo for sale?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "8.3\n minutes"
+      "text": "8.3 minutes 8.3 minutes"
     },
     {
       "letter": "B",
-      "text": "16.2\n minutes"
+      "text": "16.2 minutes 16.2 minutes"
     },
     {
       "letter": "C",
-      "text": "37.1\n minutes"
+      "text": "37.1 minutes 37.1 minutes"
     },
     {
       "letter": "D",
-      "text": "45.4\n minutes"
+      "text": "45.4 minutes 45.4 minutes"
     },
     {
       "letter": "E",
       "text": "We cannot find the total mean time since the different parts of the process are not independent."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

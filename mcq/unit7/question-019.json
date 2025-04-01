@@ -1,32 +1,33 @@
 {
   "question_id": "question-019",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Average Number of Text Messages",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A husband was curious at the end of the year about the average number of texts his wife sent out each day. He randomly selected <span class=\"tex2jax_process\">$27$</span> days and found that the data followed an approximately normal distribution, with a mean of <span class=\"tex2jax_process\">$40.3$</span> and a standard deviation of <span class=\"tex2jax_process\">$5.4$</span>.  </div><div class=\"paragraph\">Which of the following represents a <span class=\"tex2jax_process\">$99\\%$</span> confidence interval for the average number of texts his wife sent out each day? </div>",
+  "question_text": "A husband was curious at the end of the year about the average number of texts his wife sent out each day. He randomly selected $27$ days and found that the data followed an approximately normal distribution, with a mean of $40.3$ and a standard deviation of $5.4$ . Which of the following represents a $99\\%$ confidence interval for the average number of texts his wife sent out each day?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "40.3\n±\n2.779\n5.4\n√\n27"
+      "text": "40.3 ± 2.779 5.4 √ 27 40.3 ± 2.779 5.4 27"
     },
     {
       "letter": "B",
-      "text": "40.3\n±\n2.771\n5.4\n√\n27"
+      "text": "40.3 ± 2.771 5.4 √ 27 40.3 ± 2.771 5.4 27"
     },
     {
       "letter": "C",
-      "text": "40.3\n±\n2.576\n5.4\n√\n27"
+      "text": "40.3 ± 2.576 5.4 √ 27 40.3 ± 2.576 5.4 27"
     },
     {
       "letter": "D",
-      "text": "40.3\n±\n2.779\n5.4\n√\n26"
+      "text": "40.3 ± 2.779 5.4 √ 26 40.3 ± 2.779 5.4 26"
     },
     {
       "letter": "E",
-      "text": "40.3\n±\n2.771\n5.4\n√\n26"
+      "text": "40.3 ± 2.771 5.4 √ 26 40.3 ± 2.771 5.4 26"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

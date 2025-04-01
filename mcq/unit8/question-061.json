@@ -1,32 +1,33 @@
 {
   "question_id": "question-061",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Hector's Test",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Hector has been assigned to do a chi-square test for independence for his university's statistics class.  He has decided to see if there is an association between class year and grade point average, with grade point average split into <span class=\"tex2jax_process\">$3$</span> categories.  He plans to sample <span class=\"tex2jax_process\">$100$</span> students thinking that this number will give him high enough cell counts.  The following five answers contain a hypothesis and a condition for his test.  Four of the <span class=\"tex2jax_process\">$5$</span> answers contain an incorrect statement.  Find the answer which is fully correct.</div>",
+  "question_text": "Hector has been assigned to do a chi-square test for independence for his university's statistics class.  He has decided to see if there is an association between class year and grade point average, with grade point average split into $3$ categories.  He plans to sample $100$ students thinking that this number will give him high enough cell counts.  The following five answers contain a hypothesis and a condition for his test.  Four of the $5$ answers contain an incorrect statement.  Find the answer which is fully correct.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "H\n0\n: There is no difference in distributions of grade point average across the four classes at the university. The sample size should be\n10\n%\nor less than the size of the university's population of students."
+      "text": "H 0 H 0 :  There is no difference in distributions of grade point average across the four classes at the university.         The sample size should be 10 % 10 % or less than the size of the university's population of students."
     },
     {
       "letter": "B",
-      "text": "H\n0\n: There is no association between a student's class year and his or her grade point average at this university. The sample size should be\n10\n%\nor greater than the size of the university's population of students."
+      "text": "H 0 H 0 :  There is no association between a student's class year and his or her grade point average at this university.         The sample size should be 10 % 10 % or greater than the size of the university's population of students."
     },
     {
       "letter": "C",
-      "text": "H\na\n: There is a difference in distributions of grade point average across the four classes at the university. All cell counts must be greater than\n5\n."
+      "text": "H a H a :  There is a difference in distributions of grade point average across the four classes at the university.     All cell counts must be greater than 5 5 ."
     },
     {
       "letter": "D",
-      "text": "H\na\n: There is an association between a student's class year and his or her grade point average at this university. Data should be collected using a stratified random sample."
+      "text": "H a H a :  There is an association between a student's class year and his or her grade point average at this university.               Data should be collected using a stratified random sample."
     },
     {
       "letter": "E",
-      "text": "H\n0\n: There is no association between a student's class year and his or her grade point average at this university. Data should be collected using a simple random sample."
+      "text": "H 0 H 0 :  There is no association between a student's class year and his or her grade point average at this university.     Data should be collected using a simple random sample."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

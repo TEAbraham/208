@@ -1,8 +1,9 @@
 {
   "question_id": "question-149",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Properties of Independent Random Variables",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">If two random variables <span class=\"tex2jax_process\">$x$</span> and <span class=\"tex2jax_process\">$y$</span> are independent, which of the following statements are true?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> The correlation between <span class=\"tex2jax_process\">$x$</span> and <span class=\"tex2jax_process\">$y$</span> is <span class=\"tex2jax_process\">$0$</span>.<br><strong>II.</strong> The mean of <span class=\"tex2jax_process\">$x + y = $</span> the mean of <span class=\"tex2jax_process\">$x + $</span> the mean of <span class=\"tex2jax_process\">$ y$</span><br><strong>III.</strong> The variance of the distribution of the difference between <span class=\"tex2jax_process\">$x$</span> and <span class=\"tex2jax_process\">$y$</span> equals the sum of the individual variances of <span class=\"tex2jax_process\">$x$</span> and <span class=\"tex2jax_process\">$y$</span>.    </div></blockquote>",
+  "question_text": "If two random variables $x$ and $y$ are independent, which of the following statements are true? I. The correlation between $x$ and $y$ is $0$ . II. The mean of $x + y = $ the mean of $x + $ the mean of $ y$ III. The variance of the distribution of the difference between $x$ and $y$ equals the sum of the individual variances of $x$ and $y$ .",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "I, II, and III."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

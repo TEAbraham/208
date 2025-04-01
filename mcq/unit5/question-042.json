@@ -1,32 +1,33 @@
 {
   "question_id": "question-042",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Pick a Hotel",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Great Eastern Hotels reported an average stay of <span class=\"tex2jax_process\">$4.8$</span> nights with a standard deviation of <span class=\"tex2jax_process\">$2.8$</span> nights, while Motel Seven reported an average stay of <span class=\"tex2jax_process\">$2.2$</span> nights with a standard deviation of <span class=\"tex2jax_process\">$1.7$</span> nights.  Random samples of <span class=\"tex2jax_process\">$45$</span> hotels from each hotel chain were taken by a company that was hired to answer the question:  \"What is the probability that the average stay at a Motel Seven is <span class=\"tex2jax_process\">$3$</span> nights or less than an average stay at a Great Eastern Hotel?\"  What is that answer?  Round your answer to the nearest percent.</div>",
+  "question_text": "Great Eastern Hotels reported an average stay of $4.8$ nights with a standard deviation of $2.8$ nights, while Motel Seven reported an average stay of $2.2$ nights with a standard deviation of $1.7$ nights.  Random samples of $45$ hotels from each hotel chain were taken by a company that was hired to answer the question:  \"What is the probability that the average stay at a Motel Seven is $3$ nights or less than an average stay at a Great Eastern Hotel?\"  What is that answer?  Round your answer to the nearest percent.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "21\n%"
+      "text": "21 % 21 %"
     },
     {
       "letter": "B",
-      "text": "95\n%"
+      "text": "95 % 95 %"
     },
     {
       "letter": "C",
-      "text": "11\n%"
+      "text": "11 % 11 %"
     },
     {
       "letter": "D",
-      "text": "89\n%"
+      "text": "89 % 89 %"
     },
     {
       "letter": "E",
-      "text": "79\n%"
+      "text": "79 % 79 %"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,8 +1,9 @@
 {
   "question_id": "question-078",
+  "unit": "Unit 3 | Collecting Data",
   "title": "Randomly Selected",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Pat and Amy are doing an experiment for their AP Statistics final project.  They will be splitting their volunteers into two groups, Group <span class=\"tex2jax_process\">$A$</span> and Group <span class=\"tex2jax_process\">$B$</span>. </div><div class=\"paragraph\">Which of the following methods will <u>not</u> result in randomly selected groups?</div>",
+  "question_text": "Pat and Amy are doing an experiment for their AP Statistics final project.  They will be splitting their volunteers into two groups, Group A A and Group B B . Which of the following methods will not result in randomly selected groups?",
   "image_files": [],
   "choices": [
     {
@@ -19,19 +20,16 @@
     },
     {
       "letter": "D",
-      "text": "Using a coin and assigning \"Heads\" to Group\nA\nand \"Tails\" to Group\nB\n."
+      "text": "Using a coin and assigning \"Heads\" to Group A A and \"Tails\" to Group B B ."
     },
     {
       "letter": "E",
-      "text": "Pat and Amy will alternate selecting members for Group\nA\nand Group\nB\n."
+      "text": "Pat and Amy will alternate selecting members for Group A A and Group B B ."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer. ",
-  "solution": "In a <strong>completely randomized experiment</strong>, treatments are assigned to experimental units completely at random. Using <strong>random assignment</strong> will hopefully balance the effects of the uncontrolled (confounding) variables so we can attribute the difference in the response to the treatments. \n\nMethods for randomly assigning treatments in experimental units in a completely randomized design must have a chance process involved. Some examples of methods are using a random number generator, a random digit table, drawing names out of a hat, etc. The only choice above that won't result in random assignment is <strong>Choice 'E'</strong>. \n\n<strong>Choice 'E'</strong> is correct. ",
-  "distractor_explanations": {
-    "B": "<strong>Choice 'B'</strong> is incorrect. The hat method is also an acceptable method of creating random groups for an experiment. ",
-    "D": "<strong>Choice 'D'</strong> is incorrect. Since a coin a chance process, it is an acceptable method of creating random groups for an experiment."
-  },
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "In a completely randomized experiment , treatments are assigned to experimental units completely at random. Using random assignment will hopefully balance the effects of the uncontrolled (confounding) variables so we can attribute the difference in the response to the treatments.\n\nMethods for randomly assigning treatments in experimental units in a completely randomized design must have a chance process involved. Some examples of methods are using a random number generator, a random digit table, drawing names out of a hat, etc. The only choice above that won't result in random assignment is Choice 'E' .\n\nChoice 'E' is correct.",
+  "distractor_explanations": {},
   "tags": [
     "VAR-3",
     "VAR-3.C.2",

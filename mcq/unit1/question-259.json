@@ -1,32 +1,33 @@
 {
   "question_id": "question-259",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Running a 5K: Connecting $z$-Score and Probability",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Recently, Marco participated in a 5K race involving more than <span class=\"tex2jax_process\">$1{,}000\\text{ runners}$</span>. Finishing times for the race were approximately normally distributed, and Marco's <span class=\"tex2jax_process\">$z$</span>-score for his time to complete the race was <span class=\"tex2jax_process\">$-0.33$</span>.  </div><div class=\"paragraph\">Approximately what percent of the runners in this race did Marco finish before?</div>",
+  "question_text": "Recently, Marco participated in a 5K race involving more than $1{,}000\\text{ runners}$ . Finishing times for the race were approximately normally distributed, and Marco's $z$ -score for his time to complete the race was $-0.33$ . Approximately what percent of the runners in this race did Marco finish before?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "33.00\n%"
+      "text": "33.00 % 33.00 %"
     },
     {
       "letter": "B",
-      "text": "33.33\n%"
+      "text": "33.33 % 33.33 %"
     },
     {
       "letter": "C",
-      "text": "37.07\n%"
+      "text": "37.07 % 37.07 %"
     },
     {
       "letter": "D",
-      "text": "62.93\n%"
+      "text": "62.93 % 62.93 %"
     },
     {
       "letter": "E",
-      "text": "66.67\n%"
+      "text": "66.67 % 66.67 %"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

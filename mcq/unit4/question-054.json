@@ -1,34 +1,35 @@
 {
   "question_id": "question-054",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Steroid Usage",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Many collegiate athletes are tested for performance-enhancing steroids.  </div><div class=\"paragraph\">Suppose a standard test gives a positive result for the usage of steroids <span class=\"tex2jax_process\">$98\\%$</span> of the time on individuals who use steroids. However, the drug test shows a positive result for steroids when the individual is in fact not using steroids, <span class=\"tex2jax_process\">$8\\%$</span> of the time.  </div><div class=\"paragraph\">If <span class=\"tex2jax_process\">$15\\%$</span> of college athletes use steroids, what is the probability that a randomly selected test result gives a positive test for steroids?</div>",
+  "question_text": "Many collegiate athletes are tested for performance-enhancing steroids. Suppose a standard test gives a positive result for the usage of steroids $98\\%$ of the time on individuals who use steroids. However, the drug test shows a positive result for steroids when the individual is in fact not using steroids, $8\\%$ of the time. If $15\\%$ of college athletes use steroids, what is the probability that a randomly selected test result gives a positive test for steroids?",
   "image_files": [
     "images/question-054-img1.jpg"
   ],
   "choices": [
     {
       "letter": "A",
-      "text": "0.147"
+      "text": "0.147 0.147"
     },
     {
       "letter": "B",
-      "text": "0.782"
+      "text": "0.782 0.782"
     },
     {
       "letter": "C",
-      "text": "0.6837"
+      "text": "0.6837 0.6837"
     },
     {
       "letter": "D",
-      "text": "0.215"
+      "text": "0.215 0.215"
     },
     {
       "letter": "E",
-      "text": "0.15"
+      "text": "0.15 0.15"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

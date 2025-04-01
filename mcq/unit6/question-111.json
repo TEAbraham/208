@@ -1,8 +1,9 @@
 {
   "question_id": "question-111",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Traffic Accidents",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A traffic engineer is curious if elderly drivers are more or less likely to get into accidents than teenage drivers.  </div><div class=\"paragraph\">The engineer randomly sampled <span class=\"tex2jax_process\">$100$</span> teenage drivers and <span class=\"tex2jax_process\">$100$</span> drivers more than <span class=\"tex2jax_process\">$80$</span> years old, asking both groups if they have gotten in an accident in the last year.  </div><div class=\"paragraph\">A hypothesis test of <span class=\"tex2jax_process\">$ { p }_{ 1 }= { p }_{ 2 }$</span> vs. <span class=\"tex2jax_process\">${ p }_{ 1 } ≠ { p }_{ 2 }$</span> gives a test statistic <span class=\"tex2jax_process\">$z = 1.13$</span>.  </div><div class=\"paragraph\">Assuming conditions for inference have been met, what conclusion can be made?</div>",
+  "question_text": "A traffic engineer is curious if elderly drivers are more or less likely to get into accidents than teenage drivers. The engineer randomly sampled $100$ teenage drivers and $100$ drivers more than $80$ years old, asking both groups if they have gotten in an accident in the last year. A hypothesis test of $ { p }_{ 1 }= { p }_{ 2 }$ vs. ${ p }_{ 1 } ≠ { p }_{ 2 }$ gives a test statistic $z = 1.13$ . Assuming conditions for inference have been met, what conclusion can be made?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "There is insufficient evidence to conclude older and younger drivers have different accident rates."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

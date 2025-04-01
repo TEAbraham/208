@@ -1,8 +1,9 @@
 {
   "question_id": "question-033",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "What Happens to Margin of Error when the Sample Size Changes?",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">In an effort to determine what percentage of teenagers text and drive at Griswold High School, a student randomly selected <span class=\"tex2jax_process\">$50$</span> teenage drivers from Griswold and constructed a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval. Suppose that the student decides to construct the <span class=\"tex2jax_process\">$95\\%$</span> confidence interval again, but this time she randomly selects <span class=\"tex2jax_process\">$100$</span> students.  </div><div class=\"paragraph\">What would happen to the margin of error?</div>",
+  "question_text": "In an effort to determine what percentage of teenagers text and drive at Griswold High School, a student randomly selected $50$ teenage drivers from Griswold and constructed a $95\\%$ confidence interval. Suppose that the student decides to construct the $95\\%$ confidence interval again, but this time she randomly selects $100$ students. What would happen to the margin of error?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "Can't tell, because we don't know the point estimate from the samples."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

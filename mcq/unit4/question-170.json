@@ -1,32 +1,33 @@
 {
   "question_id": "question-170",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Calculate Multiple Binomial: Computer Chips | 1 of 2",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Suppose that <span class=\"tex2jax_process\">$10\\text{ computer chips}$</span> are randomly selected from a large shipment.  </div><div class=\"paragraph\">If <span class=\"tex2jax_process\">$95\\%$</span> of the computer chips work properly, and each chip works independently of one another, what is the probability that fewer than <span class=\"tex2jax_process\">$8$</span> of the chips work properly?</div>",
+  "question_text": "Suppose that $10\\text{ computer chips}$ are randomly selected from a large shipment. If $95\\%$ of the computer chips work properly, and each chip works independently of one another, what is the probability that fewer than $8$ of the chips work properly?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.1158"
+      "text": "0.1158 0.1158"
     },
     {
       "letter": "B",
-      "text": "0.2035"
+      "text": "0.2035 0.2035"
     },
     {
       "letter": "C",
-      "text": "0.2345"
+      "text": "0.2345 0.2345"
     },
     {
       "letter": "D",
-      "text": "0.0115"
+      "text": "0.0115 0.0115"
     },
     {
       "letter": "E",
-      "text": "0.9523"
+      "text": "0.9523 0.9523"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

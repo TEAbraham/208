@@ -1,8 +1,9 @@
 {
   "question_id": "question-124",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Conditions for 2-sample $z$-test for Proportions",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Which of the following is not a condition necessary for conducting a two-sample <span class=\"tex2jax_process\">$z$</span>-test for proportions?</div>",
+  "question_text": "Which of the following is not a condition necessary for conducting a two-sample $z$ -test for proportions?",
   "image_files": [],
   "choices": [
     {
@@ -19,14 +20,14 @@
     },
     {
       "letter": "D",
-      "text": "The total number of observations must be at least\n30\nor we must know that the population distribution is approximately normal."
+      "text": "The total number of observations must be at least 30 30 or we must know that the population distribution is approximately normal."
     },
     {
       "letter": "E",
       "text": "For each population, we expect a sufficient number of successes and a sufficient number of failures."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

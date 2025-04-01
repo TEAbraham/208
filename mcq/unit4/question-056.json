@@ -1,34 +1,35 @@
 {
   "question_id": "question-056",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Probability: Making Free Throws",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A professional basketball player has a <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-31723\"><span class=\"MJXp-mn\" id=\"MJXp-Span-31724\">60</span></span></span><span id=\"MathJax-Element-9286-Frame\" class=\"mjx-chtml MathJax_CHTML MJXc-processed\" tabindex=\"0\" style=\"font-size: 114%;\"><span id=\"MJXc-Node-42162\" class=\"mjx-math\"><span id=\"MJXc-Node-42163\" class=\"mjx-mrow\"><span id=\"MJXc-Node-42164\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">60</span></span></span></span></span><script type=\"math/tex\" id=\"MathJax-Element-9286\">60</script></span>% chance of making his first throw.  If he makes his first free throw, there is a <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-31725\"><span class=\"MJXp-mn\" id=\"MJXp-Span-31726\">70</span></span></span><span id=\"MathJax-Element-9287-Frame\" class=\"mjx-chtml MathJax_CHTML MJXc-processed\" tabindex=\"0\" style=\"font-size: 114%;\"><span id=\"MJXc-Node-42165\" class=\"mjx-math\"><span id=\"MJXc-Node-42166\" class=\"mjx-mrow\"><span id=\"MJXc-Node-42167\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">70</span></span></span></span></span><script type=\"math/tex\" id=\"MathJax-Element-9287\">70</script></span>% chance he makes his second free throw.  If he does not make his first throw, there is a <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-31727\"><span class=\"MJXp-mn\" id=\"MJXp-Span-31728\">45</span></span></span><span id=\"MathJax-Element-9288-Frame\" class=\"mjx-chtml MathJax_CHTML MJXc-processed\" tabindex=\"0\" style=\"font-size: 114%;\"><span id=\"MJXc-Node-42168\" class=\"mjx-math\"><span id=\"MJXc-Node-42169\" class=\"mjx-mrow\"><span id=\"MJXc-Node-42170\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">45</span></span></span></span></span><script type=\"math/tex\" id=\"MathJax-Element-9288\">45</script></span>% chance he makes his second free throw.  If this professional basketball player has made his second free throw, what is the probability he missed his first throw? </div>",
+  "question_text": "A professional basketball player has a $60$ % chance of making his first throw.  If he makes his first free throw, there is a $70$ % chance he makes his second free throw.  If he does not make his first throw, there is a $45$ % chance he makes his second free throw.  If this professional basketball player has made his second free throw, what is the probability he missed his first throw?",
   "image_files": [
     "images/question-056-img1.PNG"
   ],
   "choices": [
     {
       "letter": "A",
-      "text": "0.18"
+      "text": "0.18 0.18"
     },
     {
       "letter": "B",
-      "text": "0.30"
+      "text": "0.30 0.30"
     },
     {
       "letter": "C",
-      "text": "0.40"
+      "text": "0.40 0.40"
     },
     {
       "letter": "D",
-      "text": "0.67"
+      "text": "0.67 0.67"
     },
     {
       "letter": "E",
-      "text": "0.70"
+      "text": "0.70 0.70"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the answer.  ",
+  "correct_answer": "Choice 'B' is the answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

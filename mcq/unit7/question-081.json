@@ -1,8 +1,9 @@
 {
   "question_id": "question-081",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Hypothesis Test vs. Interval",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">An exercise physiologist is interested in the effect of exercise on heart rate.  </div><div class=\"paragraph\">She has the subjects walk slowly for <span class=\"tex2jax_process\">$5\\text{ minutes}$</span> and records their heart rates. Then she has the subjects run vigorously for <span class=\"tex2jax_process\">$5\\text{ minutes}$</span> and records their heart rates again.  </div><div class=\"paragraph\">The differences are recorded (heart rate after running - heart rate before running), with results below:</div><div class=\"paragraph\"><em>One-Sample <span class=\"tex2jax_process\">$T$</span>: Differences</em>  </div><div class=\"paragraph\"><em>Test of <span class=\"tex2jax_process\">$\\mu = 0$</span> vs. <span class=\"tex2jax_process\">$\\mu \\neq 0$</span></em></div><br><div class=\"paragraph\">  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">StDev</th><th scope=\"col\">SE Mean</th><th scope=\"col\">95% CI</th><th scope=\"col\">T</th><th scope=\"col\">P</th></tr></thead><tbody><tr><td>Differences</td><td>8</td><td>59.88</td><td>10.36</td><td>3.66</td><td>(51.22,68.53)</td><td>16.35</td><td>0.000</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Why could a confidence interval be more useful in this situation than a hypothesis test?</div>",
+  "question_text": "An exercise physiologist is interested in the effect of exercise on heart rate. She has the subjects walk slowly for $5\\text{ minutes}$ and records their heart rates. Then she has the subjects run vigorously for $5\\text{ minutes}$ and records their heart rates again. The differences are recorded (heart rate after running - heart rate before running), with results below: One-Sample $T$ : Differences Test of $\\mu = 0$ vs. $\\mu \\neq 0$ Variable N Mean StDev SE Mean 95% CI T P Differences 8 59.88 10.36 3.66 (51.22,68.53) 16.35 0.000 Why could a confidence interval be more useful in this situation than a hypothesis test?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "There is a lower chance of a type II error in a confidence interval than in a hypothesis test."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

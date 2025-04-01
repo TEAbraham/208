@@ -1,32 +1,33 @@
 {
   "question_id": "question-012",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Sample Proportion of Fair Die",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Suppose Tony tosses a fair die <span class=\"tex2jax_process\">$90\\text{ times}$</span>. Of these <span class=\"tex2jax_process\">$90\\text{ tosses}$</span>, <span class=\"tex2jax_process\">$18$</span> resulted in a <span class=\"tex2jax_process\">$1$</span> showing face-up on the die.  </div><div class=\"paragraph\">What is the sample proportion, and what is the mean of the sampling distribution?</div>",
+  "question_text": "Suppose Tony tosses a fair die $90\\text{ times}$ . Of these $90\\text{ tosses}$ , $18$ resulted in a $1$ showing face-up on the die. What is the sample proportion, and what is the mean of the sampling distribution?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Sample proportion =\n20\n% Mean of sampling distribution =\n16.67\n%"
+      "text": "Sample proportion = 20 % 20 % Mean of sampling distribution = 16.67 % 16.67 %"
     },
     {
       "letter": "B",
-      "text": "Sample proportion =\n16.67\n% Mean of sampling distribution =\n16.67\n%"
+      "text": "Sample proportion = 16.67 % 16.67 % Mean of sampling distribution = 16.67 % 16.67 %"
     },
     {
       "letter": "C",
-      "text": "Sample proportion =\n16.67\n% Mean of sampling distribution =\n20\n%"
+      "text": "Sample proportion = 16.67 % 16.67 % Mean of sampling distribution = 20 % 20 %"
     },
     {
       "letter": "D",
-      "text": "Sample proportion =\n20\n% Mean of sampling distribution =\n20\n%"
+      "text": "Sample proportion = 20 % 20 % Mean of sampling distribution = 20 % 20 %"
     },
     {
       "letter": "E",
-      "text": "Sample proportion =\n18\n% Mean of sampling distribution =\n16.67\n%"
+      "text": "Sample proportion = 18 % 18 % Mean of sampling distribution = 16.67 % 16.67 %"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-158",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Assembly Line Probability",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Workers at a large company inspect large wooden bookcases for defects and then wrap the bookcases to be ready to ship.  </div><div class=\"paragraph\">The average worker takes <span class=\"tex2jax_process\">$21\\text{ seconds}$</span> to inspect a bookcase with a standard deviation of <span class=\"tex2jax_process\">$3\\text{ seconds}$</span>. The average worker takes <span class=\"tex2jax_process\">$41\\text{ seconds}$</span> to wrap a bookcase with a standard deviation of <span class=\"tex2jax_process\">$18\\text{ seconds}$</span>. The assembly line starts to get backed up if the entire process takes longer than <span class=\"tex2jax_process\">$1\\text{ minute}$</span> and <span class=\"tex2jax_process\">$15\\text{ seconds}$</span>.  </div><div class=\"paragraph\">Assuming the times for each process are independent and approximately normal, what is the probability of a bookcase taking more than <span class=\"tex2jax_process\">$1\\text{ minute}$</span> and <span class=\"tex2jax_process\">$15\\text{ seconds}$</span> for the entire inspection and wrapping process?</div>",
+  "question_text": "Workers at a large company inspect large wooden bookcases for defects and then wrap the bookcases to be ready to ship. The average worker takes $21\\text{ seconds}$ to inspect a bookcase with a standard deviation of $3\\text{ seconds}$ . The average worker takes $41\\text{ seconds}$ to wrap a bookcase with a standard deviation of $18\\text{ seconds}$ . The assembly line starts to get backed up if the entire process takes longer than $1\\text{ minute}$ and $15\\text{ seconds}$ . Assuming the times for each process are independent and approximately normal, what is the probability of a bookcase taking more than $1\\text{ minute}$ and $15\\text{ seconds}$ for the entire inspection and wrapping process?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.0523"
+      "text": "0.0523 0.0523"
     },
     {
       "letter": "B",
-      "text": "0.1452"
+      "text": "0.1452 0.1452"
     },
     {
       "letter": "C",
-      "text": "0.5327"
+      "text": "0.5327 0.5327"
     },
     {
       "letter": "D",
-      "text": "0.0235"
+      "text": "0.0235 0.0235"
     },
     {
       "letter": "E",
-      "text": "0.2389"
+      "text": "0.2389 0.2389"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

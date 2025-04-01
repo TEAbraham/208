@@ -1,32 +1,33 @@
 {
   "question_id": "question-023",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Playing Giddy Up - Go: Standard Deviation of Proportion",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Giddy Up - Go is a hot new game app that can be downloaded on smartphones.  Researchers wanted to know what proportion of smartphone users have downloaded the app.  They believe that the actual proportion is <span class=\"tex2jax_process\">$0.10$</span> and have decided to investigate.  </div><div class=\"paragraph\">After surveying a random sample of <span class=\"tex2jax_process\">$225$</span> smartphone users, the researchers determined that <span class=\"tex2jax_process\">$27$</span> had downloaded the app.  </div><div class=\"paragraph\">In constructing a confidence interval, which of the following shows how to calculate the standard deviation of the sample proportion? </div>",
+  "question_text": "Giddy Up - Go is a hot new game app that can be downloaded on smartphones.  Researchers wanted to know what proportion of smartphone users have downloaded the app.  They believe that the actual proportion is $0.10$ and have decided to investigate. After surveying a random sample of $225$ smartphone users, the researchers determined that $27$ had downloaded the app. In constructing a confidence interval, which of the following shows how to calculate the standard deviation of the sample proportion?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "√\n(\n0.10\n)\n(\n0.90\n)\n225"
+      "text": "√ ( 0.10 ) ( 0.90 ) 225 ( 0.10 ) ( 0.90 ) 225"
     },
     {
       "letter": "B",
-      "text": "√\n(\n0.12\n)\n(\n0.88\n)\n225"
+      "text": "√ ( 0.12 ) ( 0.88 ) 225 ( 0.12 ) ( 0.88 ) 225"
     },
     {
       "letter": "C",
-      "text": "(\n0.10\n)\n(\n0.90\n)\n√\n225"
+      "text": "( 0.10 ) ( 0.90 ) √ 225 ( 0.10 ) ( 0.90 ) 225"
     },
     {
       "letter": "D",
-      "text": "√\n(\n225\n)\n(\n0.10\n)\n(\n0.90\n)"
+      "text": "√ ( 225 ) ( 0.10 ) ( 0.90 ) ( 225 ) ( 0.10 ) ( 0.90 )"
     },
     {
       "letter": "E",
-      "text": "√\n(\n225\n)\n(\n0.12\n)\n(\n0.88\n)"
+      "text": "√ ( 225 ) ( 0.12 ) ( 0.88 ) ( 225 ) ( 0.12 ) ( 0.88 )"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

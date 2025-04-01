@@ -1,17 +1,18 @@
 {
   "question_id": "question-021",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Annual Income and Age: Which Statement Is False?",
   "difficulty": "Moderate",
-  "question_text": "\n<div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">x &lt; 25,000</th><th scope=\"col\">25,001 &lt; x &lt;50,000</th><th scope=\"col\">50,001 &lt; x &lt; 100,000</th><th scope=\"col\">100,000 &lt; x</th></tr></thead><tbody><tr><td>Age under 30</td><td>37</td><td>31</td><td>14</td><td>1</td></tr><tr><td>Age 31-50</td><td>11</td><td>36</td><td>51</td><td>23</td></tr><tr><td>Age over 50</td><td>8</td><td>34</td><td>45</td><td>43</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Researchers surveyed working adults and asked them their yearly income and age.  </div><div class=\"paragraph\">Based on this table, which of the following statements is false?</div>",
+  "question_text": "x < 25,000 25,001 < x <50,000 50,001 < x < 100,000 100,000 < x Age under 30 37 31 14 1 Age 31-50 11 36 51 23 Age over 50 8 34 45 43 Researchers surveyed working adults and asked them their yearly income and age. Based on this table, which of the following statements is false?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "About\n36\n%\nof people surveyed are between\n31\nand\n50\nyears old."
+      "text": "About 36 % 36 % of people surveyed are between 31 31 and 50 50 years old."
     },
     {
       "letter": "B",
-      "text": "According to this chart, an experimenter has about a\n10.8\n%\nchance of randomly finding a\n31\n−\n50\nyear old who earns between\n$\n25,001\nto\n$\n50,000\nper year."
+      "text": "According to this chart, an experimenter has about a 10.8 % 10.8 % chance of randomly finding a 31 − 50 31 − 50 year old who earns between $ 25,001 $ 25,001 to $ 50,000 $ 50,000 per year."
     },
     {
       "letter": "C",
@@ -23,10 +24,10 @@
     },
     {
       "letter": "E",
-      "text": "Based on the data, reaching age\n50\nguarantees a minimum income of\n$\n50,000\n."
+      "text": "Based on the data, reaching age 50 50 guarantees a minimum income of $ 50,000 $ 50,000 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

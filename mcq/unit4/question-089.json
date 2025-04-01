@@ -1,32 +1,33 @@
 {
   "question_id": "question-089",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Yahtzee Probability",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">In the game of Yahtzee, a player tosses <span class=\"tex2jax_process\">$5$</span>, fair, <span class=\"tex2jax_process\">$6$</span>-sided dice while trying to form various combinations like three of a kind (for example: <span class=\"tex2jax_process\">$4, 4, 4, 5, 1$</span>), or a full house (for example: <span class=\"tex2jax_process\">$2, 2, 2, 6, 6$</span>). If all five dice show the same number (for example: <span class=\"tex2jax_process\">$3, 3, 3, 3, 3$</span>), the player has rolled a Yahtzee.  </div><div class=\"paragraph\">How would you calculate the probability that a player will roll Yahtzee on their first roll of the dice?</div>",
+  "question_text": "In the game of Yahtzee, a player tosses $5$ , fair, $6$ -sided dice while trying to form various combinations like three of a kind (for example: $4, 4, 4, 5, 1$ ), or a full house (for example: $2, 2, 2, 6, 6$ ). If all five dice show the same number (for example: $3, 3, 3, 3, 3$ ), the player has rolled a Yahtzee. How would you calculate the probability that a player will roll Yahtzee on their first roll of the dice?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "1\n6"
+      "text": "1 6 1 6"
     },
     {
       "letter": "B",
-      "text": "(\n1\n6\n)\n5"
+      "text": "( 1 6 ) 5 ( 1 6 ) 5"
     },
     {
       "letter": "C",
-      "text": "(\n1\n6\n)\n5\n⋅\n6"
+      "text": "( 1 6 ) 5 ⋅ 6 ( 1 6 ) 5 ⋅ 6"
     },
     {
       "letter": "D",
-      "text": "5\n⋅\n(\n1\n6\n)"
+      "text": "5 ⋅ ( 1 6 ) 5 ⋅ ( 1 6 )"
     },
     {
       "letter": "E",
-      "text": "0"
+      "text": "0 0"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

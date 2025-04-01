@@ -1,32 +1,33 @@
 {
   "question_id": "question-135",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Refer to the Formula",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Which of the following represents the variance when completing a <span class=\"tex2jax_process\">$z$</span>-test for the difference between two population proportions?</div>",
+  "question_text": "Which of the following represents the variance when completing a $z$ -test for the difference between two population proportions?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "σ\n√\nn"
+      "text": "σ √ n σ n"
     },
     {
       "letter": "B",
-      "text": "n\n(\np\n)\n(\n1\n−\np\n)\nwhere\np\nis the observed proportion of successes from both populations combined."
+      "text": "n ( p ) ( 1 − p ) n ( p ) ( 1 − p ) where p p is the observed proportion of successes from both populations combined."
     },
     {
       "letter": "C",
-      "text": "(\np\n1\n)\n(\n1\n−\np\n1\n)\nn\n1\n+\n(\np\n2\n)\n(\n1\n−\np\n2\n)\nn\n2\nwhere\np\n1\nis the hypothesized proportion for population\n1\nand\np\n2\nis the hypothesized proportion for population\n2\n."
+      "text": "( p 1 ) ( 1 − p 1 ) n 1 + ( p 2 ) ( 1 − p 2 ) n 2 ( p 1 ) ( 1 − p 1 ) n 1 + ( p 2 ) ( 1 − p 2 ) n 2 where p 1 p 1 is the hypothesized proportion for population 1 1 and p 2 p 2 is the hypothesized proportion for population 2 2 ."
     },
     {
       "letter": "D",
-      "text": "(\n^\np\n1\n)\n(\n1\n−\n^\np\n1\n)\nn\n1\n+\n(\n^\np\n2\n)\n(\n1\n−\n^\np\n2\n)\nn\n2\nwhere\n^\np\n1\nis the observed proportion from population\n1\nand\n^\np\n2\nis the observed proportion from population\n2\n."
+      "text": "( ^ p 1 ) ( 1 − ^ p 1 ) n 1 + ( ^ p 2 ) ( 1 − ^ p 2 ) n 2 ( p 1 ^ ) ( 1 − p 1 ^ ) n 1 + ( p 2 ^ ) ( 1 − p 2 ^ ) n 2 where ^ p 1 p 1 ^ is the observed proportion from population 1 1 and ^ p 2 p 2 ^ is the observed proportion from population 2 2 ."
     },
     {
       "letter": "E",
-      "text": "(\np\n)\n(\n1\n−\np\n)\n(\n1\nn\n1\n+\n1\nn\n2\n)\nwhere\np\nis the observed proportion from both populations combined."
+      "text": "( p ) ( 1 − p ) ( 1 n 1 + 1 n 2 ) ( p ) ( 1 − p ) ( 1 n 1 + 1 n 2 ) where p p is the observed proportion from both populations combined."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

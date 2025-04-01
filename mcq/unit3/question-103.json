@@ -1,8 +1,9 @@
 {
   "question_id": "question-103",
+  "unit": "Unit 3 | Collecting Data",
   "title": "Type of Design: Neighborhood Watch",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Neighborhood watch is a program designed where a group of civilians are devoted to prevent  crime and vandalism in a neighborhood.  A research group, known as the <em>Watchmen</em> want to know if the neighborhood watch is actually effective.  </div><div class=\"paragraph\">The <em>Watchmen</em> locate <span class=\"tex2jax_process\">$20$</span> pairs of neighborhoods, where each pair is similar in size, economic status,  number of streetlights, number of dogs, number of nosy neighbors, etc. One neighborhood in each pair is randomly assigned to have  the neighborhood watch program and the other does not.  </div><div class=\"paragraph\">This is an example of</div>",
+  "question_text": "Neighborhood watch is a program designed where a group of civilians are devoted to prevent  crime and vandalism in a neighborhood.  A research group, known as the Watchmen want to know if the neighborhood watch is actually effective. The Watchmen locate $20$ pairs of neighborhoods, where each pair is similar in size, economic status,  number of streetlights, number of dogs, number of nosy neighbors, etc. One neighborhood in each pair is randomly assigned to have  the neighborhood watch program and the other does not. This is an example of",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "A stratified random sample."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

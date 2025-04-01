@@ -1,32 +1,33 @@
 {
   "question_id": "question-084",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Mean Number of French Fries: Find $p$ Given $t$",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Ronald decided to do a two-sided significance test for the mean number of french fries contained in a large order of fries from his favorite fast food restaurant.  To gather data, he visited the restaurant on a random sample of <span class=\"tex2jax_process\">$10\\text{ days}$</span> and found the average number of french fries contained in his large orders of fries on each of those days.  Ronald cannot remember what the actual average was, but he does remember that the <span class=\"tex2jax_process\">$t$</span>-statistic for his test was <span class=\"tex2jax_process\">$1.98$</span>.  </div><div class=\"paragraph\">Assuming that the conditions for completing the significance test were satisfied, what was the corresponding <span class=\"tex2jax_process\">$p$</span>-value for this test?    </div>",
+  "question_text": "Ronald decided to do a two-sided significance test for the mean number of french fries contained in a large order of fries from his favorite fast food restaurant.  To gather data, he visited the restaurant on a random sample of $10\\text{ days}$ and found the average number of french fries contained in his large orders of fries on each of those days.  Ronald cannot remember what the actual average was, but he does remember that the $t$ -statistic for his test was $1.98$ . Assuming that the conditions for completing the significance test were satisfied, what was the corresponding $p$ -value for this test?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.0239"
+      "text": "0.0239 0.0239"
     },
     {
       "letter": "B",
-      "text": "0.0395"
+      "text": "0.0395 0.0395"
     },
     {
       "letter": "C",
-      "text": "0.0478"
+      "text": "0.0478 0.0478"
     },
     {
       "letter": "D",
-      "text": "0.0790"
+      "text": "0.0790 0.0790"
     },
     {
       "letter": "E",
-      "text": "There is no way to calculate the\np\n-value without knowing what the sample average was."
+      "text": "There is no way to calculate the p p -value without knowing what the sample average was."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-247",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Calibrating a Candy Machine For a Normal Distribution",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A candy machine dispenses small chocolate candies and claims that <span class=\"tex2jax_process\">$1$</span> oz is dispensed each time. It is known that the standard deviation of the amount of candy that will be dispensed from this machine is <span class=\"tex2jax_process\">$0.08$</span> oz and that the amount dispensed follows a normal distribution. We need to calibrate the machine so that the mean amount dispensed will be less than the advertised amount no more than <span class=\"tex2jax_process\">$2\\%$</span> of the time.​  </div><div class=\"paragraph\">What should we calibrate the mean to be?</div>",
+  "question_text": "A candy machine dispenses small chocolate candies and claims that $1$ oz is dispensed each time. It is known that the standard deviation of the amount of candy that will be dispensed from this machine is $0.08$ oz and that the amount dispensed follows a normal distribution. We need to calibrate the machine so that the mean amount dispensed will be less than the advertised amount no more than $2\\%$ of the time.​ What should we calibrate the mean to be?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.92\n oz"
+      "text": "0.92 oz 0.92 oz"
     },
     {
       "letter": "B",
-      "text": "1\n oz"
+      "text": "1 oz 1 oz"
     },
     {
       "letter": "C",
-      "text": "1.08\n oz"
+      "text": "1.08 oz 1.08 oz"
     },
     {
       "letter": "D",
-      "text": "1.16\n oz"
+      "text": "1.16 oz 1.16 oz"
     },
     {
       "letter": "E",
-      "text": "1.24\n oz"
+      "text": "1.24 oz 1.24 oz"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

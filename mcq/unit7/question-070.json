@@ -1,32 +1,33 @@
 {
   "question_id": "question-070",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Type of Test to Use at the Zoo",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A large city zoo is seeking donations to expand their Tropical Rain Forest habitat and wants to show potential donors that this habitat is a very popular attraction at the zoo.  The zoo's board of directors believes that they will be more likely to receive donations if they can provide good evidence that the proportion of visitors to the zoo who choose to visit the Tropical Rain Forest is, at least, <span class=\"tex2jax_process\">$0.75$</span>.  </div><div class=\"paragraph\">Over a period of several weeks, surveyors randomly select visitors who are exiting the zoo and ask whether they stopped at the Tropical Rain Forest during their visit.  </div><div class=\"paragraph\">Assuming the conditions for performing a significance test are satisfied, which of the following tests is most appropriate? </div>",
+  "question_text": "A large city zoo is seeking donations to expand their Tropical Rain Forest habitat and wants to show potential donors that this habitat is a very popular attraction at the zoo.  The zoo's board of directors believes that they will be more likely to receive donations if they can provide good evidence that the proportion of visitors to the zoo who choose to visit the Tropical Rain Forest is, at least, $0.75$ . Over a period of several weeks, surveyors randomly select visitors who are exiting the zoo and ask whether they stopped at the Tropical Rain Forest during their visit. Assuming the conditions for performing a significance test are satisfied, which of the following tests is most appropriate?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "One proportion\nz\n-test."
+      "text": "One proportion z z -test."
     },
     {
       "letter": "B",
-      "text": "One proportion\nt\n-test."
+      "text": "One proportion t t -test."
     },
     {
       "letter": "C",
-      "text": "Two sample\nZ\n-test for proportions."
+      "text": "Two sample Z Z -test for proportions."
     },
     {
       "letter": "D",
-      "text": "One sample\nT\n-test for a population mean."
+      "text": "One sample T T -test for a population mean."
     },
     {
       "letter": "E",
-      "text": "χ\n2\ntest for goodness of fit."
+      "text": "χ 2 χ 2 test for goodness of fit."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

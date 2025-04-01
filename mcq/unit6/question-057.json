@@ -1,32 +1,33 @@
 {
   "question_id": "question-057",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "$p$-value Interpretation",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A study reported that the proportion of college students who experience heart palpitations after drinking an energy drink is <span class=\"tex2jax_process\">$0.18$</span>.  The dean of a university believes that the proportion of students at his university who experience heart palpitations after drinking an energy drink is less than <span class=\"tex2jax_process\">$0.18$</span>.   The dean  randomly sampled students from the university who had just had an energy drink and found that <span class=\"tex2jax_process\">$16\\%$</span> of them had experienced heart palpitations.  </div><div class=\"paragraph\">All conditions for inference were met, and the <span class=\"tex2jax_process\">$p$</span>-value for the appropriate hypothesis test was <span class=\"tex2jax_process\">$0.30$</span>.  Which of the following statements is the best interpretation of the <span class=\"tex2jax_process\">$p$</span>-value?</div>",
+  "question_text": "A study reported that the proportion of college students who experience heart palpitations after drinking an energy drink is $0.18$ .  The dean of a university believes that the proportion of students at his university who experience heart palpitations after drinking an energy drink is less than $0.18$ .   The dean  randomly sampled students from the university who had just had an energy drink and found that $16\\%$ of them had experienced heart palpitations. All conditions for inference were met, and the $p$ -value for the appropriate hypothesis test was $0.30$ .  Which of the following statements is the best interpretation of the $p$ -value?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The probability that the alternative hypothesis is true is\n0.30\n."
+      "text": "The probability that the alternative hypothesis is true is 0.30 0.30 ."
     },
     {
       "letter": "B",
-      "text": "The probability that the null hypothesis is true is\n0.30\n."
+      "text": "The probability that the null hypothesis is true is 0.30 0.30 ."
     },
     {
       "letter": "C",
-      "text": "If the proportion of students who experience heart palpitations at the university is\n18\n%\n, then the probability of observing results of at most\n16\n%\nis\n0.30\n."
+      "text": "If the proportion of students who experience heart palpitations at the university is 18 % 18 % , then the probability of observing results of at most 16 % 16 % is 0.30 0.30 ."
     },
     {
       "letter": "D",
-      "text": "If the proportion of students who experience heart palpitations at the university is\n18\n%\n, then the probability of observing results of at least\n16\n%\nis\n0.30\n."
+      "text": "If the proportion of students who experience heart palpitations at the university is 18 % 18 % , then the probability of observing results of at least 16 % 16 % is 0.30 0.30 ."
     },
     {
       "letter": "E",
-      "text": "The probability of observing\n16\n%\nof students who experience heart palpitations at this university is\n0.30\n."
+      "text": "The probability of observing 16 % 16 % of students who experience heart palpitations at this university is 0.30 0.30 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

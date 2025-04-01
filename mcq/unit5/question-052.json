@@ -1,13 +1,14 @@
 {
   "question_id": "question-052",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Sample Size and Characteristics of Sampling Distributions",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Which of the following statements is NOT true concerning sample size and corresponding characteristics of the sampling distribution for a sample mean?</div>",
+  "question_text": "Which of the following statements is NOT true concerning sample size and corresponding characteristics of the sampling distribution for a sample mean?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "For small\nn\nsample sizes, the sampling distribution may be non-normal and as\nn\nincreases, the sampling distribution becomes closer to an approximately normal distribution."
+      "text": "For small n n sample sizes, the sampling distribution may be non-normal and as n n increases, the sampling distribution becomes closer to an approximately normal distribution."
     },
     {
       "letter": "B",
@@ -26,7 +27,7 @@
       "text": "Regardless of sample size, the sampling distribution may contain a few outliers."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

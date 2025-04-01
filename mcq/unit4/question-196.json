@@ -1,8 +1,9 @@
 {
   "question_id": "question-196",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Conditions Example: Geometric Distribution?",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Allison just started studying for her AP Statistics exam. She is unfamiliar with the material so she simply has to guess at the multiple choice questions. She decided to answer multiple-choice questions with five selections (A, B, C, D, and E) until she got one incorrect.  </div><div class=\"paragraph\">Does this situation involve the geometric distribution?</div>",
+  "question_text": "Allison just started studying for her AP Statistics exam. She is unfamiliar with the material so she simply has to guess at the multiple choice questions. She decided to answer multiple-choice questions with five selections (A, B, C, D, and E) until she got one incorrect. Does this situation involve the geometric distribution?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "No, because there are more than two outcomes since five solutions exist to each question"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

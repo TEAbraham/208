@@ -1,17 +1,18 @@
 {
   "question_id": "question-102",
+  "unit": "Unit 3 | Collecting Data",
   "title": "Sally's Earbud Experiment",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Sally writes a popular technology blog for a teenage audience.  For her next blog she will review two new brands of earbuds.  To help write her review, Sally runs an experiment using twenty of her friends.  </div><div class=\"paragraph\">Which of the following is not a feature of a completely randomized experiment?</div>",
+  "question_text": "Sally writes a popular technology blog for a teenage audience.  For her next blog she will review two new brands of earbuds.  To help write her review, Sally runs an experiment using twenty of her friends. Which of the following is not a feature of a completely randomized experiment?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Sally will randomly assign the two earbud brands to her friends by rolling a six-sided number cube for each friend. If the number cube shows a\n2\n,\n4\n,\nor\n6\n, that friend will get the first brand of earbud. If the number cube shows a\n1\n,\n3\n,\nor\n5\n, that friend will get the second brand of earbud."
+      "text": "Sally will randomly assign the two earbud brands to her friends by rolling a six-sided number cube for each friend.  If the number cube shows a 2 , 4 , 2 , 4 , or 6 6 , that friend will get the first brand of earbud.  If the number cube shows a 1 , 3 , 1 , 3 , or 5 5 , that friend will get the second brand of earbud."
     },
     {
       "letter": "B",
-      "text": "Sally will divide her friends into two groups - one group of friends who listen to more than five hours of music per week and the other group of friends who listen to less than five hours of music per week. Sally will then randomly assign the two earbud brands to each group of friends."
+      "text": "Sally will divide her friends into two groups - one group of friends who listen to more than five hours of music per week and the other group of friends who listen to less than five hours of music per week.  Sally will then randomly assign the two earbud brands to each group of friends."
     },
     {
       "letter": "C",
@@ -26,7 +27,7 @@
       "text": "At the end of the experiment Sally will compare the sound quality ratings for the two types of earbuds."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

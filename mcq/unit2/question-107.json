@@ -1,32 +1,33 @@
 {
   "question_id": "question-107",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Interpret Slope: Girl to Boy Ratio in Classes",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A student was interested in the ratio of boys to girls in classes at her school. She randomly selected <span class=\"tex2jax_process\">$10\\text{ classes}$</span> and found the least squares regression line of this data to be <span class=\"tex2jax_process\">$\\hat { g } = 23.2-1.7b$</span>, where <span class=\"tex2jax_process\">$b$</span> is the number of boys in the classroom,​ and <span class=\"tex2jax_process\">$g$</span> is the number of girls in the classroom.  </div><div class=\"paragraph\">Which of the following best describes the meaning of the slope of the least squares regression line?</div>",
+  "question_text": "A student was interested in the ratio of boys to girls in classes at her school. She randomly selected $10\\text{ classes}$ and found the least squares regression line of this data to be $\\hat { g } = 23.2-1.7b$ , where $b$ is the number of boys in the classroom,​ and $g$ is the number of girls in the classroom. Which of the following best describes the meaning of the slope of the least squares regression line?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "For each additional boy, the estimated number of girls in the classes decreases by\n1.7\n."
+      "text": "For each additional boy, the estimated number of girls in the classes decreases by 1.7 1.7 ."
     },
     {
       "letter": "B",
-      "text": "For each additional boy, the estimated number of girls in the classes increases by\n23.2\n."
+      "text": "For each additional boy, the estimated number of girls in the classes increases by 23.2 23.2 ."
     },
     {
       "letter": "C",
-      "text": "For each additional girl, the estimated number of boys in the classes decreases by\n1.7\n."
+      "text": "For each additional girl, the estimated number of boys in the classes decreases by 1.7 1.7 ."
     },
     {
       "letter": "D",
-      "text": "For each additional girl, the estimated number of boys in the classes increases by\n23.2\n."
+      "text": "For each additional girl, the estimated number of boys in the classes increases by 23.2 23.2 ."
     },
     {
       "letter": "E",
       "text": "The slope has no meaning in this case."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

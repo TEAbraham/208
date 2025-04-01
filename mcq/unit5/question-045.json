@@ -1,32 +1,33 @@
 {
   "question_id": "question-045",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Grass Length",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">In a given neighborhood, residents’ grass has a mean of <span class=\"tex2jax_process\">$3.4\\text{ inches}$</span> with a standard deviation of <span class=\"tex2jax_process\">$1.4\\text{ inches}$</span>, and is normally distributed.</div><div class=\"paragraph\">Assuming the lawns are randomly selected, find the probability of coming across <span class=\"tex2jax_process\">$5\\text{ lawns}$</span> that average more than <span class=\"tex2jax_process\">$5\\text{ inches}$</span> long in this neighborhood.</div>",
+  "question_text": "In a given neighborhood, residents’ grass has a mean of $3.4\\text{ inches}$ with a standard deviation of $1.4\\text{ inches}$ , and is normally distributed. Assuming the lawns are randomly selected, find the probability of coming across $5\\text{ lawns}$ that average more than $5\\text{ inches}$ long in this neighborhood.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.0052"
+      "text": "0.0052 0.0052"
     },
     {
       "letter": "B",
-      "text": "0.9948"
+      "text": "0.9948 0.9948"
     },
     {
       "letter": "C",
-      "text": "0.8729"
+      "text": "0.8729 0.8729"
     },
     {
       "letter": "D",
-      "text": "0.1271"
+      "text": "0.1271 0.1271"
     },
     {
       "letter": "E",
-      "text": "0.0345"
+      "text": "0.0345 0.0345"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-091",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Type I Error: Efficiency Rating of a Boiler",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A new boiler is being advertised to have an efficiency rate of <span class=\"tex2jax_process\">$91\\%$</span>.  The company's  competitor believes the new boiler is producing an efficiency rate of less than <span class=\"tex2jax_process\">$91\\%$</span>.  The company's competitor designs an experiment by randomly selecting 100 of the new boilers to test their efficiency rate.  </div><div class=\"paragraph\">Under which of the following conditions would a Type I error be committed?</div>",
+  "question_text": "A new boiler is being advertised to have an efficiency rate of $91\\%$ .  The company's  competitor believes the new boiler is producing an efficiency rate of less than $91\\%$ .  The company's competitor designs an experiment by randomly selecting 100 of the new boilers to test their efficiency rate. Under which of the following conditions would a Type I error be committed?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The competitor's company concludes that the new boiler's efficiency rate is less than\n91\n%\nwhen it is actually\n91\n%\n."
+      "text": "The competitor's company concludes that the new boiler's efficiency rate is less than 91 % 91 % when it is actually 91 % 91 % ."
     },
     {
       "letter": "B",
-      "text": "The competitor's company concludes that the new boiler's efficiency rate is not less than\n91\n%\nwhen it is actually less than\n91\n%\n."
+      "text": "The competitor's company concludes that the new boiler's efficiency rate is not less than 91 % 91 % when it is actually less than 91 % 91 % ."
     },
     {
       "letter": "C",
-      "text": "The competitor's company concludes that the new boiler's efficiency rate is\n91\n%\nwhen it is actually\n91\n%\n."
+      "text": "The competitor's company concludes that the new boiler's efficiency rate is 91 % 91 % when it is actually 91 % 91 % ."
     },
     {
       "letter": "D",
-      "text": "The competitor's company concludes that the new boiler's efficiency rate is less than\n91\n%\nwhen it is really less than\n91\n%\n."
+      "text": "The competitor's company concludes that the new boiler's efficiency rate is less than 91 % 91 % when it is really less than 91 % 91 % ."
     },
     {
       "letter": "E",
       "text": "A type I error cannot be committed in this situation."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

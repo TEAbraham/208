@@ -1,8 +1,9 @@
 {
   "question_id": "question-130",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Random Variables: Rules for Standard Deviations and Variances",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Given A and B are random variables, which of the following statements is true about the random variable A+B?</div>",
+  "question_text": "Given A and B are random variables, which of the following statements is true about the random variable A+B?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "The variance of A+B is the square root of the sum of the standard deviation of A and the standard deviation of B, but only if A and B are independent."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

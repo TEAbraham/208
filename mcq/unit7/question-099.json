@@ -1,32 +1,33 @@
 {
   "question_id": "question-099",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "LSAT Challenge",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Two competing universities each believed that they better prepared their students for law school.  They hired an independent researcher to create a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for the difference between the mean LSAT scores of the two schools.  Thirty-five pre-law students from each school were randomly selected.  At School <span class=\"tex2jax_process\">$1$</span> the mean LSAT score was <span class=\"tex2jax_process\">$171$</span> with a standard deviation of <span class=\"tex2jax_process\">$14$</span>.  At School <span class=\"tex2jax_process\">$2$</span> the mean LSAT score was <span class=\"tex2jax_process\">$168$</span> with a standard deviation of <span class=\"tex2jax_process\">$11$</span>. </div><div class=\"paragraph\">Using Table B for your critical value, which is the correct <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for the difference between the mean LSAT scores of the two schools?</div>",
+  "question_text": "Two competing universities each believed that they better prepared their students for law school.  They hired an independent researcher to create a $95\\%$ confidence interval for the difference between the mean LSAT scores of the two schools.  Thirty-five pre-law students from each school were randomly selected.  At School $1$ the mean LSAT score was $171$ with a standard deviation of $14$ .  At School $2$ the mean LSAT score was $168$ with a standard deviation of $11$ . Using Table B for your critical value, which is the correct $95\\%$ confidence interval for the difference between the mean LSAT scores of the two schools?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "3\n±\n3.01"
+      "text": "3 ± 3.01 3 ± 3.01"
     },
     {
       "letter": "B",
-      "text": "3\n±\n6.15"
+      "text": "3 ± 6.15 3 ± 6.15"
     },
     {
       "letter": "C",
-      "text": "3\n±\n18.49"
+      "text": "3 ± 18.49 3 ± 18.49"
     },
     {
       "letter": "D",
-      "text": "3\n±\n1.73"
+      "text": "3 ± 1.73 3 ± 1.73"
     },
     {
       "letter": "E",
-      "text": "3\n±\n5.11"
+      "text": "3 ± 5.11 3 ± 5.11"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

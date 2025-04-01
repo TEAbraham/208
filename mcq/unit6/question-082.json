@@ -1,32 +1,33 @@
 {
   "question_id": "question-082",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Power and Type II Error",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A significance test was conducted using a two-sided alternate hypothesis and a significance level of <span class=\"tex2jax_process\">$\\alpha=0.05$</span>.  The power of the test was calculated to be <span class=\"tex2jax_process\">$0.92$</span>.<br>​<br>Which of the following gives the probability of making a type II error on this test? </div>",
+  "question_text": "A significance test was conducted using a two-sided alternate hypothesis and a significance level of $\\alpha=0.05$ .  The power of the test was calculated to be $0.92$ . ​ Which of the following gives the probability of making a type II error on this test?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.025"
+      "text": "0.025 0.025"
     },
     {
       "letter": "B",
-      "text": "0.04"
+      "text": "0.04 0.04"
     },
     {
       "letter": "C",
-      "text": "0.05"
+      "text": "0.05 0.05"
     },
     {
       "letter": "D",
-      "text": "0.08"
+      "text": "0.08 0.08"
     },
     {
       "letter": "E",
-      "text": "0.92"
+      "text": "0.92 0.92"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

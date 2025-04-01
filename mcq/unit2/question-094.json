@@ -1,8 +1,9 @@
 {
   "question_id": "question-094",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Speed vs. Tickets",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"paragraph\">Researchers surveyed a group of motorists, documenting their average speeds and recording the lifetime total number of speeding tickets each motorist had received. The data is recorded in the scatterplot above.  </div><div class=\"paragraph\">The point <span class=\"tex2jax_process\">$(59,10)$</span> can best be described as</div>",
+  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved. Researchers surveyed a group of motorists, documenting their average speeds and recording the lifetime total number of speeding tickets each motorist had received. The data is recorded in the scatterplot above. The point $(59,10)$ can best be described as",
   "image_files": [
     "images/question-094-img1.jpg"
   ],
@@ -13,7 +14,7 @@
     },
     {
       "letter": "B",
-      "text": "An influential point that greatly changes the slope, but not a regression outlier."
+      "text": "An influential point that greatly changes the slope,  but not a regression outlier."
     },
     {
       "letter": "C",
@@ -28,7 +29,7 @@
       "text": "Unable to tell."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

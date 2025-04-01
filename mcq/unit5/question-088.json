@@ -1,32 +1,33 @@
 {
   "question_id": "question-088",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Sampling Distribution of a Sample Mean: Roll That Dice",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">The roll of a six-sided die has a uniform distribution with a mean outcome of <span class=\"tex2jax_process\">$3.5$</span> and a standard deviation of approximately <span class=\"tex2jax_process\">$1.708$</span>.  </div><div class=\"paragraph\">Which of the following best describes the sampling distribution of the sample means when the same dice is rolled <span class=\"tex2jax_process\">$48$</span> times?</div>",
+  "question_text": "The roll of a six-sided die has a uniform distribution with a mean outcome of $3.5$ and a standard deviation of approximately $1.708$ . Which of the following best describes the sampling distribution of the sample means when the same dice is rolled $48$ times?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Uniform with a\nμ\n¯¯¯\nx\n=\n3.5\nand a\nσ\n¯¯¯\nx\n=\n1.708"
+      "text": "Uniform with a μ ¯ ¯ ¯ x = 3.5 μ x ¯ = 3.5 and a σ ¯ ¯ ¯ x = 1.708 σ x ¯ = 1.708"
     },
     {
       "letter": "B",
-      "text": "Uniform with a\nμ\n¯¯¯\nx\n=\n3.5\nand a\nσ\n¯¯¯\nx\n=\n1.708\n√\n48"
+      "text": "Uniform with a μ ¯ ¯ ¯ x = 3.5 μ x ¯ = 3.5 and a σ ¯ ¯ ¯ x = 1.708 √ 48 σ x ¯ = 1.708 48"
     },
     {
       "letter": "C",
-      "text": "Normal with a\nμ\n¯¯¯\nx\n=\n3.5\nand a\nσ\n¯¯¯\nx\n=\n1.708\n√\n48"
+      "text": "Normal with a μ ¯ ¯ ¯ x = 3.5 μ x ¯ = 3.5 and a σ ¯ ¯ ¯ x = 1.708 √ 48 σ x ¯ = 1.708 48"
     },
     {
       "letter": "D",
-      "text": "Approximately normal with a\nμ\n¯¯¯\nx\n=\n3.5\nand a\nσ\n¯¯¯\nx\n=\n1.708"
+      "text": "Approximately normal with a μ ¯ ¯ ¯ x = 3.5 μ x ¯ = 3.5 and a σ ¯ ¯ ¯ x = 1.708 σ x ¯ = 1.708"
     },
     {
       "letter": "E",
-      "text": "Approximately normal with a\nμ\n¯¯¯\nx\n=\n3.5\nand a\nσ\n¯¯¯\nx\n=\n1.708\n√\n48"
+      "text": "Approximately normal with a μ ¯ ¯ ¯ x = 3.5 μ x ¯ = 3.5 and a σ ¯ ¯ ¯ x = 1.708 √ 48 σ x ¯ = 1.708 48"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

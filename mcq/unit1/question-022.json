@@ -1,21 +1,22 @@
 {
   "question_id": "question-022",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Dental Health",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Which of the following situations deal with sample proportions?</div>",
+  "question_text": "Which of the following situations deal with sample proportions?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Survey\n10\nsubjects, record how many brush their teeth daily."
+      "text": "Survey 10 10 subjects, record how many brush their teeth daily."
     },
     {
       "letter": "B",
-      "text": "Survey\n10\nsubjects, record the number of cavities they have."
+      "text": "Survey 10 10 subjects, record the number of cavities they have."
     },
     {
       "letter": "C",
-      "text": "Survey\n10\nsubjects, record the percent who brush their teeth daily."
+      "text": "Survey 10 10 subjects, record the percent who brush their teeth daily."
     },
     {
       "letter": "D",
@@ -23,10 +24,10 @@
     },
     {
       "letter": "E",
-      "text": "None of the responses are correct since\n10\nsubjects is too small a sample size for sample proportions."
+      "text": "None of the responses are correct since 10 10 subjects is too small a sample size for sample proportions."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

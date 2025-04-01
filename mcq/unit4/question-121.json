@@ -1,32 +1,33 @@
 {
   "question_id": "question-121",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Law of Large Numbers",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">From a large population, you take a random sample of size <span class=\"tex2jax_process\">$n = 30$</span> and obtain a sample mean <span class=\"tex2jax_process\">$\\bar{x} = 21.34$</span> and <span class=\"tex2jax_process\">$s = 3.2$</span>.  </div><div class=\"paragraph\">You add additional members of the population to this sample.  </div><div class=\"paragraph\">What does the “law of large numbers” tell us about the mean and standard deviation of this ever-increasing sample?</div>",
+  "question_text": "From a large population, you take a random sample of size $n = 30$ and obtain a sample mean $\\bar{x} = 21.34$ and $s = 3.2$ . You add additional members of the population to this sample. What does the “law of large numbers” tell us about the mean and standard deviation of this ever-increasing sample?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "As\nn\nincreases, the expected values of the sample mean and sample standard deviation will approach the population mean and population standard deviation."
+      "text": "As n n increases, the expected values of the sample mean and sample standard deviation will approach the population mean and population standard deviation."
     },
     {
       "letter": "B",
-      "text": "As\nn\nincreases, the expected value of the sample mean will approach the population mean."
+      "text": "As n n increases, the expected value of the sample mean will approach the population mean."
     },
     {
       "letter": "C",
-      "text": "As\nn\nincreases, the expected value of\ns\nwill be\nσ\n."
+      "text": "As n n increases, the expected value of s s will be σ σ ."
     },
     {
       "letter": "D",
-      "text": "As\nn\nincreases, the distribution will become more and more skewed."
+      "text": "As n n increases, the distribution will become more and more skewed."
     },
     {
       "letter": "E",
-      "text": "As\nn\nincreases, the values of the sample mean\n¯\nx\nand\ns\nwill vary significantly."
+      "text": "As n n increases, the values of the sample mean ¯ x x ¯ and s s will vary significantly."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

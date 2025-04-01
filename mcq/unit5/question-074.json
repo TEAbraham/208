@@ -1,32 +1,33 @@
 {
   "question_id": "question-074",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "When Does the CLT Apply?",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Each answer choice describes the shape of the population distribution and the sample size, <span class=\"tex2jax_process\">$n$</span> for a sampling distribution.  </div><div class=\"paragraph\">We are not assured of a nearly normal sampling distribution for which choice? </div>",
+  "question_text": "Each answer choice describes the shape of the population distribution and the sample size, $n$ for a sampling distribution. We are not assured of a nearly normal sampling distribution for which choice?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Nearly normal population distribution;\nn\n=\n12"
+      "text": "Nearly normal population distribution; n = 12 n = 12"
     },
     {
       "letter": "B",
-      "text": "Bimodal population distribution;\nn\n=\n37"
+      "text": "Bimodal population distribution; n = 37 n = 37"
     },
     {
       "letter": "C",
-      "text": "Nearly normal population distribution;\nn\n=\n48"
+      "text": "Nearly normal population distribution; n = 48 n = 48"
     },
     {
       "letter": "D",
-      "text": "Skewed left population distribution;\nn\n=\n83"
+      "text": "Skewed left population distribution; n = 83 n = 83"
     },
     {
       "letter": "E",
-      "text": "Bimodal population distribution;\nn\n=\n5"
+      "text": "Bimodal population distribution; n = 5 n = 5"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

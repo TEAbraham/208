@@ -1,8 +1,9 @@
 {
   "question_id": "question-003",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Which is Random?",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Lots of things happen to us in daily life which may or may not be random.  Of the following <span class=\"tex2jax_process\">$5$</span> situations, which would you say <em>is</em> a random event?</div>",
+  "question_text": "Lots of things happen to us in daily life which may or may not be random.  Of the following $5$ situations, which would you say is a random event?",
   "image_files": [],
   "choices": [
     {
@@ -11,7 +12,7 @@
     },
     {
       "letter": "B",
-      "text": "The television show on ABC tonight at\n9\npm."
+      "text": "The television show on  ABC tonight at 9 9 pm."
     },
     {
       "letter": "C",
@@ -26,7 +27,7 @@
       "text": "A baseball player's batting average."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-074",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Solve Linear Regression Model",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A linear regression model is given as <span class=\"tex2jax_process\">$\\hat{y}=-12+2.5x$</span>.</div><div class=\"paragraph\">If the explanatory variable is given as having a value of <span class=\"tex2jax_process\">$6$</span>, find the value of the response variable.</div>",
+  "question_text": "A linear regression model is given as $\\hat{y}=-12+2.5x$ . If the explanatory variable is given as having a value of $6$ , find the value of the response variable.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "3"
+      "text": "3 3"
     },
     {
       "letter": "B",
-      "text": "27"
+      "text": "27 27"
     },
     {
       "letter": "C",
-      "text": "7.2"
+      "text": "7.2 7.2"
     },
     {
       "letter": "D",
-      "text": "6"
+      "text": "6 6"
     },
     {
       "letter": "E",
-      "text": "0"
+      "text": "0 0"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

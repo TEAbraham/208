@@ -1,32 +1,33 @@
 {
   "question_id": "question-069",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Continuous Uniform Density",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Consider a continuous uniform density function such that <span class=\"tex2jax_process\">$0 &lt; X &lt; 2$</span>.  </div><div class=\"paragraph\">Calculate the probability <span class=\"tex2jax_process\">$X$</span> between <span class=\"tex2jax_process\">$0.71$</span> and <span class=\"tex2jax_process\">$1.33$</span> (inclusive).</div>",
+  "question_text": "Consider a continuous uniform density function such that $0 < X < 2$ . Calculate the probability $X$ between $0.71$ and $1.33$ (inclusive).",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.165"
+      "text": "0.165 0.165"
     },
     {
       "letter": "B",
-      "text": "0.31"
+      "text": "0.31 0.31"
     },
     {
       "letter": "C",
-      "text": "0.5"
+      "text": "0.5 0.5"
     },
     {
       "letter": "D",
-      "text": "0.62"
+      "text": "0.62 0.62"
     },
     {
       "letter": "E",
-      "text": "0.665"
+      "text": "0.665 0.665"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

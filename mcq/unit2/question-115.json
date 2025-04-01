@@ -1,32 +1,33 @@
 {
   "question_id": "question-115",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Finding Equation of an LSRL Using Means and Standard Deviations",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Consider a set of <span class=\"tex2jax_process\">$n$</span> ordered pairs given by:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$({ x }_{ 1 },y_{ 1 }), ({ x }_{ 2 },y_{ 2 }), ({ x }_{ 3 },y_{ 3 }),..., ({ x }_{ n },y_{ n })$$</div>  </div><div class=\"paragraph\">The mean and standard deviation of the <span class=\"tex2jax_process\">$x$</span>-values are:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$\\bar { x } =4, \\quad {s }_{ x }=8$$</div>  </div><div class=\"paragraph\">The mean and standard deviation of the <span class=\"tex2jax_process\">$y$</span>-values are:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$\\bar { y } =12, \\quad { s }_{ y }=6$$</div>  </div><div class=\"paragraph\">Which of the following could represent the least squares regression line?</div>",
+  "question_text": "Consider a set of $n$ ordered pairs given by: $$({ x }_{ 1 },y_{ 1 }), ({ x }_{ 2 },y_{ 2 }), ({ x }_{ 3 },y_{ 3 }),..., ({ x }_{ n },y_{ n })$$ The mean and standard deviation of the $x$ -values are: $$\\bar { x } =4, \\quad {s }_{ x }=8$$ The mean and standard deviation of the $y$ -values are: $$\\bar { y } =12, \\quad { s }_{ y }=6$$ Which of the following could represent the least squares regression line?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "^\ny\n=\n11.2\n+\n0.2\nx"
+      "text": "^ y = 11.2 + 0.2 x y ^ = 11.2 + 0.2 x"
     },
     {
       "letter": "B",
-      "text": "^\ny\n=\n8\n+\n0.75\nx"
+      "text": "^ y = 8 + 0.75 x y ^ = 8 + 0.75 x"
     },
     {
       "letter": "C",
-      "text": "^\ny\n=\n4\n+\n1.333\nx"
+      "text": "^ y = 4 + 1.333 x y ^ = 4 + 1.333 x"
     },
     {
       "letter": "D",
-      "text": "^\ny\n=\n2\nx"
+      "text": "^ y = 2 x y ^ = 2 x"
     },
     {
       "letter": "E",
-      "text": "^\ny\n=\n4\n+\n2\nx"
+      "text": "^ y = 4 + 2 x y ^ = 4 + 2 x"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

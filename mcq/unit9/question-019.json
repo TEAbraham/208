@@ -1,32 +1,33 @@
 {
   "question_id": "question-019",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Find the Upper Bound",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A statistics student asks <span class=\"tex2jax_process\">$28$</span> other students to build paper airplanes without specific instructions as to size.  He asks them to   record both the length of the planes and the length of the flights.  He wants to create a confidence interval for the slope of the regression equation to see if the length of plane is linearly related to the length of flight .  You are given a regression analysis computer output table below.</div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Predictor</th><th scope=\"col\">Coef</th><th scope=\"col\">SE Coef</th><th scope=\"col\">T</th><th scope=\"col\">P</th></tr></thead><tbody><tr><td>Constant</td><td><span class=\"tex2jax_process\">$0.421$</span></td><td><span class=\"tex2jax_process\">$0.251$</span></td><td><span class=\"tex2jax_process\">$4.05$</span></td><td><span class=\"tex2jax_process\">$0.0000$</span></td></tr><tr><td>Plane Length</td><td><span class=\"tex2jax_process\">$0.263$</span></td><td><span class=\"tex2jax_process\">$0.156$</span></td><td><span class=\"tex2jax_process\">$3.11$</span></td><td><span class=\"tex2jax_process\">$0.0000$</span></td></tr></tbody></table></div><div class=\"paragraph\">Assuming that all conditions have been verified and ignoring units, find the upper bound of the <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for this data.</div>",
+  "question_text": "A statistics student asks $28$ other students to build paper airplanes without specific instructions as to size.  He asks them to   record both the length of the planes and the length of the flights.  He wants to create a confidence interval for the slope of the regression equation to see if the length of plane is linearly related to the length of flight .  You are given a regression analysis computer output table below. Predictor Coef SE Coef T P Constant $0.421$ $0.251$ $4.05$ $0.0000$ Plane Length $0.263$ $0.156$ $3.11$ $0.0000$ Assuming that all conditions have been verified and ignoring units, find the upper bound of the $95\\%$ confidence interval for this data.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.569"
+      "text": "0.569 0.569"
     },
     {
       "letter": "B",
-      "text": "0.697"
+      "text": "0.697 0.697"
     },
     {
       "letter": "C",
-      "text": "0.584"
+      "text": "0.584 0.584"
     },
     {
       "letter": "D",
-      "text": "0.742"
+      "text": "0.742 0.742"
     },
     {
       "letter": "E",
-      "text": "0.779"
+      "text": "0.779 0.779"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

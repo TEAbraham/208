@@ -1,8 +1,9 @@
 {
   "question_id": "question-014",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Dog Size and Adoption Rates: Graphical Displays",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Are small, medium, and large sized dogs adopted from animal shelters at the same rate?  Rebecca surveyed several rescue organizations about recent dog adoptions and was able to gather the data displayed below.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Small</th><th scope=\"col\">Medium</th><th scope=\"col\">Large</th></tr></thead><tbody><tr><td>Number of Dogs Adopted</td><td>28</td><td>43</td><td>35</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Which of the following graphs appropriately displays the relative frequency of each dog size for adopted dogs?</div>",
+  "question_text": "Are small, medium, and large sized dogs adopted from animal shelters at the same rate?  Rebecca surveyed several rescue organizations about recent dog adoptions and was able to gather the data displayed below. Small Medium Large Number of Dogs Adopted 28 43 35 Which of the following graphs appropriately displays the relative frequency of each dog size for adopted dogs?",
   "image_files": [
     "images/question-014-img1.PNG",
     "images/question-014-img2.PNG",
@@ -32,7 +33,7 @@
       "text": "Created for Albert.io. Copyright 2016. All rights reserved."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

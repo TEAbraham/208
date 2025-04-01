@@ -1,32 +1,33 @@
 {
   "question_id": "question-048",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Probability Greater Calorie Savings",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A national Italian restaurant has created a healthy option to one of its most popular dishes.  </div><div class=\"paragraph\">The original dish’s portion size has a mean <span class=\"tex2jax_process\">$\\mu$</span> of <span class=\"tex2jax_process\">$1{,}500\\text{ calories}$</span> with a standard deviation of <span class=\"tex2jax_process\">$50\\text{ calories}$</span>, and the healthy alternative’s portion size has a mean <span class=\"tex2jax_process\">$\\mu$</span> of <span class=\"tex2jax_process\">$950\\text{ calories}$</span> with standard deviation of <span class=\"tex2jax_process\">$25\\text{ calories}$</span>. </div><div class=\"paragraph\">The resulting normal distribution of the calorie savings by choosing the healthy option over the original dish has a mean <span class=\"tex2jax_process\">$\\mu$</span> of <span class=\"tex2jax_process\">$550\\text{ calories}$</span> saved and standard deviation <span class=\"tex2jax_process\">$\\sigma$</span> of <span class=\"tex2jax_process\">$55.9\\text{ calories}$</span>. John and Mary go to the restaurant, and both order the healthy option.  </div><div class=\"paragraph\">What is the probability that their average calorie savings is equal to or greater than <span class=\"tex2jax_process\">$600\\text{ calories}$</span> when John and Mary both opt for the healthier alternative?</div>",
+  "question_text": "A national Italian restaurant has created a healthy option to one of its most popular dishes. The original dish’s portion size has a mean $\\mu$ of $1{,}500\\text{ calories}$ with a standard deviation of $50\\text{ calories}$ , and the healthy alternative’s portion size has a mean $\\mu$ of $950\\text{ calories}$ with standard deviation of $25\\text{ calories}$ . The resulting normal distribution of the calorie savings by choosing the healthy option over the original dish has a mean $\\mu$ of $550\\text{ calories}$ saved and standard deviation $\\sigma$ of $55.9\\text{ calories}$ . John and Mary go to the restaurant, and both order the healthy option. What is the probability that their average calorie savings is equal to or greater than $600\\text{ calories}$ when John and Mary both opt for the healthier alternative?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.04"
+      "text": "0.04 0.04"
     },
     {
       "letter": "B",
-      "text": "0.1"
+      "text": "0.1 0.1"
     },
     {
       "letter": "C",
-      "text": "0.19"
+      "text": "0.19 0.19"
     },
     {
       "letter": "D",
-      "text": "0.81"
+      "text": "0.81 0.81"
     },
     {
       "letter": "E",
-      "text": "0.9"
+      "text": "0.9 0.9"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

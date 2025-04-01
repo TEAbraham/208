@@ -1,21 +1,22 @@
 {
   "question_id": "question-002",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Which is Not Random?",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Five situations are described below.  Which one do you think was <em>not</em> a result of chance or random variation?</div>",
+  "question_text": "Five situations are described below.  Which one do you think was not a result of chance or random variation?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "You and\n2\nfriends each buy a new tablet and all\n3\nof them turn out to be defective in the same way."
+      "text": "You and 2 2 friends each buy a new tablet and all 3 3 of them turn out to be defective in the same way."
     },
     {
       "letter": "B",
-      "text": "You flip a coin\n10\ntimes and the result is\n9\nheads and\n1\ntail."
+      "text": "You flip a coin 10 10 times and the result is 9 9 heads and 1 1 tail."
     },
     {
       "letter": "C",
-      "text": "You drive to a store some distance away and you notice that all\n12\ntraffic lights you hit were red."
+      "text": "You drive to a store some distance away and you notice that all 12 12 traffic lights you hit were red."
     },
     {
       "letter": "D",
@@ -23,10 +24,10 @@
     },
     {
       "letter": "E",
-      "text": "You and\n3\nfriends each by a new fitness watch, all the same brand, and they all work."
+      "text": "You and 3 3 friends each by a new fitness watch, all the same brand, and they all work."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

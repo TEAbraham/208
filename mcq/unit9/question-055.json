@@ -1,32 +1,33 @@
 {
   "question_id": "question-055",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Regression Computer Output",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Suppose bivariate data was collected on NFL quarterbacks’ fantasy football points during the current year (<span class=\"tex2jax_process\">$Y$</span>) compared to the fantasy points of the year before (<span class=\"tex2jax_process\">$X$</span>).  </div><div class=\"paragraph\">Twenty quarterbacks were selected for this data. Summary data is as follows for the linear equation <span class=\"tex2jax_process\">$y = a+bx$</span>.</div><blockquote><div class=\"paragraph\"><span class=\"tex2jax_process\">$b = 0.6776$</span><br><span class=\"tex2jax_process\">$a = 0.2305$</span><br><span class=\"tex2jax_process\">${ SE }_{ b }= 0.08807$</span>*  </div></blockquote><div class=\"paragraph\">A <span class=\"tex2jax_process\">$99\\%$</span> linear regression <span class=\"tex2jax_process\">$T$</span>-interval</div>",
+  "question_text": "Suppose bivariate data was collected on NFL quarterbacks’ fantasy football points during the current year ( $Y$ ) compared to the fantasy points of the year before ( $X$ ). Twenty quarterbacks were selected for this data. Summary data is as follows for the linear equation $y = a+bx$ . $b = 0.6776$ $a = 0.2305$ ${ SE }_{ b }= 0.08807$ * A $99\\%$ linear regression $T$ -interval",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Captures\n1\n, which fails to give evidence of any positive correlation between current year and previous year fantasy points."
+      "text": "Captures 1 1 , which fails to give evidence of any positive correlation between current year and previous year fantasy points."
     },
     {
       "letter": "B",
-      "text": "Does not capture\n0\n, failing to give evidence of a positive linear relationship."
+      "text": "Does not capture 0 0 , failing to give evidence of a positive linear relationship."
     },
     {
       "letter": "C",
-      "text": "Does not capture\n1\n, failing to give evidence of any positive linear correlation between current year and previous year fantasy points."
+      "text": "Does not capture 1 1 , failing to give evidence of any positive linear correlation between current year and previous year fantasy points."
     },
     {
       "letter": "D",
-      "text": "Captures\n0\n, failing to give evidence of a positive linear relationship."
+      "text": "Captures 0 0 , failing to give evidence of a positive linear relationship."
     },
     {
       "letter": "E",
-      "text": "Is entirely above\n0\n, giving evidence of a positive linear relationship."
+      "text": "Is entirely above 0 0 , giving evidence of a positive linear relationship."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,8 +1,9 @@
 {
   "question_id": "question-163",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Two-Way Table: Lions and Tigers and Bears",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">The Bears and Tigers each score a mean of <span class=\"tex2jax_process\">$50$</span> points per game.  </div><div class=\"paragraph\"><u>Points Scored Per Game</u>\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Points Scored Per Game</th><th scope=\"col\">Mean</th><th scope=\"col\">Median</th></tr></thead><tbody><tr><td>Bears</td><td>50</td><td>40</td></tr><tr><td>Tigers</td><td>50</td><td>50</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Which of the following statements is most likely true?</div>",
+  "question_text": "The Bears and Tigers each score a mean of 50 points per game. Points Scored Per Game Points Scored Per Game Mean Median Bears 50 40 Tigers 50 50 Which of the following statements is most likely true?",
   "image_files": [
     "images/question-163-img1.png"
   ],
@@ -28,7 +29,7 @@
       "text": "The Tigers distribution has a negative skew (left skewed)."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

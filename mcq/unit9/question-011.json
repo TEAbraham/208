@@ -1,32 +1,33 @@
 {
   "question_id": "question-011",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "A Residual",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A firm was conducting a study and found a linear regression model of <span class=\"tex2jax_process\">$\\hat{y}=42-6x$</span>.  Find the residual of the point <span class=\"tex2jax_process\">$(8, 3)$</span>.</div>",
+  "question_text": "A firm was conducting a study and found a linear regression model of $\\hat{y}=42-6x$ .  Find the residual of the point $(8, 3)$ .",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "−\n9"
+      "text": "− 9 − 9"
     },
     {
       "letter": "B",
-      "text": "9"
+      "text": "9 9"
     },
     {
       "letter": "C",
-      "text": "−\n6"
+      "text": "− 6 − 6"
     },
     {
       "letter": "D",
-      "text": "6"
+      "text": "6 6"
     },
     {
       "letter": "E",
-      "text": "24"
+      "text": "24 24"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

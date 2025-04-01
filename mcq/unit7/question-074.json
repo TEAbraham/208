@@ -1,8 +1,9 @@
 {
   "question_id": "question-074",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "You're Applying to How Many Colleges? A Test",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Conventional wisdom says that high school seniors should apply to about <span class=\"tex2jax_process\">$6-8\\text{ colleges}$</span>. Some sources recommend applying to as many as <span class=\"tex2jax_process\">$10\\text{ colleges}$</span>. Talia thinks that the actual average number of colleges that seniors at her school have applied to this year is greater than <span class=\"tex2jax_process\">$10$</span>, so she decides to do a study and perform a one-sample <span class=\"tex2jax_process\">$t$</span>-test for the population mean.  </div><div class=\"paragraph\">The results of Talia's test will not be reliable if which of the following is found to be true? </div>",
+  "question_text": "Conventional wisdom says that high school seniors should apply to about $6-8\\text{ colleges}$ . Some sources recommend applying to as many as $10\\text{ colleges}$ . Talia thinks that the actual average number of colleges that seniors at her school have applied to this year is greater than $10$ , so she decides to do a study and perform a one-sample $t$ -test for the population mean. The results of Talia's test will not be reliable if which of the following is found to be true?",
   "image_files": [],
   "choices": [
     {
@@ -23,10 +24,10 @@
     },
     {
       "letter": "E",
-      "text": "Talia uses a sample size of\n20\nand finds that the sample contains a few very high outliers."
+      "text": "Talia uses a sample size of 20 20 and finds that the sample contains a few very high outliers."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

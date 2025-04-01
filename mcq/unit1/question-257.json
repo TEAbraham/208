@@ -1,32 +1,33 @@
 {
   "question_id": "question-257",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "An Outlier on the High End of Normal",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">An outlier is an observation that falls more than <span class=\"tex2jax_process\">$1.5$</span> IQR's above the third quartile or more than <span class=\"tex2jax_process\">$1.5$</span> IQR's below quartile I.  </div><div class=\"paragraph\">According to this definition, which of the following <span class=\"tex2jax_process\">$z$</span>-scores is the smallest <span class=\"tex2jax_process\">$z$</span>-score that would correspond to an outlier on the high end of a standard normal distribution?</div>",
+  "question_text": "An outlier is an observation that falls more than $1.5$ IQR's above the third quartile or more than $1.5$ IQR's below quartile I. According to this definition, which of the following $z$ -scores is the smallest $z$ -score that would correspond to an outlier on the high end of a standard normal distribution?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "2.00"
+      "text": "2.00 2.00"
     },
     {
       "letter": "B",
-      "text": "2.25"
+      "text": "2.25 2.25"
     },
     {
       "letter": "C",
-      "text": "2.50"
+      "text": "2.50 2.50"
     },
     {
       "letter": "D",
-      "text": "2.75"
+      "text": "2.75 2.75"
     },
     {
       "letter": "E",
-      "text": "3.15"
+      "text": "3.15 3.15"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

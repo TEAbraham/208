@@ -1,32 +1,33 @@
 {
   "question_id": "question-090",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Waldo's Bags of Candy",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Snack-sized bags of fruit-flavored candy are manufactured so that the weights are nearly normally distributed with a mean of <span class=\"tex2jax_process\">$64\\text{ grams}$</span> and a standard deviation of <span class=\"tex2jax_process\">$1.5\\text{ grams}$</span>.  It is reasonable to assume that the bags are packaged randomly for shipment to stores.  </div><div class=\"paragraph\">Waldo purchased <span class=\"tex2jax_process\">$12$</span> snack-sized bags of this fruit-flavored candy and found that the average weight of these bags was <span class=\"tex2jax_process\">$63\\text{ grams}$</span>.  </div><div class=\"paragraph\">Does Waldo have reason to believe he was cheated?  </div><div class=\"paragraph\">Calculate the probability of obtaining a sample mean less than or equal to <span class=\"tex2jax_process\">$63\\text{ grams}$</span>.</div>",
+  "question_text": "Snack-sized bags of fruit-flavored candy are manufactured so that the weights are nearly normally distributed with a mean of $64\\text{ grams}$ and a standard deviation of $1.5\\text{ grams}$ .  It is reasonable to assume that the bags are packaged randomly for shipment to stores. Waldo purchased $12$ snack-sized bags of this fruit-flavored candy and found that the average weight of these bags was $63\\text{ grams}$ . Does Waldo have reason to believe he was cheated? Calculate the probability of obtaining a sample mean less than or equal to $63\\text{ grams}$ .",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.01"
+      "text": "0.01 0.01"
     },
     {
       "letter": "B",
-      "text": "0.25"
+      "text": "0.25 0.25"
     },
     {
       "letter": "C",
-      "text": "0.67"
+      "text": "0.67 0.67"
     },
     {
       "letter": "D",
-      "text": "0.99"
+      "text": "0.99 0.99"
     },
     {
       "letter": "E",
       "text": "The conditions for using the normal model are not met in this situation."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-077",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Exponential Regression on a Scatterplot",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">If the data in a scatterplot appears to be exponential form, the best way to transform the data into linear form is to</div>",
+  "question_text": "If the data in a scatterplot appears to be exponential form, the best way to transform the data into linear form is to",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Plot the log of the values of the independent variable (\nx\n) against the dependent variable (\ny\n)."
+      "text": "Plot the log of the values of the independent variable ( x x ) against the dependent variable ( y y )."
     },
     {
       "letter": "B",
-      "text": "Plot the values of the independent variable (\nx\n) against the log of the values of the dependent variable (\ny\n)."
+      "text": "Plot the values of the independent variable ( x x ) against the log of the values of the dependent variable ( y y )."
     },
     {
       "letter": "C",
-      "text": "Plot the log of the values of the independent variable (\nx\n) against the log of the values of the dependent variable (\ny\n)."
+      "text": "Plot the log of the values of the independent variable ( x x ) against the log of the values of the dependent variable ( y y )."
     },
     {
       "letter": "D",
-      "text": "Plot the values of the independent variable (\nx\n) against the square root of the values of the dependent variable (\ny\n)."
+      "text": "Plot the values of the independent variable ( x x ) against the square root of the values of the dependent variable ( y y )."
     },
     {
       "letter": "E",
-      "text": "Plot the values of the independent variable (\nx\n) against the reciprocal of the values of the dependent variable (\ny\n)."
+      "text": "Plot the values of the independent variable ( x x ) against the reciprocal of the values of the dependent variable ( y y )."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

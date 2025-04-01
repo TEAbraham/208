@@ -1,32 +1,33 @@
 {
   "question_id": "question-020",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "$t$-distribution vs. Normal Distribution",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">In what way is the <span class=\"tex2jax_process\">$t$</span>-distribution different from the standard normal distribution?</div>",
+  "question_text": "In what way is the $t$ -distribution different from the standard normal distribution?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "There are many\nt\n-distributions based on the number of degrees of freedom, but only one standard normal distribution."
+      "text": "There are many t t -distributions based on the number of degrees of freedom, but only one standard normal distribution."
     },
     {
       "letter": "B",
-      "text": "The\nt\n-distribution cannot be used to determine if an observed statistic is unusual, but the standard normal distribution can be used in this way."
+      "text": "The t t -distribution cannot be used to determine if an observed statistic is unusual, but the standard normal distribution can be used in this way."
     },
     {
       "letter": "C",
-      "text": "The area under the curve of the\nt\n-distribution changes as the number of degrees of freedom changes. The area under the standard normal curve is always\n1\n."
+      "text": "The area under the curve of the t t -distribution changes as the number of degrees of freedom changes.  The area under the standard normal curve is always 1 1 ."
     },
     {
       "letter": "D",
-      "text": "The\nt\n-distribution is not useful in constructing confidence intervals."
+      "text": "The t t -distribution is not useful in constructing confidence intervals."
     },
     {
       "letter": "E",
-      "text": "The\nt\n-distribution is not useful in conducting hypothesis tests."
+      "text": "The t t -distribution is not useful in conducting hypothesis tests."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

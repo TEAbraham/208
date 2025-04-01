@@ -1,8 +1,9 @@
 {
   "question_id": "question-060",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Sports Drinks: Choosing a Hypothesis Test",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Suppose a random survey was taken in a large urban high school to determine if vending machine location affects whether sports drinks are more likely to be ordered.  </div><div class=\"paragraph\">A large single sample of size n = <span class=\"tex2jax_process\">$500$</span> was taken over the last week. In the cafeteria, <span class=\"tex2jax_process\">$78$</span> of the <span class=\"tex2jax_process\">$165$</span> drinks purchased were sports drinks. In the gym, <span class=\"tex2jax_process\">$98$</span> of the <span class=\"tex2jax_process\">$157$</span> drinks purchased were sports drinks, and in the auditorium, <span class=\"tex2jax_process\">$54$</span> of the <span class=\"tex2jax_process\">$178$</span> drinks purchased were sports drinks.  </div><div class=\"paragraph\">Which hypothesis test could be used to determine whether a relationship exists between location and drink preference?</div>",
+  "question_text": "Suppose a random survey was taken in a large urban high school to determine if vending machine location affects whether sports drinks are more likely to be ordered. A large single sample of size n = $500$ was taken over the last week. In the cafeteria, $78$ of the $165$ drinks purchased were sports drinks. In the gym, $98$ of the $157$ drinks purchased were sports drinks, and in the auditorium, $54$ of the $178$ drinks purchased were sports drinks. Which hypothesis test could be used to determine whether a relationship exists between location and drink preference?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "Chi-squared test for normality."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

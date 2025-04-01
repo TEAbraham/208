@@ -1,8 +1,9 @@
 {
   "question_id": "question-201",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Definition: True Statements of Standard Normal Distribution",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Which of the following statements is/are true concerning the standard normal distribution?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> It is symmetric.  </div><div class=\"paragraph\"><strong>II.</strong> It always has a mean of <span class=\"tex2jax_process\">$0$</span> and standard deviation of <span class=\"tex2jax_process\">$1$</span>.  </div><div class=\"paragraph\"><strong>III.</strong> It is normal only if the sample size is large enough (say, more than <span class=\"tex2jax_process\">$30$</span>).    </div></blockquote>",
+  "question_text": "Which of the following statements is/are true concerning the standard normal distribution? I. It is symmetric. II. It always has a mean of $0$ and standard deviation of $1$ . III. It is normal only if the sample size is large enough (say, more than $30$ ).",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "I, II, and III."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

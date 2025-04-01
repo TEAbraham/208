@@ -1,32 +1,33 @@
 {
   "question_id": "question-016",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Healthy Teeth | 1 of 2",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Recently a random survey found that <span class=\"tex2jax_process\">$48$</span> out of <span class=\"tex2jax_process\">$100\\text{ college freshmen}$</span> fail to brush their teeth twice a day. This compares higher than the national average of <span class=\"tex2jax_process\">$39\\%$</span>.  </div><div class=\"paragraph\">What would be an appropriate interval at <span class=\"tex2jax_process\">$99\\%$</span> confidence to estimate the true proportion of college freshmen who do not brush their teeth twice daily?</div>",
+  "question_text": "Recently a random survey found that $48$ out of $100\\text{ college freshmen}$ fail to brush their teeth twice a day. This compares higher than the national average of $39\\%$ . What would be an appropriate interval at $99\\%$ confidence to estimate the true proportion of college freshmen who do not brush their teeth twice daily?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.39\n±\n2.576\n⋅\n(\n0.04877\n)"
+      "text": "0.39 ± 2.576 ⋅ ( 0.04877 ) 0.39 ± 2.576 ⋅ ( 0.04877 )"
     },
     {
       "letter": "B",
-      "text": "0.39\n±\n2.576\n⋅\n(\n0.04996\n)"
+      "text": "0.39 ± 2.576 ⋅ ( 0.04996 ) 0.39 ± 2.576 ⋅ ( 0.04996 )"
     },
     {
       "letter": "C",
-      "text": "0.48\n±\n1.96\n⋅\n(\n0.04996\n)"
+      "text": "0.48 ± 1.96 ⋅ ( 0.04996 ) 0.48 ± 1.96 ⋅ ( 0.04996 )"
     },
     {
       "letter": "D",
-      "text": "0.48\n±\n2.576\n⋅\n(\n0.04996\n)"
+      "text": "0.48 ± 2.576 ⋅ ( 0.04996 ) 0.48 ± 2.576 ⋅ ( 0.04996 )"
     },
     {
       "letter": "E",
-      "text": "0.48\n±\n1.645\n⋅\n(\n0.04996\n)"
+      "text": "0.48 ± 1.645 ⋅ ( 0.04996 ) 0.48 ± 1.645 ⋅ ( 0.04996 )"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

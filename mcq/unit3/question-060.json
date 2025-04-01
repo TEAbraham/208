@@ -1,8 +1,9 @@
 {
   "question_id": "question-060",
+  "unit": "Unit 3 | Collecting Data",
   "title": "Superintendent Survey",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Suppose the superintendent of a large school district is interested in district-wide student satisfaction with the cafeteria food.  </div><div class=\"paragraph\">The superintendent decides to conduct a stratified sample by randomly selecting <span class=\"tex2jax_process\">$30\\text{ subjects}$</span> from each grade level, K-12, for a total of <span class=\"tex2jax_process\">$390\\text{ students}$</span> surveyed in the district.  </div><div class=\"paragraph\">What is the greatest benefit of conducting a stratified sample such as this one, compared to a simple random sample of <span class=\"tex2jax_process\">$390\\text{ students}$</span>?</div>",
+  "question_text": "Suppose the superintendent of a large school district is interested in district-wide student satisfaction with the cafeteria food. The superintendent decides to conduct a stratified sample by randomly selecting $30\\text{ subjects}$ from each grade level, K-12, for a total of $390\\text{ students}$ surveyed in the district. What is the greatest benefit of conducting a stratified sample such as this one, compared to a simple random sample of $390\\text{ students}$ ?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "In this situation, there are no benefits of a stratified sample compared to a simple random sample."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

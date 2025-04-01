@@ -1,32 +1,33 @@
 {
   "question_id": "question-093",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Painting Brothers: Standard Deviation of the Difference",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Abner and Abijah are brothers who own a painting business together.  </div><div class=\"paragraph\">The mean amount of time it takes Abner to paint a medium sized room is <span class=\"tex2jax_process\">$5.59\\text{ hours}$</span> with a standard deviation of <span class=\"tex2jax_process\">$0.63\\text{ hours}$</span>.<br>The mean amount of time it takes  Abijah to paint a medium sized room is <span class=\"tex2jax_process\">$6.11\\text{ hours}$</span> with a standard deviation of <span class=\"tex2jax_process\">$0.45\\text{ hours}$</span>.  </div><div class=\"paragraph\">Assuming the amount of time it takes each brother to paint is independent, which of the following is closest to the standard deviation of the difference (Abner - Abijah) in the amount of time it takes for the two brothers to paint a medium sized room?</div>",
+  "question_text": "Abner and Abijah are brothers who own a painting business together. The mean amount of time it takes Abner to paint a medium sized room is $5.59\\text{ hours}$ with a standard deviation of $0.63\\text{ hours}$ . The mean amount of time it takes  Abijah to paint a medium sized room is $6.11\\text{ hours}$ with a standard deviation of $0.45\\text{ hours}$ . Assuming the amount of time it takes each brother to paint is independent, which of the following is closest to the standard deviation of the difference (Abner - Abijah) in the amount of time it takes for the two brothers to paint a medium sized room?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.18\n hours"
+      "text": "0.18 hours 0.18 hours"
     },
     {
       "letter": "B",
-      "text": "0.44\n hours"
+      "text": "0.44 hours 0.44 hours"
     },
     {
       "letter": "C",
-      "text": "0.54\n hours"
+      "text": "0.54 hours 0.54 hours"
     },
     {
       "letter": "D",
-      "text": "0.77\n hours"
+      "text": "0.77 hours 0.77 hours"
     },
     {
       "letter": "E",
-      "text": "1.08\n hours"
+      "text": "1.08 hours 1.08 hours"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

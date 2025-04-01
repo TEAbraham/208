@@ -1,32 +1,33 @@
 {
   "question_id": "question-087",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Sampling Distribution of a Sample Mean: Get to Class!",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">During passing time at a high school, it takes a student an average of <span class=\"tex2jax_process\">$4.1\\text{ minutes}$</span> with a standard deviation of <span class=\"tex2jax_process\">$0.88\\text{ minutes}$</span> to make it from one class to another class.  </div><div class=\"paragraph\">If the students have <span class=\"tex2jax_process\">$5\\text{ minutes}$</span> to make it from one class to another class without being late, what is the probability when <span class=\"tex2jax_process\">$100\\text{ students}$</span> are randomly selected their average time will be GREATER than <span class=\"tex2jax_process\">$5\\text{ minutes}$</span>? </div>",
+  "question_text": "$P \\left( z >\\dfrac { 4.1-5 }{ \\sqrt { \\frac { (0.88)(0.12) }{ 100 }  }  } \\right)$",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "P\n⎛\n⎜\n⎜\n⎝\nz\n>\n4.1\n−\n5\n√\n(\n0.88\n)\n(\n0.12\n)\n100\n⎞\n⎟\n⎟\n⎠"
+      "text": "P ⎛ ⎜\n⎜ ⎝ z > 4.1 − 5 √ ( 0.88 ) ( 0.12 ) 100 ⎞ ⎟\n⎟ ⎠ P ( z > 4.1 − 5 ( 0.88 ) ( 0.12 ) 100 )"
     },
     {
       "letter": "B",
-      "text": "P\n⎛\n⎜\n⎝\nz\n>\n4.1\n−\n5\n0.88\n√\n100\n⎞\n⎟\n⎠"
+      "text": "P ⎛ ⎜ ⎝ z > 4.1 − 5 0.88 √ 100 ⎞ ⎟ ⎠ P ( z > 4.1 − 5 0.88 100 )"
     },
     {
       "letter": "C",
-      "text": "P\n(\nz\n>\n5\n−\n4.1\n0.88\n)"
+      "text": "P ( z > 5 − 4.1 0.88 ) P ( z > 5 − 4.1 0.88 )"
     },
     {
       "letter": "D",
-      "text": "P\n⎛\n⎜\n⎜\n⎝\nz\n>\n5\n−\n4.1\n√\n(\n0.88\n)\n(\n0.12\n)\n100\n⎞\n⎟\n⎟\n⎠"
+      "text": "P ⎛ ⎜\n⎜ ⎝ z > 5 − 4.1 √ ( 0.88 ) ( 0.12 ) 100 ⎞ ⎟\n⎟ ⎠ P ( z > 5 − 4.1 ( 0.88 ) ( 0.12 ) 100 )"
     },
     {
       "letter": "E",
-      "text": "P\n⎛\n⎜\n⎝\nz\n>\n5\n−\n4.1\n0.88\n√\n100\n⎞\n⎟\n⎠"
+      "text": "P ⎛ ⎜ ⎝ z > 5 − 4.1 0.88 √ 100 ⎞ ⎟ ⎠ P ( z > 5 − 4.1 0.88 100 )"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,8 +1,9 @@
 {
   "question_id": "question-172",
+  "unit": "Unit 3 | Collecting Data",
   "title": "Issues with Experiments: Fabric Softeners",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A scientist wants to test three different laundry fabric softeners.  </div><div class=\"paragraph\">Of a total of <span class=\"tex2jax_process\">$150\\text{ towels}$</span>, <span class=\"tex2jax_process\">$50$</span> were randomly selected and washed with a certain fabric softener. Another <span class=\"tex2jax_process\">$50$</span> randomly selected towels were washed with a different fabric softener, and the remaining <span class=\"tex2jax_process\">$50\\text{ towels}$</span> were washed with the third fabric softener.  </div><div class=\"paragraph\">Each laundry load was done with the same detergent, same water temperature, and on the same washing machine. A total of <span class=\"tex2jax_process\">$50$</span> trained observers then felt the towels from each of the three treatment groups for softness. The response variable will be which towel the observers say is the softest.  </div><div class=\"paragraph\">Which of the following could be a problem with this experiment?</div>",
+  "question_text": "A scientist wants to test three different laundry fabric softeners. Of a total of $150\\text{ towels}$ , $50$ were randomly selected and washed with a certain fabric softener. Another $50$ randomly selected towels were washed with a different fabric softener, and the remaining $50\\text{ towels}$ were washed with the third fabric softener. Each laundry load was done with the same detergent, same water temperature, and on the same washing machine. A total of $50$ trained observers then felt the towels from each of the three treatment groups for softness. The response variable will be which towel the observers say is the softest. Which of the following could be a problem with this experiment?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "There are obvious lurking variables present in this experiment."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

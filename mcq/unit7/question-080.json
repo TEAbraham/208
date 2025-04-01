@@ -1,32 +1,33 @@
 {
   "question_id": "question-080",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Experimental $P$-Value",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">An experiment tests the following:    </div><div class=\"paragraph\"><span class=\"tex2jax_process\">$H_0: \\mu = 17$</span> vs. <span class=\"tex2jax_process\">$H_a: \\mu \\neq 17$</span>  </div><div class=\"paragraph\">The standard normal curve is used to find the <span class=\"tex2jax_process\">$p$</span>-value when the test statistic is <span class=\"tex2jax_process\">$z = 1.71$</span>.  </div><div class=\"paragraph\">What is the <span class=\"tex2jax_process\">$p$</span>-value of the experiment?</div>",
+  "question_text": "An experiment tests the following: $H_0: \\mu = 17$ vs. $H_a: \\mu \\neq 17$ The standard normal curve is used to find the $p$ -value when the test statistic is $z = 1.71$ . What is the $p$ -value of the experiment?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.0346"
+      "text": "0.0346 0.0346"
     },
     {
       "letter": "B",
-      "text": "0.0872"
+      "text": "0.0872 0.0872"
     },
     {
       "letter": "C",
-      "text": "0.9308"
+      "text": "0.9308 0.9308"
     },
     {
       "letter": "D",
-      "text": "0.9654"
+      "text": "0.9654 0.9654"
     },
     {
       "letter": "E",
-      "text": "0.17"
+      "text": "0.17 0.17"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

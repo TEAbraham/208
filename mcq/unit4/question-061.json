@@ -1,32 +1,33 @@
 {
   "question_id": "question-061",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Police Tickets | 1 of 2",
   "difficulty": "Easy",
-  "question_text": "\n<div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">X</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th><th scope=\"col\">6</th></tr></thead><tbody><tr><td>P(X)</td><td>0.04</td><td>0.11</td><td>0.33</td><td>0.35</td><td>0.14</td><td>0.03</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>A local police officer gives out between <span class=\"tex2jax_process\">$1$</span> and <span class=\"tex2jax_process\">$6\\text{ tickets a day}$</span>, the probability distribution table of which is shown above, where <span class=\"tex2jax_process\">$X$</span> is the number of tickets handed out on any given day.  </div><div class=\"paragraph\">What is the probability the officer gives out at least <span class=\"tex2jax_process\">$4\\text{ tickets}$</span> on any given day?</div>",
+  "question_text": "X 1 2 3 4 5 6 P(X) 0.04 0.11 0.33 0.35 0.14 0.03 A local police officer gives out between $1$ and $6\\text{ tickets a day}$ , the probability distribution table of which is shown above, where $X$ is the number of tickets handed out on any given day. What is the probability the officer gives out at least $4\\text{ tickets}$ on any given day?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.17"
+      "text": "0.17 0.17"
     },
     {
       "letter": "B",
-      "text": "0.52"
+      "text": "0.52 0.52"
     },
     {
       "letter": "C",
-      "text": "0.35"
+      "text": "0.35 0.35"
     },
     {
       "letter": "D",
-      "text": "0.15"
+      "text": "0.15 0.15"
     },
     {
       "letter": "E",
-      "text": "0.48"
+      "text": "0.48 0.48"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

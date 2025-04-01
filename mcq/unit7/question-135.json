@@ -1,17 +1,18 @@
 {
   "question_id": "question-135",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Football Linemen Weights",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A sports reporter randomly surveyed 53 football linemen from large universities (enrollment <span class=\"tex2jax_process\">$ &gt; 10{,}000$</span>) and randomly surveyed <span class=\"tex2jax_process\">$53$</span> football linemen from smaller colleges (enrollment <span class=\"tex2jax_process\">$ &lt; 10{,}000 $</span> ).  </div><div class=\"paragraph\">Suppose the researcher wished to test whether linemen from large universities are heavier than linemen from smaller colleges. He finds that the average weight of linemen at large universities is <span class=\"tex2jax_process\">$287\\text{ lbs}$</span>, while the average weight of linemen at small colleges is <span class=\"tex2jax_process\">$268\\text{ lbs}$</span>.  </div><div class=\"paragraph\">Which of the following statements is true?</div>",
+  "question_text": "A sports reporter randomly surveyed 53 football linemen from large universities (enrollment $ > 10{,}000$ ) and randomly surveyed $53$ football linemen from smaller colleges (enrollment $ < 10{,}000 $ ). Suppose the researcher wished to test whether linemen from large universities are heavier than linemen from smaller colleges. He finds that the average weight of linemen at large universities is $287\\text{ lbs}$ , while the average weight of linemen at small colleges is $268\\text{ lbs}$ . Which of the following statements is true?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "A matched pairs\nT\nprocedure would be appropriate, where linemen from the smaller school could be appropriately paired with lineman from the larger school."
+      "text": "A matched pairs T T procedure would be appropriate, where linemen from the smaller school could be appropriately paired with lineman from the larger school."
     },
     {
       "letter": "B",
-      "text": "A weight difference of at least\n9.8\n lbs\nwould be needed to be able to successfully claim players from the large university weigh more at the alpha =\n5\n%\nlevel."
+      "text": "A weight difference of at least 9.8 lbs 9.8 lbs would be needed to be able to successfully claim players from the large university weigh more at the alpha = 5 % 5 % level."
     },
     {
       "letter": "C",
@@ -19,14 +20,14 @@
     },
     {
       "letter": "D",
-      "text": "If\n100\nmore random university and college linemen were surveyed, and respective means of µ(college) =\n268\nand µ(universities) =\n287\nwere found, then the P-value and test statistic would most likely remain the same."
+      "text": "If 100 100 more random university and college linemen were surveyed, and respective means of µ(college) = 268 268 and µ(universities) = 287 287 were found, then the P-value and test statistic would most likely remain the same."
     },
     {
       "letter": "E",
       "text": "A smaller standard deviation in both samples’ weights will give stronger evidence that university linemen weigh more."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

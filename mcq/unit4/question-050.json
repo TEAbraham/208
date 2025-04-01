@@ -1,32 +1,33 @@
 {
   "question_id": "question-050",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "The Perfect Vacation: A Two Way Table",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">At a travel expo, <span class=\"tex2jax_process\">$180$</span> women and <span class=\"tex2jax_process\">$180$</span> men were randomly selected to be surveyed.  From a list of <span class=\"tex2jax_process\">$7$</span> options, each individual was asked to identify where they would go for \"the perfect vacation\".  The results of the survey are displayed below. \n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Women</th><th scope=\"col\">Men</th></tr></thead><tbody><tr><td>Beach</td><td>55</td><td>41</td></tr><tr><td>Mountains</td><td>26</td><td>35</td></tr><tr><td>City</td><td>33</td><td>28</td></tr><tr><td>Country</td><td>17</td><td>23</td></tr><tr><td>Theme Park</td><td>21</td><td>28</td></tr><tr><td>National Park</td><td>9</td><td>14</td></tr><tr><td>Cruise</td><td>19</td><td>11</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>If an individual who was surveyed said their perfect vacation would be at the beach or on a cruise, what is the probability that the individual surveyed was a woman?</div>",
+  "question_text": "At a travel expo, $180$ women and $180$ men were randomly selected to be surveyed.  From a list of $7$ options, each individual was asked to identify where they would go for \"the perfect vacation\".  The results of the survey are displayed below. Women Men Beach 55 41 Mountains 26 35 City 33 28 Country 17 23 Theme Park 21 28 National Park 9 14 Cruise 19 11 If an individual who was surveyed said their perfect vacation would be at the beach or on a cruise, what is the probability that the individual surveyed was a woman?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "7\n20"
+      "text": "7 20 7 20"
     },
     {
       "letter": "B",
-      "text": "26\n63"
+      "text": "26 63 26 63"
     },
     {
       "letter": "C",
-      "text": "37\n90"
+      "text": "37 90 37 90"
     },
     {
       "letter": "D",
-      "text": "37\n63"
+      "text": "37 63 37 63"
     },
     {
       "letter": "E",
-      "text": "81\n157"
+      "text": "81 157 81 157"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

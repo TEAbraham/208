@@ -1,32 +1,33 @@
 {
   "question_id": "question-048",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Termites | 1 of 2",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Termites are starting to become a big problem in a large city.  </div><div class=\"paragraph\">Two different chemicals, chemicals A and B, are typically used to exterminate termites. Forty homes are treated with chemical A, and another forty are treated with chemical B. Forty homes are treated with a mixture of chemicals A and B, and another forty homes are treated with nothing (as a control group). Six months after the chemicals were used, the homes were examined to determine if all the termites were exterminated.  </div><div class=\"paragraph\">This information is represented in the table below:\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Termites Exterminated</th><th scope=\"col\">Termites NOT Exterminated</th></tr></thead><tbody><tr><td>Chemical A</td><td>28</td><td>12</td></tr><tr><td>Chemical B</td><td>27</td><td>13</td></tr><tr><td>Both Chemicals A and B</td><td>28</td><td>12</td></tr><tr><td>Neither Chemical  (control)</td><td>7</td><td>33</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Assume the homes were randomly selected and that each had a similar termite condition.  </div><div class=\"paragraph\">Use the table to determine if each of the four treatments are equally effective.</div>",
+  "question_text": "Termites are starting to become a big problem in a large city. Two different chemicals, chemicals A and B, are typically used to exterminate termites. Forty homes are treated with chemical A, and another forty are treated with chemical B. Forty homes are treated with a mixture of chemicals A and B, and another forty homes are treated with nothing (as a control group). Six months after the chemicals were used, the homes were examined to determine if all the termites were exterminated. This information is represented in the table below: Termites Exterminated Termites NOT Exterminated Chemical A 28 12 Chemical B 27 13 Both Chemicals A and B 28 12 Neither Chemical  (control) 7 33 Assume the homes were randomly selected and that each had a similar termite condition. Use the table to determine if each of the four treatments are equally effective.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Strong evidence exists that the four treatments are equally effective since\np\n<\n0.0005\n."
+      "text": "Strong evidence exists that the four treatments are equally effective since p < 0.0005 p < 0.0005 ."
     },
     {
       "letter": "B",
-      "text": "No strong evidence exists that the four treatments are equally effective since\np\n<\n0.0005\n."
+      "text": "No strong evidence exists that the four treatments are equally effective since p < 0.0005 p < 0.0005 ."
     },
     {
       "letter": "C",
-      "text": "Strong evidence exists that the four treatments are not equally effective since\np\n<\n0.0005\n."
+      "text": "Strong evidence exists that the four treatments are not equally effective since p < 0.0005 p < 0.0005 ."
     },
     {
       "letter": "D",
-      "text": "Moderate evidence exists that the four treatments are not equally effective since p >\n0.01\n."
+      "text": "Moderate evidence exists that the four treatments are not equally effective since p > 0.01 0.01 ."
     },
     {
       "letter": "E",
-      "text": "Since\np\n>\n0.25\n, no significant evidence exists of a difference between the four treatments."
+      "text": "Since p > 0.25 p > 0.25 , no significant evidence exists of a difference between the four treatments."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

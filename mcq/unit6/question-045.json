@@ -1,32 +1,33 @@
 {
   "question_id": "question-045",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Southpaws and $p$-Values",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">People who are left-handed are sometimes referred to as “southpaws”. According to some reports <span class=\"tex2jax_process\">$10\\%$</span> of people are left-handed, but Billy doesn't believe this is true and decides to do a study. He randomly selects <span class=\"tex2jax_process\">$130$</span> people and finds that <span class=\"tex2jax_process\">$20$</span> of them are left-handed.  </div><div class=\"paragraph\">What is the <span class=\"tex2jax_process\">$p$</span>-value for the appropriate significance test? </div>",
+  "question_text": "People who are left-handed are sometimes referred to as “southpaws”. According to some reports $10\\%$ of people are left-handed, but Billy doesn't believe this is true and decides to do a study. He randomly selects $130$ people and finds that $20$ of them are left-handed. What is the $p$ -value for the appropriate significance test?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.02"
+      "text": "0.02 0.02"
     },
     {
       "letter": "B",
-      "text": "0.04"
+      "text": "0.04 0.04"
     },
     {
       "letter": "C",
-      "text": "0.1"
+      "text": "0.1 0.1"
     },
     {
       "letter": "D",
-      "text": "0.15"
+      "text": "0.15 0.15"
     },
     {
       "letter": "E",
       "text": "We cannot conduct a significance test because conditions for doing so are not satisfied in this situation."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

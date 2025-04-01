@@ -1,32 +1,33 @@
 {
   "question_id": "question-073",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Statistical Significance at Various $\\alpha$ Levels",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">In a hypothesis test for a population mean, results were found to be statistically significant at the <span class=\"tex2jax_process\">$\\alpha = 0.02$</span> level.  </div><div class=\"paragraph\">Which of the following statements would also be true about the results of this test?</div>",
+  "question_text": "In a hypothesis test for a population mean, results were found to be statistically significant at the $\\alpha = 0.02$ level. Which of the following statements would also be true about the results of this test?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The results would be statistically significant at the\nα\n=\n0.01\nlevel."
+      "text": "The results would be statistically significant at the α = 0.01 α = 0.01 level."
     },
     {
       "letter": "B",
-      "text": "The p-value obtained for this test was\np\n=\n0.02\n."
+      "text": "The p-value obtained for this test was p = 0.02 p = 0.02 ."
     },
     {
       "letter": "C",
-      "text": "The results would be statistically significant at the\nα\n=\n0.05\nlevel."
+      "text": "The results would be statistically significant at the α = 0.05 α = 0.05 level."
     },
     {
       "letter": "D",
-      "text": "Since the results were statistically significant at the\nα\n=\n0.02\nlevel, we have sufficient evidence to prove that our null hypothesis was false."
+      "text": "Since the results were statistically significant at the α = 0.02 α = 0.02 level, we have sufficient evidence to prove that our null hypothesis was false."
     },
     {
       "letter": "E",
-      "text": "A mistake was made in considering the results to be statistically significant. We can only consider our results to be statistically significant if\nα\n>\n0.05\n."
+      "text": "A mistake was made in considering the results to be statistically significant.  We can only consider our results to be statistically significant if α > 0.05 α > 0.05 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

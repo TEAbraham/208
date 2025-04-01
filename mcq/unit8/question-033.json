@@ -1,8 +1,9 @@
 {
   "question_id": "question-033",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Contribute to Test Statistic",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Suppose Kathy bought a large bag of candy that comes in four flavors: cherry, strawberry, orange, and lemon.  </div><div class=\"paragraph\">Out of the <span class=\"tex2jax_process\">$84\\text{ pieces of candy}$</span>, <span class=\"tex2jax_process\">$23$</span> were cherry, <span class=\"tex2jax_process\">$24$</span> were strawberry, <span class=\"tex2jax_process\">$21$</span> were orange, and <span class=\"tex2jax_process\">$16$</span> were lemon. Kathy performed a chi-squared goodness of fit test to determine if the candy flavors were evenly distributed.  </div><div class=\"paragraph\">What flavor contributed the most to the chi-squared test statistic?</div>",
+  "question_text": "Suppose Kathy bought a large bag of candy that comes in four flavors: cherry, strawberry, orange, and lemon. Out of the $84\\text{ pieces of candy}$ , $23$ were cherry, $24$ were strawberry, $21$ were orange, and $16$ were lemon. Kathy performed a chi-squared goodness of fit test to determine if the candy flavors were evenly distributed. What flavor contributed the most to the chi-squared test statistic?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "Unable to determine."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

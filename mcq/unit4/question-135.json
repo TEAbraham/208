@@ -1,32 +1,33 @@
 {
   "question_id": "question-135",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Linear Transformation of Variables",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">The random variable <span class=\"tex2jax_process\">$X$</span> is skewed left with a median of <span class=\"tex2jax_process\">$10$</span> and IQR of <span class=\"tex2jax_process\">$40$</span>.  The random variable <span class=\"tex2jax_process\">$Y$</span> is defined by <span class=\"tex2jax_process\">$Y=3X-7$</span>.  What are the median and IQR of <span class=\"tex2jax_process\">$Y$</span>?</div>",
+  "question_text": "The random variable $X$ is skewed left with a median of $10$ and IQR of $40$ .  The random variable $Y$ is defined by $Y=3X-7$ .  What are the median and IQR of $Y$ ?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The median is\n23\nand the IQR is\n33\n."
+      "text": "The median is 23 23 and the IQR is 33 33 ."
     },
     {
       "letter": "B",
-      "text": "The median is\n23\nand the IQR is\n113\n."
+      "text": "The median  is 23 23 and the IQR is 113 113 ."
     },
     {
       "letter": "C",
-      "text": "The median is\n23\nand the IQR is\n120\n."
+      "text": "The median is 23 23 and the IQR is 120 120 ."
     },
     {
       "letter": "D",
-      "text": "The median is\n30\nand the IQR is\n113\n."
+      "text": "The median is 30 30 and the IQR is 113 113 ."
     },
     {
       "letter": "E",
-      "text": "The median is\n30\nand the IQR is\n120\n."
+      "text": "The median is 30 30 and the IQR is 120 120 ."
     }
   ],
-  "correct_answer": "<strong>Choice ‘C’</strong> is our answer.  ",
+  "correct_answer": "Choice ‘C’ is our answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

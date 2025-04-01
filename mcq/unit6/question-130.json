@@ -1,32 +1,33 @@
 {
   "question_id": "question-130",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Construction $2$ Proportion $z$-Interval: Fruits and Vegetables",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A nutritionist was interested in seeing if there was difference in people from the U.S. who prefer fruit over vegetables compared with the people in Canada who prefer fruit over vegetables. The nutritionist randomly selected <span class=\"tex2jax_process\">$200\\text{ people}$</span> from each country, and found that <span class=\"tex2jax_process\">$136\\text{ people}$</span> from the U.S. and <span class=\"tex2jax_process\">$108\\text{ people}$</span> from Canada favored fruit over vegetables.  </div><div class=\"paragraph\">Which formula calculates the <span class=\"tex2jax_process\">$98\\%$</span> confidence interval for the difference in proportions of Americans who prefer fruit over vegetables to Canadians who do so?</div>",
+  "question_text": "A nutritionist was interested in seeing if there was difference in people from the U.S. who prefer fruit over vegetables compared with the people in Canada who prefer fruit over vegetables. The nutritionist randomly selected $200\\text{ people}$ from each country, and found that $136\\text{ people}$ from the U.S. and $108\\text{ people}$ from Canada favored fruit over vegetables. Which formula calculates the $98\\%$ confidence interval for the difference in proportions of Americans who prefer fruit over vegetables to Canadians who do so?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "(\n0.68\n−\n0.54\n)\n±\n2.33\n√\n(\n0.61\n)\n(\n0.39\n)\n400"
+      "text": "( 0.68 − 0.54 ) ± 2.33 √ ( 0.61 ) ( 0.39 ) 400 ( 0.68 − 0.54 ) ± 2.33 ( 0.61 ) ( 0.39 ) 400"
     },
     {
       "letter": "B",
-      "text": "(\n0.68\n−\n0.54\n)\n±\n2.33\n√\n(\n0.61\n)\n(\n0.39\n)\n200\n+\n(\n0.61\n)\n(\n0.39\n)\n200"
+      "text": "( 0.68 − 0.54 ) ± 2.33 √ ( 0.61 ) ( 0.39 ) 200 + ( 0.61 ) ( 0.39 ) 200 ( 0.68 − 0.54 ) ± 2.33 ( 0.61 ) ( 0.39 ) 200 + ( 0.61 ) ( 0.39 ) 200"
     },
     {
       "letter": "C",
-      "text": "(\n0.68\n−\n0.54\n)\n±\n2.33\n√\n(\n0.68\n)\n(\n0.32\n)\n200\n+\n(\n0.54\n)\n(\n0.46\n)\n200"
+      "text": "( 0.68 − 0.54 ) ± 2.33 √ ( 0.68 ) ( 0.32 ) 200 + ( 0.54 ) ( 0.46 ) 200 ( 0.68 − 0.54 ) ± 2.33 ( 0.68 ) ( 0.32 ) 200 + ( 0.54 ) ( 0.46 ) 200"
     },
     {
       "letter": "D",
-      "text": "(\n0.68\n−\n0.54\n)\n±\n2.576\n√\n(\n0.68\n)\n(\n0.32\n)\n200\n+\n(\n0.54\n)\n(\n0.46\n)\n200"
+      "text": "( 0.68 − 0.54 ) ± 2.576 √ ( 0.68 ) ( 0.32 ) 200 + ( 0.54 ) ( 0.46 ) 200 ( 0.68 − 0.54 ) ± 2.576 ( 0.68 ) ( 0.32 ) 200 + ( 0.54 ) ( 0.46 ) 200"
     },
     {
       "letter": "E",
-      "text": "(\n0.68\n−\n0.54\n)\n±\n2.576\n√\n(\n0.61\n)\n(\n0.39\n)\n200\n+\n(\n0.61\n)\n(\n0.39\n)\n200"
+      "text": "( 0.68 − 0.54 ) ± 2.576 √ ( 0.61 ) ( 0.39 ) 200 + ( 0.61 ) ( 0.39 ) 200 ( 0.68 − 0.54 ) ± 2.576 ( 0.61 ) ( 0.39 ) 200 + ( 0.61 ) ( 0.39 ) 200"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

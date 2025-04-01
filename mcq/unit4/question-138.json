@@ -1,32 +1,33 @@
 {
   "question_id": "question-138",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Mean Weight: Bag of Onions",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Suppose onions have an average weight of <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-41802\"><span class=\"MJXp-mn\" id=\"MJXp-Span-41803\">13</span><span class=\"MJXp-mtext\" id=\"MJXp-Span-41804\">&nbsp;ounces</span></span></span><script type=\"math/tex\" id=\"MathJax-Element-11493\">13\\text{ ounces}</script></span> with a standard deviation of <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-41805\"><span class=\"MJXp-mn\" id=\"MJXp-Span-41806\">2.3</span><span class=\"MJXp-mtext\" id=\"MJXp-Span-41807\">&nbsp;ounces</span></span></span><script type=\"math/tex\" id=\"MathJax-Element-11494\">2.3\\text{ ounces}</script></span>.  </div><div class=\"paragraph\">What is the mean weight of a bag containing <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-41808\"><span class=\"MJXp-mn\" id=\"MJXp-Span-41809\">4</span></span></span><script type=\"math/tex\" id=\"MathJax-Element-11495\">4</script></span> onions?</div>",
+  "question_text": "Suppose onions have an average weight of $13\\text{ ounces}$ with a standard deviation of $2.3\\text{ ounces}$ . What is the mean weight of a bag containing $4$ onions?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "52\n ounces"
+      "text": "52 ounces 52 ounces"
     },
     {
       "letter": "B",
-      "text": "13\n ounces"
+      "text": "13 ounces 13 ounces"
     },
     {
       "letter": "C",
-      "text": "26\n ounces"
+      "text": "26 ounces 26 ounces"
     },
     {
       "letter": "D",
-      "text": "119.6\n ounces"
+      "text": "119.6 ounces 119.6 ounces"
     },
     {
       "letter": "E",
-      "text": "4.6\n ounces"
+      "text": "4.6 ounces 4.6 ounces"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

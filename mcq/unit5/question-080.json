@@ -1,39 +1,35 @@
 {
   "question_id": "question-080",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Which is More Random?",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Two students are working on a project in AP Statistics. The students are taking random samples of size <span class=\"tex2jax_process\">$n = 100$</span> from a population with a known mean of <span class=\"tex2jax_process\">$\\mu = 10$</span>. The students sample means are given below: </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Student</th><th scope=\"col\">Mean</th></tr></thead><tbody><tr><td><span class=\"tex2jax_process\">$1$</span></td><td><span class=\"tex2jax_process\">$\\mu_1 = 9.5$</span></td></tr><tr><td><span class=\"tex2jax_process\">$2$</span></td><td><span class=\"tex2jax_process\">$\\mu_2 = 10$</span></td></tr></tbody></table></div><div class=\"paragraph\">Each student is claiming their sample was \"more random\". Which student is correct?</div>",
+  "question_text": "Two students are working on a project in AP Statistics. The students are taking random samples of size $n = 100$ from a population with a known mean of $\\mu = 10$ . The students sample means are given below: Student Mean $1$ $\\mu_1 = 9.5$ $2$ $\\mu_2 = 10$ Each student is claiming their sample was \"more random\". Which student is correct?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Student\n1\n- Because their mean was close to the population mean, but did not equal the population mean exactly"
+      "text": "Student 1 1 - Because their mean was close to the population mean, but did not equal the population mean exactly"
     },
     {
       "letter": "B",
-      "text": "Student\n1\n- Because student\n2\n's mean was a whole number, which is very uncommon"
+      "text": "Student 1 1 - Because student 2 2 's mean was a whole number, which is very uncommon"
     },
     {
       "letter": "C",
-      "text": "Student\n2\n- Because their sample mean equaled the known population mean"
+      "text": "Student 2 2 - Because their sample mean equaled the known population mean"
     },
     {
       "letter": "D",
-      "text": "Student\n2\n- Because Student\n1\n's mean was not a whole number"
+      "text": "Student 2 2 - Because Student 1 1 's mean was not a whole number"
     },
     {
       "letter": "E",
       "text": "Both sample were equally random because different samples taken from the sample population can be different"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer. ",
-  "solution": "When selecting a sample from a population, with or without a known population mean, it is important to remember that differences between the samples can exist. This idea is called <strong>sampling variability</strong>. All sample of size <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-15638-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>100</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-80948\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-80949\" class=\"mjx-mrow\"><span id=\"MJXc-Node-80950\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">100</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-15638\">100</script></span> will not produce the same sample mean. \n\nTherefore, since both students took random samples of size <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-15639-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>100</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-80951\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-80952\" class=\"mjx-mrow\"><span id=\"MJXc-Node-80953\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">100</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-15639\">100</script></span>, both of the samples would be considered equally \"random\", even if one sample produced the a sample mean that was equal to the population mean. \n\n<strong>Choice 'E'</strong> is correct. ",
-  "distractor_explanations": {
-    "A": "<strong>Choice 'A'</strong> is incorrect. When selecting random samples,  a sample mean that is equal to the know population mean is entirely possible and does not mean the sample was not random. ",
-    "B": "<strong>Choice 'B'</strong> is incorrect.  When selecting random samples,  a sample mean that is a whole number is entirely possible and does not mean the sample was not random. ",
-    "C": "<strong>Choice 'C'</strong> is incorrect.  When selecting random samples, a sample mean can be equal to a value that is not the population mean, but this does not imply the sample was more random. ",
-    "D": "<strong>Choice 'D'</strong> is incorrect. When selecting random samples, a sample mean that is not a whole number is entirely possible and does not imply that it was not random."
-  },
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "When selecting a sample from a population, with or without a known population mean, it is important to remember that differences between the samples can exist. This idea is called sampling variability . All sample of size 100 100 will not produce the same sample mean.\n\nTherefore, since both students took random samples of size 100 100 , both of the samples would be considered equally \"random\", even if one sample produced the a sample mean that was equal to the population mean.\n\nChoice 'E' is correct.",
+  "distractor_explanations": {},
   "tags": [
     "VAR-1.G",
     "VAR-1.G.1",

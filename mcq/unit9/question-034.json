@@ -1,32 +1,33 @@
 {
   "question_id": "question-034",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Prescriptions",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A pharmaceutical company was doing a study and wanted to examine the relationship between the age of a person and the number of prescriptions a person has. The company wanted to show that both values increased.  A <span class=\"tex2jax_process\">$t$</span>-test for slope was to be done with <span class=\"tex2jax_process\">$50$</span> people randomly asked. What would be the correct hypotheses for the test?</div>",
+  "question_text": "A pharmaceutical company was doing a study and wanted to examine the relationship between the age of a person and the number of prescriptions a person has. The company wanted to show that both values increased.  A $t$ -test for slope was to be done with $50$ people randomly asked. What would be the correct hypotheses for the test?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "H\n0\n:\nβ\n<\n0 H\na\n:\nβ\n>\n0"
+      "text": "H 0 : β < 0 H 0 : β < 0 H a : β > 0 H a : β > 0"
     },
     {
       "letter": "B",
-      "text": "H\n0\n:\nβ\n≠\n0 H\na\n:\nβ\n=\n0"
+      "text": "H 0 : β ≠ 0 H 0 : β ≠ 0 H a : β = 0 H a : β = 0"
     },
     {
       "letter": "C",
-      "text": "H\n0\n:\nβ\n=\n0 H\na\n:\nβ\n≠\n0"
+      "text": "H 0 : β = 0 H 0 : β = 0 H a : β ≠ 0 H a : β ≠ 0"
     },
     {
       "letter": "D",
-      "text": "H\n0\n:\nβ\n=\n0 H\na\n:\nβ\n>\n0"
+      "text": "H 0 : β = 0 H 0 : β = 0 H a : β > 0 H a : β > 0"
     },
     {
       "letter": "E",
-      "text": "H\n0\n:\nβ\n>\n0 H\na\n:\nβ\n=\n0"
+      "text": "H 0 : β > 0 H 0 : β > 0 H a : β = 0 H a : β = 0"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

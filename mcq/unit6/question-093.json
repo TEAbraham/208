@@ -1,8 +1,9 @@
 {
   "question_id": "question-093",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Defective Light Bulbs",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A researcher was hired to examine a company's production of defective light bulbs. The bulbs were made in two wattages, <span class=\"tex2jax_process\">$60$</span> and <span class=\"tex2jax_process\">$100$</span>. Fifty <span class=\"tex2jax_process\">$60$</span>-watt bulbs were randomly selected and <span class=\"tex2jax_process\">$70$</span> <span class=\"tex2jax_process\">$100$</span>-watt bulbs were randomly selected. Eight defective bulbs were found in the <span class=\"tex2jax_process\">$60$</span>-watt type and <span class=\"tex2jax_process\">$11$</span> defective bulbs were found in the <span class=\"tex2jax_process\">$100$</span>-watt type.  While the company wanted to lower the defective rate overall, it was particularly concerned with keeping the defective rate the same for both bulb types. Which procedure below would most effectively give this information?</div>",
+  "question_text": "A researcher was hired to examine a company's production of defective light bulbs. The bulbs were made in two wattages, $60$ and $100$ . Fifty $60$ -watt bulbs were randomly selected and $70$ $100$ -watt bulbs were randomly selected. Eight defective bulbs were found in the $60$ -watt type and $11$ defective bulbs were found in the $100$ -watt type.  While the company wanted to lower the defective rate overall, it was particularly concerned with keeping the defective rate the same for both bulb types. Which procedure below would most effectively give this information?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "Find a confidence interval for the difference of two means."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

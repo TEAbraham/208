@@ -1,8 +1,9 @@
 {
   "question_id": "question-030",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Estimating Parameters: Conditions",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Suppose the conditions are not met for a confidence interval.  </div><div class=\"paragraph\">When conditions are not met, then</div>",
+  "question_text": "Suppose the conditions are not met for a confidence interval. When conditions are not met, then",
   "image_files": [],
   "choices": [
     {
@@ -23,10 +24,10 @@
     },
     {
       "letter": "E",
-      "text": "The critical value\nt\n∗\nor\nz\n∗\nwill need to increase."
+      "text": "The critical value t ∗ t ∗ or z ∗ z ∗ will need to increase."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

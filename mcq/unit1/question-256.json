@@ -1,32 +1,33 @@
 {
   "question_id": "question-256",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Probabilities Associated With a Particular $z$-score",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Suppose a <span class=\"tex2jax_process\">$z$</span>-score was calculated and the value was found to be <span class=\"tex2jax_process\">$k$</span>.  </div><div class=\"paragraph\">Based upon the standard normal distribution, which of the following statements is false?</div>",
+  "question_text": "Suppose a $z$ -score was calculated and the value was found to be $k$ . Based upon the standard normal distribution, which of the following statements is false?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "p\n(\nz\n≥\nk\n)\n>\np\n(\nz\n>\nk\n)\n."
+      "text": "p ( z ≥ k ) > p ( z > k ) p ( z ≥ k ) > p ( z > k ) ."
     },
     {
       "letter": "B",
-      "text": "p\n(\nz\n≥\nk\n)\n=\n1\n−\np\n(\nz\n≤\nk\n)\n."
+      "text": "p ( z ≥ k ) = 1 − p ( z ≤ k ) p ( z ≥ k ) = 1 − p ( z ≤ k ) ."
     },
     {
       "letter": "C",
-      "text": "p\n(\nz\n<\nk\n)\n=\np\n(\nz\n≤\nk\n)\n."
+      "text": "p ( z < k ) = p ( z ≤ k ) p ( z < k ) = p ( z ≤ k ) ."
     },
     {
       "letter": "D",
-      "text": "If\nk\n=\n0\n, the\np\n(\nz\n<\nk\n)\n=\n0.50\n."
+      "text": "If k = 0 k = 0 , the p ( z < k ) = 0.50 p ( z < k ) = 0.50 ."
     },
     {
       "letter": "E",
-      "text": "If\nk\n>\n0\n, then\np\n(\nz\n≥\nk\n)\n<\n0.50\n."
+      "text": "If k > 0 k > 0 , then p ( z ≥ k ) < 0.50 p ( z ≥ k ) < 0.50 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

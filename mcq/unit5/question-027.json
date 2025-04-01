@@ -1,8 +1,9 @@
 {
   "question_id": "question-027",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Determining Normality",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">How could one determine if the distribution of sample means is approximately normal?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> Both <span class=\"tex2jax_process\">$np$</span> and <span class=\"tex2jax_process\">$n (1-p)$</span> are greater than <span class=\"tex2jax_process\">$10$</span>, where <span class=\"tex2jax_process\">$n$</span> is the number of trials and <span class=\"tex2jax_process\">$p$</span> is the proportion of success.  </div><div class=\"paragraph\"><strong>II.</strong> The sample is large, say greater than <span class=\"tex2jax_process\">$30$</span>.  </div><div class=\"paragraph\"><strong>III.</strong> The parent population is approximately normal.    </div></blockquote>",
+  "question_text": "How could one determine if the distribution of sample means is approximately normal? I. Both $np$ and $n (1-p)$ are greater than $10$ , where $n$ is the number of trials and $p$ is the proportion of success. II. The sample is large, say greater than $30$ . III. The parent population is approximately normal.",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "II and III only."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

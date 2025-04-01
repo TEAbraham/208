@@ -1,8 +1,9 @@
 {
   "question_id": "question-006",
+  "unit": "Unit 3 | Collecting Data",
   "title": "Golf Coach",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A golf coach creates a tutorial video to help fix a golfer's swing. The coach states that <span class=\"tex2jax_process\">$99.07\\%$</span> of those who watched and responded to his survey reported an improved swing. He posts this video to all his social media accounts. </div><div class=\"paragraph\">Can we say with certainty that <span class=\"tex2jax_process\">$99.07\\%$</span> of golfers who watch the video fix their swing?</div>",
+  "question_text": "A golf coach creates a tutorial video to help fix a golfer's swing. The coach states that $99.07\\%$ of those who watched and responded to his survey reported an improved swing. He posts this video to all his social media accounts. Can we say with certainty that $99.07\\%$ of golfers who watch the video fix their swing?",
   "image_files": [],
   "choices": [
     {
@@ -23,17 +24,12 @@
     },
     {
       "letter": "E",
-      "text": "No, because\n99.07\n%\nis too high."
+      "text": "No, because 99.07 % 99.07 % is too high."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer. ",
-  "solution": "The golf coach is using <strong>data collection</strong> to present his findings to help promote his video. He is claiming that there is a <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7104-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>99.07</mn><mi mathvariant=&quot;normal&quot;>&amp;#x0025;</mi></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-33387\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-33388\" class=\"mjx-mrow\"><span id=\"MJXc-Node-33389\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">99.07</span></span><span id=\"MJXc-Node-33390\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.441em; padding-bottom: 0.387em;\">%</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>99.07</mn><mi mathvariant=\"normal\">%</mi></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7104\">99.07\\%</script></span> success rate after watching the video. \n\nThe issue with this claim is that not all golfers who watch the video will answer a survey regarding whether or not the video helped. Many golfers will quickly watch the video and move on with their life.  He will mainly only get responses from the people in which the video helped. We have no way of knowing if the video helped the golfers who did not respond. \n\n<strong>Choice 'D'</strong> is correct. ",
-  "distractor_explanations": {
-    "A": "<strong>Choice 'A'</strong> is incorrect. Although we would like to believe the golf coach, you shouldn't believe everything you read online. ",
-    "B": "<strong>Choice 'B'</strong> is incorrect. There will be many golfers that watch the video and choose not to implement the strategies or answer the survey. ",
-    "C": "<strong>Choice 'C'</strong> is incorrect. We are not sure how people who watch the video and choose not to answer will answer the survey. ",
-    "E": "<strong>Choice 'E'</strong> is incorrect. Just because there is a high percentage of success, would not negate the results. But, we are not sure how people who watch and don't answer the survey will respond."
-  },
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "The golf coach is using data collection to present his findings to help promote his video. He is claiming that there is a 99.07 % 99.07 % success rate after watching the video.\n\nThe issue with this claim is that not all golfers who watch the video will answer a survey regarding whether or not the video helped. Many golfers will quickly watch the video and move on with their life.  He will mainly only get responses from the people in which the video helped. We have no way of knowing if the video helped the golfers who did not respond.\n\nChoice 'D' is correct.",
+  "distractor_explanations": {},
   "tags": [
     "VAR-1.E",
     "1.A",

@@ -1,32 +1,33 @@
 {
   "question_id": "question-012",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Definition of Margin of Error: Pop Star",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A publication reported that a current pop star \"gained the student body approval\" after his performance at homecoming. A poll was conducted randomly, and its findings were that <span class=\"tex2jax_process\">$90\\%$</span> of the students felt that the pop star's performance was the highlight of homecoming. The poll of <span class=\"tex2jax_process\">$100$</span> students had a margin of error of <span class=\"tex2jax_process\">$5\\%$</span>.  </div><div class=\"paragraph\">Which of the following statements best describes the margin of error?</div>",
+  "question_text": "A publication reported that a current pop star \"gained the student body approval\" after his performance at homecoming. A poll was conducted randomly, and its findings were that $90\\%$ of the students felt that the pop star's performance was the highlight of homecoming. The poll of $100$ students had a margin of error of $5\\%$ . Which of the following statements best describes the margin of error?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "About\n5\n%\nof the students do not like the pop star."
+      "text": "About 5 % 5 % of the students do not like the pop star."
     },
     {
       "letter": "B",
-      "text": "About\n5\n%\nof the\n100\nstudents refused to answer."
+      "text": "About 5 % 5 % of the 100 100 students refused to answer."
     },
     {
       "letter": "C",
-      "text": "The difference between the sample percentage and the population percentage is likely to be less than\n5\n%\n."
+      "text": "The difference between the sample percentage and the population percentage is likely to be less than 5 % 5 % ."
     },
     {
       "letter": "D",
-      "text": "About\n5\n%\nof the students were expected to change their minds after the survey."
+      "text": "About 5 % 5 % of the students were expected to change their minds after the survey."
     },
     {
       "letter": "E",
-      "text": "Not all of the\n100\nseniors know the pop star."
+      "text": "Not all of the 100 100 seniors know the pop star."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

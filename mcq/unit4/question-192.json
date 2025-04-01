@@ -1,32 +1,33 @@
 {
   "question_id": "question-192",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Shipment of Lightbulbs",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">After a large shipment of lightbulbs goes out, the manufacturer estimates that about <span class=\"tex2jax_process\">$1\\%$</span> are defective.  </div><div class=\"paragraph\">What is the probability that in a package of <span class=\"tex2jax_process\">$10\\text{ lightbulbs}$</span>, at most <span class=\"tex2jax_process\">$1\\text{ lightbulb}$</span> is defective?</div>",
+  "question_text": "After a large shipment of lightbulbs goes out, the manufacturer estimates that about $1\\%$ are defective. What is the probability that in a package of $10\\text{ lightbulbs}$ , at most $1\\text{ lightbulb}$ is defective?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "About\n0.90438\n."
+      "text": "About 0.90438 0.90438 ."
     },
     {
       "letter": "B",
-      "text": "About\n0.99573\n."
+      "text": "About 0.99573 0.99573 ."
     },
     {
       "letter": "C",
-      "text": "About\n0.00427\n."
+      "text": "About 0.00427 0.00427 ."
     },
     {
       "letter": "D",
-      "text": "About\n0\n."
+      "text": "About 0 0 ."
     },
     {
       "letter": "E",
-      "text": "About\n0.91352\n."
+      "text": "About 0.91352 0.91352 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,8 +1,9 @@
 {
   "question_id": "question-013",
+  "unit": "Unit 3 | Collecting Data",
   "title": "Mayor's Constituents",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A small town mayor wonders if his town will support a new city hall building in their town. He decides to send a survey to <span class=\"tex2jax_process\">$50$</span> houses in order to get a feel for those who support the building. Only <span class=\"tex2jax_process\">$30$</span> of the households return the survey. </div><div class=\"paragraph\">What is the population of interest in this setting?</div>",
+  "question_text": "A small town mayor wonders if his town will support a new city hall building in their town. He decides to send a survey to $50$ houses in order to get a feel for those who support the building. Only $30$ of the households return the survey. What is the population of interest in this setting?",
   "image_files": [],
   "choices": [
     {
@@ -11,29 +12,24 @@
     },
     {
       "letter": "B",
-      "text": "The\n50\nhouseholds selected for the survey."
+      "text": "The 50 50 households selected for the survey."
     },
     {
       "letter": "C",
-      "text": "The\n30\nhouseholds who returned the surveys."
+      "text": "The 30 30 households who returned the surveys."
     },
     {
       "letter": "D",
-      "text": "The\n50\nsurveys sent out."
+      "text": "The 50 50 surveys sent out."
     },
     {
       "letter": "E",
       "text": "The mayor"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer. ",
-  "solution": "When planning a study, one must know the <strong>population</strong> and the <strong>sample</strong> from which the data comes. The <strong>population</strong> consists of all items or subjects of interest, while the <strong>sample</strong> is the subset of the population selected for the study. \n\nIn the problem, the mayor is trying to gather data about his constituents by sending a survey to a sample of <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7139-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>50</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-33496\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-33497\" class=\"mjx-mrow\"><span id=\"MJXc-Node-33498\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">50</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7139\">50</script></span> households. Therefore, the subjects of interest in this setting would be all the mayors constituents. \n\n<strong>Choice 'A'</strong> is correct. ",
-  "distractor_explanations": {
-    "B": "<strong>Choice 'B'</strong> is incorrect. The <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7140-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>50</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-33499\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-33500\" class=\"mjx-mrow\"><span id=\"MJXc-Node-33501\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">50</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7140\">50</script></span> households selected to get the survey would represent the sample. ",
-    "C": "<strong>Choice 'C'</strong> is incorrect. The <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7141-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>30</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-33502\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-33503\" class=\"mjx-mrow\"><span id=\"MJXc-Node-33504\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">30</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7141\">30</script></span> households who returned the survey would give us the response rate for the survey. ",
-    "D": "<strong>Choice 'D'</strong> is incorrect. The <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7142-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>50</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-33505\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-33506\" class=\"mjx-mrow\"><span id=\"MJXc-Node-33507\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">50</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7142\">50</script></span> surveys are the tool used to collect the data. ",
-    "E": "<strong>Choice 'E'</strong> is incorrect. The mayor is the person who is running the survey and data collection."
-  },
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "When planning a study, one must know the population and the sample from which the data comes. The population consists of all items or subjects of interest, while the sample is the subset of the population selected for the study.\n\nIn the problem, the mayor is trying to gather data about his constituents by sending a survey to a sample of 50 50 households. Therefore, the subjects of interest in this setting would be all the mayors constituents.\n\nChoice 'A' is correct.",
+  "distractor_explanations": {},
   "tags": [
     "DAT-2",
     "DAT-2.A.1",

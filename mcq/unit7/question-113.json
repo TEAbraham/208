@@ -1,28 +1,29 @@
 {
   "question_id": "question-113",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Drawing Conclusions",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">​A hotel manager wishes to compare the number of guests she has per night to a competitor hotel's guests per night in town.  </div><div class=\"paragraph\">The manager records the number of guests staying per night during the last <span class=\"tex2jax_process\">$4\\text{ weeks}$</span> at her hotel and compares them to numbers for the last <span class=\"tex2jax_process\">$4\\text{ weeks}$</span> at the competitor.  </div><div class=\"paragraph\">The manager performs a two-sample <span class=\"tex2jax_process\">$T$</span>-Interval (her hotel - competitor’s hotel) and gets the values of <span class=\"tex2jax_process\">$28.54$</span> to <span class=\"tex2jax_process\">$32.56$</span> at <span class=\"tex2jax_process\">$95\\%$</span> confidence.  </div><div class=\"paragraph\">What could be a valid conclusion of this interval?​</div>",
+  "question_text": "​A hotel manager wishes to compare the number of guests she has per night to a competitor hotel's guests per night in town. The manager records the number of guests staying per night during the last $4\\text{ weeks}$ at her hotel and compares them to numbers for the last $4\\text{ weeks}$ at the competitor. The manager performs a two-sample $T$ -Interval (her hotel - competitor’s hotel) and gets the values of $28.54$ to $32.56$ at $95\\%$ confidence. What could be a valid conclusion of this interval?​",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "We are\n95\n%\nconfident the hotel manager has between\n28.54\nand\n32.56\n guests\nper night at her hotel."
+      "text": "We are 95 % 95 % confident the hotel manager has between 28.54 28.54 and 32.56 guests 32.56 guests per night at her hotel."
     },
     {
       "letter": "B",
-      "text": "We are\n95\n%\nconfident there are between\n28.54\nand\n32.56\n guests\nper night at the competitor’s hotel."
+      "text": "We are 95 % 95 % confident there are between 28.54 28.54 and 32.56 guests 32.56 guests per night at the competitor’s hotel."
     },
     {
       "letter": "C",
-      "text": "There is evidence the manager’s hotel gets more guests than her competitor’s hotel, significant at the\n5\n%\nlevel."
+      "text": "There is evidence the manager’s hotel gets more guests than her competitor’s hotel, significant at the 5 % 5 % level."
     },
     {
       "letter": "D",
-      "text": "We are\n95\n%\nconfident there are between\n28.54\nand\n32.56\nmore guests per night at the manager’s hotel than at the competitor’s hotel."
+      "text": "We are 95 % 95 % confident there are between 28.54 28.54 and 32.56 32.56 more guests per night at the manager’s hotel than at the competitor’s hotel."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

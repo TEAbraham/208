@@ -1,32 +1,33 @@
 {
   "question_id": "question-062",
-  "title": "Misuse of $r$",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "title": "Misuse of r",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Which of the following statements uses <span class=\"tex2jax_process\">$r$</span>, the correlation coefficient, correctly?</div>",
+  "question_text": "Which of the following statements uses r r , the correlation coefficient, correctly?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The correlation between price of pizza and number of toppings is\nr\n=\n0.98\ndollars per topping."
+      "text": "The correlation between price of pizza and number of toppings is r = 0.98 r = 0.98 dollars per topping."
     },
     {
       "letter": "B",
-      "text": "There is a moderate correlation (\nr\n=\n0.56\n) between hours studying for a test and percent correct on the test."
+      "text": "There is a moderate correlation ( r = 0.56 r = 0.56 ) between hours studying for a test and percent correct on the test."
     },
     {
       "letter": "C",
-      "text": "There is a strong correlation (\nr\n=\n0.82\n) between race and musical preference."
+      "text": "There is a strong correlation ( r = 0.82 r = 0.82 ) between race and musical preference."
     },
     {
       "letter": "D",
-      "text": "The correlation between age and shoe size is\nr\n=\n1.34\n."
+      "text": "The correlation between age and shoe size is r = 1.34 r = 1.34 ."
     },
     {
       "letter": "E",
-      "text": "If the correlation between a person’s AP Stats grade and AP English grade is 0\n.68\n; the correlation becomes\n−\n0.68\nwhen explanatory and response variables are switched."
+      "text": "If the correlation between a person’s AP Stats grade and AP English grade is 0 .68 .68 ; the correlation becomes − 0.68 − 0.68 when explanatory and response variables are switched."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong>  is incorrect; correlation cannot have units.",
+  "correct_answer": "Choice 'A' is incorrect; correlation cannot have units.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

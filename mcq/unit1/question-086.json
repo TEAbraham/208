@@ -1,32 +1,33 @@
 {
   "question_id": "question-086",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Students Losing Weight",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Suppose a school nurse measured the weights of <span class=\"tex2jax_process\">$10$</span> of her students. The weights have a mean of <span class=\"tex2jax_process\">$104\\text{ pounds}$</span> with a standard deviation of <span class=\"tex2jax_process\">$11\\text{ pounds}$</span>.  </div><div class=\"paragraph\">If each student lost <span class=\"tex2jax_process\">$5\\text{ pounds}$</span> the next day, what would the new mean and standard deviation be?</div>",
+  "question_text": "Suppose a school nurse measured the weights of $10$ of her students. The weights have a mean of $104\\text{ pounds}$ with a standard deviation of $11\\text{ pounds}$ . If each student lost $5\\text{ pounds}$ the next day, what would the new mean and standard deviation be?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Mean =\n104\n lbs Standard deviation =\n11\n lbs"
+      "text": "Mean = 104 lbs 104 lbs Standard deviation = 11 lbs 11 lbs"
     },
     {
       "letter": "B",
-      "text": "Mean =\n99\n lbs Standard deviation =\n11\n lbs"
+      "text": "Mean = 99 lbs 99 lbs Standard deviation = 11 lbs 11 lbs"
     },
     {
       "letter": "C",
-      "text": "Mean =\n99\n lbs Standard deviation =\n6\n lbs"
+      "text": "Mean = 99 lbs 99 lbs Standard deviation = 6 lbs 6 lbs"
     },
     {
       "letter": "D",
-      "text": "Mean =\n104\n lbs Standard deviation =\n6\n lbs"
+      "text": "Mean = 104 lbs 104 lbs Standard deviation = 6 lbs 6 lbs"
     },
     {
       "letter": "E",
-      "text": "Mean =\n52\n lbs Standard deviation =\n6\n lbs"
+      "text": "Mean = 52 lbs 52 lbs Standard deviation = 6 lbs 6 lbs"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

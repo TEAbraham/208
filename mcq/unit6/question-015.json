@@ -1,8 +1,9 @@
 {
   "question_id": "question-015",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "How to Reduce the Margin of Error to $1/5$ of the Original?",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A one-proportion <span class=\"tex2jax_process\">$z$</span>-interval was constructed. A researcher wants to reduce the margin of error to one-fifth of its original margin of error.  </div><div class=\"paragraph\">What would she have to do to the sample size?  </div>",
+  "question_text": "A one-proportion $z$ -interval was constructed. A researcher wants to reduce the margin of error to one-fifth of its original margin of error. What would she have to do to the sample size?",
   "image_files": [],
   "choices": [
     {
@@ -11,22 +12,22 @@
     },
     {
       "letter": "B",
-      "text": "Divide the sample size by\n5\n."
+      "text": "Divide the sample size by 5 5 ."
     },
     {
       "letter": "C",
-      "text": "Divide the sample size by\n25\n."
+      "text": "Divide the sample size by 25 25 ."
     },
     {
       "letter": "D",
-      "text": "Multiply the sample size by\n5\n."
+      "text": "Multiply the sample size by 5 5 ."
     },
     {
       "letter": "E",
-      "text": "Multiply the sample size by\n25\n."
+      "text": "Multiply the sample size by 25 25 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

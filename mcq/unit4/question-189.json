@@ -1,32 +1,33 @@
 {
   "question_id": "question-189",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Binomial Distribution: Manipulate that Binomial Standard Style",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A random variable <span class=\"tex2jax_process\">$X$</span> has the probability:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$\\begin{pmatrix} 20 \\\\ k \\end{pmatrix}(0.44)^{k}(0.56)^{20-k}$$</div>  </div><div class=\"paragraph\">...associated with the value <span class=\"tex2jax_process\">$k$</span> is  for <span class=\"tex2jax_process\">$k= 0,1,2,3,…,20$</span>.  </div><div class=\"paragraph\">What is the standard deviation of <span class=\"tex2jax_process\">$X$</span>?</div>",
+  "question_text": "A random variable $X$ has the probability: $$\\begin{pmatrix} 20 \\\\ k \\end{pmatrix}(0.44)^{k}(0.56)^{20-k}$$ ...associated with the value $k$ is  for $k= 0,1,2,3,…,20$ . What is the standard deviation of $X$ ?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.25"
+      "text": "0.25 0.25"
     },
     {
       "letter": "B",
-      "text": "2.22"
+      "text": "2.22 2.22"
     },
     {
       "letter": "C",
-      "text": "4.93"
+      "text": "4.93 4.93"
     },
     {
       "letter": "D",
-      "text": "8.80"
+      "text": "8.80 8.80"
     },
     {
       "letter": "E",
-      "text": "11.20"
+      "text": "11.20 11.20"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

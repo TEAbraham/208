@@ -1,8 +1,9 @@
 {
   "question_id": "question-016",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Chi-Squared Distribution Attributes",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A chi-squared distribution</div><blockquote><div class=\"paragraph\"><strong>I.</strong> Will be approximately normal.  </div><div class=\"paragraph\"><strong>II.</strong> Will have n-<span class=\"tex2jax_process\">$1$</span> degrees of freedom, where <span class=\"tex2jax_process\">$n$</span> is the sample size.  </div><div class=\"paragraph\"><strong>III.</strong> Can only be used to determine if there is a difference, not the direction of the difference.</div></blockquote>",
+  "question_text": "A chi-squared distribution I. Will be approximately normal. II. Will have n- $1$ degrees of freedom, where $n$ is the sample size. III. Can only be used to determine if there is a difference, not the direction of the difference.",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "II and III only."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

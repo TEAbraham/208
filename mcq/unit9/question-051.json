@@ -1,32 +1,33 @@
 {
   "question_id": "question-051",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Self-Esteem | 1 of 2",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A high school principal is curious if a linear relationship exists between student height and score on a self-esteem test.  </div><div class=\"paragraph\">A random sample of <span class=\"tex2jax_process\">$20$</span> pairs of students was taken. A linear regression <span class=\"tex2jax_process\">$T$</span>-test was performed on <span class=\"tex2jax_process\">$H_0: B = 0$</span> vs. <span class=\"tex2jax_process\">$H_a: B &gt; 0$</span>, and the test statistic of <span class=\"tex2jax_process\">$t = 3.19$</span> was calculated.  </div><div class=\"paragraph\">What is the approximate <span class=\"tex2jax_process\">$p$</span>-value?</div>",
+  "question_text": "A high school principal is curious if a linear relationship exists between student height and score on a self-esteem test. A random sample of $20$ pairs of students was taken. A linear regression $T$ -test was performed on $H_0: B = 0$ vs. $H_a: B > 0$ , and the test statistic of $t = 3.19$ was calculated. What is the approximate $p$ -value?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Greater than\n10\n%\n."
+      "text": "Greater than 10 % 10 % ."
     },
     {
       "letter": "B",
-      "text": "Between\n5\n%\nand\n10\n%\n."
+      "text": "Between 5 % 5 % and 10 % 10 % ."
     },
     {
       "letter": "C",
-      "text": "Between\n1\n%\nand\n5\n%\n."
+      "text": "Between 1 % 1 % and 5 % 5 % ."
     },
     {
       "letter": "D",
-      "text": "Between\n0.5\n%\nand\n1\n%\n."
+      "text": "Between 0.5 % 0.5 % and 1 % 1 % ."
     },
     {
       "letter": "E",
-      "text": "Less than\n0.5\n%\n."
+      "text": "Less than 0.5 % 0.5 % ."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

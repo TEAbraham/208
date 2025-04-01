@@ -1,32 +1,33 @@
 {
   "question_id": "question-101",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "National Fitness Challenge",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Two large high schools are competing with each other in a national fitness challenge.  </div><div class=\"paragraph\">Five students are selected at random from each school. Their running times for a <span class=\"tex2jax_process\">$5\\text{ kilometer}$</span> run, rounded to the nearest minute, is recorded below:</div><blockquote><div class=\"paragraph\">School A: <span class=\"tex2jax_process\">$30, 35, 30, 32, 24$</span><br>Mean: <span class=\"tex2jax_process\">$30.2$</span><br>Standard Deviation: <span class=\"tex2jax_process\">$4.025$</span>  </div><div class=\"paragraph\">School B: <span class=\"tex2jax_process\">$27, 22, 36, 30, 31$</span><br>Mean: <span class=\"tex2jax_process\">$29.2$</span><br>Standard Deviation: <span class=\"tex2jax_process\">$5.167$</span>  </div></blockquote><div class=\"paragraph\">Determine the most exact value of a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for the difference of the two schools’ running times.</div>",
+  "question_text": "Two large high schools are competing with each other in a national fitness challenge. Five students are selected at random from each school. Their running times for a $5\\text{ kilometer}$ run, rounded to the nearest minute, is recorded below: School A: $30, 35, 30, 32, 24$ Mean: $30.2$ Standard Deviation: $4.025$ School B: $27, 22, 36, 30, 31$ Mean: $29.2$ Standard Deviation: $5.167$ Determine the most exact value of a $95\\%$ confidence interval for the difference of the two schools’ running times.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "(\n−\n2.72\n,\n4.72\n)"
+      "text": "( − 2.72 , 4.72 ) ( − 2.72 , 4.72 )"
     },
     {
       "letter": "B",
-      "text": "(\n−\n4.49\n,\n6.49\n)"
+      "text": "( − 4.49 , 6.49 ) ( − 4.49 , 6.49 )"
     },
     {
       "letter": "C",
-      "text": "(\n−\n5.76\n,\n7.75\n)"
+      "text": "( − 5.76 , 7.75 ) ( − 5.76 , 7.75 )"
     },
     {
       "letter": "D",
-      "text": "(\n−\n5.83\n,\n7.83\n)"
+      "text": "( − 5.83 , 7.83 ) ( − 5.83 , 7.83 )"
     },
     {
       "letter": "E",
-      "text": "(\n−\n9\n,\n11\n)"
+      "text": "( − 9 , 11 ) ( − 9 , 11 )"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

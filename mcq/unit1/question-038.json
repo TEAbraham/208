@@ -1,23 +1,24 @@
 {
   "question_id": "question-038",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "401k Participation",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">In a large company, employees can participate in the company sponsored <span class=\"tex2jax_process\">$401$</span>k program. The following bar graph displays the relative frequency of employees that take advantage of the <span class=\"tex2jax_process\">$401$</span>k program broken down by department. </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div>\n<div class=\"paragraph\">Which of the following statements is supported by the bar chart?</div>",
+  "question_text": "In a large company, employees can participate in the company sponsored $401$ k program. The following bar graph displays the relative frequency of employees that take advantage of the $401$ k program broken down by department. Which of the following statements is supported by the bar chart?",
   "image_files": [
     "images/question-038-img1.png"
   ],
   "choices": [
     {
       "letter": "A",
-      "text": "Over half of the Sales department participate in the\n401\nk program."
+      "text": "Over half of the Sales department participate in the 401 401 k program."
     },
     {
       "letter": "B",
-      "text": "Accounting/Finance has the most people participating in the\n401\nk program."
+      "text": "Accounting/Finance has the most people participating in the 401 401 k program."
     },
     {
       "letter": "C",
-      "text": "The number of people participating in the\n401\nk program is equal for Human Resources and IT."
+      "text": "The number of people participating in the 401 401 k program is equal for Human Resources and IT."
     },
     {
       "letter": "D",
@@ -25,17 +26,12 @@
     },
     {
       "letter": "E",
-      "text": "The relative frequency of the Sales and IT employees who participate combined is\n0.40\n."
+      "text": "The relative frequency of the Sales and IT employees who participate combined is 0.40 0.40 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer. ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {
-    "A": "<strong>Choice 'A'</strong> is incorrect. The sales department's relative frequency is a little above <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-464-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>0.40</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-2157\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-2158\" class=\"mjx-mrow\"><span id=\"MJXc-Node-2159\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">0.40</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0.40</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-464\">0.40</script></span>, but clearly not over <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-465-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>0.50</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-2160\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-2161\" class=\"mjx-mrow\"><span id=\"MJXc-Node-2162\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">0.50</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0.50</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-465\">0.50</script></span>; therefore, it is not over half.  ",
-    "B": "<strong>Choice 'B'</strong> is incorrect.  Although Accounting/Finance has the highest relative frequency of employees who participate, we do not know the size of the department, so we cannot make an assumption on the number of people who participate. ",
-    "C": "<strong>Choice 'C'</strong> is incorrect. Again, because we do not know the number of people in each department, we cannot make an assumption on the number of people who participate, even if the relative frequencies are the same. ",
-    "E": "<strong>Choice 'E'</strong> is incorrect. The Sales department has a relative frequency of slightly greater than <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-466-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>0.40</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-2163\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-2164\" class=\"mjx-mrow\"><span id=\"MJXc-Node-2165\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">0.40</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0.40</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-466\">0.40</script></span>. So, even if the two groups had the same number of people, their combined relative frequency would not be <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-467-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>0.40</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-2166\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-2167\" class=\"mjx-mrow\"><span id=\"MJXc-Node-2168\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">0.40</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0.40</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-467\">0.40</script></span>."
-  },
+  "distractor_explanations": {},
   "tags": [
     "UNC-1.E",
     "UNC-1.D",

@@ -1,34 +1,35 @@
 {
   "question_id": "question-062",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Sample Size: Effect on $Z$-Statistic and $P$-Value",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Miguel conducted a one-sample <span class=\"tex2jax_process\">$z$</span>-test for a population proportion.  Later, he realized that while he had correctly computed the sample proportion (which was larger than his hypothesized proportion), he had incorrectly recorded the sample size when calculating the standard error.  In reality, the actual sample size was smaller than the sample size he had used in his calculation.  </div><div class=\"paragraph\">If Miguel revises his calculation of standard error to decrease the sample size, which of the following describes the effect upon the <span class=\"tex2jax_process\">$z$</span>-statistic and the corresponding <span class=\"tex2jax_process\">$p$</span>-value?</div><div class=\"paragraph\">Note: his alternative hypothesis is that <span class=\"tex2jax_process\">$p &gt; p_0$</span></div>",
+  "question_text": "Miguel conducted a one-sample $z$ -test for a population proportion.  Later, he realized that while he had correctly computed the sample proportion (which was larger than his hypothesized proportion), he had incorrectly recorded the sample size when calculating the standard error.  In reality, the actual sample size was smaller than the sample size he had used in his calculation. If Miguel revises his calculation of standard error to decrease the sample size, which of the following describes the effect upon the $z$ -statistic and the corresponding $p$ -value? Note: his alternative hypothesis is that $p > p_0$",
   "image_files": [
     "images/question-062-img1.png"
   ],
   "choices": [
     {
       "letter": "A",
-      "text": "Both the\nz\n-statistic and the\np\n-value will remain unchanged."
+      "text": "Both the z z -statistic and the p p -value will remain unchanged."
     },
     {
       "letter": "B",
-      "text": "Both the\nz\n-statistic and the\np\n-value will decrease."
+      "text": "Both the z z -statistic and the p p -value will decrease."
     },
     {
       "letter": "C",
-      "text": "Both the\nz\n-statistic and the\np\n-value will increase."
+      "text": "Both the z z -statistic and the p p -value will increase."
     },
     {
       "letter": "D",
-      "text": "The\nz\n-statistic will decrease and the\np\n-value will increase."
+      "text": "The z z -statistic will decrease and the p p -value will increase."
     },
     {
       "letter": "E",
-      "text": "The\nz\n-statistic will increase and the\np\n-value will decrease."
+      "text": "The z z -statistic will increase and the p p -value will decrease."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

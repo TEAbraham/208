@@ -1,21 +1,22 @@
 {
   "question_id": "question-110",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Minitab Output",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">The data below shows mini tab output for the relationship between the number of cricket chirps per minute and temperature.  </div><div class=\"paragraph\">The regression equation for this relationship is:    </div><div class=\"paragraph\"><span class=\"tex2jax_process\">$Temp = 44+0.993x$</span>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Predictor</th><th scope=\"col\">Coef</th><th scope=\"col\">St Dev</th><th scope=\"col\">t Ratio</th><th scope=\"col\">P</th></tr></thead><tbody><tr><td>Constant</td><td>44.013</td><td>1.827</td><td>24.09</td><td>0</td></tr><tr><td>Number</td><td>0.99340</td><td>0.06523</td><td>15.23</td><td>0</td></tr><tr><td>S=1.536</td><td>R-Sq = 95.9%</td><td>R-sq(adj) = 95.5%</td><td>--</td><td>--</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Which of the following statements is true concerning the least squares regression line?</div>",
+  "question_text": "The data below shows mini tab output for the relationship between the number of cricket chirps per minute and temperature. The regression equation for this relationship is: $Temp = 44+0.993x$ Predictor Coef St Dev t Ratio P Constant 44.013 1.827 24.09 0 Number 0.99340 0.06523 15.23 0 S=1.536 R-Sq = 95.9% R-sq(adj) = 95.5% -- -- Which of the following statements is true concerning the least squares regression line?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "One would predict the temperature to be about\n0.993\ndegrees if there are no chirps."
+      "text": "One would predict the temperature to be about 0.993 0.993 degrees if there are no chirps."
     },
     {
       "letter": "B",
-      "text": "One would expect the temperature to be about\n0.993\ndegrees higher for every extra chirp per minute heard."
+      "text": "One would expect the temperature to be about 0.993 0.993 degrees higher for every extra chirp per minute heard."
     },
     {
       "letter": "C",
-      "text": "The least squares regression line has a slope of about\n44\ndegrees."
+      "text": "The least squares regression line has a slope of about 44 44 degrees."
     },
     {
       "letter": "D",
@@ -23,10 +24,10 @@
     },
     {
       "letter": "E",
-      "text": "One would expect about\n44\nchirps per minute if it were\n100\ndegrees outside."
+      "text": "One would expect about 44 44 chirps per minute if it were 100 100 degrees outside."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

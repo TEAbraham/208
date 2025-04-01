@@ -1,8 +1,9 @@
 {
   "question_id": "question-084",
+  "unit": "Unit 3 | Collecting Data",
   "title": "Best Method of Data Collection for a Population Mean",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Isaac wanted to know the mean number of students in mathematics classes at his small high school.  </div><div class=\"paragraph\">What is the best way for him to collect his data?</div>",
+  "question_text": "Isaac wanted to know the mean number of students in mathematics classes at his small high school. What is the best way for him to collect his data?",
   "image_files": [],
   "choices": [
     {
@@ -26,14 +27,9 @@
       "text": "Use the number of students in his own mathematics class as a reasonable estimate."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {
-    "B": "<strong>Choice 'B'</strong> is incorrect.  There would be no need to take a sample.  In addition, a convenience sample is not a good idea since it is unlikely to do a good job of representing the population of interest.  ",
-    "C": "<strong>Choice 'C'</strong> is incorrect.  The purpose of an <strong>experiment</strong> is to measure the effects of a certain treatment.  There is no treatment involved in this situation.  Isaac simply wants to know a population mean.",
-    "D": "<strong>Choice 'D'</strong> is incorrect.  Again, there is no need to use a sample.  In addition, Isaac is only interested in the mean number of students in <em>all</em> mathematics classes at his school.  He is not interested in finding a mean for different types of math classes so there would be no need to consider different strata.",
-    "E": "<strong>Choice 'E'</strong> is incorrect.  A single observation is not reliable for estimating an overall population mean."
-  },
+  "distractor_explanations": {},
   "tags": [
     "DAT-2",
     "1.C",

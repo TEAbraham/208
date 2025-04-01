@@ -1,8 +1,9 @@
 {
   "question_id": "question-218",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Select the True Statements about Normal Distribution",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Which of the following statements is/are true of every normal distribution?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> It is symmetric about its median.<br><strong>II.</strong> It has µ = <span class=\"tex2jax_process\">$0$</span> and standard deviation = <span class=\"tex2jax_process\">$1$</span>.<br><strong>III.</strong>  <span class=\"tex2jax_process\">$\\frac{3}{4}$</span> of the data values will be within <span class=\"tex2jax_process\">$1$</span> standard deviation of its mean.    </div></blockquote>",
+  "question_text": "Which of the following statements is/are true of every normal distribution? I. It is symmetric about its median. II. It has µ = $0$ and standard deviation = $1$ . III. $\\frac{3}{4}$ of the data values will be within $1$ standard deviation of its mean.",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "I, II, and III."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

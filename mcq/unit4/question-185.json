@@ -1,32 +1,33 @@
 {
   "question_id": "question-185",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Mean Variance of Binomial",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">What are the mean and variance of the binomial distribution with <span class=\"tex2jax_process\">$n$</span> number of trials and <span class=\"tex2jax_process\">$P$</span> probability of success?</div>",
+  "question_text": "What are the mean and variance of the binomial distribution with $n$ number of trials and $P$ probability of success?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Mean:\nn\nP Variance:\nn\n(\nP\n)\n(\n1\n−\nP\n)"
+      "text": "Mean: n P n P Variance: n ( P ) ( 1 − P ) n ( P ) ( 1 − P )"
     },
     {
       "letter": "B",
-      "text": "Mean:\nP Variance:\nn\n(\nP\n)\n(\n1\n−\nP\n)"
+      "text": "Mean: P P Variance: n ( P ) ( 1 − P ) n ( P ) ( 1 − P )"
     },
     {
       "letter": "C",
-      "text": "Mean:\nP Variance:\n(\nP\n)\n[\n√\nn\n]"
+      "text": "Mean: P P Variance: ( P ) [ √ n ] ( P ) [ n ]"
     },
     {
       "letter": "D",
-      "text": "Mean:\nn\nP Variance:\n(\nσ\n)\n[\n√\nn\n]"
+      "text": "Mean: n P n P Variance: ( σ ) [ √ n ] ( σ ) [ n ]"
     },
     {
       "letter": "E",
-      "text": "Mean:\nμ Variance:\n√\n(\nn\n)\n(\nP\n)\n(\n1\n−\nP\n)"
+      "text": "Mean: μ μ Variance: √ ( n ) ( P ) ( 1 − P ) ( n ) ( P ) ( 1 − P )"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

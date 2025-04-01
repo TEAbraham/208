@@ -1,32 +1,33 @@
 {
   "question_id": "question-034",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Restaurant Preference: A Two Way Table",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">For his final statistics project, Ramsey completed a study to determine which of <span class=\"tex2jax_process\">$4$</span> local restaurants students at his school preferred.  After gathering data he organized the counts for each restaurant into the table shown below.  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Pancake Factory</th><th scope=\"col\">Onion Garden</th><th scope=\"col\">Emerald Wednesdays</th><th scope=\"col\">Cayenne</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Boys</td><td>25</td><td>28</td><td>12</td><td>43</td><td>108</td></tr><tr><td>Girls</td><td>30</td><td>33</td><td>27</td><td>32</td><td>122</td></tr><tr><td>Total</td><td>55</td><td>61</td><td>39</td><td>75</td><td>230</td></tr></tbody></table></div><div class=\"paragraph\"><span class=\"tex2jax_process\">$\\ $</span><br>What is the conditional distribution of gender for those who prefer Cayenne?</div>",
+  "question_text": "For his final statistics project, Ramsey completed a study to determine which of $4$ local restaurants students at his school preferred.  After gathering data he organized the counts for each restaurant into the table shown below. Pancake Factory Onion Garden Emerald Wednesdays Cayenne Total Boys 25 28 12 43 108 Girls 30 33 27 32 122 Total 55 61 39 75 230 $\\ $ What is the conditional distribution of gender for those who prefer Cayenne?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Boys:\n43\n108 Girls:\n32\n122"
+      "text": "Boys: 43 108 43 108 Girls: 32 122 32 122"
     },
     {
       "letter": "B",
-      "text": "Boys:\n43\n230 Girls:\n32\n230"
+      "text": "Boys: 43 230 43 230 Girls: 32 230 32 230"
     },
     {
       "letter": "C",
-      "text": "Boys:\n108\n230 Girls:\n122\n230"
+      "text": "Boys: 108 230 108 230 Girls: 122 230 122 230"
     },
     {
       "letter": "D",
-      "text": "Boys:\n43\n75 Girls:\n32\n75"
+      "text": "Boys: 43 75 43 75 Girls: 32 75 32 75"
     },
     {
       "letter": "E",
-      "text": "Boys:\n25\n55 Girls:\n30\n55"
+      "text": "Boys: 25 55 25 55 Girls: 30 55 30 55"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

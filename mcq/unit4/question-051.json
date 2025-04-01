@@ -1,32 +1,33 @@
 {
   "question_id": "question-051",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Favorite Movie Genre and an Associated Probability",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">The Film Club distributed a survey to students at their high school to determine the students' favorite genre of movie. The survey asked an individual to select only one favorite. Not everyone returned the survey, but here are the results of those who did:\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Action</th><th scope=\"col\">Drama</th><th scope=\"col\">Sci-Fi</th><th scope=\"col\">Comedy</th><th scope=\"col\">Horror</th></tr></thead><tbody><tr><td>Male</td><td>24</td><td>11</td><td>15</td><td>16</td><td>10</td></tr><tr><td>Female</td><td>17</td><td>21</td><td>12</td><td>18</td><td>4</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>If a survey indicated that the respondent's favorite genre was either Sci-Fi or Horror, what is the probability that the respondent was male?</div>",
+  "question_text": "The Film Club distributed a survey to students at their high school to determine the students' favorite genre of movie. The survey asked an individual to select only one favorite. Not everyone returned the survey, but here are the results of those who did: Action Drama Sci-Fi Comedy Horror Male 24 11 15 16 10 Female 17 21 12 18 4 If a survey indicated that the respondent's favorite genre was either Sci-Fi or Horror, what is the probability that the respondent was male?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.28"
+      "text": "0.28 0.28"
     },
     {
       "letter": "B",
-      "text": "0.51"
+      "text": "0.51 0.51"
     },
     {
       "letter": "C",
-      "text": "0.56"
+      "text": "0.56 0.56"
     },
     {
       "letter": "D",
-      "text": "0.61"
+      "text": "0.61 0.61"
     },
     {
       "letter": "E",
-      "text": "0.71"
+      "text": "0.71 0.71"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

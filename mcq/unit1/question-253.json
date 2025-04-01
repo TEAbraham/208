@@ -1,8 +1,9 @@
 {
   "question_id": "question-253",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Zack and Nick",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Zack takes the SAT, and his best friend, Nick, takes the ACT.  </div><div class=\"paragraph\">Zack’s SAT Math score is <span class=\"tex2jax_process\">$680$</span>, and Nick’s ACT Math score is <span class=\"tex2jax_process\">$27$</span>. SAT Math scores in the county are normally distributed with a mean of <span class=\"tex2jax_process\">$500$</span> and a standard deviation of <span class=\"tex2jax_process\">$100$</span>. ACT Math scores in the county are also normally distributed but with a mean of <span class=\"tex2jax_process\">$18$</span> and a standard deviation of <span class=\"tex2jax_process\">$6$</span>.  </div><div class=\"paragraph\">Assuming that both tests measure the same kind of ability, who has scored better relative to their peers?</div>",
+  "question_text": "Zack takes the SAT, and his best friend, Nick, takes the ACT. Zack’s SAT Math score is $680$ , and Nick’s ACT Math score is $27$ . SAT Math scores in the county are normally distributed with a mean of $500$ and a standard deviation of $100$ . ACT Math scores in the county are also normally distributed but with a mean of $18$ and a standard deviation of $6$ . Assuming that both tests measure the same kind of ability, who has scored better relative to their peers?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "A valid comparison cannot be made between these two scores."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

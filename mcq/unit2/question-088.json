@@ -1,8 +1,9 @@
 {
   "question_id": "question-088",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Data Analysis: Residual Plots",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Which of the following statements is/are true concerning residual plots?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> A residual plot is constructed by plotting the explanatory variable values on the <span class=\"tex2jax_process\">$x$</span>-axis against the residuals on the <span class=\"tex2jax_process\">$y$</span>-axis.<br><strong>II.</strong> A residual plot should have a positive slope if the slope of the least squares regression line is above zero.<br><strong>III.</strong> A residual plot shows how the errors in a linear regression model are arranged.</div></blockquote>",
+  "question_text": "Which of the following statements is/are true concerning residual plots? I. A residual plot is constructed by plotting the explanatory variable values on the $x$ -axis against the residuals on the $y$ -axis. II. A residual plot should have a positive slope if the slope of the least squares regression line is above zero. III. A residual plot shows how the errors in a linear regression model are arranged.",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "I and III only."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

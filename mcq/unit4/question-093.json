@@ -1,32 +1,33 @@
 {
   "question_id": "question-093",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Probability: Taking at Least Four Free Throws",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Suppose a free-throw shooter with a <span class=\"tex2jax_process\">$75\\%$</span> success rate attempts free throws until one is missed.  </div><div class=\"paragraph\">What is the probability that the shooter is able to make four successful free throws in a row?</div>",
+  "question_text": "Suppose a free-throw shooter with a $75\\%$ success rate attempts free throws until one is missed. What is the probability that the shooter is able to make four successful free throws in a row?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.105468"
+      "text": "0.105468 0.105468"
     },
     {
       "letter": "B",
-      "text": "0.003906"
+      "text": "0.003906 0.003906"
     },
     {
       "letter": "C",
-      "text": "0.316406"
+      "text": "0.316406 0.316406"
     },
     {
       "letter": "D",
-      "text": "0.578125"
+      "text": "0.578125 0.578125"
     },
     {
       "letter": "E",
-      "text": "0.421875"
+      "text": "0.421875 0.421875"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-074",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Geometric Exact Value",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Suppose a <span class=\"tex2jax_process\">$75\\%$</span> accuracy free-throw shooter attempts free throws until one is missed.  </div><div class=\"paragraph\">What is the probability that the shooter’s first miss is on the fourth attempt?</div>",
+  "question_text": "Suppose a $75\\%$ accuracy free-throw shooter attempts free throws until one is missed. What is the probability that the shooter’s first miss is on the fourth attempt?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.1054"
+      "text": "0.1054 0.1054"
     },
     {
       "letter": "B",
-      "text": "0.0117"
+      "text": "0.0117 0.0117"
     },
     {
       "letter": "C",
-      "text": "0.3164"
+      "text": "0.3164 0.3164"
     },
     {
       "letter": "D",
-      "text": "0.0791"
+      "text": "0.0791 0.0791"
     },
     {
       "letter": "E",
-      "text": "0.4219"
+      "text": "0.4219 0.4219"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

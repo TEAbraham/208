@@ -1,32 +1,33 @@
 {
   "question_id": "question-059",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Probability: Seeing a Red Car",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Suppose <span class=\"tex2jax_process\">$30\\%$</span> of all cars in ​a certain town are red.  </div><div class=\"paragraph\">If a resident is standing outside his house, what’s the probability of seeing a red car for the first time on the third car?</div>",
+  "question_text": "Suppose $30\\%$ of all cars in ​a certain town are red. If a resident is standing outside his house, what’s the probability of seeing a red car for the first time on the third car?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.3"
+      "text": "0.3 0.3"
     },
     {
       "letter": "B",
-      "text": "0.7"
+      "text": "0.7 0.7"
     },
     {
       "letter": "C",
-      "text": "0.063"
+      "text": "0.063 0.063"
     },
     {
       "letter": "D",
-      "text": "0.147"
+      "text": "0.147 0.147"
     },
     {
       "letter": "E",
-      "text": "0.657"
+      "text": "0.657 0.657"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

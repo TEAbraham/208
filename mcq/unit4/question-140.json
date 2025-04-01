@@ -1,32 +1,33 @@
 {
   "question_id": "question-140",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Variance of the Difference",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\"><span class=\"tex2jax_process\">$A$</span> is a random variable whose mean is <span class=\"tex2jax_process\">$71.2$</span> and whose standard deviation is <span class=\"tex2jax_process\">$1.1$</span>.<br><span class=\"tex2jax_process\">$B$</span> is a random variable whose mean is <span class=\"tex2jax_process\">$23.7$</span> and whose standard deviation is <span class=\"tex2jax_process\">$0.25$</span>.</div><div class=\"paragraph\">If <span class=\"tex2jax_process\">$A$</span> and <span class=\"tex2jax_process\">$B$</span> are independent, what is the variance of <span class=\"tex2jax_process\">$A-B$</span>?</div>",
+  "question_text": "$A$ is a random variable whose mean is $71.2$ and whose standard deviation is $1.1$ . $B$ is a random variable whose mean is $23.7$ and whose standard deviation is $0.25$ . If $A$ and $B$ are independent, what is the variance of $A-B$ ?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.0625"
+      "text": "0.0625 0.0625"
     },
     {
       "letter": "B",
-      "text": "1.2100"
+      "text": "1.2100 1.2100"
     },
     {
       "letter": "C",
-      "text": "1.1475"
+      "text": "1.1475 1.1475"
     },
     {
       "letter": "D",
-      "text": "1.2725"
+      "text": "1.2725 1.2725"
     },
     {
       "letter": "E",
-      "text": "1.3500"
+      "text": "1.3500 1.3500"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

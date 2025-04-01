@@ -1,32 +1,33 @@
 {
   "question_id": "question-062",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Library Survey on Child Height and Shoe Size",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Suppose a random sample of size <span class=\"tex2jax_process\">$n = 40\\text{ children}$</span> were taken at a local library, where they were asked their shoe size and age.  </div><div class=\"paragraph\">What <span class=\"tex2jax_process\">$r$</span> value and test statistic would be most likely to occur when performing a linear regression <span class=\"tex2jax_process\">$T$</span>-test of <span class=\"tex2jax_process\">$H_0: B = 0$</span> vs. <span class=\"tex2jax_process\">$H_a: B \\gt 0$</span>?</div>",
+  "question_text": "Suppose a random sample of size $n = 40\\text{ children}$ were taken at a local library, where they were asked their shoe size and age. What $r$ value and test statistic would be most likely to occur when performing a linear regression $T$ -test of $H_0: B = 0$ vs. $H_a: B \\gt 0$ ?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "T\n=\n−\n4.32 r\n=\n0.4"
+      "text": "T = − 4.32 T = − 4.32 r = 0.4 r = 0.4"
     },
     {
       "letter": "B",
-      "text": "T\n=\n0.99 r\n=\n−\n0.9"
+      "text": "T = 0.99 T = 0.99 r = − 0.9 r = − 0.9"
     },
     {
       "letter": "C",
-      "text": "T\n=\n−\n0.99 r\n=\n−\n0.8"
+      "text": "T = − 0.99 T = − 0.99 r = − 0.8 r = − 0.8"
     },
     {
       "letter": "D",
-      "text": "T\n=\n3.43 r\n=\n3.42"
+      "text": "T = 3.43 T = 3.43 r = 3.42 r = 3.42"
     },
     {
       "letter": "E",
-      "text": "T\n=\n4.89 r\n=\n0.9"
+      "text": "T = 4.89 T = 4.89 r = 0.9 r = 0.9"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

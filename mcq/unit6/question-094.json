@@ -1,32 +1,33 @@
 {
   "question_id": "question-094",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Check the Polls",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">National polls for a political candidate were being compared between two different polling companies.</div><ul><li>Company <span class=\"tex2jax_process\">$1$</span> randomly polled <span class=\"tex2jax_process\">$32$</span> people and found <span class=\"tex2jax_process\">$22$</span> planning to vote for the candidate.</li><li>Company <span class=\"tex2jax_process\">$2$</span> randomly polled <span class=\"tex2jax_process\">$34$</span> people and found <span class=\"tex2jax_process\">$31$</span> planning to vote for the candidate.</li></ul><div class=\"paragraph\">A person was commissioned to analyze the results by creating a confidence interval for the difference between the two proportions.  Which of the following pairs of checks would <em>fail</em> to verify the conditions for the confidence interval?</div>",
+  "question_text": "National polls for a political candidate were being compared between two different polling companies. Company $1$ randomly polled $32$ people and found $22$ planning to vote for the candidate. Company $2$ randomly polled $34$ people and found $31$ planning to vote for the candidate. A person was commissioned to analyze the results by creating a confidence interval for the difference between the two proportions.  Which of the following pairs of checks would fail to verify the conditions for the confidence interval?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "22\n32\n×\n32 31\n34\n×\n34"
+      "text": "22 32 × 32 22 32 × 32 31 34 × 34 31 34 × 34"
     },
     {
       "letter": "B",
-      "text": "31\n34\n×\n34 (\n1\n−\n31\n34\n)\n×\n34"
+      "text": "31 34 × 34 31 34 × 34 ( 1 − 31 34 ) × 34 ( 1 − 31 34 ) × 34"
     },
     {
       "letter": "C",
-      "text": "22\n32\n×\n32 Both samples were randomly selected."
+      "text": "22 32 × 32 22 32 × 32 Both samples were randomly selected."
     },
     {
       "letter": "D",
-      "text": "22\n32\n×\n32 (\n1\n−\n22\n32\n)\n×\n32"
+      "text": "22 32 × 32 22 32 × 32 ( 1 − 22 32 ) × 32 ( 1 − 22 32 ) × 32"
     },
     {
       "letter": "E",
-      "text": "31\n34\n×\n34 (\n1\n−\n22\n32\n)\n×\n32"
+      "text": "31 34 × 34 31 34 × 34 ( 1 − 22 32 ) × 32 ( 1 − 22 32 ) × 32"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

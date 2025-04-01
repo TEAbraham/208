@@ -1,8 +1,9 @@
 {
   "question_id": "question-112",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "LSRL Formation",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">The least squares regression line is constructed in such a way as to keep the</div>",
+  "question_text": "The least squares regression line is constructed in such a way as to keep the",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "Regression line as close as possible to any regression outliers."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is incorrect; in a least squares regression one hopes to keep R-squared high as possible to get a strong model.",
+  "correct_answer": "Choice 'A' is incorrect; in a least squares regression one hopes to keep R-squared high as possible to get a strong model.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

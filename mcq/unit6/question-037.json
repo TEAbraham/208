@@ -1,8 +1,9 @@
 {
   "question_id": "question-037",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Testing Hypothesis: Conditions",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Which of the following is/are conditions necessary for a one-proportion <span class=\"tex2jax_process\">$Z$</span>-test?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> The data must come from a random sample.  </div><div class=\"paragraph\"><strong>II.</strong> <span class=\"tex2jax_process\">$np$</span> and <span class=\"tex2jax_process\">$n(1-p)$</span> must both be more than <span class=\"tex2jax_process\">$10$</span>, where <span class=\"tex2jax_process\">$n$</span> is the sample size and <span class=\"tex2jax_process\">$p$</span> is the probability of success.  </div><div class=\"paragraph\"><strong>III.</strong> The sample size must be more than <span class=\"tex2jax_process\">$30$</span>.</div></blockquote>",
+  "question_text": "Which of the following is/are conditions necessary for a one-proportion $Z$ -test? I. The data must come from a random sample. II. $np$ and $n(1-p)$ must both be more than $10$ , where $n$ is the sample size and $p$ is the probability of success. III. The sample size must be more than $30$ .",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "II and III only."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

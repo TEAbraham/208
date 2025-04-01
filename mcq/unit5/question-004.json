@@ -1,32 +1,33 @@
 {
   "question_id": "question-004",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Sampling Distribution of a Sample Mean: Standard Deviation",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Which of the following sample sizes would produce the greatest standard deviation for the sampling distribution of a sample mean?  </div><div class=\"paragraph\">Assume <span class=\"tex2jax_process\">$\\sigma $</span> is the same for each choice.</div>",
+  "question_text": "Which of the following sample sizes would produce the greatest standard deviation for the sampling distribution of a sample mean? Assume $\\sigma $ is the same for each choice.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "50"
+      "text": "50 50"
     },
     {
       "letter": "B",
-      "text": "100"
+      "text": "100 100"
     },
     {
       "letter": "C",
-      "text": "200"
+      "text": "200 200"
     },
     {
       "letter": "D",
-      "text": "400"
+      "text": "400 400"
     },
     {
       "letter": "E",
-      "text": "800"
+      "text": "800 800"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

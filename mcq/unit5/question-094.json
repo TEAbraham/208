@@ -1,32 +1,33 @@
 {
   "question_id": "question-094",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Income Tax Returns",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Assume that <span class=\"tex2jax_process\">$37\\%$</span> of all Americans are late filing their income tax returns.  </div><div class=\"paragraph\">You ask <span class=\"tex2jax_process\">$100$</span> randomly selected Americans if they were late filing their tax returns, and <span class=\"tex2jax_process\">$45$</span> of them say they were late.  </div><div class=\"paragraph\">How unusual is your result, or rather, what is the probability that you would get a result that high, or higher, from a sample of <span class=\"tex2jax_process\">$100$</span>, rounded to the nearest hundredth?</div>",
+  "question_text": "Assume that $37\\%$ of all Americans are late filing their income tax returns. You ask $100$ randomly selected Americans if they were late filing their tax returns, and $45$ of them say they were late. How unusual is your result, or rather, what is the probability that you would get a result that high, or higher, from a sample of $100$ , rounded to the nearest hundredth?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.05"
+      "text": "0.05 0.05"
     },
     {
       "letter": "B",
-      "text": "0.1"
+      "text": "0.1 0.1"
     },
     {
       "letter": "C",
-      "text": "0.37"
+      "text": "0.37 0.37"
     },
     {
       "letter": "D",
-      "text": "0.45"
+      "text": "0.45 0.45"
     },
     {
       "letter": "E",
-      "text": "0.5"
+      "text": "0.5 0.5"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

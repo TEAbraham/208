@@ -1,8 +1,9 @@
 {
   "question_id": "question-116",
+  "unit": "Unit 3 | Collecting Data",
   "title": "Prostate Cancer in Male Volunteers",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Suppose a new cancer drug is being tested on <span class=\"tex2jax_process\">$200\\text{ male volunteers}$</span> who have prostate cancer. The researchers decide to use a block design and wish to test the difference between the new drug and a more traditional treatment.  </div><div class=\"paragraph\">What would be an effective variable to block on?</div>",
+  "question_text": "Suppose a new cancer drug is being tested on 200 male volunteers 200 male volunteers who have prostate cancer. The researchers decide to use a block design and wish to test the difference between the new drug and a more traditional treatment. What would be an effective variable to block on?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "Geographical location of the patients."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

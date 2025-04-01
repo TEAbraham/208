@@ -1,32 +1,33 @@
 {
   "question_id": "question-051",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Probability of Selection: Candy Bar Weight",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Suppose a certain brand of candy bar has a mean weight of <span class=\"tex2jax_process\">$1.02\\text{ oz}$</span> with a standard deviation of <span class=\"tex2jax_process\">$0.03\\text{ oz}$</span>.  </div><div class=\"paragraph\">Determine the probability of randomly selecting <span class=\"tex2jax_process\">$5$</span> candy bars that have an average weight of <span class=\"tex2jax_process\">$1\\text{ oz}$</span> or less.</div>",
+  "question_text": "Suppose a certain brand of candy bar has a mean weight of $1.02\\text{ oz}$ with a standard deviation of $0.03\\text{ oz}$ . Determine the probability of randomly selecting $5$ candy bars that have an average weight of $1\\text{ oz}$ or less.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.9319"
+      "text": "0.9319 0.9319"
     },
     {
       "letter": "B",
-      "text": "0.2514"
+      "text": "0.2514 0.2514"
     },
     {
       "letter": "C",
-      "text": "0.0491"
+      "text": "0.0491 0.0491"
     },
     {
       "letter": "D",
-      "text": "0.0681"
+      "text": "0.0681 0.0681"
     },
     {
       "letter": "E",
-      "text": "0.7486"
+      "text": "0.7486 0.7486"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-031",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Meaning of a Confidence Level: Study Time",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A random sample of <span class=\"tex2jax_process\">$60$</span> students from a large university were asked: \"How much time do you spend doing homework a night?\".  </div><div class=\"paragraph\">A <span class=\"tex2jax_process\">$99\\%$</span> confidence interval was constructed for the average amount of time students spend doing homework at this university, and the result was <span class=\"tex2jax_process\">$(.8,2.2)$</span> hours.  </div><div class=\"paragraph\">Which of the following statements is TRUE?</div>",
+  "question_text": "A random sample of $60$ students from a large university were asked: \"How much time do you spend doing homework a night?\". A $99\\%$ confidence interval was constructed for the average amount of time students spend doing homework at this university, and the result was $(.8,2.2)$ hours. Which of the following statements is TRUE?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "99\n%\nof all the intervals constructed will contain the interval\n(\n.8\n,\n2.2\n)\nhours."
+      "text": "99 % 99 % of all the intervals constructed will contain the interval ( .8 , 2.2 ) ( .8 , 2.2 ) hours."
     },
     {
       "letter": "B",
-      "text": "About\n99\n%\nof all random samples will capture the population mean for the amount of time students at this university spend doing their homework."
+      "text": "About 99 % 99 % of all random samples will capture the population mean for the amount of time students at this university spend doing their homework."
     },
     {
       "letter": "C",
-      "text": "About\n99\n%\nof all random samples will capture the sample mean for the amount of time students at this university spend doing their homework."
+      "text": "About 99 % 99 % of all random samples will capture the sample mean for the amount of time students at this university spend doing their homework."
     },
     {
       "letter": "D",
-      "text": "99\n%\nof the time the average amount of time students at this university spend doing homework is between\n.8\nto\n2.2\nhours"
+      "text": "99 % 99 % of the time the average amount of time students at this university spend doing homework is between .8 .8 to 2.2 2.2 hours"
     },
     {
       "letter": "E",
-      "text": "99\n%\nof students at this university spend between\n.8\nto\n2.2\nhours doing homework."
+      "text": "99 % 99 % of students at this university spend between .8 .8 to 2.2 2.2 hours doing homework."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

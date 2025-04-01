@@ -1,8 +1,9 @@
 {
   "question_id": "question-027",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Effects of Degrees of Freedom on the t-distribution",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Which of the following statements is true?</div><blockquote><div class=\"paragraph\"><strong>I.</strong>  The area under the <span class=\"tex2jax_process\">$t$</span>-distribution curve to the right of a positive <span class=\"tex2jax_process\">$t$</span> value with <span class=\"tex2jax_process\">$6$</span> degrees of freedom is larger than the area to the right of the same t value with <span class=\"tex2jax_process\">$18$</span> degrees of freedom.  </div><div class=\"paragraph\"><strong>II.</strong>  The higher the degrees of freedom, the closer the <span class=\"tex2jax_process\">$t$</span>-distribution is to the standard normal distribution.  </div><div class=\"paragraph\"><strong>III</strong>.  The <span class=\"tex2jax_process\">$t$</span>-distribution is appropriate to use when the population standard deviation is known.    </div></blockquote>",
+  "question_text": "Which of the following statements is true? I. The area under the $t$ -distribution curve to the right of a positive $t$ value with $6$ degrees of freedom is larger than the area to the right of the same t value with $18$ degrees of freedom. II. The higher the degrees of freedom, the closer the $t$ -distribution is to the standard normal distribution. III .  The $t$ -distribution is appropriate to use when the population standard deviation is known.",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "II and III only."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

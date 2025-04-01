@@ -1,32 +1,33 @@
 {
   "question_id": "question-013",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Sandra's Hair Salon",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Each month, the manager of Sandra's Hair Salon randomly chooses <span class=\"tex2jax_process\">$25\\text{ customers}$</span> to respond to a customer satisfaction survey.  Suppose <span class=\"tex2jax_process\">$85\\%$</span> of the clients at Sandra's Hair Salon are completely satisfied with their salon service.  </div><div class=\"paragraph\">What are the mean and standard deviation of the sampling distribution of the proportion of clients who are completely satisfied with their salon service when <span class=\"tex2jax_process\">$25\\text{ customers}$</span> are sampled?</div>",
+  "question_text": "Each month, the manager of Sandra's Hair Salon randomly chooses $25\\text{ customers}$ to respond to a customer satisfaction survey.  Suppose $85\\%$ of the clients at Sandra's Hair Salon are completely satisfied with their salon service. What are the mean and standard deviation of the sampling distribution of the proportion of clients who are completely satisfied with their salon service when $25\\text{ customers}$ are sampled?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "μ\n^\np\n=\n(\n25\n)\n(\n0.85\n)\nσ\n^\np\n=\n√\n(\n25\n)\n(\n75\n)\n0.85"
+      "text": "μ ^ p = ( 25 ) ( 0.85 ) σ ^ p = √ ( 25 ) ( 75 ) 0.85 μ p ^ = ( 25 ) ( 0.85 ) σ p ^ = ( 25 ) ( 75 ) 0.85"
     },
     {
       "letter": "B",
-      "text": "μ\n^\np\n=\n(\n25\n)\n(\n0.85\n)\nσ\n^\np\n=\n√\n(\n0.85\n)\n(\n0.15\n)\n25"
+      "text": "μ ^ p = ( 25 ) ( 0.85 ) σ ^ p = √ ( 0.85 ) ( 0.15 ) 25 μ p ^ = ( 25 ) ( 0.85 ) σ p ^ = ( 0.85 ) ( 0.15 ) 25"
     },
     {
       "letter": "C",
-      "text": "μ\n^\np\n=\n0.85\nσ\n^\np\n=\n√\n(\n25\n)\n(\n75\n)\n0.85"
+      "text": "μ ^ p = 0.85 σ ^ p = √ ( 25 ) ( 75 ) 0.85 μ p ^ = 0.85 σ p ^ = ( 25 ) ( 75 ) 0.85"
     },
     {
       "letter": "D",
-      "text": "μ\n^\np\n=\n0.85\nσ\n^\np\n=\n√\n(\n0.85\n)\n(\n0.15\n)\n25"
+      "text": "μ ^ p = 0.85 σ ^ p = √ ( 0.85 ) ( 0.15 ) 25 μ p ^ = 0.85 σ p ^ = ( 0.85 ) ( 0.15 ) 25"
     },
     {
       "letter": "E",
-      "text": "μ\n^\np\n=\n0.85\n25\nσ\n^\np\n=\n√\n(\n25\n)\n(\n75\n)\n0.85"
+      "text": "μ ^ p = 0.85 25 σ ^ p = √ ( 25 ) ( 75 ) 0.85 μ p ^ = 0.85 25 σ p ^ = ( 25 ) ( 75 ) 0.85"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

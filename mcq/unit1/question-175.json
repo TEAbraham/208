@@ -1,8 +1,9 @@
 {
   "question_id": "question-175",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Skew: Skiing Contest",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Bobosaur and Turtle both love to ski. They each raced down the same mountain <span class=\"tex2jax_process\">$25$</span> times. Bobosaur had a mean time of <span class=\"tex2jax_process\">$87\\text{ seconds}$</span> and a median time of <span class=\"tex2jax_process\">$87\\text{ seconds}$</span>. Turtle had a mean time of <span class=\"tex2jax_process\">$104\\text{ seconds}$</span> and a median time of <span class=\"tex2jax_process\">$96\\text{ seconds}$</span>.  </div><div class=\"paragraph\">Which of the following statements is TRUE?</div>",
+  "question_text": "Bobosaur and Turtle both love to ski. They each raced down the same mountain $25$ times. Bobosaur had a mean time of $87\\text{ seconds}$ and a median time of $87\\text{ seconds}$ . Turtle had a mean time of $104\\text{ seconds}$ and a median time of $96\\text{ seconds}$ . Which of the following statements is TRUE?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "It is likely that the distribution for Turtle has no skew and the distribution for Bobosaur is right skewed."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is correct.  ",
+  "correct_answer": "Choice 'C' is correct.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

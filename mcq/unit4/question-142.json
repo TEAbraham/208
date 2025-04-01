@@ -1,32 +1,33 @@
 {
   "question_id": "question-142",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Finding the Standard Deviation of $X-Y$",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A random variable <span class=\"tex2jax_process\">$X$</span> has a mean of <span class=\"tex2jax_process\">$40$</span> and standard deviation of <span class=\"tex2jax_process\">$7$</span>.  A random variable <span class=\"tex2jax_process\">$Y$</span> has a mean of <span class=\"tex2jax_process\">$30$</span> and a standard deviation of <span class=\"tex2jax_process\">$5$</span>.  </div><div class=\"paragraph\"> If <span class=\"tex2jax_process\">$X$</span> and <span class=\"tex2jax_process\">$Y$</span> are independent, approximately what is the standard deviation of <span class=\"tex2jax_process\">$X-Y$</span>?</div>",
+  "question_text": "A random variable $X$ has a mean of $40$ and standard deviation of $7$ .  A random variable $Y$ has a mean of $30$ and a standard deviation of $5$ . If $X$ and $Y$ are independent, approximately what is the standard deviation of $X-Y$ ?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "74"
+      "text": "74 74"
     },
     {
       "letter": "B",
-      "text": "12"
+      "text": "12 12"
     },
     {
       "letter": "C",
-      "text": "8.6"
+      "text": "8.6 8.6"
     },
     {
       "letter": "D",
-      "text": "6.0"
+      "text": "6.0 6.0"
     },
     {
       "letter": "E",
-      "text": "2"
+      "text": "2 2"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,8 +1,9 @@
 {
   "question_id": "question-029",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Decrease Width of Confidence Interval",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Which of the following would effectively decrease the width of a confidence interval when estimating the true slope of a population regression model?</div>",
+  "question_text": "Which of the following would effectively decrease the width of a confidence interval when estimating the true slope of a population regression model?",
   "image_files": [],
   "choices": [
     {
@@ -11,7 +12,7 @@
     },
     {
       "letter": "B",
-      "text": "Increase the value of\nt\n∗\n."
+      "text": "Increase the value of t ∗ t ∗ ."
     },
     {
       "letter": "C",
@@ -26,7 +27,7 @@
       "text": "Increase the value of the standard error."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

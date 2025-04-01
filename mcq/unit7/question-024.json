@@ -1,32 +1,33 @@
 {
   "question_id": "question-024",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Interpret Income | 2 of 2",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Last year, the mean annual income of residents in a small town was <span class=\"tex2jax_process\">$\\$49{,}382$</span>.  </div><div class=\"paragraph\">This year, a random sample of <span class=\"tex2jax_process\">$100$</span> residents found an annual income of <span class=\"tex2jax_process\">$\\$52{,}301$</span>. A <span class=\"tex2jax_process\">$95\\%$</span> confidence interval was calculated and extended from <span class=\"tex2jax_process\">$\\$50,{1}99$</span> to <span class=\"tex2jax_process\">$\\$54{,}403$</span>.  </div><div class=\"paragraph\">Which of the following statements is a correct interpretation of the confidence level?</div>",
+  "question_text": "Last year, the mean annual income of residents in a small town was $\\$49{,}382$ . This year, a random sample of $100$ residents found an annual income of $\\$52{,}301$ . A $95\\%$ confidence interval was calculated and extended from $\\$50,{1}99$ to $\\$54{,}403$ . Which of the following statements is a correct interpretation of the confidence level?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "We are\n95\n%\nconfident the population mean income of residents in this town for this year is between\n$\n50,199\nand\n$\n54,403\n."
+      "text": "We are 95 % 95 % confident the population mean income of residents in this town for this year is between $ 50,199 $ 50,199 and $ 54,403 $ 54,403 ."
     },
     {
       "letter": "B",
-      "text": "We are using a process that will catch the true unknown population mean income of residents in this town for this year\n95\n%\nof the time in the long run."
+      "text": "We are using a process that will catch the true unknown population mean income of residents in this town for this year 95 % 95 % of the time in the long run."
     },
     {
       "letter": "C",
-      "text": "Approximately\n95\n%\nof people in this town earn between\n$\n50\n,\n199\nand\n$\n54\n,\n403\nannually."
+      "text": "Approximately 95 % 95 % of people in this town earn between $ 50 , 199 $ 50 , 199 and $ 54 , 403 $ 54 , 403 annually."
     },
     {
       "letter": "D",
-      "text": "We are using a process that will catch the true sample mean\n95\n%\nof the time in the long run."
+      "text": "We are using a process that will catch the true sample mean 95 % 95 % of the time in the long run."
     },
     {
       "letter": "E",
-      "text": "We are using a process that will capture the population mean value of\n$\n49\n,\n382\n, 95% of the time in the long run."
+      "text": "We are using a process that will capture the population mean value of $ 49 , 382 $ 49 , 382 , 95% of the time in the long run."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

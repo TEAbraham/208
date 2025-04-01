@@ -1,32 +1,33 @@
 {
   "question_id": "question-091",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "They're Toast!",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A company has two assembly lines for making toasters.  One assembly line (line A) has been producing <span class=\"tex2jax_process\">$2\\%$</span> of its toasters as defective while the other assembly line (line B) has been producing  <span class=\"tex2jax_process\">$4\\%$</span> defective.  The company president is unhappy about this and wants to randomly sample <span class=\"tex2jax_process\">$500$</span> toasters from each assembly line. What is the probability, to the nearest whole percent, of line B producing more than <span class=\"tex2jax_process\">$3\\%$</span> defective toasters than line A?</div>",
+  "question_text": "A company has two assembly lines for making toasters.  One assembly line (line A) has been producing $2\\%$ of its toasters as defective while the other assembly line (line B) has been producing $4\\%$ defective.  The company president is unhappy about this and wants to randomly sample $500$ toasters from each assembly line. What is the probability, to the nearest whole percent, of line B producing more than $3\\%$ defective toasters than line A?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "36\n%"
+      "text": "36 % 36 %"
     },
     {
       "letter": "B",
-      "text": "9\n%"
+      "text": "9 % 9 %"
     },
     {
       "letter": "C",
-      "text": "18\n%"
+      "text": "18 % 18 %"
     },
     {
       "letter": "D",
-      "text": "91\n%"
+      "text": "91 % 91 %"
     },
     {
       "letter": "E",
-      "text": "81\n%"
+      "text": "81 % 81 %"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

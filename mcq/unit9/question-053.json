@@ -1,8 +1,9 @@
 {
   "question_id": "question-053",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Ice Cream Shop | 3 of 3",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">An owner of a local ice cream shop wishes to determine if a positive linear relationship exists between high temperatures and the shop’s profits recorded that day.  </div><div class=\"paragraph\">The owner recorded sales from the last <span class=\"tex2jax_process\">$50\\text{ days}$</span> of the summer and performed a linear regression <span class=\"tex2jax_process\">$T$</span>-interval on temperature vs. sales at <span class=\"tex2jax_process\">$95\\%$</span> confidence.  </div><div class=\"paragraph\">If the interval extends from <span class=\"tex2jax_process\">$50.2$</span> to <span class=\"tex2jax_process\">$76.2$</span>, which of the following statements is/are true?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> Strong evidence exists <span class=\"tex2jax_process\">$(p &lt; 0.05)$</span> of a linear relationship between these variables.  </div><div class=\"paragraph\"><strong>II.</strong> The model predicts an extra <span class=\"tex2jax_process\">$\\$63.20$</span> in sales for every extra degree the temperature rises.  </div><div class=\"paragraph\"><strong>III.</strong> In this situation specifically, extrapolation is probably safe.    </div></blockquote>",
+  "question_text": "An owner of a local ice cream shop wishes to determine if a positive linear relationship exists between high temperatures and the shop’s profits recorded that day. The owner recorded sales from the last $50\\text{ days}$ of the summer and performed a linear regression $T$ -interval on temperature vs. sales at $95\\%$ confidence. If the interval extends from $50.2$ to $76.2$ , which of the following statements is/are true? I. Strong evidence exists $(p < 0.05)$ of a linear relationship between these variables. II. The model predicts an extra $\\$63.20$ in sales for every extra degree the temperature rises. III. In this situation specifically, extrapolation is probably safe.",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "II and III only."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

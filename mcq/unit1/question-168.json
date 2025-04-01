@@ -1,8 +1,9 @@
 {
   "question_id": "question-168",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Back to Back Stemplots: Big Brain Test",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Students at East Texas High School take the Big Brains Test during senior year. While classroom X is a typical classroom, classroom Y has an unusual student named Albert. Which of the following statements is true?  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Stem</th><th scope=\"col\"></th></tr></thead><tbody><tr><td>Classroom X (1)</td><td>(10)</td><td>Classroom Y (1)</td></tr><tr><td>72</td><td>4</td><td>-</td></tr><tr><td>8766</td><td>5</td><td>78</td></tr><tr><td>854221</td><td>6</td><td>000001122233555677777889</td></tr><tr><td>95431110</td><td>7</td><td>112</td></tr><tr><td>98755110</td><td>8</td><td>-</td></tr><tr><td>95310</td><td>9</td><td>-</td></tr><tr><td>-</td><td>10</td><td>-</td></tr><tr><td>-</td><td>11</td><td>-</td></tr><tr><td>-</td><td>12</td><td>-</td></tr><tr><td>-</td><td>13</td><td>1</td></tr></tbody></table></div><div class=\"paragraph\">Key: 4|7 = 47.</div>",
+  "question_text": "Students at East Texas High School take the Big Brains Test during senior year. While classroom X is a typical classroom, classroom Y has an unusual student named Albert. Which of the following statements is true? Stem Classroom X (1) (10) Classroom Y (1) 72 4 - 8766 5 78 854221 6 000001122233555677777889 95431110 7 112 98755110 8 - 95310 9 - - 10 - - 11 - - 12 - - 13 1 Key: 4|7 = 47.",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "Class Y has a greater mean."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

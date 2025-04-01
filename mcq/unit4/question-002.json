@@ -1,13 +1,14 @@
 {
   "question_id": "question-002",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Jose's Walk",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Jose takes a walk every morning.   Let's take a walk with Jose and look at five situations he encounters along the way.  Which of the following is the one situation that is <strong>not</strong> truly random?</div>",
+  "question_text": "Jose takes a walk every morning.   Let's take a walk with Jose and look at five situations he encounters along the way.  Which of the following is the one situation that is not truly random?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Jose steps out on his sidewalk and notices\n3\ncars go by."
+      "text": "Jose steps out on his sidewalk and notices 3 3 cars go by."
     },
     {
       "letter": "B",
@@ -26,7 +27,7 @@
       "text": "Finally, Jose arrives home again and checks to see how much mail he has received."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

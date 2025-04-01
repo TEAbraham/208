@@ -1,32 +1,33 @@
 {
   "question_id": "question-096",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Finding the Actual Value When Given the Residual: Boys vs. Girls",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">The least squares regression line for boys and girls in a classroom is given by:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$\\hat { b } = -5.2 + 2.1g$$</div>  </div><div class=\"paragraph\">...where <span class=\"tex2jax_process\">$b$</span> is boys and <span class=\"tex2jax_process\">$g$</span> is girls.  </div><div class=\"paragraph\">If Mr. Law has <span class=\"tex2jax_process\">$12$</span> girls in his class and his residual is <span class=\"tex2jax_process\">$3$</span>, how many boys does he have in his class?</div>",
+  "question_text": "The least squares regression line for boys and girls in a classroom is given by: $$\\hat { b } = -5.2 + 2.1g$$ ...where $b$ is boys and $g$ is girls. If Mr. Law has $12$ girls in his class and his residual is $3$ , how many boys does he have in his class?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "17"
+      "text": "17 17"
     },
     {
       "letter": "B",
-      "text": "20"
+      "text": "20 20"
     },
     {
       "letter": "C",
-      "text": "22.2"
+      "text": "22.2 22.2"
     },
     {
       "letter": "D",
-      "text": "23"
+      "text": "23 23"
     },
     {
       "letter": "E",
-      "text": "28.2"
+      "text": "28.2 28.2"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

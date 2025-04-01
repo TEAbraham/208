@@ -1,21 +1,22 @@
 {
   "question_id": "question-085",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Traffic Stops and Gender Equality: Find the $p$-Value",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Tommy has gotten pulled over a few times for minor traffic violations and every time he has been pulled over, the officer gave him a ticket. His wife Gina has also been pulled over a few times for minor traffic violations, but she has never gotten a ticket!  </div><div class=\"paragraph\">Tommy wonders whether a police officer's actions during a traffic stop for a minor violation depends upon the driver's gender. To investigate, he selects a random sample of drivers who have been pulled over at some point for a minor traffic violation and asks them what the outcome was. Results are shown in the table below.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">ACTUAL DATA</th><th scope=\"col\">Ticketed</th><th scope=\"col\">Warned</th><th scope=\"col\">Allowed to Proceed</th></tr></thead><tbody><tr><td>Males</td><td>38</td><td>17</td><td>29</td></tr><tr><td>Females</td><td>26</td><td>24</td><td>19</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Tommy decides to conduct a <span class=\"tex2jax_process\">${ \\chi }^{ 2 }$</span> test for independence.  </div><div class=\"paragraph\">What will the resulting <span class=\"tex2jax_process\">$p$</span>-value be?</div>",
+  "question_text": "Tommy has gotten pulled over a few times for minor traffic violations and every time he has been pulled over, the officer gave him a ticket. His wife Gina has also been pulled over a few times for minor traffic violations, but she has never gotten a ticket! Tommy wonders whether a police officer's actions during a traffic stop for a minor violation depends upon the driver's gender. To investigate, he selects a random sample of drivers who have been pulled over at some point for a minor traffic violation and asks them what the outcome was. Results are shown in the table below. ACTUAL DATA Ticketed Warned Allowed to Proceed Males 38 17 29 Females 26 24 19 Tommy decides to conduct a ${ \\chi }^{ 2 }$ test for independence. What will the resulting $p$ -value be?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.129"
+      "text": "0.129 0.129"
     },
     {
       "letter": "B",
-      "text": "0.251"
+      "text": "0.251 0.251"
     },
     {
       "letter": "C",
-      "text": "0.536"
+      "text": "0.536 0.536"
     },
     {
       "letter": "D",
@@ -23,10 +24,10 @@
     },
     {
       "letter": "E",
-      "text": "A\nχ\n2\ntest cannot be used in this situation since not all conditions are satisfied."
+      "text": "A χ 2 test cannot be used in this situation since not all conditions are satisfied."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

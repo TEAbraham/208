@@ -1,8 +1,9 @@
 {
   "question_id": "question-027",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Math Program: Chi Squared Goodness of Fit",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Suppose a high school principal wishes to determine if students in her after-school math program perform better than those not in the program.  </div><div class=\"paragraph\">The principal randomly selected <span class=\"tex2jax_process\">$115\\text{ students}$</span> for an after-school study session that runs <span class=\"tex2jax_process\">$3\\text{ days per week}$</span> for <span class=\"tex2jax_process\">$1\\text{ hour}$</span> each day, focusing solely on math.  </div><div class=\"paragraph\">The grade distribution of these students’ math grades is compared to the historical grade distribution of students’ math grades at this high school. The data is below:\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th><th scope=\"col\">F</th></tr></thead><tbody><tr><td>After-School Program (Counts)</td><td>28</td><td>38</td><td>36</td><td>9</td><td>4</td></tr><tr><td>Historical Grade Distribution (%)</td><td>18%</td><td>32%</td><td>25%</td><td>20%</td><td>5%</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>What conclusion can be drawn from the data when performing a chi-squared goodness of fit test?</div>",
+  "question_text": "Suppose a high school principal wishes to determine if students in her after-school math program perform better than those not in the program. The principal randomly selected $115\\text{ students}$ for an after-school study session that runs $3\\text{ days per week}$ for $1\\text{ hour}$ each day, focusing solely on math. The grade distribution of these students’ math grades is compared to the historical grade distribution of students’ math grades at this high school. The data is below: A B C D F After-School Program (Counts) 28 38 36 9 4 Historical Grade Distribution (%) 18% 32% 25% 20% 5% What conclusion can be drawn from the data when performing a chi-squared goodness of fit test?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "We failed to find evidence that the distribution of grades of students in the program is any different than everybody else."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

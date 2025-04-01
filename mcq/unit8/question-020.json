@@ -1,32 +1,33 @@
 {
   "question_id": "question-020",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Purple Candies",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A company published its percentages for colors of candy included in its jumbo packs.  Here they are:</div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">red</th><th scope=\"col\">orange</th><th scope=\"col\">yellow</th><th scope=\"col\">green</th><th scope=\"col\">blue</th><th scope=\"col\">purple</th></tr></thead><tbody><tr><td><span class=\"tex2jax_process\">$0.10$</span></td><td><span class=\"tex2jax_process\">$0.30$</span></td><td><span class=\"tex2jax_process\">$0.25$</span></td><td><span class=\"tex2jax_process\">$0.05$</span></td><td><span class=\"tex2jax_process\">$0.15$</span></td><td><span class=\"tex2jax_process\">$0.15$</span></td></tr></tbody></table></div><div class=\"paragraph\">A firm was hired to perform a chi-square goodness of fit test.  What is the alternative hypothesis and what is the expected number of purple candies given there were <span class=\"tex2jax_process\">$40$</span> bags randomly selected which included <span class=\"tex2jax_process\">$960$</span> total candies sampled?</div>",
+  "question_text": "A company published its percentages for colors of candy included in its jumbo packs.  Here they are: red orange yellow green blue purple $0.10$ $0.30$ $0.25$ $0.05$ $0.15$ $0.15$ A firm was hired to perform a chi-square goodness of fit test.  What is the alternative hypothesis and what is the expected number of purple candies given there were $40$ bags randomly selected which included $960$ total candies sampled?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "H\na\n: The proportions of colors in the jumbo bags is the same as what the company claims. Expected number of purple candies:\n6"
+      "text": "H a H a :   The proportions of colors in the jumbo bags is the same as what the company claims. Expected number of purple candies: 6 6"
     },
     {
       "letter": "B",
-      "text": "H\na\n: The proportions of colors in the jumbo bags is not the same as what the company claims. Expected number of purple candies:\n6"
+      "text": "H a H a :  The proportions of colors in the jumbo bags is not the same as what the company claims. Expected number of purple candies: 6 6"
     },
     {
       "letter": "C",
-      "text": "H\na\n: The proportions of colors in the jumbo bags is not the same as what the company claims. Expected number of purple candies:\n144"
+      "text": "H a H a :  The proportions of colors in the jumbo bags is not the same as what the company claims. Expected number of purple candies: 144 144"
     },
     {
       "letter": "D",
-      "text": "H\na\n: The proportions of candy colors should all be the same. Expected number of purple candies:\n144"
+      "text": "H a H a :  The proportions of candy colors should all be the same. Expected number of purple candies: 144 144"
     },
     {
       "letter": "E",
-      "text": "H\na\n: The proportions of colors in the jumbo bags is the same as what the company claims. Expected number of purple candies:\n96"
+      "text": "H a H a :  The proportions of colors in the jumbo bags is the same as what the company claims. Expected number of purple candies: 96 96"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

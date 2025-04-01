@@ -1,32 +1,33 @@
 {
   "question_id": "question-049",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Data Analysis: Sampling Distribution",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Suppose a sample of size <span class=\"tex2jax_process\">$ n = 8$</span> is taken of high school students’ ACT scores.  </div><div class=\"paragraph\">If the population mean is <span class=\"tex2jax_process\">$23$</span> with a standard deviation of <span class=\"tex2jax_process\">$2.4$</span>, determine the sampling distribution of samples like this of size <span class=\"tex2jax_process\">$n = 8$</span>.</div>",
+  "question_text": "Suppose a sample of size $ n = 8$ is taken of high school students’ ACT scores. If the population mean is $23$ with a standard deviation of $2.4$ , determine the sampling distribution of samples like this of size $n = 8$ .",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Mean =\n23 Standard deviation =\n2.4 Shape is approximately normal."
+      "text": "Mean = 23 23 Standard deviation = 2.4 2.4 Shape is approximately normal."
     },
     {
       "letter": "B",
-      "text": "Mean =\n23 Standard deviation =\n0.8485 Shape is unable to be determined."
+      "text": "Mean = 23 23 Standard deviation = 0.8485 0.8485 Shape is unable to be determined."
     },
     {
       "letter": "C",
-      "text": "Mean =\n23 Standard deviation =\n2.4 Shape is unable to be determined."
+      "text": "Mean = 23 23 Standard deviation = 2.4 2.4 Shape is unable to be determined."
     },
     {
       "letter": "D",
-      "text": "Mean =\n184 Standard deviation =\n2.4 Shape is approximately normal."
+      "text": "Mean = 184 184 Standard deviation = 2.4 2.4 Shape is approximately normal."
     },
     {
       "letter": "E",
-      "text": "Mean =\n2.875 Standard deviation =\n2.4 Shape is approximately normal."
+      "text": "Mean = 2.875 2.875 Standard deviation = 2.4 2.4 Shape is approximately normal."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

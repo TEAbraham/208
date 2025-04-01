@@ -1,32 +1,33 @@
 {
   "question_id": "question-100",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Finding Values Above the Median Based off a Five Number Summary",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A data set consists of <span class=\"tex2jax_process\">$21$</span> observations. The five number summary for the data is:</div><blockquote><div class=\"paragraph\">Min: <span class=\"tex2jax_process\">$10$</span><br>Q1: <span class=\"tex2jax_process\">$14$</span><br>Median: <span class=\"tex2jax_process\">$19$</span><br>Q3: <span class=\"tex2jax_process\">$27$</span><br>Max: <span class=\"tex2jax_process\">$40$</span>  </div></blockquote><div class=\"paragraph\">Based off the five number summary how many values are ALWAYS above <span class=\"tex2jax_process\">$19$</span>?</div>",
+  "question_text": "A data set consists of $21$ observations. The five number summary for the data is: Min: $10$ Q1: $14$ Median: $19$ Q3: $27$ Max: $40$ Based off the five number summary how many values are ALWAYS above $19$ ?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "2"
+      "text": "2 2"
     },
     {
       "letter": "B",
-      "text": "5"
+      "text": "5 5"
     },
     {
       "letter": "C",
-      "text": "6"
+      "text": "6 6"
     },
     {
       "letter": "D",
-      "text": "10"
+      "text": "10 10"
     },
     {
       "letter": "E",
-      "text": "11"
+      "text": "11 11"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.<br>The median will occur at the 11th value as this is the middle value when there are 21 values.  ",
+  "correct_answer": "Choice 'B' is the correct answer. The median will occur at the 11th value as this is the middle value when there are 21 values.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-188",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Hazel Eyes",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Hazel-colored eyes are considered to be a mix of brown and green and about <span class=\"tex2jax_process\">$18\\%$</span> of  Americans have this eye color.  Say you randomly choose <span class=\"tex2jax_process\">$100$</span> Americans.  What would the standard deviation be for this binomial distribution? What does this standard deviation mean in context of this problem?</div>",
+  "question_text": "Hazel-colored eyes are considered to be a mix of brown and green and about $18\\%$ of  Americans have this eye color.  Say you randomly choose $100$ Americans.  What would the standard deviation be for this binomial distribution? What does this standard deviation mean in context of this problem?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "14.76 If\n100\nAmericans were sampled, we would expect to see the mean vary by this amount on average."
+      "text": "14.76 14.76 If 100 100 Americans were sampled, we would expect to see the mean vary by this amount on average."
     },
     {
       "letter": "B",
-      "text": "3.84 If\n100\nAmericans were sampled, we would expect to see the mean vary by this amount on average."
+      "text": "3.84 3.84 If 100 100 Americans were sampled, we would expect to see the mean vary by this amount on average."
     },
     {
       "letter": "C",
-      "text": "0.38 If\n100\nAmericans were sampled, we would expect to see the mean vary by this amount average."
+      "text": "0.38 0.38 If 100 100 Americans were sampled, we would expect to see the mean vary by this amount average."
     },
     {
       "letter": "D",
-      "text": "3.84 If\n100\nAmericans were sampled, we would expect to see this as the variance of the result."
+      "text": "3.84 3.84 If 100 100 Americans were sampled, we would expect to see this as the variance of the result."
     },
     {
       "letter": "E",
-      "text": "14.76 If\n100\nAmericans were sampled, we would expect to see this as the standard deviation of the result."
+      "text": "14.76 14.76 If 100 100 Americans were sampled, we would expect to see this as the standard deviation of the result."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

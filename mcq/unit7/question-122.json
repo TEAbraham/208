@@ -1,8 +1,9 @@
 {
   "question_id": "question-122",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Conditions for Matched Pairs $t$-Test",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Which of the following are necessary conditions for conducting a matched pairs <span class=\"tex2jax_process\">$t$</span>-test?</div><div class=\"ol-type-block-38ab9c9a-1d0e-420e-aa82-cabc98fa625c\"><style> .ol-type-block-38ab9c9a-1d0e-420e-aa82-cabc98fa625c ol { list-style-type: upper-roman }</style>\n<ol start=\"1\"><li>Data comes from a random sample of the population of interest.</li><li>The sampling distribution of differences is approximately normal.</li><li>The population must be at least <span class=\"tex2jax_process\">$10$</span> times as large as the sample size.</li></ol></div>\n",
+  "question_text": "Which of the following are necessary conditions for conducting a matched pairs $t$ -test? Data comes from a random sample of the population of interest. The sampling distribution of differences is approximately normal. The population must be at least $10$ times as large as the sample size.",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "I and III only."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

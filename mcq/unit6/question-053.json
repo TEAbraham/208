@@ -1,13 +1,14 @@
 {
   "question_id": "question-053",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Two-Sided Test",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">When performing a two-sided (two-tailed) hypothesis by hand, one must be sure to</div>",
+  "question_text": "When performing a two-sided (two-tailed) hypothesis by hand, one must be sure to",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Double the\nP\n-value."
+      "text": "Double the P P -value."
     },
     {
       "letter": "B",
@@ -26,7 +27,7 @@
       "text": "Come up with two different null hypotheses."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

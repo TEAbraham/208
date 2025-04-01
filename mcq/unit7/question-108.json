@@ -1,32 +1,33 @@
 {
   "question_id": "question-108",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Proof?",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Which confidence interval below is the <em>most</em> convincing one to show that two sample means are in fact <em>not</em> different?</div>",
+  "question_text": "Which confidence interval below is the most convincing one to show that two sample means are in fact not different?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "(\n−\n4.32\n,\n−\n5.12\n)"
+      "text": "( − 4.32 , − 5.12 ) ( − 4.32 , − 5.12 )"
     },
     {
       "letter": "B",
-      "text": "(\n−\n4.32\n,\n0\n)"
+      "text": "( − 4.32 , 0 ) ( − 4.32 , 0 )"
     },
     {
       "letter": "C",
-      "text": "(\n2.32\n,\n5.12\n)"
+      "text": "( 2.32 , 5.12 ) ( 2.32 , 5.12 )"
     },
     {
       "letter": "D",
-      "text": "(\n−\n4.32\n,\n1.12\n)"
+      "text": "( − 4.32 , 1.12 ) ( − 4.32 , 1.12 )"
     },
     {
       "letter": "E",
-      "text": "(\n−\n4.32\n,\n5.12\n)"
+      "text": "( − 4.32 , 5.12 ) ( − 4.32 , 5.12 )"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

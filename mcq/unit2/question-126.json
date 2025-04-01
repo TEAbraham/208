@@ -1,8 +1,9 @@
 {
   "question_id": "question-126",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Transformations of Variables",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Five statements about the transformation of variables are listed below.  Four are true and one is false.  Which statement below is false?</div>",
+  "question_text": "Five statements about the transformation of variables are listed below.  Four are true and one is false.  Which statement below is false?",
   "image_files": [],
   "choices": [
     {
@@ -15,7 +16,7 @@
     },
     {
       "letter": "C",
-      "text": "Transformed data can result in an\nr\n2\nvalue closer to\n1\nwhich indicates the regression line is a more appropriate model."
+      "text": "Transformed data can result in an r 2 r 2 value closer to 1 1 which indicates the regression line is a more appropriate model."
     },
     {
       "letter": "D",
@@ -26,7 +27,7 @@
       "text": "One way of transforming variables is to square each of the explanatory variables."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

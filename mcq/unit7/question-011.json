@@ -1,32 +1,33 @@
 {
   "question_id": "question-011",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Prom Costs: Upper Bound of Confidence Interval",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A group of students decided to construct a confidence interval to estimate the average cost of attending prom in their area.  To gather data they surveyed a random sample of students who attended prom and surveyed them about how much they had spent.  </div><div class=\"paragraph\">If the sample mean was <span class=\"tex2jax_process\">$\\$914.32$</span> and the lower bound of their confidence interval was <span class=\"tex2jax_process\">$\\$863.57$</span>, what was the largest cost estimated by the confidence interval?</div>",
+  "question_text": "A group of students decided to construct a confidence interval to estimate the average cost of attending prom in their area.  To gather data they surveyed a random sample of students who attended prom and surveyed them about how much they had spent. If the sample mean was $\\$914.32$ and the lower bound of their confidence interval was $\\$863.57$ , what was the largest cost estimated by the confidence interval?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "$\n50.75"
+      "text": "$ 50.75 $ 50.75"
     },
     {
       "letter": "B",
-      "text": "$\n101.50"
+      "text": "$ 101.50 $ 101.50"
     },
     {
       "letter": "C",
-      "text": "$\n939.70"
+      "text": "$ 939.70 $ 939.70"
     },
     {
       "letter": "D",
-      "text": "$\n965.07"
+      "text": "$ 965.07 $ 965.07"
     },
     {
       "letter": "E",
-      "text": "$\n1,015.82"
+      "text": "$ 1,015.82 $ 1,015.82"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

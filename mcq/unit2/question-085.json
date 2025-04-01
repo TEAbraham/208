@@ -1,32 +1,33 @@
 {
   "question_id": "question-085",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Finding the Residual: Boys vs. Girls",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">The least squares regression line for the number of boys and girls in a classroom is given as:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$\\hat { b } = -5.2 + 2.1g$$</div>  </div><div class=\"paragraph\">...where <span class=\"tex2jax_process\">$b$</span> stands for boys and <span class=\"tex2jax_process\">$g$</span> stands for  girls. Mrs. Brancard's class has <span class=\"tex2jax_process\">$11$</span> girls and <span class=\"tex2jax_process\">$15$</span> boys.  </div><div class=\"paragraph\">Which of the following is the residual for the number of boys in her classroom?</div>",
+  "question_text": "The least squares regression line for the number of boys and girls in a classroom is given as: ˆ b = − 5.2 + 2.1 g ...where b stands for boys and g stands for  girls. Mrs. Brancard's class has 11 girls and 15 boys. Which of the following is the residual for the number of boys in her classroom?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "−\n15.3"
+      "text": "− 15.3 − 15.3"
     },
     {
       "letter": "B",
-      "text": "−\n2.9"
+      "text": "− 2.9 − 2.9"
     },
     {
       "letter": "C",
-      "text": "2.9"
+      "text": "2.9 2.9"
     },
     {
       "letter": "D",
-      "text": "15.3"
+      "text": "15.3 15.3"
     },
     {
       "letter": "E",
-      "text": "17.9"
+      "text": "17.9 17.9"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

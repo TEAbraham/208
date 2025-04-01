@@ -1,8 +1,9 @@
 {
   "question_id": "question-013",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Chi-Squared Goodness of Fit Situations",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A chi-squared goodness of fit test can be used in which of the following situations?</div>",
+  "question_text": "A chi-squared goodness of fit test can be used in which of the following situations?",
   "image_files": [],
   "choices": [
     {
@@ -19,14 +20,14 @@
     },
     {
       "letter": "D",
-      "text": "Determine if at least\n15\n%\nof men earned more than\n$\n100\n,\n000\nthis year."
+      "text": "Determine if at least 15 % 15 % of men earned more than $ 100 , 000 $ 100 , 000 this year."
     },
     {
       "letter": "E",
       "text": "Determine if a relationship exists between drink preference and grade level in high school."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong>  is correct; chi-squared goodness of fit tests are performed when testing multiple proportions of the same variable. The variable of interest here is the proportion of snakes in each of the four areas, so four proportions are present.",
+  "correct_answer": "Choice 'A' is correct; chi-squared goodness of fit tests are performed when testing multiple proportions of the same variable. The variable of interest here is the proportion of snakes in each of the four areas, so four proportions are present.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

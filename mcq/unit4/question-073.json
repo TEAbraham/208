@@ -1,13 +1,14 @@
 {
   "question_id": "question-073",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Events A and B",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Consider events A and B. Suppose the following:</div><blockquote><div class=\"paragraph\"><span class=\"tex2jax_process\">$\\text{P(event A and not B)} = 0.12$</span><br><span class=\"tex2jax_process\">$\\text{P(event B and not A)} = 0.22$</span><br><span class=\"tex2jax_process\">$\\text{P(events A and B)} = 0.18$</span>  </div></blockquote><div class=\"paragraph\">Are events A and B independent?</div>",
+  "question_text": "Consider events A and B. Suppose the following: $\\text{P(event A and not B)} = 0.12$ $\\text{P(event B and not A)} = 0.22$ $\\text{P(events A and B)} = 0.18$ Are events A and B independent?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "It is clear that events A and B are not independent since\nP(A and B)\nis greater than zero."
+      "text": "It is clear that events A and B are not independent since P(A and B) P(A and B) is greater than zero."
     },
     {
       "letter": "B",
@@ -15,18 +16,18 @@
     },
     {
       "letter": "C",
-      "text": "Events A and B are not independent since\n0.12\n+\n0.22\n+\n0.18\nis not equal to\n1\n, or\n100\n%\n."
+      "text": "Events A and B are not independent since 0.12 + 0.22 + 0.18 0.12 + 0.22 + 0.18 is not equal to 1 1 , or 100 % 100 % ."
     },
     {
       "letter": "D",
-      "text": "Events A and B are not independent since (\n0.3\n⋅\n0.4\n) is not equal to\n0.18\n."
+      "text": "Events A and B are not independent since ( 0.3 ⋅ 0.4 0.3 ⋅ 0.4 ) is not equal to 0.18 0.18 ."
     },
     {
       "letter": "E",
-      "text": "Events A and B are not independent since (\n0.12\n⋅\n0.22\n) is not equal to\n0.18\n."
+      "text": "Events A and B are not independent since ( 0.12 ⋅ 0.22 0.12 ⋅ 0.22 ) is not equal to 0.18 0.18 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

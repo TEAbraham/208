@@ -1,32 +1,33 @@
 {
   "question_id": "question-028",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Marshmallows?",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Clucky Arms Cereal was looking into the proportion of cereal pieces that are marshmallows in each of its cereal boxes.  Researchers came up with a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval of <span class=\"tex2jax_process\">$(0.32, 0.38)$</span>. Which of the following statements gives the best interpretation of this confidence interval?</div>",
+  "question_text": "Clucky Arms Cereal was looking into the proportion of cereal pieces that are marshmallows in each of its cereal boxes.  Researchers came up with a $95\\%$ confidence interval of $(0.32, 0.38)$ . Which of the following statements gives the best interpretation of this confidence interval?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "We are\n95\n%\nconfident that the mean number of marshmallows in each box of Clucky Arms Cereal is\n35\n%\n."
+      "text": "We are 95 % 95 % confident that the mean number of marshmallows in each box of Clucky Arms Cereal is 35 % 35 % ."
     },
     {
       "letter": "B",
-      "text": "We are confident that every box of Clucky Arms Cereal will contain between\n32\n%\nand\n38\n%\nmarshmallows as the true population proportion."
+      "text": "We are confident that every box of Clucky Arms Cereal will contain between 32 % 32 % and 38 % 38 % marshmallows as the true population proportion."
     },
     {
       "letter": "C",
-      "text": "We are\n95\n%\nconfident that repeated samples of any size will still contain between\n32\n%\nand\n38\n%\nmarshmallows."
+      "text": "We are 95 % 95 % confident that repeated samples of any size will still contain between 32 % 32 % and 38 % 38 % marshmallows."
     },
     {
       "letter": "D",
-      "text": "We are\n95\n%\nconfident that every box of Clucky Arms Cereal will contain about one-third marshmallows."
+      "text": "We are 95 % 95 % confident that every box of Clucky Arms Cereal will contain about one-third marshmallows."
     },
     {
       "letter": "E",
-      "text": "We are\n95\n%\nconfident that the interval from\n32\n%\nto\n38\n%\ncaptures the population proportion of marshmallows in boxes of Clucky Arms Cereal."
+      "text": "We are 95 % 95 % confident that the interval from 32 % 32 % to 38 % 38 % captures the population proportion of marshmallows in boxes of Clucky Arms Cereal."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,8 +1,9 @@
 {
   "question_id": "question-134",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Politics and Age",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A political pollster was interested in whether there’s any link between age and political preference.  </div><div class=\"paragraph\">The pollster interviewed <span class=\"tex2jax_process\">$15$</span> randomly chosen subjects ages <span class=\"tex2jax_process\">$18-24$</span> and found that <span class=\"tex2jax_process\">$9$</span> of them said they voted Democrat the last election. This compares to <span class=\"tex2jax_process\">$15$</span> randomly chosen subjects ages <span class=\"tex2jax_process\">$50$</span>+ where <span class=\"tex2jax_process\">$5$</span> of them said they voted Democrat last election.  </div><div class=\"paragraph\">A two-sided test gave a p-value of <span class=\"tex2jax_process\">$0.1432$</span> and test statistic of <span class=\"tex2jax_process\">$1.46$</span>. The pollster was confused why the sample proportions were so different (<span class=\"tex2jax_process\">$60\\%$</span> vs. <span class=\"tex2jax_process\">$33.33\\%$</span>) yet failed to show any significant differences at any common alpha levels (<span class=\"tex2jax_process\">$1\\%, 5\\%$</span>, or <span class=\"tex2jax_process\">$10\\%$</span>).  </div><div class=\"paragraph\">How might you describe this discrepancy to the pollster?</div>",
+  "question_text": "A political pollster was interested in whether there’s any link between age and political preference. The pollster interviewed $15$ randomly chosen subjects ages $18-24$ and found that $9$ of them said they voted Democrat the last election. This compares to $15$ randomly chosen subjects ages $50$ + where $5$ of them said they voted Democrat last election. A two-sided test gave a p-value of $0.1432$ and test statistic of $1.46$ . The pollster was confused why the sample proportions were so different ( $60\\%$ vs. $33.33\\%$ ) yet failed to show any significant differences at any common alpha levels ( $1\\%, 5\\%$ , or $10\\%$ ). How might you describe this discrepancy to the pollster?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "This test had low power."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

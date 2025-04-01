@@ -1,34 +1,35 @@
 {
   "question_id": "question-226",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Height Estimation",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Suppose the heights of American men are normally distributed with a mean of <span class=\"tex2jax_process\">$68\\text{ inches}$</span> and a standard deviation of <span class=\"tex2jax_process\">$2.5\\text{ inches}$</span>. Ted’s height is at the <span class=\"tex2jax_process\">$20^\\text{th}$</span> percentile.  </div><div class=\"paragraph\">To the nearest inch, how tall is Ted?</div>",
+  "question_text": "Suppose the heights of American men are normally distributed with a mean of $68\\text{ inches}$ and a standard deviation of $2.5\\text{ inches}$ . Ted’s height is at the $20^\\text{th}$ percentile. To the nearest inch, how tall is Ted?",
   "image_files": [
     "images/question-226-img1.png"
   ],
   "choices": [
     {
       "letter": "A",
-      "text": "63"
+      "text": "63 63"
     },
     {
       "letter": "B",
-      "text": "64"
+      "text": "64 64"
     },
     {
       "letter": "C",
-      "text": "65"
+      "text": "65 65"
     },
     {
       "letter": "D",
-      "text": "66"
+      "text": "66 66"
     },
     {
       "letter": "E",
-      "text": "67"
+      "text": "67 67"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

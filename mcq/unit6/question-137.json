@@ -1,32 +1,33 @@
 {
   "question_id": "question-137",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Psychic Abilities",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A researcher wants to determine whether a proclaimed psychic really has any special abilities.  </div><div class=\"paragraph\">Four decks of regular playing cards are shuffled together so that the researcher has <span class=\"tex2jax_process\">$208\\text{ cards}$</span> in a pile. Half the cards are colored red, and the other half are black. As the researcher looks at each card, the blindfolded psychic calls out the card’s color.   Cards are replaced and shuffled after each trial. </div><div class=\"paragraph\">Assuming conditions are met, at the <span class=\"tex2jax_process\">$5\\%$</span> level of significance, what is the least number of cards the mind reader must call correctly to show that he is not merely guessing?</div>",
+  "question_text": "A researcher wants to determine whether a proclaimed psychic really has any special abilities. Four decks of regular playing cards are shuffled together so that the researcher has $208\\text{ cards}$ in a pile. Half the cards are colored red, and the other half are black. As the researcher looks at each card, the blindfolded psychic calls out the card’s color.   Cards are replaced and shuffled after each trial. Assuming conditions are met, at the $5\\%$ level of significance, what is the least number of cards the mind reader must call correctly to show that he is not merely guessing?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "55"
+      "text": "55 55"
     },
     {
       "letter": "B",
-      "text": "104"
+      "text": "104 104"
     },
     {
       "letter": "C",
-      "text": "108"
+      "text": "108 108"
     },
     {
       "letter": "D",
-      "text": "112"
+      "text": "112 112"
     },
     {
       "letter": "E",
-      "text": "116"
+      "text": "116 116"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

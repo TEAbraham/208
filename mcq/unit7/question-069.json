@@ -1,8 +1,9 @@
 {
   "question_id": "question-069",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "The Meaning of Statistical Significance",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A random sample of size <span class=\"tex2jax_process\">$n = 150$</span> is selected and a one-sample <span class=\"tex2jax_process\">$t$</span>-test for a population mean is performed. The results are found to be statistically significant.  </div><div class=\"paragraph\">Which of the following statements best describes the meaning of statistically significant in this situation?</div>",
+  "question_text": "A random sample of size $n = 150$ is selected and a one-sample $t$ -test for a population mean is performed. The results are found to be statistically significant. Which of the following statements best describes the meaning of statistically significant in this situation?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "Assuming our null hypothesis is true, the results we obtained were pretty strange and unlikely."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-101",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Predicting Room Rate from Hotel Star Rating",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A popular travel website rates hotels using a star system.  The worst hotels may receive <span class=\"tex2jax_process\">$0$</span> stars or <span class=\"tex2jax_process\">$1$</span> star and the most luxurious hotels are rated a maximum of <span class=\"tex2jax_process\">$5$</span> stars.  Nicky needs to book a hotel room in a large metropolitan area in order to attend a friend's wedding.  </div><div class=\"paragraph\">She decided to see if there was a relationship between the number of stars in a hotel's rating and the lowest price for staying at a hotel the night of her friend's wedding.  From a random sample of data gathered on the travel website, she developed the following LSRL.    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$\\hat { y } =27.54+50.27x$$</div>  </div><div class=\"paragraph\">...where <span class=\"tex2jax_process\">$x$</span> is the hotel's star rating and <span class=\"tex2jax_process\">$\\hat{y}$</span> is the predicted lowest price (in dollars) for booking a room at the hotel.  </div><div class=\"paragraph\">If Nicky wants to stay at a <span class=\"tex2jax_process\">$4$</span> star hotel, what is the lowest price she would expect to pay for her room?</div>",
+  "question_text": "A popular travel website rates hotels using a star system.  The worst hotels may receive 0 0 stars or 1 1 star and the most luxurious hotels are rated a maximum of 5 5 stars.  Nicky needs to book a hotel room in a large metropolitan area in order to attend a friend's wedding. She decided to see if there was a relationship between the number of stars in a hotel's rating and the lowest price for staying at a hotel the night of her friend's wedding.  From a random sample of data gathered on the travel website, she developed the following LSRL. ˆ y = 27.54 + 50.27 x ^ y = 27.54 + 50.27 x ...where x x is the hotel's star rating and ˆ y ^ y is the predicted lowest price (in dollars) for booking a room at the hotel. If Nicky wants to stay at a 4 4 star hotel, what is the lowest price she would expect to pay for her room?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "$\n50.27"
+      "text": "$ 50.27 $ 50.27"
     },
     {
       "letter": "B",
-      "text": "$\n182.35"
+      "text": "$ 182.35 $ 182.35"
     },
     {
       "letter": "C",
-      "text": "$\n201.08"
+      "text": "$ 201.08 $ 201.08"
     },
     {
       "letter": "D",
-      "text": "$\n228.62"
+      "text": "$ 228.62 $ 228.62"
     },
     {
       "letter": "E",
-      "text": "$\n311.24"
+      "text": "$ 311.24 $ 311.24"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,8 +1,9 @@
 {
   "question_id": "question-147",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Histogram Spread",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">The nurse at an elementary school measured the heights (in inches) of <span class=\"tex2jax_process\">$17\\text{ subjects}$</span> and made the below histogram to display their heights.  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div>\n<div class=\"paragraph\">Which of the following statements <strong>must</strong> be true?</div><div class=\"paragraph\"><strong>I.</strong> The range is exactly <span class=\"tex2jax_process\">$20\\text{ inches}$</span>.  </div><div class=\"paragraph\"><strong>II.</strong> The IQR is at least <span class=\"tex2jax_process\">$12\\text{ inches}$</span>.  </div><div class=\"paragraph\"><strong>III.</strong> The standard deviation is about <span class=\"tex2jax_process\">$8\\text{ inches}$</span>.</div>",
+  "question_text": "The nurse at an elementary school measured the heights (in inches) of $17\\text{ subjects}$ and made the below histogram to display their heights. Which of the following statements must be true? I. The range is exactly $20\\text{ inches}$ . II. The IQR is at least $12\\text{ inches}$ . III. The standard deviation is about $8\\text{ inches}$ .",
   "image_files": [
     "images/question-147-img1.png"
   ],
@@ -28,7 +29,7 @@
       "text": "None of the listed statements is correct."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

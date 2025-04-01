@@ -1,17 +1,18 @@
 {
   "question_id": "question-100",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Smelly Customers?",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A large company sold two different types of deodorant, called Dusty and Nab. It wanted to compare the proportions of customers who were displeased with the performance of these products. A random selection of <span class=\"tex2jax_process\">$100$</span> Dusty customers were contacted and <span class=\"tex2jax_process\">$25$</span> were not pleased with the product, while <span class=\"tex2jax_process\">$16$</span> of the Nab customers were not pleased with their product. A confidence interval was found.  If the lower bound of the resulting confidence interval was <span class=\"tex2jax_process\">$-0.072$</span>, and the difference of the proportions was <span class=\"tex2jax_process\">$0.05$</span>, find the confidence level of the confidence interval. </div><div class=\"paragraph\">Define <span class=\"tex2jax_process\">$\\hat{p}_{1}$</span> to be the proportion of Dusty customers and <span class=\"tex2jax_process\">$\\hat{p}_{2}$</span> to be the proportion of Nab customers.</div>",
+  "question_text": "A large company sold two different types of deodorant, called Dusty and Nab. It wanted to compare the proportions of customers who were displeased with the performance of these products. A random selection of $100$ Dusty customers were contacted and $25$ were not pleased with the product, while $16$ of the Nab customers were not pleased with their product. A confidence interval was found.  If the lower bound of the resulting confidence interval was $-0.072$ , and the difference of the proportions was $0.05$ , find the confidence level of the confidence interval. Define $\\hat{p}_{1}$ to be the proportion of Dusty customers and $\\hat{p}_{2}$ to be the proportion of Nab customers.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "98\n%"
+      "text": "98 % 98 %"
     },
     {
       "letter": "B",
-      "text": "90\n%"
+      "text": "90 % 90 %"
     },
     {
       "letter": "C",
@@ -19,14 +20,14 @@
     },
     {
       "letter": "D",
-      "text": "95\n%"
+      "text": "95 % 95 %"
     },
     {
       "letter": "E",
-      "text": "99\n%"
+      "text": "99 % 99 %"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

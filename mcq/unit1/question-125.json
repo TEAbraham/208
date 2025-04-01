@@ -1,8 +1,9 @@
 {
   "question_id": "question-125",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "The Truth about Outliers Part One",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Which of the following statements about outliers is TRUE?</div><blockquote><div class=\"paragraph\"><strong>I.</strong>  Outliers are easier to recognize in a histogram than in a stemplot.  </div><div class=\"paragraph\"><strong>II.</strong>  When a distribution shows a possible outlier, the mean should be calculated two ways - with and without the outlier.  </div><div class=\"paragraph\"><strong>III.</strong>  When a histogram shows a possible outlier, the bin width should be increased until the suspected value no longer looks like an outlier.    </div></blockquote>",
+  "question_text": "Which of the following statements about outliers is TRUE? I. Outliers are easier to recognize in a histogram than in a stemplot. II. When a distribution shows a possible outlier, the mean should be calculated two ways - with and without the outlier. III. When a histogram shows a possible outlier, the bin width should be increased until the suspected value no longer looks like an outlier.",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "II and III only."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

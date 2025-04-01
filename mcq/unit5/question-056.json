@@ -1,32 +1,33 @@
 {
   "question_id": "question-056",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "The Polls",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A candidate running for office was polled at <span class=\"tex2jax_process\">$57\\%$</span> in City <span class=\"tex2jax_process\">$1$</span> and at <span class=\"tex2jax_process\">$52\\%$</span> in City <span class=\"tex2jax_process\">$2$</span>.  A newspaper decided to do a new poll and randomly selected <span class=\"tex2jax_process\">$50$</span> people in City <span class=\"tex2jax_process\">$1$</span> and <span class=\"tex2jax_process\">$60$</span> people in City <span class=\"tex2jax_process\">$2$</span> as to whom they would vote for.  What is the probability that City <span class=\"tex2jax_process\">$2$</span> can show the candidate ahead by at least <span class=\"tex2jax_process\">$3\\%$</span> over City <span class=\"tex2jax_process\">$1$</span>?  Round to the nearest whole percent.</div>",
+  "question_text": "A candidate running for office was polled at $57\\%$ in City $1$ and at $52\\%$ in City $2$ .  A newspaper decided to do a new poll and randomly selected $50$ people in City $1$ and $60$ people in City $2$ as to whom they would vote for.  What is the probability that City $2$ can show the candidate ahead by at least $3\\%$ over City $1$ ?  Round to the nearest whole percent.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "11\n%"
+      "text": "11 % 11 %"
     },
     {
       "letter": "B",
-      "text": "42\n%"
+      "text": "42 % 42 %"
     },
     {
       "letter": "C",
-      "text": "58\n%"
+      "text": "58 % 58 %"
     },
     {
       "letter": "D",
-      "text": "80\n%"
+      "text": "80 % 80 %"
     },
     {
       "letter": "E",
-      "text": "20\n%"
+      "text": "20 % 20 %"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

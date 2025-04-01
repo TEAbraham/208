@@ -1,32 +1,33 @@
 {
   "question_id": "question-065",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Finding an Area on the $t$-distribution",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">What is the area to the right of <span class=\"tex2jax_process\">$t = 2.015$</span> with <span class=\"tex2jax_process\">$5$</span> degrees of freedom?</div>",
+  "question_text": "What is the area to the right of $t = 2.015$ with $5$ degrees of freedom?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.025"
+      "text": "0.025 0.025"
     },
     {
       "letter": "B",
-      "text": "0.045"
+      "text": "0.045 0.045"
     },
     {
       "letter": "C",
-      "text": "0.05"
+      "text": "0.05 0.05"
     },
     {
       "letter": "D",
-      "text": "0.057"
+      "text": "0.057 0.057"
     },
     {
       "letter": "E",
-      "text": "0.1"
+      "text": "0.1 0.1"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-078",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Choosing Tickets with Replacement",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A charity group decided to hold a raffle with <span class=\"tex2jax_process\">$1{,}000\\text{ tickets}$</span> in a large bin. Of the <span class=\"tex2jax_process\">$1{,}000\\text{ tickets}$</span>, <span class=\"tex2jax_process\">$150$</span> are winners.  </div><div class=\"paragraph\">If tickets are chosen with replacement, what is the probability a winner will be chosen by the fourth trial?</div>",
+  "question_text": "A charity group decided to hold a raffle with $1{,}000\\text{ tickets}$ in a large bin. Of the $1{,}000\\text{ tickets}$ , $150$ are winners. If tickets are chosen with replacement, what is the probability a winner will be chosen by the fourth trial?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.522"
+      "text": "0.522 0.522"
     },
     {
       "letter": "B",
-      "text": "0.478"
+      "text": "0.478 0.478"
     },
     {
       "letter": "C",
-      "text": "0.092"
+      "text": "0.092 0.092"
     },
     {
       "letter": "D",
-      "text": "0.056"
+      "text": "0.056 0.056"
     },
     {
       "letter": "E",
-      "text": "0.002"
+      "text": "0.002 0.002"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

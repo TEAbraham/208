@@ -1,8 +1,9 @@
 {
   "question_id": "question-069",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Name the Test",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">What type of inferential procedure could be used to investigate data taken from a single sample, that can be represented in a two-way table that is <span class=\"tex2jax_process\">$2 \\times 2$</span> or larger?</div>",
+  "question_text": "What type of inferential procedure could be used to investigate data taken from a single sample, that can be represented in a two-way table that is $2 \\times 2$ or larger?",
   "image_files": [],
   "choices": [
     {
@@ -15,18 +16,18 @@
     },
     {
       "letter": "C",
-      "text": "Two-proportion\nZ\n-test."
+      "text": "Two-proportion Z Z -test."
     },
     {
       "letter": "D",
-      "text": "Two-sample\nT\n-test."
+      "text": "Two-sample T T -test."
     },
     {
       "letter": "E",
-      "text": "One-proportion\nZ\n-test."
+      "text": "One-proportion Z Z -test."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

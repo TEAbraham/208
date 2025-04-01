@@ -1,17 +1,18 @@
 {
   "question_id": "question-007",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Avocado Farm",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">An avocado farmer in California divides his farmland into <span class=\"tex2jax_process\">$8$</span> different plots. Each plot of land has a different watering system assigned that will use a variable amount of water. During a recent month, the farmer selects <span class=\"tex2jax_process\">$5$</span> random avocados from each plot of land and measures the average weight of the avocado.</div><div class=\"paragraph\">The farmer then compares the average weight (in ounces) to the amount of water used on the specific plot (in gallons). The linear regression model of the data is as follows: </div><div class=\"u-text-align_center\">\n<div class=\"paragraph\"><span class=\"tex2jax_process\">$\\widehat{\\text{weight}} = 2.31 + 0.042(\\text{gallons})$</span></div></div>\n<div class=\"paragraph\">What is the population of interest for the farmer?</div>",
+  "question_text": "An avocado farmer in California divides his farmland into $8$ different plots. Each plot of land has a different watering system assigned that will use a variable amount of water. During a recent month, the farmer selects $5$ random avocados from each plot of land and measures the average weight of the avocado. The farmer then compares the average weight (in ounces) to the amount of water used on the specific plot (in gallons). The linear regression model of the data is as follows: $\\widehat{\\text{weight}} = 2.31 + 0.042(\\text{gallons})$ What is the population of interest for the farmer?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "5\navocados"
+      "text": "5 5 avocados"
     },
     {
       "letter": "B",
-      "text": "40\navocados"
+      "text": "40 40 avocados"
     },
     {
       "letter": "C",
@@ -23,17 +24,12 @@
     },
     {
       "letter": "E",
-      "text": "Predicted weight"
+      "text": "Predicted  weight"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer",
-  "solution": "Using the avocados from his farm, the farmer selected a random sample of <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-26976-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>5</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-148553\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-148554\" class=\"mjx-mrow\"><span id=\"MJXc-Node-148555\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">5</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-26976\">5</script></span> avocados from each plot, resulting in a sample of <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-26977-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>40</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-148556\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-148557\" class=\"mjx-mrow\"><span id=\"MJXc-Node-148558\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">40</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-26977\">40</script></span> avocados.  Using the <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-26978-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>40</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-148559\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-148560\" class=\"mjx-mrow\"><span id=\"MJXc-Node-148561\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">40</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-26978\">40</script></span> avocados from the farm, the farmer created a linear regression model to predict the weight of an average avocado on his farm.\n\nSince the farmer selected a random sample from the whole farm land, the population of interest would be all the avocados on the farm. \n\n<strong>Choice 'C'</strong> is correct. ",
-  "distractor_explanations": {
-    "A": "<strong>Choice 'A'</strong> is incorrect. The <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-26979-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>5</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-148562\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-148563\" class=\"mjx-mrow\"><span id=\"MJXc-Node-148564\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">5</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-26979\">5</script></span> avocados represent a random sample from each plot  on his farm. ",
-    "B": "<strong>Choice 'B'</strong> is incorrect. The <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-26980-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>40</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-148565\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-148566\" class=\"mjx-mrow\"><span id=\"MJXc-Node-148567\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">40</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-26980\">40</script></span> avocados represent the total random sample from all plots on the farm. ",
-    "D": "<strong>Choice 'D'</strong> is incorrect. The amount of water used would be the explanatory variable to determine the predicted weight of an avocado. ",
-    "E": "<strong>Choice 'E'</strong> is incorrect. While the predicted weight is the variable of interest for the avocados, the population of interest would simply be all avocados."
-  },
+  "correct_answer": "Choice 'C' is the correct answer",
+  "solution": "Using the avocados from his farm, the farmer selected a random sample of 5 5 avocados from each plot, resulting in a sample of 40 40 avocados.  Using the 40 40 avocados from the farm, the farmer created a linear regression model to predict the weight of an average avocado on his farm.\n\nSince the farmer selected a random sample from the whole farm land, the population of interest would be all the avocados on the farm.\n\nChoice 'C' is correct.",
+  "distractor_explanations": {},
   "tags": [
     "1.A",
     "VAR-1.K",

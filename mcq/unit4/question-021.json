@@ -1,8 +1,9 @@
 {
   "question_id": "question-021",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Simulation of Multiple Choice Test",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Last week, Abby completely forgot to study for her multiple choice test.  </div><div class=\"paragraph\">She decides to randomly guess on each question. Suppose the test has four answer possibilities for each question (A, B, C, and D).  </div><div class=\"paragraph\">How could one use simulation to determine the number of questions she could answer correctly until she gets one wrong?</div>",
+  "question_text": "Last week, Abby completely forgot to study for her multiple choice test. She decides to randomly guess on each question. Suppose the test has four answer possibilities for each question (A, B, C, and D). How could one use simulation to determine the number of questions she could answer correctly until she gets one wrong?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "Assign digits 2-4 to answers correctly; assign digit 1 to answers incorrectly."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

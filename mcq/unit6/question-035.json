@@ -1,32 +1,33 @@
 {
   "question_id": "question-035",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Meaning of a Confidence Level for Proportions: Town Budget",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A random sample of <span class=\"tex2jax_process\">$100$</span> citizens in a town were asked: \"Would you approve the budget proposal?\". A <span class=\"tex2jax_process\">$90\\%$</span> confidence interval was constructed for the proportion of citizens who would approve the budget and yielded a result of <span class=\"tex2jax_process\">$(0.567, 0.634)$</span>.  </div><div class=\"paragraph\">Which of the following statements is correct?</div>",
+  "question_text": "A random sample of $100$ citizens in a town were asked: \"Would you approve the budget proposal?\". A $90\\%$ confidence interval was constructed for the proportion of citizens who would approve the budget and yielded a result of $(0.567, 0.634)$ . Which of the following statements is correct?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "About\n90\n%\nof all random samples of\n100\ncitizens from this town would result in a\n90\n%\nconfidence interval of\n(\n0.567\n,\n0.634\n)\n."
+      "text": "About 90 % 90 % of all random samples of 100 100 citizens from this town would result in a 90 % 90 % confidence interval of ( 0.567 , 0.634 ) ( 0.567 , 0.634 ) ."
     },
     {
       "letter": "B",
-      "text": "90\n%\nof citizens in the survey reported that they had a\n56.7\n%\nto\n63.4\n%\nchance of approving the budget."
+      "text": "90 % 90 % of citizens in the survey reported that they had a 56.7 % 56.7 % to 63.4 % 63.4 % chance of approving the budget."
     },
     {
       "letter": "C",
-      "text": "90\n%\nof all possible samples of\n100\ncitizens will contain the interval\n(\n0.567\n,\n0.634\n)\n."
+      "text": "90 % 90 % of all possible samples of 100 100 citizens will contain the interval ( 0.567 , 0.634 ) ( 0.567 , 0.634 ) ."
     },
     {
       "letter": "D",
-      "text": "About\n90\n%\nof all random samples of\n100\ncitizens from the town would result in a confidence interval that captures the population proportion of citizens who approve the budget."
+      "text": "About 90 % 90 % of all random samples of 100 100 citizens from the town would result in a confidence interval that captures the population proportion of citizens who approve the budget."
     },
     {
       "letter": "E",
-      "text": "90\n%\nof the time the interval from\n(\n0.567\n,\n0.634\n)\nwill contain the population proportion of citizens who would approve the budget."
+      "text": "90 % 90 % of the time the interval from ( 0.567 , 0.634 ) ( 0.567 , 0.634 ) will contain the population proportion of citizens who would approve the budget."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

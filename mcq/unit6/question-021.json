@@ -1,32 +1,33 @@
 {
   "question_id": "question-021",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Margin of Error Calculation",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A biologist hopes to estimate the proportion of alligators in Florida that are adult.  </div><div class=\"paragraph\">When sampling alligators, the biologist computes the one-proportion <span class=\"tex2jax_process\">$Z$</span>-interval going from <span class=\"tex2jax_process\">$0.67$</span> to <span class=\"tex2jax_process\">$0.74$</span> at <span class=\"tex2jax_process\">$99\\%$</span> confidence.  </div><div class=\"paragraph\">The margin of error for a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval would be</div>",
+  "question_text": "A biologist hopes to estimate the proportion of alligators in Florida that are adult. When sampling alligators, the biologist computes the one-proportion $Z$ -interval going from $0.67$ to $0.74$ at $99\\%$ confidence. The margin of error for a $95\\%$ confidence interval would be",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "3.5\n%"
+      "text": "3.5 % 3.5 %"
     },
     {
       "letter": "B",
-      "text": "2.66\n%"
+      "text": "2.66 % 2.66 %"
     },
     {
       "letter": "C",
-      "text": "2.58\n%"
+      "text": "2.58 % 2.58 %"
     },
     {
       "letter": "D",
-      "text": "4.25\n%"
+      "text": "4.25 % 4.25 %"
     },
     {
       "letter": "E",
-      "text": "1.96\n%"
+      "text": "1.96 % 1.96 %"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

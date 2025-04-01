@@ -1,32 +1,33 @@
 {
   "question_id": "question-059",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Not as Much Tattoo Ink? Find the $p$-Value",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Travis recently heard a report claiming that <span class=\"tex2jax_process\">$35\\%$</span> of young adults have at least one tattoo. He thinks that the actual percentage is lower for students at his university. To investigate, he randomly selects <span class=\"tex2jax_process\">$60\\text{ students}$</span> from his university and finds that <span class=\"tex2jax_process\">$17$</span> of them have at least one tattoo.  </div><div class=\"paragraph\">Assuming that all conditions have been satisfied, what is the <span class=\"tex2jax_process\">$p$</span>-value for the appropriate significance test?   </div>",
+  "question_text": "Travis recently heard a report claiming that $35\\%$ of young adults have at least one tattoo. He thinks that the actual percentage is lower for students at his university. To investigate, he randomly selects $60\\text{ students}$ from his university and finds that $17$ of them have at least one tattoo. Assuming that all conditions have been satisfied, what is the $p$ -value for the appropriate significance test?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.14"
+      "text": "0.14 0.14"
     },
     {
       "letter": "B",
-      "text": "0.28"
+      "text": "0.28 0.28"
     },
     {
       "letter": "C",
-      "text": "0.35"
+      "text": "0.35 0.35"
     },
     {
       "letter": "D",
-      "text": "0.72"
+      "text": "0.72 0.72"
     },
     {
       "letter": "E",
-      "text": "0.86"
+      "text": "0.86 0.86"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

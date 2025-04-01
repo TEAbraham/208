@@ -1,32 +1,33 @@
 {
   "question_id": "question-113",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Finding the Mean from a Probability Distribution Table: Hat Day",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">The number of hats a vendor sells before baseball game has the following probability distribution:\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Number of hats (X)</th><th scope=\"col\">0</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th></tr></thead><tbody><tr><td>P(x)</td><td>0.05</td><td>0.10</td><td>0.15</td><td>0.28</td><td>0.24</td><td>0.18</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>If each hat sells for <span class=\"tex2jax_process\">$\\$20$</span>, what is the expected total dollar amount a vendor will make for selling hats before a  baseball game?</div>",
+  "question_text": "The number of hats a vendor sells before baseball game has the following probability distribution: Number of hats (X) 0 1 2 3 4 5 P(x) 0.05 0.10 0.15 0.28 0.24 0.18 If each hat sells for $\\$20$ , what is the expected total dollar amount a vendor will make for selling hats before a  baseball game?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "3.10"
+      "text": "3.10 3.10"
     },
     {
       "letter": "B",
-      "text": "50"
+      "text": "50 50"
     },
     {
       "letter": "C",
-      "text": "60"
+      "text": "60 60"
     },
     {
       "letter": "D",
-      "text": "62"
+      "text": "62 62"
     },
     {
       "letter": "E",
-      "text": "80"
+      "text": "80 80"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

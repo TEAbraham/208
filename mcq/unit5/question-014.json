@@ -1,32 +1,33 @@
 {
   "question_id": "question-014",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Estimating Parameters: Free Throws",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Suppose an athlete shoots <span class=\"tex2jax_process\">$200\\text{ free throws}$</span> and makes <span class=\"tex2jax_process\">$160$</span> of them.  </div><div class=\"paragraph\">Which of the following statements is true?</div>",
+  "question_text": "Suppose an athlete shoots $200\\text{ free throws}$ and makes $160$ of them. Which of the following statements is true?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "This athlete is an\n80\n%\nfree-throw shooter."
+      "text": "This athlete is an 80 % 80 % free-throw shooter."
     },
     {
       "letter": "B",
-      "text": "A sample of\n100\n free throws\nwould be more effective in estimating the athlete’s true free-throw percentage."
+      "text": "A sample of 100 free throws 100 free throws would be more effective in estimating the athlete’s true free-throw percentage."
     },
     {
       "letter": "C",
-      "text": "The athlete’s true free-throw percentage is probably somewhere near\n80\n%\n."
+      "text": "The athlete’s true free-throw percentage is probably somewhere near 80 % 80 % ."
     },
     {
       "letter": "D",
-      "text": "The athlete could easily make fewer than\n100\n free throws\nin the next set of\n200\n free throw attempts\n."
+      "text": "The athlete could easily make fewer than 100 free throws 100 free throws in the next set of 200 free throw attempts 200 free throw attempts ."
     },
     {
       "letter": "E",
       "text": "No reasonable conclusions can be drawn from this data."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

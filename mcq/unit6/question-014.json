@@ -1,32 +1,33 @@
 {
   "question_id": "question-014",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Point Estimator for One Proportion $z$-Interval: Airline Flight",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A <span class=\"tex2jax_process\">$99\\%$</span> confidence interval for the proportion of people who don't show up for their airline flights is <span class=\"tex2jax_process\">$(0.022,0.076)$</span>.  </div><div class=\"paragraph\">Using this data, what is the point estimate for the proportion of people who don't show up for their flights?</div>",
+  "question_text": "A $99\\%$ confidence interval for the proportion of people who don't show up for their airline flights is $(0.022,0.076)$ . Using this data, what is the point estimate for the proportion of people who don't show up for their flights?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.027"
+      "text": "0.027 0.027"
     },
     {
       "letter": "B",
-      "text": "0.049"
+      "text": "0.049 0.049"
     },
     {
       "letter": "C",
-      "text": "0.054"
+      "text": "0.054 0.054"
     },
     {
       "letter": "D",
-      "text": "0.098"
+      "text": "0.098 0.098"
     },
     {
       "letter": "E",
       "text": "It cannot be determined from the information given."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

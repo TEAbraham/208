@@ -1,39 +1,35 @@
 {
   "question_id": "question-004",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Rolling a Die",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Careem is learning about randomness in his AP Statistics class. His teacher has him roll a six-sided number cube four times and record the results. He repeats this process for a total of four trials. Here are his results: </div><div class=\"paragraph\">Trial <span class=\"tex2jax_process\">$1$</span>: {<span class=\"tex2jax_process\">$1$</span>, <span class=\"tex2jax_process\">$6$</span>, <span class=\"tex2jax_process\">$1$</span>, <span class=\"tex2jax_process\">$6$</span>}</div><div class=\"paragraph\">Trial <span class=\"tex2jax_process\">$2$</span>: {<span class=\"tex2jax_process\">$1$</span>, <span class=\"tex2jax_process\">$2$</span>, <span class=\"tex2jax_process\">$3$</span>, <span class=\"tex2jax_process\">$4$</span>}</div><div class=\"paragraph\">Trial <span class=\"tex2jax_process\">$3$</span>: {<span class=\"tex2jax_process\">$4$</span>, <span class=\"tex2jax_process\">$4$</span>, <span class=\"tex2jax_process\">$4$</span>, <span class=\"tex2jax_process\">$4$</span>}</div><div class=\"paragraph\">Trial <span class=\"tex2jax_process\">$4$</span>: {<span class=\"tex2jax_process\">$2$</span>, <span class=\"tex2jax_process\">$5$</span>, <span class=\"tex2jax_process\">$6$</span>, <span class=\"tex2jax_process\">$1$</span>}</div><div class=\"paragraph\">Which trial was the most random?</div>",
+  "question_text": "Careem is learning about randomness in his AP Statistics class. His teacher has him roll a six-sided number cube four times and record the results. He repeats this process for a total of four trials. Here are his results: Trial $1$ : { $1$ , $6$ , $1$ , $6$ } Trial $2$ : { $1$ , $2$ , $3$ , $4$ } Trial $3$ : { $4$ , $4$ , $4$ , $4$ } Trial $4$ : { $2$ , $5$ , $6$ , $1$ } Which trial was the most random?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Trial\n1"
+      "text": "Trial 1 1"
     },
     {
       "letter": "B",
-      "text": "Trial\n2"
+      "text": "Trial 2 2"
     },
     {
       "letter": "C",
-      "text": "Trial\n3"
+      "text": "Trial 3 3"
     },
     {
       "letter": "D",
-      "text": "Trial\n4"
+      "text": "Trial 4 4"
     },
     {
       "letter": "E",
       "text": "All trials are the same amount of random"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer. ",
-  "solution": "When using a chance device to determine <strong>randomness</strong> it is important to realize that each roll is not affected by previous rolls. This means that one each roll, each side of the six-sided number cube is equally likely to occur. Additionally, just because there seems to be a pattern in my data does not imply that the outcomes were random. \n\nIn this case, just because the number cube repeats itself, or seems to follow a pattern, does not mean that the outcomes are less random then if they do not follow a pattern. Therefore, since all trials used the same number cube, all outcomes are equally random. \n\n<strong>Choice 'E'</strong> is correct. ",
-  "distractor_explanations": {
-    "A": "<strong>Choice 'A'</strong> is incorrect.  Just because a trial follows a pattern does not imply the outcomes are not random. ",
-    "B": "<strong>Choice 'B'</strong> is incorrect.  Just because a trial follows a pattern does not imply the outcomes are not random. ",
-    "C": "<strong>Choice 'C'</strong> is incorrect. Just because a trial follows a pattern does not imply the outcomes are not random. ",
-    "D": "<strong>Choice 'D'</strong> is incorrect. Even though the outcome seems more random than the others, this outcome is equally as random as the rest."
-  },
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "When using a chance device to determine randomness it is important to realize that each roll is not affected by previous rolls. This means that one each roll, each side of the six-sided number cube is equally likely to occur. Additionally, just because there seems to be a pattern in my data does not imply that the outcomes were random.\n\nIn this case, just because the number cube repeats itself, or seems to follow a pattern, does not mean that the outcomes are less random then if they do not follow a pattern. Therefore, since all trials used the same number cube, all outcomes are equally random.\n\nChoice 'E' is correct.",
+  "distractor_explanations": {},
   "tags": [
     "VAR-1.F",
     "VAR-1.F.1",

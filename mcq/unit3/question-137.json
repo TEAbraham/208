@@ -1,8 +1,9 @@
 {
   "question_id": "question-137",
+  "unit": "Unit 3 | Collecting Data",
   "title": "Truck Showroom",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Hoping to find a new way to boost pick-up truck sales, a showroom manager runs a week-long study.  For each shopper who walks in, a coin is flipped.  If it lands on heads, the shopper will be greeted by a sales representative who will offer them bottled water and then let the shopper browse the inventory on their own.  </div><div class=\"paragraph\">If the coin lands on tails, the shopper will be offered a bottle of water and then guided through the showroom by the sales representative.  At the end of the week, the manager will compare the proportion of shoppers from each group who purchased a pick-up truck that week.  </div><div class=\"paragraph\">What is the response variable in this study?</div>",
+  "question_text": "Hoping to find a new way to boost pick-up truck sales, a showroom manager runs a week-long study.  For each shopper who walks in, a coin is flipped.  If it lands on heads, the shopper will be greeted by a sales representative who will offer them bottled water and then let the shopper browse the inventory on their own. If the coin lands on tails, the shopper will be offered a bottle of water and then guided through the showroom by the sales representative.  At the end of the week, the manager will compare the proportion of shoppers from each group who purchased a pick-up truck that week. What is the response variable in this study?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "The number of trucks sold in the showroom that week."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

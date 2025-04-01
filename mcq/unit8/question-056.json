@@ -1,32 +1,33 @@
 {
   "question_id": "question-056",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Find $H_{a}$",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Which of the following is an alternative hypothesis for a chi-square test of independence?</div>",
+  "question_text": "Which of the following is an alternative hypothesis for a chi-square test of independence?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "H\na\n: There is no association between two categorical variables in a given population"
+      "text": "H a H a :  There is no association between two categorical variables in a given population"
     },
     {
       "letter": "B",
-      "text": "H\na\n: There is a difference in distributions of a categorical variable across populations."
+      "text": "H a H a :  There is a difference in distributions of a categorical variable across populations."
     },
     {
       "letter": "C",
-      "text": "H\na\n: Two categorical variables in a population are associated."
+      "text": "H a H a :  Two categorical variables in a population are associated."
     },
     {
       "letter": "D",
-      "text": "H\na\n: At least one of the given proportions is not equal to what is specified in the null hypothesis."
+      "text": "H a H a :  At least one of the given proportions is not equal to what is specified in the null hypothesis."
     },
     {
       "letter": "E",
-      "text": "H\na\n: There is no difference in distributions of a categorical variable across populations."
+      "text": "H a H a :  There is no difference in distributions of a categorical variable across populations."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

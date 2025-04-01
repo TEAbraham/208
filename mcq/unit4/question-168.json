@@ -1,32 +1,33 @@
 {
   "question_id": "question-168",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Spin the Spinner Probability",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A spinner consists of <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-12262-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 114%;\"><span id=\"MJXc-Node-60762\" class=\"mjx-math\"><span id=\"MJXc-Node-60763\" class=\"mjx-mrow\"><span id=\"MJXc-Node-60764\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">8</span></span></span></span></span><script type=\"math/tex\" id=\"MathJax-Element-12262\">8</script></span> equally sized sections. Each section is labeled with a different number from <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-12263-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 114%;\"><span id=\"MJXc-Node-60765\" class=\"mjx-math\"><span id=\"MJXc-Node-60766\" class=\"mjx-mrow\"><span id=\"MJXc-Node-60767\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.332em;\">1</span></span></span></span></span><script type=\"math/tex\" id=\"MathJax-Element-12263\">1</script></span> to <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-12264-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 114%;\"><span id=\"MJXc-Node-60768\" class=\"mjx-math\"><span id=\"MJXc-Node-60769\" class=\"mjx-mrow\"><span id=\"MJXc-Node-60770\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">8</span></span></span></span></span><script type=\"math/tex\" id=\"MathJax-Element-12264\">8</script></span>.  </div><div class=\"paragraph\">If the spinner is spun five times and the result on each spin is independent, what is the probability that the number <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-12265-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 114%;\"><span id=\"MJXc-Node-60771\" class=\"mjx-math\"><span id=\"MJXc-Node-60772\" class=\"mjx-mrow\"><span id=\"MJXc-Node-60773\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">3</span></span></span></span></span><script type=\"math/tex\" id=\"MathJax-Element-12265\">3</script></span> will come up on exactly two of the spins?</div>",
+  "question_text": "A spinner consists of $8$ equally sized sections. Each section is labeled with a different number from $1$ to $8$ . If the spinner is spun five times and the result on each spin is independent, what is the probability that the number $3$ will come up on exactly two of the spins?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.0105"
+      "text": "0.0105 0.0105"
     },
     {
       "letter": "B",
-      "text": "0.0156"
+      "text": "0.0156 0.0156"
     },
     {
       "letter": "C",
-      "text": "0.1047"
+      "text": "0.1047 0.1047"
     },
     {
       "letter": "D",
-      "text": "0.1963"
+      "text": "0.1963 0.1963"
     },
     {
       "letter": "E",
-      "text": "0.9839"
+      "text": "0.9839 0.9839"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

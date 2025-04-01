@@ -1,32 +1,33 @@
 {
   "question_id": "question-167",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Favorite Color",
   "difficulty": "Easy",
-  "question_text": "\n<div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Color</th><th scope=\"col\">Red</th><th scope=\"col\">Blue</th><th scope=\"col\">Yellow</th><th scope=\"col\">Pink</th><th scope=\"col\">Green</th><th scope=\"col\">Orange</th></tr></thead><tbody><tr><td>Relative Frequency</td><td>13%</td><td>24%</td><td>18%</td><td>21%</td><td>16%</td><td>8%</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>In a large survey, <span class=\"tex2jax_process\">$1$</span>st graders were asked what their favorite color is. The results are in the table above.  </div><div class=\"paragraph\">Suppose that <span class=\"tex2jax_process\">$8$</span> randomly selected students are chosen.  </div><div class=\"paragraph\">What is the probability that <span class=\"tex2jax_process\">$2$</span> students say blue is their favorite color?</div>",
+  "question_text": "Color Red Blue Yellow Pink Green Orange Relative Frequency 13% 24% 18% 21% 16% 8% In a large survey, $1$ st graders were asked what their favorite color is. The results are in the table above. Suppose that $8$ randomly selected students are chosen. What is the probability that $2$ students say blue is their favorite color?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.24\n2\n⋅\n0.76\n8"
+      "text": "0.24 2 ⋅ 0.76 8 0.24 2 ⋅ 0.76 8"
     },
     {
       "letter": "B",
-      "text": "0.24\n2\n⋅\n0.76\n8\n⋅\n8\n!"
+      "text": "0.24 2 ⋅ 0.76 8 ⋅ 8 ! 0.24 2 ⋅ 0.76 8 ⋅ 8 !"
     },
     {
       "letter": "C",
-      "text": "0.24\n2\n⋅\n0.76\n6"
+      "text": "0.24 2 ⋅ 0.76 6 0.24 2 ⋅ 0.76 6"
     },
     {
       "letter": "D",
-      "text": "0.24\n2\n⋅\n0.76\n6\n⋅\n(\n8\n!\n2\n!\n)"
+      "text": "0.24 2 ⋅ 0.76 6 ⋅ ( 8 ! 2 ! ) 0.24 2 ⋅ 0.76 6 ⋅ ( 8 ! 2 ! )"
     },
     {
       "letter": "E",
-      "text": "0.24\n2\n⋅\n0.76\n6\n⋅\n[\n8\n!\n(\n2\n!\n⋅\n6\n!\n)\n]"
+      "text": "0.24 2 ⋅ 0.76 6 ⋅ [ 8 ! ( 2 ! ⋅ 6 ! ) ] 0.24 2 ⋅ 0.76 6 ⋅ [ 8 ! ( 2 ! ⋅ 6 ! ) ]"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

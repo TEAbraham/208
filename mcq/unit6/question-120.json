@@ -1,8 +1,9 @@
 {
   "question_id": "question-120",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Conditions for Weight Loss",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A new weight-loss drug was on the market.  Its slogan promised that people could \"lose <span class=\"tex2jax_process\">$10\\%$</span> of their weight in the first month\". A research company wanted to test this claim and to examine the difference between men and women.  <span class=\"tex2jax_process\">$66$</span> women and <span class=\"tex2jax_process\">$64$</span> men were randomly selected from those using the drug.  Of the women, <span class=\"tex2jax_process\">$28$</span> said that they lost <span class=\"tex2jax_process\">$10\\%$</span> of their weight and <span class=\"tex2jax_process\">$38$</span> of the men said that they did.  A researcher wanted to know if more men lost weight. </div><div class=\"paragraph\">In checking to see if this research met the conditions for a test for the difference of two population proportions, the researcher would verify all of these conditions <strong>except</strong>:</div>",
+  "question_text": "A new weight-loss drug was on the market.  Its slogan promised that people could \"lose $10\\%$ of their weight in the first month\". A research company wanted to test this claim and to examine the difference between men and women. $66$ women and $64$ men were randomly selected from those using the drug.  Of the women, $28$ said that they lost $10\\%$ of their weight and $38$ of the men said that they did.  A researcher wanted to know if more men lost weight. In checking to see if this research met the conditions for a test for the difference of two population proportions, the researcher would verify all of these conditions except :",
   "image_files": [],
   "choices": [
     {
@@ -11,22 +12,22 @@
     },
     {
       "letter": "B",
-      "text": "The sample sizes were less than\n10\n%\nof the population sizes."
+      "text": "The sample sizes were less than 10 % 10 % of the population sizes."
     },
     {
       "letter": "C",
-      "text": "A pooled proportion,\n^\np\nc\nwas used to check that the sampling distribution was approximately normally distributed.."
+      "text": "A pooled proportion, ^ p c p ^ c was used to check that the sampling distribution was approximately normally distributed.."
     },
     {
       "letter": "D",
-      "text": "The four expressions below were tested to all be greater than or equal to\n10\n: n\n1\n^\np\nc\n,\nn\n2\n^\np\nc\n,\nn\n1\n(\n1\n−\n^\np\nc\n)\n, and\nn\n2\n(\n1\n−\n^\np\nc\n)\n."
+      "text": "The four expressions below were tested to all be greater than or equal to 10 10 : n 1 ^ p c n 1 p ^ c , n 2 ^ p c n 2 p ^ c , n 1 ( 1 − ^ p c ) n 1 ( 1 − p ^ c ) , and n 2 ( 1 − ^ p c ) n 2 ( 1 − p ^ c ) ."
     },
     {
       "letter": "E",
-      "text": "Each sample size was checked to be of size\n30\nor higher."
+      "text": "Each sample size was checked to be of size 30 30 or higher."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

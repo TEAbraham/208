@@ -1,32 +1,33 @@
 {
   "question_id": "question-032",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Congressional Approval",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">​Last month, a pollster found that a sample proportion of <span class=\"tex2jax_process\">$48\\%$</span> of the national population approve of their congressional representative.  </div><div class=\"paragraph\">A <span class=\"tex2jax_process\">$99\\%$</span> confidence interval was constructed on this data with a <span class=\"tex2jax_process\">$5\\%$</span> margin of error. Suppose instead that a <span class=\"tex2jax_process\">$90\\%$</span> confidence interval was constructed on this same sample.  </div><div class=\"paragraph\">This <span class=\"tex2jax_process\">$90\\%$</span> confidence interval will have a margin of error of about</div>",
+  "question_text": "​Last month, a pollster found that a sample proportion of $48\\%$ of the national population approve of their congressional representative. A $99\\%$ confidence interval was constructed on this data with a $5\\%$ margin of error. Suppose instead that a $90\\%$ confidence interval was constructed on this same sample. This $90\\%$ confidence interval will have a margin of error of about",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "1.645\n%"
+      "text": "1.645 % 1.645 %"
     },
     {
       "letter": "B",
-      "text": "3.19\n%"
+      "text": "3.19 % 3.19 %"
     },
     {
       "letter": "C",
-      "text": "5\n%"
+      "text": "5 % 5 %"
     },
     {
       "letter": "D",
-      "text": "4.325\n%"
+      "text": "4.325 % 4.325 %"
     },
     {
       "letter": "E",
-      "text": "2.326\n%"
+      "text": "2.326 % 2.326 %"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-267",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "IQR of Variable",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">The random variable <span class=\"tex2jax_process\">$x$</span> is normally distributed with a mean of <span class=\"tex2jax_process\">$42$</span> and a standard deviation of <span class=\"tex2jax_process\">$6$</span>.  </div><div class=\"paragraph\">What is the approximate interquartile range for this variable?</div>",
+  "question_text": "The random variable $x$ is normally distributed with a mean of $42$ and a standard deviation of $6$ . What is the approximate interquartile range for this variable?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "37.98"
+      "text": "37.98 37.98"
     },
     {
       "letter": "B",
-      "text": "19.80"
+      "text": "19.80 19.80"
     },
     {
       "letter": "C",
-      "text": "23.52"
+      "text": "23.52 23.52"
     },
     {
       "letter": "D",
-      "text": "46.02"
+      "text": "46.02 46.02"
     },
     {
       "letter": "E",
-      "text": "8.10"
+      "text": "8.10 8.10"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.    ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,8 +1,9 @@
 {
   "question_id": "question-155",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Age of Gym Members: Best Type of Graphical Display",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Owners of a local gym wanted to know more about the distribution of the ages of individuals who are members of their gym.  Using a list of the gym's <span class=\"tex2jax_process\">$483$</span> members, the owners recorded the age of each member.  They found that the youngest member was <span class=\"tex2jax_process\">$15$</span> years old, and the oldest member was <span class=\"tex2jax_process\">$82$</span> years old!  </div><div class=\"paragraph\">Of the following, which would be the best way to display the distribution of ages?</div>",
+  "question_text": "Owners of a local gym wanted to know more about the distribution of the ages of individuals who are members of their gym.  Using a list of the gym's $483$ members, the owners recorded the age of each member.  They found that the youngest member was $15$ years old, and the oldest member was $82$ years old! Of the following, which would be the best way to display the distribution of ages?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "Stemplot."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

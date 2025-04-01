@@ -1,32 +1,33 @@
 {
   "question_id": "question-064",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Computer Chips",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Suppose <span class=\"tex2jax_process\">$10$</span> computer chips are randomly selected for a very large population.  </div><div class=\"paragraph\">If <span class=\"tex2jax_process\">$95\\%$</span> of the chips work effectively, what is the probability of getting zero defective chips out of the <span class=\"tex2jax_process\">$10$</span> chosen?</div>",
+  "question_text": "Suppose $10$ computer chips are randomly selected for a very large population. If $95\\%$ of the chips work effectively, what is the probability of getting zero defective chips out of the $10$ chosen?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.5987"
+      "text": "0.5987 0.5987"
     },
     {
       "letter": "B",
-      "text": "0.95"
+      "text": "0.95 0.95"
     },
     {
       "letter": "C",
-      "text": "0.05"
+      "text": "0.05 0.05"
     },
     {
       "letter": "D",
-      "text": "0.000976"
+      "text": "0.000976 0.000976"
     },
     {
       "letter": "E",
-      "text": "0.4283"
+      "text": "0.4283 0.4283"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

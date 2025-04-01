@@ -1,32 +1,33 @@
 {
   "question_id": "question-099",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Accuracy in Predicting the Height of a Sunflower?",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Melanie planted a sunflower seed and decided to track its growth.  Letting <span class=\"tex2jax_process\">$x$</span> represent the number of days since the seed was planted and letting <span class=\"tex2jax_process\">$y$</span> represent the plant's height in inches, she carefully gathered data each day beginning on day <span class=\"tex2jax_process\">$7$</span> when the seed sprouted and continued for <span class=\"tex2jax_process\">$30\\text{ days}$</span> after that.  She then developed the following LSRL:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$\\hat { y } =-6.78+1.43x$$</div>  </div><div class=\"paragraph\">The correlation for the relationship was <span class=\"tex2jax_process\">$r=0.972$</span>.  </div><div class=\"paragraph\">Melanie wonders how tall her sunflower will be <span class=\"tex2jax_process\">$6\\text{ months}$</span> after the seed was planted and decides to use the LSRL to make a prediction.  Which of the following statements would best describe the accuracy of her prediction?</div>",
+  "question_text": "Melanie planted a sunflower seed and decided to track its growth.  Letting x represent the number of days since the seed was planted and letting y represent the plant's height in inches, she carefully gathered data each day beginning on day 7 when the seed sprouted and continued for 30 days after that.  She then developed the following LSRL: ˆ y = − 6.78 + 1.43 x The correlation for the relationship was r = 0.972 . Melanie wonders how tall her sunflower will be 6 months after the seed was planted and decides to use the LSRL to make a prediction.  Which of the following statements would best describe the accuracy of her prediction?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Since the correlation for the relationship was near\n1\n, the relationship is very strong. Therefore, the LSRL will provide an extremely accurate prediction for the height of the sunflower."
+      "text": "Since the correlation for the relationship was near 1 1 , the relationship is very strong.  Therefore, the LSRL will provide an extremely accurate prediction for the height of the sunflower."
     },
     {
       "letter": "B",
-      "text": "From the given information we can determine the coefficient of determination to be:\nr\n2\n=\n0.972\n2\n=\n0.945\nThis means that the prediction will be about\n94.5\n%\naccurate."
+      "text": "From the given information we can determine the coefficient of determination to be: r 2 = 0.972 2 = 0.945 r 2 = 0.972 2 = 0.945 This means that the prediction will be about 94.5 % 94.5 % accurate."
     },
     {
       "letter": "C",
-      "text": "Since the correlation was not\n1\n, the relationship between height and number of days since the seed sprouted is not strong enough for Melanie to be able to make an accurate prediction about the height of the sunflower in\n6\nmonths."
+      "text": "Since the correlation was not 1 1 , the relationship between height and number of days since the seed sprouted is not strong enough for Melanie to be able to make an accurate prediction about the height of the sunflower in 6 6 months."
     },
     {
       "letter": "D",
-      "text": "Trying to use the LSRL to make a prediction about the height in\n6\n months\nwill most likely be inaccurate since Melanie only collected data for about the first month after the seed sprouted. This would be an example of extrapolation."
+      "text": "Trying to use the LSRL to make a prediction about the height in 6 months 6 months will most likely be inaccurate since Melanie only collected data for about the first month after the seed sprouted.  This would be an example of extrapolation."
     },
     {
       "letter": "E",
-      "text": "It would be impossible to use the LSRL for making a prediction about the height of the sunflower in\n6\n months\n. since the LSRL was created using data that related height to number of days (not months) since the seed sprouted."
+      "text": "It would be impossible to use the LSRL for making a prediction about the height of the sunflower in 6 months 6 months . since the LSRL was created using data that related height to number of days (not months) since the seed sprouted."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

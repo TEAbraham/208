@@ -1,32 +1,33 @@
 {
   "question_id": "question-160",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Lottery Tickets I | 1 of 3",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Each month for the past year, Barbara and Pauline have purchased <span class=\"tex2jax_process\">$30\\text{ scratch-off lottery tickets}$</span> each. Barbara always buys Florida Gold scratch-off tickets, and Pauline always buys Lotsa Cash scratch-off tickets.  </div><div class=\"paragraph\">They have kept track of their number of winning tickets each month. Below are the results of the number of tickets that have been winners each month during the <span class=\"tex2jax_process\">$12\\text{ months}$</span> of their record-keeping. (For ease of calculation, the data have been ordered from smallest to largest, not chronologically.)\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Barbara <br><br>(Florida Gold)</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">6</th><th scope=\"col\">6</th><th scope=\"col\">6</th><th scope=\"col\">7</th><th scope=\"col\">7</th><th scope=\"col\">8</th><th scope=\"col\">8</th><th scope=\"col\">14</th></tr></thead><tbody><tr><td>Pauline<br><br> (Lotsa Cash)</td><td>5</td><td>7</td><td>7</td><td>8</td><td>8</td><td>8</td><td>8</td><td>9</td><td>9</td><td>10</td><td>12</td><td>17</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Assume that Florida Gold has the same prize of <span class=\"tex2jax_process\">$\\$4$</span> for each winning ticket. Barbara pays <span class=\"tex2jax_process\">$\\$1$</span> for each ticket.  </div><div class=\"paragraph\">In how many months listed in the chart above did Barbara make more money than she spent?</div>",
+  "question_text": "Each month for the past year, Barbara and Pauline have purchased $30\\text{ scratch-off lottery tickets}$ each. Barbara always buys Florida Gold scratch-off tickets, and Pauline always buys Lotsa Cash scratch-off tickets. They have kept track of their number of winning tickets each month. Below are the results of the number of tickets that have been winners each month during the $12\\text{ months}$ of their record-keeping. (For ease of calculation, the data have been ordered from smallest to largest, not chronologically.) Barbara (Florida Gold) 2 3 3 4 6 6 6 7 7 8 8 14 Pauline (Lotsa Cash) 5 7 7 8 8 8 8 9 9 10 12 17 Assume that Florida Gold has the same prize of $\\$4$ for each winning ticket. Barbara pays $\\$1$ for each ticket. In how many months listed in the chart above did Barbara make more money than she spent?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "4"
+      "text": "4 4"
     },
     {
       "letter": "B",
-      "text": "3"
+      "text": "3 3"
     },
     {
       "letter": "C",
-      "text": "2"
+      "text": "2 2"
     },
     {
       "letter": "D",
-      "text": "1"
+      "text": "1 1"
     },
     {
       "letter": "E",
-      "text": "0"
+      "text": "0 0"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

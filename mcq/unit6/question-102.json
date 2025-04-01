@@ -1,32 +1,33 @@
 {
   "question_id": "question-102",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Traffic Engineer Phone Speeds",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A traffic engineer wishes to determine whether cell phone use while driving causes subjects to speed.  </div><div class=\"paragraph\">The engineer has organized for subjects’ friends to call while they are driving on a highway and then records their speeds before, during, and after the call.  </div><div class=\"paragraph\">A test is performed on the following hypothesis:</div><blockquote><div class=\"paragraph\"><span class=\"tex2jax_process\">$H_0: { P }_{ \\text{phone} }= { P }_{ \\text{no phone} }$</span><br><span class=\"tex2jax_process\">$H_a: { P }_{  \\text{phone} } ≠ { P }_{  \\text{no phone} }$</span>  </div></blockquote><div class=\"paragraph\">Define <span class=\"tex2jax_process\">${ P }_{ \\text{phone} }$</span> as the proportion who speed while on the phone and <span class=\"tex2jax_process\">${ P }_{ \\text{no phone} }$</span> as the proportion who speed while not on the phone.  </div><div class=\"paragraph\">If this test yields a <span class=\"tex2jax_process\">$p$</span>-value of <span class=\"tex2jax_process\">$0.0782$</span>, which of the following conclusions can be made?</div>",
+  "question_text": "A traffic engineer wishes to determine whether cell phone use while driving causes subjects to speed. The engineer has organized for subjects’ friends to call while they are driving on a highway and then records their speeds before, during, and after the call. A test is performed on the following hypothesis: $H_0: { P }_{ \\text{phone} }= { P }_{ \\text{no phone} }$ $H_a: { P }_{  \\text{phone} } ≠ { P }_{  \\text{no phone} }$ Define ${ P }_{ \\text{phone} }$ as the proportion who speed while on the phone and ${ P }_{ \\text{no phone} }$ as the proportion who speed while not on the phone. If this test yields a $p$ -value of $0.0782$ , which of the following conclusions can be made?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "A\n90\n%\nconfidence interval will NOT contain\n0\n."
+      "text": "A 90 % 90 % confidence interval will NOT contain 0 0 ."
     },
     {
       "letter": "B",
-      "text": "A\n95\n%\nconfidence interval will NOT contain\n0\n."
+      "text": "A 95 % 95 % confidence interval will NOT contain 0 0 ."
     },
     {
       "letter": "C",
-      "text": "A\n99\n%\nconfidence interval will NOT contain\n0\n."
+      "text": "A 99 % 99 % confidence interval will NOT contain 0 0 ."
     },
     {
       "letter": "D",
-      "text": "Both\n90\n%\nand\n95\n%\nconfidence intervals will contain\n0\n."
+      "text": "Both 90 % 90 % and 95 % 95 % confidence intervals will contain 0 0 ."
     },
     {
       "letter": "E",
-      "text": "A\n99\n%\nconfidence interval will contain\n0.0782\n."
+      "text": "A 99 % 99 % confidence interval will contain 0.0782 0.0782 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

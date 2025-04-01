@@ -1,32 +1,33 @@
 {
   "question_id": "question-103",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Headaches",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">We want to create a confidence interval for the difference of the means of the effectiveness of two drugs to reduce the incidence of headaches.  Sixty-two headache patients are randomly selected from several large medical practices and half of them are given one drug and half the other drug.  Determination of which drug was given to which patient was decided by a coin flip and all conditions were verified.</div><div class=\"paragraph\">Three months later the total number of headaches suffered by each group was gathered.  Group <span class=\"tex2jax_process\">$1$</span> had <span class=\"tex2jax_process\">$2.1$</span> headaches per person with a standard deviation of <span class=\"tex2jax_process\">$1.2$</span> headaches.  Group <span class=\"tex2jax_process\">$2$</span> had <span class=\"tex2jax_process\">$2.9$</span> headaches per person with a standard deviation of <span class=\"tex2jax_process\">$1.6$</span> headaches.</div><div class=\"paragraph\">If the upper bound of the confidence interval came out to be <span class=\"tex2jax_process\">$0.02$</span>, find the value of <span class=\"tex2jax_process\">$t^{*}$</span> that was used in the calculation of this confidence interval.</div>",
+  "question_text": "We want to create a confidence interval for the difference of the means of the effectiveness of two drugs to reduce the incidence of headaches.  Sixty-two headache patients are randomly selected from several large medical practices and half of them are given one drug and half the other drug.  Determination of which drug was given to which patient was decided by a coin flip and all conditions were verified. Three months later the total number of headaches suffered by each group was gathered.  Group $1$ had $2.1$ headaches per person with a standard deviation of $1.2$ headaches.  Group $2$ had $2.9$ headaches per person with a standard deviation of $1.6$ headaches. If the upper bound of the confidence interval came out to be $0.02$ , find the value of $t^{*}$ that was used in the calculation of this confidence interval.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "1.960"
+      "text": "1.960 1.960"
     },
     {
       "letter": "B",
-      "text": "2.000"
+      "text": "2.000 2.000"
     },
     {
       "letter": "C",
-      "text": "2.724"
+      "text": "2.724 2.724"
     },
     {
       "letter": "D",
-      "text": "2.173"
+      "text": "2.173 2.173"
     },
     {
       "letter": "E",
-      "text": "2.284"
+      "text": "2.284 2.284"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,8 +1,9 @@
 {
   "question_id": "question-010",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Average Tax Refund",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">According to the Internal Revenue Service, IRS, the average tax return for an American citizen is <span class=\"tex2jax_process\">$\\$3{,}401$</span>. An accountant examines the records of <span class=\"tex2jax_process\">$30$</span> random clients and finds the average tax return for his clients to be <span class=\"tex2jax_process\">$\\$3{,}520$</span>. </div><div class=\"paragraph\">Explain why the accountant should not make the claim that the stated amount by the IRS is incorrect.</div>",
+  "question_text": "According to the Internal Revenue Service, IRS, the average tax return for an American citizen is $\\$3{,}401$ . An accountant examines the records of $30$ random clients and finds the average tax return for his clients to be $\\$3{,}520$ . Explain why the accountant should not make the claim that the stated amount by the IRS is incorrect.",
   "image_files": [],
   "choices": [
     {
@@ -26,14 +27,9 @@
       "text": "Since the data was random, the data cannot be generalized for the entire population"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer. ",
-  "solution": "Very rarely will a sample mean equal the population mean, due to <em>sampling variability</em>. Therefore, the accountant's sample is simply a <em>statistic</em> because it describes the sample. Since we do not know the standard deviation, we cannot use the normal distribution to find the probability of the sample happening, if the population mean is correct. \n\nTherefore, the accountant is unable to make the claim that the IRS made is incorrect. \n\n<strong>Choice 'A'</strong> is correct. ",
-  "distractor_explanations": {
-    "B": "<strong>Choice 'B'</strong> is incorrect. The sample size is <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-20929-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>30</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-115794\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-115795\" class=\"mjx-mrow\"><span id=\"MJXc-Node-115796\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">30</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-20929\">30</script></span>, which is large enough to meet the Central Limit Theorem and definitely meets the <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-20930-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>10</mn><mi mathvariant=&quot;normal&quot;>&amp;#x0025;</mi></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-115797\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-115798\" class=\"mjx-mrow\"><span id=\"MJXc-Node-115799\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">10</span></span><span id=\"MJXc-Node-115800\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.441em; padding-bottom: 0.387em;\">%</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi mathvariant=\"normal\">%</mi></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-20930\">10\\%</script></span> condition as well. ",
-    "C": "<strong>Choice 'C'</strong> is incorrect. Although the population is not stated as Normal, the sampling distribution would be Normal because the Central Limit Theorem is met. ",
-    "D": "<strong>Choice 'D'</strong> is incorrect. Even if the data has an outlier, the Central Limit Theorem is met, therefore the sampling distribution is approaching Normality. ",
-    "E": "<strong>Choice 'E'</strong> is incorrect. This statement is incorrect. In fact, since the sample is random, we are allowed to generalize for the population."
-  },
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "Very rarely will a sample mean equal the population mean, due to sampling variability . Therefore, the accountant's sample is simply a statistic because it describes the sample. Since we do not know the standard deviation, we cannot use the normal distribution to find the probability of the sample happening, if the population mean is correct.\n\nTherefore, the accountant is unable to make the claim that the IRS made is incorrect.\n\nChoice 'A' is correct.",
+  "distractor_explanations": {},
   "tags": [
     "VAR-1.J",
     "VAR-1.J.1",

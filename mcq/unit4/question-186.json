@@ -1,32 +1,33 @@
 {
   "question_id": "question-186",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Binomial Distribution: Manipulating the Binomial Formula",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A random variable <span class=\"tex2jax_process\">$X$</span> has the probability    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$\\begin{pmatrix} 20 \\\\ k \\end{pmatrix}(0.44)^{k}(0.56)^{20-k}$$</div>  </div><div class=\"paragraph\">...associated with the value <span class=\"tex2jax_process\">$k$</span> for <span class=\"tex2jax_process\">$k= 0,1,2,3,…,20$</span>.  </div><div class=\"paragraph\">What is the mean of <span class=\"tex2jax_process\">$X$</span>?</div>",
+  "question_text": "A random variable $X$ has the probability $$\\begin{pmatrix} 20 \\\\ k \\end{pmatrix}(0.44)^{k}(0.56)^{20-k}$$ ...associated with the value $k$ for $k= 0,1,2,3,…,20$ . What is the mean of $X$ ?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "4.4"
+      "text": "4.4 4.4"
     },
     {
       "letter": "B",
-      "text": "5.6"
+      "text": "5.6 5.6"
     },
     {
       "letter": "C",
-      "text": "8.8"
+      "text": "8.8 8.8"
     },
     {
       "letter": "D",
-      "text": "10"
+      "text": "10 10"
     },
     {
       "letter": "E",
-      "text": "11.2"
+      "text": "11.2 11.2"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

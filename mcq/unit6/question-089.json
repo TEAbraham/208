@@ -1,13 +1,14 @@
 {
   "question_id": "question-089",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Unemployment Concerns",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">The threat of unemployment is a major concern for working adults.  </div><div class=\"paragraph\">In a survey of <span class=\"tex2jax_process\">$1{,}500\\text{ working adults}$</span>, <span class=\"tex2jax_process\">$720\\text{ men}$</span> and <span class=\"tex2jax_process\">$780\\text{ women}$</span> were asked the question, “Are you concerned about losing your job within the next <span class=\"tex2jax_process\">$12\\text{ months}$</span>?”  </div><div class=\"paragraph\">Of those who were surveyed, <span class=\"tex2jax_process\">$312\\text{ males}$</span> said “yes,” and <span class=\"tex2jax_process\">$240\\text{ females}$</span> said “yes.”  </div><div class=\"paragraph\">Why would it be considered incorrect to use a one-proportion <span class=\"tex2jax_process\">$Z$</span>-interval in this situation?</div>",
+  "question_text": "The threat of unemployment is a major concern for working adults. In a survey of $1{,}500\\text{ working adults}$ , $720\\text{ men}$ and $780\\text{ women}$ were asked the question, “Are you concerned about losing your job within the next $12\\text{ months}$ ?” Of those who were surveyed, $312\\text{ males}$ said “yes,” and $240\\text{ females}$ said “yes.” Why would it be considered incorrect to use a one-proportion $Z$ -interval in this situation?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "This data follows the\nT\ndistribution."
+      "text": "This data follows the T T distribution."
     },
     {
       "letter": "B",
@@ -26,7 +27,7 @@
       "text": "The survey contains apparent bias."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

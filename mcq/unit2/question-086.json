@@ -1,32 +1,33 @@
 {
   "question_id": "question-086",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Calculating Residuals on Exam Scores",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">​Joey thinks he can predict his final exam score based on his score on the last unit test. Using data from the rest of the class, he came up with the following equation:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$\\text{Final exam score} = 10 + 0.81 \\times (\\text{Unit test score})$$</div>  </div><div class=\"paragraph\">Calculate the residual if Joey got <span class=\"tex2jax_process\">$84\\text{ points}$</span> on his unit test and <span class=\"tex2jax_process\">$80\\text{ points}$</span> on the final.</div>",
+  "question_text": "​Joey thinks he can predict his final exam score based on his score on the last unit test. Using data from the rest of the class, he came up with the following equation: Final exam score = 10 + 0.81 × ( Unit test score ) Final exam score = 10 + 0.81 × ( Unit test score ) Calculate the residual if Joey got 84 points 84 points on his unit test and 80 points 80 points on the final.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "84\n points"
+      "text": "84 points 84 points"
     },
     {
       "letter": "B",
-      "text": "−\n4\n points"
+      "text": "− 4 points − 4 points"
     },
     {
       "letter": "C",
-      "text": "−\n1.96\n points"
+      "text": "− 1.96 points − 1.96 points"
     },
     {
       "letter": "D",
-      "text": "1.96\n points"
+      "text": "1.96 points 1.96 points"
     },
     {
       "letter": "E",
-      "text": "4\n points"
+      "text": "4 points 4 points"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

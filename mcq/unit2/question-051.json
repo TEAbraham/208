@@ -1,21 +1,22 @@
 {
   "question_id": "question-051",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Grocery Shopping: Predicting Correlation",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Jasmine has been keeping track of the relationship between the number of items she buys at the grocery store and the total amount of her grocery bill (in  dollars).  She has noticed that the relationship is roughly linear.  </div><div class=\"paragraph\">What would you predict regarding the correlation for this relationship?</div>",
+  "question_text": "Jasmine has been keeping track of the relationship between the number of items she buys at the grocery store and the total amount of her grocery bill (in  dollars).  She has noticed that the relationship is roughly linear. What would you predict regarding the correlation for this relationship?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The correlation will be\n0\n."
+      "text": "The correlation will be 0 0 ."
     },
     {
       "letter": "B",
-      "text": "The correlation will be negative but not near\n−\n1\n."
+      "text": "The correlation will be negative but not near − 1 − 1 ."
     },
     {
       "letter": "C",
-      "text": "The correlation will be positive and fairly close to\n1\n."
+      "text": "The correlation will be positive and fairly close to 1 1 ."
     },
     {
       "letter": "D",
@@ -26,7 +27,7 @@
       "text": "Correlation is meaningless in this situation since the appropriate conditions for using correlation have not been satisfied."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

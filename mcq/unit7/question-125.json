@@ -1,8 +1,9 @@
 {
   "question_id": "question-125",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Test of Significance: Do Men Make More Money than Women?",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A committee has been formed to see if men have higher salaries(in dollars), on average than women at the company <em>You Rule</em>.  Independent random samples  were obtained and the data is summarized in the table below. \n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Gender</th><th scope=\"col\">Men at <em>You Rule</em></th><th scope=\"col\">Women at <em>You Rule</em></th></tr></thead><tbody><tr><td>Mean Salary</td><td><span class=\"tex2jax_process\">$63,364$</span></td><td><span class=\"tex2jax_process\">$62,578$</span></td></tr><tr><td>Standard Deviation of Salary</td><td><span class=\"tex2jax_process\">$4352$</span></td><td><span class=\"tex2jax_process\">$3456$</span></td></tr><tr><td>n</td><td><span class=\"tex2jax_process\">$102$</span></td><td><span class=\"tex2jax_process\">$91$</span></td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Based on the data which of the following statements is true?</div>",
+  "question_text": "A committee has been formed to see if men have higher salaries(in dollars), on average than women at the company You Rule .  Independent random samples  were obtained and the data is summarized in the table below. Gender Men at You Rule Women at You Rule Mean Salary $63,364$ $62,578$ Standard Deviation of Salary $4352$ $3456$ n $102$ $91$ Based on the data which of the following statements is true?",
   "image_files": [
     "images/question-125-img1.PNG",
     "images/question-125-img2.PNG"
@@ -10,26 +11,26 @@
   "choices": [
     {
       "letter": "A",
-      "text": "At the\n1\n% significance level, there is significant evidence men get paid more than women at You Rule."
+      "text": "At the 1 1 % significance level, there is significant evidence men get paid more than women at You Rule ."
     },
     {
       "letter": "B",
-      "text": "At the\n5\n% significance level, there is significant evidence men get paid more than women at You Rule."
+      "text": "At the 5 5 % significance level, there is significant evidence men get paid more than women at You Rule ."
     },
     {
       "letter": "C",
-      "text": "At the\n5\n% significance level, there is significant evidence men and women get paid equally at You Rule."
+      "text": "At the 5 5 % significance level, there is significant evidence men and women get paid equally at You Rule ."
     },
     {
       "letter": "D",
-      "text": "At the\n10\n% significance level, there is significant evidence men get paid more than women at this company at You Rule."
+      "text": "At the 10 10 % significance level, there is significant evidence men get paid more than women at this company at You Rule ."
     },
     {
       "letter": "E",
-      "text": "At the\n10\n% significance level, there is significant evidence men and women get paid equally at You Rule."
+      "text": "At the 10 10 % significance level, there is significant evidence men and women get paid equally at You Rule ."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

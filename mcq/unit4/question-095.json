@@ -1,32 +1,33 @@
 {
   "question_id": "question-095",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Independent or Not?",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">If two events, <span class=\"tex2jax_process\">$A$</span> and <span class=\"tex2jax_process\">$B$</span>, are independent, then which of the following statements is false?</div>",
+  "question_text": "If two events, $A$ and $B$ , are independent, then which of the following statements is false?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Knowing whether or not event\nA\noccurs does not alter the probability that event\nB\nwill occur."
+      "text": "Knowing whether or not event A A occurs does not alter the probability that event B B will occur."
     },
     {
       "letter": "B",
-      "text": "p\n(\nA\n and \nB\n)\n=\np\n(\nA\n)\n⋅\np\n(\nB\n)\n−\np\n(\nA\n or \nB\n)"
+      "text": "p ( A and B ) = p ( A ) ⋅ p ( B ) − p ( A or B ) p ( A and B ) = p ( A ) ⋅ p ( B ) − p ( A or B )"
     },
     {
       "letter": "C",
-      "text": "p\n(\nA\n|\nB\n)\n=\np\n(\nA\n)"
+      "text": "p ( A | B ) = p ( A ) p ( A | B ) = p ( A )"
     },
     {
       "letter": "D",
-      "text": "p\n(\nB\n|\nA\n)\n=\np\n(\nB\n)"
+      "text": "p ( B | A ) = p ( B ) p ( B | A ) = p ( B )"
     },
     {
       "letter": "E",
-      "text": "p\n(\nA\n and \nB\n)\n=\np\n(\nA\n)\n⋅\np\n(\nB\n)"
+      "text": "p ( A and B ) = p ( A ) ⋅ p ( B ) p ( A and B ) = p ( A ) ⋅ p ( B )"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

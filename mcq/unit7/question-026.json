@@ -1,32 +1,33 @@
 {
   "question_id": "question-026",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Swordfish Growth Rates",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A marine biologist was interested in the average annual growth rate of swordfish.  </div><div class=\"paragraph\">A sampling of <span class=\"tex2jax_process\">$16\\text{ tagged swordfish}$</span> found a mean growth rate of <span class=\"tex2jax_process\">$1.4\\text{ feet}$</span> with a standard deviation of <span class=\"tex2jax_process\">$0.23\\text{ feet}$</span>. The confidence interval estimated the true mean growth rate is most likely somewhere between <span class=\"tex2jax_process\">$1.2306$</span> and <span class=\"tex2jax_process\">$1.5694\\text{ feet}$</span>.  </div><div class=\"paragraph\">The given interval has what level of confidence?</div>",
+  "question_text": "A marine biologist was interested in the average annual growth rate of swordfish. A sampling of $16\\text{ tagged swordfish}$ found a mean growth rate of $1.4\\text{ feet}$ with a standard deviation of $0.23\\text{ feet}$ . The confidence interval estimated the true mean growth rate is most likely somewhere between $1.2306$ and $1.5694\\text{ feet}$ . The given interval has what level of confidence?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "90\n%"
+      "text": "90 % 90 %"
     },
     {
       "letter": "B",
-      "text": "95\n%"
+      "text": "95 % 95 %"
     },
     {
       "letter": "C",
-      "text": "98\n%"
+      "text": "98 % 98 %"
     },
     {
       "letter": "D",
-      "text": "99\n%"
+      "text": "99 % 99 %"
     },
     {
       "letter": "E",
       "text": "Unable to determine."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

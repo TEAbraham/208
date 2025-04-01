@@ -1,8 +1,9 @@
 {
   "question_id": "question-115",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Describing the Law of Large Numbers",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Which of the following best describes the Law of Large Numbers?</div>",
+  "question_text": "Which of the following best describes the Law of Large Numbers?",
   "image_files": [],
   "choices": [
     {
@@ -11,7 +12,7 @@
     },
     {
       "letter": "B",
-      "text": "When the sample size is sufficiently large, a\nt\n-test for a population mean can be conducted even if the parent population has a skewed distribution."
+      "text": "When the sample size is sufficiently large, a t t -test for a population mean can be conducted even if the parent population has a skewed distribution."
     },
     {
       "letter": "C",
@@ -26,7 +27,7 @@
       "text": "The larger the number is, the more it will adhere to the law."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-174",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Do You Have a Passport? What is the Probability?",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">According to the U. S. Department of State, as of January 2013, about <span class=\"tex2jax_process\">$37\\%$</span> of all Americans had a passport.  </div><div class=\"paragraph\">Assuming this percentage has not changed, what is the probability that in a randomly selected sample of <span class=\"tex2jax_process\">$4$</span> Americans, more than half would have a passport? </div>",
+  "question_text": "According to the U. S. Department of State, as of January 2013, about $37\\%$ of all Americans had a passport. Assuming this percentage has not changed, what is the probability that in a randomly selected sample of $4$ Americans, more than half would have a passport?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.0187"
+      "text": "0.0187 0.0187"
     },
     {
       "letter": "B",
-      "text": "0.0507"
+      "text": "0.0507 0.0507"
     },
     {
       "letter": "C",
-      "text": "0.1464"
+      "text": "0.1464 0.1464"
     },
     {
       "letter": "D",
-      "text": "0.326"
+      "text": "0.326 0.326"
     },
     {
       "letter": "E",
-      "text": "0.5276"
+      "text": "0.5276 0.5276"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.    ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

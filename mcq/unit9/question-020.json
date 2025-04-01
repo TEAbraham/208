@@ -1,32 +1,33 @@
 {
   "question_id": "question-020",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Find the Confidence Interval",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">You are given a regression analysis computer output table below for \"<span class=\"tex2jax_process\">$y$</span>-value versus <span class=\"tex2jax_process\">$x$</span>-value.\"</div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Predictor</th><th scope=\"col\">Coef</th><th scope=\"col\">SE Coef</th><th scope=\"col\"><span class=\"tex2jax_process\">$T$</span></th><th scope=\"col\"><span class=\"tex2jax_process\">$ P$</span></th></tr></thead><tbody><tr><td>Constant</td><td><span class=\"tex2jax_process\">$-4.231$</span></td><td><span class=\"tex2jax_process\">$0.2561$</span></td><td><span class=\"tex2jax_process\">$5.05$</span></td><td><span class=\"tex2jax_process\">$0.0000$</span></td></tr><tr><td><span class=\"tex2jax_process\">$x$</span> value</td><td><span class=\"tex2jax_process\">$0.5678$</span></td><td><span class=\"tex2jax_process\">$0.0769$</span></td><td><span class=\"tex2jax_process\">$6.11$</span></td><td><span class=\"tex2jax_process\">$0.0000$</span></td></tr></tbody></table></div><div class=\"paragraph\">Given a sample size of <span class=\"tex2jax_process\">$42$</span>, and assuming that all conditions have been verified, find the <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for this data.</div>",
+  "question_text": "You are given a regression analysis computer output table below for \" y y -value versus x x -value.\" Predictor Coef SE Coef T T P P Constant − 4.231 − 4.231 0.2561 0.2561 5.05 5.05 0.0000 0.0000 x x value 0.5678 0.5678 0.0769 0.0769 6.11 6.11 0.0000 0.0000 Given a sample size of 42 42 , and assuming that all conditions have been verified, find the 95 % 95 % confidence interval for this data.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "−\n4.231\n±\n0.1554"
+      "text": "− 4.231 ± 0.1554 − 4.231 ± 0.1554"
     },
     {
       "letter": "B",
-      "text": "−\n4.231\n±\n0.5176"
+      "text": "− 4.231 ± 0.5176 − 4.231 ± 0.5176"
     },
     {
       "letter": "C",
-      "text": "0.5678\n±\n0.1507"
+      "text": "0.5678 ± 0.1507 0.5678 ± 0.1507"
     },
     {
       "letter": "D",
-      "text": "0.5678\n±\n0.5176"
+      "text": "0.5678 ± 0.5176 0.5678 ± 0.5176"
     },
     {
       "letter": "E",
-      "text": "0.5678\n±\n0.1554"
+      "text": "0.5678 ± 0.1554 0.5678 ± 0.1554"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

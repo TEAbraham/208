@@ -1,8 +1,9 @@
 {
   "question_id": "question-038",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "The Wrong Condition?",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A study is to be done using a <span class=\"tex2jax_process\">$t$</span>-test for slope. Conditions need to be verified.  All of the following need to be checked  for the test to be done except one.  Which answer is <em>not</em> a condition for a <span class=\"tex2jax_process\">$t$</span>-test for slope?</div>",
+  "question_text": "A study is to be done using a $t$ -test for slope. Conditions need to be verified.  All of the following need to be checked  for the test to be done except one.  Which answer is not a condition for a $t$ -test for slope?",
   "image_files": [],
   "choices": [
     {
@@ -11,11 +12,11 @@
     },
     {
       "letter": "B",
-      "text": "Check to make sure that the population is at least\n10\ntimes the size of the sample."
+      "text": "Check to make sure that the population is at least 10 10 times the size of the sample."
     },
     {
       "letter": "C",
-      "text": "Check for skewness and outliers if the sample size is less than\n30\n."
+      "text": "Check for skewness and outliers if the sample size is less than 30 30 ."
     },
     {
       "letter": "D",
@@ -26,7 +27,7 @@
       "text": "Check the data to make sure it is linear."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

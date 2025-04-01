@@ -1,32 +1,33 @@
 {
   "question_id": "question-098",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Probability Rules!",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Events <span class=\"tex2jax_process\">$A$</span> and <span class=\"tex2jax_process\">$B$</span> are independent, with <span class=\"tex2jax_process\">$P(A) = 0.40$</span> and <span class=\"tex2jax_process\">$P(A \\text{ and } B)=  0.04$</span>.  Which of the following is true?</div>",
+  "question_text": "Events $A$ and $B$ are independent, with $P(A) = 0.40$ and $P(A \\text{ and } B)=  0.04$ .  Which of the following is true?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "P\n(\nB\n)\n=\n0.06"
+      "text": "P ( B ) = 0.06 P ( B ) = 0.06"
     },
     {
       "letter": "B",
-      "text": "P\n(\nB\n)\n=\n0.60"
+      "text": "P ( B ) = 0.60 P ( B ) = 0.60"
     },
     {
       "letter": "C",
-      "text": "P\n(\nA\n or \nB\n)\n=\n0.46"
+      "text": "P ( A or B ) = 0.46 P ( A or B ) = 0.46"
     },
     {
       "letter": "D",
-      "text": "P\n(\nA\n or \nB\n)\n=\n0.50"
+      "text": "P ( A or B ) = 0.50 P ( A or B ) = 0.50"
     },
     {
       "letter": "E",
-      "text": "P\n(\nA\n or \nB\n)\n=\n0.54"
+      "text": "P ( A or B ) = 0.54 P ( A or B ) = 0.54"
     }
   ],
-  "correct_answer": "<strong>Choice  ‘C’</strong> is the correct answer.   ",
+  "correct_answer": "Choice  ‘C’ is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

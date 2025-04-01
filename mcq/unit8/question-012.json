@@ -1,8 +1,9 @@
 {
   "question_id": "question-012",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Conditions for Chi-Squared GOF",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Conditions necessary for a chi-squared goodness of fit include which of the following?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> Two independent SRSs.<br><strong>II.</strong> Expected counts must all be greater than <span class=\"tex2jax_process\">$5$</span>.<br><strong>III.</strong> np and n(1-p) must both be at least <span class=\"tex2jax_process\">$10$</span>    </div></blockquote>",
+  "question_text": "Conditions necessary for a chi-squared goodness of fit include which of the following? I. Two independent SRSs. II. Expected counts must all be greater than $5$ . III. np and n(1-p) must both be at least $10$",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "I, II, and III."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

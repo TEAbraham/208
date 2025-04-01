@@ -1,32 +1,33 @@
 {
   "question_id": "question-114",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Mean Number of Robin's Eggs",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Researchers have been observing robins' nests for many years to record the number of eggs robins will lay at one time. Shown below is the probability distribution.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">X (# of eggs)</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th></tr></thead><tbody><tr><td>p(X)</td><td>0.18</td><td>0.41</td><td>0.39</td><td>0.02</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Based upon this distribution, what is the mean number of eggs that a robin will lay at one time?</div>",
+  "question_text": "Researchers have been observing robins' nests for many years to record the number of eggs robins will lay at one time. Shown below is the probability distribution. X (# of eggs) 2 3 4 5 p(X) 0.18 0.41 0.39 0.02 Based upon this distribution, what is the mean number of eggs that a robin will lay at one time?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "2"
+      "text": "2 2"
     },
     {
       "letter": "B",
-      "text": "3"
+      "text": "3 3"
     },
     {
       "letter": "C",
-      "text": "3.25"
+      "text": "3.25 3.25"
     },
     {
       "letter": "D",
-      "text": "3.5"
+      "text": "3.5 3.5"
     },
     {
       "letter": "E",
-      "text": "4"
+      "text": "4 4"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

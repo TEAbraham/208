@@ -1,32 +1,33 @@
 {
   "question_id": "question-032",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Prove That Slope",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Scientists always believed that two given variables were associated and had an average slope of <span class=\"tex2jax_process\">$-1.5$</span>.  A new young scientist believed that, in fact, this slope was actually less than this and set out to prove it using a <span class=\"tex2jax_process\">$t$</span>-test for slope.  What would the hypotheses for this test be?</div>",
+  "question_text": "Scientists always believed that two given variables were associated and had an average slope of $-1.5$ .  A new young scientist believed that, in fact, this slope was actually less than this and set out to prove it using a $t$ -test for slope.  What would the hypotheses for this test be?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "H\n0\n:\nb\n=\n0 H\na\n:\nb\n<\n0"
+      "text": "H 0 : b = 0 H 0 : b = 0 H a : b < 0 H a : b < 0"
     },
     {
       "letter": "B",
-      "text": "H\n0\n:\nb\n=\n−\n1.5 H\na\n:\nb\n<\n−\n1.5"
+      "text": "H 0 : b = − 1.5 H 0 : b = − 1.5 H a : b < − 1.5 H a : b < − 1.5"
     },
     {
       "letter": "C",
-      "text": "H\n0\n:\nβ\n=\n−\n1.5 H\na\n:\nβ\n≠\n−\n1.5"
+      "text": "H 0 : β = − 1.5 H 0 : β = − 1.5 H a : β ≠ − 1.5 H a : β ≠ − 1.5"
     },
     {
       "letter": "D",
-      "text": "H\n0\n:\nβ\n=\n0 H\na\n:\nβ\n<\n−\n1.5"
+      "text": "H 0 : β = 0 H 0 : β = 0 H a : β < − 1.5 H a : β < − 1.5"
     },
     {
       "letter": "E",
-      "text": "H\n0\n:\nβ\n=\n−\n1.5 H\na\n:\nβ\n<\n−\n1.5"
+      "text": "H 0 : β = − 1.5 H 0 : β = − 1.5 H a : β < − 1.5 H a : β < − 1.5"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

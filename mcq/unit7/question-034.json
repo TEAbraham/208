@@ -1,32 +1,33 @@
 {
   "question_id": "question-034",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Standard Error of Sample Mean Guinea Pig Weight",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Jackson weighed all of his pet guinea pigs and found the average weight to be <span class=\"tex2jax_process\">$2.4\\text{ pounds}$</span>.  </div><div class=\"paragraph\">If the standard error of the sample mean was <span class=\"tex2jax_process\">$0.2227$</span> and the sample standard deviation was <span class=\"tex2jax_process\">$0.63\\text{ pounds}$</span>, how many guinea pigs does Jason have?</div>",
+  "question_text": "Jackson weighed all of his pet guinea pigs and found the average weight to be $2.4\\text{ pounds}$ . If the standard error of the sample mean was $0.2227$ and the sample standard deviation was $0.63\\text{ pounds}$ , how many guinea pigs does Jason have?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "2.8"
+      "text": "2.8 2.8"
     },
     {
       "letter": "B",
-      "text": "5"
+      "text": "5 5"
     },
     {
       "letter": "C",
-      "text": "8"
+      "text": "8 8"
     },
     {
       "letter": "D",
-      "text": "13"
+      "text": "13 13"
     },
     {
       "letter": "E",
-      "text": "116"
+      "text": "116 116"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

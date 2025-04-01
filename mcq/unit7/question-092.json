@@ -1,17 +1,18 @@
 {
   "question_id": "question-092",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "The Effect of Increasing Sample Size",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Jason conducted a one-sample <span class=\"tex2jax_process\">$t$</span>-test for a population mean. Later, he realized that he had made a mistake when entering the sample size into his calculations. The actual sample size was in fact larger than the sample size he had used in his calculations.  </div><div class=\"paragraph\">How will this change the results associated with his test?</div>",
+  "question_text": "Jason conducted a one-sample $t$ -test for a population mean. Later, he realized that he had made a mistake when entering the sample size into his calculations. The actual sample size was in fact larger than the sample size he had used in his calculations. How will this change the results associated with his test?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The standard deviation of the related\nt\n-distribution will be larger than previously calculated."
+      "text": "The standard deviation of the related t t -distribution will be larger than previously calculated."
     },
     {
       "letter": "B",
-      "text": "The actual\np\n-value will be smaller than previously calculated."
+      "text": "The actual p p -value will be smaller than previously calculated."
     },
     {
       "letter": "C",
@@ -26,7 +27,7 @@
       "text": "The probability of making a Type II error will be larger than previously calculated."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

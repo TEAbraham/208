@@ -1,8 +1,9 @@
 {
   "question_id": "question-069",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Test Prep Course Benefits",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Suppose researchers want to know if a positive linear relationship exists between pre- and post-test scores on the test.  </div><div class=\"paragraph\">Twenty-five students are given the test as a pre-test. Then these <span class=\"tex2jax_process\">$25\\text{ subjects}$</span> are put into an extensive review course. After the review course, the subjects took the test once more.  </div><div class=\"paragraph\">A linear regression <span class=\"tex2jax_process\">$T$</span>-test is performed on  </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$H_0: B = 0  \\\\\nH_a: B&gt;0$$</div>  </div><div class=\"paragraph\">Define B as the true slope of the linear regression line when plotting pre-test vs. post-test scores.  </div><div class=\"paragraph\">If <span class=\"tex2jax_process\">$p&lt;0.01$</span>, one could conclude</div>",
+  "question_text": "Suppose researchers want to know if a positive linear relationship exists between pre- and post-test scores on the test. Twenty-five students are given the test as a pre-test. Then these $25\\text{ subjects}$ are put into an extensive review course. After the review course, the subjects took the test once more. A linear regression $T$ -test is performed on $$H_0: B = 0  \\\\\nH_a: B>0$$ Define B as the true slope of the linear regression line when plotting pre-test vs. post-test scores. If $p<0.01$ , one could conclude",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "Students who do well on the pre-test also tend to do well on the post-test."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

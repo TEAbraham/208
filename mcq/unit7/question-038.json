@@ -1,32 +1,33 @@
 {
   "question_id": "question-038",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Meaning of a Confidence Interval: Growth Spurt",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Boys tend to hit their growth spurt around 13 years old. A random sample of <span class=\"tex2jax_process\">$100$</span> boys was taken to find out how many inches they grew from thirteen to fourteen years old. A <span class=\"tex2jax_process\">$98\\%$</span> confidence interval was constructed from this data and yielded a result of <span class=\"tex2jax_process\">$(2.8, 4.3)\\text{ inches}$</span>.  </div><div class=\"paragraph\">Which of the following statements is true? </div>",
+  "question_text": "Boys tend to hit their growth spurt around 13 years old. A random sample of $100$ boys was taken to find out how many inches they grew from thirteen to fourteen years old. A $98\\%$ confidence interval was constructed from this data and yielded a result of $(2.8, 4.3)\\text{ inches}$ . Which of the following statements is true?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "98\n%\nof the boys studied in this survey grew between\n2.8\nto\n4.3\n inches\n."
+      "text": "98 % 98 % of the boys studied in this survey grew between 2.8 2.8 to 4.3 inches 4.3 inches ."
     },
     {
       "letter": "B",
-      "text": "We are\n98\n%\nconfident that boys grew between\n2.8\nto\n4.3\n inches\nfrom the age of thirteen to fourteen."
+      "text": "We are 98 % 98 % confident that boys grew between 2.8 2.8 to 4.3 inches 4.3 inches from the age of thirteen to fourteen."
     },
     {
       "letter": "C",
-      "text": "We are\n98\n%\nconfident that the average height that boys grew in this study was between\n2.8\nto\n4.3\n inches\n."
+      "text": "We are 98 % 98 % confident that the average height that boys grew in this study was between 2.8 2.8 to 4.3 inches 4.3 inches ."
     },
     {
       "letter": "D",
-      "text": "The average height a boy grew from the age of thirteen to fourteen was between\n2.8\nto\n4.3\n inches\n98\n%\nof the time."
+      "text": "The average height a boy grew from the age of thirteen to fourteen was between 2.8 2.8 to 4.3 inches 4.3 inches 98 % 98 % of the time."
     },
     {
       "letter": "E",
-      "text": "We are\n98\n%\nconfident the average height that boys grew from the ages of thirteen to fourteen was between\n2.8\nto\n4.3\n inches\n."
+      "text": "We are 98 % 98 % confident the average height that boys grew from the ages of thirteen to fourteen was between 2.8 2.8 to 4.3 inches 4.3 inches ."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

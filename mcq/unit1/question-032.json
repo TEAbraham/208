@@ -1,8 +1,9 @@
 {
   "question_id": "question-032",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "School Choices",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Fifty students were asked to check off their primary reason for choosing a particular state university. The table below summarizes the students’ responses:\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Reason for Attending</th><th scope=\"col\">Frequency</th></tr></thead><tbody><tr><td>Low Tuition</td><td>22</td></tr><tr><td>Convenient Location</td><td>12</td></tr><tr><td>Academic Program</td><td>8</td></tr><tr><td>Sports Program</td><td>3</td></tr><tr><td>Campus Facilities</td><td>3</td></tr><tr><td>Food in Cafeteria</td><td>2</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Which of the statements below is true?</div>",
+  "question_text": "Fifty students were asked to check off their primary reason for choosing a particular state university. The table below summarizes the students’ responses: Reason for Attending Frequency Low Tuition 22 Convenient Location 12 Academic Program 8 Sports Program 3 Campus Facilities 3 Food in Cafeteria 2 Which of the statements below is true?",
   "image_files": [],
   "choices": [
     {
@@ -19,14 +20,14 @@
     },
     {
       "letter": "D",
-      "text": "22\n%\nof students surveyed picked this university for its academic or sports programs."
+      "text": "22 % 22 % of students surveyed picked this university for its academic or sports programs."
     },
     {
       "letter": "E",
       "text": "A percentage polygon can be constructed for this data by letting the midpoints of each group represent the data in that group and then connecting the midpoint dots."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

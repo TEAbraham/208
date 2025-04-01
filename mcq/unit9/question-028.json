@@ -1,32 +1,33 @@
 {
   "question_id": "question-028",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Interpretation of Slope $t$-Interval: Height, Weight",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A statistician wanted to construct a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for the population slope between height (in inches) and weight (in pounds) of his co-workers. He made height the explanatory (independent) variable and weight the response (dependent) variable.  </div><div class=\"paragraph\">He selected a random sample of <span class=\"tex2jax_process\">$30$</span> people from work and asked them to list their height and weight. After seeing his conditions were satisfied, he constructed the interval and got a result of <span class=\"tex2jax_process\">$(1.97, 2.89)$</span>.  </div><div class=\"paragraph\">Which of the following is the correct interpretation of the interval in the context of this study?</div>",
+  "question_text": "A statistician wanted to construct a $95\\%$ confidence interval for the population slope between height (in inches) and weight (in pounds) of his co-workers. He made height the explanatory (independent) variable and weight the response (dependent) variable. He selected a random sample of $30$ people from work and asked them to list their height and weight. After seeing his conditions were satisfied, he constructed the interval and got a result of $(1.97, 2.89)$ . Which of the following is the correct interpretation of the interval in the context of this study?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "95\n%\nof the time the population slope relating height to weight for the statistician's co-workers will be in the interval from\n1.97\nto\n2.89\n."
+      "text": "95 % 95 % of the time the population slope relating height to weight for the statistician's co-workers will be in the interval from 1.97 1.97 to 2.89 2.89 ."
     },
     {
       "letter": "B",
-      "text": "The statistician is\n95\n%\nconfident that for each additional increase in pounds, the average height will increase between\n1.97\nto\n2.89\ninches."
+      "text": "The statistician is 95 % 95 % confident that for each additional increase in pounds, the average height will increase between 1.97 1.97 to 2.89 2.89 inches."
     },
     {
       "letter": "C",
-      "text": "The statistician is\n95\n%\nconfident that for each additional increase in pounds, the height will increase between\n1.97\nto\n2.89\ninches"
+      "text": "The statistician is 95 % 95 % confident that for each additional increase in pounds, the height will increase between 1.97 1.97 to 2.89 2.89 inches"
     },
     {
       "letter": "D",
-      "text": "The statistician is\n95\n%\nconfident that the interval from\n1.97\nto\n2.89\ncaptures the sample slope for relating height to weight of his co-workers."
+      "text": "The statistician is 95 % 95 % confident that the interval from 1.97 1.97 to 2.89 2.89 captures the sample slope for relating height to weight of his co-workers."
     },
     {
       "letter": "E",
-      "text": "The statistician is\n95\n%\nconfident that the interval from\n1.97\nto\n2.89\ncaptures the population slope for relating height to weight for his co-workers."
+      "text": "The statistician is 95 % 95 % confident that the interval from 1.97 1.97 to 2.89 2.89 captures the population slope for relating height to weight for his co-workers."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

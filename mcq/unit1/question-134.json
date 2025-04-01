@@ -1,32 +1,33 @@
 {
   "question_id": "question-134",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Penguin: Determining Outliers",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A random sample of the weights of <span class=\"tex2jax_process\">$40\\text{ Emperor penguins}$</span> (in pounds) is taken.  The table below displays the summary statistics.<br><br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">Median</th><th scope=\"col\">Standard Deviation</th><th scope=\"col\">Minimum</th><th scope=\"col\">Q1</th><th scope=\"col\">Q3</th><th scope=\"col\">Maximum</th></tr></thead><tbody><tr><td>Weight</td><td>40</td><td>56.1</td><td>42.3</td><td>7.2</td><td>21.3</td><td>32.5</td><td>54.2</td><td>88.7</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Using the IQR method, which conclusion can be drawn about the number of outliers in this data set?</div>",
+  "question_text": "A random sample of the weights of $40\\text{ Emperor penguins}$ (in pounds) is taken.  The table below displays the summary statistics. Variable N Mean Median Standard Deviation Minimum Q1 Q3 Maximum Weight 40 56.1 42.3 7.2 21.3 32.5 54.2 88.7 Using the IQR method, which conclusion can be drawn about the number of outliers in this data set?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "There are\n0\noutliers."
+      "text": "There are 0 0 outliers."
     },
     {
       "letter": "B",
-      "text": "There is at least\n1\noutlier."
+      "text": "There is at least 1 1 outlier."
     },
     {
       "letter": "C",
-      "text": "There are no more than\n1\noutlier."
+      "text": "There are no more than 1 1 outlier."
     },
     {
       "letter": "D",
-      "text": "There are at least\n2\noutliers."
+      "text": "There are at least 2 2 outliers."
     },
     {
       "letter": "E",
-      "text": "There are no more than\n2\noutliers."
+      "text": "There are no more than 2 2 outliers."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

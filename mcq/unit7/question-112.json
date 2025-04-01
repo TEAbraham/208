@@ -1,8 +1,9 @@
 {
   "question_id": "question-112",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Computer Output T-Test | 1 of 2",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A study on women’s weights was recently completed.  </div><div class=\"paragraph\">Fifteen randomly selected high school females from an urban setting were compared to <span class=\"tex2jax_process\">$16$</span> randomly selected high school females from a rural setting. Assume that the distribution of both populations are approximately normal. The results are below:</div><div class=\"paragraph\"><strong>Two-Sample T for Urban Weights vs. Rural Weights</strong>\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">StDev</th><th scope=\"col\">SE Mean</th></tr></thead><tbody><tr><td>Urban Weights</td><td>15</td><td>126.1</td><td>10.5</td><td>2.7</td></tr><tr><td>Rural Weights</td><td>16</td><td>128.8</td><td>13.2</td><td>3.3</td></tr></tbody></table></div><br><div class=\"paragraph\"><br><span class=\"tex2jax_process\">$\\text{ Difference }= \\mu \\text{ (Urban Weights)} - \\mu \\text{ (Rural Weights)}$</span>  </div><div class=\"paragraph\">Estimate for difference: <span class=\"tex2jax_process\">$-2.68$</span>    </div><div class=\"paragraph\"><span class=\"tex2jax_process\">$95\\%$</span> confidence interval for difference: (<span class=\"tex2jax_process\">$-11.45, 6.09$</span>)    </div><div class=\"paragraph\"><span class=\"tex2jax_process\">$\\text{T-test of difference }= 0$</span><br><span class=\"tex2jax_process\">$\\text{T-value }= -0.63$</span><br><span class=\"tex2jax_process\">$\\text{ P-value }= 0.537$</span><br><span class=\"tex2jax_process\">$\\text{ DF }= 28$</span>  </div><div class=\"paragraph\">What can one conclude from the results of the two-sample <span class=\"tex2jax_process\">$T$</span>-test?</div>",
+  "question_text": "A study on women’s weights was recently completed. Fifteen randomly selected high school females from an urban setting were compared to $16$ randomly selected high school females from a rural setting. Assume that the distribution of both populations are approximately normal. The results are below: Two-Sample T for Urban Weights vs. Rural Weights N Mean StDev SE Mean Urban Weights 15 126.1 10.5 2.7 Rural Weights 16 128.8 13.2 3.3 $\\text{ Difference }= \\mu \\text{ (Urban Weights)} - \\mu \\text{ (Rural Weights)}$ Estimate for difference: $-2.68$ $95\\%$ confidence interval for difference: ( $-11.45, 6.09$ ) $\\text{T-test of difference }= 0$ $\\text{T-value }= -0.63$ $\\text{ P-value }= 0.537$ $\\text{ DF }= 28$ What can one conclude from the results of the two-sample $T$ -test?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "The conditions for this test were not met, so any conclusions are invalid."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

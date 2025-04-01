@@ -1,8 +1,9 @@
 {
   "question_id": "question-097",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Orange Weights",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A grocery bag contains <span class=\"tex2jax_process\">$9$</span> oranges. The lightest orange weighs <span class=\"tex2jax_process\">$0.42\\text{ lbs}$</span> and the heaviest orange weighs <span class=\"tex2jax_process\">$0.49\\text{ lbs}$</span>.</div><div class=\"paragraph\">Suppose a <span class=\"tex2jax_process\">$10$</span>th orange is added that weighs <span class=\"tex2jax_process\">$0.59\\text{ lbs}$</span>.</div><div class=\"paragraph\">Which of the following measures must change?</div>",
+  "question_text": "A grocery bag contains $9$ oranges. The lightest orange weighs $0.42\\text{ lbs}$ and the heaviest orange weighs $0.49\\text{ lbs}$ . Suppose a $10$ th orange is added that weighs $0.59\\text{ lbs}$ . Which of the following measures must change?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "First quartile"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

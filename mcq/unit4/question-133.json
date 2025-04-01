@@ -1,32 +1,33 @@
 {
   "question_id": "question-133",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Combined Mean Weight: Bananas",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A  banana has an average weight of <span class=\"tex2jax_process\">$4\\text{ ounces}$</span> and a standard deviation of <span class=\"tex2jax_process\">$0.60\\text{ ounces}$</span>.  </div><div class=\"paragraph\"> What is the expected total weight of <span class=\"tex2jax_process\">$6$</span> bananas?</div>",
+  "question_text": "A  banana has an average weight of $4\\text{ ounces}$ and a standard deviation of $0.60\\text{ ounces}$ . What is the expected total weight of $6$ bananas?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "4\n ounces"
+      "text": "4 ounces 4 ounces"
     },
     {
       "letter": "B",
-      "text": "12\n ounces"
+      "text": "12 ounces 12 ounces"
     },
     {
       "letter": "C",
-      "text": "24\n ounces"
+      "text": "24 ounces 24 ounces"
     },
     {
       "letter": "D",
-      "text": "36\n ounces"
+      "text": "36 ounces 36 ounces"
     },
     {
       "letter": "E",
-      "text": "576\n ounces"
+      "text": "576 ounces 576 ounces"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

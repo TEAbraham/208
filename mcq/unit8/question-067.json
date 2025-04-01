@@ -1,32 +1,33 @@
 {
   "question_id": "question-067",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
   "title": "Inferential Procedures",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A marathon director is curious how the marathon times of men compare to those of women. She randomly selects <span class=\"tex2jax_process\">$100\\text{ men}$</span> and <span class=\"tex2jax_process\">$100\\text{ women}$</span> and wishes to estimate the marathon time differences between men and women.  </div><div class=\"paragraph\">What inferential procedure should she choose?</div>",
+  "question_text": "A marathon director is curious how the marathon times of men compare to those of women. She randomly selects $100\\text{ men}$ and $100\\text{ women}$ and wishes to estimate the marathon time differences between men and women. What inferential procedure should she choose?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Matched pairs\nT\n-test."
+      "text": "Matched pairs T T -test."
     },
     {
       "letter": "B",
-      "text": "Two-sample\nT\n-test."
+      "text": "Two-sample T T -test."
     },
     {
       "letter": "C",
-      "text": "Two-sample\nT\n-interval."
+      "text": "Two-sample T T -interval."
     },
     {
       "letter": "D",
-      "text": "Two-sample\nZ\n-test."
+      "text": "Two-sample Z Z -test."
     },
     {
       "letter": "E",
       "text": "Chi-squared test for association."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

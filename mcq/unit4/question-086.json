@@ -1,32 +1,33 @@
 {
   "question_id": "question-086",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Activities vs. GPAs: True or False? | 2 of 2",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A random survey was conducted at a large suburban high school to determine if a relationship exists between being involved in extracurricular activities and higher grades. Extracurricular activities involve music, athletics, both activities, or neither. Grades are based on grade point average (GPA).  </div><div class=\"paragraph\">The data is presented in the two-way table below:\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">--</th><th scope=\"col\">Music</th><th scope=\"col\">Athletics</th><th scope=\"col\">Both</th><th scope=\"col\">Neither</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>GPA <span class=\"tex2jax_process\">$&lt;2.0$</span></td><td><span class=\"tex2jax_process\">$8$</span></td><td><span class=\"tex2jax_process\">$11$</span></td><td><span class=\"tex2jax_process\">$4$</span></td><td><span class=\"tex2jax_process\">$14$</span></td><td><span class=\"tex2jax_process\">$37$</span></td></tr><tr><td><span class=\"tex2jax_process\">$2.0\\le$</span> GPA <span class=\"tex2jax_process\">$\\le 3.0$</span></td><td><span class=\"tex2jax_process\">$19$</span></td><td><span class=\"tex2jax_process\">$19$</span></td><td><span class=\"tex2jax_process\">$25$</span></td><td><span class=\"tex2jax_process\">$16$</span></td><td><span class=\"tex2jax_process\">$79$</span></td></tr><tr><td>GPA <span class=\"tex2jax_process\">$\\ge 3.0$</span></td><td><span class=\"tex2jax_process\">$20$</span></td><td><span class=\"tex2jax_process\">$7$</span></td><td><span class=\"tex2jax_process\">$15$</span></td><td><span class=\"tex2jax_process\">$17$</span></td><td><span class=\"tex2jax_process\">$59$</span></td></tr><tr><td>Total</td><td><span class=\"tex2jax_process\">$47$</span></td><td><span class=\"tex2jax_process\">$37$</span></td><td><span class=\"tex2jax_process\">$44$</span></td><td><span class=\"tex2jax_process\">$47$</span></td><td><span class=\"tex2jax_process\">$175$</span></td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Which would be the best probability calculation to show that being involved in extra-curricular activities is related to higher Grade Point Average?</div>",
+  "question_text": "A random survey was conducted at a large suburban high school to determine if a relationship exists between being involved in extracurricular activities and higher grades. Extracurricular activities involve music, athletics, both activities, or neither. Grades are based on grade point average (GPA). The data is presented in the two-way table below: -- Music Athletics Both Neither Total GPA $<2.0$ $8$ $11$ $4$ $14$ $37$ $2.0\\le$ GPA $\\le 3.0$ $19$ $19$ $25$ $16$ $79$ GPA $\\ge 3.0$ $20$ $7$ $15$ $17$ $59$ Total $47$ $37$ $44$ $47$ $175$ Which would be the best probability calculation to show that being involved in extra-curricular activities is related to higher Grade Point Average?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "According to this survey, the majority of music students\n(\n20\n47\n)\nhave a GPA over\n3.0\n."
+      "text": "According to this survey, the majority of music students ( 20 47 ) ( 20 47 ) have a GPA over 3.0 3.0 ."
     },
     {
       "letter": "B",
-      "text": "According to this survey, the majority of students in athletics\n(\n26\n37\n)\nhave a GPA over\n2.0\n."
+      "text": "According to this survey, the majority of students in athletics ( 26 37 ) ( 26 37 ) have a GPA over 2.0 2.0 ."
     },
     {
       "letter": "C",
-      "text": "The probability of having a GPA over\n2.0\nis about\n70\n%\namong those involved in neither music nor athletics, but among those involved in both music and athletics, the probability is near\n91\n%\n."
+      "text": "The probability of having a GPA over 2.0 2.0 is about 70 % 70 % among those involved in neither music nor athletics, but among those involved in both music and athletics, the probability is near 91 % 91 % ."
     },
     {
       "letter": "D",
-      "text": "Only\n17\nstudents in the Neither category have a GPA over\n3.0\n."
+      "text": "Only 17 17 students in the Neither category have a GPA over 3.0 3.0 ."
     },
     {
       "letter": "E",
-      "text": "Very few students\n(\n4\n44\n)\ninvolved in both music and athletics have a GPA below\n2.0\n."
+      "text": "Very few students ( 4 44 ) ( 4 44 ) involved in both music and athletics have a  GPA below 2.0 2.0 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

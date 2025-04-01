@@ -1,32 +1,33 @@
 {
   "question_id": "question-104",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Convertibles: Conclusions from a Confidence Interval",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">In order to plan a new advertising campaign, a marketing firm wants to know whether men in a certain area of the country are more likely to purchase a convertible than women in that same area.  To gather data, they took a random sample of men and a random sample of women who had recently purchased a new vehicle and then determined both the proportion of men and the proportion of women who had purchased a convertible.  A <span class=\"tex2jax_process\">$90\\%$</span> confidence interval for the difference in the proportion of men vs. women who purchased a convertible was found to be <span class=\"tex2jax_process\">$(-0.021, 0.115)$</span>.  </div><div class=\"paragraph\">Based on this confidence interval should the marketing firm conclude that the proportion of men who purchase a convertible is higher than the proportion of women who purchase a convertible?</div>",
+  "question_text": "In order to plan a new advertising campaign, a marketing firm wants to know whether men in a certain area of the country are more likely to purchase a convertible than women in that same area.  To gather data, they took a random sample of men and a random sample of women who had recently purchased a new vehicle and then determined both the proportion of men and the proportion of women who had purchased a convertible.  A $90\\%$ confidence interval for the difference in the proportion of men vs. women who purchased a convertible was found to be $(-0.021, 0.115)$ . Based on this confidence interval should the marketing firm conclude that the proportion of men who purchase a convertible is higher than the proportion of women who purchase a convertible?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Yes. Most of the confidence interval consists of positive values which show that the proportion of men who purchase a convertible is greater than the proportion of women who purchase a convertible."
+      "text": "Yes.  Most of the confidence interval consists of positive values which show that the proportion of men who purchase a convertible is greater than the proportion of women who purchase a convertible."
     },
     {
       "letter": "B",
-      "text": "Yes. The proportion of women who purchase a convertible was estimated to be\n0.021\nwhile the proportion of men who purchase a convertible was estimated to be\n0.115\n."
+      "text": "Yes.  The proportion of women who purchase a convertible was estimated to be 0.021 0.021 while the proportion of men who purchase a convertible was estimated to be 0.115 0.115 ."
     },
     {
       "letter": "C",
-      "text": "Yes. The difference in proportions of men and women who purchased a convertible was\n0.047\nand this value is well above\n0\n."
+      "text": "Yes.  The difference in proportions of men and women who purchased a convertible was 0.047 0.047 and this value is well above 0 0 ."
     },
     {
       "letter": "D",
-      "text": "No. Since\n0\nis included in the confidence interval, there may be no difference in the proportion of men and the proportion of women who purchase a convertible."
+      "text": "No.  Since 0 0 is included in the confidence interval, there may be no difference in the proportion of men and the proportion of women who purchase a convertible."
     },
     {
       "letter": "E",
-      "text": "No. The proportion of men who purchase a convertible was estimated to be\n0.021\nwhile the proportion of women who purchase a convertible was estimated to be\n0.115\n. It actually appears that the proportion of women who purchase a convertible is higher than the proportion of men who purchase a convertible."
+      "text": "No.  The proportion of men who purchase a convertible was estimated to be 0.021 0.021 while the proportion of women who purchase a convertible was estimated to be 0.115 0.115 .  It actually appears that the proportion of women who purchase a convertible is higher than the proportion of men who purchase a convertible."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

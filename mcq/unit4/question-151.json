@@ -1,32 +1,33 @@
 {
   "question_id": "question-151",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Combining Standard Deviations: Bananas",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A  banana has an average weight  of <span class=\"tex2jax_process\">$4$</span> ounces and a standard deviation of <span class=\"tex2jax_process\">$0.60$</span> ounces.  </div><div class=\"paragraph\">What is the standard deviation of the total weight for <span class=\"tex2jax_process\">$3$</span> bananas?</div>",
+  "question_text": "A  banana has an average weight  of $4$ ounces and a standard deviation of $0.60$ ounces. What is the standard deviation of the total weight for $3$ bananas?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.35\n ounces"
+      "text": "0.35 ounces 0.35 ounces"
     },
     {
       "letter": "B",
-      "text": "0.60\n ounces"
+      "text": "0.60 ounces 0.60 ounces"
     },
     {
       "letter": "C",
-      "text": "1.04\n ounces"
+      "text": "1.04 ounces 1.04 ounces"
     },
     {
       "letter": "D",
-      "text": "1.08\n ounces"
+      "text": "1.08 ounces 1.08 ounces"
     },
     {
       "letter": "E",
-      "text": "1.80\n ounces"
+      "text": "1.80 ounces 1.80 ounces"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

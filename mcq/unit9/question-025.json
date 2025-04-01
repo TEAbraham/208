@@ -1,8 +1,9 @@
 {
   "question_id": "question-025",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Increase the Width of Confidence Interval",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Here is the formula used for constructing a confidence interval for the slope of a regression model:\n<div class=\"tex2jax_process\">$$b\\pm t^{*} (SE_{b})$$</div><br>Suppose you are told that you need to increase the width of a confidence interval.  All of the following answers will accomplish this <em>except</em>:</div>",
+  "question_text": "Here is the formula used for constructing a confidence interval for the slope of a regression model: $$b\\pm t^{*} (SE_{b})$$ Suppose you are told that you need to increase the width of a confidence interval.  All of the following answers will accomplish this except :",
   "image_files": [],
   "choices": [
     {
@@ -11,7 +12,7 @@
     },
     {
       "letter": "B",
-      "text": "Increase the value of\nt\n∗\n."
+      "text": "Increase the value of t ∗ t ∗ ."
     },
     {
       "letter": "C",
@@ -26,7 +27,7 @@
       "text": "Increase the value of the margin of error."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

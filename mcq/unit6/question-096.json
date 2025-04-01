@@ -1,32 +1,33 @@
 {
   "question_id": "question-096",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Which Wattage to Buy",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A researcher was hired to examine a company's production of defective light bulbs.  The bulbs were made in two wattages, <span class=\"tex2jax_process\">$60$</span> and <span class=\"tex2jax_process\">$100$</span>.  Fifty <span class=\"tex2jax_process\">$60$</span>-watt bulbs were randomly selected and <span class=\"tex2jax_process\">$72$</span> <span class=\"tex2jax_process\">$100$</span>-watt bulbs were randomly selected.  Eight defective bulbs were found in the <span class=\"tex2jax_process\">$60$</span>-watt type and <span class=\"tex2jax_process\">$9$</span> defective bulbs were found in the <span class=\"tex2jax_process\">$100$</span>-watt type.  The researcher decided to create a confidence interval for the difference of the proportion of defective bulbs.  Which of the following is the lower bound of the <span class=\"tex2jax_process\">$98\\%$</span> confidence interval?</div>",
+  "question_text": "A researcher was hired to examine a company's production of defective light bulbs.  The bulbs were made in two wattages, $60$ and $100$ .  Fifty $60$ -watt bulbs were randomly selected and $72$ $100$ -watt bulbs were randomly selected.  Eight defective bulbs were found in the $60$ -watt type and $9$ defective bulbs were found in the $100$ -watt type.  The researcher decided to create a confidence interval for the difference of the proportion of defective bulbs.  Which of the following is the lower bound of the $98\\%$ confidence interval?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.025"
+      "text": "0.025 0.025"
     },
     {
       "letter": "B",
-      "text": "−\n0.116"
+      "text": "− 0.116 − 0.116"
     },
     {
       "letter": "C",
-      "text": "−\n0.092"
+      "text": "− 0.092 − 0.092"
     },
     {
       "letter": "D",
-      "text": "−\n0.023"
+      "text": "− 0.023 − 0.023"
     },
     {
       "letter": "E",
-      "text": "0.186"
+      "text": "0.186 0.186"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

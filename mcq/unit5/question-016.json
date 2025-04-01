@@ -1,32 +1,33 @@
 {
   "question_id": "question-016",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Mean and Standard Deviation",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">On a recent statistics exam at a large university, a random sample of <span class=\"tex2jax_process\">$50$</span> students was taken from one section. Among them, <span class=\"tex2jax_process\">$35$</span> passed the exam.</div><div class=\"paragraph\">What is the mean and standard deviation of the sampling distribution of the sample proportion of students who passed the exam?</div>",
+  "question_text": "On a recent statistics exam at a large university, a random sample of $50$ students was taken from one section. Among them, $35$ passed the exam. What is the mean and standard deviation of the sampling distribution of the sample proportion of students who passed the exam?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Mean =\n35\n%\n; standard deviation =\n6.48\n%"
+      "text": "Mean = 35 % 35 % ; standard deviation = 6.48 % 6.48 %"
     },
     {
       "letter": "B",
-      "text": "Mean =\n70\n%\n; standard deviation =\n3.5\n%"
+      "text": "Mean = 70 % 70 % ; standard deviation = 3.5 % 3.5 %"
     },
     {
       "letter": "C",
-      "text": "Mean =\n70\n%\n; standard deviation =\n6.48\n%"
+      "text": "Mean = 70 % 70 % ; standard deviation = 6.48 % 6.48 %"
     },
     {
       "letter": "D",
-      "text": "Mean =\n30\n%\n; standard deviation =\n6.48\n%"
+      "text": "Mean = 30 % 30 % ; standard deviation = 6.48 % 6.48 %"
     },
     {
       "letter": "E",
-      "text": "Mean =\n70\n%\n; standard deviation =\n4.2\n%"
+      "text": "Mean = 70 % 70 % ; standard deviation = 4.2 % 4.2 %"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

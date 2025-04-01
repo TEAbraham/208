@@ -1,32 +1,33 @@
 {
   "question_id": "question-008",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Test Scores: Determining Mean and Standard Deviation",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">In a certain year, a test's scores had a mean <span class=\"tex2jax_process\">$µ$</span> of <span class=\"tex2jax_process\">$18$</span> and a standard deviation of <span class=\"tex2jax_process\">$6$</span>.  </div><div class=\"paragraph\">If a simple random sample of <span class=\"tex2jax_process\">$36$</span> students were chosen, what would be the mean and standard deviation of the sampling distribution from which the sample was taken?</div>",
+  "question_text": "In a certain year, a test's scores had a mean $µ$ of $18$ and a standard deviation of $6$ . If a simple random sample of $36$ students were chosen, what would be the mean and standard deviation of the sampling distribution from which the sample was taken?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Mean =\n18\n\nStandard deviation =\n1\n6"
+      "text": "Mean = 18 18 Standard deviation = 1 6 1 6"
     },
     {
       "letter": "B",
-      "text": "Mean =\n18\n\nStandard deviation =\n0.5"
+      "text": "Mean = 18 18 Standard deviation = 0.5 0.5"
     },
     {
       "letter": "C",
-      "text": "Mean =\n18\n\nStandard deviation =\n1"
+      "text": "Mean = 18 18 Standard deviation = 1 1"
     },
     {
       "letter": "D",
-      "text": "Mean =\n18\n\nStandard deviation =\n3"
+      "text": "Mean = 18 18 Standard deviation = 3 3"
     },
     {
       "letter": "E",
-      "text": "Mean =\n18\n\nStandard deviation =\n6"
+      "text": "Mean = 18 18 Standard deviation = 6 6"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

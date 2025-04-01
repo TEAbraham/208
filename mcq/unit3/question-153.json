@@ -1,13 +1,14 @@
 {
   "question_id": "question-153",
+  "unit": "Unit 3 | Collecting Data",
   "title": "High School Testing",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A professor wanted to know whether a prep course would increase students’ test scores.  </div><div class=\"paragraph\">Twelve subjects were randomly chosen to take the prep course, and they scored an average of <span class=\"tex2jax_process\">$20.3$</span> with a standard deviation of <span class=\"tex2jax_process\">$8.3\\text{ points}$</span>. Another <span class=\"tex2jax_process\">$12\\text{ subjects}$</span> were randomly chosen who were not allowed to take the test prep course, and they scored an average of <span class=\"tex2jax_process\">$18.3$</span> with a standard deviation of <span class=\"tex2jax_process\">$9.1\\text{ points}$</span>.  </div><div class=\"paragraph\">Despite these scores, why might the professor not be convinced that the course helps?</div>",
+  "question_text": "A professor wanted to know whether a prep course would increase students’ test scores. Twelve subjects were randomly chosen to take the prep course, and they scored an average of $20.3$ with a standard deviation of $8.3\\text{ points}$ . Another $12\\text{ subjects}$ were randomly chosen who were not allowed to take the test prep course, and they scored an average of $18.3$ with a standard deviation of $9.1\\text{ points}$ . Despite these scores, why might the professor not be convinced that the course helps?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "A difference of\n2\n points\non the test is not practically significant."
+      "text": "A difference of 2 points 2 points on the test is not practically significant."
     },
     {
       "letter": "B",
@@ -26,7 +27,7 @@
       "text": "Bias was obvious in the measurement of the students’ test scores."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,8 +1,9 @@
 {
   "question_id": "question-031",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Football Players' Salaries",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A histogram of the salaries of all professional football players is skewed right.  Repeated samples of <span class=\"tex2jax_process\">$50\\text{ salaries}$</span> are drawn and the means are calculated.  </div><div class=\"paragraph\">The _______________ assures us that a dotplot of these means will be nearly normal in shape.</div>",
+  "question_text": "A histogram of the salaries of all professional football players is skewed right.  Repeated samples of $50\\text{ salaries}$ are drawn and the means are calculated. The _______________ assures us that a dotplot of these means will be nearly normal in shape.",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "Law of independence."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

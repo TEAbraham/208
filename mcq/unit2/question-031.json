@@ -1,34 +1,35 @@
 {
   "question_id": "question-031",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Marginal Distributions from a Graph",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A school club was asked to produce information about the gender and class level of those belonging to the club.  The club President decided to provide the information in the form of the graph shown below.  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"paragraph\">Find the marginal distribution of class level using percents.</div>",
+  "question_text": "A school club was asked to produce information about the gender and class level of those belonging to the club.  The club President decided to provide the information in the form of the graph shown below. Created for Albert.io. Copyright 2016. All rights reserved. Find the marginal distribution of class level using percents.",
   "image_files": [
     "images/question-031-img1.PNG"
   ],
   "choices": [
     {
       "letter": "A",
-      "text": "Female:\n52.63\n%\n\nMale:\n47.37\n%"
+      "text": "Female: 52.63 % 52.63 % Male: 47.37 % 47.37 %"
     },
     {
       "letter": "B",
-      "text": "Freshman:\n13.16\n%\n\nSophomore:\n15\n,\n79\n%\n\nJunior:\n13.16\n%\n\nSenior:\n10.53\n%"
+      "text": "Freshman: 13.16 % 13.16 % Sophomore: 15 , 79 % 15 , 79 % Junior: 13.16 % 13.16 % Senior: 10.53 % 10.53 %"
     },
     {
       "letter": "C",
-      "text": "Freshman:\n5.26\n%\n\nSophomore:\n13.16\n%\n\nJunior:\n18.42\n%\n\nSenior:\n10.53\n%"
+      "text": "Freshman: 5.26 % 5.26 % Sophomore: 13.16 % 13.16 % Junior: 18.42 % 18.42 % Senior: 10.53 % 10.53 %"
     },
     {
       "letter": "D",
-      "text": "Freshman:\n18.42\n%\n\nSophomore:\n28.95\n%\n\nJunior:\n31.58\n%\n\nSenior:\n21.05\n%"
+      "text": "Freshman: 18.42 % 18.42 % Sophomore: 28.95 % 28.95 % Junior: 31.58 % 31.58 % Senior: 21.05 % 21.05 %"
     },
     {
       "letter": "E",
-      "text": "Freshman:\n14\n\nSophomore:\n22\n\nJunior:\n24\n\nSenior:\n16"
+      "text": "Freshman: 14 14 Sophomore: 22 22 Junior: 24 24 Senior: 16 16"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-036",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Interpreting a Confidence Interval",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A <span class=\"tex2jax_process\">$90\\%$</span> confidence interval for an unknown population mean, <span class=\"tex2jax_process\">$\\mu$</span>, has been calculated as <span class=\"tex2jax_process\">$87±12$</span>.  </div><div class=\"paragraph\">What is the correct interpretation of this confidence interval?</div>",
+  "question_text": "A $90\\%$ confidence interval for an unknown population mean, $\\mu$ , has been calculated as $87±12$ . What is the correct interpretation of this confidence interval?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "We are\n90\n%\nconfident that the unknown population mean is between\n75\nand\n99\n."
+      "text": "We are 90 % 90 % confident that the  unknown population mean is between 75 75 and 99 99 ."
     },
     {
       "letter": "B",
-      "text": "There is a\n0.9\nprobability that the unknown population mean is between\n75\nand\n99\n."
+      "text": "There is a 0.9 0.9 probability that the unknown population mean is between 75 75 and 99 99 ."
     },
     {
       "letter": "C",
-      "text": "90\n%\nof all confidence intervals will be between\n75\nand\n99\n."
+      "text": "90 % 90 % of all confidence intervals will be between 75 75 and 99 99 ."
     },
     {
       "letter": "D",
-      "text": "If we took many samples from this population,\n90\n%\nof the computed confidence intervals would contain the unknown population mean."
+      "text": "If we took many samples from this population, 90 % 90 % of the computed confidence intervals would contain the unknown population mean."
     },
     {
       "letter": "E",
-      "text": "90\n%\nof data from the population is between\n75\nand\n99\n."
+      "text": "90 % 90 % of data from the population is between 75 75 and 99 99 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

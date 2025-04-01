@@ -1,32 +1,33 @@
 {
   "question_id": "question-078",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Predicting Earnings With a Linear Transformation",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Greg has been offered a job as a sales representatives for <strong>Medi-Machines</strong>.  In this job, he would be selling medical devices to doctors' offices and hospitals.  Before accepting the job however, he wants to estimate how much he will be able to earn on average each week.  </div><div class=\"paragraph\">Greg has been offered a base salary of <span class=\"tex2jax_process\">$\\$200$</span> per week plus a commission of <span class=\"tex2jax_process\">$\\$175$</span> for each device sold.  Therefore, his weekly earnings <span class=\"tex2jax_process\">$E$</span> could be described by the linear equation given below.    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$E=200+175D$$</div></div><div class=\"paragraph\"><strong>Medi-Machine's</strong> sales records indicate that the mean number of devices sold weekly by all of the company's representatives is <span class=\"tex2jax_process\">${\\mu}_{D}=8.76$</span> and Greg feels confident that he would be able to average at least this much.  Based upon this information, what is the mean amount that Greg could expect to earn weekly if he decides to take the job?</div>",
+  "question_text": "Greg has been offered a job as a sales representatives for Medi-Machines .  In this job, he would be selling medical devices to doctors' offices and hospitals.  Before accepting the job however, he wants to estimate how much he will be able to earn on average each week. Greg has been offered a base salary of $ 200 $ 200 per week plus a commission of $ 175 $ 175 for each device sold.  Therefore, his weekly earnings E E could be described by the linear equation given below. E = 200 + 175 D E = 200 + 175 D Medi-Machine's sales records indicate that the mean number of devices sold weekly by all of the company's representatives is μ D = 8.76 μ D = 8.76 and Greg feels confident that he would be able to average at least this much.  Based upon this information, what is the mean amount that Greg could expect to earn weekly if he decides to take the job?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "$\n8.76"
+      "text": "$ 8.76 $ 8.76"
     },
     {
       "letter": "B",
-      "text": "$\n200"
+      "text": "$ 200 $ 200"
     },
     {
       "letter": "C",
-      "text": "$\n1600"
+      "text": "$ 1600 $ 1600"
     },
     {
       "letter": "D",
-      "text": "$\n1733"
+      "text": "$ 1733 $ 1733"
     },
     {
       "letter": "E",
-      "text": "$\n1774"
+      "text": "$ 1774 $ 1774"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

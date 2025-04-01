@@ -1,32 +1,33 @@
 {
   "question_id": "question-102",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Men's Weights",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">The statistics below provide a summary of the distribution of weight, in pounds, from a sample of one hundred adult men:</div><blockquote><div class=\"paragraph\">Minimum: <span class=\"tex2jax_process\">$138\\text{ pounds}$</span><br>First Quartile: <span class=\"tex2jax_process\">$153\\text{ pounds}$</span><br>Median: <span class=\"tex2jax_process\">$171\\text{ pounds}$</span><br>Third Quartile: <span class=\"tex2jax_process\">$192\\text{ pounds}$</span><br>Maximum: <span class=\"tex2jax_process\">$213\\text{ pounds}$</span>  </div></blockquote><div class=\"paragraph\">Which of the following statements is always FALSE?</div>",
+  "question_text": "The statistics below provide a summary of the distribution of weight, in pounds, from a sample of one hundred adult men: Minimum: $138\\text{ pounds}$ First Quartile: $153\\text{ pounds}$ Median: $171\\text{ pounds}$ Third Quartile: $192\\text{ pounds}$ Maximum: $213\\text{ pounds}$ Which of the following statements is always FALSE?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "75\nof the men in this sample weigh at least\n192\n pounds\n."
+      "text": "75 75 of the men in this sample weigh at least 192 pounds 192 pounds ."
     },
     {
       "letter": "B",
-      "text": "25\nof the men in this sample weigh, at most,\n153\n pounds\n."
+      "text": "25 25 of the men in this sample weigh, at most, 153 pounds 153 pounds ."
     },
     {
       "letter": "C",
-      "text": "50\nof the men in this sample can weigh, at most,\n171\n pounds\n."
+      "text": "50 50 of the men in this sample can weigh, at most, 171 pounds 171 pounds ."
     },
     {
       "letter": "D",
-      "text": "50\nof the men in this sample can weigh at least\n171\n pounds\n."
+      "text": "50 50 of the men in this sample can weigh at least 171 pounds 171 pounds ."
     },
     {
       "letter": "E",
-      "text": "25\nof the men in this sample weigh at least\n192\n pounds\n."
+      "text": "25 25 of the men in this sample weigh at least 192 pounds 192 pounds ."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-242",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Magic Attendance and Probability",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">During the 2014-2015 season, the average home attendance for the Orlando Magic basketball team was <span class=\"tex2jax_process\">$16,785$</span> people. Suppose the distribution of attendance is normally distributed and that the standard deviation for the 2015 season was <span class=\"tex2jax_process\">$432$</span> people.  </div><div class=\"paragraph\">If one home game was randomly selected from the 2014-2015 season, what is the probability that the attendance at that game was within <span class=\"tex2jax_process\">$200$</span> people of the overall average?</div>",
+  "question_text": "During the 2014-2015 season, the average home attendance for the Orlando Magic basketball team was 16 , 785 people. Suppose the distribution of attendance is normally distributed and that the standard deviation for the 2015 season was 432 people. If one home game was randomly selected from the 2014-2015 season, what is the probability that the attendance at that game was within 200 people of the overall average?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.32"
+      "text": "0.32 0.32"
     },
     {
       "letter": "B",
-      "text": "0.36"
+      "text": "0.36 0.36"
     },
     {
       "letter": "C",
-      "text": "0.5"
+      "text": "0.5 0.5"
     },
     {
       "letter": "D",
-      "text": "0.64"
+      "text": "0.64 0.64"
     },
     {
       "letter": "E",
-      "text": "0.68"
+      "text": "0.68 0.68"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

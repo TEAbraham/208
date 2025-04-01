@@ -1,32 +1,33 @@
 {
   "question_id": "question-141",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Drawing Conclusions: Employee Experience",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Two large supermarket chains are interested in comparing the experience, in years, that their employees have. The summary statistics are below:</div><blockquote><div class=\"paragraph\">Store <span class=\"tex2jax_process\">$1$</span> : mean = <span class=\"tex2jax_process\">$5.4, { S }_{ x }= 3.2, n = 34 $</span>  </div><div class=\"paragraph\">Store <span class=\"tex2jax_process\">$2$</span> : mean = <span class=\"tex2jax_process\">$6.1, { S }_{ x }= 3.6, n = 36$</span>  </div></blockquote><div class=\"paragraph\">When performing a two-sample <span class=\"tex2jax_process\">$T$</span>-test on <span class=\"tex2jax_process\">$H_0: { u }_{ 1 }={ u }_{ 2 }$</span> versus <span class=\"tex2jax_process\">$H_a:  { u }_{ 1 } &lt; { u }_{ 2 } $</span>, what conclusion can be made?  </div><div class=\"paragraph\">Define <span class=\"tex2jax_process\">${ u }_{ 1 }$</span> as the average experience at store <span class=\"tex2jax_process\">$1$</span>, and <span class=\"tex2jax_process\">${ u }_{ 2 }$</span> as the average experience at store <span class=\"tex2jax_process\">$2$</span>.</div>",
+  "question_text": "Two large supermarket chains are interested in comparing the experience, in years, that their employees have. The summary statistics are below: Store $1$ : mean = $5.4, { S }_{ x }= 3.2, n = 34 $ Store $2$ : mean = $6.1, { S }_{ x }= 3.6, n = 36$ When performing a two-sample $T$ -test on $H_0: { u }_{ 1 }={ u }_{ 2 }$ versus $H_a:  { u }_{ 1 } < { u }_{ 2 } $ , what conclusion can be made? Define ${ u }_{ 1 }$ as the average experience at store $1$ , and ${ u }_{ 2 }$ as the average experience at store $2$ .",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Evidence exists that the stores’ employees have the same amount of experience, at the\n10\n%\nlevel."
+      "text": "Evidence exists that the stores’ employees have the same amount of experience, at the 10 % 10 % level."
     },
     {
       "letter": "B",
-      "text": "Evidence exists that the second has employees with more experience than those at the first store, significant at the\n10\n%\nlevel, but not at the\n5\n%\nor\n1\n%\nlevels."
+      "text": "Evidence exists that the second has employees with more experience than those at the first store, significant at the 10 % 10 % level, but not at the 5 % 5 % or 1 % 1 % levels."
     },
     {
       "letter": "C",
-      "text": "Evidence exists the second store has employees with more experience than those at the first store\n1\n, significant at the\n5\n%\nlevel."
+      "text": "Evidence exists the second store has employees with more experience than those at the first store 1 1 , significant at the 5 % 5 % level."
     },
     {
       "letter": "D",
-      "text": "There is insufficient evidence that employees at the second store have more experience than those at the first store, at the\n10\n%\nlevel."
+      "text": "There is insufficient evidence that employees at the second store have more experience than those at the first store, at the 10 % 10 % level."
     },
     {
       "letter": "E",
-      "text": "There is no evidence of there not being a difference in employee experience between the two stores, at the\n10\n%\nlevel."
+      "text": "There is no evidence of there not being a difference in employee experience between the two stores, at the 10 % 10 % level."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

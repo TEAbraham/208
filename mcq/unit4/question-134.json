@@ -1,32 +1,33 @@
 {
   "question_id": "question-134",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Linear Transformation",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">The random variable <span class=\"tex2jax_process\">$X$</span> is normally distributed with mean <span class=\"tex2jax_process\">$28$</span> and standard deviation <span class=\"tex2jax_process\">$9$</span>.  The random variable <span class=\"tex2jax_process\">$Y$</span> is defined by <span class=\"tex2jax_process\">$Y=4X-7$</span>.  </div><div class=\"paragraph\">What are the mean and standard deviation of <span class=\"tex2jax_process\">$Y$</span>?</div>",
+  "question_text": "The random variable $X$ is normally distributed with mean $28$ and standard deviation $9$ .  The random variable $Y$ is defined by $Y=4X-7$ . What are the mean and standard deviation of $Y$ ?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The mean is\n105\nand the standard deviation is\n9\n."
+      "text": "The mean is 105 105 and the standard deviation is 9 9 ."
     },
     {
       "letter": "B",
-      "text": "The mean is\n105\nand the standard deviation is\n29\n."
+      "text": "The mean is 105 105 and the standard deviation is 29 29 ."
     },
     {
       "letter": "C",
-      "text": "The mean is\n105\nand the standard deviation is\n36\n."
+      "text": "The mean is 105 105 and the standard deviation is 36 36 ."
     },
     {
       "letter": "D",
-      "text": "The mean is\n112\nand the standard deviation is\n29\n."
+      "text": "The mean is 112 112 and the standard deviation is 29 29 ."
     },
     {
       "letter": "E",
-      "text": "The mean is\n112\nand the standard deviation is\n36\n."
+      "text": "The mean is 112 112 and the standard deviation is 36 36 ."
     }
   ],
-  "correct_answer": "<strong>Choice ‘C’</strong> is our answer.  ",
+  "correct_answer": "Choice ‘C’ is our answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

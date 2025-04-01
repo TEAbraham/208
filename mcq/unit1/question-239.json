@@ -1,32 +1,33 @@
 {
   "question_id": "question-239",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Long Jump",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Data from the last <span class=\"tex2jax_process\">$10\\text{ years}$</span> shows that the average high school male has a personal best long jump of <span class=\"tex2jax_process\">$18.9\\text{ feet}$</span> with a standard deviation of <span class=\"tex2jax_process\">$1.9\\text{ feet}$</span>. The average high school female has a personal best long jump of <span class=\"tex2jax_process\">$16.5\\text{ feet}$</span> with a standard deviation of <span class=\"tex2jax_process\">$2.2\\text{ feet}$</span>. Both distributions are approximately normally distributed.  </div><div class=\"paragraph\">To earn All-Conference recognition, a jumper typically has to be <span class=\"tex2jax_process\">$2$</span> standard deviations above the mean for their respective gender.  </div><div class=\"paragraph\"> In a survey of <span class=\"tex2jax_process\">$1{,}000$</span> female long jumpers, about how many girls would you expect to jump so well that they earn All-Conference recognition from not only the girls standard but also the boys standard?</div>",
+  "question_text": "Data from the last 10 years shows that the average high school male has a personal best long jump of 18.9 feet with a standard deviation of 1.9 feet . The average high school female has a personal best long jump of 16.5 feet with a standard deviation of 2.2 feet . Both distributions are approximately normally distributed. To earn All-Conference recognition, a jumper typically has to be 2 standard deviations above the mean for their respective gender. In a survey of 1,000 female long jumpers, about how many girls would you expect to jump so well that they earn All-Conference recognition from not only the girls standard but also the boys standard?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Near\n0\n."
+      "text": "Near 0 0 ."
     },
     {
       "letter": "B",
-      "text": "About\n1\n."
+      "text": "About 1 1 ."
     },
     {
       "letter": "C",
-      "text": "About\n2\n."
+      "text": "About 2 2 ."
     },
     {
       "letter": "D",
-      "text": "About\n10\n."
+      "text": "About 10 10 ."
     },
     {
       "letter": "E",
-      "text": "About\n24\n."
+      "text": "About 24 24 ."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

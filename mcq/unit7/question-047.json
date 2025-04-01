@@ -1,8 +1,9 @@
 {
   "question_id": "question-047",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "New Diet Plan",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A dietician tests a new diet plan on <span class=\"tex2jax_process\">$20\\text{ groups of people}$</span>, with <span class=\"tex2jax_process\">$14\\text{ people in each group}$</span>. All participants were randomly selected from a large group of volunteers, and all participants followed the diet plan.  </div><div class=\"paragraph\">Two months later, the dietician obtains the sample mean weight loss and standard deviation for each group and performs <span class=\"tex2jax_process\">$20$</span> one-sample <span class=\"tex2jax_process\">$t$</span>-tests. She notes that one of these tests is statistically significant, with a <span class=\"tex2jax_process\">$p$</span>-value of <span class=\"tex2jax_process\">$0.034$</span>.  </div><div class=\"paragraph\">She then touts her diet plan on a television infomercial, claiming that her plan results in significant weight loss at an <span class=\"tex2jax_process\">$\\alpha = 0.05$</span> significance level.  </div><div class=\"paragraph\">What can be said about her claim?</div>",
+  "question_text": "A dietician tests a new diet plan on $20\\text{ groups of people}$ , with $14\\text{ people in each group}$ . All participants were randomly selected from a large group of volunteers, and all participants followed the diet plan. Two months later, the dietician obtains the sample mean weight loss and standard deviation for each group and performs $20$ one-sample $t$ -tests. She notes that one of these tests is statistically significant, with a $p$ -value of $0.034$ . She then touts her diet plan on a television infomercial, claiming that her plan results in significant weight loss at an $\\alpha = 0.05$ significance level. What can be said about her claim?",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "The claim is invalid since many separate significance tests were performed"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

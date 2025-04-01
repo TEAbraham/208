@@ -1,32 +1,33 @@
 {
   "question_id": "question-034",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "What Is the Largest Confidence Level? $1$-sided Test",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A one proportion <span class=\"tex2jax_process\">$z$</span>-test was used to conduct a test of the null hypotheses:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$H_0: p =  0.08$$</div><br><div class=\"tex2jax_process\">$$H_a: p &lt;  0.08$$</div>  </div><div class=\"paragraph\">The <span class=\"tex2jax_process\">$p$</span>-value was <span class=\"tex2jax_process\">$0.047$</span>. A  confidence interval for <span class=\"tex2jax_process\">$p$</span> is to be constructed.  </div><div class=\"paragraph\">Of the following, which is the largest level of confidence for which the confidence interval will <em>NOT</em> contain <span class=\"tex2jax_process\">$0.08$</span>?</div>",
+  "question_text": "A one proportion $z$ -test was used to conduct a test of the null hypotheses: $$H_0: p =  0.08$$ $$H_a: p <  0.08$$ The $p$ -value was $0.047$ . A  confidence interval for $p$ is to be constructed. Of the following, which is the largest level of confidence for which the confidence interval will NOT contain $0.08$ ?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "90\n%"
+      "text": "90 % 90 %"
     },
     {
       "letter": "B",
-      "text": "91\n%"
+      "text": "91 % 91 %"
     },
     {
       "letter": "C",
-      "text": "92\n%"
+      "text": "92 % 92 %"
     },
     {
       "letter": "D",
-      "text": "94\n%"
+      "text": "94 % 94 %"
     },
     {
       "letter": "E",
-      "text": "95\n%"
+      "text": "95 % 95 %"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

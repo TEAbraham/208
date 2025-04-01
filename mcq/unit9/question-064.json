@@ -1,32 +1,33 @@
 {
   "question_id": "question-064",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "T-Statistic and P-Value: Use the Clues",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Here are the clues:</div><blockquote><div class=\"paragraph\">Type of Test:  <span class=\"tex2jax_process\">$t$</span>-test for slope of LSRL<br>Type of Alternative Hypothesis:  Two-Sided<br>Equation of LSRL:  <span class=\"tex2jax_process\">$\\hat { y } =25.87-3.18x$</span><br>Standard Error of Slope:   <span class=\"tex2jax_process\">$1.72$</span><br>Number of Observations:  <span class=\"tex2jax_process\">$12$</span>  </div></blockquote><div class=\"paragraph\">Find the <span class=\"tex2jax_process\">$t$</span>-statistic and <span class=\"tex2jax_process\">$p$</span>-value for this test.</div>",
+  "question_text": "Here are the clues: Type of Test: $t$ -test for slope of LSRL Type of Alternative Hypothesis:  Two-Sided Equation of LSRL: $\\hat { y } =25.87-3.18x$ Standard Error of Slope: $1.72$ Number of Observations: $12$ Find the $t$ -statistic and $p$ -value for this test.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "t\n=\n−\n15.041\n\np\n<\n0.001"
+      "text": "t = − 15.041 t = − 15.041 p < 0.001 p < 0.001"
     },
     {
       "letter": "B",
-      "text": "t\n=\n−\n1.849\n\np\n=\n0.047"
+      "text": "t = − 1.849 t = − 1.849 p = 0.047 p = 0.047"
     },
     {
       "letter": "C",
-      "text": "t\n=\n−\n1.849\n\np\n=\n0.094"
+      "text": "t = − 1.849 p = 0.094"
     },
     {
       "letter": "D",
-      "text": "t\n=\n1.849\n\np\n=\n0.047"
+      "text": "t = 1.849 p = 0.047"
     },
     {
       "letter": "E",
-      "text": "t\n=\n15.041\n\np\n=\n0.094"
+      "text": "t = 15.041 p = 0.094"
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

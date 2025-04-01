@@ -1,32 +1,33 @@
 {
   "question_id": "question-022",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Spinners",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Suppose you have two spinners that each have the numbers <span class=\"tex2jax_process\">$1$</span>, <span class=\"tex2jax_process\">$2$</span>, and <span class=\"tex2jax_process\">$3$</span>.  If you spin both spinners, what is the probability that your sum is <strong>not</strong> <span class=\"tex2jax_process\">$5$</span>?</div>",
+  "question_text": "Suppose you have two spinners that each have the numbers $1$ , $2$ , and $3$ .  If you spin both spinners, what is the probability that your sum is not $5$ ?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "7\n9"
+      "text": "7 9 7 9"
     },
     {
       "letter": "B",
-      "text": "2\n9"
+      "text": "2 9 2 9"
     },
     {
       "letter": "C",
-      "text": "1\n6"
+      "text": "1 6 1 6"
     },
     {
       "letter": "D",
-      "text": "2\n6"
+      "text": "2 6 2 6"
     },
     {
       "letter": "E",
-      "text": "5\n6"
+      "text": "5 6 5 6"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

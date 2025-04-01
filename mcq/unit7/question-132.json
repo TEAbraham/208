@@ -1,32 +1,33 @@
 {
   "question_id": "question-132",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Correct Hypotheses: Heights of Twins",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A random sample on heights of <span class=\"tex2jax_process\">$50$</span> pairs of <span class=\"tex2jax_process\">$18$</span> year old identical twins was used to determine whether the second born twin tends to be taller than the  first born.  </div><div class=\"paragraph\">Let <span class=\"tex2jax_process\">${ \\mu  }_{ 2 } $</span> represent the average height of the second born, let <span class=\"tex2jax_process\">${ \\mu  }_{ 1 }  $</span> represent the average height of the first born twin, and let <span class=\"tex2jax_process\">${ \\mu  }_{ d }$</span> represents the average difference in the height (height of second born minus height of first born) for all pairs of twins.  </div><div class=\"paragraph\">Which of the following would be the null and alternative hypothesis for this study?</div>",
+  "question_text": "A random sample on heights of $50$ pairs of $18$ year old identical twins was used to determine whether the second born twin tends to be taller than the  first born. Let ${ \\mu  }_{ 2 } $ represent the average height of the second born, let ${ \\mu  }_{ 1 }  $ represent the average height of the first born twin, and let ${ \\mu  }_{ d }$ represents the average difference in the height (height of second born minus height of first born) for all pairs of twins. Which of the following would be the null and alternative hypothesis for this study?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "H\n0\n:\nμ\nd\n=\n0\nH\na\n:\nμ\nd\n>\n0"
+      "text": "H 0 : μ d = 0 H a : μ d > 0 H 0 : μ d = 0 H a : μ d > 0"
     },
     {
       "letter": "B",
-      "text": "H\n0\n:\nμ\nd\n=\n0\nH\na\n:\nμ\nd\n<\n0"
+      "text": "H 0 : μ d = 0 H a : μ d < 0 H 0 : μ d = 0 H a : μ d < 0"
     },
     {
       "letter": "C",
-      "text": "H\n0\n:\nμ\n2\n=\nμ\n1\nH\na\n:\nμ\n2\n>\nμ\n1"
+      "text": "H 0 : μ 2 = μ 1 H a : μ 2 > μ 1 H 0 : μ 2 = μ 1 H a : μ 2 > μ 1"
     },
     {
       "letter": "D",
-      "text": "H\n0\n:\nμ\n2\n=\nμ\n1\nH\na\n:\nμ\n2\n<\nμ\n1"
+      "text": "H 0 : μ 2 = μ 1 H a : μ 2 < μ 1 H 0 : μ 2 = μ 1 H a : μ 2 < μ 1"
     },
     {
       "letter": "E",
-      "text": "H\n0\n:\nμ\n2\n−\nμ\n1\n=\nμ\nD\nH\na\n:\nμ\n2\n−\nμ\n1\n>\nμ\nD"
+      "text": "H 0 : μ 2 − μ 1 = μ D H a : μ 2 − μ 1 > μ D H 0 : μ 2 − μ 1 = μ D H a : μ 2 − μ 1 > μ D"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,21 +1,22 @@
 {
   "question_id": "question-019",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Roster Variables Fantasy Basketball",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Jordan's starting team roster for his next fantasy basketball game is shown below.  His roster includes information about different variables for each of the players on his fantasy team.</div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Player</th><th scope=\"col\">Position</th><th scope=\"col\">Height</th><th scope=\"col\">Weight</th></tr></thead><tbody><tr><td>Kev</td><td>SF</td><td><span class=\"tex2jax_process\">$6'9''$</span></td><td><span class=\"tex2jax_process\">$240$</span></td></tr><tr><td>Bry</td><td>SG</td><td><span class=\"tex2jax_process\">$6'6''$</span></td><td><span class=\"tex2jax_process\">$212$</span></td></tr><tr><td>Tom</td><td>PG</td><td><span class=\"tex2jax_process\">$6'1''$</span></td><td><span class=\"tex2jax_process\">$180$</span></td></tr><tr><td>Charlie</td><td>PF</td><td><span class=\"tex2jax_process\">$6'6''$</span></td><td><span class=\"tex2jax_process\">$250$</span></td></tr><tr><td>Willy</td><td>C</td><td><span class=\"tex2jax_process\">$7'1''$</span></td><td><span class=\"tex2jax_process\">$275$</span></td></tr></tbody></table></div><div class=\"paragraph\">What specific variables are identified in Jordan's team roster?</div>",
+  "question_text": "Jordan's starting team roster for his next fantasy basketball game is shown below.  His roster includes information about different variables for each of the players on his fantasy team. Player Position Height Weight Kev SF $6'9''$ $240$ Bry SG $6'6''$ $212$ Tom PG $6'1''$ $180$ Charlie PF $6'6''$ $250$ Willy C $7'1''$ $275$ What specific variables are identified in Jordan's team roster?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The\n5\nplayers: Kev, Bry, Tom, Charlie and Willy"
+      "text": "The 5 5 players:  Kev, Bry, Tom, Charlie and Willy"
     },
     {
       "letter": "B",
-      "text": "The\n5\ndifferent positions: SF, SG, PG, PF, and C"
+      "text": "The 5 5 different positions:  SF, SG, PG, PF, and C"
     },
     {
       "letter": "C",
-      "text": "The\n4\ndifferent heights and the\n5\ndifferent weights: 6\n′\n9\n′′\n,\n6\n′\n6\n′′\n,\n6\n′\n1\n′′\n,\n7\n′\n1\n′′\n,\n240\n,\n212\n,\n180\n,\n250\nand\n275"
+      "text": "The 4 4 different heights and the 5 5 different weights: 6 ′ 9 ′′ 6 ′ 9 ″ , 6 ′ 6 ′′ 6 ′ 6 ″ , 6 ′ 1 ′′ 6 ′ 1 ″ , 7 ′ 1 ′′ 7 ′ 1 ″ , 240 240 , 212 212 , 180 180 , 250 250 and 275 275"
     },
     {
       "letter": "D",
@@ -26,7 +27,7 @@
       "text": "Player Name, Position, Height and Weight"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

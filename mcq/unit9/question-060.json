@@ -1,32 +1,33 @@
 {
   "question_id": "question-060",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
   "title": "Self-Esteem | 2 of 2",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">A high school principal is curious if a linear relationship exists between student height and score on a self-esteem test.  </div><div class=\"paragraph\">A random sample of <span class=\"tex2jax_process\">$20$</span> pairs of students was taken. A linear regression <span class=\"tex2jax_process\">$T$</span>-test was performed on <span class=\"tex2jax_process\">$H_0: B = 0$</span> vs. <span class=\"tex2jax_process\">$H_a: B &gt; 0$</span>, and the test statistic of <span class=\"tex2jax_process\">$t = 3.19$</span> was calculated.  </div><div class=\"paragraph\">If the slope is <span class=\"tex2jax_process\">$1.22$</span> and margin of error was <span class=\"tex2jax_process\">$3.41$</span> for a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval, what was the standard error of the slope?</div>",
+  "question_text": "A high school principal is curious if a linear relationship exists between student height and score on a self-esteem test. A random sample of $20$ pairs of students was taken. A linear regression $T$ -test was performed on $H_0: B = 0$ vs. $H_a: B > 0$ , and the test statistic of $t = 3.19$ was calculated. If the slope is $1.22$ and margin of error was $3.41$ for a $95\\%$ confidence interval, what was the standard error of the slope?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.3942"
+      "text": "0.3942 0.3942"
     },
     {
       "letter": "B",
-      "text": "0.7517"
+      "text": "0.7517 0.7517"
     },
     {
       "letter": "C",
-      "text": "1.3521"
+      "text": "1.3521 1.3521"
     },
     {
       "letter": "D",
-      "text": "1.623"
+      "text": "1.623 1.623"
     },
     {
       "letter": "E",
-      "text": "1.7754"
+      "text": "1.7754 1.7754"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

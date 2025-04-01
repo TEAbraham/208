@@ -1,8 +1,9 @@
 {
   "question_id": "question-178",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Binomial Probabilities: Cheating on a Quiz",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A quiz has <span class=\"tex2jax_process\">$8$</span> multiple choice questions with five answers for each (A, B, C, D, and E).  </div><div class=\"paragraph\">The teacher decided to give two versions of the quiz with the same questions and same responses but switched the order of the answers to create two different keys with no answers in common.  </div><div class=\"paragraph\">One of the students ended up getting <span class=\"tex2jax_process\">$7$</span> of the <span class=\"tex2jax_process\">$8$</span> questions wrong, but the <span class=\"tex2jax_process\">$7$</span> she got incorrect matched the other answer key perfectly.  </div><div class=\"paragraph\">The teacher decided to use binomial probabilities to find the probability of randomly guessing this close or closer to the other answer key.  </div><div class=\"paragraph\">What did the teacher find out?</div>",
+  "question_text": "A quiz has $8$ multiple choice questions with five answers for each (A, B, C, D, and E). The teacher decided to give two versions of the quiz with the same questions and same responses but switched the order of the answers to create two different keys with no answers in common. One of the students ended up getting $7$ of the $8$ questions wrong, but the $7$ she got incorrect matched the other answer key perfectly. The teacher decided to use binomial probabilities to find the probability of randomly guessing this close or closer to the other answer key. What did the teacher find out?",
   "image_files": [],
   "choices": [
     {
@@ -11,22 +12,22 @@
     },
     {
       "letter": "B",
-      "text": "There is insufficient evidence to suggest that the student cheated because there is a\n24.3\n%\nchance the student could have gotten this close or closer to the other answer key simply by guessing."
+      "text": "There is insufficient evidence to suggest that the student cheated because there is a 24.3 % 24.3 % chance the student could have gotten this close or closer to the other answer key simply by guessing."
     },
     {
       "letter": "C",
-      "text": "There is insufficient evidence to suggest that the student cheated because there is a\n31.3\n%\nchance the student could have gotten this close or closer to the other answer key simply by guessing."
+      "text": "There is insufficient evidence to suggest that the student cheated because there is a 31.3 % 31.3 % chance the student could have gotten this close or closer to the other answer key simply by guessing."
     },
     {
       "letter": "D",
-      "text": "There is sufficient evidence to suggest that the student cheated because there is only a\n0.008448\n%\nchance the student could have gotten this close or closer to the other answer key simply by guessing."
+      "text": "There is sufficient evidence to suggest that the student cheated because there is only a 0.008448 % 0.008448 % chance the student could have gotten this close or closer to the other answer key simply by guessing."
     },
     {
       "letter": "E",
-      "text": "There is sufficient evidence to suggest that the student cheated since there is only a\n0.0023\n%\nchance the student could have gotten this close or closer to the other answer key simply by guessing."
+      "text": "There is sufficient evidence to suggest that the student cheated since there is only a 0.0023 % 0.0023 % chance the student could have gotten this close or closer to the other answer key simply by guessing."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

@@ -1,32 +1,33 @@
 {
   "question_id": "question-051",
+  "unit": "Unit 3 | Collecting Data",
   "title": "Reducing Road Rage through Sampling",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">An engineer has been given the task of adjusting the stop lights at a particular intersection to reduce driver frustration.  To begin his study, the engineer needs to randomly select <span class=\"tex2jax_process\">$20\\text{ days}$</span> from the next calendar year to take traffic measurements.  </div><div class=\"paragraph\">Which of the following correctly describes a method for randomly selecting the <span class=\"tex2jax_process\">$20\\text{ days}$</span>?</div>",
+  "question_text": "An engineer has been given the task of adjusting the stop lights at a particular intersection to reduce driver frustration.  To begin his study, the engineer needs to randomly select $20\\text{ days}$ from the next calendar year to take traffic measurements. Which of the following correctly describes a method for randomly selecting the $20\\text{ days}$ ?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Write all of the days of the year on individual cards of paper of the same size and put them sequentially in a card box. The days corresponding to the first\n20\n cards\ndrawn will be in the sample."
+      "text": "Write all of the days of the year on individual cards of paper of the same size and put them sequentially in a card box.  The days corresponding to the first 20 cards 20 cards drawn will be in the sample."
     },
     {
       "letter": "B",
-      "text": "On each day of the next year, the engineer will flip a coin. If it lands \"heads\" the engineer will take measurements on the intersection that day. If it lands on \"tails\" he will not take measurements that day. The process will be finished after\n20\n days\nhave been selected."
+      "text": "On each day of the next year, the engineer will flip a coin.  If it lands \"heads\" the engineer will take measurements on the intersection that day.  If it lands on \"tails\" he will not take measurements that day.  The process will be finished after 20 days 20 days have been selected."
     },
     {
       "letter": "C",
-      "text": "The engineer will assign each day of the year a unique three digit number from\n001\nto\n365\n. He will take\n20\n sets\nof three digits from a random digit table, ignoring repeats and numbers over\n365\n. The days corresponding to the selected numbers will be in the sample."
+      "text": "The engineer will assign each day of the year a unique three digit number from 001 001 to 365 365 .  He will take 20 sets 20 sets of three digits from a random digit table, ignoring repeats and numbers over 365 365 .  The days corresponding to the selected numbers will be in the sample."
     },
     {
       "letter": "D",
-      "text": "For the first day of the year, the engineer will draw a single digit from a random number table. If it is even the engineer will take measurements on the intersection that day. If it is odd he will not take measurements that day. The process will be repeated for the subsequent days, until\n20\n days\nhave been selected."
+      "text": "For the first day of the year, the engineer will draw a single digit from a random number table.  If it is even the engineer will take measurements on the intersection that day.  If it is odd he will not take measurements that day.  The process will be repeated for the subsequent days, until 20 days 20 days have been selected."
     },
     {
       "letter": "E",
-      "text": "The engineer will look at the calendar and choose the\n20\n days\nfrom the following year that he feels will best represent traffic conditions at that intersection."
+      "text": "The engineer will look at the calendar and choose the 20 days 20 days from the following year that he feels will best represent traffic conditions at that intersection."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

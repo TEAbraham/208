@@ -1,15 +1,16 @@
 {
   "question_id": "question-169",
+  "unit": "Unit 1 | Exploring One-Variable Data",
   "title": "Exam Scores | 1 of 2",
   "difficulty": "Easy",
-  "question_text": "<div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"paragraph\">These side-by-side stemplots represent the scores on the final exam for a  statistics teacher’s <span class=\"tex2jax_process\">$1^\\text{st}$</span> period class <span class=\"tex2jax_process\">$(n = 29)$</span> on the left and <span class=\"tex2jax_process\">$5^\\text{th}$</span> period class <span class=\"tex2jax_process\">$(n = 22)$</span> on the right. The scores are raw scores, out of a possible <span class=\"tex2jax_process\">$100\\text{ points}$</span>.  </div><div class=\"paragraph\">Which of the following statements is false?​</div>",
+  "question_text": "Created for Albert.io. Copyright 2016. All rights reserved. These side-by-side stemplots represent the scores on the final exam for a  statistics teacher’s $1^\\text{st}$ period class $(n = 29)$ on the left and $5^\\text{th}$ period class $(n = 22)$ on the right. The scores are raw scores, out of a possible $100\\text{ points}$ . Which of the following statements is false?​",
   "image_files": [
     "images/question-169-img1.png"
   ],
   "choices": [
     {
       "letter": "A",
-      "text": "The mean for\n5\nth\nperiod is greater than the mean for\n1\nst\nperiod."
+      "text": "The mean for 5 th 5 th period is greater than the mean for 1 st 1 st period."
     },
     {
       "letter": "B",
@@ -17,18 +18,18 @@
     },
     {
       "letter": "C",
-      "text": "5\nth\nperiod's data have less variability than\n1\nst\nperiod."
+      "text": "5 th 5 th period's data have less variability than 1 st 1 st period."
     },
     {
       "letter": "D",
-      "text": "1\nst\nperiod is skewed right."
+      "text": "1 st 1 st period is skewed right."
     },
     {
       "letter": "E",
-      "text": "1\nst\nperiod did worse than\n5\nth\nperiod."
+      "text": "1 st 1 st period did worse than 5 th 5 th period."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

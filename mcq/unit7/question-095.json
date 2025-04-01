@@ -1,8 +1,9 @@
 {
   "question_id": "question-095",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Coffee Shop Sales: Did Advertising Help?",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A local coffee shop decided to start advertising on the radio.  </div><div class=\"paragraph\">The <span class=\"tex2jax_process\">$12\\text{ weeks}$</span> following a lengthy advertising campaign showed sales averaging <span class=\"tex2jax_process\">$\\$5{,}785.34$</span> per week with a standard deviation of <span class=\"tex2jax_process\">$\\$385.23$</span>. This compares to an average of <span class=\"tex2jax_process\">$\\$5{,}355$</span> per week in sales before the advertising campaign.  </div><div class=\"paragraph\">Assuming conditions are met, does this data give convincing evidence that the advertising campaign helped?</div>",
+  "question_text": "A local coffee shop decided to start advertising on the radio. The $12\\text{ weeks}$ following a lengthy advertising campaign showed sales averaging $\\$5{,}785.34$ per week with a standard deviation of $\\$385.23$ . This compares to an average of $\\$5{,}355$ per week in sales before the advertising campaign. Assuming conditions are met, does this data give convincing evidence that the advertising campaign helped?",
   "image_files": [],
   "choices": [
     {
@@ -11,22 +12,22 @@
     },
     {
       "letter": "B",
-      "text": "Yes, but at the alpha\n10\n%\nlevel only."
+      "text": "Yes, but at the alpha 10 % 10 % level only."
     },
     {
       "letter": "C",
-      "text": "Yes, but at the alpha\n5\n%\nand\n10\n%\nlevels only."
+      "text": "Yes, but at the alpha 5 % 5 % and 10 % 10 % levels only."
     },
     {
       "letter": "D",
-      "text": "Yes, at the alpha\n1\n%\n,\n5\n%\n, and\n10\n%\nlevels."
+      "text": "Yes, at the alpha 1 % 1 % , 5 % 5 % , and 10 % 10 % levels."
     },
     {
       "letter": "E",
-      "text": "Yes, at the alpha =\n1\n%\nlevel, but not\n5\n%\nlevel."
+      "text": "Yes, at the alpha = 1 % 1 % level, but not 5 % 5 % level."
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

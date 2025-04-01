@@ -1,32 +1,33 @@
 {
   "question_id": "question-007",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "Mean and Standard Deviation of Sampling Distribution",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Suppose a certain brand of candy bar has a mean weight of <span class=\"tex2jax_process\">$1.02\\text{ oz}$</span> with a standard deviation of <span class=\"tex2jax_process\">$0.03\\text{ oz}$</span>.  </div><div class=\"paragraph\">If <span class=\"tex2jax_process\">$5$</span> candy bars are randomly selected, determine the mean and standard deviation of this sampling distribution.</div>",
+  "question_text": "Suppose a certain brand of candy bar has a mean weight of $1.02\\text{ oz}$ with a standard deviation of $0.03\\text{ oz}$ . If $5$ candy bars are randomly selected, determine the mean and standard deviation of this sampling distribution.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Mean =\n5.1\n; standard deviation =\n0.15"
+      "text": "Mean = 5.1 5.1 ; standard deviation = 0.15 0.15"
     },
     {
       "letter": "B",
-      "text": "Mean =\n1.02\n; standard deviation =\n0.03"
+      "text": "Mean = 1.02 1.02 ; standard deviation = 0.03 0.03"
     },
     {
       "letter": "C",
-      "text": "Mean =\n1.02\n; standard deviation =\n0.15"
+      "text": "Mean = 1.02 1.02 ; standard deviation = 0.15 0.15"
     },
     {
       "letter": "D",
-      "text": "Mean =\n1.02\n; standard deviation =\n0.0134"
+      "text": "Mean = 1.02 1.02 ; standard deviation = 0.0134 0.0134"
     },
     {
       "letter": "E",
-      "text": "Mean =\n5.10\n; standard deviation =\n0.0134"
+      "text": "Mean = 5.10 5.10 ; standard deviation = 0.0134 0.0134"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

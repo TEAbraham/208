@@ -1,32 +1,33 @@
 {
   "question_id": "question-120",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
   "title": "Correlation Transformed",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Suppose a doctor is examining her patients’ weight (in pounds) and height (in inches) and found a strong positive correlation of <span class=\"tex2jax_process\">$r =0.964$</span>.  </div><div class=\"paragraph\">If <span class=\"tex2jax_process\">$1\\text{ pound}$</span> is approximately <span class=\"tex2jax_process\">$0.45\\text{ kilograms}$</span>, the correlation between weights in kilograms and height in inches is</div>",
+  "question_text": "Suppose a doctor is examining her patients’ weight (in pounds) and height (in inches) and found a strong positive correlation of r = 0.964 . If 1 pound is approximately 0.45 kilograms , the correlation between weights in kilograms and height in inches is",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.964"
+      "text": "0.964 0.964"
     },
     {
       "letter": "B",
-      "text": "0.45"
+      "text": "0.45 0.45"
     },
     {
       "letter": "C",
-      "text": "0.4338"
+      "text": "0.4338 0.4338"
     },
     {
       "letter": "D",
-      "text": "0.765"
+      "text": "0.765 0.765"
     },
     {
       "letter": "E",
       "text": "Unable to determine from the information provided."
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

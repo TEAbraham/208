@@ -1,8 +1,9 @@
 {
   "question_id": "question-052",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Hypothesis Test Logic",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Which of the following statements gives a good synopsis of the logic behind hypothesis tests?</div>",
+  "question_text": "Which of the following statements gives a good synopsis of the logic behind hypothesis tests?",
   "image_files": [],
   "choices": [
     {
@@ -19,14 +20,14 @@
     },
     {
       "letter": "D",
-      "text": "The fact that a result such as ours is unlikely, given change occurred, serves as good evidence the change did not occur."
+      "text": "The fact that a result such as ours is unlikely, given change occurred, serves as good evidence  the change did not occur."
     },
     {
       "letter": "E",
       "text": "The fact that a result such as ours is unlikely, given no change occurred, proves that the change did occur."
     }
   ],
-  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

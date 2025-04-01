@@ -1,32 +1,33 @@
 {
   "question_id": "question-199",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Marty's Prom: Binomial or Geometric Distribution?",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Marty has an <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-49923\"><span class=\"MJXp-mn\" id=\"MJXp-Span-49924\">87</span></span></span><span id=\"MathJax-Element-13020-Frame\" class=\"mjx-chtml MathJax_CHTML MJXc-processed\" tabindex=\"0\" style=\"font-size: 114%;\"><span id=\"MJXc-Node-65220\" class=\"mjx-math\"><span id=\"MJXc-Node-65221\" class=\"mjx-mrow\"><span id=\"MJXc-Node-65222\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">87</span></span></span></span></span><script type=\"math/tex\" id=\"MathJax-Element-13020\">87</script></span>% chance of a girl saying \"yes\" to him to prom.  </div><div class=\"paragraph\">What is the probability it takes until the third girl before one says \"yes\" to be his prom date?  </div>",
+  "question_text": "Marty has an $87$ % chance of a girl saying \"yes\" to him to prom. What is the probability it takes until the third girl before one says \"yes\" to be his prom date?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "(\n10\n3\n)\n(\n0.87\n)\n3\n(\n0.13\n)\n7"
+      "text": "( 10 3 ) ( 0.87 ) 3 ( 0.13 ) 7 ( 10 3 ) ( 0.87 ) 3 ( 0.13 ) 7"
     },
     {
       "letter": "B",
-      "text": "(\n10\n3\n)\n(\n0.87\n)\n7\n(\n0.13\n)\n3"
+      "text": "( 10 3 ) ( 0.87 ) 7 ( 0.13 ) 3 ( 10 3 ) ( 0.87 ) 7 ( 0.13 ) 3"
     },
     {
       "letter": "C",
-      "text": "(\n0.87\n)\n2\n(\n0.13\n)\n1"
+      "text": "( 0.87 ) 2 ( 0.13 ) 1 ( 0.87 ) 2 ( 0.13 ) 1"
     },
     {
       "letter": "D",
-      "text": "(\n0.13\n)\n2\n(\n0.87\n)"
+      "text": "( 0.13 ) 2 ( 0.87 ) ( 0.13 ) 2 ( 0.87 )"
     },
     {
       "letter": "E",
-      "text": "(\n0.87\n)\n2\n(\n0.13\n)"
+      "text": "( 0.87 ) 2 ( 0.13 ) ( 0.87 ) 2 ( 0.13 )"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

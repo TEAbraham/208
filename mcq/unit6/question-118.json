@@ -1,32 +1,33 @@
 {
   "question_id": "question-118",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
   "title": "Constructing an Interval",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">A group of college students in a psychology class wonders if the order of treatments changes the outcome of a study.  </div><div class=\"paragraph\">To test this, they ask students in a blind taste test which of two colas they prefer, Pepsi or Coke. In this blind taste test, the first <span class=\"tex2jax_process\">$50\\text{ randomly chosen subjects}$</span> are given Pepsi and then Coke, with <span class=\"tex2jax_process\">$34$</span> preferring Pepsi. The next <span class=\"tex2jax_process\">$50\\text{ randomly chosen subjects}$</span> are given Coke and then Pepsi, with <span class=\"tex2jax_process\">$29$</span> preferring Pepsi.  </div><div class=\"paragraph\">If the students wish to determine whether the order in which options are offered changes preferences, what would be an appropriate interval at <span class=\"tex2jax_process\">$95\\%$</span> confidence?</div>",
+  "question_text": "A group of college students in a psychology class wonders if the order of treatments changes the outcome of a study. To test this, they ask students in a blind taste test which of two colas they prefer, Pepsi or Coke. In this blind taste test, the first $50\\text{ randomly chosen subjects}$ are given Pepsi and then Coke, with $34$ preferring Pepsi. The next $50\\text{ randomly chosen subjects}$ are given Coke and then Pepsi, with $29$ preferring Pepsi. If the students wish to determine whether the order in which options are offered changes preferences, what would be an appropriate interval at $95\\%$ confidence?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "(\n0.1882\n,\n0.2882\n)"
+      "text": "( 0.1882 , 0.2882 ) ( 0.1882 , 0.2882 )"
     },
     {
       "letter": "B",
-      "text": "(\n−\n0.0882\n,\n0.2882\n)"
+      "text": "( − 0.0882 , 0.2882 ) ( − 0.0882 , 0.2882 )"
     },
     {
       "letter": "C",
-      "text": "(\n−\n0.2434\n,\n0.2980\n)"
+      "text": "( − 0.2434 , 0.2980 ) ( − 0.2434 , 0.2980 )"
     },
     {
       "letter": "D",
-      "text": "(\n−\n0.1882\n,\n0.0134\n)"
+      "text": "( − 0.1882 , 0.0134 ) ( − 0.1882 , 0.0134 )"
     },
     {
       "letter": "E",
-      "text": "(\n−\n0.034\n,\n0.0683\n)"
+      "text": "( − 0.034 , 0.0683 ) ( − 0.034 , 0.0683 )"
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

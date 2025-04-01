@@ -1,8 +1,9 @@
 {
   "question_id": "question-165",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Binomial Distribution Conditions",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">Which of the following is NOT one of the conditions for the binomial distribution?</div>",
+  "question_text": "Which of the following is NOT one of the conditions for the binomial distribution?",
   "image_files": [],
   "choices": [
     {
@@ -11,7 +12,7 @@
     },
     {
       "letter": "B",
-      "text": "Sample size large enough; say over\n30\n."
+      "text": "Sample size large enough; say over 30 30 ."
     },
     {
       "letter": "C",
@@ -26,7 +27,7 @@
       "text": "Each trial has two categories of outcomes."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

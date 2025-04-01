@@ -1,8 +1,9 @@
 {
   "question_id": "question-123",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Sneaky, Suspicious and Legal on the Law of Large Numbers",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Sneaky Sam tosses a coin <span class=\"tex2jax_process\">$10$</span> times and the coin lands on “heads” on <span class=\"tex2jax_process\">$7$</span> of those tosses.  </div><div class=\"paragraph\">Suspicious Sally thinks that Sam is using a weighted coin.  </div><div class=\"paragraph\">What can Legal Lindsay conclude based on the Law of Large Numbers?</div>",
+  "question_text": "Sneaky Sam tosses a coin $10$ times and the coin lands on “heads” on $7$ of those tosses. Suspicious Sally thinks that Sam is using a weighted coin. What can Legal Lindsay conclude based on the Law of Large Numbers?",
   "image_files": [],
   "choices": [
     {
@@ -11,11 +12,11 @@
     },
     {
       "letter": "B",
-      "text": "The next\n7\ntosses of the coin should result in “tails”."
+      "text": "The next 7 7 tosses of the coin should result in “tails”."
     },
     {
       "letter": "C",
-      "text": "There is a\n70\n%\nchance that this coin will land on “heads” on any given toss."
+      "text": "There is a 70 % 70 % chance that this coin will land on “heads” on any given toss."
     },
     {
       "letter": "D",
@@ -23,10 +24,10 @@
     },
     {
       "letter": "E",
-      "text": "This may simply be coincidence. If the coin is fair, we would expect about\n50\n%\nof the tosses to result in “heads”, but only if the coin is tossed many, many times.\n10\ntosses is not that many!"
+      "text": "This may simply be coincidence. If the coin is fair, we would expect about 50 % 50 % of the tosses to result in “heads”, but only if the coin is tossed many, many times. 10 10 tosses is not that many!"
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

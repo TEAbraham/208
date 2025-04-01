@@ -1,8 +1,9 @@
 {
   "question_id": "question-101",
+  "unit": "Unit 5 | Sampling Distributions",
   "title": "The Truth about the CLT",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Which of the following statements is true?</div><blockquote><div class=\"paragraph\"><strong>I.</strong>  The Central Limit Theorem states that the standard deviation of the sampling distribution will be larger when the sample size is larger.  </div><div class=\"paragraph\"><strong>II.</strong>  The distribution of the weights of all guinea pigs is nearly normal.  The Central Limit Theorem assures us that the means from samples of size <span class=\"tex2jax_process\">$7$</span> will also be nearly normal.  </div><div class=\"paragraph\"><strong>III.</strong>  The Central Limit Theorem states that the larger the sample size, the more normal the shape of the population distribution.    </div></blockquote>",
+  "question_text": "Which of the following statements is true? I. The Central Limit Theorem states that the standard deviation of the sampling distribution will be larger when the sample size is larger. II. The distribution of the weights of all guinea pigs is nearly normal.  The Central Limit Theorem assures us that the means from samples of size $7$ will also be nearly normal. III. The Central Limit Theorem states that the larger the sample size, the more normal the shape of the population distribution.",
   "image_files": [],
   "choices": [
     {
@@ -26,7 +27,7 @@
       "text": "None of the statements is true."
     }
   ],
-  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

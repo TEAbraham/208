@@ -1,32 +1,33 @@
 {
   "question_id": "question-171",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Binomial Distribution: Brickosaurus' Free Throws",
   "difficulty": "Moderate",
-  "question_text": "<div class=\"paragraph\">Brickosaurus is a <span class=\"tex2jax_process\">$23$</span>% free throw shooter.  </div><div class=\"paragraph\">What is the probability he makes exactly <span class=\"tex2jax_process\">$4$</span> out of <span class=\"tex2jax_process\">$10$</span> free throws?  Assume his free throw shots are independent of one another.</div>",
+  "question_text": "Brickosaurus is a $23$ % free throw shooter. What is the probability he makes exactly $4$ out of $10$ free throws?  Assume his free throw shots are independent of one another.",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "(\n10\n4\n)\n(\n0.23\n)\n4\n(\n1\n−\n0.23\n)\n6"
+      "text": "( 10 4 ) ( 0.23 ) 4 ( 1 − 0.23 ) 6 ( 10 4 ) ( 0.23 ) 4 ( 1 − 0.23 ) 6"
     },
     {
       "letter": "B",
-      "text": "(\n10\n4\n)\n(\n0.23\n)\n6\n(\n1\n−\n0.23\n)\n4"
+      "text": "( 10 4 ) ( 0.23 ) 6 ( 1 − 0.23 ) 4 ( 10 4 ) ( 0.23 ) 6 ( 1 − 0.23 ) 4"
     },
     {
       "letter": "C",
-      "text": "(\n0.23\n)\n4\n(\n1\n−\n.23\n)\n6"
+      "text": "( 0.23 ) 4 ( 1 − .23 ) 6 ( 0.23 ) 4 ( 1 − .23 ) 6"
     },
     {
       "letter": "D",
-      "text": "(\n0.23\n)\n6\n(\n1\n−\n0.23\n)\n4"
+      "text": "( 0.23 ) 6 ( 1 − 0.23 ) 4 ( 0.23 ) 6 ( 1 − 0.23 ) 4"
     },
     {
       "letter": "E",
-      "text": "(\n0.23\n)\n4\n(\n0.77\n)\n6"
+      "text": "( 0.23 ) 4 ( 0.77 ) 6 ( 0.23 ) 4 ( 0.77 ) 6"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

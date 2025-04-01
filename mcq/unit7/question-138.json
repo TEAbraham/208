@@ -1,32 +1,33 @@
 {
   "question_id": "question-138",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
   "title": "Two-Sided",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Suppose a two-sample <span class=\"tex2jax_process\">$T$</span>-test gives appropriate evidence of a significant difference between the two samples at the <span class=\"tex2jax_process\">$10\\%$</span> level. Suppose a one-sided <span class=\"tex2jax_process\">$T$</span>-test was performed.  </div><div class=\"paragraph\">What is the greatest alpha level that would be considered statistically significant for this data?</div>",
+  "question_text": "Suppose a two-sample $T$ -test gives appropriate evidence of a significant difference between the two samples at the $10\\%$ level. Suppose a one-sided $T$ -test was performed. What is the greatest alpha level that would be considered statistically significant for this data?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "1\n%"
+      "text": "1 % 1 %"
     },
     {
       "letter": "B",
-      "text": "5\n%"
+      "text": "5 % 5 %"
     },
     {
       "letter": "C",
-      "text": "10\n%"
+      "text": "10 % 10 %"
     },
     {
       "letter": "D",
-      "text": "20\n%"
+      "text": "20 % 20 %"
     },
     {
       "letter": "E",
       "text": "Unable to determine."
     }
   ],
-  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

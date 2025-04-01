@@ -1,32 +1,33 @@
 {
   "question_id": "question-156",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Total Mean and Standard Deviation: Expected Number Sold",
   "difficulty": "Difficult",
-  "question_text": "<div class=\"paragraph\">Per inning, a vendor will sell an average of <span class=\"tex2jax_process\">$6$</span> hot dogs with a standard deviation of <span class=\"tex2jax_process\">$1.6$</span> .  </div><div class=\"paragraph\">What is the expected total number of hot dogs he/she will sell  and with what standard deviation during the first four innings of a baseball game? </div>",
+  "question_text": "Per inning, a vendor will sell an average of $6$ hot dogs with a standard deviation of $1.6$ . What is the expected total number of hot dogs he/she will sell  and with what standard deviation during the first four innings of a baseball game?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "μ\n=\n24\nσ\n=\n3.2"
+      "text": "μ = 24 σ = 3.2 μ = 24 σ = 3.2"
     },
     {
       "letter": "B",
-      "text": "μ\n=\n24\nσ\n=\n6.4"
+      "text": "μ = 24 σ = 6.4 μ = 24 σ = 6.4"
     },
     {
       "letter": "C",
-      "text": "μ\n=\n24\nσ\n=\n10.24"
+      "text": "μ = 24 σ = 10.24 μ = 24 σ = 10.24"
     },
     {
       "letter": "D",
-      "text": "μ\n=\n1.5\nσ\n=\n3.2"
+      "text": "μ = 1.5 σ = 3.2 μ = 1.5 σ = 3.2"
     },
     {
       "letter": "E",
-      "text": "μ\n=\n1.5\nσ\n=\n6.4"
+      "text": "μ = 1.5 σ = 6.4 μ = 1.5 σ = 6.4"
     }
   ],
-  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

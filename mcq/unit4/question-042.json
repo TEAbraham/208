@@ -1,32 +1,33 @@
 {
   "question_id": "question-042",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Restaurant Promotion: Determine the Probability",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">A new restaurant is trying to attract customers and has decided to run a promotion. During their grand opening celebration, everyone who stops by will be given one ticket which contains an area that can be scratched off to reveal a single prize.  </div><div class=\"paragraph\">Consider a case where <span class=\"tex2jax_process\">$50\\%$</span> of the tickets reveal a discount, <span class=\"tex2jax_process\">$20\\%$</span> of the tickets reveal a free beverage, <span class=\"tex2jax_process\">$15\\%$</span> of the tickets reveal a free appetizer, <span class=\"tex2jax_process\">$10\\%$</span> of the tickets reveal a free dessert, and the remaining tickets reveal a free entree.  </div><div class=\"paragraph\">What is the probability that the individual who receives the first ticket will win either a free appetizer or free entree (assume that this individual is able to pick one of the tickets at random)?</div>",
+  "question_text": "A new restaurant is trying to attract customers and has decided to run a promotion. During their grand opening celebration, everyone who stops by will be given one ticket which contains an area that can be scratched off to reveal a single prize. Consider a case where $50\\%$ of the tickets reveal a discount, $20\\%$ of the tickets reveal a free beverage, $15\\%$ of the tickets reveal a free appetizer, $10\\%$ of the tickets reveal a free dessert, and the remaining tickets reveal a free entree. What is the probability that the individual who receives the first ticket will win either a free appetizer or free entree (assume that this individual is able to pick one of the tickets at random)?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.05"
+      "text": "0.05 0.05"
     },
     {
       "letter": "B",
-      "text": "0.15"
+      "text": "0.15 0.15"
     },
     {
       "letter": "C",
-      "text": "0.1925"
+      "text": "0.1925 0.1925"
     },
     {
       "letter": "D",
-      "text": "0.2"
+      "text": "0.2 0.2"
     },
     {
       "letter": "E",
-      "text": "0.5"
+      "text": "0.5 0.5"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [

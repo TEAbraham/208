@@ -1,32 +1,33 @@
 {
   "question_id": "question-043",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
   "title": "Probability Distribution: Everybody Needs a Hero Part III",
   "difficulty": "Easy",
-  "question_text": "<div class=\"paragraph\">At <em>Burger Bell</em> when someone buys a <em>Hero Meal</em> they receive an action figure.  The distribution of action figures is shown in the table below.\n<br></div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Action Figure</th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th></tr></thead><tbody><tr><td>P(x)</td><td>0.30</td><td>0.10</td><td>0.10</td><td>0.50</td></tr></tbody></table></div><br>\n<div class=\"paragraph\"> <em>Burger Bell</em> has just run out of <strong>Action Figure D</strong>.  What is the probability someone now receives <strong>Action Figure A</strong> when they buy a <em>Hero Meal</em>?</div>",
+  "question_text": "At Burger Bell when someone buys a Hero Meal they receive an action figure.  The distribution of action figures is shown in the table below. Action Figure A B C D P(x) 0.30 0.10 0.10 0.50 Burger Bell has just run out of Action Figure D .  What is the probability someone now receives Action Figure A when they buy a Hero Meal ?",
   "image_files": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.30"
+      "text": "0.30 0.30"
     },
     {
       "letter": "B",
-      "text": "0.33"
+      "text": "0.33 0.33"
     },
     {
       "letter": "C",
-      "text": "0.40"
+      "text": "0.40 0.40"
     },
     {
       "letter": "D",
-      "text": "0.60"
+      "text": "0.60 0.60"
     },
     {
       "letter": "E",
-      "text": "0.90"
+      "text": "0.90 0.90"
     }
   ],
-  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
   "distractor_explanations": {},
   "tags": [
