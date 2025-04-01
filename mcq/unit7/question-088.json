@@ -1,0 +1,46 @@
+{
+  "question_id": "question-088",
+  "title": "Annual Income Interval: What Does the Data Show?",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">One hundred randomly chosen adult subjects in Jacksonville, FL, were asked their annual income.  </div><div class=\"paragraph\">The data reported from the sample showed a mean of <span class=\"tex2jax_process\">$\\$46{,}203$</span> with a standard deviation of <span class=\"tex2jax_process\">$\\$10{,}201$</span>.  </div><div class=\"paragraph\">A <span class=\"tex2jax_process\">$95\\%$</span> confidence interval would show, approximately, that</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "We are\n95\n%\nconfident the average annual income for United States residents is between\n$\n44,179\nand\n$\n48,227\n."
+    },
+    {
+      "letter": "B",
+      "text": "We are\n95\n%\nconfident the average annual income for Jacksonville, FL, adult residents is between\n$\n44,204\nand\n$\n48,202\n."
+    },
+    {
+      "letter": "C",
+      "text": "We are\n95\n%\nconfident the average annual income for Jacksonville, FL, adult residents is between\n$\n25,801\nand\n$\n66,605\n."
+    },
+    {
+      "letter": "D",
+      "text": "We are\n95\n%\nconfident the average annual income for Jacksonville, FL, adult residents is between\n$\n44,179\nand\n$\n48,227\n."
+    },
+    {
+      "letter": "E",
+      "text": "Assumptions are not met in this situation to compute an appropriate\n95\n%\nconfidence interval."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-3.F",
+    "4.E",
+    "DAT-3",
+    "DAT-3.F.2",
+    "DAT-3.F.1"
+  ],
+  "standards": [
+    "DAT-3.F",
+    "4.E",
+    "DAT-3",
+    "DAT-3.F.2",
+    "DAT-3.F.1"
+  ]
+}

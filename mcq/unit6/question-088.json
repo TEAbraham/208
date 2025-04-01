@@ -1,0 +1,46 @@
+{
+  "question_id": "question-088",
+  "title": "Making a Type I Error When Diagnosing Diabetes",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Diabetes is a metabolic disease that is characterized by prolonged periods of high blood sugar levels. The disease can be very dangerous, so it is important that those affected by diabetes be diagnosed quickly. Diabetes can be diagnosed if two separate blood sugar readings result in <span class=\"tex2jax_process\">$126\\text{ mg/dL}$</span> or higher. However, due to sampling variability and variations in an individual's diet and activity level, two separate readings of <span class=\"tex2jax_process\">$126\\text{ mg/dL}$</span> or higher are possible even in individuals who do not truly have diabetes.  </div><div class=\"paragraph\">Suppose a physician notices two consecutive blood sugar readings of exactly <span class=\"tex2jax_process\">$126\\text{ mg/dL}$</span> for a particular patient. Since these results are very borderline, she decides to do a hypothesis test with the following hypotheses:</div><blockquote><div class=\"paragraph\"><span class=\"tex2jax_process\">$H_0:$</span> The patient has diabetes<br><span class=\"tex2jax_process\">$H_a:$</span> The patient does not have diabetes  </div></blockquote><div class=\"paragraph\">In this situation, what would be the meaning and potential consequences of the physician making a Type I error?    </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The physician believes that that patient has diabetes and begins to treat the patient for the disease. However, the physician was wrong. The patient really does not have diabetes and is now receiving treatment that is not necessary and could even be dangerous."
+    },
+    {
+      "letter": "B",
+      "text": "The physician decides that the patient does not have diabetes and therefore, does not treat the patient for the disease. However, the physician was wrong. The patient really does have diabetes and is not receiving treatment that is necessary. This could be very dangerous for the patient."
+    },
+    {
+      "letter": "C",
+      "text": "The physician made a mistake when testing the patient's blood sugar level. The blood sugar readings of\n126\n mg/dL\nwere both incorrect."
+    },
+    {
+      "letter": "D",
+      "text": "The physician determines that the patient does have diabetes and begins treatment. It turns out that the patient needed this treatment because he truly is diabetic."
+    },
+    {
+      "letter": "E",
+      "text": "The physician determines that the patient does not have diabetes and therefore, does not treat the patient for the disease. It turns out that the patient really is not diabetic and simply had two consecutive blood sugar readings of\n126\n mg/dL\nbecause he had been eating a lot of sweets."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-5.D.1",
+    "UNC-5",
+    "UNC-5.D.2",
+    "UNC-5.D"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-5.D.1",
+    "UNC-5",
+    "UNC-5.D.2",
+    "UNC-5.D"
+  ]
+}

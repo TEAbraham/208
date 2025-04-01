@@ -1,0 +1,44 @@
+{
+  "question_id": "question-190",
+  "title": "Volunteering: Mean and Standard Deviation of a Distribution",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">According to U. S. Bureau of Labor Statistics, between September 2014 and September 2015, about <span class=\"tex2jax_process\">$25\\%$</span> of the population (age <span class=\"tex2jax_process\">$16$</span> and older) volunteered with or through an organization at least once.  Suppose this value has not changed.  </div><div class=\"paragraph\">In random samples of adults of size <span class=\"tex2jax_process\">$n=50$</span>, what is the mean and standard deviation of the number of individuals who would say they have volunteered with or through an organization at least once? </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Mean:\n0.25\n\nStandard deviation:\n0.0265"
+    },
+    {
+      "letter": "B",
+      "text": "Mean:\n0.25\n\nStandard deviation:\n0.0612"
+    },
+    {
+      "letter": "C",
+      "text": "Mean:\n12.5\n\nStandard deviation:\n3.0619"
+    },
+    {
+      "letter": "D",
+      "text": "Mean:\n13\n\nStandard deviation:\n3"
+    },
+    {
+      "letter": "E",
+      "text": "Mean:\n25\n\nStandard deviation:\n6.12"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.C.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.C"
+  ],
+  "standards": [
+    "UNC-3.C.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.C"
+  ]
+}

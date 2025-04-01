@@ -1,0 +1,44 @@
+{
+  "question_id": "question-011",
+  "title": "A Residual",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A firm was conducting a study and found a linear regression model of <span class=\"tex2jax_process\">$\\hat{y}=42-6x$</span>.  Find the residual of the point <span class=\"tex2jax_process\">$(8, 3)$</span>.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "−\n9"
+    },
+    {
+      "letter": "B",
+      "text": "9"
+    },
+    {
+      "letter": "C",
+      "text": "−\n6"
+    },
+    {
+      "letter": "D",
+      "text": "6"
+    },
+    {
+      "letter": "E",
+      "text": "24"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.AC",
+    "UNC-4",
+    "UNC-4.AC.1",
+    "1.D"
+  ],
+  "standards": [
+    "UNC-4.AC",
+    "UNC-4",
+    "UNC-4.AC.1",
+    "1.D"
+  ]
+}

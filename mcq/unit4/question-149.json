@@ -1,0 +1,48 @@
+{
+  "question_id": "question-149",
+  "title": "Properties of Independent Random Variables",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">If two random variables <span class=\"tex2jax_process\">$x$</span> and <span class=\"tex2jax_process\">$y$</span> are independent, which of the following statements are true?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> The correlation between <span class=\"tex2jax_process\">$x$</span> and <span class=\"tex2jax_process\">$y$</span> is <span class=\"tex2jax_process\">$0$</span>.<br><strong>II.</strong> The mean of <span class=\"tex2jax_process\">$x + y = $</span> the mean of <span class=\"tex2jax_process\">$x + $</span> the mean of <span class=\"tex2jax_process\">$ y$</span><br><strong>III.</strong> The variance of the distribution of the difference between <span class=\"tex2jax_process\">$x$</span> and <span class=\"tex2jax_process\">$y$</span> equals the sum of the individual variances of <span class=\"tex2jax_process\">$x$</span> and <span class=\"tex2jax_process\">$y$</span>.    </div></blockquote>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and II only."
+    },
+    {
+      "letter": "E",
+      "text": "I, II, and III."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5.E.3",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ],
+  "standards": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5.E.3",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

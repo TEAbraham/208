@@ -1,0 +1,48 @@
+{
+  "question_id": "question-241",
+  "title": "Comparing z-Scores: Danielle's Tests Scores",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Danielle had an AP Statistics test and AP US History test on the same day. On the AP Statistics test, the average score was an <span class=\"tex2jax_process\">$81$</span>, with a standard deviation of <span class=\"tex2jax_process\">$4$</span>. On the AP U.S. History Test, the average score was <span class=\"tex2jax_process\">$73$</span>, with a standard deviation of <span class=\"tex2jax_process\">$8$</span>. Danielle scored a <span class=\"tex2jax_process\">$77$</span> on the AP Statistics test and <span class=\"tex2jax_process\">$67$</span> on the AP U.S. History test. Assume the scores of each test were approximately normally distributed.  </div><div class=\"paragraph\">On which test did Danielle score relatively better, compared with the rest of the class? </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "She scored better on the AP Statistics test relative to the rest of the class."
+    },
+    {
+      "letter": "B",
+      "text": "She scored better on the AP U.S. History test relative to the rest of the class."
+    },
+    {
+      "letter": "C",
+      "text": "She scored equally well on both tests."
+    },
+    {
+      "letter": "D",
+      "text": "It is impossible to tell because we do not have all the individual scores from each test."
+    },
+    {
+      "letter": "E",
+      "text": "It is impossible to tell because we do not know the shape of the distribution."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.C.1",
+    "2.D",
+    "VAR-2.C",
+    "VAR-2"
+  ],
+  "standards": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.C.1",
+    "2.D",
+    "VAR-2.C",
+    "VAR-2"
+  ]
+}

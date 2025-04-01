@@ -1,0 +1,44 @@
+{
+  "question_id": "question-033",
+  "title": "Disjoint Events: Rolling a Fair Die",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Suppose a fair die is rolled once.  </div><div class=\"paragraph\">Which of the following events are disjoint?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The die is prime; the die is a\n2\n."
+    },
+    {
+      "letter": "B",
+      "text": "The die is even; the die is odd."
+    },
+    {
+      "letter": "C",
+      "text": "The die is greater than\n4\n; the die is\n5\n."
+    },
+    {
+      "letter": "D",
+      "text": "The die is at least\n4\n; the die is less than\n5\n."
+    },
+    {
+      "letter": "E",
+      "text": "The die is prime; the die is even."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "VAR-4.C",
+    "VAR-4",
+    "VAR-4.C.2"
+  ],
+  "standards": [
+    "4.B",
+    "VAR-4.C",
+    "VAR-4",
+    "VAR-4.C.2"
+  ]
+}

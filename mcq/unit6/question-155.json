@@ -1,0 +1,44 @@
+{
+  "question_id": "question-155",
+  "title": "Is the Test Valid?",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">For a senior project, a student wishes to compare the proportions of girls and boys taking AP exams in Calculus.  In her school, there are more than <span class=\"tex2jax_process\">$1{,}000$</span> boys and <span class=\"tex2jax_process\">$1{,}000$</span> girls. She randomly samples <span class=\"tex2jax_process\">$30$</span> girls and <span class=\"tex2jax_process\">$20$</span> boys and asks if they are taking a Calculus AP exam.  <span class=\"tex2jax_process\">$16$</span> boys responded yes and <span class=\"tex2jax_process\">$24$</span> girls responded yes.  While she performs the test and is pleased with her work, she realizes she forgot to check the conditions.  Do these results verify the conditions of her making any statistical inference while comparing these two proportions?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes, because she sampled both of her populations randomly and because both of her samples are less than or equal to\n10\n%\nof their population sizes."
+    },
+    {
+      "letter": "B",
+      "text": "Yes, because both of her samples are less than or equal to\n10\n%\nof their population sizes and because both values of\n^\np\nare equal which means that\n^\np\nc\nis also equal.."
+    },
+    {
+      "letter": "C",
+      "text": "Yes, because both values of\n^\np\nare equal which means that\n^\np\nc\nis also equal and because her sample sizes are all greater than\n10\n."
+    },
+    {
+      "letter": "D",
+      "text": "No, because both values of\n^\np\nare equal, but the sample sizes are not."
+    },
+    {
+      "letter": "E",
+      "text": "No, because the value of\nn\n1\n(\n1\n−\n^\np\nc\n)\nis only equal to\n4\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.C",
+    "VAR-6.J",
+    "VAR-6.J.1",
+    "VAR-6"
+  ],
+  "standards": [
+    "4.C",
+    "VAR-6.J",
+    "VAR-6.J.1",
+    "VAR-6"
+  ]
+}

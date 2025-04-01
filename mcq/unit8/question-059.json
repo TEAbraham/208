@@ -1,0 +1,44 @@
+{
+  "question_id": "question-059",
+  "title": "The Stat Project",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Lee's college Statistics class required students to perform and write up a test of significance.  Lee was always interested in what kind of music people preferred. Lee selects a random sample of <span class=\"tex2jax_process\">$100$</span> people in the age group of <span class=\"tex2jax_process\">$18-35$</span> and <span class=\"tex2jax_process\">$100$</span> people from the age group <span class=\"tex2jax_process\">$36-55$</span>. Then he asks for their musical preference for classical, rock, or jazz.  What type of test would be most appropriate for Lee to see if there are any differences in music preference between the two age groups?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Chi-square test for homogeneity"
+    },
+    {
+      "letter": "B",
+      "text": "Test for the difference of two proportions"
+    },
+    {
+      "letter": "C",
+      "text": "Chi-square test for goodness of fit"
+    },
+    {
+      "letter": "D",
+      "text": "Test for the slope of a regression model"
+    },
+    {
+      "letter": "E",
+      "text": "Chi-square test for independence"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.J.1",
+    "VAR-8",
+    "1.E",
+    "VAR-8.J"
+  ],
+  "standards": [
+    "VAR-8.J.1",
+    "VAR-8",
+    "1.E",
+    "VAR-8.J"
+  ]
+}

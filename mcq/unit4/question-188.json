@@ -1,0 +1,44 @@
+{
+  "question_id": "question-188",
+  "title": "Hazel Eyes",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Hazel-colored eyes are considered to be a mix of brown and green and about <span class=\"tex2jax_process\">$18\\%$</span> of  Americans have this eye color.  Say you randomly choose <span class=\"tex2jax_process\">$100$</span> Americans.  What would the standard deviation be for this binomial distribution? What does this standard deviation mean in context of this problem?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "14.76 If\n100\nAmericans were sampled, we would expect to see the mean vary by this amount on average."
+    },
+    {
+      "letter": "B",
+      "text": "3.84 If\n100\nAmericans were sampled, we would expect to see the mean vary by this amount on average."
+    },
+    {
+      "letter": "C",
+      "text": "0.38 If\n100\nAmericans were sampled, we would expect to see the mean vary by this amount average."
+    },
+    {
+      "letter": "D",
+      "text": "3.84 If\n100\nAmericans were sampled, we would expect to see this as the variance of the result."
+    },
+    {
+      "letter": "E",
+      "text": "14.76 If\n100\nAmericans were sampled, we would expect to see this as the standard deviation of the result."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.C.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.C"
+  ],
+  "standards": [
+    "UNC-3.C.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.C"
+  ]
+}

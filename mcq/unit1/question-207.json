@@ -1,0 +1,44 @@
+{
+  "question_id": "question-207",
+  "title": "Catching Some Z's : Z-Scores That Is!",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Exhausted Emily finally got a good night sleep last night!  The number of hours that she slept corresponds to a <span class=\"tex2jax_process\">$z$</span>-score of <span class=\"tex2jax_process\">$1.5$</span>.  </div><div class=\"paragraph\">What is the proper interpretation of this <span class=\"tex2jax_process\">$z$</span>-score?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Emily slept\n1.5\nhours more than usual last night."
+    },
+    {
+      "letter": "B",
+      "text": "The number of hours that Emily slept last night was\n1.5\ntimes the median number of hours of sleep that she gets."
+    },
+    {
+      "letter": "C",
+      "text": "About\n93\n%\nof the time, Emily gets less sleep than she got last night."
+    },
+    {
+      "letter": "D",
+      "text": "The number of hours of sleep that Emily got last night was\n1.5\nstandard deviations above the mean number of hours of sleep that she gets."
+    },
+    {
+      "letter": "E",
+      "text": "Emily got\n1.5\nhours of sleep last night."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2"
+  ],
+  "standards": [
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2"
+  ]
+}

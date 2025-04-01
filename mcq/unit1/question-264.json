@@ -1,0 +1,50 @@
+{
+  "question_id": "question-264",
+  "title": "School Enrichment Programs",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A school district has <span class=\"tex2jax_process\">$1{,}200$</span> students entering the first grade. Each child is administered a standardized intelligence test that is known to have a mean of <span class=\"tex2jax_process\">$100$</span> and a standard deviation of <span class=\"tex2jax_process\">$15$</span>. The scores on the test are known to be approximately normally distributed.</div><div class=\"paragraph\">State guidelines require that children scoring either above <span class=\"tex2jax_process\">$125$</span> or below <span class=\"tex2jax_process\">$75$</span> be enrolled in special enrichment programs.  </div><div class=\"paragraph\">How many children will the school district expect to enroll in the enrichment programs for this group of first graders?</div>",
+  "image_files": [
+    "images/question-264-img1.png"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "50"
+    },
+    {
+      "letter": "B",
+      "text": "57"
+    },
+    {
+      "letter": "C",
+      "text": "114"
+    },
+    {
+      "letter": "D",
+      "text": "120"
+    },
+    {
+      "letter": "E",
+      "text": "This cannot be determined without knowing the individual test results for each student."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2"
+  ],
+  "standards": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2"
+  ]
+}

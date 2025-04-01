@@ -1,0 +1,44 @@
+{
+  "question_id": "question-035",
+  "title": "Types of Sampling: Turn the Lights on",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\"> A town committee is thinking about investing <span class=\"tex2jax_process\">$\\$200,000$</span> for lighting the baseball fields.   The first selectman of the town wants to survey <span class=\"tex2jax_process\">$500\\text{ citizens}$</span> of the town to see what they think.   Which of the following will produce a simple random sample?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Surveying every fourth citizen who walks by the town hall."
+    },
+    {
+      "letter": "B",
+      "text": "Randomly selecting\n500\n citizens\nfrom the local phone directory."
+    },
+    {
+      "letter": "C",
+      "text": "Using the latest census data from the town, numbering the citizens, and using a random number generator to select\n500\n citizens\n."
+    },
+    {
+      "letter": "D",
+      "text": "Separate by age groups using the latest census data from the community. The age groups would be\n18\n−\n30\n,\n31\n−\n45\n,\n46\n−\n65\n, and\n65\nand over. Randomly select two of the age groups and randomly survey\n250\ncitizens from those two age groups."
+    },
+    {
+      "letter": "E",
+      "text": "Separate by age groups using the latest census data from the community. The age groups would be\n18\n−\n30\n,\n31\n−\n45\n,\n46\n−\n65\n, and\n65\nand over. Randomly select\n125\n citizens\nages\n18\n−\n30\n,\n125\n citizens\nages\n31\n−\n45\n,\n125\n citizens\nages\n46\n−\n65\n, and\n125\n citizens\nages\n65\nand over."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-2.C.2",
+    "DAT-2",
+    "1.C",
+    "DAT-2.C"
+  ],
+  "standards": [
+    "DAT-2.C.2",
+    "DAT-2",
+    "1.C",
+    "DAT-2.C"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-095",
+  "title": "Upcoming Election",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">The mayor of a large city is considering running for reelection.  </div><div class=\"paragraph\">She won the previous election against her competitor <span class=\"tex2jax_process\">$52\\%$</span> to <span class=\"tex2jax_process\">$48\\%$</span>.  </div><div class=\"paragraph\">Last week, two independent, random samples were taken of likely voters, each of size <span class=\"tex2jax_process\">$n = 50$</span>. These polls found the proportion of likely voters to vote for the current mayor is <span class=\"tex2jax_process\">$48\\%$</span> and <span class=\"tex2jax_process\">$50\\%$</span>, respectively.  </div><div class=\"paragraph\">Assume she is running against one other candidate and needs the majority of votes to win.  </div><div class=\"paragraph\">Individually, which of the following statements is true about these samples?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Both samples give sufficient evidence that she will NOT be reelected."
+    },
+    {
+      "letter": "B",
+      "text": "The mayor still could easily get\n52\n%\nof the vote on election day, as getting samples of size\nn\n=\n50\nat\n50\n%\nand\n48\n%\ncould easily happen by chance."
+    },
+    {
+      "letter": "C",
+      "text": "The sample containing\n48\n%\nis convincing evidence she will NOT be reelected, but the\n50\n%\nsample fails to give such evidence."
+    },
+    {
+      "letter": "D",
+      "text": "Since a sample found her getting less than the majority vote, the mayor will be very likely to lose."
+    },
+    {
+      "letter": "E",
+      "text": "These samples give strong evidence the mayor will NOT lose the upcoming race and still has\n52\n%\nof the vote, as these values could have easily happened by chance."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.K.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.K"
+  ],
+  "standards": [
+    "UNC-3.K.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.K"
+  ]
+}

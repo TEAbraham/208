@@ -1,0 +1,44 @@
+{
+  "question_id": "question-165",
+  "title": "Binomial Distribution Conditions",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Which of the following is NOT one of the conditions for the binomial distribution?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Fixed number of trials."
+    },
+    {
+      "letter": "B",
+      "text": "Sample size large enough; say over\n30\n."
+    },
+    {
+      "letter": "C",
+      "text": "Each trial is independent."
+    },
+    {
+      "letter": "D",
+      "text": "Each trial has the same probability."
+    },
+    {
+      "letter": "E",
+      "text": "Each trial has two categories of outcomes."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.A.2",
+    "3.A",
+    "UNC-3",
+    "UNC-3.A"
+  ],
+  "standards": [
+    "UNC-3.A.2",
+    "3.A",
+    "UNC-3",
+    "UNC-3.A"
+  ]
+}

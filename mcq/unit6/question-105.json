@@ -1,0 +1,44 @@
+{
+  "question_id": "question-105",
+  "title": "Belief in Santa Claus",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A researcher wants to study the difference between <span class=\"tex2jax_process\">$6$</span>-year-old boys’ and girls’ belief in Santa Claus.  </div><div class=\"paragraph\">She asks <span class=\"tex2jax_process\">$18$</span> randomly selected boys and <span class=\"tex2jax_process\">$18$</span> randomly selected girls. Of those, <span class=\"tex2jax_process\">$9\\text{ boys}$</span> and <span class=\"tex2jax_process\">$13\\text{ girls}$</span> said they believe in Santa Claus.  </div><div class=\"paragraph\">The <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for the difference in the response rates for the boys and girls was <span class=\"tex2jax_process\">$-0.532$</span> to <span class=\"tex2jax_process\">$0.088$</span> (boys to girls).  </div><div class=\"paragraph\">What can be inferred from this result?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "It is highly likely that the same proportion of\n6\n-year-old boys and\n6\n-year-old girls believe in Santa Claus."
+    },
+    {
+      "letter": "B",
+      "text": "A significantly greater proportion of\n6\n-year-old girls believes in Santa Claus than do\n6\n-year-old boys."
+    },
+    {
+      "letter": "C",
+      "text": "No inference can be made because the samples are not random and independent."
+    },
+    {
+      "letter": "D",
+      "text": "We cannot conclude that the proportion of\n6\n-year-old girls who believe in Santa Claus is different from the proportion of 6-year-old boys who believe in Santa Claus."
+    },
+    {
+      "letter": "E",
+      "text": "No inference can be made because this is a confidence interval, not a hypothesis test."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.N.1",
+    "4.D",
+    "UNC-4",
+    "UNC-4.N"
+  ],
+  "standards": [
+    "UNC-4.N.1",
+    "4.D",
+    "UNC-4",
+    "UNC-4.N"
+  ]
+}

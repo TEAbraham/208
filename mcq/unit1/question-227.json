@@ -1,0 +1,46 @@
+{
+  "question_id": "question-227",
+  "title": "Trivia Tycoon: $z$-Scores and Proportions",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Mark is a beast when it comes to trivia. In the game Trivia Tycoon the number of points that players have accumulated is approximately normally distributed.  </div><div class=\"paragraph\">If Mark's <span class=\"tex2jax_process\">$z$</span>-score for points is <span class=\"tex2jax_process\">$2.75$</span>, what proportion of Trivia Tycoon players have accumulated fewer points than Mark? </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.9949"
+    },
+    {
+      "letter": "B",
+      "text": "0.9960"
+    },
+    {
+      "letter": "C",
+      "text": "0.9965"
+    },
+    {
+      "letter": "D",
+      "text": "0.9970"
+    },
+    {
+      "letter": "E",
+      "text": "0.9978"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2",
+    "VAR-2.B.3"
+  ],
+  "standards": [
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2",
+    "VAR-2.B.3"
+  ]
+}

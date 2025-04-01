@@ -1,0 +1,46 @@
+{
+  "question_id": "question-064",
+  "title": "T-Statistic and P-Value: Use the Clues",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Here are the clues:</div><blockquote><div class=\"paragraph\">Type of Test:  <span class=\"tex2jax_process\">$t$</span>-test for slope of LSRL<br>Type of Alternative Hypothesis:  Two-Sided<br>Equation of LSRL:  <span class=\"tex2jax_process\">$\\hat { y } =25.87-3.18x$</span><br>Standard Error of Slope:   <span class=\"tex2jax_process\">$1.72$</span><br>Number of Observations:  <span class=\"tex2jax_process\">$12$</span>  </div></blockquote><div class=\"paragraph\">Find the <span class=\"tex2jax_process\">$t$</span>-statistic and <span class=\"tex2jax_process\">$p$</span>-value for this test.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "t\n=\n−\n15.041\n\np\n<\n0.001"
+    },
+    {
+      "letter": "B",
+      "text": "t\n=\n−\n1.849\n\np\n=\n0.047"
+    },
+    {
+      "letter": "C",
+      "text": "t\n=\n−\n1.849\n\np\n=\n0.094"
+    },
+    {
+      "letter": "D",
+      "text": "t\n=\n1.849\n\np\n=\n0.047"
+    },
+    {
+      "letter": "E",
+      "text": "t\n=\n15.041\n\np\n=\n0.094"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.1",
+    "VAR-7.M.2"
+  ],
+  "standards": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.1",
+    "VAR-7.M.2"
+  ]
+}

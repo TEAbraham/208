@@ -1,0 +1,46 @@
+{
+  "question_id": "question-077",
+  "title": "Sums Under $140\\text{ Points}$",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose Jane is interested in the total number of points scored in college basketball games. She takes a look at several years of data and finds this distribution is approximately normal with a mean of <span class=\"tex2jax_process\">$154\\text{ points}$</span> and a standard deviation of <span class=\"tex2jax_process\">$9\\text{ points}$</span>.  </div><div class=\"paragraph\">A certain group of referees were suspected of missing potential fouls, leading to games that have much lower points than typical. The last three games had point totals that appear low, all with totals under <span class=\"tex2jax_process\">$140\\text{ points}$</span>.  </div><div class=\"paragraph\">Assuming each game is independent, what’s the probability of three games each having a sum under <span class=\"tex2jax_process\">$140\\text{ points}$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.00021"
+    },
+    {
+      "letter": "B",
+      "text": "0.0594"
+    },
+    {
+      "letter": "C",
+      "text": "0.0036"
+    },
+    {
+      "letter": "D",
+      "text": "0.0352"
+    },
+    {
+      "letter": "E",
+      "text": "0.0562"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4",
+    "VAR-4.E.4"
+  ],
+  "standards": [
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4",
+    "VAR-4.E.4"
+  ]
+}

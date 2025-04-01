@@ -1,0 +1,44 @@
+{
+  "question_id": "question-117",
+  "title": "Making Decisions from Output | 1 of 2",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A veterinarian decided to study the weights (kg) of Siberian and Alaskan huskies.  </div><div class=\"paragraph\">The veterinarian weighted <span class=\"tex2jax_process\">$13$</span> randomly selected Siberian huskies and <span class=\"tex2jax_process\">$12$</span> randomly selected Alaskan huskies. A two-sample <span class=\"tex2jax_process\">$t$</span>-test was performed with the results below (two-sided).  </div><div class=\"paragraph\">Two-Sample <span class=\"tex2jax_process\">$t$</span> for Siberian Husky vs. Alaskan Husky:\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">StDev</th><th scope=\"col\">SE Mean</th></tr></thead><tbody><tr><td>Siberian Husky</td><td>13</td><td>18.66</td><td>3.89</td><td>1.1</td></tr><tr><td>Alaskan Husky</td><td>12</td><td>23.27</td><td>2.47</td><td>0.71</td></tr></tbody></table></div><br><div class=\"paragraph\"><br><span class=\"tex2jax_process\">$\\text{Difference }= \\mu \\text{(Siberian husky)}-\\mu \\text{(Alaskan husky)}$</span>  </div><div class=\"paragraph\">Estimate for difference: <span class=\"tex2jax_process\">$-4.61$</span>    </div><div class=\"paragraph\"><span class=\"tex2jax_process\">$95\\%$</span> confidence interval for difference: <span class=\"tex2jax_process\">$(-7.3, -1.91)$</span>    </div><div class=\"paragraph\"><span class=\"tex2jax_process\">$\\text{T-test of Difference }= 0$</span><br><span class=\"tex2jax_process\">$\\text{T-value }= -3.56$</span><br><span class=\"tex2jax_process\">$\\text{P-value }= 0.002$</span><br><span class=\"tex2jax_process\">$\\text{DF }= 20$</span>  </div><div class=\"paragraph\">What practical conclusions can be made based on these results?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There is no evidence of a difference in weights between the different husky breeds at any of the common alpha levels."
+    },
+    {
+      "letter": "B",
+      "text": "There is evidence of a difference in weights at the\n10\n%\nlevel, but not at the\n1\n%\nor\n5\n%\nalpha levels."
+    },
+    {
+      "letter": "C",
+      "text": "There is evidence of a difference in weights at the\n5\n%\nand\n10\n%\nlevels, but not at the\n1\n%\nlevel."
+    },
+    {
+      "letter": "D",
+      "text": "There is evidence of a difference in weights at the\n1\n%\n,\n5\n%\n, and\n10\n%\nalpha levels."
+    },
+    {
+      "letter": "E",
+      "text": "There is evidence Alaskan huskies weigh more than Siberian huskies at the\n1\n%\n,\n5\n%\n, and\n10\n%\nalpha levels."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.C",
+    "VAR-7.H",
+    "VAR-7",
+    "VAR-7.H.1"
+  ],
+  "standards": [
+    "4.C",
+    "VAR-7.H",
+    "VAR-7",
+    "VAR-7.H.1"
+  ]
+}

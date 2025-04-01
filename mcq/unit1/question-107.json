@@ -1,0 +1,47 @@
+{
+  "question_id": "question-107",
+  "title": "R&C Insurance Charges: Percentile from a Stemplot",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">When paying medical and dental claims, an insurance company will only pay the amount that it deems reasonable and customary (R&amp;C) for the procedure that has been performed.  </div><div class=\"paragraph\">It is time to update the R&amp;C payment schedule for dental cleanings for adults and the insurance company has contacted a random sample of dentists to inquire about their charge for this procedure.  Results are displayed below.  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"paragraph\">If the R&amp;C payment will be set at the <span class=\"tex2jax_process\">$80\\text{th}$</span> percentile, what will be the amount the insurance company will pay for this procedure?</div>",
+  "image_files": [
+    "images/question-107-img1.PNG",
+    "images/question-107-img2.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$\n75"
+    },
+    {
+      "letter": "B",
+      "text": "$\n78"
+    },
+    {
+      "letter": "C",
+      "text": "$\n80"
+    },
+    {
+      "letter": "D",
+      "text": "$\n92"
+    },
+    {
+      "letter": "E",
+      "text": "$\n95"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.I.5",
+    "2.A",
+    "UNC-1.I",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.I.5",
+    "2.A",
+    "UNC-1.I",
+    "UNC-1"
+  ]
+}

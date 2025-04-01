@@ -1,0 +1,44 @@
+{
+  "question_id": "question-056",
+  "title": "Righties and Lefties",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Researchers wanted to test whether right-handed individuals earn more than left-handed individuals.  </div><div class=\"paragraph\">A survey of <span class=\"tex2jax_process\">$60$</span> randomly selected left-handed individuals found that they had an annual income of <span class=\"tex2jax_process\">$\\$42{,}345$</span> and standard deviation of <span class=\"tex2jax_process\">$\\$7{,}450$</span>.  </div><div class=\"paragraph\">The same survey found that <span class=\"tex2jax_process\">$50$</span> randomly selected right-handed individuals had an annual income of <span class=\"tex2jax_process\">$\\$46{,}812$</span> and standard deviation of <span class=\"tex2jax_process\">$\\$5{,}943$</span>.  </div><div class=\"paragraph\">If researchers concluded that this data gives significant evidence right-handed individuals earn more, they</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Are correct at the\n5\n%\nlevel, but not at the\n1\n%\nlevel."
+    },
+    {
+      "letter": "B",
+      "text": "Are correct at the\n10\n%\nlevel, but not at the\n5\n%\nlevel."
+    },
+    {
+      "letter": "C",
+      "text": "Risk a small chance of committing a type I error."
+    },
+    {
+      "letter": "D",
+      "text": "Risk a small chance of committing a type II error."
+    },
+    {
+      "letter": "E",
+      "text": "Should have surveyed more people to get a\np\n-value significant at\n1\n%\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.A.2",
+    "DAT-3.A"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.A.2",
+    "DAT-3.A"
+  ]
+}

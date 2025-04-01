@@ -1,0 +1,48 @@
+{
+  "question_id": "question-029",
+  "title": "Shape of the Graph",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">One hundred randomly selected dog owners were asked, “Do you walk your dog every day?”  </div><div class=\"paragraph\">Compare the distribution of samples of size <span class=\"tex2jax_process\">$100$</span> to samples of size <span class=\"tex2jax_process\">$1{,}000$</span>.  We are told the distribution of sample size <span class=\"tex2jax_process\">$100$</span> has a center of <span class=\"tex2jax_process\">$0.38$</span>.</div><div class=\"paragraph\">For distribution of samples of size <span class=\"tex2jax_process\">$n = 1000$</span>, the graph would</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Look less normal and have less variability."
+    },
+    {
+      "letter": "B",
+      "text": "Have less variability and a center greater than\n0.38\n."
+    },
+    {
+      "letter": "C",
+      "text": "Have the same shape but a center greater than\n0.38\n."
+    },
+    {
+      "letter": "D",
+      "text": "Be less variable and have the same center."
+    },
+    {
+      "letter": "E",
+      "text": "Have the same variability but a center greater than\n0.38\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.H.2",
+    "UNC-3.H.1",
+    "3.C",
+    "UNC-3",
+    "UNC-3.H",
+    "UNC-3.H.3"
+  ],
+  "standards": [
+    "UNC-3.H.2",
+    "UNC-3.H.1",
+    "3.C",
+    "UNC-3",
+    "UNC-3.H",
+    "UNC-3.H.3"
+  ]
+}

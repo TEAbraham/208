@@ -1,0 +1,44 @@
+{
+  "question_id": "question-083",
+  "title": "Investigating Relationships: Power Lines",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Researchers are curious if there is a connection between childhood cancer rates and living near power lines.  </div><div class=\"paragraph\">What could be a viable way to investigate this relationship?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> Randomly select <span class=\"tex2jax_process\">$200\\text{ children}$</span> and move half of them near power lines while ensuring the other half do not live near power lines then compare cancer rates.  </div><div class=\"paragraph\"><strong>II.</strong> Randomly select <span class=\"tex2jax_process\">$100\\text{ children}$</span> who live near power lines and another <span class=\"tex2jax_process\">$100\\text{ children}$</span> who do not live near power lines then investigate cancer rates of the respective groups.  </div><div class=\"paragraph\"><strong>III.</strong> Randomly select <span class=\"tex2jax_process\">$100\\text{ children}$</span> who have cancer and another <span class=\"tex2jax_process\">$100\\text{ children}$</span> who do not have cancer and compare where the children live.    </div></blockquote>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "I and II only."
+    },
+    {
+      "letter": "D",
+      "text": "II and III only."
+    },
+    {
+      "letter": "E",
+      "text": "I, II, and III."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3",
+    "VAR-3.B.1",
+    "1.B",
+    "VAR-3.B"
+  ],
+  "standards": [
+    "VAR-3",
+    "VAR-3.B.1",
+    "1.B",
+    "VAR-3.B"
+  ]
+}

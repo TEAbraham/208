@@ -1,0 +1,44 @@
+{
+  "question_id": "question-109",
+  "title": "Heights of Students",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The heights of students in an AP Statistics class follow an approximately Normal Distribution with an average height of <span class=\"tex2jax_process\">$68.5$</span> inches and a standard deviation of <span class=\"tex2jax_process\">$2.42$</span> inches.  What is the minimum height a student can have to be considered the top <span class=\"tex2jax_process\">$12$</span>% of heights in the class?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "65.7\ninches"
+    },
+    {
+      "letter": "B",
+      "text": "71.3\ninches"
+    },
+    {
+      "letter": "C",
+      "text": "68.5\ninches"
+    },
+    {
+      "letter": "D",
+      "text": "71.6\ninches"
+    },
+    {
+      "letter": "E",
+      "text": "74\ninches"
+    }
+  ],
+  "correct_answer": "<strong>Choice ‘B’</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-6.B.2",
+    "VAR-6.B",
+    "3.A",
+    "VAR-6"
+  ],
+  "standards": [
+    "VAR-6.B.2",
+    "VAR-6.B",
+    "3.A",
+    "VAR-6"
+  ]
+}

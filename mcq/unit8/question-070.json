@@ -1,0 +1,49 @@
+{
+  "question_id": "question-070",
+  "title": "${ \\chi}^{2}$ Independence: How Much Freedom In Relationships?",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A student wondered if there was an association between relationship status and overall letter grade(based off grade point average) at her high school.    She used a stratified random sample to select  20 students within each letter grade.  The information is displayed in the table below.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Letter Grade</th><th scope=\"col\">In a relationship</th><th scope=\"col\">Not in a relationship</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>A</td><td>8</td><td>12</td><td>20</td></tr><tr><td>B</td><td>11</td><td>9</td><td>20</td></tr><tr><td>C</td><td>13</td><td>7</td><td>20</td></tr><tr><td>D</td><td>10</td><td>10</td><td>20</td></tr><tr><td>F</td><td>6</td><td>14</td><td>20</td></tr><tr><td>Total</td><td>48</td><td>52</td><td>100</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Which of the following is the number of degrees of freedom used for the appropriate test of significance?</div>",
+  "image_files": [
+    "images/question-070-img1.PNG",
+    "images/question-070-img2.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "2"
+    },
+    {
+      "letter": "B",
+      "text": "4"
+    },
+    {
+      "letter": "C",
+      "text": "5"
+    },
+    {
+      "letter": "D",
+      "text": "10"
+    },
+    {
+      "letter": "E",
+      "text": "18"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is correct.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.M",
+    "VAR-8.M.2",
+    "3.E",
+    "VAR-8",
+    "VAR-8.M.1"
+  ],
+  "standards": [
+    "VAR-8.M",
+    "VAR-8.M.2",
+    "3.E",
+    "VAR-8",
+    "VAR-8.M.1"
+  ]
+}

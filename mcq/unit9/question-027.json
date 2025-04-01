@@ -1,0 +1,44 @@
+{
+  "question_id": "question-027",
+  "title": "Confidence Interval Facts",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Four statements below about some aspects of confidence intervals for the slope of a regression model are true.  One statement is false. </div><div class=\"paragraph\">Which statement below is <strong>false</strong>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Critical values increase in value as degrees of freedom decrease in value."
+    },
+    {
+      "letter": "B",
+      "text": "The width of a regression model tends to increase when the sample size is decreased."
+    },
+    {
+      "letter": "C",
+      "text": "Approximately\nC\n%\nof confidence intervals will contain the true slope of the regression model in repeated random sampling."
+    },
+    {
+      "letter": "D",
+      "text": "When a confidence interval does not contain zero, then no association between the variables can be shown."
+    },
+    {
+      "letter": "E",
+      "text": "The standard error shows about how far the slope of the derived regression line would vary from the slope of the true regression line."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.AG.1",
+    "UNC-4",
+    "4.A",
+    "UNC-4.AG"
+  ],
+  "standards": [
+    "UNC-4.AG.1",
+    "UNC-4",
+    "4.A",
+    "UNC-4.AG"
+  ]
+}

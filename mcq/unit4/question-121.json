@@ -1,0 +1,46 @@
+{
+  "question_id": "question-121",
+  "title": "Law of Large Numbers",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">From a large population, you take a random sample of size <span class=\"tex2jax_process\">$n = 30$</span> and obtain a sample mean <span class=\"tex2jax_process\">$\\bar{x} = 21.34$</span> and <span class=\"tex2jax_process\">$s = 3.2$</span>.  </div><div class=\"paragraph\">You add additional members of the population to this sample.  </div><div class=\"paragraph\">What does the “law of large numbers” tell us about the mean and standard deviation of this ever-increasing sample?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "As\nn\nincreases, the expected values of the sample mean and sample standard deviation will approach the population mean and population standard deviation."
+    },
+    {
+      "letter": "B",
+      "text": "As\nn\nincreases, the expected value of the sample mean will approach the population mean."
+    },
+    {
+      "letter": "C",
+      "text": "As\nn\nincreases, the expected value of\ns\nwill be\nσ\n."
+    },
+    {
+      "letter": "D",
+      "text": "As\nn\nincreases, the distribution will become more and more skewed."
+    },
+    {
+      "letter": "E",
+      "text": "As\nn\nincreases, the values of the sample mean\n¯\nx\nand\ns\nwill vary significantly."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.D.1",
+    "VAR-5.D",
+    "4.B",
+    "VAR-5",
+    "3.B"
+  ],
+  "standards": [
+    "VAR-5.D.1",
+    "VAR-5.D",
+    "4.B",
+    "VAR-5",
+    "3.B"
+  ]
+}

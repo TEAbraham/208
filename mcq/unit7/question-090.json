@@ -1,0 +1,44 @@
+{
+  "question_id": "question-090",
+  "title": "Rose Wells and Her Pet Alien's Significance Test",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Rose Wells has captured an alien and decides to keep it as a pet. Always curious, Rose wonders if the alien's average body temperature is the same as is normal for humans (<span class=\"tex2jax_process\">$98.6^\\circ$</span>) and decides to do a significance test. Below are the alien's temperature readings, gathered at <span class=\"tex2jax_process\">$6$</span> randomly selected times:</div><blockquote><div class=\"paragraph\"><span class=\"tex2jax_process\">$85.1, 99.8, 93.7, 105.6, 98.2, 100.4$</span>  </div></blockquote><div class=\"paragraph\">If Rose assumes that the alien's body temperature follows a normal distribution, what would be the <span class=\"tex2jax_process\">$p$</span>-value of an appropriate significance test?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.305"
+    },
+    {
+      "letter": "B",
+      "text": "0.316"
+    },
+    {
+      "letter": "C",
+      "text": "0.631"
+    },
+    {
+      "letter": "D",
+      "text": "0.684"
+    },
+    {
+      "letter": "E",
+      "text": "A statistical test cannot be performed because we do not know the standard deviation of all of the alien's body temperatures."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7.E",
+    "VAR-7.E.1",
+    "VAR-7",
+    "3.E"
+  ],
+  "standards": [
+    "VAR-7.E",
+    "VAR-7.E.1",
+    "VAR-7",
+    "3.E"
+  ]
+}

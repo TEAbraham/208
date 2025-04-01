@@ -1,0 +1,44 @@
+{
+  "question_id": "question-107",
+  "title": "A Salty Question",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A spice company was curious as to whether people preferred using salt or pepper.  This company sold to many stores on both coasts. The company asked whether sales were higher for salt or pepper in <span class=\"tex2jax_process\">$50$</span> randomly selected stores on the West Coast and another <span class=\"tex2jax_process\">$50$</span> on the East Coast.  On the West Coast, <span class=\"tex2jax_process\">$30$</span> stores said that more salt was sold and on the East Coast, <span class=\"tex2jax_process\">$18$</span> stores said that more salt was sold.  Which would be the correct conclusion for a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "We are\n95\n%\nconfident that the interval from\n0.05\nto\n0.43\ncaptures the true difference in the proportions of salt preference shown by store sales of the West Coast over the East Coast."
+    },
+    {
+      "letter": "B",
+      "text": "We are\n95\n%\nconfident that the interval from\n0.14\nto\n0.34\ncaptures the true difference in the proportions of salt preference shown by store sales of the West Coast over the East Coast."
+    },
+    {
+      "letter": "C",
+      "text": "We are\n95\n%\nconfident that the interval from\n0.08\nto\n0.40\ncaptures the true difference in the proportions of salt preference shown by store sales of the West Coast over the East Coast."
+    },
+    {
+      "letter": "D",
+      "text": "We are\n95\n%\nconfident that the probability that West Coast stores sell more salt is between\n0.05\nto\n0.43\n."
+    },
+    {
+      "letter": "E",
+      "text": "We are\n95\n%\nconfident that the probability that West Coast stores sell more salt is between\n0.14\nto\n0.34\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.N.1",
+    "4.D",
+    "UNC-4",
+    "UNC-4.N"
+  ],
+  "standards": [
+    "UNC-4.N.1",
+    "4.D",
+    "UNC-4",
+    "UNC-4.N"
+  ]
+}

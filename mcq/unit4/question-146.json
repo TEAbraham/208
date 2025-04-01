@@ -1,0 +1,48 @@
+{
+  "question_id": "question-146",
+  "title": "Combining Standard Deviations: Spinner",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Let <span class=\"tex2jax_process\">$X$</span> represent the number where an arrow stops on a spinner that is numbered <span class=\"tex2jax_process\">$1$</span> through <span class=\"tex2jax_process\">$4$</span>.  The expected value of <span class=\"tex2jax_process\">$X$</span> is <span class=\"tex2jax_process\">$2.5$</span> and the standard deviation of <span class=\"tex2jax_process\">$X$</span> is approximately <span class=\"tex2jax_process\">$1.118$</span>.  The spinner will be spun twice, and the numbers the arrow stops on will be added.  </div><div class=\"paragraph\"> Which of the following values is closest to the standard deviation of the resulting sum?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1.118"
+    },
+    {
+      "letter": "B",
+      "text": "1.495"
+    },
+    {
+      "letter": "C",
+      "text": "1.581"
+    },
+    {
+      "letter": "D",
+      "text": "2.236"
+    },
+    {
+      "letter": "E",
+      "text": "2.500"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5.E.3",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ],
+  "standards": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5.E.3",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-035",
+  "title": "Roughly Normal",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A binomial distribution will be approximately normal if</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The sample size is at least\n30\n."
+    },
+    {
+      "letter": "B",
+      "text": "Each trial is independent."
+    },
+    {
+      "letter": "C",
+      "text": "n\n(\nP\n)\nand\nn\n(\n1\n−\nP\n)\nare both over\n10\n, where\nn\nis the number of trials and\nP\nis the probability of success."
+    },
+    {
+      "letter": "D",
+      "text": "The population is at least\n10\ntimes the sample size."
+    },
+    {
+      "letter": "E",
+      "text": "Each trial has the same probability."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-6.C",
+    "VAR-6.C.1",
+    "3.C",
+    "VAR-6"
+  ],
+  "standards": [
+    "VAR-6.C",
+    "VAR-6.C.1",
+    "3.C",
+    "VAR-6"
+  ]
+}

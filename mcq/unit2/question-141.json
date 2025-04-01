@@ -1,0 +1,51 @@
+{
+  "question_id": "question-141",
+  "title": "Housing Market",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">The housing market in a small town is currently going through a real-estate boom. A realtor is interested in looking at the relationship between the price of a house and the number of days on the market. She collects data from the last <span class=\"tex2jax_process\">$20$</span> real-estate transactions from her town and created the scatterplot below.</div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div>\n<div class=\"paragraph\">Which of the following is <strong>true</strong> about the point labeled \"A\" on the scatterplot?</div>",
+  "image_files": [
+    "images/question-141-img1.png",
+    "images/question-141-img2.png"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "If the labeled point is removed, the slope would increase and the correlation would increase."
+    },
+    {
+      "letter": "B",
+      "text": "If the labeled point is removed, the slope would decrease and the correlation would increase."
+    },
+    {
+      "letter": "C",
+      "text": "If the labeled point is removed, the slope and correlation coefficient are both unchanged."
+    },
+    {
+      "letter": "D",
+      "text": "If the labeled point is removed, the slope would remain the same and the correlation coefficient would decrease."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer. ",
+  "solution": "Here's the given graph:\n\nThe labeled point, <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7048-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>A</mi></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-33113\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-33114\" class=\"mjx-mrow\"><span id=\"MJXc-Node-33115\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.496em; padding-bottom: 0.277em;\">A</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7048\">A</script></span>, is considered a <strong>high-leverage</strong> and <strong>influential point</strong> for the scatterplot. A point is considered high-leverage when it has a significantly larger or smaller <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7049-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>x</mi></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-33116\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-33117\" class=\"mjx-mrow\"><span id=\"MJXc-Node-33118\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.222em; padding-bottom: 0.277em;\">x</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7049\">x</script></span>-value than the other observations have. In this case, the house labeled \"A\" has been on the market much longer than the other homes.\n\nAn influential point is any point that when removed changes the relationship substantially.  It can change the y-intercept, slope, or correlation coefficient. In this case point <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7050-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>A</mi></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-33119\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-33120\" class=\"mjx-mrow\"><span id=\"MJXc-Node-33121\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.496em; padding-bottom: 0.277em;\">A</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7050\">A</script></span> is <strong>increasing the correlation coefficient</strong> of the least-squares regression line by keeping the points in a more strongly linear form. When point A is removed, the correlation would thus decrease and the slope of the regression line would remain the same (approximately) because point A is approximately on the same linear path as the other data points. \n\nSo, <strong>Choice 'D'</strong> is correct. ",
+  "distractor_explanations": {
+    "A": "<strong>Choice 'A'</strong> is incorrect.  As noted above, the point is keeping the points in a linear form, therefore when removed, the correlation coefficient would decrease. The slope would remain unchanged upon removal of the labeled point because point A is on the same approximate linear path as the other data points.",
+    "B": "<strong>Choice 'B'</strong> is incorrect. Removing point A would not cause a significant change in the slope of the linear regression line because point A is on the same approximate linear trend as the other <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7051-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>19</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-33122\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-33123\" class=\"mjx-mrow\"><span id=\"MJXc-Node-33124\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">19</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>19</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7051\">19</script></span> data points. If point A is removed, the correlation coefficient would actually decrease (not increase) because the labeled point is strongly influencing (\"confirming\") the linear trend of the full data set. ",
+    "C": "<strong>Choice 'C'</strong> is incorrect. Since the labeled point is making the graph more strongly linear, removing the point would decrease the correlation."
+  },
+  "tags": [
+    "DAT-1",
+    "DAT-1.I",
+    "DAT-1.I.2",
+    "DAT-1.I.3",
+    "2.A",
+    "DAT-1.I.1"
+  ],
+  "standards": [
+    "DAT-1",
+    "DAT-1.I",
+    "DAT-1.I.2",
+    "DAT-1.I.3",
+    "2.A",
+    "DAT-1.I.1"
+  ]
+}

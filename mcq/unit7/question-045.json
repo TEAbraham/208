@@ -1,0 +1,44 @@
+{
+  "question_id": "question-045",
+  "title": "College Tuition: Testing the Data",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">According to the National Center for Education Statistics, the average total tuition, fees, room and board at 4-year colleges and universities was <span>$</span><span class=\"tex2jax_process\">$24{,}706$</span> in 2013-2014. Mr. Nye believes the average is now higher.  </div><div class=\"paragraph\">To investigate, he randomly selects one 4-year school from each of the 50 states. He finds the sample average to be <span>$</span><span class=\"tex2jax_process\">$25{,}322$</span> and the sample standard deviation to be <span>$</span><span class=\"tex2jax_process\">$2{,}375$</span>. There are no outliers in his data.  </div><div class=\"paragraph\">Does his data provide evidence at the <span class=\"tex2jax_process\">$\\alpha = 0.05$</span> level that the average total tuition, fees, room and board at 4-year​ colleges has increased?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "No, the\np\n-value for the appropriate significance test is\n0.07\n. Since\n0.07\n>\n0.05\n, we do not have sufficient evidence at the\nα\n=\n0.05\nlevel."
+    },
+    {
+      "letter": "B",
+      "text": "No, the sample average is only $\n616\nmore than the 2013-2014 value. Considering that costs are more than $\n20\n,\n000\n, this is really not that much money."
+    },
+    {
+      "letter": "C",
+      "text": "Yes, the\np\n-value for the appropriate significance test is\n0.04\n, so we have strong evidence to suggest that the cost has increased."
+    },
+    {
+      "letter": "D",
+      "text": "Yes, the sample average represents a\n2.5\n%\nincrease over the 2013-2014 costs. Since this is less than\n5\n%\n, our results are statistically significant at the\nα\n=\n0.05\nlevel."
+    },
+    {
+      "letter": "E",
+      "text": "Mr. Nye cannot conduct a significance test here since not all conditions are satisfied."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.T",
+    "4.D",
+    "UNC-4",
+    "UNC-4.T.1"
+  ],
+  "standards": [
+    "UNC-4.T",
+    "4.D",
+    "UNC-4",
+    "UNC-4.T.1"
+  ]
+}

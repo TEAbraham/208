@@ -1,0 +1,48 @@
+{
+  "question_id": "question-142",
+  "title": "Long-Lasting Lightbulbs",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A researcher would like to determine which brand of light bulbs burns the longest.  </div><div class=\"paragraph\">A simple random sample of <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7598-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>30</mn><mtext>&amp;#xA0;Brand A bulbs</mtext></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-35119\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-35120\" class=\"mjx-mrow\"><span id=\"MJXc-Node-35121\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">30</span></span><span id=\"MJXc-Node-35122\" class=\"mjx-mtext\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.441em; padding-bottom: 0.332em;\">&nbsp;Brand A bulbs</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mtext>&nbsp;Brand A bulbs</mtext></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7598\">30\\text{ Brand A bulbs}</script></span> and <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7599-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>30</mn><mtext>&amp;#xA0;Brand B bulbs</mtext></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-35123\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-35124\" class=\"mjx-mrow\"><span id=\"MJXc-Node-35125\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">30</span></span><span id=\"MJXc-Node-35126\" class=\"mjx-mtext\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.332em;\">&nbsp;Brand B bulbs</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mtext>&nbsp;Brand B bulbs</mtext></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7599\">30\\text{ Brand B bulbs}</script></span> are tested by screwing the bulbs into two different sockets at the same time and measuring the average number of hours before the bulbs burn out.  </div><div class=\"paragraph\">What is wrong with this experimental design?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The sample size for each bulb is too small since the population of bulbs is theoretically infinite."
+    },
+    {
+      "letter": "B",
+      "text": "A simple random sample of\n30\n bulbs\nfrom each brand is adequate for studying light bulbs so there is nothing wrong with this design."
+    },
+    {
+      "letter": "C",
+      "text": "The type of socket used to test the bulbs is a confounding variable."
+    },
+    {
+      "letter": "D",
+      "text": "This should be a blind study where the researcher does not know which brand of bulb is being tested."
+    },
+    {
+      "letter": "E",
+      "text": "A simple random sample of bulbs is not necessary because there is no reason to believe that a bulb from one brand is different from any other bulb within the same brand."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3.E.1",
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.B.1",
+    "VAR-3.B"
+  ],
+  "standards": [
+    "VAR-3.E.1",
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.B.1",
+    "VAR-3.B"
+  ]
+}

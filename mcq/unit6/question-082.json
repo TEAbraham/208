@@ -1,0 +1,46 @@
+{
+  "question_id": "question-082",
+  "title": "Power and Type II Error",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A significance test was conducted using a two-sided alternate hypothesis and a significance level of <span class=\"tex2jax_process\">$\\alpha=0.05$</span>.  The power of the test was calculated to be <span class=\"tex2jax_process\">$0.92$</span>.<br>​<br>Which of the following gives the probability of making a type II error on this test? </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.025"
+    },
+    {
+      "letter": "B",
+      "text": "0.04"
+    },
+    {
+      "letter": "C",
+      "text": "0.05"
+    },
+    {
+      "letter": "D",
+      "text": "0.08"
+    },
+    {
+      "letter": "E",
+      "text": "0.92"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-5.D.1",
+    "UNC-5",
+    "UNC-5.D.2",
+    "UNC-5.D"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-5.D.1",
+    "UNC-5",
+    "UNC-5.D.2",
+    "UNC-5.D"
+  ]
+}

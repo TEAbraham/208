@@ -1,0 +1,44 @@
+{
+  "question_id": "question-082",
+  "title": "Home Value",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A high school statistics teacher is interested in the socioeconomic demographics of the students in her district.  </div><div class=\"paragraph\">She surveyed all of her AP statistics students (<span class=\"tex2jax_process\">$n = 110$</span>) and found the median value of their homes is <span class=\"tex2jax_process\">$\\$294{,}034$</span>. The median value of homes in the state the district is located in is <span class=\"tex2jax_process\">$\\$179{,}304$</span>.  </div><div class=\"paragraph\">What conclusions can be made from this sample?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Students in her school seem to have a much higher median home value than the rest of the state does."
+    },
+    {
+      "letter": "B",
+      "text": "Students in her school’s AP statistics class must have a higher median home value than the rest of the school."
+    },
+    {
+      "letter": "C",
+      "text": "Nothing because she should have used the mean, not the median, for comparison."
+    },
+    {
+      "letter": "D",
+      "text": "Nothing since she did not sample randomly from her population of interest."
+    },
+    {
+      "letter": "E",
+      "text": "Nothing since the sample was not large enough."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-1.G",
+    "1.A",
+    "VAR-1.G.1",
+    "VAR-1"
+  ],
+  "standards": [
+    "VAR-1.G",
+    "1.A",
+    "VAR-1.G.1",
+    "VAR-1"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-138",
+  "title": "Two-Sided",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Suppose a two-sample <span class=\"tex2jax_process\">$T$</span>-test gives appropriate evidence of a significant difference between the two samples at the <span class=\"tex2jax_process\">$10\\%$</span> level. Suppose a one-sided <span class=\"tex2jax_process\">$T$</span>-test was performed.  </div><div class=\"paragraph\">What is the greatest alpha level that would be considered statistically significant for this data?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1\n%"
+    },
+    {
+      "letter": "B",
+      "text": "5\n%"
+    },
+    {
+      "letter": "C",
+      "text": "10\n%"
+    },
+    {
+      "letter": "D",
+      "text": "20\n%"
+    },
+    {
+      "letter": "E",
+      "text": "Unable to determine."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.G",
+    "DAT-3.G.1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.G",
+    "DAT-3.G.1"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "question_id": "question-097",
+  "title": "Interpreting a Residual Plot: Speed and Average Gas Mileage",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A least squares regression analysis of average gas mileage versus speed (mph) produces the following residual plot:  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"paragraph\">Based on the residual plot, which of the following statement(s) must be TRUE?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> The relationship between speed and average gas mileage is non-linear.  </div><div class=\"paragraph\"><strong>II.</strong> The average gas mileage decreased as speed increased from <span class=\"tex2jax_process\">$35$</span> mph to <span class=\"tex2jax_process\">$60$</span> mph.  </div><div class=\"paragraph\"><strong>III.</strong> The regression equation would overestimate the average miles per gallon the car gets when the speed is <span class=\"tex2jax_process\">$10$</span> miles per hour.    </div></blockquote>",
+  "image_files": [
+    "images/question-097-img1.png"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "III only."
+    },
+    {
+      "letter": "C",
+      "text": "I and II only."
+    },
+    {
+      "letter": "D",
+      "text": "I and III only."
+    },
+    {
+      "letter": "E",
+      "text": "I, II, and III."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-1.E.1",
+    "DAT-1.E",
+    "DAT-1",
+    "2.B",
+    "DAT-1.E.2"
+  ],
+  "standards": [
+    "DAT-1.E.1",
+    "DAT-1.E",
+    "DAT-1",
+    "2.B",
+    "DAT-1.E.2"
+  ]
+}

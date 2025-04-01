@@ -1,0 +1,46 @@
+{
+  "question_id": "question-087",
+  "title": "Independent Events A and B",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose two events, A and B, are independent.  </div><div class=\"paragraph\">Which of the following statements is/are true?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> <span class=\"tex2jax_process\">$P(A$</span> and <span class=\"tex2jax_process\">$B) = P(A) \\times P(B)$</span>  </div><div class=\"paragraph\"><strong>II.</strong> <span class=\"tex2jax_process\">$P(A|B) = P(A)$</span>  </div><div class=\"paragraph\"><strong>III.</strong> <span class=\"tex2jax_process\">$P(A|B) = P(B)$</span>    </div></blockquote>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and II only."
+    },
+    {
+      "letter": "E",
+      "text": "I, II, and III."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ],
+  "standards": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ]
+}

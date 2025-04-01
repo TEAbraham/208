@@ -1,0 +1,44 @@
+{
+  "question_id": "question-013",
+  "title": "Critical Value in a Slope $t$-Interval: Height, Weight",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A statistician wanted to construct a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for the population slope between height (in inches) and weight (in pounds) of his co-workers. He made height the explanatory (independent) variable and weight the response (dependent) variable.  </div><div class=\"paragraph\">He selected a random sample of <span class=\"tex2jax_process\">$30$</span> people from work and asked them to list their height and weight. After seeing his conditions were satisfied, he constructed the interval.  </div><div class=\"paragraph\">Which of the following would he use for the critical value?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1.960"
+    },
+    {
+      "letter": "B",
+      "text": "2.037"
+    },
+    {
+      "letter": "C",
+      "text": "2.042"
+    },
+    {
+      "letter": "D",
+      "text": "2.045"
+    },
+    {
+      "letter": "E",
+      "text": "2.048"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.AC.3",
+    "UNC-4.AC",
+    "UNC-4",
+    "1.D"
+  ],
+  "standards": [
+    "UNC-4.AC.3",
+    "UNC-4.AC",
+    "UNC-4",
+    "1.D"
+  ]
+}

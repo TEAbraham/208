@@ -1,0 +1,44 @@
+{
+  "question_id": "question-175",
+  "title": "Calculate Exact Binomial",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose that <span class=\"tex2jax_process\">$10\\text{ computer chips}$</span> are randomly selected from a large shipment.  </div><div class=\"paragraph\">If <span class=\"tex2jax_process\">$95\\%$</span> of the computer chips work properly, and each chip works independently of one another, what is the probability that exactly <span class=\"tex2jax_process\">$8$</span> of the chips work?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.8323"
+    },
+    {
+      "letter": "B",
+      "text": "0.2354"
+    },
+    {
+      "letter": "C",
+      "text": "0.0352"
+    },
+    {
+      "letter": "D",
+      "text": "0.0746"
+    },
+    {
+      "letter": "E",
+      "text": "0.000023"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.B",
+    "3.A",
+    "UNC-3",
+    "UNC-3.B.1"
+  ],
+  "standards": [
+    "UNC-3.B",
+    "3.A",
+    "UNC-3",
+    "UNC-3.B.1"
+  ]
+}

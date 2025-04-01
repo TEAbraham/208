@@ -1,0 +1,44 @@
+{
+  "question_id": "question-044",
+  "title": "Ice Cream Shop | 2 of 3",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">An owner of a local ice cream shop wishes to determine if a positive linear relationship exists between high temperatures and the shop’s profits recorded that day.  </div><div class=\"paragraph\">The owner recorded sales from the last <span class=\"tex2jax_process\">$50\\text{ days}$</span> of the summer and performed a linear regression <span class=\"tex2jax_process\">$T$</span>-test on the data.  </div><div class=\"paragraph\">If <span class=\"tex2jax_process\">$B$</span> is defined as the true population slope in the relationship between temperature and ice cream sales, the appropriate null and alternative hypotheses in this situation would be what?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "H\n0\n:\nB\n=\n0\n\nH\na\n:\nB\n>\n0"
+    },
+    {
+      "letter": "B",
+      "text": "H\n0\n:\nB\n=\n1 H\na\n:\nB\n>\n1"
+    },
+    {
+      "letter": "C",
+      "text": "H\n0\n:\nB\n=\n0 H\na\n:\nB\n>\n1"
+    },
+    {
+      "letter": "D",
+      "text": "H\n0\n:\nB\n=\n0 H\na\n:\nB\n>\n1"
+    },
+    {
+      "letter": "E",
+      "text": "H\n0\n:\nB\n>\n0 H\na\n:\nB\n>\n1"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.M.1",
+    "DAT-3.M"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.M.1",
+    "DAT-3.M"
+  ]
+}

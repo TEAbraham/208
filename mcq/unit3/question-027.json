@@ -1,0 +1,46 @@
+{
+  "question_id": "question-027",
+  "title": "Sampling to Diagnose Anemia",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">According to the Mayo Clinic, a patient is considered to be anemic if the blood hematocrit value (the proportion of the blood made up of red blood cells) is lower than <span class=\"tex2jax_process\">$35\\%$</span>.  </div><div class=\"paragraph\">A doctor takes a sample of her patient's blood to check for anemia and measures the hematocrit value to be <span class=\"tex2jax_process\">$38\\%$</span>.  Which of the following statements is true concerning this study?</div><blockquote><div class=\"paragraph\"><strong>I.</strong>  38% is the population parameter.  </div><div class=\"paragraph\"><strong>II.</strong>  The blood drawn by the doctor is the sample for this study.  </div><div class=\"paragraph\"><strong>III.</strong>  The doctor obtains a sample of blood from the patient in order to draw a conclusion about the overall population of the patient's blood supply.    </div></blockquote>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "II only."
+    },
+    {
+      "letter": "B",
+      "text": "I and II only."
+    },
+    {
+      "letter": "C",
+      "text": "I and III only."
+    },
+    {
+      "letter": "D",
+      "text": "II and III only."
+    },
+    {
+      "letter": "E",
+      "text": "I, II, and III."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-2",
+    "DAT-2.A.1",
+    "1.C",
+    "DAT-2.A",
+    "DAT-2.A.2"
+  ],
+  "standards": [
+    "DAT-2",
+    "DAT-2.A.1",
+    "1.C",
+    "DAT-2.A",
+    "DAT-2.A.2"
+  ]
+}

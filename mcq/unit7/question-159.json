@@ -1,0 +1,44 @@
+{
+  "question_id": "question-159",
+  "title": "More Weight Loss?",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A consumer products company was looking at two weight loss regimens:  the Moon and Teko diet programs. <span class=\"tex2jax_process\">$32$</span> users of each program were selected at random and their weight loss was recorded over a three-month period.</div><div class=\"paragraph\">Those on the Moon regimen had an average weight loss of <span class=\"tex2jax_process\">$12.9$</span> pounds with a standard deviation of <span class=\"tex2jax_process\">$2.3$</span> pounds, while those on the Teko diet had an average weight loss of <span class=\"tex2jax_process\">$13.8$</span> pounds with a standard deviation of <span class=\"tex2jax_process\">$2.4$</span> pounds. The analyst working with the data came out with a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval of <span class=\"tex2jax_process\">$(-2.10, 0.30)$</span>.  She wondered that if the study was run again, what the effects of sample size would be? </div><div class=\"paragraph\">Which of the following would decrease the width of the confidence interval <em>and</em> show more clearly that one diet program produced more weight loss than the other (assuming all other values remained the same)?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Halve the sample sizes and sample\n16\npeople from each diet program."
+    },
+    {
+      "letter": "B",
+      "text": "Double the sample sizes and sample\n64\npeople from each diet program."
+    },
+    {
+      "letter": "C",
+      "text": "Increase the sample sizes to\n50\npeople from each diet program."
+    },
+    {
+      "letter": "D",
+      "text": "Increase the Moon sample to\n50\npeople and keep the Teko sample size at\n32\n."
+    },
+    {
+      "letter": "E",
+      "text": "Decrease the Teko sample to\n16\npeople and keep the Moon sample size at\n32\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.AB",
+    "UNC-4.AB.1",
+    "UNC-4",
+    "4.A"
+  ],
+  "standards": [
+    "UNC-4.AB",
+    "UNC-4.AB.1",
+    "UNC-4",
+    "4.A"
+  ]
+}

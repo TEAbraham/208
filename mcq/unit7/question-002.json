@@ -1,0 +1,49 @@
+{
+  "question_id": "question-002",
+  "title": "Hours of Sleep",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A statistics teacher at a large high school wants to estimate the average number of hours the students at the school get on a nightly basis. She decides to ask a random sample of <span class=\"tex2jax_process\">$40$</span> students from the high school \"How much sleep did you get last night?\" She got a sample mean of <span class=\"tex2jax_process\">$\\bar{x} = 6.5$</span> hours. </div><div class=\"paragraph\">If the other statistics teacher decides to select their own sample of <span class=\"tex2jax_process\">$40$</span> random students, should they expect to get a sample mean of <span class=\"tex2jax_process\">$\\bar{x} = 6.5$</span> as well?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes, because this would be the sample mean for the entire population"
+    },
+    {
+      "letter": "B",
+      "text": "Yes, because the Central Limit Theorem is met"
+    },
+    {
+      "letter": "C",
+      "text": "No, because random samples will more than likely produce different statistic values"
+    },
+    {
+      "letter": "D",
+      "text": "No, because the distribution is not stated as Normal"
+    },
+    {
+      "letter": "E",
+      "text": "No, because the students are independent of each other"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer. ",
+  "solution": "The first teacher's sample produced a statistic of <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-20813-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mover><mi>x</mi><mo stretchy=&quot;false&quot;>&amp;#x00AF;</mo></mover></mrow><mo>=</mo><mn>6.5</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-115254\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-115255\" class=\"mjx-mrow\"><span id=\"MJXc-Node-115256\" class=\"mjx-texatom\"><span id=\"MJXc-Node-115257\" class=\"mjx-mrow\"><span id=\"MJXc-Node-115258\" class=\"mjx-munderover\"><span class=\"mjx-stack\"><span class=\"mjx-over\" style=\"height: 0.096em; padding-bottom: 0.06em; padding-left: 0.064em;\"><span id=\"MJXc-Node-115260\" class=\"mjx-mo\" style=\"vertical-align: top;\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.277em; padding-bottom: 0.332em;\">¯</span></span></span><span class=\"mjx-op\"><span id=\"MJXc-Node-115259\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.222em; padding-bottom: 0.277em;\">x</span></span></span></span></span></span></span><span id=\"MJXc-Node-115261\" class=\"mjx-mo MJXc-space3\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.058em; padding-bottom: 0.332em;\">=</span></span><span id=\"MJXc-Node-115262\" class=\"mjx-mn MJXc-space3\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">6.5</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow class=\"MJX-TeXAtom-ORD\"><mover><mi>x</mi><mo stretchy=\"false\">¯</mo></mover></mrow><mo>=</mo><mn>6.5</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-20813\">\\bar{x} = 6.5</script></span> hours. When the second teacher selects their sample, there is a good chance that many of the students selected will be different from the first sample. (Although, some students can be in both samples). Therefore, due to <strong>sampling variability</strong> the different samples of students will more than likely produce different statistic values. \n\nThe second teacher should not expect their sample to produce the same statistic value. \n\n<strong>Choice 'C'</strong> is correct. ",
+  "distractor_explanations": {
+    "A": "<strong>Choice 'A'</strong> is incorrect. This mean value is only for the selected <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-20814-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>40</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-115263\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-115264\" class=\"mjx-mrow\"><span id=\"MJXc-Node-115265\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">40</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-20814\">40</script></span> students, not for the whole population. We can use it as an estimate for the parameter value, but it does not represent the population mean. ",
+    "B": "<strong>Choice 'B'</strong> is incorrect. Since the sample size is greater than <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-20815-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>30</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-115266\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-115267\" class=\"mjx-mrow\"><span id=\"MJXc-Node-115268\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">30</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-20815\">30</script></span>, the Central Limit Theorem is met, but this simply tells us that the sampling distribution is approximately normal, and nothing about the sample mean. ",
+    "D": "<strong>Choice 'D'</strong> is incorrect. Knowing the population is Normal will not give us the sample mean, or population mean. We would just know the sampling distribution is approximately Normal, which the Central Limit Theorem tells us anyways. ",
+    "E": "<strong>Choice 'E'</strong> is incorrect. Since some students can be randomly selected to both samples, the students are not independent of each other."
+  },
+  "tags": [
+    "VAR-1.I.1",
+    "1.A",
+    "VAR-1",
+    "VAR-1.I"
+  ],
+  "standards": [
+    "VAR-1.I.1",
+    "1.A",
+    "VAR-1",
+    "VAR-1.I"
+  ]
+}

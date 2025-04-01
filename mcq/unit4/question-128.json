@@ -1,0 +1,46 @@
+{
+  "question_id": "question-128",
+  "title": "Science Scale Miscalibration",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A science teacher has students measure the mass of their personal science notebooks using the same scale. The resulting mean and standard deviation are <span class=\"tex2jax_process\">$130\\text{ grams}$</span> and <span class=\"tex2jax_process\">$5\\text{ grams}$</span>, respectively.  </div><div class=\"paragraph\">The teacher later realizes that the scale used by students to measure the notebooks was not calibrated properly. The masses of the notebooks registered as <span class=\"tex2jax_process\">$2\\text{ grams}$</span> more than they should have been.  </div><div class=\"paragraph\">Without remeasuring all the notebooks, what values should the teacher use for the mean and standard deviation of these values?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "μ\n=\n128\n grams\n;\nσ\n=\n5\n grams"
+    },
+    {
+      "letter": "B",
+      "text": "μ\n=\n128\n grams\n;\nσ\n=\n3\n grams"
+    },
+    {
+      "letter": "C",
+      "text": "μ\n=\n128\n grams\n;\nStandard deviation cannot be determined."
+    },
+    {
+      "letter": "D",
+      "text": "μ\n=\n132\n grams\n;\nσ\n=\n5\n grams"
+    },
+    {
+      "letter": "E",
+      "text": "μ\n=\n132\n grams\n;\nσ\n=\n3\n grams"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ],
+  "standards": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

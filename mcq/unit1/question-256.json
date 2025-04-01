@@ -1,0 +1,46 @@
+{
+  "question_id": "question-256",
+  "title": "Probabilities Associated With a Particular $z$-score",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Suppose a <span class=\"tex2jax_process\">$z$</span>-score was calculated and the value was found to be <span class=\"tex2jax_process\">$k$</span>.  </div><div class=\"paragraph\">Based upon the standard normal distribution, which of the following statements is false?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "p\n(\nz\n≥\nk\n)\n>\np\n(\nz\n>\nk\n)\n."
+    },
+    {
+      "letter": "B",
+      "text": "p\n(\nz\n≥\nk\n)\n=\n1\n−\np\n(\nz\n≤\nk\n)\n."
+    },
+    {
+      "letter": "C",
+      "text": "p\n(\nz\n<\nk\n)\n=\np\n(\nz\n≤\nk\n)\n."
+    },
+    {
+      "letter": "D",
+      "text": "If\nk\n=\n0\n, the\np\n(\nz\n<\nk\n)\n=\n0.50\n."
+    },
+    {
+      "letter": "E",
+      "text": "If\nk\n>\n0\n, then\np\n(\nz\n≥\nk\n)\n<\n0.50\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2"
+  ],
+  "standards": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2"
+  ]
+}

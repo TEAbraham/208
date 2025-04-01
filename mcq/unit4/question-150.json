@@ -1,0 +1,46 @@
+{
+  "question_id": "question-150",
+  "title": "Student Snacks",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">At an elementary school, each child is given a snack pack consisting of one package of crackers and one bottle of juice.  </div><div class=\"paragraph\">Cracker packages have a mean weight of <span class=\"tex2jax_process\">$6$</span> ounces with a standard deviation of <span class=\"tex2jax_process\">$0.5$</span> ounces. Juice bottles have a mean weight of <span class=\"tex2jax_process\">$16$</span> ounces with a standard deviation of <span class=\"tex2jax_process\">$2$</span> ounces.  </div><div class=\"paragraph\">What are the mean and standard deviation of the snack packs?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "μ\n=\n22\n; standard deviation =\n1.5"
+    },
+    {
+      "letter": "B",
+      "text": "μ\n=\n22\n; standard deviation =\n2.06"
+    },
+    {
+      "letter": "C",
+      "text": "μ\n=\n22\n; standard deviation =\n2.5"
+    },
+    {
+      "letter": "D",
+      "text": "μ\n=\n24.5\n; standard deviation =\n2.13"
+    },
+    {
+      "letter": "E",
+      "text": "μ\n=\n24.5\n; standard deviation =\n2.5"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ],
+  "standards": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

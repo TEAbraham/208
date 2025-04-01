@@ -1,0 +1,44 @@
+{
+  "question_id": "question-078",
+  "title": "Voting Tendencies",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A pollster asked <span class=\"tex2jax_process\">$100$</span> random males and <span class=\"tex2jax_process\">$100$</span> random females if they would vote for the Democratic candidate in the upcoming election for senator.  </div><div class=\"paragraph\">If the pollster wanted to test whether a higher proportion of females leans Democratic, which hypothesis test should be chosen?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Two-proportion\nz\n-test."
+    },
+    {
+      "letter": "B",
+      "text": "Single-proportion\nz\n-test."
+    },
+    {
+      "letter": "C",
+      "text": "Single-sample\nT\n-test."
+    },
+    {
+      "letter": "D",
+      "text": "Chi-squared test for independence."
+    },
+    {
+      "letter": "E",
+      "text": "Chi-squared test for goodness of fit."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3.K.1",
+    "DAT-3",
+    "DAT-3.K"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3.K.1",
+    "DAT-3",
+    "DAT-3.K"
+  ]
+}

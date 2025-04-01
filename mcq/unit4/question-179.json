@@ -1,0 +1,44 @@
+{
+  "question_id": "question-179",
+  "title": "Plant Survival",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The probability that a particular species of plant survives the winter is <span class=\"tex2jax_process\">$0.7$</span>. Charlotte has <span class=\"tex2jax_process\">$22$</span> plants of this species.  </div><div class=\"paragraph\">What is the probability that at least <span class=\"tex2jax_process\">$17$</span> of her plants survive the winter?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.165"
+    },
+    {
+      "letter": "B",
+      "text": "0.313"
+    },
+    {
+      "letter": "C",
+      "text": "0.687"
+    },
+    {
+      "letter": "D",
+      "text": "0.773"
+    },
+    {
+      "letter": "E",
+      "text": "0.835"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.B",
+    "3.A",
+    "UNC-3",
+    "UNC-3.B.1"
+  ],
+  "standards": [
+    "UNC-3.B",
+    "3.A",
+    "UNC-3",
+    "UNC-3.B.1"
+  ]
+}

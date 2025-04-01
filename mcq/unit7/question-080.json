@@ -1,0 +1,44 @@
+{
+  "question_id": "question-080",
+  "title": "Experimental $P$-Value",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">An experiment tests the following:    </div><div class=\"paragraph\"><span class=\"tex2jax_process\">$H_0: \\mu = 17$</span> vs. <span class=\"tex2jax_process\">$H_a: \\mu \\neq 17$</span>  </div><div class=\"paragraph\">The standard normal curve is used to find the <span class=\"tex2jax_process\">$p$</span>-value when the test statistic is <span class=\"tex2jax_process\">$z = 1.71$</span>.  </div><div class=\"paragraph\">What is the <span class=\"tex2jax_process\">$p$</span>-value of the experiment?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.0346"
+    },
+    {
+      "letter": "B",
+      "text": "0.0872"
+    },
+    {
+      "letter": "C",
+      "text": "0.9308"
+    },
+    {
+      "letter": "D",
+      "text": "0.9654"
+    },
+    {
+      "letter": "E",
+      "text": "0.17"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.E",
+    "DAT-3",
+    "DAT-3.E.1"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3.E",
+    "DAT-3",
+    "DAT-3.E.1"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-158",
+  "title": "Mail Delivery",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">The U.S. government was comparing delivery times between the post offices of two large cities. Many post offices in each city were randomly sampled as to how long mail took to be delivered within each city. They found a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for delivery times for first-class mail in hours at <span class=\"tex2jax_process\">$(0.43, 1.26)$</span>. Interpret this confidence interval.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "We see a\n95\n%\nchance that the difference in mail delivery times is at most\n1.26\nhours."
+    },
+    {
+      "letter": "B",
+      "text": "We are\n95\n%\nconfident that there is a difference of\n1.26\n−\n0.43\n=\n0.83\nhours between the mail delivery times of the two cities."
+    },
+    {
+      "letter": "C",
+      "text": "We see a\n95\n%\nchance that the mail will be delivered on time in less than\n1.26\nhours between the two cities."
+    },
+    {
+      "letter": "D",
+      "text": "We are\n95\n%\nconfident that the difference in the population mean times of mail delivery from the two sampled cities is between\n0.43\nand\n1.26\nhours."
+    },
+    {
+      "letter": "E",
+      "text": "We are\n95\n%\nconfident that the mail delivered between the two cities will vary between\n0.43\nand\n1.26\nhours due to the difference in their population mean times."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.Z",
+    "4.B",
+    "UNC-4.Z.2",
+    "UNC-4.Z.1",
+    "UNC-4"
+  ],
+  "standards": [
+    "UNC-4.Z",
+    "4.B",
+    "UNC-4.Z.2",
+    "UNC-4.Z.1",
+    "UNC-4"
+  ]
+}

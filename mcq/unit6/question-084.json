@@ -1,0 +1,46 @@
+{
+  "question_id": "question-084",
+  "title": "What Is the Largest Confidence Level? $2$-sided Test",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A one proportion <span class=\"tex2jax_process\">$z$</span>-test was used to conduct a test of the null hypotheses:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$H_0: p = 0.74 $$</div><br><div class=\"tex2jax_process\">$$H_A: p \\neq 0.74$$</div>  </div><div class=\"paragraph\">The <span class=\"tex2jax_process\">$p$</span>-value was <span class=\"tex2jax_process\">$0.062$</span>. A confidence interval for <span class=\"tex2jax_process\">$p$</span> is to be constructed.  </div><div class=\"paragraph\">Of the following, which is the largest level of confidence for which the confidence interval will <em>NOT</em> contain <span class=\"tex2jax_process\">$0.74$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "90\n%"
+    },
+    {
+      "letter": "B",
+      "text": "92\n%"
+    },
+    {
+      "letter": "C",
+      "text": "94\n%"
+    },
+    {
+      "letter": "D",
+      "text": "95\n%"
+    },
+    {
+      "letter": "E",
+      "text": "99\n%"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-5",
+    "UNC-5.B.2",
+    "UNC-5.B.1",
+    "UNC-5.B",
+    "3.A"
+  ],
+  "standards": [
+    "UNC-5",
+    "UNC-5.B.2",
+    "UNC-5.B.1",
+    "UNC-5.B",
+    "3.A"
+  ]
+}

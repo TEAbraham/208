@@ -1,0 +1,44 @@
+{
+  "question_id": "question-099",
+  "title": "Estimating Parameters: Margin of Error Calculation",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A sociologist wishes to determine whether a significant difference exists in quality of life between people in urban and rural areas.  </div><div class=\"paragraph\">A survey will be sent out to randomly selected people in rural and urban areas and ask, “Are you happy with your quality of life?”  </div><div class=\"paragraph\">Assuming equal sample sizes and that no prior information is known, what is the minimum number of people in rural and urban areas that needs to be selected for a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval (estimating the difference in happiness) to have a margin of error no more than <span class=\"tex2jax_process\">$3\\%$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "2,135\nrural and\n2,135\nurban subjects."
+    },
+    {
+      "letter": "B",
+      "text": "432\nrural and\n432\nurban subjects."
+    },
+    {
+      "letter": "C",
+      "text": "323\nrural and\n323\nurban subjects."
+    },
+    {
+      "letter": "D",
+      "text": "188\nrural and\n188\nurban subjects."
+    },
+    {
+      "letter": "E",
+      "text": "128\nrural and\n128\nurban subjects."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.L",
+    "3.D",
+    "UNC-4.L.1",
+    "UNC-4"
+  ],
+  "standards": [
+    "UNC-4.L",
+    "3.D",
+    "UNC-4.L.1",
+    "UNC-4"
+  ]
+}

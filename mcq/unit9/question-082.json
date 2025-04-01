@@ -1,0 +1,44 @@
+{
+  "question_id": "question-082",
+  "title": "Power in Numbers",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Rob applied preventative herbicide/fertilizer to stop crabgrass in his lawn.  He applied <span class=\"tex2jax_process\">$4$</span> levels of treatment, each to <span class=\"tex2jax_process\">$4$</span> sections of his lawn at random, and recorded the change in crabgrass plants per square meter. </div><div class=\"paragraph\">Regression analysis was performed and a <span class=\"tex2jax_process\">$98\\%$</span> confidence interval for the slope of the true regression line of change in crabgrass on treatment was constructed.</div><div class=\"paragraph\"><span class=\"tex2jax_process\">$98\\%$</span> Confidence Interval: <span class=\"tex2jax_process\">$ (-1.134, -0.8364)$</span></div><div class=\"paragraph\">A lawn care company ran an experiment that tested the same <span class=\"tex2jax_process\">$4$</span> levels, but each on <span class=\"tex2jax_process\">$200$</span> sections of lawn at random.</div><div class=\"paragraph\">The <span class=\"tex2jax_process\">$98\\%$</span> Confidence Interval obtained by the lawn care company is likely to be <span class=\"tex2jax_process\">$\\rule{3cm}{0.25mm}$</span> in comparison to the confidence interval constructed by Rob.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "wider"
+    },
+    {
+      "letter": "B",
+      "text": "the same in width, but a lower center."
+    },
+    {
+      "letter": "C",
+      "text": "narrower"
+    },
+    {
+      "letter": "D",
+      "text": "unpredictably different"
+    },
+    {
+      "letter": "E",
+      "text": "the same in width, but a higher center."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is correct.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.AI",
+    "UNC-4.AI.1",
+    "UNC-4",
+    "4.A"
+  ],
+  "standards": [
+    "UNC-4.AI",
+    "UNC-4.AI.1",
+    "UNC-4",
+    "4.A"
+  ]
+}

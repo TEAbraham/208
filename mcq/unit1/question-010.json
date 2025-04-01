@@ -1,0 +1,44 @@
+{
+  "question_id": "question-010",
+  "title": "Who Is Better and Why?",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Mike and Ava decided to see who is better at the online game \"Squashing Sweets\".  They each played three games.  Mike's scores were <span class=\"tex2jax_process\">$85, 122, \\text{and } 117$</span>.  Ava's scores were <span class=\"tex2jax_process\">$107, 116,  \\text{and } 101$</span>.</div><div class=\"paragraph\">Who is the better player - Mike or Ava?  Also, what information gives you confidence in your conclusion?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Ava is the better player since her scores are consistently above\n100\npoints."
+    },
+    {
+      "letter": "B",
+      "text": "Mike is the better player since his median score is higher than Ava's highest score."
+    },
+    {
+      "letter": "C",
+      "text": "Mike is the better player. Although he had one bad game, two of his three scores were higher than two of Ava's three scores."
+    },
+    {
+      "letter": "D",
+      "text": "Mike and Ava are equally good at the game, since the average for both of their scores is the same."
+    },
+    {
+      "letter": "E",
+      "text": "There is not enough information to determine who is the better player, because the results from these three games may be simply due to chance."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "1.A",
+    "VAR-1.A.1",
+    "VAR-1",
+    "VAR-1.A"
+  ],
+  "standards": [
+    "1.A",
+    "VAR-1.A.1",
+    "VAR-1",
+    "VAR-1.A"
+  ]
+}

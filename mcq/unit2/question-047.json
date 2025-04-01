@@ -1,0 +1,46 @@
+{
+  "question_id": "question-047",
+  "title": "Conclusions from Scatterplot",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A sample of size n = <span class=\"tex2jax_process\">$50$</span> was taken of two variable, quantitative data. A scatterplot of the two variables (<span class=\"tex2jax_process\">$X$</span> and <span class=\"tex2jax_process\">$Y$</span>) shows a moderate, negative relationship between these variables.  </div><div class=\"paragraph\">One can conclude that</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Variable\nX\ncauses change in variable\nY\n."
+    },
+    {
+      "letter": "B",
+      "text": "Variable\nY\ncauses change in variable\nX\n."
+    },
+    {
+      "letter": "C",
+      "text": "As\nX\nincreases,\nY\ntends to increase."
+    },
+    {
+      "letter": "D",
+      "text": "As\nX\nincreases,\nY\ntends to decrease."
+    },
+    {
+      "letter": "E",
+      "text": "Nothing since the relationship is moderate, not strong."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.C",
+    "DAT-1.C.2",
+    "DAT-1",
+    "DAT-1.C.1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-1.C",
+    "DAT-1.C.2",
+    "DAT-1",
+    "DAT-1.C.1"
+  ]
+}

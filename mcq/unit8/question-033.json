@@ -1,0 +1,46 @@
+{
+  "question_id": "question-033",
+  "title": "Contribute to Test Statistic",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose Kathy bought a large bag of candy that comes in four flavors: cherry, strawberry, orange, and lemon.  </div><div class=\"paragraph\">Out of the <span class=\"tex2jax_process\">$84\\text{ pieces of candy}$</span>, <span class=\"tex2jax_process\">$23$</span> were cherry, <span class=\"tex2jax_process\">$24$</span> were strawberry, <span class=\"tex2jax_process\">$21$</span> were orange, and <span class=\"tex2jax_process\">$16$</span> were lemon. Kathy performed a chi-squared goodness of fit test to determine if the candy flavors were evenly distributed.  </div><div class=\"paragraph\">What flavor contributed the most to the chi-squared test statistic?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Cherry."
+    },
+    {
+      "letter": "B",
+      "text": "Strawberry."
+    },
+    {
+      "letter": "C",
+      "text": "Orange."
+    },
+    {
+      "letter": "D",
+      "text": "Lemon."
+    },
+    {
+      "letter": "E",
+      "text": "Unable to determine."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.F",
+    "3.E",
+    "VAR-8",
+    "VAR-8.F.2",
+    "VAR-8.F.1"
+  ],
+  "standards": [
+    "VAR-8.F",
+    "3.E",
+    "VAR-8",
+    "VAR-8.F.2",
+    "VAR-8.F.1"
+  ]
+}

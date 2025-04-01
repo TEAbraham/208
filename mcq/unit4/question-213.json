@@ -1,0 +1,49 @@
+{
+  "question_id": "question-213",
+  "title": "Round of Golf",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">On any given Friday, the number of golfers at the local golf course can be represented by the random variable, <span class=\"tex2jax_process\">$X$</span>. Suppose the mean number of golfers is <span class=\"tex2jax_process\">$\\mu_x = 120$</span> golfers and the standard deviation of golfers is <span class=\"tex2jax_process\">$\\sigma_x = 12$</span>.  A round of golf at the course costs <span class=\"tex2jax_process\">$\\$45$</span> a round. Additionally, the golf course holds a raffle to give away a prize of <span class=\"tex2jax_process\">$\\$100$</span> to a random golfer. </div><div class=\"paragraph\">Let <span class=\"tex2jax_process\">$Y = $</span> the amount of money collected at the end of the day on a random Friday. What is the mean and standard deviation of <span class=\"tex2jax_process\">$Y$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "μ\nY\n=\n$\n5400\n,\nσ\nY\n=\n$\n540"
+    },
+    {
+      "letter": "B",
+      "text": "μ\nY\n=\n$\n5300\n,\nσ\nY\n=\n$\n540"
+    },
+    {
+      "letter": "C",
+      "text": "μ\nY\n=\n$\n5300\n,\nσ\nY\n=\n$\n440"
+    },
+    {
+      "letter": "D",
+      "text": "μ\nY\n=\n$\n5400\n,\nσ\nY\n=\n$\n440"
+    },
+    {
+      "letter": "E",
+      "text": "μ\nY\n=\n$\n5300\n,\nσ\nY\n=\n$\n640"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer. ",
+  "solution": "",
+  "distractor_explanations": {
+    "A": "<strong>Choice 'A'</strong> is incorrect. The mean was multiplied correctly, but the <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-13490-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi mathvariant=&quot;normal&quot;>&amp;#x0024;</mi><mn>100</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-67611\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-67612\" class=\"mjx-mrow\"><span id=\"MJXc-Node-67613\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.441em; padding-bottom: 0.387em;\">$</span></span><span id=\"MJXc-Node-67614\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">100</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">$</mi><mn>100</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-13490\">\\$100</script></span> raffle money was not subtracted. ",
+    "C": "<strong>Choice 'C'</strong> is incorrect. The mean was correctly computed, but <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-13491-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi mathvariant=&quot;normal&quot;>&amp;#x0024;</mi><mn>100</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-67615\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-67616\" class=\"mjx-mrow\"><span id=\"MJXc-Node-67617\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.441em; padding-bottom: 0.387em;\">$</span></span><span id=\"MJXc-Node-67618\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">100</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">$</mi><mn>100</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-13491\">\\$100</script></span> raffle money was mistakenly subtracted from the standard deviation as well. ",
+    "D": "<strong>Choice 'D'</strong> is incorrect. The <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-13492-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi mathvariant=&quot;normal&quot;>&amp;#x0024;</mi><mn>100</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-67619\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-67620\" class=\"mjx-mrow\"><span id=\"MJXc-Node-67621\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.441em; padding-bottom: 0.387em;\">$</span></span><span id=\"MJXc-Node-67622\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">100</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">$</mi><mn>100</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-13492\">\\$100</script></span> raffle money was not subtracted from the mean, and was mistakenly subtracted from the standard deviation. ",
+    "E": "<strong>Choice 'E'</strong> is incorrect. The mean was correctly computed, but the standard deviation has <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-13493-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi mathvariant=&quot;normal&quot;>&amp;#x0024;</mi><mn>100</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-67623\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-67624\" class=\"mjx-mrow\"><span id=\"MJXc-Node-67625\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.441em; padding-bottom: 0.387em;\">$</span></span><span id=\"MJXc-Node-67626\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">100</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">$</mi><mn>100</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-13493\">\\$100</script></span> added, when it should've simply been multiplied by <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-13494-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi mathvariant=&quot;normal&quot;>&amp;#x0024;</mi><mn>45</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-67627\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-67628\" class=\"mjx-mrow\"><span id=\"MJXc-Node-67629\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.441em; padding-bottom: 0.387em;\">$</span></span><span id=\"MJXc-Node-67630\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">45</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi mathvariant=\"normal\">$</mi><mn>45</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-13494\">\\$45</script></span>."
+  },
+  "tags": [
+    "VAR-5.F.1",
+    "VAR-5.F",
+    "VAR-5",
+    "3.C"
+  ],
+  "standards": [
+    "VAR-5.F.1",
+    "VAR-5.F",
+    "VAR-5",
+    "3.C"
+  ]
+}

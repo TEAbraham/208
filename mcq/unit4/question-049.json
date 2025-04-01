@@ -1,0 +1,46 @@
+{
+  "question_id": "question-049",
+  "title": "Probability: Making Those Free Throws! Part II",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A professional basketball player has a <span class=\"tex2jax_process\">$60$</span>% chance of making his first throw.  If he makes his first free throw, there is a <span class=\"tex2jax_process\">$70$</span>% chance he makes his second free throw.  If he does not make his first throw, there is a <span class=\"tex2jax_process\">$45$</span>% chance he makes his second free throw.  </div><div class=\"paragraph\">What is the probability he makes at least one free throw?</div>",
+  "image_files": [
+    "images/question-049-img1.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.22"
+    },
+    {
+      "letter": "B",
+      "text": "0.36"
+    },
+    {
+      "letter": "C",
+      "text": "0.42"
+    },
+    {
+      "letter": "D",
+      "text": "0.60"
+    },
+    {
+      "letter": "E",
+      "text": "0.78"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "3.A",
+    "VAR-4.D.2",
+    "VAR-4",
+    "VAR-4.D"
+  ],
+  "standards": [
+    "3.A",
+    "VAR-4.D.2",
+    "VAR-4",
+    "VAR-4.D"
+  ]
+}

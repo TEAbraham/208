@@ -1,0 +1,48 @@
+{
+  "question_id": "question-143",
+  "title": "Would You Like a Toaster with That Loan?",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A bank wonders if it can increase the number of loan applications it receives each day by promising a toaster to clients who apply.  To investigate, it conducts an experiment on all the bank's loan customers for a day.  </div><div class=\"paragraph\">For each loan customer, the bank loan officer will flip a coin.  If it lands \"heads\" the loan officer will promise the applicant a toaster if they complete the application process.  If it lands \"tails\", the toaster will not be offered.  At the end of the day, the proportion of applicants who completed the loan application for the two groups will be compared.  </div><div class=\"paragraph\">Which of the following statements is true?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "This is not a completely randomized experiment because the subjects were not randomly chosen."
+    },
+    {
+      "letter": "B",
+      "text": "This is not a completely randomized experiment because the subjects were blocked on whether they were promised a toaster."
+    },
+    {
+      "letter": "C",
+      "text": "This is not a completely randomized experiment because the explanatory variable was not randomly chosen."
+    },
+    {
+      "letter": "D",
+      "text": "This is not a completely randomized experiment because the assignment of toasters was not determined by chance."
+    },
+    {
+      "letter": "E",
+      "text": "This is a completely randomized experiment."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.C.1",
+    "VAR-3.E.2",
+    "VAR-3.C"
+  ],
+  "standards": [
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.C.1",
+    "VAR-3.E.2",
+    "VAR-3.C"
+  ]
+}

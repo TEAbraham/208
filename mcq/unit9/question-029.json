@@ -1,0 +1,44 @@
+{
+  "question_id": "question-029",
+  "title": "Decrease Width of Confidence Interval",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Which of the following would effectively decrease the width of a confidence interval when estimating the true slope of a population regression model?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Decrease the degrees of freedom."
+    },
+    {
+      "letter": "B",
+      "text": "Increase the value of\nt\n∗\n."
+    },
+    {
+      "letter": "C",
+      "text": "Increase the sample size."
+    },
+    {
+      "letter": "D",
+      "text": "Increase the confidence level."
+    },
+    {
+      "letter": "E",
+      "text": "Increase the value of the standard error."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.AI",
+    "4.B",
+    "UNC-4.AI.1",
+    "UNC-4"
+  ],
+  "standards": [
+    "UNC-4.AI",
+    "4.B",
+    "UNC-4.AI.1",
+    "UNC-4"
+  ]
+}

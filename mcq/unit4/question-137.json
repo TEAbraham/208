@@ -1,0 +1,46 @@
+{
+  "question_id": "question-137",
+  "title": "Finding the Total Mean: Freddie Just Cannot Get to School on Time",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Freddie has a problem of  showing up to school on time.  Freddie has broken down how his time (in minutes) is spent before school  into four parts. The four parts consists of  getting out of bed (Freddie likes to hit that snooze button), getting ready for school, driving to school, and walking to class (Freddie is a bit of a social butterfly).  </div><div class=\"paragraph\">The chart below shows the mean and standard deviation of the number of minutes it takes Freddie to complete each one of these tasks.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Mean</th><th scope=\"col\">Standard Deviation</th></tr></thead><tbody><tr><td>Getting out of bed</td><td>20.13</td><td>6.23</td></tr><tr><td>Getting ready</td><td>12.85</td><td>4.14</td></tr><tr><td>Driving to school</td><td>8.26</td><td>2.34</td></tr><tr><td>Walking to class</td><td>7.34</td><td>1.79</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>What is the total mean time of Freddie's four part morning schedule?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "3.63\n minutes"
+    },
+    {
+      "letter": "B",
+      "text": "12.15\n minutes"
+    },
+    {
+      "letter": "C",
+      "text": "14.50\n minutes"
+    },
+    {
+      "letter": "D",
+      "text": "48.58\n minutes"
+    },
+    {
+      "letter": "E",
+      "text": "63.08\n minutes"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ],
+  "standards": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

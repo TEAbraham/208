@@ -1,0 +1,44 @@
+{
+  "question_id": "question-143",
+  "title": "How Many Students to Ask?",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">At your high school of <span class=\"tex2jax_process\">$3000$</span> students, you are curious as to what proportion of the students own a car.  To estimate this proportion with a margin of error of <span class=\"tex2jax_process\">$\\pm4\\%$</span>, how many students should you randomly sample to find this estimate with <span class=\"tex2jax_process\">$95\\%$</span> confidence?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "601\nstudents"
+    },
+    {
+      "letter": "B",
+      "text": "600\nstudents"
+    },
+    {
+      "letter": "C",
+      "text": "577\nstudents"
+    },
+    {
+      "letter": "D",
+      "text": "423\nstudents"
+    },
+    {
+      "letter": "E",
+      "text": "25\nstudents"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "3.D",
+    "UNC-4.C.1",
+    "UNC-4.C",
+    "UNC-4"
+  ],
+  "standards": [
+    "3.D",
+    "UNC-4.C.1",
+    "UNC-4.C",
+    "UNC-4"
+  ]
+}

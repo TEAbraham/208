@@ -1,0 +1,46 @@
+{
+  "question_id": "question-068",
+  "title": "The Relationship Between Tossing a Coin and Buying a Large Coffee",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose <span class=\"tex2jax_process\">$A$</span> is the random variable that represents the number of times a tossed coin will land on “heads” in <span class=\"tex2jax_process\">$8\\text{ tosses}$</span>. Also, suppose <span class=\"tex2jax_process\">$B$</span> is the random variable that represents the number of ounces in each of <span class=\"tex2jax_process\">$8$</span> randomly selected large cups of coffee from the nearby donut shop.  </div><div class=\"paragraph\">Which of the following best describes the relationship between <span class=\"tex2jax_process\">$A$</span> and <span class=\"tex2jax_process\">$B$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A\nand\nB\nare independent random variables. Their probability distributions should not be related to each other in any way."
+    },
+    {
+      "letter": "B",
+      "text": "A\nand\nB\nare dependent random variables since we are looking at the same number of observations for both."
+    },
+    {
+      "letter": "C",
+      "text": "A\nand\nB\nare both discrete random variables."
+    },
+    {
+      "letter": "D",
+      "text": "A\nand\nB\nare both continuous random variables."
+    },
+    {
+      "letter": "E",
+      "text": "A\nand\nB\nare mutually exclusive random variables."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ],
+  "standards": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-153",
+  "title": "Nuts and Berries: Combined Standard Deviation",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Nuts and Berries is an online company that sells different types of nut butters (like peanut butter and almond butter) and different types of jams (like raspberry jam and grape jam). Jams are sold in <span class=\"tex2jax_process\">$8\\text{ oz}$</span> quantities and nut butters are sold in <span class=\"tex2jax_process\">$12\\text{ oz}$</span> quantities.  </div><div class=\"paragraph\">If the mean weight of one jar of grape jam is <span class=\"tex2jax_process\">$8.6\\text{ oz}$</span> with a standard deviation of <span class=\"tex2jax_process\">$0.17\\text{ oz}$</span>, and the average weight of a jar of peanut butter is <span class=\"tex2jax_process\">$12.7\\text{ oz}$</span> with a standard deviation of <span class=\"tex2jax_process\">$0.23\\text{ oz}$</span>, what is the standard deviation of the weight of an order consisting of <span class=\"tex2jax_process\">$3\\text{ jars}$</span> of grape jam and <span class=\"tex2jax_process\">$1\\text{ jar}$</span> of peanut butter?  Assume that the weights of all <span class=\"tex2jax_process\">$4$</span> jars in this order are independent. </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.559\n oz"
+    },
+    {
+      "letter": "B",
+      "text": "0.17\n oz"
+    },
+    {
+      "letter": "C",
+      "text": "0.23\n oz"
+    },
+    {
+      "letter": "D",
+      "text": "0.74\n oz"
+    },
+    {
+      "letter": "E",
+      "text": "0.374\n oz"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ],
+  "standards": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

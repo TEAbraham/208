@@ -1,0 +1,48 @@
+{
+  "question_id": "question-116",
+  "title": "Prostate Cancer in Male Volunteers",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose a new cancer drug is being tested on <span class=\"tex2jax_process\">$200\\text{ male volunteers}$</span> who have prostate cancer. The researchers decide to use a block design and wish to test the difference between the new drug and a more traditional treatment.  </div><div class=\"paragraph\">What would be an effective variable to block on?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Type of cancer."
+    },
+    {
+      "letter": "B",
+      "text": "Alphabetical by patients’ last names."
+    },
+    {
+      "letter": "C",
+      "text": "Advancement phase of the cancer."
+    },
+    {
+      "letter": "D",
+      "text": "Gender."
+    },
+    {
+      "letter": "E",
+      "text": "Geographical location of the patients."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3.D",
+    "VAR-3",
+    "VAR-3.C.8",
+    "VAR-3.D.1",
+    "1.C",
+    "VAR-3.C"
+  ],
+  "standards": [
+    "VAR-3.D",
+    "VAR-3",
+    "VAR-3.C.8",
+    "VAR-3.D.1",
+    "1.C",
+    "VAR-3.C"
+  ]
+}

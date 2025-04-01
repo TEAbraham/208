@@ -1,0 +1,46 @@
+{
+  "question_id": "question-258",
+  "title": "Establishing Normality Based on the $5$-Number Summary",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">The <span class=\"tex2jax_process\">$5$</span>-number summary for a certain distribution is as follows:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$28$$</div>\n<div class=\"tex2jax_process\">$$53$$</div>\n<div class=\"tex2jax_process\">$$75$$</div>\n<div class=\"tex2jax_process\">$$97$$</div>\n<div class=\"tex2jax_process\">$$122$$</div></div><div class=\"paragraph\">The mean of the distribution is <span class=\"tex2jax_process\">$75.10$</span> and the standard deviation is <span class=\"tex2jax_process\">$31.27$</span>.  Assume <span class=\"tex2jax_process\">$n\\ge 100$</span>.</div><div class=\"paragraph\">Based upon this information, is the distribution approximately normal?  Why or why not?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes, because the\nQ\n3\nvalue and\nQ\n1\nvalue are equally far from the median, and the median is approximately equal to the mean."
+    },
+    {
+      "letter": "B",
+      "text": "Yes, because the values in the\n5\n-number summary are completely symmetric around the mean."
+    },
+    {
+      "letter": "C",
+      "text": "Yes, because approximately\n50\n%\nof the data falls within one standard deviation of the mean. This is what would be expected in a normal distribution."
+    },
+    {
+      "letter": "D",
+      "text": "No, because\n100\n%\nof the data falls within\n2\nstandard deviations of the mean. In a normal distribution, the spread of data would be greater."
+    },
+    {
+      "letter": "E",
+      "text": "No, because the data contains a high outlier. In a normal distribution, no outliers would be present."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "2.D",
+    "VAR-2",
+    "VAR-2.A.3",
+    "VAR-2.A",
+    "VAR-2.A.2"
+  ],
+  "standards": [
+    "2.D",
+    "VAR-2",
+    "VAR-2.A.3",
+    "VAR-2.A",
+    "VAR-2.A.2"
+  ]
+}

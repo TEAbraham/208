@@ -1,0 +1,44 @@
+{
+  "question_id": "question-136",
+  "title": "Johnny's Photos: Total Mean Processing Time",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Johnny is a photographer who frames and sells his best photos. It is a long process. Once Johnny finds a photo that he thinks will sell, he spends time editing and enhancing the photo on his computer.  </div><div class=\"paragraph\">Then he prints the photo, cuts the mat and mats the photo. Finally, he frames the photo so that it is ready to go. The chart below shows the mean and standard deviation of the number of minutes required for various parts of this process.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Mean</th><th scope=\"col\">Standard Deviation</th></tr></thead><tbody><tr><td>Photo Editing on Computer</td><td>16.2</td><td>3.7</td></tr><tr><td>Printing and Matting</td><td>12.7</td><td>2.4</td></tr><tr><td>Framing</td><td>8.2</td><td>2.2</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>What is the total mean time it takes Johnny to fully prepare one photo for sale?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "8.3\n minutes"
+    },
+    {
+      "letter": "B",
+      "text": "16.2\n minutes"
+    },
+    {
+      "letter": "C",
+      "text": "37.1\n minutes"
+    },
+    {
+      "letter": "D",
+      "text": "45.4\n minutes"
+    },
+    {
+      "letter": "E",
+      "text": "We cannot find the total mean time since the different parts of the process are not independent."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.F.1",
+    "VAR-5.F",
+    "VAR-5",
+    "3.C"
+  ],
+  "standards": [
+    "VAR-5.F.1",
+    "VAR-5.F",
+    "VAR-5",
+    "3.C"
+  ]
+}

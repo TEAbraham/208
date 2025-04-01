@@ -1,0 +1,44 @@
+{
+  "question_id": "question-025",
+  "title": "Increase the Width of Confidence Interval",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Here is the formula used for constructing a confidence interval for the slope of a regression model:\n<div class=\"tex2jax_process\">$$b\\pm t^{*} (SE_{b})$$</div><br>Suppose you are told that you need to increase the width of a confidence interval.  All of the following answers will accomplish this <em>except</em>:</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Increase the critical value."
+    },
+    {
+      "letter": "B",
+      "text": "Increase the value of\nt\n∗\n."
+    },
+    {
+      "letter": "C",
+      "text": "Increase the value of the standard error."
+    },
+    {
+      "letter": "D",
+      "text": "Increase the value of the sample size."
+    },
+    {
+      "letter": "E",
+      "text": "Increase the value of the margin of error."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.AI",
+    "4.B",
+    "UNC-4.AI.1",
+    "UNC-4"
+  ],
+  "standards": [
+    "UNC-4.AI",
+    "4.B",
+    "UNC-4.AI.1",
+    "UNC-4"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-069",
+  "title": "Confidence Intervals: Coffee Shop Opening Times",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A survey of <span class=\"tex2jax_process\">$500\\text{ customers}$</span> for a national chain of coffee houses was conducted to measure whether customers wanted an earlier opening time or were satisfied with the current opening time.  </div><div class=\"paragraph\">The survey found that <span class=\"tex2jax_process\">$181$</span> of the customers were satisfied with the current hours.  </div><div class=\"paragraph\">Find the <span class=\"tex2jax_process\">$99\\%$</span> confidence interval for the proportion of the population of customers who were not satisfied with the opening hours, and determine whether we can conclude that the true proportion of customers who are not satisfied is greater than half.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "(\n0.58263\n;\n0.69336\n)\n; no, because the confidence interval does not contain\n0.5\n."
+    },
+    {
+      "letter": "B",
+      "text": "(\n0.58263\n;\n0.69336\n)\n; yes, because the confidence interval does not contain\n0.5\n."
+    },
+    {
+      "letter": "C",
+      "text": "(\n0.59587\n;\n0.68012\n)\n; no, because the confidence interval does not contain\n0.5\n."
+    },
+    {
+      "letter": "D",
+      "text": "(\n0.59587\n;\n0.68012\n)\n; yes, because the confidence interval does not contain\n0.5\n."
+    },
+    {
+      "letter": "E",
+      "text": "(\n0.61651\n;\n0.65949\n)\n; yes, because the confidence interval does not contain\n0.5\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3",
+    "DAT-3.B.9",
+    "DAT-3.B"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3",
+    "DAT-3.B.9",
+    "DAT-3.B"
+  ]
+}

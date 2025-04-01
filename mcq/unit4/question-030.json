@@ -1,0 +1,48 @@
+{
+  "question_id": "question-030",
+  "title": "Encouraging Recycling: A Simulation",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">According to some reports, <span class=\"tex2jax_process\">$25\\%$</span> of Americans never recycle. An environmental group wants to investigate why this is true and if there is anything that can be done to encourage more recycling. They plan on creating and conducting a widespread survey, but first they want to interview <span class=\"tex2jax_process\">$5$</span> people who never recycle in order to better understand the situation.  </div><div class=\"paragraph\">Which of the following describes how they could conduct a simulation to estimate how many people on average they would need to contact before finding <span class=\"tex2jax_process\">$5$</span> who never recycle (let us assume people will be honest about their recycling habits)?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Assign the digits\n0\nand\n1\nto represent people who never recycle. Assign the digits\n2\n,\n3\n,\n4\n,\n5\n,\n6\nand\n7\nto represent people who sometimes/always recycle. Looking at a line of the random digit table, go through digit by digit until you have encountered a total of five\n0\n's or\n1\n's. Count how many total digits you had to go through (ignoring the digits\n8\nand\n9\n) to accomplish this. Record this number. Repeat this process many times and then calculate the average from your simulations."
+    },
+    {
+      "letter": "B",
+      "text": "Assign the digits\n01\nthrough\n25\nto represent people who never recycle. Assign the digits\n26\nthrough\n100\nto represent people who sometimes/always recycle. Beginning at any line of the random digit table, go through two digits at a time until you have encountered a total of five pairs in the interval from\n01\nto\n25\n. Count how many total pairs you had to go through in order to accomplish this. Record this number. Repeat this process many times and then calculate the average from your simulations."
+    },
+    {
+      "letter": "C",
+      "text": "Assign the digits\n00\nthrough\n24\nto represent people who never recycle. Assign the digits\n25\nthrough\n99\nto represent people who sometimes/always recycle. Beginning at any line of the random digit table, go through two digits at a time until you have encountered a total of five pairs in the interval from\n00\nto\n24\n. Count how many total pairs you had to go through in order to accomplish this. This number will represent your answer."
+    },
+    {
+      "letter": "D",
+      "text": "Assign the numbers\n1\nthrough\n25\nto represent people who never recycle. Assign the numbers\n26\nthrough\n100\nto represent people who sometimes/always recycle. Use a computer to randomly generate\n100\nsets of\n5\nnumbers. Count the number of sets that contain\n5\nnumbers in the interval from\n1\nto\n25\n. Record this number. Repeat this process many times and then calculate the proportion of simulations that resulted in\n5\nnumbers in the interval from\n1\nto\n25\n."
+    },
+    {
+      "letter": "E",
+      "text": "All of the above describe appropriate ways to conduct the simulation."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.A.1",
+    "VAR-4.A.3",
+    "3.A",
+    "VAR-4.A.2",
+    "VAR-4",
+    "VAR-4.A"
+  ],
+  "standards": [
+    "VAR-4.A.1",
+    "VAR-4.A.3",
+    "3.A",
+    "VAR-4.A.2",
+    "VAR-4",
+    "VAR-4.A"
+  ]
+}

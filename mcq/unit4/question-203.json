@@ -1,0 +1,46 @@
+{
+  "question_id": "question-203",
+  "title": "Tennis Model",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">When tennis is played, the game continues until one player has won four points; however, if the game is tied at either three or four points each, the opponents continue until one player wins two points in a row.  </div><div class=\"paragraph\">Suppose Jane and Tom are playing a single tennis game. For any point, the probability that Jane wins that point is <span class=\"tex2jax_process\">$0.6$</span>.  </div><div class=\"paragraph\">Assuming that each point played is independent of every other, what probability model is appropriate for describing this game?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Binomial, because each point played is independent."
+    },
+    {
+      "letter": "B",
+      "text": "Normal, because the mean\nμ\nfor Jane is\n2.4\n, with standard deviation =\n0.98\n."
+    },
+    {
+      "letter": "C",
+      "text": "Linear, with a slope of\n2.4\nand\ny\n-intercept of\n0.6"
+    },
+    {
+      "letter": "D",
+      "text": "Exponential, because the time between each point played in the game is constant."
+    },
+    {
+      "letter": "E",
+      "text": "Geometric, because the number of trials is not known ahead of time."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.E.2",
+    "UNC-3.E",
+    "3.A",
+    "UNC-3",
+    "UNC-3.E.1"
+  ],
+  "standards": [
+    "UNC-3.E.2",
+    "UNC-3.E",
+    "3.A",
+    "UNC-3",
+    "UNC-3.E.1"
+  ]
+}

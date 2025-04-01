@@ -1,0 +1,46 @@
+{
+  "question_id": "question-115",
+  "title": "The Bigger Quart?",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Two brands of ice cream which claim to sell quart-sized containers were examined by the ice cream industry to compare the weights of their ice cream.  Thirty-seven random quarts of Barry &amp; Jen's Ice Cream were taken and found to have a mean weight of <span class=\"tex2jax_process\">$32.3$</span> ounces with a standard deviation of <span class=\"tex2jax_process\">$0.8$</span> ounces.  Creyer's Ice Cream had <span class=\"tex2jax_process\">$39$</span> quarts randomly sampled and these were found to have a mean weight of <span class=\"tex2jax_process\">$31.8$</span> ounces with a standard deviation of <span class=\"tex2jax_process\">$0.7$</span> ounces.</div><div class=\"paragraph\">Calculate a <span class=\"tex2jax_process\">$98\\%$</span> confidence interval for the difference of the mean weights (B &amp; J's minus Creyer's) and do this using <span class=\"tex2jax_process\">$60$</span> degrees of freedom.  Then, state whether one brand of quart ice creams is  bigger than the other or whether they are not statistically different based on your confidence interval.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "(\n0.154\n,\n0.846\n) No. Barry & Jen's quart-sized ice cream does not appear to weigh more than that of Creyer's because the confidence interval does not contain zero."
+    },
+    {
+      "letter": "B",
+      "text": "(\n0.154\n,\n0.846\n) Yes. Barry & Jen's quart-sized ice cream does appear to weigh more than that of Creyer's because the confidence interval does not contain zero."
+    },
+    {
+      "letter": "C",
+      "text": "(\n0.087\n,\n0.913\n) Yes. Barry & Jen's quart-sized ice cream does appear to weigh more than that of Creyer's because the confidence interval does not contain zero."
+    },
+    {
+      "letter": "D",
+      "text": "(\n0.087\n,\n0.913\n) No. Barry & Jen's quart-sized ice cream does not appear to weigh more than that of Creyer's because the confidence interval does not contain zero."
+    },
+    {
+      "letter": "E",
+      "text": "(\n0.098\n,\n0.540\n) Yes. Barry & Jen's quart-sized ice cream does appear to weigh more than that of Creyer's because the confidence interval does not contain zero."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-4.AA.1",
+    "UNC-4.AA",
+    "UNC-4",
+    "4.A"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-4.AA.1",
+    "UNC-4.AA",
+    "UNC-4",
+    "4.A"
+  ]
+}

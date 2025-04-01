@@ -1,0 +1,44 @@
+{
+  "question_id": "question-015",
+  "title": "Chi-Squared Goodness of Fit",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A chi-squared goodness of fit test is used to test:</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Multiple sample means involving one variable."
+    },
+    {
+      "letter": "B",
+      "text": "Multiple sample means involving two variables."
+    },
+    {
+      "letter": "C",
+      "text": "Multiple sample proportions involving one variable."
+    },
+    {
+      "letter": "D",
+      "text": "Multiple sample proportions involving two variables."
+    },
+    {
+      "letter": "E",
+      "text": "A single sample proportion."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.C",
+    "VAR-8.C.1",
+    "VAR-8",
+    "1.E"
+  ],
+  "standards": [
+    "VAR-8.C",
+    "VAR-8.C.1",
+    "VAR-8",
+    "1.E"
+  ]
+}

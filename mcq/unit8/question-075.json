@@ -1,0 +1,46 @@
+{
+  "question_id": "question-075",
+  "title": "Type of Test: Pour It On",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The <em>Pour It On</em> marketing company is investigating whether the  type of house and the color of a house  in a certain town are related. Assume the conditions for inference are met.  </div><div class=\"paragraph\">Which of the following significance tests would be the most appropriate to use to determine whether there is an association between type of house and color of a house?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A two-sample t-test for mean."
+    },
+    {
+      "letter": "B",
+      "text": "A two sample z-test for mean."
+    },
+    {
+      "letter": "C",
+      "text": "A regression t-test."
+    },
+    {
+      "letter": "D",
+      "text": "A chi-square goodness-of-fit test."
+    },
+    {
+      "letter": "E",
+      "text": "A chi-square test of independence."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.L",
+    "DAT-3",
+    "DAT-3.L.2",
+    "DAT-3.L.1"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3.L",
+    "DAT-3",
+    "DAT-3.L.2",
+    "DAT-3.L.1"
+  ]
+}

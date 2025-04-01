@@ -1,0 +1,44 @@
+{
+  "question_id": "question-079",
+  "title": "Find the Slope",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Jean was working on a project involving  linear regression.  She obtained a predicted value of <span class=\"tex2jax_process\">$8$</span> when she entered <span class=\"tex2jax_process\">$12$</span> as her explanatory variable.  Then Jean spilled coffee on her work and could no longer read her regression model.  If she remembered that the <span class=\"tex2jax_process\">$y$</span>-intercept was <span class=\"tex2jax_process\">$26$</span>, what was the value of the slope?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "−\n1.75"
+    },
+    {
+      "letter": "B",
+      "text": "1.5"
+    },
+    {
+      "letter": "C",
+      "text": "−\n1.5"
+    },
+    {
+      "letter": "D",
+      "text": "1.75"
+    },
+    {
+      "letter": "E",
+      "text": "1.33"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-1.D.2",
+    "2.C",
+    "DAT-1",
+    "DAT-1.D"
+  ],
+  "standards": [
+    "DAT-1.D.2",
+    "2.C",
+    "DAT-1",
+    "DAT-1.D"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-131",
+  "title": "P-values: Fantasy Football",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Fantasy football consists of a competition where participants select players from different football teams and points are awarded based on the performance of those players.  A student was curious if the fantasy football totals for quarterbacks from the first <span class=\"tex2jax_process\">$3\\text{ weeks}$</span> of the season was a good indicator of how well players would do the rest of the season.  </div><div class=\"paragraph\">The student randomly sampled <span class=\"tex2jax_process\">$21$</span> starting quarterbacks and measured their average fantasy football points for the first 3 weeks, and sampled another random sample of <span class=\"tex2jax_process\">$21$</span> quarterbacks and measured their average fantasy football points for the remainder of the season.  The student then ran a 2 sample <span class=\"tex2jax_process\">$T$</span>-test to determine if the number of fantasy football points in the first <span class=\"tex2jax_process\">$3\\text{ weeks}$</span> of the season differed from the fantasy football points the rest of the year.  </div><div class=\"paragraph\">The data is shown below:\nMean (first 3 weeks) = <span class=\"tex2jax_process\">$23.92$</span>\nStandard Deviation (first 3 weeks) = <span class=\"tex2jax_process\">$10.20$</span></div><div class=\"paragraph\">Mean (remainder of the season) = <span class=\"tex2jax_process\">$18.30$</span>\nStandard Deviation (remainder of the season) = <span class=\"tex2jax_process\">$9.20$</span></div><div class=\"paragraph\">After running a two-sided test, a <span class=\"tex2jax_process\">$P$</span>-value of <span class=\"tex2jax_process\">$6.83\\%$</span> was calculated.  </div><div class=\"paragraph\">How might you interpret the <span class=\"tex2jax_process\">$P$</span>-value in the context of the problem?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "6.83\n%\nof quarterbacks have lower averages the rest of the season compared to the first three weeks."
+    },
+    {
+      "letter": "B",
+      "text": "If there were really no difference between an NFL quarterback’s performance during the first three weeks and their performance the rest of the season, getting differences in sample means as large as 5.62 points or greater, would be somewhat unlikely (in fact, about\n6.83\n%\n)."
+    },
+    {
+      "letter": "C",
+      "text": "Approximately\n6.83\n%\nof quarterbacks in this sample had higher average fantasy points for the remainder of the season compared to the first three weeks."
+    },
+    {
+      "letter": "D",
+      "text": "There is approximately a\n6.83\n%\nchance of this data occurring."
+    },
+    {
+      "letter": "E",
+      "text": "There is approximately a\n6.83\n%\nchance of getting a difference of 5.62 fantasy points, or less,in this sample, by chance alone."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.G",
+    "DAT-3.G.1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.G",
+    "DAT-3.G.1"
+  ]
+}

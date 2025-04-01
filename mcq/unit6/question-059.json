@@ -1,0 +1,50 @@
+{
+  "question_id": "question-059",
+  "title": "Not as Much Tattoo Ink? Find the $p$-Value",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Travis recently heard a report claiming that <span class=\"tex2jax_process\">$35\\%$</span> of young adults have at least one tattoo. He thinks that the actual percentage is lower for students at his university. To investigate, he randomly selects <span class=\"tex2jax_process\">$60\\text{ students}$</span> from his university and finds that <span class=\"tex2jax_process\">$17$</span> of them have at least one tattoo.  </div><div class=\"paragraph\">Assuming that all conditions have been satisfied, what is the <span class=\"tex2jax_process\">$p$</span>-value for the appropriate significance test?   </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.14"
+    },
+    {
+      "letter": "B",
+      "text": "0.28"
+    },
+    {
+      "letter": "C",
+      "text": "0.35"
+    },
+    {
+      "letter": "D",
+      "text": "0.72"
+    },
+    {
+      "letter": "E",
+      "text": "0.86"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-6.G.4",
+    "VAR-6.G.1",
+    "3.E",
+    "VAR-6.G",
+    "VAR-6.G.3",
+    "VAR-6",
+    "VAR-6.G.2"
+  ],
+  "standards": [
+    "VAR-6.G.4",
+    "VAR-6.G.1",
+    "3.E",
+    "VAR-6.G",
+    "VAR-6.G.3",
+    "VAR-6",
+    "VAR-6.G.2"
+  ]
+}

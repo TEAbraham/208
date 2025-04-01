@@ -1,0 +1,44 @@
+{
+  "question_id": "question-016",
+  "title": "Let's Play Ball",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Danny wanted to do a simulation on the types of hits in baseball.  While the percentages change slightly from year to year, he found that in <span class=\"tex2jax_process\">$2020$</span> that approximately <span class=\"tex2jax_process\">$63\\%$</span> of hits were singles, <span class=\"tex2jax_process\">$18\\%$</span> were doubles, <span class=\"tex2jax_process\">$15\\%$</span> were home runs, and <span class=\"tex2jax_process\">$4\\%$</span> were triples.  Danny wanted to simulate <span class=\"tex2jax_process\">$200$</span> at bats using these percentages.  How would he assign numbers using a random number table?  Then, how would he calculate the estimated probabilities from using his table?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Let\n00\nto\n62\nindicate a single, let\n63\nto\n80\nindicate a double, let\n81\nto\n84\nindicate a triple, and let\n85\nto\n99\nindicate a home run. Danny would then count up the number in each category and divide each number by its given percentage."
+    },
+    {
+      "letter": "B",
+      "text": "Let\n00\nto\n62\nindicate a single, let\n63\nto\n80\nindicate a double, let\n81\nto\n84\nindicate a triple, and let\n85\nto\n99\nindicate a home run. Danny would then count up the number in each category and divide each number by\n100\n."
+    },
+    {
+      "letter": "C",
+      "text": "Let\n01\nto\n63\nindicate a single, let\n64\nto\n81\nindicate a double, let\n82\nto\n85\nindicate a triple, and let\n86\nto\n99\nand\n00\nindicate a home run. Danny would then count up the number in each category and divide each number by\n100\n."
+    },
+    {
+      "letter": "D",
+      "text": "Let\n01\nto\n63\nindicate a single, let\n64\nto\n80\nindicate a double, let\n81\nto\n84\nindicate a triple, and let\n85\nto\n99\nindicate a home run. Skip\n00\n. Danny would then count up the number in each category and divide each number by\n200\n."
+    },
+    {
+      "letter": "E",
+      "text": "Let\n01\nto\n63\nindicate a single, let\n64\nto\n81\nindicate a double, let\n82\nto\n85\nindicate a triple, and let\n86\nto\n99\nand\n00\nindicate a home run. Danny would then count up the number in each category and divide each number by\n200\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "3.A",
+    "UNC-2.A",
+    "UNC-2",
+    "UNC-2.A.5"
+  ],
+  "standards": [
+    "3.A",
+    "UNC-2.A",
+    "UNC-2",
+    "UNC-2.A.5"
+  ]
+}

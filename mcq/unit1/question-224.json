@@ -1,0 +1,44 @@
+{
+  "question_id": "question-224",
+  "title": "Speed Radar Sign: Proportions from the Normal Distribution",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Police in a certain town recently set up a roadside speed radar with a sign that displays a vehicle's speed as it approaches the radar. This helps motorists be more aware of their speed, but it can also be used to track the speed of vehicles that pass the radar.  </div><div class=\"paragraph\">During the two weeks that the sign was in place, the mean speed of all vehicles passing the sign was found to be <span class=\"tex2jax_process\">$42.8\\text{ mph}$</span>.  </div><div class=\"paragraph\">Assuming the distribution of speeds was approximately normal and the standard deviation of all vehicles that passed this sign was <span class=\"tex2jax_process\">$5.3\\text{ mph}$</span>, what proportion of cars were traveling more than <span class=\"tex2jax_process\">$40\\text{ mph}$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.30"
+    },
+    {
+      "letter": "B",
+      "text": "0.47"
+    },
+    {
+      "letter": "C",
+      "text": "0.53"
+    },
+    {
+      "letter": "D",
+      "text": "0.70"
+    },
+    {
+      "letter": "E",
+      "text": "5.3"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B",
+    "3.A",
+    "VAR-2",
+    "VAR-2.B.3"
+  ],
+  "standards": [
+    "VAR-2.B",
+    "3.A",
+    "VAR-2",
+    "VAR-2.B.3"
+  ]
+}

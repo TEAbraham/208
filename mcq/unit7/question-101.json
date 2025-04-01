@@ -1,0 +1,46 @@
+{
+  "question_id": "question-101",
+  "title": "National Fitness Challenge",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Two large high schools are competing with each other in a national fitness challenge.  </div><div class=\"paragraph\">Five students are selected at random from each school. Their running times for a <span class=\"tex2jax_process\">$5\\text{ kilometer}$</span> run, rounded to the nearest minute, is recorded below:</div><blockquote><div class=\"paragraph\">School A: <span class=\"tex2jax_process\">$30, 35, 30, 32, 24$</span><br>Mean: <span class=\"tex2jax_process\">$30.2$</span><br>Standard Deviation: <span class=\"tex2jax_process\">$4.025$</span>  </div><div class=\"paragraph\">School B: <span class=\"tex2jax_process\">$27, 22, 36, 30, 31$</span><br>Mean: <span class=\"tex2jax_process\">$29.2$</span><br>Standard Deviation: <span class=\"tex2jax_process\">$5.167$</span>  </div></blockquote><div class=\"paragraph\">Determine the most exact value of a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for the difference of the two schools’ running times.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "(\n−\n2.72\n,\n4.72\n)"
+    },
+    {
+      "letter": "B",
+      "text": "(\n−\n4.49\n,\n6.49\n)"
+    },
+    {
+      "letter": "C",
+      "text": "(\n−\n5.76\n,\n7.75\n)"
+    },
+    {
+      "letter": "D",
+      "text": "(\n−\n5.83\n,\n7.83\n)"
+    },
+    {
+      "letter": "E",
+      "text": "(\n−\n9\n,\n11\n)"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "3.D",
+    "UNC-4.Y.1",
+    "UNC-4.Y.2",
+    "UNC-4",
+    "UNC-4.Y"
+  ],
+  "standards": [
+    "3.D",
+    "UNC-4.Y.1",
+    "UNC-4.Y.2",
+    "UNC-4",
+    "UNC-4.Y"
+  ]
+}

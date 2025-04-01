@@ -1,0 +1,46 @@
+{
+  "question_id": "question-066",
+  "title": "Finding Margin of Error: Body Fat and Chocolate Consumed",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Is there an association between someone eating large quantities of chocolate and being overweight? A random sample of <span class=\"tex2jax_process\">$26\\text{ women}$</span> had their body fat percentage measured and were asked how much chocolate they eat a day. A computer regression analysis of the data is given below:  </div><div class=\"paragraph\">Dependent variable is: Body fat<br><span class=\"tex2jax_process\">$R^2 = 20.26\\%$</span><br><span class=\"tex2jax_process\">$s= 7.89 $</span>\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\"></th><th scope=\"col\">Coefficient</th><th scope=\"col\"></th><th scope=\"col\">s.e Coeff</th><th scope=\"col\"></th><th scope=\"col\">t-ratio</th><th scope=\"col\"></th><th scope=\"col\">prob</th></tr></thead><tbody><tr><td>Constant</td><td></td><td>23.231</td><td></td><td>1.567</td><td></td><td>14.32</td><td></td><td>0.00001</td></tr><tr><td>Chocolate</td><td></td><td>0.0543</td><td></td><td>0.0217</td><td></td><td>2.21</td><td></td><td>0.037</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Assuming the conditions have been satisfied and using <span class=\"tex2jax_process\">$95\\%$</span> confidence, which of the following represents the margin of error for the slope <span class=\"tex2jax_process\">$t$</span>-interval?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "(\n2.056\n)\n(\n0.0217\n)"
+    },
+    {
+      "letter": "B",
+      "text": "(\n2.064\n)\n(\n0.0217\n)"
+    },
+    {
+      "letter": "C",
+      "text": "(\n1.96\n)\n(\n0.0217\n√\n26\n)"
+    },
+    {
+      "letter": "D",
+      "text": "(\n2.056\n)\n(\n0.0217\n√\n26\n)"
+    },
+    {
+      "letter": "E",
+      "text": "(\n2.064\n)\n(\n0.0217\n√\n26\n)"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.1",
+    "VAR-7.M.2"
+  ],
+  "standards": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.1",
+    "VAR-7.M.2"
+  ]
+}

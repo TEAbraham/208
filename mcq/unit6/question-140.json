@@ -1,0 +1,44 @@
+{
+  "question_id": "question-140",
+  "title": "Hypertension and High-Stress Jobs: A Hypothesis Test",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Hypertension, or high blood pressure, is a serious condition that can lead to many different types of health problems. According to the National Heart, Lung, and Blood Institute, about <span class=\"tex2jax_process\">$1$</span>-in-<span class=\"tex2jax_process\">$3$</span> American adults suffer from this condition. Some studies suggest there is a link between stress and hypertension. Other studies suggest that men are more likely to suffer from hypertension than women.  </div><div class=\"paragraph\">Historically, however, men have often held more high-stress jobs than women. Times have been changing, though, and many women now hold the same types of high-stress jobs as men. Do men and women in these types of high-stress jobs suffer from hypertension at the same rates?  </div><div class=\"paragraph\">Heidi decides to do a study. She randomly selects the health records of <span class=\"tex2jax_process\">$104\\text{ women}$</span> in high-stress jobs and finds that <span class=\"tex2jax_process\">$25\\%$</span> of them suffer from hypertension. She also randomly selects the health records of <span class=\"tex2jax_process\">$150\\text{ men}$</span> in high-stress jobs and finds that <span class=\"tex2jax_process\">$36\\%$</span> of them suffer from hypertension. It is reasonable to consider her samples to be independent.  </div><div class=\"paragraph\">Does this provide evidence at the <span class=\"tex2jax_process\">$\\alpha = 0.05$</span> level that the rates of hypertension are not the same in men and women with high-stress jobs?  </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes, since the proportion of males with hypertension is much greater than the proportion of females with hypertension, the hypertension rates cannot possibly be equal."
+    },
+    {
+      "letter": "B",
+      "text": "Yes, since\np\n=\n0.03\n, we have strong evidence to suggest that the proportion of men who suffer from hypertension is greater than the proportion of females who suffer from hypertension."
+    },
+    {
+      "letter": "C",
+      "text": "No, more men in our sample had hypertension than females, but there were also more men sampled so this is to be expected even if the rates of hypertension truly are equal."
+    },
+    {
+      "letter": "D",
+      "text": "No, since\np\n=\n0.06\n, our results do not provide enough evidence to suggest that the hypertension rates are not equal."
+    },
+    {
+      "letter": "E",
+      "text": "We cannot perform a significance test in this situation since not all conditions are satisfied."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "VAR-6.K",
+    "VAR-6.K.1",
+    "VAR-6"
+  ],
+  "standards": [
+    "4.E",
+    "VAR-6.K",
+    "VAR-6.K.1",
+    "VAR-6"
+  ]
+}

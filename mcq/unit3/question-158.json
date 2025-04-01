@@ -1,0 +1,44 @@
+{
+  "question_id": "question-158",
+  "title": "Website Redesign",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A popular website wants to know if a site-wide redesign would be more popular among its viewers.  </div><div class=\"paragraph\">They showed the last <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-26777\"><span class=\"MJXp-mn\" id=\"MJXp-Span-26778\">25,000</span></span></span><span id=\"MathJax-Element-7693-Frame\" class=\"mjx-chtml MathJax_CHTML MJXc-processing\" tabindex=\"0\"></span><script type=\"math/tex\" id=\"MathJax-Element-7693\">25{,}000</script></span> visitors who were on the site both the new and old designs, and <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-26779\"><span class=\"MJXp-mn\" id=\"MJXp-Span-26780\">51.2</span><span class=\"MJXp-mi\" id=\"MJXp-Span-26781\">%</span></span></span><span id=\"MathJax-Element-7694-Frame\" class=\"mjx-chtml MathJax_CHTML MJXc-processing\" tabindex=\"0\"></span><script type=\"math/tex\" id=\"MathJax-Element-7694\">51.2\\%</script></span> of respondents determined the new design is preferred. The remaining preferred the old design.  </div><div class=\"paragraph\">Even if the result is statistically significant, why might the company decide not to spend the extra money to incorporate the redesign?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The subjects were not randomly chosen, so the results will be biased."
+    },
+    {
+      "letter": "B",
+      "text": "An additional blank-cover design should have been used as a control."
+    },
+    {
+      "letter": "C",
+      "text": "More browsers of this site should be surveyed since the population is so large."
+    },
+    {
+      "letter": "D",
+      "text": "The difference is statistically significant since the sample is so large, but not practically significant or worth the company spending money to change it since the percentage difference is so small."
+    },
+    {
+      "letter": "E",
+      "text": "Both people who go to this site and people who do not go to this site should be surveyed."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.E.3"
+  ],
+  "standards": [
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.E.3"
+  ]
+}

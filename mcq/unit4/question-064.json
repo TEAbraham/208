@@ -1,0 +1,44 @@
+{
+  "question_id": "question-064",
+  "title": "Computer Chips",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Suppose <span class=\"tex2jax_process\">$10$</span> computer chips are randomly selected for a very large population.  </div><div class=\"paragraph\">If <span class=\"tex2jax_process\">$95\\%$</span> of the chips work effectively, what is the probability of getting zero defective chips out of the <span class=\"tex2jax_process\">$10$</span> chosen?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.5987"
+    },
+    {
+      "letter": "B",
+      "text": "0.95"
+    },
+    {
+      "letter": "C",
+      "text": "0.05"
+    },
+    {
+      "letter": "D",
+      "text": "0.000976"
+    },
+    {
+      "letter": "E",
+      "text": "0.4283"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4"
+  ],
+  "standards": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4"
+  ]
+}

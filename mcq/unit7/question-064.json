@@ -1,0 +1,46 @@
+{
+  "question_id": "question-064",
+  "title": "One-Sample $T$ Hypothesis of Ice Water",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Suppose a psychologist decides to use a matched pairs (paired) experiment to determine how long individuals can hold their hands in ice water when intoxicated compared to sober.  </div><div class=\"paragraph\">Suppose the psychologist hypothesizes that alcohol will numb the pain, so individuals will be able to keep their hands in the ice water longer when intoxicated.  </div><div class=\"paragraph\">If the longest amount of time was <span class=\"tex2jax_process\">$5.1\\text{ minutes}$</span>, what are the appropriate null and alternative hypotheses for this situation?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "H\n0\n:\nu\n1\n=\nu\n2 H\na\n:\nu\n1\n<\nu\n2 Define\nu\n1\nas the average time an individual can hold their hands in the ice water when intoxicated, and\nu\n2\nas the average time an individual can hold their hands in the ice water when sober."
+    },
+    {
+      "letter": "B",
+      "text": "H\n0\n:\nu\n1\n=\nu\n2 H\na\n:\nu\n1\n>\nu\n2 Define\nu\n1\nas the average time an individual can hold their hands in the ice water when intoxicated and\nu\n1\nas the average time an individual can hold their hands in the ice water when sober."
+    },
+    {
+      "letter": "C",
+      "text": "H\n0\n:\nμ\n=\n0 H\na\n:\nμ\n>\n0 Define\nμ\nas the increase in time an individual can hold their hands in ice water when intoxicated."
+    },
+    {
+      "letter": "D",
+      "text": "H\n0\n:\nμ\n=\n5.1 H\na\n:\nμ\n<\n5.\n1 Define\nμ\nas the average amount of time an individual can hold their hands in ice water."
+    },
+    {
+      "letter": "E",
+      "text": "H\n0\n:\nμ\n=\n0 H\na\n:\nμ\n<\n0 Define\nμ\nas the increase in time an individual can hold their hands in ice water when intoxicated."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-3.F",
+    "4.E",
+    "DAT-3",
+    "DAT-3.F.2",
+    "DAT-3.F.1"
+  ],
+  "standards": [
+    "DAT-3.F",
+    "4.E",
+    "DAT-3",
+    "DAT-3.F.2",
+    "DAT-3.F.1"
+  ]
+}

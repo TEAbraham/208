@@ -1,0 +1,48 @@
+{
+  "question_id": "question-113",
+  "title": "LSRL Facts",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Which of the following statements is/are true regarding the construction of the least squares regression line?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> The least squares regression line must pass through the averages of the dependent and independent variables.<br><strong>II. </strong> The least squares regression line is constructed in such a way as to minimize the distance between the observed points and the <span class=\"tex2jax_process\">$x$</span>-axis.<br><strong>III.</strong> The least squares regression line is not resistant to extreme observations.    </div></blockquote>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "I and II only."
+    },
+    {
+      "letter": "C",
+      "text": "I, II, and III."
+    },
+    {
+      "letter": "D",
+      "text": "II and III only."
+    },
+    {
+      "letter": "E",
+      "text": "I and III only."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.H.2",
+    "DAT-1.H",
+    "DAT-1",
+    "DAT-1.H.3",
+    "DAT-1.H.1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-1.H.2",
+    "DAT-1.H",
+    "DAT-1",
+    "DAT-1.H.3",
+    "DAT-1.H.1"
+  ]
+}

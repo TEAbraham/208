@@ -1,0 +1,44 @@
+{
+  "question_id": "question-049",
+  "title": "SRS or Not?",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">At a large high school, there are <span class=\"tex2jax_process\">$20$</span> senior homerooms each with between <span class=\"tex2jax_process\">$20$</span> and <span class=\"tex2jax_process\">$25$</span> students.  A random sample of <span class=\"tex2jax_process\">$40$</span> seniors is to be selected as follows.  </div><div class=\"paragraph\">Each homeroom teacher will be asked to place the names of the students in their homeroom into a box and then randomly select two names.  The two students selected from each of the <span class=\"tex2jax_process\">$20$</span> homerooms will then be combined to form the sample of size <span class=\"tex2jax_process\">$40$</span>.  </div><div class=\"paragraph\">Will this method result in a simple random sample of seniors at this high school?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "No, because the homerooms are from the same grade."
+    },
+    {
+      "letter": "B",
+      "text": "No, because not each group of\n40\nstudents has the same chance of being selected."
+    },
+    {
+      "letter": "C",
+      "text": "Yes, because each student in each homeroom has an equal chance of being selected."
+    },
+    {
+      "letter": "D",
+      "text": "Yes, because this is a very simple method of random selection."
+    },
+    {
+      "letter": "E",
+      "text": "Yes, because the names are randomly selected in each homeroom."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-2.C.2",
+    "DAT-2",
+    "1.C",
+    "DAT-2.C"
+  ],
+  "standards": [
+    "DAT-2.C.2",
+    "DAT-2",
+    "1.C",
+    "DAT-2.C"
+  ]
+}

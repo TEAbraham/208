@@ -1,0 +1,44 @@
+{
+  "question_id": "question-185",
+  "title": "Which Fertilizer Produces More Crops?",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">In order to test the effectiveness of two fertilizers, Grow Fertilizer and Fertilizer Plus, a farmer designs the following two experiments:</div><div class=\"paragraph\"><strong>Experiment A</strong>: The farmer will first divide his land into <span class=\"tex2jax_process\">$10$</span> equal sections.  For each section, the farmer flips a coin; if the coin lands on tails, Grow Fertilizer will be used on the East side of the section, and if the coin lands on heads, Fertilizer Plus will be used on the East side of the section. Whichever fertilizer is not used on the East side of the section will be used on the West side.  This process will be repeated for each of the remaining nine sections.  After <span class=\"tex2jax_process\">$4$</span> weeks, the farmer will observe which side of each section produced more crops.</div><div class=\"paragraph\"><strong>Experiment B</strong>: The farmer will first divide his land into <span class=\"tex2jax_process\">$10$</span> equal sections (the <span class=\"tex2jax_process\">$5$</span> sections on the East side of his land and the <span class=\"tex2jax_process\">$5$</span> sections on the West side of his land). A coin will be flipped once to determine which of the two fertilizers is used on the East side of his land.  If the coin lands on tails, Grow Fertilizer will be used; if the coin lands on heads, Fertilizer Plus will be used.  Whichever Fertilizer is not used on the <span class=\"tex2jax_process\">$5$</span> sections on the East side of his land will be used on the five sections on the West side of his land.  After <span class=\"tex2jax_process\">$4$</span> weeks, the farmer will observe which side of his land (East or West) produced more crops.</div><div class=\"paragraph\">Which of the following statements is <strong>not</strong> true?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Both experiments incorporate randomness."
+    },
+    {
+      "letter": "B",
+      "text": "Lurking variables are present in both experimental designs."
+    },
+    {
+      "letter": "C",
+      "text": "Experiment B could lead to confounding."
+    },
+    {
+      "letter": "D",
+      "text": "Both experiments use matched pairs in their design."
+    },
+    {
+      "letter": "E",
+      "text": "The experimental units are the sections of the farmer’s land."
+    }
+  ],
+  "correct_answer": "<strong>Choice ‘D’</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3",
+    "1.C",
+    "VAR-3.C.9",
+    "VAR-3.C"
+  ],
+  "standards": [
+    "VAR-3",
+    "1.C",
+    "VAR-3.C.9",
+    "VAR-3.C"
+  ]
+}

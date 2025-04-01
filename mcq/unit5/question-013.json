@@ -1,0 +1,44 @@
+{
+  "question_id": "question-013",
+  "title": "Sandra's Hair Salon",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Each month, the manager of Sandra's Hair Salon randomly chooses <span class=\"tex2jax_process\">$25\\text{ customers}$</span> to respond to a customer satisfaction survey.  Suppose <span class=\"tex2jax_process\">$85\\%$</span> of the clients at Sandra's Hair Salon are completely satisfied with their salon service.  </div><div class=\"paragraph\">What are the mean and standard deviation of the sampling distribution of the proportion of clients who are completely satisfied with their salon service when <span class=\"tex2jax_process\">$25\\text{ customers}$</span> are sampled?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "μ\n^\np\n=\n(\n25\n)\n(\n0.85\n)\nσ\n^\np\n=\n√\n(\n25\n)\n(\n75\n)\n0.85"
+    },
+    {
+      "letter": "B",
+      "text": "μ\n^\np\n=\n(\n25\n)\n(\n0.85\n)\nσ\n^\np\n=\n√\n(\n0.85\n)\n(\n0.15\n)\n25"
+    },
+    {
+      "letter": "C",
+      "text": "μ\n^\np\n=\n0.85\nσ\n^\np\n=\n√\n(\n25\n)\n(\n75\n)\n0.85"
+    },
+    {
+      "letter": "D",
+      "text": "μ\n^\np\n=\n0.85\nσ\n^\np\n=\n√\n(\n0.85\n)\n(\n0.15\n)\n25"
+    },
+    {
+      "letter": "E",
+      "text": "μ\n^\np\n=\n0.85\n25\nσ\n^\np\n=\n√\n(\n25\n)\n(\n75\n)\n0.85"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.K.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.K"
+  ],
+  "standards": [
+    "UNC-3.K.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.K"
+  ]
+}

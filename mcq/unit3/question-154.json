@@ -1,0 +1,44 @@
+{
+  "question_id": "question-154",
+  "title": "Correlation and Causation: Study Session",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose a teacher decided to offer an after-school study session the day before a <span class=\"tex2jax_process\">$100\\text{ point}$</span> test.  </div><div class=\"paragraph\">The <span class=\"tex2jax_process\">$34\\text{ students}$</span> who came to this study session averaged scores <span class=\"tex2jax_process\">$8\\text{ points}$</span> higher on the test than the <span class=\"tex2jax_process\">$72\\text{ students}$</span> who did not come to the study session.  </div><div class=\"paragraph\">Based on this information, what may one conclude?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Enough evidence exists to say the study session was helpful."
+    },
+    {
+      "letter": "B",
+      "text": "If the teacher really wanted to see if the study session is helpful, she should have randomly assigned students to attend the session."
+    },
+    {
+      "letter": "C",
+      "text": "Since the samples sizes were quite different, no reasonable comparisons can be made in this situation."
+    },
+    {
+      "letter": "D",
+      "text": "Since it was not a double-blind experiment, no reasonable comparisons can be made in this situation."
+    },
+    {
+      "letter": "E",
+      "text": "An increase of\n8\n points\nis not significant enough to determine whether the study session helped."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.E.2"
+  ],
+  "standards": [
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.E.2"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-095",
+  "title": "Basketball Team Height Roster",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose a basketball team consists of <span class=\"tex2jax_process\">$15\\text{ players}$</span> that range in height from <span class=\"tex2jax_process\">$5\\text{ feet}$</span> <span class=\"tex2jax_process\">$8\\text{ inches}$</span> to <span class=\"tex2jax_process\">$6\\text{ feet}$</span> <span class=\"tex2jax_process\">$10\\text{ inches}$</span>. Suppose the tallest player on this team leaves but is replaced by a <span class=\"tex2jax_process\">$7$</span>-feet-tall player.  </div><div class=\"paragraph\">Which of the following measures are guaranteed to change, and how so?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Interquartile range will increase."
+    },
+    {
+      "letter": "B",
+      "text": "Median will increase."
+    },
+    {
+      "letter": "C",
+      "text": "Mode will decrease."
+    },
+    {
+      "letter": "D",
+      "text": "Standard deviation will increase."
+    },
+    {
+      "letter": "E",
+      "text": "Mean will decrease."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-1.K",
+    "UNC-1.K.2",
+    "UNC-1"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-1.K",
+    "UNC-1.K.2",
+    "UNC-1"
+  ]
+}

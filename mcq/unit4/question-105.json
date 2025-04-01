@@ -1,0 +1,46 @@
+{
+  "question_id": "question-105",
+  "title": "Distribution of Discrete Quantitative Variables",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A distribution of a discrete quantitative variable</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Involves relationships with other variables."
+    },
+    {
+      "letter": "B",
+      "text": "Can give the reader information about center, shape, and spread."
+    },
+    {
+      "letter": "C",
+      "text": "Is always best conveyed in a boxplot."
+    },
+    {
+      "letter": "D",
+      "text": "Does not make sense in this situation; distributions make sense only for categorical data."
+    },
+    {
+      "letter": "E",
+      "text": "Can only be correctly displayed if the distribution is roughly normal."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.A.2",
+    "VAR-5",
+    "VAR-5.A",
+    "2.B",
+    "VAR-5.A.1"
+  ],
+  "standards": [
+    "VAR-5.A.2",
+    "VAR-5",
+    "VAR-5.A",
+    "2.B",
+    "VAR-5.A.1"
+  ]
+}

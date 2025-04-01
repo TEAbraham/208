@@ -1,0 +1,44 @@
+{
+  "question_id": "question-087",
+  "title": "Degrees of Freedom and Statistical Significance",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Lauren conducted a one-sample <span class=\"tex2jax_process\">$t$</span>-test for a population mean and her results were found to be statistically significant at the <span class=\"tex2jax_process\">$\\alpha=0.05$</span> level.  </div><div class=\"paragraph\">Later, she realized that she had calculated the <span class=\"tex2jax_process\">$p$</span>-value using the wrong value for degrees of freedom, <span class=\"tex2jax_process\">$\\text{df}$</span>.  If the true <span class=\"tex2jax_process\">$\\text{df}$</span> should have been higher than the <span class=\"tex2jax_process\">$\\text{df}$</span> she had used in her calculation, would her results still be statistically significant?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "No, using a higher value for\ndf\nwould result in a higher\np\n-value."
+    },
+    {
+      "letter": "B",
+      "text": "Maybe, using a higher value for\ndf\nwould result in a higher\np\n-value, but the\np\n-value may still be less than\n0.05\n."
+    },
+    {
+      "letter": "C",
+      "text": "Maybe, using a higher value for\ndf\nwould result in a lower\np\n-value, but the\np\n-value may then end up being too low for the results to be considered statistically significant."
+    },
+    {
+      "letter": "D",
+      "text": "Yes, using a higher value for\ndf\nwould result in a lower\np\n-value."
+    },
+    {
+      "letter": "E",
+      "text": "It depends on whether Lauren was using a one-sided or two-sided alternative hypothesis."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3.E",
+    "DAT-3",
+    "DAT-3.E.1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3.E",
+    "DAT-3",
+    "DAT-3.E.1"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "question_id": "question-054",
+  "title": "Finding the P-value of a 1-sided When Given a 2-sided P-value",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A two-sided hypothesis test obtained a <span class=\"tex2jax_process\">$p$</span>-value of <span class=\"tex2jax_process\">$0.36$</span>.  </div><div class=\"paragraph\">If the test was conducted as a one-tailed test using the same set of data, which of the following is true about the possible <span class=\"tex2jax_process\">$p$</span>-values that could have been acquired?</div>",
+  "image_files": [
+    "images/question-054-img1.PNG",
+    "images/question-054-img2.PNG",
+    "images/question-054-img3.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The only possible\np\n- value is\n0.18\n."
+    },
+    {
+      "letter": "B",
+      "text": "The only possible\np\n- value is\n0.72\n."
+    },
+    {
+      "letter": "C",
+      "text": "The only possible\np\n- value is\n0.82\n."
+    },
+    {
+      "letter": "D",
+      "text": "The possible\np\n- values are\n0.18\nand\n0.72\n."
+    },
+    {
+      "letter": "E",
+      "text": "The possible\np\n- values are\n0.18\nand\n0.82\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.A",
+    "DAT-3.A.1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.A",
+    "DAT-3.A.1"
+  ]
+}

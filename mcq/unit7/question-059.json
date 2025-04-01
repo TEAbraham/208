@@ -1,0 +1,44 @@
+{
+  "question_id": "question-059",
+  "title": "How Many Peas in a Pod?",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Granny Green owned a huge farm and grew thousands of pea plants.  She read that there are <span class=\"tex2jax_process\">$5$</span> or <span class=\"tex2jax_process\">$6$</span> peas in a pod on average and she was sure her pods contained more peas than that.  She randomly sampled <span class=\"tex2jax_process\">$40$</span> of her pea pods and decided to do a one-sample t-test to show that the mean number of peas in her pods were higher than the claimed average.  </div><div class=\"paragraph\">The answer choices below contain both the alternative hypothesis for her test as well as a statement about the condition(s) she needs to verify.  Four of the answers contain something wrong, only one answer is correct.  Which one?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "H\na\n:\nμ\n>\n6 She failed to meet the condition(s) for independence."
+    },
+    {
+      "letter": "B",
+      "text": "H\na\n:\np\n>\n6 She did meet the condition(s) for independence."
+    },
+    {
+      "letter": "C",
+      "text": "H\na\n:\nμ\n>\n6 She failed to meet the condition(s) for showing that the sampling distribution was approximately normal."
+    },
+    {
+      "letter": "D",
+      "text": "H\na\n:\n¯\nx\n>\n6 She did meet the condition(s) for showing that the sampling distribution was approximately normal."
+    },
+    {
+      "letter": "E",
+      "text": "H\na\n:\nμ\n>\n6 Her population of peas were more than\n10\ntimes greater than the size of her sample."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.C",
+    "VAR-7.D",
+    "VAR-7.D.1",
+    "VAR-7"
+  ],
+  "standards": [
+    "4.C",
+    "VAR-7.D",
+    "VAR-7.D.1",
+    "VAR-7"
+  ]
+}

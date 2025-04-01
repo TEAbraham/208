@@ -1,0 +1,44 @@
+{
+  "question_id": "question-181",
+  "title": "Composite Binomial Situation",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Suppose a basketball player shoots <span class=\"tex2jax_process\">$10\\text{ free throws}$</span> per game.  </div><div class=\"paragraph\">If the season lasts <span class=\"tex2jax_process\">$32\\text{ games}$</span> and the player is an <span class=\"tex2jax_process\">$80\\%$</span> lifetime free-throw shooter, what is the probability that the player makes all <span class=\"tex2jax_process\">$10$</span> of his free throws during at least one of the games?  </div><div class=\"paragraph\">Assume each game and each of the free throw attempts is independent.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.893"
+    },
+    {
+      "letter": "B",
+      "text": "0.973"
+    },
+    {
+      "letter": "C",
+      "text": "0.026"
+    },
+    {
+      "letter": "D",
+      "text": "Approximately\n1\n."
+    },
+    {
+      "letter": "E",
+      "text": "0.989"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.B",
+    "3.A",
+    "UNC-3",
+    "UNC-3.B.1"
+  ],
+  "standards": [
+    "UNC-3.B",
+    "3.A",
+    "UNC-3",
+    "UNC-3.B.1"
+  ]
+}

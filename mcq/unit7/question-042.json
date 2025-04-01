@@ -1,0 +1,46 @@
+{
+  "question_id": "question-042",
+  "title": "Type of Interval to Use: Strength and Conditioning",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A new strength and conditioning program guarantees that you can add significant distance to how far you can hit a baseball. A baseball coach decides to test this claim by randomly selecting <span class=\"tex2jax_process\">$35$</span> of his players to do the program. Before they start the program, he has all of his players hit <span class=\"tex2jax_process\">$50$</span> balls from a baseball tee, recording the average distance (feet) for each player. They then do the new strength and conditioning program. After they complete the program, they hit <span class=\"tex2jax_process\">$50$</span> balls again from the tee and record their average distance.  </div><div class=\"paragraph\">Which of the following would be the most appropriate confidence interval for measuring the average difference in the distance the ball traveled  before and after the new strength and conditioning program?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Paired\nz\n-interval for means."
+    },
+    {
+      "letter": "B",
+      "text": "Two sample\nz\n-interval for means."
+    },
+    {
+      "letter": "C",
+      "text": "Paired\nt\n-interval for means."
+    },
+    {
+      "letter": "D",
+      "text": "Two sample\nt\n-interval for means."
+    },
+    {
+      "letter": "E",
+      "text": "χ\n2\ngoodness-of-fit interval."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-4.S",
+    "UNC-4.S.2",
+    "UNC-4.S.1",
+    "UNC-4"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-4.S",
+    "UNC-4.S.2",
+    "UNC-4.S.1",
+    "UNC-4"
+  ]
+}

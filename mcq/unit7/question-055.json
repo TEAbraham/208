@@ -1,0 +1,44 @@
+{
+  "question_id": "question-055",
+  "title": "More SuperChips",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">There had been some recent complaints about the SuperChips Cookie Company that there were fewer chocolate chips per cookie than there used to be.  Ten years ago there was shown to be an average of <span class=\"tex2jax_process\">$12$</span> chips per cookie.  The current company president decided to randomly sample <span class=\"tex2jax_process\">$100$</span> cookies off the line and have the chips counted as he wanted to show that the number of chips per cookie had not changed.  The average number of chips from the sample was <span class=\"tex2jax_process\">$11$</span>.  Can the president go ahead and proceed with the test?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes. Having a sample size much greater than\n30\nis enough to prove his point."
+    },
+    {
+      "letter": "B",
+      "text": "No. He did not check to show that the sampling distribution for the mean was approximately normal."
+    },
+    {
+      "letter": "C",
+      "text": "Yes. Conditions are verified so he can try to show that the\n11\ndid not significantly change from the\n12\n."
+    },
+    {
+      "letter": "D",
+      "text": "No. The fact that the number dropped from\n12\nto\n11\ndisproves what he is trying to show."
+    },
+    {
+      "letter": "E",
+      "text": "No. He should be running a matched-pairs test."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.C",
+    "VAR-7.D",
+    "VAR-7.D.1",
+    "VAR-7"
+  ],
+  "standards": [
+    "4.C",
+    "VAR-7.D",
+    "VAR-7.D.1",
+    "VAR-7"
+  ]
+}

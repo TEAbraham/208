@@ -1,0 +1,46 @@
+{
+  "question_id": "question-265",
+  "title": "Steel Rods",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A company manufacturing steel rods makes rods that have a mean diameter of <span class=\"tex2jax_process\">$0.5\\text{ inches}$</span> and standard deviation of <span class=\"tex2jax_process\">$0.03\\text{ inches}$</span> and are approximately normally distributed.  </div><div class=\"paragraph\">The company will accept all rods unless they are in the thinnest <span class=\"tex2jax_process\">$1\\%$</span> or thickest <span class=\"tex2jax_process\">$1\\%$</span> of all those manufactured.  </div><div class=\"paragraph\">What is the range of diameters that will be acceptable to the manufacturer?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.47\nto\n0.53"
+    },
+    {
+      "letter": "B",
+      "text": "0.44\nto\n0.56"
+    },
+    {
+      "letter": "C",
+      "text": "0.47\nto\n0.57"
+    },
+    {
+      "letter": "D",
+      "text": "0.43\nto\n0.57"
+    },
+    {
+      "letter": "E",
+      "text": "Unable to determine based off of the information given."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2"
+  ],
+  "standards": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2"
+  ]
+}

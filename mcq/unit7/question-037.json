@@ -1,0 +1,44 @@
+{
+  "question_id": "question-037",
+  "title": "One-Sample T-Interval Output",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">An exercise physiologist is interested in the effect of exercise on heart rate.  </div><div class=\"paragraph\">She has subjects walk slowly for <span class=\"tex2jax_process\">$5\\text{ minutes}$</span> and records their heart rates. Then she has the subjects run vigorously for <span class=\"tex2jax_process\">$5\\text{ minutes}$</span> and records their heart rates again.  </div><div class=\"paragraph\">The differences are recorded (heart rate after running - heart rate before running), with results below:</div><div class=\"paragraph\"><strong>One-Sample T: Differences</strong>  </div><div class=\"paragraph\">Test of <span class=\"tex2jax_process\">$\\mu$</span> = <span class=\"tex2jax_process\">$0$</span> vs. &gt;  <span class=\"tex2jax_process\">$0$</span>\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">StDev</th><th scope=\"col\">SE Mean</th><th scope=\"col\">96% CI</th><th scope=\"col\">T</th><th scope=\"col\">P</th></tr></thead><tbody><tr><td>Differences</td><td>12</td><td>59.88</td><td>10.36</td><td>3.66</td><td>(51.22, 68.53)</td><td>16.35</td><td>0.000</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>What is a valid interpretation of the confidence interval given from the computer output?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Since the entire interval does not contain\n0\n, there is evidence the heart rate increased after exercise."
+    },
+    {
+      "letter": "B",
+      "text": "The increase in heart rate is probably somewhere around\n16\nbeats per minute."
+    },
+    {
+      "letter": "C",
+      "text": "Since the entire interval is above\n0\n, there is evidence the heart rate increased after exercise."
+    },
+    {
+      "letter": "D",
+      "text": "Since the\np\n-value is not captured in the interval, there is evidence the heart rate increased after exercise."
+    },
+    {
+      "letter": "E",
+      "text": "Since the\np\n-value is not captured in the interval, there is no evidence heart rate increased after exercise."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.U.1",
+    "UNC-4.U",
+    "UNC-4",
+    "4.A"
+  ],
+  "standards": [
+    "UNC-4.U.1",
+    "UNC-4.U",
+    "UNC-4",
+    "4.A"
+  ]
+}

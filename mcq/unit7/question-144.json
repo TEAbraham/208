@@ -1,0 +1,46 @@
+{
+  "question_id": "question-144",
+  "title": "Males/Females ACT",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Suppose a two-sample T-test hypothesizes that <span class=\"tex2jax_process\">$H_0: { u }_{ 1 }= { u }_{ 2 }$</span> vs. <span class=\"tex2jax_process\">$H_a: { u }_{ 1 } &gt; { u }_{ 2 }$</span>  </div><div class=\"paragraph\">Let <span class=\"tex2jax_process\">${ u }_{ 1 }$</span>= the ACT score of all males in the U.S.<br>Let <span class=\"tex2jax_process\">${ u }_{ 2 }$</span>= the ACT score of all females in the U.S.  </div><div class=\"paragraph\">The two-sample <span class=\"tex2jax_process\">$T$</span>-test gives a <span class=\"tex2jax_process\">$p$</span>-value of <span class=\"tex2jax_process\">$0.013$</span>.  </div><div class=\"paragraph\">When testing at the <span class=\"tex2jax_process\">$5\\%$</span> level, one can conclude that</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There is no evidence to suggest males score higher than females on the ACT."
+    },
+    {
+      "letter": "B",
+      "text": "There is no evidence to suggest males and females score the same as each other."
+    },
+    {
+      "letter": "C",
+      "text": "Significant evidence exists to accept the alternative hypothesis."
+    },
+    {
+      "letter": "D",
+      "text": "Significant evidence exists to reject the null hypothesis."
+    },
+    {
+      "letter": "E",
+      "text": "No evidence exists to claim males and females score the same."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.H.1",
+    "DAT-3",
+    "DAT-3.H",
+    "DAT-3.H.2"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3.H.1",
+    "DAT-3",
+    "DAT-3.H",
+    "DAT-3.H.2"
+  ]
+}

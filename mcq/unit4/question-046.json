@@ -1,0 +1,44 @@
+{
+  "question_id": "question-046",
+  "title": "Two Way Tables: Support of Copyright Disagreement and Nationality",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">John believes that nationality plays a role in who supports Bill Phillips or Ted Todd in their disagreement over copyright.  </div><div class=\"paragraph\">What is the probability that a person is Canadian given that they support Bill?  </div><div class=\"paragraph\"><u>Who Do You Support?</u>\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Canadians</th><th scope=\"col\">Americans</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Ted</td><td>89</td><td>243</td><td>332</td></tr><tr><td>Bill</td><td>142</td><td>103</td><td>245</td></tr><tr><td>Total</td><td>231</td><td>346</td><td>577</td></tr></tbody></table></div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "25\n%"
+    },
+    {
+      "letter": "B",
+      "text": "39\n%"
+    },
+    {
+      "letter": "C",
+      "text": "42\n%"
+    },
+    {
+      "letter": "D",
+      "text": "58\n%"
+    },
+    {
+      "letter": "E",
+      "text": "61\n%"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.D.1",
+    "3.A",
+    "VAR-4",
+    "VAR-4.D"
+  ],
+  "standards": [
+    "VAR-4.D.1",
+    "3.A",
+    "VAR-4",
+    "VAR-4.D"
+  ]
+}

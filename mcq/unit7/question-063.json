@@ -1,0 +1,60 @@
+{
+  "question_id": "question-063",
+  "title": "Hypotheses for Means: Waiting Time",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A valet company claims that a customer's  average wait time for their car is <span class=\"tex2jax_process\">$8\\text{ minutes}$</span>.   After waiting  <span class=\"tex2jax_process\">$20\\text{ minutes}$</span> to get your car, Bobby believes the valet company's time to get a car is greater than <span class=\"tex2jax_process\">$8\\text{ minutes}$</span>.  </div><div class=\"paragraph\">Which of the following hypotheses would be used to test your belief?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "H\n0\n:\n¯¯¯\nx\n=\n8\n minutes\n\nH\na\n:\n¯¯¯\nx\n≠\n8\n minutes"
+    },
+    {
+      "letter": "B",
+      "text": "H\n0\n:\n¯¯¯\nx\n=\n8\n minutes\n\nH\na\n:\n¯¯¯\nx\n<\n8\n minutes"
+    },
+    {
+      "letter": "C",
+      "text": "H\n0\n:\n¯¯¯\nx\n=\n8\n minutes\n\nH\na\n:\n¯¯¯\nx\n>\n8\n minutes"
+    },
+    {
+      "letter": "D",
+      "text": "H\n0\n:\nμ\n=\n8\n minutes\n\nH\na\n:\nμ\n<\n8\n minutes"
+    },
+    {
+      "letter": "E",
+      "text": "H\n0\n:\nμ\n=\n8\n minutes\n\nH\na\n:\nμ\n>\n8\n minutes"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-3.F",
+    "4.E",
+    "4.B",
+    "DAT-3.E",
+    "VAR-7.E",
+    "DAT-3",
+    "DAT-3.F.2",
+    "VAR-7.E.1",
+    "VAR-7",
+    "3.E",
+    "DAT-3.F.1",
+    "DAT-3.E.1"
+  ],
+  "standards": [
+    "DAT-3.F",
+    "4.E",
+    "4.B",
+    "DAT-3.E",
+    "VAR-7.E",
+    "DAT-3",
+    "DAT-3.F.2",
+    "VAR-7.E.1",
+    "VAR-7",
+    "3.E",
+    "DAT-3.F.1",
+    "DAT-3.E.1"
+  ]
+}

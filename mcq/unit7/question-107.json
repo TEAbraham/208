@@ -1,0 +1,44 @@
+{
+  "question_id": "question-107",
+  "title": "Pint Size?",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A verified <span class=\"tex2jax_process\">$95\\%$</span> confidence interval showed that the difference between the weights of two different pints of ice cream brands was <span class=\"tex2jax_process\">$(-0.13, 0.21)$</span> ounces.  Describe what this confidence interval is saying.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "We are\n95\n%\nsure that one brand of ice cream weighs\n0.21\nounces more than the other brand."
+    },
+    {
+      "letter": "B",
+      "text": "Based on the samples of ice cream, we can be\n95\n%\nconfident that the difference in weights of the pint-sized ice cream brands is between\n−\n0.13\nand\n0.21\nounces."
+    },
+    {
+      "letter": "C",
+      "text": "There is a\n95\n%\nprobability that one brand of ice cream weighs more than the other one."
+    },
+    {
+      "letter": "D",
+      "text": "We are\n95\n%\nconfident that all of the samples taken will have a a difference of means between\n−\n0.13\nand\n0.21\nounces."
+    },
+    {
+      "letter": "E",
+      "text": "Based on the samples of ice cream, we can be\n90\n%\nconfident that the difference in weights of the pint-sized ice cream brands is between\n−\n0.13\nand\n0.21\nounces."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.Z",
+    "UNC-4.Z.2",
+    "UNC-4",
+    "4.A"
+  ],
+  "standards": [
+    "UNC-4.Z",
+    "UNC-4.Z.2",
+    "UNC-4",
+    "4.A"
+  ]
+}

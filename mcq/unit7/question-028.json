@@ -1,0 +1,46 @@
+{
+  "question_id": "question-028",
+  "title": "Annual Income Interval",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">One hundred randomly chosen adult subjects in Jacksonville, FL, were asked their annual income.</div><div class=\"paragraph\">The data reported from the sample was approximately normal and showed a mean of <span class=\"tex2jax_process\">$\\$46{,}203$</span> with a standard deviation of <span class=\"tex2jax_process\">$\\$10{,}201$</span>.  </div><div class=\"paragraph\">A <span class=\"tex2jax_process\">$95\\%$</span> confidence interval would show, approximately, that we are <span class=\"tex2jax_process\">$95 \\% $</span> confident the average annual income for Jacksonville, Florida residents is between:</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$\n36,002\nand\n$\n56,404"
+    },
+    {
+      "letter": "B",
+      "text": "$\n44,204\nand\n$\n48,202"
+    },
+    {
+      "letter": "C",
+      "text": "$\n25,801\nand\n$\n66,605"
+    },
+    {
+      "letter": "D",
+      "text": "$\n44,179\nand\n$\n48,227"
+    },
+    {
+      "letter": "E",
+      "text": "Assumptions are not met in this situation to compute an appropriate\n95\n%\nconfidence interval."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "3.D",
+    "UNC-4",
+    "UNC-4.R",
+    "UNC-4.R.2",
+    "UNC-4.R.1"
+  ],
+  "standards": [
+    "3.D",
+    "UNC-4",
+    "UNC-4.R",
+    "UNC-4.R.2",
+    "UNC-4.R.1"
+  ]
+}

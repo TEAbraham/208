@@ -1,0 +1,44 @@
+{
+  "question_id": "question-183",
+  "title": "Definition: Conditions",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Suppose a middle school gym currently has <span class=\"tex2jax_process\">$50$</span> students inside: <span class=\"tex2jax_process\">$28$</span> students are in <span class=\"tex2jax_process\">$7$</span>th grade, and <span class=\"tex2jax_process\">$22$</span> students are in <span class=\"tex2jax_process\">$8$</span>th grade. The principal decides to randomly select <span class=\"tex2jax_process\">$5$</span> of these students to represent the school at the school board meeting.  </div><div class=\"paragraph\">Four of the <span class=\"tex2jax_process\">$5$</span> students randomly chosen happened to be in the <span class=\"tex2jax_process\">$8$</span>th grade. The principal’s secretary, surprised by this result, uses binomial calculations to find the likelihood of <span class=\"tex2jax_process\">$4$</span> or more of those <span class=\"tex2jax_process\">$5$</span> selected students being in the <span class=\"tex2jax_process\">$8$</span>th grade.  </div><div class=\"paragraph\">Why would it be incorrect to use binomial calculations in this situation?​</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The probability of a\n7\nth grader versus an 8th grader is not\n50\n%\n."
+    },
+    {
+      "letter": "B",
+      "text": "There is not a fixed number of trials."
+    },
+    {
+      "letter": "C",
+      "text": "The selections are not independent."
+    },
+    {
+      "letter": "D",
+      "text": "There are not two outcomes (success/failure)."
+    },
+    {
+      "letter": "E",
+      "text": "The sample size is too small to use binomial calculations."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.A.2",
+    "3.A",
+    "UNC-3",
+    "UNC-3.A"
+  ],
+  "standards": [
+    "UNC-3.A.2",
+    "3.A",
+    "UNC-3",
+    "UNC-3.A"
+  ]
+}

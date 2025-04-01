@@ -1,0 +1,49 @@
+{
+  "question_id": "question-005",
+  "title": "Printer Comparison",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A small boutique owner ships her own products when ordered online. Recently, she bought two printers, Printer A and Printer B, to help with the process. She then uses Printer A for <span class=\"tex2jax_process\">$30$</span> labels  and then Printer B for <span class=\"tex2jax_process\">$30$</span> labels, then compares the results. </div><div class=\"paragraph\">What question is the shop owner most likely trying to answer?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Which printer sells more products?"
+    },
+    {
+      "letter": "B",
+      "text": "Which printer expediates the shipping process?"
+    },
+    {
+      "letter": "C",
+      "text": "What printer is the cheapest?"
+    },
+    {
+      "letter": "D",
+      "text": "Which printer sounds the best?"
+    },
+    {
+      "letter": "E",
+      "text": "Does the boutique need two printers?"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer. ",
+  "solution": "The shop owner is using <strong>data collection</strong> to determine a potential solution in her shipping process. She is comparing the two different printers, A and B, while printing <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7100-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>30</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-33372\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-33373\" class=\"mjx-mrow\"><span id=\"MJXc-Node-33374\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">30</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7100\">30</script></span> labels from each printer. \n\nAlthough some of the other answers might seem correct, the owner is most likely looking to see which printer expediates the shipping process. By printing the same amount of labels from each printer, she is more than likely looking at which printer will make shipping her products easiest. \n\n<strong>Choice 'B'</strong> is correct. ",
+  "distractor_explanations": {
+    "A": "<strong>Choice 'A'</strong> is incorrect. Since the printers are just printing the shipping labels, the printers will not sell the products. ",
+    "C": "<strong>Choice 'C'</strong> is incorrect. The shop owner would already know which printer is the cheapest because she already purchased them. ",
+    "D": "<strong>Choice 'D'</strong> is incorrect.  Although she could technically determine which printer sounds the best, this will not help her business. ",
+    "E": "<strong>Choice 'E'</strong> is incorrect. The owner could technically use two printers, but she would not be comparing the printers after purchase if she was going to keep two."
+  },
+  "tags": [
+    "VAR-1.E",
+    "1.A",
+    "VAR-1",
+    "VAR-1.E.1"
+  ],
+  "standards": [
+    "VAR-1.E",
+    "1.A",
+    "VAR-1",
+    "VAR-1.E.1"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-230",
+  "title": "Basketball Scores: Surprising Results",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose Jane is interested in the total number of points scored in Division I NCAA college basketball games. She takes a look at several years of data and finds this distribution is approximately normal with a mean of <span class=\"tex2jax_process\">$154\\text{ points}$</span> and a standard deviation of <span class=\"tex2jax_process\">$9\\text{ points}$</span>.  </div><div class=\"paragraph\">Would it be surprising to find a game where the total number of points scored is over <span class=\"tex2jax_process\">$185$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes, as the probability of this happening is between\n5\n%\nand\n10\n%"
+    },
+    {
+      "letter": "B",
+      "text": "Yes, as the probability of this happening is between\n1\n%\nand\n5\n%"
+    },
+    {
+      "letter": "C",
+      "text": "Yes, as the probability of this happening is less than\n1\n%"
+    },
+    {
+      "letter": "D",
+      "text": "No, as the probability of this happening is between\n10\n%\nand\n30\n%"
+    },
+    {
+      "letter": "E",
+      "text": "No, as the probability of this happening is more than\n30\n%"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "3.A",
+    "VAR-2",
+    "VAR-2.B.3"
+  ],
+  "standards": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "3.A",
+    "VAR-2",
+    "VAR-2.B.3"
+  ]
+}

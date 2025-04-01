@@ -1,0 +1,46 @@
+{
+  "question_id": "question-158",
+  "title": "Assembly Line Probability",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Workers at a large company inspect large wooden bookcases for defects and then wrap the bookcases to be ready to ship.  </div><div class=\"paragraph\">The average worker takes <span class=\"tex2jax_process\">$21\\text{ seconds}$</span> to inspect a bookcase with a standard deviation of <span class=\"tex2jax_process\">$3\\text{ seconds}$</span>. The average worker takes <span class=\"tex2jax_process\">$41\\text{ seconds}$</span> to wrap a bookcase with a standard deviation of <span class=\"tex2jax_process\">$18\\text{ seconds}$</span>. The assembly line starts to get backed up if the entire process takes longer than <span class=\"tex2jax_process\">$1\\text{ minute}$</span> and <span class=\"tex2jax_process\">$15\\text{ seconds}$</span>.  </div><div class=\"paragraph\">Assuming the times for each process are independent and approximately normal, what is the probability of a bookcase taking more than <span class=\"tex2jax_process\">$1\\text{ minute}$</span> and <span class=\"tex2jax_process\">$15\\text{ seconds}$</span> for the entire inspection and wrapping process?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.0523"
+    },
+    {
+      "letter": "B",
+      "text": "0.1452"
+    },
+    {
+      "letter": "C",
+      "text": "0.5327"
+    },
+    {
+      "letter": "D",
+      "text": "0.0235"
+    },
+    {
+      "letter": "E",
+      "text": "0.2389"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ],
+  "standards": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

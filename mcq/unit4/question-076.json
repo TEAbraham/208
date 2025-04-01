@@ -1,0 +1,46 @@
+{
+  "question_id": "question-076",
+  "title": "Class Presentations",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose a high school statistics teacher decides to pick <span class=\"tex2jax_process\">$5\\text{ students}$</span> to do a problem on the chalkboard in front of the class.  </div><div class=\"paragraph\">Each student does one problem, and the student cannot be picked more than once. The teacher claims that selection of students is random.  </div><div class=\"paragraph\">The class contains <span class=\"tex2jax_process\">$18\\text{ students}$</span>: <span class=\"tex2jax_process\">$8$</span> wearing polos and <span class=\"tex2jax_process\">$10$</span> wearing sweatshirts. Suppose all <span class=\"tex2jax_process\">$5\\text{ students}$</span> picked were wearing polos. One of the students feels this is enough evidence to say that the teacher unfairly calls on students wearing polos too often and the selection most likely is not random.  </div><div class=\"paragraph\">Do you think the selection is random?​</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes, as the probability of randomly picking\n5\nwearing polos is only\n0.0065\n."
+    },
+    {
+      "letter": "B",
+      "text": "No, as the probability of randomly picking\n5\nwearing polos is only\n0.0065\n."
+    },
+    {
+      "letter": "C",
+      "text": "Yes, as the probability of randomly picking\n5\nwearing polos is only\n0.01734\n."
+    },
+    {
+      "letter": "D",
+      "text": "No, as the probability of randomly picking\n5\nwearing polos is\n0.01734\n."
+    },
+    {
+      "letter": "E",
+      "text": "Yes, as the probability of randomly picking\n5\nwearing polos is\n0.44\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ],
+  "standards": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ]
+}

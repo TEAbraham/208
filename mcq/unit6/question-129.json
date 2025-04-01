@@ -1,0 +1,46 @@
+{
+  "question_id": "question-129",
+  "title": "2 Proportion z-Intervals: 2-sided Testing",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A two-sample <span class=\"tex2jax_process\">$z$</span>-test for proportions had the hypotheses:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$${ H }_{ 0 }:{ p }_{ 1 }-{ p }_{ 2 }=0$$</div><br><div class=\"tex2jax_process\">$${ H }_{ a }:{ p }_{ 1 }-{ p }_{ 2 }\\neq 0$$</div>  </div><div class=\"paragraph\">The test produces a <span class=\"tex2jax_process\">$p$</span>-value of <span class=\"tex2jax_process\">$0.04$</span>.  </div><div class=\"paragraph\">Which of the following must be TRUE?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> A <span class=\"tex2jax_process\">$90\\%$</span> confidence interval for the difference in proportions will contain the value <span class=\"tex2jax_process\">$0$</span>.  </div><div class=\"paragraph\"><strong>II.</strong> A <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for the difference in proportions will contain the value <span class=\"tex2jax_process\">$0$</span>.  </div><div class=\"paragraph\"><strong>III.</strong> A <span class=\"tex2jax_process\">$99\\%$</span> confidence interval for the difference in proportions will contain the value <span class=\"tex2jax_process\">$0$</span>.    </div></blockquote>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "III only."
+    },
+    {
+      "letter": "C",
+      "text": "I and II only."
+    },
+    {
+      "letter": "D",
+      "text": "II and III only."
+    },
+    {
+      "letter": "E",
+      "text": "I, II, and III."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.D.1",
+    "DAT-3.D.2",
+    "DAT-3",
+    "DAT-3.D"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3.D.1",
+    "DAT-3.D.2",
+    "DAT-3",
+    "DAT-3.D"
+  ]
+}

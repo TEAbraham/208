@@ -1,0 +1,44 @@
+{
+  "question_id": "question-042",
+  "title": "Pick a Hotel",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Great Eastern Hotels reported an average stay of <span class=\"tex2jax_process\">$4.8$</span> nights with a standard deviation of <span class=\"tex2jax_process\">$2.8$</span> nights, while Motel Seven reported an average stay of <span class=\"tex2jax_process\">$2.2$</span> nights with a standard deviation of <span class=\"tex2jax_process\">$1.7$</span> nights.  Random samples of <span class=\"tex2jax_process\">$45$</span> hotels from each hotel chain were taken by a company that was hired to answer the question:  \"What is the probability that the average stay at a Motel Seven is <span class=\"tex2jax_process\">$3$</span> nights or less than an average stay at a Great Eastern Hotel?\"  What is that answer?  Round your answer to the nearest percent.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "21\n%"
+    },
+    {
+      "letter": "B",
+      "text": "95\n%"
+    },
+    {
+      "letter": "C",
+      "text": "11\n%"
+    },
+    {
+      "letter": "D",
+      "text": "89\n%"
+    },
+    {
+      "letter": "E",
+      "text": "79\n%"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-3",
+    "UNC-3.V",
+    "UNC-3.V.1"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-3",
+    "UNC-3.V",
+    "UNC-3.V.1"
+  ]
+}

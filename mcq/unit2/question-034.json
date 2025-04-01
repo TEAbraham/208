@@ -1,0 +1,44 @@
+{
+  "question_id": "question-034",
+  "title": "Restaurant Preference: A Two Way Table",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">For his final statistics project, Ramsey completed a study to determine which of <span class=\"tex2jax_process\">$4$</span> local restaurants students at his school preferred.  After gathering data he organized the counts for each restaurant into the table shown below.  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Pancake Factory</th><th scope=\"col\">Onion Garden</th><th scope=\"col\">Emerald Wednesdays</th><th scope=\"col\">Cayenne</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Boys</td><td>25</td><td>28</td><td>12</td><td>43</td><td>108</td></tr><tr><td>Girls</td><td>30</td><td>33</td><td>27</td><td>32</td><td>122</td></tr><tr><td>Total</td><td>55</td><td>61</td><td>39</td><td>75</td><td>230</td></tr></tbody></table></div><div class=\"paragraph\"><span class=\"tex2jax_process\">$\\ $</span><br>What is the conditional distribution of gender for those who prefer Cayenne?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Boys:\n43\n108 Girls:\n32\n122"
+    },
+    {
+      "letter": "B",
+      "text": "Boys:\n43\n230 Girls:\n32\n230"
+    },
+    {
+      "letter": "C",
+      "text": "Boys:\n108\n230 Girls:\n122\n230"
+    },
+    {
+      "letter": "D",
+      "text": "Boys:\n43\n75 Girls:\n32\n75"
+    },
+    {
+      "letter": "E",
+      "text": "Boys:\n25\n55 Girls:\n30\n55"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "2.C",
+    "UNC-1.Q",
+    "UNC-1.Q.2",
+    "UNC-1"
+  ],
+  "standards": [
+    "2.C",
+    "UNC-1.Q",
+    "UNC-1.Q.2",
+    "UNC-1"
+  ]
+}

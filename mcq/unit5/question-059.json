@@ -1,0 +1,44 @@
+{
+  "question_id": "question-059",
+  "title": "Presidential Approval Ratings",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Two polling organizations, Harris and Gallup, report weekly on the President’s approval rating, which is expressed as a proportion of Americans who approve of the job the President is doing.  </div><div class=\"paragraph\">In one particular week, each organization asks <span class=\"tex2jax_process\">$100$</span> randomly selected people this question. Their results are as follows:</div><blockquote><div class=\"paragraph\"><em>Harris Poll: <span class=\"tex2jax_process\">$0.57$</span><br>Gallup Poll: <span class=\"tex2jax_process\">$0.6$</span></em>  </div></blockquote><div class=\"paragraph\">What are the mean and standard deviation of the sampling distribution of the difference of these organizations’ results?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "μ\n=\n0.015\n;\nσ\n=\n0.05"
+    },
+    {
+      "letter": "B",
+      "text": "μ\n=\n0.015\n;\nσ\n=\n0.07"
+    },
+    {
+      "letter": "C",
+      "text": "μ\n=\n0.03\n;\nσ\n=\n0.05"
+    },
+    {
+      "letter": "D",
+      "text": "μ\n=\n0.03\n;\nσ\n=\n0.06"
+    },
+    {
+      "letter": "E",
+      "text": "μ\n=\n0.03\n;\nσ\n=\n0.07"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.N",
+    "UNC-3",
+    "3.B",
+    "UNC-3.N.1"
+  ],
+  "standards": [
+    "UNC-3.N",
+    "UNC-3",
+    "3.B",
+    "UNC-3.N.1"
+  ]
+}

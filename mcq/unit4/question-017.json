@@ -1,0 +1,44 @@
+{
+  "question_id": "question-017",
+  "title": "What's the Simulation?",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A <span class=\"tex2jax_process\">$6$</span>-sided die was rolled <span class=\"tex2jax_process\">$100$</span> times with answers recorded in order. These answers were examined <span class=\"tex2jax_process\">$2$</span> at a time, and each time a pair contained the same number, this was noted. The number of pairs with the same set of numbers was then divided by <span class=\"tex2jax_process\">$50$</span> and given as a probability estimate.  This simulation describes which of the following situations?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "For a statistics project, a student randomly selected\n100\nstudents and asked their gender. Then the students' grade point averages were split evenly into\n6\ngroups. The student wanted to estimate the probability of finding two of the same gender in the same grade point average group."
+    },
+    {
+      "letter": "B",
+      "text": "The SAT scores at a high school were split evenly into\n6\ngroups based on total scores. The students in each group were assigned a number from\n1\nto\n6\n. For a statistics project a student wanted to estimate the probability of one student being in the same group as another student."
+    },
+    {
+      "letter": "C",
+      "text": "The SAT scores at a high school were split evenly into\n6\ngroups based on total scores. The students in each group were assigned a number from\n1\nto\n6\n. For a statistics project a student wanted to estimate the probability of how often a student's verbal score fell into the same category as the math score."
+    },
+    {
+      "letter": "D",
+      "text": "A school divided its students evenly into\n6\ngroups to assign to its\n6\nguidance counselors. The students of each counselor were assigned a number from\n1\nto\n6\n. For a statistics project a student wanted to estimate the probability of picking two random students at a time and seeing if they had the same counselor."
+    },
+    {
+      "letter": "E",
+      "text": "A school divided its students evenly into\n6\ngroups to assign to its\n6\nguidance counselors. The students of each counselor were assigned a number from\n1\nto\n6\n. For a statistics project a student wanted to estimate the probability of picking two random students at a time and seeing if they were of the same gender."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-2.A.4",
+    "3.A",
+    "UNC-2.A",
+    "UNC-2"
+  ],
+  "standards": [
+    "UNC-2.A.4",
+    "3.A",
+    "UNC-2.A",
+    "UNC-2"
+  ]
+}

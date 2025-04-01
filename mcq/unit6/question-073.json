@@ -1,0 +1,44 @@
+{
+  "question_id": "question-073",
+  "title": "One Proportion $z$-Interval: Mine Stage",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A parent was interested in the proportion of toddlers who go through the \"mine\" stage. This is identified as when a toddler refers to everything as \"mine,\" even when it is not his or hers.  </div><div class=\"paragraph\">The parent randomly sampled <span class=\"tex2jax_process\">$100$</span> other parents that went into toy store and asked them if their child has experienced the \"mine\" stage. Of these <span class=\"tex2jax_process\">$100$</span> parents, <span class=\"tex2jax_process\">$89$</span> parents said their child has gone through or is currently going through the \"mine\" stage.  </div><div class=\"paragraph\">Which of the following represents a <span class=\"tex2jax_process\">$99.6\\%$</span> confidence interval for the proportion of toddlers that go through the \"mine\" stage?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.89\n±\n2.054\n√\n(\n0.89\n)\n(\n0.11\n)\n100"
+    },
+    {
+      "letter": "B",
+      "text": "0.89\n±\n2.652\n√\n(\n0.89\n)\n(\n0.11\n)\n100"
+    },
+    {
+      "letter": "C",
+      "text": "0.89\n±\n2.807\n√\n(\n0.89\n)\n(\n0.11\n)\n100"
+    },
+    {
+      "letter": "D",
+      "text": "0.89\n±\n2.878\n√\n(\n0.89\n)\n(\n0.11\n)\n100"
+    },
+    {
+      "letter": "E",
+      "text": "0.89\n±\n3.091\n√\n(\n0.89\n)\n(\n0.11\n)\n100"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3",
+    "DAT-3.B.9",
+    "DAT-3.B"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3",
+    "DAT-3.B.9",
+    "DAT-3.B"
+  ]
+}

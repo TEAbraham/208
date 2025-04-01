@@ -1,0 +1,46 @@
+{
+  "question_id": "question-053",
+  "title": "Grocery Store Receipts",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose at a local grocery store, the average customer’s bill is <span class=\"tex2jax_process\">$\\$98.22$</span> with a standard deviation of <span class=\"tex2jax_process\">$\\$45.10$</span>.  </div><div class=\"paragraph\">One day, the manager is surprised to see the next <span class=\"tex2jax_process\">$5$</span> randomly selected receipts averaged <span class=\"tex2jax_process\">$\\$150$</span>. The next day, the manager was even more surprised to see the next <span class=\"tex2jax_process\">$5$</span> randomly selected receipts were each greater than <span class=\"tex2jax_process\">$\\$150$</span>.  </div><div class=\"paragraph\">Use the probability of each event to find which occurrence is more surprising.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "P(5 receipts averaging $150)\n=\n0.0051 P(5 receipts more than $150)\n=\n0.0051"
+    },
+    {
+      "letter": "B",
+      "text": "P(5 receipts averaging $150)\n=\n0.0051 P(5 receipts more than $150)\n=\n0.0000306"
+    },
+    {
+      "letter": "C",
+      "text": "P(5 receipts averaging $150)\n=\n0.1251 P(5 receipts more than $150)\n=\n0.0000306"
+    },
+    {
+      "letter": "D",
+      "text": "P(5 receipts averaging $150)\n=\n0.0051 P(5 receipts more than $150)\n=\n0.0042"
+    },
+    {
+      "letter": "E",
+      "text": "There is not enough information to determine the answer to this question."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "3.C",
+    "UNC-3.S.1",
+    "UNC-3",
+    "UNC-3.S"
+  ],
+  "standards": [
+    "4.B",
+    "3.C",
+    "UNC-3.S.1",
+    "UNC-3",
+    "UNC-3.S"
+  ]
+}

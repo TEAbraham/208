@@ -1,0 +1,44 @@
+{
+  "question_id": "question-117",
+  "title": "Two-Proportion $Z$-Test Risks",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">In a survey done in a small town last year, <span class=\"tex2jax_process\">$8$</span> out of <span class=\"tex2jax_process\">$12$</span> randomly selected people said they approve of the job the mayor is doing.  </div><div class=\"paragraph\">The following year, <span class=\"tex2jax_process\">$10$</span> different people are randomly surveyed, and of these, only <span class=\"tex2jax_process\">$6\\text{ people}$</span> approve.  </div><div class=\"paragraph\">Why would it be inappropriate to perform a two-proportion <span class=\"tex2jax_process\">$Z$</span>-test to determine whether the mayor’s approval rating has changed?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "It is illogical to perform an inferential procedure like a two-proportion\nZ\n-test when the population data is already known."
+    },
+    {
+      "letter": "B",
+      "text": "The data does not come from simple random samples."
+    },
+    {
+      "letter": "C",
+      "text": "The populations are most likely NOT at least\n10\ntimes each sample."
+    },
+    {
+      "letter": "D",
+      "text": "At least one of the following is not at least 5: N\n1\n⋅\n(pooled p) N\n2\n⋅\n(pooled p) N\n1\n⋅\n(1-pooled p) N\n2\n⋅\n(1-pooled p)"
+    },
+    {
+      "letter": "E",
+      "text": "The combined sample sizes are only\n22\n, which is too small."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.C",
+    "VAR-6.J",
+    "VAR-6.J.1",
+    "VAR-6"
+  ],
+  "standards": [
+    "4.C",
+    "VAR-6.J",
+    "VAR-6.J.1",
+    "VAR-6"
+  ]
+}

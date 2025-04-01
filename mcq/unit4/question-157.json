@@ -1,0 +1,46 @@
+{
+  "question_id": "question-157",
+  "title": "Distribution of Race Times",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Jane and Joan are both on the track team and run the <span class=\"tex2jax_process\">$400\\text{-meter}$</span> dash.  </div><div class=\"paragraph\">Jane’s average time is <span class=\"tex2jax_process\">$62.3\\text{ seconds}$</span> with a standard deviation of <span class=\"tex2jax_process\">$1.2\\text{ seconds}$</span>, while Joan’s average time is <span class=\"tex2jax_process\">$62.5\\text{ seconds}$</span> with a standard deviation of <span class=\"tex2jax_process\">$1.4\\text{ seconds}$</span>.  </div><div class=\"paragraph\">If race times are approximately normally distributed, what is the probability of Joan winning the next race?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.2034"
+    },
+    {
+      "letter": "B",
+      "text": "0.4562"
+    },
+    {
+      "letter": "C",
+      "text": "0.5438"
+    },
+    {
+      "letter": "D",
+      "text": "0.4823"
+    },
+    {
+      "letter": "E",
+      "text": "0.0234"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ],
+  "standards": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

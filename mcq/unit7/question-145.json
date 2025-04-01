@@ -1,0 +1,44 @@
+{
+  "question_id": "question-145",
+  "title": "Track Times",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Suppose Jimmy and Bobby are two long-time competitors on the same track team in the <span class=\"tex2jax_process\">$400$</span>-meter dash.  </div><div class=\"paragraph\">Jimmy and Bobby have ran <span class=\"tex2jax_process\">$10$</span> races this year. Jimmy has averaged <span class=\"tex2jax_process\">$56.2$</span> seconds with a standard deviation of <span class=\"tex2jax_process\">$1.3$</span> seconds, while Bobby has averaged <span class=\"tex2jax_process\">$55.8$</span> seconds with a standard deviation of <span class=\"tex2jax_process\">$1.3$</span> seconds. Bobby asked the coach to perform a two-sample T-test to determine if he is significantly better than Jimmy this year.  </div><div class=\"paragraph\">What conclusion does the coach make?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Any inferential procedure in this context does not make sense."
+    },
+    {
+      "letter": "B",
+      "text": "Bobby is faster at the alpha\n5\n%\nlevel, but not at the\n1\n%\nlevel."
+    },
+    {
+      "letter": "C",
+      "text": "Jimmy is faster at the alpha\n5\n%\nlevel, but not at the\n1\n%\nlevel."
+    },
+    {
+      "letter": "D",
+      "text": "Bobby is faster at the alpha\n1\n%\nlevel."
+    },
+    {
+      "letter": "E",
+      "text": "There is insufficient evidence at the alpha\n10\n%\nlevel to determine who is faster."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.G",
+    "DAT-3.G.1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.G",
+    "DAT-3.G.1"
+  ]
+}

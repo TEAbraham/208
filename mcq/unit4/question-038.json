@@ -1,0 +1,44 @@
+{
+  "question_id": "question-038",
+  "title": "Probability of A\nor B",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">The formula <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-8907-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>P</mi><mo stretchy=&quot;false&quot;>(</mo><mi>A</mi><mtext>&amp;#xA0;or&amp;#xA0;</mtext><mi>B</mi><mo stretchy=&quot;false&quot;>)</mo></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-39713\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-39714\" class=\"mjx-mrow\"><span id=\"MJXc-Node-39715\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.441em; padding-bottom: 0.277em; padding-right: 0.109em;\">P</span></span><span id=\"MJXc-Node-39716\" class=\"mjx-mo\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.441em; padding-bottom: 0.606em;\">(</span></span><span id=\"MJXc-Node-39717\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.496em; padding-bottom: 0.277em;\">A</span></span><span id=\"MJXc-Node-39718\" class=\"mjx-mtext\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.167em; padding-bottom: 0.332em;\">&nbsp;or&nbsp;</span></span><span id=\"MJXc-Node-39719\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.441em; padding-bottom: 0.277em;\">B</span></span><span id=\"MJXc-Node-39720\" class=\"mjx-mo\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.441em; padding-bottom: 0.606em;\">)</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo stretchy=\"false\">(</mo><mi>A</mi><mtext>&nbsp;or&nbsp;</mtext><mi>B</mi><mo stretchy=\"false\">)</mo></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-8907\">P(A\\text{ or }B)</script></span> = <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-8908-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>P</mi><mo stretchy=&quot;false&quot;>(</mo><mi>A</mi><mo stretchy=&quot;false&quot;>)</mo><mo>+</mo><mi>P</mi><mo stretchy=&quot;false&quot;>(</mo><mi>B</mi><mo stretchy=&quot;false&quot;>)</mo></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-39721\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-39722\" class=\"mjx-mrow\"><span id=\"MJXc-Node-39723\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.441em; padding-bottom: 0.277em; padding-right: 0.109em;\">P</span></span><span id=\"MJXc-Node-39724\" class=\"mjx-mo\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.441em; padding-bottom: 0.606em;\">(</span></span><span id=\"MJXc-Node-39725\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.496em; padding-bottom: 0.277em;\">A</span></span><span id=\"MJXc-Node-39726\" class=\"mjx-mo\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.441em; padding-bottom: 0.606em;\">)</span></span><span id=\"MJXc-Node-39727\" class=\"mjx-mo MJXc-space2\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.277em; padding-bottom: 0.441em;\">+</span></span><span id=\"MJXc-Node-39728\" class=\"mjx-mi MJXc-space2\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.441em; padding-bottom: 0.277em; padding-right: 0.109em;\">P</span></span><span id=\"MJXc-Node-39729\" class=\"mjx-mo\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.441em; padding-bottom: 0.606em;\">(</span></span><span id=\"MJXc-Node-39730\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.441em; padding-bottom: 0.277em;\">B</span></span><span id=\"MJXc-Node-39731\" class=\"mjx-mo\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.441em; padding-bottom: 0.606em;\">)</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo stretchy=\"false\">(</mo><mi>A</mi><mo stretchy=\"false\">)</mo><mo>+</mo><mi>P</mi><mo stretchy=\"false\">(</mo><mi>B</mi><mo stretchy=\"false\">)</mo></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-8908\">P(A)+P(B)</script></span> is correct </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "In every situation as long as\nP\n(\nA\n)\nand\nP\n(\nB\n)\nare greater than\n0\n."
+    },
+    {
+      "letter": "B",
+      "text": "Only when events\nA\nand\nB\nare disjoint."
+    },
+    {
+      "letter": "C",
+      "text": "Only when events\nA\nand\nB\nare independent."
+    },
+    {
+      "letter": "D",
+      "text": "Only when events\nA\nand\nB\nare equal to each other."
+    },
+    {
+      "letter": "E",
+      "text": "Only when events\nA\nand\nB\nare NOT independent."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "VAR-4.C",
+    "VAR-4",
+    "VAR-4.C.2"
+  ],
+  "standards": [
+    "4.B",
+    "VAR-4.C",
+    "VAR-4",
+    "VAR-4.C.2"
+  ]
+}

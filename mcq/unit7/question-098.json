@@ -1,0 +1,44 @@
+{
+  "question_id": "question-098",
+  "title": "Can We Proceed?",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">We want to create a <span class=\"tex2jax_process\">$99\\%$</span> confidence interval for the different of the means of the effectiveness of two drugs to reduce the incidence of headaches.  Forty-two headache patients are randomly selected from several large medical practices and half of them are given one drug and half the other drug.  Determination of which drug was given to which patient was decided by a coin flip.  Means and standard deviations of the subjects are obtained.  What conditions need to be verified in order to continue with this study and create a confidence interval?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Both samples should be checked for skewness and the size of the population of headache patients should be checked."
+    },
+    {
+      "letter": "B",
+      "text": "The check for independence has been verified but the check for normal approximation of the sampling distribution has not been verified."
+    },
+    {
+      "letter": "C",
+      "text": "The check for normal approximation of the sampling distribution has been verified but the check for independence has not been verified."
+    },
+    {
+      "letter": "D",
+      "text": "Since there are\n42\npatients, and this number is greater than\n30\n, then the only other thing needed to be checked is the randomization process."
+    },
+    {
+      "letter": "E",
+      "text": "Nothing else needs to be done. All conditions are verified and the confidence interval may be calculated."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.C",
+    "UNC-4.W.1",
+    "UNC-4",
+    "UNC-4.W"
+  ],
+  "standards": [
+    "4.C",
+    "UNC-4.W.1",
+    "UNC-4",
+    "UNC-4.W"
+  ]
+}

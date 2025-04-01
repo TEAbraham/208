@@ -1,0 +1,44 @@
+{
+  "question_id": "question-084",
+  "title": "How Many Candies?",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">The company which makes the very popular N &amp; N Candies has two assembly lines that fill jumbo bags with what is supposed to be <span class=\"tex2jax_process\">$400$</span> candies.  It has been found that the first assembly line fills the bags with an average of <span class=\"tex2jax_process\">$398$</span> candies with a standard deviation of <span class=\"tex2jax_process\">$6$</span> candies. The other assembly line fills bags with an average of <span class=\"tex2jax_process\">$401$</span> candies with a standard deviation of <span class=\"tex2jax_process\">$8$</span> candies.  Suppose <span class=\"tex2jax_process\">$36$</span> bags are randomly sampled from the first assembly line and <span class=\"tex2jax_process\">$32$</span> bags are randomly sampled from the second assembly line.  What is the probability of finding that the bags from the two assembly lines differ by more than a total of <span class=\"tex2jax_process\">$5$</span> candies?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Nearly\n1"
+    },
+    {
+      "letter": "B",
+      "text": "Nearly zero"
+    },
+    {
+      "letter": "C",
+      "text": "0.1251"
+    },
+    {
+      "letter": "D",
+      "text": "0.2552"
+    },
+    {
+      "letter": "E",
+      "text": "0.8749"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-3",
+    "UNC-3.V",
+    "UNC-3.V.1"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-3",
+    "UNC-3.V",
+    "UNC-3.V.1"
+  ]
+}

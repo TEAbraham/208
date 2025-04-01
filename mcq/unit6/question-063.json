@@ -1,0 +1,46 @@
+{
+  "question_id": "question-063",
+  "title": "P-value and significance level: What to Do?",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Suppose in a significance test a P-value of <span class=\"tex2jax_process\">$14\\%$</span> is produced.  </div><div class=\"paragraph\">The correct conclusion at the <span class=\"tex2jax_process\">$10\\%$</span> significance level would be to:</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Reject the\nH\n0\n."
+    },
+    {
+      "letter": "B",
+      "text": "Accept the\nH\n0\n."
+    },
+    {
+      "letter": "C",
+      "text": "Fail to reject\nH\n0"
+    },
+    {
+      "letter": "D",
+      "text": "Accept the\nH\nA\n."
+    },
+    {
+      "letter": "E",
+      "text": "It cannot be determined from the information given."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.A.2",
+    "DAT-3.A",
+    "DAT-3.A.1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.A.2",
+    "DAT-3.A",
+    "DAT-3.A.1"
+  ]
+}

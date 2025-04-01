@@ -1,0 +1,44 @@
+{
+  "question_id": "question-176",
+  "title": "Binomial Applications",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A student is taking a <span class=\"tex2jax_process\">$10\\text{ question}$</span> multiple choice test that has five options for each question (A, B, C, D, and E).  </div><div class=\"paragraph\">Suppose a student knows the correct answer to <span class=\"tex2jax_process\">$6$</span> of the questions. For the remaining <span class=\"tex2jax_process\">$4\\text{ questions}$</span>, the student can eliminate one response per question, on average.  </div><div class=\"paragraph\">What is the probability the student gets at least an <span class=\"tex2jax_process\">$80\\%$</span> on the test?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.2109"
+    },
+    {
+      "letter": "B",
+      "text": "0.0823"
+    },
+    {
+      "letter": "C",
+      "text": "0.3023"
+    },
+    {
+      "letter": "D",
+      "text": "0.2617"
+    },
+    {
+      "letter": "E",
+      "text": "0.5233"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.B",
+    "3.A",
+    "UNC-3",
+    "UNC-3.B.1"
+  ],
+  "standards": [
+    "UNC-3.B",
+    "3.A",
+    "UNC-3",
+    "UNC-3.B.1"
+  ]
+}

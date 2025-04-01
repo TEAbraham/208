@@ -1,0 +1,48 @@
+{
+  "question_id": "question-089",
+  "title": "Standard Error: Effect on $T$-Statistic and $P$-Value",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Julissa conducted a one-sample <span class=\"tex2jax_process\">$t$</span>-test for a population mean using a one-sided greater than hypothesis.  Later, she realized that the value she had used for the standard error was incorrect and that the actual value that she should have used was higher.  </div><div class=\"paragraph\">Assuming everything else remains constant, what effect will the higher standard error have on the <span class=\"tex2jax_process\">$t$</span>-statistic and the <span class=\"tex2jax_process\">$p$</span>-value for the test?  </div>",
+  "image_files": [
+    "images/question-089-img1.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Both the\nt\n-statistic and the\np\n-value will remain unchanged."
+    },
+    {
+      "letter": "B",
+      "text": "Both the\nt\n-statistic and the\np\n-value will decrease."
+    },
+    {
+      "letter": "C",
+      "text": "Both the\nt\n-statistic and the\np\n-value will increase."
+    },
+    {
+      "letter": "D",
+      "text": "The\nt\n-statistic will decrease and the\np\n-value will increase."
+    },
+    {
+      "letter": "E",
+      "text": "The\nt\n-statistic will increase and the\np\n-value will decrease."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7.E",
+    "DAT-3",
+    "VAR-7.E.1",
+    "VAR-7",
+    "3.E"
+  ],
+  "standards": [
+    "VAR-7.E",
+    "DAT-3",
+    "VAR-7.E.1",
+    "VAR-7",
+    "3.E"
+  ]
+}

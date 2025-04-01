@@ -1,0 +1,44 @@
+{
+  "question_id": "question-046",
+  "title": "A Zoologist and the Giraffes: Conclusions from a Test",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A zoologist was looking through his old textbooks and found one that said the average height of an adult male giraffe is <span class=\"tex2jax_process\">$18$</span> feet with a standard deviation of <span class=\"tex2jax_process\">$1.1$</span> feet. He sees many giraffes and wonders if this average is true. To check it out, he selects the records of <span class=\"tex2jax_process\">$40$</span> adult male giraffes that come to see him, records their height and finds the sample average to be <span class=\"tex2jax_process\">$18.35$</span> feet.  </div><div class=\"paragraph\">Assuming that he is willing to consider his sample to represent a random sample, what conclusion would he reach after conducting an appropriate statistical test?  </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "He should conclude that the textbook is probably wrong. Assuming the average height of adult male giraffes is\n18\nfeet (as the textbook claimed), getting a sample average as extreme as\n18.35\nfeet would only happen about\n4.4\n%\nof the time simply by chance."
+    },
+    {
+      "letter": "B",
+      "text": "He should conclude that the textbook is definitely wrong. The sample average is more than\n4\ninches above the value claimed in the textbook. That's a lot!"
+    },
+    {
+      "letter": "C",
+      "text": "He can not conclude that the textbook is wrong. The sample average is less that one standard deviation above the mean, so it is fairly likely that he would get this sample average simply by chance."
+    },
+    {
+      "letter": "D",
+      "text": "He can not conclude that the textbook is wrong. Since our\np\n-value is greater than\n0.05\n, we do not have enough evidence to believe that the average height of adult male giraffes is not\n18\nfeet."
+    },
+    {
+      "letter": "E",
+      "text": "He is not able to conduct a significance test here since not all conditions are satisfied."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-4.S",
+    "UNC-4.S.1",
+    "UNC-4"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-4.S",
+    "UNC-4.S.1",
+    "UNC-4"
+  ]
+}

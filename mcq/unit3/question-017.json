@@ -1,0 +1,59 @@
+{
+  "question_id": "question-017",
+  "title": "Pitching Substance",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A professional baseball pitcher is trying to determine which substance helps create more spin on a baseball. He decides to try three different substances: <span class=\"tex2jax_process\">$A$</span>, <span class=\"tex2jax_process\">$B$</span>, and <span class=\"tex2jax_process\">$C$</span>. Additionally, he needs to throw the baseball to determine the spin rate without a substance. The pitcher will randomly assign the substance to a baseball and measure the spin rate of a fastball. </div><div class=\"paragraph\">Which of the following is true about the experiment?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Spin rate is a quantitative variable"
+    },
+    {
+      "letter": "B",
+      "text": "The treatments are the different substances used by the pitcher"
+    },
+    {
+      "letter": "C",
+      "text": "The pitcher can show a causal relationship between the substances and spin rate"
+    },
+    {
+      "letter": "D",
+      "text": "The results can be generalized to all baseballs as the baseballs in the experiment were randomly assigned"
+    },
+    {
+      "letter": "E",
+      "text": "All the above are true"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer. ",
+  "solution": "<strong>All the above answers are correct</strong>. Since spin rate is a numerical value in which it makes sense to find an average, it is a quantitative variable. Additionally, since the substances are the different conditions that are being applied, this makes them the treatments in the experiment. Since the study is an experiment, we can prove a cause-and-effect relationship between the substances and the spin rate. And finally, since the baseballs were randomly assigned, we can generalize about the whole population of baseballs. \n\nTherefore, since all the above answers are correct, we must select <strong>Choice 'E'</strong>. \n\n<strong>Choice 'E'</strong> is correct. ",
+  "distractor_explanations": {
+    "A": "<strong>Choice 'A'</strong> is incorrect.  Although it is true that spin rate is a quantitative variable, it is not the only correct answer. ",
+    "B": "<strong>Choice 'B'</strong> is incorrect. Although it is true that treatments are the different substances, this again is not the only answer that is true. ",
+    "C": "<strong>Choice 'C'</strong> is incorrect. Since the study is an experiment, one is able to prove a causal relationship, but this is not the only correct answer. ",
+    "D": "<strong>Choice 'D'</strong> is incorrect. It is true that since the baseballs are randomly assigned, they can be generalized to all baseballs, but it is not the only correct answer."
+  },
+  "tags": [
+    "DAT-2",
+    "DAT-2.B.2",
+    "1.C",
+    "DAT-2.A",
+    "DAT-2.A.4",
+    "DAT-2.B.3",
+    "DAT-2.B",
+    "DAT-2.B.1",
+    "4.A"
+  ],
+  "standards": [
+    "DAT-2",
+    "DAT-2.B.2",
+    "1.C",
+    "DAT-2.A",
+    "DAT-2.A.4",
+    "DAT-2.B.3",
+    "DAT-2.B",
+    "DAT-2.B.1",
+    "4.A"
+  ]
+}

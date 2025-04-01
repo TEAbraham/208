@@ -1,0 +1,44 @@
+{
+  "question_id": "question-119",
+  "title": "High Leverage Point?",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Given the following points on a scatterplot:  <span class=\"tex2jax_process\">$(1, 8), (4, 9), (5, 10), (7, 12), (9, 14)$</span>, which of the following points, if included in the scatterplot, is the most likely high leverage point?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "(\n0\n,\n6\n)"
+    },
+    {
+      "letter": "B",
+      "text": "(\n14\n,\n20\n)"
+    },
+    {
+      "letter": "C",
+      "text": "(\n3\n,\n15\n)"
+    },
+    {
+      "letter": "D",
+      "text": "(\n8\n,\n4\n)"
+    },
+    {
+      "letter": "E",
+      "text": "(\n5\n,\n12\n)"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-1",
+    "DAT-1.I",
+    "DAT-1.I.2",
+    "2.A"
+  ],
+  "standards": [
+    "DAT-1",
+    "DAT-1.I",
+    "DAT-1.I.2",
+    "2.A"
+  ]
+}

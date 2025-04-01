@@ -1,0 +1,46 @@
+{
+  "question_id": "question-049",
+  "title": "Time Spent Online",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A sample of <span class=\"tex2jax_process\">$10\\text{ students}$</span> were randomly selected and observed for a week to determine how many hours they spent on the Internet in a given week.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Student</th><th scope=\"col\">Internet Usage</th><th scope=\"col\">GPA</th></tr></thead><tbody><tr><td>1</td><td>20</td><td>2.2</td></tr><tr><td>2</td><td>12</td><td>3.2</td></tr><tr><td>3</td><td>18</td><td>2.6</td></tr><tr><td>4</td><td>16</td><td>2.7</td></tr><tr><td>5</td><td>8</td><td>3.8</td></tr><tr><td>6</td><td>22</td><td>2.5</td></tr><tr><td>7</td><td>14</td><td>2.8</td></tr><tr><td>8</td><td>5</td><td>3.9</td></tr><tr><td>9</td><td>19</td><td>2.4</td></tr><tr><td>10</td><td>10</td><td>3.4</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>The observations were recorded along with each student’s GPA in the table above. The below is a computer output based on the data:\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Coefficients</th><th scope=\"col\">Standard Error</th><th scope=\"col\">t-Stat</th></tr></thead><tbody><tr><td>Intercept</td><td>4.423894437</td><td>0.154493021</td><td>28.6349145</td></tr><tr><td>Internet Usage</td><td>-0.10235378</td><td>0.010069447</td><td>-10.164786</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>What is the equation for a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval on the true slope?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "4.4238\n±\n(\n1.86\n)\n⋅\n0.15449"
+    },
+    {
+      "letter": "B",
+      "text": "−\n0.10235\n±\n(\n1.86\n)\n⋅\n0.01007"
+    },
+    {
+      "letter": "C",
+      "text": "−\n10.1647\n±\n(\n2.101\n)\n⋅\n0.0100694"
+    },
+    {
+      "letter": "D",
+      "text": "4.4238\n±\n(\n2.306\n)\n⋅\n0.15449"
+    },
+    {
+      "letter": "E",
+      "text": "−\n0.10235\n±\n(\n2.306\n)\n⋅\n0.01007"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.1",
+    "VAR-7.M.2"
+  ],
+  "standards": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.1",
+    "VAR-7.M.2"
+  ]
+}

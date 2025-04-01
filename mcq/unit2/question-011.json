@@ -1,0 +1,44 @@
+{
+  "question_id": "question-011",
+  "title": "Two-way Tables",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Five statements about two-way tables are given below.  One is incorrect.  Which statement is incorrect?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A two-way table can also be called a conditional table."
+    },
+    {
+      "letter": "B",
+      "text": "A two-way table can contain counts."
+    },
+    {
+      "letter": "C",
+      "text": "A two-way table can contain relative frequencies."
+    },
+    {
+      "letter": "D",
+      "text": "A two-way table can contain joint relative frequencies."
+    },
+    {
+      "letter": "E",
+      "text": "A two-way table is used to summarize two categorical variables."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.P",
+    "2.D",
+    "UNC-1.P.3",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.P",
+    "2.D",
+    "UNC-1.P.3",
+    "UNC-1"
+  ]
+}

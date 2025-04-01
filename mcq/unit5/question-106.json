@@ -1,0 +1,46 @@
+{
+  "question_id": "question-106",
+  "title": "Applying Normal Approximation",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Someone determined that <span class=\"tex2jax_process\">$53\\%$</span> of houses are painted white in a given large town.  </div><div class=\"paragraph\">Supposing a random sample of <span class=\"tex2jax_process\">$2{,}000\\text{ houses}$</span> were selected, what is the probability that less than half of these houses are painted white?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.0036"
+    },
+    {
+      "letter": "B",
+      "text": "0.5"
+    },
+    {
+      "letter": "C",
+      "text": "0.0623"
+    },
+    {
+      "letter": "D",
+      "text": "0.00823"
+    },
+    {
+      "letter": "E",
+      "text": "0.143"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-6.B.2",
+    "VAR-6.B",
+    "3.A",
+    "VAR-6.B.1",
+    "VAR-6"
+  ],
+  "standards": [
+    "VAR-6.B.2",
+    "VAR-6.B",
+    "3.A",
+    "VAR-6.B.1",
+    "VAR-6"
+  ]
+}

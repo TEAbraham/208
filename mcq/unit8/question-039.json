@@ -1,0 +1,46 @@
+{
+  "question_id": "question-039",
+  "title": "Rolling Dice",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Suppose at a local casino, a player rolls <span class=\"tex2jax_process\">$4$</span> six-sided die.  </div><div class=\"paragraph\">The player wins a dollar each time he gets a <span class=\"tex2jax_process\">$1$</span> or <span class=\"tex2jax_process\">$2$</span> on one of the dice, so each game the player could win anywhere from <span class=\"tex2jax_process\">$\\$0$</span> to <span class=\"tex2jax_process\">$\\$4$</span>.  </div><div class=\"paragraph\">The player plays the game <span class=\"tex2jax_process\">$100$</span> times and is disappointed with the outcome. He wonders if the dice are fair. Out of the <span class=\"tex2jax_process\">$100$</span> trials, the player ended up with the following distribution of winnings:\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Winnings</th><th scope=\"col\"><span>$</span>0</th><th scope=\"col\"><span>$</span>1</th><th scope=\"col\"><span>$</span>2</th><th scope=\"col\"><span>$</span>3</th><th scope=\"col\"><span>$</span>4</th></tr></thead><tbody><tr><td>Frequency</td><td>21</td><td>42</td><td>30</td><td>7</td><td>0</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Is there sufficient evidence the dice are unfair?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes, at the\n1\n%\n,\n5\n%\n, and\n10\n%\nalpha levels."
+    },
+    {
+      "letter": "B",
+      "text": "Yes, at the\n5\n%\nand\n10\n%\nalpha levels, but not at the\n1\n%\nlevel."
+    },
+    {
+      "letter": "C",
+      "text": "Yes, at the\n10\n%\nalpha level, but not the\n1\n%\nor\n5\n%\nlevels."
+    },
+    {
+      "letter": "D",
+      "text": "No, not at any of the common alpha levels of\n1\n%\n,\n5\n%\n, or\n10\n%\n."
+    },
+    {
+      "letter": "E",
+      "text": "No, in fact, there is strong evidence the game is fair."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.F",
+    "3.E",
+    "VAR-8",
+    "VAR-8.F.2",
+    "VAR-8.F.1"
+  ],
+  "standards": [
+    "VAR-8.F",
+    "3.E",
+    "VAR-8",
+    "VAR-8.F.2",
+    "VAR-8.F.1"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-057",
+  "title": "Who Wins?",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Five interns work for a large popcorn company. They are in a competition to see who can come up with the best idea to help with popcorn sales. They are required to use some sort of statistical test. Their five ideas are listed below. Four are in the running because they seemed to make sense, but one did not make sense. Which one mentions a test which does not coordinate with the information to be collected?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Annie suggested that\n50\nrandom households be surveyed and asked about the amount they spent on popcorn they purchased in the previous month. Then Annie planned to take those numbers and run a one-sample\nz\n-test for a population proportion."
+    },
+    {
+      "letter": "B",
+      "text": "Bob suggested that\n50\nrandom movie theaters be surveyed and asked about the amount of popcorn sales they had in the previous month. Then Bob would test to see if sales exceeded\n$\n10\n,\n000\nby using a one-sample t-test for a population mean."
+    },
+    {
+      "letter": "C",
+      "text": "Carly suggested\n50\nrandom convenience stores be surveyed. She wanted to find what percentage of sales on average over the past week was for popcorn. Then Carly would test to see if sales surpassed\n20\n%\nusing a one-sample\nz\n-test for a population proportion."
+    },
+    {
+      "letter": "D",
+      "text": "Dan wanted to compare sales in convenience stores and grocery stores. He would sample\n30\nrandom stores of each to obtain their sales for the previous week. Dan would then construct a confidence interval for the difference of two population means."
+    },
+    {
+      "letter": "E",
+      "text": "Eduardo suggested that\n50\nrandom grocery stores be surveyed and asked about the amount of popcorn sales they had in the previous month. Then Eduardo would make a confidence interval for the sample mean."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7",
+    "VAR-7.B.1",
+    "1.E",
+    "VAR-7.B"
+  ],
+  "standards": [
+    "VAR-7",
+    "VAR-7.B.1",
+    "1.E",
+    "VAR-7.B"
+  ]
+}

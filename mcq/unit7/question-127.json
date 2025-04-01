@@ -1,0 +1,47 @@
+{
+  "question_id": "question-127",
+  "title": "Significance Test: Comparing Uber Times in Different Areas",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A statistics teacher wants to see if there is a difference in the mean time needed to wait for an Uber ride in two different metropolitan areas.  </div><div class=\"paragraph\">Twenty-five randomly selected times are accessed during the day for each area. The mean time waiting for an Uber in the first area is <span class=\"tex2jax_process\">$8.3\\text{ minutes}$</span> with a standard deviation of <span class=\"tex2jax_process\">$1.1\\text{ minutes}$</span>, followed by the second area having a mean Uber wait time of <span class=\"tex2jax_process\">$8.9\\text{ minutes}$</span> with a standard deviation of <span class=\"tex2jax_process\">$1.3\\text{ minutes}$</span>.  </div><div class=\"paragraph\">Assuming the conditions for inference are met, which of the following statements is true?</div>",
+  "image_files": [
+    "images/question-127-img1.PNG",
+    "images/question-127-img2.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The p-value is less than\n0.01\n; there is a significant difference in mean waiting times for Uber rides in the two different metropolitan areas at the\n1\n% significance level."
+    },
+    {
+      "letter": "B",
+      "text": "The p-value is less than\n0.05\n; there is a significant difference in mean waiting times for Uber rides in the two different metropolitan areas at the\n5\n% significance level."
+    },
+    {
+      "letter": "C",
+      "text": "The p-value is greater than\n0.05\n; the mean waiting times for the Uber rides in the two different metropolitan areas are the same at the\n5\n% significance level."
+    },
+    {
+      "letter": "D",
+      "text": "The p-value is less than\n0.10\n; there is a significant difference in mean waiting times for Uber rides in the two different metropolitan areas at the\n10\n% significance level."
+    },
+    {
+      "letter": "E",
+      "text": "The p-value is greater than\n0.10\n; the mean waiting times for the Uber rides in the two different metropolitan areas are the same at the\n10\n% significance level."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.C",
+    "VAR-7.H",
+    "VAR-7",
+    "VAR-7.H.1"
+  ],
+  "standards": [
+    "4.C",
+    "VAR-7.H",
+    "VAR-7",
+    "VAR-7.H.1"
+  ]
+}

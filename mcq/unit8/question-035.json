@@ -1,0 +1,50 @@
+{
+  "question_id": "question-035",
+  "title": "Chi-Squared GOF Test",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The vegetable sales at a local convenience store last year broke down as follows: <span class=\"tex2jax_process\">$34\\%$</span> broccoli, <span class=\"tex2jax_process\">$21\\%$</span> peas, <span class=\"tex2jax_process\">$18\\%$</span> carrots, <span class=\"tex2jax_process\">$17\\%$</span> cabbage, and <span class=\"tex2jax_process\">$10\\%$</span> beans.  </div><div class=\"paragraph\">Recently a random sample of <span class=\"tex2jax_process\">$123$</span> vegetable-buying customers found that <span class=\"tex2jax_process\">$39$</span> bought broccoli, <span class=\"tex2jax_process\">$23$</span> bought peas, <span class=\"tex2jax_process\">$20$</span> bought carrots, <span class=\"tex2jax_process\">$17$</span> bought cabbage, and <span class=\"tex2jax_process\">$24$</span> bought beans. A chi-squared goodness of fit test was performed.  </div><div class=\"paragraph\">Determine the test statistic, <span class=\"tex2jax_process\">$p$</span>-value, and degrees of freedom.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Test statistic:\n23.42 P\n-value:\n0.01 Degrees of freedom:\n122"
+    },
+    {
+      "letter": "B",
+      "text": "Test statistic:\n12.57 P\n-value:\n0.01 Degrees of freedom:\n122"
+    },
+    {
+      "letter": "C",
+      "text": "Test statistic:\n12.57 P\n-value:\n0.01 Degrees of freedom:\n4"
+    },
+    {
+      "letter": "D",
+      "text": "Test statistic:\n23.42 P\n-value:\n0.025 Degrees of freedom:\n122"
+    },
+    {
+      "letter": "E",
+      "text": "Test statistic:\n12.57 P\n-value:\np\n<\n0.0005 Degrees of freedom:\n4"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.F",
+    "VAR-8.G.1",
+    "VAR-8.G",
+    "3.E",
+    "VAR-8",
+    "VAR-8.F.2",
+    "VAR-8.F.1"
+  ],
+  "standards": [
+    "VAR-8.F",
+    "VAR-8.G.1",
+    "VAR-8.G",
+    "3.E",
+    "VAR-8",
+    "VAR-8.F.2",
+    "VAR-8.F.1"
+  ]
+}

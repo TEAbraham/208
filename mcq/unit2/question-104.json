@@ -1,0 +1,50 @@
+{
+  "question_id": "question-104",
+  "title": "Regression Output: Circumference and Melon Weight",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Farmer MacDonald sells his melons at a roadside stand.  He hates carrying along his scale for weighing the melons though and wonders if there is a way to predict the weight (<span class=\"tex2jax_process\">$\\hat {y}$</span>) of a melon by measuring its circumference (<span class=\"tex2jax_process\">$x$</span>).  </div><div class=\"paragraph\">Luckily, his son Junior is taking AP Statistics and knows just what to do!  After weighing (in pounds) and measuring the circumference (in inches) of a random sample of melons, Junior uses a statistical software package to develop the equation of the LSRL.  Computer output is shown below.  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"paragraph\">Which of the following gives the equation of the LSRL?</div>",
+  "image_files": [
+    "images/question-104-img1.png"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "^\ny\n=\n0.623\n+\n1.02\nx"
+    },
+    {
+      "letter": "B",
+      "text": "^\ny\n=\n1.02\n+\n0.623\nx"
+    },
+    {
+      "letter": "C",
+      "text": "^\ny\n=\n0.03\n+\n0.01\nx"
+    },
+    {
+      "letter": "D",
+      "text": "^\ny\n=\n1.63\n+\n2.18\nx"
+    },
+    {
+      "letter": "E",
+      "text": "^\ny\n=\n2.18\n+\n1.63\nx"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.H.2",
+    "DAT-1.H",
+    "DAT-1",
+    "DAT-1.H.3",
+    "DAT-1.H.1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-1.H.2",
+    "DAT-1.H",
+    "DAT-1",
+    "DAT-1.H.3",
+    "DAT-1.H.1"
+  ]
+}

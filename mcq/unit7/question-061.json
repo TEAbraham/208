@@ -1,0 +1,44 @@
+{
+  "question_id": "question-061",
+  "title": "Find the Critical Value for Mean with Unknown Standard Deviation",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">You want to compute a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for the mean population with an unknown standard deviation. The data is collected from an SRS of <span class=\"tex2jax_process\">$25$</span> observations, and it is approximately normal.  </div><div class=\"paragraph\">What critical value would we need for the <span class=\"tex2jax_process\">$95\\%$</span> confidence interval?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1.711"
+    },
+    {
+      "letter": "B",
+      "text": "1.96"
+    },
+    {
+      "letter": "C",
+      "text": "2.056"
+    },
+    {
+      "letter": "D",
+      "text": "2.060"
+    },
+    {
+      "letter": "E",
+      "text": "2.064"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7.E",
+    "VAR-7.E.1",
+    "VAR-7",
+    "3.E"
+  ],
+  "standards": [
+    "VAR-7.E",
+    "VAR-7.E.1",
+    "VAR-7",
+    "3.E"
+  ]
+}

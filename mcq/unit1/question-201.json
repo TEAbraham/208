@@ -1,0 +1,46 @@
+{
+  "question_id": "question-201",
+  "title": "Definition: True Statements of Standard Normal Distribution",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Which of the following statements is/are true concerning the standard normal distribution?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> It is symmetric.  </div><div class=\"paragraph\"><strong>II.</strong> It always has a mean of <span class=\"tex2jax_process\">$0$</span> and standard deviation of <span class=\"tex2jax_process\">$1$</span>.  </div><div class=\"paragraph\"><strong>III.</strong> It is normal only if the sample size is large enough (say, more than <span class=\"tex2jax_process\">$30$</span>).    </div></blockquote>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I and III only."
+    },
+    {
+      "letter": "B",
+      "text": "II and III only."
+    },
+    {
+      "letter": "C",
+      "text": "I and II only."
+    },
+    {
+      "letter": "D",
+      "text": "II only."
+    },
+    {
+      "letter": "E",
+      "text": "I, II, and III."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "2.D",
+    "VAR-2.A.1",
+    "VAR-2",
+    "VAR-2.A",
+    "VAR-2.A.2"
+  ],
+  "standards": [
+    "2.D",
+    "VAR-2.A.1",
+    "VAR-2",
+    "VAR-2.A",
+    "VAR-2.A.2"
+  ]
+}

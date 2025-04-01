@@ -1,0 +1,48 @@
+{
+  "question_id": "question-153",
+  "title": "What Happens to the Mean and Standard Deviation?",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">The boxplot below represents a data set.  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"paragraph\">If the minimum value was changed from twenty to twelve, what would happen to the mean and standard deviation of the data set?</div>",
+  "image_files": [
+    "images/question-153-img1.png"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Both the mean and standard deviation would decrease."
+    },
+    {
+      "letter": "B",
+      "text": "The mean would decrease and the standard deviation would increase."
+    },
+    {
+      "letter": "C",
+      "text": "Both the mean and standard deviation would remain the same."
+    },
+    {
+      "letter": "D",
+      "text": "The mean would increase and the standard deviation would decrease."
+    },
+    {
+      "letter": "E",
+      "text": "Both the mean and standard deviation would increase."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.M",
+    "UNC-1.M.1",
+    "UNC-1.M.2",
+    "2.A",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.M",
+    "UNC-1.M.1",
+    "UNC-1.M.2",
+    "2.A",
+    "UNC-1"
+  ]
+}

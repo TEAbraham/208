@@ -1,0 +1,44 @@
+{
+  "question_id": "question-020",
+  "title": "Poker Hands",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">In a full deck of <span class=\"tex2jax_process\">$52$</span> cards, let's consider jacks, queens, kings, and aces to be face cards.  So, in a deck there are <span class=\"tex2jax_process\">$16$</span> face cards. Suppose you want to know how often you might get a poker hand of <span class=\"tex2jax_process\">$5$</span> cards with <span class=\"tex2jax_process\">$4$</span> or <span class=\"tex2jax_process\">$5$</span> face cards in it.  How might you estimate this probability using simulation with a random number table?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Using a random number table, call\n01\n-\n16\nface cards and\n17\n-\n52\nnon-face cards. Skip the numbers\n53\n-\n99\n. Choose\n5\nnumbers at a time,\n80\ntimes. For each group of\n5\n, count how many are face cards and keep track of how many hands have\n4\nor\n5\nface cards in them. Divide this number by 80 to estimate the probability."
+    },
+    {
+      "letter": "B",
+      "text": "Using a random number table, call\n01\n-\n16\nface cards and\n17\n-\n52\nnon-face cards. Choose\n5\nnumbers at a time,\n80\ntimes. For each group of\n5\n, count how many are face cards and keep track of how many hands have\n4\nor\n5\nface cards in them. Divide this number by\n80\nto estimate the probability."
+    },
+    {
+      "letter": "C",
+      "text": "Using a random number table, call\n00\n-\n15\nface cards and\n16\n-\n51\nnon-face cards. Skip the numbers\n52\n-\n99\n. Choose\n5\nnumbers at a time,\n80\ntimes. For each group of\n5\n, count how many are face cards and keep track of how many hands have\n4\nor\n5\nface cards in them. Divide this number by\n80\nto estimate the probability."
+    },
+    {
+      "letter": "D",
+      "text": "Using a random number table, call\n00\n-\n15\nface cards and\n16\n-\n51\nnon-face cards. Skip the numbers\n52\n-\n99\n. Choose\n5\nnumbers at a time,\n80\ntimes. For each group of\n5\n, count how many are face cards and keep track of how many hands have\n4\nor\n5\nface cards in them. Divide this number by\n100\nto estimate the probability."
+    },
+    {
+      "letter": "E",
+      "text": "Using a random number table, call\n83\n-\n99\nface cards and\n00\n-\n36\nnon-face cards. Skip the numbers\n37\n-\n82\n. Choose\n5\nnumbers at a time,\n80\ntimes. For each group of\n5\n, count how many are face cards and keep track of how many hands have\n4\nor\n5\nface cards in them. Divide this number by\n80\nto estimate the probability."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "3.A",
+    "UNC-2.A",
+    "UNC-2",
+    "UNC-2.A.5"
+  ],
+  "standards": [
+    "3.A",
+    "UNC-2.A",
+    "UNC-2",
+    "UNC-2.A.5"
+  ]
+}

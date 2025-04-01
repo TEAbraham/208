@@ -1,0 +1,44 @@
+{
+  "question_id": "question-016",
+  "title": "Paper Airplanes",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A statistics student asks <span class=\"tex2jax_process\">$32$</span> other students to build paper airplanes without specific instructions as to size.  He asks them to  record both the length of the planes and the length of the flights.  He wanted to create a confidence interval for the slope of the regression equation for these variables.  What would the value of the degrees of freedom  be to obtain the value of <span class=\"tex2jax_process\">$t^{*}$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "32"
+    },
+    {
+      "letter": "B",
+      "text": "60"
+    },
+    {
+      "letter": "C",
+      "text": "64"
+    },
+    {
+      "letter": "D",
+      "text": "30"
+    },
+    {
+      "letter": "E",
+      "text": "31"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.AC",
+    "UNC-4",
+    "UNC-4.AC.1",
+    "1.D"
+  ],
+  "standards": [
+    "UNC-4.AC",
+    "UNC-4",
+    "UNC-4.AC.1",
+    "1.D"
+  ]
+}

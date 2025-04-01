@@ -1,0 +1,48 @@
+{
+  "question_id": "question-040",
+  "title": "Student Random Sample",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Suppose the student council at a large high school wants to measure student approval of school leadership using a simple random sample of size <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-25682\"><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-25683\">n</span><span class=\"MJXp-mo\" id=\"MJXp-Span-25684\" style=\"margin-left: 0.333em; margin-right: 0.333em;\">=</span><span class=\"MJXp-mn\" id=\"MJXp-Span-25685\">100</span></span></span><script type=\"math/tex\" id=\"MathJax-Element-7265\">n = 100</script></span>.  </div><div class=\"paragraph\">What would be the best way to select these students?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Go to the cafeteria during lunch and select\n5\nstudents at each table until the sample size is\n100\n."
+    },
+    {
+      "letter": "B",
+      "text": "Since\n100\nstudents are currently enrolled in AP Statistics in this school, sample those\n100\nstudents."
+    },
+    {
+      "letter": "C",
+      "text": "Obtain a list of all students from the registrar and assign a number to each, then use a random number generator to select\n100\nstudents."
+    },
+    {
+      "letter": "D",
+      "text": "Since government is a required daily course, survey all the students in the government classes during one school day until\nn\n=\n100\n."
+    },
+    {
+      "letter": "E",
+      "text": "Have each of the\n10\nmembers of the student council ask\n10\nof their friends, telling the members try to ask different types of people."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-2.C.2",
+    "DAT-2",
+    "DAT-2.D.1",
+    "1.C",
+    "DAT-2.D",
+    "DAT-2.C"
+  ],
+  "standards": [
+    "DAT-2.C.2",
+    "DAT-2",
+    "DAT-2.D.1",
+    "1.C",
+    "DAT-2.D",
+    "DAT-2.C"
+  ]
+}

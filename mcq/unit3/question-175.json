@@ -1,0 +1,46 @@
+{
+  "question_id": "question-175",
+  "title": "Statistical Advantages/Disadvantages in Prolonging Dog Life Study",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Suppose a large dog food company has a new prototype that is supposed to prolong the life of dogs.  </div><div class=\"paragraph\">The company randomly selects two groups of <span class=\"tex2jax_process\">$100\\text{ dogs}$</span> each: one group will be fed this new food for the duration of their entire lives; the other group will be fed the leading competitor’s brand of dog food.  </div><div class=\"paragraph\">Variables such as exercise, location, and medical treatment are all controlled for. However, the company needs to decide whether to use only a specific breed of dog or include a variety of dogs.  </div><div class=\"paragraph\">What is a statistical advantage of using only one specific breed of dog for this study? A statistical disadvantage?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Advantage: less variability in results Disadvantage: difficult to generalize the results to other breeds"
+    },
+    {
+      "letter": "B",
+      "text": "Advantage: less expensive to run the experiment Disadvantage: difficult to generalize the results to other breeds"
+    },
+    {
+      "letter": "C",
+      "text": "Advantage: more detailed information Disadvantage: more lurking variables"
+    },
+    {
+      "letter": "D",
+      "text": "Advantage: less variability in results Disadvantage: difficult to obtain dogs of all the same breed"
+    },
+    {
+      "letter": "E",
+      "text": "Advantage: less expensive to run the experiment Disadvantage: more lurking variables"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3.E.1",
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.E.4"
+  ],
+  "standards": [
+    "VAR-3.E.1",
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.E.4"
+  ]
+}

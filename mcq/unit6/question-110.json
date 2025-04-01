@@ -1,0 +1,44 @@
+{
+  "question_id": "question-110",
+  "title": "Two-sided Conclusion",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A group of college students in a psychology class wonders if the order of treatments changes the outcome of a study.  </div><div class=\"paragraph\">To test this, they ask students in a blind taste test which of two colas they prefer, Pepsi or Coke. In this blind taste test, the first <span class=\"tex2jax_process\">$50\\text{ randomly chosen subjects}$</span> are given Pepsi and then Coke. The next <span class=\"tex2jax_process\">$50\\text{ randomly chosen subjects}$</span> are given Coke and then Pepsi.  </div><div class=\"paragraph\">Suppose the test statistic is <span class=\"tex2jax_process\">$z = 1.56$</span> when comparing the proportion of those who preferred Pepsi when tasted first to the proportion who liked Pepsi when tasted second.  </div><div class=\"paragraph\">On a two-sided test, what is the appropriate conclusion?​</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Since\np\n>\n0.05\n, strong evidence exists of no difference between the treatments."
+    },
+    {
+      "letter": "B",
+      "text": "Since\np\n<\n0.1\n, strong evidence exists of a difference in treatments."
+    },
+    {
+      "letter": "C",
+      "text": "Since\np\n<\n0.05\n, strong evidence exists of a difference in treatments."
+    },
+    {
+      "letter": "D",
+      "text": "Since\np\n>\n0.1\n, there is insufficient evidence of a difference in preference based on which order the sodas are given."
+    },
+    {
+      "letter": "E",
+      "text": "Since\np\n>\n0.1\n, strong evidence exists that order does not affect preference."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.N.1",
+    "4.D",
+    "UNC-4",
+    "UNC-4.N"
+  ],
+  "standards": [
+    "UNC-4.N.1",
+    "4.D",
+    "UNC-4",
+    "UNC-4.N"
+  ]
+}

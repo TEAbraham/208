@@ -1,0 +1,44 @@
+{
+  "question_id": "question-014",
+  "title": "Point Estimator for a One Mean $t$-Interval: Fastball",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for the average fastball (mph) a professional athlete throws is <span class=\"tex2jax_process\">$(96,101)$</span>.  </div><div class=\"paragraph\">From this interval, what is the point estimate for his average fastball (in mph)?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "2.5\n mph"
+    },
+    {
+      "letter": "B",
+      "text": "5\n mph"
+    },
+    {
+      "letter": "C",
+      "text": "96\n mph"
+    },
+    {
+      "letter": "D",
+      "text": "98.5\n mph"
+    },
+    {
+      "letter": "E",
+      "text": "101\n mph"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "3.D",
+    "UNC-4",
+    "UNC-4.R",
+    "UNC-4.R.1"
+  ],
+  "standards": [
+    "3.D",
+    "UNC-4",
+    "UNC-4.R",
+    "UNC-4.R.1"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-063",
+  "title": "Constructing a Histogram",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">When constructing a histogram, it is important to</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use categorical data only."
+    },
+    {
+      "letter": "B",
+      "text": "Use a minimum of\n10\nbars."
+    },
+    {
+      "letter": "C",
+      "text": "Construct the histogram only if the data appears approximately normal."
+    },
+    {
+      "letter": "D",
+      "text": "Keep the bars on the\nx\n-axis of equal width."
+    },
+    {
+      "letter": "E",
+      "text": "Plot any outliers separately."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.G.1",
+    "2.A",
+    "UNC-1.G",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.G.1",
+    "2.A",
+    "UNC-1.G",
+    "UNC-1"
+  ]
+}

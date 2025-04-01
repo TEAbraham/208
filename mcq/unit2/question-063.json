@@ -1,0 +1,46 @@
+{
+  "question_id": "question-063",
+  "title": "Analyzing Correlation Coefficient",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Which of the following statements is true regarding <span class=\"tex2jax_process\">$r$</span>, the correlation coefficient?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Units must be attached to\nr\n."
+    },
+    {
+      "letter": "B",
+      "text": "The closer\n|\nr\n|\nis to\n1\n, the stronger the linear correlation will be."
+    },
+    {
+      "letter": "C",
+      "text": "The correlation coefficient is used to calculate the strength of both linear and non-linear bivariate relationships."
+    },
+    {
+      "letter": "D",
+      "text": "When switching the dependent and independent variables,\nr\nchanges to (\n1\n/\nr\n)."
+    },
+    {
+      "letter": "E",
+      "text": "When multiplying both data sets by a constant\nx\n, the correlation coefficient increases by the factor of\nx\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is incorrect; the opposite is true. r must have no units attached to it.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.C",
+    "DAT-1.C.2",
+    "DAT-1",
+    "DAT-1.C.1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-1.C",
+    "DAT-1.C.2",
+    "DAT-1",
+    "DAT-1.C.1"
+  ]
+}

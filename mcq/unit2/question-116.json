@@ -1,0 +1,44 @@
+{
+  "question_id": "question-116",
+  "title": "Interpret Slope: Life Expectancy vs. Year",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A student is interested in how life expectancy (in years) has changed in the U.S. since 1930. The student gathers data between the years 1930 to 2010. He finds the least squares regression line to be:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$\\widehat {\\text{life expectancy} } = 0.228\\text{ year }-378.15$$</div>  </div><div class=\"paragraph\">He also finds the correlation to be <span class=\"tex2jax_process\">$0.981$</span>.  </div><div class=\"paragraph\">Which of the following is the correct interpretation for the slope in this case? </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The predicted baseline life expectancy in the U.S. is\n−\n378.15\n."
+    },
+    {
+      "letter": "B",
+      "text": "For each additional year, the estimated life expectancy in the U.S. increases by\n0.228\nyears."
+    },
+    {
+      "letter": "C",
+      "text": "For each additional year, life expectancy in the U.S. increases by\n0.228\nyears."
+    },
+    {
+      "letter": "D",
+      "text": "About\n98\n%\nof the variation in life expectancy in the U.S. can be explained by a linear relationship between life expectancy and year."
+    },
+    {
+      "letter": "E",
+      "text": "About\n96\n%\nof the variation in life expectancy in the U.S. can be explained by a linear relationship between life expectancy and year."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.H.2",
+    "DAT-1.H",
+    "DAT-1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-1.H.2",
+    "DAT-1.H",
+    "DAT-1"
+  ]
+}

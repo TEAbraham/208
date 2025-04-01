@@ -1,0 +1,44 @@
+{
+  "question_id": "question-067",
+  "title": "Rolling Doubles: What are the Chances?",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">When two fair, <span class=\"tex2jax_process\">$6$</span>-sided dice are tossed, the result is called “doubles” if both dice land with the same number of dots showing (for example, both dice land with <span class=\"tex2jax_process\">$3\\text{ dots}$</span> showing).  </div><div class=\"paragraph\">What is the probability that when tossing two dice, more than <span class=\"tex2jax_process\">$4\\text{ tosses}$</span> will be needed in order to get doubles for the first time?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.0965"
+    },
+    {
+      "letter": "B",
+      "text": "0.3858"
+    },
+    {
+      "letter": "C",
+      "text": "0.4213"
+    },
+    {
+      "letter": "D",
+      "text": "0.4823"
+    },
+    {
+      "letter": "E",
+      "text": "0.5177"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E",
+    "3.A",
+    "VAR-4",
+    "VAR-4.E.4"
+  ],
+  "standards": [
+    "VAR-4.E",
+    "3.A",
+    "VAR-4",
+    "VAR-4.E.4"
+  ]
+}

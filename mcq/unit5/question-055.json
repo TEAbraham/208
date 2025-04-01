@@ -1,0 +1,44 @@
+{
+  "question_id": "question-055",
+  "title": "AP Prep Course",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose at a large high school, the average AP test score for AP Statistics is <span class=\"tex2jax_process\">$2.84$</span> with a standard deviation of <span class=\"tex2jax_process\">$0.45$</span>.  </div><div class=\"paragraph\">The school decided to offer nightly study sessions and randomly chose <span class=\"tex2jax_process\">$30$</span> students to participate. These <span class=\"tex2jax_process\">$30$</span> students averaged AP scores of <span class=\"tex2jax_process\">$3.1$</span>.  </div><div class=\"paragraph\">What can be said about the effectiveness of the AP study sessions?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Nothing, since the design of the experiment was not done in an effective manner."
+    },
+    {
+      "letter": "B",
+      "text": "Nothing, since the sample size is too small to develop any reasonable conclusions."
+    },
+    {
+      "letter": "C",
+      "text": "The students in the study sessions did not perform much better than their peers; their effort is only\n0.58\nstandard deviations above the mean of their peers."
+    },
+    {
+      "letter": "D",
+      "text": "These students performed much better than their peers; their results are\n3.16\nstandard deviations above the mean of their peers."
+    },
+    {
+      "letter": "E",
+      "text": "While this study shows that these\n30\nstudents did better than their peers, it would have been more effective to compare these students’ scores to the national AP average."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.R.2",
+    "3.C",
+    "UNC-3",
+    "UNC-3.R"
+  ],
+  "standards": [
+    "UNC-3.R.2",
+    "3.C",
+    "UNC-3",
+    "UNC-3.R"
+  ]
+}

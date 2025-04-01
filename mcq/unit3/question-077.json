@@ -1,0 +1,48 @@
+{
+  "question_id": "question-077",
+  "title": "Undercoverage",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">If undercovereage occurs in a sample, it means that</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The sample did not cover enough respondents."
+    },
+    {
+      "letter": "B",
+      "text": "The sample size was too small because some subjects did not respond."
+    },
+    {
+      "letter": "C",
+      "text": "The question in the sample was not asked in a thorough enough manner as to capture the true feelings of the respondents."
+    },
+    {
+      "letter": "D",
+      "text": "Certain groups of the population were systematically excluded from the sample."
+    },
+    {
+      "letter": "E",
+      "text": "Calculations in the data results were incomplete and did not give a complete description of the sample."
+    }
+  ],
+  "correct_answer": "<strong>Undercoverage</strong> means that certain groups are excluded from the sample, based on how the sample was conducted.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-2",
+    "DAT-2.E.3",
+    "1.C",
+    "DAT-2.E",
+    "DAT-2.C.6",
+    "DAT-2.C"
+  ],
+  "standards": [
+    "DAT-2",
+    "DAT-2.E.3",
+    "1.C",
+    "DAT-2.E",
+    "DAT-2.C.6",
+    "DAT-2.C"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "question_id": "question-079",
+  "title": "Price of Woman's Haircut: A Stemplot",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Lori surveyed a random sample of salons to investigate the price of a woman's haircut in her city.  The data is displayed in the stemplot below.  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"paragraph\">Which of the following provides the <span class=\"tex2jax_process\">$5$</span>-number summary for this distribution?</div>",
+  "image_files": [
+    "images/question-079-img1.PNG",
+    "images/question-079-img2.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1\n,\n2.5\n,\n4\n,\n5.5\n,\n7"
+    },
+    {
+      "letter": "B",
+      "text": "19\n,\n30\n,\n40\n,\n50\n,\n78"
+    },
+    {
+      "letter": "C",
+      "text": "19\n,\n35.50\n,\n44\n,\n53.50\n,\n78"
+    },
+    {
+      "letter": "D",
+      "text": "19\n,\n36\n,\n44\n,\n54\n,\n78"
+    },
+    {
+      "letter": "E",
+      "text": "19\n,\n33.75\n,\n48.50\n,\n63.25\n,\n78"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.I.4",
+    "2.C",
+    "UNC-1.I",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.I.4",
+    "2.C",
+    "UNC-1.I",
+    "UNC-1"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-082",
+  "title": "Can We Extrapolate?",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A statistics student wanted to do a study by examining data from last year's baseball season.  He wanted to randomly select <span class=\"tex2jax_process\">$40$</span> players and note their weight and the number of home runs they hit.  The student wanted to see if weighing more might predict more home runs being hit.</div><div class=\"paragraph\">Of the <span class=\"tex2jax_process\">$40$</span> players, the weights ranged from <span class=\"tex2jax_process\">$180$</span> to <span class=\"tex2jax_process\">$280$</span> pounds.  He obtained a regression equation of <span class=\"tex2jax_process\">$\\hat{y}=-60+0.4x$</span>. The student wondered if it was reasonable to predict the number of home runs hit by a <span class=\"tex2jax_process\">$300$</span> pound man and by a <span class=\"tex2jax_process\">$400$</span> pound man.</div><div class=\"paragraph\">Which answer below seems most reasonable?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "No. Predicting beyond the range of values for the explanatory variable is never reasonable."
+    },
+    {
+      "letter": "B",
+      "text": "Yes. Predicting beyond the range of values for the explanatory variable is always reasonable."
+    },
+    {
+      "letter": "C",
+      "text": "Yes. These predictions are not always reasonable, but in this case they might be as the\n400\npound man could be very tall and very strong."
+    },
+    {
+      "letter": "D",
+      "text": "No. These predictions are unreasonable simply because the home run numbers are too high."
+    },
+    {
+      "letter": "E",
+      "text": "Yes and No. It is reasonable to predict for the\n300\npound man since that weight is very close to the others, but to predict as far away as\n400\npounds is not reasonable."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-1.D.3",
+    "2.C",
+    "DAT-1",
+    "DAT-1.D"
+  ],
+  "standards": [
+    "DAT-1.D.3",
+    "2.C",
+    "DAT-1",
+    "DAT-1.D"
+  ]
+}

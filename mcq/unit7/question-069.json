@@ -1,0 +1,46 @@
+{
+  "question_id": "question-069",
+  "title": "The Meaning of Statistical Significance",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A random sample of size <span class=\"tex2jax_process\">$n = 150$</span> is selected and a one-sample <span class=\"tex2jax_process\">$t$</span>-test for a population mean is performed. The results are found to be statistically significant.  </div><div class=\"paragraph\">Which of the following statements best describes the meaning of statistically significant in this situation?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The results were very impressive. We should accept the null hypothesis without reservation."
+    },
+    {
+      "letter": "B",
+      "text": "The results were significant enough to prove that our null hypothesis is false."
+    },
+    {
+      "letter": "C",
+      "text": "The results were impressive enough to suggest that our null hypothesis is true."
+    },
+    {
+      "letter": "D",
+      "text": "The results of our experiment or observation were pretty much what we expected based upon our null hypothesis. No big deal."
+    },
+    {
+      "letter": "E",
+      "text": "Assuming our null hypothesis is true, the results we obtained were pretty strange and unlikely."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-3.F",
+    "4.E",
+    "DAT-3",
+    "DAT-3.F.2",
+    "DAT-3.F.1"
+  ],
+  "standards": [
+    "DAT-3.F",
+    "4.E",
+    "DAT-3",
+    "DAT-3.F.2",
+    "DAT-3.F.1"
+  ]
+}

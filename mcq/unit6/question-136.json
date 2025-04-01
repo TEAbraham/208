@@ -1,0 +1,44 @@
+{
+  "question_id": "question-136",
+  "title": "Constructing a $2$ Proportion $z$-Interval: High School Break Up",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Independent random samples of <span class=\"tex2jax_process\">$50$</span> boys and <span class=\"tex2jax_process\">$50$</span> girls in a school were asked if they are depressed for more than a week after they got broken up with by their significant other. Of the <span class=\"tex2jax_process\">$50$</span> boys, <span class=\"tex2jax_process\">$26$</span> said yes, and of the <span class=\"tex2jax_process\">$50$</span> girls, <span class=\"tex2jax_process\">$35$</span> said yes.  </div><div class=\"paragraph\">Which of the following is a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for the difference in the proportion of boys compared to the proportion of girls who are depressed for more than a week after they have been broken with by their significant other in this school?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "(\n0.52\n−\n0.70\n)\n±\n1.645\n√\n(\n0.52\n)\n(\n0.48\n)\n50\n+\n(\n0.70\n)\n(\n0.30\n)\n50"
+    },
+    {
+      "letter": "B",
+      "text": "(\n0.52\n−\n0.70\n)\n±\n1.96\n√\n(\n0.52\n)\n(\n0.48\n)\n50\n+\n(\n0.70\n)\n(\n0.30\n)\n50"
+    },
+    {
+      "letter": "C",
+      "text": "(\n0.52\n−\n0.70\n)\n±\n1.645\n√\n(\n61\n100\n)\n(\n39\n100\n)\n(\n1\n50\n+\n1\n50\n)"
+    },
+    {
+      "letter": "D",
+      "text": "(\n0.52\n−\n0.70\n)\n±\n1.96\n√\n(\n61\n100\n)\n(\n39\n100\n)\n(\n1\n50\n+\n1\n50\n)"
+    },
+    {
+      "letter": "E",
+      "text": "(\n0.52\n−\n0.70\n)\n±\n1.96\n√\n(\n26\n100\n)\n(\n35\n100\n)\n(\n1\n50\n+\n1\n50\n)"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-6.K",
+    "3.E",
+    "VAR-6.K.1",
+    "VAR-6"
+  ],
+  "standards": [
+    "VAR-6.K",
+    "3.E",
+    "VAR-6.K.1",
+    "VAR-6"
+  ]
+}

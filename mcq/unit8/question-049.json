@@ -1,0 +1,44 @@
+{
+  "question_id": "question-049",
+  "title": "Marital Status: Find the $p$-Value",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The table below displays the marital status of people age 15 and over as reported by the U. S. Census Bureau (2012).\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Marital Status</th><th scope=\"col\">Percent</th></tr></thead><tbody><tr><td>Married</td><td>50.7</td></tr><tr><td>Never Married</td><td>31.2</td></tr><tr><td>Divorced</td><td>10.1</td></tr><tr><td>Widowed</td><td>5.7</td></tr><tr><td>Separated</td><td>2.1</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Tabitha wonders whether this distribution accurately represents people in her town. To investigate, she selects <span class=\"tex2jax_process\">$90$</span> adults that she meets in the town library, explains that she is doing a statistical study, and asks them to describe their marital status. Of those she surveyed, <span class=\"tex2jax_process\">$50$</span> said they were married, <span class=\"tex2jax_process\">$21$</span> said they were never married, <span class=\"tex2jax_process\">$14$</span> said they were divorced, <span class=\"tex2jax_process\">$3$</span> said they were widowed, and <span class=\"tex2jax_process\">$2$</span> said they were separated.  </div><div class=\"paragraph\">Tabitha realizes that people who are at the library may in some ways be similar, but she is willing to accept that her sample was randomly selected. Also, she has already determined that all other conditions for performing her hypothesis test have been satisfied.  </div><div class=\"paragraph\">What <span class=\"tex2jax_process\">$p$</span>-value will Tabitha obtain from her test?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.125"
+    },
+    {
+      "letter": "B",
+      "text": "0.219"
+    },
+    {
+      "letter": "C",
+      "text": "0.332"
+    },
+    {
+      "letter": "D",
+      "text": "0.453"
+    },
+    {
+      "letter": "E",
+      "text": "A value that is nearly equal to\n1\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.H",
+    "3.A",
+    "VAR-8",
+    "VAR-8.H.1"
+  ],
+  "standards": [
+    "VAR-8.H",
+    "3.A",
+    "VAR-8",
+    "VAR-8.H.1"
+  ]
+}

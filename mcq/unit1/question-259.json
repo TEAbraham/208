@@ -1,0 +1,46 @@
+{
+  "question_id": "question-259",
+  "title": "Running a 5K: Connecting $z$-Score and Probability",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Recently, Marco participated in a 5K race involving more than <span class=\"tex2jax_process\">$1{,}000\\text{ runners}$</span>. Finishing times for the race were approximately normally distributed, and Marco's <span class=\"tex2jax_process\">$z$</span>-score for his time to complete the race was <span class=\"tex2jax_process\">$-0.33$</span>.  </div><div class=\"paragraph\">Approximately what percent of the runners in this race did Marco finish before?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "33.00\n%"
+    },
+    {
+      "letter": "B",
+      "text": "33.33\n%"
+    },
+    {
+      "letter": "C",
+      "text": "37.07\n%"
+    },
+    {
+      "letter": "D",
+      "text": "62.93\n%"
+    },
+    {
+      "letter": "E",
+      "text": "66.67\n%"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2",
+    "VAR-2.B.3"
+  ],
+  "standards": [
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2",
+    "VAR-2.B.3"
+  ]
+}

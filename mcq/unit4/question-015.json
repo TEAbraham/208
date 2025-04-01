@@ -1,0 +1,44 @@
+{
+  "question_id": "question-015",
+  "title": "Time for a Hit?",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A baseball player who has a lifetime batting average of <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-8148-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>0.333</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-36990\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-36991\" class=\"mjx-mrow\"><span id=\"MJXc-Node-36992\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">0.333</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0.333</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-8148\">0.333</script></span> (meaning he gets a hit in <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-8149-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>33.3</mn><mi mathvariant=&quot;normal&quot;>&amp;#x0025;</mi></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-36993\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-36994\" class=\"mjx-mrow\"><span id=\"MJXc-Node-36995\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">33.3</span></span><span id=\"MJXc-Node-36996\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.441em; padding-bottom: 0.387em;\">%</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>33.3</mn><mi mathvariant=\"normal\">%</mi></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-8149\">33.3\\%</script></span> of his at-bats) has not had a hit in his last <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-8150-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>6</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-36997\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-36998\" class=\"mjx-mrow\"><span id=\"MJXc-Node-36999\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">6</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-8150\">6</script></span> at-bats.  Your friend says that he is definitely due for a hit in his next at-bat.  Is this true according to what concept of probability theory?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes. The Law of Large Numbers."
+    },
+    {
+      "letter": "B",
+      "text": "Yes. The Law of Averages."
+    },
+    {
+      "letter": "C",
+      "text": "Yes. A Random Event."
+    },
+    {
+      "letter": "D",
+      "text": "No. The Law of Large Numbers."
+    },
+    {
+      "letter": "E",
+      "text": "No. The Law of Averages."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "3.A",
+    "UNC-2.A",
+    "UNC-2.A.6",
+    "UNC-2"
+  ],
+  "standards": [
+    "3.A",
+    "UNC-2.A",
+    "UNC-2.A.6",
+    "UNC-2"
+  ]
+}

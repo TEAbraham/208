@@ -1,0 +1,46 @@
+{
+  "question_id": "question-090",
+  "title": "Probability of First Win: Dice",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Suppose two fair dice are rolled.  </div><div class=\"paragraph\">If both dice show the same number (called a \"double\"), the player wins <span class=\"tex2jax_process\">$\\$10$</span>. If they do not, the player loses <span class=\"tex2jax_process\">$\\$2$</span>.  </div><div class=\"paragraph\">If a player plays this game once every day for one week, what is the probability she gets her first \"double\" on or before the seventh day of the week?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.166"
+    },
+    {
+      "letter": "B",
+      "text": "0.721"
+    },
+    {
+      "letter": "C",
+      "text": "0.0558"
+    },
+    {
+      "letter": "D",
+      "text": "0"
+    },
+    {
+      "letter": "E",
+      "text": "0.9929"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ],
+  "standards": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ]
+}

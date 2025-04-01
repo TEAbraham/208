@@ -1,0 +1,53 @@
+{
+  "question_id": "question-059",
+  "title": "Test Scores",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Mr. Johnson is teaching his class about stemplots. He decides to take the latest test scores (in percents) and plot the data in a stemplot to show his class. He purposely makes a mistake on his graph. </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div>\n<div class=\"paragraph\">What mistake did Mr. Johnson make?</div>",
+  "image_files": [
+    "images/question-059-img1.png"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "He should've omitted\n7\nas a stem because there were no\n70\ns."
+    },
+    {
+      "letter": "B",
+      "text": "He should have split the stems to better show the shape."
+    },
+    {
+      "letter": "C",
+      "text": "Mr. Johnson should have made a histogram instead of a stemplot."
+    },
+    {
+      "letter": "D",
+      "text": "He did not provide a key for his data."
+    },
+    {
+      "letter": "E",
+      "text": "He should not have included\n10\nas a stem because all stems need to be the same amount of digits."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer. ",
+  "solution": "The test scores are compiled in a <strong>stemplot</strong>, or <strong>stem and leaf plot</strong>. In a stemplot, each data value is split into a \"stem\" (the first digit or digits), and a \"leaf\" (usually the last digit). \n\nIn our stemplot, the data is correctly split into stems and leaves. The mistake Mr. Johnson made, was not having a key to display what the data represents. It is very important to include a key at the bottom of your graph (for example, <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-854-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>5</mn><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mo stretchy=&quot;false&quot;>|</mo></mrow><mn>7</mn><mo>=</mo><mn>57</mn><mi mathvariant=&quot;normal&quot;>&amp;#x0025;</mi></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-3811\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-3812\" class=\"mjx-mrow\"><span id=\"MJXc-Node-3813\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">5</span></span><span id=\"MJXc-Node-3814\" class=\"mjx-texatom\"><span id=\"MJXc-Node-3815\" class=\"mjx-mrow\"><span id=\"MJXc-Node-3816\" class=\"mjx-mo\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.441em; padding-bottom: 0.606em;\">|</span></span></span></span><span id=\"MJXc-Node-3817\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">7</span></span><span id=\"MJXc-Node-3818\" class=\"mjx-mo MJXc-space3\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.058em; padding-bottom: 0.332em;\">=</span></span><span id=\"MJXc-Node-3819\" class=\"mjx-mn MJXc-space3\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">57</span></span><span id=\"MJXc-Node-3820\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.441em; padding-bottom: 0.387em;\">%</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mrow class=\"MJX-TeXAtom-ORD\"><mo stretchy=\"false\">|</mo></mrow><mn>7</mn><mo>=</mo><mn>57</mn><mi mathvariant=\"normal\">%</mi></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-854\">5 | 7 =  57\\%</script></span>) to show what the data inside the graph means. \n\n<strong>Choice 'D'</strong> is correct. ",
+  "distractor_explanations": {
+    "A": "<strong>Choice 'A'</strong> is incorrect.  Even though there were no scores in the <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-855-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>70</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-3821\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-3822\" class=\"mjx-mrow\"><span id=\"MJXc-Node-3823\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">70</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>70</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-855\">70</script></span>s, Mr. Johnson correctly included this stem to show the gap between the values. ",
+    "B": "<strong>Choice 'B'</strong> is incorrect.  The amount of leaves did not warrant Mr. Johnson to split the stems. We split stems when one stem, or multiple stems, have a long stretch of leaves that affect the shape of the graph. ",
+    "C": "<strong>Choice 'C'</strong> is incorrect. Since the data is quantitative, Mr. Johnson is able to make a stemplot or a hisogram. He chose a stemplot. ",
+    "E": "<strong>Choice 'E'</strong> is incorrect. Although most scores only have a single-digit stem, Mr. Johnson correct used <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-856-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>10</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-3824\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-3825\" class=\"mjx-mrow\"><span id=\"MJXc-Node-3826\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">10</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-856\">10</script></span> as the stem for <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-857-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>100</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-3827\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-3828\" class=\"mjx-mrow\"><span id=\"MJXc-Node-3829\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">100</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-857\">100</script></span> because it is all the digits except the last one."
+  },
+  "tags": [
+    "UNC-1.G.2",
+    "2.A",
+    "2.B",
+    "UNC-1.G",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.G.2",
+    "2.A",
+    "2.B",
+    "UNC-1.G",
+    "UNC-1"
+  ]
+}

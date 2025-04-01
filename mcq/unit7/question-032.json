@@ -1,0 +1,46 @@
+{
+  "question_id": "question-032",
+  "title": "Music Store",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A music store owner was curious about the number of customers his store gets per day.  </div><div class=\"paragraph\">He samples the next <span class=\"tex2jax_process\">$25\\text{ days}$</span> and finds an average of <span class=\"tex2jax_process\">$65.5$</span> customers with a standard deviation of <span class=\"tex2jax_process\">$11.3$</span> customers.  </div><div class=\"paragraph\">Assuming these <span class=\"tex2jax_process\">$25\\text{ days}$</span> represent a random sample of all days, a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for this data would be</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "11.3\n±\n1.96\n⋅\n(\n65.5\n25\n)"
+    },
+    {
+      "letter": "B",
+      "text": "65.5\n±\n1.96\n⋅\n(\n11.3\n25\n)"
+    },
+    {
+      "letter": "C",
+      "text": "65.5\n±\n1.96\n⋅\n(\n11.3\n5\n)"
+    },
+    {
+      "letter": "D",
+      "text": "65.5\n±\n2.064\n⋅\n(\n11.3\n5\n)"
+    },
+    {
+      "letter": "E",
+      "text": "65.5\n±\n2.06\n⋅\n(\n11.3\n5\n)"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "3.D",
+    "UNC-4",
+    "UNC-4.R",
+    "UNC-4.R.2",
+    "UNC-4.R.1"
+  ],
+  "standards": [
+    "3.D",
+    "UNC-4",
+    "UNC-4.R",
+    "UNC-4.R.2",
+    "UNC-4.R.1"
+  ]
+}

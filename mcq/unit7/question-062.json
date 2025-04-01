@@ -1,0 +1,46 @@
+{
+  "question_id": "question-062",
+  "title": "$z$ vs. $t$ Distribution",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Which of the following statements is true concerning significance tests for a population mean?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Tests for a population mean always use the\nz\n-distribution."
+    },
+    {
+      "letter": "B",
+      "text": "Tests for a population mean always use the\nt\n-distribution."
+    },
+    {
+      "letter": "C",
+      "text": "When testing for a population mean we use the\nz\n-distribution if we know the population standard deviation."
+    },
+    {
+      "letter": "D",
+      "text": "When testing for a population mean we use the\nt\n-distribution if we know the population standard deviation."
+    },
+    {
+      "letter": "E",
+      "text": "When testing for a population mean, we should always complete the procedure using both a\nz\n-distribution and a\nt\n-distribution and then average the resulting\np\n-values."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-3.E",
+    "VAR-7.E",
+    "VAR-7.E.1",
+    "VAR-7",
+    "3.E"
+  ],
+  "standards": [
+    "DAT-3.E",
+    "VAR-7.E",
+    "VAR-7.E.1",
+    "VAR-7",
+    "3.E"
+  ]
+}

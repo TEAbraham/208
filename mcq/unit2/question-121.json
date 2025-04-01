@@ -1,0 +1,44 @@
+{
+  "question_id": "question-121",
+  "title": "Modeling Data: Profits",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Which equation would be the best to model the following data?\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Year</th><th scope=\"col\">Profits (<span>$</span> Millions)</th></tr></thead><tbody><tr><td>1</td><td>2</td></tr><tr><td>2</td><td>2.2</td></tr><tr><td>3</td><td>2.5</td></tr><tr><td>4</td><td>3</td></tr><tr><td>5</td><td>3.8</td></tr><tr><td>6</td><td>6</td></tr><tr><td>7</td><td>6.5</td></tr><tr><td>8</td><td>8</td></tr><tr><td>9</td><td>10</td></tr><tr><td>10</td><td>13</td></tr></tbody></table></div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Profits\n=\n0.09\n(Year)\n+\n0.15"
+    },
+    {
+      "letter": "B",
+      "text": "log\n(Profits)\n=\n0.09\nlog\n(Year)\n−\n0.15"
+    },
+    {
+      "letter": "C",
+      "text": "log\n(Profits)\n=\n0.09\n(Year)\n+\n0.15"
+    },
+    {
+      "letter": "D",
+      "text": "Profits\n=\n1.2\n(Year)\n−\n0.76"
+    },
+    {
+      "letter": "E",
+      "text": "log\n(Profits)\n=\n1.2\n(Year)\n−\n0.76"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "2.C",
+    "DAT-1",
+    "DAT-1.J",
+    "DAT-1.J.1"
+  ],
+  "standards": [
+    "2.C",
+    "DAT-1",
+    "DAT-1.J",
+    "DAT-1.J.1"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-035",
+  "title": "Meaning of a Confidence Level for Proportions: Town Budget",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A random sample of <span class=\"tex2jax_process\">$100$</span> citizens in a town were asked: \"Would you approve the budget proposal?\". A <span class=\"tex2jax_process\">$90\\%$</span> confidence interval was constructed for the proportion of citizens who would approve the budget and yielded a result of <span class=\"tex2jax_process\">$(0.567, 0.634)$</span>.  </div><div class=\"paragraph\">Which of the following statements is correct?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "About\n90\n%\nof all random samples of\n100\ncitizens from this town would result in a\n90\n%\nconfidence interval of\n(\n0.567\n,\n0.634\n)\n."
+    },
+    {
+      "letter": "B",
+      "text": "90\n%\nof citizens in the survey reported that they had a\n56.7\n%\nto\n63.4\n%\nchance of approving the budget."
+    },
+    {
+      "letter": "C",
+      "text": "90\n%\nof all possible samples of\n100\ncitizens will contain the interval\n(\n0.567\n,\n0.634\n)\n."
+    },
+    {
+      "letter": "D",
+      "text": "About\n90\n%\nof all random samples of\n100\ncitizens from the town would result in a confidence interval that captures the population proportion of citizens who approve the budget."
+    },
+    {
+      "letter": "E",
+      "text": "90\n%\nof the time the interval from\n(\n0.567\n,\n0.634\n)\nwill contain the population proportion of citizens who would approve the budget."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.G",
+    "4.D",
+    "UNC-4.G.1",
+    "UNC-4"
+  ],
+  "standards": [
+    "UNC-4.G",
+    "4.D",
+    "UNC-4.G.1",
+    "UNC-4"
+  ]
+}

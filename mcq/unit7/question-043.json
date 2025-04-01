@@ -1,0 +1,48 @@
+{
+  "question_id": "question-043",
+  "title": "Confidence Level and $2$-sided Significance Testing",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A one sample <span class=\"tex2jax_process\">$t$</span>-test for was used to conduct a test of the null hypotheses:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$${ H }_{ 0 }:\\mu =23.7$$</div><br><div class=\"tex2jax_process\">$${ H }_{ a }:\\mu \\neq 23.7$$</div>  </div><div class=\"paragraph\">The <span class=\"tex2jax_process\">$p$</span>-value was <span class=\"tex2jax_process\">$0.034$</span>. A confidence interval for *<span class=\"tex2jax_process\">$\\mu$</span> * is to be constructed.  </div><div class=\"paragraph\">Of the following, which is the largest level of confidence for which the confidence interval will <em>NOT</em> contain <span class=\"tex2jax_process\">$23.7$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "90\n%"
+    },
+    {
+      "letter": "B",
+      "text": "95\n%"
+    },
+    {
+      "letter": "C",
+      "text": "96\n%"
+    },
+    {
+      "letter": "D",
+      "text": "97\n%"
+    },
+    {
+      "letter": "E",
+      "text": "99\n%"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-4.S",
+    "UNC-4.S.3",
+    "UNC-4.S.2",
+    "UNC-4.S.1",
+    "UNC-4"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-4.S",
+    "UNC-4.S.3",
+    "UNC-4.S.2",
+    "UNC-4.S.1",
+    "UNC-4"
+  ]
+}

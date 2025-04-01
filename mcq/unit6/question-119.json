@@ -1,0 +1,44 @@
+{
+  "question_id": "question-119",
+  "title": "Two-Proportion Z-Interval: Conditions",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A high school athletic director was interested whether high school males are more likely to compete in sports than high school females are.  </div><div class=\"paragraph\">He randomly sampled <span class=\"tex2jax_process\">$200$</span> high school males across the country and found that <span class=\"tex2jax_process\">$82$</span> of them participated in at least one high school sport at some point during the year. This compares to <span class=\"tex2jax_process\">$68$</span> out of <span class=\"tex2jax_process\">$200$</span> randomly sampled high school females who participated in at least one sport during the year.  </div><div class=\"paragraph\">Suppose the athletic director wanted to perform a two-proportion <span class=\"tex2jax_process\">$Z$</span>-interval.  </div><div class=\"paragraph\">In addition to needing two independent random samples, another necessary condition is</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Sample sizes must be large, say at least\n30\neach."
+    },
+    {
+      "letter": "B",
+      "text": "Combined sample sizes must be large, say at least\n30\n."
+    },
+    {
+      "letter": "C",
+      "text": "200\n⋅\n(\n0.34\n)\nand\n200\n⋅\n(\n0.41\n)\nmust both be at least\n5\n, as well as\n200\n⋅\n(\n0.66\n)\nand\n200\n⋅\n(\n0.59\n)\n."
+    },
+    {
+      "letter": "D",
+      "text": "200\n⋅\n(\n0.5\n)\nmust be at least\n5\n."
+    },
+    {
+      "letter": "E",
+      "text": "The parent population must be roughly normal."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.C",
+    "VAR-6.J",
+    "VAR-6.J.1",
+    "VAR-6"
+  ],
+  "standards": [
+    "4.C",
+    "VAR-6.J",
+    "VAR-6.J.1",
+    "VAR-6"
+  ]
+}

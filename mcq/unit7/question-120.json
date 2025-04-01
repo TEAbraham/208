@@ -1,0 +1,49 @@
+{
+  "question_id": "question-120",
+  "title": "Significance Test: U.S. Versus China",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A randomized experiment was performed to determine whether the average miles per gallon of cars manufactured in the U.S.A. is different than the average miles per gallon of cars manufactured in China.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">U.S.A. Manufactured Cars</th><th scope=\"col\">China Manufactured Cars</th></tr></thead><tbody><tr><td>Average</td><td><span class=\"tex2jax_process\">$21.435$</span></td><td><span class=\"tex2jax_process\">$25.578$</span></td></tr><tr><td>Standard Deviation</td><td><span class=\"tex2jax_process\">$6.635$</span></td><td><span class=\"tex2jax_process\">$7.413$</span></td></tr><tr><td>Number of cars</td><td><span class=\"tex2jax_process\">$200$</span></td><td><span class=\"tex2jax_process\">$85$</span></td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Which of the following best describes the conclusion that can be drawn?</div>",
+  "image_files": [
+    "images/question-120-img1.PNG",
+    "images/question-120-img2.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There is evidence of a statistically significant difference in the average miles per gallon of cars manufactured in the U.S.A. compared to the average miles per gallon of cars manufactured in China since\np\n<\n0.01\n."
+    },
+    {
+      "letter": "B",
+      "text": "There is no evidence of a statistically significant difference in the average miles per gallon of cars manufactured in the U.S.A. compared to the average miles per gallon of cars manufactured in China since\np\n<\n0.01\n."
+    },
+    {
+      "letter": "C",
+      "text": "There is evidence of a statistically significant difference in the average miles per gallon of cars manufactured in the U.S.A. compared to the average miles per gallon of cars manufactured in China since\n0.01\n<\np\n<\n0.05\n."
+    },
+    {
+      "letter": "D",
+      "text": "There is no evidence of a statistically significant difference in the average miles per gallon of cars manufactured in the U.S.A. compared to the average miles per gallon of cars manufactured in China since\n0.01\n<\np\n<\n0.05\n."
+    },
+    {
+      "letter": "E",
+      "text": "There is no evidence of a statistically significant difference in the average miles per gallon of cars manufactured in the U.S.A. compared to the average miles per gallon of cars manufactured in China since\np\n>\n0.05\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "1.F",
+    "VAR-7",
+    "1.E",
+    "VAR-7.F",
+    "VAR-7.F.1"
+  ],
+  "standards": [
+    "1.F",
+    "VAR-7",
+    "1.E",
+    "VAR-7.F",
+    "VAR-7.F.1"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-095",
+  "title": "Conditions for Two Categorical Variables",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">To celebrate her school's <span class=\"tex2jax_process\">$50\\text{th}$</span> anniversary, the principal is ordering school-colored t-shirts for all the students at her school.  Students will order a t-shirt, selecting a color (red or blue) and a size (small, medium, or large).  Here is the distribution of t-shirt orders for a random sample of <span class=\"tex2jax_process\">$178$</span> of the school's students:</div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">red</th><th scope=\"col\">blue</th><th scope=\"col\">total</th></tr></thead><tbody><tr><td>small</td><td><span class=\"tex2jax_process\">$31$</span></td><td><span class=\"tex2jax_process\">$22$</span></td><td><span class=\"tex2jax_process\">$53$</span></td></tr><tr><td>medium</td><td><span class=\"tex2jax_process\">$21$</span></td><td><span class=\"tex2jax_process\">$16$</span></td><td><span class=\"tex2jax_process\">$37$</span></td></tr><tr><td>large</td><td><span class=\"tex2jax_process\">$50$</span></td><td><span class=\"tex2jax_process\">$38$</span></td><td><span class=\"tex2jax_process\">$88$</span></td></tr><tr><td>total</td><td><span class=\"tex2jax_process\">$102$</span></td><td><span class=\"tex2jax_process\">$76$</span></td><td><span class=\"tex2jax_process\">$178$</span></td></tr></tbody></table></div><div class=\"paragraph\">The principal wants to test the claim <em>Ho: Shirt Color and Size are independent</em>.  To do so, which of the following conditions must be met before the principal can use a <span class=\"tex2jax_process\">$\\chi^2$</span> procedure in this situation?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The number of categories of shirt size must be large relative to the number of categories of t-shirt color."
+    },
+    {
+      "letter": "B",
+      "text": "Every student in the school must order a t-shirt; this way, the principal will have a completed order."
+    },
+    {
+      "letter": "C",
+      "text": "All expected counts must be at least\n5\n."
+    },
+    {
+      "letter": "D",
+      "text": "The distribution of shirt sizes must be approximately Normal."
+    },
+    {
+      "letter": "E",
+      "text": "All observed counts must be greater than\n5\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice ‘C’</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.C",
+    "VAR-8",
+    "VAR-8.K",
+    "VAR-8.K.1"
+  ],
+  "standards": [
+    "4.C",
+    "VAR-8",
+    "VAR-8.K",
+    "VAR-8.K.1"
+  ]
+}

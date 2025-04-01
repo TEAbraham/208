@@ -1,0 +1,46 @@
+{
+  "question_id": "question-117",
+  "title": "Weight and Height LSRL",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A researcher wanted to investigate the potential relationship between subjects’ weight and height.  </div><div class=\"paragraph\">After measuring <span class=\"tex2jax_process\">$15\\text{ individuals}$</span>, the researcher found heights average <span class=\"tex2jax_process\">$68\\text{ inches}$</span> with a standard deviation of <span class=\"tex2jax_process\">$3.4\\text{ inches}$</span>. Weights averaged <span class=\"tex2jax_process\">$204\\text{ pounds}$</span> with a standard deviation of <span class=\"tex2jax_process\">$24.5\\text{ pounds}$</span>. The correlation coefficient was <span class=\"tex2jax_process\">$r = 0.76$</span>.  </div><div class=\"paragraph\">What is the equation of the least squares regression line?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Weight = 5.48(Height)\n−\n168.64"
+    },
+    {
+      "letter": "B",
+      "text": "Weight = 204(Height)\n−\n168.84"
+    },
+    {
+      "letter": "C",
+      "text": "Height = 5.48(Weight)\n−\n168.84"
+    },
+    {
+      "letter": "D",
+      "text": "Weight = 68(Height)\n+\n24.5"
+    },
+    {
+      "letter": "E",
+      "text": "Weight = 45(Height)\n−\n24.5"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-1.G.1",
+    "DAT-1.G.2",
+    "2.C",
+    "DAT-1",
+    "DAT-1.G"
+  ],
+  "standards": [
+    "DAT-1.G.1",
+    "DAT-1.G.2",
+    "2.C",
+    "DAT-1",
+    "DAT-1.G"
+  ]
+}

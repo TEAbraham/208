@@ -1,0 +1,44 @@
+{
+  "question_id": "question-098",
+  "title": "Interpret Slope: Square Footage and Cost of Houses",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A local real estate agent is interested in the relationship between the cost of a house (<span class=\"tex2jax_process\">$y$</span>) in dollars and its area (<span class=\"tex2jax_process\">$x$</span>) in square feet. She randomly selects <span class=\"tex2jax_process\">$50$</span> houses around town and computes the least squares regression line: <span class=\"tex2jax_process\">$\\hat { y } =136.89x+14578.91$</span>.  </div><div class=\"paragraph\">Which of the following is the correct interpretation of the slope of the least squares regression line?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "For each dollar increase, the estimated square footage of the house increases by\n136.89\n."
+    },
+    {
+      "letter": "B",
+      "text": "For each dollar increase, the estimated square footage of the house increases by\n14578.91\n."
+    },
+    {
+      "letter": "C",
+      "text": "For each additional square foot, the estimated cost of the house increases by\n$\n136.89\n."
+    },
+    {
+      "letter": "D",
+      "text": "For each additional square foot, the estimated cost of the house increases by\n$\n14578.91\n."
+    },
+    {
+      "letter": "E",
+      "text": "Since we are not given the\n50\ndata points, it is impossible to interpret the slope of the least squares regression line in this problem."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.H.2",
+    "DAT-1.H",
+    "DAT-1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-1.H.2",
+    "DAT-1.H",
+    "DAT-1"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-186",
+  "title": "Five Number Summary: Apps for Students and Teachers",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A statistician conducted a survey at her school about the number of apps on a person’s phone.  A five number summary displays the results.  </div><div class=\"paragraph\">Which of the following statements <strong>MUST</strong> be true?  </div><div class=\"paragraph\"><u>Number of Apps for Students and Teachers</u>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Number of Apps</th><th scope=\"col\">Min</th><th scope=\"col\">Q1</th><th scope=\"col\">Median</th><th scope=\"col\">Q3</th><th scope=\"col\">Max</th></tr></thead><tbody><tr><td>Students</td><td>0</td><td>4</td><td>19</td><td>24</td><td>51</td></tr><tr><td>Teachers</td><td>3</td><td>22</td><td>41</td><td>49</td><td>124</td></tr></tbody></table></div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The teachers have a higher standard deviation and a higher median."
+    },
+    {
+      "letter": "B",
+      "text": "The students have a higher variance and a higher range."
+    },
+    {
+      "letter": "C",
+      "text": "The teachers have a higher interquartile range and a higher median."
+    },
+    {
+      "letter": "D",
+      "text": "The teachers have a lower standard deviation and a higher median."
+    },
+    {
+      "letter": "E",
+      "text": "The students have a higher median and a higher mode."
+    }
+  ],
+  "correct_answer": "<strong>Choice ‘C’</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.O",
+    "2.D",
+    "UNC-1.O.1",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.O",
+    "2.D",
+    "UNC-1.O.1",
+    "UNC-1"
+  ]
+}

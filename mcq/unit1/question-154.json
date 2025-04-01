@@ -1,0 +1,52 @@
+{
+  "question_id": "question-154",
+  "title": "Discus Distances: Parallel Boxplots",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">At a state track &amp; field meet, <span class=\"tex2jax_process\">$100$</span> boys and <span class=\"tex2jax_process\">$100$</span> girls competed in the discus throw.  The parallel boxplots below show the distribution of the distances the discus was thrown by each competitor.  Note that these boxplots are regular boxplots, not modified boxplots.  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"paragraph\">All of the following statements can be justified by the boxplots EXCEPT:</div>",
+  "image_files": [
+    "images/question-154-img1.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "At least\n25\n%\nof the boys did better than all of the girls."
+    },
+    {
+      "letter": "B",
+      "text": "The IQR was smaller for the girls than for the boys."
+    },
+    {
+      "letter": "C",
+      "text": "The girls had at least one high outlier, but the boys had no high outliers."
+    },
+    {
+      "letter": "D",
+      "text": "Both distributions are skewed right."
+    },
+    {
+      "letter": "E",
+      "text": "The median for the boys was about\n50\n%\nhigher than the median for girls."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.L.1",
+    "UNC-1.M",
+    "UNC-1.M.1",
+    "UNC-1.L.2",
+    "2.B",
+    "UNC-1.L",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.L.1",
+    "UNC-1.M",
+    "UNC-1.M.1",
+    "UNC-1.L.2",
+    "2.B",
+    "UNC-1.L",
+    "UNC-1"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-017",
+  "title": "The Correct Condition",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">When creating a confidence interval for estimating the slope of a regression line, certain conditions must be met.  Four of the five listed conditions below are incorrect.  Which is the condition that is <strong>correct</strong>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Each cell count must be at least\n10\n."
+    },
+    {
+      "letter": "B",
+      "text": "Analysis of residuals may be used to verify linearity."
+    },
+    {
+      "letter": "C",
+      "text": "Analysis of residuals may be used to check for approximately equal standard deviations for all\ny\nvalues."
+    },
+    {
+      "letter": "D",
+      "text": "Check that the sample size is greater than or equal to\n10\n%\nof the population size."
+    },
+    {
+      "letter": "E",
+      "text": "The values of\nx\nare approximate normally distributed."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.C",
+    "UNC-4",
+    "UNC-4.AD.1",
+    "UNC-4.AD"
+  ],
+  "standards": [
+    "4.C",
+    "UNC-4",
+    "UNC-4.AD.1",
+    "UNC-4.AD"
+  ]
+}

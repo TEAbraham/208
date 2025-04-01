@@ -1,0 +1,46 @@
+{
+  "question_id": "question-065",
+  "title": "Stock Market Interpretation",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">An economist wishes to determine if a linear relationship exists between the returns of the S&amp;P 500 and the Dow Jones Industrial Average.  </div><div class=\"paragraph\">Both are common stock indices used to determine the overall health of the economy.  </div><div class=\"paragraph\">Suppose a linear regression T test on <span class=\"tex2jax_process\">${H}_{0}: B = 1$</span> vs. <span class=\"tex2jax_process\">$H_a: B ≠ 1$</span> gives a <span class=\"tex2jax_process\">$p$</span>-value of <span class=\"tex2jax_process\">$0.498$</span>.  </div><div class=\"paragraph\">The economist can conclude which of the following?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There is no evidence of a linear relationship between the S&P 500 and the Dow Jones Industrial Average."
+    },
+    {
+      "letter": "B",
+      "text": "Insufficient evidence exists of a direct linear relationship between returns of the S&P 500 and the Dow Jones Industrial Average."
+    },
+    {
+      "letter": "C",
+      "text": "There is strong evidence of a linear relationship between returns of the S&P 500 and the Dow Jones Industrial Average."
+    },
+    {
+      "letter": "D",
+      "text": "A year of positive gains for the Dow Jones Industrial Average has nothing to do with a year of positive gains for the S&P 500."
+    },
+    {
+      "letter": "E",
+      "text": "There is insufficient information to provide any reasonable conclusions."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.N.2",
+    "DAT-3",
+    "DAT-3.N",
+    "DAT-3.N.1"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3.N.2",
+    "DAT-3",
+    "DAT-3.N",
+    "DAT-3.N.1"
+  ]
+}

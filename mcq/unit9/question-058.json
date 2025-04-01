@@ -1,0 +1,46 @@
+{
+  "question_id": "question-058",
+  "title": "Tokens and Tickets at the Arcade: Degrees of Freedom",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Mikey wants to investigate if there is a relationship between the number of tokens he plays and the number of tickets that he earns toward prizes at the arcade.  </div><div class=\"paragraph\">On <span class=\"tex2jax_process\">$10$</span> different occasions, he recorded how many tokens he had played and how many tickets he had earned. After plotting the ordered pairs <span class=\"tex2jax_process\">$(x, y)$</span>, where <span class=\"tex2jax_process\">$x$</span> was the number of tokens and <span class=\"tex2jax_process\">$y$</span> was the number of tickets earned, he saw that the relationship was roughly linear.  </div><div class=\"paragraph\">In conducting a <span class=\"tex2jax_process\">$t$</span>-test for the slope of a the least-squares regression line, how many degrees of freedom should Mikey use?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "5"
+    },
+    {
+      "letter": "B",
+      "text": "8"
+    },
+    {
+      "letter": "C",
+      "text": "9"
+    },
+    {
+      "letter": "D",
+      "text": "10"
+    },
+    {
+      "letter": "E",
+      "text": "11"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.1",
+    "VAR-7.M.2"
+  ],
+  "standards": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.1",
+    "VAR-7.M.2"
+  ]
+}

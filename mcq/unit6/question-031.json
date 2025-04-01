@@ -1,0 +1,44 @@
+{
+  "question_id": "question-031",
+  "title": "Rotten Tomatoes",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">WellMart orders huge numbers of tomatoes to sell.  It decides to randomly sample a bunch of tomatoes and finds that <span class=\"tex2jax_process\">$0.16$</span> of them are rotten.  The manager declared that <span class=\"tex2jax_process\">$4$</span> times as many should have been sampled, and the same proportion of <span class=\"tex2jax_process\">$0.16$</span> were rotten.  How did the width of the confidence interval change, if at all, when the sample size increased by a factor of <span class=\"tex2jax_process\">$4$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "It decreased by one-half."
+    },
+    {
+      "letter": "B",
+      "text": "It decreased by one-fourth."
+    },
+    {
+      "letter": "C",
+      "text": "It stayed the same."
+    },
+    {
+      "letter": "D",
+      "text": "It increased by a factor of\n2\n."
+    },
+    {
+      "letter": "E",
+      "text": "It increased by a factor of\n4\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-4.H.1",
+    "UNC-4.H",
+    "UNC-4"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-4.H.1",
+    "UNC-4.H",
+    "UNC-4"
+  ]
+}

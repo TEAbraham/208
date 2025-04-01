@@ -1,0 +1,46 @@
+{
+  "question_id": "question-104",
+  "title": "Standard Deviation and Variance: Changing from KPH to MPH",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">In most European countries, speed is measured in kilometers per hour. If we were to convert the speed from kilometers per hour to miles per hour, we would have to divide the speed by <span class=\"tex2jax_process\">$1.61$</span>.  </div><div class=\"paragraph\">What would happen to the standard deviation and variance in that case?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Standard Deviation: Remains the same\nVariance: Remains the same"
+    },
+    {
+      "letter": "B",
+      "text": "Standard Deviation: Remains the same\nVariance: Divided by\n1.61"
+    },
+    {
+      "letter": "C",
+      "text": "Standard Deviation: Divided by\n1.61\n\nVariance: Remains the same"
+    },
+    {
+      "letter": "D",
+      "text": "Standard Deviation: Divided by\n1.61\n\nVariance: Divided by\n1.61"
+    },
+    {
+      "letter": "E",
+      "text": "Standard Deviation: Divided by\n1.61\n\nVariance: Divided by\n2.59"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "2.C",
+    "UNC-1.J.4",
+    "UNC-1.J",
+    "UNC-1.J.3",
+    "UNC-1"
+  ],
+  "standards": [
+    "2.C",
+    "UNC-1.J.4",
+    "UNC-1.J",
+    "UNC-1.J.3",
+    "UNC-1"
+  ]
+}

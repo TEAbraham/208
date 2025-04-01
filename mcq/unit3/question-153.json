@@ -1,0 +1,44 @@
+{
+  "question_id": "question-153",
+  "title": "High School Testing",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A professor wanted to know whether a prep course would increase students’ test scores.  </div><div class=\"paragraph\">Twelve subjects were randomly chosen to take the prep course, and they scored an average of <span class=\"tex2jax_process\">$20.3$</span> with a standard deviation of <span class=\"tex2jax_process\">$8.3\\text{ points}$</span>. Another <span class=\"tex2jax_process\">$12\\text{ subjects}$</span> were randomly chosen who were not allowed to take the test prep course, and they scored an average of <span class=\"tex2jax_process\">$18.3$</span> with a standard deviation of <span class=\"tex2jax_process\">$9.1\\text{ points}$</span>.  </div><div class=\"paragraph\">Despite these scores, why might the professor not be convinced that the course helps?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A difference of\n2\n points\non the test is not practically significant."
+    },
+    {
+      "letter": "B",
+      "text": "The variability is such that the higher scores achieved by the group who took the prep course could have been a result of chance."
+    },
+    {
+      "letter": "C",
+      "text": "Randomization was not properly used in this situation."
+    },
+    {
+      "letter": "D",
+      "text": "A control group was not properly used in this situation."
+    },
+    {
+      "letter": "E",
+      "text": "Bias was obvious in the measurement of the students’ test scores."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.E.3"
+  ],
+  "standards": [
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.E.3"
+  ]
+}

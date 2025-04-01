@@ -1,0 +1,46 @@
+{
+  "question_id": "question-032",
+  "title": "Calculator Troubles with Goodness of Fit",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Jovita was researching demographics online and found the following information about the distribution of races in her town.</div><blockquote><div class=\"paragraph\">White Non-Hispanic: <span class=\"tex2jax_process\">$81.5\\%$</span><br>Black: <span class=\"tex2jax_process\">$2.1\\%$</span><br>American Indian and Alaska Native: <span class=\"tex2jax_process\">$0.0\\%$</span><br>Asian: <span class=\"tex2jax_process\">$10.5\\%$</span><br>Native Hawaiian and Other Pacific Islander: <span class=\"tex2jax_process\">$0.0\\%$</span><br>Hispanic or Latino: <span class=\"tex2jax_process\">$4.8\\%$</span><br>Two or more races: <span class=\"tex2jax_process\">$1.0\\%$</span><br>Some other race: <span class=\"tex2jax_process\">$0.1\\%$</span>  </div></blockquote><div class=\"paragraph\">She wondered whether the information was correct and decided to investigate.  A  random sample of <span class=\"tex2jax_process\">$245$</span> residents in her town (population <span class=\"tex2jax_process\">$47,238$</span>)  provides the following counts for each category:</div><blockquote><div class=\"paragraph\">White Non-Hispanic: <span class=\"tex2jax_process\">$181$</span><br>Black: <span class=\"tex2jax_process\">$8$</span><br>American Indian and Alaska Native: <span class=\"tex2jax_process\">$5$</span><br>Asian: <span class=\"tex2jax_process\">$28$</span><br>Native Hawaiian and Other Pacific Islander: <span class=\"tex2jax_process\">$5$</span><br>Hispanic or Latino: <span class=\"tex2jax_process\">$14$</span><br>Two or more races: <span class=\"tex2jax_process\">$2$</span><br>Some other race: <span class=\"tex2jax_process\">$2$</span>​  </div></blockquote><div class=\"paragraph\">Jovita entered the actual counts into List <span class=\"tex2jax_process\">$1$</span> in her <span class=\"tex2jax_process\">$TI84$</span> calculator and entered the expected counts into List <span class=\"tex2jax_process\">$2$</span> after applying the appropriate percentages.  While she noticed that not all expected counts were above <span class=\"tex2jax_process\">$5$</span>, she remembered her AP Statistics teacher telling her that she should proceed cautiously with an appropriate test even if one of the conditions for performing the test was violated.  She then asked the calculator to perform a <span class=\"tex2jax_process\">${ \\chi  }^{ 2 }$</span> GOF Test but the calculator returned an error message.  </div><div class=\"paragraph\">What went wrong?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Jovita must have incorrectly entered one of the values into her calculator. This is the only possible explanation for the error message."
+    },
+    {
+      "letter": "B",
+      "text": "Jovita should have been using a different type of test. The calculator returned an error message because a Goodness of Fit Test is not appropriate."
+    },
+    {
+      "letter": "C",
+      "text": "The calculated\np\n-value would be greater than\n1\n. Since this is not possible, the calculator returned an error message."
+    },
+    {
+      "letter": "D",
+      "text": "The calculator was returning an error message because the\np\n-value was so incredibly close to\n0\nthat the calculator ran out of room to deal with the scientific notation."
+    },
+    {
+      "letter": "E",
+      "text": "The\nχ\n2\nstatistic cannot be calculated because two of the expected counts are\n0\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3",
+    "DAT-3.J",
+    "DAT-3.J.1",
+    "DAT-3.J.2"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3",
+    "DAT-3.J",
+    "DAT-3.J.1",
+    "DAT-3.J.2"
+  ]
+}

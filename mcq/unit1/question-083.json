@@ -1,0 +1,47 @@
+{
+  "question_id": "question-083",
+  "title": "London in July: Stemplots and Linear Transformations",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Victoria is planning a trip to London in July and has been wondering about what type of weather to expect.  To gather data, she went online to find the daily high temperatures for the previous July in London.  The data she found is displayed in the stemplot below.  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"paragraph\">London reports temperatures in degrees Celsius, but Victoria is accustomed to using Fahrenheit when talking about temperature.  She knows the conversion formula is:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$\\text{Fahrenheit Temperature} =32+\\left( \\dfrac { 9 }{ 5 }  \\right)\\text{Celsius Temperature}$$</div>  </div><div class=\"paragraph\">What was the median high temperature in London last July, reported in degrees Fahrenheit?</div>",
+  "image_files": [
+    "images/question-083-img1.PNG",
+    "images/question-083-img2.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "21\n∘\nF"
+    },
+    {
+      "letter": "B",
+      "text": "37.8\n∘\nF"
+    },
+    {
+      "letter": "C",
+      "text": "53\n∘\nF"
+    },
+    {
+      "letter": "D",
+      "text": "69.8\n∘\nF"
+    },
+    {
+      "letter": "E",
+      "text": "71.6\n∘\nF"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.I.3",
+    "2.C",
+    "UNC-1.I",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.I.3",
+    "2.C",
+    "UNC-1.I",
+    "UNC-1"
+  ]
+}

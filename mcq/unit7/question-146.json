@@ -1,0 +1,44 @@
+{
+  "question_id": "question-146",
+  "title": "East Coast vs. West Coast: Two Normal Distributions",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Nellie's Nachos is a fast food restaurant chain that has locations in many cities throughout the United States. In one Nellie's Nachos restaurant located on the west coast, the average number of customers served per day is <span class=\"tex2jax_process\">$330$</span> with a standard deviation of <span class=\"tex2jax_process\">$45$</span>. In one Nellie's Nachos restaurant located on the east coast, the average number of customers served per day is <span class=\"tex2jax_process\">$315$</span> with a standard deviation of <span class=\"tex2jax_process\">$60$</span>.  </div><div class=\"paragraph\">Assume the distribution of the number of customers served per day is approximately normal at both locations. Also assume that the number of customers served at one store is independent of the number of customers served at the other store.  </div><div class=\"paragraph\">What is the probability that on one randomly selected day, the number of customers served in the east coast location is greater than the number of customers served in the west coast location?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.1587"
+    },
+    {
+      "letter": "B",
+      "text": "0.3527"
+    },
+    {
+      "letter": "C",
+      "text": "0.4207"
+    },
+    {
+      "letter": "D",
+      "text": "0.5"
+    },
+    {
+      "letter": "E",
+      "text": "0.5793"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7.I",
+    "VAR-7.I.1",
+    "VAR-7",
+    "3.E"
+  ],
+  "standards": [
+    "VAR-7.I",
+    "VAR-7.I.1",
+    "VAR-7",
+    "3.E"
+  ]
+}

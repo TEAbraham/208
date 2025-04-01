@@ -1,0 +1,44 @@
+{
+  "question_id": "question-057",
+  "title": "Sampling the Amount of Homework",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Ms. Jones, an AP Statistics teacher, wonders whether she is giving too much homework. She asks all of her students if the level of homework is</div><blockquote><div class=\"paragraph\">a.) about right.<br>b.) too high.<br>c.) too low.  </div></blockquote><div class=\"paragraph\">How would one best describe this collection of data?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "An experiment that is double-blind."
+    },
+    {
+      "letter": "B",
+      "text": "An experiment that is not double-blind."
+    },
+    {
+      "letter": "C",
+      "text": "An observational study."
+    },
+    {
+      "letter": "D",
+      "text": "A census."
+    },
+    {
+      "letter": "E",
+      "text": "A sample, but not a random sample."
+    }
+  ],
+  "correct_answer": "The population in this case consists solely of Ms. Jones’s AP Statistics students, and since she attempts to contact the entire population (all of her students), this is a census.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-2",
+    "1.C",
+    "DAT-2.C.6",
+    "DAT-2.C"
+  ],
+  "standards": [
+    "DAT-2",
+    "1.C",
+    "DAT-2.C.6",
+    "DAT-2.C"
+  ]
+}

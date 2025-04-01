@@ -1,0 +1,54 @@
+{
+  "question_id": "question-148",
+  "title": "Trivia: Standard Deviation of a Linear Transformation",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Alex likes to play Trivia Triumph, an online trivia game.  In this game, trivia questions are presented and players have up to <span class=\"tex2jax_process\">$30$</span> seconds to select an answer from a list of <span class=\"tex2jax_process\">$5$</span> choices.  Each question starts at a point value of <span class=\"tex2jax_process\">$300$</span> points, but <span class=\"tex2jax_process\">$10$</span> points are deducted for each second it takes the player to answer the question.  Therefore, the number of points, <span class=\"tex2jax_process\">$P$</span>, that a player earns on a single question can be described by the following equation    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$P=300-10S$$</div>  </div><div class=\"paragraph\">... where <span class=\"tex2jax_process\">$S$</span> represents the number of seconds it takes the player to select an answer.  </div><div class=\"paragraph\">Whether he knows the answer to a question or not, Alex tends to answer in about the same amount of time.  His online statistics shows that the mean amount of time it takes him to answer a question, <span class=\"tex2jax_process\">${\\mu}_{S}$</span> is <span class=\"tex2jax_process\">$13.4$</span> seconds with a variance of <span class=\"tex2jax_process\">$5.29$</span> seconds.  </div><div class=\"paragraph\">What is the standard deviation of the number of points Alex earns when he gets a question correct?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "−\n52.9"
+    },
+    {
+      "letter": "B",
+      "text": "23"
+    },
+    {
+      "letter": "C",
+      "text": "52.9"
+    },
+    {
+      "letter": "D",
+      "text": "323"
+    },
+    {
+      "letter": "E",
+      "text": "529"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5.F.1",
+    "VAR-5.F",
+    "VAR-5.E.3",
+    "VAR-5",
+    "3.C",
+    "3.B",
+    "VAR-5.E.1"
+  ],
+  "standards": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5.F.1",
+    "VAR-5.F",
+    "VAR-5.E.3",
+    "VAR-5",
+    "3.C",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

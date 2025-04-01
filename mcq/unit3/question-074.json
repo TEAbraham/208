@@ -1,0 +1,44 @@
+{
+  "question_id": "question-074",
+  "title": "Cucumber Bubble Gum",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A bubble gum company would like to predict how well its new cucumber flavored bubble gum will sell.  The company takes a sample by sending a team of surveyors to a randomly chosen veggie juice bar for a day.  As the <span class=\"tex2jax_process\">$72\\text{ customers}$</span> of the day leave the juice bar, the surveyors give them a sample of the cucumber bubble gum and ask them if they like it enough to pay <span class=\"tex2jax_process\">$\\$3.00$</span> for a pack of <span class=\"tex2jax_process\">$5\\text{ pieces}$</span>.  </div><div class=\"paragraph\">The bubble gum is unwrapped so the subjects can't tell which brand of bubble gum they are tasting.  At the end of the day, the surveyors will use the responses from the sample to estimate the proportion of all customers who would answer 'Yes'.  </div><div class=\"paragraph\">What is the main flaw in this sampling method?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There is no flaw in this sampling method."
+    },
+    {
+      "letter": "B",
+      "text": "The sample size will not be large enough to satisfy the conditions for inference."
+    },
+    {
+      "letter": "C",
+      "text": "This is a convenience sample that is biased towards those who like vegetables. The estimated proportion of people who answer 'Yes' is likely to be too high."
+    },
+    {
+      "letter": "D",
+      "text": "There will be response bias. Since the brand of bubble gum is unknown to the subjects, the estimated proportion of people who answer 'Yes' is likely to be too low."
+    },
+    {
+      "letter": "E",
+      "text": "There will be non-response bias. Since the subjects aren't being paid for their time, fewer people who would have answered 'Yes' will be included in the sample. The estimated proportion is likely to be too low."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-2",
+    "1.C",
+    "DAT-2.E",
+    "DAT-2.E.6"
+  ],
+  "standards": [
+    "DAT-2",
+    "1.C",
+    "DAT-2.E",
+    "DAT-2.E.6"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-005",
+  "title": "The Tongue Roll",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">While it is fairly common for people to be able to roll their tongue upwards (<span class=\"tex2jax_process\">$70\\%$</span>!), Caleb read once in a genetics book that only <span class=\"tex2jax_process\">$1$</span> in <span class=\"tex2jax_process\">$1000$</span> people can roll their tongue downwards.  For a  statistics project, Caleb decided to randomly sample <span class=\"tex2jax_process\">$400$</span> of his fellow students and found <span class=\"tex2jax_process\">$2$</span> of them who could do it.  What is Caleb's most accurate conclusion?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "This result seems odd and not random. Caleb should do his project again and choose another\n400\nrandom people."
+    },
+    {
+      "letter": "B",
+      "text": "Caleb thinks that there may simply be two students in the school with a mutation."
+    },
+    {
+      "letter": "C",
+      "text": "Finding\n2\nout of\n400\nis a rate of\n0.005\nwhich is much higher than the expected 0.001. Therefore Caleb can conclude that the genetics book must be wrong and that the rate of those able to roll their tongue downwards is actually\n0.005\n."
+    },
+    {
+      "letter": "D",
+      "text": "Finding\n2\nout of\n400\nis a rate of\n0.005\nwhich is much higher than the expected\n0.001\n. Therefore Caleb can conclude that the genetics book must be wrong and that the rate of those able to roll their tongue downwards is definitely higher than\n0.001\n."
+    },
+    {
+      "letter": "E",
+      "text": "Though finding\n2\nout of\n400\nwas a higher percentage than expected, Caleb can still maintain that the original claim is true and I believe that this is simply a result of random variation."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-1.F",
+    "VAR-1.F.1",
+    "1.A",
+    "VAR-1"
+  ],
+  "standards": [
+    "VAR-1.F",
+    "VAR-1.F.1",
+    "1.A",
+    "VAR-1"
+  ]
+}

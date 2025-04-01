@@ -1,0 +1,46 @@
+{
+  "question_id": "question-023",
+  "title": "Optimum Birth Month for NFL Hall of Fame Player?",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A very enthusiastic football fan wonders if there is a birth month that will give her baby the best chances of making it into the Pro Football Hall of Fame. To investigate, she conducts a hypothesis test to see if the distribution of birth months of players in the Hall of Fame is uniform across all <span class=\"tex2jax_process\">$12\\text{ months}$</span> of the year.  </div><div class=\"paragraph\">Which distribution should she use in her analysis?  Why?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The\nz\n-distribution should be used because the hypothesis test is being written for a proportion."
+    },
+    {
+      "letter": "B",
+      "text": "The\nz\n-distribution should be used because the hypothesis test is being written to compare twelve categories."
+    },
+    {
+      "letter": "C",
+      "text": "The\nt\n-distribution should be used because the hypothesis test is being written to compare twelve categories."
+    },
+    {
+      "letter": "D",
+      "text": "The chi-square distribution should be used because the hypothesis test is being written for a proportion."
+    },
+    {
+      "letter": "E",
+      "text": "The chi-square distribution should be used because the hypothesis test is being written to compare twelve categories."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3",
+    "DAT-3.J",
+    "DAT-3.J.1",
+    "DAT-3.J.2"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3",
+    "DAT-3.J",
+    "DAT-3.J.1",
+    "DAT-3.J.2"
+  ]
+}

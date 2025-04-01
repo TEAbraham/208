@@ -1,0 +1,44 @@
+{
+  "question_id": "question-011",
+  "title": "Fizzy Cola and Carbalicious",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Two soda companies are running a prize giveaway.  Fizzy Cola has placed winning messages under <span class=\"tex2jax_process\">$12\\%$</span> of its bottle caps.  Carbalicious has placed winning messages under <span class=\"tex2jax_process\">$20\\%$</span> of its bottle caps.  A random sample of <span class=\"tex2jax_process\">$60$</span> Fizzy Cola bottles will be chosen and the proportion of winning bottle caps will be calculated.  The same will be done for <span class=\"tex2jax_process\">$55$</span> randomly chosen bottles of Carbalicious.  The difference between these proportions will then be calculated.  </div><div class=\"paragraph\">What can be said about the sampling distribution of the difference in proportions of winning caps for the two sodas?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "It will be nearly normal because the condition: (\nn\nC\n)\n(\np\nC\n)\n=\n(\n55\n)\n(\n0.2\n)\n=\n11.0\n≥\n10\n(\nn\nC\n)\n(\n1\n−\np\nC\n)\n=\n(\n55\n)\n(\n0.8\n)\n=\n44.0\n≥\n10 is met for the sampling distribution of the Carbalicious winning proportion."
+    },
+    {
+      "letter": "B",
+      "text": "It will be nearly normal because two samples mean the sample size is larger. A larger sample size yields a more normal sampling distribution."
+    },
+    {
+      "letter": "C",
+      "text": "It will not be nearly normal because one of the conditions is not met: (\nn\nF\n)\n(\np\nF\n)\n=\n(\n60\n)\n(\n0.12\n)\n=\n7.2\n≱\n10\n(\nn\nF\n)\n(\n1\n−\np\nF\n)\n=\n(\n60\n)\n(\n0.88\n)\n=\n52.8\n≥\n10\n(\nn\nC\n)\n(\np\nC\n)\n=\n(\n55\n)\n(\n0.2\n)\n=\n11.0\n≥\n10\n(\nn\nC\n)\n(\n1\n−\np\nC\n)\n=\n(\n55\n)\n(\n0.8\n)\n=\n44.0\n≥\n10"
+    },
+    {
+      "letter": "D",
+      "text": "It will not be nearly normal because the true proportions of winning bottle caps are different for each group."
+    },
+    {
+      "letter": "E",
+      "text": "It will not be nearly normal because the two samples are not the same size."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-3.P.1",
+    "UNC-3",
+    "UNC-3.P"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-3.P.1",
+    "UNC-3",
+    "UNC-3.P"
+  ]
+}

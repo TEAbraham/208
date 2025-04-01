@@ -1,0 +1,44 @@
+{
+  "question_id": "question-018",
+  "title": "Spinning the Prize Wheel",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A certain prize wheel has <span class=\"tex2jax_process\">$12\\text{ spots}$</span> on it.  </div><div class=\"paragraph\">Five of the spots contain cash values of <span class=\"tex2jax_process\">$\\$500$</span>. Five other spots contain cash values of <span class=\"tex2jax_process\">$\\$1{,}000$</span>. One spot contains a cash value of <span class=\"tex2jax_process\">$\\$10{,}000$</span>. The <span class=\"tex2jax_process\">$12^\\text{th}$</span> spot represents a bankruptcy, resulting in losing all money gained from previous spins.  </div><div class=\"paragraph\">In this game, the player spins until he gets a bankruptcy or chooses to stop. One particular player has bad luck and thinks the wheel may not be balanced in a fair way so that each spot does not have the same likelihood of getting stopped on.  </div><div class=\"paragraph\">Which of the following methods of geometric simulation could determine if the player is correct?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "On a TI-83 or -84 calculator, type in RandInt (\n1\n,\n12\n), where\n1\n−\n11\nrepresent not a bankruptcy and\n12\nrepresents a bankruptcy. Repeat this process and calculate the number of trials it takes until a bankruptcy occurs. Repeat this process\n10\n times\n. Find the average number of trials until a bankruptcy and compare this to the theoretical mean of\n12\n trials\nuntil the first bankruptcy."
+    },
+    {
+      "letter": "B",
+      "text": "Put\n12\n tags\nnumbered\n1\n−\n12\nin a hat. Label tags\n1\n−\n11\nnot a bankruptcy and tag number\n12\na bankruptcy. Draw tags out of the hat, without replacement, until a bankruptcy is found. Repeat this process\n1,000\n times\n. Find the average number of trials until a bankruptcy and compare this to the theoretical mean of\n12\n trials\nuntil the first bankruptcy."
+    },
+    {
+      "letter": "C",
+      "text": "On a TI-83 or -84 calculator, type in RandInt (\n1\n,\n12\n), where\n1\n−\n11\nrepresent not a bankruptcy and\n12\nrepresents a bankruptcy. Repeat this process and calculate the number of trials it takes until a bankruptcy occurs. Repeat this process\n1,000\n times\n. Find the average number of trials until a bankruptcy and compare this to the theoretical mean of\n12\n trials\nuntil the first bankruptcy."
+    },
+    {
+      "letter": "D",
+      "text": "On a TI-83 or -84 calculator, type in RandInt (\n1\n,\n12\n), where\n1\n−\n11\nrepresent not a bankruptcy and\n12\nrepresents a bankruptcy. Repeat this process and calculate the number of trials it takes until a bankruptcy occurs. Repeat this process\n1,000\n times\n. Find the average number of trials until a bankruptcy and compare this to the theoretical mean of\n6.4\n trials\nuntil the first bankruptcy."
+    },
+    {
+      "letter": "E",
+      "text": "Put\n12\n tags\nnumbered\n1\n−\n12\nin a hat. Label tags\n1\n−\n11\nnot a bankruptcy and tag number\n12\na bankruptcy. Draw tags out of the hat, with replacement, recording the number of bankruptcies found. Perform at least\n1,000\n trials\nand find the proportion of bankruptcies compared to the theoretical proportion of\n1\n12\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-2.A.2",
+    "UNC-2.A.4",
+    "3.A",
+    "UNC-2.A"
+  ],
+  "standards": [
+    "UNC-2.A.2",
+    "UNC-2.A.4",
+    "3.A",
+    "UNC-2.A"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-141",
+  "title": "Ghost Sightings: Investigating Proportions",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">According to some studies, women are more likely to believe in ghosts than men.  Casper wondered whether women were also more likely to report having seen a ghost than men and decided to do a study.  </div><div class=\"paragraph\">In Casper's random sample of <span class=\"tex2jax_process\">$85$</span> women, <span class=\"tex2jax_process\">$10$</span> women reported having seen a ghost at some point in their lives.  In his random sample of <span class=\"tex2jax_process\">$63$</span> men, only <span class=\"tex2jax_process\">$4$</span> reported having seen a ghost.  </div><div class=\"paragraph\">Which of the following shows how to calculate the z-statistic for a test of the difference in the proportions of men and women who would report that they have seen a ghost?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "10\n85\n−\n4\n63\n√\n(\n10\n85\n)\n(\n4\n63\n)\n(\n1\n85\n+\n1\n63\n)"
+    },
+    {
+      "letter": "B",
+      "text": "10\n85\n−\n4\n63\n√\n(\n14\n148\n)\n(\n134\n148\n)\n(\n10\n85\n+\n4\n63\n)"
+    },
+    {
+      "letter": "C",
+      "text": "10\n85\n−\n4\n63\n√\n(\n14\n148\n)\n(\n134\n148\n)\n(\n1\n85\n+\n1\n63\n)"
+    },
+    {
+      "letter": "D",
+      "text": "10\n85\n−\n4\n63\n√\n(\n4\n63\n)\n(\n59\n63\n)\n63\n+\n(\n10\n85\n)\n(\n75\n85\n)\n85"
+    },
+    {
+      "letter": "E",
+      "text": "10\n85\n−\n4\n63\n√\n(\n4\n63\n)\n(\n10\n85\n)\n148\n+\n(\n59\n63\n)\n(\n75\n85\n)\n148"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-6.K",
+    "3.E",
+    "VAR-6.K.1",
+    "VAR-6"
+  ],
+  "standards": [
+    "VAR-6.K",
+    "3.E",
+    "VAR-6.K.1",
+    "VAR-6"
+  ]
+}

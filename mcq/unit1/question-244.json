@@ -1,0 +1,48 @@
+{
+  "question_id": "question-244",
+  "title": "The Legend of Lenny: Determining a Percentile",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Lenny's attempts to rescue Princess Polly from the Evil Queen are legendary.  The number of attempts he makes each day is normally distributed with a mean of <span class=\"tex2jax_process\">$12.3$</span> and variance of <span class=\"tex2jax_process\">$4.41$</span>.  One day, Lenny makes <span class=\"tex2jax_process\">$15$</span> attempts to rescue Princess Polly.  </div><div class=\"paragraph\">What percentile does this value fall into?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "15\nt\nh\npercentile"
+    },
+    {
+      "letter": "B",
+      "text": "73\nr\nd\npercentile"
+    },
+    {
+      "letter": "C",
+      "text": "88\nt\nh\npercentile"
+    },
+    {
+      "letter": "D",
+      "text": "90\nt\nh\npercentile"
+    },
+    {
+      "letter": "E",
+      "text": "95\nt\nh\npercentile"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.C.1",
+    "2.D",
+    "VAR-2.C",
+    "VAR-2"
+  ],
+  "standards": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.C.1",
+    "2.D",
+    "VAR-2.C",
+    "VAR-2"
+  ]
+}

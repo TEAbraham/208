@@ -1,0 +1,46 @@
+{
+  "question_id": "question-045",
+  "title": "Comparing Movie Ratings: A Graphical Display",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A random sample of <span class=\"tex2jax_process\">$90\\text{ adults}$</span> and a random sample of <span class=\"tex2jax_process\">$90\\text{ kids}$</span> were asked to provide their opinion on a recently released superhero movie they had seen at the theater.  Results of the survey are displayed below.  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"paragraph\">Which of the following statements is <strong>NOT</strong> supported by the graphical display?</div>",
+  "image_files": [
+    "images/question-045-img1.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Approximately\n70\n%\nof kids said the movie was \"Good\" or \"Excellent\", but fewer than\n60\n%\nof adults said the movie was \"Good\" or \"Excellent\"."
+    },
+    {
+      "letter": "B",
+      "text": "More than half of those individuals surveyed said the movie was either \"Good\" or \"Excellent\"."
+    },
+    {
+      "letter": "C",
+      "text": "Approximately\n20\n%\nof individuals surveyed said the movie was \"Terrible\"."
+    },
+    {
+      "letter": "D",
+      "text": "The number of adults who said the movie was \"OK\" is greater than the number of kids who said the movie was \"OK\"."
+    },
+    {
+      "letter": "E",
+      "text": "The number of kids who said the movie was \"Excellent\" is about twice the number of adults who said the movie was \"Excellent\"."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "2.A",
+    "UNC-1.C.1",
+    "UNC-1.C",
+    "UNC-1"
+  ],
+  "standards": [
+    "2.A",
+    "UNC-1.C.1",
+    "UNC-1.C",
+    "UNC-1"
+  ]
+}

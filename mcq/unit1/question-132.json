@@ -1,0 +1,44 @@
+{
+  "question_id": "question-132",
+  "title": "Five Number Summary: Keeping Up with the Statistics",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The publicity agency for a famous family tracks how many retweets each tweet receives. All tweets from May 4th to October 3rd were analyzed. The amount of retweets (in thousands) is summarized below. \n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Minimum</th><th scope=\"col\">Q<span class=\"tex2jax_process\">$_1$</span></th><th scope=\"col\">Median</th><th scope=\"col\">Q<span class=\"tex2jax_process\">$_3$</span></th><th scope=\"col\">Maximum</th></tr></thead><tbody><tr><td>@Chloe</td><td>47</td><td>54</td><td>72</td><td>82</td><td>103</td></tr><tr><td>@Cylie</td><td>45</td><td>77</td><td>83</td><td>91</td><td>105</td></tr><tr><td>@Cendall</td><td>32</td><td>37</td><td>66</td><td>95</td><td>256</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Which statement is true?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "One or more tweets by @Chloe are potential outliers."
+    },
+    {
+      "letter": "B",
+      "text": "One or more tweets by @Cylie are potential outliers."
+    },
+    {
+      "letter": "C",
+      "text": "One or more tweets by @Cendall are potential outliers."
+    },
+    {
+      "letter": "D",
+      "text": "One or more tweets by both @Cylie and @Cendall are potential outliers."
+    },
+    {
+      "letter": "E",
+      "text": "There are no potential outliers."
+    }
+  ],
+  "correct_answer": "<strong>Choice ‘D’</strong> is correct.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.L.1",
+    "2.B",
+    "UNC-1.L",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.L.1",
+    "2.B",
+    "UNC-1.L",
+    "UNC-1"
+  ]
+}

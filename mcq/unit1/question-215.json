@@ -1,0 +1,48 @@
+{
+  "question_id": "question-215",
+  "title": "Calculating Probability: Greater Than $z=0.50$",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">In a standard normal distribution, what is the probability of obtaining a z-score greater than <span class=\"tex2jax_process\">$0.50$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.19"
+    },
+    {
+      "letter": "B",
+      "text": "0.31"
+    },
+    {
+      "letter": "C",
+      "text": "0.50"
+    },
+    {
+      "letter": "D",
+      "text": "0.69"
+    },
+    {
+      "letter": "E",
+      "text": "0.81"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2",
+    "VAR-2.B.3"
+  ],
+  "standards": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2",
+    "VAR-2.B.3"
+  ]
+}

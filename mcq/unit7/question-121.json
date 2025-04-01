@@ -1,0 +1,44 @@
+{
+  "question_id": "question-121",
+  "title": "Significance Testing: More Carbonation",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\"><em>Cepsi</em> claims its soda stays carbonated longer than its main competitor, <em>Poke</em>.  Eight sodas of each brand are randomly selected.  They are opened, sealed back up, and then stored in a refrigerator.  Starting on the third day after the sodas are opened, every two hours the sodas are checked for carbonation. The table below shows the number of days the soda stay carbonated. \n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"><em>Cepsi</em></th><th scope=\"col\">2.9</th><th scope=\"col\">3.5</th><th scope=\"col\">3.1</th><th scope=\"col\">4</th><th scope=\"col\">4.3</th><th scope=\"col\">5.2</th><th scope=\"col\">5</th><th scope=\"col\">4.7</th></tr></thead><tbody><tr><td><em>Poke</em></td><td>4.4</td><td>2.6</td><td>3.2</td><td>3.3</td><td>3.9</td><td>4</td><td>4.9</td><td>5.3</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Which of the following tests should be conducted to determine if <em>Cepsi’s</em> sodas do, in fact, stay carbonated longer than <em>Poke’s</em> soda?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A one-sided, paired\nt\n-test for means."
+    },
+    {
+      "letter": "B",
+      "text": "A two-sided, paired\nt\n-test for means."
+    },
+    {
+      "letter": "C",
+      "text": "A one-sided, two-sample\nt\n-test for means."
+    },
+    {
+      "letter": "D",
+      "text": "A one-sided, two-sample\nz\n-test for means."
+    },
+    {
+      "letter": "E",
+      "text": "A two-sided, two-sample\nt\n-test for means."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7",
+    "1.E",
+    "VAR-7.F",
+    "VAR-7.F.1"
+  ],
+  "standards": [
+    "VAR-7",
+    "1.E",
+    "VAR-7.F",
+    "VAR-7.F.1"
+  ]
+}

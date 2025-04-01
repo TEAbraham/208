@@ -1,0 +1,48 @@
+{
+  "question_id": "question-145",
+  "title": "Matched Pairs: Computer Program",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose a teacher wishes to determine if his students learn better through in-class instruction or computer program.  </div><div class=\"paragraph\">The teacher has only <span class=\"tex2jax_process\">$10\\text{ students}$</span>, so he randomly divides them into two groups of <span class=\"tex2jax_process\">$5$</span>, one group of which learns through in-class instruction while the other group learns via computer program.  </div><div class=\"paragraph\">Why could the results be better trusted if the experiment were done in a matched pairs fashion?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The teacher would have\n10\n data points\nto work with instead of\n5\n."
+    },
+    {
+      "letter": "B",
+      "text": "Even if the subjects were randomly divided, such a small sample size makes it very likely that one group could have more intelligent students than the other simply by chance."
+    },
+    {
+      "letter": "C",
+      "text": "Students would feel more comfortable doing an experiment such as this with a pair."
+    },
+    {
+      "letter": "D",
+      "text": "A matched pairs design in this situation allows the teacher to use a control group."
+    },
+    {
+      "letter": "E",
+      "text": "A matched pairs design ensures the correct teaching method would be found in this situation."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3.D",
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.D.1",
+    "VAR-3.E.2"
+  ],
+  "standards": [
+    "VAR-3.D",
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.D.1",
+    "VAR-3.E.2"
+  ]
+}

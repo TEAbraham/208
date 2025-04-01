@@ -1,0 +1,44 @@
+{
+  "question_id": "question-014",
+  "title": "Estimating Parameters: Free Throws",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Suppose an athlete shoots <span class=\"tex2jax_process\">$200\\text{ free throws}$</span> and makes <span class=\"tex2jax_process\">$160$</span> of them.  </div><div class=\"paragraph\">Which of the following statements is true?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "This athlete is an\n80\n%\nfree-throw shooter."
+    },
+    {
+      "letter": "B",
+      "text": "A sample of\n100\n free throws\nwould be more effective in estimating the athlete’s true free-throw percentage."
+    },
+    {
+      "letter": "C",
+      "text": "The athlete’s true free-throw percentage is probably somewhere near\n80\n%\n."
+    },
+    {
+      "letter": "D",
+      "text": "The athlete could easily make fewer than\n100\n free throws\nin the next set of\n200\n free throw attempts\n."
+    },
+    {
+      "letter": "E",
+      "text": "No reasonable conclusions can be drawn from this data."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.L",
+    "3.C",
+    "UNC-3.L.1",
+    "UNC-3"
+  ],
+  "standards": [
+    "UNC-3.L",
+    "3.C",
+    "UNC-3.L.1",
+    "UNC-3"
+  ]
+}

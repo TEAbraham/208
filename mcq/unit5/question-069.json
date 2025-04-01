@@ -1,0 +1,44 @@
+{
+  "question_id": "question-069",
+  "title": "Single Proportion Conditions",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">When using normal calculations involving sampling proportions, which of the following conditions must be met?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> The population must be at least <span class=\"tex2jax_process\">$10$</span> times the sample.  </div><div class=\"paragraph\"><strong>II.</strong> <span class=\"tex2jax_process\">$np$</span> and <span class=\"tex2jax_process\">$n (1-p)$</span> must both be greater than or equal to <span class=\"tex2jax_process\">$10$</span>, where <span class=\"tex2jax_process\">$n$</span> is the sample size and <span class=\"tex2jax_process\">$p$</span> is the proportion of success.  </div><div class=\"paragraph\"><strong>III.</strong> The sample size must be over <span class=\"tex2jax_process\">$30$</span>.    </div></blockquote>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and II only."
+    },
+    {
+      "letter": "E",
+      "text": "II and III only."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.L",
+    "3.C",
+    "UNC-3.L.1",
+    "UNC-3"
+  ],
+  "standards": [
+    "UNC-3.L",
+    "3.C",
+    "UNC-3.L.1",
+    "UNC-3"
+  ]
+}

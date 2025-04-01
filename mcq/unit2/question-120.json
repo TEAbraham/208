@@ -1,0 +1,44 @@
+{
+  "question_id": "question-120",
+  "title": "Correlation Transformed",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Suppose a doctor is examining her patients’ weight (in pounds) and height (in inches) and found a strong positive correlation of <span class=\"tex2jax_process\">$r =0.964$</span>.  </div><div class=\"paragraph\">If <span class=\"tex2jax_process\">$1\\text{ pound}$</span> is approximately <span class=\"tex2jax_process\">$0.45\\text{ kilograms}$</span>, the correlation between weights in kilograms and height in inches is</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.964"
+    },
+    {
+      "letter": "B",
+      "text": "0.45"
+    },
+    {
+      "letter": "C",
+      "text": "0.4338"
+    },
+    {
+      "letter": "D",
+      "text": "0.765"
+    },
+    {
+      "letter": "E",
+      "text": "Unable to determine from the information provided."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "2.C",
+    "DAT-1",
+    "DAT-1.J",
+    "DAT-1.J.1"
+  ],
+  "standards": [
+    "2.C",
+    "DAT-1",
+    "DAT-1.J",
+    "DAT-1.J.1"
+  ]
+}

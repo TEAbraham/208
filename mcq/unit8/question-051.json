@@ -1,0 +1,44 @@
+{
+  "question_id": "question-051",
+  "title": "Math Program: Expected Counts",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose a high school principal wishes to determine if students in her after-school math program perform better than those not in the program.  </div><div class=\"paragraph\">The principal randomly selected <span class=\"tex2jax_process\">$115\\text{ students}$</span> for an after-school study session that runs <span class=\"tex2jax_process\">$3\\text{ days per week}$</span> for <span class=\"tex2jax_process\">$1\\text{ hour}$</span> each day, focusing solely on math.  </div><div class=\"paragraph\">The grade distribution of these students’ math grades is compared to the historical grade distribution of students’ math grades at this high school. The data is below:\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th><th scope=\"col\">F</th></tr></thead><tbody><tr><td>After-School Program (Counts)</td><td>28</td><td>38</td><td>36</td><td>9</td><td>4</td></tr><tr><td>Historical Grade Distribution (%)</td><td>18%</td><td>32%</td><td>25%</td><td>20%</td><td>5%</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>The expected counts for this problem are</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": ""
+    },
+    {
+      "letter": "B",
+      "text": ""
+    },
+    {
+      "letter": "C",
+      "text": ""
+    },
+    {
+      "letter": "D",
+      "text": ""
+    },
+    {
+      "letter": "E",
+      "text": ""
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.H",
+    "3.A",
+    "VAR-8",
+    "VAR-8.H.1"
+  ],
+  "standards": [
+    "VAR-8.H",
+    "3.A",
+    "VAR-8",
+    "VAR-8.H.1"
+  ]
+}

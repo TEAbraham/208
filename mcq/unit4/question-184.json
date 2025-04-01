@@ -1,0 +1,44 @@
+{
+  "question_id": "question-184",
+  "title": "Six-Sided Dice Rolls",
+  "difficulty": "Easy",
+  "question_text": "\n<div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Number on Die</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th><th scope=\"col\">6</th></tr></thead><tbody><tr><td>Frequency</td><td>9</td><td>17</td><td>12</td><td>10</td><td>9</td><td>15</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>A fair six-sided die is rolled <span class=\"tex2jax_process\">$72\\text{ times}$</span>. The distribution of numbers facing up on the dice is in the table above.  </div><div class=\"paragraph\">If the die is rolled another <span class=\"tex2jax_process\">$72\\text{ times}$</span>, how many instances of <span class=\"tex2jax_process\">$2$</span> would you expect?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "10"
+    },
+    {
+      "letter": "B",
+      "text": "4"
+    },
+    {
+      "letter": "C",
+      "text": "12"
+    },
+    {
+      "letter": "D",
+      "text": "7"
+    },
+    {
+      "letter": "E",
+      "text": "17"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-3.D",
+    "UNC-3",
+    "UNC-3.D.1"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-3.D",
+    "UNC-3",
+    "UNC-3.D.1"
+  ]
+}

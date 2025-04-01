@@ -1,0 +1,44 @@
+{
+  "question_id": "question-116",
+  "title": "Sound Cards and Motherboards",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A Tech company produces sound cards and motherboards.  It was concerned about how many parts were coming out defective.  A manager randomly selected <span class=\"tex2jax_process\">$78$</span> sound cards and <span class=\"tex2jax_process\">$58$</span> motherboards. The manager found <span class=\"tex2jax_process\">$8$</span> defective soundcards and <span class=\"tex2jax_process\">$5$</span> defective motherboards.  What statistical technique should be used to see if there is a difference between these products in terms of defects?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A two-sample\nt\n-test for a difference between two population proportions."
+    },
+    {
+      "letter": "B",
+      "text": "A two-sample\nz\n-test for a difference between two population proportions."
+    },
+    {
+      "letter": "C",
+      "text": "A two-sample\nt\n-test for a difference between two population means."
+    },
+    {
+      "letter": "D",
+      "text": "A two-sample\nz\n-test for a difference between two population means."
+    },
+    {
+      "letter": "E",
+      "text": "A chi-square test for goodness-of-fit."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-6.I",
+    "VAR-6.I.1",
+    "1.E",
+    "VAR-6"
+  ],
+  "standards": [
+    "VAR-6.I",
+    "VAR-6.I.1",
+    "1.E",
+    "VAR-6"
+  ]
+}

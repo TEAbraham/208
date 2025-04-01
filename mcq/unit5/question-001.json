@@ -1,0 +1,44 @@
+{
+  "question_id": "question-001",
+  "title": "Honors Math?",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">At a very large high school, the principal wanted to look at the number of male and female students taking advanced math courses. It was known that the average number has been <span class=\"tex2jax_process\">$560$</span> girls and <span class=\"tex2jax_process\">$520$</span> boys with standard deviations of <span class=\"tex2jax_process\">$40$</span> and <span class=\"tex2jax_process\">$45$</span> respectively.  Random samples were drawn of <span class=\"tex2jax_process\">$42$</span> girls and <span class=\"tex2jax_process\">$38$</span> boys.  What is the mean and standard deviation of the sampling distribution of this difference of sample means?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "mean\n=\n40 standard deviation\n≈\n91.38"
+    },
+    {
+      "letter": "B",
+      "text": "mean\n=\n40 standard deviation\n≈\n9.560"
+    },
+    {
+      "letter": "C",
+      "text": "mean\n=\n40 standard deviation\n≈\n1.462"
+    },
+    {
+      "letter": "D",
+      "text": "mean\n=\n1080 standard deviation\n≈\n9.560"
+    },
+    {
+      "letter": "E",
+      "text": "mean\n=\n1080 standard deviation\n≈\n91.38"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.T",
+    "UNC-3.T.1",
+    "UNC-3",
+    "3.B"
+  ],
+  "standards": [
+    "UNC-3.T",
+    "UNC-3.T.1",
+    "UNC-3",
+    "3.B"
+  ]
+}

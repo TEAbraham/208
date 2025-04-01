@@ -1,0 +1,56 @@
+{
+  "question_id": "question-025",
+  "title": "Expected Value: Coin Flips",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Suppose a fair coin is flipped <span class=\"tex2jax_process\">$1{,}000$</span> times.  </div><div class=\"paragraph\">Of the <span class=\"tex2jax_process\">$1{,}000\\text{ trials}$</span>, <span class=\"tex2jax_process\">$505$</span> were heads and <span class=\"tex2jax_process\">$495$</span> were tails.  </div><div class=\"paragraph\">If this same coin was flipped <span class=\"tex2jax_process\">$1{,}000$</span> more times, how many heads would be expected?  </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "495"
+    },
+    {
+      "letter": "B",
+      "text": "505"
+    },
+    {
+      "letter": "C",
+      "text": "500"
+    },
+    {
+      "letter": "D",
+      "text": "502"
+    },
+    {
+      "letter": "E",
+      "text": "498"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "VAR-4.B.1",
+    "VAR-4.A.4",
+    "VAR-4.A.1",
+    "VAR-4.A.3",
+    "3.A",
+    "VAR-4.A.2",
+    "VAR-4",
+    "VAR-4.A",
+    "VAR-4.B"
+  ],
+  "standards": [
+    "4.B",
+    "VAR-4.B.1",
+    "VAR-4.A.4",
+    "VAR-4.A.1",
+    "VAR-4.A.3",
+    "3.A",
+    "VAR-4.A.2",
+    "VAR-4",
+    "VAR-4.A",
+    "VAR-4.B"
+  ]
+}

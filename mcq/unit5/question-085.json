@@ -1,0 +1,46 @@
+{
+  "question_id": "question-085",
+  "title": "Marshmallow Madness",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Breakfast cereal with marshmallows is very popular among children (and adults too!).  Brand 'A' marshmallow cereal has an average of <span class=\"tex2jax_process\">$31.5\\text{ marshmallows per cup}$</span> with a standard deviation of <span class=\"tex2jax_process\">$6.0\\text{ marshmallows}$</span>.  Brand 'B' marshmallow cereal has an average of <span class=\"tex2jax_process\">$35.6\\text{ marshmallows per cup}$</span> with a standard deviation of <span class=\"tex2jax_process\">$7.6\\text{ marshmallows}$</span>.  </div><div class=\"paragraph\">What is the probability that randomly chosen samples of <span class=\"tex2jax_process\">$35\\text{ cups}$</span> of each cereal would show a larger average number of marshmallows from Brand A? </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.006"
+    },
+    {
+      "letter": "B",
+      "text": "0.063"
+    },
+    {
+      "letter": "C",
+      "text": "0.937"
+    },
+    {
+      "letter": "D",
+      "text": "0.994"
+    },
+    {
+      "letter": "E",
+      "text": "The conditions for using the normal model might not be met in this situation. More information is needed."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.T.2",
+    "UNC-3.T",
+    "UNC-3.T.1",
+    "UNC-3",
+    "3.B"
+  ],
+  "standards": [
+    "UNC-3.T.2",
+    "UNC-3.T",
+    "UNC-3.T.1",
+    "UNC-3",
+    "3.B"
+  ]
+}

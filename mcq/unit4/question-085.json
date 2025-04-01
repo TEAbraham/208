@@ -1,0 +1,46 @@
+{
+  "question_id": "question-085",
+  "title": "Independent Dice",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose two fair dice are rolled at the same time.  </div><div class=\"paragraph\">Which of the following events are independent?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "One die is a\n1\n; sum of the two dice is\n4\n."
+    },
+    {
+      "letter": "B",
+      "text": "One die is prime; sum of the two dice is\n2\n."
+    },
+    {
+      "letter": "C",
+      "text": "One die is a\n3\n; the other die is also a\n3\n."
+    },
+    {
+      "letter": "D",
+      "text": "One die is a\n6\n; sum of the two dice is NOT a\n12\n."
+    },
+    {
+      "letter": "E",
+      "text": "One die is a\n6\n; sum of the two dice is a\n12\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ],
+  "standards": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ]
+}

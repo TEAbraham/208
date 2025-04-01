@@ -1,0 +1,44 @@
+{
+  "question_id": "question-040",
+  "title": "A New Confidence Interval",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A reporter surveyed <span class=\"tex2jax_process\">$100$</span> randomly selected adult women and asked them how much they spend on clothes every year, then constructed a <span class=\"tex2jax_process\">$90\\%$</span> confidence interval based off the data.  </div><div class=\"paragraph\">If the reporter instead asked <span class=\"tex2jax_process\">$1{,}000$</span> randomly selected women the same question, the new <span class=\"tex2jax_process\">$90\\%$</span> confidence interval</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Would be centered higher than the confidence interval constructed of only\n100\n subjects\n."
+    },
+    {
+      "letter": "B",
+      "text": "Would have a smaller margin of error, but only if the confidence is increased."
+    },
+    {
+      "letter": "C",
+      "text": "Would have a smaller margin of error since larger samples have less variability."
+    },
+    {
+      "letter": "D",
+      "text": "Would have a greater margin of error since there would be a larger variety of opinions."
+    },
+    {
+      "letter": "E",
+      "text": "Would look about the same."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.U.1",
+    "UNC-4",
+    "4.A",
+    "UNC-4.U.3"
+  ],
+  "standards": [
+    "UNC-4.U.1",
+    "UNC-4",
+    "4.A",
+    "UNC-4.U.3"
+  ]
+}

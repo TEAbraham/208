@@ -1,0 +1,46 @@
+{
+  "question_id": "question-130",
+  "title": "Construction $2$ Proportion $z$-Interval: Fruits and Vegetables",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A nutritionist was interested in seeing if there was difference in people from the U.S. who prefer fruit over vegetables compared with the people in Canada who prefer fruit over vegetables. The nutritionist randomly selected <span class=\"tex2jax_process\">$200\\text{ people}$</span> from each country, and found that <span class=\"tex2jax_process\">$136\\text{ people}$</span> from the U.S. and <span class=\"tex2jax_process\">$108\\text{ people}$</span> from Canada favored fruit over vegetables.  </div><div class=\"paragraph\">Which formula calculates the <span class=\"tex2jax_process\">$98\\%$</span> confidence interval for the difference in proportions of Americans who prefer fruit over vegetables to Canadians who do so?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "(\n0.68\n−\n0.54\n)\n±\n2.33\n√\n(\n0.61\n)\n(\n0.39\n)\n400"
+    },
+    {
+      "letter": "B",
+      "text": "(\n0.68\n−\n0.54\n)\n±\n2.33\n√\n(\n0.61\n)\n(\n0.39\n)\n200\n+\n(\n0.61\n)\n(\n0.39\n)\n200"
+    },
+    {
+      "letter": "C",
+      "text": "(\n0.68\n−\n0.54\n)\n±\n2.33\n√\n(\n0.68\n)\n(\n0.32\n)\n200\n+\n(\n0.54\n)\n(\n0.46\n)\n200"
+    },
+    {
+      "letter": "D",
+      "text": "(\n0.68\n−\n0.54\n)\n±\n2.576\n√\n(\n0.68\n)\n(\n0.32\n)\n200\n+\n(\n0.54\n)\n(\n0.46\n)\n200"
+    },
+    {
+      "letter": "E",
+      "text": "(\n0.68\n−\n0.54\n)\n±\n2.576\n√\n(\n0.61\n)\n(\n0.39\n)\n200\n+\n(\n0.61\n)\n(\n0.39\n)\n200"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3",
+    "VAR-6.K",
+    "VAR-6.K.1",
+    "VAR-6"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3",
+    "VAR-6.K",
+    "VAR-6.K.1",
+    "VAR-6"
+  ]
+}

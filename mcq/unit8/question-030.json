@@ -1,0 +1,44 @@
+{
+  "question_id": "question-030",
+  "title": "Relating Characteristics of $\\chi^2$",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Which of the following statements about <span class=\"tex2jax_process\">${ \\chi }^{ 2 }$</span> tests is false?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "For any particular degrees of freedom, as the value of\nχ\n2\nincreases, the related\np\n-value will decrease."
+    },
+    {
+      "letter": "B",
+      "text": "A very large\nχ\n2\nvalue indicates that the observed counts were far from what was expected."
+    },
+    {
+      "letter": "C",
+      "text": "A very large\nχ\n2\nvalue will probably give us reason to reject our null hypothesis."
+    },
+    {
+      "letter": "D",
+      "text": "A\nχ\n2\nvalue near\n0\nwill likely produce a\np\n-value near\n1\n."
+    },
+    {
+      "letter": "E",
+      "text": "As the sample size increases, the number of degrees of freedom for a\nχ\n2\nGoodness of Fit Test will also increase."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.G.1",
+    "VAR-8.G",
+    "3.E",
+    "VAR-8"
+  ],
+  "standards": [
+    "VAR-8.G.1",
+    "VAR-8.G",
+    "3.E",
+    "VAR-8"
+  ]
+}

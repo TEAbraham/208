@@ -1,0 +1,44 @@
+{
+  "question_id": "question-041",
+  "title": "Pumpkin Time",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">There has been a tradition of pumpkin growing contests in both the East and West Coasts with thousands of pumpkins being entered.  In the past, the average entered pumpkin on the East Coast weighed <span class=\"tex2jax_process\">$360$</span> pounds with a standard deviation of <span class=\"tex2jax_process\">$60$</span> pounds. The average pumpkin entered on the West Coast weighed <span class=\"tex2jax_process\">$340$</span> pounds.</div><div class=\"paragraph\">This year, random samples of <span class=\"tex2jax_process\">$36$</span> pumpkins were taken on the East Coast and <span class=\"tex2jax_process\">$24$</span> pumpkins on the West Coast (both coasts' pumpkins were shown to be normally distributed). Given that the standard deviation of the sampling distribution of the difference of sample means is <span class=\"tex2jax_process\">$14$</span>, find the standard deviation of the pumpkins on the west coast.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "6.93\npounds"
+    },
+    {
+      "letter": "B",
+      "text": "40\npounds"
+    },
+    {
+      "letter": "C",
+      "text": "40.7\npounds"
+    },
+    {
+      "letter": "D",
+      "text": "48\npounds"
+    },
+    {
+      "letter": "E",
+      "text": "60\npounds"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.T",
+    "UNC-3.T.1",
+    "UNC-3",
+    "3.B"
+  ],
+  "standards": [
+    "UNC-3.T",
+    "UNC-3.T.1",
+    "UNC-3",
+    "3.B"
+  ]
+}

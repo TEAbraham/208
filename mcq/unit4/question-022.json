@@ -1,0 +1,44 @@
+{
+  "question_id": "question-022",
+  "title": "Spinners",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Suppose you have two spinners that each have the numbers <span class=\"tex2jax_process\">$1$</span>, <span class=\"tex2jax_process\">$2$</span>, and <span class=\"tex2jax_process\">$3$</span>.  If you spin both spinners, what is the probability that your sum is <strong>not</strong> <span class=\"tex2jax_process\">$5$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "7\n9"
+    },
+    {
+      "letter": "B",
+      "text": "2\n9"
+    },
+    {
+      "letter": "C",
+      "text": "1\n6"
+    },
+    {
+      "letter": "D",
+      "text": "2\n6"
+    },
+    {
+      "letter": "E",
+      "text": "5\n6"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.A.4",
+    "3.A",
+    "VAR-4",
+    "VAR-4.A"
+  ],
+  "standards": [
+    "VAR-4.A.4",
+    "3.A",
+    "VAR-4",
+    "VAR-4.A"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-043",
+  "title": "Type of Variable with Linear Regression T Procedure",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Linear regression <span class=\"tex2jax_process\">$T$</span> procedures should be used with data from</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Two different quantitative variables."
+    },
+    {
+      "letter": "B",
+      "text": "Two different categorical variables."
+    },
+    {
+      "letter": "C",
+      "text": "A single categorical variable."
+    },
+    {
+      "letter": "D",
+      "text": "A single quantitative variable."
+    },
+    {
+      "letter": "E",
+      "text": "More than two categorical or quantitative variables."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.M.1",
+    "DAT-3.M"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.M.1",
+    "DAT-3.M"
+  ]
+}

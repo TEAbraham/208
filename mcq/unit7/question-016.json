@@ -1,0 +1,48 @@
+{
+  "question_id": "question-016",
+  "title": "Heights of American Women",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Fifth grader Scott is studying the heights of American women for a science fair project.  </div><div class=\"paragraph\">Scott’s teacher told him that the heights of American females are normally distributed with the population standard deviation of <span class=\"tex2jax_process\">$2.4\\text{ inches}$</span>, but he cannot remember the value for the mean.  </div><div class=\"paragraph\">Scott’s older brother suggests that he estimate the unknown mean by calculating a confidence interval using data that Scott has collected for the heights of four women, as follows:</div><blockquote><div class=\"paragraph\"><span class=\"tex2jax_process\">$63 \\text{ inches}$</span><br><span class=\"tex2jax_process\">$69\\text{ inches}$</span><br><span class=\"tex2jax_process\">$62\\text{ inches}$</span><br><span class=\"tex2jax_process\">$66\\text{ inches}$</span>  </div></blockquote><div class=\"paragraph\">Based on this, Scott’s <span class=\"tex2jax_process\">$99\\%$</span> confidence interval would be:</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "65\n±\n1.55\n."
+    },
+    {
+      "letter": "B",
+      "text": "65\n±\n2.35\n."
+    },
+    {
+      "letter": "C",
+      "text": "65\n±\n2.79\n."
+    },
+    {
+      "letter": "D",
+      "text": "65\n±\n3.1\n."
+    },
+    {
+      "letter": "E",
+      "text": "65\n±\n4.07\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.Q.3",
+    "3.D",
+    "UNC-4.Q.2",
+    "UNC-4",
+    "UNC-4.Q",
+    "UNC-4.Q.1"
+  ],
+  "standards": [
+    "UNC-4.Q.3",
+    "3.D",
+    "UNC-4.Q.2",
+    "UNC-4",
+    "UNC-4.Q",
+    "UNC-4.Q.1"
+  ]
+}

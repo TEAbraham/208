@@ -1,0 +1,46 @@
+{
+  "question_id": "question-085",
+  "title": "Confidence Level and $1$-sided Significance Testing",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A one sample <span class=\"tex2jax_process\">$t$</span>-test for was used to conduct a test of the null hypotheses:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$${ H }_{ 0 }:\\mu =28$$</div><br><div class=\"tex2jax_process\">$${ H }_{ a }:\\mu &lt;28$$</div>  </div><div class=\"paragraph\">The <span class=\"tex2jax_process\">$p$</span>-value was <span class=\"tex2jax_process\">$0.006$</span>. A  confidence interval for *<span class=\"tex2jax_process\">$\\mu$</span> * is to be constructed.  </div><div class=\"paragraph\">Of the following, which is the largest level of confidence for which the confidence interval will NOT contain <span class=\"tex2jax_process\">$28$</span>? </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "95\n%"
+    },
+    {
+      "letter": "B",
+      "text": "96\n%"
+    },
+    {
+      "letter": "C",
+      "text": "97\n%"
+    },
+    {
+      "letter": "D",
+      "text": "98\n%"
+    },
+    {
+      "letter": "E",
+      "text": "99\n%"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-3.F",
+    "4.E",
+    "DAT-3",
+    "DAT-3.F.2",
+    "DAT-3.F.1"
+  ],
+  "standards": [
+    "DAT-3.F",
+    "4.E",
+    "DAT-3",
+    "DAT-3.F.2",
+    "DAT-3.F.1"
+  ]
+}

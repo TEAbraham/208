@@ -1,0 +1,44 @@
+{
+  "question_id": "question-111",
+  "title": "Biased and Unbiased Estimators",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A poll was recently taken asking local citizens about their opinions on the mayor's recent speech. A random sample of <span class=\"tex2jax_process\">$200$</span> local citizens was taken. If, instead of randomly sampling <span class=\"tex2jax_process\">$200$</span> citizens, <span class=\"tex2jax_process\">$500$</span> citizens were sampled, which of the following statements is correct?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The increased sample size will reduce the bias of the poll result."
+    },
+    {
+      "letter": "B",
+      "text": "The increased sample size will reduce the variability of the poll result."
+    },
+    {
+      "letter": "C",
+      "text": "The increased sample size will reduce the effect of nonresponse on the poll."
+    },
+    {
+      "letter": "D",
+      "text": "The increased sample size will reduce the variability of the opinions."
+    },
+    {
+      "letter": "E",
+      "text": "The increased sample size will be less accurate when representing the opinions of the entire city."
+    }
+  ],
+  "correct_answer": "<strong>Choice ‘B’</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.I",
+    "4.B",
+    "UNC-3.I.1",
+    "UNC-3"
+  ],
+  "standards": [
+    "UNC-3.I",
+    "4.B",
+    "UNC-3.I.1",
+    "UNC-3"
+  ]
+}

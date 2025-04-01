@@ -1,0 +1,44 @@
+{
+  "question_id": "question-066",
+  "title": "Changing Units and the Effect It Has on Correlation",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The correlation between distance (in kilometers) and airfare (in dollars) is <span class=\"tex2jax_process\">$0.8$</span>.  </div><div class=\"paragraph\">If we were to change the distance to be measured to miles (all the values in the distance will therefore be divided by <span class=\"tex2jax_process\">$1.61$</span>), what effect will this have on the correlation?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The correlation will become\n0.5\n."
+    },
+    {
+      "letter": "B",
+      "text": "The correlation will decrease by\n0.5\n, making the new correlation\n0.3\n."
+    },
+    {
+      "letter": "C",
+      "text": "The correlation will become\n1.3\n."
+    },
+    {
+      "letter": "D",
+      "text": "Since only the distance measurements have changed, the correlation will decrease significantly."
+    },
+    {
+      "letter": "E",
+      "text": "Because changing units does not affect the correlation, the correlation will remain the same."
+    }
+  ],
+  "correct_answer": "The correct answer is <strong>Choice 'E'</strong>. Changing the units of variables does not change the correlation coefficient “r,” because we get rid of all our units when we standardize (get z-scores).    The standardization allows us to compare correlations between data sets where variables are measured in different units or when variables are different.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.C",
+    "DAT-1",
+    "DAT-1.C.1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-1.C",
+    "DAT-1",
+    "DAT-1.C.1"
+  ]
+}

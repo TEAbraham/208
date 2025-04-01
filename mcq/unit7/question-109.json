@@ -1,0 +1,44 @@
+{
+  "question_id": "question-109",
+  "title": "Halloween Candy",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Two large candy companies produce Halloween assortment bags which contain Cutsie Rolls as one of the candies in the bags.  A firm did a verified study sampling these candy bags from each company and counting the number of Cutsie Rolls contained.  It found that Company A had an average of <span class=\"tex2jax_process\">$15$</span> Cutsie Rolls per bag while Company B had an average of <span class=\"tex2jax_process\">$18$</span> Cutsie Rolls per bag.  If a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval of the difference of these two means had a margin of error of <span class=\"tex2jax_process\">$2.54$</span>, would you agree that Company B really had more Cutsie Rolls in its Halloween bags?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "No. Because zero is not contained in the confidence interval, we are confident there are not more Cutsie Rolls in the Company B bags."
+    },
+    {
+      "letter": "B",
+      "text": "No. Because zero is contained in the confidence interval, we are confident there are not more Cutsie Rolls in the Company B bags."
+    },
+    {
+      "letter": "C",
+      "text": "We cannot know because not enough information was given to us."
+    },
+    {
+      "letter": "D",
+      "text": "Yes. Because zero is not contained in the confidence interval, we are confident there are more Cutsie Rolls in the Company B bags."
+    },
+    {
+      "letter": "E",
+      "text": "Yes. Because zero is contained in the confidence interval, we are confident there are more Cutsie Rolls in the Company B bags."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.AA.1",
+    "UNC-4.AA",
+    "UNC-4",
+    "4.A"
+  ],
+  "standards": [
+    "UNC-4.AA.1",
+    "UNC-4.AA",
+    "UNC-4",
+    "4.A"
+  ]
+}

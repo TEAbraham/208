@@ -1,0 +1,44 @@
+{
+  "question_id": "question-157",
+  "title": "Can the Interval be Calculated?",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A company was curious as to the ratings of one of its products by age group.  It asked two randomly chosen groups of <span class=\"tex2jax_process\">$32$</span> of its customers, one group under age <span class=\"tex2jax_process\">$40$</span> and the other group over age <span class=\"tex2jax_process\">$40$</span>, to give its product a ranking between <span class=\"tex2jax_process\">$1$</span> and <span class=\"tex2jax_process\">$10$</span>.  These people were chosen from a customer list which included <span class=\"tex2jax_process\">$210$</span> customers under age <span class=\"tex2jax_process\">$40$</span> and <span class=\"tex2jax_process\">$360$</span> customers over age <span class=\"tex2jax_process\">$40$</span>.  In the under <span class=\"tex2jax_process\">$40$</span> group the average ranking was <span class=\"tex2jax_process\">$5.7$</span> with a standard deviation of <span class=\"tex2jax_process\">$1.2$</span>.  In the older group the average ranking was <span class=\"tex2jax_process\">$6.3$</span> with a standard deviation of <span class=\"tex2jax_process\">$1.4$</span>. </div><div class=\"paragraph\">Are the conditions for calculating a two-sample confidence interval for estimating the difference of two population means met in the example above?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes. All of the conditions can be verified."
+    },
+    {
+      "letter": "B",
+      "text": "No. The samples of\n32\npeople are two small. Each group should be larger in order to avoid the possibility of skewness in the distributions."
+    },
+    {
+      "letter": "C",
+      "text": "No. The problem is that the size of the sample in the under age\n40\ngroup is too large for the size of its population. A sample of\n32\npeople would require a population of\n320\nor more people, and here it is only\n210\n."
+    },
+    {
+      "letter": "D",
+      "text": "No. The samples are not described as being independent."
+    },
+    {
+      "letter": "E",
+      "text": "No. We do not have enough information about the samples to know whether the sample distribution of their differences is approximately normal in shape."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.C",
+    "UNC-4.W.1",
+    "UNC-4",
+    "UNC-4.W"
+  ],
+  "standards": [
+    "4.C",
+    "UNC-4.W.1",
+    "UNC-4",
+    "UNC-4.W"
+  ]
+}

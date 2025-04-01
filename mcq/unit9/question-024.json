@@ -1,0 +1,44 @@
+{
+  "question_id": "question-024",
+  "title": "The Lower Bound",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Given the mean of the sampling distribution for a slope is <span class=\"tex2jax_process\">$4.6$</span>, the standard error for the slope of a regression line is <span class=\"tex2jax_process\">$1.2$</span>, and the critical value for the confidence interval for this slope is <span class=\"tex2jax_process\">$2.000$</span>, find the lower bound of the <span class=\"tex2jax_process\">$95\\%$</span> confidence interval and state what it means.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "7.8 We are\n95\n%\nconfident that the true slope will not be less than this number."
+    },
+    {
+      "letter": "B",
+      "text": "7.0 We are\n95\n%\nconfident that the true slope will always be greater than this number."
+    },
+    {
+      "letter": "C",
+      "text": "5.8 We are\n95\n%\nconfident that the true slope will not be less than this number."
+    },
+    {
+      "letter": "D",
+      "text": "3.4 We are\n95\n%\nconfident that the true slope will always be greater than this number."
+    },
+    {
+      "letter": "E",
+      "text": "2.2 We are\n95\n%\nconfident that the true slope will not be less than this number."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-4.AG.1",
+    "UNC-4",
+    "UNC-4.AG"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-4.AG.1",
+    "UNC-4",
+    "UNC-4.AG"
+  ]
+}

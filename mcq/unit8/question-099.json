@@ -1,0 +1,46 @@
+{
+  "question_id": "question-099",
+  "title": "Which Test is Suitable?",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">It has been observed that, if you lose your cell phone, the cell phone is more likely to be returned by the finder if the wallpaper encourages the finder to react in a helpful way.  An experiment is performed to investigate this.  Using <span class=\"tex2jax_process\">$300$</span> identical cell phones, <span class=\"tex2jax_process\">$100$</span> will have a photo of a baby as the wallpaper, <span class=\"tex2jax_process\">$100$</span> will have a photo of a dog as the wallpaper, and <span class=\"tex2jax_process\">$100$</span> will have an inspirational quote as the wallpaper.  The phones are dropped at random locations around a local university.  After <span class=\"tex2jax_process\">$24$</span> hours, for each type of wallpaper, the number of phones that have been returned will be recorded.</div><div class=\"paragraph\">The entire data set will be studied using a hypothesis test.  Which of the following is the most appropriate test to use?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "z\n-test for a population proportion"
+    },
+    {
+      "letter": "B",
+      "text": "z\n-test for a population mean"
+    },
+    {
+      "letter": "C",
+      "text": "chi-square test for goodness of fit"
+    },
+    {
+      "letter": "D",
+      "text": "chi-square test for homogeneity"
+    },
+    {
+      "letter": "E",
+      "text": "2\n-sample\nz\ntest for population proportions"
+    }
+  ],
+  "correct_answer": "<strong>Choice ‘C’</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.C",
+    "VAR-8.C.1",
+    "VAR-8",
+    "1.E",
+    "VAR-8.J"
+  ],
+  "standards": [
+    "VAR-8.C",
+    "VAR-8.C.1",
+    "VAR-8",
+    "1.E",
+    "VAR-8.J"
+  ]
+}

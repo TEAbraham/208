@@ -1,0 +1,44 @@
+{
+  "question_id": "question-045",
+  "title": "Southpaws and $p$-Values",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">People who are left-handed are sometimes referred to as “southpaws”. According to some reports <span class=\"tex2jax_process\">$10\\%$</span> of people are left-handed, but Billy doesn't believe this is true and decides to do a study. He randomly selects <span class=\"tex2jax_process\">$130$</span> people and finds that <span class=\"tex2jax_process\">$20$</span> of them are left-handed.  </div><div class=\"paragraph\">What is the <span class=\"tex2jax_process\">$p$</span>-value for the appropriate significance test? </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.02"
+    },
+    {
+      "letter": "B",
+      "text": "0.04"
+    },
+    {
+      "letter": "C",
+      "text": "0.1"
+    },
+    {
+      "letter": "D",
+      "text": "0.15"
+    },
+    {
+      "letter": "E",
+      "text": "We cannot conduct a significance test because conditions for doing so are not satisfied in this situation."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-6.E.1",
+    "VAR-6.E",
+    "1.E",
+    "VAR-6"
+  ],
+  "standards": [
+    "VAR-6.E.1",
+    "VAR-6.E",
+    "1.E",
+    "VAR-6"
+  ]
+}

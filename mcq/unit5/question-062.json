@@ -1,0 +1,44 @@
+{
+  "question_id": "question-062",
+  "title": "Sampling Distribution of Sample Prop: Get Off Social Media, Mom!",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A recent survey  in the town of Pleasantville found that <span class=\"tex2jax_process\">$55\\%$</span> of the adults had a social media account. The true percentage of adults that have a social media account in Pleasantville is <span class=\"tex2jax_process\">$58\\%$</span>.  </div><div class=\"paragraph\">Using simple random samples of size <span class=\"tex2jax_process\">$100$</span>, what are the mean and standard deviation respectively,  for the sampling distribution of the sample proportions of adults who own a social media account in Pleasantville?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.55\n,\n√\n100\n(\n0.55\n)\n(\n0.45\n)"
+    },
+    {
+      "letter": "B",
+      "text": "0.55\n,\n√\n(\n0.55\n)\n(\n0.45\n)\n100"
+    },
+    {
+      "letter": "C",
+      "text": "0.58\n,\n√\n100\n(\n0.58\n)\n(\n0.42\n)"
+    },
+    {
+      "letter": "D",
+      "text": "0.58\n,\n√\n(\n0.55\n)\n(\n0.45\n)\n100"
+    },
+    {
+      "letter": "E",
+      "text": "0.58\n,\n√\n(\n0.58\n)\n(\n0.42\n)\n100"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.K.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.K"
+  ],
+  "standards": [
+    "UNC-3.K.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.K"
+  ]
+}

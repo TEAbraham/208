@@ -1,0 +1,44 @@
+{
+  "question_id": "question-100",
+  "title": "What Does the $P$-value Tell Us?",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Market researchers know that background music can influence the mood and purchasing behavior of customers. One study in a supermarket in Syracuse compared three treatments: no music, smooth jazz music, and upbeat reggae music. </div><div class=\"paragraph\">Under each condition, the researchers recorded the number of bottles of white, red, and other wine purchased. Here is the two-way table that summarizes the data.</div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Type of Music</th><th scope=\"col\">None</th><th scope=\"col\">Jazz</th><th scope=\"col\">Reggae</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>White</td><td><span class=\"tex2jax_process\">$16$</span></td><td><span class=\"tex2jax_process\">$13$</span></td><td><span class=\"tex2jax_process\">$20$</span></td><td><span class=\"tex2jax_process\">$49$</span></td></tr><tr><td>Red</td><td><span class=\"tex2jax_process\">$10$</span></td><td><span class=\"tex2jax_process\">$21$</span></td><td><span class=\"tex2jax_process\">$12$</span></td><td><span class=\"tex2jax_process\">$43$</span></td></tr><tr><td>Other</td><td><span class=\"tex2jax_process\">$20$</span></td><td><span class=\"tex2jax_process\">$9$</span></td><td><span class=\"tex2jax_process\">$14$</span></td><td><span class=\"tex2jax_process\">$43$</span></td></tr></tbody></table></div><div class=\"paragraph\">To determine if there an association between the type of wine purchased and the type of music playing, the researchers run an appropriate test and calculate a <span class=\"tex2jax_process\">$P$</span>-value of <span class=\"tex2jax_process\">$0.032$</span>.  What is the correct interpretation of this <span class=\"tex2jax_process\">$P$</span>-value?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Given the results of the study, the probability of a shopper purchasing red wine is\n0.032\n."
+    },
+    {
+      "letter": "B",
+      "text": "Given the results of the study, the probability of a shopper purchasing any wine is\n0.032\n."
+    },
+    {
+      "letter": "C",
+      "text": "Given that type of music playing is not associated with type of wine purchased, the probability of getting a value of\nχ\n2\nat least as large as the one from this study is\n0.032\n."
+    },
+    {
+      "letter": "D",
+      "text": "Given that type of music playing is associated with type of wine purchased, the probability of getting a value of\nχ\n2\nat least as large as the one from this study is\n0.032\n."
+    },
+    {
+      "letter": "E",
+      "text": "Given that type of music playing is not associated with type of wine purchased, the probability of getting a value of\nχ\n2\nlike the one from this study is\n0.032\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice ‘C’</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3.K.1",
+    "DAT-3",
+    "DAT-3.K"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3.K.1",
+    "DAT-3",
+    "DAT-3.K"
+  ]
+}

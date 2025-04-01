@@ -1,0 +1,44 @@
+{
+  "question_id": "question-093",
+  "title": "Sampling Distribution of Sample Proportion: Ladies Dominate",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">According to the 2014 U.S. census, <span class=\"tex2jax_process\">$50.8\\%$</span> of the people in the U.S. are females.  A simple random sample of <span class=\"tex2jax_process\">$200$</span> people in the United States were selected.  </div><div class=\"paragraph\">What is the probability that more than <span class=\"tex2jax_process\">$52\\%$</span> of the people selected were females?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "P\n⎛\n⎜\n⎜\n⎜\n⎜\n⎝\nz\n>\n0.508\n−\n0.52\n√\n(\n0.508\n)\n(\n0.492\n)\n200\n⎞\n⎟\n⎟\n⎟\n⎟\n⎠"
+    },
+    {
+      "letter": "B",
+      "text": "P\n⎛\n⎜\n⎜\n⎜\n⎜\n⎝\nz\n>\n0.508\n−\n0.52\n√\n(\n0.52\n)\n(\n0.48\n)\n200\n⎞\n⎟\n⎟\n⎟\n⎟\n⎠"
+    },
+    {
+      "letter": "C",
+      "text": "P\n(\nz\n>\n0.508\n−\n0.52\n√\n(\n0.52\n)\n(\n0.48\n)\n)"
+    },
+    {
+      "letter": "D",
+      "text": "P\n⎛\n⎜\n⎜\n⎜\n⎜\n⎝\nz\n>\n0.52\n−\n0.508\n√\n(\n0.508\n)\n(\n0.492\n)\n200\n⎞\n⎟\n⎟\n⎟\n⎟\n⎠"
+    },
+    {
+      "letter": "E",
+      "text": "P\n⎛\n⎜\n⎜\n⎜\n⎜\n⎝\nz\n>\n0.52\n−\n0.508\n√\n(\n0.52\n)\n(\n0.48\n)\n200\n⎞\n⎟\n⎟\n⎟\n⎟\n⎠"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.K.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.K"
+  ],
+  "standards": [
+    "UNC-3.K.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.K"
+  ]
+}

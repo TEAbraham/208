@@ -1,0 +1,47 @@
+{
+  "question_id": "question-024",
+  "title": "One Proportion $z$-Interval: Indoor Cats",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A veterinarian was interested in the proportion of homeowners who had strictly indoor cats. She randomly selected <span class=\"tex2jax_process\">$40$</span> homeowners and found that <span class=\"tex2jax_process\">$14$</span> of them had cats that were indoor-only.  </div><div class=\"paragraph\">Which of the following represents a <span class=\"tex2jax_process\">$99\\%$</span> confidence interval for the true proportion of homeowners that have cats that stay indoors?  </div>",
+  "image_files": [
+    "images/question-024-img1.PNG",
+    "images/question-024-img2.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.35\n±\n1.96\n√\n(\n0.35\n)\n(\n0.65\n)\n40"
+    },
+    {
+      "letter": "B",
+      "text": "0.35\n±\n1.96\n√\n(\n0.35\n)\n(\n0.65\n)"
+    },
+    {
+      "letter": "C",
+      "text": "0.35\n±\n2.576\n√\n(\n0.35\n)\n(\n0.65\n)\n40"
+    },
+    {
+      "letter": "D",
+      "text": "0.35\n±\n2.576\n√\n(\n0.35\n)\n(\n0.65\n)"
+    },
+    {
+      "letter": "E",
+      "text": "0.35\n±\n√\n(\n0.35\n)\n(\n0.65\n)\n40"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.D",
+    "3.D",
+    "UNC-4.D.1",
+    "UNC-4"
+  ],
+  "standards": [
+    "UNC-4.D",
+    "3.D",
+    "UNC-4.D.1",
+    "UNC-4"
+  ]
+}

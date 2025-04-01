@@ -1,0 +1,44 @@
+{
+  "question_id": "question-185",
+  "title": "Back to Back Stemplots: Fantasy Defense",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The following back to back stem and leaf plot represents the amount of fantasy football points scored by two teams, the Defenders and the PointMisers.  </div><div class=\"paragraph\">Which of the following statements is true?  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Stem</th><th scope=\"col\"></th></tr></thead><tbody><tr><td><u>PointMisers (0.1)</u></td><td><u>(1)</u></td><td><u>Defenders (0.1)</u></td></tr><tr><td>000</td><td>0</td><td>00</td></tr><tr><td>3</td><td>1</td><td>3</td></tr><tr><td>5</td><td>2</td><td>1</td></tr><tr><td>7</td><td>3</td><td>6</td></tr><tr><td>-</td><td>4</td><td>-</td></tr><tr><td>2</td><td>5</td><td>555</td></tr><tr><td>85</td><td>6</td><td>0</td></tr><tr><td>95</td><td>7</td><td>-</td></tr><tr><td>-</td><td>8</td><td>0</td></tr><tr><td>0</td><td>9</td><td>04</td></tr><tr><td>3</td><td>10</td><td>03</td></tr><tr><td>9</td><td>11</td><td>4</td></tr><tr><td>0</td><td>12</td><td>-</td></tr><tr><td>5</td><td>13</td><td>-</td></tr><tr><td>-</td><td>14</td><td>-</td></tr><tr><td>-</td><td>15</td><td>1</td></tr><tr><td>-</td><td>16</td><td>-</td></tr><tr><td>1</td><td>17</td><td>-</td></tr></tbody></table></div><div class=\"paragraph\">Key: 10|0=10.0</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Defenders have a greater mean and PointMisers have a greater mode."
+    },
+    {
+      "letter": "B",
+      "text": "Defenders have a greater mode and PointMisers have a greater median."
+    },
+    {
+      "letter": "C",
+      "text": "Defenders have a greater mode and Defenders have a greater mean."
+    },
+    {
+      "letter": "D",
+      "text": "Defenders have a greater median and PointMisers have a greater mode."
+    },
+    {
+      "letter": "E",
+      "text": "Defenders have a greater mean and there is no mode for PointMisers."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.N.1",
+    "2.D",
+    "UNC-1.N",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.N.1",
+    "2.D",
+    "UNC-1.N",
+    "UNC-1"
+  ]
+}

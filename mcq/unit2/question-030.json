@@ -1,0 +1,46 @@
+{
+  "question_id": "question-030",
+  "title": "Age, Politics and Conditional Distributions",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Researchers wanted to investigate how an individual's age relates to his or her political leanings.  A random sample of <span class=\"tex2jax_process\">$100$</span> individuals in each of three age categories was asked to classify themselves as being \"Liberal\" or \"Conservative\".  The results are displayed in the side-by-side bar graph below.  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"paragraph\">Based on this display, what is the conditional distribution of Liberals by age category?</div>",
+  "image_files": [
+    "images/question-030-img1.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Liberals =\n51.67\n%\n\nConservative =\n48.33\n%"
+    },
+    {
+      "letter": "B",
+      "text": "Age\n25\nand Under =\n70\n%\n\nAge\n26\n−\n55\n=\n50\n%\n\nOver Age\n55\n=\n35\n%"
+    },
+    {
+      "letter": "C",
+      "text": "Age\n25\nand Under =\n33.33\n%\n\nAge\n26\n−\n55\n=\n33.33\n%\n\nOver Age\n55\n=\n33.33\n%"
+    },
+    {
+      "letter": "D",
+      "text": "Age\n25\nand Under =\n45.16\n%\n\nAge\n26\n−\n55\n=\n32.26\n%\n\nOver Age\n55\n=\n22.58\n%"
+    },
+    {
+      "letter": "E",
+      "text": "There is no way to determine the conditional distribution from the graph provided."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "2.C",
+    "UNC-1.Q",
+    "UNC-1.Q.2",
+    "UNC-1"
+  ],
+  "standards": [
+    "2.C",
+    "UNC-1.Q",
+    "UNC-1.Q.2",
+    "UNC-1"
+  ]
+}

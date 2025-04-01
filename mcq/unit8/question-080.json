@@ -1,0 +1,44 @@
+{
+  "question_id": "question-080",
+  "title": "Plant Manager: Pairs of Hypotheses",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A plant manager wants to see if there are different proportions of defective items among the four machines at her automotive plant.  </div><div class=\"paragraph\">She randomly selects <span class=\"tex2jax_process\">$100$</span> automobile parts from each of the four machines, as shown in the table below:\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Machine</th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th></tr></thead><tbody><tr><td>Number of Defective Parts</td><td>58</td><td>42</td><td>55</td><td>45</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>What are the best pair of hypotheses the plant manager could state?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "H\n0\n:\nThere is no association between machine type and defectiveness H\na\n:\nThere is an association between machine type and defectiveness"
+    },
+    {
+      "letter": "B",
+      "text": "H\n0\n:\nThere is an association between machine type and defectiveness H\na\n:\nThere is no association between machine type and defectiveness"
+    },
+    {
+      "letter": "C",
+      "text": "H\n0\n:\nEach of the machines is homogenous in their effectiveness to construct non-defective parts H\na\n:\nEach of the machines is not homogenous in their effectiveness to construct non-defective parts"
+    },
+    {
+      "letter": "D",
+      "text": "H\n0\n:\nEach of the machines is not homogenous in their effectiveness to construct non-defective parts H\na\n:\nEach of the machines is homogenous in their effectiveness to construct non-defective parts"
+    },
+    {
+      "letter": "E",
+      "text": "H\n0\n:\nEach of the machines is homogenous in their effectiveness to construct non-defective parts H\na\n:\nMachine D is better at constructing non-defective parts"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.L",
+    "DAT-3",
+    "DAT-3.L.2"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3.L",
+    "DAT-3",
+    "DAT-3.L.2"
+  ]
+}

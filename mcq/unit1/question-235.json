@@ -1,0 +1,44 @@
+{
+  "question_id": "question-235",
+  "title": "Up in the Rockies: Comparing Z-Scores",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The <span class=\"tex2jax_process\">$50$</span> highest mountain peaks in Colorado have an average height of <span class=\"tex2jax_process\">$13,891.1$</span> feet.  Mount Elbert is the tallest at <span class=\"tex2jax_process\">$14,440$</span> feet.  Standardized z-scores for four of the other mountains (of the <span class=\"tex2jax_process\">$50$</span> highest) are given below.  List these mountains in order from tallest to shortest.  </div><div class=\"paragraph\">Henry Mountain:  <span class=\"tex2jax_process\">$z = -1.64$</span><br>Mount Massive:  <span class=\"tex2jax_process\">$z = 1.40$</span><br>Mount Powell:  <span class=\"tex2jax_process\">$z = -0.80$</span><br>Pike's Peak:  <span class=\"tex2jax_process\">$z = 0.58$</span></div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Henry Mountain, Mount Massive, Mount Powell, Pike's Peak"
+    },
+    {
+      "letter": "B",
+      "text": "Pike's Peak, Mount Powell, Mount Massive, Henry Mountain"
+    },
+    {
+      "letter": "C",
+      "text": "Mount Massive, Pike's Peak, Mount Powell, Henry Mountain"
+    },
+    {
+      "letter": "D",
+      "text": "Henry Mountain, Mount Powell, Pike's Peak, Mount Massive"
+    },
+    {
+      "letter": "E",
+      "text": "Pike's Peak, Mount Massive, Henry Mountain, Mount Powell"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.C.1",
+    "2.D",
+    "VAR-2.C",
+    "VAR-2"
+  ],
+  "standards": [
+    "VAR-2.C.1",
+    "2.D",
+    "VAR-2.C",
+    "VAR-2"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-126",
+  "title": "Which Distribution for Two Population Proportions?",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">When completing a significance test for the difference between two population proportions, which of the following distributions should be used?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A binomial distribution where\nn\nis the combined number of observations from both populations and\np\nis the overall proportion of successful observations."
+    },
+    {
+      "letter": "B",
+      "text": "A\nz\n-distribution that assumes a mean difference of\n0\n."
+    },
+    {
+      "letter": "C",
+      "text": "A\nt\n-distribution that assumes a mean difference of\n0\n."
+    },
+    {
+      "letter": "D",
+      "text": "A\nχ\n2\ndistribution where\nd\nf\n=\nn\n−\n1\nand\nn\nis the combined number of observations from both populations."
+    },
+    {
+      "letter": "E",
+      "text": "None of the above."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-3.C",
+    "4.B",
+    "DAT-3",
+    "DAT-3.D",
+    "DAT-3.C.1"
+  ],
+  "standards": [
+    "DAT-3.C",
+    "4.B",
+    "DAT-3",
+    "DAT-3.D",
+    "DAT-3.C.1"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-076",
+  "title": "Possible Errors",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Recently a random survey found that <span class=\"tex2jax_process\">$48$</span> out of <span class=\"tex2jax_process\">$100\\text{ college freshman}$</span> fail to brush their teeth twice a day. This compares higher than the national average of <span class=\"tex2jax_process\">$39\\%$</span>.  </div><div class=\"paragraph\">The researcher decided to test the claim that college kids are more likely not to brush their teeth twice daily than the rest of the public, at the <span class=\"tex2jax_process\">$\\alpha = 5\\%$</span> level.  </div><div class=\"paragraph\">What type of error could the researcher have made, and how could this error be described in the context of the problem?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Type I; the researcher decided college kids brush their teeth less often than the general public when this is not the case"
+    },
+    {
+      "letter": "B",
+      "text": "Type II; the researcher decided college kids brush their teeth less often than the general public when this is not the case"
+    },
+    {
+      "letter": "C",
+      "text": "Type I; the researcher decided insufficient evidence exists to say college kids brush their teeth less often than the general public, but college kids really do brush their teeth less often"
+    },
+    {
+      "letter": "D",
+      "text": "Type II; the researcher decided insufficient evidence exists to say college kids brush their teeth less often than the general public, but college kids really do brush their teeth less often"
+    },
+    {
+      "letter": "E",
+      "text": "Both type I and II errors could be made in this situation"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-5.D.1",
+    "UNC-5",
+    "UNC-5.D.2",
+    "UNC-5.D"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-5.D.1",
+    "UNC-5",
+    "UNC-5.D.2",
+    "UNC-5.D"
+  ]
+}

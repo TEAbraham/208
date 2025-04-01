@@ -1,0 +1,49 @@
+{
+  "question_id": "question-012",
+  "title": "Engineering Study",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A researcher decides she is going to do an observational study regarding civil engineering. She selects a random sample of <span class=\"tex2jax_process\">$1500$</span> civil engineers that have a job in the United States to be a part of the study. Which of the following would be the population in which it would be the most reasonable to generalize the results of the study?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "All employed engineers"
+    },
+    {
+      "letter": "B",
+      "text": "All employed engineers in the United States"
+    },
+    {
+      "letter": "C",
+      "text": "All employed civil engineers"
+    },
+    {
+      "letter": "D",
+      "text": "All employed civil engineers in the United States"
+    },
+    {
+      "letter": "E",
+      "text": "You cannot generalize the results of an observational study."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer. ",
+  "solution": "In an <strong>observational study</strong>, investigators examine data for a sample of individuals in order to investigate a topic of interest for a population. It is important to note that you cannot prove cause and effect from an observational study because treatments are not imposed. \n\nHowever, you can make <strong>generalizations</strong> and <strong>determinations</strong> from an observational study. It is only appropriate to make generalizations about a population based on samples that are randomly selected or otherwise representative of the population. Therefore, wherever the sample has been selected from is what we can generalize from. So, in this study, we can only generalize about the civil engineers from the United States. \n\n<strong>Choice 'D'</strong> is correct. ",
+  "distractor_explanations": {
+    "A": "<strong>Choice 'A'</strong> is incorrect. Since we only selected a sample of civil engineers in the United States, we cannot generalize for all engineers. ",
+    "B": "<strong>Choice 'B'</strong> is incorrect. Since we only selected a sample of civil engineers in the United States, we cannot generalize for all engineers in the United States. ",
+    "C": "<strong>Choice 'C'</strong> is incorrect. Since we only selected a sample of civil engineers in the United States, we cannot generalize for all civil engineers. ",
+    "E": "<strong>Choice 'E'</strong> is incorrect. If the sample is representative of the population, we are allowed to make generalizations about the population from the observational study."
+  },
+  "tags": [
+    "DAT-2",
+    "DAT-2.B",
+    "DAT-2.B.1",
+    "4.A"
+  ],
+  "standards": [
+    "DAT-2",
+    "DAT-2.B",
+    "DAT-2.B.1",
+    "4.A"
+  ]
+}

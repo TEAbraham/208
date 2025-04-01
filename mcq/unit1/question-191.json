@@ -1,0 +1,44 @@
+{
+  "question_id": "question-191",
+  "title": "A Mean Question",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Consider two distributions X and Y. For both distributions the mean, median, range, standard deviation, and variance are all greater than 1.  </div><div class=\"paragraph\">Which of the following is <strong>NOT</strong> possible?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "X has a greater mean and Y has a greater standard deviation."
+    },
+    {
+      "letter": "B",
+      "text": "X has a greater range and Y has a greater standard deviation."
+    },
+    {
+      "letter": "C",
+      "text": "X has a greater variance and Y has a greater range."
+    },
+    {
+      "letter": "D",
+      "text": "X has a greater mean and Y has a greater median."
+    },
+    {
+      "letter": "E",
+      "text": "X has a greater standard deviation and Y has a greater variance."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.O",
+    "2.D",
+    "UNC-1.O.1",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.O",
+    "2.D",
+    "UNC-1.O.1",
+    "UNC-1"
+  ]
+}

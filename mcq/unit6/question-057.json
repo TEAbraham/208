@@ -1,0 +1,46 @@
+{
+  "question_id": "question-057",
+  "title": "$p$-value Interpretation",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A study reported that the proportion of college students who experience heart palpitations after drinking an energy drink is <span class=\"tex2jax_process\">$0.18$</span>.  The dean of a university believes that the proportion of students at his university who experience heart palpitations after drinking an energy drink is less than <span class=\"tex2jax_process\">$0.18$</span>.   The dean  randomly sampled students from the university who had just had an energy drink and found that <span class=\"tex2jax_process\">$16\\%$</span> of them had experienced heart palpitations.  </div><div class=\"paragraph\">All conditions for inference were met, and the <span class=\"tex2jax_process\">$p$</span>-value for the appropriate hypothesis test was <span class=\"tex2jax_process\">$0.30$</span>.  Which of the following statements is the best interpretation of the <span class=\"tex2jax_process\">$p$</span>-value?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The probability that the alternative hypothesis is true is\n0.30\n."
+    },
+    {
+      "letter": "B",
+      "text": "The probability that the null hypothesis is true is\n0.30\n."
+    },
+    {
+      "letter": "C",
+      "text": "If the proportion of students who experience heart palpitations at the university is\n18\n%\n, then the probability of observing results of at most\n16\n%\nis\n0.30\n."
+    },
+    {
+      "letter": "D",
+      "text": "If the proportion of students who experience heart palpitations at the university is\n18\n%\n, then the probability of observing results of at least\n16\n%\nis\n0.30\n."
+    },
+    {
+      "letter": "E",
+      "text": "The probability of observing\n16\n%\nof students who experience heart palpitations at this university is\n0.30\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.A.2",
+    "DAT-3.A",
+    "DAT-3.A.1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.A.2",
+    "DAT-3.A",
+    "DAT-3.A.1"
+  ]
+}

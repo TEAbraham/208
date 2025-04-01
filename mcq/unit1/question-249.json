@@ -1,0 +1,54 @@
+{
+  "question_id": "question-249",
+  "title": "IQR and Standard Deviation",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A set of normally distributed data has a mean <span class=\"tex2jax_process\">$\\mu = 80$</span> with an interquartile range (IQR) of <span class=\"tex2jax_process\">$12$</span>.  </div><div class=\"paragraph\">What is the approximate value of the standard deviation?</div>",
+  "image_files": [
+    "images/question-249-img1.png"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "5"
+    },
+    {
+      "letter": "B",
+      "text": "6"
+    },
+    {
+      "letter": "C",
+      "text": "9"
+    },
+    {
+      "letter": "D",
+      "text": "12"
+    },
+    {
+      "letter": "E",
+      "text": "24"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "2.D",
+    "VAR-2.B.4",
+    "VAR-2.A.1",
+    "VAR-2",
+    "VAR-2.A",
+    "VAR-2.B.3",
+    "VAR-2.A.2"
+  ],
+  "standards": [
+    "VAR-2.B.2",
+    "2.D",
+    "VAR-2.B.4",
+    "VAR-2.A.1",
+    "VAR-2",
+    "VAR-2.A",
+    "VAR-2.B.3",
+    "VAR-2.A.2"
+  ]
+}

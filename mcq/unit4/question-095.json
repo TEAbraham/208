@@ -1,0 +1,46 @@
+{
+  "question_id": "question-095",
+  "title": "Independent or Not?",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">If two events, <span class=\"tex2jax_process\">$A$</span> and <span class=\"tex2jax_process\">$B$</span>, are independent, then which of the following statements is false?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Knowing whether or not event\nA\noccurs does not alter the probability that event\nB\nwill occur."
+    },
+    {
+      "letter": "B",
+      "text": "p\n(\nA\n and \nB\n)\n=\np\n(\nA\n)\n⋅\np\n(\nB\n)\n−\np\n(\nA\n or \nB\n)"
+    },
+    {
+      "letter": "C",
+      "text": "p\n(\nA\n|\nB\n)\n=\np\n(\nA\n)"
+    },
+    {
+      "letter": "D",
+      "text": "p\n(\nB\n|\nA\n)\n=\np\n(\nB\n)"
+    },
+    {
+      "letter": "E",
+      "text": "p\n(\nA\n and \nB\n)\n=\np\n(\nA\n)\n⋅\np\n(\nB\n)"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ],
+  "standards": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ]
+}

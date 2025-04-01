@@ -1,0 +1,46 @@
+{
+  "question_id": "question-036",
+  "title": "Hypotheses About Young Voters",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">According to media reports, a certain political candidate has a higher rate of support among \"young\" voters (those age <span class=\"tex2jax_process\">$30$</span> and under) than \"older\" voters (those over the age of <span class=\"tex2jax_process\">$30$</span>).  A researcher wanted to investigate whether the media reports were true.  To gather data, he selected a random sample of <span class=\"tex2jax_process\">$200$</span> \"young\" voters and a random sample of <span class=\"tex2jax_process\">$200$</span> \"older\" voters and asked if they supported the political candidate.  </div><div class=\"paragraph\">Which of the following hypotheses could the researcher use to determine if the media claims are true?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "H\n0\n:\n^\np\nY\n>\n0.50 The proportion of young voters who support the candidate is greater than\n0.50\n. H\na\n:\n^\np\nO\n<\n0.50 The proportion of older voters who support the candidate is less than\n0.50\n."
+    },
+    {
+      "letter": "B",
+      "text": "H\no\n:\n^\np\nY\n=\n^\np\nO The proportion of \"young\" voters who support the candidate is equal to the proportion of \"older\" voters who support the candidate. H\na\n:\n^\np\nY\n<\n^\np\nO The proportion of \"young\" voters who support the candidate is less than the proportion of \"older\" voters who support the candidate."
+    },
+    {
+      "letter": "C",
+      "text": "H\no\n:\np\nY\n=\np\nO The proportion of \"young\" voters who support the candidate is equal to the proportion of \"older\" voters who support the candidate. H\na\n:\np\nY\n>\np\nO The proportion of \"young\" voters who support the candidate is greater than the proportion of \"older\" voters who support the candidate."
+    },
+    {
+      "letter": "D",
+      "text": "H\no\n:\np\nY\n=\np\nO The proportion of \"young\" voters who support the candidate is equal to the proportion of \"older\" voters who support the candidate. H\na\n:\np\nY\n≠\np\nO The proportion of \"young\" voters who support the candidate is not equal to the proportion of \"older\" voters who support the candidate."
+    },
+    {
+      "letter": "E",
+      "text": "H\no\n:\nμ\nY\n=\nμ\nO The mean number of \"young\" voters who support the candidate is equal to the mean number of \"older\" voters who support the candidate. H\na\n:\nμ\nY\n>\nμ\nO The mean number of \"young\" voters who support the candidate is greater than the mean number of \"older\" voters who support the candidate."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "1.F",
+    "VAR-6.D.1",
+    "VAR-6.D",
+    "VAR-6",
+    "VAR-6.D.2"
+  ],
+  "standards": [
+    "1.F",
+    "VAR-6.D.1",
+    "VAR-6.D",
+    "VAR-6",
+    "VAR-6.D.2"
+  ]
+}

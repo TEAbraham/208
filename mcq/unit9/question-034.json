@@ -1,0 +1,44 @@
+{
+  "question_id": "question-034",
+  "title": "Prescriptions",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A pharmaceutical company was doing a study and wanted to examine the relationship between the age of a person and the number of prescriptions a person has. The company wanted to show that both values increased.  A <span class=\"tex2jax_process\">$t$</span>-test for slope was to be done with <span class=\"tex2jax_process\">$50$</span> people randomly asked. What would be the correct hypotheses for the test?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "H\n0\n:\nβ\n<\n0 H\na\n:\nβ\n>\n0"
+    },
+    {
+      "letter": "B",
+      "text": "H\n0\n:\nβ\n≠\n0 H\na\n:\nβ\n=\n0"
+    },
+    {
+      "letter": "C",
+      "text": "H\n0\n:\nβ\n=\n0 H\na\n:\nβ\n≠\n0"
+    },
+    {
+      "letter": "D",
+      "text": "H\n0\n:\nβ\n=\n0 H\na\n:\nβ\n>\n0"
+    },
+    {
+      "letter": "E",
+      "text": "H\n0\n:\nβ\n>\n0 H\na\n:\nβ\n=\n0"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "1.F",
+    "VAR-7.K",
+    "VAR-7",
+    "VAR-7.K.1"
+  ],
+  "standards": [
+    "1.F",
+    "VAR-7.K",
+    "VAR-7",
+    "VAR-7.K.1"
+  ]
+}

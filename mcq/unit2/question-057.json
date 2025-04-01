@@ -1,0 +1,50 @@
+{
+  "question_id": "question-057",
+  "title": "Correlation: Coffee and the Weather",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A small neighborhood coffee shop sells both hot coffee drinks and iced coffee drinks.  The owners of the coffee shop decided to investigate the relationship between the outside high  temperature on a given day and the number of  <strong>hot</strong> coffee drinks that they are able to sell that day.  The computer output is shown below.  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"paragraph\">Determine the correlation coefficient for this relationship.</div>",
+  "image_files": [
+    "images/question-057-img1.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "−\n8.27"
+    },
+    {
+      "letter": "B",
+      "text": "−\n0.71"
+    },
+    {
+      "letter": "C",
+      "text": "0.148"
+    },
+    {
+      "letter": "D",
+      "text": "0.5041"
+    },
+    {
+      "letter": "E",
+      "text": "0.71"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-1.B.3",
+    "2.C",
+    "DAT-1",
+    "DAT-1.B.1",
+    "DAT-1.B",
+    "DAT-1.B.2"
+  ],
+  "standards": [
+    "DAT-1.B.3",
+    "2.C",
+    "DAT-1",
+    "DAT-1.B.1",
+    "DAT-1.B",
+    "DAT-1.B.2"
+  ]
+}

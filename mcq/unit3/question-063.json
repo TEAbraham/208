@@ -1,0 +1,44 @@
+{
+  "question_id": "question-063",
+  "title": "Quick Quiche",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Quick Quiche is a fast-food restaurant that has <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-25922\"><span class=\"MJXp-mn\" id=\"MJXp-Span-25923\">150</span><span class=\"MJXp-mtext\" id=\"MJXp-Span-25924\">&nbsp;locations</span></span></span><span id=\"MathJax-Element-7365-Frame\" class=\"mjx-chtml MathJax_CHTML MJXc-processing\" tabindex=\"0\"></span><script type=\"math/tex\" id=\"MathJax-Element-7365\">150\\text{ locations}</script></span> in the southeast region.  The regional manager will randomly select <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-25925\"><span class=\"MJXp-mn\" id=\"MJXp-Span-25926\">10</span><span class=\"MJXp-mtext\" id=\"MJXp-Span-25927\">&nbsp;restaurants</span></span></span><span id=\"MathJax-Element-7366-Frame\" class=\"mjx-chtml MathJax_CHTML MJXc-processing\" tabindex=\"0\"></span><script type=\"math/tex\" id=\"MathJax-Element-7366\">10\\text{ restaurants}</script></span> to make a surprise inspection.  He assigns each restaurant a unique number between <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-25928\"><span class=\"MJXp-mn\" id=\"MJXp-Span-25929\">1</span></span></span><span id=\"MathJax-Element-7367-Frame\" class=\"mjx-chtml MathJax_CHTML MJXc-processing\" tabindex=\"0\"></span><script type=\"math/tex\" id=\"MathJax-Element-7367\">1</script></span> and <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-25930\"><span class=\"MJXp-mn\" id=\"MJXp-Span-25931\">150</span></span></span><span id=\"MathJax-Element-7368-Frame\" class=\"mjx-chtml MathJax_CHTML MJXc-processing\" tabindex=\"0\"></span><script type=\"math/tex\" id=\"MathJax-Element-7368\">150</script></span>.  </div><div class=\"paragraph\">He then draws ten pairs of numbers from a random digit table.  The manager will make a surprise visit to the restaurants corresponding to those numbers.  </div><div class=\"paragraph\">Which statement best describes the main flaw in the sampling method for this study?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "All the restaurants do not have the same chance of being chosen. The manager should make a surprise visit to the restaurants whose numbers were a multiple of\n15\n."
+    },
+    {
+      "letter": "B",
+      "text": "All the restaurants do not have the same chance of being chosen. The manager is only selecting pairs of numbers from the random digit table. Restaurants with the numbers\n100\nto\n150\nhave no chance of being chosen."
+    },
+    {
+      "letter": "C",
+      "text": "All the restaurants do not have the same chance of being chosen. Restaurants labeled with repeating digits (such as\n33\nor\n88\n) have a smaller chance of being selected because it is unlikely that a number would repeat on a random digit table."
+    },
+    {
+      "letter": "D",
+      "text": "This is a convenience sample. Only the restaurants that are easy to reach by car are being sampled."
+    },
+    {
+      "letter": "E",
+      "text": "The regional manager should not be selecting the sample. The sample should be chosen by someone who does not work for Quick Quiche."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-2",
+    "DAT-2.E.3",
+    "1.C",
+    "DAT-2.E"
+  ],
+  "standards": [
+    "DAT-2",
+    "DAT-2.E.3",
+    "1.C",
+    "DAT-2.E"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-150",
+  "title": "Confidence Interval Conclusion",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">You come across this confidence interval:</div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$50\\pm2.492\\lgroup\\dfrac{6}{\\sqrt{25}}\\rgroup=(47.01,52.99)$$</div></div><div class=\"paragraph\">Which of the following is a correct conclusion?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "We are\n98\n%\nconfident that the this confidence interval contains the population mean of\n50\n."
+    },
+    {
+      "letter": "B",
+      "text": "We know that\n98\n%\nof the time this confidence interval contains all\n25\nvalues."
+    },
+    {
+      "letter": "C",
+      "text": "We are confident that\n98\n%\nof the time this confidence interval is correct."
+    },
+    {
+      "letter": "D",
+      "text": "We are\n98\n%\nconfident that the this confidence interval captures the population mean."
+    },
+    {
+      "letter": "E",
+      "text": "We are\n99\n%\nconfident that the this confidence interval captures the population mean."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-4.S",
+    "UNC-4.S.2",
+    "UNC-4"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-4.S",
+    "UNC-4.S.2",
+    "UNC-4"
+  ]
+}

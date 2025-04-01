@@ -1,0 +1,47 @@
+{
+  "question_id": "question-001",
+  "title": "New Start Time",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A school is pondering starting the school day earlier. The assistant principal comes up with a survey to ask students if they support the change to an earlier time. She then waits at the school entrance and asks the first <span class=\"tex2jax_process\">$30$</span> students who show up to school. </div><div class=\"paragraph\">Should the school trust the results of the survey?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "No, because the first students to the school will not be affected by an earlier start time."
+    },
+    {
+      "letter": "B",
+      "text": "No, because the assistant principal did a survey and not an experiment."
+    },
+    {
+      "letter": "C",
+      "text": "Yes, because she asked a sample of students."
+    },
+    {
+      "letter": "D",
+      "text": "Yes, because she asked\n30\nstudents."
+    },
+    {
+      "letter": "E",
+      "text": "Yes, because a random sample is not necessary."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer. ",
+  "solution": "The assistant principal is <strong>collecting data</strong> regarding the new school start time. She asks <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7084-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>30</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-33318\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-33319\" class=\"mjx-mrow\"><span id=\"MJXc-Node-33320\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">30</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7084\">30</script></span> students their thoughts on the new schedule for a survey. \n\nThe issue that the assistant principal has is that she asks the <strong>first <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7085-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>30</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-33321\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-33322\" class=\"mjx-mrow\"><span id=\"MJXc-Node-33323\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">30</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7085\">30</script></span></strong> students. This does not represent a random sample, and given that variation may or may not be random, the conclusions are uncertain. These students would be the most likely to not be affected by a schedule change. \n\n<strong>Choice 'A'</strong> is correct. ",
+  "distractor_explanations": {
+    "B": "<strong>Choice 'B'</strong> is incorrect. The assistant principal can do a survey to accumulate the responses, but the sample must be random. ",
+    "C": "<strong>Choice 'C'</strong> is incorrect.  Although the assistant principal did ask students, she did not ask a random sample of students. ",
+    "D": "<strong>Choice 'D'</strong> is incorrect. Even though she asked <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7086-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>30</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-33324\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-33325\" class=\"mjx-mrow\"><span id=\"MJXc-Node-33326\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">30</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7086\">30</script></span> students, the students she selected needed to be a random sample to make a conclusion based on the data. ",
+    "E": "<strong>Choice 'E'</strong> is incorrect.  In fact, as stated above, the sample must be random in order to make a conclusion about the data."
+  },
+  "tags": [
+    "VAR-1.E",
+    "VAR-1",
+    "VAR-1.E.1"
+  ],
+  "standards": [
+    "VAR-1.E",
+    "VAR-1",
+    "VAR-1.E.1"
+  ]
+}

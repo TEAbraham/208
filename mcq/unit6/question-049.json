@@ -1,0 +1,44 @@
+{
+  "question_id": "question-049",
+  "title": "Worker Productivity Incentives",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">An office manager wonders if her employees put in more hours of work when free bagels are delivered every day.  </div><div class=\"paragraph\">The manager randomly selects <span class=\"tex2jax_process\">$35\\text{ workers}$</span> to whom bagels will be delivered and compares the number of hours worked by these individuals to another randomly selected group of <span class=\"tex2jax_process\">$35\\text{ workers}$</span> who do not receive bagels.  </div><div class=\"paragraph\">The computer output is below.</div><div class=\"paragraph\"><em>Two-Sample <span class=\"tex2jax_process\">$T$</span>-Test and Confidence Interval (CI)</em></div><br><div class=\"paragraph\">  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Sample</th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">StDev</th><th scope=\"col\">SE Mean</th></tr></thead><tbody><tr><td>Bagels</td><td><span class=\"tex2jax_process\">$35$</span></td><td><span class=\"tex2jax_process\">$40.56$</span></td><td><span class=\"tex2jax_process\">$2.45$</span></td><td><span class=\"tex2jax_process\">$0.41$</span></td></tr><tr><td>No Bagels</td><td><span class=\"tex2jax_process\">$35$</span></td><td><span class=\"tex2jax_process\">$39.98$</span></td><td><span class=\"tex2jax_process\">$2.23$</span></td><td><span class=\"tex2jax_process\">$0.38$</span></td></tr></tbody></table></div><div class=\"paragraph\">Difference = <span class=\"tex2jax_process\">$\\mu(1)-\\mu(2) $</span>  </div><div class=\"paragraph\">Estimate for difference: <span class=\"tex2jax_process\">$0.580$</span>    </div><div class=\"paragraph\"><span class=\"tex2jax_process\">$95\\%$</span> CI for difference: <span class=\"tex2jax_process\">$(-0.538, 1.698)$</span>    </div><div class=\"paragraph\"><span class=\"tex2jax_process\">$T$</span>-test of difference = <span class=\"tex2jax_process\">$0$</span> (vs. not =): <span class=\"tex2jax_process\">$T$</span>-value = <span class=\"tex2jax_process\">$1.04$</span><br><span class=\"tex2jax_process\">$P$</span>-value = <span class=\"tex2jax_process\">$0.304$</span><br>DF = <span class=\"tex2jax_process\">$67$</span>  </div><div class=\"paragraph\">What practical conclusion can be made based off of this data?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There is strong evidence that bagels do not cause workers to put in more hours."
+    },
+    {
+      "letter": "B",
+      "text": "There is strong evidence that bagels do cause workers to put in more hours."
+    },
+    {
+      "letter": "C",
+      "text": "The evidence is inconclusive, so no conclusions whatsoever can be drawn."
+    },
+    {
+      "letter": "D",
+      "text": "A moderate correlation appears between bagels and worker hours."
+    },
+    {
+      "letter": "E",
+      "text": "Based off this experiment, there is insufficient evidence that bagels cause an increase in worker hours."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.A.2",
+    "DAT-3.A"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.A.2",
+    "DAT-3.A"
+  ]
+}

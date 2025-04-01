@@ -79,7 +79,7 @@ def server(input, output, session):
             xaxis_title="Number of Successes (x)",
             yaxis_title="Probability",
             margin=dict(l=40, r=40, t=40, b=40),
-            clickmode='event+select',
+            clickmode='event+select'
             hovermode='closest'
         )
         return fig
@@ -136,7 +136,8 @@ ui.tags.script("""
             const row = table.querySelector(`tr[data-x='${xval}']`);
             if (row) row.style.backgroundColor = "#FF9B3C55";
         }
-
+            }
+        }
 
         document.addEventListener("plotly_hover", function (e) {
             if (lockedIndex !== null) return;

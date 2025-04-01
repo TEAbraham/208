@@ -1,0 +1,46 @@
+{
+  "question_id": "question-159",
+  "title": "Farmer's Harvest",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A farmer’s harvest of apples has a normal distribution with the distribution of individual apple weights <span class=\"tex2jax_process\">$µ = 5\\text{ ounces}$</span>, and <span class=\"tex2jax_process\">$σ = 0.5\\text{ ounces}$</span>.  </div><div class=\"paragraph\">Two apples are randomly chosen from this year’s harvest. The difference in the weights of the two apples is a normally distributed random variable.  </div><div class=\"paragraph\">What are the mean and standard deviation of this distribution of differences?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "µ\n=\n0\n;\nσ\n=\n0.1"
+    },
+    {
+      "letter": "B",
+      "text": "µ\n=\n0\n;\nσ\n=\n√\n(\n0.1\n)"
+    },
+    {
+      "letter": "C",
+      "text": "µ\n=\n0\n;\nσ\n=\n0.5"
+    },
+    {
+      "letter": "D",
+      "text": "µ\n=\n0\n;\nσ\n=\n√\n(\n0.5\n)"
+    },
+    {
+      "letter": "E",
+      "text": "µ\n=\n0\n;\nσ\n=\n1"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ],
+  "standards": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

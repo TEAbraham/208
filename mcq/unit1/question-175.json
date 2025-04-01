@@ -1,0 +1,44 @@
+{
+  "question_id": "question-175",
+  "title": "Skew: Skiing Contest",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Bobosaur and Turtle both love to ski. They each raced down the same mountain <span class=\"tex2jax_process\">$25$</span> times. Bobosaur had a mean time of <span class=\"tex2jax_process\">$87\\text{ seconds}$</span> and a median time of <span class=\"tex2jax_process\">$87\\text{ seconds}$</span>. Turtle had a mean time of <span class=\"tex2jax_process\">$104\\text{ seconds}$</span> and a median time of <span class=\"tex2jax_process\">$96\\text{ seconds}$</span>.  </div><div class=\"paragraph\">Which of the following statements is TRUE?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "It is likely that both distributions have no skew."
+    },
+    {
+      "letter": "B",
+      "text": "It is likely that the distribution for Turtle is left skewed and the distribution for Bobosaur has no skew."
+    },
+    {
+      "letter": "C",
+      "text": "It is likely that the distribution for Turtle is right skewed and the distribution for Bobosaur has no skew."
+    },
+    {
+      "letter": "D",
+      "text": "It is likely that the distribution for Turtle has no skew and the distribution for Bobosaur is left skewed."
+    },
+    {
+      "letter": "E",
+      "text": "It is likely that the distribution for Turtle has no skew and the distribution for Bobosaur is right skewed."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is correct.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.O",
+    "2.D",
+    "UNC-1.O.1",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.O",
+    "2.D",
+    "UNC-1.O.1",
+    "UNC-1"
+  ]
+}

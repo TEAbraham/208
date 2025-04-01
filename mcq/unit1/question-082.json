@@ -1,0 +1,46 @@
+{
+  "question_id": "question-082",
+  "title": "Smallest Deviation",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Which of the following data sets would have the smallest standard deviation assuming <span class=\"tex2jax_process\">$x$</span> is a real number greater than <span class=\"tex2jax_process\">$0$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "{\n(\nx\n−\n3\n)\n,\n(\nx\n−\n2\n)\n,\n(\nx\n−\n1\n)\n,\n(\nx\n)\n,\n(\nx\n+\n1\n)\n,\n(\nx\n+\n2\n)\n,\n(\nx\n+\n3\n)\n}"
+    },
+    {
+      "letter": "B",
+      "text": "{\n(\nx\n)\n,\n(\nx\n)\n,\n(\nx\n)\n,\n(\nx\n)\n,\n(\nx\n)\n}"
+    },
+    {
+      "letter": "C",
+      "text": "{\n(\nx\n−\n10\n)\n,\n(\nx\n−\n5\n)\n,\n(\nx\n)\n,\n(\nx\n+\n5\n)\n,\n(\nx\n+\n10\n)\n}"
+    },
+    {
+      "letter": "D",
+      "text": "{\n(\nx\n)\n,\n(\n2\nx\n)\n,\n(\n3\nx\n)\n,\n(\n5\nx\n)\n}"
+    },
+    {
+      "letter": "E",
+      "text": "{\n(\nx\n−\n1\n)\n,\n(\nx\n+\n1\n)\n,\n(\nx\n+\n1\n)\n,\n(\nx\n−\n1\n)\n,\n(\nx\n+\n1\n)\n}"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "2.C",
+    "UNC-1.J.1",
+    "UNC-1.J",
+    "UNC-1.J.3",
+    "UNC-1"
+  ],
+  "standards": [
+    "2.C",
+    "UNC-1.J.1",
+    "UNC-1.J",
+    "UNC-1.J.3",
+    "UNC-1"
+  ]
+}

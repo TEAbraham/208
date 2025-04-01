@@ -1,0 +1,44 @@
+{
+  "question_id": "question-011",
+  "title": "What do You Know?",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">As defined by the AP® Statistics Course and Exam Description, four of the statements about probability below are true. Which one of the statements below is <strong>not</strong> true?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A random process generates results that are determined by chance."
+    },
+    {
+      "letter": "B",
+      "text": "Simulation is a way to model random events."
+    },
+    {
+      "letter": "C",
+      "text": "An event is a collection of outcomes."
+    },
+    {
+      "letter": "D",
+      "text": "The cumulative frequency of an event in simulated data can be used to estimate the probability of that event."
+    },
+    {
+      "letter": "E",
+      "text": "An outcome is the result of a trial of a random process."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "3.A",
+    "UNC-2.A",
+    "UNC-2",
+    "UNC-2.A.5"
+  ],
+  "standards": [
+    "3.A",
+    "UNC-2.A",
+    "UNC-2",
+    "UNC-2.A.5"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "question_id": "question-137",
+  "title": "Truck Showroom",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Hoping to find a new way to boost pick-up truck sales, a showroom manager runs a week-long study.  For each shopper who walks in, a coin is flipped.  If it lands on heads, the shopper will be greeted by a sales representative who will offer them bottled water and then let the shopper browse the inventory on their own.  </div><div class=\"paragraph\">If the coin lands on tails, the shopper will be offered a bottle of water and then guided through the showroom by the sales representative.  At the end of the week, the manager will compare the proportion of shoppers from each group who purchased a pick-up truck that week.  </div><div class=\"paragraph\">What is the response variable in this study?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Whether or not the sales representative guided the shopper around the showroom."
+    },
+    {
+      "letter": "B",
+      "text": "The number of bottles of water consumed by the shoppers."
+    },
+    {
+      "letter": "C",
+      "text": "Whether or not each shopper purchased a truck that week."
+    },
+    {
+      "letter": "D",
+      "text": "The number of times the coin landed on heads during the week."
+    },
+    {
+      "letter": "E",
+      "text": "The number of trucks sold in the showroom that week."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.A.3",
+    "VAR-3.A",
+    "VAR-3.E.3"
+  ],
+  "standards": [
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.A.3",
+    "VAR-3.A",
+    "VAR-3.E.3"
+  ]
+}

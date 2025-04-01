@@ -1,0 +1,48 @@
+{
+  "question_id": "question-114",
+  "title": "Purpose of Blocking",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">What is the essential purpose of blocking, and how should the blocks be designated?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Blocking reduces variability within the blocks; individuals within each block should be as similar as possible."
+    },
+    {
+      "letter": "B",
+      "text": "Blocking reduces measurement error; individuals should be self-selected in each block."
+    },
+    {
+      "letter": "C",
+      "text": "Blocking makes subjects more comfortable; subjects select their own groups."
+    },
+    {
+      "letter": "D",
+      "text": "Blocking increases the sample size, which in turn reduces variability; individuals within blocks should be as different as possible to create a more heterogeneous experiment."
+    },
+    {
+      "letter": "E",
+      "text": "Blocking reduces bias in experiments; individuals should be randomly divided into their blocks."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3.D",
+    "VAR-3",
+    "VAR-3.C.8",
+    "VAR-3.D.1",
+    "1.C",
+    "VAR-3.C"
+  ],
+  "standards": [
+    "VAR-3.D",
+    "VAR-3",
+    "VAR-3.C.8",
+    "VAR-3.D.1",
+    "1.C",
+    "VAR-3.C"
+  ]
+}

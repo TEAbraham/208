@@ -1,0 +1,44 @@
+{
+  "question_id": "question-193",
+  "title": "Calculator: Breakfast",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">It has been determined that <span class=\"tex2jax_process\">$45\\%$</span> of U.S. citizens eat breakfast at least <span class=\"tex2jax_process\">$5\\text{ days}$</span> per week.  </div><div class=\"paragraph\">If <span class=\"tex2jax_process\">$25\\text{ subjects}$</span> are randomly chosen, what is the approximate probability that the number of individuals who eat breakfast at least <span class=\"tex2jax_process\">$5\\text{ days}$</span> per week is within <span class=\"tex2jax_process\">$1$</span> standard deviation of the mean?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.3434"
+    },
+    {
+      "letter": "B",
+      "text": "0.95"
+    },
+    {
+      "letter": "C",
+      "text": "0.9523"
+    },
+    {
+      "letter": "D",
+      "text": "0.5423"
+    },
+    {
+      "letter": "E",
+      "text": "0.6833"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.C.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.C"
+  ],
+  "standards": [
+    "UNC-3.C.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.C"
+  ]
+}

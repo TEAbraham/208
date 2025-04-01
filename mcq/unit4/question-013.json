@@ -1,0 +1,44 @@
+{
+  "question_id": "question-013",
+  "title": "Basic Probability",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Which of the following statements about probability is <strong>not</strong> true.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A probability is a number between\n0\nand\n1\n."
+    },
+    {
+      "letter": "B",
+      "text": "Simulations are used to calculate probabilities for random events."
+    },
+    {
+      "letter": "C",
+      "text": "The law of large numbers predicts probabilities in the long run."
+    },
+    {
+      "letter": "D",
+      "text": "Simulations are used to estimate probabilities."
+    },
+    {
+      "letter": "E",
+      "text": "Probability describes the proportion of times something occurs in the long run."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "3.A",
+    "UNC-2.A",
+    "UNC-2.A.6",
+    "UNC-2"
+  ],
+  "standards": [
+    "3.A",
+    "UNC-2.A",
+    "UNC-2.A.6",
+    "UNC-2"
+  ]
+}

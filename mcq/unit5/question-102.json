@@ -1,0 +1,48 @@
+{
+  "question_id": "question-102",
+  "title": "Which Is Normal?",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Which of the following sampling distributions involving sample means will be approximately normal?</div><blockquote><div class=\"paragraph\"><strong>I. </strong> A sample of size <span class=\"tex2jax_process\">$n = 55$</span> from a population that is strongly skewed right.  </div><div class=\"paragraph\"><strong>II. </strong>A sample of size <span class=\"tex2jax_process\">$n = 20$</span> from a population that is slightly skewed right with no outliers.  </div><div class=\"paragraph\"><strong>III. </strong>A sample of size <span class=\"tex2jax_process\">$n = 5$</span> from a population that is roughly normal.    </div></blockquote>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "II and III only."
+    },
+    {
+      "letter": "E",
+      "text": "I, II, and III."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.H.2",
+    "UNC-3.H.1",
+    "3.C",
+    "UNC-3",
+    "UNC-3.H",
+    "UNC-3.H.3"
+  ],
+  "standards": [
+    "UNC-3.H.2",
+    "UNC-3.H.1",
+    "3.C",
+    "UNC-3",
+    "UNC-3.H",
+    "UNC-3.H.3"
+  ]
+}

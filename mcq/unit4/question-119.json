@@ -1,0 +1,48 @@
+{
+  "question_id": "question-119",
+  "title": "Admissions Test",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">State University applicants are required to take an admission test for entrance into the university.  </div><div class=\"paragraph\">In a given year, <span class=\"tex2jax_process\">$850\\text{ applicants}$</span> took the test, and the mean score was <span class=\"tex2jax_process\">$68$</span> with a standard deviation of <span class=\"tex2jax_process\">$4\\text{ points}$</span>. Suppose we do not know if the scores are approximately normally distributed.  </div><div class=\"paragraph\">What can be said about the number of scores that are less than <span class=\"tex2jax_process\">$60$</span> (to the nearest integer)?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "At most\n2\nof the scores are less than\n60\n."
+    },
+    {
+      "letter": "B",
+      "text": "At least\n20\nof the scores are less than\n60\n."
+    },
+    {
+      "letter": "C",
+      "text": "Exactly\n0.0228\nof the scores are less than\n60\n."
+    },
+    {
+      "letter": "D",
+      "text": "At least\n637\nof the scores are less than\n60\n."
+    },
+    {
+      "letter": "E",
+      "text": "At most\n213\nof the scores are less than\n60\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.C.2",
+    "VAR-5.C.3",
+    "VAR-5.C.1",
+    "VAR-5",
+    "3.B",
+    "VAR-5.C"
+  ],
+  "standards": [
+    "VAR-5.C.2",
+    "VAR-5.C.3",
+    "VAR-5.C.1",
+    "VAR-5",
+    "3.B",
+    "VAR-5.C"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-214",
+  "title": "Probability Between Two Z-Scores",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">In the standard normal distribution, determine <span class=\"tex2jax_process\">$p( -0.8 &lt; z &lt; -0.2)$</span>.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.209"
+    },
+    {
+      "letter": "B",
+      "text": "0.4207"
+    },
+    {
+      "letter": "C",
+      "text": "0.683"
+    },
+    {
+      "letter": "D",
+      "text": "0.835"
+    },
+    {
+      "letter": "E",
+      "text": "1.000"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B",
+    "3.A",
+    "VAR-2",
+    "VAR-2.B.3"
+  ],
+  "standards": [
+    "VAR-2.B",
+    "3.A",
+    "VAR-2",
+    "VAR-2.B.3"
+  ]
+}

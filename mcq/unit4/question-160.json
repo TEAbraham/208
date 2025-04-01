@@ -1,0 +1,44 @@
+{
+  "question_id": "question-160",
+  "title": "Linear Transformations of a Random Variable",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Suppose <span class=\"tex2jax_process\">$X$</span> is a random variable whose mean is <span class=\"tex2jax_process\">$12.5$</span> and whose standard deviation is <span class=\"tex2jax_process\">$2.1$</span>.  </div><div class=\"paragraph\">Let <span class=\"tex2jax_process\">$Y = 6.2X – 7$</span>.  </div><div class=\"paragraph\">What are the mean and the variance of <span class=\"tex2jax_process\">$Y$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Mean\n=\n5.5\n\nVariance\n=\n27.3"
+    },
+    {
+      "letter": "B",
+      "text": "Mean\n=\n70.5\n\nVariance\n=\n13.02"
+    },
+    {
+      "letter": "C",
+      "text": "Mean\n=\n70.5\n\nVariance\n=\n162.5"
+    },
+    {
+      "letter": "D",
+      "text": "Mean\n=\n70.5\n\nVariance\n=\n169.5"
+    },
+    {
+      "letter": "E",
+      "text": "Mean\n=\n77.5\n\nVariance\n=\n27.3"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.3",
+    "VAR-5",
+    "3.B"
+  ],
+  "standards": [
+    "VAR-5.E",
+    "VAR-5.E.3",
+    "VAR-5",
+    "3.B"
+  ]
+}

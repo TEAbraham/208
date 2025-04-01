@@ -1,0 +1,49 @@
+{
+  "question_id": "question-243",
+  "title": "Normal Distribution: Calculus Exam",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Free-response questions on the AP Calculus Exam are scored <span class=\"tex2jax_process\">$0$</span> through <span class=\"tex2jax_process\">$9$</span>.  A question  on one of the previous exams  had an average score of <span class=\"tex2jax_process\">$3.10$</span> with a standard deviation of <span class=\"tex2jax_process\">$2.45$</span>.  </div><div class=\"paragraph\">What was the approximate score achieved by a student that would put him or her in the <span class=\"tex2jax_process\">$87$</span>th percentile on this question?  </div><div class=\"paragraph\">You may  assume the scores on this question are approximately normally distributed.</div>",
+  "image_files": [
+    "images/question-243-img1.PNG",
+    "images/question-243-img2.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.34"
+    },
+    {
+      "letter": "B",
+      "text": "0.97"
+    },
+    {
+      "letter": "C",
+      "text": "1.74"
+    },
+    {
+      "letter": "D",
+      "text": "5.23"
+    },
+    {
+      "letter": "E",
+      "text": "5.86"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2"
+  ],
+  "standards": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2"
+  ]
+}

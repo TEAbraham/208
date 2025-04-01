@@ -1,0 +1,46 @@
+{
+  "question_id": "question-044",
+  "title": "T-Sampling Distribution",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A study on women’s weights was recently completed.  </div><div class=\"paragraph\">Twenty randomly selected high school females from an urban setting were compared to <span class=\"tex2jax_process\">$21$</span> randomly selected females from a rural setting. A portion of the results are below:</div><div class=\"paragraph\"><strong>Two-Sample <span class=\"tex2jax_process\">$T$</span> for Urban Weights vs. Rural Weights</strong>\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">StDev</th><th scope=\"col\">SE Mean</th></tr></thead><tbody><tr><td>Urban Weights</td><td>20</td><td>126.1</td><td>10.5</td><td>2.35</td></tr><tr><td>Rural Weights</td><td>21</td><td>128.8</td><td>13.2</td><td>2.88</td></tr></tbody></table></div><br><div class=\"paragraph\">  </div><div class=\"paragraph\">Describe the sampling distribution of the difference between urban and rural weights.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Exactly normal. Mean =\n−\n2.7 Standard deviation =\n1.08"
+    },
+    {
+      "letter": "B",
+      "text": "Approximately normal. Mean =\n−\n2.7 Standard deviation =\n3.72"
+    },
+    {
+      "letter": "C",
+      "text": "Approximately normal. Mean =\n−\n2.7 Standard deviation =\n1.16"
+    },
+    {
+      "letter": "D",
+      "text": "Shape unable to be determined. Mean =\n−\n2.7 Standard deviation =\n1.16"
+    },
+    {
+      "letter": "E",
+      "text": "Shape unable to be determined. Mean =\n−\n2.7 Standard deviation =\n3.72"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.U.1",
+    "3.C",
+    "UNC-3",
+    "UNC-3.U",
+    "UNC-3.U.2"
+  ],
+  "standards": [
+    "UNC-3.U.1",
+    "3.C",
+    "UNC-3",
+    "UNC-3.U",
+    "UNC-3.U.2"
+  ]
+}

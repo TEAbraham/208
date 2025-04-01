@@ -1,0 +1,46 @@
+{
+  "question_id": "question-050",
+  "title": "Follow the Bouncing Ball to Determine the $t$-Statistic",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Jessica was stuck babysitting and was feeling quite bored from watching her little sister Allison bounce a ball up and down. To ease her boredom she decided to keep track of the number of bounces Allison could complete in various amounts of time.  </div><div class=\"paragraph\">She then developed the equation for the least squares regression line to be:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$\\hat { y } = 2.136+1.021x$$</div>  </div><div class=\"paragraph\">...where <span class=\"tex2jax_process\">$\\hat { y }$</span> is the predicted number of bounces and <span class=\"tex2jax_process\">$x$</span> is the number of seconds.  </div><div class=\"paragraph\">If the standard error of the slope is <span class=\"tex2jax_process\">$0.763$</span>, what <span class=\"tex2jax_process\">$t$</span>-statistic would Jessica arrive at when completing a <span class=\"tex2jax_process\">$t$</span>-test for the linear regression?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.747"
+    },
+    {
+      "letter": "B",
+      "text": "0.763"
+    },
+    {
+      "letter": "C",
+      "text": "1.021"
+    },
+    {
+      "letter": "D",
+      "text": "1.338"
+    },
+    {
+      "letter": "E",
+      "text": "2.799"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.1",
+    "VAR-7.M.2"
+  ],
+  "standards": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.1",
+    "VAR-7.M.2"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-071",
+  "title": "Steroid Usage Conditional Probability",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Many collegiate athletes are tested for performance enhancing steroids.  </div><div class=\"paragraph\">Suppose a common test gives a positive  result for usage of steroids <span class=\"tex2jax_process\">$98\\%$</span> of the time on individuals who actually do use steroids. However, the drug test gives a positive results for steroids when the individual is in fact not using steroids, <span class=\"tex2jax_process\">$8\\%$</span> of the time.  </div><div class=\"paragraph\">If <span class=\"tex2jax_process\">$15\\%$</span> of college athletes use steroids, what percent of all positive results happen to be from individuals who do NOT use steroids?</div>",
+  "image_files": [
+    "images/question-071-img1.jpg"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "84.2\n%"
+    },
+    {
+      "letter": "B",
+      "text": "15\n%"
+    },
+    {
+      "letter": "C",
+      "text": "14.7\n%"
+    },
+    {
+      "letter": "D",
+      "text": "21.5\n%"
+    },
+    {
+      "letter": "E",
+      "text": "31.63\n%"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E",
+    "3.A",
+    "VAR-4",
+    "VAR-4.E.4"
+  ],
+  "standards": [
+    "VAR-4.E",
+    "3.A",
+    "VAR-4",
+    "VAR-4.E.4"
+  ]
+}

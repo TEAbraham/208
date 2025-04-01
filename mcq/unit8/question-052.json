@@ -1,0 +1,44 @@
+{
+  "question_id": "question-052",
+  "title": "What Kind of Car Do You Drive? Conclusions from a Test",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Do the types of cars that people drive differ based upon where they live? A marketing researcher for a major car manufacturer wonders whether the proportions of American-made cars owned by people who live in rural, suburban and urban areas is the same, and decides to do a study.  </div><div class=\"paragraph\">The researcher selects a random sample of individuals who live in each of these settings and asks whether they drive an American-made car or a foreign-made car. Results are shown in the table below.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">ACTUAL DATA</th><th scope=\"col\">American</th><th scope=\"col\">Foreign</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Rural</td><td>38</td><td>21</td><td>59</td></tr><tr><td>Suburban</td><td>25</td><td>27</td><td>52</td></tr><tr><td>Urban</td><td>22</td><td>32</td><td>54</td></tr><tr><td>Total</td><td>85</td><td>80</td><td>165</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Based upon this data and the results of an appropriate <span class=\"tex2jax_process\">${ \\chi }^{ 2 }$</span> test, what should the researcher conclude?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Since\np\n>\n0.05\n, we do not have enough evidence to reject the null hypothesis."
+    },
+    {
+      "letter": "B",
+      "text": "Since\np\n=\n0.35\n, we have good evidence to suggest that the proportions of American-made cars and foreign made cars driven by people in each of the three settings are the same."
+    },
+    {
+      "letter": "C",
+      "text": "Since\np\n=\n0.035\n, we have good evidence to suggest that the proportions of American-made cars and foreign made cars driven by people in each of the three settings are the same."
+    },
+    {
+      "letter": "D",
+      "text": "Since\np\n=\n0.035\n, we have good evidence to suggest that the proportions of American-made cars and foreign made cars driven by people in each of the three settings are not the same."
+    },
+    {
+      "letter": "E",
+      "text": "A\nχ\n2\ntest cannot be used in this situation since not all conditions are satisfied."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.H",
+    "3.A",
+    "VAR-8",
+    "VAR-8.H.1"
+  ],
+  "standards": [
+    "VAR-8.H",
+    "3.A",
+    "VAR-8",
+    "VAR-8.H.1"
+  ]
+}

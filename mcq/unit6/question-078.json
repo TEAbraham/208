@@ -1,0 +1,44 @@
+{
+  "question_id": "question-078",
+  "title": "Cat Ownership and Test Conditions",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">According to the American Veterinary Medical Foundation, <span class=\"tex2jax_process\">$30.4\\%$</span> of U. S. households owned at least one cat in 2012. Josephina wonders if this percentage is currently true for households in her town. To investigate, she contacts randomly selected households in her town and determines the proportion of these households that own at least one cat. To analyze the results of her study she will use a one sample <span class=\"tex2jax_process\">$z$</span>-test for proportions.  </div><div class=\"paragraph\">Which of the following is a condition that must be satisfied in order for her test to be valid?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Josephina must gather data from at least\n30\n households\n."
+    },
+    {
+      "letter": "B",
+      "text": "Josephina must select a sample size,\nn\n, such that:\n0.304\nn\n≥\n10\n\n(\n1\n−\n0.304\n)\nn\n≥\n10"
+    },
+    {
+      "letter": "C",
+      "text": "The population of households that own at least one cat must be at least twice as large as Josephina's sample size."
+    },
+    {
+      "letter": "D",
+      "text": "Josephina must make sure that there are no outliers in the number of cats owned by a household in her sample."
+    },
+    {
+      "letter": "E",
+      "text": "Josephina must know that the population distribution for households that own at least one cat is approximately normal."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-5.C.1",
+    "UNC-5",
+    "UNC-5.C",
+    "4.A"
+  ],
+  "standards": [
+    "UNC-5.C.1",
+    "UNC-5",
+    "UNC-5.C",
+    "4.A"
+  ]
+}

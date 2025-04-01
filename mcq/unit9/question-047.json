@@ -1,0 +1,46 @@
+{
+  "question_id": "question-047",
+  "title": "Identifying Parameters",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">When performing a significance test for a least-squares regression line, what parameter can be tested?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The proportion of observations that lie on the line."
+    },
+    {
+      "letter": "B",
+      "text": "The average\nx\n-value in a set of observations that determine a roughly linear relationship."
+    },
+    {
+      "letter": "C",
+      "text": "The mean\ny\n-value in a set of observations that determine a roughly linear relationship."
+    },
+    {
+      "letter": "D",
+      "text": "The slope of the line relating two quantitative variables."
+    },
+    {
+      "letter": "E",
+      "text": "The variability found in the sample."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.1",
+    "VAR-7.M.2"
+  ],
+  "standards": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.1",
+    "VAR-7.M.2"
+  ]
+}

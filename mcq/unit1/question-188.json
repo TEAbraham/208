@@ -1,0 +1,44 @@
+{
+  "question_id": "question-188",
+  "title": "Lottery Tickets I | 3 of 3",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Each month for the past year, Barbara and Pauline have purchased <span class=\"tex2jax_process\">$30\\text{ scratch-off lottery tickets}$</span> each. Barbara always buys Florida Gold scratch-off tickets, and Pauline always buys Lotsa Cash scratch-off tickets.  </div><div class=\"paragraph\">They have kept track of their number of winning tickets each month. Below are the results of the number of tickets that have been winners each month during the <span class=\"tex2jax_process\">$12\\text{ months}$</span> of their record-keeping. (For ease of calculation, the data have been ordered from smallest to largest, not chronologically.)\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Barbara (Florida Gold)</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">6</th><th scope=\"col\">6</th><th scope=\"col\">6</th><th scope=\"col\">7</th><th scope=\"col\">7</th><th scope=\"col\">8</th><th scope=\"col\">8</th><th scope=\"col\">14</th></tr></thead><tbody><tr><td>Pauline (Lotsa Cash)</td><td>5</td><td>7</td><td>7</td><td>8</td><td>8</td><td>8</td><td>8</td><td>9</td><td>9</td><td>10</td><td>12</td><td>17</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>What can be said when comparing the variability of these two distributions?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Because the ranges are the same, the standard deviations will be equal."
+    },
+    {
+      "letter": "B",
+      "text": "Based off interquartile range, Florida Gold has more variability than Lotsa Cash."
+    },
+    {
+      "letter": "C",
+      "text": "Because the medians of the two distributions are different, the variability of the two distributions will also be different from each other."
+    },
+    {
+      "letter": "D",
+      "text": "Because Lotsa Cash has an outlier, its variability is guaranteed to be greater than that of Florida Gold."
+    },
+    {
+      "letter": "E",
+      "text": "Because the IQR of Florida Gold is twice that of Lotsa Cash, the standard deviation of Florida Gold will be twice as large."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.O",
+    "2.D",
+    "UNC-1.O.1",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.O",
+    "2.D",
+    "UNC-1.O.1",
+    "UNC-1"
+  ]
+}

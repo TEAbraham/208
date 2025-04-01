@@ -1,0 +1,44 @@
+{
+  "question_id": "question-043",
+  "title": "Congressional Candidate",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A pollster wants to determine the support of a congressional candidate in a certain district.<br>​<br>The pollster selects the <span class=\"tex2jax_process\">$12\\text{ counties}$</span> the district represents then randomly selects <span class=\"tex2jax_process\">$10\\text{ towns}$</span> in each of the <span class=\"tex2jax_process\">$12\\text{ counties}$</span>. Finally, he randomly selects <span class=\"tex2jax_process\">$10\\text{ subjects}$</span> in each town for a total of <span class=\"tex2jax_process\">$1{,}200\\text{ respondents}$</span> in the sample.  </div><div class=\"paragraph\">What type of sample best describes this situation?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Simple random sample."
+    },
+    {
+      "letter": "B",
+      "text": "Stratified sample, where county is the strata."
+    },
+    {
+      "letter": "C",
+      "text": "Stratified sample, where town is the strata."
+    },
+    {
+      "letter": "D",
+      "text": "Multistage sample."
+    },
+    {
+      "letter": "E",
+      "text": "Observational study."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-2",
+    "1.C",
+    "DAT-2.C.3",
+    "DAT-2.C"
+  ],
+  "standards": [
+    "DAT-2",
+    "1.C",
+    "DAT-2.C.3",
+    "DAT-2.C"
+  ]
+}

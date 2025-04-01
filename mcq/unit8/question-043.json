@@ -1,0 +1,44 @@
+{
+  "question_id": "question-043",
+  "title": "Expected Counts: Favorite Cafeteria Meal",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">As a class project, Statistics students have decided to investigate whether a student's choice of favorite cafeteria meal is associated with their class level. The Statistics students randomly survey students as they enter the cafeteria and ask them to select from among the following choices: </div><blockquote><div class=\"paragraph\">Pizza<br>Tacos<br>Sandwich<br>Salad  </div></blockquote><div class=\"paragraph\">They also ask the surveyed students to identify their class level. Results are shown in the table below.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Pizza</th><th scope=\"col\">Tacos</th><th scope=\"col\">Sandwich</th><th scope=\"col\">Salad</th></tr></thead><tbody><tr><td>Freshmen</td><td>23</td><td>18</td><td>7</td><td>5</td></tr><tr><td>Sophomores</td><td>19</td><td>25</td><td>10</td><td>12</td></tr><tr><td>Juniors</td><td>27</td><td>22</td><td>8</td><td>8</td></tr><tr><td>Seniors</td><td>24</td><td>16</td><td>14</td><td>7</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>The class plans to conduct a <span class=\"tex2jax_process\">${ \\chi }^{ 2 }$</span> test for association.  </div><div class=\"paragraph\">Assuming there is no association between favorite food and class level, what is the expected number of sophomores who would say that tacos is their favorite cafeteria meal?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "16.5"
+    },
+    {
+      "letter": "B",
+      "text": "20.25"
+    },
+    {
+      "letter": "C",
+      "text": "21.82"
+    },
+    {
+      "letter": "D",
+      "text": "22"
+    },
+    {
+      "letter": "E",
+      "text": "25"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.H",
+    "3.A",
+    "VAR-8",
+    "VAR-8.H.1"
+  ],
+  "standards": [
+    "VAR-8.H",
+    "3.A",
+    "VAR-8",
+    "VAR-8.H.1"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-142",
+  "title": "Stemplot",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">An economist studied the annual returns of <span class=\"tex2jax_process\">$24$</span> randomly selected stocks over a given year. The stem-and-leaf plot below shows the returns (in percents) on these stocks over the year.</div><div class=\"paragraph\"><em>Stem-and-leaf display: returns</em>  </div><div class=\"paragraph\">*Stem-and-leaf of returns: N = <span class=\"tex2jax_process\">$24$</span> </div><div class=\"paragraph\">*Leaf unit = <span class=\"tex2jax_process\">$1.0$</span>  </div><div class=\"paragraph\">Key: <span class=\"tex2jax_process\">$1 | 3 = 13\\%$</span>    </div><div class=\"paragraph\"><span class=\"tex2jax_process\">$-1| 2$</span><br><span class=\"tex2jax_process\">$-0|$</span><br><span class=\"tex2jax_process\">$-0| 4$</span><br><span class=\"tex2jax_process\">$0 |34$</span><br><span class=\"tex2jax_process\">$0 |677$</span><br><span class=\"tex2jax_process\">$1 |013344$</span><br><span class=\"tex2jax_process\">$1 |5566$</span><br><span class=\"tex2jax_process\">$2 |011$</span><br><span class=\"tex2jax_process\">$2 |79$</span><br><span class=\"tex2jax_process\">$3 |0$</span><br><span class=\"tex2jax_process\">$3 |7$</span>  </div><div class=\"paragraph\">The mean return of these <span class=\"tex2jax_process\">$24$</span> stocks is closest to:</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "14\n%"
+    },
+    {
+      "letter": "B",
+      "text": "11\n%"
+    },
+    {
+      "letter": "C",
+      "text": "17\n%"
+    },
+    {
+      "letter": "D",
+      "text": "−\n12\n%"
+    },
+    {
+      "letter": "E",
+      "text": "Unable to determine based off the graph."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.M",
+    "UNC-1.M.1",
+    "2.A",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.M",
+    "UNC-1.M.1",
+    "2.A",
+    "UNC-1"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-069",
+  "title": "Studying Times",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A statistics professor wanted to know the relationship between the number of minutes spent studying in preparation for the final exam and students’ scores on the test. The professor plotted the number of minutes spent as the explanatory variable and the students' scores as the response. The results are shown in the scatterplot below.  </div><div class=\"paragraph\">Which of the following statements is true about the scatterplot and this relationship?  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div>\n",
+  "image_files": [
+    "images/question-069-img1.gif"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A negative relationship exists between the number of minutes spent studying and the score."
+    },
+    {
+      "letter": "B",
+      "text": "The correlation,\nr\n, will be close to\n0\nfor this data set."
+    },
+    {
+      "letter": "C",
+      "text": "It appears that the model above is very useful for predicting final exam score."
+    },
+    {
+      "letter": "D",
+      "text": "The data points for students who spend a high number of minutes studying are influential; eliminating these data points will bring down the slope and correlation."
+    },
+    {
+      "letter": "E",
+      "text": "The data points for students who spend a high number of minutes studying are influential; removing them will bring down the correlation but not the slope of the LSRL."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.C",
+    "DAT-1",
+    "DAT-1.C.1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-1.C",
+    "DAT-1",
+    "DAT-1.C.1"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "question_id": "question-139",
+  "title": "Pear Tree Production",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A researcher wondered if the pear tree in his backyard would keep its current production during future years. He decided to look at historical records for this certain type of pear tree and found a least squares regression line of <span class=\"tex2jax_process\">$\\hat{y} = 156 + 25.4x$</span>, where <span class=\"tex2jax_process\">$x =$</span> the age of the pear tree in years and <span class=\"tex2jax_process\">$y =$</span> the amount of pears produced by the tree. </div><div class=\"paragraph\">Given is the residual plot for the least-squares regression line.</div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div>\n<div class=\"paragraph\">Should the researcher use the linear model to represent the pear production?</div>",
+  "image_files": [
+    "images/question-139-img1.png"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes, because the least squares regression line has a y-intercept and a slope."
+    },
+    {
+      "letter": "B",
+      "text": "Yes, because there are some points above and below\n0\non the residual plot."
+    },
+    {
+      "letter": "C",
+      "text": "Yes, because the points on the residual plot are in clusters."
+    },
+    {
+      "letter": "D",
+      "text": "No, because the residual plot shows a parabolic form."
+    },
+    {
+      "letter": "E",
+      "text": "No, because the residual plot is not in a linear form."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer. ",
+  "solution": "A <strong>residual plot</strong> shows the residuals graphed against the explanatory variable. A <strong>residual</strong> shows the difference between the actual response variable and the predicted response variable found from the least-squares regression line. \n\nA residual plot can be used to to investigate the appropriateness of the model used. Apparent randomness in the residual plot is evidence for a linear model. For this problem, the residuals are in a parabolic form, which is not random. Therefore, a linear model is <em>not</em> appropriate for the researcher. \n\n<strong>Choice 'D'</strong> is correct. ",
+  "distractor_explanations": {
+    "A": "<strong>Choice 'A'</strong> is incorrect. Although the researcher did find a least-squares regression line, the model would not accurately depict the situation as the residual plot is parabolic. ",
+    "B": "<strong>Choice 'B'</strong> is incorrect. It is true that some points are above and below <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7022-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>0</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-33006\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-33007\" class=\"mjx-mrow\"><span id=\"MJXc-Node-33008\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">0</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7022\">0</script></span> on the residual plot, but they are in a pattern, not random. ",
+    "C": "<strong>Choice 'C'</strong> is incorrect. When looking at a residual plot, randomness is what indicates a linear model, not clusters. ",
+    "E": "<strong>Choice 'E'</strong> is incorrect. Ironically, a linear form in the residual plot would indicate that a linear model is not appropriate as only randomness would indicate a linear is appropriate."
+  },
+  "tags": [
+    "DAT-1.F.2",
+    "DAT-1.F.1",
+    "2.A",
+    "DAT-1.F"
+  ],
+  "standards": [
+    "DAT-1.F.2",
+    "DAT-1.F.1",
+    "2.A",
+    "DAT-1.F"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-039",
+  "title": "General Hypotheses",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose you are told you will do a two-sided <span class=\"tex2jax_process\">$t$</span>-test for slope.  Which are the correct hypotheses when written out in words?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "H\n0\n: There is an association between the given two variables. H\na\n: There is no association between the given two variables."
+    },
+    {
+      "letter": "B",
+      "text": "H\n0\n: There is no association between the given two variables. H\na\n: There is an association between the given two variables."
+    },
+    {
+      "letter": "C",
+      "text": "H\n0\n: There is no association between the given two variables. H\na\n: There is a positive association between the given two variables."
+    },
+    {
+      "letter": "D",
+      "text": "H\n0\n: There is no association between the given two variables. H\na\n: There is a negative association between the given two variables."
+    },
+    {
+      "letter": "E",
+      "text": "H\n0\n: There is an association between the given two variables. H\na\n: The association between the given two variables is positive."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "1.F",
+    "VAR-7.K",
+    "VAR-7",
+    "VAR-7.K.1"
+  ],
+  "standards": [
+    "1.F",
+    "VAR-7.K",
+    "VAR-7",
+    "VAR-7.K.1"
+  ]
+}

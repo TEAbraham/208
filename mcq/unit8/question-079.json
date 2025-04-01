@@ -1,0 +1,44 @@
+{
+  "question_id": "question-079",
+  "title": "Musical Instruments: Best Statistical Test",
+  "difficulty": "Moderate",
+  "question_text": "\n<div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Piano</th><th scope=\"col\">Guitar</th><th scope=\"col\">Violin</th><th scope=\"col\">Flute</th><th scope=\"col\">None</th></tr></thead><tbody><tr><td>Private School</td><td>20</td><td>9</td><td>7</td><td>12</td><td>2</td></tr><tr><td>Public School</td><td>8</td><td>30</td><td>1</td><td>8</td><td>3</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>The data summarized in the two-way chart above reflect the results of asking <span class=\"tex2jax_process\">$50$</span> students in a public school and <span class=\"tex2jax_process\">$50$</span> students in a private school what musical instrument they had learned to play.  </div><div class=\"paragraph\">In cases where students had learned to play more than one instrument, they were instructed to choose the instrument they had played for the longest amount of time.  </div><div class=\"paragraph\">A school counselor wants to see if there is a relationship between the type of school and the type of instrument played.  </div><div class=\"paragraph\">What would be the best statistical test for the counselor to use?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "2\n-sample T-test for means."
+    },
+    {
+      "letter": "B",
+      "text": "Matched-pair t-test for means."
+    },
+    {
+      "letter": "C",
+      "text": "Chi-square test for goodness of fit."
+    },
+    {
+      "letter": "D",
+      "text": "Chi-square test for independence."
+    },
+    {
+      "letter": "E",
+      "text": "Analysis of variance."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3.K.1",
+    "DAT-3",
+    "DAT-3.K"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3.K.1",
+    "DAT-3",
+    "DAT-3.K"
+  ]
+}

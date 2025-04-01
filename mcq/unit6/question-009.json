@@ -1,0 +1,47 @@
+{
+  "question_id": "question-009",
+  "title": "Blue Candies",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Two AP Statistics students are doing a project regarding a certain famous chocolate candies. The company that produces the candies claims that <span class=\"tex2jax_process\">$8\\%$</span> of the candies are blue. The students want to investigate this and head to the large candy machine at their local mall.  Each student inserts multiple quarters into the machine and get a sample of <span class=\"tex2jax_process\">$30$</span> candies on each turn. They record the proportion of blue candies on each sample and create an approximate sampling distribution of the candies obtained. </div><div class=\"paragraph\">The first student is confused when the graph of the sampling distribution after many, many trials does not model a normal distribution. What is the most important reason why the distribution is not normal?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The sample size is not large enough"
+    },
+    {
+      "letter": "B",
+      "text": "The number of expected success and failures are not large enough"
+    },
+    {
+      "letter": "C",
+      "text": "The population is most likely not normal"
+    },
+    {
+      "letter": "D",
+      "text": "The students did not select enough samples"
+    },
+    {
+      "letter": "E",
+      "text": "The students selected too many candies per sample"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer. ",
+  "solution": "When dealing with sampling distributions, the shape is unknown at the beginning, but does approach an approximately normal shape if certain conditions are met. In this case, the student was surprised that the shape was not approximately normal. In order for the sampling distribution to be approximately normal, the expected number of successes and failures need to be greater than or equal to <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-17072-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>10</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-91568\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-91569\" class=\"mjx-mrow\"><span id=\"MJXc-Node-91570\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">10</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-17072\">10</script></span>. This is called the <strong>Large Counts Condition</strong> and must be check in order to use the normal approximation for the sampling distribution of sample proportions. \n\n<strong>Choice 'B\"</strong> is correct. ",
+  "distractor_explanations": {
+    "A": "<strong>Choice 'A'</strong> is incorrect. When dealing with proportions, the only way to tell the shape is the Large Counts Condition. You cannot use the Central Limit Theorem for <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-17073-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>n</mi><mo>&amp;#x2265;</mo><mn>30</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-91571\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-91572\" class=\"mjx-mrow\"><span id=\"MJXc-Node-91573\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.222em; padding-bottom: 0.277em;\">n</span></span><span id=\"MJXc-Node-91574\" class=\"mjx-mo MJXc-space3\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.332em; padding-bottom: 0.496em;\">≥</span></span><span id=\"MJXc-Node-91575\" class=\"mjx-mn MJXc-space3\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">30</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>≥</mo><mn>30</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-17073\">n \\geq 30</script></span>. ",
+    "C": "<strong>Choice 'C'</strong> is incorrect. Even if the population is not normal, the sampling distribution can be normal if the Large Counts Condition is met.",
+    "D": "<strong>Choice 'D'</strong> is incorrect. The students select many, many samples which would more than likely be enough to approximate a sampling distribution. ",
+    "E": "<strong>Choice 'E'</strong> is incorrect. It is reasonable that the students stayed under the <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-17074-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>10</mn><mi mathvariant=&quot;normal&quot;>&amp;#x0025;</mi></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-91576\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-91577\" class=\"mjx-mrow\"><span id=\"MJXc-Node-91578\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">10</span></span><span id=\"MJXc-Node-91579\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.441em; padding-bottom: 0.387em;\">%</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi mathvariant=\"normal\">%</mi></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-17074\">10\\%</script></span> condition with a sample size of <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-17075-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>30</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-91580\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-91581\" class=\"mjx-mrow\"><span id=\"MJXc-Node-91582\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">30</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-17075\">30</script></span> as it was noted to be a large candy machine."
+  },
+  "tags": [
+    "VAR-1.H",
+    "VAR-1.H.1",
+    "VAR-1"
+  ],
+  "standards": [
+    "VAR-1.H",
+    "VAR-1.H.1",
+    "VAR-1"
+  ]
+}

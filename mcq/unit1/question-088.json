@@ -1,0 +1,48 @@
+{
+  "question_id": "question-088",
+  "title": "Multiply Constant",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Suppose a school nurse measured the weights of <span class=\"tex2jax_process\">$10$</span> of her students. The weights had a mean of <span class=\"tex2jax_process\">$104\\text{ pounds}$</span> with a standard deviation of <span class=\"tex2jax_process\">$11\\text{ pounds}$</span>.  </div><div class=\"paragraph\">If this data were in kilograms (<span class=\"tex2jax_process\">$1\\text{ lb} = 0.45\\text{ kg}$</span>), what would the new mean and standard deviation be?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Mean =\n46.8\n kg\n;\nStandard deviation =\n11\n kg"
+    },
+    {
+      "letter": "B",
+      "text": "Mean =\n46.8\n kg\n;\nStandard deviation =\n4.95\n kg"
+    },
+    {
+      "letter": "C",
+      "text": "Mean\n104\n kg\n;\nStandard deviation =\n4.95\n kg"
+    },
+    {
+      "letter": "D",
+      "text": "Mean =\n104\n kg\n;\nStandard deviation =\n11\n kg"
+    },
+    {
+      "letter": "E",
+      "text": "Mean =\n46.8\n kg\n;\nStandard deviation = unable to determine"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.I.2",
+    "2.C",
+    "UNC-1.J.4",
+    "UNC-1.J",
+    "UNC-1.I",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.I.2",
+    "2.C",
+    "UNC-1.J.4",
+    "UNC-1.J",
+    "UNC-1.I",
+    "UNC-1"
+  ]
+}

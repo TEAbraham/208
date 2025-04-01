@@ -1,0 +1,44 @@
+{
+  "question_id": "question-097",
+  "title": "Weight Loss",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Suppose a researcher wants to determine if a new weight loss drug is effective. She has <span class=\"tex2jax_process\">$100\\text{ volunteer subjects}$</span>.  </div><div class=\"paragraph\">Which would be an appropriate method to determine the drug's effectiveness?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Have all\n100\nof the subjects take the weight loss drug for three weeks and measure mean weight loss."
+    },
+    {
+      "letter": "B",
+      "text": "Give all\n100\n subjects\nthe weight loss drug for three weeks, then no treatment for three weeks, and measure the differences in weight of the subjects both on the drug and off the drug."
+    },
+    {
+      "letter": "C",
+      "text": "Give half of the volunteers the new weight loss drug and the other half a placebo, then compare changes in weight between the two groups."
+    },
+    {
+      "letter": "D",
+      "text": "Draw subjects’ names out of a hat at random, giving the first\n50\nthe new weight loss drug and the remaining\n50\nno treatment, then compare changes in weight between the two groups."
+    },
+    {
+      "letter": "E",
+      "text": "Draw subjects’ names out of a hat at random, giving the first\n50\nthe new weight loss drug and the remaining\n50\na placebo, then compare changes in weight between the two groups."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is correct.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3.D",
+    "VAR-3",
+    "VAR-3.D.1",
+    "1.C"
+  ],
+  "standards": [
+    "VAR-3.D",
+    "VAR-3",
+    "VAR-3.D.1",
+    "1.C"
+  ]
+}

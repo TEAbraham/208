@@ -1,0 +1,44 @@
+{
+  "question_id": "question-034",
+  "title": "Goodness of Fit Test: Meeting the Conditions",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A fast food company is offering a prize promotion game.  </div><div class=\"paragraph\">The company claims that in <span class=\"tex2jax_process\">$0.5\\%$</span> of all orders will receive <span class=\"tex2jax_process\">$\\$100$</span> cash, <span class=\"tex2jax_process\">$1\\%$</span> of all orders will receive <span class=\"tex2jax_process\">$\\$10$</span> cash, and <span class=\"tex2jax_process\">$10\\%$</span> of orders will receive a coupon for a free soft drink. The remaining orders will receive no prizes.  </div><div class=\"paragraph\">A group of long-time customers were excited about the new promotion, and over the course of the promotion, they placed <span class=\"tex2jax_process\">$651\\text{ orders}$</span>. Of these orders, <span class=\"tex2jax_process\">$2$</span> ended up winning <span class=\"tex2jax_process\">$\\$100$</span>, <span class=\"tex2jax_process\">$6$</span> won <span class=\"tex2jax_process\">$\\$10$</span>, and <span class=\"tex2jax_process\">$52$</span> won a free soft drink.  </div><div class=\"paragraph\">The group wants to do a chi-squared goodness of fit test to test the advertised odds.  </div><div class=\"paragraph\">Are the conditions met for this test?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes, all conditions are met."
+    },
+    {
+      "letter": "B",
+      "text": "No, the sample cannot be treated as random."
+    },
+    {
+      "letter": "C",
+      "text": "No, one of the expected counts is less than\n1\n."
+    },
+    {
+      "letter": "D",
+      "text": "No, more than\n20\n%\nof expected counts are less than\n5\n."
+    },
+    {
+      "letter": "E",
+      "text": "No,\nn\np\nand\nn\n(\n1\n−\np\n)\nare less than\n10\nfor at least one of the proportions."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-3.I.1",
+    "4.B",
+    "DAT-3.I",
+    "DAT-3"
+  ],
+  "standards": [
+    "DAT-3.I.1",
+    "4.B",
+    "DAT-3.I",
+    "DAT-3"
+  ]
+}

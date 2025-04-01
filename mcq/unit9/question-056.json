@@ -1,0 +1,44 @@
+{
+  "question_id": "question-056",
+  "title": "Regression Slope $t$-Interval Formula Work: Height and Wingspan",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">NBA scouts are always interested in the relationship between the height of NBA players and their wingspans. An NBA scout randomly selects <span class=\"tex2jax_process\">$20$</span> players and measures their heights and respective wingspans. Below is the computer regression analysis of wingspan and height:  </div><div class=\"paragraph\">Dependent variable is: Wingspan    </div><div class=\"paragraph\"><span class=\"tex2jax_process\">$R^2 = 0.787$</span><br><span class=\"tex2jax_process\">$S=2.23$</span>\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">Coefficient</th><th scope=\"col\">SE(Coeff)</th><th scope=\"col\">t-ratio</th><th scope=\"col\">P-value</th></tr></thead><tbody><tr><td>Constant</td><td>-2.273</td><td>0.39</td><td>-5.83</td><td>&lt;0.0001</td></tr><tr><td>Height</td><td>1.084</td><td>0.24</td><td>4.51</td><td>&lt;0.0001</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Assuming all of the conditions have been satisfied, which of the following gives a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for the slope of the regression line?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "−\n2.273\n±\n(\n2.086\n⋅\n0.39\n)"
+    },
+    {
+      "letter": "B",
+      "text": "−\n2.273\n±\n(\n2.101\n⋅\n0.39\n)"
+    },
+    {
+      "letter": "C",
+      "text": "1.084\n±\n(\n1.96\n⋅\n0.24\n)"
+    },
+    {
+      "letter": "D",
+      "text": "1.084\n±\n(\n2.086\n⋅\n0.24\n)"
+    },
+    {
+      "letter": "E",
+      "text": "1.084\n±\n(\n2.101\n⋅\n0.24\n)"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.M.1",
+    "DAT-3.M"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.M.1",
+    "DAT-3.M"
+  ]
+}

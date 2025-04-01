@@ -1,0 +1,44 @@
+{
+  "question_id": "question-017",
+  "title": "Data Analysis: Free Throws",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Jimmy, a high school basketball star, has a life-long free throw rate of <span class=\"tex2jax_process\">$45\\%$</span>.  </div><div class=\"paragraph\">Jimmy spent the last off-season working especially hard to improve his free-throw percentage. During the first game of the season, he connected on three of his first four free throws.  </div><div class=\"paragraph\">What conclusions can be made concerning Jimmy’s free-throw shooting ability?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Since\n3\nof\n4\n=\n75\n%\n, it is clear that Jimmy has improved his free-throw percentage."
+    },
+    {
+      "letter": "B",
+      "text": "Since the sample size is so low, we have strong evidence Jimmy is still a\n45\n%\n-free-throw shooter."
+    },
+    {
+      "letter": "C",
+      "text": "No reasonable conclusions can be drawn since the sample size is so low."
+    },
+    {
+      "letter": "D",
+      "text": "Free throws can hardly be treated as a simple random sample; therefore, this data cannot be trusted."
+    },
+    {
+      "letter": "E",
+      "text": "Jimmy is clearly not a\n45\n%\n-free-throw shooter based off the evidence."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-3.M.1",
+    "UNC-3",
+    "UNC-3.M"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-3.M.1",
+    "UNC-3",
+    "UNC-3.M"
+  ]
+}

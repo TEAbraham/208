@@ -1,0 +1,46 @@
+{
+  "question_id": "question-078",
+  "title": "High School Drivers",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">In a large metropolitan area, the proportion of high school seniors who drive to school at least <span class=\"tex2jax_process\">$3\\text{ days a week}$</span> is <span class=\"tex2jax_process\">$0.45$</span>. A random sample of <span class=\"tex2jax_process\">$25\\text{ students}$</span> is chosen.  </div><div class=\"paragraph\">How would you calculate the probability that at least <span class=\"tex2jax_process\">$13$</span> of these students drive to school at least <span class=\"tex2jax_process\">$3\\text{ days a week}$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use the multiplication rule for probabilities for the following item from the sample space, where\nD\n= drives and\nN\n= does not drive: D\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nD\nN\nN\nN\nN\nN\nN\nN\nN\nN\nN\nN\nN"
+    },
+    {
+      "letter": "B",
+      "text": "Calculate the binomial probability on a calculator using\nμ\n=\n11.25\n,\nσ\n=\n6.19\n, and\nX\n≥\n13\n."
+    },
+    {
+      "letter": "C",
+      "text": "Use the normal approximation to the binomial because the sample size is large."
+    },
+    {
+      "letter": "D",
+      "text": "Use the binomial formula for\nn\n=\n25\n,\nX\n=\n13\n, and\np\n=\n0.45\n."
+    },
+    {
+      "letter": "E",
+      "text": "Use the normal approximation to the binomial because\nn\np\n≥\n10\nand\nn\n(\n1\n−\np\n)\n≥\n10\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-6.B.2",
+    "VAR-6.B",
+    "3.A",
+    "VAR-6.B.1",
+    "VAR-6"
+  ],
+  "standards": [
+    "VAR-6.B.2",
+    "VAR-6.B",
+    "3.A",
+    "VAR-6.B.1",
+    "VAR-6"
+  ]
+}

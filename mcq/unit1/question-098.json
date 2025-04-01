@@ -1,0 +1,52 @@
+{
+  "question_id": "question-098",
+  "title": "Transforming Scores",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A set of scores is transformed by applying the following to each of the scores:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$\\text{transformed score }= 2.6 \\text{ (original score) }- 1.4$$</div>  </div><div class=\"paragraph\">Which of the following statements is FALSE?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The standard deviation of the transformed scores\n=\n2.6\n (standard deviation of the  original scores)\n−\n1.4"
+    },
+    {
+      "letter": "B",
+      "text": "The IQR of the transformed scores\n=\n2.6\n (IQR of the original scores)"
+    },
+    {
+      "letter": "C",
+      "text": "The Q3 of the transformed scores\n=\n2.6\n (Q3 original score)\n−\n1.4"
+    },
+    {
+      "letter": "D",
+      "text": "The mean of the transformed scores\n=\n2.6\n (mean of the original score) \n−\n1.4"
+    },
+    {
+      "letter": "E",
+      "text": "The median of the transformed scores\n=\n2.6\n (median of the original score) \n−\n1.4"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "2.C",
+    "UNC-1.J.4",
+    "UNC-1.J.1",
+    "UNC-1.J",
+    "UNC-1.I",
+    "UNC-1.J.3",
+    "UNC-1.I.1",
+    "UNC-1"
+  ],
+  "standards": [
+    "2.C",
+    "UNC-1.J.4",
+    "UNC-1.J.1",
+    "UNC-1.J",
+    "UNC-1.I",
+    "UNC-1.J.3",
+    "UNC-1.I.1",
+    "UNC-1"
+  ]
+}

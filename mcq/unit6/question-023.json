@@ -1,0 +1,44 @@
+{
+  "question_id": "question-023",
+  "title": "Playing Giddy Up - Go: Standard Deviation of Proportion",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Giddy Up - Go is a hot new game app that can be downloaded on smartphones.  Researchers wanted to know what proportion of smartphone users have downloaded the app.  They believe that the actual proportion is <span class=\"tex2jax_process\">$0.10$</span> and have decided to investigate.  </div><div class=\"paragraph\">After surveying a random sample of <span class=\"tex2jax_process\">$225$</span> smartphone users, the researchers determined that <span class=\"tex2jax_process\">$27$</span> had downloaded the app.  </div><div class=\"paragraph\">In constructing a confidence interval, which of the following shows how to calculate the standard deviation of the sample proportion? </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "√\n(\n0.10\n)\n(\n0.90\n)\n225"
+    },
+    {
+      "letter": "B",
+      "text": "√\n(\n0.12\n)\n(\n0.88\n)\n225"
+    },
+    {
+      "letter": "C",
+      "text": "(\n0.10\n)\n(\n0.90\n)\n√\n225"
+    },
+    {
+      "letter": "D",
+      "text": "√\n(\n225\n)\n(\n0.10\n)\n(\n0.90\n)"
+    },
+    {
+      "letter": "E",
+      "text": "√\n(\n225\n)\n(\n0.12\n)\n(\n0.88\n)"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "3.D",
+    "UNC-4.C.1",
+    "UNC-4.C",
+    "UNC-4"
+  ],
+  "standards": [
+    "3.D",
+    "UNC-4.C.1",
+    "UNC-4.C",
+    "UNC-4"
+  ]
+}

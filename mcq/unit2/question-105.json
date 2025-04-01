@@ -1,0 +1,46 @@
+{
+  "question_id": "question-105",
+  "title": "Rent and Square Footage",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A realtor would like to examine the relationship between rental price and square footage of an apartment. He believes that the rent asked for an apartment can be predicted based on the square footage.  </div><div class=\"paragraph\">A random sample of <span class=\"tex2jax_process\">$25\\text{ apartments}$</span> was collected and a least square regression line was obtained with a slope = <span class=\"tex2jax_process\">$1.0632$</span>, a <span class=\"tex2jax_process\">$y$</span>-intercept of <span class=\"tex2jax_process\">$83.527$</span>, and <span class=\"tex2jax_process\">$R^2$</span> value of <span class=\"tex2jax_process\">$0.8165$</span>.  </div><div class=\"paragraph\">Determine the predicted rental price for a <span class=\"tex2jax_process\">$1{,}200\\text{ ft}^2$</span> apartment.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$\n1,359.37"
+    },
+    {
+      "letter": "B",
+      "text": "$\n979.80"
+    },
+    {
+      "letter": "C",
+      "text": "$\n1,023"
+    },
+    {
+      "letter": "D",
+      "text": "$\n1,109.93"
+    },
+    {
+      "letter": "E",
+      "text": "Cannot be determined from the information given."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.H",
+    "DAT-1",
+    "DAT-1.H.3",
+    "DAT-1.H.1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-1.H",
+    "DAT-1",
+    "DAT-1.H.3",
+    "DAT-1.H.1"
+  ]
+}

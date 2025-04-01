@@ -1,0 +1,44 @@
+{
+  "question_id": "question-094",
+  "title": "Analyzing $T$-Table Results",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose a one-sided test gives a test statistic <span class=\"tex2jax_process\">$t = 2.45$</span> for a sample of size <span class=\"tex2jax_process\">$n=24$</span>.  </div><div class=\"paragraph\">What conclusion can be made at the <span class=\"tex2jax_process\">$\\alpha = 5\\%$</span> level?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Reject\nH\n0\nat the\n5\n%\nlevel."
+    },
+    {
+      "letter": "B",
+      "text": "Fail to reject\nH\n0\nat the\n5\n%\nlevel."
+    },
+    {
+      "letter": "C",
+      "text": "Reject\nH\na\nat the\n5\n%\nlevel."
+    },
+    {
+      "letter": "D",
+      "text": "Fail to reject\nH\na\nat the\n5\n%\nlevel."
+    },
+    {
+      "letter": "E",
+      "text": "Retain the null at the\n5\n%\nlevel."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-1.J",
+    "VAR-1.J.1",
+    "1.A",
+    "VAR-1"
+  ],
+  "standards": [
+    "VAR-1.J",
+    "VAR-1.J.1",
+    "1.A",
+    "VAR-1"
+  ]
+}

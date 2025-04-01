@@ -1,0 +1,44 @@
+{
+  "question_id": "question-218",
+  "title": "Select the True Statements about Normal Distribution",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Which of the following statements is/are true of every normal distribution?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> It is symmetric about its median.<br><strong>II.</strong> It has µ = <span class=\"tex2jax_process\">$0$</span> and standard deviation = <span class=\"tex2jax_process\">$1$</span>.<br><strong>III.</strong>  <span class=\"tex2jax_process\">$\\frac{3}{4}$</span> of the data values will be within <span class=\"tex2jax_process\">$1$</span> standard deviation of its mean.    </div></blockquote>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "I and III only."
+    },
+    {
+      "letter": "C",
+      "text": "I and II only."
+    },
+    {
+      "letter": "D",
+      "text": "II only."
+    },
+    {
+      "letter": "E",
+      "text": "I, II, and III."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "2.D",
+    "VAR-2.A.1",
+    "VAR-2",
+    "VAR-2.A"
+  ],
+  "standards": [
+    "2.D",
+    "VAR-2.A.1",
+    "VAR-2",
+    "VAR-2.A"
+  ]
+}

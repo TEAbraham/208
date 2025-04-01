@@ -1,0 +1,44 @@
+{
+  "question_id": "question-198",
+  "title": "Expected Number: Mean Chimpanzees",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Chimpanzees love bananas and also love to fight over them.  A chimpanzee has a <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-49795\"><span class=\"MJXp-mn\" id=\"MJXp-Span-49796\">5</span></span></span><span id=\"MathJax-Element-13002-Frame\" class=\"mjx-chtml MathJax_CHTML MJXc-processing\" tabindex=\"0\"></span><script type=\"math/tex\" id=\"MathJax-Element-13002\">5</script></span>% chance of being able to eat a banana before another chimpanzee steals it from him.  </div><div class=\"paragraph\">Assuming the chimpanzees are independent of one another,  how many chimpanzees do we expect it takes for one ​to finally eat a banana?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1"
+    },
+    {
+      "letter": "B",
+      "text": "5"
+    },
+    {
+      "letter": "C",
+      "text": "19"
+    },
+    {
+      "letter": "D",
+      "text": "20"
+    },
+    {
+      "letter": "E",
+      "text": "21"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.E.2",
+    "UNC-3.E",
+    "3.A",
+    "UNC-3"
+  ],
+  "standards": [
+    "UNC-3.E.2",
+    "UNC-3.E",
+    "3.A",
+    "UNC-3"
+  ]
+}

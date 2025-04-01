@@ -1,0 +1,46 @@
+{
+  "question_id": "question-019",
+  "title": "Senator Approval",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose <span class=\"tex2jax_process\">$15$</span> randomly chosen subjects are questioned on whether they approve of their U.S. senator.  </div><div class=\"paragraph\">Of these, <span class=\"tex2jax_process\">$3$</span> ​subjects approved, and <span class=\"tex2jax_process\">$12$</span> did not approve of their senator. A <span class=\"tex2jax_process\">$90\\%$</span> confidence interval was computed on this data.  </div><div class=\"paragraph\">Which of the following statements is correct?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "We are\n90\n%\nconfident that the true proportion of subjects who approve of their senator is between\n3\n%\nand\n37\n%\n."
+    },
+    {
+      "letter": "B",
+      "text": "This survey gives strong evidence that the true proportion of subjects who approve of their senator is less than\n35\n%\n."
+    },
+    {
+      "letter": "C",
+      "text": "We are\n90\n%\nconfident that the true proportion of subjects who approve of their senator is between\n13.3\n%\nand\n26.6\n%\n."
+    },
+    {
+      "letter": "D",
+      "text": "We are\n90\n%\nconfident that the true proportion of subjects who approve of their senator is between\n17\n%\nand\n23\n%\n."
+    },
+    {
+      "letter": "E",
+      "text": "A confidence interval in this situation should NOT be done as assumptions are not met."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.C",
+    "UNC-4.B",
+    "UNC-4.B.1",
+    "UNC-4",
+    "UNC-4.B.2"
+  ],
+  "standards": [
+    "4.C",
+    "UNC-4.B",
+    "UNC-4.B.1",
+    "UNC-4",
+    "UNC-4.B.2"
+  ]
+}

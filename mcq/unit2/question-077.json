@@ -1,0 +1,46 @@
+{
+  "question_id": "question-077",
+  "title": "Exponential Regression on a Scatterplot",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">If the data in a scatterplot appears to be exponential form, the best way to transform the data into linear form is to</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Plot the log of the values of the independent variable (\nx\n) against the dependent variable (\ny\n)."
+    },
+    {
+      "letter": "B",
+      "text": "Plot the values of the independent variable (\nx\n) against the log of the values of the dependent variable (\ny\n)."
+    },
+    {
+      "letter": "C",
+      "text": "Plot the log of the values of the independent variable (\nx\n) against the log of the values of the dependent variable (\ny\n)."
+    },
+    {
+      "letter": "D",
+      "text": "Plot the values of the independent variable (\nx\n) against the square root of the values of the dependent variable (\ny\n)."
+    },
+    {
+      "letter": "E",
+      "text": "Plot the values of the independent variable (\nx\n) against the reciprocal of the values of the dependent variable (\ny\n)."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-1.D.2",
+    "2.C",
+    "DAT-1",
+    "DAT-1.D",
+    "DAT-1.D.1"
+  ],
+  "standards": [
+    "DAT-1.D.2",
+    "2.C",
+    "DAT-1",
+    "DAT-1.D",
+    "DAT-1.D.1"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "question_id": "question-098",
+  "title": "Carrot Consumption and Weight",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A researcher thinks there may be a negative correlation between the number of carrots an individual consumes and that individual’s weight.  </div><div class=\"paragraph\">The researcher surveys <span class=\"tex2jax_process\">$250$</span> randomly selected females and asks each her weight and how many servings of carrots she consumes per month.  </div><div class=\"paragraph\">The researcher also surveys <span class=\"tex2jax_process\">$250$</span> randomly selected males and asks them the same questions. A scatterplot is made with different symbols for male and female data.  </div><div class=\"paragraph\">The study done by this researcher is:</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A controlled randomized experiment."
+    },
+    {
+      "letter": "B",
+      "text": "An experiment with a block design, blocking on gender."
+    },
+    {
+      "letter": "C",
+      "text": "A census."
+    },
+    {
+      "letter": "D",
+      "text": "An observational study."
+    },
+    {
+      "letter": "E",
+      "text": "A matched pairs experiment where a male could be paired with a female of similar weight."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3.D",
+    "VAR-3",
+    "DAT-2",
+    "VAR-3.D.1",
+    "1.C",
+    "DAT-2.A",
+    "DAT-2.A.3"
+  ],
+  "standards": [
+    "VAR-3.D",
+    "VAR-3",
+    "DAT-2",
+    "VAR-3.D.1",
+    "1.C",
+    "DAT-2.A",
+    "DAT-2.A.3"
+  ]
+}

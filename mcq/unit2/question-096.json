@@ -1,0 +1,48 @@
+{
+  "question_id": "question-096",
+  "title": "Finding the Actual Value When Given the Residual: Boys vs. Girls",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">The least squares regression line for boys and girls in a classroom is given by:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$\\hat { b } = -5.2 + 2.1g$$</div>  </div><div class=\"paragraph\">...where <span class=\"tex2jax_process\">$b$</span> is boys and <span class=\"tex2jax_process\">$g$</span> is girls.  </div><div class=\"paragraph\">If Mr. Law has <span class=\"tex2jax_process\">$12$</span> girls in his class and his residual is <span class=\"tex2jax_process\">$3$</span>, how many boys does he have in his class?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "17"
+    },
+    {
+      "letter": "B",
+      "text": "20"
+    },
+    {
+      "letter": "C",
+      "text": "22.2"
+    },
+    {
+      "letter": "D",
+      "text": "23"
+    },
+    {
+      "letter": "E",
+      "text": "28.2"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-1.E.1",
+    "DAT-1.E",
+    "DAT-1",
+    "2.B",
+    "DAT-1.F",
+    "DAT-1.E.2"
+  ],
+  "standards": [
+    "DAT-1.E.1",
+    "DAT-1.E",
+    "DAT-1",
+    "2.B",
+    "DAT-1.F",
+    "DAT-1.E.2"
+  ]
+}

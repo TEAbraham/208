@@ -1,0 +1,44 @@
+{
+  "question_id": "question-096",
+  "title": "Robbie's Red Cards",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A standard deck of playing cards is made up of <span class=\"tex2jax_process\">$26\\text{ red cards}$</span> and <span class=\"tex2jax_process\">$26\\text{ black cards}$</span>.  Robbie obtains <span class=\"tex2jax_process\">$5$</span> identical decks of cards. He shuffles and deals a card and records its color.  He replaces the card in the deck and repeats this process <span class=\"tex2jax_process\">$25\\text{ times}$</span>, obtaining <span class=\"tex2jax_process\">$10\\text{ red cards}$</span> and <span class=\"tex2jax_process\">$15\\text{ black cards}$</span> - only <span class=\"tex2jax_process\">$40\\%$</span> red!  </div><div class=\"paragraph\">Robbie wonders if the stack of cards has an unusually small proportion of red cards.  </div><div class=\"paragraph\">What is the probability of obtaining a sample proportion less than or equal to <span class=\"tex2jax_process\">$0.4$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.16"
+    },
+    {
+      "letter": "B",
+      "text": "0.26"
+    },
+    {
+      "letter": "C",
+      "text": "0.74"
+    },
+    {
+      "letter": "D",
+      "text": "0.84"
+    },
+    {
+      "letter": "E",
+      "text": "The conditions for using the normal model are not met in this situation."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.K.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.K"
+  ],
+  "standards": [
+    "UNC-3.K.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.K"
+  ]
+}

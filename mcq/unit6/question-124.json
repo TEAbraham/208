@@ -1,0 +1,46 @@
+{
+  "question_id": "question-124",
+  "title": "Conditions for 2-sample $z$-test for Proportions",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Which of the following is not a condition necessary for conducting a two-sample <span class=\"tex2jax_process\">$z$</span>-test for proportions?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "We have a random sample from each of the two populations or from each of two different treatment groups."
+    },
+    {
+      "letter": "B",
+      "text": "The samples are independent of each other."
+    },
+    {
+      "letter": "C",
+      "text": "Each of the two populations is sufficiently larger than their respective sample size."
+    },
+    {
+      "letter": "D",
+      "text": "The total number of observations must be at least\n30\nor we must know that the population distribution is approximately normal."
+    },
+    {
+      "letter": "E",
+      "text": "For each population, we expect a sufficient number of successes and a sufficient number of failures."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.D.2",
+    "DAT-3",
+    "DAT-3.D",
+    "VAR-6"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3.D.2",
+    "DAT-3",
+    "DAT-3.D",
+    "VAR-6"
+  ]
+}

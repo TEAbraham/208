@@ -1,0 +1,44 @@
+{
+  "question_id": "question-149",
+  "title": "Those Testing Errors",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A company manufactures television sets.  It wants to keep the number of defective sets it makes low and believes that it makes fewer that <span class=\"tex2jax_process\">$1\\%$</span> defective sets.  The company tests this claim using a test of proportions with a significance level of <span class=\"tex2jax_process\">$0.05$</span>.  The power of the test is <span class=\"tex2jax_process\">$0.80$</span>.  Which of the following gives the probability of a Type II error for this test?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.80"
+    },
+    {
+      "letter": "B",
+      "text": "0.20"
+    },
+    {
+      "letter": "C",
+      "text": "0.05"
+    },
+    {
+      "letter": "D",
+      "text": "0.95"
+    },
+    {
+      "letter": "E",
+      "text": "0.01"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-5",
+    "UNC-5.B.3",
+    "UNC-5.B",
+    "3.A"
+  ],
+  "standards": [
+    "UNC-5",
+    "UNC-5.B.3",
+    "UNC-5.B",
+    "3.A"
+  ]
+}

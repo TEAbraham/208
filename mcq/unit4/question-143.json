@@ -1,0 +1,46 @@
+{
+  "question_id": "question-143",
+  "title": "Combining Random Variables: The McKing Challenge",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A small fry weighs <span class=\"tex2jax_process\">$3$</span> ounces with a standard deviation of <span class=\"tex2jax_process\">$0.2$</span> ounces and a cheeseburger weighs <span class=\"tex2jax_process\">$5$</span> ounces with a standard deviation of <span class=\"tex2jax_process\">$0.4$</span> ounces.  Jimmy makes a heart attack bet with one of his friends that he can eat <span class=\"tex2jax_process\">$4$</span> small fries and <span class=\"tex2jax_process\">$4$</span> cheeseburgers in 10 minutes.  </div><div class=\"paragraph\">Not only do we want to know if Jimmy can accomplish this heart attack goal, but what is the total mean and standard deviation in ounces  for the <span class=\"tex2jax_process\">$4$</span> cheeseburgers and <span class=\"tex2jax_process\">$4$</span> small fries that Jimmy is about to devour?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Mean =\n8\nounces\nStandard Deviation =\n0.80\nounces"
+    },
+    {
+      "letter": "B",
+      "text": "Mean =\n8\nounces\nStandard Deviation =\n0.89\nounces"
+    },
+    {
+      "letter": "C",
+      "text": "Mean =\n32\nounces\nStandard Deviation =\n2.4\nounces"
+    },
+    {
+      "letter": "D",
+      "text": "Mean =\n32\nounces\nStandard Deviation =\n0.80\nounces"
+    },
+    {
+      "letter": "E",
+      "text": "Mean =\n32\nounces\nStandard Deviation =\n0.89\nounces"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5.E.3",
+    "VAR-5",
+    "3.B"
+  ],
+  "standards": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5.E.3",
+    "VAR-5",
+    "3.B"
+  ]
+}

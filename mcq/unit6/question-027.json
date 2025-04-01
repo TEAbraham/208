@@ -1,0 +1,44 @@
+{
+  "question_id": "question-027",
+  "title": "Part $1$: Which Interval is Wider?",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A group of students has collected data from a random sample. They need to decide between a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval and a <span class=\"tex2jax_process\">$99\\%$</span> confidence interval.  </div><div class=\"paragraph\">How will these intervals differ?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The\n95\n%\nconfidence interval will be wider than the\n99\n%\nconfidence interval."
+    },
+    {
+      "letter": "B",
+      "text": "The\n99\n%\nconfidence interval will be wider than the\n95\n%\nconfidence interval."
+    },
+    {
+      "letter": "C",
+      "text": "The\n95\n%\nconfidence interval and\n99\n%\nconfidence interval will be the same length, as they are both from the same random sample."
+    },
+    {
+      "letter": "D",
+      "text": "To determine which confidence interval will be wider, we need to know the sample size."
+    },
+    {
+      "letter": "E",
+      "text": "To determine which confidence interval will be wider, we need to know whether the students used the population variance or the sample variance."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.H.2",
+    "UNC-4.H",
+    "UNC-4",
+    "4.A"
+  ],
+  "standards": [
+    "UNC-4.H.2",
+    "UNC-4.H",
+    "UNC-4",
+    "4.A"
+  ]
+}

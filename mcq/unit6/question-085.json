@@ -1,0 +1,51 @@
+{
+  "question_id": "question-085",
+  "title": "Reducing the Probability of a Type I Error",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">For a summer internship with a statistical consulting company, Alison proposed conducting a one-sided (greater than) significance test at the <span class=\"tex2jax_process\">$\\alpha = 0.05$</span> level.  Her supervisor suggested that she try to reduce her probability of making a type I error.  If Alison does adjust her significance test so that the possibility of a type I error is reduced, which of the following will also happen?  Assume that Alison will still be conducting a one-sided test with the same sample size.</div><blockquote><div class=\"paragraph\"><strong>I.</strong> The significance level of the test will be increased.<br><strong>II.</strong> The probability of making a type II error will be increased.<br><strong>III.</strong> The power of the test will be decreased.    </div></blockquote>",
+  "image_files": [
+    "images/question-085-img1.PNG",
+    "images/question-085-img2.PNG",
+    "images/question-085-img3.PNG",
+    "images/question-085-img4.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and III only."
+    },
+    {
+      "letter": "E",
+      "text": "II and III only."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-5.D.1",
+    "UNC-5",
+    "UNC-5.D.2",
+    "UNC-5.D"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-5.D.1",
+    "UNC-5",
+    "UNC-5.D.2",
+    "UNC-5.D"
+  ]
+}

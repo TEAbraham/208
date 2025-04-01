@@ -1,0 +1,46 @@
+{
+  "question_id": "question-081",
+  "title": "Police Tickets | 2 of 2",
+  "difficulty": "Moderate",
+  "question_text": "\n<div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">X</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th><th scope=\"col\">6</th></tr></thead><tbody><tr><td>P(X)</td><td>0.04</td><td>0.11</td><td>0.33</td><td>0.35</td><td>0.14</td><td>0.03</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>A local police officer gives out between <span class=\"tex2jax_process\">$1$</span> and <span class=\"tex2jax_process\">$6\\text{ tickets a day}$</span>, the probability distribution table of which is shown above, where <span class=\"tex2jax_process\">$X$</span> is the number of tickets handed out on any given day.  </div><div class=\"paragraph\">Assume the number of tickets given out these two days is independent.  </div><div class=\"paragraph\">If the officer works two days in a row, what is the probability that she gives out more than <span class=\"tex2jax_process\">$10\\text{ tickets}$</span> during these two days?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.0009"
+    },
+    {
+      "letter": "B",
+      "text": "0.0042"
+    },
+    {
+      "letter": "C",
+      "text": "0.1073"
+    },
+    {
+      "letter": "D",
+      "text": "0.0093"
+    },
+    {
+      "letter": "E",
+      "text": "0.0602"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ],
+  "standards": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-083",
+  "title": "Ice Cream Containers",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">An ice cream company ran two assembly lines for two of its most popular flavors.  Assembly line <span class=\"tex2jax_process\">$1$</span> had a mean container weight of <span class=\"tex2jax_process\">$15.8$</span> ounces with a standard deviation of <span class=\"tex2jax_process\">$0.6$</span> ounces.  Assembly line <span class=\"tex2jax_process\">$2$</span> had a mean container weight of <span class=\"tex2jax_process\">$16.1$</span> ounces with a standard deviation of <span class=\"tex2jax_process\">$0.7$</span> ounces.  If <span class=\"tex2jax_process\">$40$</span> containers are to be sampled from each assembly line, what is the probability that the weights do not differ by more than <span class=\"tex2jax_process\">$0.1$</span> ounce in either direction?  Round your answer to the nearest percent.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "9\n%"
+    },
+    {
+      "letter": "B",
+      "text": "91\n%"
+    },
+    {
+      "letter": "C",
+      "text": "Nearly 1"
+    },
+    {
+      "letter": "D",
+      "text": "88\n%"
+    },
+    {
+      "letter": "E",
+      "text": "41\n%"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-3",
+    "UNC-3.V",
+    "UNC-3.V.1"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-3",
+    "UNC-3.V",
+    "UNC-3.V.1"
+  ]
+}

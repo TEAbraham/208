@@ -1,0 +1,44 @@
+{
+  "question_id": "question-116",
+  "title": "Four Truths and a Lie About Random Variables",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Which of the following statements is NOT true about random variables?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The mean of a random variable is a weighted average which takes into account the probability of each possible outcome."
+    },
+    {
+      "letter": "B",
+      "text": "The expected value of a random variable must always be a whole number."
+    },
+    {
+      "letter": "C",
+      "text": "The mean and the expected value of a random variable are different vocabulary terms that express the same quantity."
+    },
+    {
+      "letter": "D",
+      "text": "Multiplying the values of a random variable by a constant will also multiply the mean of the random variable by that constant."
+    },
+    {
+      "letter": "E",
+      "text": "The standard deviation of a random variable is not affected when each of the values of the random variable is increased by the same constant."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.D.1",
+    "VAR-5.D",
+    "4.B",
+    "VAR-5"
+  ],
+  "standards": [
+    "VAR-5.D.1",
+    "VAR-5.D",
+    "4.B",
+    "VAR-5"
+  ]
+}

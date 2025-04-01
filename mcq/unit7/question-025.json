@@ -1,0 +1,44 @@
+{
+  "question_id": "question-025",
+  "title": "Interpret Income | 1 of 2",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Last year, the mean annual income of residents in a small town was <span class=\"tex2jax_process\">$\\$49,382$</span>.  </div><div class=\"paragraph\">This year, a random sample of <span class=\"tex2jax_process\">$100$</span> residents in the same town found an annual income of <span class=\"tex2jax_process\">$\\$52,301$</span>. A <span class=\"tex2jax_process\">$95\\%$</span> confidence interval was calculated and extended from <span class=\"tex2jax_process\">$\\$50,199$</span> to <span class=\"tex2jax_process\">$\\$54,403$</span>.  </div><div class=\"paragraph\">Which of the following statements is correct concerning this interval?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "It seems likely that mean income for this town has risen from last year."
+    },
+    {
+      "letter": "B",
+      "text": "We’re\n95\n%\nconfident that the true mean income of the town this year is\n$\n52\n,\n301\n."
+    },
+    {
+      "letter": "C",
+      "text": "We’re\n95\n%\nconfident the true population mean salary of this town last year was between\n$\n50\n,\n199\nand\n$\n54\n,\n403\n."
+    },
+    {
+      "letter": "D",
+      "text": "We’re\n95\n%\nconfident the sample mean from this year’s survey is between\n$\n50\n,\n199\nand\n$\n54\n,\n403\n."
+    },
+    {
+      "letter": "E",
+      "text": "95\n%\nof samples such as this one would give an interval that captures the population mean of\n$\n49\n,\n382\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.P.1",
+    "4.C",
+    "UNC-4",
+    "UNC-4.P"
+  ],
+  "standards": [
+    "UNC-4.P.1",
+    "4.C",
+    "UNC-4",
+    "UNC-4.P"
+  ]
+}

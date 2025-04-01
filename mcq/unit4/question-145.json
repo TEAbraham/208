@@ -1,0 +1,46 @@
+{
+  "question_id": "question-145",
+  "title": "Don't Worry, Bee Happy: Combined Variance",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\"><em>Don't Worry, Bee Happy</em> is a store that sells artisanal honey.  One of their best sellers is Wild Wildflower Honey, packaged in glass jars that are labeled as containing <span class=\"tex2jax_process\">$8\\text{ ounces}$</span> of honey.  The owners want to make very sure that their customers are happy however, so the actual mean amount of honey contained in the jars is <span class=\"tex2jax_process\">$8.05\\text{ ounces}$</span>.  And while production standards are tight, not all jars contain exactly <span class=\"tex2jax_process\">$8.05\\text{ ounces}$</span>.  In fact, the standard deviation is <span class=\"tex2jax_process\">$0.09\\text{ ounces}$</span>.  </div><div class=\"paragraph\">For true lovers of Wild Wildflower Honey (and for those looking for a more economical way to purchase several jars), the store offers a special <span class=\"tex2jax_process\">$3$</span>-pack consisting of three individual <span class=\"tex2jax_process\">$8\\text{ ounce}$</span> jars of Wild Wildflower Honey.  </div><div class=\"paragraph\">Since knowing the actual weight of one jar of honey will tell you nothing about the actual weight of another jar of honey, the weights of all <span class=\"tex2jax_process\">$3$</span> jars in the pack would be considered independent.  </div><div class=\"paragraph\">Which of the following shows how to calculate the variance of the number of ounces of honey in the <span class=\"tex2jax_process\">$3$</span>-pack? </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "3\n⋅\n(\n0.09\n)\n2"
+    },
+    {
+      "letter": "B",
+      "text": "[\n(\n3\n)\n⋅\n(\n0.09\n)\n]\n2"
+    },
+    {
+      "letter": "C",
+      "text": "(\n3\n2\n)\n⋅\n(\n0.09\n)"
+    },
+    {
+      "letter": "D",
+      "text": "(\n3.09\n)\n2"
+    },
+    {
+      "letter": "E",
+      "text": "(\n3\n)\n⋅\n(\n0.09\n)"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ],
+  "standards": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

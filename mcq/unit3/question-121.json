@@ -1,0 +1,44 @@
+{
+  "question_id": "question-121",
+  "title": "Matched Pairs",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose a teacher wants to determine whether the <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7506-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>30</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-34791\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-34792\" class=\"mjx-mrow\"><span id=\"MJXc-Node-34793\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">30</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7506\">30</script></span> students in her class learn better by class lecture or by computer program.  </div><div class=\"paragraph\">What would be an appropriate matched pairs design to determine this?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Shuffle the students’ names in a hat and draw\n15\nnames. These students will learn by class lecture while the remaining will learn by computer program. Compare results."
+    },
+    {
+      "letter": "B",
+      "text": "Have all students learn by class lecture for the first unit, then have the same students learn by computer program for the second unit. Compare differences in test scores for each student."
+    },
+    {
+      "letter": "C",
+      "text": "Shuffle students’ names in a hat and draw two names. These students will be a pair. Then flip a coin to determine which student will learn by class lecture and which will learn by computer program. Repeat this process for the remaining students and measure differences in test scores for each of the\n15\npairs."
+    },
+    {
+      "letter": "D",
+      "text": "Use class rank to pair students together, starting with the two top-ranked students and pairing through the two lowest-ranked students. Flip a coin for each pair to determine which student will learn by class lecture and which will learn by computer program. Repeat this process for the remaining pairs, then measure differences in achievement for the\n15\npairs."
+    },
+    {
+      "letter": "E",
+      "text": "Divide the students by gender and randomly select half of the males to learn by class lecture while the other half learns by computer program. Repeat this process for the females, then compare differences in achievement for the groups."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3.D",
+    "VAR-3",
+    "VAR-3.D.1",
+    "1.C"
+  ],
+  "standards": [
+    "VAR-3.D",
+    "VAR-3",
+    "VAR-3.D.1",
+    "1.C"
+  ]
+}

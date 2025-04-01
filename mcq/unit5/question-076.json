@@ -1,0 +1,44 @@
+{
+  "question_id": "question-076",
+  "title": "Orange Meese's Pieces",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The Meese's company claims that you should find an average of <span class=\"tex2jax_process\">$240$</span> orange candies in the jumbo bag of <span class=\"tex2jax_process\">$600$</span> candies.  The orange candies are normally distributed and have a standard deviation of <span class=\"tex2jax_process\">$6$</span> candies.  If you sampled a number of these bags and found between <span class=\"tex2jax_process\">$225$</span> and <span class=\"tex2jax_process\">$250$</span> orange pieces, how would you write this interval as a probability?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "P\n(\n−\n2.5\n<\nX\n<\n1.67\n)\n=\n0.9463"
+    },
+    {
+      "letter": "B",
+      "text": "P\n(\n−\n2.5\n<\nz\n<\n1.67\n)\n=\n0.9525"
+    },
+    {
+      "letter": "C",
+      "text": "P\n(\n225\n<\nX\n<\n250\n)\n=\n0.9463"
+    },
+    {
+      "letter": "D",
+      "text": "P\n(\n225\n<\nX\n<\n250\n)\n=\n0.0537"
+    },
+    {
+      "letter": "E",
+      "text": "P\n(\n225\n<\nX\n<\n250\n)\n=\n0.9587"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-6.B",
+    "3.A",
+    "VAR-6.B.1",
+    "VAR-6"
+  ],
+  "standards": [
+    "VAR-6.B",
+    "3.A",
+    "VAR-6.B.1",
+    "VAR-6"
+  ]
+}

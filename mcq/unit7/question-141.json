@@ -1,0 +1,46 @@
+{
+  "question_id": "question-141",
+  "title": "Drawing Conclusions: Employee Experience",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Two large supermarket chains are interested in comparing the experience, in years, that their employees have. The summary statistics are below:</div><blockquote><div class=\"paragraph\">Store <span class=\"tex2jax_process\">$1$</span> : mean = <span class=\"tex2jax_process\">$5.4, { S }_{ x }= 3.2, n = 34 $</span>  </div><div class=\"paragraph\">Store <span class=\"tex2jax_process\">$2$</span> : mean = <span class=\"tex2jax_process\">$6.1, { S }_{ x }= 3.6, n = 36$</span>  </div></blockquote><div class=\"paragraph\">When performing a two-sample <span class=\"tex2jax_process\">$T$</span>-test on <span class=\"tex2jax_process\">$H_0: { u }_{ 1 }={ u }_{ 2 }$</span> versus <span class=\"tex2jax_process\">$H_a:  { u }_{ 1 } &lt; { u }_{ 2 } $</span>, what conclusion can be made?  </div><div class=\"paragraph\">Define <span class=\"tex2jax_process\">${ u }_{ 1 }$</span> as the average experience at store <span class=\"tex2jax_process\">$1$</span>, and <span class=\"tex2jax_process\">${ u }_{ 2 }$</span> as the average experience at store <span class=\"tex2jax_process\">$2$</span>.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Evidence exists that the stores’ employees have the same amount of experience, at the\n10\n%\nlevel."
+    },
+    {
+      "letter": "B",
+      "text": "Evidence exists that the second has employees with more experience than those at the first store, significant at the\n10\n%\nlevel, but not at the\n5\n%\nor\n1\n%\nlevels."
+    },
+    {
+      "letter": "C",
+      "text": "Evidence exists the second store has employees with more experience than those at the first store\n1\n, significant at the\n5\n%\nlevel."
+    },
+    {
+      "letter": "D",
+      "text": "There is insufficient evidence that employees at the second store have more experience than those at the first store, at the\n10\n%\nlevel."
+    },
+    {
+      "letter": "E",
+      "text": "There is no evidence of there not being a difference in employee experience between the two stores, at the\n10\n%\nlevel."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.H.1",
+    "DAT-3",
+    "DAT-3.H",
+    "DAT-3.H.2"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3.H.1",
+    "DAT-3",
+    "DAT-3.H",
+    "DAT-3.H.2"
+  ]
+}

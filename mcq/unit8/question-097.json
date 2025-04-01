@@ -1,0 +1,46 @@
+{
+  "question_id": "question-097",
+  "title": "Homogeneity of Populations Chi-Square Test",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A car rental company is conducting a study regarding the types of car preferred by customers at the company’s various locations.  The table below summarizes the reservations over a seven-day period at three of the company’s locations.</div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Type of Car</th><th scope=\"col\">Compact</th><th scope=\"col\">Standard</th><th scope=\"col\">Full Size</th><th scope=\"col\">Other</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td><span class=\"tex2jax_process\">$\\text {Location } 1$</span></td><td><span class=\"tex2jax_process\">$70$</span></td><td><span class=\"tex2jax_process\">$75$</span></td><td><span class=\"tex2jax_process\">$40$</span></td><td><span class=\"tex2jax_process\">$59$</span></td><td><span class=\"tex2jax_process\">$244$</span></td></tr><tr><td><span class=\"tex2jax_process\">$\\text {Location } 2$</span></td><td><span class=\"tex2jax_process\">$80$</span></td><td><span class=\"tex2jax_process\">$78$</span></td><td><span class=\"tex2jax_process\">$47$</span></td><td><span class=\"tex2jax_process\">$62$</span></td><td><span class=\"tex2jax_process\">$267$</span></td></tr><tr><td><span class=\"tex2jax_process\">$\\text {Location } 3$</span></td><td><span class=\"tex2jax_process\">$96$</span></td><td><span class=\"tex2jax_process\">$64$</span></td><td><span class=\"tex2jax_process\">$68$</span></td><td><span class=\"tex2jax_process\">$51$</span></td><td><span class=\"tex2jax_process\">$279$</span></td></tr></tbody></table></div><div class=\"paragraph\">The company is willing to consider the <span class=\"tex2jax_process\">$244$</span> reservations at Location <span class=\"tex2jax_process\">$1$</span> as a random sample from the set of all reservations at Location <span class=\"tex2jax_process\">$1$</span>, the <span class=\"tex2jax_process\">$267$</span> reservations at Location <span class=\"tex2jax_process\">$2$</span> as a random sample from the set of all reservations at Location <span class=\"tex2jax_process\">$2$</span>, and the <span class=\"tex2jax_process\">$279$</span> reservations at Location <span class=\"tex2jax_process\">$3$</span> as a random sample from the set of all reservations at Location <span class=\"tex2jax_process\">$3$</span>.  </div><div class=\"paragraph\">If a significance level of <span class=\"tex2jax_process\">$0.05$</span> is used, does these data provide sufficient evidence to indicate a difference in the distributions of the car types between the populations of reservations at the three locations?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes, because the\nP\n-value is less than\n0.01\n."
+    },
+    {
+      "letter": "B",
+      "text": "Yes, because the\nP\n-value is less than\n0.05\n."
+    },
+    {
+      "letter": "C",
+      "text": "Yes, because the\nP\n-value is greater than\n0.05\n."
+    },
+    {
+      "letter": "D",
+      "text": "No, because the\nP\n-value is greater than\n0.05\n."
+    },
+    {
+      "letter": "E",
+      "text": "No, because the\nP\n-value is greater than\n0.95\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice ‘D’</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.L",
+    "DAT-3",
+    "DAT-3.L.2",
+    "DAT-3.L.1"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3.L",
+    "DAT-3",
+    "DAT-3.L.2",
+    "DAT-3.L.1"
+  ]
+}

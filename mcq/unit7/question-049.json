@@ -1,0 +1,44 @@
+{
+  "question_id": "question-049",
+  "title": "One Mean $z$-interval: Finding the Minimum Sample Size",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">You are sampling from a population with a known standard deviation of <span class=\"tex2jax_process\">$10$</span> and an unknown population mean. You want to construct a <span class=\"tex2jax_process\">$99\\%$</span> confidence interval, with a margin of error of no more than <span class=\"tex2jax_process\">$4$</span>.  </div><div class=\"paragraph\">What is the minimum sample that will produce this interval?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "6"
+    },
+    {
+      "letter": "B",
+      "text": "7"
+    },
+    {
+      "letter": "C",
+      "text": "25"
+    },
+    {
+      "letter": "D",
+      "text": "41"
+    },
+    {
+      "letter": "E",
+      "text": "42"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.D",
+    "UNC-4.U",
+    "UNC-4",
+    "UNC-4.U.3"
+  ],
+  "standards": [
+    "4.D",
+    "UNC-4.U",
+    "UNC-4",
+    "UNC-4.U.3"
+  ]
+}

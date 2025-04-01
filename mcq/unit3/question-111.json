@@ -1,0 +1,48 @@
+{
+  "question_id": "question-111",
+  "title": "Caffeine Wars",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Does a high level of caffeine in a drink help teenagers stay awake longer, or does it actually have the opposite effect?   A psychologist will investigate this issue using <span class=\"tex2jax_process\">$94\\text{ subjects}$</span> who complain of frequent fatigue at the end of the day.  The psychologist will instruct the subjects to drink either soda (<span class=\"tex2jax_process\">$15 - 23\\text{ mg}$</span> caffeine per serving) or coffee (<span class=\"tex2jax_process\">$95 - 150\\text{ mg}$</span> caffeine per serving) when they feel like they cannot stay awake any longer.  The subjects will record the amount of additional time they are able to stay awake.  </div><div class=\"paragraph\">While collecting preliminary information from his subjects, the psychologist finds that some work in dimly lit rooms at the end of the day and some work in brightly lit rooms.  Previous studies have shown that brightly lit rooms reduce fatigue.  </div><div class=\"paragraph\">On what variable should the experiment be blocked?  Why?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The psychologist should block on the lighting in the room because he wants to see if it affects how late a person can stay awake."
+    },
+    {
+      "letter": "B",
+      "text": "The psychologist should block on the lighting in the subjects' rooms because he knows that room lighting affects how late a person can stay awake."
+    },
+    {
+      "letter": "C",
+      "text": "The psychologist should block on the type of caffeinated drink because he wants to see if the amount of caffeine affects how late a person can stay awake."
+    },
+    {
+      "letter": "D",
+      "text": "The psychologist should block on the type of caffeinated drink because he knows that the amount of caffeine affects how late a person can stay awake."
+    },
+    {
+      "letter": "E",
+      "text": "This experiment should not be blocked because blocking will not improve the design."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3.D",
+    "VAR-3",
+    "VAR-3.C.8",
+    "VAR-3.D.1",
+    "1.C",
+    "VAR-3.C"
+  ],
+  "standards": [
+    "VAR-3.D",
+    "VAR-3",
+    "VAR-3.C.8",
+    "VAR-3.D.1",
+    "1.C",
+    "VAR-3.C"
+  ]
+}

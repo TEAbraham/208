@@ -1,0 +1,44 @@
+{
+  "question_id": "question-069",
+  "title": "Take Me Out to the Ballgame: Find the Probability",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The table below shows the distribution of the types of tickets that were sold for a minor league baseball game.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Seat Type</th><th scope=\"col\">Field Box</th><th scope=\"col\">Reserved Box</th><th scope=\"col\">Grandstand <br>Reserved</th><th scope=\"col\">Bleachers</th><th scope=\"col\">Picnic Area / Standing</th></tr></thead><tbody><tr><td>Relative Frequency</td><td>38%</td><td>20%</td><td>14%</td><td></td><td>6%</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>If one ticket holder at this game is selected at random to receive free tickets to an upcoming game, what is the probability that the winner is seated in either a field box seat or in the bleachers?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.06"
+    },
+    {
+      "letter": "B",
+      "text": "0.22"
+    },
+    {
+      "letter": "C",
+      "text": "0.38"
+    },
+    {
+      "letter": "D",
+      "text": "0.6"
+    },
+    {
+      "letter": "E",
+      "text": "0.94"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E",
+    "3.A",
+    "VAR-4",
+    "VAR-4.E.4"
+  ],
+  "standards": [
+    "VAR-4.E",
+    "3.A",
+    "VAR-4",
+    "VAR-4.E.4"
+  ]
+}

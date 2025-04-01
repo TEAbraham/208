@@ -1,0 +1,44 @@
+{
+  "question_id": "question-012",
+  "title": "Average Price of Homes: T Procedures",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A realtor is interested in the average price of homes in his state. He randomly selects <span class=\"tex2jax_process\">$16\\text{ homes}$</span> and records the prices.  </div><div class=\"paragraph\">Under what conditions could <span class=\"tex2jax_process\">$T$</span> procedures be safely used in this situation?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "As long as the sample is larger, say over\n30\n,\nT\nprocedures could be used in this case."
+    },
+    {
+      "letter": "B",
+      "text": "T\nprocedures can be used only if the problem states that the parent population is approximately normal."
+    },
+    {
+      "letter": "C",
+      "text": "T\nprocedures cannot be used in this situation as it would be more appropriate to use\nZ\nprocedures."
+    },
+    {
+      "letter": "D",
+      "text": "T\nprocedures can be used in this situation as is."
+    },
+    {
+      "letter": "E",
+      "text": "T\nprocedures can be used in this situation as long as a graph of the data shows no strong skewness or outliers."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.P.1",
+    "4.C",
+    "UNC-4",
+    "UNC-4.P"
+  ],
+  "standards": [
+    "UNC-4.P.1",
+    "4.C",
+    "UNC-4",
+    "UNC-4.P"
+  ]
+}

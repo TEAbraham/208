@@ -1,0 +1,44 @@
+{
+  "question_id": "question-073",
+  "title": "Events A and B",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Consider events A and B. Suppose the following:</div><blockquote><div class=\"paragraph\"><span class=\"tex2jax_process\">$\\text{P(event A and not B)} = 0.12$</span><br><span class=\"tex2jax_process\">$\\text{P(event B and not A)} = 0.22$</span><br><span class=\"tex2jax_process\">$\\text{P(events A and B)} = 0.18$</span>  </div></blockquote><div class=\"paragraph\">Are events A and B independent?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "It is clear that events A and B are not independent since\nP(A and B)\nis greater than zero."
+    },
+    {
+      "letter": "B",
+      "text": "Events A and B are independent since at least one of them must occur."
+    },
+    {
+      "letter": "C",
+      "text": "Events A and B are not independent since\n0.12\n+\n0.22\n+\n0.18\nis not equal to\n1\n, or\n100\n%\n."
+    },
+    {
+      "letter": "D",
+      "text": "Events A and B are not independent since (\n0.3\n⋅\n0.4\n) is not equal to\n0.18\n."
+    },
+    {
+      "letter": "E",
+      "text": "Events A and B are not independent since (\n0.12\n⋅\n0.22\n) is not equal to\n0.18\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2"
+  ],
+  "standards": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2"
+  ]
+}

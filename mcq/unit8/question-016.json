@@ -1,0 +1,44 @@
+{
+  "question_id": "question-016",
+  "title": "Chi-Squared Distribution Attributes",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A chi-squared distribution</div><blockquote><div class=\"paragraph\"><strong>I.</strong> Will be approximately normal.  </div><div class=\"paragraph\"><strong>II.</strong> Will have n-<span class=\"tex2jax_process\">$1$</span> degrees of freedom, where <span class=\"tex2jax_process\">$n$</span> is the sample size.  </div><div class=\"paragraph\"><strong>III.</strong> Can only be used to determine if there is a difference, not the direction of the difference.</div></blockquote>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and II only."
+    },
+    {
+      "letter": "E",
+      "text": "II and III only."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.C",
+    "VAR-8.C.1",
+    "VAR-8",
+    "1.E"
+  ],
+  "standards": [
+    "VAR-8.C",
+    "VAR-8.C.1",
+    "VAR-8",
+    "1.E"
+  ]
+}

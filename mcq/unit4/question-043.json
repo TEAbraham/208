@@ -1,0 +1,44 @@
+{
+  "question_id": "question-043",
+  "title": "Probability Distribution: Everybody Needs a Hero Part III",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">At <em>Burger Bell</em> when someone buys a <em>Hero Meal</em> they receive an action figure.  The distribution of action figures is shown in the table below.\n<br></div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Action Figure</th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th></tr></thead><tbody><tr><td>P(x)</td><td>0.30</td><td>0.10</td><td>0.10</td><td>0.50</td></tr></tbody></table></div><br>\n<div class=\"paragraph\"> <em>Burger Bell</em> has just run out of <strong>Action Figure D</strong>.  What is the probability someone now receives <strong>Action Figure A</strong> when they buy a <em>Hero Meal</em>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.30"
+    },
+    {
+      "letter": "B",
+      "text": "0.33"
+    },
+    {
+      "letter": "C",
+      "text": "0.40"
+    },
+    {
+      "letter": "D",
+      "text": "0.60"
+    },
+    {
+      "letter": "E",
+      "text": "0.90"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "3.A",
+    "VAR-4.D.2",
+    "VAR-4",
+    "VAR-4.D"
+  ],
+  "standards": [
+    "3.A",
+    "VAR-4.D.2",
+    "VAR-4",
+    "VAR-4.D"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "question_id": "question-111",
+  "title": "Finding the LSRL from a Computer Output: Height and Wingspan",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">NBA scouts are always interested in the relationship between the height of NBA players and their respective wingspans. An NBA scout randomly selects <span class=\"tex2jax_process\">$20$</span> players and measures their heights and wingspans. Below is the computer regression analysis of height  and wingspan.  </div><div class=\"paragraph\">Dependent variable: Wingspan<br><span class=\"tex2jax_process\">$R^2 = 0.787$</span><br><span class=\"tex2jax_process\">$S = 2.23$</span><br>Degrees of Freedom = <span class=\"tex2jax_process\">$18$</span>\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">Coefficient</th><th scope=\"col\">SE(Coeff)</th><th scope=\"col\">t-ratio</th><th scope=\"col\">P-value</th></tr></thead><tbody><tr><td>Constant</td><td>-2.273</td><td>0.39</td><td>-5.83</td><td>&lt;0.0001</td></tr><tr><td>Height</td><td>1.084</td><td>0.24</td><td>4.52</td><td>&lt;0.0001</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Write the equation for the least squares regression line. </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "ˆ\nw\ni\nn\ng\ns\np\na\nn\n=\n−\n2.273\n+\n1.084\n height"
+    },
+    {
+      "letter": "B",
+      "text": "ˆ\nw\ni\nn\ng\ns\np\na\nn\n=\n1.084\n−\n2.273\n height"
+    },
+    {
+      "letter": "C",
+      "text": "ˆ\nh\ne\ni\ng\nh\nt\n=\n1.084\n−\n2.273\n wingspan"
+    },
+    {
+      "letter": "D",
+      "text": "ˆ\nh\ne\ni\ng\nh\nt\n=\n−\n2.273\n+\n1.084\n wingspan"
+    },
+    {
+      "letter": "E",
+      "text": "ˆ\nh\ne\ni\ng\nh\nt\n=\n0.787\n+\n2.23\n wingspan"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.H.2",
+    "DAT-1.H",
+    "DAT-1",
+    "DAT-1.H.3",
+    "DAT-1.H.1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-1.H.2",
+    "DAT-1.H",
+    "DAT-1",
+    "DAT-1.H.3",
+    "DAT-1.H.1"
+  ]
+}

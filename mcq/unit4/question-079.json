@@ -1,0 +1,46 @@
+{
+  "question_id": "question-079",
+  "title": "Probability of Winning a Basketball Game",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A basketball team plays <span class=\"tex2jax_process\">$60\\%$</span> of its games at home.  </div><div class=\"paragraph\">The home-court advantage is obvious because the team wins <span class=\"tex2jax_process\">$70\\%$</span> of all its home games and only <span class=\"tex2jax_process\">$35\\%$</span> of their away games. Suppose the team plays one game.  </div><div class=\"paragraph\">What is the probability that they won the game?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.42"
+    },
+    {
+      "letter": "B",
+      "text": "0.48"
+    },
+    {
+      "letter": "C",
+      "text": "0.5"
+    },
+    {
+      "letter": "D",
+      "text": "0.56"
+    },
+    {
+      "letter": "E",
+      "text": "0.6"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E.3",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ],
+  "standards": [
+    "VAR-4.E.3",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ]
+}

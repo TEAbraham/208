@@ -1,0 +1,44 @@
+{
+  "question_id": "question-054",
+  "title": "Test and Degrees of Freedom: English vs. Math",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Some people claim that you can't be good at both Math and English.  Lewis wondered about this and decided to investigate whether or not there was a relationship between a student's final grade (out of <span class=\"tex2jax_process\">$100\\%$</span>) in Math and the student's final grade (out of <span class=\"tex2jax_process\">$100\\%$</span>) in English during his/her freshman year of high school.  </div><div class=\"paragraph\">He gathered a random sample of <span class=\"tex2jax_process\">$25\\text{ students}$</span> who had just completed their freshman year at his high school and recorded both their final grade in Math and their final grade in English (both in percents).  </div><div class=\"paragraph\">If Lewis is willing to accept that his sample is representative of what would be found in other high schools as well and assumes that all conditions for inference are met, what type of test should he conduct AND how many degrees of freedom should he use? ​</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Lewis should conduct a\n1\n-sample\nz\n-test for proportions. Since he will use a\nz\n-test, there is no need to identify degrees of freedom."
+    },
+    {
+      "letter": "B",
+      "text": "Lewis should conduct a\n2\n-sample\nt\n-test for means and should use\n24\ndegrees of freedom."
+    },
+    {
+      "letter": "C",
+      "text": "Lewis should conduct a\nt\n-test for the slope of his LSRL and should use\n23\ndegrees of freedom."
+    },
+    {
+      "letter": "D",
+      "text": "Lewis should conduct a\nχ\n2\ntest for association/independence. Since there are\n2\n subjects\nbeing compared (Math and English) and there are\n101\n possible final grades\n(in percents from\n0\n%\nto\n100\n%\n), he should use\n(\n2\n−\n1\n)\n(\n101\n−\n1\n)\n=\n100\n degrees of freedom\n."
+    },
+    {
+      "letter": "E",
+      "text": "Lewis should conduct a\nχ\n2\ntest for homogeneity of populations. Since there are\n2\npopulations being compared (those who do well in Math and those who do well in English) and there are\n101\n possible final grades\n(in percents from\n0\n%\nto\n100\n%\n), he should use\n(\n2\n−\n1\n)\n(\n101\n−\n1\n)\n=\n100\n degrees of freedom\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.2"
+  ],
+  "standards": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.2"
+  ]
+}

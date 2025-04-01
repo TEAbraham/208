@@ -1,0 +1,44 @@
+{
+  "question_id": "question-124",
+  "title": "Pole-Vaulting to New Heights: What Are Your Hypotheses?",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Today, poles used for pole-vaulting are usually made of fiberglass and carbon fiber. A sporting goods company has developed a pole made from a new composite material and they believe that using this pole will allow vaulters to reach greater heights. They plan to conduct a study involving a sample of <span class=\"tex2jax_process\">$30$</span> experienced pole-vaulters.  </div><div class=\"paragraph\">Each pole-vaulter will be given <span class=\"tex2jax_process\">$5$</span> attempts to vault with a traditional pole made of fiberglass and carbon fiber, and their highest vault will be recorded. At a different time, each pole-vaulter will also be given <span class=\"tex2jax_process\">$5$</span> attempts to vault with a pole made of the new material and their highest vault will be recorded. Which pole is used first will be randomly determined.  </div><div class=\"paragraph\">For each pole-vaulter, researchers will also record the difference between their highest vault using the new pole and their highest vault using the traditional pole (New – Traditional).  </div><div class=\"paragraph\">After verifying that the necessary conditions are satisfied, researchers plan to conduct a test.  </div><div class=\"paragraph\">What are the appropriate hypotheses?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "H\n0\n:\nμ\nt\nr\na\nd\ni\nt\ni\no\nn\na\nl\n=\nμ\nn\ne\nw\n\nH\na\n:\nμ\nt\nr\na\nd\ni\nt\ni\no\nn\na\nl\n<\nμ\nn\ne\nw"
+    },
+    {
+      "letter": "B",
+      "text": "H\n0\n:\nμ\nt\nr\na\nd\ni\nt\ni\no\nn\na\nl\n=\nμ\nn\ne\nw\n\nH\na\n:\nμ\nt\nr\na\nd\ni\nt\ni\no\nn\na\nl\n≠\nμ\nn\ne\nw"
+    },
+    {
+      "letter": "C",
+      "text": "H\n0\n:\nμ\nd\ni\nf\nf\ne\nr\ne\nn\nc\ne\n=\n0\n\nH\na\n:\nμ\nd\ni\nf\nf\ne\nr\ne\nn\nc\ne\n<\n0"
+    },
+    {
+      "letter": "D",
+      "text": "H\n0\n:\nμ\nd\ni\nf\nf\ne\nr\ne\nn\nc\ne\n=\n0\n\nH\na\n:\nμ\nd\ni\nf\nf\ne\nr\ne\nn\nc\ne\n≠\n0"
+    },
+    {
+      "letter": "E",
+      "text": "H\n0\n:\nμ\nd\ni\nf\nf\ne\nr\ne\nn\nc\ne\n=\n0\n\nH\na\n:\nμ\nd\ni\nf\nf\ne\nr\ne\nn\nc\ne\n>\n0"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "1.F",
+    "VAR-7.G.1",
+    "VAR-7",
+    "VAR-7.G"
+  ],
+  "standards": [
+    "1.F",
+    "VAR-7.G.1",
+    "VAR-7",
+    "VAR-7.G"
+  ]
+}

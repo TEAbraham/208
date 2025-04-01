@@ -1,0 +1,44 @@
+{
+  "question_id": "question-213",
+  "title": "Normal Notation",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Distribution <span class=\"tex2jax_process\">$A$</span> is <span class=\"tex2jax_process\">$N(28,1.2)$</span>.<br>Distribution <span class=\"tex2jax_process\">$B$</span> is <span class=\"tex2jax_process\">$N(25, 1.8)$</span>.  </div><div class=\"paragraph\">Which of the following statements is true?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Distribution\nA\nhas a population of\n28\nindividuals and a mean of\n1.2\n, while Distribution\nB\nhas a population of\n25\nindividuals with a mean of\n1.8\n."
+    },
+    {
+      "letter": "B",
+      "text": "Distribution\nA\nhas a higher mean and a lower standard deviation than Distribution\nB\n."
+    },
+    {
+      "letter": "C",
+      "text": "Distribution\nA\nhas a lower mean and a higher standard deviation than Distribution\nB\n."
+    },
+    {
+      "letter": "D",
+      "text": "Distribution\nA\nhas a higher mean and a higher variance than Distribution\nB\n."
+    },
+    {
+      "letter": "E",
+      "text": "Distribution\nA\nhas a lower mean and a lower variance than Distribution\nB\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "2.D",
+    "VAR-2",
+    "VAR-2.A",
+    "VAR-2.A.2"
+  ],
+  "standards": [
+    "2.D",
+    "VAR-2",
+    "VAR-2.A",
+    "VAR-2.A.2"
+  ]
+}

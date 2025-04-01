@@ -1,0 +1,44 @@
+{
+  "question_id": "question-048",
+  "title": "Significant Results",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">If a hypothesis test is performed and the results are significant at significance level alpha, then</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Alpha =\n0.05\n."
+    },
+    {
+      "letter": "B",
+      "text": "Alpha is a small value."
+    },
+    {
+      "letter": "C",
+      "text": "The\np\n-value is greater than alpha."
+    },
+    {
+      "letter": "D",
+      "text": "The\np\n-value is equal to\n2\nalpha."
+    },
+    {
+      "letter": "E",
+      "text": "The\np\n-value is less than alpha."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.A.2",
+    "DAT-3.A"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.A.2",
+    "DAT-3.A"
+  ]
+}

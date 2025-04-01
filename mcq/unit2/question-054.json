@@ -1,0 +1,50 @@
+{
+  "question_id": "question-054",
+  "title": "Class Size Vs. Final Class Average: A Scatterplot",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">​Teachers at a large high school have become concerned that increasing class sizes hinder their ability to deliver quality instruction and consequently have a negative impact on student's grades.  </div><div class=\"paragraph\">To investigate, a committee of teachers selected a random sample of classes offered at the high school during the previous school year.  For each class, they recorded the number of students in the class and the final average grade for students in the class (expressed as a percent).  To reduce variability, they only selected classes considered to be at the \"standard\" level .  No honors/advanced classes were included in their sample and no remedial/low level classes were included in their sample.  A scatterplot of the data is shown below.  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"paragraph\">Based upon the scatterplot, what can the committee conclude?</div>",
+  "image_files": [
+    "images/question-054-img1.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Being in a class with fewer students will enable students to earn better grades."
+    },
+    {
+      "letter": "B",
+      "text": "The pattern seen in the scatterplot proves that larger class sizes lead to lower average grades for students."
+    },
+    {
+      "letter": "C",
+      "text": "As the number of students in a class increases, the final average grade for students in the class tends to decrease."
+    },
+    {
+      "letter": "D",
+      "text": "Classes with fewer students tended to have lower final average grades than classes with more students."
+    },
+    {
+      "letter": "E",
+      "text": "For this particular high school, the smallest class size during the previous school year was\n10\nstudents and the largest class size during the previous year was\n35\nstudents."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-1.B.3",
+    "2.C",
+    "DAT-1",
+    "DAT-1.B.1",
+    "DAT-1.B",
+    "DAT-1.B.2"
+  ],
+  "standards": [
+    "DAT-1.B.3",
+    "2.C",
+    "DAT-1",
+    "DAT-1.B.1",
+    "DAT-1.B",
+    "DAT-1.B.2"
+  ]
+}

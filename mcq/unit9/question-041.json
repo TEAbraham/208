@@ -1,0 +1,44 @@
+{
+  "question_id": "question-041",
+  "title": "Conditions Check",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Before doing a <span class=\"tex2jax_process\">$t$</span>-test for slope, only one of the following checks is correct. Which answer correctly describes the reason for the check and the check itself?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "If the sample size is less than\n30\nthen the residuals should be checked for linearity."
+    },
+    {
+      "letter": "B",
+      "text": "The size of the population should be checked to make sure it is less than\n10\ntimes larger than the sample."
+    },
+    {
+      "letter": "C",
+      "text": "The standard deviation for\ny\ndoes not vary with\nx\n. Residuals should be checked."
+    },
+    {
+      "letter": "D",
+      "text": "The true relationship between\nx\nand\ny\nshould be linear. The slope value should be estimated and checked."
+    },
+    {
+      "letter": "E",
+      "text": "If the observed distribution is strongly skewed, then the sample size should be less than\n30\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.C",
+    "VAR-7.L.1",
+    "VAR-7",
+    "VAR-7.L"
+  ],
+  "standards": [
+    "4.C",
+    "VAR-7.L.1",
+    "VAR-7",
+    "VAR-7.L"
+  ]
+}

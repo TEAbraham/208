@@ -1,0 +1,44 @@
+{
+  "question_id": "question-078",
+  "title": "Choosing Tickets with Replacement",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A charity group decided to hold a raffle with <span class=\"tex2jax_process\">$1{,}000\\text{ tickets}$</span> in a large bin. Of the <span class=\"tex2jax_process\">$1{,}000\\text{ tickets}$</span>, <span class=\"tex2jax_process\">$150$</span> are winners.  </div><div class=\"paragraph\">If tickets are chosen with replacement, what is the probability a winner will be chosen by the fourth trial?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.522"
+    },
+    {
+      "letter": "B",
+      "text": "0.478"
+    },
+    {
+      "letter": "C",
+      "text": "0.092"
+    },
+    {
+      "letter": "D",
+      "text": "0.056"
+    },
+    {
+      "letter": "E",
+      "text": "0.002"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E.3",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4"
+  ],
+  "standards": [
+    "VAR-4.E.3",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4"
+  ]
+}

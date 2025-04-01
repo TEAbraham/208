@@ -1,0 +1,44 @@
+{
+  "question_id": "question-122",
+  "title": "Conditions for Matched Pairs $t$-Test",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Which of the following are necessary conditions for conducting a matched pairs <span class=\"tex2jax_process\">$t$</span>-test?</div><div class=\"ol-type-block-38ab9c9a-1d0e-420e-aa82-cabc98fa625c\"><style> .ol-type-block-38ab9c9a-1d0e-420e-aa82-cabc98fa625c ol { list-style-type: upper-roman }</style>\n<ol start=\"1\"><li>Data comes from a random sample of the population of interest.</li><li>The sampling distribution of differences is approximately normal.</li><li>The population must be at least <span class=\"tex2jax_process\">$10$</span> times as large as the sample size.</li></ol></div>\n",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and II only."
+    },
+    {
+      "letter": "E",
+      "text": "I and III only."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.C",
+    "VAR-7.H",
+    "VAR-7",
+    "VAR-7.H.1"
+  ],
+  "standards": [
+    "4.C",
+    "VAR-7.H",
+    "VAR-7",
+    "VAR-7.H.1"
+  ]
+}

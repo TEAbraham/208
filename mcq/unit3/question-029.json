@@ -1,0 +1,44 @@
+{
+  "question_id": "question-029",
+  "title": "Concept of Sampling",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">The concept of sampling describes</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Taking large samples that are nearly the same size as the population."
+    },
+    {
+      "letter": "B",
+      "text": "Taking a sample in hopes that it will give the statistician a snapshot of how the population behaves or feels."
+    },
+    {
+      "letter": "C",
+      "text": "Taking only simple random samples, where everybody in the population has an equal chance of being selected."
+    },
+    {
+      "letter": "D",
+      "text": "Getting results from all subjects in the population."
+    },
+    {
+      "letter": "E",
+      "text": "Interviewing subjects that are easiest to reach, hoping to get as large of a sample as possible."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong>is incorrect; in most situations, the sample is much smaller than the population, and if the sample is perfectly random, a sample size of <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7201-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>1</mn><mo>,</mo><mn>000</mn><mo>&amp;#x2212;</mo><mn>2</mn><mo>,</mo><mn>000</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-33689\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-33690\" class=\"mjx-mrow\"><span id=\"MJXc-Node-33691\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.332em;\">1</span></span><span id=\"MJXc-Node-33692\" class=\"mjx-mo\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"margin-top: -0.162em; padding-bottom: 0.551em;\">,</span></span><span id=\"MJXc-Node-33693\" class=\"mjx-mn MJXc-space1\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">000</span></span><span id=\"MJXc-Node-33694\" class=\"mjx-mo MJXc-space2\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.277em; padding-bottom: 0.441em;\">−</span></span><span id=\"MJXc-Node-33695\" class=\"mjx-mn MJXc-space2\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.332em;\">2</span></span><span id=\"MJXc-Node-33696\" class=\"mjx-mo\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"margin-top: -0.162em; padding-bottom: 0.551em;\">,</span></span><span id=\"MJXc-Node-33697\" class=\"mjx-mn MJXc-space1\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">000</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mn>000</mn><mo>−</mo><mn>2</mn><mo>,</mo><mn>000</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7201\">1,000-2,000</script></span> subjects is usually large enough.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-2",
+    "1.C",
+    "DAT-2.A",
+    "DAT-2.A.2"
+  ],
+  "standards": [
+    "DAT-2",
+    "1.C",
+    "DAT-2.A",
+    "DAT-2.A.2"
+  ]
+}

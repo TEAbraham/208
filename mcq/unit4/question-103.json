@@ -1,0 +1,44 @@
+{
+  "question_id": "question-103",
+  "title": "Find the Missing Value",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Given this distribution for the random variable <span class=\"tex2jax_process\">$m$</span>, find the missing value.</div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"><span class=\"tex2jax_process\">$m$</span></th><th scope=\"col\"><span class=\"tex2jax_process\">$1$</span></th><th scope=\"col\"><span class=\"tex2jax_process\">$  2$</span></th><th scope=\"col\"><span class=\"tex2jax_process\">$ 3$</span></th><th scope=\"col\"><span class=\"tex2jax_process\">$4$</span></th><th scope=\"col\"><span class=\"tex2jax_process\">$5$</span></th></tr></thead><tbody><tr><td><span class=\"tex2jax_process\">$p(m$</span>)</td><td><span class=\"tex2jax_process\">$\\dfrac{1}{9}$</span></td><td><span class=\"tex2jax_process\">$?$</span></td><td><span class=\"tex2jax_process\">$\\dfrac{1}{9}$</span></td><td><span class=\"tex2jax_process\">$\\dfrac{2}{9}$</span></td><td><span class=\"tex2jax_process\">$ \\dfrac{1}{9}$</span></td></tr></tbody></table></div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "3\n9"
+    },
+    {
+      "letter": "B",
+      "text": "1\n9"
+    },
+    {
+      "letter": "C",
+      "text": "2\n9"
+    },
+    {
+      "letter": "D",
+      "text": "5\n9"
+    },
+    {
+      "letter": "E",
+      "text": "4\n9"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.A.2",
+    "4.B",
+    "VAR-5",
+    "VAR-5.A"
+  ],
+  "standards": [
+    "VAR-5.A.2",
+    "4.B",
+    "VAR-5",
+    "VAR-5.A"
+  ]
+}

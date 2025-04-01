@@ -1,0 +1,44 @@
+{
+  "question_id": "question-088",
+  "title": "Data Analysis: Residual Plots",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Which of the following statements is/are true concerning residual plots?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> A residual plot is constructed by plotting the explanatory variable values on the <span class=\"tex2jax_process\">$x$</span>-axis against the residuals on the <span class=\"tex2jax_process\">$y$</span>-axis.<br><strong>II.</strong> A residual plot should have a positive slope if the slope of the least squares regression line is above zero.<br><strong>III.</strong> A residual plot shows how the errors in a linear regression model are arranged.</div></blockquote>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "I and II only."
+    },
+    {
+      "letter": "C",
+      "text": "I, II, and III."
+    },
+    {
+      "letter": "D",
+      "text": "II and III only."
+    },
+    {
+      "letter": "E",
+      "text": "I and III only."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-1.F.2",
+    "DAT-1",
+    "2.A",
+    "DAT-1.F"
+  ],
+  "standards": [
+    "DAT-1.F.2",
+    "DAT-1",
+    "2.A",
+    "DAT-1.F"
+  ]
+}

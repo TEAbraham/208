@@ -1,0 +1,44 @@
+{
+  "question_id": "question-035",
+  "title": "Bank Loans",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A large corporation hopes to get a loan to build an addition to its current corporate headquarters.  </div><div class=\"paragraph\">From experience, the president of the company has determined an <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-8862-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>8</mn><mi mathvariant=&quot;normal&quot;>&amp;#x0025;</mi></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-39510\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-39511\" class=\"mjx-mrow\"><span id=\"MJXc-Node-39512\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">8</span></span><span id=\"MJXc-Node-39513\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.441em; padding-bottom: 0.387em;\">%</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi mathvariant=\"normal\">%</mi></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-8862\">8\\%</script></span> chance of getting approved for the loan from any given bank, so she sends out applications to <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-8863-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>10</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-39514\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-39515\" class=\"mjx-mrow\"><span id=\"MJXc-Node-39516\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">10</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-8863\">10</script></span> different banks.  </div><div class=\"paragraph\">Assuming each bank considers the loan independently, what is the probability that at least one of the <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-8864-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>10</mn><mtext>&amp;#xA0;banks</mtext></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-39517\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-39518\" class=\"mjx-mrow\"><span id=\"MJXc-Node-39519\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">10</span></span><span id=\"MJXc-Node-39520\" class=\"mjx-mtext\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.332em;\">&nbsp;banks</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mtext>&nbsp;banks</mtext></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-8864\">10\\text{ banks}</script></span> selected grants the loan?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.08"
+    },
+    {
+      "letter": "B",
+      "text": "0.92"
+    },
+    {
+      "letter": "C",
+      "text": "0.5656"
+    },
+    {
+      "letter": "D",
+      "text": "0.4344"
+    },
+    {
+      "letter": "E",
+      "text": "0.9832"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "VAR-4.C",
+    "VAR-4.C.1",
+    "VAR-4"
+  ],
+  "standards": [
+    "4.B",
+    "VAR-4.C",
+    "VAR-4.C.1",
+    "VAR-4"
+  ]
+}

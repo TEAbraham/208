@@ -1,0 +1,44 @@
+{
+  "question_id": "question-128",
+  "title": "Formula: Degrees of Freedom",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Determine the appropriate degrees of freedom on a two-sample <span class=\"tex2jax_process\">$T$</span>-test with samples of size <span class=\"tex2jax_process\">$25$</span> and <span class=\"tex2jax_process\">$17$</span>.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "16"
+    },
+    {
+      "letter": "B",
+      "text": "17"
+    },
+    {
+      "letter": "C",
+      "text": "24"
+    },
+    {
+      "letter": "D",
+      "text": "40"
+    },
+    {
+      "letter": "E",
+      "text": "42"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7.I",
+    "VAR-7.I.1",
+    "VAR-7",
+    "3.E"
+  ],
+  "standards": [
+    "VAR-7.I",
+    "VAR-7.I.1",
+    "VAR-7",
+    "3.E"
+  ]
+}

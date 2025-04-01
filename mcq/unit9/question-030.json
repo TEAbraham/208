@@ -1,0 +1,44 @@
+{
+  "question_id": "question-030",
+  "title": "Starting Salary vs College GPA",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Sixty-five random recent college graduates were selected and asked their college grade point average (GPA) as well as their starting salary on their first job.  This resulted in a a regression equation of <span class=\"tex2jax_process\">$\\hat{y}=9.7x + 23.6$</span> where <span class=\"tex2jax_process\">$x$</span> is GPA and <span class=\"tex2jax_process\">$\\hat{y}$</span> is the predicted salary (in thousands of dollars). The standard error was <span class=\"tex2jax_process\">$0.25$</span>.</div><div class=\"paragraph\">Find a <span class=\"tex2jax_process\">$99\\%$</span> confidence interval for the slope and interpret it.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "(\n9.035\n,\n10.365\n) We are\n99\n%\nconfident that the interval from\n9.035\nto\n10.365\ncontains the slope of the true regression line relating grade point average and starting salary. We have convincing evidence that there is an association between theses two variables."
+    },
+    {
+      "letter": "B",
+      "text": "(\n9.035\n,\n10.365\n) We are\n99\n%\nconfident that the interval from\n9.035\nto\n10.365\ncontains the slope of the true regression line relating grade point average and starting salary. We have convincing evidence that there is no association between theses two variables"
+    },
+    {
+      "letter": "C",
+      "text": "(\n9.2\n,\n10.2\n) We are\n99\n%\nconfident that the interval from\n9.2\nto\n10.2\ncontains the slope of the true regression line relating grade point average and starting salary. We have convincing evidence that there is an association between theses two variables."
+    },
+    {
+      "letter": "D",
+      "text": "(\n9.2\n,\n10.2\n) We are\n99\n%\nconfident that the interval from\n9.2\nto\n10.2\ncontains the slope of the true regression line relating grade point average and starting salary. We have convincing evidence that there is no association between theses two variables."
+    },
+    {
+      "letter": "E",
+      "text": "(\n9.465\n,\n9.935\n) We are\n99\n%\nconfident that the interval from\n9.465\nto\n9.935\ncontains the slope of the true regression line relating grade point average and starting salary. We have convincing evidence that there is an association between theses two variables."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.AH.1",
+    "UNC-4",
+    "4.A",
+    "UNC-4.AH"
+  ],
+  "standards": [
+    "UNC-4.AH.1",
+    "UNC-4",
+    "4.A",
+    "UNC-4.AH"
+  ]
+}

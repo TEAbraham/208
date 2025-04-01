@@ -1,0 +1,48 @@
+{
+  "question_id": "question-253",
+  "title": "Zack and Nick",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Zack takes the SAT, and his best friend, Nick, takes the ACT.  </div><div class=\"paragraph\">Zack’s SAT Math score is <span class=\"tex2jax_process\">$680$</span>, and Nick’s ACT Math score is <span class=\"tex2jax_process\">$27$</span>. SAT Math scores in the county are normally distributed with a mean of <span class=\"tex2jax_process\">$500$</span> and a standard deviation of <span class=\"tex2jax_process\">$100$</span>. ACT Math scores in the county are also normally distributed but with a mean of <span class=\"tex2jax_process\">$18$</span> and a standard deviation of <span class=\"tex2jax_process\">$6$</span>.  </div><div class=\"paragraph\">Assuming that both tests measure the same kind of ability, who has scored better relative to their peers?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Zack, because his score is higher than Nick’s."
+    },
+    {
+      "letter": "B",
+      "text": "Zack, because his standardized score is higher than Nick’s."
+    },
+    {
+      "letter": "C",
+      "text": "Nick, because ACT math is more difficult than SAT math."
+    },
+    {
+      "letter": "D",
+      "text": "Nick, because his standardized score is higher than Zack’s."
+    },
+    {
+      "letter": "E",
+      "text": "A valid comparison cannot be made between these two scores."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.C.1",
+    "2.D",
+    "VAR-2.C",
+    "VAR-2"
+  ],
+  "standards": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.C.1",
+    "2.D",
+    "VAR-2.C",
+    "VAR-2"
+  ]
+}

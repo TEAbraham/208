@@ -1,0 +1,48 @@
+{
+  "question_id": "question-048",
+  "title": "Determining the Validity of a Correlation",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Which of the following provides a valid description of the correlation between two variables? </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Mary is a waitress at a popular restaurant. She recently complained that there is a very strong negative correlation between the number of orders she gets for buffalo chicken quesadillas on a given day and whether or not she sticks to her diet for that day."
+    },
+    {
+      "letter": "B",
+      "text": "When Janet saw that the correlation between a student's height and a student's score on a math test given to all students at Central Elementary School was\n0.92\n, she said \"Wow! That just proves that taller people are better at math!\""
+    },
+    {
+      "letter": "C",
+      "text": "Arnold is a fitness trainer at a local gym. Recently, he did a study to investigate the relationship between an individual's body weight and how much they could leg press. He found that the relationship was roughly linear and the correlation was\n2.0\n. On average, people could leg press twice their body weight."
+    },
+    {
+      "letter": "D",
+      "text": "Melissa is a mountaineer who has climbed some of the world's tallest mountains. On her last big climb, she recorded both the altitude (height above sea level) and temperature at several different locations. She found the relationship to be roughly linear with a correlation close to\n−\n1\n."
+    },
+    {
+      "letter": "E",
+      "text": "Isaac did an experiment to investigate how quickly hot water cools. He started by taking a cup of very hot water and measuring the temperature. He then continued to measure the temperature every two minutes. Upon plotting the relationship between time and temperature, he noticed a very strong, negative, curved relationship, and therefore concluded that the correlation value would be very close to\n−\n1\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-1.B.3",
+    "2.C",
+    "DAT-1",
+    "DAT-1.B.1",
+    "DAT-1.B",
+    "DAT-1.B.2"
+  ],
+  "standards": [
+    "DAT-1.B.3",
+    "2.C",
+    "DAT-1",
+    "DAT-1.B.1",
+    "DAT-1.B",
+    "DAT-1.B.2"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "question_id": "question-078",
+  "title": "Randomly Selected",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Pat and Amy are doing an experiment for their AP Statistics final project.  They will be splitting their volunteers into two groups, Group <span class=\"tex2jax_process\">$A$</span> and Group <span class=\"tex2jax_process\">$B$</span>. </div><div class=\"paragraph\">Which of the following methods will <u>not</u> result in randomly selected groups?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Assigning numbers to all volunteers then using a random number generator to get the two groups."
+    },
+    {
+      "letter": "B",
+      "text": "Placing all names on equal slips of paper and drawing two groups out of a hat."
+    },
+    {
+      "letter": "C",
+      "text": "Assigning numbers to all volunteers and using a random digit table."
+    },
+    {
+      "letter": "D",
+      "text": "Using a coin and assigning \"Heads\" to Group\nA\nand \"Tails\" to Group\nB\n."
+    },
+    {
+      "letter": "E",
+      "text": "Pat and Amy will alternate selecting members for Group\nA\nand Group\nB\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer. ",
+  "solution": "In a <strong>completely randomized experiment</strong>, treatments are assigned to experimental units completely at random. Using <strong>random assignment</strong> will hopefully balance the effects of the uncontrolled (confounding) variables so we can attribute the difference in the response to the treatments. \n\nMethods for randomly assigning treatments in experimental units in a completely randomized design must have a chance process involved. Some examples of methods are using a random number generator, a random digit table, drawing names out of a hat, etc. The only choice above that won't result in random assignment is <strong>Choice 'E'</strong>. \n\n<strong>Choice 'E'</strong> is correct. ",
+  "distractor_explanations": {
+    "B": "<strong>Choice 'B'</strong> is incorrect. The hat method is also an acceptable method of creating random groups for an experiment. ",
+    "D": "<strong>Choice 'D'</strong> is incorrect. Since a coin a chance process, it is an acceptable method of creating random groups for an experiment."
+  },
+  "tags": [
+    "VAR-3",
+    "VAR-3.C.2",
+    "1.C",
+    "VAR-3.C.1",
+    "VAR-3.C"
+  ],
+  "standards": [
+    "VAR-3",
+    "VAR-3.C.2",
+    "1.C",
+    "VAR-3.C.1",
+    "VAR-3.C"
+  ]
+}

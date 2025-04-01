@@ -1,0 +1,42 @@
+{
+  "question_id": "question-125",
+  "title": "Expected Income vs. Number of Drum Lessons Provided",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">David is a drummer who gives private lessons.  The number of lessons he gives each week varies according to the probability distribution shown below.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"># of Lessons (X)</th><th scope=\"col\">12</th><th scope=\"col\">13</th><th scope=\"col\">14</th><th scope=\"col\">15</th><th scope=\"col\">16</th></tr></thead><tbody><tr><td>p(X)</td><td>0.28</td><td>0.31</td><td>0.24</td><td>0.11</td><td>0.06</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>If David charges <span class=\"tex2jax_process\">$\\$85$</span> per lesson, what is his average weekly income?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$\n13.36"
+    },
+    {
+      "letter": "B",
+      "text": "$\n1105.00"
+    },
+    {
+      "letter": "C",
+      "text": "$\n1135.60"
+    },
+    {
+      "letter": "D",
+      "text": "$\n1185.85"
+    },
+    {
+      "letter": "E",
+      "text": "$\n1190.00"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.C.2",
+    "3.B",
+    "VAR-5.C"
+  ],
+  "standards": [
+    "VAR-5.C.2",
+    "3.B",
+    "VAR-5.C"
+  ]
+}

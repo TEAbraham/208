@@ -1,0 +1,46 @@
+{
+  "question_id": "question-114",
+  "title": "Finding the Equation of an LSRL Using Means and SD",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Consider a set of <span class=\"tex2jax_process\">$n$</span> ordered pairs given by:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$({ x }_{ 1 },y_{ 1 }), ({ x }_{ 2 },y_{ 2 }), ({ x }_{ 3 },y_{ 3 }),...,({ x }_{ n },y_{ n })$$</div>  </div><div class=\"paragraph\">The mean and standard deviation of the <span class=\"tex2jax_process\">$x$</span>-values are <span class=\"tex2jax_process\">$\\bar { x } =10$</span> and <span class=\"tex2jax_process\">${ s }_{ x }=12$</span>.  </div><div class=\"paragraph\">The mean and standard deviation of the <span class=\"tex2jax_process\">$y$</span>-values <span class=\"tex2jax_process\">$\\bar { y } =15$</span> and <span class=\"tex2jax_process\">${ s }_{ y }=6$</span>.  </div><div class=\"paragraph\">Which of the following could represent the least squares regression line?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "ˆ\ny\n=\n−\n25\n+\n4\nx"
+    },
+    {
+      "letter": "B",
+      "text": "^\ny\n=\n8\n+\n0.5\nx"
+    },
+    {
+      "letter": "C",
+      "text": "^\ny\n=\n6\n+\n2\nx"
+    },
+    {
+      "letter": "D",
+      "text": "^\ny\n=\n4\nx"
+    },
+    {
+      "letter": "E",
+      "text": "ˆ\ny\n=\n11\n+\n0.4\nx"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-1.G.1",
+    "DAT-1.G.2",
+    "2.C",
+    "DAT-1",
+    "DAT-1.G"
+  ],
+  "standards": [
+    "DAT-1.G.1",
+    "DAT-1.G.2",
+    "2.C",
+    "DAT-1",
+    "DAT-1.G"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-069",
+  "title": "Continuous Uniform Density",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Consider a continuous uniform density function such that <span class=\"tex2jax_process\">$0 &lt; X &lt; 2$</span>.  </div><div class=\"paragraph\">Calculate the probability <span class=\"tex2jax_process\">$X$</span> between <span class=\"tex2jax_process\">$0.71$</span> and <span class=\"tex2jax_process\">$1.33$</span> (inclusive).</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.165"
+    },
+    {
+      "letter": "B",
+      "text": "0.31"
+    },
+    {
+      "letter": "C",
+      "text": "0.5"
+    },
+    {
+      "letter": "D",
+      "text": "0.62"
+    },
+    {
+      "letter": "E",
+      "text": "0.665"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.H",
+    "UNC-1.H.4",
+    "2.A",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.H",
+    "UNC-1.H.4",
+    "2.A",
+    "UNC-1"
+  ]
+}

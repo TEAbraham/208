@@ -1,0 +1,46 @@
+{
+  "question_id": "question-179",
+  "title": "Comparing Distributions: Grocery Shopping of Men versus Women",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The boxplots below display the number of minutes that single men grocery shop compared to single women. Based on these boxplots, which of the following is the correct conclusion about the data collected in this study?  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div>\n",
+  "image_files": [
+    "images/question-179-img1.png"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The shapes of both distributions are skewed to the left. Single men tend to spend less time grocery shopping, and with a smaller variation, when compared to single women."
+    },
+    {
+      "letter": "B",
+      "text": "The shapes of both distributions are skewed to the left. Single men tend to spend less time grocery shopping, and with larger variation, when compared to single women."
+    },
+    {
+      "letter": "C",
+      "text": "The shapes of both distributions are skewed to the right. Single men tend to spend less time grocery shopping, and with smaller variation, compared to single women."
+    },
+    {
+      "letter": "D",
+      "text": "The shapes of both distributions are skewed to the right. Single men tend to spend less time grocery shopping, and with a larger variation, compared to single women."
+    },
+    {
+      "letter": "E",
+      "text": "The shapes of both distributions are skewed to the right. Single men tend to spend more time grocery shopping, and with a smaller variation, compared to women."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.N.1",
+    "2.D",
+    "UNC-1.N",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.N.1",
+    "2.D",
+    "UNC-1.N",
+    "UNC-1"
+  ]
+}

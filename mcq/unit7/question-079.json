@@ -1,0 +1,46 @@
+{
+  "question_id": "question-079",
+  "title": "Condition Failed: Restaurant Ages",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A restaurant wants to estimate the average age of its customers who visit during September. The manager of the restaurant decides to find the average age by asking the ages of the customers on three weekday afternoons between the times of 3 to 4 PM.  </div><div class=\"paragraph\">He surveyed <span class=\"tex2jax_process\">$40$</span> customers and found that the distribution to be slightly skewed to the right with an average age of <span class=\"tex2jax_process\">$62$</span> years.  </div><div class=\"paragraph\">Which condition for constructing a <span class=\"tex2jax_process\">$1$</span>-sample <span class=\"tex2jax_process\">$t$</span>-interval for means has the manager failed to satisfy?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The data is a random sample from the population of interest."
+    },
+    {
+      "letter": "B",
+      "text": "Normality."
+    },
+    {
+      "letter": "C",
+      "text": "The data is a random sample from the population and the shape of the sampling distribution is approximately normal."
+    },
+    {
+      "letter": "D",
+      "text": "The sample is less than\n10\n%\nof the population."
+    },
+    {
+      "letter": "E",
+      "text": "All the conditions for constructing a\n1\n-sample\nt\n-interval for means have failed."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-3.F",
+    "4.E",
+    "DAT-3",
+    "DAT-3.F.2",
+    "DAT-3.F.1"
+  ],
+  "standards": [
+    "DAT-3.F",
+    "4.E",
+    "DAT-3",
+    "DAT-3.F.2",
+    "DAT-3.F.1"
+  ]
+}

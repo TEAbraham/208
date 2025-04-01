@@ -1,0 +1,48 @@
+{
+  "question_id": "question-102",
+  "title": "LSRL Form",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Least squares regression lines have the form of</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "y\n=\na\nx\n2\n+\nb\nx\n+\nc Define\nx\nand\ny\nas variables. Define\na\n,\nb\n, and\nc\nas constants."
+    },
+    {
+      "letter": "B",
+      "text": "y\n=\na\n+\nb\nx Define\nx\nand\ny\nas variables. Define\na\nand\nb\nas constants."
+    },
+    {
+      "letter": "C",
+      "text": "y\n=\na\nb\nx Define\nx\nand\ny\nas variables. Define\na\nand\nb\nas constants."
+    },
+    {
+      "letter": "D",
+      "text": "y\n=\na\nx Define\nx\nand\ny\nas variables. Define\na\nas a constant."
+    },
+    {
+      "letter": "E",
+      "text": "y\n=\na\n+\nb\n⋅\nlog\n(\nx\n) Define\nx\nand\ny\nas variables. Define\na\nand\nb\nas constants."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.H.2",
+    "DAT-1.H",
+    "DAT-1",
+    "DAT-1.H.3",
+    "DAT-1.H.1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-1.H.2",
+    "DAT-1.H",
+    "DAT-1",
+    "DAT-1.H.3",
+    "DAT-1.H.1"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-028",
+  "title": "Type of Smartphones in Usage: Finding Evidence",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Jackie recently read a report claiming that <span class=\"tex2jax_process\">$43.8\\%$</span> of smartphone users have an Apple iPhone, <span class=\"tex2jax_process\">$39.6\\%$</span> have an Android device, <span class=\"tex2jax_process\">$13.6\\%$</span> have a Blackberry, and <span class=\"tex2jax_process\">$3\\%$</span> have some other type of smartphone. She wonders whether this distribution is true for students at her high school.  </div><div class=\"paragraph\">To gather data, she randomly surveyed <span class=\"tex2jax_process\">$30\\text{ students}$</span> who have smartphones. She found that <span class=\"tex2jax_process\">$15$</span> of them have Apple iPhones, <span class=\"tex2jax_process\">$11$</span> have an Android device, <span class=\"tex2jax_process\">$3$</span> have a Blackberry, and <span class=\"tex2jax_process\">$1$</span> has some other type of smartphone.  </div><div class=\"paragraph\">Does this provide evidence that the distribution of smartphones at this high school is not the same as was stated in the report?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes.\n50\n%\nof those surveyed had iPhones and this is far greater than the percentage stated in the report."
+    },
+    {
+      "letter": "B",
+      "text": "Yes. None of the observed counts from the survey match what would be expected if the percentages stated in the report are true for students at this school."
+    },
+    {
+      "letter": "C",
+      "text": "No. The\np\n-value for the one-proportion\nz\n-test is too large for us to be able to conclude that the proportions stated in the report are not correct."
+    },
+    {
+      "letter": "D",
+      "text": "No. The\np\n-value from the\nχ\n2\nGoodness of Fit test is too large to provide evidence that the distribution is different from what was reported."
+    },
+    {
+      "letter": "E",
+      "text": "An appropriate significance test cannot be conducted in this situation, since not all conditions are satisfied."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3",
+    "DAT-3.J",
+    "DAT-3.J.1",
+    "DAT-3.J.2"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3",
+    "DAT-3.J",
+    "DAT-3.J.1",
+    "DAT-3.J.2"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-080",
+  "title": "Describing the Nature of an Association",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A study was designed to measure the association between adults' resting pulse and their exercise pulse, which were both measured in beats per minute (bpm). Subjects measured their resting pulse for one minute. They then ran on a treadmill for two minutes and measured their exercise pulse immediately after for one minute.  </div><div class=\"paragraph\">The scatterplot below displays the information:  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"paragraph\">Which of the following describes the nature of the association between adults' resting pulses and their exercise pulses?</div>",
+  "image_files": [
+    "images/question-080-img1.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There is a moderately strong negative linear association between resting pulse and exercise pulse among adults."
+    },
+    {
+      "letter": "B",
+      "text": "There is a moderately strong positive linear association between resting pulse and exercise pulse among adults."
+    },
+    {
+      "letter": "C",
+      "text": "There is a weak negative linear association between resting pulse and exercise pulse among adults."
+    },
+    {
+      "letter": "D",
+      "text": "There is a weak positive linear association between resting pulse and exercise pulse among adults."
+    },
+    {
+      "letter": "E",
+      "text": "There is relatively strong positive non-linear association between resting pulse and exercise pulse among adults."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "2.C",
+    "DAT-1",
+    "DAT-1.D",
+    "DAT-1.D.1"
+  ],
+  "standards": [
+    "2.C",
+    "DAT-1",
+    "DAT-1.D",
+    "DAT-1.D.1"
+  ]
+}

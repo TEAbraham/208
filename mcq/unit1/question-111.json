@@ -1,0 +1,46 @@
+{
+  "question_id": "question-111",
+  "title": "IQR of a Boxplot: Mark's Pushups",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Mark started working out, and every day he recorded the number of pushups he could do in a row.  </div><div class=\"paragraph\">According to the boxplot below, what is the approximate interquartile range (IQR) of the numbers?  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div>",
+  "image_files": [
+    "images/question-111-img1.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "20\n−\n100"
+    },
+    {
+      "letter": "B",
+      "text": "27\n−\n90"
+    },
+    {
+      "letter": "C",
+      "text": "40"
+    },
+    {
+      "letter": "D",
+      "text": "63"
+    },
+    {
+      "letter": "E",
+      "text": "80"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.L.2",
+    "2.B",
+    "UNC-1.L",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.L.2",
+    "2.B",
+    "UNC-1.L",
+    "UNC-1"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "question_id": "question-182",
+  "title": "Comparing Skew in Binomial Distributions",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">From the given information, list the binomial distributions in order from the most normal to the most heavily skewed left.</div><blockquote><div class=\"paragraph\">Binomial Distribution A:  <span class=\"tex2jax_process\">$n = 5,     p = 0.98$</span><br>Binomial Distribution B:  <span class=\"tex2jax_process\">$n = 10,  p = 0.75$</span><br>Binomial Distribution C:  <span class=\"tex2jax_process\">$n = 50,  p = 0.50$</span><br>Binomial Distribution D:  <span class=\"tex2jax_process\">$n = 50,   p = 0.75$</span>    </div></blockquote>",
+  "image_files": [
+    "images/question-182-img1.PNG",
+    "images/question-182-img2.PNG",
+    "images/question-182-img3.PNG",
+    "images/question-182-img4.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A, B, C, D"
+    },
+    {
+      "letter": "B",
+      "text": "A, B, D, C"
+    },
+    {
+      "letter": "C",
+      "text": "C, D, B, A"
+    },
+    {
+      "letter": "D",
+      "text": "C, A, B, D"
+    },
+    {
+      "letter": "E",
+      "text": "D, B, A, C"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.A.2",
+    "3.A",
+    "UNC-3",
+    "UNC-3.A"
+  ],
+  "standards": [
+    "UNC-3.A.2",
+    "3.A",
+    "UNC-3",
+    "UNC-3.A"
+  ]
+}

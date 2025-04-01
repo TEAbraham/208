@@ -1,0 +1,48 @@
+{
+  "question_id": "question-100",
+  "title": "Mother's Age and Baby's Birth Weights: A Residual",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Researchers conducting a study to investigate the relationship between a mother's age in years (<span class=\"tex2jax_process\">$x$</span>) and her baby's birth weight in pounds (<span class=\"tex2jax_process\">$y$</span>) found that the relationship could be modeled by the following LSRL:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$\\hat { y } =3.23+0.15x$$</div>  </div><div class=\"paragraph\">Based on this equation, what would be the residual for a <span class=\"tex2jax_process\">$28$</span> year old mother who gave birth to a baby weighing <span class=\"tex2jax_process\">$8.0$</span> pounds?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "−\n1.14"
+    },
+    {
+      "letter": "B",
+      "text": "−\n0.57"
+    },
+    {
+      "letter": "C",
+      "text": "0.57"
+    },
+    {
+      "letter": "D",
+      "text": "1.14"
+    },
+    {
+      "letter": "E",
+      "text": "165.13"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.H.2",
+    "DAT-1.H",
+    "DAT-1",
+    "DAT-1.H.3",
+    "DAT-1.H.1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-1.H.2",
+    "DAT-1.H",
+    "DAT-1",
+    "DAT-1.H.3",
+    "DAT-1.H.1"
+  ]
+}

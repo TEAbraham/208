@@ -1,0 +1,44 @@
+{
+  "question_id": "question-025",
+  "title": "Margin of Error Application",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">You are unsure if a coin is balanced or not, so you flip it many times.  </div><div class=\"paragraph\">Giving the estimate closest to your solution, about how many flips should you perform to make sure that you are within <span class=\"tex2jax_process\">$1\\%$</span> of the true proportion, based on a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "100"
+    },
+    {
+      "letter": "B",
+      "text": "1,000"
+    },
+    {
+      "letter": "C",
+      "text": "5,000"
+    },
+    {
+      "letter": "D",
+      "text": "10,000"
+    },
+    {
+      "letter": "E",
+      "text": "12,500"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.C.4",
+    "3.D",
+    "UNC-4.C",
+    "UNC-4"
+  ],
+  "standards": [
+    "UNC-4.C.4",
+    "3.D",
+    "UNC-4.C",
+    "UNC-4"
+  ]
+}

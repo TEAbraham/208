@@ -1,0 +1,50 @@
+{
+  "question_id": "question-094",
+  "title": "Bug Life Cycles - Converting Data Set",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Jane and John have collected data on the life cycle of palmetto bugs.  </div><div class=\"paragraph\">After studying <span class=\"tex2jax_process\">$5{,}000\\text{ bugs}$</span>, which we may assume constitutes a population, Jane and John submit their lab report. In it, they state that the mean palmetto bug length is <span class=\"tex2jax_process\">$1.8\\text{ inches}$</span> with a standard deviation of <span class=\"tex2jax_process\">$0.5\\text{ inches}$</span>.  </div><div class=\"paragraph\">At the last minute, they discover that they were supposed to report all their data in centimeters rather than inches. Jane realizes that she left the flash drive containing the Excel spreadsheet of all their raw data at home.  </div><div class=\"paragraph\">John says not to worry; he knows how to change the summary data without recomputing the mean and standard deviation all <span class=\"tex2jax_process\">$5{,}000\\text{ pieces of raw data}$</span>. He performs appropriate statistical operations, makes the necessary changes, and quickly changes the mean and standard deviation.  </div><div class=\"paragraph\">What are the final values for these two measures, assuming that there are <span class=\"tex2jax_process\">$2.54\\text{ centimeters}$</span> in <span class=\"tex2jax_process\">$1\\text{ inch}$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "μ\n=\n4.57\n;\nσ\n=\n1.27"
+    },
+    {
+      "letter": "B",
+      "text": "μ\n=\n4.57\n;\nσ\n=\n0.5"
+    },
+    {
+      "letter": "C",
+      "text": "μ\n=\n4.34\n;\nσ\n=\n3.04"
+    },
+    {
+      "letter": "D",
+      "text": "μ\n=\n4.34\n;\nσ\n=\n0.5"
+    },
+    {
+      "letter": "E",
+      "text": "The values cannot be evaluated without converting the original raw data to centimeters."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.I.2",
+    "2.C",
+    "UNC-1.J.4",
+    "UNC-1.J",
+    "UNC-1.I",
+    "UNC-1.J.3",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.I.2",
+    "2.C",
+    "UNC-1.J.4",
+    "UNC-1.J",
+    "UNC-1.I",
+    "UNC-1.J.3",
+    "UNC-1"
+  ]
+}

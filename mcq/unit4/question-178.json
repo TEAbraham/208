@@ -1,0 +1,44 @@
+{
+  "question_id": "question-178",
+  "title": "Binomial Probabilities: Cheating on a Quiz",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A quiz has <span class=\"tex2jax_process\">$8$</span> multiple choice questions with five answers for each (A, B, C, D, and E).  </div><div class=\"paragraph\">The teacher decided to give two versions of the quiz with the same questions and same responses but switched the order of the answers to create two different keys with no answers in common.  </div><div class=\"paragraph\">One of the students ended up getting <span class=\"tex2jax_process\">$7$</span> of the <span class=\"tex2jax_process\">$8$</span> questions wrong, but the <span class=\"tex2jax_process\">$7$</span> she got incorrect matched the other answer key perfectly.  </div><div class=\"paragraph\">The teacher decided to use binomial probabilities to find the probability of randomly guessing this close or closer to the other answer key.  </div><div class=\"paragraph\">What did the teacher find out?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There is insufficient evidence to suggest that the student cheated because it does not make sense to use binomial probabilities in this situation."
+    },
+    {
+      "letter": "B",
+      "text": "There is insufficient evidence to suggest that the student cheated because there is a\n24.3\n%\nchance the student could have gotten this close or closer to the other answer key simply by guessing."
+    },
+    {
+      "letter": "C",
+      "text": "There is insufficient evidence to suggest that the student cheated because there is a\n31.3\n%\nchance the student could have gotten this close or closer to the other answer key simply by guessing."
+    },
+    {
+      "letter": "D",
+      "text": "There is sufficient evidence to suggest that the student cheated because there is only a\n0.008448\n%\nchance the student could have gotten this close or closer to the other answer key simply by guessing."
+    },
+    {
+      "letter": "E",
+      "text": "There is sufficient evidence to suggest that the student cheated since there is only a\n0.0023\n%\nchance the student could have gotten this close or closer to the other answer key simply by guessing."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.B",
+    "3.A",
+    "UNC-3",
+    "UNC-3.B.1"
+  ],
+  "standards": [
+    "UNC-3.B",
+    "3.A",
+    "UNC-3",
+    "UNC-3.B.1"
+  ]
+}

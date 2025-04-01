@@ -1,0 +1,46 @@
+{
+  "question_id": "question-128",
+  "title": "Boxplots and Five Number Summary: Golf - Is It a Sport?",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The boxplots below show the age of the members of two local golf organizations, The Fore-fathers and Tee-rific.  </div><div class=\"paragraph\">Which if the following statements is best supported by the boxplots?  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div>\n",
+  "image_files": [
+    "images/question-128-img1.png"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Although a five number summary is a quick way to analyze data, it is not able to indicate the range of a dataset."
+    },
+    {
+      "letter": "B",
+      "text": "Although a five number summary is a quick way to analyze data, it can hide characteristics such as gaps and clusters."
+    },
+    {
+      "letter": "C",
+      "text": "Although a five number summary is a quick way to analyze data, it can hide the Inter Quartile Range."
+    },
+    {
+      "letter": "D",
+      "text": "Although a five number summary is a quick way to analyze data, it cannot determine the difference between the median and maximum value."
+    },
+    {
+      "letter": "E",
+      "text": "A five number summary always provides enough information about a dataset that none of the above flaws apply."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.L.2",
+    "2.B",
+    "UNC-1.L",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.L.2",
+    "2.B",
+    "UNC-1.L",
+    "UNC-1"
+  ]
+}

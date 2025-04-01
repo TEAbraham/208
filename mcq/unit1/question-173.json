@@ -1,0 +1,44 @@
+{
+  "question_id": "question-173",
+  "title": "Practice Tests",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Mrs. Sippi gives a practice AP test to her two sections of AP Statistics, each with <span class=\"tex2jax_process\">$25$</span> students. Period F has a minimum of <span class=\"tex2jax_process\">$59$</span>, a median of <span class=\"tex2jax_process\">$81$</span>, a mean of <span class=\"tex2jax_process\">$82$</span>, and a maximum of <span class=\"tex2jax_process\">$98$</span>. Period G (G-Unit) has a minimum of <span class=\"tex2jax_process\">$50$</span> percent, a median of <span class=\"tex2jax_process\">$77$</span>, a mean of <span class=\"tex2jax_process\">$84$</span>, and a maximum of <span class=\"tex2jax_process\">$96$</span>.  </div><div class=\"paragraph\">If Mrs. Sippi put all <span class=\"tex2jax_process\">$50$</span> scores in one dataset and recalculated the minimum, maximum, mean, median, and range, which of the following <strong>MUST</strong> be true?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The new median is\n79\nand the new maximum is\n98\n."
+    },
+    {
+      "letter": "B",
+      "text": "The new mean is\n83\nand the new range is\n48\n."
+    },
+    {
+      "letter": "C",
+      "text": "The new range is\n46\nand the new mean is\n83\n."
+    },
+    {
+      "letter": "D",
+      "text": "The new median is\n79\nand the new mean is\n83\n."
+    },
+    {
+      "letter": "E",
+      "text": "The new range is\n48\nand the new median is\n79\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.O",
+    "2.D",
+    "UNC-1.O.1",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.O",
+    "2.D",
+    "UNC-1.O.1",
+    "UNC-1"
+  ]
+}

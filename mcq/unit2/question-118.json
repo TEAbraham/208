@@ -1,0 +1,50 @@
+{
+  "question_id": "question-118",
+  "title": "Slope, Correlation When Removing Scatterplot Point: X vs. Y",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A scatterplot of <span class=\"tex2jax_process\">$x$</span> versus <span class=\"tex2jax_process\">$y$</span> is shown below:  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"paragraph\">If the point <span class=\"tex2jax_process\">$(9,49)$</span> is removed, which of the following statements is TRUE?</div>",
+  "image_files": [
+    "images/question-118-img1.png"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The slope of the least squares regression line decreases and the correlation coefficient decreases."
+    },
+    {
+      "letter": "B",
+      "text": "The slope of the least squares regression line decreases and the correlation coefficient increases."
+    },
+    {
+      "letter": "C",
+      "text": "The slope of the least squares regression line decreases and the correlation coefficient does not change."
+    },
+    {
+      "letter": "D",
+      "text": "The slope of the least squares regression line increases and the correlation coefficient increases."
+    },
+    {
+      "letter": "E",
+      "text": "The slope of the least squares regression line increases and the correlation coefficient decreases."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.H.2",
+    "DAT-1.H",
+    "DAT-1",
+    "DAT-1.H.3",
+    "DAT-1.H.1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-1.H.2",
+    "DAT-1.H",
+    "DAT-1",
+    "DAT-1.H.3",
+    "DAT-1.H.1"
+  ]
+}

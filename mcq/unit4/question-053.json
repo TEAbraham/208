@@ -1,0 +1,46 @@
+{
+  "question_id": "question-053",
+  "title": "Probabilities and Production Line Defects",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A factory utilizes two different production lines (<span class=\"tex2jax_process\">$A$</span> and <span class=\"tex2jax_process\">$B$</span>) for manufacturing gizmos. Since production line <span class=\"tex2jax_process\">$A$</span> is faster, it is able to produce <span class=\"tex2jax_process\">$60\\%$</span> of the gizmos, with the remaining gizmos coming off of production line <span class=\"tex2jax_process\">$B$</span>. It is known that <span class=\"tex2jax_process\">$2\\%$</span> of the gizmos from production line <span class=\"tex2jax_process\">$A$</span> and <span class=\"tex2jax_process\">$4\\%$</span> of the gizmos from production line <span class=\"tex2jax_process\">$B$</span> will contain some small defect.  </div><div class=\"paragraph\">Based upon this, if a gizmo is randomly selected from among all gizmos produced at this factory and the gizmo is found to have a defect, what is the probability the gizmo came off production line <span class=\"tex2jax_process\">$B$</span>?</div>",
+  "image_files": [
+    "images/question-053-img1.png"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.667"
+    },
+    {
+      "letter": "B",
+      "text": "0.571"
+    },
+    {
+      "letter": "C",
+      "text": "0.5"
+    },
+    {
+      "letter": "D",
+      "text": "0.429"
+    },
+    {
+      "letter": "E",
+      "text": "0.016"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "3.A",
+    "VAR-4.D.2",
+    "VAR-4",
+    "VAR-4.D"
+  ],
+  "standards": [
+    "3.A",
+    "VAR-4.D.2",
+    "VAR-4",
+    "VAR-4.D"
+  ]
+}

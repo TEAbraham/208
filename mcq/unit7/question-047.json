@@ -1,0 +1,44 @@
+{
+  "question_id": "question-047",
+  "title": "New Diet Plan",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A dietician tests a new diet plan on <span class=\"tex2jax_process\">$20\\text{ groups of people}$</span>, with <span class=\"tex2jax_process\">$14\\text{ people in each group}$</span>. All participants were randomly selected from a large group of volunteers, and all participants followed the diet plan.  </div><div class=\"paragraph\">Two months later, the dietician obtains the sample mean weight loss and standard deviation for each group and performs <span class=\"tex2jax_process\">$20$</span> one-sample <span class=\"tex2jax_process\">$t$</span>-tests. She notes that one of these tests is statistically significant, with a <span class=\"tex2jax_process\">$p$</span>-value of <span class=\"tex2jax_process\">$0.034$</span>.  </div><div class=\"paragraph\">She then touts her diet plan on a television infomercial, claiming that her plan results in significant weight loss at an <span class=\"tex2jax_process\">$\\alpha = 0.05$</span> significance level.  </div><div class=\"paragraph\">What can be said about her claim?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The claim is valid because she used appropriate sampling techniques and appropriate statistical methods for each group."
+    },
+    {
+      "letter": "B",
+      "text": "The claim is valid because she was able to reject the null hypothesis at an acceptable level of significance."
+    },
+    {
+      "letter": "C",
+      "text": "The claim is valid because subjects in one group lost a significant amount of weight."
+    },
+    {
+      "letter": "D",
+      "text": "The claim is invalid because people did not lose weight on her diet plan."
+    },
+    {
+      "letter": "E",
+      "text": "The claim is invalid since many separate significance tests were performed"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-4.S",
+    "UNC-4.S.3",
+    "UNC-4"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-4.S",
+    "UNC-4.S.3",
+    "UNC-4"
+  ]
+}

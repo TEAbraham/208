@@ -1,0 +1,44 @@
+{
+  "question_id": "question-056",
+  "title": "The Polls",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A candidate running for office was polled at <span class=\"tex2jax_process\">$57\\%$</span> in City <span class=\"tex2jax_process\">$1$</span> and at <span class=\"tex2jax_process\">$52\\%$</span> in City <span class=\"tex2jax_process\">$2$</span>.  A newspaper decided to do a new poll and randomly selected <span class=\"tex2jax_process\">$50$</span> people in City <span class=\"tex2jax_process\">$1$</span> and <span class=\"tex2jax_process\">$60$</span> people in City <span class=\"tex2jax_process\">$2$</span> as to whom they would vote for.  What is the probability that City <span class=\"tex2jax_process\">$2$</span> can show the candidate ahead by at least <span class=\"tex2jax_process\">$3\\%$</span> over City <span class=\"tex2jax_process\">$1$</span>?  Round to the nearest whole percent.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "11\n%"
+    },
+    {
+      "letter": "B",
+      "text": "42\n%"
+    },
+    {
+      "letter": "C",
+      "text": "58\n%"
+    },
+    {
+      "letter": "D",
+      "text": "80\n%"
+    },
+    {
+      "letter": "E",
+      "text": "20\n%"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-3.P.1",
+    "UNC-3",
+    "UNC-3.P"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-3.P.1",
+    "UNC-3",
+    "UNC-3.P"
+  ]
+}

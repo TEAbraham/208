@@ -1,0 +1,44 @@
+{
+  "question_id": "question-137",
+  "title": "Improving Hypothesis Testing",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The power of a hypothesis test can be increased by all of the following except</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Increasing alpha."
+    },
+    {
+      "letter": "B",
+      "text": "Increasing the sample size."
+    },
+    {
+      "letter": "C",
+      "text": "Calculating the test statistic to more decimal places of accuracy."
+    },
+    {
+      "letter": "D",
+      "text": "Decreasing the standard deviation."
+    },
+    {
+      "letter": "E",
+      "text": "Picking a particular alternative that is farther from the (null) hypothesized parameter."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7.I",
+    "VAR-7.I.1",
+    "VAR-7",
+    "3.E"
+  ],
+  "standards": [
+    "VAR-7.I",
+    "VAR-7.I.1",
+    "VAR-7",
+    "3.E"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-185",
+  "title": "Mean Variance of Binomial",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">What are the mean and variance of the binomial distribution with <span class=\"tex2jax_process\">$n$</span> number of trials and <span class=\"tex2jax_process\">$P$</span> probability of success?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Mean:\nn\nP Variance:\nn\n(\nP\n)\n(\n1\n−\nP\n)"
+    },
+    {
+      "letter": "B",
+      "text": "Mean:\nP Variance:\nn\n(\nP\n)\n(\n1\n−\nP\n)"
+    },
+    {
+      "letter": "C",
+      "text": "Mean:\nP Variance:\n(\nP\n)\n[\n√\nn\n]"
+    },
+    {
+      "letter": "D",
+      "text": "Mean:\nn\nP Variance:\n(\nσ\n)\n[\n√\nn\n]"
+    },
+    {
+      "letter": "E",
+      "text": "Mean:\nμ Variance:\n√\n(\nn\n)\n(\nP\n)\n(\n1\n−\nP\n)"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.C.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.C"
+  ],
+  "standards": [
+    "UNC-3.C.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.C"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-189",
+  "title": "Experimental Design for Learning Styles",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Students, and people in general, have different styles and preferences of learning new material.  An AP Statistics teacher is interested in two types of instruction:</div><ul><li>One instruction type is considered \"traditional\" consisting of note-taking, written assignments, and paper-and-pencil assessments.</li><li>The other instruction type is considered \"progressive\" and includes exploratory activities, oral presentations, and project-based assessments.</li></ul><div class=\"paragraph\">The teacher decides to randomly divide his current AP Statistics class into two equal groups.  One group will get the traditional instruction and the other group will get the progressive instruction. At the end of one month, the teacher will compare the amount of learning by each group in the form of a test, given in the style of the instruction each group used for the past month.  </div><div class=\"paragraph\">Which of the following best describes why a completely randomized design is an appropriate design to use in this situation?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The number of students participating in the study was greater than or equal to\n30\n."
+    },
+    {
+      "letter": "B",
+      "text": "Each type of instruction is a block, and a completely randomized design is not blocked."
+    },
+    {
+      "letter": "C",
+      "text": "There is no blocking variable, and the students were selected at random."
+    },
+    {
+      "letter": "D",
+      "text": "There is no blocking variable, and the type of instruction is randomly assigned to the students."
+    },
+    {
+      "letter": "E",
+      "text": "Each type of instruction is randomly assigned to pairs of students with similar grades before the study began."
+    }
+  ],
+  "correct_answer": "<strong>Choice ‘D’</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3.D",
+    "VAR-3",
+    "VAR-3.D.1",
+    "1.C"
+  ],
+  "standards": [
+    "VAR-3.D",
+    "VAR-3",
+    "VAR-3.D.1",
+    "1.C"
+  ]
+}

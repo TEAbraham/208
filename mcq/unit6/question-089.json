@@ -1,0 +1,46 @@
+{
+  "question_id": "question-089",
+  "title": "Unemployment Concerns",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">The threat of unemployment is a major concern for working adults.  </div><div class=\"paragraph\">In a survey of <span class=\"tex2jax_process\">$1{,}500\\text{ working adults}$</span>, <span class=\"tex2jax_process\">$720\\text{ men}$</span> and <span class=\"tex2jax_process\">$780\\text{ women}$</span> were asked the question, “Are you concerned about losing your job within the next <span class=\"tex2jax_process\">$12\\text{ months}$</span>?”  </div><div class=\"paragraph\">Of those who were surveyed, <span class=\"tex2jax_process\">$312\\text{ males}$</span> said “yes,” and <span class=\"tex2jax_process\">$240\\text{ females}$</span> said “yes.”  </div><div class=\"paragraph\">Why would it be considered incorrect to use a one-proportion <span class=\"tex2jax_process\">$Z$</span>-interval in this situation?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "This data follows the\nT\ndistribution."
+    },
+    {
+      "letter": "B",
+      "text": "It is not known if the sampling distribution is approximately normal."
+    },
+    {
+      "letter": "C",
+      "text": "The data compares two independent proportions."
+    },
+    {
+      "letter": "D",
+      "text": "No standard deviation is given."
+    },
+    {
+      "letter": "E",
+      "text": "The survey contains apparent bias."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-5.D.1",
+    "UNC-5",
+    "UNC-5.D.2",
+    "UNC-5.D"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-5.D.1",
+    "UNC-5",
+    "UNC-5.D.2",
+    "UNC-5.D"
+  ]
+}

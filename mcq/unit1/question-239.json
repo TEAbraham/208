@@ -1,0 +1,48 @@
+{
+  "question_id": "question-239",
+  "title": "Long Jump",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Data from the last <span class=\"tex2jax_process\">$10\\text{ years}$</span> shows that the average high school male has a personal best long jump of <span class=\"tex2jax_process\">$18.9\\text{ feet}$</span> with a standard deviation of <span class=\"tex2jax_process\">$1.9\\text{ feet}$</span>. The average high school female has a personal best long jump of <span class=\"tex2jax_process\">$16.5\\text{ feet}$</span> with a standard deviation of <span class=\"tex2jax_process\">$2.2\\text{ feet}$</span>. Both distributions are approximately normally distributed.  </div><div class=\"paragraph\">To earn All-Conference recognition, a jumper typically has to be <span class=\"tex2jax_process\">$2$</span> standard deviations above the mean for their respective gender.  </div><div class=\"paragraph\"> In a survey of <span class=\"tex2jax_process\">$1{,}000$</span> female long jumpers, about how many girls would you expect to jump so well that they earn All-Conference recognition from not only the girls standard but also the boys standard?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Near\n0\n."
+    },
+    {
+      "letter": "B",
+      "text": "About\n1\n."
+    },
+    {
+      "letter": "C",
+      "text": "About\n2\n."
+    },
+    {
+      "letter": "D",
+      "text": "About\n10\n."
+    },
+    {
+      "letter": "E",
+      "text": "About\n24\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2",
+    "VAR-2.B.3"
+  ],
+  "standards": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2",
+    "VAR-2.B.3"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-110",
+  "title": "Describing the Distribution",
+  "difficulty": "Moderate",
+  "question_text": "\n<div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">X</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th><th scope=\"col\">6</th></tr></thead><tbody><tr><td>P(X)</td><td>0.04</td><td>0.11</td><td>0.33</td><td>0.35</td><td>0.14</td><td>0.03</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>A local police officer gives out between <span class=\"tex2jax_process\">$1$</span> and <span class=\"tex2jax_process\">$6\\text{ tickets a day}$</span>, the probability distribution table of which is shown above, where <span class=\"tex2jax_process\">$X$</span> is the number of tickets handed out on any given day.  </div><div class=\"paragraph\">One can describe this distribution as...</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Normal, with a center around\n3.5\n."
+    },
+    {
+      "letter": "B",
+      "text": "Approximately normal, with a center of\n3.5\n."
+    },
+    {
+      "letter": "C",
+      "text": "A distribution with a center of about\n3.5\n, but describing the distribution using shape does not make sense in this situation."
+    },
+    {
+      "letter": "D",
+      "text": "Uniform with a center of\n3\nor\n4\n; one must give integer values for center since a police officer cannot give out a non-integer amount of tickets on a given day."
+    },
+    {
+      "letter": "E",
+      "text": "Approximately normal, with a center of\n3\nor\n4\n; one must give integer values for center since a police officer cannot give out a non-integer amount of tickets on a given day."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "VAR-5.B.1",
+    "VAR-5",
+    "VAR-5.B"
+  ],
+  "standards": [
+    "4.B",
+    "VAR-5.B.1",
+    "VAR-5",
+    "VAR-5.B"
+  ]
+}

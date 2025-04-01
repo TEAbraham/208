@@ -1,0 +1,44 @@
+{
+  "question_id": "question-003",
+  "title": "Purpose of a Scatter Plot",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Which of the following best describes the purpose of producing a scatter plot?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "to investigate a possible relationship between two categorical variables"
+    },
+    {
+      "letter": "B",
+      "text": "to investigate a possible relationship between two quantitative variables"
+    },
+    {
+      "letter": "C",
+      "text": "to better understand the distribution of the values of the explanatory variable"
+    },
+    {
+      "letter": "D",
+      "text": "to better understand the distribution of the values of the response variable"
+    },
+    {
+      "letter": "E",
+      "text": "to estimate the mean value of the response variable"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-1.D",
+    "VAR-1.D.1",
+    "1.A",
+    "VAR-1"
+  ],
+  "standards": [
+    "VAR-1.D",
+    "VAR-1.D.1",
+    "1.A",
+    "VAR-1"
+  ]
+}

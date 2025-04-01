@@ -1,0 +1,44 @@
+{
+  "question_id": "question-063",
+  "title": "Interpreting a Confidence Level for Slope: Dow Jones",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">In February of 2009, the Dow Jones Industrial Average (DJI) reached a low not seen in 10 years. Since then, the Dow Jones has been steadily increasing. Analysts have been studying the relationship between the highs of the Dow Jones for each year since 2009. A computer regression analysis of the data is given below:  </div><div class=\"paragraph\">Dependent variable is: Dow Jones Industrial Average (DJI)<br><span class=\"tex2jax_process\">$R^2 = 93.33\\%$</span><br><span class=\"tex2jax_process\">$s= 1116.14$</span> with <span class=\"tex2jax_process\">$6-2= 4$</span> D.O.F.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">Coefficient</th><th scope=\"col\">s.e Coeff</th><th scope=\"col\">t-ratio</th><th scope=\"col\">prob</th></tr></thead><tbody><tr><td>Constant</td><td>8224.89</td><td>735.23</td><td>16.06</td><td>0.00001</td></tr><tr><td>Year</td><td>1993.35</td><td>123.34</td><td>7.47</td><td>0.0017</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Assuming all of the conditions have been satisfied, which of the following is a correct interpretation of \"<span class=\"tex2jax_process\">$90\\%$</span> confidence\" for the slope in this problem (assume the interval we constructed from data is <span class=\"tex2jax_process\">$(c,d)$</span>)?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The probability that the true slope of the population regression line is in the interval\n(\nc\n,\nd\n)\nis\n0.90\n."
+    },
+    {
+      "letter": "B",
+      "text": "In\n90\n%\nof all repeated samples, the sample slopes for the regression line of DJI on Year will be between\nc\nand\nd\n."
+    },
+    {
+      "letter": "C",
+      "text": "The method used to construct this confidence interval will make an interval from\nc\nto\nd\n95\n%\nof the time."
+    },
+    {
+      "letter": "D",
+      "text": "90\n%\nof all the intervals following this method will capture the true slope of DJI per year."
+    },
+    {
+      "letter": "E",
+      "text": "Using this method,\n90\n%\nof all the intervals contain the sample slope of DJI on year."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.M.1",
+    "DAT-3.M"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.M.1",
+    "DAT-3.M"
+  ]
+}

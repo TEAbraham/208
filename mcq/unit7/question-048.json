@@ -1,0 +1,44 @@
+{
+  "question_id": "question-048",
+  "title": "The True Meaning of $p$",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A one-sided significance test for a population mean was conducted and the resulting <span class=\"tex2jax_process\">$p$</span>-value was <span class=\"tex2jax_process\">$p = 0.03$</span>.  </div><div class=\"paragraph\">What is the best interpretation of this <span class=\"tex2jax_process\">$p$</span>-value?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There is a\n3\n%\nchance that the statistic obtained from our sample is equal to the true population mean."
+    },
+    {
+      "letter": "B",
+      "text": "We are only\n3\n%\nconfident that our results are correct."
+    },
+    {
+      "letter": "C",
+      "text": "Our results are statistically significant at the\nα\n=\n0.05\nlevel. We have sufficient evidence to reject the null hypothesis."
+    },
+    {
+      "letter": "D",
+      "text": "The probability that we will make a type\nI\nI\nerror based on our results is about\n3\n%\n."
+    },
+    {
+      "letter": "E",
+      "text": "If our null hypothesis is true, the probability is only\n3\n%\nthat we would obtain a sample statistic as far away from the hypothesized mean as the statistic we actually got from our sample."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-4.T",
+    "UNC-4",
+    "UNC-4.T.1"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-4.T",
+    "UNC-4",
+    "UNC-4.T.1"
+  ]
+}

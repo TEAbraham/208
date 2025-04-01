@@ -1,0 +1,46 @@
+{
+  "question_id": "question-073",
+  "title": "The Use of Video Replay in Professional Sports: Type of Test",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The use of video replay in professional sports has been expanding, and many major sports now offer teams the ability to challenge certain calls that are made during the game.  Michael is an avid fan and wonders if the proportion of games in which a challenge is lodged is the same in professional baseball, hockey, and football.  Here is his data:\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Challenge Lodged</th><th scope=\"col\">No Challenge Lodged</th></tr></thead><tbody><tr><td>Baseball</td><td>13</td><td>21</td></tr><tr><td>Hockey</td><td>8</td><td>14</td></tr><tr><td>Football</td><td>10</td><td>7</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Assuming all conditions for inference are met, what is the appropriate type of test for Michael to conduct?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A\n1\n-sample\nt\n-test for a population mean."
+    },
+    {
+      "letter": "B",
+      "text": "A\n2\n-sample\nz\n-test for a difference in proportions."
+    },
+    {
+      "letter": "C",
+      "text": "A\n2\n-sample\nz\n-test for a difference in means."
+    },
+    {
+      "letter": "D",
+      "text": "A\nχ\n2\ntest for homogeneity."
+    },
+    {
+      "letter": "E",
+      "text": "A\nχ\n2\nfor association."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.L",
+    "DAT-3",
+    "DAT-3.L.2",
+    "DAT-3.L.1"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3.L",
+    "DAT-3",
+    "DAT-3.L.2",
+    "DAT-3.L.1"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-023",
+  "title": "Interpretation of Confidence Interval",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A <span class=\"tex2jax_process\">$95\\%$</span> confidence interval of <span class=\"tex2jax_process\">$(2.6, 4.2)$</span> was created for a study based on a regression model looking at SAT scores and the number of college acceptances for a random sample of students.  Which is the best interpretation below for this confidence interval for the slope of this model?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "We are\n95\n%\nconfident that the interval from\n2.6\nto\n4.2\ncontains the slope of the true regression line. Because zero is not contained in the interval, we have evidence to show that an association exists between these two variables."
+    },
+    {
+      "letter": "B",
+      "text": "We are\n95\n%\nconfident that the interval from\n2.6\nto\n4.2\ncontains the slope of the true regression line relating a student's SAT score and the number of college acceptances. Because zero is not contained in the interval, we have evidence to show that an association exists between these two variables."
+    },
+    {
+      "letter": "C",
+      "text": "We are\n95\n%\nconfident that the interval from\n2.6\nto\n4.2\ncontains the slope of the true regression line relating a student's SAT score and the number of college acceptances. Because zero is not contained in the interval, we have evidence to show that no association exists between these two variables."
+    },
+    {
+      "letter": "D",
+      "text": "We are\n95\n%\nconfident that the interval from\n4.2\nto\n6.2\ncontains the slope of the true regression line relating a student's SAT score and the number of college acceptances. Because zero is not contained in the interval, we have evidence to show that an association exists between these two variables."
+    },
+    {
+      "letter": "E",
+      "text": "We are\n95\n%\nconfident that the interval from\n2.6\nto\n4.2\ncontains the true regression line relating a student's SAT score and the number of college acceptances. Because zero is not contained in the interval, we have evidence to show that an association exists between these two variables."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.AH.1",
+    "UNC-4",
+    "4.A",
+    "UNC-4.AH"
+  ],
+  "standards": [
+    "UNC-4.AH.1",
+    "UNC-4",
+    "4.A",
+    "UNC-4.AH"
+  ]
+}

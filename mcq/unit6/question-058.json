@@ -1,0 +1,46 @@
+{
+  "question_id": "question-058",
+  "title": "Test Statistic",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A test statistic for the z- or t-distribution represents</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The probability of getting a result, or more extreme, given the null hypothesis was true."
+    },
+    {
+      "letter": "B",
+      "text": "The probability of a result, or more extreme, given the alternative hypothesis was true."
+    },
+    {
+      "letter": "C",
+      "text": "The number of standard deviations the result was away from the mean."
+    },
+    {
+      "letter": "D",
+      "text": "The distance away from the mean, using the units represented in the problem."
+    },
+    {
+      "letter": "E",
+      "text": "The amount of evidence one has to reject the alternative hypothesis."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-6.G.1",
+    "3.E",
+    "VAR-6.G",
+    "VAR-6",
+    "VAR-6.G.2"
+  ],
+  "standards": [
+    "VAR-6.G.1",
+    "3.E",
+    "VAR-6.G",
+    "VAR-6",
+    "VAR-6.G.2"
+  ]
+}

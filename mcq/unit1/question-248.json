@@ -1,0 +1,47 @@
+{
+  "question_id": "question-248",
+  "title": "Normal Distribution: Giganticville",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The distribution of heights of <span class=\"tex2jax_process\">$4\\text{-year-old boys}$</span> in the town of Giganticville is approximately normally distributed with a mean of <span class=\"tex2jax_process\">$78.0$</span> inches and standard deviation of  <span class=\"tex2jax_process\">$4.3\\text{ inches}$</span>.  </div><div class=\"paragraph\">Manute, a <span class=\"tex2jax_process\">$4\\text{-year-old-boy}$</span> from Giganticville has a height that is <span class=\"tex2jax_process\">$0.23$</span> standard deviations below the mean.  His <span class=\"tex2jax_process\">$4\\text{-year-old-boy}$</span>  neighbor Mugsy  is at the <span class=\"tex2jax_process\">$45^\\text{th}$</span> percentile of the height distribution.  </div><div class=\"paragraph\">What percentile is Manute's height, and how does his height compare to Mugsy's height?</div>",
+  "image_files": [
+    "images/question-248-img1.PNG",
+    "images/question-248-img2.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Manute's height is at the\n41\nst\npercentile of the distribution, and he is shorter than Mugsy."
+    },
+    {
+      "letter": "B",
+      "text": "Manute's height is at the\n41\nst\npercentile of the distribution, and he is the taller than Mugsy."
+    },
+    {
+      "letter": "C",
+      "text": "Manute's height is at the\n46\nth\npercentile of the distribution, and he is shorter than Mugsy."
+    },
+    {
+      "letter": "D",
+      "text": "Manute's height is at the\n59\nth\npercentile of the distribution, and he is shorter than Mugsy."
+    },
+    {
+      "letter": "E",
+      "text": "Manute's height is at the\n59\nth\npercentile of the distribution, and he is taller than Mugsy."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.C.1",
+    "2.D",
+    "VAR-2.C",
+    "VAR-2"
+  ],
+  "standards": [
+    "VAR-2.C.1",
+    "2.D",
+    "VAR-2.C",
+    "VAR-2"
+  ]
+}

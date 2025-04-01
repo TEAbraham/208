@@ -1,0 +1,57 @@
+{
+  "question_id": "question-033",
+  "title": "Baby Average Height",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A night nurse works at a birth center. Her job is to measure the baby's vitals as soon as it is born. She decides to record the number of babies and their heights compared to the average stated on the internet. The data below is split into gender categories as well. </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Shorter</th><th scope=\"col\">Average</th><th scope=\"col\">Taller</th></tr></thead><tbody><tr><td>Male</td><td><span class=\"tex2jax_process\">$25$</span></td><td><span class=\"tex2jax_process\">$32$</span></td><td><span class=\"tex2jax_process\">$18$</span></td></tr><tr><td>Female</td><td><span class=\"tex2jax_process\">$30$</span></td><td><span class=\"tex2jax_process\">$22$</span></td><td><span class=\"tex2jax_process\">$15$</span></td></tr></tbody></table></div><div class=\"paragraph\">Based off the information in table, which of the following is the appropriate graph to determine if a relationship exists between gender and height compared to average?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Parallel Boxplots"
+    },
+    {
+      "letter": "B",
+      "text": "Scatterplot"
+    },
+    {
+      "letter": "C",
+      "text": "Histogram"
+    },
+    {
+      "letter": "D",
+      "text": "Stacked Doplot"
+    },
+    {
+      "letter": "E",
+      "text": "Side-by-side Bar Graph"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer. ",
+  "solution": "The table given in the prompt summarizes the data of two <strong>Categorical Variables</strong> since the nurse is placing the babies into different groups based off gender and height. \n\nWhen looking at categorical variables, there are many different graphs we can use to visualize the data. Examples of these graphs are pie charts, bar charts, segmented bar charts, and <strong>side-by-side bar graphs</strong>. This graph allows you to see the counts, or frequencies, of the categories split up into two different categories. Therefore, of the options given above, the side-by-side bar graph is the only acceptable graph. \n\n<strong>Choice 'E'</strong> is correct. ",
+  "distractor_explanations": {
+    "A": "<strong>Choice 'A'</strong> is incorrect. A boxplot is used to display quantitative data, therefore we cannot use it to display categorical data. ",
+    "B": "<strong>Choice 'B'</strong> is incorrect. A scatterplot is used to display two quantitative variables, and since our data is categorical, we cannot use this graph. ",
+    "C": "<strong>Choice 'C'</strong> is incorrect.  A histogram displays a continuous quantitative variable, therefore we cannot use this graph. ",
+    "D": "<strong>Choice 'D'</strong> is incorrect. A dotplot places a \"dot\" on a number line representing a quantitative variable, therefore we cannot use it for our categorical variable."
+  },
+  "tags": [
+    "UNC-1.E",
+    "UNC-1.D",
+    "2.D",
+    "2.B",
+    "UNC-1.C.1",
+    "UNC-1.C",
+    "UNC-1.E.1",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.E",
+    "UNC-1.D",
+    "2.D",
+    "2.B",
+    "UNC-1.C.1",
+    "UNC-1.C",
+    "UNC-1.E.1",
+    "UNC-1"
+  ]
+}

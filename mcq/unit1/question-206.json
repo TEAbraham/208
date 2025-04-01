@@ -1,0 +1,48 @@
+{
+  "question_id": "question-206",
+  "title": "Effects of Transforming Inches to Centimeters",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Incoming freshmen at a large high school routinely have their heights measured by the school nurse.  The nurse records each height in inches and then determines the standardized <span class=\"tex2jax_process\">$z$</span>-score for each student.  </div><div class=\"paragraph\">How would the <span class=\"tex2jax_process\">$z$</span>-scores be affected if each height was converted from inches to centimeters?  NOTE:  <span class=\"tex2jax_process\">$1 \\text{ inch} = 2.54\\text{ cm}$</span>​</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The\nz\n-scores will remain unchanged."
+    },
+    {
+      "letter": "B",
+      "text": "The\nz\n-scores will all be multiplied by\n2.54\n."
+    },
+    {
+      "letter": "C",
+      "text": "All\nz\n-scores will be increased by\n1.54\n."
+    },
+    {
+      "letter": "D",
+      "text": "All\nz\n-scores will be\n254\n% of their previous values."
+    },
+    {
+      "letter": "E",
+      "text": "There is no way to predict what will happen to the\nz\n-scores."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2",
+    "VAR-2.B.3"
+  ],
+  "standards": [
+    "VAR-2.B.2",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2",
+    "VAR-2.B.3"
+  ]
+}

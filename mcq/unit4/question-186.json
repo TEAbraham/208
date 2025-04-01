@@ -1,0 +1,44 @@
+{
+  "question_id": "question-186",
+  "title": "Binomial Distribution: Manipulating the Binomial Formula",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A random variable <span class=\"tex2jax_process\">$X$</span> has the probability    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$\\begin{pmatrix} 20 \\\\ k \\end{pmatrix}(0.44)^{k}(0.56)^{20-k}$$</div>  </div><div class=\"paragraph\">...associated with the value <span class=\"tex2jax_process\">$k$</span> for <span class=\"tex2jax_process\">$k= 0,1,2,3,…,20$</span>.  </div><div class=\"paragraph\">What is the mean of <span class=\"tex2jax_process\">$X$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "4.4"
+    },
+    {
+      "letter": "B",
+      "text": "5.6"
+    },
+    {
+      "letter": "C",
+      "text": "8.8"
+    },
+    {
+      "letter": "D",
+      "text": "10"
+    },
+    {
+      "letter": "E",
+      "text": "11.2"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.C.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.C"
+  ],
+  "standards": [
+    "UNC-3.C.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.C"
+  ]
+}

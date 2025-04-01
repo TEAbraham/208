@@ -1,0 +1,44 @@
+{
+  "question_id": "question-135",
+  "title": "Refer to the Formula",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Which of the following represents the variance when completing a <span class=\"tex2jax_process\">$z$</span>-test for the difference between two population proportions?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "σ\n√\nn"
+    },
+    {
+      "letter": "B",
+      "text": "n\n(\np\n)\n(\n1\n−\np\n)\nwhere\np\nis the observed proportion of successes from both populations combined."
+    },
+    {
+      "letter": "C",
+      "text": "(\np\n1\n)\n(\n1\n−\np\n1\n)\nn\n1\n+\n(\np\n2\n)\n(\n1\n−\np\n2\n)\nn\n2\nwhere\np\n1\nis the hypothesized proportion for population\n1\nand\np\n2\nis the hypothesized proportion for population\n2\n."
+    },
+    {
+      "letter": "D",
+      "text": "(\n^\np\n1\n)\n(\n1\n−\n^\np\n1\n)\nn\n1\n+\n(\n^\np\n2\n)\n(\n1\n−\n^\np\n2\n)\nn\n2\nwhere\n^\np\n1\nis the observed proportion from population\n1\nand\n^\np\n2\nis the observed proportion from population\n2\n."
+    },
+    {
+      "letter": "E",
+      "text": "(\np\n)\n(\n1\n−\np\n)\n(\n1\nn\n1\n+\n1\nn\n2\n)\nwhere\np\nis the observed proportion from both populations combined."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-6.K",
+    "3.E",
+    "VAR-6.K.1",
+    "VAR-6"
+  ],
+  "standards": [
+    "VAR-6.K",
+    "3.E",
+    "VAR-6.K.1",
+    "VAR-6"
+  ]
+}

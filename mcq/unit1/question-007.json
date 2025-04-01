@@ -1,0 +1,44 @@
+{
+  "question_id": "question-007",
+  "title": "Question With No Meaningful Answer",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Robin asked <span class=\"tex2jax_process\">$80$</span> children to identify their favorite season.  The results are shown below.</div><ul><li><span class=\"tex2jax_process\">$\\text{Spring:  }25\\%$</span>\n<br></li><li><span class=\"tex2jax_process\">$\\text{Summer:  }35\\%$</span>\n<br></li><li><span class=\"tex2jax_process\">$\\text{Fall:  }15\\%$</span>\n<br></li><li><span class=\"tex2jax_process\">$\\text{Winter:  }25\\%$</span></li></ul><div class=\"paragraph\">Robin also asked <span class=\"tex2jax_process\">$60$</span> adults to identify their favorite season.  The results are shown below.</div><ul><li><span class=\"tex2jax_process\">$\\text{Spring:  }40\\%$</span>\n<br></li><li><span class=\"tex2jax_process\">$\\text{Summer:  }20\\%$</span>\n<br></li><li><span class=\"tex2jax_process\">$\\text{Fall:  }30\\%$</span>\n<br></li><li><span class=\"tex2jax_process\">$\\text{Winter:  }10\\%$</span></li></ul><div class=\"paragraph\">Which of the following questions cannot be answered in a meaningful way from Robin's sets of data?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "What is the average (mean) number of individuals who responded \"Spring\"?"
+    },
+    {
+      "letter": "B",
+      "text": "What is the combined proportion of individuals who responded \"Summer\"?"
+    },
+    {
+      "letter": "C",
+      "text": "What is the combined frequency of \"Fall\" as a response?"
+    },
+    {
+      "letter": "D",
+      "text": "Among those surveyed, was \"Winter\" more popular among children or adults?"
+    },
+    {
+      "letter": "E",
+      "text": "Among those surveyed, was favorite season the same for both children and adults?"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "1.A",
+    "VAR-1.A.1",
+    "VAR-1",
+    "VAR-1.A"
+  ],
+  "standards": [
+    "1.A",
+    "VAR-1.A.1",
+    "VAR-1",
+    "VAR-1.A"
+  ]
+}

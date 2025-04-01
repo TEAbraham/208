@@ -1,0 +1,44 @@
+{
+  "question_id": "question-045",
+  "title": "Ice Cream Shop | 1 of 3",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">An owner of a local ice cream shop wishes to determine if a positive linear relationship exists between high temperatures and the shop’s profits recorded that day.  </div><div class=\"paragraph\">The owner recorded sales from the last <span class=\"tex2jax_process\">$50\\text{ days}$</span> of the summer and performed a linear regression <span class=\"tex2jax_process\">$T$</span>-interval on temperature vs. sales at <span class=\"tex2jax_process\">$95\\%$</span> confidence.  </div><div class=\"paragraph\">The appropriate degrees of freedom for this situation is</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "25"
+    },
+    {
+      "letter": "B",
+      "text": "98"
+    },
+    {
+      "letter": "C",
+      "text": "50"
+    },
+    {
+      "letter": "D",
+      "text": "49"
+    },
+    {
+      "letter": "E",
+      "text": "48"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.2"
+  ],
+  "standards": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.2"
+  ]
+}

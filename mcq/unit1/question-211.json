@@ -1,0 +1,48 @@
+{
+  "question_id": "question-211",
+  "title": "Golf Drives",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A local driving range keeps track of the distances its clients hit golf balls. Distances are normally distributed and have a standard deviation of <span class=\"tex2jax_process\">$43\\text{ yards}$</span>.  </div><div class=\"paragraph\">If a <span class=\"tex2jax_process\">$350\\text{ yard}$</span> drive puts an individual in the top <span class=\"tex2jax_process\">$1\\%$</span> of all drives, what is the mean of this distribution?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "About\n250\n yards\n."
+    },
+    {
+      "letter": "B",
+      "text": "About\n450\n yards\n."
+    },
+    {
+      "letter": "C",
+      "text": "About\n350\n yards\n."
+    },
+    {
+      "letter": "D",
+      "text": "About\n295\n yards\n."
+    },
+    {
+      "letter": "E",
+      "text": "About\n268\n yards\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2"
+  ],
+  "standards": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-128",
+  "title": "Determining a $p$-Value",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A group of college students in a psychology class wonders if the order of treatments changes the outcome of a study.  </div><div class=\"paragraph\">To test this, they ask students in a blind taste test which of two colas they prefer, Pepsi or Coke. In this blind taste test, the first <span class=\"tex2jax_process\">$50\\text{ randomly chosen subjects}$</span> are given Pepsi and then Coke, with <span class=\"tex2jax_process\">$34$</span> preferring Pepsi. The next <span class=\"tex2jax_process\">$50\\text{ randomly chosen subjects}$</span> are given Coke and then Pepsi, with <span class=\"tex2jax_process\">$29$</span> preferring Pepsi.  </div><div class=\"paragraph\">Does this give evidence that the order in which colas, or options, are presented makes a difference?  </div><div class=\"paragraph\">Determine the approximate <span class=\"tex2jax_process\">$p$</span>-value of a test to answer this question.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.8508"
+    },
+    {
+      "letter": "B",
+      "text": "0.1492"
+    },
+    {
+      "letter": "C",
+      "text": "0.1092"
+    },
+    {
+      "letter": "D",
+      "text": "0.0345"
+    },
+    {
+      "letter": "E",
+      "text": "0.2984"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-6.K",
+    "3.E",
+    "VAR-6.K.1",
+    "VAR-6"
+  ],
+  "standards": [
+    "VAR-6.K",
+    "3.E",
+    "VAR-6.K.1",
+    "VAR-6"
+  ]
+}

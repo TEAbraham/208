@@ -1,0 +1,46 @@
+{
+  "question_id": "question-062",
+  "title": "Library Survey on Child Height and Shoe Size",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Suppose a random sample of size <span class=\"tex2jax_process\">$n = 40\\text{ children}$</span> were taken at a local library, where they were asked their shoe size and age.  </div><div class=\"paragraph\">What <span class=\"tex2jax_process\">$r$</span> value and test statistic would be most likely to occur when performing a linear regression <span class=\"tex2jax_process\">$T$</span>-test of <span class=\"tex2jax_process\">$H_0: B = 0$</span> vs. <span class=\"tex2jax_process\">$H_a: B \\gt 0$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "T\n=\n−\n4.32 r\n=\n0.4"
+    },
+    {
+      "letter": "B",
+      "text": "T\n=\n0.99 r\n=\n−\n0.9"
+    },
+    {
+      "letter": "C",
+      "text": "T\n=\n−\n0.99 r\n=\n−\n0.8"
+    },
+    {
+      "letter": "D",
+      "text": "T\n=\n3.43 r\n=\n3.42"
+    },
+    {
+      "letter": "E",
+      "text": "T\n=\n4.89 r\n=\n0.9"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.1",
+    "VAR-7.M.2"
+  ],
+  "standards": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.1",
+    "VAR-7.M.2"
+  ]
+}

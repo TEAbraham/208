@@ -1,0 +1,44 @@
+{
+  "question_id": "question-204",
+  "title": "Finding Probabilities from a $z$-table",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">According to the <span class=\"tex2jax_process\">$z$</span>-table, find <span class=\"tex2jax_process\">$p(z &lt; -1.26)$</span>.</div><div class=\"paragraph\"><em>Reference your AP Statistics Exam materials</em></div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.1038"
+    },
+    {
+      "letter": "B",
+      "text": "0.1056"
+    },
+    {
+      "letter": "C",
+      "text": "0.1151"
+    },
+    {
+      "letter": "D",
+      "text": "0.8849"
+    },
+    {
+      "letter": "E",
+      "text": "0.8962"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B",
+    "3.A",
+    "VAR-2",
+    "VAR-2.B.3"
+  ],
+  "standards": [
+    "VAR-2.B",
+    "3.A",
+    "VAR-2",
+    "VAR-2.B.3"
+  ]
+}

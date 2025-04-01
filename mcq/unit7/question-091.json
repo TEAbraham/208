@@ -1,0 +1,44 @@
+{
+  "question_id": "question-091",
+  "title": "$2$-sided $p$-values",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">In a <span class=\"tex2jax_process\">$2$</span>-sided hypothesis test for a population mean, the <span class=\"tex2jax_process\">$z$</span>-value associated with the sample mean is found to be <span class=\"tex2jax_process\">$1.95$</span>.  </div><div class=\"paragraph\">What will be the <span class=\"tex2jax_process\">$p$</span>-value for this test?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "−\n0.86"
+    },
+    {
+      "letter": "B",
+      "text": "0.0256"
+    },
+    {
+      "letter": "C",
+      "text": "0.0512"
+    },
+    {
+      "letter": "D",
+      "text": "0.195"
+    },
+    {
+      "letter": "E",
+      "text": "0.9744"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3.E",
+    "DAT-3",
+    "DAT-3.E.1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3.E",
+    "DAT-3",
+    "DAT-3.E.1"
+  ]
+}

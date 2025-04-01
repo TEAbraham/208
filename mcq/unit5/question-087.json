@@ -1,0 +1,44 @@
+{
+  "question_id": "question-087",
+  "title": "Sampling Distribution of a Sample Mean: Get to Class!",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">During passing time at a high school, it takes a student an average of <span class=\"tex2jax_process\">$4.1\\text{ minutes}$</span> with a standard deviation of <span class=\"tex2jax_process\">$0.88\\text{ minutes}$</span> to make it from one class to another class.  </div><div class=\"paragraph\">If the students have <span class=\"tex2jax_process\">$5\\text{ minutes}$</span> to make it from one class to another class without being late, what is the probability when <span class=\"tex2jax_process\">$100\\text{ students}$</span> are randomly selected their average time will be GREATER than <span class=\"tex2jax_process\">$5\\text{ minutes}$</span>? </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "P\n⎛\n⎜\n⎜\n⎝\nz\n>\n4.1\n−\n5\n√\n(\n0.88\n)\n(\n0.12\n)\n100\n⎞\n⎟\n⎟\n⎠"
+    },
+    {
+      "letter": "B",
+      "text": "P\n⎛\n⎜\n⎝\nz\n>\n4.1\n−\n5\n0.88\n√\n100\n⎞\n⎟\n⎠"
+    },
+    {
+      "letter": "C",
+      "text": "P\n(\nz\n>\n5\n−\n4.1\n0.88\n)"
+    },
+    {
+      "letter": "D",
+      "text": "P\n⎛\n⎜\n⎜\n⎝\nz\n>\n5\n−\n4.1\n√\n(\n0.88\n)\n(\n0.12\n)\n100\n⎞\n⎟\n⎟\n⎠"
+    },
+    {
+      "letter": "E",
+      "text": "P\n⎛\n⎜\n⎝\nz\n>\n5\n−\n4.1\n0.88\n√\n100\n⎞\n⎟\n⎠"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.Q.1",
+    "UNC-3",
+    "UNC-3.Q",
+    "3.B"
+  ],
+  "standards": [
+    "UNC-3.Q.1",
+    "UNC-3",
+    "UNC-3.Q",
+    "3.B"
+  ]
+}

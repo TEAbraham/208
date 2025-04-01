@@ -1,0 +1,44 @@
+{
+  "question_id": "question-086",
+  "title": "Interpreting $T$-Interval",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A television programmer at a local news station surveyed the last <span class=\"tex2jax_process\">$30$</span> weekday nights and recorded the number of viewers on the <span class=\"tex2jax_process\">$10$</span> p.m. news.  </div><div class=\"paragraph\">The programmer constructed a one-sample T-interval to find that there is somewhere between <span class=\"tex2jax_process\">$470{,}000$</span> to <span class=\"tex2jax_process\">$520{,}000\\text{ viewers}$</span> with <span class=\"tex2jax_process\">$95\\%$</span> confidence.  </div><div class=\"paragraph\">Which of the following statements could be valid interpretations of the interval?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There is a\n2.5\n%\nprobability that more than\n520,000\n viewers\nwatch the weekday nightly news."
+    },
+    {
+      "letter": "B",
+      "text": "There are most likely somewhere near\n500,000\n viewers\nwatching the weekday nightly news."
+    },
+    {
+      "letter": "C",
+      "text": "There is a\n95\n%\nchance that between\n470,000\nand\n520,000\n viewers\nwatch the weekday nightly news on any given night."
+    },
+    {
+      "letter": "D",
+      "text": "About\n95\n%\nof nights, this network has between\n470,000\nand\n520,000\n viewers\nwatching the weekday nightly news."
+    },
+    {
+      "letter": "E",
+      "text": "In the long run,\n95\n%\nof people watch the weekday nightly news in this community."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7.E",
+    "VAR-7.E.1",
+    "VAR-7",
+    "3.E"
+  ],
+  "standards": [
+    "VAR-7.E",
+    "VAR-7.E.1",
+    "VAR-7",
+    "3.E"
+  ]
+}

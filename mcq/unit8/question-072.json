@@ -1,0 +1,46 @@
+{
+  "question_id": "question-072",
+  "title": "Type I Error",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A fast food company is offering a prize promotion game.  </div><div class=\"paragraph\">The company claims that in <span class=\"tex2jax_process\">$0.5\\%$</span> of all orders will receive <span class=\"tex2jax_process\">$\\$100$</span> cash, <span class=\"tex2jax_process\">$1\\%$</span> of all orders will receive <span class=\"tex2jax_process\">$\\$10$</span> cash, and <span class=\"tex2jax_process\">$10\\%$</span> of orders will receive a coupon for a free soft drink. The remaining orders will receive no prizes.  </div><div class=\"paragraph\">A group of long-time customers were excited about the new promotion, and over the course of the promotion, they placed <span class=\"tex2jax_process\">$651\\text{ orders}$</span>. Of these orders, <span class=\"tex2jax_process\">$2$</span> ended up winning <span class=\"tex2jax_process\">$\\$100$</span>, <span class=\"tex2jax_process\">$6$</span> won <span class=\"tex2jax_process\">$\\$10$</span>, and <span class=\"tex2jax_process\">$52$</span> won a free soft drink.  </div><div class=\"paragraph\">The group wants to do a chi-squared goodness of fit test to test the advertised odds.  </div><div class=\"paragraph\">What would be considered a type I error in the context of this problem?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Deciding the proportions given by the company are false, when in reality they are true."
+    },
+    {
+      "letter": "B",
+      "text": "Deciding the proportions given by the company are true, when in reality they are false."
+    },
+    {
+      "letter": "C",
+      "text": "Deciding the company does not give away enough free soft drinks, when in reality they do."
+    },
+    {
+      "letter": "D",
+      "text": "Deciding the company gives away too few prizes, when in reality they give away enough prizes."
+    },
+    {
+      "letter": "E",
+      "text": "Deciding the company is corrupt, when in reality it is not."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.L",
+    "DAT-3",
+    "DAT-3.L.2",
+    "DAT-3.L.1"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3.L",
+    "DAT-3",
+    "DAT-3.L.2",
+    "DAT-3.L.1"
+  ]
+}

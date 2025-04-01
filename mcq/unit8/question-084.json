@@ -1,0 +1,46 @@
+{
+  "question_id": "question-084",
+  "title": "Effects of Degrees of Freedom on the Chi-square Distribution",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Which of the following statements are true?</div><blockquote><div class=\"paragraph\"><strong>I.</strong>  A small chi-square value leads to rejecting the null hypothesis.  </div><div class=\"paragraph\"><strong>II.</strong>  The chi-square distribution is nearly normal for very large degrees of freedom.  </div><div class=\"paragraph\"><strong>III.</strong>  If a chi-square value leads to rejecting the null hypothesis with <span class=\"tex2jax_process\">$20$</span> degrees of freedom it must also lead to rejecting the null hypothesis with <span class=\"tex2jax_process\">$10$</span> degrees of freedom.    </div></blockquote>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and III only."
+    },
+    {
+      "letter": "E",
+      "text": "II and III only."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.M",
+    "VAR-8.M.2",
+    "3.E",
+    "VAR-8",
+    "VAR-8.M.1"
+  ],
+  "standards": [
+    "VAR-8.M",
+    "VAR-8.M.2",
+    "3.E",
+    "VAR-8",
+    "VAR-8.M.1"
+  ]
+}

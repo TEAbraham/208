@@ -1,0 +1,44 @@
+{
+  "question_id": "question-012",
+  "title": "Find the Standard Error",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">The confidence interval for the slope of a given regression model is <span class=\"tex2jax_process\">$0.6\\pm1.2$</span>.  If the value of <span class=\"tex2jax_process\">$t^{*}$</span> is <span class=\"tex2jax_process\">$0.8$</span>, find the value of the standard error for the slope of the regression line.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1.5"
+    },
+    {
+      "letter": "B",
+      "text": "1.2"
+    },
+    {
+      "letter": "C",
+      "text": "1.8"
+    },
+    {
+      "letter": "D",
+      "text": "0.6"
+    },
+    {
+      "letter": "E",
+      "text": "0.96"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.AE.1",
+    "3.D",
+    "UNC-4",
+    "UNC-4.AE"
+  ],
+  "standards": [
+    "UNC-4.AE.1",
+    "3.D",
+    "UNC-4",
+    "UNC-4.AE"
+  ]
+}

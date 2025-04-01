@@ -1,0 +1,44 @@
+{
+  "question_id": "question-050",
+  "title": "Laptop Battery Life: Interpreting a $p$-Value",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">When Carter bought his new laptop computer, the sales person told him that the average battery life was <span class=\"tex2jax_process\">$5$</span> hours and that the number of hours of battery life is approximately normally distributed. After using the computer for a few days, Carter began to have his doubts. The next <span class=\"tex2jax_process\">$10$</span> times that Carter used his computer, he kept track of how long it took for the battery to drain. The sample average was <span class=\"tex2jax_process\">$4.25$</span>.  </div><div class=\"paragraph\">Conducting a one-sided significance test, he found the <span class=\"tex2jax_process\">$p$</span>-value to be <span class=\"tex2jax_process\">$0.038$</span>.  </div><div class=\"paragraph\">What is the best way to interpret this <span class=\"tex2jax_process\">$p$</span>-value in the context of this situation?  </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A\np\n-value as small as\n0.038\ngives Carter good reason to doubt that the average battery life of his laptop really is\n5\nhours."
+    },
+    {
+      "letter": "B",
+      "text": "If the average battery life really is\n5\nhours, then a sample of\n10\nobservations having a sample mean of\n4.25\nhours or lower would only occur about\n3.8\n%\nof the time."
+    },
+    {
+      "letter": "C",
+      "text": "When\n10\nobservations are made, the battery life will be as low as\n4.25\nhours in\n3.8\n%\nof the observations."
+    },
+    {
+      "letter": "D",
+      "text": "There is a\n3.8\n%\nchance that Carter's laptop computer battery will last for\n4.25\nhours anytime he uses it."
+    },
+    {
+      "letter": "E",
+      "text": "Only\n3.8\n%\nof all laptop batteries will last as long as\n5\nhours."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.A.2",
+    "DAT-3.A"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.A.2",
+    "DAT-3.A"
+  ]
+}

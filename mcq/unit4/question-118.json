@@ -1,0 +1,48 @@
+{
+  "question_id": "question-118",
+  "title": "First-Class Letter Delivery",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The U.S. Postal Service recently released data on the number of days it takes for a first-class letter to reach its destination, as shown in the table below.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">x</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th></tr></thead><tbody><tr><td>p(X)</td><td>0.42</td><td>0.27</td><td>0.3</td><td>0.01</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>What are the mean and standard deviation for the number of days it takes for a first-class letter to reach its destination?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "μ\n=\n1.9\n;\nσ\n=\n0.75"
+    },
+    {
+      "letter": "B",
+      "text": "μ\n=\n1.9\n;\nσ\n=\n0.87"
+    },
+    {
+      "letter": "C",
+      "text": "μ\n=\n2\n;\nσ\n=\n1"
+    },
+    {
+      "letter": "D",
+      "text": "μ\n=\n2\n;\nσ\n=\n1.5"
+    },
+    {
+      "letter": "E",
+      "text": "μ\n=\n2.5\n;\nσ\n=\n1"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.C.2",
+    "VAR-5.C.3",
+    "VAR-5.C.1",
+    "VAR-5",
+    "3.B",
+    "VAR-5.C"
+  ],
+  "standards": [
+    "VAR-5.C.2",
+    "VAR-5.C.3",
+    "VAR-5.C.1",
+    "VAR-5",
+    "3.B",
+    "VAR-5.C"
+  ]
+}

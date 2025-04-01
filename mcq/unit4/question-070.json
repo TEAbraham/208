@@ -1,0 +1,46 @@
+{
+  "question_id": "question-070",
+  "title": "Playing Solitaire and Winning on the Fourth Game",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Maria loves to play Solitaire on her computer and knows that the probability that she will win is <span class=\"tex2jax_process\">$65\\%$</span>.  </div><div class=\"paragraph\">Assuming every game she plays is independent, what is the probability that the next time she sits down to play Solitaire, she will win for the first time on her <span class=\"tex2jax_process\">$4^\\text{th}$</span> play of the game?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.0098"
+    },
+    {
+      "letter": "B",
+      "text": "0.0279"
+    },
+    {
+      "letter": "C",
+      "text": "0.1115"
+    },
+    {
+      "letter": "D",
+      "text": "0.1785"
+    },
+    {
+      "letter": "E",
+      "text": "0.65"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ],
+  "standards": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ]
+}

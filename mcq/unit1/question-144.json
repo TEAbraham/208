@@ -1,0 +1,46 @@
+{
+  "question_id": "question-144",
+  "title": "Film Ogive",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">The graph below (called an ogive) displays the relative cumulative frequency for the number of times a random sample of <span class=\"tex2jax_process\">$30\\text{ adults}$</span> have seen a particular children's film with their kids.  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"paragraph\">Which of the following statements can be justified by the graph?</div>",
+  "image_files": [
+    "images/question-144-img1.png"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Ten of the people in the sample have seen the movie one time."
+    },
+    {
+      "letter": "B",
+      "text": "There is an outlier in this distribution. One person has seen the movie ten times."
+    },
+    {
+      "letter": "C",
+      "text": "There is an outlier in this distribution. One person has never seen the movie."
+    },
+    {
+      "letter": "D",
+      "text": "The number of times a person has seen the film increases over time, then stops increasing."
+    },
+    {
+      "letter": "E",
+      "text": "77\n%\nof the adults in the sample saw the movie\n4\nor more times."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.M",
+    "UNC-1.M.1",
+    "2.A",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.M",
+    "UNC-1.M.1",
+    "2.A",
+    "UNC-1"
+  ]
+}

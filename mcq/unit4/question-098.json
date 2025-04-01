@@ -1,0 +1,46 @@
+{
+  "question_id": "question-098",
+  "title": "Probability Rules!",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Events <span class=\"tex2jax_process\">$A$</span> and <span class=\"tex2jax_process\">$B$</span> are independent, with <span class=\"tex2jax_process\">$P(A) = 0.40$</span> and <span class=\"tex2jax_process\">$P(A \\text{ and } B)=  0.04$</span>.  Which of the following is true?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "P\n(\nB\n)\n=\n0.06"
+    },
+    {
+      "letter": "B",
+      "text": "P\n(\nB\n)\n=\n0.60"
+    },
+    {
+      "letter": "C",
+      "text": "P\n(\nA\n or \nB\n)\n=\n0.46"
+    },
+    {
+      "letter": "D",
+      "text": "P\n(\nA\n or \nB\n)\n=\n0.50"
+    },
+    {
+      "letter": "E",
+      "text": "P\n(\nA\n or \nB\n)\n=\n0.54"
+    }
+  ],
+  "correct_answer": "<strong>Choice  ‘C’</strong> is the correct answer.   ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ],
+  "standards": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ]
+}

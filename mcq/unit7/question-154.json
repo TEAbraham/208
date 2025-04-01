@@ -1,0 +1,44 @@
+{
+  "question_id": "question-154",
+  "title": "Soups On",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A company producing cans of soup was interested in checking the weight of its chicken soup cans.  While marked at <span class=\"tex2jax_process\">$16$</span> ounces, the company was concerned whether it was meeting this amount.  A random sample of <span class=\"tex2jax_process\">$36$</span> cans was taken and the sample mean was found to be <span class=\"tex2jax_process\">$16.2$</span> ounces with a standard deviation of <span class=\"tex2jax_process\">$0.8$</span> ounces.  Find the value of the <span class=\"tex2jax_process\">$t$</span> statistic as well as its degrees of freedom.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "t\n=\n16.2\n−\n16\n0.8\n√\n36 d.f. = 35"
+    },
+    {
+      "letter": "B",
+      "text": "t\n=\n16.2\n−\n16\n0.8\n√\n36 d.f. = 36"
+    },
+    {
+      "letter": "C",
+      "text": "t\n=\n16\n−\n16.2\n0.8\n√\n36 d.f. = 35"
+    },
+    {
+      "letter": "D",
+      "text": "t\n=\n16.2\n−\n16\n36\n√\n0.8 d.f. = 36"
+    },
+    {
+      "letter": "E",
+      "text": "t\n=\n16.2\n−\n16\n0.8\n36 d.f. = 35"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7.E",
+    "VAR-7.E.1",
+    "VAR-7",
+    "3.E"
+  ],
+  "standards": [
+    "VAR-7.E",
+    "VAR-7.E.1",
+    "VAR-7",
+    "3.E"
+  ]
+}

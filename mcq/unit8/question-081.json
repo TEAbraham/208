@@ -1,0 +1,46 @@
+{
+  "question_id": "question-081",
+  "title": "${ \\chi}^{2}$ Independence: Relationships or Grades?",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A student wondered if there was an association between relationship status and overall letter grade (based on grade point average) at her high school.    She used a stratified random sample to select  <span class=\"tex2jax_process\">$20$</span> students within each letter grade.  The information is displayed in the table below.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Letter Grade</th><th scope=\"col\">In a relationship</th><th scope=\"col\">Not in a relationship</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>A</td><td>8</td><td>12</td><td>20</td></tr><tr><td>B</td><td>11</td><td>9</td><td>20</td></tr><tr><td>C</td><td>13</td><td>7</td><td>20</td></tr><tr><td>D</td><td>10</td><td>10</td><td>20</td></tr><tr><td>F</td><td>6</td><td>14</td><td>20</td></tr><tr><td>Total</td><td>48</td><td>52</td><td>100</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>A <span class=\"tex2jax_process\">${ \\chi}^{2}$</span> test of independence was conducted to determine whether the data above provides convincing evidence of an association between relationship status and overall letter grade.  The <span class=\"tex2jax_process\">${ \\chi}^{2}$</span> test statistic  was <span class=\"tex2jax_process\">$5.849$</span> with a <span class=\"tex2jax_process\">$p$</span>-value of <span class=\"tex2jax_process\">$0.211$</span>.  Which of the following statements is true?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "No relevant conclusion can be made because the data is not normally distributed."
+    },
+    {
+      "letter": "B",
+      "text": "Since the\np\n-value is greater than the significance level of\nα\n=\n0.05\n, there is sufficient evidence to suggest relationship status and overall letter grade are independent."
+    },
+    {
+      "letter": "C",
+      "text": "Since the\np\n-value is greater than the significance level of\nα\n=\n0.05\n, there is sufficient evidence to suggest relationship status and overall letter grade are dependent."
+    },
+    {
+      "letter": "D",
+      "text": "Since the\np\n-value is greater than the significance level of\nα\n=\n0.05\n, there is insufficient evidence to suggest an association between relationship status and overall letter grade."
+    },
+    {
+      "letter": "E",
+      "text": "Since the\np\n-value is greater than the significance level of\nα\n=\n0.05\n, there is sufficient evidence to suggest an association between relationship status and overall letter grade."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.L",
+    "DAT-3",
+    "DAT-3.L.2",
+    "DAT-3.L.1"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3.L",
+    "DAT-3",
+    "DAT-3.L.2",
+    "DAT-3.L.1"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-173",
+  "title": "Binomial Calculations: Tossing a Fair Coin",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose a fair coin is tossed <span class=\"tex2jax_process\">$8\\text{ times}$</span>, and only <span class=\"tex2jax_process\">$2$</span> of those <span class=\"tex2jax_process\">$\\text{tosses}$</span> were heads.  </div><div class=\"paragraph\">Use binomial calculations to determine the probability of <span class=\"tex2jax_process\">$2$</span> or fewer heads out of <span class=\"tex2jax_process\">$8\\text{ tosses}$</span>, and determine if this gives appropriate evidence to suggest that the coin is unfair.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "P\n(\n2\n or fewer heads\n)\n=\n0.304 Yes, this gives enough evidence to suggest that the coin is unfair"
+    },
+    {
+      "letter": "B",
+      "text": "P\n(\n2\n heads or fewer\n)\n=\n0.304 No, this does not give enough evidence to suggest that the coin is unfair"
+    },
+    {
+      "letter": "C",
+      "text": "P\n(\n2\n heads or fewer\n)\n=\n0.1094 No, this does not give enough evidence to suggest that the coin is unfair"
+    },
+    {
+      "letter": "D",
+      "text": "P\n(\n2\n heads or fewer\n)\n=\n0.1445 No, this does not give enough evidence to suggest that the coin is unfair"
+    },
+    {
+      "letter": "E",
+      "text": "P\n(\n2\n heads or fewer\n)\n=\n0.0245\n. Yes, this gives enough evidence to suggest that the coin is unfair"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.    ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.A.2",
+    "3.A",
+    "UNC-3",
+    "UNC-3.A"
+  ],
+  "standards": [
+    "UNC-3.A.2",
+    "3.A",
+    "UNC-3",
+    "UNC-3.A"
+  ]
+}

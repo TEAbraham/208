@@ -1,0 +1,48 @@
+{
+  "question_id": "question-261",
+  "title": "Middle $50\\%$ of Baby Weights",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">The weights of babies born at a certain large hospital are normally distributed with an average of <span class=\"tex2jax_process\">$7.5\\text{ pounds}$</span> and a standard deviation of <span class=\"tex2jax_process\">$1.25\\text{ pounds}$</span>.  </div><div class=\"paragraph\">What range of weights would put a baby born at this hospital in the middle <span class=\"tex2jax_process\">$50\\%$</span> in terms of weight?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Between\n3.75\n pounds\nand\n11.25\n pounds\n."
+    },
+    {
+      "letter": "B",
+      "text": "Between\n5\n pounds\nand\n10\n pounds\n."
+    },
+    {
+      "letter": "C",
+      "text": "Between\n6.25\n pounds\nand\n8.75\n pounds\n."
+    },
+    {
+      "letter": "D",
+      "text": "Between\n6.4\n pounds\nand\n8.6\n pounds\n."
+    },
+    {
+      "letter": "E",
+      "text": "Between\n6.7\n pounds\nand\n8.3\n pounds\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2"
+  ],
+  "standards": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2"
+  ]
+}

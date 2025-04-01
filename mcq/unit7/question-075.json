@@ -1,0 +1,44 @@
+{
+  "question_id": "question-075",
+  "title": "Hypothesis Setup",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A local sandwich shop decided to slash their prices in an attempt to increase weekly sales.  </div><div class=\"paragraph\">Historically, their gross sales have been <span class=\"tex2jax_process\">$\\$6{,}515$</span> per week. Since slashing their prices, the last <span class=\"tex2jax_process\">$10\\text{ weeks}$</span> have averaged <span class=\"tex2jax_process\">$\\$6{,}879$</span> per week in sales with a standard deviation of <span class=\"tex2jax_process\">$\\$400$</span>.  </div><div class=\"paragraph\">If the manager wishes to test whether the sales promotion was successful, what would the appropriate null and alternative hypotheses be?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "H\n0\n:\nμ\n=\n0 H\na\n:\nμ\n>\n0"
+    },
+    {
+      "letter": "B",
+      "text": "H\n0\n:\nμ\n=\n6515 H\na\n:\nμ\n≠\n6515"
+    },
+    {
+      "letter": "C",
+      "text": "H\n0\n:\nμ\n=\n6515 H\na\n:\nμ\n>\n6515"
+    },
+    {
+      "letter": "D",
+      "text": "H\n0\n:\nμ\n=\n6879 H\na\n:\nμ\n≥\n6879"
+    },
+    {
+      "letter": "E",
+      "text": "H\n0\n:\nμ\n=\n6879 H\na\n:\nμ\n≠\n6879"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-3.F",
+    "4.E",
+    "DAT-3",
+    "DAT-3.F.1"
+  ],
+  "standards": [
+    "DAT-3.F",
+    "4.E",
+    "DAT-3",
+    "DAT-3.F.1"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "question_id": "question-237",
+  "title": "Calculating Probability: Average Song Length",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The length of songs played by a certain radio station is approximately normally distributed with a mean of <span class=\"tex2jax_process\">$210\\text{ seconds}$</span> and a standard deviation of <span class=\"tex2jax_process\">$25\\text{ seconds}$</span>.  </div><div class=\"paragraph\">If DJ turns on the radio just in time to catch the beginning of a new song, what is the probability the song will last between <span class=\"tex2jax_process\">$170$</span> and <span class=\"tex2jax_process\">$225\\text{ seconds}$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.05"
+    },
+    {
+      "letter": "B",
+      "text": "0.27"
+    },
+    {
+      "letter": "C",
+      "text": "0.67"
+    },
+    {
+      "letter": "D",
+      "text": "0.73"
+    },
+    {
+      "letter": "E",
+      "text": "0.95"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2",
+    "VAR-2.B.3"
+  ],
+  "standards": [
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2",
+    "VAR-2.B.3"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-031",
+  "title": "Mean Basketball",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose a <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-29526\"><span class=\"MJXp-mn\" id=\"MJXp-Span-29527\">75</span><span class=\"MJXp-mi\" id=\"MJXp-Span-29528\">%</span></span></span><script type=\"math/tex\" id=\"MathJax-Element-8817\">75\\%</script></span> free-throw shooter begins his warmups by attempting free throws until one is missed.  </div><div class=\"paragraph\">What is the expected number of shots to be taken including the first miss?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "75"
+    },
+    {
+      "letter": "B",
+      "text": "1"
+    },
+    {
+      "letter": "C",
+      "text": "1.333"
+    },
+    {
+      "letter": "D",
+      "text": "4"
+    },
+    {
+      "letter": "E",
+      "text": "3"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "VAR-4.B.1",
+    "VAR-4",
+    "VAR-4.B"
+  ],
+  "standards": [
+    "4.B",
+    "VAR-4.B.1",
+    "VAR-4",
+    "VAR-4.B"
+  ]
+}

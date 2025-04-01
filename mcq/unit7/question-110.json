@@ -1,0 +1,44 @@
+{
+  "question_id": "question-110",
+  "title": "Significance of Dunkin Bucks",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Dunkin Bucks is interested if there is a significant difference in the number of cups of coffee their adult customers drink per day compared with their teenage customers. Dunkin Bucks randomly selects <span class=\"tex2jax_process\">$10\\text{ adults}$</span> and <span class=\"tex2jax_process\">$10\\text{ teenagers}$</span> and asks them: \"How many cups of coffee do you drink?\" The resulting data is below:\n<br></div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">N</th><th scope=\"col\">Average cups</th><th scope=\"col\">Standard Deviation</th></tr></thead><tbody><tr><td>Adults</td><td><span class=\"tex2jax_process\">$10$</span></td><td><span class=\"tex2jax_process\">$1.8$</span></td><td><span class=\"tex2jax_process\">$0.6$</span></td></tr><tr><td>Teenagers</td><td><span class=\"tex2jax_process\">$10$</span></td><td><span class=\"tex2jax_process\">$1.3$</span></td><td><span class=\"tex2jax_process\">$0.3$</span></td></tr></tbody></table></div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$  $$</div></div><div class=\"paragraph\"><strong>T-test of</strong>  <span class=\"tex2jax_process\">$ { \\mu  }_{ Adults }-{ \\mu  }_{ Children }=0$</span></div><div class=\"paragraph\"><strong>T-value = <span class=\"tex2jax_process\">$2.357$</span></strong></div><div class=\"paragraph\"><strong>P-value = <span class=\"tex2jax_process\">$0.034$</span></strong></div><div class=\"paragraph\"><strong>Degrees of Freedom = <span class=\"tex2jax_process\">$13.235$</span></strong></div><div class=\"paragraph\">What conclusion can be made based on these results?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There is sufficient evidence of a difference between the average number of cups of coffee an adult drinks compared to a teenager at the\n1\n%\nsignificance level, but not at the\n5\n%\nand\n10\n%\nsignificance levels."
+    },
+    {
+      "letter": "B",
+      "text": "There is sufficient evidence of a difference between the average number of cups of coffee an adult drinks compared to a teenager at the\n1\n%\nand\n5\n%\nsignificance levels, but not the\n10\n%\nsignificance level."
+    },
+    {
+      "letter": "C",
+      "text": "There is sufficient evidence of a difference between the average number of cups of coffee an adult drinks compared to a teenager at the\n1\n%\n,\n5\n%\n, and\n10\n%\nsignificance levels."
+    },
+    {
+      "letter": "D",
+      "text": "There is insufficient evidence of a difference between the average number of cups of coffee an adult drinks compared to a teenager at the\n1\n%\nsignificance level, but not the\n5\n%\nand\n10\n%\nsignificance levels."
+    },
+    {
+      "letter": "E",
+      "text": "There is insufficient evidence of a difference between the average number of cups of coffee an adult drinks compared to a teenager at the\n1\n%\nsignificance level and\n5\n%\nsignificance level, but not the\n10\n%\nsignificance level."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.AA.1",
+    "UNC-4.AA",
+    "UNC-4",
+    "4.A"
+  ],
+  "standards": [
+    "UNC-4.AA.1",
+    "UNC-4.AA",
+    "UNC-4",
+    "4.A"
+  ]
+}

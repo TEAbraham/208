@@ -1,0 +1,44 @@
+{
+  "question_id": "question-039",
+  "title": "Pick a Card",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">One card is to be picked from a deck of cards.  A deck has <span class=\"tex2jax_process\">$52$</span> cards, <span class=\"tex2jax_process\">$2$</span> colors (red and black), <span class=\"tex2jax_process\">$4$</span> suits (spades, clubs, hearts, diamonds), and <span class=\"tex2jax_process\">$13$</span> different numbered cards including an ace, king, queen, and jack.  Four of the following probability problems are done incorrectly.  Which answer choice below is the one option that is done correctly?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Find the probability of picking an ace or a red card. p(ace or red card)\n=\n4\n52\n+\n26\n52\n=\n30\n52"
+    },
+    {
+      "letter": "B",
+      "text": "Find the probability of picking an ace or a jack. p(ace or jack)\n=\n4\n13\n+\n4\n13\n=\n8\n13"
+    },
+    {
+      "letter": "C",
+      "text": "Find the probability of picking an ace or a king. p(ace or king)\n=\n4\n52\n+\n4\n52\n=\n8\n52"
+    },
+    {
+      "letter": "D",
+      "text": "Find the probability of picking a spade or a black card. p(spade or black card)\n=\n13\n52\n+\n26\n52\n=\n39\n52"
+    },
+    {
+      "letter": "E",
+      "text": "Find the probability of picking an ace or a heart. p(ace or heart)\n=\n4\n52\n+\n13\n52\n=\n17\n52"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "VAR-4.C",
+    "VAR-4",
+    "VAR-4.C.2"
+  ],
+  "standards": [
+    "4.B",
+    "VAR-4.C",
+    "VAR-4",
+    "VAR-4.C.2"
+  ]
+}

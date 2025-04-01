@@ -1,0 +1,44 @@
+{
+  "question_id": "question-022",
+  "title": "An Association?",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">We are trying to show that there is an association between study time and test performance.  A <span class=\"tex2jax_process\">$98\\%$</span> confidence interval for the slope of this regression model is <span class=\"tex2jax_process\">$(-0.24, 1.03)$</span>.</div><div class=\"paragraph\">Can you conclude that an association exists?  Why or why not?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "No because zero is included in the interval, we do not have convincing evidence that there is an association between study time and test performance."
+    },
+    {
+      "letter": "B",
+      "text": "No because we do not have a very large slope, we do not have convincing evidence that there is an association between study time and test performance."
+    },
+    {
+      "letter": "C",
+      "text": "Yes because zero is included in the interval, we do have convincing evidence that there is an association between study time and test performance."
+    },
+    {
+      "letter": "D",
+      "text": "Yes because we are\n98\n%\nconfident of what our true slope will be, we do have convincing evidence that there is an association between study time and test performance."
+    },
+    {
+      "letter": "E",
+      "text": "Yes since it is more likely that the slope is positive, we do have convincing evidence that there is an association between study time and test performance."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.AH.1",
+    "UNC-4",
+    "4.A",
+    "UNC-4.AH"
+  ],
+  "standards": [
+    "UNC-4.AH.1",
+    "UNC-4",
+    "4.A",
+    "UNC-4.AH"
+  ]
+}

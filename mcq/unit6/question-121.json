@@ -1,0 +1,44 @@
+{
+  "question_id": "question-121",
+  "title": "Attending College?",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">In a school district, there are <span class=\"tex2jax_process\">$5{,}100$</span> boys and <span class=\"tex2jax_process\">$5{,}200$</span> girls attending the public high schools.  The superintendent wanted to know if there is a difference in the proportions of boys and girls planning to attend college.  Random samples of <span class=\"tex2jax_process\">$100$</span> boys and <span class=\"tex2jax_process\">$90$</span> girls were asked this question.  <span class=\"tex2jax_process\">$90\\%$</span> of the girls and <span class=\"tex2jax_process\">$82\\%$</span> of the boys said they planned to attend college.  The superintendent needed to verify the conditions for this test for the difference of two population proportions.  </div><div class=\"paragraph\">Which of the following is actually a correct result?  Let the <span class=\"tex2jax_process\">$1$</span> group be the boys and the <span class=\"tex2jax_process\">$2$</span> group be the girls.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "n\n1\n≤\n520"
+    },
+    {
+      "letter": "B",
+      "text": "n\n1\n^\np\nc\n≈\n86.2"
+    },
+    {
+      "letter": "C",
+      "text": "n\n2\n^\np\nc\n≈\n77.6"
+    },
+    {
+      "letter": "D",
+      "text": "n\n1\n(\n1\n−\n^\np\nc\n)\n≈\n14.2"
+    },
+    {
+      "letter": "E",
+      "text": "n\n2\n(\n1\n−\n^\np\nc\n)\n≈\n18.2"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.C",
+    "VAR-6.J",
+    "VAR-6.J.1",
+    "VAR-6"
+  ],
+  "standards": [
+    "4.C",
+    "VAR-6.J",
+    "VAR-6.J.1",
+    "VAR-6"
+  ]
+}

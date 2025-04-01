@@ -1,0 +1,48 @@
+{
+  "question_id": "question-125",
+  "title": "Designing a Study and Looking for a Cure",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Creutzfeldt-Jakob disease is an extremely rare degenerative brain disorder that is usually fatal within a year of the onset of symptoms.  There is no cure and treatment is generally aimed at alleviating symptoms.  </div><div class=\"paragraph\">Suppose a new medication has been developed which shows some promise of alleviating symptoms while also slowing the progression of the disease and extending the lives of individuals who are affected.  </div><div class=\"paragraph\">If <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7513-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>30</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-34812\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-34813\" class=\"mjx-mrow\"><span id=\"MJXc-Node-34814\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">30</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7513\">30</script></span> individuals who have recently been diagnosed with Creutzfeldt-Jakob disease have agreed to take part in a study to evaluate whether the new medication will alleviate symptoms and help those with the disease live longer lives, which of the following outlines how best to conduct the study?    </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A matched pairs experiment in which each of the\n30\nindividuals receives both the current treatment and the new medication."
+    },
+    {
+      "letter": "B",
+      "text": "A single blind experiment using two groups which are formed by completely randomizing the individuals into treatment groups. One group would receive the new medication while the other group would receive the current treatment."
+    },
+    {
+      "letter": "C",
+      "text": "A double blind experiment using completely randomized design. Three treatment groups would be determined at random. The first group would receive the current treatment, the second group would receive the new medication, and the third group would receive a placebo."
+    },
+    {
+      "letter": "D",
+      "text": "A double blind experiment using completely randomized design. The researcher would randomly assign\n15\nindividuals to receive the new medication and\n15\nindividuals to receive the current treatment."
+    },
+    {
+      "letter": "E",
+      "text": "An experiment using block design. Individuals who the researchers suspect will react better to the new medication will be blocked into one group and will be given the new medication, while individuals who the researchers believe will not benefit from the new medication will be blocked into the other group and will receive the current treatment."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3.D",
+    "VAR-3",
+    "VAR-3.D.1",
+    "VAR-3.B.1",
+    "1.C",
+    "VAR-3.B"
+  ],
+  "standards": [
+    "VAR-3.D",
+    "VAR-3",
+    "VAR-3.D.1",
+    "VAR-3.B.1",
+    "1.C",
+    "VAR-3.B"
+  ]
+}

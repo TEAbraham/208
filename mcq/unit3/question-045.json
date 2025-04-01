@@ -1,0 +1,48 @@
+{
+  "question_id": "question-045",
+  "title": "College Exercise Routines",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Researchers want to know how often full-time college undergraduates exercise per week.  </div><div class=\"paragraph\">What method would be most appropriate to answer their question?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Randomly select five universities and ask all college students in these universities how often they exercise."
+    },
+    {
+      "letter": "B",
+      "text": "Randomly select three universities (one large, one medium, and one small) and ask all college students in these universities how often they exercise."
+    },
+    {
+      "letter": "C",
+      "text": "Obtain a list of all undergraduate college students, number them, and use a random number generator to randomly select\n5,000\ncollege students and ask these\n5,000\nstudents how often they exercise."
+    },
+    {
+      "letter": "D",
+      "text": "Select\n10\nstudents by going to every university bookstore and ask them how often they exercise."
+    },
+    {
+      "letter": "E",
+      "text": "Have surveys at all schools’ health club for the students to fill out when they leave."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-2.C.2",
+    "DAT-2",
+    "DAT-2.D.1",
+    "1.C",
+    "DAT-2.D",
+    "DAT-2.C"
+  ],
+  "standards": [
+    "DAT-2.C.2",
+    "DAT-2",
+    "DAT-2.D.1",
+    "1.C",
+    "DAT-2.D",
+    "DAT-2.C"
+  ]
+}

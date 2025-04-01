@@ -1,0 +1,44 @@
+{
+  "question_id": "question-026",
+  "title": "Snacks Anyone?",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\"><span class=\"tex2jax_process\">$100$</span> men and <span class=\"tex2jax_process\">$100$</span> women selected at random were asked which type of snack they preferred.  Here are the results:</div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Snack:</th><th scope=\"col\">Popcorn</th><th scope=\"col\">Chips</th><th scope=\"col\">Candy</th><th scope=\"col\">Nuts</th></tr></thead><tbody><tr><td>Men</td><td><span class=\"tex2jax_process\">$25$</span></td><td><span class=\"tex2jax_process\">$30$</span></td><td><span class=\"tex2jax_process\">$15$</span></td><td><span class=\"tex2jax_process\">$30$</span></td></tr><tr><td>Women</td><td><span class=\"tex2jax_process\">$35$</span></td><td><span class=\"tex2jax_process\">$20$</span></td><td><span class=\"tex2jax_process\">$25$</span></td><td><span class=\"tex2jax_process\">$20$</span></td></tr></tbody></table></div><div class=\"paragraph\">What is the conditional relative frequency of the men preferring popcorn and of those preferring candy being women?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "of the men preferring popcorn:\n0.125 of those preferring candy being women:\n0.125"
+    },
+    {
+      "letter": "B",
+      "text": "of the men preferring popcorn:\n0.25 of those preferring candy being women:\n0.25"
+    },
+    {
+      "letter": "C",
+      "text": "of the men preferring popcorn:\n0.56 of those preferring candy being women:\n0.625"
+    },
+    {
+      "letter": "D",
+      "text": "of the men preferring popcorn:\n0.125 of those preferring candy being women:\n0.25"
+    },
+    {
+      "letter": "E",
+      "text": "of the men preferring popcorn:\n0.25 of those preferring candy being women:\n0.625"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "2.C",
+    "UNC-1.Q",
+    "UNC-1.Q.2",
+    "UNC-1"
+  ],
+  "standards": [
+    "2.C",
+    "UNC-1.Q",
+    "UNC-1.Q.2",
+    "UNC-1"
+  ]
+}

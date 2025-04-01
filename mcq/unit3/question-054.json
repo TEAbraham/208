@@ -1,0 +1,48 @@
+{
+  "question_id": "question-054",
+  "title": "Restrooms in the Park",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A large neighborhood association is considering adding a small restroom building to its three neighborhood parks and will choose a random sample of residents to ask their opinions.  </div><div class=\"paragraph\">The association decides to sort the neighborhood homes into two groups:  those located near one of the parks and those not located near a park. The association will then randomly choose <span class=\"tex2jax_process\">$10\\text{ homes}$</span> from each of those groups.  </div><div class=\"paragraph\">Which of the following statements is false?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The homeowner's association stratified on the locations of the homes to guarantee equal representation of opinions from both groups."
+    },
+    {
+      "letter": "B",
+      "text": "The homeowner's association stratified on the locations of the homes to make the surveys easier to collect."
+    },
+    {
+      "letter": "C",
+      "text": "The homeowner's association stratified on the locations of the homes because that is a characteristic that could have an effect on people's opinions about the bathrooms."
+    },
+    {
+      "letter": "D",
+      "text": "The homeowner's association stratified on the locations of the homes so that it can compare the opinions of one group to the other."
+    },
+    {
+      "letter": "E",
+      "text": "The homeowner's association stratified on the locations of the homes to reduce variability in the difference between the two sample proportions."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-2",
+    "DAT-2.D.1",
+    "1.C",
+    "DAT-2.D",
+    "DAT-2.C.3",
+    "DAT-2.C"
+  ],
+  "standards": [
+    "DAT-2",
+    "DAT-2.D.1",
+    "1.C",
+    "DAT-2.D",
+    "DAT-2.C.3",
+    "DAT-2.C"
+  ]
+}

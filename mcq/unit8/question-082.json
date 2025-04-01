@@ -1,0 +1,46 @@
+{
+  "question_id": "question-082",
+  "title": "Chi-Squared Values and $p$-values",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A <span class=\"tex2jax_process\">${ \\chi }^{ 2 }$</span> test for homogeneity of populations was conducted using data found in a two-way table consisting of <span class=\"tex2jax_process\">$6\\text{ rows}$</span> and <span class=\"tex2jax_process\">$3\\text{ columns}$</span>. The <span class=\"tex2jax_process\">${ \\chi }^{ 2 }$</span> value was found to be <span class=\"tex2jax_process\">$19.63$</span>.  </div><div class=\"paragraph\">What can we conclude about the results of this test?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Since\np\n=\n0.033\n, we have strong evidence to suggest that the distribution of proportions is not the same for each of the different populations."
+    },
+    {
+      "letter": "B",
+      "text": "Since\np\n=\n0.354\n, we do not have enough evidence to suggest that the distribution of proportions is not the same for each of the different populations."
+    },
+    {
+      "letter": "C",
+      "text": "Since\np\n=\n19.63\n, we do not have any evidence to suggest that the distribution of proportions is not the same for each of the different populations."
+    },
+    {
+      "letter": "D",
+      "text": "Since\np\n<\n0.05\n, we have strong evidence that the populations are independent of each other."
+    },
+    {
+      "letter": "E",
+      "text": "Since\np\n>\n0.05\n, we cannot conclude that the populations are independent of each other."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.L",
+    "DAT-3",
+    "DAT-3.L.2",
+    "DAT-3.L.1"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3.L",
+    "DAT-3",
+    "DAT-3.L.2",
+    "DAT-3.L.1"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-123",
+  "title": "Best Type of Test for Baking Soufflé",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A perfectly cooked soufflé is fluffy and rises above the dish that it is cooked in.  Chef Celeste wonders if adding an extra egg white to her soufflé recipe would puff up her soufflés and make them rise to a greater height.  </div><div class=\"paragraph\">Celeste knows that even when she sets the oven temperature to <span class=\"tex2jax_process\">$350$</span> degrees, however, different ovens will heat to slightly different temperatures and will cook the soufflés a bit differently.  To account for this fact, she decides to bake two soufflés in each of twelve different ovens that have been preheated to <span class=\"tex2jax_process\">$350$</span> degrees.  In each oven, one soufflé will contain the extra egg white while the other soufflé will not.  </div><div class=\"paragraph\">Assuming all conditions are satisfied, which of the following tests could be used to determine if there is a difference in the average height of the soufflés?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A\n1\n-sample\nt\n-test for determining the mean height of the soufflés."
+    },
+    {
+      "letter": "B",
+      "text": "A\n2\n-sample\nt\n-test for the difference between the mean heights of the soufflés using two different recipes"
+    },
+    {
+      "letter": "C",
+      "text": "A paired\nt\n-test for a mean difference in the height of the soufflés when using two different recipes."
+    },
+    {
+      "letter": "D",
+      "text": "A\nχ\n2\ntest for homogeneity of the average heights of the soufflés baked with the two different recipes."
+    },
+    {
+      "letter": "E",
+      "text": "A\n2\n-sample\nz\n-test for the proportion of soufflés with the extra egg white recipe that rise above the height of soufflés made with the original recipe"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7",
+    "1.E",
+    "VAR-7.F",
+    "VAR-7.F.1"
+  ],
+  "standards": [
+    "VAR-7",
+    "1.E",
+    "VAR-7.F",
+    "VAR-7.F.1"
+  ]
+}

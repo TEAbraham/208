@@ -1,0 +1,49 @@
+{
+  "question_id": "question-005",
+  "title": "Sampling Distribution for Slope",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A senior at a large high school is finishing up his AP Statistics class and has begun his study of linear regression for slope. Similar to other sampling distributions he has already studied, what characteristics of the sampling distribution should the student not worry about during his study of linear regression for slope?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Shape"
+    },
+    {
+      "letter": "B",
+      "text": "Center"
+    },
+    {
+      "letter": "C",
+      "text": "Correlation"
+    },
+    {
+      "letter": "D",
+      "text": "Spread"
+    },
+    {
+      "letter": "E",
+      "text": "All characteristics listed are necessary"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer",
+  "solution": "Whenever an AP Statistics student is looking at a sampling distribution, there are three main characteristics that the learner should focus on: \n\n<strong>Shape</strong>: Approximately Normal\n\n<strong>Center</strong>: Mean of the Sampling Distribution\n\n<strong>Spread</strong>: Standard Deviation of the Sampling Distribution\n\nKnowing these three characteristics will allow the learned to find probability within the sampling distribution, as well as begin the process of inference whether it's confidence intervals or significance testing. \n\nTherefore, the only characteristic that is not necessary for this student would be <strong>correlation</strong>. \n\n<strong>Choice 'C'</strong> is correct. ",
+  "distractor_explanations": {
+    "A": "<strong>Choice 'A'</strong> is incorrect. It is important for the learner to study the shape because the student will need to know if the sampling distribution is approximately normal or not. ",
+    "B": "<strong>Choice 'B'</strong> is incorrect. The center is all an essential characteristic because it marks the middle of the graph and allows the to find the probability. ",
+    "D": "<strong>Choice 'D'</strong> is incorrect. The spread, standard deviation, is also essential to find probability and inference procedures. ",
+    "E": "<strong>Choice 'E'</strong> is incorrect. Since correlation is not needed, all characteristics are not important."
+  },
+  "tags": [
+    "1.A",
+    "VAR-1.K",
+    "VAR-1.K.1",
+    "VAR-1"
+  ],
+  "standards": [
+    "1.A",
+    "VAR-1.K",
+    "VAR-1.K.1",
+    "VAR-1"
+  ]
+}

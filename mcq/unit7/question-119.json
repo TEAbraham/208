@@ -1,0 +1,44 @@
+{
+  "question_id": "question-119",
+  "title": "Degrees of Freedom",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">What is an appropriate number of degrees of freedom to use when conducting a two-sample <span class=\"tex2jax_process\">$t$</span>-test for the difference between two means?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "n\n–\n1\n, where\nn\nis the number of different populations."
+    },
+    {
+      "letter": "B",
+      "text": "n\n–\n1\n, where\nn\nis the larger of the two sample sizes."
+    },
+    {
+      "letter": "C",
+      "text": "n\n–\n1\n, where\nn\nis the smaller of the two sample sizes."
+    },
+    {
+      "letter": "D",
+      "text": "n\n–\n1\n, where\nn\nis the total number of observations in both samples combined."
+    },
+    {
+      "letter": "E",
+      "text": "n\n–\n2\n, where\nn\nis the total number of observations in both samples combined."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7",
+    "1.E",
+    "VAR-7.F",
+    "VAR-7.F.1"
+  ],
+  "standards": [
+    "VAR-7",
+    "1.E",
+    "VAR-7.F",
+    "VAR-7.F.1"
+  ]
+}

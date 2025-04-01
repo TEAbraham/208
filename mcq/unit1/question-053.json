@@ -1,0 +1,51 @@
+{
+  "question_id": "question-053",
+  "title": "School Fundraiser",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A school is hosting a fundraiser to raise money for a new basketball hoop. The fundraiser has carnival games, competitions, and other events that event-goers can pay to participate in. Which of the following situations would be considered a continuous variable?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The number of rings landed on a ring toss game."
+    },
+    {
+      "letter": "B",
+      "text": "The number of jumps in a jump rope competition."
+    },
+    {
+      "letter": "C",
+      "text": "The distance walked in a walk-a-thon."
+    },
+    {
+      "letter": "D",
+      "text": "The amount of whole pies sold by the PTA."
+    },
+    {
+      "letter": "E",
+      "text": "The amount of tickets sold to enter the fundraiser."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer. ",
+  "solution": "All the above variables are examples of <strong>quantitative variables</strong>, which can be described as either discrete or continuous. A <strong>discrete quantitative variable</strong> takes on a countable number of values with gaps between numbers, whereas <strong>continuous quantitative variables</strong> can take on infinitely many values no matter the size of the interval. \n\nIn this case, the only one that can use non-countable numbers would be the distance walked in a walk-a-thon. Since distance is a length measurement, there are infinitely many numbers that the distance can take, no matter the interval. \n\n<strong>Choice 'C'</strong> is correct. ",
+  "distractor_explanations": {
+    "A": "<strong>Choice 'A'</strong> is incorrect. Since the number of rings landed is countable, meaning it only takes values like <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-721-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-3277\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-3278\" class=\"mjx-mrow\"><span id=\"MJXc-Node-3279\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.332em;\">1</span></span><span id=\"MJXc-Node-3280\" class=\"mjx-mo\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"margin-top: -0.162em; padding-bottom: 0.551em;\">,</span></span><span id=\"MJXc-Node-3281\" class=\"mjx-mn MJXc-space1\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.332em;\">2</span></span><span id=\"MJXc-Node-3282\" class=\"mjx-mo\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"margin-top: -0.162em; padding-bottom: 0.551em;\">,</span></span><span id=\"MJXc-Node-3283\" class=\"mjx-mn MJXc-space1\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">3</span></span><span id=\"MJXc-Node-3284\" class=\"mjx-mo\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"margin-top: -0.162em; padding-bottom: 0.551em;\">,</span></span><span id=\"MJXc-Node-3285\" class=\"mjx-mo MJXc-space1\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"margin-top: -0.162em; padding-bottom: 0.332em;\">.</span></span><span id=\"MJXc-Node-3286\" class=\"mjx-mo MJXc-space1\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"margin-top: -0.162em; padding-bottom: 0.332em;\">.</span></span><span id=\"MJXc-Node-3287\" class=\"mjx-mo MJXc-space1\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"margin-top: -0.162em; padding-bottom: 0.332em;\">.</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mo>.</mo><mo>.</mo><mo>.</mo></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-721\">1, 2, 3, ...</script></span> it is a discrete variable. ",
+    "B": "<strong>Choice 'B'</strong> is incorrect. The jumps from a jump rope is again a countable number, therefore it would be considered a discrete variable. ",
+    "D": "<strong>Choice 'D'</strong> is incorrect. Since the PTA is only selling whole pies, you can count the number of pies sold, therefore it's a discrete variable. ",
+    "E": "<strong>Choice 'E'</strong> is incorrect.  The number of tickets can be represented by countable numbers, therefore, it's a discrete variable."
+  },
+  "tags": [
+    "UNC-1.F.1",
+    "UNC-1.F.2",
+    "2.A",
+    "UNC-1.F",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.F.1",
+    "UNC-1.F.2",
+    "2.A",
+    "UNC-1.F",
+    "UNC-1"
+  ]
+}

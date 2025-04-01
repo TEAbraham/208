@@ -1,0 +1,46 @@
+{
+  "question_id": "question-048",
+  "title": "Height/Arm Span Relationship",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">​Scientists wish to determine if there is a positive linear relationship between height and arm span.  </div><div class=\"paragraph\">Which of the following would give us evidence of a positive relationship between these variables in a sample of <span class=\"tex2jax_process\">$40$</span> random subjects?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The correlation coefficient being close to\n−\n1\n."
+    },
+    {
+      "letter": "B",
+      "text": "The p-value in a linear regression\nT\n-test being close to\n0\nwhen testing H\n0\n:\nB\n=\n0\n\nH\na\n:\nB\n>\n0"
+    },
+    {
+      "letter": "C",
+      "text": "A residual plot that shows the data points haphazardly scattered."
+    },
+    {
+      "letter": "D",
+      "text": "A slope in the LSRL close to\n1\n."
+    },
+    {
+      "letter": "E",
+      "text": "A scatterplot without any influential points or outliers."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.N.2",
+    "DAT-3",
+    "DAT-3.N",
+    "DAT-3.N.1"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3.N.2",
+    "DAT-3",
+    "DAT-3.N",
+    "DAT-3.N.1"
+  ]
+}

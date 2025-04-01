@@ -1,0 +1,44 @@
+{
+  "question_id": "question-112",
+  "title": "Rejecting a Null Hypothesis: Steak or Chicken",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A waitress wanted to find out if there was a significant difference in the proportion of her male customers to female customers that ordered the steak dinner instead of the chicken dinner. Over the course of the month, she randomly selected <span class=\"tex2jax_process\">$60$</span> male and <span class=\"tex2jax_process\">$60$</span> female customers and recorded which dinner they ordered. She calculated a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval and found that the true difference in the proportion of male customers to female customers who ordered the steak dinner over the chicken dinner was between <span class=\"tex2jax_process\">$7\\%$</span> to <span class=\"tex2jax_process\">$12\\%$</span>.  </div><div class=\"paragraph\">Based on the confidence interval, do you think that the difference in the proportion of male customers who ordered the steak over the chicken compared to the female customers is statistically significant at the <span class=\"tex2jax_process\">$5\\%$</span> level (assume all of the conditions are met)?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes; since\n0\n%\nis in this confidence interval, the waitress fails to reject the null hypothesis at the\n5\n%\nlevel. She concludes that there is insufficient evidence that there is adifference in the proportion of male customers that prefer the steak dinner over the chicken dinner than the female customers."
+    },
+    {
+      "letter": "B",
+      "text": "Yes; since\n0\n%\nis in this confidence interval, the waitress rejects the null hypothesis at the\n5\n%\nlevel. She concludes that there is sufficient evidence that there is a difference in the proportion of male customers that prefer the steak dinner over the chicken dinner than the female customers."
+    },
+    {
+      "letter": "C",
+      "text": "Yes; since\n0\n%\nis outside this confidence interval, the waitress rejects the null hypothesis at the\n5\n%\nlevel. She concludes that there is sufficient evidence that there is a difference in the proportion of male customers that prefer the steak dinner over the chicken dinner than the female customers."
+    },
+    {
+      "letter": "D",
+      "text": "No; since\n0\n%\nis outside this confidence interval, the waitress fails to reject the null hypothesis at the\n5\n%\nlevel. She concludes that there is sufficient evidence that there is a difference in the proportion of male customers that prefer the steak dinner over the chicken dinner than the female customers."
+    },
+    {
+      "letter": "E",
+      "text": "No; since\n0\n%\nis outside this confidence interval, the waitress rejects the null hypothesis at the\n5\n%\nlevel. She concludes that there is insufficient evidence that there is a difference in the proportion of male customers that prefer the steak dinner over the chicken dinner than the female customers."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.N.1",
+    "4.D",
+    "UNC-4",
+    "UNC-4.N"
+  ],
+  "standards": [
+    "UNC-4.N.1",
+    "4.D",
+    "UNC-4",
+    "UNC-4.N"
+  ]
+}

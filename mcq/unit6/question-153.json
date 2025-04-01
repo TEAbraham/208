@@ -1,0 +1,44 @@
+{
+  "question_id": "question-153",
+  "title": "Which is the Correct Way to Go?",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Two baseball fans were arguing as to which was the better hitting team.  One fan claimed his team was better because of <span class=\"tex2jax_process\">$50$</span> randomly selected seasons over the past <span class=\"tex2jax_process\">$100$</span> years, his team batted higher than <span class=\"tex2jax_process\">$0.250$</span> in <span class=\"tex2jax_process\">$30$</span> of those seasons.  The other fan said of <span class=\"tex2jax_process\">$40$</span> randomly selected seasons over the past <span class=\"tex2jax_process\">$100$</span> years, in <span class=\"tex2jax_process\">$28$</span> of those seasons her team batted higher than <span class=\"tex2jax_process\">$0.250.$</span>  Given this information, which of the following statistical methods is an appropriate way to compare these two teams?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use a 2-sample t-interval interval for the difference between population means."
+    },
+    {
+      "letter": "B",
+      "text": "Use a one-sample t-test of significance for a population mean."
+    },
+    {
+      "letter": "C",
+      "text": "Use a one-sample z-interval to examine a population proportion."
+    },
+    {
+      "letter": "D",
+      "text": "Use a 2-sample z-interval interval for the difference between population proportions."
+    },
+    {
+      "letter": "E",
+      "text": "Carry out a chi-square test for goodness of fit."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4",
+    "UNC-4.I",
+    "1.D",
+    "UNC-4.I.1"
+  ],
+  "standards": [
+    "UNC-4",
+    "UNC-4.I",
+    "1.D",
+    "UNC-4.I.1"
+  ]
+}

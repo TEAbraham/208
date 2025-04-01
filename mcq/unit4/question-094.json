@@ -1,0 +1,46 @@
+{
+  "question_id": "question-094",
+  "title": "Tossing Weighted Die",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A <span class=\"tex2jax_process\">$6$</span>-sided die is weighted so that not every number is equally likely to appear when the die is tossed. The table below shows the probability distribution.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\" style=\"text-align: center;\">Result (X)</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th><th scope=\"col\">6</th></tr></thead><tbody><tr><td style=\"text-align: center;\">p(X)</td><td>0.12</td><td>0.14</td><td>0.08</td><td>0.27</td><td>0.25</td><td>0.14</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Suppose the die is tossed and we are told that the result is a number greater than <span class=\"tex2jax_process\">$4$</span>. Based on this information, what is the probability that the result was a <span class=\"tex2jax_process\">$6$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.14"
+    },
+    {
+      "letter": "B",
+      "text": "0.21"
+    },
+    {
+      "letter": "C",
+      "text": "0.36"
+    },
+    {
+      "letter": "D",
+      "text": "0.39"
+    },
+    {
+      "letter": "E",
+      "text": "0.66"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E.3",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4",
+    "VAR-4.E.4"
+  ],
+  "standards": [
+    "VAR-4.E.3",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4",
+    "VAR-4.E.4"
+  ]
+}

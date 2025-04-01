@@ -1,0 +1,44 @@
+{
+  "question_id": "question-033",
+  "title": "Which Test?",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">The <span class=\"tex2jax_process\">$5$</span> following scenarios describe different significance tests.  One of them is a <span class=\"tex2jax_process\">$t$</span>-test for slope, which one is it?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "High school students were asked both their ACT scores and their SAT scores."
+    },
+    {
+      "letter": "B",
+      "text": "High school students were asked if they took the ACT test."
+    },
+    {
+      "letter": "C",
+      "text": "Male and female high school students were asked their favorite subject out of math, English, science, and social studies."
+    },
+    {
+      "letter": "D",
+      "text": "Male and female high school students were asked their SAT scores."
+    },
+    {
+      "letter": "E",
+      "text": "High school students were asked whether they preferred math class or English class."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7.J.1",
+    "VAR-7",
+    "VAR-7.J",
+    "1.E"
+  ],
+  "standards": [
+    "VAR-7.J.1",
+    "VAR-7",
+    "VAR-7.J",
+    "1.E"
+  ]
+}

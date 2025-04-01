@@ -1,0 +1,44 @@
+{
+  "question_id": "question-045",
+  "title": "Sports Drinks: Degrees of Freedom",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose a random survey was taken in a large urban high school to determine if vending machine location affects whether sports drinks are more likely to be ordered.  </div><div class=\"paragraph\">A large single sample of size <span class=\"tex2jax_process\">$n = 500$</span> was taken over the last week. In the cafeteria, <span class=\"tex2jax_process\">$78$</span> of the <span class=\"tex2jax_process\">$165$</span> drinks purchased were sports drinks. In the gym, <span class=\"tex2jax_process\">$98$</span> of the <span class=\"tex2jax_process\">$157$</span> drinks purchased were sports drinks, and in the auditorium, <span class=\"tex2jax_process\">$54$</span> of the <span class=\"tex2jax_process\">$178$</span> drinks purchased were sports drinks.  </div><div class=\"paragraph\">The appropriate degrees of freedom for this chi-squared distribution is?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "3"
+    },
+    {
+      "letter": "B",
+      "text": "2"
+    },
+    {
+      "letter": "C",
+      "text": "6"
+    },
+    {
+      "letter": "D",
+      "text": "500"
+    },
+    {
+      "letter": "E",
+      "text": "499"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.H",
+    "3.A",
+    "VAR-8",
+    "VAR-8.H.1"
+  ],
+  "standards": [
+    "VAR-8.H",
+    "3.A",
+    "VAR-8",
+    "VAR-8.H.1"
+  ]
+}

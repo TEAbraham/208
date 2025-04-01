@@ -1,0 +1,46 @@
+{
+  "question_id": "question-045",
+  "title": "Scatterplot: Older Sibling vs. Younger Sibling",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">On the first day of school, <span class=\"tex2jax_process\">$10$</span> randomly selected sibling combinations were asked how excited they were to come back to school. They were asked to rate their excitement on a scale from <span class=\"tex2jax_process\">$1$</span> (very unhappy about coming back) to <span class=\"tex2jax_process\">$10$</span> (very excited).  </div><div class=\"paragraph\">The scatterplot below displays their excitement levels, with the older siblings' ratings on the vertical axis and the younger siblings' ratings on the horizontal axis.  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\"><br>Which of the following  is an accurate statement?</div>",
+  "image_files": [
+    "images/question-045-img1.png"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "For each sibling pair, the rating of the older sibling is equal to the rating of the younger sibling."
+    },
+    {
+      "letter": "B",
+      "text": "The range in the older siblings' ratings is less than the range of the younger siblings' ratings."
+    },
+    {
+      "letter": "C",
+      "text": "Younger siblings tended to be more excited about coming back to school than their older siblings."
+    },
+    {
+      "letter": "D",
+      "text": "The scatterplot displays a weak negative linear association between the younger siblings' ratings and the older siblings' ratings."
+    },
+    {
+      "letter": "E",
+      "text": "Fewer ratings of\n8\nor more were assigned to younger siblings than to older siblings."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.S",
+    "UNC-1.S.1",
+    "2.B",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.S",
+    "UNC-1.S.1",
+    "2.B",
+    "UNC-1"
+  ]
+}

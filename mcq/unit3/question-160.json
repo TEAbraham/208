@@ -1,0 +1,44 @@
+{
+  "question_id": "question-160",
+  "title": "Study Session",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose Mr. Rodriguez, a statistics teacher, is considering offering an optional after-school study session right before the next unit test.  </div><div class=\"paragraph\">Mr. Rodriguez touts his study session, saying that last year the <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7697-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>30</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-35472\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-35473\" class=\"mjx-mrow\"><span id=\"MJXc-Node-35474\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">30</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7697\">30</script></span> subjects who attended scored an average of <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7698-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>10.3</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-35475\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-35476\" class=\"mjx-mrow\"><span id=\"MJXc-Node-35477\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">10.3</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10.3</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7698\">10.3</script></span> points higher than those who did not attend.  </div><div class=\"paragraph\">There is not convincing evidence the study session helps increase scores because</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "An increase of\n10.3\npoints could have easily happened by chance."
+    },
+    {
+      "letter": "B",
+      "text": "An increase of\n10.3\npoints is of no practical importance."
+    },
+    {
+      "letter": "C",
+      "text": "The sample size is too small to develop any reasonable conclusions."
+    },
+    {
+      "letter": "D",
+      "text": "There is no way to make the experiment double-blind."
+    },
+    {
+      "letter": "E",
+      "text": "Students who chose to go to this optional study session are most likely more motivated and would have done better regardless of the study session."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.E.2"
+  ],
+  "standards": [
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.E.2"
+  ]
+}

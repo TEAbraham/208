@@ -1,0 +1,46 @@
+{
+  "question_id": "question-021",
+  "title": "Standard Error of Residuals: NBA Height and Wingspan",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">NBA scouts are always interested in the relationship between the height of NBA players and their respective wingspans. An NBA scout randomly selects <span class=\"tex2jax_process\">$19$</span> players and measures their heights and wingspans. Below is the computer regression analysis of height and wingspan.  </div><div class=\"paragraph\">Dependent variable is wingspan.<br><span class=\"tex2jax_process\">$R^2 = 0.787$</span><br><span class=\"tex2jax_process\">$S = 2.23$</span><br>Degrees of Freedom = <span class=\"tex2jax_process\">$17$</span>\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">Coefficient</th><th scope=\"col\">SE(Coeff)</th><th scope=\"col\">t-ratio</th><th scope=\"col\">P-value</th></tr></thead><tbody><tr><td>Constant</td><td>-2.273</td><td>0.39</td><td>-5.83</td><td>&lt;0.0001</td></tr><tr><td>Height</td><td>1.084</td><td>0.24</td><td>4.52</td><td>&lt;0.0001</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Which of the following represents the standard error of the residuals?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.24"
+    },
+    {
+      "letter": "B",
+      "text": "0.24\n√\n19"
+    },
+    {
+      "letter": "C",
+      "text": "0.39"
+    },
+    {
+      "letter": "D",
+      "text": "0.39\n√\n19"
+    },
+    {
+      "letter": "E",
+      "text": "2.23"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-1.F.2",
+    "DAT-1.F.1",
+    "DAT-1",
+    "2.A",
+    "DAT-1.F"
+  ],
+  "standards": [
+    "DAT-1.F.2",
+    "DAT-1.F.1",
+    "DAT-1",
+    "2.A",
+    "DAT-1.F"
+  ]
+}

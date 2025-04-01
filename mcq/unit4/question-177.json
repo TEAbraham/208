@@ -1,0 +1,44 @@
+{
+  "question_id": "question-177",
+  "title": "Real World Binomial Situations",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Which of the following situations could be described with the binomial distribution?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Roll a fair dice until a prime number results."
+    },
+    {
+      "letter": "B",
+      "text": "Select\n30\nsubjects and record their weights."
+    },
+    {
+      "letter": "C",
+      "text": "Roll a fair dice\n10\ntimes and record the number of prime numbers rolled."
+    },
+    {
+      "letter": "D",
+      "text": "Roll a fair die\n10\ntimes and record the numbers rolled."
+    },
+    {
+      "letter": "E",
+      "text": "Select a field-goal kicker in a professional football league and record the number of successful field goals kicked in a given season."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-3.A.2",
+    "3.A",
+    "UNC-3",
+    "UNC-3.A"
+  ],
+  "standards": [
+    "DAT-3.A.2",
+    "3.A",
+    "UNC-3",
+    "UNC-3.A"
+  ]
+}

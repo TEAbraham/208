@@ -1,0 +1,46 @@
+{
+  "question_id": "question-143",
+  "title": "Convincing Evidence That Seniors Are Absent More Often?",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">In a certain state, officials at the Department of Education wanted to investigate whether seniors in high school are absent more often than other high school students.  At the end of the school year, a random sample of <span class=\"tex2jax_process\">$50$</span> seniors from the state was selected, and their attendance records were analyzed.  </div><div class=\"paragraph\">The mean number of days these seniors were absent from school was <span class=\"tex2jax_process\">$6.2$</span> with a standard deviation of <span class=\"tex2jax_process\">$2.1$</span>.   Attendance records were also analyzed for a second, independent random sample of <span class=\"tex2jax_process\">$50$</span> high school students in the state who were not seniors.  The mean number of days these students were absent was <span class=\"tex2jax_process\">$5.7$</span> days with a standard deviation of <span class=\"tex2jax_process\">$1.6$</span>.  No outliers were found in either sample.  </div><div class=\"paragraph\">Does the data provide convincing evidence at the <span class=\"tex2jax_process\">$\\alpha=0.05$</span> level that seniors in high school have more absences on average than other high school students?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "No, since the test statistic is less than 2.0\n, the difference in sample averages was not significant enough to suggest that seniors are absent more often on average than other high school students."
+    },
+    {
+      "letter": "B",
+      "text": "No, since the p\n-value of the test is greater than 0.05\n, we do not have sufficient evidence to suggest that seniors have more absences on average than other high school students."
+    },
+    {
+      "letter": "C",
+      "text": "Yes, since the\np\n-value of the test is less than\n0.02\n, it is also less than\n0.05\n. Therefore, at the\nα\n=\n0.05\nlevel, we have strong evidence to suggest that seniors are absent more often on average than other high schools students."
+    },
+    {
+      "letter": "D",
+      "text": "Yes, since the sample average for seniors was\n0.50\ndays greater than the sample average for other high school students, we do have convincing evidence at the\nα\n=\n0.05\nlevel."
+    },
+    {
+      "letter": "E",
+      "text": "No conclusion can be reached since the conditions for inference have not been satisfied."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.H.1",
+    "DAT-3",
+    "DAT-3.H",
+    "DAT-3.H.2"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3.H.1",
+    "DAT-3",
+    "DAT-3.H",
+    "DAT-3.H.2"
+  ]
+}

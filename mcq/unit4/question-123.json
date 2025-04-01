@@ -1,0 +1,44 @@
+{
+  "question_id": "question-123",
+  "title": "Sneaky, Suspicious and Legal on the Law of Large Numbers",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Sneaky Sam tosses a coin <span class=\"tex2jax_process\">$10$</span> times and the coin lands on “heads” on <span class=\"tex2jax_process\">$7$</span> of those tosses.  </div><div class=\"paragraph\">Suspicious Sally thinks that Sam is using a weighted coin.  </div><div class=\"paragraph\">What can Legal Lindsay conclude based on the Law of Large Numbers?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The coin will almost certainly land on “tails” on the next toss."
+    },
+    {
+      "letter": "B",
+      "text": "The next\n7\ntosses of the coin should result in “tails”."
+    },
+    {
+      "letter": "C",
+      "text": "There is a\n70\n%\nchance that this coin will land on “heads” on any given toss."
+    },
+    {
+      "letter": "D",
+      "text": "We have good evidence to suggest that this coin is weighted in some way. In other words, it is not a fair coin. Sam really is sneaky!"
+    },
+    {
+      "letter": "E",
+      "text": "This may simply be coincidence. If the coin is fair, we would expect about\n50\n%\nof the tosses to result in “heads”, but only if the coin is tossed many, many times.\n10\ntosses is not that many!"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.D.1",
+    "VAR-5.D",
+    "4.B",
+    "VAR-5"
+  ],
+  "standards": [
+    "VAR-5.D.1",
+    "VAR-5.D",
+    "4.B",
+    "VAR-5"
+  ]
+}

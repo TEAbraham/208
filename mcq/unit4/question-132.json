@@ -1,0 +1,46 @@
+{
+  "question_id": "question-132",
+  "title": "Finding and Combining Expected Values",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A hat contains <span class=\"tex2jax_process\">$5$</span> slips of paper, numbered <span class=\"tex2jax_process\">$1$</span> through <span class=\"tex2jax_process\">$5$</span>, with a different number on each slip of paper.  Another hat contains <span class=\"tex2jax_process\">$4$</span> slips of paper, numbered <span class=\"tex2jax_process\">$20$</span> through <span class=\"tex2jax_process\">$23$</span>, with a different number on each slip of paper.  One number is randomly drawn from each hat.  </div><div class=\"paragraph\">What is the expected value of the sum of the numbers on the two selected pieces of paper?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "12.25"
+    },
+    {
+      "letter": "B",
+      "text": "12.5"
+    },
+    {
+      "letter": "C",
+      "text": "18.5"
+    },
+    {
+      "letter": "D",
+      "text": "24.5"
+    },
+    {
+      "letter": "E",
+      "text": "25"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ],
+  "standards": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

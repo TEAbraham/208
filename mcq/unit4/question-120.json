@@ -1,0 +1,48 @@
+{
+  "question_id": "question-120",
+  "title": "Delectable Journeys: Finding Mean and Standard Deviation",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Delectable Journeys is a small but growing company that offers different types of guided food tours in various U. S. cities. At the end of each tour, participants are asked to rate their experience on a scale of <span class=\"tex2jax_process\">$1$</span> to <span class=\"tex2jax_process\">$5$</span> with <span class=\"tex2jax_process\">$5$</span> being the best rating possible. The table below shows the distribution of customer ratings.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Rating (X)</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th></tr></thead><tbody><tr><td>p(X)</td><td>0.04</td><td>0.11</td><td>0.21</td><td>0.28</td><td>0.36</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>What is the mean and standard deviation of the customer ratings? </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Mean\n=\n3.81\n\nStandard Deviation\n=\n1.15"
+    },
+    {
+      "letter": "B",
+      "text": "Mean\n=\n3.81\n\nStandard Deviation\n=\n1.33"
+    },
+    {
+      "letter": "C",
+      "text": "Mean\n=\n3.81\n\nStandard Deviation\n=\n1.50"
+    },
+    {
+      "letter": "D",
+      "text": "Mean\n=\n3\n\nStandard Deviation\n=\n1.41"
+    },
+    {
+      "letter": "E",
+      "text": "Mean\n=\n3\n\nStandard Deviation\n=\n1.50"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.C.2",
+    "VAR-5.C.3",
+    "VAR-5.C.1",
+    "VAR-5",
+    "3.B",
+    "VAR-5.C"
+  ],
+  "standards": [
+    "VAR-5.C.2",
+    "VAR-5.C.3",
+    "VAR-5.C.1",
+    "VAR-5",
+    "3.B",
+    "VAR-5.C"
+  ]
+}

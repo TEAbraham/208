@@ -1,0 +1,49 @@
+{
+  "question_id": "question-204",
+  "title": "Which is More Random?",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Two Students, Aisha and Mariam, were having a discussion about randomness in their AP Statistics class. They wondered about the fairness of a two-sided coin. To investigate, they decided to flip the coin four times. </div><div class=\"paragraph\">Which of the following is the <em>most likely</em> to happen in four independent trials of flipping a two-sided coin?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Tails, Heads, Tails, Heads"
+    },
+    {
+      "letter": "B",
+      "text": "Heads, Tails, Heads, Tails"
+    },
+    {
+      "letter": "C",
+      "text": "Tails, Tails, Tails, Tails"
+    },
+    {
+      "letter": "D",
+      "text": "Heads, Heads, Heads, Tails"
+    },
+    {
+      "letter": "E",
+      "text": "All outcomes are equally likely"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {
+    "A": "<strong>Choice 'A'</strong> is incorrect.  Since all events have the same probability, no choice is more likely than the others to happen. ",
+    "B": "<strong>Choice 'B'</strong> is incorrect.  Since all events have the same probability, no choice is more likely than the others to happen. ",
+    "C": "<strong>Choice 'C'</strong> is incorrect.  Since all events have the same probability, no choice is more likely than the others to happen. ",
+    "D": "<strong>Choice 'D'</strong> is incorrect. Since all events have the same probability, no choice is more likely than the others to happen."
+  },
+  "tags": [
+    "VAR-1.F",
+    "VAR-1.F.1",
+    "1.A",
+    "VAR-1"
+  ],
+  "standards": [
+    "VAR-1.F",
+    "VAR-1.F.1",
+    "1.A",
+    "VAR-1"
+  ]
+}

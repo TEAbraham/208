@@ -1,0 +1,48 @@
+{
+  "question_id": "question-076",
+  "title": "Type of Sample and Possible Concerns",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">According to the National Center for Education Statistics, <span class=\"tex2jax_process\">$65.9\\%$</span> of students enrolled in college in the fall immediately after completing high school in the year <span class=\"tex2jax_process\">$2013$</span>.  </div><div class=\"paragraph\">Wendy just did some research for an article she is writing for the school newspaper and knows that at her high school, <span class=\"tex2jax_process\">$84.1\\%$</span> of students who graduated the previous year immediately enrolled to attend college that fall.  She started to wonder if the percent of students who enroll in college immediately after completing high school is now greater than <span class=\"tex2jax_process\">$65.9\\%$</span>.  </div><div class=\"paragraph\">To investigate, she contacted <span class=\"tex2jax_process\">$437$</span>  students (some from her school and some from other schools) that she knew would be graduating this year.  She found that <span class=\"tex2jax_process\">$80.3\\%$</span> of them were planning to enroll in college immediately after completing high school.  </div><div class=\"paragraph\">Which of the following best describes the type of sample that Wendy used and the potential concerns that may result from using this type of sample?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "This was a cluster sample. The cluster selected consisted of people that Wendy knows will be graduating this year. This is a problem because it undercovers those who graduated or will be graduating in future years."
+    },
+    {
+      "letter": "B",
+      "text": "This was a convenience sample consisting only of people that Wendy knows about. While these individuals may be easy to reach and will probably be quite cooperative in answering Wendy's questions, the sample may not accurately represent the population of interest."
+    },
+    {
+      "letter": "C",
+      "text": "This was a systematic sample in which Wendy systematically decides to only survey individuals who she knows will be graduating this year. This could create problems if those who are graduating this year are different from those who graduate in other years with respect to their post-graduation plans."
+    },
+    {
+      "letter": "D",
+      "text": "This was a stratified random sample which is the best type of sample possible under the circumstances. Since Wendy can only survey individuals who she knows, she selected this strata as her sample. There should be no concerns that result from using this sample."
+    },
+    {
+      "letter": "E",
+      "text": "This is a voluntary response sample in which individuals are able to decide whether or not they want to voluntarily answer Wendy's questions. This is a problem because those that choose to respond will most likely be the individuals who are planning to attend college immediately after graduating from high school."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-2",
+    "DAT-2.D.1",
+    "1.C",
+    "DAT-2.D",
+    "DAT-2.E",
+    "DAT-2.E.6"
+  ],
+  "standards": [
+    "DAT-2",
+    "DAT-2.D.1",
+    "1.C",
+    "DAT-2.D",
+    "DAT-2.E",
+    "DAT-2.E.6"
+  ]
+}

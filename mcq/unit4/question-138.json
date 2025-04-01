@@ -1,0 +1,46 @@
+{
+  "question_id": "question-138",
+  "title": "Mean Weight: Bag of Onions",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Suppose onions have an average weight of <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-41802\"><span class=\"MJXp-mn\" id=\"MJXp-Span-41803\">13</span><span class=\"MJXp-mtext\" id=\"MJXp-Span-41804\">&nbsp;ounces</span></span></span><script type=\"math/tex\" id=\"MathJax-Element-11493\">13\\text{ ounces}</script></span> with a standard deviation of <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-41805\"><span class=\"MJXp-mn\" id=\"MJXp-Span-41806\">2.3</span><span class=\"MJXp-mtext\" id=\"MJXp-Span-41807\">&nbsp;ounces</span></span></span><script type=\"math/tex\" id=\"MathJax-Element-11494\">2.3\\text{ ounces}</script></span>.  </div><div class=\"paragraph\">What is the mean weight of a bag containing <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-41808\"><span class=\"MJXp-mn\" id=\"MJXp-Span-41809\">4</span></span></span><script type=\"math/tex\" id=\"MathJax-Element-11495\">4</script></span> onions?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "52\n ounces"
+    },
+    {
+      "letter": "B",
+      "text": "13\n ounces"
+    },
+    {
+      "letter": "C",
+      "text": "26\n ounces"
+    },
+    {
+      "letter": "D",
+      "text": "119.6\n ounces"
+    },
+    {
+      "letter": "E",
+      "text": "4.6\n ounces"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.3",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ],
+  "standards": [
+    "VAR-5.E",
+    "VAR-5.E.3",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

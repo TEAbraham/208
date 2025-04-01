@@ -1,0 +1,46 @@
+{
+  "question_id": "question-081",
+  "title": "Interpreting R-Squared Value in Gas Mileage and Speed Comparison",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The speed (in kilometers per hour) and mileage (in kilometers per liter) of <span class=\"tex2jax_process\">$13\\text{ cars}$</span> was measured. The regression equation is as follows:    </div><div class=\"paragraph\"><span class=\"tex2jax_process\">$\\text{Kilometers per liter} = -1.80 + 0.54\\text{ kilometers per hour}$</span>\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Predictor</th><th scope=\"col\">Coef</th><th scope=\"col\">SE Coef</th><th scope=\"col\">T</th><th scope=\"col\">P</th></tr></thead><tbody><tr><td>Constant</td><td>-1.8</td><td>8.357</td><td>-0.22</td><td>0.833</td></tr><tr><td>Kilometers per hour</td><td>0.5360</td><td>0.1192</td><td>4.5</td><td>0.001</td></tr></tbody></table></div><br><div class=\"paragraph\"><br><span class=\"tex2jax_process\">$S = 7.15740$</span><br><span class=\"tex2jax_process\">$R^2= 64.8\\%$</span><br><span class=\"tex2jax_process\">$R^2 \\text{ (adj)} = 61.5\\%$</span>  </div><div class=\"paragraph\">What is a valid interpretation of <span class=\"tex2jax_process\">$R^2$</span> in the context of the problem?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "About\n65\n%\nof the observations are within one standard deviation of the mean."
+    },
+    {
+      "letter": "B",
+      "text": "About\n65\n%\nof the observations will follow this linear model."
+    },
+    {
+      "letter": "C",
+      "text": "About\n65\n%\nof the data can be explained in this situation."
+    },
+    {
+      "letter": "D",
+      "text": "About\n65\n%\nof the variation in fuel economy (as measured by kilometers per liter) can be explained by the least squares regression line on speed (as measured by kilometers per hour)."
+    },
+    {
+      "letter": "E",
+      "text": "About\n65\n%\nof the time, the true population slope will be caught within the given interval."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-1.D.2",
+    "2.C",
+    "DAT-1",
+    "DAT-1.D",
+    "DAT-1.D.1"
+  ],
+  "standards": [
+    "DAT-1.D.2",
+    "2.C",
+    "DAT-1",
+    "DAT-1.D",
+    "DAT-1.D.1"
+  ]
+}

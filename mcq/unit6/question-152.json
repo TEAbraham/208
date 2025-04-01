@@ -1,0 +1,44 @@
+{
+  "question_id": "question-152",
+  "title": "Can the Test be Done?",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">The CEO of a company wanted to randomly select <span class=\"tex2jax_process\">$12$</span> people to see if they would purchase a new product.  <span class=\"tex2jax_process\">$8$</span> of the randomly selected people said that they would make the purchase.  Could a test of significance for a population proportion be done to help the CEO make a decision?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes, since the sample was random."
+    },
+    {
+      "letter": "B",
+      "text": "Yes, since the sample proportion was greater than\n0.5\n."
+    },
+    {
+      "letter": "C",
+      "text": "Yes, since the proportion of failures was less than\n10\n."
+    },
+    {
+      "letter": "D",
+      "text": "No, since the proportion of successes was less than\n10\n."
+    },
+    {
+      "letter": "E",
+      "text": "No, since the proportion of failures was greater than\n10."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.C",
+    "VAR-6.F",
+    "VAR-6.F.1",
+    "VAR-6"
+  ],
+  "standards": [
+    "4.C",
+    "VAR-6.F",
+    "VAR-6.F.1",
+    "VAR-6"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "question_id": "question-027",
+  "title": "Determining Normality",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">How could one determine if the distribution of sample means is approximately normal?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> Both <span class=\"tex2jax_process\">$np$</span> and <span class=\"tex2jax_process\">$n (1-p)$</span> are greater than <span class=\"tex2jax_process\">$10$</span>, where <span class=\"tex2jax_process\">$n$</span> is the number of trials and <span class=\"tex2jax_process\">$p$</span> is the proportion of success.  </div><div class=\"paragraph\"><strong>II.</strong> The sample is large, say greater than <span class=\"tex2jax_process\">$30$</span>.  </div><div class=\"paragraph\"><strong>III.</strong> The parent population is approximately normal.    </div></blockquote>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and II only."
+    },
+    {
+      "letter": "E",
+      "text": "II and III only."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.H.2",
+    "UNC-3.H.1",
+    "3.C",
+    "UNC-3",
+    "UNC-3.H",
+    "UNC-3.H.3"
+  ],
+  "standards": [
+    "UNC-3.H.2",
+    "UNC-3.H.1",
+    "3.C",
+    "UNC-3",
+    "UNC-3.H",
+    "UNC-3.H.3"
+  ]
+}

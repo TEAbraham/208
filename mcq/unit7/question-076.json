@@ -1,0 +1,44 @@
+{
+  "question_id": "question-076",
+  "title": "Game Time: Standard Error",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">In recent years, new rules have been put in place to try to speed up the amount of time it takes to complete a professional baseball game.  Before these rules were enacted, the mean length of a professional baseball game was about <span class=\"tex2jax_process\">$172\\text{ minutes}$</span>.  </div><div class=\"paragraph\">Hank decided to do a statistical test to see if the mean length of a professional baseball game is now less than <span class=\"tex2jax_process\">$172\\text{ minutes}$</span>.  From a random sample of <span class=\"tex2jax_process\">$20\\text{ games}$</span> played under the new rules, he found the mean length of a game to be <span class=\"tex2jax_process\">$163\\text{ minutes}$</span> with a standard deviation of <span class=\"tex2jax_process\">$21.2\\text{ minutes}$</span>.  </div><div class=\"paragraph\">When conducting his test, what value would Hank use for the standard error of the statistic?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.21"
+    },
+    {
+      "letter": "B",
+      "text": "1.03"
+    },
+    {
+      "letter": "C",
+      "text": "4.74"
+    },
+    {
+      "letter": "D",
+      "text": "21.2"
+    },
+    {
+      "letter": "E",
+      "text": "We cannot determine the standard error since we don't know the standard deviation for the games that were played prior to the new rules being enacted. We need to know this in order to conduct a\n2\n-sample\nt\n-test for a difference in means."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7.E",
+    "VAR-7.E.1",
+    "VAR-7",
+    "3.E"
+  ],
+  "standards": [
+    "VAR-7.E",
+    "VAR-7.E.1",
+    "VAR-7",
+    "3.E"
+  ]
+}

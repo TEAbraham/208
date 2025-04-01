@@ -1,0 +1,44 @@
+{
+  "question_id": "question-094",
+  "title": "Check the Polls",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">National polls for a political candidate were being compared between two different polling companies.</div><ul><li>Company <span class=\"tex2jax_process\">$1$</span> randomly polled <span class=\"tex2jax_process\">$32$</span> people and found <span class=\"tex2jax_process\">$22$</span> planning to vote for the candidate.</li><li>Company <span class=\"tex2jax_process\">$2$</span> randomly polled <span class=\"tex2jax_process\">$34$</span> people and found <span class=\"tex2jax_process\">$31$</span> planning to vote for the candidate.</li></ul><div class=\"paragraph\">A person was commissioned to analyze the results by creating a confidence interval for the difference between the two proportions.  Which of the following pairs of checks would <em>fail</em> to verify the conditions for the confidence interval?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "22\n32\n×\n32 31\n34\n×\n34"
+    },
+    {
+      "letter": "B",
+      "text": "31\n34\n×\n34 (\n1\n−\n31\n34\n)\n×\n34"
+    },
+    {
+      "letter": "C",
+      "text": "22\n32\n×\n32 Both samples were randomly selected."
+    },
+    {
+      "letter": "D",
+      "text": "22\n32\n×\n32 (\n1\n−\n22\n32\n)\n×\n32"
+    },
+    {
+      "letter": "E",
+      "text": "31\n34\n×\n34 (\n1\n−\n22\n32\n)\n×\n32"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.C",
+    "UNC-4.J.1",
+    "UNC-4.J",
+    "UNC-4"
+  ],
+  "standards": [
+    "4.C",
+    "UNC-4.J.1",
+    "UNC-4.J",
+    "UNC-4"
+  ]
+}

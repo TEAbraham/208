@@ -1,0 +1,52 @@
+{
+  "question_id": "question-057",
+  "title": "Online Shopping: Producing a Graph from a Table",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A marketing research firm is interested in whether men and women have similar habits related to shopping online.  To gather data, they surveyed a random sample of men and women and asked them to identify whether they shop online \"Often\", \"Sometimes\", or \"Rarely\".  The results of the survey are shown in the table below.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Men</th><th scope=\"col\">Women</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Often</td><td>29</td><td>48</td><td>77</td></tr><tr><td>Sometimes</td><td>32</td><td>40</td><td>72</td></tr><tr><td>Rarely</td><td>32</td><td>19</td><td>51</td></tr><tr><td>Total</td><td>93</td><td>107</td><td>200</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Which of the following graphs appropriately displays the conditional distribution of online shopping habits by gender?</div>",
+  "image_files": [
+    "images/question-057-img1.PNG",
+    "images/question-057-img2.PNG",
+    "images/question-057-img3.PNG",
+    "images/question-057-img4.PNG",
+    "images/question-057-img5.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Created for Albert.io. Copyright 2016. All rights reserved."
+    },
+    {
+      "letter": "B",
+      "text": "Created for Albert.io. Copyright 2016. All rights reserved."
+    },
+    {
+      "letter": "C",
+      "text": "Created for Albert.io. Copyright 2016. All rights reserved."
+    },
+    {
+      "letter": "D",
+      "text": "Created for Albert.io. Copyright 2016. All rights reserved."
+    },
+    {
+      "letter": "E",
+      "text": "Created for Albert.io. Copyright 2016. All rights reserved."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.D.1",
+    "3.A",
+    "VAR-4.D.2",
+    "VAR-4",
+    "VAR-4.D"
+  ],
+  "standards": [
+    "VAR-4.D.1",
+    "3.A",
+    "VAR-4.D.2",
+    "VAR-4",
+    "VAR-4.D"
+  ]
+}

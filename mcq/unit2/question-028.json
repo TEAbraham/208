@@ -1,0 +1,44 @@
+{
+  "question_id": "question-028",
+  "title": "What Do You Drive?",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\"><span class=\"tex2jax_process\">$100$</span> men and <span class=\"tex2jax_process\">$100$</span> women selected at random were asked which type of vehicle they drove.  Here are the results:</div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Sport</th><th scope=\"col\">Sedan</th><th scope=\"col\">SUV</th><th scope=\"col\">Truck</th></tr></thead><tbody><tr><td>Men</td><td><span class=\"tex2jax_process\">$30$</span></td><td><span class=\"tex2jax_process\">$20$</span></td><td><span class=\"tex2jax_process\">$20$</span></td><td><span class=\"tex2jax_process\">$30$</span></td></tr><tr><td>Women</td><td><span class=\"tex2jax_process\">$10$</span></td><td><span class=\"tex2jax_process\">$40$</span></td><td><span class=\"tex2jax_process\">$50$</span></td><td><span class=\"tex2jax_process\">$0$</span></td></tr></tbody></table></div><div class=\"paragraph\">What is the marginal relative frequency for owning a sedan?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.60"
+    },
+    {
+      "letter": "B",
+      "text": "0.40"
+    },
+    {
+      "letter": "C",
+      "text": "0.35"
+    },
+    {
+      "letter": "D",
+      "text": "0.30"
+    },
+    {
+      "letter": "E",
+      "text": "0.20"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.Q.1",
+    "2.C",
+    "UNC-1.Q",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.Q.1",
+    "2.C",
+    "UNC-1.Q",
+    "UNC-1"
+  ]
+}

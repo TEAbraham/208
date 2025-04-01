@@ -1,0 +1,44 @@
+{
+  "question_id": "question-164",
+  "title": "Binomial vs. Geometric",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">What is the main difference between the conditions for the binomial setting and the conditions for the geometric setting?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "In a binomial setting, the probability of success is the same for each observation, while in the geometric setting the probability of success changes from observation to observation."
+    },
+    {
+      "letter": "B",
+      "text": "In a geometric setting, all observations must be independent, while in a binomial setting the observations do not need to be independent."
+    },
+    {
+      "letter": "C",
+      "text": "In a binomial setting, there is a fixed number of observations, while in a geometric setting the number of observations is not fixed."
+    },
+    {
+      "letter": "D",
+      "text": "In a binomial setting the outcome on each observation must fall into one of only two possible categories, while in a geometric setting, there is no such restriction on the observed outcomes."
+    },
+    {
+      "letter": "E",
+      "text": "The conditions for a geometric setting are exactly the same as the conditions for a binomial setting. There is no difference."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.A.2",
+    "3.A",
+    "UNC-3",
+    "UNC-3.A"
+  ],
+  "standards": [
+    "UNC-3.A.2",
+    "3.A",
+    "UNC-3",
+    "UNC-3.A"
+  ]
+}

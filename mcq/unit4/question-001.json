@@ -1,0 +1,44 @@
+{
+  "question_id": "question-001",
+  "title": "The Coin Toss",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">In a Statistics class a teacher showed these results for <span class=\"tex2jax_process\">$20$</span> tosses of a coin:</div><div class=\"paragraph\"><span class=\"tex2jax_process\">$H H T T H H T T H H T T H H T T H H T T$</span></div><div class=\"paragraph\">One student, Jackie, said that clearly these results were surely made up and not random.  Another student, Cory, disagreed and said that was not true, that these results could certainly happen as a result from a random process.  Which statement below best answers this question?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Cory is correct. We expect\n10\nheads and\n10\ntails, and since this result occurred, we know it is due to a random process."
+    },
+    {
+      "letter": "B",
+      "text": "Cory is correct. While these exact results may not happen often, they certainly can happen and be the result of a random process."
+    },
+    {
+      "letter": "C",
+      "text": "Jackie is correct. She had tried tossing a coin at home for a homework assignment and never achieved this result. Therefore, this result must have been made up."
+    },
+    {
+      "letter": "D",
+      "text": "Jackie is correct. While patterns can occur in a random process, this pattern is too perfect and goes on for too long, so it must have been made up."
+    },
+    {
+      "letter": "E",
+      "text": "Jackie is correct. Since this pattern would happen so rarely, it most certainly must have been made up."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-1.F",
+    "VAR-1.F.1",
+    "1.A",
+    "VAR-1"
+  ],
+  "standards": [
+    "VAR-1.F",
+    "VAR-1.F.1",
+    "1.A",
+    "VAR-1"
+  ]
+}

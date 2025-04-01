@@ -1,0 +1,44 @@
+{
+  "question_id": "question-039",
+  "title": "Sample Size and Significance: Who Has the Greatest Power?",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">In a hypothesis test, <span class=\"tex2jax_process\">${ H }_{ 0 }:p=0.8$</span> versus <span class=\"tex2jax_process\">${ H }_{ a }:p&gt;0.8$</span> the power of the test <span class=\"tex2jax_process\">$p=0.8$</span> would be the greatest for which of the following choices of sample  size <span class=\"tex2jax_process\">$n$</span> and significance level <span class=\"tex2jax_process\">$\\alpha $</span> ? </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "n\n=\n140\nα\n=\n0.05"
+    },
+    {
+      "letter": "B",
+      "text": "n\n=\n240\nα\n=\n0.05"
+    },
+    {
+      "letter": "C",
+      "text": "n\n=\n140\nα\n=\n0.10"
+    },
+    {
+      "letter": "D",
+      "text": "n\n=\n240\nα\n=\n0.10"
+    },
+    {
+      "letter": "E",
+      "text": "It cannot be determined from the information given."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "1.F",
+    "VAR-6.D.5",
+    "VAR-6.D",
+    "VAR-6"
+  ],
+  "standards": [
+    "1.F",
+    "VAR-6.D.5",
+    "VAR-6.D",
+    "VAR-6"
+  ]
+}

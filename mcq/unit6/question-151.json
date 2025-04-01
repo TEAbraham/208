@@ -1,0 +1,44 @@
+{
+  "question_id": "question-151",
+  "title": "How's the Weather?",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Blue Fin Real Estate was interested in what prompted people to choose to live on either the East Coast or the West Coast.  Random samples of <span class=\"tex2jax_process\">$400$</span> people on each coast were asked what the most important factor was in their decision.  On the East Coast, <span class=\"tex2jax_process\">$68$</span> people chose weather and on the West Coast, <span class=\"tex2jax_process\">$88$</span> people chose weather.</div><div class=\"paragraph\">Blue Fin wanted to know if there was a difference in the proportions of choice of weather between people living on the East and West Coasts.  Given a significance level of <span class=\"tex2jax_process\">$\\alpha=0.05$</span>, determine the range of where the <span class=\"tex2jax_process\">$p$</span>-value falls and whether or not we can reject the null hypothesis that the proportions are really the same.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.025\n<\np\n-value\n<\n0.05 Fail to reject\nH\no\n, there is no difference in the proportions."
+    },
+    {
+      "letter": "B",
+      "text": "0.05\n<\np\n-value\n<\n0.10 Fail to reject\nH\no\n, there is no difference in the proportions."
+    },
+    {
+      "letter": "C",
+      "text": "0.05\n<\np\n-value\n<\n0.10 Reject\nH\no\n, there is a difference in the proportions."
+    },
+    {
+      "letter": "D",
+      "text": "0.025\n<\np\n-value\n<\n0.05 Reject\nH\no\n, there is a difference in the proportions."
+    },
+    {
+      "letter": "E",
+      "text": "0.05\n<\np\n-value\n<\n0.10 Reject\nH\no\n, there is no difference in the proportions."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-3.C",
+    "4.B",
+    "DAT-3.C.1",
+    "VAR-6"
+  ],
+  "standards": [
+    "DAT-3.C",
+    "4.B",
+    "DAT-3.C.1",
+    "VAR-6"
+  ]
+}

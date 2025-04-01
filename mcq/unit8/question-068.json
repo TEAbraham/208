@@ -1,0 +1,46 @@
+{
+  "question_id": "question-068",
+  "title": "Matched Pairs Test Type",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Suppose a psychologist decides to use a matched pairs (paired) experiment to determine how long individuals can hold their hands in ice water when intoxicated compared to sober.  </div><div class=\"paragraph\">What type of statistical test should the psychologist do?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "One-sample\nT\n-test."
+    },
+    {
+      "letter": "B",
+      "text": "Two-sample\nT\n-test."
+    },
+    {
+      "letter": "C",
+      "text": "One-proportion\nz\n-test."
+    },
+    {
+      "letter": "D",
+      "text": "Two-proportion\nz\n-test."
+    },
+    {
+      "letter": "E",
+      "text": "Chi-squared test."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.L",
+    "DAT-3",
+    "DAT-3.L.2",
+    "DAT-3.L.1"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3.L",
+    "DAT-3",
+    "DAT-3.L.2",
+    "DAT-3.L.1"
+  ]
+}

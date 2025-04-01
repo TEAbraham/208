@@ -1,0 +1,46 @@
+{
+  "question_id": "question-051",
+  "title": "Self-Esteem | 1 of 2",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A high school principal is curious if a linear relationship exists between student height and score on a self-esteem test.  </div><div class=\"paragraph\">A random sample of <span class=\"tex2jax_process\">$20$</span> pairs of students was taken. A linear regression <span class=\"tex2jax_process\">$T$</span>-test was performed on <span class=\"tex2jax_process\">$H_0: B = 0$</span> vs. <span class=\"tex2jax_process\">$H_a: B &gt; 0$</span>, and the test statistic of <span class=\"tex2jax_process\">$t = 3.19$</span> was calculated.  </div><div class=\"paragraph\">What is the approximate <span class=\"tex2jax_process\">$p$</span>-value?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Greater than\n10\n%\n."
+    },
+    {
+      "letter": "B",
+      "text": "Between\n5\n%\nand\n10\n%\n."
+    },
+    {
+      "letter": "C",
+      "text": "Between\n1\n%\nand\n5\n%\n."
+    },
+    {
+      "letter": "D",
+      "text": "Between\n0.5\n%\nand\n1\n%\n."
+    },
+    {
+      "letter": "E",
+      "text": "Less than\n0.5\n%\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.1",
+    "VAR-7.M.2"
+  ],
+  "standards": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.1",
+    "VAR-7.M.2"
+  ]
+}

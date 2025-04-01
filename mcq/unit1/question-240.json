@@ -1,0 +1,46 @@
+{
+  "question_id": "question-240",
+  "title": "Penguin Pablo's Picnic Percentiles",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Penguin Pablo's Picnic is a video game where the main character is a penguin living in Antarctica. The goal of the game is to help Pablo eat as many fish as possible, and points are scored for every fish he consumes. Some types of fish are worth more points than others.  </div><div class=\"paragraph\">Assuming scores are normally distributed, what <span class=\"tex2jax_process\">$z$</span>-score is needed to put a player in the <span class=\"tex2jax_process\">$80\\text{th}$</span> percentile for number of points scored?    </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "−\n0.84"
+    },
+    {
+      "letter": "B",
+      "text": "−\n0.8"
+    },
+    {
+      "letter": "C",
+      "text": "0.8"
+    },
+    {
+      "letter": "D",
+      "text": "0.84"
+    },
+    {
+      "letter": "E",
+      "text": "80"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2"
+  ],
+  "standards": [
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2"
+  ]
+}

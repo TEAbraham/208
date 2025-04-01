@@ -1,0 +1,44 @@
+{
+  "question_id": "question-023",
+  "title": "Annual Income and Age",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Consider the table below about annual income and age:</div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">&lt;25,000</th><th scope=\"col\">25,001 &lt; <span class=\"tex2jax_process\">$x$</span> &lt;50,000</th><th scope=\"col\">50,001 &lt; <span class=\"tex2jax_process\">$x$</span> &lt; 100,000</th><th scope=\"col\">100,000 &lt; <span class=\"tex2jax_process\">$x$</span></th></tr></thead><tbody><tr><td>Age under 30</td><td>37</td><td>31</td><td>14</td><td>1</td></tr><tr><td>Age 31-50</td><td>11</td><td>36</td><td>51</td><td>23</td></tr><tr><td>Age over 50</td><td>8</td><td>34</td><td>45</td><td>43</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Researchers surveyed working adults and asked them their yearly income and age.  </div><div class=\"paragraph\">Based on this table, which of the following statements is true?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "About\n36\n%\nof people surveyed are between 31 and 50 years old."
+    },
+    {
+      "letter": "B",
+      "text": "According to this chart, I have about a\n10.8\n%\nchance of randomly finding, among working adults, a 31-50-year-old who earns between\n$\n25,001\nto\n$\n50,000\nper year."
+    },
+    {
+      "letter": "C",
+      "text": "A segmented bar graph would be an appropriate way to display this data."
+    },
+    {
+      "letter": "D",
+      "text": "It appears from this data that older people earn more money."
+    },
+    {
+      "letter": "E",
+      "text": "All statements are correct."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "2.C",
+    "UNC-1.P",
+    "UNC-1.P.3",
+    "UNC-1"
+  ],
+  "standards": [
+    "2.C",
+    "UNC-1.P",
+    "UNC-1.P.3",
+    "UNC-1"
+  ]
+}

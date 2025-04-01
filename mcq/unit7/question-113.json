@@ -1,0 +1,40 @@
+{
+  "question_id": "question-113",
+  "title": "Drawing Conclusions",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">​A hotel manager wishes to compare the number of guests she has per night to a competitor hotel's guests per night in town.  </div><div class=\"paragraph\">The manager records the number of guests staying per night during the last <span class=\"tex2jax_process\">$4\\text{ weeks}$</span> at her hotel and compares them to numbers for the last <span class=\"tex2jax_process\">$4\\text{ weeks}$</span> at the competitor.  </div><div class=\"paragraph\">The manager performs a two-sample <span class=\"tex2jax_process\">$T$</span>-Interval (her hotel - competitor’s hotel) and gets the values of <span class=\"tex2jax_process\">$28.54$</span> to <span class=\"tex2jax_process\">$32.56$</span> at <span class=\"tex2jax_process\">$95\\%$</span> confidence.  </div><div class=\"paragraph\">What could be a valid conclusion of this interval?​</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "We are\n95\n%\nconfident the hotel manager has between\n28.54\nand\n32.56\n guests\nper night at her hotel."
+    },
+    {
+      "letter": "B",
+      "text": "We are\n95\n%\nconfident there are between\n28.54\nand\n32.56\n guests\nper night at the competitor’s hotel."
+    },
+    {
+      "letter": "C",
+      "text": "There is evidence the manager’s hotel gets more guests than her competitor’s hotel, significant at the\n5\n%\nlevel."
+    },
+    {
+      "letter": "D",
+      "text": "We are\n95\n%\nconfident there are between\n28.54\nand\n32.56\nmore guests per night at the manager’s hotel than at the competitor’s hotel."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.AA.1",
+    "UNC-4.AA",
+    "UNC-4",
+    "4.A"
+  ],
+  "standards": [
+    "UNC-4.AA.1",
+    "UNC-4.AA",
+    "UNC-4",
+    "4.A"
+  ]
+}

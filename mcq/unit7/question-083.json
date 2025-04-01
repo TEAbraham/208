@@ -1,0 +1,46 @@
+{
+  "question_id": "question-083",
+  "title": "Graphing Check",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A nutritionist was interested in the average amount of water a person drinks per day.  </div><div class=\"paragraph\">She interviewed <span class=\"tex2jax_process\">$20$</span> randomly chosen subjects and found that they drink an average of <span class=\"tex2jax_process\">$33.1$</span> ounces of water per day with a standard deviation of <span class=\"tex2jax_process\">$7.4$</span> ounces.  </div><div class=\"paragraph\">In this situation, under what conditions could the nutritionist perform a one-sample T-test or one-sample T-interval?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "If the data graphed of the\n20\nsubjects shows perfect normality, she could perform a one-sample T-test or one-sample T-interval."
+    },
+    {
+      "letter": "B",
+      "text": "If the data graphed of the\n20\nsubjects shows perfect normality, she could perform a one-sample T-test; however, a one-sample T-interval would still be inappropriate in this situation."
+    },
+    {
+      "letter": "C",
+      "text": "If the data graphed of the\n20\nsubjects shows approximate normality, she could perform a one-sample T-test or one-sample T-interval."
+    },
+    {
+      "letter": "D",
+      "text": "As long as the graph of the\n20\nsubjects shows no outliers and no strong skewness, T procedures such as a one-sample T-test and one-sample T-interval are safe to use here."
+    },
+    {
+      "letter": "E",
+      "text": "For a sample size of n =\n20\n, she can perform a one-sample T-test or one-sample T-interval regardless of how the sample looks when graphed."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-3.F",
+    "4.E",
+    "DAT-3",
+    "DAT-3.F.2",
+    "DAT-3.F.1"
+  ],
+  "standards": [
+    "DAT-3.F",
+    "4.E",
+    "DAT-3",
+    "DAT-3.F.2",
+    "DAT-3.F.1"
+  ]
+}

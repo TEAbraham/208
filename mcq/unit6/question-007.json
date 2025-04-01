@@ -1,0 +1,47 @@
+{
+  "question_id": "question-007",
+  "title": "Bad Grapes",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A large retailer always receives a shipment of grapes every Friday. On average, about <span class=\"tex2jax_process\">$10\\%$</span> of the packages of grapes are determined to be rotten. After looking at many, many shipments, the produce manager wants to figure out the probability that shipment will contain more than <span class=\"tex2jax_process\">$12\\%$</span> rotten packages. </div><div class=\"paragraph\">What question must the produce manager answer first?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "How many packages of grapes did the store receive?"
+    },
+    {
+      "letter": "B",
+      "text": "How many shipments did the store manager examine?"
+    },
+    {
+      "letter": "C",
+      "text": "Is the distribution of shipments of grapes approximately normal?"
+    },
+    {
+      "letter": "D",
+      "text": "What is causing the grapes to be rotten?"
+    },
+    {
+      "letter": "E",
+      "text": "What is the proportion of the population of all packages of grapes that are rotten?"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer. ",
+  "solution": "After looking at many, many shipments for grapes for the large retailer, the manager is essentially looking at a <strong>sampling distribution</strong> of the packages of grapes that are rotten. When examining the sampling distribution, the manager can find the probability if and only if the distribution meets the <strong>Large Counts</strong> condition, which is used to assess the normality of the approximation of sampling distribution. \n\nTherefore, the manager must find out if the approximation of the sampling distribution is approximately normal in order to find the probability. \n\n<strong>Choice 'C'</strong> is correct. ",
+  "distractor_explanations": {
+    "A": "<strong>Choice 'A'</strong> is incorrect. The overall number of packages of grapes does not necessarily matter, only if the number of successes and failures are at least <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-17053-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>10</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-91462\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-91463\" class=\"mjx-mrow\"><span id=\"MJXc-Node-91464\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">10</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-17053\">10</script></span>. ",
+    "B": "<strong>Choice 'B'</strong> is incorrect. Again, the number of shipments expected does not necessarily matter, only if the number of successes and failures are at least <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-17054-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>10</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-91465\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-91466\" class=\"mjx-mrow\"><span id=\"MJXc-Node-91467\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">10</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-17054\">10</script></span>. ",
+    "D": "<strong>Choice 'D'</strong> is incorrect. The variables that are causing the grapes to be rotten is definitely important, but it will not affect the probability of the grapes being rotten. ",
+    "E": "<strong>Choice 'E'</strong> is incorrect. Since the store already knows the approximate proportion of grapes of their stores shipments that are rotten, they do not need to know the proportion of the population of packages that are rotten."
+  },
+  "tags": [
+    "VAR-1.H",
+    "VAR-1.H.1",
+    "VAR-1"
+  ],
+  "standards": [
+    "VAR-1.H",
+    "VAR-1.H.1",
+    "VAR-1"
+  ]
+}

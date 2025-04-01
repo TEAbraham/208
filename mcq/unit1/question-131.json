@@ -1,0 +1,49 @@
+{
+  "question_id": "question-131",
+  "title": "Four Truths and a Lie About a Soccer Histogram",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Lionel needed to collect data and produce a histogram for math class.  Because he loves soccer, he decided to keep track of the total number of goals scored during a random sample of professional soccer games.  Lionel's histogram is shown below.  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"paragraph\">Which of the following statements is <strong>NOT</strong> justified by the information provided in the histogram?</div>",
+  "image_files": [
+    "images/question-131-img1.PNG",
+    "images/question-131-img2.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The distribution is slightly skewed right."
+    },
+    {
+      "letter": "B",
+      "text": "There are no outliers."
+    },
+    {
+      "letter": "C",
+      "text": "The median number of goals scored was\n4\n."
+    },
+    {
+      "letter": "D",
+      "text": "The range is\n8\n."
+    },
+    {
+      "letter": "E",
+      "text": "In\n2\n3\nof the games sampled, fewer than\n5\ngoals were scored."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.M",
+    "UNC-1.M.1",
+    "2.A",
+    "2.B",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.M",
+    "UNC-1.M.1",
+    "2.A",
+    "2.B",
+    "UNC-1"
+  ]
+}

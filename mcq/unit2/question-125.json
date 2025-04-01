@@ -1,0 +1,46 @@
+{
+  "question_id": "question-125",
+  "title": "Transformation with Natural Logs: Exponential Decay",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The regression equation between the exponential decay of a material (<span class=\"tex2jax_process\">$D$</span>) in grams and the time (<span class=\"tex2jax_process\">$t$</span>) in years is:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$ { \\ln (\\hat{D}) }= 0.94 \\ln(t)$$</div>  </div><div class=\"paragraph\">Which of the following is the closest to the predicted value of exponential decay when the time is <span class=\"tex2jax_process\">$30\\text{ years}$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "3.197"
+    },
+    {
+      "letter": "B",
+      "text": "3.618"
+    },
+    {
+      "letter": "C",
+      "text": "24.459"
+    },
+    {
+      "letter": "D",
+      "text": "38.263"
+    },
+    {
+      "letter": "E",
+      "text": "1573.982"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.    ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "2.C",
+    "DAT-1",
+    "DAT-1.J",
+    "DAT-1.J.1",
+    "DAT-1.J.2"
+  ],
+  "standards": [
+    "2.C",
+    "DAT-1",
+    "DAT-1.J",
+    "DAT-1.J.1",
+    "DAT-1.J.2"
+  ]
+}

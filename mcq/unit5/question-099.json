@@ -1,0 +1,44 @@
+{
+  "question_id": "question-099",
+  "title": "News Stories Distribution",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A TV broadcaster is deciding on news stories for the 10 PM evening news.  </div><div class=\"paragraph\">The network strives to make sure that stories cover an equal representation of four news topics: education, crime/police activity, community, and national news.  </div><div class=\"paragraph\">Over the last year, the network covered a total of <span class=\"tex2jax_process\">$980\\text{ stories}$</span>, <span class=\"tex2jax_process\">$204$</span> of which focused on national news.  </div><div class=\"paragraph\">Utilizing sample proportions, is this statistically significant evidence that the network covered fewer national news stories than it should have last year?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "No, the sample is too small to make any conclusions."
+    },
+    {
+      "letter": "B",
+      "text": "Yes, since\n204\nis less than\nn\np\n=\n980\n⋅\n0.25\n=\n245\n."
+    },
+    {
+      "letter": "C",
+      "text": "Yes, since the result of\n204\nout of\n980\nis more than three standard deviations away from the mean."
+    },
+    {
+      "letter": "D",
+      "text": "No, since\n204\n980\n=\n20.8\n%\n, which is within\n5\n%\nof the targeted goal."
+    },
+    {
+      "letter": "E",
+      "text": "Unable to tell as conditions are not met."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.L",
+    "3.C",
+    "UNC-3.L.1",
+    "UNC-3"
+  ],
+  "standards": [
+    "UNC-3.L",
+    "3.C",
+    "UNC-3.L.1",
+    "UNC-3"
+  ]
+}

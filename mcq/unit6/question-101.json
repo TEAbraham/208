@@ -1,0 +1,44 @@
+{
+  "question_id": "question-101",
+  "title": "Conditions!",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Susie wants to create a confidence interval for the difference of two proportions.  She is working to present the results to the president of her company.  Which of the following correctly describes conditions that she must verify?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Susie knows to verify that the samples are taken in a random fashion."
+    },
+    {
+      "letter": "B",
+      "text": "Susie must ensure random sampling occurs and must check that those sample sizes are less than or equal to\n10\n%\nof the size of the populations. In addition, she must check that those sample sizes multiplied by the sample proportions are all greater than or equal to\n10\n."
+    },
+    {
+      "letter": "C",
+      "text": "Susie must check for independence by ensuring random sampling and by ensuring that those sample sizes are less than or equal to\n30\n%\nof the size of the populations. In addition, she must check for approximate normality by checking that those sample sizes multiplied by the sample proportions, as well as by one minus those sample proportions, are all greater than or equal to\n10\n."
+    },
+    {
+      "letter": "D",
+      "text": "Susie must check for independence by ensuring random sampling and by ensuring that those sample sizes are less than or equal to\n10\n%\nof the size of the populations. In addition, she must check for approximate normality by checking that those sample sizes multiplied by the sample proportions, as well as by one minus those sample proportions, are all greater than or equal to\n10\n."
+    },
+    {
+      "letter": "E",
+      "text": "Susie must check for approximate normality by ensuring random sampling and by ensuring that those sample sizes are less than or equal to\n10\n%\nof the size of the populations. In addition, she must check for independence by checking that those sample sizes multiplied by the sample proportions, as well as by one minus those sample proportions, are all greater than or equal to\n10\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.C",
+    "UNC-4.J.1",
+    "UNC-4.J",
+    "UNC-4"
+  ],
+  "standards": [
+    "4.C",
+    "UNC-4.J.1",
+    "UNC-4.J",
+    "UNC-4"
+  ]
+}

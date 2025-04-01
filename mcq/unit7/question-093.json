@@ -1,0 +1,47 @@
+{
+  "question_id": "question-093",
+  "title": "P-value of a 2-Sided Test When Given the t-test Statistic",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A significance test was performed to test <span class=\"tex2jax_process\">${ H }_{ 0 }:\\mu =16$</span> versus the alternative <span class=\"tex2jax_process\">${ H }_{ a }:\\mu \\neq 16$</span>. A random sample of size <span class=\"tex2jax_process\">$51$</span> produced a test statistic is <span class=\"tex2jax_process\">$t = 1.348$</span>.  </div><div class=\"paragraph\">Which of the following intervals contains the P-value for this test?</div>",
+  "image_files": [
+    "images/question-093-img1.PNG",
+    "images/question-093-img2.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.01\n<\nP\n<\n0.02"
+    },
+    {
+      "letter": "B",
+      "text": "0.02\n<\nP\n<\n0.025"
+    },
+    {
+      "letter": "C",
+      "text": "0.025\n<\nP\n<\n0.05"
+    },
+    {
+      "letter": "D",
+      "text": "0.05\n<\nP\n<\n0.10"
+    },
+    {
+      "letter": "E",
+      "text": "0.15\n<\nP\n<\n0.20"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "VAR-7.E",
+    "VAR-7.E.1",
+    "VAR-7"
+  ],
+  "standards": [
+    "4.E",
+    "VAR-7.E",
+    "VAR-7.E.1",
+    "VAR-7"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-079",
+  "title": "Interpret the $P$-value for a Linear Regression Test",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Are middle school students who like their science class more likely to enjoy their math class as well?  Below is the linear regression output for a randomly chosen group of <span class=\"tex2jax_process\">$50$</span> middle school students.  These <span class=\"tex2jax_process\">$50$</span> students were asked to rank both their science and their math class on a scale of <span class=\"tex2jax_process\">$0$</span> to <span class=\"tex2jax_process\">$5$</span> (the higher the rating, the more the student enjoys the class).</div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Predictor</th><th scope=\"col\">Coef</th><th scope=\"col\">SE Coef</th><th scope=\"col\"><span class=\"tex2jax_process\">$T$</span></th><th scope=\"col\"><span class=\"tex2jax_process\">$P$</span></th></tr></thead><tbody><tr><td>Constant</td><td><span class=\"tex2jax_process\">$1.187$</span></td><td><span class=\"tex2jax_process\">$0.56$</span></td><td><span class=\"tex2jax_process\">$2.44$</span></td><td><span class=\"tex2jax_process\">$0.042$</span></td></tr><tr><td>Science</td><td><span class=\"tex2jax_process\">$0.5254$</span></td><td><span class=\"tex2jax_process\">$0.1995$</span></td><td><span class=\"tex2jax_process\">$2.63$</span></td><td><span class=\"tex2jax_process\">$0.014$</span></td></tr></tbody></table></div><div class=\"paragraph\">Which of the following is the correct value and the correct interpretation of the <em><span class=\"tex2jax_process\">$P$</span></em>-value of the test for the hypotheses <em>Ho</em>: <span class=\"tex2jax_process\">$\\beta = 0$</span> vs <em>Ha</em>: <span class=\"tex2jax_process\">$\\beta &gt; 0$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.042\n; There is a\n4.2\n% chance of obtaining results like these or results more extreme, under the assumption that there is not a linear relationship between the rating of a science class and the rating of a math class."
+    },
+    {
+      "letter": "B",
+      "text": "0.042\n; There is a\n4.2\n% chance of obtaining results like these, under the assumption that there is not a linear relationship between the rating of a science class and the rating of a math class."
+    },
+    {
+      "letter": "C",
+      "text": "0.014\n; There is a\n1.4\n% chance of obtaining results like these or results more extreme, under the assumption that there is a linear relationship between the rating of a science class and the rating of a math class."
+    },
+    {
+      "letter": "D",
+      "text": "0.014\n; There is a\n1.4\n% chance of obtaining results like these or results more extreme, under the assumption that there is not a linear relationship between the rating of a science class and the rating of a math class."
+    },
+    {
+      "letter": "E",
+      "text": "2.63\n; There is a\n2.63\n% chance of obtaining results like these or results more extreme, under the assumption that there is not a linear relationship between the rating of a science class and the rating of a math class."
+    }
+  ],
+  "correct_answer": "<strong>Choice ‘D’</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.M.1",
+    "DAT-3.M"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.M.1",
+    "DAT-3.M"
+  ]
+}

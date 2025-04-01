@@ -1,0 +1,44 @@
+{
+  "question_id": "question-089",
+  "title": "A Test for Equal Proportions",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Best friends Mary and Samantha recently found out they were born on the same day of the week (both were born on a Friday)!  They wonder if births are evenly distributed across the days of the week.  To explore this, they take a random sample of citizens from their large city.  Here is the distribution of <span class=\"tex2jax_process\">$200$</span> births:</div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Day</th><th scope=\"col\">Sunday</th><th scope=\"col\">Monday</th><th scope=\"col\">Tuesday</th><th scope=\"col\">Wednesday</th><th scope=\"col\">Thursday</th><th scope=\"col\">Friday</th><th scope=\"col\">Saturday</th></tr></thead><tbody><tr><td>Births</td><td><span class=\"tex2jax_process\">$25$</span></td><td><span class=\"tex2jax_process\">$32$</span></td><td><span class=\"tex2jax_process\">$39$</span></td><td><span class=\"tex2jax_process\">$21$</span></td><td><span class=\"tex2jax_process\">$28$</span></td><td><span class=\"tex2jax_process\">$29$</span></td><td><span class=\"tex2jax_process\">$26$</span></td></tr></tbody></table></div><div class=\"paragraph\">Which of the following sets of hypotheses is correct to use to analyze this data?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Ho: Birth days in this local area are not evenly distributed across the days of the week Ha: Birth days in this local area are evenly distributed across the days of the week"
+    },
+    {
+      "letter": "B",
+      "text": "Ho: Birth days in this local area are evenly distributed across the days of the week Ha: Birth days in this local area are not evenly distributed across the days of the week"
+    },
+    {
+      "letter": "C",
+      "text": "Ho: The proportion of births that occur on a Friday is\n14.5\n% Ha: The proportion of births that occur on a Friday is higher than\n14.5\n%"
+    },
+    {
+      "letter": "D",
+      "text": "Ho: The proportion of births that occur on a Friday is higher than\n14.5\n% Ha: The proportion of births that occur on a Friday is\n14.5\n%"
+    },
+    {
+      "letter": "E",
+      "text": "Ho: Birth days and days of the week are not related. Ha: Birth days and days of the week are related."
+    }
+  ],
+  "correct_answer": "<strong>Choice ‘B’</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "1.F",
+    "VAR-8.B.1",
+    "VAR-8",
+    "VAR-8.B"
+  ],
+  "standards": [
+    "1.F",
+    "VAR-8.B.1",
+    "VAR-8",
+    "VAR-8.B"
+  ]
+}

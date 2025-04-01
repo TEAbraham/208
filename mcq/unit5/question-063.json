@@ -1,0 +1,44 @@
+{
+  "question_id": "question-063",
+  "title": "Conditions Violated",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A community organization wishes to know the proportion of subjects who feel financially comfortable in a certain town.  </div><div class=\"paragraph\">Based on last year’s census, <span class=\"tex2jax_process\">$64\\%$</span> of the town residents felt financially comfortable. In this year’s survey, <span class=\"tex2jax_process\">$56$</span> out of <span class=\"tex2jax_process\">$115$</span> randomly chosen subjects expressed feeling financially comfortable. The organization wishes to determine if the residents’ opinion of financial comfort has changed from last year.  </div><div class=\"paragraph\">If the town has a population of <span class=\"tex2jax_process\">$500$</span>, why would it be incorrect to use a normal probability calculation on proportions?​</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The survey taken was not an SRS."
+    },
+    {
+      "letter": "B",
+      "text": "The population is not at least\n10\n times\nthe sample size."
+    },
+    {
+      "letter": "C",
+      "text": "The sampling distribution is not approximately normal."
+    },
+    {
+      "letter": "D",
+      "text": "The sample size was too small."
+    },
+    {
+      "letter": "E",
+      "text": "It would be a statistically correct procedure to use a normal probability calculation in this situation."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.K.2",
+    "UNC-3",
+    "3.B",
+    "UNC-3.K"
+  ],
+  "standards": [
+    "UNC-3.K.2",
+    "UNC-3",
+    "3.B",
+    "UNC-3.K"
+  ]
+}

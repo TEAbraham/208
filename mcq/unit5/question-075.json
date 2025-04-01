@@ -1,0 +1,52 @@
+{
+  "question_id": "question-075",
+  "title": "Random Number Generator",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose a random number generator chooses <span class=\"tex2jax_process\">$30$</span> numbers between <span class=\"tex2jax_process\">$1$</span> and <span class=\"tex2jax_process\">$10$</span>. The generator then takes the average of those numbers selected.  </div><div class=\"paragraph\">If this process is repeated <span class=\"tex2jax_process\">$100$</span> times, the distribution will be</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Approximately normal with a mean of\n5.5\n."
+    },
+    {
+      "letter": "B",
+      "text": "Exactly normal with a mean of\n5.5\n."
+    },
+    {
+      "letter": "C",
+      "text": "Uniform with a mean of\n5.5\n."
+    },
+    {
+      "letter": "D",
+      "text": "Uniform with a mean of\n110\n."
+    },
+    {
+      "letter": "E",
+      "text": "Right-skewed with a mean of\n110\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.H.5",
+    "UNC-3.H.2",
+    "UNC-3.H.1",
+    "3.C",
+    "UNC-3",
+    "UNC-3.H",
+    "UNC-3.H.4",
+    "UNC-3.H.3"
+  ],
+  "standards": [
+    "UNC-3.H.5",
+    "UNC-3.H.2",
+    "UNC-3.H.1",
+    "3.C",
+    "UNC-3",
+    "UNC-3.H",
+    "UNC-3.H.4",
+    "UNC-3.H.3"
+  ]
+}

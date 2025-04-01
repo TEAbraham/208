@@ -1,0 +1,46 @@
+{
+  "question_id": "question-073",
+  "title": "Household Income",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A sociologist was interested in his hometown’s average household income.  </div><div class=\"paragraph\">The sociologist selected <span class=\"tex2jax_process\">$45$</span> houses on his block to visit during the day and ask each household’s income.  </div><div class=\"paragraph\">Of these, <span class=\"tex2jax_process\">$35$</span> houses had, at least, one person home. These <span class=\"tex2jax_process\">$35$</span> households had an average income of <span class=\"tex2jax_process\">$\\$42,035$</span> and standard deviation of <span class=\"tex2jax_process\">$\\$14,352$</span>.  </div><div class=\"paragraph\">Why might it be dangerous to generalize the sociologist’s results to the rest of the town?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> There was undercoverage.  </div><div class=\"paragraph\"><strong>II.</strong> The sample was not random enough.  </div><div class=\"paragraph\"><strong>III.</strong> The sample was too small.    </div></blockquote>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "I and II only."
+    },
+    {
+      "letter": "D",
+      "text": "II and III only."
+    },
+    {
+      "letter": "E",
+      "text": "I, II, and III."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-2",
+    "DAT-2.E.3",
+    "1.C",
+    "DAT-2.E",
+    "DAT-2.E.6"
+  ],
+  "standards": [
+    "DAT-2",
+    "DAT-2.E.3",
+    "1.C",
+    "DAT-2.E",
+    "DAT-2.E.6"
+  ]
+}

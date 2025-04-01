@@ -1,0 +1,48 @@
+{
+  "question_id": "question-103",
+  "title": "Type of Design: Neighborhood Watch",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Neighborhood watch is a program designed where a group of civilians are devoted to prevent  crime and vandalism in a neighborhood.  A research group, known as the <em>Watchmen</em> want to know if the neighborhood watch is actually effective.  </div><div class=\"paragraph\">The <em>Watchmen</em> locate <span class=\"tex2jax_process\">$20$</span> pairs of neighborhoods, where each pair is similar in size, economic status,  number of streetlights, number of dogs, number of nosy neighbors, etc. One neighborhood in each pair is randomly assigned to have  the neighborhood watch program and the other does not.  </div><div class=\"paragraph\">This is an example of</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "An observational study."
+    },
+    {
+      "letter": "B",
+      "text": "A completely randomized experiment."
+    },
+    {
+      "letter": "C",
+      "text": "A matched pairs experiment."
+    },
+    {
+      "letter": "D",
+      "text": "A randomized block design, but not matched pairs."
+    },
+    {
+      "letter": "E",
+      "text": "A stratified random sample."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3.D",
+    "VAR-3",
+    "VAR-3.D.1",
+    "1.C",
+    "VAR-3.C.9",
+    "VAR-3.C"
+  ],
+  "standards": [
+    "VAR-3.D",
+    "VAR-3",
+    "VAR-3.D.1",
+    "1.C",
+    "VAR-3.C.9",
+    "VAR-3.C"
+  ]
+}

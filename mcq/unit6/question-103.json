@@ -1,0 +1,44 @@
+{
+  "question_id": "question-103",
+  "title": "Is the Drug Better?",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A study was conducted to determine if there was a difference in the proportions of a new drug and a placebo using a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval.  The resulting confidence interval was <span class=\"tex2jax_process\">$(-0.21, 0.15)$</span>.  Which of the following represents a correct conclusion based on this information?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "We are\n95\n%\nconfident that the confidence interval\n(\n−\n0.21\n,\n0.15\n)\ncaptures the difference in population proportions of the drug and the placebo. Because zero is included in the interval, we can state that a difference between the effectiveness of the drug and the placebo exists."
+    },
+    {
+      "letter": "B",
+      "text": "We are\n95\n%\nconfident that the confidence interval\n(\n−\n0.21\n,\n0.15\n)\ncaptures the difference in population proportions of the drug and the placebo. Because zero is included in the interval, we cannot state that a difference between the effectiveness of the drug and the placebo exists."
+    },
+    {
+      "letter": "C",
+      "text": "Because\n−\n0.21\n−\n0.15\n=\n−\n0.36\n, we are\n95\n%\nconfident that the difference between the proportions of the drug and placebo effectiveness is\n36\n%\n."
+    },
+    {
+      "letter": "D",
+      "text": "Because zero is included in our confidence interval of\n(\n−\n0.21\n,\n0.15\n)\n, we are\n95\n%\nconfident that there is no difference between the the drug and the placebo."
+    },
+    {
+      "letter": "E",
+      "text": "Our confidence interval of\n(\n−\n0.21\n,\n0.15\n)\ntells us that we are\n95\n%\nconfident that the probability of finding that the drug proportion is greater than the placebo proportion is\n0.15\n−\n(\n−\n0.21\n)\n=\n36\n%\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.D",
+    "UNC-4.M",
+    "UNC-4",
+    "UNC-4.M.1"
+  ],
+  "standards": [
+    "4.D",
+    "UNC-4.M",
+    "UNC-4",
+    "UNC-4.M.1"
+  ]
+}

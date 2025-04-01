@@ -1,0 +1,44 @@
+{
+  "question_id": "question-007",
+  "title": "Candy Colors",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Some years ago Ms. Tracey (a statistics teacher) gave her class bags of a certain type of candy. She had <span class=\"tex2jax_process\">$50$</span> students in <span class=\"tex2jax_process\">$2$</span> classes. The candy company claimed that we would find <span class=\"tex2jax_process\">$10\\%$</span> red candies and <span class=\"tex2jax_process\">$20\\%$</span> yellow candies.  Well, Ms. Tracey's students found the opposite percentages in the candies!</div><div class=\"paragraph\">Do you think that this result is likely due to random variation?  And what comment below explains the yes or no answer the best?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes. In bags of candy you would always expect some random variation."
+    },
+    {
+      "letter": "B",
+      "text": "Yes. There was no random assignment so we cannot draw any conclusions."
+    },
+    {
+      "letter": "C",
+      "text": "Yes. We do not know if the candies were normally distributed so we cannot make any conclusions."
+    },
+    {
+      "letter": "D",
+      "text": "No. Fifty bags are a big enough sample to show statistically that the company was wrong."
+    },
+    {
+      "letter": "E",
+      "text": "No. While we might always expect some random variation, the fact that the percentages were reversed is just not likely."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-1.J",
+    "VAR-1.J.1",
+    "1.A",
+    "VAR-1"
+  ],
+  "standards": [
+    "VAR-1.J",
+    "VAR-1.J.1",
+    "1.A",
+    "VAR-1"
+  ]
+}

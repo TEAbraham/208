@@ -1,0 +1,44 @@
+{
+  "question_id": "question-007",
+  "title": "Calculating the Standard Deviation of the Proportion",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">According to the National Center for Education Statistics, <span class=\"tex2jax_process\">$65.9\\%$</span> of students enrolled in college in the fall immediately after completing high school in the year <span class=\"tex2jax_process\">$2013$</span>.  </div><div class=\"paragraph\">Wendy just did some research for an article she is writing for the school newspaper and knows that at her high school, <span class=\"tex2jax_process\">$84.1\\%$</span> of students who graduated the previous year immediately enrolled to attend college that fall.  She started to wonder if the percent of students who enroll in college immediately after completing high school is now greater than <span class=\"tex2jax_process\">$65.9\\%$</span>.  </div><div class=\"paragraph\">To investigate, she contacted <span class=\"tex2jax_process\">$437$</span>  students (some from her school and some from other schools) that she knew would be graduating this year.  She found that <span class=\"tex2jax_process\">$80.3\\%$</span> of them were planning to enroll in college immediately after completing high school.  </div><div class=\"paragraph\">If Wendy is willing to consider that all conditions have been satisfied, which of the following shows how to calculate the standard deviation of the proportion for the appropriate statistical test? </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "√\n(\n437\n)\n(\n0.659\n)\n(\n0.341\n)"
+    },
+    {
+      "letter": "B",
+      "text": "√\n(\n437\n)\n(\n0.803\n)\n(\n0.197\n)"
+    },
+    {
+      "letter": "C",
+      "text": "√\n(\n0.659\n)\n(\n0.341\n)\n437"
+    },
+    {
+      "letter": "D",
+      "text": "√\n(\n0.803\n)\n(\n0.197\n)\n437"
+    },
+    {
+      "letter": "E",
+      "text": "√\n(\n0.841\n)\n(\n0.159\n)\n437"
+    }
+  ],
+  "correct_answer": "There are a lot of percentages given in this problem.  Be careful!  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-1.I.1",
+    "1.A",
+    "VAR-1",
+    "VAR-1.I"
+  ],
+  "standards": [
+    "VAR-1.I.1",
+    "1.A",
+    "VAR-1",
+    "VAR-1.I"
+  ]
+}

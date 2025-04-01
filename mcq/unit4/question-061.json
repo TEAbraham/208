@@ -1,0 +1,44 @@
+{
+  "question_id": "question-061",
+  "title": "Police Tickets | 1 of 2",
+  "difficulty": "Easy",
+  "question_text": "\n<div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">X</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th><th scope=\"col\">6</th></tr></thead><tbody><tr><td>P(X)</td><td>0.04</td><td>0.11</td><td>0.33</td><td>0.35</td><td>0.14</td><td>0.03</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>A local police officer gives out between <span class=\"tex2jax_process\">$1$</span> and <span class=\"tex2jax_process\">$6\\text{ tickets a day}$</span>, the probability distribution table of which is shown above, where <span class=\"tex2jax_process\">$X$</span> is the number of tickets handed out on any given day.  </div><div class=\"paragraph\">What is the probability the officer gives out at least <span class=\"tex2jax_process\">$4\\text{ tickets}$</span> on any given day?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.17"
+    },
+    {
+      "letter": "B",
+      "text": "0.52"
+    },
+    {
+      "letter": "C",
+      "text": "0.35"
+    },
+    {
+      "letter": "D",
+      "text": "0.15"
+    },
+    {
+      "letter": "E",
+      "text": "0.48"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4"
+  ],
+  "standards": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4"
+  ]
+}

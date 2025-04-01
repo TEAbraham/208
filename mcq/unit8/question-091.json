@@ -1,0 +1,44 @@
+{
+  "question_id": "question-091",
+  "title": "Degrees of Freedom for a Chi-Square GOF Test",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A chi-square goodness of fit test is used to test whether a <span class=\"tex2jax_process\">$0$</span> – <span class=\"tex2jax_process\">$9$</span> spinner is “fair” (i.e., the outcomes are all equally likely).  The spinner is spun <span class=\"tex2jax_process\">$100$</span> times, and the results are recorded.</div><div class=\"paragraph\">What are the degrees of freedom for this problem?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "8"
+    },
+    {
+      "letter": "B",
+      "text": "9"
+    },
+    {
+      "letter": "C",
+      "text": "10"
+    },
+    {
+      "letter": "D",
+      "text": "99"
+    },
+    {
+      "letter": "E",
+      "text": "100"
+    }
+  ],
+  "correct_answer": "<strong>Choice ‘B’</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.F",
+    "3.E",
+    "VAR-8",
+    "VAR-8.F.1"
+  ],
+  "standards": [
+    "VAR-8.F",
+    "3.E",
+    "VAR-8",
+    "VAR-8.F.1"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-086",
+  "title": "Making a Conclusion for a Test on Regression",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A statistics student wants to know if the grade a student earns on the statistics final exam can be predicted from the grade they earn on the statistics midterm exam.  Below is a computer output for linear regression of final exam scores versus midterm exam scores from a sample of <span class=\"tex2jax_process\">$40$</span> randomly chosen students at the school. </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Predictor</th><th scope=\"col\">Coef</th><th scope=\"col\">SE Coef</th><th scope=\"col\"><span class=\"tex2jax_process\">$T$</span></th><th scope=\"col\"><span class=\"tex2jax_process\">$P$</span></th></tr></thead><tbody><tr><td>Constant</td><td><span class=\"tex2jax_process\">$406.9$</span></td><td><span class=\"tex2jax_process\">$164.8$</span></td><td><span class=\"tex2jax_process\">$2.47$</span></td><td><span class=\"tex2jax_process\">$0.020$</span></td></tr><tr><td>Midterm</td><td><span class=\"tex2jax_process\">$58.45$</span></td><td><span class=\"tex2jax_process\">$24.77$</span></td><td><span class=\"tex2jax_process\">$2.36$</span></td><td><span class=\"tex2jax_process\">$0.026$</span></td></tr></tbody></table></div><div class=\"paragraph\">The student will test the hypotheses <em>Ho</em>: <span class=\"tex2jax_process\">$\\beta = 0$</span> vs <em>Ha</em>: <span class=\"tex2jax_process\">$\\beta &gt; 0$</span>.  Assuming conditions for inference have been checked and met, which is the following is the appropriate conclusion to make, using an <span class=\"tex2jax_process\">$\\alpha$</span> level of <span class=\"tex2jax_process\">$0.05$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Since the\nP\n-value of\n0.020\nis less than\nα\n, we reject Ho. There is convincing evidence of a linear relationship between final exam scores and midterm scores for the students at this school."
+    },
+    {
+      "letter": "B",
+      "text": "Since the\nP\n-value of\n0.020\nis greater than\nα\n, we fail to reject Ho. We do not have enough evidence to conclude that there is a linear relationship between final exam scores and midterm scores for the students at this school."
+    },
+    {
+      "letter": "C",
+      "text": "Since the\nP\n-value of\n0.026\nis greater than\nα\n, we accept Ho. We have convincing evidence that there is not a linear relationship between final exam scores and midterm scores for the students at this school."
+    },
+    {
+      "letter": "D",
+      "text": "Since the\nP\n-value of\n0.026\nis less than\nα\n, we accept Ho. We have convincing evidence that there is not a linear relationship between final exam scores and midterm scores for the students at this school."
+    },
+    {
+      "letter": "E",
+      "text": "Since the\nP\n-value of\n0.026\nis less than\nα\n, we reject Ho. There is convincing evidence of a linear relationship between final exam scores and midterm scores for the students at this school."
+    }
+  ],
+  "correct_answer": "<strong>Choice ‘E’</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3",
+    "DAT-3.N",
+    "DAT-3.N.1"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3",
+    "DAT-3.N",
+    "DAT-3.N.1"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-200",
+  "title": "Variable of Interest: Car Color",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose <span class=\"tex2jax_process\">$30\\%$</span> of all cars in a certain town are red.  </div><div class=\"paragraph\">If the variable of interest is the number of cars that drive by until a red car is seen, what is the center and shape of this distribution?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Center:\n3.33 Shape: approximately normal"
+    },
+    {
+      "letter": "B",
+      "text": "Center:\n3 Shape: approximately normal"
+    },
+    {
+      "letter": "C",
+      "text": "Center:\n3 Shape: right skewed"
+    },
+    {
+      "letter": "D",
+      "text": "Center:\n3 Shape: normal"
+    },
+    {
+      "letter": "E",
+      "text": "Center:\n3.33 Shape: right skewed"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.G.1",
+    "4.B",
+    "UNC-3.G",
+    "UNC-3"
+  ],
+  "standards": [
+    "UNC-3.G.1",
+    "4.B",
+    "UNC-3.G",
+    "UNC-3"
+  ]
+}

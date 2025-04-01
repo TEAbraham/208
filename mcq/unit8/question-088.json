@@ -1,0 +1,44 @@
+{
+  "question_id": "question-088",
+  "title": "Chi-Square Conditions",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A student at a large high school suspects that Ms. Smith is grading her students too leniently.  Over the past <span class=\"tex2jax_process\">$5$</span> years, the grade distribution (given in proportions) of students in <em>all</em> sections of statistics (taught by many different teachers) is below:</div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Grade</th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th><th scope=\"col\">E</th></tr></thead><tbody><tr><td>Percent</td><td><span class=\"tex2jax_process\">$20$</span>%</td><td><span class=\"tex2jax_process\">$30$</span>%</td><td><span class=\"tex2jax_process\">$30$</span>%</td><td><span class=\"tex2jax_process\">$10$</span>%</td><td><span class=\"tex2jax_process\">$10$</span>%</td></tr></tbody></table></div><div class=\"paragraph\">A simple random sample of <span class=\"tex2jax_process\">$80$</span> students who took statistics with Ms. Smith over the past <span class=\"tex2jax_process\">$5$</span> years is taken and results in the following grade distribution:</div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Grade</th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th><th scope=\"col\">E</th></tr></thead><tbody><tr><td>Percent</td><td><span class=\"tex2jax_process\">$40$</span>%</td><td><span class=\"tex2jax_process\">$30$</span>%</td><td><span class=\"tex2jax_process\">$20$</span>%</td><td><span class=\"tex2jax_process\">$8$</span>%</td><td><span class=\"tex2jax_process\">$2$</span>%</td></tr></tbody></table></div><div class=\"paragraph\">Which of the following conditions must be met before the student can use a <span class=\"tex2jax_process\">$\\chi^2$</span> procedure in this situation?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The distribution of grades in all sections must be approximately Normal."
+    },
+    {
+      "letter": "B",
+      "text": "The number of categories must be small relative to the number of students sampled."
+    },
+    {
+      "letter": "C",
+      "text": "All observed counts must be greater than\n5\n."
+    },
+    {
+      "letter": "D",
+      "text": "Each observation must be randomly selected from the population of all of Ms. Smith's students from the past\n5\nyears."
+    },
+    {
+      "letter": "E",
+      "text": "All expected counts must be approximately equal."
+    }
+  ],
+  "correct_answer": "<strong>Choice ‘D’</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.C",
+    "VAR-8.C.1",
+    "VAR-8",
+    "1.E"
+  ],
+  "standards": [
+    "VAR-8.C",
+    "VAR-8.C.1",
+    "VAR-8",
+    "1.E"
+  ]
+}

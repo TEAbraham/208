@@ -1,0 +1,44 @@
+{
+  "question_id": "question-092",
+  "title": "Test Statistic for a Chi-Square GOF Test",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The Advanced Placement (AP) Statistics examination was first administered in May <span class=\"tex2jax_process\">$1997$</span>.  Students’ papers are graded on a scale of <span class=\"tex2jax_process\">$1$</span> – <span class=\"tex2jax_process\">$5$</span>, with <span class=\"tex2jax_process\">$5$</span> being the highest score.  Over <span class=\"tex2jax_process\">$10{,}000$</span> students took the exam in the first year, and the distribution of all scores was as follows:</div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Score</th><th scope=\"col\"><span class=\"tex2jax_process\">$1$</span></th><th scope=\"col\"><span class=\"tex2jax_process\">$2$</span></th><th scope=\"col\"><span class=\"tex2jax_process\">$3$</span></th><th scope=\"col\"><span class=\"tex2jax_process\">$4$</span></th><th scope=\"col\"><span class=\"tex2jax_process\">$5$</span></th></tr></thead><tbody><tr><td>Percent</td><td><span class=\"tex2jax_process\">$19.1$</span>%</td><td><span class=\"tex2jax_process\">$25.8$</span>%</td><td><span class=\"tex2jax_process\">$20.8$</span>%</td><td><span class=\"tex2jax_process\">$23$</span>%</td><td><span class=\"tex2jax_process\">$11.3$</span>%</td></tr></tbody></table></div><div class=\"paragraph\">A distance learning class of <span class=\"tex2jax_process\">$75$</span> students that took AP Statistics via an online platform had the following distribution of grades:</div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Score</th><th scope=\"col\"><span class=\"tex2jax_process\">$1$</span></th><th scope=\"col\"><span class=\"tex2jax_process\">$2$</span></th><th scope=\"col\"><span class=\"tex2jax_process\">$3$</span></th><th scope=\"col\"><span class=\"tex2jax_process\">$4$</span></th><th scope=\"col\"><span class=\"tex2jax_process\">$5$</span></th></tr></thead><tbody><tr><td>Frequency</td><td><span class=\"tex2jax_process\">$11$</span></td><td><span class=\"tex2jax_process\">$23$</span></td><td><span class=\"tex2jax_process\">$21$</span></td><td><span class=\"tex2jax_process\">$11$</span></td><td><span class=\"tex2jax_process\">$9$</span></td></tr></tbody></table></div><div class=\"paragraph\">Which of the following is the correct value of the chi-square test statistic for a Goodness of Fit Test?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "5.63"
+    },
+    {
+      "letter": "B",
+      "text": "6.56"
+    },
+    {
+      "letter": "C",
+      "text": "0.229"
+    },
+    {
+      "letter": "D",
+      "text": "4"
+    },
+    {
+      "letter": "E",
+      "text": "0.0023"
+    }
+  ],
+  "correct_answer": "<strong>Choice ‘A’</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.F",
+    "3.E",
+    "VAR-8",
+    "VAR-8.F.1"
+  ],
+  "standards": [
+    "VAR-8.F",
+    "3.E",
+    "VAR-8",
+    "VAR-8.F.1"
+  ]
+}

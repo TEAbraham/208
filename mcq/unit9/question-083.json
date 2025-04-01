@@ -1,0 +1,44 @@
+{
+  "question_id": "question-083",
+  "title": "Fishing Under Pressure",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Michael travels around the world learning about cuisine and local fishing.  A particular area of Canadian water is known to have large quantities of lake trout, but Michael has been unable to catch any.  The local fishermen advise him that they believe there is a relationship between falling atmospheric pressure and lake trout feeding activity.   As it seems, fish catches rise as the pressure falls.</div><div class=\"paragraph\">Michael, ever the analyst, collects pressure readings from historical weather data for the past year and plots each drop in pressure against the Department of Fisheries and Oceans (DFO) lake trout catch data for the area of interest.  He believes that the locals are correct.  </div><div class=\"paragraph\">Michael forms the following hypotheses, and wishes to test at the <span class=\"tex2jax_process\">$\\alpha=0.01$</span> level of significance:</div><div class=\"paragraph\"><span class=\"tex2jax_process\">$H_0$</span>: There is no linear relationship between negative pressure change and the number of lake trout caught in the specific area of interest in Canadian water.</div><div class=\"paragraph\"><span class=\"tex2jax_process\">$H_A$</span>: There is a negative linear relationship between negative pressure change and the number of lake trout caught in the specific area of interest in Canadian water.</div><div class=\"paragraph\">What test is appropriate for this inference procedure?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A\nz\ntest with\nn\n−\n1\ndegrees of freedom for the the slope of the true regression line of Lake Trout Caught on Negative Pressure Change."
+    },
+    {
+      "letter": "B",
+      "text": "A\nz\ntest with\nn\n−\n2\ndegrees of freedom for the the slope of the true regression line of Lake Trout Caught on Negative Pressure Change."
+    },
+    {
+      "letter": "C",
+      "text": "A\nt\ntest with\nn\n−\n1\ndegrees of freedom for the the slope of the true regression line of Lake Trout Caught on Negative Pressure Change."
+    },
+    {
+      "letter": "D",
+      "text": "A\nt\ntest with\nn\n−\n2\ndegrees of freedom for the the\ny\n-intercept of the true regression line of Lake Trout Caught on Negative Pressure Change."
+    },
+    {
+      "letter": "E",
+      "text": "A\nt\ntest with\nn\n−\n2\ndegrees of freedom for the the slope of the true regression line of Lake Trout Caught on Negative Pressure Change."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is correct.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7.J.1",
+    "VAR-7",
+    "VAR-7.J",
+    "1.E"
+  ],
+  "standards": [
+    "VAR-7.J.1",
+    "VAR-7",
+    "VAR-7.J",
+    "1.E"
+  ]
+}

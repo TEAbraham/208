@@ -1,0 +1,44 @@
+{
+  "question_id": "question-079",
+  "title": "Reducing Type II Errors",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Which of the following statements is/are true given the following situation?  </div><div class=\"paragraph\">When performing a two-sample <span class=\"tex2jax_process\">$T$</span>-test, possible ways to reduce the probability of a type II error would be to</div><blockquote><div class=\"paragraph\"><strong>I.</strong> Increase alpha.  </div><div class=\"paragraph\"><strong>II.</strong> Increase sample size.  </div><div class=\"paragraph\"><strong>III.</strong> Use a matched pairs experimental design.    </div></blockquote>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and II only."
+    },
+    {
+      "letter": "E",
+      "text": "II and III only."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-5.C.1",
+    "UNC-5",
+    "UNC-5.C",
+    "4.A"
+  ],
+  "standards": [
+    "UNC-5.C.1",
+    "UNC-5",
+    "UNC-5.C",
+    "4.A"
+  ]
+}

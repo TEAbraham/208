@@ -1,0 +1,44 @@
+{
+  "question_id": "question-115",
+  "title": "Conditions for Two-Proportions",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Which of the following conditions is/are necessary for a hypothesis test concerning inference on two-proportions?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> The data must be from a simple random sample.  </div><div class=\"paragraph\"><strong>II.</strong> <span class=\"tex2jax_process\">${ { n }_{ 1 } }(p),{ { n }_{ 1 } } \\times (1-p),{ { n }_{ 2 } }(p)$</span> and <span class=\"tex2jax_process\">${ { n }_{ 2 } }(1-p)$</span> must all be greater than <span class=\"tex2jax_process\">$5$</span>, where <span class=\"tex2jax_process\">${ { n }_{ 1 } }$</span> and <span class=\"tex2jax_process\">${ { n }_{ 2 } }$</span> are the sizes of the first and second samples, respectively, and p is the pooled sample proportion.  </div><div class=\"paragraph\"><strong>III.</strong> The samples must be stratified.    </div></blockquote>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and II only."
+    },
+    {
+      "letter": "E",
+      "text": "II and III only."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.C",
+    "VAR-6.J",
+    "VAR-6.J.1",
+    "VAR-6"
+  ],
+  "standards": [
+    "4.C",
+    "VAR-6.J",
+    "VAR-6.J.1",
+    "VAR-6"
+  ]
+}

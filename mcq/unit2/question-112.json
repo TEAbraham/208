@@ -1,0 +1,44 @@
+{
+  "question_id": "question-112",
+  "title": "LSRL Formation",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The least squares regression line is constructed in such a way as to keep the</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Value of R-squared as small as possible."
+    },
+    {
+      "letter": "B",
+      "text": "Sum of the squares, formed by the vertical distance between observed and expected values, as small as possible."
+    },
+    {
+      "letter": "C",
+      "text": "Sum of the squares, formed by the horizontal distance between observed and expected values, as small as possible."
+    },
+    {
+      "letter": "D",
+      "text": "Residuals as small as possible."
+    },
+    {
+      "letter": "E",
+      "text": "Regression line as close as possible to any regression outliers."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is incorrect; in a least squares regression one hopes to keep R-squared high as possible to get a strong model.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.H",
+    "DAT-1",
+    "DAT-1.H.3"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-1.H",
+    "DAT-1",
+    "DAT-1.H.3"
+  ]
+}

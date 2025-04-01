@@ -1,0 +1,44 @@
+{
+  "question_id": "question-053",
+  "title": "Ice Cream Shop | 3 of 3",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">An owner of a local ice cream shop wishes to determine if a positive linear relationship exists between high temperatures and the shop’s profits recorded that day.  </div><div class=\"paragraph\">The owner recorded sales from the last <span class=\"tex2jax_process\">$50\\text{ days}$</span> of the summer and performed a linear regression <span class=\"tex2jax_process\">$T$</span>-interval on temperature vs. sales at <span class=\"tex2jax_process\">$95\\%$</span> confidence.  </div><div class=\"paragraph\">If the interval extends from <span class=\"tex2jax_process\">$50.2$</span> to <span class=\"tex2jax_process\">$76.2$</span>, which of the following statements is/are true?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> Strong evidence exists <span class=\"tex2jax_process\">$(p &lt; 0.05)$</span> of a linear relationship between these variables.  </div><div class=\"paragraph\"><strong>II.</strong> The model predicts an extra <span class=\"tex2jax_process\">$\\$63.20$</span> in sales for every extra degree the temperature rises.  </div><div class=\"paragraph\"><strong>III.</strong> In this situation specifically, extrapolation is probably safe.    </div></blockquote>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and II only."
+    },
+    {
+      "letter": "E",
+      "text": "II and III only."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.M.1",
+    "DAT-3.M"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.M.1",
+    "DAT-3.M"
+  ]
+}

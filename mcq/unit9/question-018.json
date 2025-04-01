@@ -1,0 +1,46 @@
+{
+  "question_id": "question-018",
+  "title": "Find the Margin of Error",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The lower bound of a confidence interval constructed for the slope of a regression model is <span class=\"tex2jax_process\">$5.06$</span>.  If the slope of the model is equal to <span class=\"tex2jax_process\">$8.66$</span> and the standard error is equal to <span class=\"tex2jax_process\">$1.5$</span>, find the value of the margin of error.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "3.6"
+    },
+    {
+      "letter": "B",
+      "text": "2.4"
+    },
+    {
+      "letter": "C",
+      "text": "−\n2.4"
+    },
+    {
+      "letter": "D",
+      "text": "−\n3.6"
+    },
+    {
+      "letter": "E",
+      "text": "12.26"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.AE.1",
+    "3.D",
+    "UNC-4.AF.2",
+    "UNC-4",
+    "UNC-4.AE"
+  ],
+  "standards": [
+    "UNC-4.AE.1",
+    "3.D",
+    "UNC-4.AF.2",
+    "UNC-4",
+    "UNC-4.AE"
+  ]
+}

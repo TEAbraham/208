@@ -1,0 +1,44 @@
+{
+  "question_id": "question-081",
+  "title": "Accounting for Differences: Gun Control",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose a local group in support of tighter gun restrictions gives a nationwide survey to <span class=\"tex2jax_process\">$200$</span> randomly chosen subjects.  </div><div class=\"paragraph\">The question they asked was “Do you favor increased gun control?” In the survey, <span class=\"tex2jax_process\">$66\\%$</span> of respondents said yes, compared to the national average of <span class=\"tex2jax_process\">$64\\%$</span>.  </div><div class=\"paragraph\">How might a statistician explain this difference (<span class=\"tex2jax_process\">$64\\%$</span> vs. <span class=\"tex2jax_process\">$66\\%$</span>) to the group?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The sample of\n200\nsubjects was too small to come up with any credible comparisons to the population proportion of\n64\n%\n."
+    },
+    {
+      "letter": "B",
+      "text": "Since the sample was conducted by a group that supports tighter gun control, it is probable the poll sampled people who would be more likely to support their cause."
+    },
+    {
+      "letter": "C",
+      "text": "Since the sample was conducted by a group that supports tighter gun control, it is likely the question was worded in a confusing or biased manner."
+    },
+    {
+      "letter": "D",
+      "text": "Since the group who conducted the survey was local, the respondents might have the opinions of this area, but not necessarily the opinions of the entire country."
+    },
+    {
+      "letter": "E",
+      "text": "For samples of size\n200\n, sampling variability exists where samples can easily be\n1\n%\n−\n3\n%\noff the true population proportion."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-1.G",
+    "1.A",
+    "VAR-1.G.1",
+    "VAR-1"
+  ],
+  "standards": [
+    "VAR-1.G",
+    "1.A",
+    "VAR-1.G.1",
+    "VAR-1"
+  ]
+}

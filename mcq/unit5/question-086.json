@@ -1,0 +1,46 @@
+{
+  "question_id": "question-086",
+  "title": "University Initiative",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A local university is interested in summer earnings of its students. The data from all students over the last <span class=\"tex2jax_process\">$10\\text{ years}$</span> is given in the following table:\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Males</th><th scope=\"col\">Females</th></tr></thead><tbody><tr><td>Mean</td><td><span>$</span>3,201</td><td><span>$</span>2,401</td></tr><tr><td>St. Dev.</td><td><span>$</span>1,231</td><td><span>$</span>984</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>The university recently started an initiative to encourage students to find higher-paying summer jobs in line with their potential careers. A random sample of <span class=\"tex2jax_process\">$30\\text{ males}$</span> found a mean summer income of <span class=\"tex2jax_process\">$\\$3{,}804$</span> with a standard deviation of <span class=\"tex2jax_process\">$\\$1{,}240$</span>.  </div><div class=\"paragraph\">Assuming females have the same standard deviation as before (<span class=\"tex2jax_process\">$\\$984$</span>), how large of a sample mean would the female sample of size <span class=\"tex2jax_process\">$30$</span> have to be in order to claim that females have benefited just as much as males from this initiative?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$\n2,474.32"
+    },
+    {
+      "letter": "B",
+      "text": "$\n2,878.88"
+    },
+    {
+      "letter": "C",
+      "text": "$\n2,938.83"
+    },
+    {
+      "letter": "D",
+      "text": "$\n3,432.10"
+    },
+    {
+      "letter": "E",
+      "text": "$\n3,804.00"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.Q.2",
+    "UNC-3.Q.1",
+    "UNC-3",
+    "UNC-3.Q",
+    "3.B"
+  ],
+  "standards": [
+    "UNC-3.Q.2",
+    "UNC-3.Q.1",
+    "UNC-3",
+    "UNC-3.Q",
+    "3.B"
+  ]
+}

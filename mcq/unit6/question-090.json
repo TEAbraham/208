@@ -1,0 +1,46 @@
+{
+  "question_id": "question-090",
+  "title": "Reducing Type I Error",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A study on women’s weights was recently completed.  </div><div class=\"paragraph\">Fifteen randomly selected high school females from an urban setting were compared to <span class=\"tex2jax_process\">$16$</span> randomly selected high school women from a rural setting. The results are below:</div><div class=\"paragraph\"><em>Two-Sample T for Urban Weights vs. Rural Weights</em></div><br><div class=\"paragraph\">  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">StDev</th><th scope=\"col\">SE Mean</th></tr></thead><tbody><tr><td>Urban Weights</td><td>15</td><td>126.1</td><td>10.5</td><td>2.7</td></tr><tr><td>Rural Weights</td><td>16</td><td>128.8</td><td>13.2</td><td>3.3</td></tr></tbody></table></div><br><div class=\"paragraph\"><br><span class=\"tex2jax_process\">$\\text{Difference} = \\mu _{\\text{Urban Weights}} - \\mu_{ \\text{Rural Weights}}$</span>  </div><div class=\"paragraph\"><em>Estimate for difference: <span class=\"tex2jax_process\">$-2.68$</span></em><br><em><span class=\"tex2jax_process\">$95\\%$</span> CI for difference: (<span class=\"tex2jax_process\">$-11.45, 6.09$</span>)</em></div><div class=\"paragraph\"><em>T-test of difference = <span class=\"tex2jax_process\">$0$</span> (vs. not =): T-value = <span class=\"tex2jax_process\">$-0.63$</span>, P-value = <span class=\"tex2jax_process\">$0.537$</span>, DF = <span class=\"tex2jax_process\">$28$</span></em>  </div><div class=\"paragraph\">What could be a possible way to reduce the probability of a type I error in this context?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Increase alpha level."
+    },
+    {
+      "letter": "B",
+      "text": "Decrease alpha level."
+    },
+    {
+      "letter": "C",
+      "text": "Decrease sample sizes."
+    },
+    {
+      "letter": "D",
+      "text": "Use a multi-stage sample."
+    },
+    {
+      "letter": "E",
+      "text": "Select from different areas across the country to reduce variability."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-5.D.1",
+    "UNC-5",
+    "UNC-5.D.2",
+    "UNC-5.D"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-5.D.1",
+    "UNC-5",
+    "UNC-5.D.2",
+    "UNC-5.D"
+  ]
+}

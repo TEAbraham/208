@@ -1,0 +1,52 @@
+{
+  "question_id": "question-158",
+  "title": "Fitness Tracker: Determining Shape from a 5-Number Summary",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">For several months now, Wally has been using a fitness tracker to keep track of how many steps he takes each day.  From data that he has collected, he calculated the <span class=\"tex2jax_process\">$5$</span>-number summary to be:    </div><div class=\"paragraph\"><span class=\"tex2jax_process\">$\\text{Min}:  3190$</span><br><span class=\"tex2jax_process\">$\\text{Q1}:  6423$</span><br><span class=\"tex2jax_process\">$\\text{Med}:  7807$</span><br><span class=\"tex2jax_process\">$\\text{Q3}:  9672$</span><br><span class=\"tex2jax_process\">$\\text{Max}:  17210$</span>  </div><div class=\"paragraph\">Wally wants to make a boxplot so that he can determine the shape of the distribution.  Unfortunately, he walked <span class=\"tex2jax_process\">$17210$</span> steps today and is too tired to create the boxplot!  Wanda tells Wally not to worry.  She can determine the shape of the distribution from the <span class=\"tex2jax_process\">$5$</span>-number summary using all the data available.</div><div class=\"paragraph\">What would Wanda tell Wally?</div>",
+  "image_files": [
+    "images/question-158-img1.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The distribution is completely normal."
+    },
+    {
+      "letter": "B",
+      "text": "The distribution is roughly symmetric, but not near normal.."
+    },
+    {
+      "letter": "C",
+      "text": "The distribution is skewed left."
+    },
+    {
+      "letter": "D",
+      "text": "The distribution is skewed right."
+    },
+    {
+      "letter": "E",
+      "text": "A\n5\n-number summary can never determine the shape of the distribution ."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.H.1",
+    "UNC-1.H",
+    "UNC-1.H.3",
+    "2.A",
+    "UNC-1.L.2",
+    "UNC-1.L",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.H.1",
+    "UNC-1.H",
+    "UNC-1.H.3",
+    "2.A",
+    "UNC-1.L.2",
+    "UNC-1.L",
+    "UNC-1"
+  ]
+}

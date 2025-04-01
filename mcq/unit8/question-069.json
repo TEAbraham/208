@@ -1,0 +1,46 @@
+{
+  "question_id": "question-069",
+  "title": "Name the Test",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">What type of inferential procedure could be used to investigate data taken from a single sample, that can be represented in a two-way table that is <span class=\"tex2jax_process\">$2 \\times 2$</span> or larger?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Chi-squared goodness of fit test."
+    },
+    {
+      "letter": "B",
+      "text": "Chi-squared test for association."
+    },
+    {
+      "letter": "C",
+      "text": "Two-proportion\nZ\n-test."
+    },
+    {
+      "letter": "D",
+      "text": "Two-sample\nT\n-test."
+    },
+    {
+      "letter": "E",
+      "text": "One-proportion\nZ\n-test."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3.K.1",
+    "DAT-3",
+    "DAT-3.K",
+    "3.E"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3.K.1",
+    "DAT-3",
+    "DAT-3.K",
+    "3.E"
+  ]
+}

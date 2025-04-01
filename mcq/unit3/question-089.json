@@ -1,0 +1,44 @@
+{
+  "question_id": "question-089",
+  "title": "Defeating Mold: An Experiment",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Mold on walls and windowsills is not only unsightly, it can also pose a health risk to those who live in the home.  The best way to prevent mold is to control moisture.  However, this can be difficult in places where the climate is hot and humid.  </div><div class=\"paragraph\">A chemical engineer has developed a solution that he believes will prevent mold from growing on treated surfaces.  To test the solution, he has built <span class=\"tex2jax_process\">$8$</span> small rooms.  Each room has one window.  Two of the <span class=\"tex2jax_process\">$8$</span> rooms will be maintained at a relative humidity level of <span class=\"tex2jax_process\">$60\\%$</span>, two rooms will be maintained at a relative humidity level of <span class=\"tex2jax_process\">$70\\%$</span>, two rooms at <span class=\"tex2jax_process\">$80\\%$</span>, and two rooms at <span class=\"tex2jax_process\">$90\\%$</span>.  </div><div class=\"paragraph\">All <span class=\"tex2jax_process\">$8$</span> rooms will be maintained at a temperature of <span class=\"tex2jax_process\">$80$</span> degrees.  At each relative humidity level, the surfaces in one of the two rooms will be treated with the new solution and the surfaces in the other room will remain untreated.  </div><div class=\"paragraph\">Which of the two rooms is treated with the new solution will be determined at random.  Mold spores will then be introduced into all <span class=\"tex2jax_process\">$8$</span> rooms and the growth of mold in the treated and untreated rooms will be compared.  </div><div class=\"paragraph\">Which of the following describes the biggest flaw in the design of this experiment?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The experiment suffers from lack of control."
+    },
+    {
+      "letter": "B",
+      "text": "The experiment suffers from lack of randomization."
+    },
+    {
+      "letter": "C",
+      "text": "The experiment suffers from lack of replication."
+    },
+    {
+      "letter": "D",
+      "text": "The experiment suffers from lack of realism."
+    },
+    {
+      "letter": "E",
+      "text": "The experiment suffers from undercoverage."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3",
+    "VAR-3.B.1",
+    "1.C",
+    "VAR-3.B"
+  ],
+  "standards": [
+    "VAR-3",
+    "VAR-3.B.1",
+    "1.C",
+    "VAR-3.B"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-038",
+  "title": "The Wrong Condition?",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A study is to be done using a <span class=\"tex2jax_process\">$t$</span>-test for slope. Conditions need to be verified.  All of the following need to be checked  for the test to be done except one.  Which answer is <em>not</em> a condition for a <span class=\"tex2jax_process\">$t$</span>-test for slope?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Check that the points in the residual plot are scattered around the zero line."
+    },
+    {
+      "letter": "B",
+      "text": "Check to make sure that the population is at least\n10\ntimes the size of the sample."
+    },
+    {
+      "letter": "C",
+      "text": "Check for skewness and outliers if the sample size is less than\n30\n."
+    },
+    {
+      "letter": "D",
+      "text": "Check that stratified random samples are used."
+    },
+    {
+      "letter": "E",
+      "text": "Check the data to make sure it is linear."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.C",
+    "VAR-7.L.1",
+    "VAR-7",
+    "VAR-7.L"
+  ],
+  "standards": [
+    "4.C",
+    "VAR-7.L.1",
+    "VAR-7",
+    "VAR-7.L"
+  ]
+}

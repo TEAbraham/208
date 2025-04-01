@@ -1,0 +1,44 @@
+{
+  "question_id": "question-219",
+  "title": "Find the Mean When Given the Z-score",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">One of the values in a normal distribution is <span class=\"tex2jax_process\">$37$</span> and its <em>z</em>-score is <span class=\"tex2jax_process\">$-2.15$</span>.  </div><div class=\"paragraph\">If the standard deviation of the distribution is <span class=\"tex2jax_process\">$4.19$</span>, what is the approximate mean of the distribution?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "−\n46"
+    },
+    {
+      "letter": "B",
+      "text": "−\n28"
+    },
+    {
+      "letter": "C",
+      "text": "28"
+    },
+    {
+      "letter": "D",
+      "text": "38"
+    },
+    {
+      "letter": "E",
+      "text": "46"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "3.A",
+    "VAR-2"
+  ],
+  "standards": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "3.A",
+    "VAR-2"
+  ]
+}

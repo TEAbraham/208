@@ -1,0 +1,46 @@
+{
+  "question_id": "question-097",
+  "title": "Probability Distribution: Everybody Needs a Hero Part II",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">At <em>Burger Bell</em> when someone buys a <em>Hero Meal</em> they receive an action figure.  The distribution of action figures is shown in the table below.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Action Figure</th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th></tr></thead><tbody><tr><td>P(x)</td><td>0.30</td><td>0.10</td><td>0.10</td><td>0.50</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Assuming each Hero Meal is independent of one another, what is the probability when someone buys two Hero Meals they get action figures <em>A</em> and <em>B</em>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.03"
+    },
+    {
+      "letter": "B",
+      "text": "0.06"
+    },
+    {
+      "letter": "C",
+      "text": "0.16"
+    },
+    {
+      "letter": "D",
+      "text": "0.40"
+    },
+    {
+      "letter": "E",
+      "text": "0.80"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct choice.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ],
+  "standards": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-111",
+  "title": "Traffic Accidents",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A traffic engineer is curious if elderly drivers are more or less likely to get into accidents than teenage drivers.  </div><div class=\"paragraph\">The engineer randomly sampled <span class=\"tex2jax_process\">$100$</span> teenage drivers and <span class=\"tex2jax_process\">$100$</span> drivers more than <span class=\"tex2jax_process\">$80$</span> years old, asking both groups if they have gotten in an accident in the last year.  </div><div class=\"paragraph\">A hypothesis test of <span class=\"tex2jax_process\">$ { p }_{ 1 }= { p }_{ 2 }$</span> vs. <span class=\"tex2jax_process\">${ p }_{ 1 } ≠ { p }_{ 2 }$</span> gives a test statistic <span class=\"tex2jax_process\">$z = 1.13$</span>.  </div><div class=\"paragraph\">Assuming conditions for inference have been met, what conclusion can be made?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Strong evidence exists to suggest that younger and older drivers are equally likely to get into an accident."
+    },
+    {
+      "letter": "B",
+      "text": "Weak evidence exists to suggest that younger and older drivers are equally likely to get into an accident."
+    },
+    {
+      "letter": "C",
+      "text": "There is insufficient information to come to any conclusion."
+    },
+    {
+      "letter": "D",
+      "text": "There is strong evidence of a difference in accident rates between older and younger drivers."
+    },
+    {
+      "letter": "E",
+      "text": "There is insufficient evidence to conclude older and younger drivers have different accident rates."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-4.M",
+    "UNC-4",
+    "UNC-4.M.2"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-4.M",
+    "UNC-4",
+    "UNC-4.M.2"
+  ]
+}

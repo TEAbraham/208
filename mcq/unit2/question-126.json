@@ -1,0 +1,46 @@
+{
+  "question_id": "question-126",
+  "title": "Transformations of Variables",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Five statements about the transformation of variables are listed below.  Four are true and one is false.  Which statement below is false?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "One way of transforming variables is to take the natural log of each of the response variables."
+    },
+    {
+      "letter": "B",
+      "text": "Transformed data can result in data which is more linear in form."
+    },
+    {
+      "letter": "C",
+      "text": "Transformed data can result in an\nr\n2\nvalue closer to\n1\nwhich indicates the regression line is a more appropriate model."
+    },
+    {
+      "letter": "D",
+      "text": "Residual plots of transformed data can show less scatter which indicates the regression line is a more appropriate model."
+    },
+    {
+      "letter": "E",
+      "text": "One way of transforming variables is to square each of the explanatory variables."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-1",
+    "DAT-1.J",
+    "DAT-1.J.1",
+    "DAT-1.J.2",
+    "2.A"
+  ],
+  "standards": [
+    "DAT-1",
+    "DAT-1.J",
+    "DAT-1.J.1",
+    "DAT-1.J.2",
+    "2.A"
+  ]
+}

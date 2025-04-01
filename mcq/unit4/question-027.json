@@ -1,0 +1,44 @@
+{
+  "question_id": "question-027",
+  "title": "One Potato, Two Potato",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose you have <span class=\"tex2jax_process\">$2$</span> potatoes, <span class=\"tex2jax_process\">$1$</span> tomato, and <span class=\"tex2jax_process\">$1$</span> avocado.  Each item is in its own bag so that you cannot see or feel them.  You pick three bags.  Describe your sample space.  For simplicity call your potatoes:  potato<span class=\"tex2jax_process\">$1$</span> and potato<span class=\"tex2jax_process\">$2$</span>.  And, what is the probability of picking any group of <span class=\"tex2jax_process\">$3$</span> bags (or of any one item in your sample space)?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "potato1, potato2, tomato, avocado Probability\n=\n0.25"
+    },
+    {
+      "letter": "B",
+      "text": "Potato1 and Potato 2 Tomato Avocado Probability\n=\n0.33"
+    },
+    {
+      "letter": "C",
+      "text": "potato1, potato2, tomato potato1, potato2, avocado potato1, tomato, avocado potato2, tomato, avocado Probability\n=\n0.25"
+    },
+    {
+      "letter": "D",
+      "text": "potato1, potato2, tomato potato1, potato2, avocado potato1, tomato, avocado potato2, tomato, avocado Probability\n=\n0.50"
+    },
+    {
+      "letter": "E",
+      "text": "potato1, tomato, avocado potato2, tomato, avocado Probability\n=\n0.50"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.A.1",
+    "3.A",
+    "VAR-4",
+    "VAR-4.A"
+  ],
+  "standards": [
+    "VAR-4.A.1",
+    "3.A",
+    "VAR-4",
+    "VAR-4.A"
+  ]
+}

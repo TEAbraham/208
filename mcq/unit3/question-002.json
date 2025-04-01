@@ -1,0 +1,49 @@
+{
+  "question_id": "question-002",
+  "title": "Keyboard Design",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">An engineer is working on new prototypes for the new model of a laptop for a major computer company. He has narrowed down the keyboard design to two different designs, <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-25258\"><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-25259\">A</span></span></span><script type=\"math/tex\" id=\"MathJax-Element-7087\">A</script></span> and <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"><span class=\"MJXp-math\" id=\"MJXp-Span-25260\"><span class=\"MJXp-mi MJXp-italic\" id=\"MJXp-Span-25261\">B</span></span></span><script type=\"math/tex\" id=\"MathJax-Element-7088\">B</script></span>. He sets up  a study to investigate the new keyboards. </div><div class=\"paragraph\">Which of the following is <u>not</u> a problem the engineer would be investigating?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The overall comfort of the new keyboards."
+    },
+    {
+      "letter": "B",
+      "text": "The overall design of the keyboards"
+    },
+    {
+      "letter": "C",
+      "text": "The cost effectiveness of the keyboards."
+    },
+    {
+      "letter": "D",
+      "text": "The overall feel of the keyboards."
+    },
+    {
+      "letter": "E",
+      "text": "Which keyboard color is the coolest."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "The engineer is <strong>collecting data</strong> in order to solve a problem. The issue we have is that we are unaware of the problem that the engineer is trying to solve. \n\nWhen looking at problems the engineer could be investigating, the obvious ones are effectiveness, compatibility, comfort, and design. Once the engineer decides which keyboard they want to use for the new laptop, they can then customize the computer with the color keyboard of their choice.\n\n<strong>Choice 'E'</strong> is correct. ",
+  "distractor_explanations": {
+    "A": "<strong>Choice 'A'</strong> is incorrect. To compare the keyboards, the engineer will definitely be looking at the comfort of the keyboard. ",
+    "B": "<strong>Choice 'B'</strong> is incorrect. When designing a new laptop, the engineer will be looking at the design and how the keyboard fits in.",
+    "C": "<strong>Choice 'C'</strong> is incorrect. The cost of the keyboards will be a factor in the design and implementation of the new laptop. ",
+    "D": "<strong>Choice 'D'</strong> is incorrect. The feel of the keyboard could definitely be a deciding factor in which keyboard is selected for the new design."
+  },
+  "tags": [
+    "VAR-1.E",
+    "1.A",
+    "VAR-1",
+    "VAR-1.E.1"
+  ],
+  "standards": [
+    "VAR-1.E",
+    "1.A",
+    "VAR-1",
+    "VAR-1.E.1"
+  ]
+}

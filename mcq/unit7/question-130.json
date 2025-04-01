@@ -1,0 +1,46 @@
+{
+  "question_id": "question-130",
+  "title": "Two-Sample $T$-Test",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A two-sample <span class=\"tex2jax_process\">$T$</span>-test attempts to determine if </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A significant difference exists between two proportions."
+    },
+    {
+      "letter": "B",
+      "text": "A significant difference exists between two means when the population standard deviation is known."
+    },
+    {
+      "letter": "C",
+      "text": "A significant difference exists between two means when the population standard deviation is unknown."
+    },
+    {
+      "letter": "D",
+      "text": "A straight line relationship exists between two quantitative variables."
+    },
+    {
+      "letter": "E",
+      "text": "A relationship exists between two categorical variables."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.H.1",
+    "DAT-3",
+    "DAT-3.H",
+    "DAT-3.H.2"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3.H.1",
+    "DAT-3",
+    "DAT-3.H",
+    "DAT-3.H.2"
+  ]
+}

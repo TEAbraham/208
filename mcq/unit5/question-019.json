@@ -1,0 +1,44 @@
+{
+  "question_id": "question-019",
+  "title": "Estimator Definition",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">The mean of a sampling distribution can be considered an unbiased estimate of <span class=\"tex2jax_process\">$\\mu$</span> when...</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "there is no major skewness or outliers."
+    },
+    {
+      "letter": "B",
+      "text": "variability is uncertain at first but gets smaller as\nn\nincreases."
+    },
+    {
+      "letter": "C",
+      "text": "a sample mean and population mean\nμ\nare equal."
+    },
+    {
+      "letter": "D",
+      "text": "the expected value of the sample mean equals the population mean\nμ\n."
+    },
+    {
+      "letter": "E",
+      "text": "its expected value changes as the sample size\nn\nincreases."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.I",
+    "4.B",
+    "UNC-3.I.1",
+    "UNC-3"
+  ],
+  "standards": [
+    "UNC-3.I",
+    "4.B",
+    "UNC-3.I.1",
+    "UNC-3"
+  ]
+}

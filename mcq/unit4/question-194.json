@@ -1,0 +1,44 @@
+{
+  "question_id": "question-194",
+  "title": "Geometric Distribution Shape",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">The shape of a geometric distribution</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Will always be left skewed."
+    },
+    {
+      "letter": "B",
+      "text": "Will always be right skewed."
+    },
+    {
+      "letter": "C",
+      "text": "Will always be approximately normal."
+    },
+    {
+      "letter": "D",
+      "text": "Depends on\nP\n, the probability of success."
+    },
+    {
+      "letter": "E",
+      "text": "Will be symmetric but not necessarily normal."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.G.1",
+    "4.B",
+    "UNC-3.G",
+    "UNC-3"
+  ],
+  "standards": [
+    "UNC-3.G.1",
+    "4.B",
+    "UNC-3.G",
+    "UNC-3"
+  ]
+}

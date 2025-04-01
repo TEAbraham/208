@@ -1,0 +1,44 @@
+{
+  "question_id": "question-067",
+  "title": "College Football Coach",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A college football coach has had a dismal year.  </div><div class=\"paragraph\">The alumni association queries members of the alumni club. Of an SRS of <span class=\"tex2jax_process\">$100\\text{ members}$</span>, <span class=\"tex2jax_process\">$64$</span> of them are in favor of firing the coach.  </div><div class=\"paragraph\">Compute a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for the true proportion of alumni who favor firing the coach.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.64\n±\n0.079"
+    },
+    {
+      "letter": "B",
+      "text": "0.64\n±\n0.094"
+    },
+    {
+      "letter": "C",
+      "text": "0.64\n±\n0.111"
+    },
+    {
+      "letter": "D",
+      "text": "0.64\n±\n0.124"
+    },
+    {
+      "letter": "E",
+      "text": "0.64\n±\n0.36"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3",
+    "DAT-3.B.9",
+    "DAT-3.B"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3",
+    "DAT-3.B.9",
+    "DAT-3.B"
+  ]
+}

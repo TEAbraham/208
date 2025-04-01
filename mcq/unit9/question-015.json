@@ -1,0 +1,46 @@
+{
+  "question_id": "question-015",
+  "title": "Point Estimate for the Slope Given a Table",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Is there an association between someone eating large quantities of chocolate and being overweight? A random sample of <span class=\"tex2jax_process\">$26$</span> women had their body fat percentage measured and were also were asked how much chocolate they eat a day. A computer regression analysis of the data is given below:  </div><div class=\"paragraph\">Dependent variable is: Body fat<br><span class=\"tex2jax_process\">$R^2 = 20.26\\%$</span><br><span class=\"tex2jax_process\">$s= 7.89 $</span>\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">Coefficient</th><th scope=\"col\">s.e Coeff</th><th scope=\"col\">t-ratio</th><th scope=\"col\">prob</th></tr></thead><tbody><tr><td>Constant</td><td>23.231</td><td>1.567</td><td>14.32</td><td>0.00001</td></tr><tr><td>Chocolate</td><td>0.0543</td><td>0.0217</td><td>2.21</td><td>0.037</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Assuming the conditions have been satisfied and using <span class=\"tex2jax_process\">$95\\%$</span> confidence, which of the following represents the point estimate for the slope <span class=\"tex2jax_process\">$t$</span>-interval?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.0217"
+    },
+    {
+      "letter": "B",
+      "text": "0.0543"
+    },
+    {
+      "letter": "C",
+      "text": "1.567"
+    },
+    {
+      "letter": "D",
+      "text": "7.89"
+    },
+    {
+      "letter": "E",
+      "text": "23.231"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "3.D",
+    "UNC-4.AF",
+    "UNC-4.AF.1",
+    "UNC-4.AF.2",
+    "UNC-4"
+  ],
+  "standards": [
+    "3.D",
+    "UNC-4.AF",
+    "UNC-4.AF.1",
+    "UNC-4.AF.2",
+    "UNC-4"
+  ]
+}

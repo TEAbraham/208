@@ -1,0 +1,48 @@
+{
+  "question_id": "question-154",
+  "title": "Linear Transformation: Mean and Variance",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Suppose <span class=\"tex2jax_process\">$X$</span> is a random variable where the  mean is <span class=\"tex2jax_process\">$14.2$</span> and the  standard deviation is <span class=\"tex2jax_process\">$3.2$</span>.<br>Let <span class=\"tex2jax_process\">$y=5.1x + 8$</span>.  </div><div class=\"paragraph\">What is the mean and variance of y?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Mean:\n80.42\n\nVariance:\n274.34"
+    },
+    {
+      "letter": "B",
+      "text": "Mean:\n80.42\n\nVariance:\n266.34"
+    },
+    {
+      "letter": "C",
+      "text": "Mean:\n80.42\n\nVariance:\n16.32"
+    },
+    {
+      "letter": "D",
+      "text": "Mean:\n72.42\n\nVariance:\n274.34"
+    },
+    {
+      "letter": "E",
+      "text": "Mean:\n72.42\n\nVariance:\n266.34"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.<br>In this case we have a linear transformation.  If <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-11931-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mi>Y</mi><mo>=</mo><mi>a</mi><mo>+</mo><mi>b</mi><mi>X</mi></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-58050\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-58051\" class=\"mjx-mrow\"><span id=\"MJXc-Node-58052\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.441em; padding-bottom: 0.277em; padding-right: 0.182em;\">Y</span></span><span id=\"MJXc-Node-58053\" class=\"mjx-mo MJXc-space3\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.058em; padding-bottom: 0.332em;\">=</span></span><span id=\"MJXc-Node-58054\" class=\"mjx-mi MJXc-space3\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.222em; padding-bottom: 0.277em;\">a</span></span><span id=\"MJXc-Node-58055\" class=\"mjx-mo MJXc-space2\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.277em; padding-bottom: 0.441em;\">+</span></span><span id=\"MJXc-Node-58056\" class=\"mjx-mi MJXc-space2\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.496em; padding-bottom: 0.277em;\">b</span></span><span id=\"MJXc-Node-58057\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.441em; padding-bottom: 0.277em; padding-right: 0.024em;\">X</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi><mo>=</mo><mi>a</mi><mo>+</mo><mi>b</mi><mi>X</mi></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-11931\">Y= a + bX</script></span> is a linear transformation of the random variable <em>X</em>, then <div class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span class=\"mjx-chtml MJXc-display\" style=\"text-align: center;\"><span id=\"MathJax-Element-11932-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" style=\"font-size: 114%; text-align: center; position: relative;\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot; display=&quot;block&quot;><msub><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mi>&amp;#x03BC;</mi></mrow><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mi>y</mi></mrow></msub><mo>=</mo><mi>a</mi><mo>+</mo><mi>b</mi><msub><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mi>&amp;#x03BC;</mi></mrow><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mi>x</mi></mrow></msub></math>\" role=\"presentation\"><span id=\"MJXc-Node-58058\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-58059\" class=\"mjx-mrow\"><span id=\"MJXc-Node-58060\" class=\"mjx-msubsup\"><span class=\"mjx-base\"><span id=\"MJXc-Node-58061\" class=\"mjx-texatom\"><span id=\"MJXc-Node-58062\" class=\"mjx-mrow\"><span id=\"MJXc-Node-58063\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.222em; padding-bottom: 0.496em;\">μ</span></span></span></span></span><span class=\"mjx-sub\" style=\"font-size: 70.7%; vertical-align: -0.391em; padding-right: 0.071em;\"><span id=\"MJXc-Node-58064\" class=\"mjx-texatom\" style=\"\"><span id=\"MJXc-Node-58065\" class=\"mjx-mrow\"><span id=\"MJXc-Node-58066\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.222em; padding-bottom: 0.496em; padding-right: 0.006em;\">y</span></span></span></span></span></span><span id=\"MJXc-Node-58067\" class=\"mjx-mo MJXc-space3\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.058em; padding-bottom: 0.332em;\">=</span></span><span id=\"MJXc-Node-58068\" class=\"mjx-mi MJXc-space3\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.222em; padding-bottom: 0.277em;\">a</span></span><span id=\"MJXc-Node-58069\" class=\"mjx-mo MJXc-space2\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.277em; padding-bottom: 0.441em;\">+</span></span><span id=\"MJXc-Node-58070\" class=\"mjx-mi MJXc-space2\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.496em; padding-bottom: 0.277em;\">b</span></span><span id=\"MJXc-Node-58071\" class=\"mjx-msubsup\"><span class=\"mjx-base\"><span id=\"MJXc-Node-58072\" class=\"mjx-texatom\"><span id=\"MJXc-Node-58073\" class=\"mjx-mrow\"><span id=\"MJXc-Node-58074\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.222em; padding-bottom: 0.496em;\">μ</span></span></span></span></span><span class=\"mjx-sub\" style=\"font-size: 70.7%; vertical-align: -0.391em; padding-right: 0.071em;\"><span id=\"MJXc-Node-58075\" class=\"mjx-texatom\" style=\"\"><span id=\"MJXc-Node-58076\" class=\"mjx-mrow\"><span id=\"MJXc-Node-58077\" class=\"mjx-mi\"><span class=\"mjx-char MJXc-TeX-math-I\" style=\"padding-top: 0.222em; padding-bottom: 0.277em;\">x</span></span></span></span></span></span></span></span><span class=\"MJX_Assistive_MathML MJX_Assistive_MathML_Block\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"block\"><msub><mrow class=\"MJX-TeXAtom-ORD\"><mi>μ</mi></mrow><mrow class=\"MJX-TeXAtom-ORD\"><mi>y</mi></mrow></msub><mo>=</mo><mi>a</mi><mo>+</mo><mi>b</mi><msub><mrow class=\"MJX-TeXAtom-ORD\"><mi>μ</mi></mrow><mrow class=\"MJX-TeXAtom-ORD\"><mi>x</mi></mrow></msub></math></span></span></span><script type=\"math/tex; mode=display\" id=\"MathJax-Element-11932\">{ \\mu  }_{ y }=a+b{ \\mu  }_{ x }</script></div>  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5.E.3",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ],
+  "standards": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5.E.3",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "question_id": "question-162",
+  "title": "Sampling Bouncy Balls",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A quality control inspector in a bouncy ball plant must select a simple random sample of bouncy balls at the end of each day to make sure they are producing the required amount of bounciness.  </div><div class=\"paragraph\">Which of the following correctly describes a valid simple random sampling procedure?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Place all of the bouncy balls for the day in a large container and mix them up. Draw\n10\n bouncy balls\nout of the container."
+    },
+    {
+      "letter": "B",
+      "text": "Place all of the solid color bouncy balls in one container and all of the swirly bouncy balls in another container. Mix the bouncy balls in each container and draw\n10\n bouncy balls\nout of each."
+    },
+    {
+      "letter": "C",
+      "text": "As the bouncy balls come off the production lines, randomly choose one of the first\n50\n bouncy balls\n. Then choose every\n50\nth\n bouncy ball\nafter that one until the end of the day."
+    },
+    {
+      "letter": "D",
+      "text": "Place all of the bouncy balls from production line A into a large container. Do the same for production lines B and C. Mix up the bouncy balls in each container and draw\n10\n bouncy balls\nout of each."
+    },
+    {
+      "letter": "E",
+      "text": "All of the above describe a valid simple random sampling procedure."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "DAT-2.C.2",
+    "DAT-2",
+    "VAR-3.E.2",
+    "DAT-2.C"
+  ],
+  "standards": [
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "DAT-2.C.2",
+    "DAT-2",
+    "VAR-3.E.2",
+    "DAT-2.C"
+  ]
+}

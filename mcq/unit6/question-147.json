@@ -1,0 +1,44 @@
+{
+  "question_id": "question-147",
+  "title": "Are the Ratings Running Better?",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">On the Nile Company website, items are reviewed by customers on a scale from <span class=\"tex2jax_process\">$1$</span> to <span class=\"tex2jax_process\">$5$</span> diamonds (with <span class=\"tex2jax_process\">$5$</span> diamonds being the best rating possible).</div><div class=\"paragraph\">The maker of Mike's Running Shoes was concerned about the percentage of customers rating their running shoes at <span class=\"tex2jax_process\">$5$</span> diamonds. A survey of <span class=\"tex2jax_process\">$50$</span> random customers last year produced <span class=\"tex2jax_process\">$42$</span> customers giving this top rating of <span class=\"tex2jax_process\">$5$</span> diamond to their shoes, but this year a survey of <span class=\"tex2jax_process\">$54$</span> random customers yielded only <span class=\"tex2jax_process\">$40$</span> customers giving the same high rating.</div><div class=\"paragraph\">Calculate a <span class=\"tex2jax_process\">$95\\%$</span> confidence interval to give an interval estimate for the change in ratings.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "(\n−\n0.031\n,\n0.229\n)"
+    },
+    {
+      "letter": "B",
+      "text": "(\n0.135\n,\n0.179\n)"
+    },
+    {
+      "letter": "C",
+      "text": "(\n−\n0.104\n,\n0.303\n)"
+    },
+    {
+      "letter": "D",
+      "text": "(\n0.741\n,\n0.840\n)"
+    },
+    {
+      "letter": "E",
+      "text": "(\n−\n0.056\n,\n0.254\n)"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.L",
+    "3.D",
+    "UNC-4.L.1",
+    "UNC-4"
+  ],
+  "standards": [
+    "UNC-4.L",
+    "3.D",
+    "UNC-4.L.1",
+    "UNC-4"
+  ]
+}

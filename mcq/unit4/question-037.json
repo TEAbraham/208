@@ -1,0 +1,44 @@
+{
+  "question_id": "question-037",
+  "title": "Complementary Events",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Suppose the complement of event <span class=\"tex2jax_process\">$A$</span> is defined as the probability of <span class=\"tex2jax_process\">$A$</span> <em>not</em> happening and has a probability of <span class=\"tex2jax_process\">$1-P(A)$</span>.  </div><div class=\"paragraph\">Complementary events</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Are never disjoint."
+    },
+    {
+      "letter": "B",
+      "text": "Are always independent."
+    },
+    {
+      "letter": "C",
+      "text": "Can be independent sometimes."
+    },
+    {
+      "letter": "D",
+      "text": "Can be disjoint at times, but not necessarily all the time."
+    },
+    {
+      "letter": "E",
+      "text": "Are disjoint and never independent."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "VAR-4.C",
+    "VAR-4",
+    "VAR-4.C.2"
+  ],
+  "standards": [
+    "4.B",
+    "VAR-4.C",
+    "VAR-4",
+    "VAR-4.C.2"
+  ]
+}

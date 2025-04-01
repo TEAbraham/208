@@ -1,0 +1,44 @@
+{
+  "question_id": "question-030",
+  "title": "Estimating Parameters: Conditions",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Suppose the conditions are not met for a confidence interval.  </div><div class=\"paragraph\">When conditions are not met, then</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The confidence level in the interval must be lowered."
+    },
+    {
+      "letter": "B",
+      "text": "The width of the confidence interval must be raised."
+    },
+    {
+      "letter": "C",
+      "text": "The results may not be able to be generalized to the population."
+    },
+    {
+      "letter": "D",
+      "text": "The margin of error of the confidence interval will increase."
+    },
+    {
+      "letter": "E",
+      "text": "The critical value\nt\n∗\nor\nz\n∗\nwill need to increase."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.G",
+    "4.D",
+    "UNC-4.G.1",
+    "UNC-4"
+  ],
+  "standards": [
+    "UNC-4.G",
+    "4.D",
+    "UNC-4.G.1",
+    "UNC-4"
+  ]
+}

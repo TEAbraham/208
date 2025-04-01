@@ -1,0 +1,46 @@
+{
+  "question_id": "question-017",
+  "title": "Appropriate Null and Alternative Hypotheses",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A fast food company is offering a prize promotion game.  </div><div class=\"paragraph\">The company claims that in <span class=\"tex2jax_process\">$0.5\\%$</span> of all orders will receive <span class=\"tex2jax_process\">$\\$100$</span> cash, <span class=\"tex2jax_process\">$1\\%$</span> of all orders will receive <span class=\"tex2jax_process\">$\\$10$</span> cash, and <span class=\"tex2jax_process\">$10\\%$</span> of orders will receive a coupon for a free soft drink. The remaining orders will receive no prizes.  </div><div class=\"paragraph\">A group of long-time customers were excited about the new promotion, and over the course of the promotion, they placed <span class=\"tex2jax_process\">$651\\text{ orders}$</span>. Of these orders, <span class=\"tex2jax_process\">$2$</span> ended up winning <span class=\"tex2jax_process\">$\\$100$</span>, <span class=\"tex2jax_process\">$6$</span> won <span class=\"tex2jax_process\">$\\$10$</span>, and <span class=\"tex2jax_process\">$52$</span> won a free soft drink.  </div><div class=\"paragraph\">If this group wanted to do a chi-squared goodness of fit test to test the advertised odds, what would be the appropriate null and alternative hypotheses?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "H\n0\n: The respective probabilities of winning the different prizes is as advertised. H\na\n: The respective probability of winning the different prizes is NOT as advertised."
+    },
+    {
+      "letter": "B",
+      "text": "H\n0\n: The respective probabilities of winning the different prizes is as advertised. H\na\n: The respective probabilities of winning the different prizes is greater than advertised."
+    },
+    {
+      "letter": "C",
+      "text": "H\n0\n: The respective probabilities of winning the different prizes is as advertised. H\na\n: The respective probabilities of winning the different prizes is less than advertised."
+    },
+    {
+      "letter": "D",
+      "text": "H\n0\n: There is no association between prize winnings and frequency. H\na\n: There is an association between prize winnings and frequency."
+    },
+    {
+      "letter": "E",
+      "text": "H\n0\n: Prize-winning and frequency are independent. H\na\n: Prize-winning and frequency are not independent."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "1.F",
+    "VAR-8.B.1",
+    "VAR-8.C",
+    "VAR-8",
+    "VAR-8.B"
+  ],
+  "standards": [
+    "1.F",
+    "VAR-8.B.1",
+    "VAR-8.C",
+    "VAR-8",
+    "VAR-8.B"
+  ]
+}

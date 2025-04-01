@@ -1,0 +1,46 @@
+{
+  "question_id": "question-167",
+  "title": "Favorite Color",
+  "difficulty": "Easy",
+  "question_text": "\n<div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Color</th><th scope=\"col\">Red</th><th scope=\"col\">Blue</th><th scope=\"col\">Yellow</th><th scope=\"col\">Pink</th><th scope=\"col\">Green</th><th scope=\"col\">Orange</th></tr></thead><tbody><tr><td>Relative Frequency</td><td>13%</td><td>24%</td><td>18%</td><td>21%</td><td>16%</td><td>8%</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>In a large survey, <span class=\"tex2jax_process\">$1$</span>st graders were asked what their favorite color is. The results are in the table above.  </div><div class=\"paragraph\">Suppose that <span class=\"tex2jax_process\">$8$</span> randomly selected students are chosen.  </div><div class=\"paragraph\">What is the probability that <span class=\"tex2jax_process\">$2$</span> students say blue is their favorite color?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.24\n2\n⋅\n0.76\n8"
+    },
+    {
+      "letter": "B",
+      "text": "0.24\n2\n⋅\n0.76\n8\n⋅\n8\n!"
+    },
+    {
+      "letter": "C",
+      "text": "0.24\n2\n⋅\n0.76\n6"
+    },
+    {
+      "letter": "D",
+      "text": "0.24\n2\n⋅\n0.76\n6\n⋅\n(\n8\n!\n2\n!\n)"
+    },
+    {
+      "letter": "E",
+      "text": "0.24\n2\n⋅\n0.76\n6\n⋅\n[\n8\n!\n(\n2\n!\n⋅\n6\n!\n)\n]"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.A.2",
+    "UNC-3.A.1",
+    "3.A",
+    "UNC-3",
+    "UNC-3.A"
+  ],
+  "standards": [
+    "UNC-3.A.2",
+    "UNC-3.A.1",
+    "3.A",
+    "UNC-3",
+    "UNC-3.A"
+  ]
+}

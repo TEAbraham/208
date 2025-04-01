@@ -1,0 +1,44 @@
+{
+  "question_id": "question-147",
+  "title": "Day at The Museum: A Statistical Test",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Jedidiah and Octavius have both visited the American Museum of Natural History in New York City as well as the British Museum in London. They have been wondering if the average number of daily visitors at each museum is equal and decide to investigate. From a random sample of <span class=\"tex2jax_process\">$30\\text{ days}$</span>, they determine that the mean number of daily visitors to the American Museum of Natural History is <span class=\"tex2jax_process\">$16,380$</span> with a sample standard deviation of <span class=\"tex2jax_process\">$1248$</span> while, the mean number of daily visitors to the British Museum is <span class=\"tex2jax_process\">$18,104$</span> with a sample standard deviation of <span class=\"tex2jax_process\">$4296$</span>.  </div><div class=\"paragraph\">Assuming the samples are independent, and that the distribution of the number of daily visitors is approximately normal for both locations, does this data provide evidence that there is a difference in the mean number of daily visitors to these two museums?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "No, since\np\n>\n0.05\n, we do not have sufficient evidence to reject the idea that the mean number of daily visitors to the two museums is equal."
+    },
+    {
+      "letter": "B",
+      "text": "Yes, since the observed mean number of visitors at the British Museum was much higher than the observed number of visitors at the American Museum of Natural History, we must conclude that there is a difference."
+    },
+    {
+      "letter": "C",
+      "text": "Yes, since\np\n=\n0.02\n, our results do provide evidence that there is a difference in the mean number of daily visitors to these two museums."
+    },
+    {
+      "letter": "D",
+      "text": "Yes, since\np\n=\n0.04\n, our results do provide evidence that there is a difference in the mean number of daily visitors to these two museums."
+    },
+    {
+      "letter": "E",
+      "text": "A significance test cannot be performed since not all conditions are satisfied."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-7.I",
+    "VAR-7.I.1",
+    "VAR-7",
+    "3.E"
+  ],
+  "standards": [
+    "VAR-7.I",
+    "VAR-7.I.1",
+    "VAR-7",
+    "3.E"
+  ]
+}

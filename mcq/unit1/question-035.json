@@ -1,0 +1,44 @@
+{
+  "question_id": "question-035",
+  "title": "Musical Instruments: Graphical Representation",
+  "difficulty": "Easy",
+  "question_text": "\n<div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Piano</th><th scope=\"col\">Guitar</th><th scope=\"col\">Violin</th><th scope=\"col\">Flute</th><th scope=\"col\">None</th></tr></thead><tbody><tr><td>Private School</td><td>20</td><td>9</td><td>7</td><td>12</td><td>2</td></tr><tr><td>Public School</td><td>8</td><td>30</td><td>1</td><td>8</td><td>3</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>The data summarized in the two-way chart above reflect the results of asking <span class=\"tex2jax_process\">$50$</span> students in a public school and <span class=\"tex2jax_process\">$50$</span> students in a private school what musical instrument they had learned to play.  </div><div class=\"paragraph\">In cases where students had learned to play more than one instrument, they were instructed to choose the instrument they had played for the longest amount of time.  </div><div class=\"paragraph\">Which kind of graphical representation would best compare this data?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Side-by-side pie charts."
+    },
+    {
+      "letter": "B",
+      "text": "Two histograms."
+    },
+    {
+      "letter": "C",
+      "text": "Side-by-side stemplots."
+    },
+    {
+      "letter": "D",
+      "text": "Side-by-side boxplots."
+    },
+    {
+      "letter": "E",
+      "text": "Any of these charts would adequately compare this data."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.C.3",
+    "2.B",
+    "UNC-1.C",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.C.3",
+    "2.B",
+    "UNC-1.C",
+    "UNC-1"
+  ]
+}

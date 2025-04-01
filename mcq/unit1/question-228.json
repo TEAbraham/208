@@ -1,0 +1,44 @@
+{
+  "question_id": "question-228",
+  "title": "Data Analysis: Exam Grades",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose the grades on a statistics exam range from <span class=\"tex2jax_process\">$65$</span> to <span class=\"tex2jax_process\">$95$</span>. The professor states that approximately <span class=\"tex2jax_process\">$68\\%$</span> of the class got between a <span class=\"tex2jax_process\">$75$</span> and <span class=\"tex2jax_process\">$85$</span>, and <span class=\"tex2jax_process\">$95\\%$</span> of the class got between a <span class=\"tex2jax_process\">$70$</span> and <span class=\"tex2jax_process\">$90$</span>.  </div><div class=\"paragraph\">What type of distribution is this? What is the mean, and what is the standard deviation?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Normal distribution;\nμ\n=\n80\n;\nσ\n=\n5"
+    },
+    {
+      "letter": "B",
+      "text": "Uniform distribution;\nμ\n=\n80\n;\nσ\n=\n30"
+    },
+    {
+      "letter": "C",
+      "text": "Binomial distribution;\nμ\n=\n80\n;\nσ\n=\n5"
+    },
+    {
+      "letter": "D",
+      "text": "Normal distribution;\nμ\n=\n80\n;\nσ\n=\n10"
+    },
+    {
+      "letter": "E",
+      "text": "Binomial distribution;\nμ\n=\n80\n;\nσ\n=\n30"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "3.A",
+    "VAR-2",
+    "VAR-2.A.3",
+    "VAR-2.A"
+  ],
+  "standards": [
+    "3.A",
+    "VAR-2",
+    "VAR-2.A.3",
+    "VAR-2.A"
+  ]
+}

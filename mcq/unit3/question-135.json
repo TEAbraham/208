@@ -1,0 +1,48 @@
+{
+  "question_id": "question-135",
+  "title": "Sleepy After Lunch",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Many office workers experience sleepiness after lunch that slows down their productivity.  A psychologist runs a completely randomized experiment in an attempt to identify the causes of this sleepiness.  <span class=\"tex2jax_process\">$144\\text{ office workers}$</span> are randomly assigned to one of the following groups:</div><blockquote><div class=\"paragraph\">Group A is assigned to a low-calorie lunch and a brightly-lit office.<br>Group B is assigned to a low-calorie lunch and a softly-lit office.<br>Group C is assigned to a high-calorie lunch and a brightly-lit office.<br>Group D is assigned to a high-calorie lunch and a softly-lit office.  </div></blockquote><div class=\"paragraph\">An hour after lunch, all the workers are asked to rate their sleepiness on a scale from <span class=\"tex2jax_process\">$1$</span> to <span class=\"tex2jax_process\">$10$</span>.  </div><div class=\"paragraph\">Which of the following statements is false?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There are four explanatory variables."
+    },
+    {
+      "letter": "B",
+      "text": "The response variable is the level of sleepiness reported by the workers after lunch."
+    },
+    {
+      "letter": "C",
+      "text": "The experimental units are the\n144\n office workers\n."
+    },
+    {
+      "letter": "D",
+      "text": "The type of lunch and the type of office lighting are the explanatory variables."
+    },
+    {
+      "letter": "E",
+      "text": "There are two levels of lunch type and two levels of office lighting."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3.E.1",
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.A",
+    "VAR-3.A.2"
+  ],
+  "standards": [
+    "VAR-3.E.1",
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.A",
+    "VAR-3.A.2"
+  ]
+}

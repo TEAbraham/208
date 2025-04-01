@@ -1,0 +1,49 @@
+{
+  "question_id": "question-003",
+  "title": "Effects of Squats",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">An elite performance trainer is wondering if the amount of weight that a long-jumper can squat can predict the distance jumped. The trainer has had over <span class=\"tex2jax_process\">$1000$</span> clients, so he selects a random sample of <span class=\"tex2jax_process\">$25$</span> long-jumpers and compares the max squat amount to the distance jumped and creates a linear regression model. </div><div class=\"paragraph\">What is the response variable for the trainer's regression model ?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Distance jumped"
+    },
+    {
+      "letter": "B",
+      "text": "Max squat rate"
+    },
+    {
+      "letter": "C",
+      "text": "25\nlong-jumpers"
+    },
+    {
+      "letter": "D",
+      "text": "Slope of the regression line"
+    },
+    {
+      "letter": "E",
+      "text": "Y\n-intercept of the regression line"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer",
+  "solution": "When looking at a regression model, there are <strong>explanatory</strong> and <strong>response</strong> variables. The explanatory variable is the variable that is causing the response, and in this problem would be the max squat weight for the jumpers. The response variable is the variable that is being measured, and in this problem would the predicted long-jump distance. \n\nTherefore, the response variable for the trainer's regression model is distance jumped. \n\n<strong>Choice 'A'</strong> is correct. ",
+  "distractor_explanations": {
+    "B": "<strong>Choice 'B'</strong> is incorrect. The max squat weight would be explanatory variable for the regression model. ",
+    "C": "<strong>Choice 'C'</strong> is incorrect. The number of jumpers selected by the trainer would represent the sample size for the regression model. ",
+    "D": "<strong>Choice 'D'</strong> is incorrect. The slope of the regression model would be the predicted increase/decrease in jumping distance for an increase of <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-26920-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>1</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-148347\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-148348\" class=\"mjx-mrow\"><span id=\"MJXc-Node-148349\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.332em;\">1</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-26920\">1</script></span> unit in the explanatory variable, in this case, the max squat weight. ",
+    "E": "<strong>Choice 'E'</strong> is incorrect. The y-intercept of the regression model would be the predicted distance jumped if the long-jumper had a max squat amount of <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-26921-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>0</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-148350\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-148351\" class=\"mjx-mrow\"><span id=\"MJXc-Node-148352\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">0</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-26921\">0</script></span>."
+  },
+  "tags": [
+    "1.A",
+    "VAR-1.K",
+    "VAR-1.K.1",
+    "VAR-1"
+  ],
+  "standards": [
+    "1.A",
+    "VAR-1.K",
+    "VAR-1.K.1",
+    "VAR-1"
+  ]
+}

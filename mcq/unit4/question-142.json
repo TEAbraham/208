@@ -1,0 +1,46 @@
+{
+  "question_id": "question-142",
+  "title": "Finding the Standard Deviation of $X-Y$",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A random variable <span class=\"tex2jax_process\">$X$</span> has a mean of <span class=\"tex2jax_process\">$40$</span> and standard deviation of <span class=\"tex2jax_process\">$7$</span>.  A random variable <span class=\"tex2jax_process\">$Y$</span> has a mean of <span class=\"tex2jax_process\">$30$</span> and a standard deviation of <span class=\"tex2jax_process\">$5$</span>.  </div><div class=\"paragraph\"> If <span class=\"tex2jax_process\">$X$</span> and <span class=\"tex2jax_process\">$Y$</span> are independent, approximately what is the standard deviation of <span class=\"tex2jax_process\">$X-Y$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "74"
+    },
+    {
+      "letter": "B",
+      "text": "12"
+    },
+    {
+      "letter": "C",
+      "text": "8.6"
+    },
+    {
+      "letter": "D",
+      "text": "6.0"
+    },
+    {
+      "letter": "E",
+      "text": "2"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ],
+  "standards": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-151",
+  "title": "Shoe Distribution",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">The manager of an athletic-shoe store wants to know the size distribution of shoes for one of her most popular models before she puts in the next order. The manager collects size data for both men’s and women’s shoes on the last <span class=\"tex2jax_process\">$50\\text{ pairs}$</span> of this model sold.  </div><div class=\"paragraph\">What is the best type of graphical display the manager could use for her purposes?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Scatterplot, making sure to use different symbols for the men’s and the women’s shoes."
+    },
+    {
+      "letter": "B",
+      "text": "Two separate bar graphs: one for men’s shoes, one for women’s shoes."
+    },
+    {
+      "letter": "C",
+      "text": "A single histogram, using bar width of\n1\n."
+    },
+    {
+      "letter": "D",
+      "text": "Two separate histograms: one for men’s shoes, one for women’s shoes, using bar width of\n1\n."
+    },
+    {
+      "letter": "E",
+      "text": "Two separate dot plots: one for men’s shoes, one for women’s shoes."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.M",
+    "UNC-1.M.1",
+    "2.A",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.M",
+    "UNC-1.M.1",
+    "2.A",
+    "UNC-1"
+  ]
+}

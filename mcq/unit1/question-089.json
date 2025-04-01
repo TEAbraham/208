@@ -1,0 +1,44 @@
+{
+  "question_id": "question-089",
+  "title": "College Prep Test Scores",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Suppose <span class=\"tex2jax_process\">$500$</span> females at a local high school took a college prep test this year. Below is the five-number summary of their scores:</div><ul><li><em>Minimum: <span class=\"tex2jax_process\">$14$</span></em></li><li><em>First quartile: <span class=\"tex2jax_process\">$16$</span></em></li><li><em>Median: <span class=\"tex2jax_process\">$21$</span></em></li><li><em>Third quartile: <span class=\"tex2jax_process\">$28$</span></em></li><li><em>Maximum: <span class=\"tex2jax_process\">$36$</span></em></li></ul><div class=\"paragraph\">Which of the following statements is true?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "About\n250\nfemales at this high school scored greater than\n28\n."
+    },
+    {
+      "letter": "B",
+      "text": "This is a fairly symmetric distribution."
+    },
+    {
+      "letter": "C",
+      "text": "The student who scored\n36\nis obviously an outlier."
+    },
+    {
+      "letter": "D",
+      "text": "Roughly\n125\nfemales scored less than\n16\n."
+    },
+    {
+      "letter": "E",
+      "text": "About\n125\nfemales scored less than\n28\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.I.4",
+    "2.C",
+    "UNC-1.I",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.I.4",
+    "2.C",
+    "UNC-1.I",
+    "UNC-1"
+  ]
+}

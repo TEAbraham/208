@@ -1,0 +1,46 @@
+{
+  "question_id": "question-147",
+  "title": "Swimming Relay | 2 of 3",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">In the <span class=\"tex2jax_process\">$200$</span> meter medley relay, four different swimmers each swim <span class=\"tex2jax_process\">$200$</span> meters using one specific swimming stroke.  The top girl's relay team from Lakeview High School consists of Abby, Bella, Claudia and Danielle.  The following chart shows information about each girl.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Name</th><th scope=\"col\">Stroke</th><th scope=\"col\">Mean Time (in Seconds)</th><th scope=\"col\">Standard Deviation</th></tr></thead><tbody><tr><td>Abby</td><td>Backstroke</td><td>26.74</td><td>1.32</td></tr><tr><td>Bella</td><td>Breaststroke</td><td>30.17</td><td>1.57</td></tr><tr><td>Claudia</td><td>Butterfly</td><td>25.36</td><td>1.12</td></tr><tr><td>Danielle</td><td>Freestyle</td><td>24.97</td><td>1.15</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Assuming the distribution of swim times for each girl is approximately normal and that each girl's time is independent of the others, what is the standard deviation of the total amount of time it takes for all four girls to complete the relay?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "1.29\n seconds"
+    },
+    {
+      "letter": "B",
+      "text": "1.61\n seconds"
+    },
+    {
+      "letter": "C",
+      "text": "2.60\n seconds"
+    },
+    {
+      "letter": "D",
+      "text": "5.16\n seconds"
+    },
+    {
+      "letter": "E",
+      "text": "6.77\n seconds"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ],
+  "standards": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

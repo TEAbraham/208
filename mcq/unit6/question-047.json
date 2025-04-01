@@ -1,0 +1,50 @@
+{
+  "question_id": "question-047",
+  "title": "Save Room for Dessert: Hypotheses",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">BBQ Basement is a restaurant that specializes in barbecue pork. They also serve desserts, but have realized that only <span class=\"tex2jax_process\">$10\\%$</span> of their customers order dessert. The manager wonders if they can increase their sales of desserts by showing each table a dessert tray before they place their order.  </div><div class=\"paragraph\">The manager decides to do an experiment. For three weeks, he will have his servers bring around a dessert tray to display to each table when they are seated. The server will suggest that the customers at the table “save room for dessert” and the manager will keep track of the proportion of customers who do order dessert during this period of time.  </div><div class=\"paragraph\">In order to determine whether his tactic will help to increase dessert sales, the manager plans to do a significance test. What hypotheses should be used?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "H\n0\n:\n^\np\n=\n0.10\n\nH\na\n:\n^\np\n≠\n0.10"
+    },
+    {
+      "letter": "B",
+      "text": "H\n0\n:\n^\np\n=\n0.10\n\nH\na\n:\n^\np\n>\n0.10"
+    },
+    {
+      "letter": "C",
+      "text": "H\n0\n:\np\n=\n0.10\n\nH\na\n:\np\n>\n0.10"
+    },
+    {
+      "letter": "D",
+      "text": "H\n0\n:\nμ\n=\n0.10\n\nH\na\n:\nμ\n>\n0.10"
+    },
+    {
+      "letter": "E",
+      "text": "H\n0\n:\nμ\n=\n10\n\nH\na\n:\nμ\n>\n10"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "1.F",
+    "VAR-6.D.4",
+    "VAR-6.D.1",
+    "VAR-6.D.3",
+    "VAR-6.D",
+    "VAR-6",
+    "VAR-6.D.2"
+  ],
+  "standards": [
+    "1.F",
+    "VAR-6.D.4",
+    "VAR-6.D.1",
+    "VAR-6.D.3",
+    "VAR-6.D",
+    "VAR-6",
+    "VAR-6.D.2"
+  ]
+}

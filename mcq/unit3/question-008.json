@@ -1,0 +1,49 @@
+{
+  "question_id": "question-008",
+  "title": "College Exam",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A teaching assistant is in charge of grading the exams given in their college class. The professor wants a general idea of how the students are doing in his course so he asks the assistant to give him a small sample of the scores while grading. The assistant selects the first <span class=\"tex2jax_process\">$10$</span> exams from the pile (organized by who turned in the exam first) and grades them and sends the average to the professor. </div><div class=\"paragraph\">Will the sample the assistant provided give the professor the best idea of how his students are doing?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes, because it's a sample of\n10\nscores."
+    },
+    {
+      "letter": "B",
+      "text": "Yes, because the sample is from the students in his class."
+    },
+    {
+      "letter": "C",
+      "text": "Yes, because the assistant found the average score."
+    },
+    {
+      "letter": "D",
+      "text": "No, because\n10\nis not enough students."
+    },
+    {
+      "letter": "E",
+      "text": "No, because students who turned in the test first might have different scores than those who turned in the exam later."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer. ",
+  "solution": "The professor has asked the teaching assistant to collect <strong>data</strong> to create a sample of scores to show how the students are learning. The teaching assistant selects a sample of <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7113-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>10</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-33418\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-33419\" class=\"mjx-mrow\"><span id=\"MJXc-Node-33420\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">10</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7113\">10</script></span> students, but selects the first <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7114-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>10</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-33421\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-33422\" class=\"mjx-mrow\"><span id=\"MJXc-Node-33423\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">10</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7114\">10</script></span> tests that are turned in. \n\nThe issue lies that the test are not selected using a <strong>chance process</strong>. In fact, we know that data collected by not using a chance process is untrustworthy. Therefore, the data the professor received from the assistant is not to be trusted as it was not selected using a chance process. \n\n<strong>Choice 'E'</strong> is correct. ",
+  "distractor_explanations": {
+    "A": "<strong>Choice 'A'</strong> is incorrect. Although <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7115-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>10</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-33424\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-33425\" class=\"mjx-mrow\"><span id=\"MJXc-Node-33426\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">10</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7115\">10</script></span> could be an acceptable sample size, it was not selected with a chance process. ",
+    "B": "<strong>Choice 'B'</strong> is incorrect. The assistant's sample does in fact come from the students in the class, but as noted above, it is untrustworthy because it was not selected with a chance process. ",
+    "C": "<strong>Choice 'C'</strong> is incorrect. The assistant's average will more than likely be different from the class average because the people who turn the test in first will more than likely be different than those who turned it in later. ",
+    "D": "<strong>Choice 'D'</strong> is incorrect. <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-7116-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>10</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-33427\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-33428\" class=\"mjx-mrow\"><span id=\"MJXc-Node-33429\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">10</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-7116\">10</script></span> could a large enough sample if the sample is selected with a chance process."
+  },
+  "tags": [
+    "VAR-1.E",
+    "1.A",
+    "VAR-1",
+    "VAR-1.E.1"
+  ],
+  "standards": [
+    "VAR-1.E",
+    "1.A",
+    "VAR-1",
+    "VAR-1.E.1"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-115",
+  "title": "Oak Forest",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The proportion of red oak trees on the west-facing slope of a <span class=\"tex2jax_process\">$200$</span> acre forest is known to be  <span class=\"tex2jax_process\">$p_w=0.82$</span>.  The east-facing slope has known proportion of <span class=\"tex2jax_process\">$p_e=0.73$</span>.  The numbers of trees per acre in this densely packed forest is <span class=\"tex2jax_process\">$550$</span>.  A research team tags a random sample of <span class=\"tex2jax_process\">$56$</span> trees from the west-facing slope and an additional random sample of <span class=\"tex2jax_process\">$40$</span> trees from the east-facing slope. </div><div class=\"paragraph\">What is the probability that the difference between the proportion of red oaks in the west and east samples, <span class=\"tex2jax_process\">$\\hat{p}_w-\\hat{p}_e$</span>, is  more than <span class=\"tex2jax_process\">$25\\%$</span>?</div>",
+  "image_files": [
+    "images/question-115-img1.jpeg"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "P\n(\n^\np\nw\n−\n^\np\ne\n>\n0.25\n)\n≈\n0.0004"
+    },
+    {
+      "letter": "B",
+      "text": "P\n(\n^\np\nw\n−\n^\np\ne\n>\n0.25\n)\n≈\n0.0038"
+    },
+    {
+      "letter": "C",
+      "text": "P\n(\n^\np\nw\n−\n^\np\ne\n>\n0.25\n)\n≈\n0.0329"
+    },
+    {
+      "letter": "D",
+      "text": "P\n(\n^\np\nw\n−\n^\np\ne\n>\n0.25\n)\n≈\n0"
+    },
+    {
+      "letter": "E",
+      "text": "The answer cannot be computed because the population distribution of the difference between the proportion of west and east facing slope red oaks is unknown."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-3.P.1",
+    "UNC-3",
+    "UNC-3.P"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-3.P.1",
+    "UNC-3",
+    "UNC-3.P"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-145",
+  "title": "Say Cheese!",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A company producing packages of cheese needs to make sure that it sells cheese that is fresh.  To check the freshness of the cheese, <span class=\"tex2jax_process\">$50$</span> packages are selected randomly at a time, and the proportion of spoiled packages is assessed.  Generally <span class=\"tex2jax_process\">$2\\%$</span> of the packages are spoiled, but it is hoped this percentage can be shown to have decreased.  The packages will be tested at a <span class=\"tex2jax_process\">$5\\%$</span> significance level.  Which of the following could <em>increase</em> the probability of a Type II Error?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The value of the power of the test is increased."
+    },
+    {
+      "letter": "B",
+      "text": "The sample size of the tested packages is increased to 75."
+    },
+    {
+      "letter": "C",
+      "text": "The significance level of the test is lowered to\n1\n%\n."
+    },
+    {
+      "letter": "D",
+      "text": "The standard error of the test is decreased to\n0.04\n."
+    },
+    {
+      "letter": "E",
+      "text": "It is shown that the true parameter is farther away from the current value of\n0.02."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-5.C.1",
+    "UNC-5",
+    "UNC-5.C",
+    "4.A"
+  ],
+  "standards": [
+    "UNC-5.C.1",
+    "UNC-5",
+    "UNC-5.C",
+    "4.A"
+  ]
+}

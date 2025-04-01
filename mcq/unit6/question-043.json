@@ -1,0 +1,44 @@
+{
+  "question_id": "question-043",
+  "title": "Job Satisfaction Survey - Confidence Interval",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Suppose <span class=\"tex2jax_process\">$500\\text{ randomly selected employees}$</span> were asked if they are satisfied with their current job.  </div><div class=\"paragraph\">Of those surveyed, <span class=\"tex2jax_process\">$261\\text{ employees}$</span> responded that they were satisfied with their current job.  </div><div class=\"paragraph\">What conclusions can we gather from a <span class=\"tex2jax_process\">$90\\%$</span> confidence interval constructed from this data?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "This interval gives us strong evidence that more than\n50\n%\nof people are happy with their job."
+    },
+    {
+      "letter": "B",
+      "text": "We are\n90\n%\nconfident that between about\n47.8\n%\nand\n56.6\n%\nof all employed people are satisfied with their current job."
+    },
+    {
+      "letter": "C",
+      "text": "We are\n90\n%\nconfident that between about\n47.8\n%\nand\n56.6\n%\nof people sampled in this survey are satisfied with their current job."
+    },
+    {
+      "letter": "D",
+      "text": "We are\n90\n%\nconfident that between about\n48.5\n%\nand\n55.9\n%\nof all employed people are satisfied with their current job."
+    },
+    {
+      "letter": "E",
+      "text": "We are\n90\n%\nconfident more individuals are happy with their current job than dissatisfied with their current job."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-6.E.1",
+    "VAR-6.E",
+    "1.E",
+    "VAR-6"
+  ],
+  "standards": [
+    "VAR-6.E.1",
+    "VAR-6.E",
+    "1.E",
+    "VAR-6"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-192",
+  "title": "Shipment of Lightbulbs",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">After a large shipment of lightbulbs goes out, the manufacturer estimates that about <span class=\"tex2jax_process\">$1\\%$</span> are defective.  </div><div class=\"paragraph\">What is the probability that in a package of <span class=\"tex2jax_process\">$10\\text{ lightbulbs}$</span>, at most <span class=\"tex2jax_process\">$1\\text{ lightbulb}$</span> is defective?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "About\n0.90438\n."
+    },
+    {
+      "letter": "B",
+      "text": "About\n0.99573\n."
+    },
+    {
+      "letter": "C",
+      "text": "About\n0.00427\n."
+    },
+    {
+      "letter": "D",
+      "text": "About\n0\n."
+    },
+    {
+      "letter": "E",
+      "text": "About\n0.91352\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.C.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.C"
+  ],
+  "standards": [
+    "UNC-3.C.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.C"
+  ]
+}

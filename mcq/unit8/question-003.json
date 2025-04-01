@@ -1,0 +1,44 @@
+{
+  "question_id": "question-003",
+  "title": "Which is Random?",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Lots of things happen to us in daily life which may or may not be random.  Of the following <span class=\"tex2jax_process\">$5$</span> situations, which would you say <em>is</em> a random event?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The price of your groceries at the checkout."
+    },
+    {
+      "letter": "B",
+      "text": "The television show on ABC tonight at\n9\npm."
+    },
+    {
+      "letter": "C",
+      "text": "Whether the street light at the next intersection will turn green."
+    },
+    {
+      "letter": "D",
+      "text": "Whether a baseball player gets a hit in the game tonight."
+    },
+    {
+      "letter": "E",
+      "text": "A baseball player's batting average."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-1.J",
+    "VAR-1.J.1",
+    "1.A",
+    "VAR-1"
+  ],
+  "standards": [
+    "VAR-1.J",
+    "VAR-1.J.1",
+    "1.A",
+    "VAR-1"
+  ]
+}

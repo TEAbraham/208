@@ -1,0 +1,50 @@
+{
+  "question_id": "question-246",
+  "title": "Womens' Heights: Z-score Equation When Given the Percentile",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Women's heights are approximately normally distributed with a mean of <span class=\"tex2jax_process\">$63.6\\text{ inches}$</span> and a standard deviation of <span class=\"tex2jax_process\">$2.5\\text{ inches}$</span>.  </div><div class=\"paragraph\">Which of the following equations can be used to find the height <span class=\"tex2jax_process\">$x$</span> in which <span class=\"tex2jax_process\">$18\\%$</span> of the heights fall above?</div>",
+  "image_files": [
+    "images/question-246-img1.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "−\n0.92\n=\n63.6\n−\nx\n2.5"
+    },
+    {
+      "letter": "B",
+      "text": "−\n0.92\n=\nx\n−\n63.6\n2.5"
+    },
+    {
+      "letter": "C",
+      "text": "0.18\n=\nx\n−\n63.6\n2.5"
+    },
+    {
+      "letter": "D",
+      "text": "0.92\n=\n63.6\n−\nx\n2.5"
+    },
+    {
+      "letter": "E",
+      "text": "0.92\n=\nx\n−\n63.6\n2.5"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2",
+    "VAR-2.B.3"
+  ],
+  "standards": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2",
+    "VAR-2.B.3"
+  ]
+}

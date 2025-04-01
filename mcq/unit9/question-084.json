@@ -1,0 +1,44 @@
+{
+  "question_id": "question-084",
+  "title": "Bearing Fruit",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Apple tree saplings can produce fruit in as little as <span class=\"tex2jax_process\">$4$</span> years.  Jeff, a novice farmer, believes that picking fruit in the spring before it has time to develop during years <span class=\"tex2jax_process\">$4$</span> through <span class=\"tex2jax_process\">$7$</span> can increase the yield in years <span class=\"tex2jax_process\">$8$</span> through <span class=\"tex2jax_process\">$11$</span> significantly.  By pruning the apples from saplings, more energy is devoted to trunk and branch development, thus creating a stronger more capable fruit bearer.</div><div class=\"paragraph\">Jeff collected data from an experiment in which <span class=\"tex2jax_process\">$10$</span> groups of <span class=\"tex2jax_process\">$10$</span> trees, selected at random had <span class=\"tex2jax_process\">$10\\%$</span>, <span class=\"tex2jax_process\">$20\\%$</span>, <span class=\"tex2jax_process\">$30\\%$</span>, ... <span class=\"tex2jax_process\">$100\\%$</span> of the apples pruned from the trees in the spring during years <span class=\"tex2jax_process\">$4$</span> through <span class=\"tex2jax_process\">$7$</span>.  The treatment groups were then plotted against natural yield in years <span class=\"tex2jax_process\">$8$</span> through <span class=\"tex2jax_process\">$11$</span>.</div><div class=\"paragraph\">Assuming the conditions for regression inference are met, what are the null and alternative hypotheses that Jeff should use to assess his belief?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "H\n0\n: There is no relationship between the percentage of fruit pruned in years\n4\nthrough\n7\nand the natural yield of apples in years\n8\nthrough\n11\n. H\nA\n: There is a positive linear relationship between the percentage of fruit pruned in years\n4\nthrough\n7\nand the natural yield of apples in years\n8\nthrough\n11\n."
+    },
+    {
+      "letter": "B",
+      "text": "H\n0\n: There is a positive linear relationship between the percentage of fruit pruned in years\n4\nthrough\n7\nand the natural yield of apples in years\n8\nthrough\n11\n. H\nA\n: There is no linear relationship between the percentage of fruit pruned in years\n4\nthrough\n7\nand the natural yield of apples in years\n8\nthrough\n11\n."
+    },
+    {
+      "letter": "C",
+      "text": "H\n0\n: There is no relationship between the percentage of fruit that Jeff pruned in years\n4\nthrough\n7\nand the natural yield of Jeff's apples in years\n8\nthrough\n11 H\nA\n: There is a positive linear relationship between the percentage of fruit that Jeff pruned in years\n4\nthrough\n7\nand the natural yield of Jeff's apples in years\n8\nthrough\n11"
+    },
+    {
+      "letter": "D",
+      "text": "H\n0\n: There is a positive linear relationship between the percentage of fruit that Jeff pruned in years\n4\nthrough\n7\nand the natural yield of Jeff's apples in years\n8\nthrough\n11\n. H\nA\n: There is no linear relationship between the percentage of fruit that Jeff pruned in years\n4\nthrough\n7\nand the natural yield of Jeff's apples in years\n8\nthrough\n11\n."
+    },
+    {
+      "letter": "E",
+      "text": "H\n0\n: The average amount of natural yield of fruit in years\n8\nthrough\n11\nis the same as in years\n4\nthrough\n7\n. H\nA\n: The average amount of natural yield of fruit in years\n8\nthrough\n11\nis greater than in years\n4\nthrough\n7\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "1.F",
+    "VAR-7.K",
+    "VAR-7",
+    "VAR-7.K.1"
+  ],
+  "standards": [
+    "1.F",
+    "VAR-7.K",
+    "VAR-7",
+    "VAR-7.K.1"
+  ]
+}

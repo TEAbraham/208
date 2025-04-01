@@ -1,0 +1,44 @@
+{
+  "question_id": "question-022",
+  "title": "Projected 2022 Employment by Industry Sector",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">The Bureau of Labor Statistics publishes information on the distribution of employment by major industry sector. In December 2013, they also published their predictions for the year 2022. These predictions are shown in the table below.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Industry Sector</th><th scope=\"col\">Percent Distribution</th></tr></thead><tbody><tr><td>Services-providing</td><td>80.9</td></tr><tr><td>Goods-producing, excluding agriculture</td><td>12.1</td></tr><tr><td>Non-agriculture self-employed and unpaid family worker</td><td>5.8</td></tr><tr><td>Agriculture, forestry, fishing, and hunting</td><td>1.2</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>A researcher wants to investigate whether these predictions may already be true and has decided to do a study.  </div><div class=\"paragraph\">Assuming the appropriate conditions for inference have been met, what type of test and how many degrees of freedom should be used in analyzing the results?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "χ\n2\nGoodness of Fit Test with\nd\nf\n=\n2"
+    },
+    {
+      "letter": "B",
+      "text": "χ\n2\nGoodness of Fit Test with\nd\nf\n=\n3"
+    },
+    {
+      "letter": "C",
+      "text": "χ\n2\nGoodness of Fit Test with\nd\nf\n=\n4"
+    },
+    {
+      "letter": "D",
+      "text": "A one-sample\nz\n-test for proportions with\nd\nf\n=\n3"
+    },
+    {
+      "letter": "E",
+      "text": "A one-sample\nz\n-test for proportions should be used. However, there is no need to use degrees of freedom with a\nz\n-test."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.G.1",
+    "VAR-8.G",
+    "3.E",
+    "VAR-8"
+  ],
+  "standards": [
+    "VAR-8.G.1",
+    "VAR-8.G",
+    "3.E",
+    "VAR-8"
+  ]
+}

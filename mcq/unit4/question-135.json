@@ -1,0 +1,44 @@
+{
+  "question_id": "question-135",
+  "title": "Linear Transformation of Variables",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">The random variable <span class=\"tex2jax_process\">$X$</span> is skewed left with a median of <span class=\"tex2jax_process\">$10$</span> and IQR of <span class=\"tex2jax_process\">$40$</span>.  The random variable <span class=\"tex2jax_process\">$Y$</span> is defined by <span class=\"tex2jax_process\">$Y=3X-7$</span>.  What are the median and IQR of <span class=\"tex2jax_process\">$Y$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The median is\n23\nand the IQR is\n33\n."
+    },
+    {
+      "letter": "B",
+      "text": "The median is\n23\nand the IQR is\n113\n."
+    },
+    {
+      "letter": "C",
+      "text": "The median is\n23\nand the IQR is\n120\n."
+    },
+    {
+      "letter": "D",
+      "text": "The median is\n30\nand the IQR is\n113\n."
+    },
+    {
+      "letter": "E",
+      "text": "The median is\n30\nand the IQR is\n120\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice ‘C’</strong> is our answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.F.1",
+    "VAR-5.F",
+    "VAR-5",
+    "3.C"
+  ],
+  "standards": [
+    "VAR-5.F.1",
+    "VAR-5.F",
+    "VAR-5",
+    "3.C"
+  ]
+}

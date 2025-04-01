@@ -1,0 +1,46 @@
+{
+  "question_id": "question-029",
+  "title": "Sports Drinks: Expected Count",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose a random survey was taken in a large urban high school to determine if vending machine location affects whether sports drinks are more likely to be ordered.  </div><div class=\"paragraph\">A large single sample of size n = <span class=\"tex2jax_process\">$500$</span> was taken over the last week. In the cafeteria, <span class=\"tex2jax_process\">$78$</span> of the <span class=\"tex2jax_process\">$165$</span> drinks purchased were sports drinks. In the gym, <span class=\"tex2jax_process\">$98$</span> of the <span class=\"tex2jax_process\">$157$</span> drinks purchased were sports drinks, and in the auditorium, <span class=\"tex2jax_process\">$54$</span> of the <span class=\"tex2jax_process\">$178$</span> drinks purchased were sports drinks.  </div><div class=\"paragraph\">The expected number of people who did NOT order sports drinks in the gym is?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "84.78"
+    },
+    {
+      "letter": "B",
+      "text": "98"
+    },
+    {
+      "letter": "C",
+      "text": "84"
+    },
+    {
+      "letter": "D",
+      "text": "78.23"
+    },
+    {
+      "letter": "E",
+      "text": "81.34"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.F",
+    "3.E",
+    "VAR-8",
+    "VAR-8.F.2",
+    "VAR-8.F.1"
+  ],
+  "standards": [
+    "VAR-8.F",
+    "3.E",
+    "VAR-8",
+    "VAR-8.F.2",
+    "VAR-8.F.1"
+  ]
+}

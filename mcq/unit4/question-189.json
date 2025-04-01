@@ -1,0 +1,44 @@
+{
+  "question_id": "question-189",
+  "title": "Binomial Distribution: Manipulate that Binomial Standard Style",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A random variable <span class=\"tex2jax_process\">$X$</span> has the probability:    </div><div class=\"paragraph\"><div class=\"tex2jax_process\">$$\\begin{pmatrix} 20 \\\\ k \\end{pmatrix}(0.44)^{k}(0.56)^{20-k}$$</div>  </div><div class=\"paragraph\">...associated with the value <span class=\"tex2jax_process\">$k$</span> is  for <span class=\"tex2jax_process\">$k= 0,1,2,3,…,20$</span>.  </div><div class=\"paragraph\">What is the standard deviation of <span class=\"tex2jax_process\">$X$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.25"
+    },
+    {
+      "letter": "B",
+      "text": "2.22"
+    },
+    {
+      "letter": "C",
+      "text": "4.93"
+    },
+    {
+      "letter": "D",
+      "text": "8.80"
+    },
+    {
+      "letter": "E",
+      "text": "11.20"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.C.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.C"
+  ],
+  "standards": [
+    "UNC-3.C.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.C"
+  ]
+}

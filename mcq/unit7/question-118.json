@@ -1,0 +1,44 @@
+{
+  "question_id": "question-118",
+  "title": "Null and Alternative Hypotheses",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A high school athletic director was interested whether high school males are more likely to compete in sports than high school females are.  </div><div class=\"paragraph\">He randomly sampled <span class=\"tex2jax_process\">$200$</span> high school males across the country and found that <span class=\"tex2jax_process\">$82$</span> of them participated in at least one high school sport at some point during the year. This compares to <span class=\"tex2jax_process\">$68$</span> out of <span class=\"tex2jax_process\">$200$</span> randomly sampled high school females who participated in at least one sport during the year.  </div><div class=\"paragraph\">Suppose you define <span class=\"tex2jax_process\">$p_{1}$</span> as the proportion of high school males who participated in at least one sport over the last year and <span class=\"tex2jax_process\">$p_{2}$</span> as the proportion of high school females who competed in at least one sport in the last year.  </div><div class=\"paragraph\">What would be the appropriate null and alternative hypotheses?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "H\n0\n:\np\n1\n=\n0.41\n,\np\n2\n=\n0.34 H\na\n:\np\n1\n>\n0.41\n,\np\n2\n=\n0.34"
+    },
+    {
+      "letter": "B",
+      "text": "H\n0\n:\np\n1\n=\np\n2 H\na\n:\np\n1\n≠\np\n2"
+    },
+    {
+      "letter": "C",
+      "text": "H\n0\n:\np\n1\n=\np\n2 H\na\n:\np\n1\n>\np\n2"
+    },
+    {
+      "letter": "D",
+      "text": "H\n0\n:\np\n1\n=\n0.82\n,\np\n2\n=\n0.68 H\na\n:\np\n1\n>\n0.82\n,\np\n2\n=\n0.68"
+    },
+    {
+      "letter": "E",
+      "text": "H\n0\n:\np\n1\n=\n0.41\n,\np\n2\n=\n0.34 H\na\n:\np\n1\n≠\n0.41\n,\np\n2\n≠\n0.34"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "1.F",
+    "VAR-7.G.1",
+    "VAR-7",
+    "VAR-7.G"
+  ],
+  "standards": [
+    "1.F",
+    "VAR-7.G.1",
+    "VAR-7",
+    "VAR-7.G"
+  ]
+}

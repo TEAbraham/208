@@ -1,0 +1,44 @@
+{
+  "question_id": "question-021",
+  "title": "Hypotheses Related to Reasons for Hospitalization",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A hospital administrator found a report from <span class=\"tex2jax_process\">$2003$</span>, which showed the distribution of reasons why individuals were admitted to a hospital after coming to the emergency room.  The distribution is shown below and does not include admissions related to pregnancy and childbirth.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Reason</th><th scope=\"col\">Percent</th></tr></thead><tbody><tr><td>Circulatory Disorders</td><td>26.5</td></tr><tr><td>Respiratory Disorders</td><td>15.3</td></tr><tr><td>Digestive Disorders</td><td>14.2</td></tr><tr><td>Injuries</td><td>11.7</td></tr><tr><td>Mental Health and Substance Abuse Disorders</td><td>5.9</td></tr><tr><td>Endocrine Disorders</td><td>4.8</td></tr><tr><td>Genitourinary Disorders</td><td>4.5</td></tr><tr><td>All Other Disorders</td><td>17.1</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>After collecting data from a random sample of admissions during the current year, the administrator completed a test to determine if the percentages for each category have changed since <span class=\"tex2jax_process\">$2003$</span>.  </div><div class=\"paragraph\">Which of the following provides a correct set of hypotheses?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "H\n0\n: The expected counts for each category of hospital admissions in the current year are equal to the corresponding expected counts from\n2003\n. H\na\n: The expected counts for each category of hospital admissions in the current year are all different from the corresponding expected counts from\n2003\n."
+    },
+    {
+      "letter": "B",
+      "text": "H\n0\n: In the selected sample, the percentages for each category of hospital admissions are the same as in\n2003\n. H\na\n: For at least one category of hospital admissions, the sample percentage is different from what it was in\n2003\n."
+    },
+    {
+      "letter": "C",
+      "text": "H\n0\n: The percentages for each category of hospital admissions in the current year are equal to the corresponding percentages from\n2003\n. H\na\n: For at least one category of hospital admissions, the percentage in the current year is different from the corresponding percentage from\n2003\n."
+    },
+    {
+      "letter": "D",
+      "text": "H\n0\n: The percentages for each category of hospital admissions in the current year are equal to the corresponding percentages from\n2003\n. H\na\n: The percentages for each category of hospital admissions in the current year are all different from the corresponding percentages from\n2003\n."
+    },
+    {
+      "letter": "E",
+      "text": "H\n0\n: The reasons for hospital admission are independent of the year in which the hospital admissions were made. H\na\n: For reasons for hospital admission are not independent of the year in which the hospital admissions were made."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "1.F",
+    "VAR-8.B.1",
+    "VAR-8",
+    "VAR-8.B"
+  ],
+  "standards": [
+    "1.F",
+    "VAR-8.B.1",
+    "VAR-8",
+    "VAR-8.B"
+  ]
+}

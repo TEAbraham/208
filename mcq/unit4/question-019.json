@@ -1,0 +1,44 @@
+{
+  "question_id": "question-019",
+  "title": "Simulating the Game of Craps",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">The game of Craps is a casino game in which a player rolls a pair of <span class=\"tex2jax_process\">$6$</span>-sided dice. On the first roll of the dice, if the sum is <span class=\"tex2jax_process\">$7$</span> or <span class=\"tex2jax_process\">$11$</span>, it is called a “natural” and the player wins. Sierra wants to try the game but wonders what the probability of a “natural” is.  </div><div class=\"paragraph\">Unfortunately, she is really bad at probability so she programs her computer to simulate <span class=\"tex2jax_process\">$10,000$</span> tosses of a pair of dice and use the results to calculate the probability of a “natural”.  </div><div class=\"paragraph\">Which of the following would Sierra most likely conclude as a result of this simulation? Why? </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Sierra will conclude that the probability of a “natural” is\n0.001\n. Although the true probability is\n0.03\n,\n10\n,\n000\n simulations\nis not a sufficiently large number to predict the true probability with any degree of accuracy."
+    },
+    {
+      "letter": "B",
+      "text": "Sierra will conclude that the probability of a “natural” is\n0.04\n. The true probability is\n0.06\nbut\n10\n,\n000\n simulations\nis not a sufficiently large number to predict the true probability with reasonable accuracy."
+    },
+    {
+      "letter": "C",
+      "text": "Sierra will conclude that the probability of a “natural” is\n0.080\nbecause\n10\n,\n000\n simulations\nis a sufficiently large number to predict the true probability with reasonable accuracy and the true probability is\n0.083\n."
+    },
+    {
+      "letter": "D",
+      "text": "Sierra will conclude that the probability of a “natural” is\n0.113\nbecause\n10\n,\n000\n simulations\nis a sufficiently large number to predict the true probability with reasonable accuracy and the true probability is\n0.111\n."
+    },
+    {
+      "letter": "E",
+      "text": "Sierra will conclude that the probability of a “natural” is\n0.221\nbecause\n10\n,\n000\n simulations\nis a sufficiently large number to predict the true probability with reasonable accuracy and the true probability is\n0.222\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-2.A.4",
+    "3.A",
+    "UNC-2.A",
+    "UNC-2"
+  ],
+  "standards": [
+    "UNC-2.A.4",
+    "3.A",
+    "UNC-2.A",
+    "UNC-2"
+  ]
+}

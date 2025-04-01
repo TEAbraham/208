@@ -1,0 +1,44 @@
+{
+  "question_id": "question-225",
+  "title": "Average Adult Male Height: Normal Distribution Calculations",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">According to the CDC (Centers for Disease Control and Prevention), the average height for a male age 20 and older is <span class=\"tex2jax_process\">$69.3\\text{ inches}$</span>.  </div><div class=\"paragraph\">Assuming these heights are normally distributed, what proportion of men in this age range have a height that puts them somewhere between <span class=\"tex2jax_process\">$1.2$</span> standard deviations below the mean and <span class=\"tex2jax_process\">$1.8$</span> standard deviations above the mean?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.151"
+    },
+    {
+      "letter": "B",
+      "text": "0.815"
+    },
+    {
+      "letter": "C",
+      "text": "0.849"
+    },
+    {
+      "letter": "D",
+      "text": "0.964"
+    },
+    {
+      "letter": "E",
+      "text": "0.997"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2"
+  ],
+  "standards": [
+    "VAR-2.B",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2"
+  ]
+}

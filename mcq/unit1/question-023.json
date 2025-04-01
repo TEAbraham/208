@@ -1,0 +1,55 @@
+{
+  "question_id": "question-023",
+  "title": "Farmer's Market",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">The director of a local farmers market is interested in classifying the vendors by the products that they sell. The table below shows vendors classified. </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Type</th><th scope=\"col\">Count</th></tr></thead><tbody><tr><td>Produce</td><td><span class=\"tex2jax_process\">$26$</span></td></tr><tr><td>Food Truck</td><td><span class=\"tex2jax_process\">$16$</span></td></tr><tr><td>Apparel</td><td><span class=\"tex2jax_process\">$7$</span></td></tr><tr><td>Crafts</td><td><span class=\"tex2jax_process\">$6$</span></td></tr></tbody></table></div><div class=\"paragraph\">Which of the following is true?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There are more craft and apparel combined than food truck."
+    },
+    {
+      "letter": "B",
+      "text": "The least amount of vendors sell apparel."
+    },
+    {
+      "letter": "C",
+      "text": "Food trucks represent the most vendors."
+    },
+    {
+      "letter": "D",
+      "text": "The type of each vendor is a categorical variable."
+    },
+    {
+      "letter": "E",
+      "text": "Produce vendors make up over\n50\n%\nof the vendors."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "The table above is considered a <strong>frequency table</strong> since it gives the number of cases falling into each category. The table summarizes the type of product that each vendor sells.  \n\nThe director is putting the vendors into groups, or categories, that best represent them. Since the values take on a count, as shown in the table, the variables are considered to be <strong>categorical</strong>. \n\n<strong>Choice 'D'</strong> is correct. ",
+  "distractor_explanations": {
+    "A": "<strong>Choice 'A'</strong> is incorrect. Food truck vendors account for <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-213-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>16</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-924\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-925\" class=\"mjx-mrow\"><span id=\"MJXc-Node-926\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">16</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-213\">16</script></span> vendors, whereas apparel and crafts only account for <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-214-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>13</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-927\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-928\" class=\"mjx-mrow\"><span id=\"MJXc-Node-929\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">13</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-214\">13</script></span> vendors. ",
+    "B": "<strong>Choice 'B'</strong> is incorrect. The group with the least amount of vendors is crafts with <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-215-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>6</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-930\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-931\" class=\"mjx-mrow\"><span id=\"MJXc-Node-932\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">6</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-215\">6</script></span>. ",
+    "C": "<strong>Choice 'C'</strong> is incorrect. Food trucks account for the second most vendors. Produce has the most vendors at the Farmers Market. ",
+    "E": "<strong>Choice 'E'</strong> is incorrect.  There are a total of <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-216-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>55</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-933\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-934\" class=\"mjx-mrow\"><span id=\"MJXc-Node-935\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">55</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>55</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-216\">55</script></span> vendors, and produce only has <span class=\"tex2jax_process\"><span class=\"MathJax_Preview\" style=\"color: inherit;\"></span><span id=\"MathJax-Element-217-Frame\" class=\"mjx-chtml MathJax_CHTML\" tabindex=\"0\" data-mathml=\"<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><mn>26</mn></math>\" role=\"presentation\" style=\"font-size: 114%; position: relative;\"><span id=\"MJXc-Node-936\" class=\"mjx-math\" aria-hidden=\"true\"><span id=\"MJXc-Node-937\" class=\"mjx-mrow\"><span id=\"MJXc-Node-938\" class=\"mjx-mn\"><span class=\"mjx-char MJXc-TeX-main-R\" style=\"padding-top: 0.387em; padding-bottom: 0.387em;\">26</span></span></span></span><span class=\"MJX_Assistive_MathML\" role=\"presentation\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>26</mn></math></span></span><script type=\"math/tex\" id=\"MathJax-Element-217\">26</script></span> vendors, it does not account for more than half of the vendors."
+  },
+  "tags": [
+    "UNC-1.A.1",
+    "UNC-1.B.2",
+    "UNC-1.A",
+    "UNC-1.B.1",
+    "2.B",
+    "UNC-1.B",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.A.1",
+    "UNC-1.B.2",
+    "UNC-1.A",
+    "UNC-1.B.1",
+    "2.B",
+    "UNC-1.B",
+    "UNC-1"
+  ]
+}

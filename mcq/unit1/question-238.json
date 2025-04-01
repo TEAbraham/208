@@ -1,0 +1,51 @@
+{
+  "question_id": "question-238",
+  "title": "Normal Distribution: Tony's Height",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Tony is <span class=\"tex2jax_process\">$6' 1''$</span> tall and is wondering about how his height relates to other boys in his school.  The heights of boys in his school are approximately normally distributed with a mean of <span class=\"tex2jax_process\">$5'9''$</span> and a standard deviation of <span class=\"tex2jax_process\">$2.8''$</span>.  </div><div class=\"paragraph\">What is the percentile rank of Tony's height compared to boys in his school?</div>",
+  "image_files": [
+    "images/question-238-img1.PNG",
+    "images/question-238-img2.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.08"
+    },
+    {
+      "letter": "B",
+      "text": "0.24"
+    },
+    {
+      "letter": "C",
+      "text": "0.53"
+    },
+    {
+      "letter": "D",
+      "text": "0.76"
+    },
+    {
+      "letter": "E",
+      "text": "0.92"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.C.1",
+    "2.D",
+    "VAR-2.C",
+    "VAR-2"
+  ],
+  "standards": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.C.1",
+    "2.D",
+    "VAR-2.C",
+    "VAR-2"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-116",
+  "title": "Big Leagues",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Mr. Skonte and Mr. Thurban volunteer as umpires for their local youth baseball programs.  Mr. Skonte calls strikes correctly <span class=\"tex2jax_process\">$95.1\\%$</span> of the time (<span class=\"tex2jax_process\">$\\hat{p}_S=0.951$</span>), while Mr. Thurban calls strikes correctly <span class=\"tex2jax_process\">$96.9\\%$</span> of the time (<span class=\"tex2jax_process\">$\\hat{p}_T=0.969$</span>).  Because they love to game so much, and are good at what they do, Mr. Skonte and Mr. Thurban plan to apply to be professional umpires.  </div><div class=\"paragraph\">A scout decides to watch each of them umpire a random selection of pitches and compute the difference in the proportion of correctly called strikes.  </div><div class=\"ol-type-block-5d4f20f9-189f-48b4-b3fb-4ce677b9db02\"><style> .ol-type-block-5d4f20f9-189f-48b4-b3fb-4ce677b9db02 ol { list-style-type: upper-roman }</style>\n<ol start=\"1\"><li><span class=\"tex2jax_process\">$100$</span> pitches for each umpire</li><li><span class=\"tex2jax_process\">$200$</span> pitches for each umpire</li><li><span class=\"tex2jax_process\">$300$</span> pitches for each umpire</li></ol></div>\n<div class=\"paragraph\">Under which of the <strong>above</strong> circumstances would the sampling distribution of the difference of correctly called strikes be approximately Normal?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only"
+    },
+    {
+      "letter": "B",
+      "text": "II only"
+    },
+    {
+      "letter": "C",
+      "text": "III only"
+    },
+    {
+      "letter": "D",
+      "text": "II and III only"
+    },
+    {
+      "letter": "E",
+      "text": "None of the scenarios are sufficient to assume an approximately Normal sampling distribution in the difference in proportion of correctly called strikes."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.O.1",
+    "3.C",
+    "UNC-3",
+    "UNC-3.O"
+  ],
+  "standards": [
+    "UNC-3.O.1",
+    "3.C",
+    "UNC-3",
+    "UNC-3.O"
+  ]
+}

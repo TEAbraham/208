@@ -1,0 +1,44 @@
+{
+  "question_id": "question-092",
+  "title": "Language Spoken at Home: Finding a Probability",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">According to U.S. Census reports (2009-2013), <span class=\"tex2jax_process\">$20.7\\%$</span> of individuals age <span class=\"tex2jax_process\">$5$</span> and over reported that they “sometimes or always spoke a language other than English at home”. Suppose that this percentage has not changed.  </div><div class=\"paragraph\">If six individuals over the age <span class=\"tex2jax_process\">$5$</span> are selected at random, what is the probability that at least one would report that they sometimes or always speak a language other than English at home?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.0649"
+    },
+    {
+      "letter": "B",
+      "text": "0.2487"
+    },
+    {
+      "letter": "C",
+      "text": "0.3246"
+    },
+    {
+      "letter": "D",
+      "text": "0.6754"
+    },
+    {
+      "letter": "E",
+      "text": "0.7513"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E",
+    "3.A",
+    "VAR-4",
+    "VAR-4.E.4"
+  ],
+  "standards": [
+    "VAR-4.E",
+    "3.A",
+    "VAR-4",
+    "VAR-4.E.4"
+  ]
+}

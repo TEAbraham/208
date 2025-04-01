@@ -1,0 +1,44 @@
+{
+  "question_id": "question-053",
+  "title": "Are Driver's Age and Traffic Tickets Associated?",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Young adults in a small town are convinced that age has something to do with whether or not the police will give a driver a ticket when stopped for a traffic violation. The table below summarizes police records from traffic violation stops during the previous year.\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Driver's Age</th><th scope=\"col\">Ticket Issued</th><th scope=\"col\">Warning Issued</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Under 25</td><td>24</td><td>18</td><td>42</td></tr><tr><td>25 - 45</td><td>42</td><td>37</td><td>79</td></tr><tr><td>Over 45</td><td>15</td><td>28</td><td>43</td></tr><tr><td>Total</td><td>81</td><td>83</td><td>164</td></tr></tbody></table></div><br><div class=\"paragraph\"><br> Which of the following statements is FALSE? </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "It appears that whether or not a driver is issued a ticket depends on the driver's age since the age category of under 25 has the highest proportion of tickets issued."
+    },
+    {
+      "letter": "B",
+      "text": "Being under 25 does not appear to be independent of whether a ticket will be issued, because the probability that a driver will be given a ticket if they are under 25 is greater than the overall probability that a driver will be given a ticket."
+    },
+    {
+      "letter": "C",
+      "text": "It appears that whether a driver is given a ticket is dependent on the driver's age, since the probability of getting a ticket and being under 25 does not equal the probability of getting a ticket times the probability of being under 25."
+    },
+    {
+      "letter": "D",
+      "text": "It does not appear that being given a ticket is related to being a young driver because more than half of the tickets issued in the previous year were to drivers in the 25-45 age category."
+    },
+    {
+      "letter": "E",
+      "text": "We cannot reject the idea that the age of a driver is independent of whether the driver will get a ticket since a\nχ\n2\ntest of independence results in a\np\n-value greater than\n0.05\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.H",
+    "3.A",
+    "VAR-8",
+    "VAR-8.H.1"
+  ],
+  "standards": [
+    "VAR-8.H",
+    "3.A",
+    "VAR-8",
+    "VAR-8.H.1"
+  ]
+}

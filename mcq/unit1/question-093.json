@@ -1,0 +1,48 @@
+{
+  "question_id": "question-093",
+  "title": "Painting Brothers: Standard Deviation of the Difference",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Abner and Abijah are brothers who own a painting business together.  </div><div class=\"paragraph\">The mean amount of time it takes Abner to paint a medium sized room is <span class=\"tex2jax_process\">$5.59\\text{ hours}$</span> with a standard deviation of <span class=\"tex2jax_process\">$0.63\\text{ hours}$</span>.<br>The mean amount of time it takes  Abijah to paint a medium sized room is <span class=\"tex2jax_process\">$6.11\\text{ hours}$</span> with a standard deviation of <span class=\"tex2jax_process\">$0.45\\text{ hours}$</span>.  </div><div class=\"paragraph\">Assuming the amount of time it takes each brother to paint is independent, which of the following is closest to the standard deviation of the difference (Abner - Abijah) in the amount of time it takes for the two brothers to paint a medium sized room?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.18\n hours"
+    },
+    {
+      "letter": "B",
+      "text": "0.44\n hours"
+    },
+    {
+      "letter": "C",
+      "text": "0.54\n hours"
+    },
+    {
+      "letter": "D",
+      "text": "0.77\n hours"
+    },
+    {
+      "letter": "E",
+      "text": "1.08\n hours"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.I.2",
+    "2.C",
+    "UNC-1.J",
+    "UNC-1.I",
+    "UNC-1.J.3",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.I.2",
+    "2.C",
+    "UNC-1.J",
+    "UNC-1.I",
+    "UNC-1.J.3",
+    "UNC-1"
+  ]
+}

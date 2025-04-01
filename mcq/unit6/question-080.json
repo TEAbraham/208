@@ -1,0 +1,44 @@
+{
+  "question_id": "question-080",
+  "title": "Type II Error in Context",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A study on women’s weights was recently completed.  </div><div class=\"paragraph\">Fifteen randomly selected high school females from an urban setting were compared to <span class=\"tex2jax_process\">$16$</span> randomly selected high school females from a rural setting. The results are below:</div><div class=\"paragraph\"><strong>Two-Sample T for Urban Weights vs. Rural Weights</strong>\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">StDev</th><th scope=\"col\">SE Mean</th></tr></thead><tbody><tr><td>Urban Weights</td><td>15</td><td>126.1</td><td>10.5</td><td>2.7</td></tr><tr><td>Rural Weights</td><td>16</td><td>128.8</td><td>13.2</td><td>3.3</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Difference = <span class=\"tex2jax_process\">$\\mu$</span> (Urban Weights) - <span class=\"tex2jax_process\">$\\mu$</span> (Rural Weights)  </div><div class=\"paragraph\">Estimate for difference: <span class=\"tex2jax_process\">$-2.68$</span>    </div><div class=\"paragraph\"><span class=\"tex2jax_process\">$95\\%$</span> CI for difference: <span class=\"tex2jax_process\">$(-11.45, 6.09)$</span>    </div><div class=\"paragraph\"><span class=\"tex2jax_process\">$T$</span>-test of difference = <span class=\"tex2jax_process\">$0$</span> (vs. not =): <span class=\"tex2jax_process\">$T$</span>-value = <span class=\"tex2jax_process\">$-0.63$</span><br><span class=\"tex2jax_process\">$P$</span>-value = <span class=\"tex2jax_process\">$0.537$</span><br>DF = <span class=\"tex2jax_process\">$28$</span>  </div><div class=\"paragraph\">A type II error in the context of this study would involve</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Implying there is no difference in urban versus rural weights, when really there is a difference."
+    },
+    {
+      "letter": "B",
+      "text": "Implying there is a difference in urban versus rural weights, when really there is no difference."
+    },
+    {
+      "letter": "C",
+      "text": "Implying the difference between urban and rural weights is\n2.68\n\\text{ pounds}$, when in fact it is more."
+    },
+    {
+      "letter": "D",
+      "text": "Implying the difference between urban and rural weights is\n2.68\n pounds\n, when in fact it is less."
+    },
+    {
+      "letter": "E",
+      "text": "Implying there is no difference in urban versus rural weights, when in fact there really is no difference."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-5.A",
+    "UNC-5",
+    "UNC-5.A.2",
+    "1.B"
+  ],
+  "standards": [
+    "UNC-5.A",
+    "UNC-5",
+    "UNC-5.A.2",
+    "1.B"
+  ]
+}

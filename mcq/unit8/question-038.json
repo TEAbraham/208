@@ -1,0 +1,46 @@
+{
+  "question_id": "question-038",
+  "title": "Trusting GOF Results",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A local convenience store was curious that their customers' favorite vegetable is.  Last year they asked all their customers and found that <span class=\"tex2jax_process\">$34\\%$</span> liked broccoli the most, <span class=\"tex2jax_process\">$21\\%$</span> peas, <span class=\"tex2jax_process\">$18\\%$</span> carrots, <span class=\"tex2jax_process\">$17\\%$</span> cabbage, and <span class=\"tex2jax_process\">$10\\%$</span>  liked beans the most.  </div><div class=\"paragraph\">Recently a random sample of <span class=\"tex2jax_process\">$123$</span> vegetable-buying customers found that <span class=\"tex2jax_process\">$39$</span> liked broccoli the most, <span class=\"tex2jax_process\">$23$</span>  peas, <span class=\"tex2jax_process\">$20$</span> carrots, <span class=\"tex2jax_process\">$17$</span> cabbage, and <span class=\"tex2jax_process\">$24$</span> liked beans the most.  </div><div class=\"paragraph\">A chi-squared goodness of fit test is performed and results show strong evidence (<span class=\"tex2jax_process\">$p &lt; 0.01$</span>) that vegetable preference has recently changed over the year.  </div><div class=\"paragraph\">What is a major shortcoming to the conclusion that vegetable preference has recently changed over the year?  </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The sample size was too small."
+    },
+    {
+      "letter": "B",
+      "text": "The sample contains bias."
+    },
+    {
+      "letter": "C",
+      "text": "The expected counts do not meet conditions for a chi-squared goodness of fit test."
+    },
+    {
+      "letter": "D",
+      "text": "The\np\n-value does not provide sufficient evidence of change at most alpha levels."
+    },
+    {
+      "letter": "E",
+      "text": "Not all vegetable preferences have greatly changed."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.F",
+    "3.E",
+    "VAR-8",
+    "VAR-8.F.2",
+    "VAR-8.F.1"
+  ],
+  "standards": [
+    "VAR-8.F",
+    "3.E",
+    "VAR-8",
+    "VAR-8.F.2",
+    "VAR-8.F.1"
+  ]
+}

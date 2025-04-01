@@ -1,0 +1,44 @@
+{
+  "question_id": "question-106",
+  "title": "Let's Be Discrete",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Which of the following situations does not describe a discrete random variable?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The number of eggs in a carton of\n12\n eggs\nwhich are found to be cracked or broken."
+    },
+    {
+      "letter": "B",
+      "text": "The number of times a coin will land on heads when tossed\n10\n times\n."
+    },
+    {
+      "letter": "C",
+      "text": "The number of times in one month that a service technician must be called in to repair the office Xerox machine."
+    },
+    {
+      "letter": "D",
+      "text": "The number of days in one week where Javier will have a substitute teacher in at least one of his classes."
+    },
+    {
+      "letter": "E",
+      "text": "The amount of time it takes an experienced runner to run one mile."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5",
+    "VAR-5.A",
+    "2.B",
+    "VAR-5.A.1"
+  ],
+  "standards": [
+    "VAR-5",
+    "VAR-5.A",
+    "2.B",
+    "VAR-5.A.1"
+  ]
+}

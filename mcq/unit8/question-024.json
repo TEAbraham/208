@@ -1,0 +1,46 @@
+{
+  "question_id": "question-024",
+  "title": "Math Program: Test Statistic and $p$-value",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Suppose a high school principal wishes to determine if students in her after-school math program perform better than those not in the program.  </div><div class=\"paragraph\">The principal randomly selected <span class=\"tex2jax_process\">$115\\text{ students}$</span> for an after-school study session that runs <span class=\"tex2jax_process\">$3\\text{ days per week}$</span> for <span class=\"tex2jax_process\">$1\\text{ hour}$</span> each day, focusing solely on math.  </div><div class=\"paragraph\">The grade distribution of these students’ math grades is compared to the historical grade distribution of students’ math grades at this high school. The data is below:\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th><th scope=\"col\">F</th></tr></thead><tbody><tr><td>After-School Program (Counts)</td><td>28</td><td>38</td><td>36</td><td>9</td><td>4</td></tr><tr><td>Historical Grade Distribution (%)</td><td>18%</td><td>32%</td><td>25%</td><td>20%</td><td>5%</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>When performing a chi-squared goodness of fit test, the appropriate chi-squared test statistic and <span class=\"tex2jax_process\">$p$</span>-value are approximately what?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Chi-squared:\n13.496 P\n-value:\n0.009"
+    },
+    {
+      "letter": "B",
+      "text": "Chi-squared:\n11.32 P\n-value:\n0.005"
+    },
+    {
+      "letter": "C",
+      "text": "Chi-squared:\n1.83 P\n-value:\np\n>\n0.25"
+    },
+    {
+      "letter": "D",
+      "text": "Chi-squared:\n26.34 P\n-value:\np"
+    },
+    {
+      "letter": "E",
+      "text": "Chi-squared:\n13.496 P\n-value:\n0.05"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.F",
+    "3.E",
+    "VAR-8",
+    "VAR-8.F.2",
+    "VAR-8.F.1"
+  ],
+  "standards": [
+    "VAR-8.F",
+    "3.E",
+    "VAR-8",
+    "VAR-8.F.2",
+    "VAR-8.F.1"
+  ]
+}

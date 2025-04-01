@@ -1,0 +1,44 @@
+{
+  "question_id": "question-133",
+  "title": "Plant Yield",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A gardener wishes to determine which of two different potato plants gives the highest yield (in terms of pounds per plant).  </div><div class=\"paragraph\">In a large field, <span class=\"tex2jax_process\">$15$</span> plants of variety A were planted in random locations. In a different large field, <span class=\"tex2jax_process\">$15$</span> plants of variety B were planted in random locations.  </div><div class=\"paragraph\">Variety A averaged <span class=\"tex2jax_process\">$56.43\\text{ pounds per plant}$</span>, with a standard deviation of <span class=\"tex2jax_process\">$0.1\\text{ pounds}$</span>, and variety B averaged <span class=\"tex2jax_process\">$56.53\\text{ pounds per plant}$</span> with a standard deviation of <span class=\"tex2jax_process\">$0.14\\text{ pounds}$</span>. When performing a two-sample <span class=\"tex2jax_process\">$T$</span>-test on this data, the <span class=\"tex2jax_process\">$p$</span>-value was <span class=\"tex2jax_process\">$0.033$</span>.  </div><div class=\"paragraph\">Which of the following statements is/are true concerning the interpretation of these results?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> These results cannot be trusted, as randomization was not properly used in this context.  </div><div class=\"paragraph\"><strong>II.</strong> These results may not be useful, as the difference is so small.  </div><div class=\"paragraph\"><strong>III.</strong> These results may not be useful, as it is likely that the sampling distribution will not be approximately normal.    </div></blockquote>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and II only."
+    },
+    {
+      "letter": "E",
+      "text": "II and III only."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3",
+    "DAT-3.H",
+    "DAT-3.H.2"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3",
+    "DAT-3.H",
+    "DAT-3.H.2"
+  ]
+}

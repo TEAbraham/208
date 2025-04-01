@@ -1,0 +1,44 @@
+{
+  "question_id": "question-187",
+  "title": "Gender and College Major",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">You want to study the relationship between gender and college major at the end of the sophomore year in college.  </div><div class=\"paragraph\">What would be the best way to display or analyze your collected data?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Display the data in a segmented bar chart and compare."
+    },
+    {
+      "letter": "B",
+      "text": "Display the data in two bar charts and compare."
+    },
+    {
+      "letter": "C",
+      "text": "Create a scatterplot and compute the least squares regression line."
+    },
+    {
+      "letter": "D",
+      "text": "Calculate the correlation between gender and college major for each gender and compare the two\nr\n-values."
+    },
+    {
+      "letter": "E",
+      "text": "Create a side-by-side stemplot and compare center, shape, and spread."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.N.1",
+    "2.D",
+    "UNC-1.N",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.N.1",
+    "2.D",
+    "UNC-1.N",
+    "UNC-1"
+  ]
+}

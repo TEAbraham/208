@@ -1,0 +1,46 @@
+{
+  "question_id": "question-071",
+  "title": "${\\chi}^{2}$: High School Numbers",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Freshmen, sophomores, juniors, and seniors at a high school were asked to pick a number from <span class=\"tex2jax_process\">$0$</span> to <span class=\"tex2jax_process\">$9$</span>.  A chi-square test was conducted to determine whether the proportion of numbers picked were the same  across grade levels.  </div><div class=\"paragraph\">How many degrees of freedom should the <span class=\"tex2jax_process\">${\\chi}^{2}$</span> test have?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "3"
+    },
+    {
+      "letter": "B",
+      "text": "10"
+    },
+    {
+      "letter": "C",
+      "text": "27"
+    },
+    {
+      "letter": "D",
+      "text": "36"
+    },
+    {
+      "letter": "E",
+      "text": "40"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.M",
+    "VAR-8.M.2",
+    "3.E",
+    "VAR-8",
+    "VAR-8.M.1"
+  ],
+  "standards": [
+    "VAR-8.M",
+    "VAR-8.M.2",
+    "3.E",
+    "VAR-8",
+    "VAR-8.M.1"
+  ]
+}

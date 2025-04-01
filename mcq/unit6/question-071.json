@@ -1,0 +1,44 @@
+{
+  "question_id": "question-071",
+  "title": "Random Sample Convinces the Mayor",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Last year, <span class=\"tex2jax_process\">$100$</span> randomly selected dog owners in a certain town were asked, “Do you walk your dog every day?”  </div><div class=\"paragraph\">Suppose this sampling distribution has a mean of <span class=\"tex2jax_process\">$p = 0.38$</span>.  </div><div class=\"paragraph\">Last week, a random sample in the same town found that <span class=\"tex2jax_process\">$45$</span> out of <span class=\"tex2jax_process\">$100$</span> subjects walk their dogs every day. The mayor is convinced that people in this town now walk their dogs more.  </div><div class=\"paragraph\">Is there evidence to support the claim stated by the mayor?  Use alpha = 10% as your level of statistical significance.  </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "No, since only\n7\npeople walk their dogs more than what would be expected."
+    },
+    {
+      "letter": "B",
+      "text": "No, since the conditions for any calculations involving this problem are not met."
+    },
+    {
+      "letter": "C",
+      "text": "No, a result such as this could easily happen due to sampling variability."
+    },
+    {
+      "letter": "D",
+      "text": "Yes, this result would be somewhat unlikely to happen by chance."
+    },
+    {
+      "letter": "E",
+      "text": "Yes, the sample clearly shows\n7\nmore people walk their dogs."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3",
+    "DAT-3.B.9",
+    "DAT-3.B"
+  ],
+  "standards": [
+    "4.E",
+    "DAT-3",
+    "DAT-3.B.9",
+    "DAT-3.B"
+  ]
+}

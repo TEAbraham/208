@@ -1,0 +1,46 @@
+{
+  "question_id": "question-077",
+  "title": "Allergies by U.S. Region: Determining Degrees of Freedom",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">As part of the 2012 National Health Interview Survey, the U.S. Census Bureau collected data from about <span class=\"tex2jax_process\">$73{,}661\\text{ children}$</span> under the age of <span class=\"tex2jax_process\">$18\\text{ years}$</span>. The report provided frequencies of different types of allergies for these children and frequencies were broken down by U.S. region.  </div><div class=\"paragraph\">Data is shown in the table below:\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">No Allergies</th><th scope=\"col\">Hay Fever</th><th scope=\"col\">Respiratory Allergies</th><th scope=\"col\">Food Allergies</th><th scope=\"col\">Skin Allergies</th></tr></thead><tbody><tr><td>Northeast</td><td>7,776</td><td>1,074</td><td>1,108</td><td>698</td><td>1,321</td></tr><tr><td>Midwest</td><td>10,966</td><td>1,310</td><td>1,684</td><td>937</td><td>1,900</td></tr><tr><td>South</td><td>16,132</td><td>2,621</td><td>3,452</td><td>1,554</td><td>3,476</td></tr><tr><td>West</td><td>11,413</td><td>1,636</td><td>1,581</td><td>910</td><td>2,112</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>How many degrees of freedom would be used when conducting a <span class=\"tex2jax_process\">${ \\chi }^{ 2 }$</span> test to see if there is evidence of an association between U.S. region and types of allergies in children under the age of <span class=\"tex2jax_process\">$18$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "4"
+    },
+    {
+      "letter": "B",
+      "text": "5"
+    },
+    {
+      "letter": "C",
+      "text": "12"
+    },
+    {
+      "letter": "D",
+      "text": "20"
+    },
+    {
+      "letter": "E",
+      "text": "73\n,\n660"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.M",
+    "VAR-8.M.2",
+    "3.E",
+    "VAR-8",
+    "VAR-8.M.1"
+  ],
+  "standards": [
+    "VAR-8.M",
+    "VAR-8.M.2",
+    "3.E",
+    "VAR-8",
+    "VAR-8.M.1"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-156",
+  "title": "Compare the Scores",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A state with a large state university wanted to compare the incoming SAT verbal scores of males and females.  It randomly sampled <span class=\"tex2jax_process\">$36$</span> female students and <span class=\"tex2jax_process\">$30$</span> male students and found their scores. The females had an average of <span class=\"tex2jax_process\">$578$</span> with a standard deviation of <span class=\"tex2jax_process\">$32$</span>. The males had an average of <span class=\"tex2jax_process\">$568$</span> with a standard deviation of <span class=\"tex2jax_process\">$30$</span>. Assuming no technology is available, write the formula for the margin of error of this two-sample <span class=\"tex2jax_process\">$t$</span>-interval of two means with a confidence level of <span class=\"tex2jax_process\">$95\\%$</span>.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "2.045\n√\n32\n36\n+\n30\n30"
+    },
+    {
+      "letter": "B",
+      "text": "2.045\n√\n32\n2\n36\n+\n30\n2\n30"
+    },
+    {
+      "letter": "C",
+      "text": "2.042\n√\n32\n2\n36\n+\n30\n2\n30"
+    },
+    {
+      "letter": "D",
+      "text": "2.045\n√\n36\n2\n32\n+\n30\n2\n30"
+    },
+    {
+      "letter": "E",
+      "text": "1.960\n√\n32\n2\n36\n+\n30\n2\n30"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.X",
+    "3.D",
+    "UNC-4.X.1",
+    "UNC-4.X.2",
+    "UNC-4"
+  ],
+  "standards": [
+    "UNC-4.X",
+    "3.D",
+    "UNC-4.X.1",
+    "UNC-4.X.2",
+    "UNC-4"
+  ]
+}

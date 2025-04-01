@@ -1,0 +1,46 @@
+{
+  "question_id": "question-134",
+  "title": "Linear Transformation",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">The random variable <span class=\"tex2jax_process\">$X$</span> is normally distributed with mean <span class=\"tex2jax_process\">$28$</span> and standard deviation <span class=\"tex2jax_process\">$9$</span>.  The random variable <span class=\"tex2jax_process\">$Y$</span> is defined by <span class=\"tex2jax_process\">$Y=4X-7$</span>.  </div><div class=\"paragraph\">What are the mean and standard deviation of <span class=\"tex2jax_process\">$Y$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The mean is\n105\nand the standard deviation is\n9\n."
+    },
+    {
+      "letter": "B",
+      "text": "The mean is\n105\nand the standard deviation is\n29\n."
+    },
+    {
+      "letter": "C",
+      "text": "The mean is\n105\nand the standard deviation is\n36\n."
+    },
+    {
+      "letter": "D",
+      "text": "The mean is\n112\nand the standard deviation is\n29\n."
+    },
+    {
+      "letter": "E",
+      "text": "The mean is\n112\nand the standard deviation is\n36\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice ‘C’</strong> is our answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ],
+  "standards": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

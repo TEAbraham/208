@@ -1,0 +1,44 @@
+{
+  "question_id": "question-082",
+  "title": "Carrot Chips and $p$-Values",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Jessica Rabbit loves carrot chips and buys one ounce bags to pack with her lunch. According to the label, there are an average of <span class=\"tex2jax_process\">$25\\text{ chips per ounce}$</span>. Jessica suspects that the true average is lower and decides to investigate. She selects <span class=\"tex2jax_process\">$12\\text{ bags of chips}$</span> (which she is willing to consider a random sample) and finds the average number of chips per bag is <span class=\"tex2jax_process\">$23.4$</span> with a standard deviation of <span class=\"tex2jax_process\">$4.6$</span>.  </div><div class=\"paragraph\">Assuming all conditions are satisfied, what is the <span class=\"tex2jax_process\">$p$</span>-value for the appropriate statistical test? </div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.114"
+    },
+    {
+      "letter": "B",
+      "text": "0.127"
+    },
+    {
+      "letter": "C",
+      "text": "0.256"
+    },
+    {
+      "letter": "D",
+      "text": "0.873"
+    },
+    {
+      "letter": "E",
+      "text": "0.886"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3.E",
+    "DAT-3",
+    "DAT-3.E.1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3.E",
+    "DAT-3",
+    "DAT-3.E.1"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-048",
+  "title": "Probability Greater Calorie Savings",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A national Italian restaurant has created a healthy option to one of its most popular dishes.  </div><div class=\"paragraph\">The original dish’s portion size has a mean <span class=\"tex2jax_process\">$\\mu$</span> of <span class=\"tex2jax_process\">$1{,}500\\text{ calories}$</span> with a standard deviation of <span class=\"tex2jax_process\">$50\\text{ calories}$</span>, and the healthy alternative’s portion size has a mean <span class=\"tex2jax_process\">$\\mu$</span> of <span class=\"tex2jax_process\">$950\\text{ calories}$</span> with standard deviation of <span class=\"tex2jax_process\">$25\\text{ calories}$</span>. </div><div class=\"paragraph\">The resulting normal distribution of the calorie savings by choosing the healthy option over the original dish has a mean <span class=\"tex2jax_process\">$\\mu$</span> of <span class=\"tex2jax_process\">$550\\text{ calories}$</span> saved and standard deviation <span class=\"tex2jax_process\">$\\sigma$</span> of <span class=\"tex2jax_process\">$55.9\\text{ calories}$</span>. John and Mary go to the restaurant, and both order the healthy option.  </div><div class=\"paragraph\">What is the probability that their average calorie savings is equal to or greater than <span class=\"tex2jax_process\">$600\\text{ calories}$</span> when John and Mary both opt for the healthier alternative?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.04"
+    },
+    {
+      "letter": "B",
+      "text": "0.1"
+    },
+    {
+      "letter": "C",
+      "text": "0.19"
+    },
+    {
+      "letter": "D",
+      "text": "0.81"
+    },
+    {
+      "letter": "E",
+      "text": "0.9"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.R.1",
+    "3.C",
+    "UNC-3",
+    "UNC-3.R"
+  ],
+  "standards": [
+    "UNC-3.R.1",
+    "3.C",
+    "UNC-3",
+    "UNC-3.R"
+  ]
+}

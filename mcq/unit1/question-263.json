@@ -1,0 +1,44 @@
+{
+  "question_id": "question-263",
+  "title": "Snowfall Amounts",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A meteorologist in a small town has been keeping track of annual snowfall amounts for the last <span class=\"tex2jax_process\">$65\\text{ years}$</span>. The annual snowfall has an average of <span class=\"tex2jax_process\">$54\\text{ inches}$</span> with a standard deviation of <span class=\"tex2jax_process\">$9.8\\text{ inches}$</span>. This year a local citizen claimed the town received <span class=\"tex2jax_process\">$124.5\\text{ inches}$</span> of snow.  </div><div class=\"paragraph\">Based on this information, one can conclude</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A mistake was likely made in recording snowfall amounts."
+    },
+    {
+      "letter": "B",
+      "text": "This year was surprisingly snowy but is not a huge abnormality."
+    },
+    {
+      "letter": "C",
+      "text": "The interquartile range must be well over\n9.8\n inches\n."
+    },
+    {
+      "letter": "D",
+      "text": "Before the point\n124.5\nwas added, this distribution was right skewed."
+    },
+    {
+      "letter": "E",
+      "text": "The median will be greater than the mean for this distribution."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.C.1",
+    "2.D",
+    "VAR-2.C",
+    "VAR-2"
+  ],
+  "standards": [
+    "VAR-2.C.1",
+    "2.D",
+    "VAR-2.C",
+    "VAR-2"
+  ]
+}

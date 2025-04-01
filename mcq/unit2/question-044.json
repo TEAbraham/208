@@ -1,0 +1,44 @@
+{
+  "question_id": "question-044",
+  "title": "Scatterplot Analysis",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A student working on a project came up with <span class=\"tex2jax_process\">$5$</span> points on a scatterplot:  <span class=\"tex2jax_process\">$(4, 7), (12, 5), (0, 8), (8, 5), (16, 4) $</span>.</div><div class=\"paragraph\">Four of the following statements about the scatterplot are true.  Which one is false?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There is a negative association between the variables."
+    },
+    {
+      "letter": "B",
+      "text": "The form of the points is roughly linear."
+    },
+    {
+      "letter": "C",
+      "text": "Though there are not many points, the strength of the association is likely to be moderate to strong."
+    },
+    {
+      "letter": "D",
+      "text": "The point (8, 5) is an unusual point because it does not follow the pattern."
+    },
+    {
+      "letter": "E",
+      "text": "These points represent bivariate quantitative data."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-1.A.1",
+    "DAT-1",
+    "DAT-1.A",
+    "2.A"
+  ],
+  "standards": [
+    "DAT-1.A.1",
+    "DAT-1",
+    "DAT-1.A",
+    "2.A"
+  ]
+}

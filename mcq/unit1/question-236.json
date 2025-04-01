@@ -1,0 +1,44 @@
+{
+  "question_id": "question-236",
+  "title": "Empirical Rule",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">The random variable <span class=\"tex2jax_process\">$X$</span> is normally distributed with a mean of <span class=\"tex2jax_process\">$10$</span> and a standard deviation of <span class=\"tex2jax_process\">$1.5$</span>.  </div><div class=\"paragraph\">Approximately <span class=\"tex2jax_process\">$84\\%$</span> of the observations of this data set are greater than</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "8.50"
+    },
+    {
+      "letter": "B",
+      "text": "10.50"
+    },
+    {
+      "letter": "C",
+      "text": "7.50"
+    },
+    {
+      "letter": "D",
+      "text": "11.50"
+    },
+    {
+      "letter": "E",
+      "text": "8.04"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "2.D",
+    "VAR-2",
+    "VAR-2.A.3",
+    "VAR-2.A"
+  ],
+  "standards": [
+    "2.D",
+    "VAR-2",
+    "VAR-2.A.3",
+    "VAR-2.A"
+  ]
+}

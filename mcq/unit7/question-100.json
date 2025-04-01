@@ -1,0 +1,46 @@
+{
+  "question_id": "question-100",
+  "title": "When Should We Jump into the Pooled Procedures?",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">When should we used pooled procedures?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "When we assume the variances of two populations are equal."
+    },
+    {
+      "letter": "B",
+      "text": "When we assume the means of two populations are equal."
+    },
+    {
+      "letter": "C",
+      "text": "Any time we complete a confidence interval or hypothesis test for a difference in two population proportions."
+    },
+    {
+      "letter": "D",
+      "text": "Any time we use a\nz\n-test for a population proportion."
+    },
+    {
+      "letter": "E",
+      "text": "Never."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.V.1",
+    "UNC-4.V.2",
+    "UNC-4",
+    "1.D",
+    "UNC-4.V"
+  ],
+  "standards": [
+    "UNC-4.V.1",
+    "UNC-4.V.2",
+    "UNC-4",
+    "1.D",
+    "UNC-4.V"
+  ]
+}

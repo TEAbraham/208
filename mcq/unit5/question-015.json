@@ -1,0 +1,44 @@
+{
+  "question_id": "question-015",
+  "title": "Golf Darts",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Golf darts are played in a large field that has several targets made out of net.  If the player hits the ball and it lands in one of the nets, the player scores points and the golf ball is automatically sent back to the player through an underground tunnel system.  If the golf ball does not land in the net, it stays on the field where it is later picked up by a tractor system.  </div><div class=\"paragraph\">Suppose the true proportion of golf balls that land on the field each day is <span class=\"tex2jax_process\">$60\\%$</span>.  What are the mean and standard deviation of the sample proportion of golf balls that land on the field when samples of <span class=\"tex2jax_process\">$100$</span> golf balls are shot?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "μ\n^\np\n=\n0.6\nσ\n^\np\n=\n0.005"
+    },
+    {
+      "letter": "B",
+      "text": "μ\n^\np\n=\n0.6\nσ\n^\np\n=\n0.049"
+    },
+    {
+      "letter": "C",
+      "text": "μ\n^\np\n=\n60\nσ\n^\np\n=\n0.005"
+    },
+    {
+      "letter": "D",
+      "text": "μ\n^\np\n=\n60\nσ\n^\np\n=\n0.049"
+    },
+    {
+      "letter": "E",
+      "text": "μ\n^\np\n=\n0.06\nσ\n^\np\n=\n0.005"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.K.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.K"
+  ],
+  "standards": [
+    "UNC-3.K.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.K"
+  ]
+}

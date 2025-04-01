@@ -1,0 +1,50 @@
+{
+  "question_id": "question-112",
+  "title": "Describing the Sampling Distribution of a Proportion",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">You take a sample of size <span class=\"tex2jax_process\">$35$</span> from a very large population in which the true proportion of males is <span class=\"tex2jax_process\">$p = 0.52$</span>.  Which of the statements below best describes what is known about the sampling distribution of <span class=\"tex2jax_process\">$\\hat{p}$</span>, the sample proportion of males?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "μ\n^\np\n=\n0.52 σ\n^\np\n=\n√\n(\n0.52\n)\n(\n0.48\n)\n35 The distribution is not approximately Normal."
+    },
+    {
+      "letter": "B",
+      "text": "μ\n^\np\n=\n0.52 σ\n^\np\n=\n√\n(\n0.52\n)\n(\n0.48\n)\n35 The distribution is approximately Normal."
+    },
+    {
+      "letter": "C",
+      "text": "μ\n^\np\n=\n0.52 The formula for\nσ\n^\np\nwill not give an accurate value as the\n10\n% condition is violated. The distribution is approximately Normal."
+    },
+    {
+      "letter": "D",
+      "text": "μ\n^\np\n=\n0.52 The formula for\nσ\n^\np\nwill not give an accurate value as the\n10\n% condition is violated. The distribution is not approximately Normal."
+    },
+    {
+      "letter": "E",
+      "text": "We cannot calculate the value of\nμ\n^\np\n. σ\n^\np\n=\n√\n(\n0.52\n)\n(\n0.48\n)\n35 The distribution is approximately Normal."
+    }
+  ],
+  "correct_answer": "<strong>Choice ‘B’</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.L",
+    "UNC-3.K.1",
+    "3.C",
+    "UNC-3.L.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.K"
+  ],
+  "standards": [
+    "UNC-3.L",
+    "UNC-3.K.1",
+    "3.C",
+    "UNC-3.L.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.K"
+  ]
+}

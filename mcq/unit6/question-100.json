@@ -1,0 +1,44 @@
+{
+  "question_id": "question-100",
+  "title": "Smelly Customers?",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A large company sold two different types of deodorant, called Dusty and Nab. It wanted to compare the proportions of customers who were displeased with the performance of these products. A random selection of <span class=\"tex2jax_process\">$100$</span> Dusty customers were contacted and <span class=\"tex2jax_process\">$25$</span> were not pleased with the product, while <span class=\"tex2jax_process\">$16$</span> of the Nab customers were not pleased with their product. A confidence interval was found.  If the lower bound of the resulting confidence interval was <span class=\"tex2jax_process\">$-0.072$</span>, and the difference of the proportions was <span class=\"tex2jax_process\">$0.05$</span>, find the confidence level of the confidence interval. </div><div class=\"paragraph\">Define <span class=\"tex2jax_process\">$\\hat{p}_{1}$</span> to be the proportion of Dusty customers and <span class=\"tex2jax_process\">$\\hat{p}_{2}$</span> to be the proportion of Nab customers.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "98\n%"
+    },
+    {
+      "letter": "B",
+      "text": "90\n%"
+    },
+    {
+      "letter": "C",
+      "text": "The confidence level cannot be found."
+    },
+    {
+      "letter": "D",
+      "text": "95\n%"
+    },
+    {
+      "letter": "E",
+      "text": "99\n%"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "3.D",
+    "UNC-4.K.1",
+    "UNC-4.K",
+    "UNC-4"
+  ],
+  "standards": [
+    "3.D",
+    "UNC-4.K.1",
+    "UNC-4.K",
+    "UNC-4"
+  ]
+}

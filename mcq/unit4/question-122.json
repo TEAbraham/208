@@ -1,0 +1,46 @@
+{
+  "question_id": "question-122",
+  "title": "Fair Two-Dice Game",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">You play a game in which you win <span class=\"tex2jax_process\">$\\$10$</span> if a sum of <span class=\"tex2jax_process\">$7\\text{ results}$</span> from rolling two balanced dice. You win <span class=\"tex2jax_process\">$\\$5$</span> if you roll doubles. Otherwise, you win nothing.  </div><div class=\"paragraph\">In order for the game to be fair, how much should you be charged to play the game?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$\n0"
+    },
+    {
+      "letter": "B",
+      "text": "$\n0.83"
+    },
+    {
+      "letter": "C",
+      "text": "$\n2.50"
+    },
+    {
+      "letter": "D",
+      "text": "$\n5"
+    },
+    {
+      "letter": "E",
+      "text": "$\n10"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-5.C.2",
+    "VAR-5.C.1",
+    "VAR-5",
+    "3.B",
+    "VAR-5.C"
+  ],
+  "standards": [
+    "VAR-5.C.2",
+    "VAR-5.C.1",
+    "VAR-5",
+    "3.B",
+    "VAR-5.C"
+  ]
+}

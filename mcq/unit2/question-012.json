@@ -1,0 +1,44 @@
+{
+  "question_id": "question-012",
+  "title": "Two-Way Tables: Campus Housing",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A small college offers On Campus housing and Off Campus housing. An unmotivated worker in the housing office was goofing around on her phone at work and forgot to complete the chart.  </div><div class=\"paragraph\">How many Upper Classmen live in On Campus housing? \n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Freshmen</th><th scope=\"col\">Upper Classmen</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Off Campus</td><td>_</td><td>280</td><td>352</td></tr><tr><td>On Campus</td><td>84</td><td><u>_</u></td><td>190</td></tr><tr><td>Total</td><td>156</td><td><u>_</u></td><td>542</td></tr></tbody></table></div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "106"
+    },
+    {
+      "letter": "B",
+      "text": "216"
+    },
+    {
+      "letter": "C",
+      "text": "274"
+    },
+    {
+      "letter": "D",
+      "text": "312"
+    },
+    {
+      "letter": "E",
+      "text": "386"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.P",
+    "2.D",
+    "UNC-1.P.3",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.P",
+    "2.D",
+    "UNC-1.P.3",
+    "UNC-1"
+  ]
+}

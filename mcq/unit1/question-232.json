@@ -1,0 +1,48 @@
+{
+  "question_id": "question-232",
+  "title": "Waterfall Heights by Z-Scores and Percentiles",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">In Cascade Utopia, the heights of waterfalls are normally distributed with a mean of <span class=\"tex2jax_process\">$345$</span> feet and standard deviation of <span class=\"tex2jax_process\">$63$</span> feet.  Cassie plans to visit four waterfalls​ in order from the shortest waterfall to the tallest.  Listed below are the four waterfalls and some information about their heights.  In what order will Cassie visit the waterfalls?  </div><div class=\"paragraph\">Halo Falls:  <span class=\"tex2jax_process\">$z = 1.7$</span><br>Iguana Falls:  <span class=\"tex2jax_process\">$z = -0.38$</span><br>Rainaga Falls:  at the <span class=\"tex2jax_process\">$70th$</span> percentile<br>Veronica Falls:  at the <span class=\"tex2jax_process\">$37th$</span> percentile</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Iguana Falls, Halo Falls, Veronica Falls, Rainaga Falls"
+    },
+    {
+      "letter": "B",
+      "text": "Iguana Falls, Veronica Falls, Rainaga Falls, Halo Falls"
+    },
+    {
+      "letter": "C",
+      "text": "Halo Falls, Rainaga Falls, Veronica Falls, Iguana Falls"
+    },
+    {
+      "letter": "D",
+      "text": "Veronica Falls, Rainaga Falls, Iguana Falls, Halo Falls"
+    },
+    {
+      "letter": "E",
+      "text": "Rainaga Falls, Veronica Falls, Halo Falls, Iguana Falls"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B",
+    "VAR-2.C.1",
+    "2.D",
+    "VAR-2.C",
+    "VAR-2",
+    "VAR-2.B.3"
+  ],
+  "standards": [
+    "VAR-2.B",
+    "VAR-2.C.1",
+    "2.D",
+    "VAR-2.C",
+    "VAR-2",
+    "VAR-2.B.3"
+  ]
+}

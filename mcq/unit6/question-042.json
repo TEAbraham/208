@@ -1,0 +1,44 @@
+{
+  "question_id": "question-042",
+  "title": "Home-Field Advantage",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A sports analyst wishes to make the claim that baseball teams are more likely to win home games than away games.  </div><div class=\"paragraph\">The analyst selects a local baseball team that has won <span class=\"tex2jax_process\">$54$</span> of its <span class=\"tex2jax_process\">$81\\text{ home games}$</span> this season.  </div><div class=\"paragraph\">Assuming an equal number of home and away games, what is the maximum number of away games the home team can win for the analyst’s claim to be true at the <span class=\"tex2jax_process\">$5\\%$</span> level?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "32"
+    },
+    {
+      "letter": "B",
+      "text": "43"
+    },
+    {
+      "letter": "C",
+      "text": "54"
+    },
+    {
+      "letter": "D",
+      "text": "55"
+    },
+    {
+      "letter": "E",
+      "text": "Enough evidence already exists since the sample proportion of\n54\n81\nis already significantly greater than a\n50\n%\nchance of winning."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-6.E.1",
+    "VAR-6.E",
+    "1.E",
+    "VAR-6"
+  ],
+  "standards": [
+    "VAR-6.E.1",
+    "VAR-6.E",
+    "1.E",
+    "VAR-6"
+  ]
+}

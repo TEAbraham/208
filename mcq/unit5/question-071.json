@@ -1,0 +1,48 @@
+{
+  "question_id": "question-071",
+  "title": "Sample Distributions: Central Limit Theorem",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A known population has a highly skewed distribution. You take all possible samples of size <span class=\"tex2jax_process\">$n=8$</span> from this skewed distribution.  </div><div class=\"paragraph\">What does the central limit theorem say about the shape of your sampling distribution?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The sampling distribution will be approximately normal."
+    },
+    {
+      "letter": "B",
+      "text": "The sampling distribution will be exactly normal."
+    },
+    {
+      "letter": "C",
+      "text": "The sampling distribution will be skewed, but less skewed than the population."
+    },
+    {
+      "letter": "D",
+      "text": "The sampling distribution will be skewed to the same degree as the population."
+    },
+    {
+      "letter": "E",
+      "text": "Unable to determine the shape of the sampling distribution due to the small sample size."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.H.2",
+    "UNC-3.H.1",
+    "3.C",
+    "UNC-3",
+    "UNC-3.H",
+    "UNC-3.H.3"
+  ],
+  "standards": [
+    "UNC-3.H.2",
+    "UNC-3.H.1",
+    "3.C",
+    "UNC-3",
+    "UNC-3.H",
+    "UNC-3.H.3"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-027",
+  "title": "Find Conditional Relative Frequency",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\"><span class=\"tex2jax_process\">$100$</span> men and <span class=\"tex2jax_process\">$100$</span> women selected at random were asked which type of vehicle they drove.  Here are the results:</div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Car Type:</th><th scope=\"col\">Sport</th><th scope=\"col\">Sedan</th><th scope=\"col\">SUV</th><th scope=\"col\">Truck</th></tr></thead><tbody><tr><td>Men</td><td><span class=\"tex2jax_process\">$30$</span></td><td><span class=\"tex2jax_process\">$20$</span></td><td><span class=\"tex2jax_process\">$20$</span></td><td><span class=\"tex2jax_process\">$30$</span></td></tr><tr><td>Women</td><td><span class=\"tex2jax_process\">$10$</span></td><td><span class=\"tex2jax_process\">$40$</span></td><td><span class=\"tex2jax_process\">$50$</span></td><td><span class=\"tex2jax_process\">$0$</span></td></tr></tbody></table></div><div class=\"paragraph\">What is the conditional relative frequency for driving an SUV in the group of women?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "0.50"
+    },
+    {
+      "letter": "B",
+      "text": "0.25"
+    },
+    {
+      "letter": "C",
+      "text": "0.20"
+    },
+    {
+      "letter": "D",
+      "text": "0.35"
+    },
+    {
+      "letter": "E",
+      "text": "0.71"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "2.C",
+    "UNC-1.Q",
+    "UNC-1.Q.2",
+    "UNC-1"
+  ],
+  "standards": [
+    "2.C",
+    "UNC-1.Q",
+    "UNC-1.Q.2",
+    "UNC-1"
+  ]
+}

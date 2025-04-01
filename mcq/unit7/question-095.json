@@ -1,0 +1,58 @@
+{
+  "question_id": "question-095",
+  "title": "Coffee Shop Sales: Did Advertising Help?",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A local coffee shop decided to start advertising on the radio.  </div><div class=\"paragraph\">The <span class=\"tex2jax_process\">$12\\text{ weeks}$</span> following a lengthy advertising campaign showed sales averaging <span class=\"tex2jax_process\">$\\$5{,}785.34$</span> per week with a standard deviation of <span class=\"tex2jax_process\">$\\$385.23$</span>. This compares to an average of <span class=\"tex2jax_process\">$\\$5{,}355$</span> per week in sales before the advertising campaign.  </div><div class=\"paragraph\">Assuming conditions are met, does this data give convincing evidence that the advertising campaign helped?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "No, not at any common alpha levels."
+    },
+    {
+      "letter": "B",
+      "text": "Yes, but at the alpha\n10\n%\nlevel only."
+    },
+    {
+      "letter": "C",
+      "text": "Yes, but at the alpha\n5\n%\nand\n10\n%\nlevels only."
+    },
+    {
+      "letter": "D",
+      "text": "Yes, at the alpha\n1\n%\n,\n5\n%\n, and\n10\n%\nlevels."
+    },
+    {
+      "letter": "E",
+      "text": "Yes, at the alpha =\n1\n%\nlevel, but not\n5\n%\nlevel."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-3.F",
+    "4.B",
+    "DAT-3.E",
+    "VAR-7.E",
+    "DAT-3",
+    "DAT-3.F.2",
+    "VAR-7.E.1",
+    "VAR-7",
+    "3.E",
+    "DAT-3.F.1",
+    "DAT-3.E.1"
+  ],
+  "standards": [
+    "DAT-3.F",
+    "4.B",
+    "DAT-3.E",
+    "VAR-7.E",
+    "DAT-3",
+    "DAT-3.F.2",
+    "VAR-7.E.1",
+    "VAR-7",
+    "3.E",
+    "DAT-3.F.1",
+    "DAT-3.E.1"
+  ]
+}

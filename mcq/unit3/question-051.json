@@ -1,0 +1,48 @@
+{
+  "question_id": "question-051",
+  "title": "Reducing Road Rage through Sampling",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">An engineer has been given the task of adjusting the stop lights at a particular intersection to reduce driver frustration.  To begin his study, the engineer needs to randomly select <span class=\"tex2jax_process\">$20\\text{ days}$</span> from the next calendar year to take traffic measurements.  </div><div class=\"paragraph\">Which of the following correctly describes a method for randomly selecting the <span class=\"tex2jax_process\">$20\\text{ days}$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Write all of the days of the year on individual cards of paper of the same size and put them sequentially in a card box. The days corresponding to the first\n20\n cards\ndrawn will be in the sample."
+    },
+    {
+      "letter": "B",
+      "text": "On each day of the next year, the engineer will flip a coin. If it lands \"heads\" the engineer will take measurements on the intersection that day. If it lands on \"tails\" he will not take measurements that day. The process will be finished after\n20\n days\nhave been selected."
+    },
+    {
+      "letter": "C",
+      "text": "The engineer will assign each day of the year a unique three digit number from\n001\nto\n365\n. He will take\n20\n sets\nof three digits from a random digit table, ignoring repeats and numbers over\n365\n. The days corresponding to the selected numbers will be in the sample."
+    },
+    {
+      "letter": "D",
+      "text": "For the first day of the year, the engineer will draw a single digit from a random number table. If it is even the engineer will take measurements on the intersection that day. If it is odd he will not take measurements that day. The process will be repeated for the subsequent days, until\n20\n days\nhave been selected."
+    },
+    {
+      "letter": "E",
+      "text": "The engineer will look at the calendar and choose the\n20\n days\nfrom the following year that he feels will best represent traffic conditions at that intersection."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-2.C.2",
+    "DAT-2",
+    "DAT-2.D.1",
+    "1.C",
+    "DAT-2.D",
+    "DAT-2.C"
+  ],
+  "standards": [
+    "DAT-2.C.2",
+    "DAT-2",
+    "DAT-2.D.1",
+    "1.C",
+    "DAT-2.D",
+    "DAT-2.C"
+  ]
+}

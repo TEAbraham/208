@@ -1,0 +1,48 @@
+{
+  "question_id": "question-072",
+  "title": "Insurance Premiums",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A company with <span class=\"tex2jax_process\">$500\\text{ employees}$</span> wants to have its group health insurance premiums lowered.  </div><div class=\"paragraph\">The Human Resources (HR) team sent out a questionnaire to every employee, which everyone filled out and returned. One question appears below:</div><div class=\"paragraph\"><em>What have you done in the past year to improve your health? (Circle all that apply.)</em></div><blockquote><div class=\"paragraph\"><em>A. I have eaten healthier.<br>B. I have exercised regularly.</em>  </div></blockquote><div class=\"paragraph\">When the results were tabulated, the HR clerk found that <span class=\"tex2jax_process\">$140\\text{ people}$</span> circled response A, <span class=\"tex2jax_process\">$290\\text{ people}$</span> circled response B, and <span class=\"tex2jax_process\">$50\\text{ people}$</span> circled both responses A and B.  </div><div class=\"paragraph\">What percent of company employees circled neither A nor B?</div>",
+  "image_files": [
+    "images/question-072-img1.png"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "14\n%"
+    },
+    {
+      "letter": "B",
+      "text": "24\n%"
+    },
+    {
+      "letter": "C",
+      "text": "36\n%"
+    },
+    {
+      "letter": "D",
+      "text": "76\n%"
+    },
+    {
+      "letter": "E",
+      "text": "86\n%"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ],
+  "standards": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ]
+}

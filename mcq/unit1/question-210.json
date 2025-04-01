@@ -1,0 +1,44 @@
+{
+  "question_id": "question-210",
+  "title": "Z-score: How Fast Are You?",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Students in an AP Statistics class wanted to measure how fast, in miles per hour, they could throw a tennis ball into the wall.  A student had a standardized score of <span class=\"tex2jax_process\">$1.2$</span>.  </div><div class=\"paragraph\">If the units were changed from miles per hour to feet per second, what would be the new standardized score?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "−\n1.2"
+    },
+    {
+      "letter": "B",
+      "text": "−\n1.76"
+    },
+    {
+      "letter": "C",
+      "text": "0"
+    },
+    {
+      "letter": "D",
+      "text": "1.76"
+    },
+    {
+      "letter": "E",
+      "text": "1.2"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.C.1",
+    "2.D",
+    "VAR-2.C",
+    "VAR-2"
+  ],
+  "standards": [
+    "VAR-2.C.1",
+    "2.D",
+    "VAR-2.C",
+    "VAR-2"
+  ]
+}

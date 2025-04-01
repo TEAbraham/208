@@ -1,0 +1,46 @@
+{
+  "question_id": "question-011",
+  "title": "Prom Costs: Upper Bound of Confidence Interval",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A group of students decided to construct a confidence interval to estimate the average cost of attending prom in their area.  To gather data they surveyed a random sample of students who attended prom and surveyed them about how much they had spent.  </div><div class=\"paragraph\">If the sample mean was <span class=\"tex2jax_process\">$\\$914.32$</span> and the lower bound of their confidence interval was <span class=\"tex2jax_process\">$\\$863.57$</span>, what was the largest cost estimated by the confidence interval?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$\n50.75"
+    },
+    {
+      "letter": "B",
+      "text": "$\n101.50"
+    },
+    {
+      "letter": "C",
+      "text": "$\n939.70"
+    },
+    {
+      "letter": "D",
+      "text": "$\n965.07"
+    },
+    {
+      "letter": "E",
+      "text": "$\n1,015.82"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "3.D",
+    "UNC-4",
+    "UNC-4.R",
+    "UNC-4.R.2",
+    "UNC-4.R.1"
+  ],
+  "standards": [
+    "3.D",
+    "UNC-4",
+    "UNC-4.R",
+    "UNC-4.R.2",
+    "UNC-4.R.1"
+  ]
+}

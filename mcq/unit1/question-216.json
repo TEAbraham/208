@@ -1,0 +1,44 @@
+{
+  "question_id": "question-216",
+  "title": "Adjustments to Population",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">A random variable is normally distributed with <span class=\"tex2jax_process\">$\\mu = 25$</span> and <span class=\"tex2jax_process\">$\\sigma = 5$</span>.  </div><div class=\"paragraph\">What are the new mean and standard deviation if you multiply each value in the underlying population by <span class=\"tex2jax_process\">$2$</span> and then add <span class=\"tex2jax_process\">$10$</span>?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "μ\n=\n50\n;\nσ\n=\n5"
+    },
+    {
+      "letter": "B",
+      "text": "μ\n=\n50\n;\nσ\n=\n20"
+    },
+    {
+      "letter": "C",
+      "text": "μ\n=\n60\n;\nσ\n=\n√\n60"
+    },
+    {
+      "letter": "D",
+      "text": "μ\n=\n60\n;\nσ\n=\n10"
+    },
+    {
+      "letter": "E",
+      "text": "μ\n=\n60\n;\nσ\n=\n20"
+    }
+  ],
+  "correct_answer": "​<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "2.D",
+    "VAR-2",
+    "VAR-2.A",
+    "VAR-2.A.2"
+  ],
+  "standards": [
+    "2.D",
+    "VAR-2",
+    "VAR-2.A",
+    "VAR-2.A.2"
+  ]
+}

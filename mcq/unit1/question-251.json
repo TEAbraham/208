@@ -1,0 +1,50 @@
+{
+  "question_id": "question-251",
+  "title": "Mens' Heights: Correct Z-score Equation When Given Percentile",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Men's heights are approximately normally distributed with a mean of <span class=\"tex2jax_process\">$69\\text{ inches}$</span> and a standard deviation of <span class=\"tex2jax_process\">$2.8\\text{ inches}$</span>.  </div><div class=\"paragraph\">Which of the following equations can be used to find the height <span class=\"tex2jax_process\">$x$</span> in which <span class=\"tex2jax_process\">$24\\%$</span> of the heights fall below?</div>",
+  "image_files": [
+    "images/question-251-img1.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "−\n0.71\n=\nx\n−\n69\n2.8"
+    },
+    {
+      "letter": "B",
+      "text": "−\n0.71\n=\n69\n−\nx\n2.8"
+    },
+    {
+      "letter": "C",
+      "text": "0.24\n=\nx\n−\n69\n2.8"
+    },
+    {
+      "letter": "D",
+      "text": "0.71\n=\n69\n+\nx\n2.8"
+    },
+    {
+      "letter": "E",
+      "text": "0.71\n=\nx\n−\n69\n2.8"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2"
+  ],
+  "standards": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2"
+  ]
+}

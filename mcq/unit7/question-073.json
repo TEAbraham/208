@@ -1,0 +1,46 @@
+{
+  "question_id": "question-073",
+  "title": "Statistical Significance at Various $\\alpha$ Levels",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">In a hypothesis test for a population mean, results were found to be statistically significant at the <span class=\"tex2jax_process\">$\\alpha = 0.02$</span> level.  </div><div class=\"paragraph\">Which of the following statements would also be true about the results of this test?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The results would be statistically significant at the\nα\n=\n0.01\nlevel."
+    },
+    {
+      "letter": "B",
+      "text": "The p-value obtained for this test was\np\n=\n0.02\n."
+    },
+    {
+      "letter": "C",
+      "text": "The results would be statistically significant at the\nα\n=\n0.05\nlevel."
+    },
+    {
+      "letter": "D",
+      "text": "Since the results were statistically significant at the\nα\n=\n0.02\nlevel, we have sufficient evidence to prove that our null hypothesis was false."
+    },
+    {
+      "letter": "E",
+      "text": "A mistake was made in considering the results to be statistically significant. We can only consider our results to be statistically significant if\nα\n>\n0.05\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "DAT-3.F",
+    "4.E",
+    "DAT-3",
+    "DAT-3.F.2",
+    "DAT-3.F.1"
+  ],
+  "standards": [
+    "DAT-3.F",
+    "4.E",
+    "DAT-3",
+    "DAT-3.F.2",
+    "DAT-3.F.1"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-038",
+  "title": "Disney Princesses Put to the Test",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Ava loves all of the Disney princesses, but her favorite is Elsa, from the movie <em>Frozen</em>. She thinks everyone should love Elsa, and she just can't let it go! Ava wants to survey a large sample of young girls and ask them to vote for their favorite princess from the following list:</div><blockquote><div class=\"paragraph\">Ariel<br>Belle<br>Elsa<br>Jasmine<br>Mulan  </div></blockquote><div class=\"paragraph\">Ava believes that <span class=\"tex2jax_process\">$40\\%$</span> of young girls would choose Elsa. What type of significance test should she conduct in order to test this theory?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "One-sample\nt\n-test for proportions."
+    },
+    {
+      "letter": "B",
+      "text": "One-sample\nz\n-test for proportions."
+    },
+    {
+      "letter": "C",
+      "text": "A\nz\n-test for a difference in proportions."
+    },
+    {
+      "letter": "D",
+      "text": "χ\n2\ntest for goodness of fit."
+    },
+    {
+      "letter": "E",
+      "text": "χ\n2\ntest for independence."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "1.F",
+    "VAR-6.D.5",
+    "VAR-6.D",
+    "VAR-6"
+  ],
+  "standards": [
+    "1.F",
+    "VAR-6.D.5",
+    "VAR-6.D",
+    "VAR-6"
+  ]
+}

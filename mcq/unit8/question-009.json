@@ -1,0 +1,44 @@
+{
+  "question_id": "question-009",
+  "title": "Rejection of Null Hypothesis",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">Which of the following statements correctly describes strong evidence for rejection of the null hypothesis?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The experimental outcome yields a test statistic of\n0\n."
+    },
+    {
+      "letter": "B",
+      "text": "The experimental results, gleaned from a simple random sample of subjects from the population, are consistent with the statement contained in the null hypothesis."
+    },
+    {
+      "letter": "C",
+      "text": "The experimental results obtained would be very unlikely if the null hypothesis were true."
+    },
+    {
+      "letter": "D",
+      "text": "The value of the test statistic of one sample is different from the value of the test statistic obtained from a different sample from the same population."
+    },
+    {
+      "letter": "E",
+      "text": "The p-value is\n0.32\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-1.J",
+    "VAR-1.J.1",
+    "1.A",
+    "VAR-1"
+  ],
+  "standards": [
+    "VAR-1.J",
+    "VAR-1.J.1",
+    "1.A",
+    "VAR-1"
+  ]
+}

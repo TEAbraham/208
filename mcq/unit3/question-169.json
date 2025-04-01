@@ -1,0 +1,48 @@
+{
+  "question_id": "question-169",
+  "title": "Research Designs: Diabetes Drug",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A researcher wants to determine the effectiveness of a new diabetes drug to control blood sugar levels.  </div><div class=\"paragraph\">The clinic where he will be conducting his research has <span class=\"tex2jax_process\">$500\\text{ patients}$</span> following a diet plan that was formulated to help control blood sugar levels. The researcher would like to use these <span class=\"tex2jax_process\">$500\\text{ patients}$</span> to determine what the effectiveness of <span class=\"tex2jax_process\">$60\\text{ mg}$</span>, <span class=\"tex2jax_process\">$80\\text{ mg}$</span>, and <span class=\"tex2jax_process\">$100\\text{ mg}$</span> pills would have on blood sugar levels.  </div><div class=\"paragraph\">Which of the following research designs would be the most appropriate?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A randomized block design by diet plan for the three levels of drug dosage."
+    },
+    {
+      "letter": "B",
+      "text": "A stratified random sample where the experimental design has four strata, one for each of the drug dosage levels and one placebo/control group."
+    },
+    {
+      "letter": "C",
+      "text": "A double-blind study with patients assigned randomly to one of four groups, one for each of the drug dosage levels and one placebo/control group."
+    },
+    {
+      "letter": "D",
+      "text": "A stratified random sample with no placebo/control group since there are already three groups that can be measured against one another."
+    },
+    {
+      "letter": "E",
+      "text": "A research design is only necessary when sample is conducted, so there is no need for an experimental design since the entire population of\n500\n patients\nat this clinic is being measured."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3.D",
+    "VAR-3.E.1",
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.D.1"
+  ],
+  "standards": [
+    "VAR-3.D",
+    "VAR-3.E.1",
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.D.1"
+  ]
+}

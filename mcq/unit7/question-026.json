@@ -1,0 +1,44 @@
+{
+  "question_id": "question-026",
+  "title": "Swordfish Growth Rates",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A marine biologist was interested in the average annual growth rate of swordfish.  </div><div class=\"paragraph\">A sampling of <span class=\"tex2jax_process\">$16\\text{ tagged swordfish}$</span> found a mean growth rate of <span class=\"tex2jax_process\">$1.4\\text{ feet}$</span> with a standard deviation of <span class=\"tex2jax_process\">$0.23\\text{ feet}$</span>. The confidence interval estimated the true mean growth rate is most likely somewhere between <span class=\"tex2jax_process\">$1.2306$</span> and <span class=\"tex2jax_process\">$1.5694\\text{ feet}$</span>.  </div><div class=\"paragraph\">The given interval has what level of confidence?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "90\n%"
+    },
+    {
+      "letter": "B",
+      "text": "95\n%"
+    },
+    {
+      "letter": "C",
+      "text": "98\n%"
+    },
+    {
+      "letter": "D",
+      "text": "99\n%"
+    },
+    {
+      "letter": "E",
+      "text": "Unable to determine."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.Q.3",
+    "3.D",
+    "UNC-4",
+    "UNC-4.Q"
+  ],
+  "standards": [
+    "UNC-4.Q.3",
+    "3.D",
+    "UNC-4",
+    "UNC-4.Q"
+  ]
+}

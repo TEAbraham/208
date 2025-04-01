@@ -1,0 +1,44 @@
+{
+  "question_id": "question-087",
+  "title": "Correlation: Boating Accidents",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Recent studies have found a strong, positive correlation with ice cream sales and boating accidents.  </div><div class=\"paragraph\">This correlation can best be described by the fact that</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Ice cream must somehow cause boating accidents."
+    },
+    {
+      "letter": "B",
+      "text": "This correlation is simply a coincidence that could have easily happened by chance."
+    },
+    {
+      "letter": "C",
+      "text": "Temperature is likely a common response variable."
+    },
+    {
+      "letter": "D",
+      "text": "The sample must have been too small to draw any reasonable conclusions about ice cream and boating accidents."
+    },
+    {
+      "letter": "E",
+      "text": "The sample must have been gathered in a biased manner to get such an absurd statement."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-3",
+    "VAR-3.A",
+    "VAR-3.A.4",
+    "1.B"
+  ],
+  "standards": [
+    "VAR-3",
+    "VAR-3.A",
+    "VAR-3.A.4",
+    "1.B"
+  ]
+}

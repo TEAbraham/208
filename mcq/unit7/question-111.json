@@ -1,0 +1,44 @@
+{
+  "question_id": "question-111",
+  "title": "Computer Output T-Test | 2 of 2",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A study on women’s weights was recently completed.  </div><div class=\"paragraph\">Fifteen randomly selected high school females from an urban setting were compared to <span class=\"tex2jax_process\">$16$</span> randomly selected high school females from a rural setting. Assume that the distribution of both populations are approximately normal. The results are below:</div><div class=\"paragraph\"><strong>Two-Sample T for Urban Weights vs. Rural Weights</strong>\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\"></th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">StDev</th><th scope=\"col\">SE Mean</th></tr></thead><tbody><tr><td>Urban Weights</td><td>15</td><td>126.1</td><td>10.5</td><td>2.7</td></tr><tr><td>Rural Weights</td><td>16</td><td>128.8</td><td>13.2</td><td>3.3</td></tr></tbody></table></div><br><div class=\"paragraph\"><br><span class=\"tex2jax_process\">$\\text{Difference }= \\mu \\text{(Urban Weights)} - \\mu \\text{(Rural Weights)}$</span>  </div><div class=\"paragraph\">Estimate for difference: <span class=\"tex2jax_process\">$-2.68$</span>    </div><div class=\"paragraph\"><span class=\"tex2jax_process\">$95\\%$</span> confidence interval for difference: (<span class=\"tex2jax_process\">$-11.45, 6.09$</span>)    </div><div class=\"paragraph\"><span class=\"tex2jax_process\">$\\text{T-test of difference }= 0$</span><br><span class=\"tex2jax_process\">$\\text{T-value }= -0.63$</span><br><span class=\"tex2jax_process\">$\\text{P-value }= 0.537$</span><br><span class=\"tex2jax_process\">$\\text{DF }= 28$</span>  </div><div class=\"paragraph\">What conclusions can be made on rural versus urban weights based on the confidence interval above?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Rural high school females weigh about\n2.68\n pounds\nmore than urban high school females."
+    },
+    {
+      "letter": "B",
+      "text": "Rural high school females weigh about\n2.68\n pounds\nless than urban high school females."
+    },
+    {
+      "letter": "C",
+      "text": "No evidence exists of a significant difference between urban and rural high school female weights since the interval contains\n0\n."
+    },
+    {
+      "letter": "D",
+      "text": "No evidence exists of a significant difference between urban and rural high school female weights since the interval contains\n2.68\n."
+    },
+    {
+      "letter": "E",
+      "text": "Intervals such as this one will capture the sample mean difference in\n95\n%\nof repeated samples."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-4.A.1",
+    "UNC-4.AA",
+    "UNC-4",
+    "4.A"
+  ],
+  "standards": [
+    "UNC-4.A.1",
+    "UNC-4.AA",
+    "UNC-4",
+    "4.A"
+  ]
+}

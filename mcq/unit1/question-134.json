@@ -1,0 +1,46 @@
+{
+  "question_id": "question-134",
+  "title": "Penguin: Determining Outliers",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A random sample of the weights of <span class=\"tex2jax_process\">$40\\text{ Emperor penguins}$</span> (in pounds) is taken.  The table below displays the summary statistics.<br><br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">Median</th><th scope=\"col\">Standard Deviation</th><th scope=\"col\">Minimum</th><th scope=\"col\">Q1</th><th scope=\"col\">Q3</th><th scope=\"col\">Maximum</th></tr></thead><tbody><tr><td>Weight</td><td>40</td><td>56.1</td><td>42.3</td><td>7.2</td><td>21.3</td><td>32.5</td><td>54.2</td><td>88.7</td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Using the IQR method, which conclusion can be drawn about the number of outliers in this data set?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There are\n0\noutliers."
+    },
+    {
+      "letter": "B",
+      "text": "There is at least\n1\noutlier."
+    },
+    {
+      "letter": "C",
+      "text": "There are no more than\n1\noutlier."
+    },
+    {
+      "letter": "D",
+      "text": "There are at least\n2\noutliers."
+    },
+    {
+      "letter": "E",
+      "text": "There are no more than\n2\noutliers."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.L.1",
+    "UNC-1.L.2",
+    "2.B",
+    "UNC-1.L",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.L.1",
+    "UNC-1.L.2",
+    "2.B",
+    "UNC-1.L",
+    "UNC-1"
+  ]
+}

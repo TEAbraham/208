@@ -1,0 +1,46 @@
+{
+  "question_id": "question-003",
+  "title": "Men's and Women's Cholesterol Levels",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Having a cholesterol level above <span class=\"tex2jax_process\">$200\\text{ mg/dL}$</span> is a definite cause for concern.  Do women have more reason to be concerned than men?  </div><div class=\"paragraph\">On average, men's cholesterol level is <span class=\"tex2jax_process\">$191\\text{ mg/dL}$</span> with a standard deviation of <span class=\"tex2jax_process\">$46\\text{ mg/dL}$</span>.  For women, the average is <span class=\"tex2jax_process\">$196\\text{ mg/dL}$</span> with a standard deviation of <span class=\"tex2jax_process\">$44\\text{ mg/dL}$</span>.  </div><div class=\"paragraph\">A computer randomly selects the medical records of <span class=\"tex2jax_process\">$30\\text{ men}$</span> and <span class=\"tex2jax_process\">$30\\text{ women}$</span> and calculates the difference of the average cholesterol level of the two genders.  This process is repeated many times.  </div><div class=\"paragraph\">What is the standard deviation of the sampling distribution of the difference of the mean cholesterol levels for men and women?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "σ\n¯¯¯\nx\nM\n−\n¯¯¯\nx\nW\n=\n√\n46\n2\n+\n44\n2"
+    },
+    {
+      "letter": "B",
+      "text": "σ\n¯¯¯\nx\nM\n−\n¯¯¯\nx\nW\n=\n√\n46\n30\n+\n44\n30"
+    },
+    {
+      "letter": "C",
+      "text": "σ\n¯¯¯\nx\nM\n−\n¯¯¯\nx\nW\n=\n√\n46\n2\n30\n+\n44\n2\n30"
+    },
+    {
+      "letter": "D",
+      "text": "σ\n¯¯¯\nx\nM\n−\n¯¯¯\nx\nW\n=\n√\n46\n2\n+\n44\n2\n30"
+    },
+    {
+      "letter": "E",
+      "text": "σ\n¯¯¯\nx\nM\n−\n¯¯¯\nx\nW\n=\n√\n46\n2\n30\n+\n√\n44\n2\n30"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-3.T.2",
+    "UNC-3.T",
+    "UNC-3.T.1",
+    "UNC-3",
+    "3.B"
+  ],
+  "standards": [
+    "UNC-3.T.2",
+    "UNC-3.T",
+    "UNC-3.T.1",
+    "UNC-3",
+    "3.B"
+  ]
+}

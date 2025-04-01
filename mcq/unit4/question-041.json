@@ -1,0 +1,44 @@
+{
+  "question_id": "question-041",
+  "title": "Probability: Mutually Exclusive and Independent Events",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">Classic Colonials has made a bid to build two houses.  Don, the owner of the company,  anticipates that  </div><ul><li>the probability Classic Colonials wins the bid on the first house (event <em>F</em>) is <span class=\"tex2jax_process\">$0.95$</span>.</li><li>the probability Classic Colonials wins the bid on the second house (event <em>S</em>) is <span class=\"tex2jax_process\">$0.90$</span></li><li>the probability Classic Colonials wins the bid on both houses (event(<em>F</em> and <em>S</em>)) is <span class=\"tex2jax_process\">$0.90$</span></li></ul><div class=\"paragraph\">If Don’s probabilities are correct, which of the following statements must be true about events <em>F</em> and <em>S</em>.</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Event F and event S are not mutually exclusive and are independent."
+    },
+    {
+      "letter": "B",
+      "text": "Event F and event S are not mutually exclusive and are not independent."
+    },
+    {
+      "letter": "C",
+      "text": "Event F and event S are mutually exclusive and are not independent."
+    },
+    {
+      "letter": "D",
+      "text": "Event F and event S are mutually exclusive and are independent."
+    },
+    {
+      "letter": "E",
+      "text": "Mutually exclusive and independence of events F and S cannot be determined with the information given."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "VAR-4.C",
+    "VAR-4",
+    "VAR-4.C.2"
+  ],
+  "standards": [
+    "4.B",
+    "VAR-4.C",
+    "VAR-4",
+    "VAR-4.C.2"
+  ]
+}

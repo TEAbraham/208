@@ -1,0 +1,46 @@
+{
+  "question_id": "question-031",
+  "title": "Marginal Distributions from a Graph",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">A school club was asked to produce information about the gender and class level of those belonging to the club.  The club President decided to provide the information in the form of the graph shown below.  </div><div class=\"u-display_flex u-justify-content_center\"><div class=\"u-display_flex u-justify-content_center u-mar-b_2\"><svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"spinner\" class=\"svg-inline--fa fa-spinner fa-pulse fa-fw fa-2x a-icon content-inherit\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M304 48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zm0 416a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM48 304a48 48 0 1 0 0-96 48 48 0 1 0 0 96zm464-48a48 48 0 1 0 -96 0 48 48 0 1 0 96 0zM142.9 437A48 48 0 1 0 75 369.1 48 48 0 1 0 142.9 437zm0-294.2A48 48 0 1 0 75 75a48 48 0 1 0 67.9 67.9zM369.1 437A48 48 0 1 0 437 369.1 48 48 0 1 0 369.1 437z\"></path></svg><label class=\"sr-only\"><progress></progress>Loading question supplement...</label></div></div><div class=\"paragraph\">  </div><div class=\"paragraph\">Find the marginal distribution of class level using percents.</div>",
+  "image_files": [
+    "images/question-031-img1.PNG"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Female:\n52.63\n%\n\nMale:\n47.37\n%"
+    },
+    {
+      "letter": "B",
+      "text": "Freshman:\n13.16\n%\n\nSophomore:\n15\n,\n79\n%\n\nJunior:\n13.16\n%\n\nSenior:\n10.53\n%"
+    },
+    {
+      "letter": "C",
+      "text": "Freshman:\n5.26\n%\n\nSophomore:\n13.16\n%\n\nJunior:\n18.42\n%\n\nSenior:\n10.53\n%"
+    },
+    {
+      "letter": "D",
+      "text": "Freshman:\n18.42\n%\n\nSophomore:\n28.95\n%\n\nJunior:\n31.58\n%\n\nSenior:\n21.05\n%"
+    },
+    {
+      "letter": "E",
+      "text": "Freshman:\n14\n\nSophomore:\n22\n\nJunior:\n24\n\nSenior:\n16"
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.Q.1",
+    "2.C",
+    "UNC-1.Q",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.Q.1",
+    "2.C",
+    "UNC-1.Q",
+    "UNC-1"
+  ]
+}

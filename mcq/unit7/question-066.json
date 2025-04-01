@@ -1,0 +1,44 @@
+{
+  "question_id": "question-066",
+  "title": "$t$-statistics and $p$-values",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">From a set of <span class=\"tex2jax_process\">$5\\text{ observations}$</span>, a matched pairs <span class=\"tex2jax_process\">$t$</span>-test was conducted using a one-sided (less than) alternative hypothesis.  </div><div class=\"paragraph\">If the <span class=\"tex2jax_process\">$t$</span>-statistic was <span class=\"tex2jax_process\">$-0.83$</span>, what was the <span class=\"tex2jax_process\">$p$</span>-value?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "−\n0.83"
+    },
+    {
+      "letter": "B",
+      "text": "0.2"
+    },
+    {
+      "letter": "C",
+      "text": "0.23"
+    },
+    {
+      "letter": "D",
+      "text": "0.83"
+    },
+    {
+      "letter": "E",
+      "text": "The\np\n-value cannot be determined from the information provided."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'C'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3.E",
+    "DAT-3",
+    "DAT-3.E.1"
+  ],
+  "standards": [
+    "4.B",
+    "DAT-3.E",
+    "DAT-3",
+    "DAT-3.E.1"
+  ]
+}

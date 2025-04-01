@@ -1,0 +1,46 @@
+{
+  "question_id": "question-057",
+  "title": "Tests for Two-Way Tables",
+  "difficulty": "Easy",
+  "question_text": "<div class=\"paragraph\">Which inferential procedure(s) could be constructed from a two-way table?</div><blockquote><div class=\"paragraph\"><strong>I.</strong> Chi-squared test for association.<br><strong>II.</strong> Chi-squared test for homogeneity.<br><strong>III.</strong> Two-proportion <span class=\"tex2jax_process\">$Z$</span>-test.    </div></blockquote>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "I and II only."
+    },
+    {
+      "letter": "D",
+      "text": "II and III only."
+    },
+    {
+      "letter": "E",
+      "text": "I, II, and III."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'E'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-8.J.2",
+    "VAR-8.J.1",
+    "VAR-8",
+    "1.E",
+    "VAR-8.J"
+  ],
+  "standards": [
+    "VAR-8.J.2",
+    "VAR-8.J.1",
+    "VAR-8",
+    "1.E",
+    "VAR-8.J"
+  ]
+}

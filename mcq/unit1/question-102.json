@@ -1,0 +1,44 @@
+{
+  "question_id": "question-102",
+  "title": "Men's Weights",
+  "difficulty": "Difficult",
+  "question_text": "<div class=\"paragraph\">The statistics below provide a summary of the distribution of weight, in pounds, from a sample of one hundred adult men:</div><blockquote><div class=\"paragraph\">Minimum: <span class=\"tex2jax_process\">$138\\text{ pounds}$</span><br>First Quartile: <span class=\"tex2jax_process\">$153\\text{ pounds}$</span><br>Median: <span class=\"tex2jax_process\">$171\\text{ pounds}$</span><br>Third Quartile: <span class=\"tex2jax_process\">$192\\text{ pounds}$</span><br>Maximum: <span class=\"tex2jax_process\">$213\\text{ pounds}$</span>  </div></blockquote><div class=\"paragraph\">Which of the following statements is always FALSE?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "75\nof the men in this sample weigh at least\n192\n pounds\n."
+    },
+    {
+      "letter": "B",
+      "text": "25\nof the men in this sample weigh, at most,\n153\n pounds\n."
+    },
+    {
+      "letter": "C",
+      "text": "50\nof the men in this sample can weigh, at most,\n171\n pounds\n."
+    },
+    {
+      "letter": "D",
+      "text": "50\nof the men in this sample can weigh at least\n171\n pounds\n."
+    },
+    {
+      "letter": "E",
+      "text": "25\nof the men in this sample weigh at least\n192\n pounds\n."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'A'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "UNC-1.I.4",
+    "2.C",
+    "UNC-1.I",
+    "UNC-1"
+  ],
+  "standards": [
+    "UNC-1.I.4",
+    "2.C",
+    "UNC-1.I",
+    "UNC-1"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-082",
+  "title": "Activities vs. GPAs: True or False? | 1 of 2",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">A random survey was conducted at a large suburban high school to determine if a relationship exists between being involved in extracurricular activities and higher grades. Extracurricular activities involve music, athletics, both activities, or neither. Grades are based off of grade point average (GPA).  </div><div class=\"paragraph\">The data is presented in the two-way table below:\n<br>  </div><div class=\"markdown-table-wrapper\"><table><thead><tr><th scope=\"col\">--</th><th scope=\"col\">Music</th><th scope=\"col\">Athletics</th><th scope=\"col\">Both</th><th scope=\"col\">Neither</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>GPA <span class=\"tex2jax_process\">$&lt;2.0$</span></td><td><span class=\"tex2jax_process\">$8$</span></td><td><span class=\"tex2jax_process\">$11$</span></td><td><span class=\"tex2jax_process\">$4$</span></td><td><span class=\"tex2jax_process\">$14$</span></td><td><span class=\"tex2jax_process\">$37$</span></td></tr><tr><td><span class=\"tex2jax_process\">$2.0\\le$</span> GPA <span class=\"tex2jax_process\">$\\le 3.0$</span></td><td><span class=\"tex2jax_process\">$19$</span></td><td><span class=\"tex2jax_process\">$19$</span></td><td><span class=\"tex2jax_process\">$25$</span></td><td><span class=\"tex2jax_process\">$16$</span></td><td><span class=\"tex2jax_process\">$79$</span></td></tr><tr><td>GPA <span class=\"tex2jax_process\">$\\ge 3.0$</span></td><td><span class=\"tex2jax_process\">$20$</span></td><td><span class=\"tex2jax_process\">$7$</span></td><td><span class=\"tex2jax_process\">$15$</span></td><td><span class=\"tex2jax_process\">$17$</span></td><td><span class=\"tex2jax_process\">$59$</span></td></tr><tr><td>Total</td><td><span class=\"tex2jax_process\">$47$</span></td><td><span class=\"tex2jax_process\">$37$</span></td><td><span class=\"tex2jax_process\">$44$</span></td><td><span class=\"tex2jax_process\">$47$</span></td><td><span class=\"tex2jax_process\">$175$</span></td></tr></tbody></table></div><br><div class=\"paragraph\"><br>Based on the information in the table, which of the following statements is/are true? </div><blockquote><div class=\"paragraph\"><strong>I.</strong> A two-way table does not make sense in this situation because GPA is quantitative.  </div><div class=\"paragraph\"><strong>II. </strong> The Neither group has a relatively even distribution of GPAs.  </div><div class=\"paragraph\"><strong>III.</strong> Most students surveyed at this school have a GPA under <span class=\"tex2jax_process\">$2.0$</span>.    </div></blockquote>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and II only."
+    },
+    {
+      "letter": "E",
+      "text": "I, II, and III."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'B'</strong> is the correct answer.",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ],
+  "standards": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ]
+}

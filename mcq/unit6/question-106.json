@@ -1,0 +1,46 @@
+{
+  "question_id": "question-106",
+  "title": "Interpreting a Confidence Interval",
+  "difficulty": "Moderate",
+  "question_text": "<div class=\"paragraph\">In <span class=\"tex2jax_process\">$2014$</span>, the FIFA (Men's) World Cup was held in Brazil.  In <span class=\"tex2jax_process\">$2016$</span>, Brazil also hosted the Summer Olympics.  </div><div class=\"paragraph\">Researchers decided to investigate which fans knew where their next big event would be held.  </div><div class=\"paragraph\">In <span class=\"tex2jax_process\">$2014$</span>, researchers asked a random sample of fans attending the FIFA World Cup to identify where the next World Cup would be held.  Of those fans surveyed, <span class=\"tex2jax_process\">$61\\%$</span> correctly said that the next World Cup was scheduled to be held in Russia.  </div><div class=\"paragraph\">In <span class=\"tex2jax_process\">$2016$</span>, researchers also asked a random sample of fans attending the Summer Olympics to identify where the next Summer Olympics would be held. Of those fans surveyed, <span class=\"tex2jax_process\">$56\\%$</span> correctly identified that the next Summer Olympics were scheduled to be held in Japan.  </div><div class=\"paragraph\">A <span class=\"tex2jax_process\">$95\\%$</span> confidence interval for the difference in population proportions (World Cup fans - Summer Olympics fans) was constructed and found to be <span class=\"tex2jax_process\">$(-0.04, 0.14)$</span>.  </div><div class=\"paragraph\">Which of the following provides the best interpretation of this confidence interval?</div>",
+  "image_files": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The probability that a World Cup fan will know where the next World Cup will be held is\n95\n%\nhigher than the probability that a Summer Olympics fan will know where the next Summer Olympics will be held, but the proportion for both fans is somewhere between\n−\n0.04\nand\n0.14\n."
+    },
+    {
+      "letter": "B",
+      "text": "There is a\n95\n%\nchance that the percent of World Cup fans who know that the next World Cup will be held in Russia is between\n4\n%\nless and\n14\n%\nmore than the percent of Summer Olympics fans who know that the next Summer Olympics will be held in Japan."
+    },
+    {
+      "letter": "C",
+      "text": "The researchers are\n95\n%\nconfident that between\n4\n%\nless and\n14\n%\nmore of the World Cup fans surveyed knew where their next big event would be held than did Summer Olympics fans who were surveyed."
+    },
+    {
+      "letter": "D",
+      "text": "The researchers are\n95\n%\nconfident that the percent of fans attending the\n2014\nWorld Cup who know where their next big event will be held is somewhere between\n14\n%\nhigher and\n4\n%\nlower than the percent of fans attending the\n2016\nSummer Olympics who know where their next big event will be held."
+    },
+    {
+      "letter": "E",
+      "text": "The researchers are\n95\n%\nconfident that the proportion of World Cup fans who know where their next big event will be held is somewhere between\n0.04\nhigher and\n0.14\nlower than the proportion of Summer Olympics fans who know where their next big event will be held."
+    }
+  ],
+  "correct_answer": "<strong>Choice 'D'</strong> is the correct answer.  ",
+  "solution": "",
+  "distractor_explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-4.M",
+    "UNC-4",
+    "UNC-4.M.1",
+    "UNC-4.M.2"
+  ],
+  "standards": [
+    "4.B",
+    "UNC-4.M",
+    "UNC-4",
+    "UNC-4.M.1",
+    "UNC-4.M.2"
+  ]
+}
