@@ -1,0 +1,71 @@
+---
+title: "Interactive Discrete Distributions"
+format: html
+execute: 
+  enabled: true
+ojs: true
+---
+
+```{ojs}
+// Load modules safely inside a single cell
+Plot = await require("@observablehq/plot@0.6")
+Inputs = await require("@observablehq/inputs@0.10")
+d3 = await import("https://cdn.jsdelivr.net/npm/d3@7/+esm")
+```
+
+# Binomial Distribution
+
+```{ojs}
+viewof binom_n = Inputs.range([1, 50], {value: 10, step: 1, label: "Number of Trials (n)"})
+viewof binom_p = Inputs.range([0.01, 1], {value: 0.5, step: 0.01, label: "Probability of Success (p)"})
+```
+
+```{ojs}
+function factorial(n) {
+  return n <= 1 ? 1 : n * factorial(n - 1);
+}
+
+function binomialPMF(n, p, k) {
+  const coeff = factorial(n) / (factorial(k) * factorial(n - k));
+  return coeff * Math.pow(p, k) * Math.pow(1 - p, n - k);
+}
+
+Plot.plot({
+  height: 300,
+  marks: [
+    Plot.barY(
+      d3.range(0, binom_n + 1),
+      {x: d => d, y: d => binomialPMF(binom_n, binom_p, d), fill: "#64bdff"}
+    ),
+    Plot.ruleY([0])
+  ],
+  x: {label: "Number of Successes"},
+  y: {label: "Probability", domain: [0, 1]}
+})
+```
+
+# Geometric Distribution
+
+```{ojs}
+viewof geom_p = Inputs.range([0.01, 1], {value: 0.3, step: 0.01, label: "Probability of Success (p)"})
+viewof geom_max_trials = Inputs.range([1, 50], {value: 15, step: 1, label: "Max Number of Trials"})
+```
+
+```{ojs}
+function geometricPMF(p, k) {
+  return Math.pow(1 - p, k - 1) * p;
+}
+
+Plot.plot({
+  height: 300,
+  marks: [
+    Plot.barY(
+      d3.range(1, geom_max_trials + 1),
+      {x: d => d, y: d => geometricPMF(geom_p, d), fill: "#FF9B3C"}
+    ),
+    Plot.ruleY([0])
+  ],
+  x: {label: "Trial of First Success"},
+  y: {label: "Probability", domain: [0, 1]}
+})
+```
