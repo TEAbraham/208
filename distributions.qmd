@@ -7,6 +7,7 @@ ojs: true
 ---
 
 ```{ojs}
+//| echo: false
 // Load modules safely inside a single cell
 Plot = await require("@observablehq/plot@0.6")
 Inputs = await require("@observablehq/inputs@0.10")
@@ -16,11 +17,14 @@ d3 = await import("https://cdn.jsdelivr.net/npm/d3@7/+esm")
 # Binomial Distribution
 
 ```{ojs}
+//| echo: false
+
 viewof binom_n = Inputs.range([1, 50], {value: 10, step: 1, label: "Number of Trials (n)"})
 viewof binom_p = Inputs.range([0.01, 1], {value: 0.5, step: 0.01, label: "Probability of Success (p)"})
 ```
 
 ```{ojs}
+//| echo: false
 function factorial(n) {
   return n <= 1 ? 1 : n * factorial(n - 1);
 }
@@ -47,11 +51,15 @@ Plot.plot({
 # Geometric Distribution
 
 ```{ojs}
+//| echo: false
+
 viewof geom_p = Inputs.range([0.01, 1], {value: 0.3, step: 0.01, label: "Probability of Success (p)"})
 viewof geom_max_trials = Inputs.range([1, 50], {value: 15, step: 1, label: "Max Number of Trials"})
 ```
 
 ```{ojs}
+//| echo: false
+
 function geometricPMF(p, k) {
   return Math.pow(1 - p, k - 1) * p;
 }
