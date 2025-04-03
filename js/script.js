@@ -132,10 +132,23 @@ signInWithEmailAndPassword(auth, email, password).then(() => {
 };
 
 window.loginWithGoogle = () => {
-signInWithPopup(auth, provider).then(() => {
-    alert('Google sign-in successful');
-    window.location.href = "home.html";
-  }).catch(err => alert(err.message));
+  signInWithPopup(auth, provider)
+    .then(result => {
+      const email = result.user.email;
+      const domain = email.split("@")[1];
+
+      if (domain !== "thsrocks.us") {
+        alert("Only users from Trinity High School are allowed.");
+        signOut(auth);
+      } else {
+        alert("Google sign in successful");
+        console.log("Signed in:", email);
+        window.location.href = "home.html";
+      }
+    })
+    .catch(error => {
+      console.error("Login error", error);
+    });
 };
 
 window.logout = (redirectTo = "index.html") => {
