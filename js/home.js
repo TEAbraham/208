@@ -47,7 +47,7 @@ jStat.binomialDiscrete = {
 function create_slider(slide, svg, width, height, margin) {
   let x = d3.scaleLinear().domain([0, 1]).range([0, width]).clamp(true);
   let slider = svg.append("g").attr("class", "range").attr("transform", `translate(${margin},${height})`);
-  
+
   slider.append("line").attr("class", "track").attr("x1", x.range()[0]).attr("x2", x.range()[1])
       .select(() => this.parentNode.appendChild(this.cloneNode(true)))
       .attr("class", "track-inset")
@@ -58,8 +58,8 @@ function create_slider(slide, svg, width, height, margin) {
           handle.attr("cx", x(val));
           slide(val);
       }));
-  
+
   let handle = slider.insert("circle", ".track-overlay").attr("class", "handle").attr("r", 12);
-  
+
   return () => handle.attr("cx", x(0));
 }
