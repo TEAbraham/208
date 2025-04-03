@@ -14,10 +14,10 @@ app_ui = ui.page_fluid(
             ui.layout_sidebar(
                 ui.sidebar(
                     ui.input_slider("p_slider", "Probability of Success (p)", min=0.01, max=0.99, value=0.5, step=0.01),
-                    width=500
+                    width=400
                 ),
                     ui.tags.p("The geometric distribution models the number of trials until the first success. The shape is heavily influenced by the probability of success p."),
-                    output_widget("dist_plot", height="500px"),
+                    output_widget("dist_plot", height="400px"),
                     ui.tags.h4("Probability Table:"),
                     ui.output_ui("prob_table")
             )
@@ -41,8 +41,8 @@ app_ui = ui.page_fluid(
                         ui.input_numeric("x1_prob", "x₁:", value=5, step=1),
                         ui.input_numeric("x2_prob", "x₂:", value=7, step=1)
                 ),
-                    width=500),
-                    output_widget("prob_plot", height="500px"),
+                    width=400),
+                    output_widget("prob_plot", height="400px"),
                     ui.output_ui("prob_summary")
             )
         ),
@@ -56,8 +56,8 @@ app_ui = ui.page_fluid(
                         "Middle Interval: P(x₁ < X < x₂)"
                     ]),
                     ui.input_numeric("perc_prob", "Probability (%)", value=95, min=0, max=100, step=0.1),
-                    width=500),
-                    output_widget("perc_plot", height="500px"),
+                    width=400),
+                    output_widget("perc_plot", height="400px"),
                     ui.output_ui("perc_summary")
             )
         )

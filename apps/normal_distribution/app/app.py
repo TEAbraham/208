@@ -21,10 +21,10 @@ app_ui = ui.page_fluid(
                         ui.input_numeric("mu_text", "μ", value=0, step=0.1),
                         ui.input_numeric("sigma_text", "σ", value=1, min=0.1, step=0.1)
                     ),
-                    width=500
+                    width=400
                 ),
                     ui.tags.p("The normal distribution is a bell-shaped distribution. Its location and spread are determined by the two parameters μ (the mean) and σ (the standard deviation).  Explore how the location and shape of the normal distribution depends on these two parameters by using the sliders below."),
-                    output_widget("dist_plot", height="500px"),
+                    output_widget("dist_plot", height="400px"),
                     ui.tags.p("The blue shaded areas show that 68% of a normal distribution falls within one standard deviation of the mean, i.e., between μ - σ and μ + σ (darkest shade), 95% fall within two standard deviations μ ± 2σ, and 99.7% fall within three standard deviations μ ± 3σ (lightest shade)."),
                     ui.output_ui("interval_table")
             )
@@ -49,9 +49,9 @@ app_ui = ui.page_fluid(
                         ui.input_numeric("x1_prob", "x₁:", value=-1.96),
                         ui.input_numeric("x2_prob", "x₂:", value=1.96)
                     ),
-                    width=500
+                    width=400
                 ),
-                    output_widget("prob_plot", height="500px"),
+                    output_widget("prob_plot", height="400px"),
                     ui.output_ui("prob_table")
             )
         ),
@@ -66,9 +66,9 @@ app_ui = ui.page_fluid(
                         "Center: P(x₁ < X < x₂)",
                     ]),
                     ui.input_text("x_value_perc", "Probability (in %):", value=95),
-                    width=500
+                    width=400
                 ),
-                    output_widget("perc_plot", height="500px"),
+                    output_widget("perc_plot", height="400px"),
                     ui.output_ui("perc_table")
             )
         )
@@ -88,7 +88,7 @@ def server(input, output, session):
         fig.add_trace(go.Scatter(x=x, y=y, mode='lines', name='Normal Curve', line=dict(color='black')))
 
         for z, color, label in reversed(list(zip([1, 2, 3], ['#2c7fb8', '#74a9cf', '#d0d1e6'], ['68%', '95%', '99.7%']))):
-            x_fill = np.linspace(mu - z * sigma, mu + z * sigma, 500)
+            x_fill = np.linspace(mu - z * sigma, mu + z * sigma, 400)
             y_fill = norm.pdf(x_fill, mu, sigma)
             fig.add_trace(go.Scatter(
                 x=np.concatenate(([x_fill[0]], x_fill, [x_fill[-1]])),

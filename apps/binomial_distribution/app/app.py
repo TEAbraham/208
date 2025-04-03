@@ -23,10 +23,10 @@ app_ui = ui.page_fluid(
                         ui.input_numeric("p_text", "p", value=0.5, min=0, max=1, step=0.01),
                     ),
                     ui.input_checkbox("overlay_normal", "Overlay Normal Distribution", value=False),
-                    width=500
+                    width=400
                 ),
                     ui.tags.p("The binomial distribution models the number of successes in a fixed number of independent Bernoulli trials. The shape and center depend on the number of trials n and the probability of success p. Explore how the shape changes below."),
-                    output_widget("dist_plot", height="500px"),
+                    output_widget("dist_plot", height="400px"),
                     ui.tags.p("The orange bars represent the binomial probabilities for each number of successes. If selected, the gray line represents the normal approximation."),
                     ui.tags.h4("Probability Table:"),
                     ui.output_ui("prob_table")
@@ -52,8 +52,8 @@ app_ui = ui.page_fluid(
                         ui.input_numeric("x1_prob", "x₁:", value=5, step=1),
                         ui.input_numeric("x2_prob", "x₂:", value=7, step=1)
                 ),
-                    width=500),
-                    output_widget("prob_plot", height="500px"),
+                    width=400),
+                    output_widget("prob_plot", height="400px"),
                     ui.output_ui("prob_summary")
                 )
             ),
@@ -68,9 +68,9 @@ app_ui = ui.page_fluid(
                         "Middle Interval: P(x₁ < X < x₂)"
                     ]),
                     ui.input_numeric("perc_prob", "Probability (%)", value=95, min=0, max=100, step=0.1),
-                    width=500
+                    width=400
                 ),
-                    output_widget("perc_plot", height="500px"),
+                    output_widget("perc_plot", height="400px"),
                     ui.output_ui("perc_summary")
             )
         )
@@ -104,7 +104,7 @@ def server(input, output, session):
 
         if input.overlay_normal():
             mu, sigma = n * p, np.sqrt(n * p * (1 - p))
-            x_cont = np.linspace(0, n, 500)
+            x_cont = np.linspace(0, n, 400)
             y_norm = norm.pdf(x_cont, mu, sigma)
             fig.add_trace(go.Scatter(x=x_cont, y=y_norm, mode='lines', name="Normal Approximation", line=dict(color="gray")))
 
