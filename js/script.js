@@ -138,10 +138,10 @@ signInWithPopup(auth, provider).then(() => {
   }).catch(err => alert(err.message));
 };
 
-window.logout = () => {
+window.logout = (redirectTo = "index.html") => {
   signOut(auth).then(() => {
     alert('Logged out');
-    window.location.href = "index.html";
+    window.location.href = redirectTo;
   });
 };
 
@@ -158,3 +158,4 @@ onAuthStateChanged(auth, user => {
     if (logoutButton) logoutButton.style.display = 'none';
   }
 });
+
