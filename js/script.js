@@ -1,11 +1,9 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
 import {
     getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut,
-    onAuthStateChanged, signInWithPopup, GoogleAuthProvider
+    onAuthStateChanged, GoogleAuthProvider
 } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
-import { firebaseConfig } from './firebase-config.js';
+import { app } from "./firebase-config.js";
 
-const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
 
@@ -117,39 +115,55 @@ window.signUp = () => {
 };
 
 window.login = () => {
-  const email = document.getElementById('email').value;
-  const password = document.getElementById('password').value;
-  const redirectURL = localStorage.getItem("redirectAfterLogin");
-  if (redirectURL) {
-    localStorage.removeItem("redirectAfterLogin");
-    window.location.href = redirectURL;
+  const emailInput = document.getElementById("email");
+  const passwordInput = document.getElementById("password");
+
+  if (!emailInput || !passwordInput) {
+    alert("Login form inputs not found.");
+    return;
   }
 
-signInWithEmailAndPassword(auth, email, password).then(() => {
-    alert('Login successful');
-    window.location.href = "home.html";
-  }).catch(err => alert(err.message));
-};
+  const email = emailInput.value.trim();
+  const password = passwordInput.value.trim();
 
-window.loginWithGoogle = () => {
-  signInWithPopup(auth, provider)
-    .then(result => {
-      const email = result.user.email;
-      const domain = email.split("@")[1];
+  if (!email || !password) {
+    alert("Please enter both email and password.");
+    return;
+  }
 
-      if (domain !== "thsrocks.us") {
-        alert("Only users from Trinity High School are allowed.");
-        signOut(auth);
+  signInWithEmailAndPassword(auth, email, password)
+    .then(userCredential => {
+      alert("Login successful");
+
+      const redirectURL = localStorage.getItem("redirectAfterLogin");
+      if (redirectURL) {
+        localStorage.removeItem("redirectAfterLogin");
+        window.location.href = redirectURL;
       } else {
-        alert("Google sign in successful");
-        console.log("Signed in:", email);
         window.location.href = "home.html";
       }
     })
     .catch(error => {
-      console.error("Login error", error);
+      console.error("Firebase Auth Error:", error.code, error.message);
+      switch (error.code) {
+        case "auth/invalid-email":
+          alert("Invalid email format.");
+          break;
+        case "auth/user-not-found":
+          alert("No user found with that email.");
+          break;
+        case "auth/wrong-password":
+          alert("Incorrect password.");
+          break;
+        case "auth/internal-error":
+          alert("An internal error occurred. Please try again.");
+          break;
+        default:
+          alert("Login failed: " + error.message);
+      }
     });
 };
+
 
 window.logout = (redirectTo = "index.html") => {
   signOut(auth).then(() => {
@@ -162,13 +176,15 @@ onAuthStateChanged(auth, user => {
   const currentPage = window.location.pathname.split("/").pop();
   const logoutButton = document.getElementById('logoutButton');
 
-  if (user) {
-    if (logoutButton) logoutButton.style.display = 'block';
-  } else {
-    if (currentPage !== "index.html" && currentPage !== "") {
+  // Check if we've already redirected once in this session
+  if (typeof window.authChecked === 'undefined') {
+    window.authChecked = true; // only run this logic once
+
+    if (!user && currentPage !== "index.html" && currentPage !== "") {
+      localStorage.setItem("redirectAfterLogin", window.location.href);
       window.location.href = "index.html";
     }
-    if (logoutButton) logoutButton.style.display = 'none';
+
+    if (logoutButton) logoutButton.style.display = user ? 'block' : 'none';
   }
 });
-
