@@ -132,16 +132,16 @@ def server(input, output, session):
         highlight = np.zeros_like(y)
         if "Geometric Probability" in prob_type:
             if 1 <= x1 <= 20:
-                highlight[int(x1)-1] = y[int(x1)-1]
+                highlight[int(x1)] = y[int(x1)]
         elif "Lower" in prob_type:
             mask = x < x1
-            highlight[mask-1] = y[mask-1]
+            highlight[mask] = y[mask]
         elif "Upper" in prob_type:
             mask = x > x1
-            highlight[mask-1] = y[mask-1]
+            highlight[mask] = y[mask]
         elif "Interval" in prob_type:
             mask = (x > x1) & (x < x2)
-            highlight[mask-1] = y[mask-1]
+            highlight[mask] = y[mask]
 
         fig.add_trace(go.Bar(
             x=x,
