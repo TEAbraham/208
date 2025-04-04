@@ -1,10 +1,16 @@
 {
   "question_id": "question-073",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "sampling-and-experimentation",
+    "well-designed-conducted"
+  ],
   "title": "Household Income",
-  "difficulty": "Moderate",
-  "question_text": "A sociologist was interested in his hometown’s average household income. The sociologist selected $45$ houses on his block to visit during the day and ask each household’s income. Of these, $35$ houses had, at least, one person home. These $35$ households had an average income of $\\$42,035$ and standard deviation of $\\$14,352$ . Why might it be dangerous to generalize the sociologist’s results to the rest of the town? I. There was undercoverage. II. The sample was not random enough. III. The sample was too small.",
+  "difficulty": "Medium",
+  "question_text": "A sociologist was interested in his hometown’s average household income.\nThe sociologist selected $45$ houses on his block to visit during the day and ask each household’s income.\nOf these, $35$ houses had, at least, one person home. These $35$ households had an average income of $\\$42,035$ and standard deviation of $\\$14,352$.\nWhy might it be dangerous to generalize the sociologist’s results to the rest of the town?\nI. There was undercoverage.\nII. The sample was not random enough.\nIII. The sample was too small.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,15 +35,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-2",
-    "DAT-2.E.3",
-    "1.C",
-    "DAT-2.E",
-    "DAT-2.E.6"
-  ],
-  "standards": [
     "DAT-2",
     "DAT-2.E.3",
     "1.C",

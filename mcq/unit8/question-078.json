@@ -1,22 +1,29 @@
 {
   "question_id": "question-078",
   "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference",
+    "1-sample-t-test"
+  ],
   "title": "Voting Tendencies",
-  "difficulty": "Moderate",
-  "question_text": "A pollster asked $100$ random males and $100$ random females if they would vote for the Democratic candidate in the upcoming election for senator. If the pollster wanted to test whether a higher proportion of females leans Democratic, which hypothesis test should be chosen?",
+  "difficulty": "Medium",
+  "question_text": "A pollster asked $100$ random males and $100$ random females if they would vote for the Democratic candidate in the upcoming election for senator.\nIf the pollster wanted to test whether a higher proportion of females leans Democratic, which hypothesis test should be chosen?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Two-proportion z z -test."
+      "text": "Two-proportion $z$-test."
     },
     {
       "letter": "B",
-      "text": "Single-proportion z z -test."
+      "text": "Single-proportion $z$-test."
     },
     {
       "letter": "C",
-      "text": "Single-sample T T -test."
+      "text": "Single-sample $T$-test."
     },
     {
       "letter": "D",
@@ -29,14 +36,8 @@
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-3.K.1",
-    "DAT-3",
-    "DAT-3.K"
-  ],
-  "standards": [
     "4.B",
     "DAT-3.K.1",
     "DAT-3",

@@ -1,42 +1,42 @@
 {
   "question_id": "question-077",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "solving",
+    "z-score",
+    "normal-distribution"
+  ],
   "title": "What's Your IQ?",
-  "difficulty": "Moderate",
-  "question_text": "Years ago a way to measure intelligence called the IQ was developed and it was found that results were normally distributed with a mean of $100$ and a standard deviation of $15$ .  What is the minimum score a person needs in order to be in the top $10\\%$ of IQ scores?",
+  "difficulty": "Medium",
+  "question_text": "Years ago a way to measure intelligence called the IQ was developed and it was found that results were normally distributed with a mean of $100$ and a standard deviation of $15$. What is the minimum score a person needs in order to be in the top $10\\%$ of IQ scores?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "81 81"
+      "text": "$81$"
     },
     {
       "letter": "B",
-      "text": "100 100"
+      "text": "$100$"
     },
     {
       "letter": "C",
-      "text": "115 115"
+      "text": "$115$"
     },
     {
       "letter": "D",
-      "text": "120 120"
+      "text": "$120$"
     },
     {
       "letter": "E",
-      "text": "130 130"
+      "text": "$130$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-6.B.2",
-    "VAR-6.B",
-    "3.A",
-    "VAR-6"
-  ],
-  "standards": [
     "VAR-6.B.2",
     "VAR-6.B",
     "3.A",

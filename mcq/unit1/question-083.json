@@ -1,45 +1,46 @@
 {
   "question_id": "question-083",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "graphical-displays-of-data",
+    "center-spread",
+    "univariate-data",
+    "exploring-data"
+  ],
   "title": "London in July: Stemplots and Linear Transformations",
   "difficulty": "Easy",
-  "question_text": "Victoria is planning a trip to London in July and has been wondering about what type of weather to expect.  To gather data, she went online to find the daily high temperatures for the previous July in London.  The data she found is displayed in the stemplot below. Created for Albert.io. Copyright 2016. All rights reserved. London reports temperatures in degrees Celsius, but Victoria is accustomed to using Fahrenheit when talking about temperature.  She knows the conversion formula is: $$\\text{Fahrenheit Temperature} =32+\\left( \\dfrac { 9 }{ 5 }  \\right)\\text{Celsius Temperature}$$ What was the median high temperature in London last July, reported in degrees Fahrenheit?",
+  "question_text": "Victoria is planning a trip to London in July and has been wondering about what type of weather to expect. To gather data, she went online to find the daily high temperatures for the previous July in London. The data she found is displayed in the stemplot below.\nCreated for Albert.io. Copyright 2016. All rights reserved.\nLondon reports temperatures in degrees Celsius, but Victoria is accustomed to using Fahrenheit when talking about temperature. She knows the conversion formula is:\n$$\\text{Fahrenheit Temperature} =32+\\left( \\dfrac { 9 }{ 5 } \\right)\\text{Celsius Temperature}$$\nWhat was the median high temperature in London last July, reported in degrees Fahrenheit?",
   "image_files": [
     "images/question-083-img1.PNG",
     "images/question-083-img2.PNG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "21 ∘ F 21 ∘ F"
+      "text": "21∘F"
     },
     {
       "letter": "B",
-      "text": "37.8 ∘ F 37.8 ∘ F"
+      "text": "37.8\n∘\nF"
     },
     {
       "letter": "C",
-      "text": "53 ∘ F 53 ∘ F"
+      "text": "53\n∘\nF"
     },
     {
       "letter": "D",
-      "text": "69.8 ∘ F 69.8 ∘ F"
+      "text": "69.8\n∘\nF"
     },
     {
       "letter": "E",
-      "text": "71.6 ∘ F 71.6 ∘ F"
+      "text": "71.6\n∘\nF"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.I.3",
-    "2.C",
-    "UNC-1.I",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.I.3",
     "2.C",
     "UNC-1.I",

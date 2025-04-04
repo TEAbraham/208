@@ -1,10 +1,16 @@
 {
   "question_id": "question-074",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
   "title": "You're Applying to How Many Colleges? A Test",
-  "difficulty": "Moderate",
-  "question_text": "Conventional wisdom says that high school seniors should apply to about $6-8\\text{ colleges}$ . Some sources recommend applying to as many as $10\\text{ colleges}$ . Talia thinks that the actual average number of colleges that seniors at her school have applied to this year is greater than $10$ , so she decides to do a study and perform a one-sample $t$ -test for the population mean. The results of Talia's test will not be reliable if which of the following is found to be true?",
+  "difficulty": "Medium",
+  "question_text": "Conventional wisdom says that high school seniors should apply to about $6-8\\text{ colleges}$. Some sources recommend applying to as many as $10\\text{ colleges}$. Talia thinks that the actual average number of colleges that seniors at her school have applied to this year is greater than $10$, so she decides to do a study and perform a one-sample $t$-test for the population mean.\nThe results of Talia's test will not be reliable if which of the following is found to be true?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -24,20 +30,13 @@
     },
     {
       "letter": "E",
-      "text": "Talia uses a sample size of 20 20 and finds that the sample contains a few very high outliers."
+      "text": "Talia uses a sample size of $20$ and finds that the sample contains a few very high outliers."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-3.F",
-    "4.E",
-    "DAT-3",
-    "DAT-3.F.2",
-    "DAT-3.F.1"
-  ],
-  "standards": [
     "DAT-3.F",
     "4.E",
     "DAT-3",

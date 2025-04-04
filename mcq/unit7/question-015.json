@@ -1,14 +1,21 @@
 {
   "question_id": "question-015",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval",
+    "estimation",
+    "statistical-inference",
+    "logic-meaning-properties"
+  ],
   "title": "Interval Assumptions",
   "difficulty": "Easy",
   "question_text": "Which of the following could not be a reason for concern when checking assumptions in constructing a confidence interval for a mean?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The probability of success being less than 1 % 1 % ."
+      "text": "The probability of success being less than $1\\%$."
     },
     {
       "letter": "B",
@@ -20,7 +27,7 @@
     },
     {
       "letter": "D",
-      "text": "The sample size is less than 10 10 ."
+      "text": "The sample size is less than $10$."
     },
     {
       "letter": "E",
@@ -29,14 +36,8 @@
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-4.P.1",
-    "4.C",
-    "UNC-4",
-    "UNC-4.P"
-  ],
-  "standards": [
     "UNC-4.P.1",
     "4.C",
     "UNC-4",

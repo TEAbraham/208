@@ -1,10 +1,17 @@
 {
   "question_id": "question-049",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "methods-of-data-collection",
+    "sampling-and-experimentation",
+    "sampling-methods"
+  ],
   "title": "SRS or Not?",
-  "difficulty": "Moderate",
-  "question_text": "At a large high school, there are $20$ senior homerooms each with between $20$ and $25$ students.  A random sample of $40$ seniors is to be selected as follows. Each homeroom teacher will be asked to place the names of the students in their homeroom into a box and then randomly select two names.  The two students selected from each of the $20$ homerooms will then be combined to form the sample of size $40$ . Will this method result in a simple random sample of seniors at this high school?",
+  "difficulty": "Medium",
+  "question_text": "At a large high school, there are $20$ senior homerooms each with between $20$ and $25$ students. A random sample of $40$ seniors is to be selected as follows.\nEach homeroom teacher will be asked to place the names of the students in their homeroom into a box and then randomly select two names. The two students selected from each of the $20$ homerooms will then be combined to form the sample of size $40$.\nWill this method result in a simple random sample of seniors at this high school?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -12,7 +19,7 @@
     },
     {
       "letter": "B",
-      "text": "No, because not each group of 40 40 students has the same chance of being selected."
+      "text": "No, because not each group of $40$ students has the same chance of being selected."
     },
     {
       "letter": "C",
@@ -29,14 +36,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-2.C.2",
-    "DAT-2",
-    "1.C",
-    "DAT-2.C"
-  ],
-  "standards": [
     "DAT-2.C.2",
     "DAT-2",
     "1.C",

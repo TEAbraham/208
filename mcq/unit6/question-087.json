@@ -1,10 +1,18 @@
 {
   "question_id": "question-087",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "type-2-error",
+    "tests-of-significance",
+    "statistical-inference",
+    "type-1-error",
+    "power"
+  ],
   "title": "Effect of Significance Level: Types of Error and Power",
-  "difficulty": "Difficult",
-  "question_text": "If the significance level is increased it will: I. Increase the probability of a type I error. II. Increase the probability of a type II error. III. Increase the power of a test.",
+  "difficulty": "Hard",
+  "question_text": "If the significance level is increased it will:\nI. Increase the probability of a type I error.\nII. Increase the probability of a type II error.\nIII. Increase the power of a test.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,15 +37,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-5",
-    "UNC-5.B.2",
-    "UNC-5.B.1",
-    "UNC-5.B",
-    "3.A"
-  ],
-  "standards": [
     "UNC-5",
     "UNC-5.B.2",
     "UNC-5.B.1",

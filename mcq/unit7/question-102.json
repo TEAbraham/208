@@ -1,43 +1,45 @@
 {
   "question_id": "question-102",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval",
+    "mean-interval",
+    "2-proportion-z-intervals",
+    "estimation",
+    "statistical-inference",
+    "logic-meaning-properties"
+  ],
   "title": "Type of Interval to Use: Gender and Distance from Home",
-  "difficulty": "Moderate",
-  "question_text": "A student at Tolland High School wondered if boys or girls at her school traveled a greater distance to college. The student randomly selected $50\\text{ boys}$ and $50\\text{ girls}$ and found the distance each boy and girl travels to college. What type of interval should the student use to compute the difference in the average distances between how far boys and girls from Tolland High School travel to college?",
+  "difficulty": "Medium",
+  "question_text": "A student at Tolland High School wondered if boys or girls at her school traveled a greater distance to college. The student randomly selected $50\\text{ boys}$ and $50\\text{ girls}$ and found the distance each boy and girl travels to college.\nWhat type of interval should the student use to compute the difference in the average distances between how far boys and girls from Tolland High School travel to college?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Paired z z -interval for means."
+      "text": "Paired $z$-interval for means."
     },
     {
       "letter": "B",
-      "text": "Paired t t -interval for means."
+      "text": "Paired $t$-interval for means."
     },
     {
       "letter": "C",
-      "text": "Two sample z z -interval for means."
+      "text": "Two sample $z$-interval for means."
     },
     {
       "letter": "D",
-      "text": "Two sample t t -interval for means."
+      "text": "Two sample $t$-interval for means."
     },
     {
       "letter": "E",
-      "text": "Two proportion z z -interval."
+      "text": "Two proportion $z$-interval."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-4.V.1",
-    "UNC-4.V.2",
-    "UNC-4",
-    "1.D",
-    "UNC-4.V"
-  ],
-  "standards": [
     "UNC-4.V.1",
     "UNC-4.V.2",
     "UNC-4",

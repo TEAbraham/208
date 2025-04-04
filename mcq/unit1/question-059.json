@@ -1,16 +1,21 @@
 {
   "question_id": "question-059",
   "unit": "Unit 1 | Exploring One-Variable Data",
-  "title": "Test Scores",
-  "difficulty": "Difficult",
-  "question_text": "Mr. Johnson is teaching his class about stemplots. He decides to take the latest test scores (in percents) and plot the data in a stemplot to show his class. He purposely makes a mistake on his graph. What mistake did Mr. Johnson make?",
-  "image_files": [
-    "images/question-059-img1.png"
+  "topics": [
+    "graph",
+    "stemplots",
+    "data",
+    "quantitative"
   ],
+  "title": "Test Scores",
+  "difficulty": "Hard",
+  "question_text": "Mr. Johnson is teaching his class about stemplots. He decides to take the latest test scores (in percents) and plot the data in a stemplot to show his class. He purposely makes a mistake on his graph.\nWhat mistake did Mr. Johnson make?",
+  "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "He should've omitted 7 7 as a stem because there were no 70 70 s."
+      "text": "He should've omitted $7$ as a stem because there were no $70$s."
     },
     {
       "letter": "B",
@@ -26,20 +31,13 @@
     },
     {
       "letter": "E",
-      "text": "He should not have included 10 10 as a stem because all stems need to be the same amount of digits."
+      "text": "He should not have included $10$ as a stem because all stems need to be the same amount of digits."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "The test scores are compiled in a stemplot , or stem and leaf plot . In a stemplot, each data value is split into a \"stem\" (the first digit or digits), and a \"leaf\" (usually the last digit).\n\nIn our stemplot, the data is correctly split into stems and leaves. The mistake Mr. Johnson made, was not having a key to display what the data represents. It is very important to include a key at the bottom of your graph (for example, 5 | 7 = 57 % 5 | 7 = 57 % ) to show what the data inside the graph means.\n\nChoice 'D' is correct.",
-  "distractor_explanations": {},
+  "solution": "The test scores are compiled in a stemplot, or stem and leaf plot. In a stemplot, each data value is split into a \"stem\" (the first digit or digits), and a \"leaf\" (usually the last digit).\n\nIn our stemplot, the data is correctly split into stems and leaves. The mistake Mr. Johnson made, was not having a key to display what the data represents. It is very important to include a key at the bottom of your graph (for example, $5 | 7 = 57\\%$) to show what the data inside the graph means.\n\nChoice 'D' is correct.",
+  "explanations": {},
   "tags": [
-    "UNC-1.G.2",
-    "2.A",
-    "2.B",
-    "UNC-1.G",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.G.2",
     "2.A",
     "2.B",

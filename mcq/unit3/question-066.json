@@ -1,10 +1,16 @@
 {
   "question_id": "question-066",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "methods-of-data-collection",
+    "census",
+    "sampling-and-experimentation"
+  ],
   "title": "Advantages of a Census",
-  "difficulty": "Difficult",
+  "difficulty": "Hard",
   "question_text": "Which of the following represents an advantage of taking a census?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -24,21 +30,13 @@
     },
     {
       "letter": "E",
-      "text": "When taking a census, you never have to worry about  undercoverage or non-response bias."
+      "text": "When taking a census, you never have to worry about undercoverage or non-response bias."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-2",
-    "DAT-2.D.1",
-    "1.C",
-    "DAT-2.D",
-    "DAT-2.C.6",
-    "DAT-2.C"
-  ],
-  "standards": [
     "DAT-2",
     "DAT-2.D.1",
     "1.C",

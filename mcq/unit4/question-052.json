@@ -1,42 +1,44 @@
 {
   "question_id": "question-052",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "categorical-data",
+    "two-way-tables",
+    "exploring-data"
+  ],
   "title": "Two Way Tables: Shoes!",
-  "difficulty": "Moderate",
-  "question_text": "Footwear Weekly magazine conducted a poll of college age, high school age, and middle school age young women about their favorite type of footwear. What is the conditional probability that a young woman is in High School given that her favorite type of footwear is Ballet Flats? Ballet Flats High Heels Sandals Sneakers Total Middle School 14 76 55 99 244 High School 37 33 75 40 185 College 142 63 88 26 319 Total 193 172 218 165 748",
+  "difficulty": "Medium",
+  "question_text": "Footwear Weekly magazine conducted a poll of college age, high school age, and middle school age young women about their favorite type of footwear.\nWhat is the conditional probability that a young woman is in High School given that her favorite type of footwear is Ballet Flats?\nBallet Flats High Heels Sandals Sneakers Total\nMiddle School 14 76 55 99 244\nHigh School 37 33 75 40 185\nCollege 142 63 88 26 319\nTotal 193 172 218 165 748",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Ballet Flats</th><th scope=\"col\">High Heels</th><th scope=\"col\">Sandals</th><th scope=\"col\">Sneakers</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Middle School</td><td>14</td><td>76</td><td>55</td><td>99</td><td>244</td></tr><tr><td>High School</td><td>37</td><td>33</td><td>75</td><td>40</td><td>185</td></tr><tr><td>College</td><td>142</td><td>63</td><td>88</td><td>26</td><td>319</td></tr><tr><td>Total</td><td>193</td><td>172</td><td>218</td><td>165</td><td>748</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "5 % 5 %"
+      "text": "$5\\%$"
     },
     {
       "letter": "B",
-      "text": "19 % 19 %"
+      "text": "$19\\%$"
     },
     {
       "letter": "C",
-      "text": "20 % 20 %"
+      "text": "$20\\%$"
     },
     {
       "letter": "D",
-      "text": "25 % 25 %"
+      "text": "$25\\%$"
     },
     {
       "letter": "E",
-      "text": "26 % 26 %"
+      "text": "26%"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "3.A",
-    "VAR-4.D.2",
-    "VAR-4",
-    "VAR-4.D"
-  ],
-  "standards": [
     "3.A",
     "VAR-4.D.2",
     "VAR-4",

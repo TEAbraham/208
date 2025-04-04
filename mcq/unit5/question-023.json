@@ -1,43 +1,42 @@
 {
   "question_id": "question-023",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sample-mean",
+    "sampling-distributions"
+  ],
   "title": "Statistic or Parameter",
   "difficulty": "Easy",
-  "question_text": "Mr. Jones works in a large high school and wants to determine the average grade of all the biology students. Mr. Jones found the average grade in his biology class ( $n = 30$ ) was $80.2$ . This compares to the school-wide average of $77.3$ . Which of the value is a statistic and which is a parameter?",
+  "question_text": "Mr. Jones works in a large high school and wants to determine the average grade of all the biology students. Mr. Jones found the average grade in his biology class ($n = 30$) was $80.2$. This compares to the school-wide average of $77.3$.\nWhich of the value is a statistic and which is a parameter?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Statistic: 80.2 80.2 ; parameter: 77.3 77.3"
+      "text": "Statistic: $80.2$; parameter: $77.3$"
     },
     {
       "letter": "B",
-      "text": "Statistic: 77.3 77.3 ; parameter: 80.2 80.2"
+      "text": "Statistic: $77.3$; parameter: $80.2$"
     },
     {
       "letter": "C",
-      "text": "Both 80.2 80.2 and 77.3 77.3 are statistics."
+      "text": "Both $80.2$ and $77.3$ are statistics."
     },
     {
       "letter": "D",
-      "text": "Both 80.2 80.2 and 77.3 77.3 are parameters."
+      "text": "Both $80.2$ and $77.3$ are parameters."
     },
     {
       "letter": "E",
-      "text": "Parameter: 80.2 80.2 ; 77.3 77.3 is neither a statistic nor a parameter."
+      "text": "Parameter: $80.2$; $77.3$ is neither a statistic nor a parameter."
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.J",
-    "UNC-3.J.1",
-    "UNC-3.J.2",
-    "UNC-3",
-    "3.B"
-  ],
-  "standards": [
     "UNC-3.J",
     "UNC-3.J.1",
     "UNC-3.J.2",

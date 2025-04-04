@@ -1,12 +1,23 @@
 {
   "question_id": "question-176",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "center-spread",
+    "mean",
+    "univariate-data",
+    "boxplots",
+    "median",
+    "comparing-distributions",
+    "exploring-data",
+    "interquartile-range"
+  ],
   "title": "Parallel Boxplots: Male Pulse Rates Versus Female Pulse Rates",
-  "difficulty": "Moderate",
-  "question_text": "A study was conducted to compare male pulse rates and female pulse rates. Based on the information displayed in the boxplots below, which of the following statements is TRUE? Loading question supplement...",
+  "difficulty": "Medium",
+  "question_text": "A study was conducted to compare male pulse rates and female pulse rates.\nBased on the information displayed in the boxplots below, which of the following statements is TRUE?\nCreated for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-176-img1.PNG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -14,7 +25,7 @@
     },
     {
       "letter": "B",
-      "text": "At least 75 75 % of the female pulse rates are greater than 50 50 % of the male pulse rates."
+      "text": "At least 75% of the female pulse rates are greater than 50% of the male pulse rates."
     },
     {
       "letter": "C",
@@ -31,14 +42,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.O",
-    "2.D",
-    "UNC-1.O.1",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.O",
     "2.D",
     "UNC-1.O.1",

@@ -1,18 +1,25 @@
 {
   "question_id": "question-078",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "conducting-surveys",
+    "tests-of-significance",
+    "statistical-inference",
+    "proportion"
+  ],
   "title": "Cat Ownership and Test Conditions",
-  "difficulty": "Moderate",
-  "question_text": "According to the American Veterinary Medical Foundation, $30.4\\%$ of U. S. households owned at least one cat in 2012. Josephina wonders if this percentage is currently true for households in her town. To investigate, she contacts randomly selected households in her town and determines the proportion of these households that own at least one cat. To analyze the results of her study she will use a one sample $z$ -test for proportions. Which of the following is a condition that must be satisfied in order for her test to be valid?",
+  "difficulty": "Medium",
+  "question_text": "According to the American Veterinary Medical Foundation, $30.4\\%$ of U. S. households owned at least one cat in 2012. Josephina wonders if this percentage is currently true for households in her town. To investigate, she contacts randomly selected households in her town and determines the proportion of these households that own at least one cat. To analyze the results of her study she will use a one sample $z$-test for proportions.\nWhich of the following is a condition that must be satisfied in order for her test to be valid?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Josephina must gather data from at least 30 households 30 households ."
+      "text": "Josephina must gather data from at least $30\\text{ households}$."
     },
     {
       "letter": "B",
-      "text": "Josephina must select a sample size, n n , such that: 0.304 n ≥ 10 0.304 n ≥ 10 ( 1 − 0.304 ) n ≥ 10 ( 1 − 0.304 ) n ≥ 10"
+      "text": "Josephina must select a sample size, $n$, such that:\n$0.304n\\ge10$\n$\\left( 1-0.304 \\right) n\\ge10$"
     },
     {
       "letter": "C",
@@ -29,14 +36,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-5.C.1",
-    "UNC-5",
-    "UNC-5.C",
-    "4.A"
-  ],
-  "standards": [
     "UNC-5.C.1",
     "UNC-5",
     "UNC-5.C",

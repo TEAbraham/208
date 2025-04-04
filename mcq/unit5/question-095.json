@@ -1,10 +1,16 @@
 {
   "question_id": "question-095",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sampling-distributions",
+    "statistical-simulation"
+  ],
   "title": "Upcoming Election",
-  "difficulty": "Difficult",
-  "question_text": "The mayor of a large city is considering running for reelection. She won the previous election against her competitor $52\\%$ to $48\\%$ . Last week, two independent, random samples were taken of likely voters, each of size $n = 50$ . These polls found the proportion of likely voters to vote for the current mayor is $48\\%$ and $50\\%$ , respectively. Assume she is running against one other candidate and needs the majority of votes to win. Individually, which of the following statements is true about these samples?",
+  "difficulty": "Hard",
+  "question_text": "The mayor of a large city is considering running for reelection.\nShe won the previous election against her competitor $52\\%$ to $48\\%$.\nLast week, two independent, random samples were taken of likely voters, each of size $n = 50$. These polls found the proportion of likely voters to vote for the current mayor is $48\\%$ and $50\\%$, respectively.\nAssume she is running against one other candidate and needs the majority of votes to win.\nIndividually, which of the following statements is true about these samples?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -12,11 +18,11 @@
     },
     {
       "letter": "B",
-      "text": "The mayor still could easily get 52 % 52 % of the vote on election day, as getting samples of size n = 50 n = 50 at 50 % 50 % and 48 % 48 % could easily happen by chance."
+      "text": "The mayor still could easily get $52\\%$ of the vote on election day, as getting samples of size $n = 50$ at $50\\%$ and $48\\%$ could easily happen by chance."
     },
     {
       "letter": "C",
-      "text": "The sample containing 48 % 48 % is convincing evidence she will NOT be reelected, but the 50 % 50 % sample fails to give such evidence."
+      "text": "The sample containing $48\\%$ is convincing evidence she will NOT be reelected, but the $50\\%$ sample fails to give such evidence."
     },
     {
       "letter": "D",
@@ -24,19 +30,13 @@
     },
     {
       "letter": "E",
-      "text": "These samples give strong evidence the mayor will NOT lose the upcoming race and still has 52 % 52 % of the vote, as these values could have easily happened by chance."
+      "text": "These samples give strong evidence the mayor will NOT lose the upcoming race and still has $52\\%$ of the vote, as these values could have easily happened by chance."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.K.1",
-    "UNC-3",
-    "3.B",
-    "UNC-3.K"
-  ],
-  "standards": [
     "UNC-3.K.1",
     "UNC-3",
     "3.B",

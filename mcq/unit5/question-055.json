@@ -1,10 +1,16 @@
 {
   "question_id": "question-055",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sample-mean",
+    "sampling-distributions"
+  ],
   "title": "AP Prep Course",
-  "difficulty": "Moderate",
-  "question_text": "Suppose at a large high school, the average AP test score for AP Statistics is $2.84$ with a standard deviation of $0.45$ . The school decided to offer nightly study sessions and randomly chose $30$ students to participate. These $30$ students averaged AP scores of $3.1$ . What can be said about the effectiveness of the AP study sessions?",
+  "difficulty": "Medium",
+  "question_text": "Suppose at a large high school, the average AP test score for AP Statistics is $2.84$ with a standard deviation of $0.45$.\nThe school decided to offer nightly study sessions and randomly chose $30$ students to participate. These $30$ students averaged AP scores of $3.1$.\nWhat can be said about the effectiveness of the AP study sessions?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -16,27 +22,21 @@
     },
     {
       "letter": "C",
-      "text": "The students in the study sessions did not perform much better than their peers; their effort is only 0.58 0.58 standard deviations above the mean of their peers."
+      "text": "The students in the study sessions did not perform much better than their peers; their effort is only $0.58$ standard deviations above the mean of their peers."
     },
     {
       "letter": "D",
-      "text": "These students performed much better than their peers; their results are 3.16 3.16 standard deviations above the mean of their peers."
+      "text": "These students performed much better than their peers; their results are $3.16$ standard deviations above the mean of their peers."
     },
     {
       "letter": "E",
-      "text": "While this study shows that these 30 30 students did better than their peers, it would have been more effective to compare these students’ scores to the national AP average."
+      "text": "While this study shows that these $30$ students did better than their peers, it would have been more effective to compare these students’ scores to the national AP average."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.R.2",
-    "3.C",
-    "UNC-3",
-    "UNC-3.R"
-  ],
-  "standards": [
     "UNC-3.R.2",
     "3.C",
     "UNC-3",

@@ -1,18 +1,25 @@
 {
   "question_id": "question-046",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "census",
+    "survey",
+    "population",
+    "sample"
+  ],
   "title": "Loyalty Program Perks - Best Method of Collecting Data",
-  "difficulty": "Moderate",
-  "question_text": "A large cruise line operates many different sailings from many different home ports to many different destinations around the world. Executives at the cruise line are considering making changes to their customer loyalty program. Of course, they want to keep customers who are already part of the loyalty program happy, so they are interested in in learning more about what benefits these individuals find most advantageous.  To do so, they are planning a survey that asks customers to rank the importance of various perks of the loyalty program. Which of the following describes the best way to collect the data?",
+  "difficulty": "Medium",
+  "question_text": "A large cruise line operates many different sailings from many different home ports to many different destinations around the world.\nExecutives at the cruise line are considering making changes to their customer loyalty program.\nOf course, they want to keep customers who are already part of the loyalty program happy, so they are interested in in learning more about what benefits these individuals find most advantageous. To do so, they are planning a survey that asks customers to rank the importance of various perks of the loyalty program.\nWhich of the following describes the best way to collect the data?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Randomly select a few of the cruise line's ships that will be sailing during a certain month.  Then, provide surveys to each individual who is currently enrolled in the loyalty program and sailing on one of the selected ships."
+      "text": "Randomly select a few of the cruise line's ships that will be sailing during a certain month. Then, provide surveys to each individual who is currently enrolled in the loyalty program and sailing on one of the selected ships."
     },
     {
       "letter": "B",
-      "text": "For each of the cruise line's ships, randomly select three sailings that are scheduled during the upcoming year.  Then randomly select individuals who are on each of these sailings and provide each of these individuals with the survey."
+      "text": "For each of the cruise line's ships, randomly select three sailings that are scheduled during the upcoming year. Then randomly select individuals who are on each of these sailings and provide each of these individuals with the survey."
     },
     {
       "letter": "C",
@@ -20,7 +27,7 @@
     },
     {
       "letter": "D",
-      "text": "Send the survey by email to each individual currently enrolled in the customer loyalty program.  If an individual does not respond, follow up the email with a paper survey addressed to the individual's home."
+      "text": "Send the survey by email to each individual currently enrolled in the customer loyalty program. If an individual does not respond, follow up the email with a paper survey addressed to the individual's home."
     },
     {
       "letter": "E",
@@ -29,16 +36,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-2",
-    "DAT-2.D.1",
-    "1.C",
-    "DAT-2.A",
-    "DAT-2.A.2",
-    "DAT-2.D"
-  ],
-  "standards": [
     "DAT-2",
     "DAT-2.D.1",
     "1.C",

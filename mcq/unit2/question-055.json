@@ -1,16 +1,22 @@
 {
   "question_id": "question-055",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "scatterplots",
+    "bivariate-data",
+    "exploring-data"
+  ],
   "title": "Shoe Sizes and Ages",
   "difficulty": "Easy",
-  "question_text": "Researchers measured $9$ random students and recorded their shoe sizes and ages in the scatterplot below. Created for Albert.io. Copyright 2017. All rights reserved. Which of the following statements is true considering the scatterplot above?",
+  "question_text": "Researchers measured $9$ random students and recorded their shoe sizes and ages in the scatterplot below.\nCreated for Albert.io. Copyright 2017. All rights reserved.\nWhich of the following statements is true considering the scatterplot above?",
   "image_files": [
     "images/question-055-img1.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The point ( 4 , 9 4 , 9 ) is an influential point."
+      "text": "The point (4,9\n) is an influential point."
     },
     {
       "letter": "B",
@@ -26,20 +32,13 @@
     },
     {
       "letter": "E",
-      "text": "The point ( 3 , 7 3 , 7 ) is a regression outlier."
+      "text": "The point (\n3\n,\n7\n) is a regression outlier."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-1.C",
-    "DAT-1.C.2",
-    "DAT-1",
-    "DAT-1.C.1"
-  ],
-  "standards": [
     "4.B",
     "DAT-1.C",
     "DAT-1.C.2",

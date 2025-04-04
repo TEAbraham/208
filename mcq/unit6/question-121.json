@@ -1,42 +1,42 @@
 {
   "question_id": "question-121",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "significance-tests",
+    "differences-in-proportions",
+    "initial-conditions"
+  ],
   "title": "Attending College?",
-  "difficulty": "Difficult",
-  "question_text": "In a school district, there are $5{,}100$ boys and $5{,}200$ girls attending the public high schools.  The superintendent wanted to know if there is a difference in the proportions of boys and girls planning to attend college.  Random samples of $100$ boys and $90$ girls were asked this question. $90\\%$ of the girls and $82\\%$ of the boys said they planned to attend college.  The superintendent needed to verify the conditions for this test for the difference of two population proportions. Which of the following is actually a correct result?  Let the $1$ group be the boys and the $2$ group be the girls.",
+  "difficulty": "Hard",
+  "question_text": "In a school district, there are $5{,}100$ boys and $5{,}200$ girls attending the public high schools. The superintendent wanted to know if there is a difference in the proportions of boys and girls planning to attend college. Random samples of $100$ boys and $90$ girls were asked this question. $90\\%$ of the girls and $82\\%$ of the boys said they planned to attend college. The superintendent needed to verify the conditions for this test for the difference of two population proportions.\nWhich of the following is actually a correct result? Let the $1$ group be the boys and the $2$ group be the girls.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "n 1 ≤ 520 n 1 ≤ 520"
+      "text": "$n_{1}\\leq520$"
     },
     {
       "letter": "B",
-      "text": "n 1 ^ p c ≈ 86.2 n 1 p ^ c ≈ 86.2"
+      "text": "$n_{1}\\hat{p}_{c}\\approx86.2$"
     },
     {
       "letter": "C",
-      "text": "n 2 ^ p c ≈ 77.6 n 2 p ^ c ≈ 77.6"
+      "text": "$n_{2}\\hat{p}_{c}\\approx77.6$"
     },
     {
       "letter": "D",
-      "text": "n 1 ( 1 − ^ p c ) ≈ 14.2 n 1 ( 1 − p ^ c ) ≈ 14.2"
+      "text": "$n_{1}(1-\\hat{p}_{c})\\approx14.2$"
     },
     {
       "letter": "E",
-      "text": "n 2 ( 1 − ^ p c ) ≈ 18.2 n 2 ( 1 − p ^ c ) ≈ 18.2"
+      "text": "$n_{2}(1-\\hat{p}_{c})\\approx18.2$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.C",
-    "VAR-6.J",
-    "VAR-6.J.1",
-    "VAR-6"
-  ],
-  "standards": [
     "4.C",
     "VAR-6.J",
     "VAR-6.J.1",

@@ -1,45 +1,46 @@
 {
   "question_id": "question-107",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "position",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
   "title": "R&C Insurance Charges: Percentile from a Stemplot",
   "difficulty": "Easy",
-  "question_text": "When paying medical and dental claims, an insurance company will only pay the amount that it deems reasonable and customary (R&C) for the procedure that has been performed. It is time to update the R&C payment schedule for dental cleanings for adults and the insurance company has contacted a random sample of dentists to inquire about their charge for this procedure.  Results are displayed below. Created for Albert.io. Copyright 2016. All rights reserved. If the R&C payment will be set at the $80\\text{th}$ percentile, what will be the amount the insurance company will pay for this procedure?",
+  "question_text": "When paying medical and dental claims, an insurance company will only pay the amount that it deems reasonable and customary (R&C) for the procedure that has been performed.\nIt is time to update the R&C payment schedule for dental cleanings for adults and the insurance company has contacted a random sample of dentists to inquire about their charge for this procedure. Results are displayed below.\nCreated for Albert.io. Copyright 2016. All rights reserved.\nIf the R&C payment will be set at the $80\\text{th}$ percentile, what will be the amount the insurance company will pay for this procedure?",
   "image_files": [
     "images/question-107-img1.PNG",
     "images/question-107-img2.PNG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "$ 75 $ 75"
+      "text": "$\n75"
     },
     {
       "letter": "B",
-      "text": "$ 78 $ 78"
+      "text": "$\n78"
     },
     {
       "letter": "C",
-      "text": "$ 80 $ 80"
+      "text": "$\n80"
     },
     {
       "letter": "D",
-      "text": "$ 92 $ 92"
+      "text": "$\n92"
     },
     {
       "letter": "E",
-      "text": "$ 95 $ 95"
+      "text": "$\n95"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.I.5",
-    "2.A",
-    "UNC-1.I",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.I.5",
     "2.A",
     "UNC-1.I",

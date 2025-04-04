@@ -1,42 +1,38 @@
 {
   "question_id": "question-045",
   "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [],
   "title": "Sports Drinks: Degrees of Freedom",
-  "difficulty": "Moderate",
-  "question_text": "Suppose a random survey was taken in a large urban high school to determine if vending machine location affects whether sports drinks are more likely to be ordered. A large single sample of size $n = 500$ was taken over the last week. In the cafeteria, $78$ of the $165$ drinks purchased were sports drinks. In the gym, $98$ of the $157$ drinks purchased were sports drinks, and in the auditorium, $54$ of the $178$ drinks purchased were sports drinks. The appropriate degrees of freedom for this chi-squared distribution is?",
+  "difficulty": "Medium",
+  "question_text": "Suppose a random survey was taken in a large urban high school to determine if vending machine location affects whether sports drinks are more likely to be ordered.\nA large single sample of size $n = 500$ was taken over the last week. In the cafeteria, $78$ of the $165$ drinks purchased were sports drinks. In the gym, $98$ of the $157$ drinks purchased were sports drinks, and in the auditorium, $54$ of the $178$ drinks purchased were sports drinks.\nThe appropriate degrees of freedom for this chi-squared distribution is?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "3 3"
+      "text": "$3$"
     },
     {
       "letter": "B",
-      "text": "2 2"
+      "text": "$2$"
     },
     {
       "letter": "C",
-      "text": "6 6"
+      "text": "$6$"
     },
     {
       "letter": "D",
-      "text": "500 500"
+      "text": "$500$"
     },
     {
       "letter": "E",
-      "text": "499 499"
+      "text": "$499$"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-8.H",
-    "3.A",
-    "VAR-8",
-    "VAR-8.H.1"
-  ],
-  "standards": [
     "VAR-8.H",
     "3.A",
     "VAR-8",

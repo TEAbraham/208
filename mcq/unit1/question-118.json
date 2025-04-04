@@ -1,12 +1,19 @@
 {
   "question_id": "question-118",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "graphical-displays-of-data",
+    "univariate-data",
+    "clusters-gaps",
+    "exploring-data"
+  ],
   "title": "Sodas at the Movies",
   "difficulty": "Easy",
-  "question_text": "The histogram below displays the volume in fluid ounces dispensed from a soda machine of a random sample of sodas sold at a movie theater. Which of the following is the best appropriate interpretation of this graph? Created for Albert.io. Copyright 2017. All rights reserved.",
+  "question_text": "The histogram below displays the volume in fluid ounces dispensed from a soda machine of a random sample of sodas sold at a movie theater.\nWhich of the following is the best appropriate interpretation of this graph?\nCreated for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-118-img1.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -14,7 +21,7 @@
     },
     {
       "letter": "B",
-      "text": "The distribution of the number of sodas sold is bimodal.  Some moviegoers preferred root beer and some moviegoers preferred cherry soda."
+      "text": "The distribution of the number of sodas sold is bimodal. Some moviegoers preferred root beer and some moviegoers preferred cherry soda."
     },
     {
       "letter": "C",
@@ -22,24 +29,17 @@
     },
     {
       "letter": "D",
-      "text": "The distribution of the volume of sodas sold is bimodal because two sizes of soda were available.  One cluster of soda volumes is centered around 16 ounces and the other cluster of sodas is centered around 20 ounces."
+      "text": "The distribution of the volume of sodas sold is bimodal because two sizes of soda were available. One cluster of soda volumes is centered around 16 ounces and the other cluster of sodas is centered around 20 ounces."
     },
     {
       "letter": "E",
-      "text": "The distribution of the volume of sodas sold is bimodal because two sizes of soda were available.  The average soda volume was around 18 ounces."
+      "text": "The distribution of the volume of sodas sold is bimodal because two sizes of soda were available. The average soda volume was around 18 ounces."
     }
   ],
   "correct_answer": "Choice 'D' is correct.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.M",
-    "UNC-1.M.1",
-    "UNC-1.M.2",
-    "2.A",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.M",
     "UNC-1.M.1",
     "UNC-1.M.2",

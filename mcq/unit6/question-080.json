@@ -1,10 +1,18 @@
 {
   "question_id": "question-080",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
   "title": "Type II Error in Context",
-  "difficulty": "Moderate",
-  "question_text": "A study on women’s weights was recently completed. Fifteen randomly selected high school females from an urban setting were compared to $16$ randomly selected high school females from a rural setting. The results are below: Two-Sample T for Urban Weights vs. Rural Weights N Mean StDev SE Mean Urban Weights 15 126.1 10.5 2.7 Rural Weights 16 128.8 13.2 3.3 Difference = $\\mu$ (Urban Weights) - $\\mu$ (Rural Weights) Estimate for difference: $-2.68$ $95\\%$ CI for difference: $(-11.45, 6.09)$ $T$ -test of difference = $0$ (vs. not =): $T$ -value = $-0.63$ $P$ -value = $0.537$ DF = $28$ A type II error in the context of this study would involve",
+  "difficulty": "Medium",
+  "question_text": "A study on women’s weights was recently completed.\nFifteen randomly selected high school females from an urban setting were compared to $16$ randomly selected high school females from a rural setting. The results are below:\nTwo-Sample T for Urban Weights vs. Rural Weights\nN Mean StDev SE Mean\nUrban Weights 15 126.1 10.5 2.7\nRural Weights 16 128.8 13.2 3.3\n\n\nDifference = $\\mu$ (Urban Weights) - $\\mu$ (Rural Weights)\nEstimate for difference: $-2.68$\n$95\\%$ CI for difference: $(-11.45, 6.09)$\n$T$-test of difference = $0$ (vs. not =): $T$-value = $-0.63$\n$P$-value = $0.537$\nDF = $28$\nA type II error in the context of this study would involve",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">StDev</th><th scope=\"col\">SE Mean</th></tr></thead><tbody><tr><td>Urban Weights</td><td>15</td><td>126.1</td><td>10.5</td><td>2.7</td></tr><tr><td>Rural Weights</td><td>16</td><td>128.8</td><td>13.2</td><td>3.3</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
@@ -16,11 +24,11 @@
     },
     {
       "letter": "C",
-      "text": "Implying the difference between urban and rural weights is 2.68 2.68 \\text{ pounds}$, when in fact it is more."
+      "text": "Implying the difference between urban and rural weights is $2.68$\\text{ pounds}$, when in fact it is more."
     },
     {
       "letter": "D",
-      "text": "Implying the difference between urban and rural weights is 2.68 pounds 2.68 pounds , when in fact it is less."
+      "text": "Implying the difference between urban and rural weights is $2.68\\text{ pounds}$, when in fact it is less."
     },
     {
       "letter": "E",
@@ -29,14 +37,8 @@
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-5.A",
-    "UNC-5",
-    "UNC-5.A.2",
-    "1.B"
-  ],
-  "standards": [
     "UNC-5.A",
     "UNC-5",
     "UNC-5.A.2",

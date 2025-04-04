@@ -1,14 +1,20 @@
 {
   "question_id": "question-071",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "anticipating-patterns",
+    "sampling-distributions",
+    "statistical-simulation"
+  ],
   "title": "Random Sample Convinces the Mayor",
-  "difficulty": "Moderate",
-  "question_text": "Last year, $100$ randomly selected dog owners in a certain town were asked, “Do you walk your dog every day?” Suppose this sampling distribution has a mean of $p = 0.38$ . Last week, a random sample in the same town found that $45$ out of $100$ subjects walk their dogs every day. The mayor is convinced that people in this town now walk their dogs more. Is there evidence to support the claim stated by the mayor?  Use alpha = 10% as your level of statistical significance.",
+  "difficulty": "Medium",
+  "question_text": "Last year, $100$ randomly selected dog owners in a certain town were asked, “Do you walk your dog every day?”\nSuppose this sampling distribution has a mean of $p = 0.38$.\nLast week, a random sample in the same town found that $45$ out of $100$ subjects walk their dogs every day. The mayor is convinced that people in this town now walk their dogs more.\nIs there evidence to support the claim stated by the mayor? Use alpha = 10% as your level of statistical significance.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "No, since only 7 7 people walk their dogs more than what would be expected."
+      "text": "No, since only $7$ people walk their dogs more than what would be expected."
     },
     {
       "letter": "B",
@@ -24,19 +30,13 @@
     },
     {
       "letter": "E",
-      "text": "Yes, the sample clearly shows 7 7 more people walk their dogs."
+      "text": "Yes, the sample clearly shows $7$ more people walk their dogs."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.E",
-    "DAT-3",
-    "DAT-3.B.9",
-    "DAT-3.B"
-  ],
-  "standards": [
     "4.E",
     "DAT-3",
     "DAT-3.B.9",

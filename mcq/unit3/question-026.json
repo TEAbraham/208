@@ -1,10 +1,15 @@
 {
   "question_id": "question-026",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "extra-practice",
+    "sampling-and-experimentation"
+  ],
   "title": "Women's Opinions about their Doctors",
   "difficulty": "Easy",
-  "question_text": "A polling organization randomly sampled $1{,}287\\text{ female U.S. residents}$ between the ages of 40 and 60 to ask them if they agreed with the statement, \"My doctor does a good job of listening to my concerns.\" The population of interest for this study was all American",
+  "question_text": "A polling organization randomly sampled $1{,}287\\text{ female U.S. residents}$ between the ages of 40 and 60 to ask them if they agreed with the statement, \"My doctor does a good job of listening to my concerns.\"\nThe population of interest for this study was all American",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +34,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-2",
-    "DAT-2.B.2",
-    "1.C",
-    "DAT-2.B"
-  ],
-  "standards": [
     "DAT-2",
     "DAT-2.B.2",
     "1.C",

@@ -1,10 +1,16 @@
 {
   "question_id": "question-095",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "tests-of-significance",
+    "mean",
+    "statistical-inference"
+  ],
   "title": "Coffee Shop Sales: Did Advertising Help?",
-  "difficulty": "Moderate",
-  "question_text": "A local coffee shop decided to start advertising on the radio. The $12\\text{ weeks}$ following a lengthy advertising campaign showed sales averaging $\\$5{,}785.34$ per week with a standard deviation of $\\$385.23$ . This compares to an average of $\\$5{,}355$ per week in sales before the advertising campaign. Assuming conditions are met, does this data give convincing evidence that the advertising campaign helped?",
+  "difficulty": "Medium",
+  "question_text": "A local coffee shop decided to start advertising on the radio.\nThe $12\\text{ weeks}$ following a lengthy advertising campaign showed sales averaging $\\$5{,}785.34$ per week with a standard deviation of $\\$385.23$. This compares to an average of $\\$5{,}355$ per week in sales before the advertising campaign.\nAssuming conditions are met, does this data give convincing evidence that the advertising campaign helped?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -12,38 +18,25 @@
     },
     {
       "letter": "B",
-      "text": "Yes, but at the alpha 10 % 10 % level only."
+      "text": "Yes, but at the alpha $10\\%$ level only."
     },
     {
       "letter": "C",
-      "text": "Yes, but at the alpha 5 % 5 % and 10 % 10 % levels only."
+      "text": "Yes, but at the alpha $5\\%$ and $10\\%$ levels only."
     },
     {
       "letter": "D",
-      "text": "Yes, at the alpha 1 % 1 % , 5 % 5 % , and 10 % 10 % levels."
+      "text": "Yes, at the alpha $1\\%$, $5\\%$, and $10\\%$ levels."
     },
     {
       "letter": "E",
-      "text": "Yes, at the alpha = 1 % 1 % level, but not 5 % 5 % level."
+      "text": "Yes, at the alpha = $1\\%$ level, but not $5\\%$ level."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-3.F",
-    "4.B",
-    "DAT-3.E",
-    "VAR-7.E",
-    "DAT-3",
-    "DAT-3.F.2",
-    "VAR-7.E.1",
-    "VAR-7",
-    "3.E",
-    "DAT-3.F.1",
-    "DAT-3.E.1"
-  ],
-  "standards": [
     "DAT-3.F",
     "4.B",
     "DAT-3.E",

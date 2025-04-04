@@ -1,42 +1,42 @@
 {
   "question_id": "question-051",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sampling-distributions",
+    "statistical-simulation"
+  ],
   "title": "Probability of Selection: Candy Bar Weight",
-  "difficulty": "Moderate",
-  "question_text": "Suppose a certain brand of candy bar has a mean weight of $1.02\\text{ oz}$ with a standard deviation of $0.03\\text{ oz}$ . Determine the probability of randomly selecting $5$ candy bars that have an average weight of $1\\text{ oz}$ or less.",
+  "difficulty": "Medium",
+  "question_text": "Suppose a certain brand of candy bar has a mean weight of $1.02\\text{ oz}$ with a standard deviation of $0.03\\text{ oz}$.\nDetermine the probability of randomly selecting $5$ candy bars that have an average weight of $1\\text{ oz}$ or less.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.9319 0.9319"
+      "text": "$0.9319$"
     },
     {
       "letter": "B",
-      "text": "0.2514 0.2514"
+      "text": "$0.2514$"
     },
     {
       "letter": "C",
-      "text": "0.0491 0.0491"
+      "text": "$0.0491$"
     },
     {
       "letter": "D",
-      "text": "0.0681 0.0681"
+      "text": "$0.0681$"
     },
     {
       "letter": "E",
-      "text": "0.7486 0.7486"
+      "text": "$0.7486$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.Q.1",
-    "UNC-3",
-    "UNC-3.Q",
-    "3.B"
-  ],
-  "standards": [
     "UNC-3.Q.1",
     "UNC-3",
     "UNC-3.Q",

@@ -1,44 +1,45 @@
 {
   "question_id": "question-133",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "position",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
   "title": "Number of AP Classes: Information from a Dotplot",
-  "difficulty": "Moderate",
-  "question_text": "On the first day of school, Mrs. Jackson asked students in her AP Statistics class how many AP classes they were taking during the current school year.  The dotplot below shows the distribution of responses. Loading question supplement... What is the smallest number of AP classes that would put a student in the 80th percentile?",
+  "difficulty": "Medium",
+  "question_text": "On the first day of school, Mrs. Jackson asked students in her AP Statistics class how many AP classes they were taking during the current school year. The dotplot below shows the distribution of responses.\nCreated for Albert.io. Copyright 2016. All rights reserved.\nWhat is the smallest number of AP classes that would put a student in the 80th percentile?",
   "image_files": [
     "images/question-133-img1.PNG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "2 2"
+      "text": "2"
     },
     {
       "letter": "B",
-      "text": "3 3"
+      "text": "3"
     },
     {
       "letter": "C",
-      "text": "4 4"
+      "text": "4"
     },
     {
       "letter": "D",
-      "text": "5 5"
+      "text": "5"
     },
     {
       "letter": "E",
-      "text": "6 6"
+      "text": "6"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.M",
-    "UNC-1.M.1",
-    "2.A",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.M",
     "UNC-1.M.1",
     "2.A",

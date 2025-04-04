@@ -1,10 +1,17 @@
 {
   "question_id": "question-017",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval",
+    "estimation",
+    "statistical-inference",
+    "logic-meaning-properties"
+  ],
   "title": "Confidence Interval Purposes",
-  "difficulty": "Moderate",
-  "question_text": "A confidence interval can be used to: I. Estimate a population mean. II. Estimate a sample mean. III. Estimate the difference between two populations.",
+  "difficulty": "Medium",
+  "question_text": "A confidence interval can be used to:\nI. Estimate a population mean.\nII. Estimate a sample mean.\nIII. Estimate the difference between two populations.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,15 +36,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "3.D",
-    "UNC-4",
-    "UNC-4.R",
-    "UNC-4.R.2",
-    "UNC-4.R.1"
-  ],
-  "standards": [
     "3.D",
     "UNC-4",
     "UNC-4.R",

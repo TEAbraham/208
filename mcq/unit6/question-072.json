@@ -1,42 +1,43 @@
 {
   "question_id": "question-072",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "confidence-interval",
+    "estimation",
+    "statistical-inference",
+    "proportion"
+  ],
   "title": "Interpret Proportion Intervals",
-  "difficulty": "Difficult",
-  "question_text": "A biologist hopes to estimate the proportion of alligators in Florida that are adults. When sampling alligators, the biologist computes the one-proportion $Z$ -interval going from $0.67$ to $0.74$ at $99\\%$ confidence. What conclusion can be drawn about the proportion of all adult alligators in Florida, based off of the interval?",
+  "difficulty": "Hard",
+  "question_text": "A biologist hopes to estimate the proportion of alligators in Florida that are adults.\nWhen sampling alligators, the biologist computes the one-proportion $Z$-interval going from $0.67$ to $0.74$ at $99\\%$ confidence.\nWhat conclusion can be drawn about the proportion of all adult alligators in Florida, based off of the interval?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The true proportion of adult alligators in Florida is probably somewhere between 0.67 0.67 and 0.74 0.74 ; the process used gives correct results 99 % 99 % of the time in repeated trials."
+      "text": "The true proportion of adult alligators in Florida is probably somewhere between $0.67$ and $0.74$; the process used gives correct results $99\\%$ of the time in repeated trials."
     },
     {
       "letter": "B",
-      "text": "99 % 99 % of samples such as this one will catch the interval between 0.67 0.67 and 0.74 0.74 (as long as the samples are conducted in Florida)."
+      "text": "$99\\%$ of samples such as this one will catch the interval between $0.67$ and $0.74$ (as long as the samples are conducted in Florida)."
     },
     {
       "letter": "C",
-      "text": "99 % 99 % of samples such as this, conducted in Florida, will have a sample proportion between 0.67 0.67 and 0.74 0.74 , as long as many samples are conducted."
+      "text": "$99\\%$ of samples such as this, conducted in Florida, will have a sample proportion between $0.67$ and $0.74$, as long as many samples are conducted."
     },
     {
       "letter": "D",
-      "text": "70.5 % 70.5 % of alligators in Florida are adults."
+      "text": "$70.5\\%$ of alligators in Florida are adults."
     },
     {
       "letter": "E",
-      "text": "There is a 99 % 99 % probability that between 67 % 67 % and 74 % 74 % of alligators in Florida are adults."
+      "text": "There is a $99\\%$ probability that between $67\\%$ and $74\\%$ of alligators in Florida are adults."
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.E",
-    "DAT-3",
-    "DAT-3.B.9",
-    "DAT-3.B"
-  ],
-  "standards": [
     "4.E",
     "DAT-3",
     "DAT-3.B.9",

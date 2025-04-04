@@ -1,42 +1,44 @@
 {
   "question_id": "question-015",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "applying-probability",
+    "randomness",
+    "random-event",
+    "random",
+    "probability-of-independent-events"
+  ],
   "title": "Time for a Hit?",
-  "difficulty": "Moderate",
-  "question_text": "A baseball player who has a lifetime batting average of $0.333$ (meaning he gets a hit in $33.3\\%$ of his at-bats) has not had a hit in his last $6$ at-bats.  Your friend says that he is definitely due for a hit in his next at-bat.  Is this true according to what concept of probability theory?",
+  "difficulty": "Medium",
+  "question_text": "A baseball player who has a lifetime batting average of $0.333$ (meaning he gets a hit in $33.3\\%$ of his at-bats) has not had a hit in his last $6$ at-bats. Your friend says that he is definitely due for a hit in his next at-bat. Is this true according to what concept of probability theory?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Yes. The Law of Large Numbers."
+      "text": "Yes.\nThe Law of Large Numbers."
     },
     {
       "letter": "B",
-      "text": "Yes. The Law of Averages."
+      "text": "Yes.\nThe Law of Averages."
     },
     {
       "letter": "C",
-      "text": "Yes. A Random Event."
+      "text": "Yes.\nA Random Event."
     },
     {
       "letter": "D",
-      "text": "No. The Law of Large Numbers."
+      "text": "No.\nThe Law of Large Numbers."
     },
     {
       "letter": "E",
-      "text": "No. The Law of Averages."
+      "text": "No.\nThe Law of Averages."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "3.A",
-    "UNC-2.A",
-    "UNC-2.A.6",
-    "UNC-2"
-  ],
-  "standards": [
     "3.A",
     "UNC-2.A",
     "UNC-2.A.6",

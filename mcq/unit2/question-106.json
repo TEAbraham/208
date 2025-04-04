@@ -1,44 +1,44 @@
 {
   "question_id": "question-106",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "least-squares-regression-line",
+    "bivariate-data",
+    "exploring-data"
+  ],
   "title": "Finding LSRL: Dow Jones and Year",
-  "difficulty": "Moderate",
-  "question_text": "In February of 2009, the Dow Jones Industrial Average (DJI) reached its lowest point in 10 years. Since then, the Dow Jones has been steadily increasing. Analysts have been studying the relationship between the highs of the Dow Jones for each year since 2009. A computer regression analysis of the data is given below: Dependent variable is: Dow Jones Industrial Average (DJI) $R^2 = 93.33\\%$ $s= 1116.14$ with $6-2= 4$ D.O.F. Variable: Coefficient s.e Coeff t-ratio prob Constant: 8224.89 735.23 16.06 0.00001 Year: 1993.35 123.34 7.47 0.0017 What is the equation for the least squares regression line?",
+  "difficulty": "Medium",
+  "question_text": "In February of 2009, the Dow Jones Industrial Average (DJI) reached its lowest point in 10 years. Since then, the Dow Jones has been steadily increasing. Analysts have been studying the relationship between the highs of the Dow Jones for each year since 2009. A computer regression analysis of the data is given below:\nDependent variable is: Dow Jones Industrial Average (DJI)\n$R^2 = 93.33\\%$\n$s= 1116.14$ with $6-2= 4$ D.O.F.\nVariable: Coefficient s.e Coeff t-ratio prob\nConstant: 8224.89 735.23 16.06 0.00001\nYear: 1993.35 123.34 7.47 0.0017\n\n\nWhat is the equation for the least squares regression line?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Variable:</th><th scope=\"col\">Coefficient</th><th scope=\"col\">s.e Coeff</th><th scope=\"col\">t-ratio</th><th scope=\"col\">prob</th></tr></thead><tbody><tr><td>Constant:</td><td>8224.89</td><td>735.23</td><td>16.06</td><td>0.00001</td></tr><tr><td>Year:</td><td>1993.35</td><td>123.34</td><td>7.47</td><td>0.0017</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "ˆ y e a r = 8224.89 DJI + 1993.35 y e a r ^ = 8224.89 DJI + 1993.35"
+      "text": "$\\widehat { year } =8224.89\\text{ DJI}+1993.35$"
     },
     {
       "letter": "B",
-      "text": "ˆ y e a r = 1993.35 DJI + 8224.89 y e a r ^ = 1993.35 DJI + 8224.89"
+      "text": "$\\widehat { year } =1993.35\\text{ DJI}+8224.89$"
     },
     {
       "letter": "C",
-      "text": "ˆ D J I = 8224.89 year + 1993.35 D J I ^ = 8224.89 year + 1993.35"
+      "text": "$\\widehat { DJI } =8224.89\\text{ year}+1993.35$"
     },
     {
       "letter": "D",
-      "text": "ˆ D J I = 1993.35 year + 8224.89 D J I ^ = 1993.35 year + 8224.89"
+      "text": "$\\widehat { DJI } =1993.35\\text{ year}+8224.89$"
     },
     {
       "letter": "E",
-      "text": "ˆ D J I = 0.9333 year + 1116.14 D J I ^ = 0.9333 year + 1116.14"
+      "text": "$\\widehat { DJI } =0.9333\\text{ year}+1116.14$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-1.G.1",
-    "DAT-1.G.2",
-    "2.C",
-    "DAT-1",
-    "DAT-1.G",
-    "DAT-1.G.4"
-  ],
-  "standards": [
     "DAT-1.G.1",
     "DAT-1.G.2",
     "2.C",

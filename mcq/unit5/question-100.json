@@ -1,10 +1,16 @@
 {
   "question_id": "question-100",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sampling-distributions",
+    "statistical-simulation"
+  ],
   "title": "Sampling Distribution Facts",
-  "difficulty": "Difficult",
-  "question_text": "Which of the following statements is/are true concerning sampling distributions? I. Larger sample sizes have a sampling distribution with more variability. II. Larger sample sizes have a sampling distribution that becomes closer to a normal in shape, but only if the parent population is normal. III. Poor sampling methods could result in a sampling distribution centered away from the true population mean.",
+  "difficulty": "Hard",
+  "question_text": "Which of the following statements is/are true concerning sampling distributions?\nI. Larger sample sizes have a sampling distribution with more variability.\nII. Larger sample sizes have a sampling distribution that becomes closer to a normal in shape, but only if the parent population is normal.\nIII. Poor sampling methods could result in a sampling distribution centered away from the true population mean.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +35,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.I",
-    "4.B",
-    "UNC-3.I.1",
-    "UNC-3"
-  ],
-  "standards": [
     "UNC-3.I",
     "4.B",
     "UNC-3.I.1",

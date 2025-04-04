@@ -1,10 +1,17 @@
 {
   "question_id": "question-050",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "methods-of-data-collection",
+    "sampling-and-experimentation",
+    "sampling-methods"
+  ],
   "title": "Gathering Student Opinions on the School Schedule",
-  "difficulty": "Moderate",
-  "question_text": "The principal of a large high school would like to gather the opinions of the student body regarding a possible change to how the school schedule would run.  He gathers a sample of $100$ students by selecting a simple random sample of $25$ students from each grade level (freshman, sophomore, junior and senior). What type of sampling method did the principal use and why might he have decided to use this method?",
+  "difficulty": "Medium",
+  "question_text": "The principal of a large high school would like to gather the opinions of the student body regarding a possible change to how the school schedule would run. He gathers a sample of $100$ students by selecting a simple random sample of $25$ students from each grade level (freshman, sophomore, junior and senior).\nWhat type of sampling method did the principal use and why might he have decided to use this method?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +36,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-2",
-    "1.C",
-    "DAT-2.C.3",
-    "DAT-2.C"
-  ],
-  "standards": [
     "DAT-2",
     "1.C",
     "DAT-2.C.3",

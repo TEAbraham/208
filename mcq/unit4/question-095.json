@@ -1,43 +1,42 @@
 {
   "question_id": "question-095",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "calculating-probability",
+    "anticipating-patterns",
+    "probability"
+  ],
   "title": "Independent or Not?",
-  "difficulty": "Difficult",
-  "question_text": "If two events, $A$ and $B$ , are independent, then which of the following statements is false?",
+  "difficulty": "Hard",
+  "question_text": "If two events, $A$ and $B$, are independent, then which of the following statements is false?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Knowing whether or not event A A occurs does not alter the probability that event B B will occur."
+      "text": "Knowing whether or not event $A$ occurs does not alter the probability that event $B$ will occur."
     },
     {
       "letter": "B",
-      "text": "p ( A and B ) = p ( A ) ⋅ p ( B ) − p ( A or B ) p ( A and B ) = p ( A ) ⋅ p ( B ) − p ( A or B )"
+      "text": "$p\\left( A \\text{ and } B \\right) =p(A)\\cdot p(B)-p(A \\text{ or } B)$"
     },
     {
       "letter": "C",
-      "text": "p ( A | B ) = p ( A ) p ( A | B ) = p ( A )"
+      "text": "$p\\left( A|B \\right) =p\\left( A \\right)$"
     },
     {
       "letter": "D",
-      "text": "p ( B | A ) = p ( B ) p ( B | A ) = p ( B )"
+      "text": "$p\\left( B|A \\right) =p\\left( B \\right)$"
     },
     {
       "letter": "E",
-      "text": "p ( A and B ) = p ( A ) ⋅ p ( B ) p ( A and B ) = p ( A ) ⋅ p ( B )"
+      "text": "$p\\left(A \\text{ and } B \\right) =p(A)\\cdot p(B)$"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-4.E.1",
-    "VAR-4.E",
-    "3.A",
-    "VAR-4.E.2",
-    "VAR-4"
-  ],
-  "standards": [
     "VAR-4.E.1",
     "VAR-4.E",
     "3.A",

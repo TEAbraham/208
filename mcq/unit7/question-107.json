@@ -1,42 +1,41 @@
 {
   "question_id": "question-107",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval-interpretations",
+    "differences-in-means"
+  ],
   "title": "Pint Size?",
   "difficulty": "Easy",
-  "question_text": "A verified $95\\%$ confidence interval showed that the difference between the weights of two different pints of ice cream brands was $(-0.13, 0.21)$ ounces.  Describe what this confidence interval is saying.",
+  "question_text": "A verified $95\\%$ confidence interval showed that the difference between the weights of two different pints of ice cream brands was $(-0.13, 0.21)$ ounces. Describe what this confidence interval is saying.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "We are 95 % 95 % sure that one brand of ice cream weighs 0.21 0.21 ounces more than the other brand."
+      "text": "We are $95\\%$ sure that one brand of ice cream weighs $0.21$ ounces more than the other brand."
     },
     {
       "letter": "B",
-      "text": "Based on the samples of ice cream, we can be 95 % 95 % confident that the difference in weights of the pint-sized ice cream brands is between − 0.13 − 0.13 and 0.21 0.21 ounces."
+      "text": "Based on the samples of ice cream, we can be $95\\%$ confident that the difference in weights of the pint-sized ice cream brands is between $-0.13$ and $0.21$ ounces."
     },
     {
       "letter": "C",
-      "text": "There is a 95 % 95 % probability that one brand of ice cream weighs more than the other one."
+      "text": "There is a $95\\%$ probability that one brand of ice cream weighs more than the other one."
     },
     {
       "letter": "D",
-      "text": "We are 95 % 95 % confident that all of the samples taken will have a a difference of means between − 0.13 − 0.13 and 0.21 0.21 ounces."
+      "text": "We are $95\\%$ confident that all of the samples taken will have a a difference of means between $-0.13$ and $0.21$ ounces."
     },
     {
       "letter": "E",
-      "text": "Based on the samples of ice cream, we can be 90 % 90 % confident that the difference in weights of the pint-sized ice cream brands is between − 0.13 − 0.13 and 0.21 0.21 ounces."
+      "text": "Based on the samples of ice cream, we can be $90\\%$ confident that the difference in weights of the pint-sized ice cream brands is between $-0.13$ and $0.21$ ounces."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-4.Z",
-    "UNC-4.Z.2",
-    "UNC-4",
-    "4.A"
-  ],
-  "standards": [
     "UNC-4.Z",
     "UNC-4.Z.2",
     "UNC-4",

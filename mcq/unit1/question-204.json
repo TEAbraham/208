@@ -1,42 +1,43 @@
 {
   "question_id": "question-204",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "position",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
   "title": "Finding Probabilities from a $z$-table",
   "difficulty": "Easy",
-  "question_text": "According to the $z$ -table, find $p(z < -1.26)$ . Reference your AP Statistics Exam materials",
+  "question_text": "According to the $z$-table, find $p(z < -1.26)$.\nReference your AP Statistics Exam materials",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.1038 0.1038"
+      "text": "$0.1038$"
     },
     {
       "letter": "B",
-      "text": "0.1056 0.1056"
+      "text": "$0.1056$"
     },
     {
       "letter": "C",
-      "text": "0.1151 0.1151"
+      "text": "$0.1151$"
     },
     {
       "letter": "D",
-      "text": "0.8849 0.8849"
+      "text": "$0.8849$"
     },
     {
       "letter": "E",
-      "text": "0.8962 0.8962"
+      "text": "$0.8962$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-2.B",
-    "3.A",
-    "VAR-2",
-    "VAR-2.B.3"
-  ],
-  "standards": [
     "VAR-2.B",
     "3.A",
     "VAR-2",

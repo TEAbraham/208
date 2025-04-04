@@ -1,12 +1,22 @@
 {
   "question_id": "question-179",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "boxplots",
+    "measuring-spread",
+    "comparing-distributions",
+    "exploring-data",
+    "measuring-center",
+    "shape"
+  ],
   "title": "Comparing Distributions: Grocery Shopping of Men versus Women",
-  "difficulty": "Moderate",
-  "question_text": "The boxplots below display the number of minutes that single men grocery shop compared to single women. Based on these boxplots, which of the following is the correct conclusion about the data collected in this study? Created for Albert.io. Copyright 2017. All rights reserved.",
+  "difficulty": "Medium",
+  "question_text": "The boxplots below display the number of minutes that single men grocery shop compared to single women. Based on these boxplots, which of the following is the correct conclusion about the data collected in this study?\nCreated for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-179-img1.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -31,14 +41,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.N.1",
-    "2.D",
-    "UNC-1.N",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.N.1",
     "2.D",
     "UNC-1.N",

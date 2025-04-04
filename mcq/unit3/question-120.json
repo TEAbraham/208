@@ -1,10 +1,16 @@
 {
   "question_id": "question-120",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "methods-of-data-collection",
+    "sampling-and-experimentation",
+    "observational-study"
+  ],
   "title": "Data Gathering",
-  "difficulty": "Moderate",
-  "question_text": "Which of the following statements are true in regards to gathering data? I. A census attempts to contact every individual from the sample. II. An observational study is different from an experiment in that a treatment is imposed in an observational study. III. A matched pairs experiment can reduce variability.",
+  "difficulty": "Medium",
+  "question_text": "Which of the following statements are true in regards to gathering data?\nI. A census attempts to contact every individual from the sample.\nII. An observational study is different from an experiment in that a treatment is imposed in an observational study.\nIII. A matched pairs experiment can reduce variability.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,20 +35,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3",
-    "DAT-2",
-    "1.C",
-    "DAT-2.A",
-    "DAT-2.A.4",
-    "DAT-2.A.3",
-    "VAR-3.C.9",
-    "DAT-2.C.6",
-    "VAR-3.C",
-    "DAT-2.C"
-  ],
-  "standards": [
     "VAR-3",
     "DAT-2",
     "1.C",

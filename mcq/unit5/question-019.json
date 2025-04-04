@@ -1,10 +1,16 @@
 {
   "question_id": "question-019",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "estimation",
+    "statistical-inference",
+    "point-estimator"
+  ],
   "title": "Estimator Definition",
   "difficulty": "Easy",
   "question_text": "The mean of a sampling distribution can be considered an unbiased estimate of $\\mu$ when...",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -12,31 +18,25 @@
     },
     {
       "letter": "B",
-      "text": "variability is uncertain at first but gets smaller as n n increases."
+      "text": "variability is uncertain at first but gets smaller as $n$ increases."
     },
     {
       "letter": "C",
-      "text": "a sample mean and population mean μ μ are equal."
+      "text": "a sample mean and population mean $\\mu$ are equal."
     },
     {
       "letter": "D",
-      "text": "the expected value of the sample mean equals the population mean μ μ ."
+      "text": "the expected value of the sample mean equals the population mean $\\mu$."
     },
     {
       "letter": "E",
-      "text": "its expected value changes as the sample size n n increases."
+      "text": "its expected value changes as the sample size n increases."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.I",
-    "4.B",
-    "UNC-3.I.1",
-    "UNC-3"
-  ],
-  "standards": [
     "UNC-3.I",
     "4.B",
     "UNC-3.I.1",

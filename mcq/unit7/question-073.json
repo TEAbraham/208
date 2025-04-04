@@ -1,43 +1,42 @@
 {
   "question_id": "question-073",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
   "title": "Statistical Significance at Various $\\alpha$ Levels",
   "difficulty": "Easy",
-  "question_text": "In a hypothesis test for a population mean, results were found to be statistically significant at the $\\alpha = 0.02$ level. Which of the following statements would also be true about the results of this test?",
+  "question_text": "In a hypothesis test for a population mean, results were found to be statistically significant at the $\\alpha = 0.02$ level.\nWhich of the following statements would also be true about the results of this test?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The results would be statistically significant at the α = 0.01 α = 0.01 level."
+      "text": "The results would be statistically significant at the $\\alpha = 0.01$ level."
     },
     {
       "letter": "B",
-      "text": "The p-value obtained for this test was p = 0.02 p = 0.02 ."
+      "text": "The p-value obtained for this test was $p = 0.02$."
     },
     {
       "letter": "C",
-      "text": "The results would be statistically significant at the α = 0.05 α = 0.05 level."
+      "text": "The results would be statistically significant at the $\\alpha = 0.05$ level."
     },
     {
       "letter": "D",
-      "text": "Since the results were statistically significant at the α = 0.02 α = 0.02 level, we have sufficient evidence to prove that our null hypothesis was false."
+      "text": "Since the results were statistically significant at the $\\alpha = 0.02$ level, we have sufficient evidence to prove that our null hypothesis was false."
     },
     {
       "letter": "E",
-      "text": "A mistake was made in considering the results to be statistically significant.  We can only consider our results to be statistically significant if α > 0.05 α > 0.05 ."
+      "text": "A mistake was made in considering the results to be statistically significant. We can only consider our results to be statistically significant if $\\alpha > 0.05$."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-3.F",
-    "4.E",
-    "DAT-3",
-    "DAT-3.F.2",
-    "DAT-3.F.1"
-  ],
-  "standards": [
     "DAT-3.F",
     "4.E",
     "DAT-3",

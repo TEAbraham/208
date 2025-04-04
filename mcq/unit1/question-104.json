@@ -1,43 +1,46 @@
 {
   "question_id": "question-104",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "spread",
+    "univariate-data",
+    "standard-deviation",
+    "summarizing-distributions",
+    "variance",
+    "measuring-spread",
+    "exploring-data"
+  ],
   "title": "Standard Deviation and Variance: Changing from KPH to MPH",
-  "difficulty": "Difficult",
-  "question_text": "In most European countries, speed is measured in kilometers per hour. If we were to convert the speed from kilometers per hour to miles per hour, we would have to divide the speed by $1.61$ . What would happen to the standard deviation and variance in that case?",
+  "difficulty": "Hard",
+  "question_text": "In most European countries, speed is measured in kilometers per hour. If we were to convert the speed from kilometers per hour to miles per hour, we would have to divide the speed by $1.61$.\nWhat would happen to the standard deviation and variance in that case?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Standard Deviation: Remains the same Variance: Remains the same"
+      "text": "Standard Deviation: Remains the same\nVariance: Remains the same"
     },
     {
       "letter": "B",
-      "text": "Standard Deviation: Remains the same Variance: Divided by 1.61 1.61"
+      "text": "Standard Deviation: Remains the same\nVariance: Divided by $1.61$"
     },
     {
       "letter": "C",
-      "text": "Standard Deviation: Divided by 1.61 1.61 Variance: Remains the same"
+      "text": "Standard Deviation: Divided by $1.61$\nVariance: Remains the same"
     },
     {
       "letter": "D",
-      "text": "Standard Deviation: Divided by 1.61 1.61 Variance: Divided by 1.61 1.61"
+      "text": "Standard Deviation: Divided by $1.61$\nVariance: Divided by $1.61$"
     },
     {
       "letter": "E",
-      "text": "Standard Deviation: Divided by 1.61 1.61 Variance: Divided by 2.59 2.59"
+      "text": "Standard Deviation: Divided by $1.61$\nVariance: Divided by $2.59$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "2.C",
-    "UNC-1.J.4",
-    "UNC-1.J",
-    "UNC-1.J.3",
-    "UNC-1"
-  ],
-  "standards": [
     "2.C",
     "UNC-1.J.4",
     "UNC-1.J",

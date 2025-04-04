@@ -1,10 +1,17 @@
 {
   "question_id": "question-111",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "matched-pairs-design",
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "randomized-block-design"
+  ],
   "title": "Caffeine Wars",
-  "difficulty": "Moderate",
-  "question_text": "Does a high level of caffeine in a drink help teenagers stay awake longer, or does it actually have the opposite effect?   A psychologist will investigate this issue using $94\\text{ subjects}$ who complain of frequent fatigue at the end of the day.  The psychologist will instruct the subjects to drink either soda ( $15 - 23\\text{ mg}$ caffeine per serving) or coffee ( $95 - 150\\text{ mg}$ caffeine per serving) when they feel like they cannot stay awake any longer.  The subjects will record the amount of additional time they are able to stay awake. While collecting preliminary information from his subjects, the psychologist finds that some work in dimly lit rooms at the end of the day and some work in brightly lit rooms.  Previous studies have shown that brightly lit rooms reduce fatigue. On what variable should the experiment be blocked?  Why?",
+  "difficulty": "Medium",
+  "question_text": "Does a high level of caffeine in a drink help teenagers stay awake longer, or does it actually have the opposite effect? A psychologist will investigate this issue using $94\\text{ subjects}$ who complain of frequent fatigue at the end of the day. The psychologist will instruct the subjects to drink either soda ($15 - 23\\text{ mg}$ caffeine per serving) or coffee ($95 - 150\\text{ mg}$ caffeine per serving) when they feel like they cannot stay awake any longer. The subjects will record the amount of additional time they are able to stay awake.\nWhile collecting preliminary information from his subjects, the psychologist finds that some work in dimly lit rooms at the end of the day and some work in brightly lit rooms. Previous studies have shown that brightly lit rooms reduce fatigue.\nOn what variable should the experiment be blocked? Why?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,16 +36,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.D",
-    "VAR-3",
-    "VAR-3.C.8",
-    "VAR-3.D.1",
-    "1.C",
-    "VAR-3.C"
-  ],
-  "standards": [
     "VAR-3.D",
     "VAR-3",
     "VAR-3.C.8",

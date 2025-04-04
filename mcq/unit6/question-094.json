@@ -1,42 +1,42 @@
 {
   "question_id": "question-094",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "confidence-interval",
+    "differences-in-proportions",
+    "initial-conditions"
+  ],
   "title": "Check the Polls",
   "difficulty": "Easy",
-  "question_text": "National polls for a political candidate were being compared between two different polling companies. Company $1$ randomly polled $32$ people and found $22$ planning to vote for the candidate. Company $2$ randomly polled $34$ people and found $31$ planning to vote for the candidate. A person was commissioned to analyze the results by creating a confidence interval for the difference between the two proportions.  Which of the following pairs of checks would fail to verify the conditions for the confidence interval?",
+  "question_text": "National polls for a political candidate were being compared between two different polling companies.\nCompany $1$ randomly polled $32$ people and found $22$ planning to vote for the candidate.\nCompany $2$ randomly polled $34$ people and found $31$ planning to vote for the candidate.\nA person was commissioned to analyze the results by creating a confidence interval for the difference between the two proportions. Which of the following pairs of checks would fail to verify the conditions for the confidence interval?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "22 32 × 32 22 32 × 32 31 34 × 34 31 34 × 34"
+      "text": "$\\dfrac{22}{32}\\times32$\n$\\dfrac{31}{34}\\times34$"
     },
     {
       "letter": "B",
-      "text": "31 34 × 34 31 34 × 34 ( 1 − 31 34 ) × 34 ( 1 − 31 34 ) × 34"
+      "text": "$\\dfrac{31}{34}\\times34$\n$(1-\\dfrac{31}{34})\\times34$"
     },
     {
       "letter": "C",
-      "text": "22 32 × 32 22 32 × 32 Both samples were randomly selected."
+      "text": "$\\dfrac{22}{32}\\times32$\nBoth samples were randomly selected."
     },
     {
       "letter": "D",
-      "text": "22 32 × 32 22 32 × 32 ( 1 − 22 32 ) × 32 ( 1 − 22 32 ) × 32"
+      "text": "$\\dfrac{22}{32}\\times32$\n$(1-\\dfrac{22}{32})\\times32$"
     },
     {
       "letter": "E",
-      "text": "31 34 × 34 31 34 × 34 ( 1 − 22 32 ) × 32 ( 1 − 22 32 ) × 32"
+      "text": "$\\dfrac{31}{34}\\times34$\n$(1-\\dfrac{22}{32})\\times32$"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.C",
-    "UNC-4.J.1",
-    "UNC-4.J",
-    "UNC-4"
-  ],
-  "standards": [
     "4.C",
     "UNC-4.J.1",
     "UNC-4.J",

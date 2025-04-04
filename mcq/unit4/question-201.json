@@ -1,12 +1,19 @@
 {
   "question_id": "question-201",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "geometric",
+    "probability",
+    "discrete-random-variables"
+  ],
   "title": "Geometric Distribution: Shape of Geometric Distribution",
-  "difficulty": "Difficult",
+  "difficulty": "Hard",
   "question_text": "What does the shape of a geometric distribution $p=0.50$ look like?",
   "image_files": [
     "images/question-201-img1.pdf"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -31,14 +38,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.G.1",
-    "4.B",
-    "UNC-3.G",
-    "UNC-3"
-  ],
-  "standards": [
     "UNC-3.G.1",
     "4.B",
     "UNC-3.G",

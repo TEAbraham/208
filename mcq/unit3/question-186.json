@@ -1,0 +1,45 @@
+{
+  "question_id": "question-186",
+  "unit": "AP® Statistics | Unit 3 Assessment",
+  "topics": [
+    "population",
+    "random-sampling",
+    "random"
+  ],
+  "title": "A New Restaurant",
+  "difficulty": "Easy",
+  "question_text": "The manager of a new restaurant wishes to know if there is local interest in the cuisine his restaurant offers prior to signing a contract in Foodtown, NY. He obtains a complete list of all residents of Foodtown and decides to select a simple random sample of $150$ residents. He will send sample menus and an invitation for a complimentary lunch to the $150$ residents randomly chosen. What is the likelihood that all $150$ randomly chosen residents will live in the same neighborhood?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Zero. By taking a simple random sample, the manager is ensuring the residents selected will be spread out throughout Foodtown, NY."
+    },
+    {
+      "letter": "B",
+      "text": "The same as for any group of $150$ residents in all of Foodtown, NY."
+    },
+    {
+      "letter": "C",
+      "text": "Very unlikely as each neighborhood could be considered a cluster and in a cluster sample, each cluster is unlikely to be chosen."
+    },
+    {
+      "letter": "D",
+      "text": "The population size divided by $150$."
+    },
+    {
+      "letter": "E",
+      "text": "Very likely. A simple random sample ensures each group of $150$ residents is very likely to be chosen as the final sample."
+    }
+  ],
+  "correct_answer": "Choice ‘B’ is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "DAT-2",
+    "DAT-2.A",
+    "DAT-2.A.2",
+    "4.A"
+  ]
+}

@@ -1,12 +1,18 @@
 {
   "question_id": "question-060",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "scatterplots",
+    "bivariate-data",
+    "exploring-data"
+  ],
   "title": "Complaints and Sales",
-  "difficulty": "Moderate",
-  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved. A small retailer believes there is an association between the number of complaints in a given month and sales volume. To investigate this relationship, he retrieves the past $24\\text{ months}$ of data using the number of complaints as the independent variable and store sales as the dependent variable. The scatterplot above represents this data. Using the graph, which of the following statements is correct?",
+  "difficulty": "Medium",
+  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved.\nA small retailer believes there is an association between the number of complaints in a given month and sales volume.\nTo investigate this relationship, he retrieves the past $24\\text{ months}$ of data using the number of complaints as the independent variable and store sales as the dependent variable. The scatterplot above represents this data.\nUsing the graph, which of the following statements is correct?",
   "image_files": [
     "images/question-060-img1.JPG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -14,7 +20,7 @@
     },
     {
       "letter": "B",
-      "text": "The slope of this scatterplot is 0 0 ."
+      "text": "The slope of this scatterplot is\n0\n."
     },
     {
       "letter": "C",
@@ -31,15 +37,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-1.C",
-    "DAT-1.C.2",
-    "DAT-1",
-    "DAT-1.C.1"
-  ],
-  "standards": [
     "4.B",
     "DAT-1.C",
     "DAT-1.C.2",

@@ -1,10 +1,15 @@
 {
   "question_id": "question-029",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "conditional-relative-frequencies",
+    "two-way-table"
+  ],
   "title": "Find the Conditional Frequency",
-  "difficulty": "Moderate",
-  "question_text": "Suppose you are told to find the conditional frequency for a cell in column $2$ of a two-way table.  Which of the following should you do to find that conditional frequency?",
+  "difficulty": "Medium",
+  "question_text": "Suppose you are told to find the conditional frequency for a cell in column $2$ of a two-way table. Which of the following should you do to find that conditional frequency?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -12,7 +17,7 @@
     },
     {
       "letter": "B",
-      "text": "Divide the cell value by the total of column 2 2 ."
+      "text": "Divide the cell value by the total of column $2$."
     },
     {
       "letter": "C",
@@ -29,14 +34,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "2.C",
-    "UNC-1.Q",
-    "UNC-1.Q.2",
-    "UNC-1"
-  ],
-  "standards": [
     "2.C",
     "UNC-1.Q",
     "UNC-1.Q.2",

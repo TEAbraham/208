@@ -1,10 +1,16 @@
 {
   "question_id": "question-133",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
   "title": "Baseball Logo",
-  "difficulty": "Moderate",
-  "question_text": "​A local baseball team is considering changing its logo. A large survey of $5,000$ randomly selected subjects found that the majority of respondents preferred the new logo $(p = 0.02)$ to the old one. Why might the team consider NOT changing their logo?",
+  "difficulty": "Medium",
+  "question_text": "A local baseball team is considering changing its logo.\nA large survey of $5,000$ randomly selected subjects found that the majority of respondents preferred the new logo $(p = 0.02)$ to the old one.\nWhy might the team consider NOT changing their logo?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -16,7 +22,7 @@
     },
     {
       "letter": "C",
-      "text": "The p p -value is too high to give any strong evidence of a preference."
+      "text": "The $p$-value is too high to give any strong evidence of a preference."
     },
     {
       "letter": "D",
@@ -29,15 +35,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.E",
-    "DAT-3.D.1",
-    "DAT-3.D.2",
-    "DAT-3",
-    "DAT-3.D"
-  ],
-  "standards": [
     "4.E",
     "DAT-3.D.1",
     "DAT-3.D.2",

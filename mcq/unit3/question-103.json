@@ -1,10 +1,19 @@
 {
   "question_id": "question-103",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "matched-pairs-design",
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "blocking",
+    "randomized-block-design"
+  ],
   "title": "Type of Design: Neighborhood Watch",
-  "difficulty": "Moderate",
-  "question_text": "Neighborhood watch is a program designed where a group of civilians are devoted to prevent  crime and vandalism in a neighborhood.  A research group, known as the Watchmen want to know if the neighborhood watch is actually effective. The Watchmen locate $20$ pairs of neighborhoods, where each pair is similar in size, economic status,  number of streetlights, number of dogs, number of nosy neighbors, etc. One neighborhood in each pair is randomly assigned to have  the neighborhood watch program and the other does not. This is an example of",
+  "difficulty": "Medium",
+  "question_text": "Neighborhood watch is a program designed where a group of civilians are devoted to prevent crime and vandalism in a neighborhood. A research group, known as the Watchmen want to know if the neighborhood watch is actually effective.\nThe Watchmen locate $20$ pairs of neighborhoods, where each pair is similar in size, economic status, number of streetlights, number of dogs, number of nosy neighbors, etc. One neighborhood in each pair is randomly assigned to have the neighborhood watch program and the other does not.\nThis is an example of",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,16 +38,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.D",
-    "VAR-3",
-    "VAR-3.D.1",
-    "1.C",
-    "VAR-3.C.9",
-    "VAR-3.C"
-  ],
-  "standards": [
     "VAR-3.D",
     "VAR-3",
     "VAR-3.D.1",

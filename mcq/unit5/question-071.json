@@ -1,10 +1,16 @@
 {
   "question_id": "question-071",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sampling-distributions",
+    "central-limit-theorem"
+  ],
   "title": "Sample Distributions: Central Limit Theorem",
-  "difficulty": "Moderate",
-  "question_text": "A known population has a highly skewed distribution. You take all possible samples of size $n=8$ from this skewed distribution. What does the central limit theorem say about the shape of your sampling distribution?",
+  "difficulty": "Medium",
+  "question_text": "A known population has a highly skewed distribution. You take all possible samples of size $n=8$ from this skewed distribution.\nWhat does the central limit theorem say about the shape of your sampling distribution?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,16 +35,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.H.2",
-    "UNC-3.H.1",
-    "3.C",
-    "UNC-3",
-    "UNC-3.H",
-    "UNC-3.H.3"
-  ],
-  "standards": [
     "UNC-3.H.2",
     "UNC-3.H.1",
     "3.C",

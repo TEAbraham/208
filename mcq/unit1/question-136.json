@@ -1,13 +1,19 @@
 {
   "question_id": "question-136",
   "unit": "Unit 1 | Exploring One-Variable Data",
-  "title": "Hot Dog Sales: Stemplots and Outliers",
-  "difficulty": "Moderate",
-  "question_text": "For the past $24$ days, Oscar has been keeping track of the number of hot dogs sold daily at his hot dog cart.  His data is displayed in the stemplot below. Loading question supplement... Which of the following statements accurately describes the outliers in this distribution?",
-  "image_files": [
-    "images/question-136-img1.PNG",
-    "images/question-136-img2.PNG"
+  "topics": [
+    "graphical-displays-of-data",
+    "univariate-data",
+    "exploring-data",
+    "outliers"
   ],
+  "title": "Hot Dog Sales: Stemplots and Outliers",
+  "difficulty": "Medium",
+  "question_text": "For the past $24$ days, Oscar has been keeping track of the number of hot dogs sold daily at his hot dog cart. His data is displayed in the stemplot below.\nWhich of the following statements accurately describes the outliers in this distribution?",
+  "image_files": [
+    "images/question-136-img1.PNG"
+  ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -15,31 +21,25 @@
     },
     {
       "letter": "B",
-      "text": "There is only one outlier and it occurs at 12 12 hot dogs."
+      "text": "There is only one outlier and it occurs at 12\nhot dogs."
     },
     {
       "letter": "C",
-      "text": "There is only one outlier and it occurs at 62 62 hot dogs."
+      "text": "There is only one outlier and it occurs at 62\nhot dogs."
     },
     {
       "letter": "D",
-      "text": "There are two outliers.  One outlier is at 12 12 hot dogs and the other outlier is at 62 62 hot dogs."
+      "text": "There are two outliers. One outlier is at 12\nhot dogs and the other outlier is at 62\nhot dogs."
     },
     {
       "letter": "E",
-      "text": "There are three outliers.  One outlier is at 12 12 hot dogs, another is at 57 57 hot dogs, and another is at 62 62 hot dogs."
+      "text": "There are three outliers. One outlier is at 12\nhot dogs, another is at 57\nhot dogs, and another is at 62\nhot dogs."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.M",
-    "UNC-1.M.1",
-    "2.A",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.M",
     "UNC-1.M.1",
     "2.A",

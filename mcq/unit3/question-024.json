@@ -1,10 +1,17 @@
 {
   "question_id": "question-024",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "methods-of-data-collection",
+    "sampling-and-experimentation",
+    "identifying-methods",
+    "experiment"
+  ],
   "title": "Collecting Data About A Major Rivalry",
   "difficulty": "Easy",
-  "question_text": "There is a major rivalry between the two Major League Baseball teams in the city of Chicago, Illinois! Fans of the southsiders were overjoyed when their White Mittens won the 2005 World Championship, while fans of the \"lov​able losers\" have been waiting a very long time for their Northside Chicago Calves to win a World Series. But which team really has more fans in the city of Chicago? Researchers decided to do a study. To gather data, they randomly called phone numbers with $312$ , $773$ or $872$ area codes (the current three Chicago area codes), and asked which of the two teams the person answering the phone preferred. Which of the following best describes the manner in which data was collected?",
+  "question_text": "There is a major rivalry between the two Major League Baseball teams in the city of Chicago, Illinois! Fans of the southsiders were overjoyed when their White Mittens won the 2005 World Championship, while fans of the \"lovable losers\" have been waiting a very long time for their Northside Chicago Calves to win a World Series. But which team really has more fans in the city of Chicago? Researchers decided to do a study. To gather data, they randomly called phone numbers with $312$, $773$ or $872$ area codes (the current three Chicago area codes), and asked which of the two teams the person answering the phone preferred.\nWhich of the following best describes the manner in which data was collected?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +36,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-2",
-    "1.C",
-    "DAT-2.A",
-    "DAT-2.A.3"
-  ],
-  "standards": [
     "DAT-2",
     "1.C",
     "DAT-2.A",

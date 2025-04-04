@@ -1,42 +1,42 @@
 {
   "question_id": "question-119",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "influential-points",
+    "scatterplot",
+    "outliers"
+  ],
   "title": "High Leverage Point?",
   "difficulty": "Easy",
-  "question_text": "Given the following points on a scatterplot: $(1, 8), (4, 9), (5, 10), (7, 12), (9, 14)$ , which of the following points, if included in the scatterplot, is the most likely high leverage point?",
+  "question_text": "Given the following points on a scatterplot: $(1, 8), (4, 9), (5, 10), (7, 12), (9, 14)$, which of the following points, if included in the scatterplot, is the most likely high leverage point?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "( 0 , 6 ) ( 0 , 6 )"
+      "text": "$(0, 6)$"
     },
     {
       "letter": "B",
-      "text": "( 14 , 20 ) ( 14 , 20 )"
+      "text": "$(14, 20)$"
     },
     {
       "letter": "C",
-      "text": "( 3 , 15 ) ( 3 , 15 )"
+      "text": "$(3, 15)$"
     },
     {
       "letter": "D",
-      "text": "( 8 , 4 ) ( 8 , 4 )"
+      "text": "$(8, 4)$"
     },
     {
       "letter": "E",
-      "text": "( 5 , 12 ) ( 5 , 12 )"
+      "text": "$(5, 12)$"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-1",
-    "DAT-1.I",
-    "DAT-1.I.2",
-    "2.A"
-  ],
-  "standards": [
     "DAT-1",
     "DAT-1.I",
     "DAT-1.I.2",

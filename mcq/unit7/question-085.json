@@ -1,43 +1,46 @@
 {
   "question_id": "question-085",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval",
+    "mean-interval",
+    "mean",
+    "estimation",
+    "1-sample-tinterval-means",
+    "statistical-inference",
+    "1-sample-t-test-means"
+  ],
   "title": "Confidence Level and $1$-sided Significance Testing",
-  "difficulty": "Difficult",
-  "question_text": "A one sample $t$ -test for was used to conduct a test of the null hypotheses: $${ H }_{ 0 }:\\mu =28$$ $${ H }_{ a }:\\mu <28$$ The $p$ -value was $0.006$ . A  confidence interval for * $\\mu$ * is to be constructed. Of the following, which is the largest level of confidence for which the confidence interval will NOT contain $28$ ?",
+  "difficulty": "Hard",
+  "question_text": "A one sample $t$-test for was used to conduct a test of the null hypotheses:\n$${ H }_{ 0 }:\\mu =28$$\n\n$${ H }_{ a }:\\mu <28$$\nThe $p$-value was $0.006$. A confidence interval for *$\\mu$ * is to be constructed.\nOf the following, which is the largest level of confidence for which the confidence interval will NOT contain $28$?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "95 % 95 %"
+      "text": "$95\\%$"
     },
     {
       "letter": "B",
-      "text": "96 % 96 %"
+      "text": "$96\\%$"
     },
     {
       "letter": "C",
-      "text": "97 % 97 %"
+      "text": "$97\\%$"
     },
     {
       "letter": "D",
-      "text": "98 % 98 %"
+      "text": "$98\\%$"
     },
     {
       "letter": "E",
-      "text": "99 % 99 %"
+      "text": "$99\\%$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-3.F",
-    "4.E",
-    "DAT-3",
-    "DAT-3.F.2",
-    "DAT-3.F.1"
-  ],
-  "standards": [
     "DAT-3.F",
     "4.E",
     "DAT-3",

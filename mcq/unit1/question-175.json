@@ -1,10 +1,19 @@
 {
   "question_id": "question-175",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "mean",
+    "univariate-data",
+    "median",
+    "comparing-distributions",
+    "exploring-data",
+    "shape"
+  ],
   "title": "Skew: Skiing Contest",
-  "difficulty": "Moderate",
-  "question_text": "Bobosaur and Turtle both love to ski. They each raced down the same mountain $25$ times. Bobosaur had a mean time of $87\\text{ seconds}$ and a median time of $87\\text{ seconds}$ . Turtle had a mean time of $104\\text{ seconds}$ and a median time of $96\\text{ seconds}$ . Which of the following statements is TRUE?",
+  "difficulty": "Medium",
+  "question_text": "Bobosaur and Turtle both love to ski. They each raced down the same mountain $25$ times. Bobosaur had a mean time of $87\\text{ seconds}$ and a median time of $87\\text{ seconds}$. Turtle had a mean time of $104\\text{ seconds}$ and a median time of $96\\text{ seconds}$.\nWhich of the following statements is TRUE?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +38,8 @@
   ],
   "correct_answer": "Choice 'C' is correct.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.O",
-    "2.D",
-    "UNC-1.O.1",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.O",
     "2.D",
     "UNC-1.O.1",

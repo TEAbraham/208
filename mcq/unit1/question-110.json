@@ -1,44 +1,45 @@
 {
   "question_id": "question-110",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "position",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
   "title": "Boys Shot Put Distances: Percentile from a Histogram",
   "difficulty": "Easy",
-  "question_text": "The histogram below shows results for the $23\\text{ boys}$ who competed in the shot put event at a state track and field meet. Created for Albert.io. Copyright 2016. All rights reserved. Of the following, which is the best estimate of the distance needed (in meters) to be at the $75^\\text{th}\\text{ percentile}$ ?",
+  "question_text": "The histogram below shows results for the $23\\text{ boys}$ who competed in the shot put event at a state track and field meet.\nCreated for Albert.io. Copyright 2016. All rights reserved.\nOf the following, which is the best estimate of the distance needed (in meters) to be at the $75^\\text{th}\\text{ percentile}$?",
   "image_files": [
     "images/question-110-img1.PNG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "14.5 14.5"
+      "text": "14.5"
     },
     {
       "letter": "B",
-      "text": "15.75 15.75"
+      "text": "15.75"
     },
     {
       "letter": "C",
-      "text": "16.75 16.75"
+      "text": "16.75"
     },
     {
       "letter": "D",
-      "text": "17.25 17.25"
+      "text": "17.25"
     },
     {
       "letter": "E",
-      "text": "18.5 18.5"
+      "text": "18.5"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.M",
-    "UNC-1.M.1",
-    "2.A",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.M",
     "UNC-1.M.1",
     "2.A",

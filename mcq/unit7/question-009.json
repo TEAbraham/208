@@ -1,13 +1,18 @@
 {
   "question_id": "question-009",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "mean",
+    "inference"
+  ],
   "title": "Difference in Reading Times",
-  "difficulty": "Difficult",
-  "question_text": "A set of parents is wondering if there is a difference in the average amount of time spent reading by their third-grader and their fifth-grader. Over the next $35$ nights, the parents record the amount of reading done by both of their kids. The parents then found some summary statistics and graphed the differences between the fifth-grader and the third-grader. Can the parents claim there is a difference in the average reading times between their two kids?",
+  "difficulty": "Hard",
+  "question_text": "A set of parents is wondering if there is a difference in the average amount of time spent reading by their third-grader and their fifth-grader.\nOver the next $35$ nights, the parents record the amount of reading done by both of their kids. The parents then found some summary statistics and graphed the differences between the fifth-grader and the third-grader.\nCan the parents claim there is a difference in the average reading times between their two kids?",
   "image_files": [
     "images/question-009-img1.jpeg",
     "images/question-009-img2.jpeg"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -23,7 +28,7 @@
     },
     {
       "letter": "D",
-      "text": "No, because 0 0 is in the distribution of differences"
+      "text": "No, because $0$ is in the distribution of differences"
     },
     {
       "letter": "E",
@@ -31,15 +36,9 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "The parents are looking at two-sample data for their fifth-grader and their third-grade student's average reading times. When deciding if there is a difference between the two different samples, the parents need to determine if there is significant enough evidence to claim there is a difference.\n\nWhen looking at our data, even though the mean is positive, indicating a slight difference between the two readers, when you look at the dot plot, 0 0 is an outcome indicating there is a possibility of no difference.\n\nTherefore, the parents do not have convincing evidence of a difference when it comes to the average reading times of their two kids.\n\nChoice 'D' is correct.",
-  "distractor_explanations": {},
+  "solution": "The parents are looking at two-sample data for their fifth-grader and their third-grade student's average reading times. When deciding if there is a difference between the two different samples, the parents need to determine if there is significant enough evidence to claim there is a difference.\n\nWhen looking at our data, even though the mean is positive, indicating a slight difference between the two readers, when you look at the dot plot, $0$ is an outcome indicating there is a possibility of no difference.\n\nTherefore, the parents do not have convincing evidence of a difference when it comes to the average reading times of their two kids.\n\nChoice 'D' is correct.",
+  "explanations": {},
   "tags": [
-    "VAR-1.I.1",
-    "1.A",
-    "VAR-1",
-    "VAR-1.I"
-  ],
-  "standards": [
     "VAR-1.I.1",
     "1.A",
     "VAR-1",

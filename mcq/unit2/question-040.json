@@ -1,10 +1,21 @@
 {
   "question_id": "question-040",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "mean",
+    "standard-deviation",
+    "mode",
+    "scatterplots",
+    "bivariate-data",
+    "scatter-plots",
+    "exploring-data",
+    "interquartile-range"
+  ],
   "title": "Interpreting Scatter Plots",
   "difficulty": "Easy",
   "question_text": "When interpreting a scatter plot, what are some prominent features one should point out?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,17 +40,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-1.A.1",
-    "DAT-1.A.5",
-    "DAT-1",
-    "DAT-1.A.3",
-    "DAT-1.A",
-    "2.A",
-    "DAT-1.A.2"
-  ],
-  "standards": [
     "DAT-1.A.1",
     "DAT-1.A.5",
     "DAT-1",

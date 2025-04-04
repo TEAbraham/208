@@ -1,42 +1,43 @@
 {
   "question_id": "question-128",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "center-spread",
+    "univariate-data",
+    "comparing-distributions",
+    "exploring-data"
+  ],
   "title": "Formula: Degrees of Freedom",
   "difficulty": "Easy",
-  "question_text": "Determine the appropriate degrees of freedom on a two-sample $T$ -test with samples of size $25$ and $17$ .",
+  "question_text": "Determine the appropriate degrees of freedom on a two-sample $T$-test with samples of size $25$ and $17$.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "16 16"
+      "text": "$16$"
     },
     {
       "letter": "B",
-      "text": "17 17"
+      "text": "$17$"
     },
     {
       "letter": "C",
-      "text": "24 24"
+      "text": "$24$"
     },
     {
       "letter": "D",
-      "text": "40 40"
+      "text": "$40$"
     },
     {
       "letter": "E",
-      "text": "42 42"
+      "text": "$42$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-7.I",
-    "VAR-7.I.1",
-    "VAR-7",
-    "3.E"
-  ],
-  "standards": [
     "VAR-7.I",
     "VAR-7.I.1",
     "VAR-7",

@@ -1,0 +1,45 @@
+{
+  "question_id": "question-149",
+  "unit": "AP® Statistics | Unit 7 Assessment",
+  "topics": [
+    "critical-value",
+    "1-sample-t-interval",
+    "calculating-margin-of-error"
+  ],
+  "title": "Math SAT Scores",
+  "difficulty": "Medium",
+  "question_text": "For an AP Statistics project, a student named Joe was curious as to the average math SAT scores of students at his school. He chose $30$ seniors at random and found an average SAT math score of $542$ with a standard deviation of $81$. He wanted to construct a $99\\%$ confidence interval. Find the margin of error for that interval.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "margin of error $=2.750\\lgroup\\dfrac{81}{\\sqrt{30}}\\rgroup$"
+    },
+    {
+      "letter": "B",
+      "text": "margin of error $=2.045\\lgroup\\dfrac{81}{\\sqrt{30}}\\rgroup$"
+    },
+    {
+      "letter": "C",
+      "text": "margin of error $=2.756\\lgroup\\dfrac{81}{\\sqrt{30}}\\rgroup$"
+    },
+    {
+      "letter": "D",
+      "text": "margin of error $=2.756\\lgroup\\dfrac{30}{\\sqrt{81}}\\rgroup$"
+    },
+    {
+      "letter": "E",
+      "text": "margin of error $=2.750\\lgroup\\dfrac{81}{30}\\rgroup$"
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.Q.3",
+    "3.D",
+    "UNC-4",
+    "UNC-4.Q"
+  ]
+}

@@ -1,42 +1,40 @@
 {
   "question_id": "question-021",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [],
   "title": "Determining a Proportion Given Data",
   "difficulty": "Easy",
-  "question_text": "It’s family game night in Cocoa Beach. Residents settle in to play their favorite game and eat their favorite snack. A random sample of $115\\text{ families}$ were asked their preferred game and snack, and the results are presented in the two-way table below. Pizza Bites Chips and Dip Cookies Yahtzee 10 3 12 Trivial Pursuit 8 14 7 Monopoly 14 17 7 Wii Bowling 12 7 4 What proportion of Wii bowlers prefer pizza bites?",
+  "question_text": "It’s family game night in Cocoa Beach. Residents settle in to play their favorite game and eat their favorite snack.\nA random sample of $115\\text{ families}$ were asked their preferred game and snack, and the results are presented in the two-way table below.\nPizza Bites Chips and Dip Cookies\nYahtzee 10 3 12\nTrivial Pursuit 8 14 7\nMonopoly 14 17 7\nWii Bowling 12 7 4\n\n\nWhat proportion of Wii bowlers prefer pizza bites?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Pizza Bites</th><th scope=\"col\">Chips and Dip</th><th scope=\"col\">Cookies</th></tr></thead><tbody><tr><td>Yahtzee</td><td>10</td><td>3</td><td>12</td></tr><tr><td>Trivial Pursuit</td><td>8</td><td>14</td><td>7</td></tr><tr><td>Monopoly</td><td>14</td><td>17</td><td>7</td></tr><tr><td>Wii Bowling</td><td>12</td><td>7</td><td>4</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "12 115 12 115"
+      "text": "$\\dfrac{12}{115}$"
     },
     {
       "letter": "B",
-      "text": "23 115 23 115"
+      "text": "$\\dfrac{23}{115}$"
     },
     {
       "letter": "C",
-      "text": "12 44 12 44"
+      "text": "$\\dfrac{12}{44}$"
     },
     {
       "letter": "D",
-      "text": "44 115 44 115"
+      "text": "$\\dfrac{44}{115}$"
     },
     {
       "letter": "E",
-      "text": "12 23 12 23"
+      "text": "$\\dfrac{12}{23}$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.B.2",
-    "UNC-1.A",
-    "2.A",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.B.2",
     "UNC-1.A",
     "2.A",

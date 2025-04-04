@@ -1,42 +1,43 @@
 {
   "question_id": "question-013",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "summarizing-distributions",
+    "center",
+    "exploring-data"
+  ],
   "title": "Examples of Quantitative and Categorical Variables",
   "difficulty": "Easy",
-  "question_text": "What could be an example of a quantitative variable?  What could be an example of a categorical variable?",
+  "question_text": "What could be an example of a quantitative variable? What could be an example of a categorical variable?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "( 1 1 ) quantitative variable;  SAT Score. ( 2 2 ) categorical variable:   Time needed to finish the SAT."
+      "text": "($1$) quantitative variable; SAT Score.\n($2$) categorical variable: Time needed to finish the SAT."
     },
     {
       "letter": "B",
-      "text": "( 1 1 ) quantitative variable: SAT Score. ( 2 2 ) categorical variable: Age of subjects taking the SAT in years."
+      "text": "($1$) quantitative variable: SAT Score.\n($2$) categorical variable: Age of subjects taking the SAT in years."
     },
     {
       "letter": "C",
-      "text": "( 1 1 ) quantitative variable; Race of subjects taking the SAT. ( 2 2 ) categorical variable: Age of subjects taking the SAT in years."
+      "text": "($1$) quantitative variable; Race of subjects taking the SAT.\n($2$) categorical variable: Age of subjects taking the SAT in years."
     },
     {
       "letter": "D",
-      "text": "( 1 1 ) quantitative variable; Age of subjects taking the SAT in years. ( 2 2 ) categorical variable: Favorite color of subjects taking the SAT."
+      "text": "($1$) quantitative variable; Age of subjects taking the SAT in years.\n($2$) categorical variable: Favorite color of subjects taking the SAT."
     },
     {
       "letter": "E",
-      "text": "( 1 1 ) quantitative variable; Income of subjects taking the SAT. ( 2 2 ) categorical variable: Street address of subjects taking the SAT."
+      "text": "($1$) quantitative variable; Income of subjects taking the SAT.\n($2$) categorical variable: Street address of subjects taking the SAT."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "2.A",
-    "VAR-1.C.2",
-    "VAR-1",
-    "VAR-1.C"
-  ],
-  "standards": [
     "2.A",
     "VAR-1.C.2",
     "VAR-1",

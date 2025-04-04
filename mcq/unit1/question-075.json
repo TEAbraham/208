@@ -1,28 +1,35 @@
 {
   "question_id": "question-075",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "graphical-displays-of-data",
+    "center-spread",
+    "univariate-data",
+    "exploring-data"
+  ],
   "title": "Girls' Shoes",
-  "difficulty": "Moderate",
-  "question_text": "The graph below shows the distribution of the number of shoes for a group of $37\\text{  girls}$ . Which of the following choices BEST estimates the mean and standard deviation of the distribution? Created for Albert.io. Copyright 2017. All rights reserved.",
+  "difficulty": "Medium",
+  "question_text": "The graph below shows the distribution of the number of shoes for a group of $37\\text{ girls}$.\nWhich of the following choices BEST estimates the mean and standard deviation of the distribution?\nCreated for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-075-img1.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The mean of the distribution is around 20 pairs of shoes 20 pairs of shoes with a standard deviation of around 13 pairs of shoes 13 pairs of shoes ."
+      "text": "The mean of the distribution is around 20 pairs of shoes with a standard deviation of around 13 pairs of shoes."
     },
     {
       "letter": "B",
-      "text": "The mean of the distribution is around 13 pairs of shoes 13 pairs of shoes with a standard deviation of around 20 pairs of shoes 20 pairs of shoes ."
+      "text": "The mean of the distribution is around 13 pairs of shoes\nwith a standard deviation of around 20 pairs of shoes\n."
     },
     {
       "letter": "C",
-      "text": "The mean of the distribution is around 9 pairs of shoes 9 pairs of shoes with a standard deviation of around 3 pairs of shoes 3 pairs of shoes ."
+      "text": "The mean of the distribution is around 9 pairs of shoes\nwith a standard deviation of around 3 pairs of shoes\n."
     },
     {
       "letter": "D",
-      "text": "The mean of the distribution is around 30 pairs of shoes 30 pairs of shoes with a standard deviation of around 25 pairs of shoes 25 pairs of shoes ."
+      "text": "The mean of the distribution is around 30 pairs of shoes\nwith a standard deviation of around 25 pairs of shoes\n."
     },
     {
       "letter": "E",
@@ -31,14 +38,8 @@
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.H.1",
-    "UNC-1.H",
-    "2.D",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.H.1",
     "UNC-1.H",
     "2.D",

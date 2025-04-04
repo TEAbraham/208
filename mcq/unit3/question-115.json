@@ -1,10 +1,17 @@
 {
   "question_id": "question-115",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "methods-of-data-collection",
+    "sampling-and-experimentation",
+    "observational-study",
+    "experiment"
+  ],
   "title": "Let's Do an Experiment",
-  "difficulty": "Moderate",
+  "difficulty": "Medium",
   "question_text": "In which of the following situations would it be most appropriate to conduct an experiment rather than an observational study?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -24,19 +31,13 @@
     },
     {
       "letter": "E",
-      "text": "A nutritionist has noticed that healthier foods often cost more than less healthy alternatives.  She wants to investigate if lower levels of family income are related to higher levels of childhood obesity."
+      "text": "A nutritionist has noticed that healthier foods often cost more than less healthy alternatives. She wants to investigate if lower levels of family income are related to higher levels of childhood obesity."
     }
   ],
   "correct_answer": "Choice 'D'",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.D",
-    "VAR-3",
-    "VAR-3.D.1",
-    "1.C"
-  ],
-  "standards": [
     "VAR-3.D",
     "VAR-3",
     "VAR-3.D.1",

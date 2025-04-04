@@ -1,43 +1,43 @@
 {
   "question_id": "question-004",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "sampling-distribution",
+    "sample-proportion",
+    "dot-plot",
+    "sampling"
+  ],
   "title": "Red Marbles",
   "difficulty": "Easy",
-  "question_text": "A students statistics teacher brings a bag of marbles to class. He states that the proportion of red marbles is $0.50$ . To test this proportion, he will have students select random samples of $20$ marbles from the bag. When the student selects their sample of marbles, they get $16$ red marbles for a proportion of $0.80$ . They think this proportion is high, and they don't believe the teacher's proportion of $0.50$ is correct. So, they run a simulation that takes $50$ samples from the teacher's bag of marbles with a known proportion of $0.50$ red marbles. The dot plot of the data is below. What proportion of samples in the student's simulation gave a sample proportion of at least $0.80$ ?",
-  "image_files": [
-    "images/question-004-img1.png"
-  ],
+  "question_text": "A students statistics teacher brings a bag of marbles to class. He states that the proportion of red marbles is $0.50$. To test this proportion, he will have students select random samples of $20$ marbles from the bag. When the student selects their sample of marbles, they get $16$ red marbles for a proportion of $0.80$.\nThey think this proportion is high, and they don't believe the teacher's proportion of $0.50$ is correct. So, they run a simulation that takes $50$ samples from the teacher's bag of marbles with a known proportion of $0.50$ red marbles. The dot plot of the data is below.\nLoading question supplement...\nWhat proportion of samples in the student's simulation gave a sample proportion of at least $0.80$?",
+  "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.02 0.02"
+      "text": "$0.02$"
     },
     {
       "letter": "B",
-      "text": "0.05 0.05"
+      "text": "$0.05$"
     },
     {
       "letter": "C",
-      "text": "0.50 0.50"
+      "text": "$0.50$"
     },
     {
       "letter": "D",
-      "text": "0.80 0.80"
+      "text": "$0.80$"
     },
     {
       "letter": "E",
-      "text": "0.98 0.98"
+      "text": "$0.98$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "Since you simulate the bag of marbles 50 50 times, you have 50 50 total observations on the dot plot given. Then looking at the dots, there is only 1 1 sample that produced a sample proportion of at least 0.80 0.80 .\n\nTherefore, we only have 1 50 1 50 samples that produced a sample proportion of 0.80 0.80 , therefore the proportion of samples that is at least 0.80 0.80 is equal to 0.02 0.02 .\n\nChoice 'A' is correct.",
-  "distractor_explanations": {},
+  "solution": "Since you simulate the bag of marbles $50$ times, you have $50$ total observations on the dot plot given. Then looking at the dots, there is only $1$ sample that produced a sample proportion of at least $0.80$.\n\nTherefore, we only have $\\frac{1}{50}$ samples that produced a sample proportion of $0.80$, therefore the proportion of samples that is at least $0.80$ is equal to $0.02$.\n\nChoice 'A' is correct.",
+  "explanations": {},
   "tags": [
-    "VAR-1.H",
-    "VAR-1.H.1",
-    "VAR-1"
-  ],
-  "standards": [
     "VAR-1.H",
     "VAR-1.H.1",
     "VAR-1"

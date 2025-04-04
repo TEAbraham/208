@@ -1,0 +1,49 @@
+{
+  "question_id": "question-090",
+  "unit": "AP® Statistics | Unit 8 Assessment",
+  "topics": [
+    "p-value",
+    "chi-square",
+    "goodness-of-fit",
+    "chi-square-goodness-of-fit"
+  ],
+  "title": "Finding the $P$-value for a Chi-Square GOF Test",
+  "difficulty": "Medium",
+  "question_text": "A random sample of trafﬁc tickets given to motorists in a large city is examined. The tickets are classiﬁed according to the race of the driver. The results are summarized in the following table:\nRace White Black Hispanic Other\nNumber of Tickets $69$ $52$ $18$ $9$\nThe proportion of this city's population in each of the racial categories listed above is as follows:\nRace White Black Hispanic Other\nProportion $0.55$ $0.30$ $0.08$ $0.07$\nWe wish to test the null hypothesis Ho: The racial distribution of traffic tickets in the city is the same as the racial distribution of the city’s population. We compute the value of the chi-square test statistic to be $6.58$.\nAssuming that the conditions for inference are met, the $P$-value of our test is:",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Race</th><th scope=\"col\">White</th><th scope=\"col\">Black</th><th scope=\"col\">Hispanic</th><th scope=\"col\">Other</th></tr></thead><tbody><tr><td>Number of Tickets</td><td><span class=\"tex2jax_process\">$69$</span></td><td><span class=\"tex2jax_process\">$52$</span></td><td><span class=\"tex2jax_process\">$18$</span></td><td><span class=\"tex2jax_process\">$9$</span></td></tr></tbody></table>",
+    "<table><thead><tr><th scope=\"col\">Race</th><th scope=\"col\">White</th><th scope=\"col\">Black</th><th scope=\"col\">Hispanic</th><th scope=\"col\">Other</th></tr></thead><tbody><tr><td>Proportion</td><td><span class=\"tex2jax_process\">$0.55$</span></td><td><span class=\"tex2jax_process\">$0.30$</span></td><td><span class=\"tex2jax_process\">$0.08$</span></td><td><span class=\"tex2jax_process\">$0.07$</span></td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "greater than $0.20$"
+    },
+    {
+      "letter": "B",
+      "text": "between $0.10$ and $0.20$"
+    },
+    {
+      "letter": "C",
+      "text": "between $0.05$ and $0.10$"
+    },
+    {
+      "letter": "D",
+      "text": "between $0.01$ and $0.05$"
+    },
+    {
+      "letter": "E",
+      "text": "less than $0.01$"
+    }
+  ],
+  "correct_answer": "Choice ‘C’ is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-8.G.1",
+    "VAR-8.G",
+    "3.E",
+    "VAR-8"
+  ]
+}

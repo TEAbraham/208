@@ -1,10 +1,17 @@
 {
   "question_id": "question-149",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "combining-random-variables",
+    "probability",
+    "analysis-random-variable"
+  ],
   "title": "Properties of Independent Random Variables",
-  "difficulty": "Moderate",
-  "question_text": "If two random variables $x$ and $y$ are independent, which of the following statements are true? I. The correlation between $x$ and $y$ is $0$ . II. The mean of $x + y = $ the mean of $x + $ the mean of $ y$ III. The variance of the distribution of the difference between $x$ and $y$ equals the sum of the individual variances of $x$ and $y$ .",
+  "difficulty": "Medium",
+  "question_text": "If two random variables $x$ and $y$ are independent, which of the following statements are true?\nI. The correlation between $x$ and $y$ is $0$.\nII. The mean of $x + y = $ the mean of $x + $ the mean of $ y$\nIII. The variance of the distribution of the difference between $x$ and $y$ equals the sum of the individual variances of $x$ and $y$.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,16 +36,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-5.E",
-    "VAR-5.E.2",
-    "VAR-5.E.3",
-    "VAR-5",
-    "3.B",
-    "VAR-5.E.1"
-  ],
-  "standards": [
     "VAR-5.E",
     "VAR-5.E.2",
     "VAR-5.E.3",

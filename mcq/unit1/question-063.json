@@ -1,10 +1,15 @@
 {
   "question_id": "question-063",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "extra-practice",
+    "exploring-data"
+  ],
   "title": "Constructing a Histogram",
-  "difficulty": "Moderate",
+  "difficulty": "Medium",
   "question_text": "When constructing a histogram, it is important to",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -12,7 +17,7 @@
     },
     {
       "letter": "B",
-      "text": "Use a minimum of 10 10 bars."
+      "text": "Use a minimum of $10$ bars."
     },
     {
       "letter": "C",
@@ -20,7 +25,7 @@
     },
     {
       "letter": "D",
-      "text": "Keep the bars on the x x -axis of equal width."
+      "text": "Keep the bars on the $x$-axis of equal width."
     },
     {
       "letter": "E",
@@ -29,14 +34,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.G.1",
-    "2.A",
-    "UNC-1.G",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.G.1",
     "2.A",
     "UNC-1.G",

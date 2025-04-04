@@ -1,10 +1,16 @@
 {
   "question_id": "question-122",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "difference-two-means"
+  ],
   "title": "Conditions for Matched Pairs $t$-Test",
-  "difficulty": "Moderate",
-  "question_text": "Which of the following are necessary conditions for conducting a matched pairs $t$ -test? Data comes from a random sample of the population of interest. The sampling distribution of differences is approximately normal. The population must be at least $10$ times as large as the sample size.",
+  "difficulty": "Medium",
+  "question_text": "Which of the following are necessary conditions for conducting a matched pairs $t$-test?\nData comes from a random sample of the population of interest.\nThe sampling distribution of differences is approximately normal.\nThe population must be at least $10$ times as large as the sample size.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +35,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.C",
-    "VAR-7.H",
-    "VAR-7",
-    "VAR-7.H.1"
-  ],
-  "standards": [
     "4.C",
     "VAR-7.H",
     "VAR-7",

@@ -1,10 +1,17 @@
 {
   "question_id": "question-062",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "graphical-displays-of-data",
+    "univariate-data",
+    "exploring-data",
+    "shape"
+  ],
   "title": "Least Appropriate Type of Graph for Heart Rate",
   "difficulty": "Easy",
-  "question_text": "Over the past two months, Olivia has been recording her resting heart rate each morning when she wakes up.  The lowest heart rate she recorded was 62 beats per minute, and the highest heart rate was 74 beats per minute. Which type of graphical display would be the LEAST appropriate way to display the distribution of Olivia's heart rates?",
+  "question_text": "Over the past two months, Olivia has been recording her resting heart rate each morning when she wakes up. The lowest heart rate she recorded was 62 beats per minute, and the highest heart rate was 74 beats per minute.\nWhich type of graphical display would be the LEAST appropriate way to display the distribution of Olivia's heart rates?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +36,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "2.D",
-    "UNC-1.G.5",
-    "UNC-1.G",
-    "UNC-1"
-  ],
-  "standards": [
     "2.D",
     "UNC-1.G.5",
     "UNC-1.G",

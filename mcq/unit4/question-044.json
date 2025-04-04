@@ -1,42 +1,42 @@
 {
   "question_id": "question-044",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "calculating-probability",
+    "anticipating-patterns",
+    "probability"
+  ],
   "title": "Smart Musicians: What is the Probability?",
   "difficulty": "Easy",
-  "question_text": "At a large high school, $31\\%$ of students are involved in the school's music program (band, orchestra, choir, etc.). At this same school, $19\\%$ of students are involved in the music program and are on the honor roll. If a student is selected at random from among those who participate in the school's music program, what is the probability the selected student will be on the honor roll?",
+  "question_text": "At a large high school, $31\\%$ of students are involved in the school's music program (band, orchestra, choir, etc.). At this same school, $19\\%$ of students are involved in the music program and are on the honor roll.\nIf a student is selected at random from among those who participate in the school's music program, what is the probability the selected student will be on the honor roll?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.12 0.12"
+      "text": "$0.12$"
     },
     {
       "letter": "B",
-      "text": "0.19 0.19"
+      "text": "$0.19$"
     },
     {
       "letter": "C",
-      "text": "0.31 0.31"
+      "text": "$0.31$"
     },
     {
       "letter": "D",
-      "text": "0.5 0.5"
+      "text": "$0.5$"
     },
     {
       "letter": "E",
-      "text": "0.61 0.61"
+      "text": "$0.61$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "3.A",
-    "VAR-4.D.2",
-    "VAR-4",
-    "VAR-4.D"
-  ],
-  "standards": [
     "3.A",
     "VAR-4.D.2",
     "VAR-4",

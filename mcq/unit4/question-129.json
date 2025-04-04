@@ -1,43 +1,42 @@
 {
   "question_id": "question-129",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "probability",
+    "analysis-random-variable"
+  ],
   "title": "Formula: Adjustments to Population",
   "difficulty": "Easy",
-  "question_text": "A random variable is normally distributed with $\\mu = 25$ and $\\sigma = 5$ . What are the new mean and standard deviation if you multiply each value in the underlying population by $2$ and then add $10$ ?",
+  "question_text": "A random variable is normally distributed with $\\mu = 25$ and $\\sigma = 5$.\nWhat are the new mean and standard deviation if you multiply each value in the underlying population by $2$ and then add $10$?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "μ = 50 ; σ = 5 μ = 50 ; σ = 5"
+      "text": "$\\mu = 50; \\sigma = 5$"
     },
     {
       "letter": "B",
-      "text": "μ = 50 ; σ = 20 μ = 50 ; σ = 20"
+      "text": "$\\mu = 50; \\sigma= 20$"
     },
     {
       "letter": "C",
-      "text": "μ = 60 ; σ = √ 60 μ = 60 ; σ = 60"
+      "text": "$\\mu = 60; \\sigma = \\sqrt{60}$"
     },
     {
       "letter": "D",
-      "text": "μ = 60 ; σ = 10 μ = 60 ; σ = 10"
+      "text": "$\\mu = 60; \\sigma = 10$"
     },
     {
       "letter": "E",
-      "text": "μ = 60 ; σ = 20 μ = 60 ; σ = 20"
+      "text": "$\\mu = 60; \\sigma = 20$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-5.E",
-    "VAR-5.E.2",
-    "VAR-5",
-    "3.B",
-    "VAR-5.E.1"
-  ],
-  "standards": [
     "VAR-5.E",
     "VAR-5.E.2",
     "VAR-5",

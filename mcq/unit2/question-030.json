@@ -1,28 +1,35 @@
 {
   "question_id": "question-030",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "categorical-data",
+    "bar-charts",
+    "comparing-distributions",
+    "exploring-data"
+  ],
   "title": "Age, Politics and Conditional Distributions",
-  "difficulty": "Difficult",
-  "question_text": "Researchers wanted to investigate how an individual's age relates to his or her political leanings.  A random sample of $100$ individuals in each of three age categories was asked to classify themselves as being \"Liberal\" or \"Conservative\".  The results are displayed in the side-by-side bar graph below. Created for Albert.io. Copyright 2016. All rights reserved. Based on this display, what is the conditional distribution of Liberals by age category?",
+  "difficulty": "Hard",
+  "question_text": "Researchers wanted to investigate how an individual's age relates to his or her political leanings. A random sample of $100$ individuals in each of three age categories was asked to classify themselves as being \"Liberal\" or \"Conservative\". The results are displayed in the side-by-side bar graph below.\nCreated for Albert.io. Copyright 2016. All rights reserved.\nBased on this display, what is the conditional distribution of Liberals by age category?",
   "image_files": [
     "images/question-030-img1.PNG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Liberals = 51.67 % 51.67 % Conservative = 48.33 % 48.33 %"
+      "text": "Liberals = 51.67%\n\nConservative = 48.33%"
     },
     {
       "letter": "B",
-      "text": "Age 25 25 and Under = 70 % 70 % Age 26 − 55 26 − 55 = 50 % 50 % Over Age 55 55 = 35 % 35 %"
+      "text": "Age 25\nand Under = 70%\n\nAge 26−55\n= 50%\n\nOver Age 55\n= 35%"
     },
     {
       "letter": "C",
-      "text": "Age 25 25 and Under = 33.33 % 33.33 % Age 26 − 55 26 − 55 = 33.33 % 33.33 % Over Age 55 55 = 33.33 % 33.33 %"
+      "text": "Age\n25\nand Under =\n33.33\n%\n\nAge\n26\n−\n55\n=\n33.33\n%\n\nOver Age\n55\n=\n33.33\n%"
     },
     {
       "letter": "D",
-      "text": "Age 25 25 and Under = 45.16 % 45.16 % Age 26 − 55 26 − 55 = 32.26 % 32.26 % Over Age 55 55 = 22.58 % 22.58 %"
+      "text": "Age\n25\nand Under =\n45.16\n%\n\nAge\n26\n−\n55\n=\n32.26\n%\n\nOver Age\n55\n=\n22.58\n%"
     },
     {
       "letter": "E",
@@ -31,14 +38,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "2.C",
-    "UNC-1.Q",
-    "UNC-1.Q.2",
-    "UNC-1"
-  ],
-  "standards": [
     "2.C",
     "UNC-1.Q",
     "UNC-1.Q.2",

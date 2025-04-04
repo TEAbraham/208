@@ -1,42 +1,43 @@
 {
   "question_id": "question-173",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "center-spread",
+    "univariate-data",
+    "comparing-distributions",
+    "exploring-data"
+  ],
   "title": "Practice Tests",
-  "difficulty": "Moderate",
-  "question_text": "Mrs. Sippi gives a practice AP test to her two sections of AP Statistics, each with $25$ students. Period F has a minimum of $59$ , a median of $81$ , a mean of $82$ , and a maximum of $98$ . Period G (G-Unit) has a minimum of $50$ percent, a median of $77$ , a mean of $84$ , and a maximum of $96$ . If Mrs. Sippi put all $50$ scores in one dataset and recalculated the minimum, maximum, mean, median, and range, which of the following MUST be true?",
+  "difficulty": "Medium",
+  "question_text": "Mrs. Sippi gives a practice AP test to her two sections of AP Statistics, each with $25$ students. Period F has a minimum of $59$, a median of $81$, a mean of $82$, and a maximum of $98$. Period G (G-Unit) has a minimum of $50$ percent, a median of $77$, a mean of $84$, and a maximum of $96$.\nIf Mrs. Sippi put all $50$ scores in one dataset and recalculated the minimum, maximum, mean, median, and range, which of the following MUST be true?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The new median is 79 79 and the new maximum is 98 98 ."
+      "text": "The new median is $79$ and the new maximum is $98$."
     },
     {
       "letter": "B",
-      "text": "The new mean is 83 83 and the new range is 48 48 ."
+      "text": "The new mean is $83$ and the new range is $48$."
     },
     {
       "letter": "C",
-      "text": "The new range is 46 46 and the new mean is 83 83 ."
+      "text": "The new range is $46$ and the new mean is $83$."
     },
     {
       "letter": "D",
-      "text": "The new median is 79 79 and the new mean is 83 83 ."
+      "text": "The new median is $79$ and the new mean is $83$."
     },
     {
       "letter": "E",
-      "text": "The new range is 48 48 and the new median is 79 79 ."
+      "text": "The new range is $48$ and the new median is $79$."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.O",
-    "2.D",
-    "UNC-1.O.1",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.O",
     "2.D",
     "UNC-1.O.1",

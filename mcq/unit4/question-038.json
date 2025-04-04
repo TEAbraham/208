@@ -1,42 +1,44 @@
 {
   "question_id": "question-038",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "combining-random-variables",
+    "independence-vs-dependence",
+    "disjoint",
+    "independence"
+  ],
   "title": "Probability of $A$ or $B$",
   "difficulty": "Easy",
   "question_text": "The formula $P(A\\text{ or }B)$ = $P(A)+P(B)$ is correct",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "In every situation as long as P ( A ) P ( A ) and P ( B ) P ( B ) are greater than 0 0 ."
+      "text": "In every situation as long as $P(A)$ and $P(B)$ are greater than $0$."
     },
     {
       "letter": "B",
-      "text": "Only when events A A and B B are disjoint."
+      "text": "Only when events $A$ and $B$ are disjoint."
     },
     {
       "letter": "C",
-      "text": "Only when events A A and B B are independent."
+      "text": "Only when events $A$ and $B$ are independent."
     },
     {
       "letter": "D",
-      "text": "Only when events A A and B B are equal to each other."
+      "text": "Only when events $A$ and $B$ are equal to each other."
     },
     {
       "letter": "E",
-      "text": "Only when events A A and B B are NOT independent."
+      "text": "Only when events $A$ and $B$ are NOT independent."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "VAR-4.C",
-    "VAR-4",
-    "VAR-4.C.2"
-  ],
-  "standards": [
     "4.B",
     "VAR-4.C",
     "VAR-4",

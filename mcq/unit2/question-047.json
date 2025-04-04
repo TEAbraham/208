@@ -1,26 +1,33 @@
 {
   "question_id": "question-047",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "conducting-experiments",
+    "scatterplots",
+    "bivariate-data",
+    "exploring-data"
+  ],
   "title": "Conclusions from Scatterplot",
   "difficulty": "Easy",
-  "question_text": "A sample of size n = 50 50 was taken of two variable, quantitative data. A scatterplot of the two variables ( X X and Y Y ) shows a moderate, negative relationship between these variables. One can conclude that",
+  "question_text": "A sample of size n = $50$ was taken of two variable, quantitative data. A scatterplot of the two variables ($X$ and $Y$) shows a moderate, negative relationship between these variables.\nOne can conclude that",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Variable X X causes change in variable Y Y ."
+      "text": "Variable $X$ causes change in variable $Y$."
     },
     {
       "letter": "B",
-      "text": "Variable Y Y causes change in variable X X ."
+      "text": "Variable $Y$ causes change in variable $X$."
     },
     {
       "letter": "C",
-      "text": "As X X increases, Y Y tends to increase."
+      "text": "As $X$ increases, $Y$ tends to increase."
     },
     {
       "letter": "D",
-      "text": "As X X increases, Y Y tends to decrease."
+      "text": "As $X$ increases, $Y$ tends to decrease."
     },
     {
       "letter": "E",
@@ -29,15 +36,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-1.C",
-    "DAT-1.C.2",
-    "DAT-1",
-    "DAT-1.C.1"
-  ],
-  "standards": [
     "4.B",
     "DAT-1.C",
     "DAT-1.C.2",

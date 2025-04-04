@@ -1,10 +1,17 @@
 {
   "question_id": "question-018",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "cause-and-effect",
+    "observational",
+    "observational-study",
+    "experiment"
+  ],
   "title": "Observational Study",
-  "difficulty": "Moderate",
+  "difficulty": "Medium",
   "question_text": "Which of the following is not true about an observational study?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -28,18 +35,9 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "When looking at studies, a researcher can choose between an observational study and an experiment . In an observational study, a researcher does not impose treatments and follows a sample in order to learn about the population in which the sample was selected. In an experiment, treatments are assigned to experimental units to investigate an experimental treatment.\n\nA researcher can do an observational study to examine data from a sample of individuals ( retrospective ) or follow a sample of individuals into the future to collect data ( prospective ) in order to investigate a topic of interest about the population. Therefore, an observational study can be both retrospective and prospective.\n\nChoice 'A' is correct.",
-  "distractor_explanations": {},
+  "solution": "When looking at studies, a researcher can choose between an observational study and an experiment. In an observational study, a researcher does not impose treatments and follows a sample in order to learn about the population in which the sample was selected. In an experiment, treatments are assigned to experimental units to investigate an experimental treatment.\n\nA researcher can do an observational study to examine data from a sample of individuals (retrospective) or follow a sample of individuals into the future to collect data (prospective) in order to investigate a topic of interest about the population. Therefore, an observational study can be both retrospective and prospective.\n\nChoice 'A' is correct.",
+  "explanations": {},
   "tags": [
-    "DAT-2",
-    "DAT-2.B.2",
-    "1.C",
-    "DAT-2.A",
-    "DAT-2.B.3",
-    "DAT-2.B",
-    "DAT-2.A.3"
-  ],
-  "standards": [
     "DAT-2",
     "DAT-2.B.2",
     "1.C",

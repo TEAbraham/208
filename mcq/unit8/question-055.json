@@ -1,42 +1,41 @@
 {
   "question_id": "question-055",
   "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "hypotheses",
+    "chi-square-test"
+  ],
   "title": "Find the Null",
   "difficulty": "Easy",
   "question_text": "Which of the following is a null hypothesis for a chi-square test of homogeneity?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "H 0 H 0 :  Two categorical variables in a population are associated."
+      "text": "$H_{0}$: Two categorical variables in a population are associated."
     },
     {
       "letter": "B",
-      "text": "H 0 H 0 :  There is no difference in distributions of a categorical variable across populations."
+      "text": "$H_{0}$: There is no difference in distributions of a categorical variable across populations."
     },
     {
       "letter": "C",
-      "text": "H 0 H 0 :  The proportions given for a set of categorical data are what they are."
+      "text": "$H_{0}$: The proportions given for a set of categorical data are what they are."
     },
     {
       "letter": "D",
-      "text": "H 0 H 0 :  There is a difference in distributions of a categorical variable across populations."
+      "text": "$H_{0}$: There is a difference in distributions of a categorical variable across populations."
     },
     {
       "letter": "E",
-      "text": "H 0 H 0 :  There is no association between two categorical variables in a given population"
+      "text": "$H_{0}$: There is no association between two categorical variables in a given population"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "1.F",
-    "VAR-8.I",
-    "VAR-8.I.1",
-    "VAR-8"
-  ],
-  "standards": [
     "1.F",
     "VAR-8.I",
     "VAR-8.I.1",

@@ -1,10 +1,18 @@
 {
   "question_id": "question-019",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "blocking",
+    "well-designed-conducted",
+    "experiment"
+  ],
   "title": "Type of Design: Laundry Detergents",
-  "difficulty": "Moderate",
-  "question_text": "The manager of a dry cleaning facility wants to compare the effectiveness of two different types of laundry detergents.  The manager thinks light colors and dark colors will react differently. Which type of design should the manager use to effectively compare the two types of detergents?",
+  "difficulty": "Medium",
+  "question_text": "The manager of a dry cleaning facility wants to compare the effectiveness of two different types of laundry detergents. The manager thinks light colors and dark colors will react differently.\nWhich type of design should the manager use to effectively compare the two types of detergents?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +37,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-2",
-    "1.C",
-    "DAT-2.A",
-    "DAT-2.A.4"
-  ],
-  "standards": [
     "DAT-2",
     "1.C",
     "DAT-2.A",

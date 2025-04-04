@@ -1,44 +1,44 @@
 {
   "question_id": "question-111",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "least-squares-regression-line",
+    "bivariate-data",
+    "exploring-data"
+  ],
   "title": "Finding the LSRL from a Computer Output: Height and Wingspan",
-  "difficulty": "Moderate",
-  "question_text": "NBA scouts are always interested in the relationship between the height of NBA players and their respective wingspans. An NBA scout randomly selects $20$ players and measures their heights and wingspans. Below is the computer regression analysis of height  and wingspan. Dependent variable: Wingspan $R^2 = 0.787$ $S = 2.23$ Degrees of Freedom = $18$ Variable Coefficient SE(Coeff) t-ratio P-value Constant -2.273 0.39 -5.83 <0.0001 Height 1.084 0.24 4.52 <0.0001 Write the equation for the least squares regression line.",
+  "difficulty": "Medium",
+  "question_text": "NBA scouts are always interested in the relationship between the height of NBA players and their respective wingspans. An NBA scout randomly selects $20$ players and measures their heights and wingspans. Below is the computer regression analysis of height and wingspan.\nDependent variable: Wingspan\n$R^2 = 0.787$\n$S = 2.23$\nDegrees of Freedom = $18$\nVariable Coefficient SE(Coeff) t-ratio P-value\nConstant -2.273 0.39 -5.83 <0.0001\nHeight 1.084 0.24 4.52 <0.0001\n\n\nWrite the equation for the least squares regression line.",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">Coefficient</th><th scope=\"col\">SE(Coeff)</th><th scope=\"col\">t-ratio</th><th scope=\"col\">P-value</th></tr></thead><tbody><tr><td>Constant</td><td>-2.273</td><td>0.39</td><td>-5.83</td><td>&lt;0.0001</td></tr><tr><td>Height</td><td>1.084</td><td>0.24</td><td>4.52</td><td>&lt;0.0001</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "ˆ w i n g s p a n = − 2.273 + 1.084 height w i n g s p a n ^ = − 2.273 + 1.084 height"
+      "text": "$\\widehat { wingspan } =-2.273+1.084\\text{ height}$"
     },
     {
       "letter": "B",
-      "text": "ˆ w i n g s p a n = 1.084 − 2.273 height w i n g s p a n ^ = 1.084 − 2.273 height"
+      "text": "$\\widehat { wingspan } =1.084-2.273\\text{ height}$"
     },
     {
       "letter": "C",
-      "text": "ˆ h e i g h t = 1.084 − 2.273 wingspan h e i g h t ^ = 1.084 − 2.273 wingspan"
+      "text": "$\\widehat { height } =1.084-2.273\\text{ wingspan}$"
     },
     {
       "letter": "D",
-      "text": "ˆ h e i g h t = − 2.273 + 1.084 wingspan h e i g h t ^ = − 2.273 + 1.084 wingspan"
+      "text": "$\\widehat { height } =-2.273+1.084\\text{ wingspan}$"
     },
     {
       "letter": "E",
-      "text": "ˆ h e i g h t = 0.787 + 2.23 wingspan h e i g h t ^ = 0.787 + 2.23 wingspan"
+      "text": "$\\widehat { height } =0.787+2.23\\text{ wingspan}$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-1.H.2",
-    "DAT-1.H",
-    "DAT-1",
-    "DAT-1.H.3",
-    "DAT-1.H.1"
-  ],
-  "standards": [
     "4.B",
     "DAT-1.H.2",
     "DAT-1.H",

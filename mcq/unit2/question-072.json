@@ -1,44 +1,43 @@
 {
   "question_id": "question-072",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "correlation",
+    "variation",
+    "bivariate-data",
+    "exploring-data"
+  ],
   "title": "Finding the Correlation Coefficient When Given the Variation",
-  "difficulty": "Difficult",
-  "question_text": "It is determined that the least squares regression line between two variables, $x$ and $y$ , is given as: $$\\hat { y } =20000- 0.153x$$ It is also determined that the variation (coefficient of determination) is $57\\%$ . Which of the following is the value for the correlation coefficient?",
+  "difficulty": "Hard",
+  "question_text": "It is determined that the least squares regression line between two variables, $x$ and $y$, is given as:\n$$\\hat { y } =20000- 0.153x$$\nIt is also determined that the variation (coefficient of determination) is $57\\%$.\nWhich of the following is the value for the correlation coefficient?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "− 0.755 − 0.755"
+      "text": "$-0.755$"
     },
     {
       "letter": "B",
-      "text": "− 0.325 − 0.325"
+      "text": "$-0.325$"
     },
     {
       "letter": "C",
-      "text": "0 0"
+      "text": "$0$"
     },
     {
       "letter": "D",
-      "text": "0.325 0.325"
+      "text": "$0.325$"
     },
     {
       "letter": "E",
-      "text": "0.755 0.755"
+      "text": "$0.755$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-1.B.3",
-    "2.C",
-    "DAT-1",
-    "DAT-1.B.1",
-    "DAT-1.B",
-    "DAT-1.B.2"
-  ],
-  "standards": [
     "DAT-1.B.3",
     "2.C",
     "DAT-1",

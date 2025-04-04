@@ -1,44 +1,43 @@
 {
   "question_id": "question-016",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval",
+    "mean",
+    "estimation",
+    "statistical-inference"
+  ],
   "title": "Heights of American Women",
-  "difficulty": "Moderate",
-  "question_text": "Fifth grader Scott is studying the heights of American women for a science fair project. Scott’s teacher told him that the heights of American females are normally distributed with the population standard deviation of $2.4\\text{ inches}$ , but he cannot remember the value for the mean. Scott’s older brother suggests that he estimate the unknown mean by calculating a confidence interval using data that Scott has collected for the heights of four women, as follows: $63 \\text{ inches}$ $69\\text{ inches}$ $62\\text{ inches}$ $66\\text{ inches}$ Based on this, Scott’s $99\\%$ confidence interval would be:",
+  "difficulty": "Medium",
+  "question_text": "Fifth grader Scott is studying the heights of American women for a science fair project.\nScott’s teacher told him that the heights of American females are normally distributed with the population standard deviation of $2.4\\text{ inches}$, but he cannot remember the value for the mean.\nScott’s older brother suggests that he estimate the unknown mean by calculating a confidence interval using data that Scott has collected for the heights of four women, as follows:\n$63 \\text{ inches}$\n$69\\text{ inches}$\n$62\\text{ inches}$\n$66\\text{ inches}$\nBased on this, Scott’s $99\\%$ confidence interval would be:",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "65 ± 1.55 65 ± 1.55 ."
+      "text": "$65 \\pm 1.55$."
     },
     {
       "letter": "B",
-      "text": "65 ± 2.35 65 ± 2.35 ."
+      "text": "$65 \\pm 2.35$."
     },
     {
       "letter": "C",
-      "text": "65 ± 2.79 65 ± 2.79 ."
+      "text": "$65 \\pm 2.79$."
     },
     {
       "letter": "D",
-      "text": "65 ± 3.1 65 ± 3.1 ."
+      "text": "$65 \\pm 3.1$."
     },
     {
       "letter": "E",
-      "text": "65 ± 4.07 65 ± 4.07 ."
+      "text": "$65 \\pm 4.07$."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-4.Q.3",
-    "3.D",
-    "UNC-4.Q.2",
-    "UNC-4",
-    "UNC-4.Q",
-    "UNC-4.Q.1"
-  ],
-  "standards": [
     "UNC-4.Q.3",
     "3.D",
     "UNC-4.Q.2",

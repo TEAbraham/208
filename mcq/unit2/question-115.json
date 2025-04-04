@@ -1,43 +1,42 @@
 {
   "question_id": "question-115",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "least-squares-regression-line",
+    "bivariate-data",
+    "exploring-data"
+  ],
   "title": "Finding Equation of an LSRL Using Means and Standard Deviations",
-  "difficulty": "Difficult",
-  "question_text": "Consider a set of $n$ ordered pairs given by: $$({ x }_{ 1 },y_{ 1 }), ({ x }_{ 2 },y_{ 2 }), ({ x }_{ 3 },y_{ 3 }),..., ({ x }_{ n },y_{ n })$$ The mean and standard deviation of the $x$ -values are: $$\\bar { x } =4, \\quad {s }_{ x }=8$$ The mean and standard deviation of the $y$ -values are: $$\\bar { y } =12, \\quad { s }_{ y }=6$$ Which of the following could represent the least squares regression line?",
+  "difficulty": "Hard",
+  "question_text": "Consider a set of $n$ ordered pairs given by:\n$$({ x }_{ 1 },y_{ 1 }), ({ x }_{ 2 },y_{ 2 }), ({ x }_{ 3 },y_{ 3 }),..., ({ x }_{ n },y_{ n })$$\nThe mean and standard deviation of the $x$-values are:\n$$\\bar { x } =4, \\quad {s }_{ x }=8$$\nThe mean and standard deviation of the $y$-values are:\n$$\\bar { y } =12, \\quad { s }_{ y }=6$$\nWhich of the following could represent the least squares regression line?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "^ y = 11.2 + 0.2 x y ^ = 11.2 + 0.2 x"
+      "text": "$\\hat { y } = 11.2 + 0.2x$"
     },
     {
       "letter": "B",
-      "text": "^ y = 8 + 0.75 x y ^ = 8 + 0.75 x"
+      "text": "$\\hat { y } = 8 + 0.75x$"
     },
     {
       "letter": "C",
-      "text": "^ y = 4 + 1.333 x y ^ = 4 + 1.333 x"
+      "text": "$\\hat { y } = 4+1.333x$"
     },
     {
       "letter": "D",
-      "text": "^ y = 2 x y ^ = 2 x"
+      "text": "$\\hat { y } = 2x$"
     },
     {
       "letter": "E",
-      "text": "^ y = 4 + 2 x y ^ = 4 + 2 x"
+      "text": "$\\hat { y } = 4+2x$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-1.G.1",
-    "DAT-1.G.2",
-    "2.C",
-    "DAT-1",
-    "DAT-1.G"
-  ],
-  "standards": [
     "DAT-1.G.1",
     "DAT-1.G.2",
     "2.C",

@@ -1,10 +1,16 @@
 {
   "question_id": "question-120",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "significance-tests",
+    "differences-in-proportions",
+    "initial-conditions"
+  ],
   "title": "Conditions for Weight Loss",
-  "difficulty": "Moderate",
-  "question_text": "A new weight-loss drug was on the market.  Its slogan promised that people could \"lose $10\\%$ of their weight in the first month\". A research company wanted to test this claim and to examine the difference between men and women. $66$ women and $64$ men were randomly selected from those using the drug.  Of the women, $28$ said that they lost $10\\%$ of their weight and $38$ of the men said that they did.  A researcher wanted to know if more men lost weight. In checking to see if this research met the conditions for a test for the difference of two population proportions, the researcher would verify all of these conditions except :",
+  "difficulty": "Medium",
+  "question_text": "A new weight-loss drug was on the market. Its slogan promised that people could \"lose $10\\%$ of their weight in the first month\". A research company wanted to test this claim and to examine the difference between men and women. $66$ women and $64$ men were randomly selected from those using the drug. Of the women, $28$ said that they lost $10\\%$ of their weight and $38$ of the men said that they did. A researcher wanted to know if more men lost weight.\nIn checking to see if this research met the conditions for a test for the difference of two population proportions, the researcher would verify all of these conditions except:",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -12,31 +18,25 @@
     },
     {
       "letter": "B",
-      "text": "The sample sizes were less than 10 % 10 % of the population sizes."
+      "text": "The sample sizes were less than $10\\%$ of the population sizes."
     },
     {
       "letter": "C",
-      "text": "A pooled proportion, ^ p c p ^ c was used to check that the sampling distribution was approximately normally distributed.."
+      "text": "A pooled proportion, $\\hat{p}_{c}$ was used to check that the sampling distribution was approximately normally distributed.."
     },
     {
       "letter": "D",
-      "text": "The four expressions below were tested to all be greater than or equal to 10 10 : n 1 ^ p c n 1 p ^ c , n 2 ^ p c n 2 p ^ c , n 1 ( 1 − ^ p c ) n 1 ( 1 − p ^ c ) , and n 2 ( 1 − ^ p c ) n 2 ( 1 − p ^ c ) ."
+      "text": "The four expressions below were tested to all be greater than or equal to $10$:\n$n_{1}\\hat{p}_{c}$, $n_{2}\\hat{p}_{c}$, $n_{1}(1-\\hat{p}_{c})$, and $n_{2}(1-\\hat{p}_{c})$."
     },
     {
       "letter": "E",
-      "text": "Each sample size was checked to be of size 30 30 or higher."
+      "text": "Each sample size was checked to be of size $30$ or higher."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.C",
-    "VAR-6.J",
-    "VAR-6.J.1",
-    "VAR-6"
-  ],
-  "standards": [
     "4.C",
     "VAR-6.J",
     "VAR-6.J.1",

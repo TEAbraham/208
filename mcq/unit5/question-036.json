@@ -1,26 +1,31 @@
 {
   "question_id": "question-036",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "sampling-distribution",
+    "sample"
+  ],
   "title": "Student Body President",
   "difficulty": "Easy",
-  "question_text": "Suppose $52\\%$ of a high school student body support a certain candidate for school body president. The statistics teacher is going to take samples of $100$ random students and ask who they support for student body president. Which proportion is not a realistic answer if $52\\%$ of the school truly supports the candidate?",
+  "question_text": "Suppose $52\\%$ of a high school student body support a certain candidate for school body president. The statistics teacher is going to take samples of $100$ random students and ask who they support for student body president.\nWhich proportion is not a realistic answer if $52\\%$ of the school truly supports the candidate?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.48 0.48"
+      "text": "$0.48$"
     },
     {
       "letter": "B",
-      "text": "0.50 0.50"
+      "text": "$0.50$"
     },
     {
       "letter": "C",
-      "text": "0.52 0.52"
+      "text": "$0.52$"
     },
     {
       "letter": "D",
-      "text": "0.54 0.54"
+      "text": "$0.54$"
     },
     {
       "letter": "E",
@@ -28,14 +33,9 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "If the proportion of the school that supports the candidate is truly 0.52 0.52 , this does not imply that every sample taken by the teacher will produce a proportion of students who support the candidate will always be 0.52 0.52 . This is due to the fact of sampling variability .\n\nTherefore, we do not know what each sample will produce as a proportion, but it is likely to be around 0.52 0.52 . Since all the options given are near 0.52 0.52 , all the options given are realistic proportions for each sample.\n\nChoice 'E' is correct.",
-  "distractor_explanations": {},
+  "solution": "If the proportion of the school that supports the candidate is truly $0.52$, this does not imply that every sample taken by the teacher will produce a proportion of students who support the candidate will always be $0.52$. This is due to the fact of sampling variability.\n\nTherefore, we do not know what each sample will produce as a proportion, but it is likely to be around $0.52$. Since all the options given are near $0.52$, all the options given are realistic proportions for each sample.\n\nChoice 'E' is correct.",
+  "explanations": {},
   "tags": [
-    "VAR-1.G",
-    "VAR-1.G.1",
-    "VAR-1"
-  ],
-  "standards": [
     "VAR-1.G",
     "VAR-1.G.1",
     "VAR-1"

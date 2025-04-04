@@ -1,12 +1,19 @@
 {
   "question_id": "question-068",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "scatterplots",
+    "bivariate-data",
+    "scatter-plots",
+    "exploring-data"
+  ],
   "title": "Driving Speed and Stopping Distance",
-  "difficulty": "Difficult",
-  "question_text": "Examine the scatterplot below, used to predict stopping distance based off motorists’ speed. Created for Albert.io. Copyright 2017. All rights reserved. Which feature does this scatterplot show that might make one hesitate to use this as a model for prediction?",
+  "difficulty": "Hard",
+  "question_text": "Examine the scatterplot below, used to predict stopping distance based off motorists’ speed.\nCreated for Albert.io. Copyright 2017. All rights reserved.\nWhich feature does this scatterplot show that might make one hesitate to use this as a model for prediction?",
   "image_files": [
     "images/question-068-img1.jpg"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -26,19 +33,13 @@
     },
     {
       "letter": "E",
-      "text": "There is no data in the speed range past 40 miles per hour 40 miles per hour ."
+      "text": "There is no data in the speed range past $40\\text{ miles per hour}$."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-1.C",
-    "DAT-1",
-    "DAT-1.C.1"
-  ],
-  "standards": [
     "4.B",
     "DAT-1.C",
     "DAT-1",

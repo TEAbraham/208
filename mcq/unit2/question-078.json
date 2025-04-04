@@ -1,43 +1,44 @@
 {
   "question_id": "question-078",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "combining-random-variables",
+    "univariate-data",
+    "summarizing-distributions",
+    "center",
+    "exploring-data"
+  ],
   "title": "Predicting Earnings With a Linear Transformation",
   "difficulty": "Easy",
-  "question_text": "Greg has been offered a job as a sales representatives for Medi-Machines .  In this job, he would be selling medical devices to doctors' offices and hospitals.  Before accepting the job however, he wants to estimate how much he will be able to earn on average each week. Greg has been offered a base salary of $ 200 $ 200 per week plus a commission of $ 175 $ 175 for each device sold.  Therefore, his weekly earnings E E could be described by the linear equation given below. E = 200 + 175 D E = 200 + 175 D Medi-Machine's sales records indicate that the mean number of devices sold weekly by all of the company's representatives is μ D = 8.76 μ D = 8.76 and Greg feels confident that he would be able to average at least this much.  Based upon this information, what is the mean amount that Greg could expect to earn weekly if he decides to take the job?",
+  "question_text": "Greg has been offered a job as a sales representatives for Medi-Machines. In this job, he would be selling medical devices to doctors' offices and hospitals. Before accepting the job however, he wants to estimate how much he will be able to earn on average each week.\nGreg has been offered a base salary of $\\$200$ per week plus a commission of $\\$175$ for each device sold. Therefore, his weekly earnings $E$ could be described by the linear equation given below.\n$$E=200+175D$$\nMedi-Machine's sales records indicate that the mean number of devices sold weekly by all of the company's representatives is ${\\mu}_{D}=8.76$ and Greg feels confident that he would be able to average at least this much. Based upon this information, what is the mean amount that Greg could expect to earn weekly if he decides to take the job?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "$ 8.76 $ 8.76"
+      "text": "$\\$8.76$"
     },
     {
       "letter": "B",
-      "text": "$ 200 $ 200"
+      "text": "$\\$200$"
     },
     {
       "letter": "C",
-      "text": "$ 1600 $ 1600"
+      "text": "$\\$1600$"
     },
     {
       "letter": "D",
-      "text": "$ 1733 $ 1733"
+      "text": "$\\$1733$"
     },
     {
       "letter": "E",
-      "text": "$ 1774 $ 1774"
+      "text": "$\\$1774$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-1.D.2",
-    "2.C",
-    "DAT-1",
-    "DAT-1.D",
-    "DAT-1.D.1"
-  ],
-  "standards": [
     "DAT-1.D.2",
     "2.C",
     "DAT-1",

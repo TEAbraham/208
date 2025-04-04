@@ -1,43 +1,43 @@
 {
   "question_id": "question-138",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "descriptive-statistics",
+    "combining-random-variables",
+    "mean"
+  ],
   "title": "Mean Weight: Bag of Onions",
   "difficulty": "Easy",
-  "question_text": "Suppose onions have an average weight of $13\\text{ ounces}$ with a standard deviation of $2.3\\text{ ounces}$ . What is the mean weight of a bag containing $4$ onions?",
+  "question_text": "Suppose onions have an average weight of $13\\text{ ounces}$ with a standard deviation of $2.3\\text{ ounces}$.\nWhat is the mean weight of a bag containing $4$ onions?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "52 ounces 52 ounces"
+      "text": "$52\\text{ ounces}$"
     },
     {
       "letter": "B",
-      "text": "13 ounces 13 ounces"
+      "text": "$13\\text{ ounces}$"
     },
     {
       "letter": "C",
-      "text": "26 ounces 26 ounces"
+      "text": "$26\\text{ ounces}$"
     },
     {
       "letter": "D",
-      "text": "119.6 ounces 119.6 ounces"
+      "text": "$119.6\\text{ ounces}$"
     },
     {
       "letter": "E",
-      "text": "4.6 ounces 4.6 ounces"
+      "text": "4.6 ounces"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-5.E",
-    "VAR-5.E.3",
-    "VAR-5",
-    "3.B",
-    "VAR-5.E.1"
-  ],
-  "standards": [
     "VAR-5.E",
     "VAR-5.E.3",
     "VAR-5",

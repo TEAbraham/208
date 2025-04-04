@@ -1,26 +1,32 @@
 {
   "question_id": "question-024",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "calculating-probability",
+    "anticipating-patterns",
+    "probability"
+  ],
   "title": "Probability of Getting a Job",
   "difficulty": "Easy",
-  "question_text": "Suppose Johnny applied for a job at companies A and B. Through extensive research, Johnny determined he has a $60\\%$ chance of getting a job offer from company A, a $50\\%$ chance of getting a job offer from company B, and a $30\\%$ chance of getting a job offer from both companies A and B. What is the probability of Johnny not getting a job offer from either company?",
+  "question_text": "Suppose Johnny applied for a job at companies A and B.\nThrough extensive research, Johnny determined he has a $60\\%$ chance of getting a job offer from company A, a $50\\%$ chance of getting a job offer from company B, and a $30\\%$ chance of getting a job offer from both companies A and B.\nWhat is the probability of Johnny not getting a job offer from either company?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.3 0.3"
+      "text": "$0.3$"
     },
     {
       "letter": "B",
-      "text": "0.5 0.5"
+      "text": "$0.5$"
     },
     {
       "letter": "C",
-      "text": "0.2 0.2"
+      "text": "$0.2$"
     },
     {
       "letter": "D",
-      "text": "0.8 0.8"
+      "text": "$0.8$"
     },
     {
       "letter": "E",
@@ -29,15 +35,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-4.A.1",
-    "3.A",
-    "VAR-4.A.2",
-    "VAR-4",
-    "VAR-4.A"
-  ],
-  "standards": [
     "VAR-4.A.1",
     "3.A",
     "VAR-4.A.2",

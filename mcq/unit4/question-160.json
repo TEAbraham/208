@@ -1,42 +1,42 @@
 {
   "question_id": "question-160",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "descriptive-statistics",
+    "combining-random-variables"
+  ],
   "title": "Linear Transformations of a Random Variable",
-  "difficulty": "Difficult",
-  "question_text": "Suppose $X$ is a random variable whose mean is $12.5$ and whose standard deviation is $2.1$ . Let $Y = 6.2X – 7$ . What are the mean and the variance of $Y$ ?",
+  "difficulty": "Hard",
+  "question_text": "Suppose $X$ is a random variable whose mean is $12.5$ and whose standard deviation is $2.1$.\nLet $Y = 6.2X – 7$.\nWhat are the mean and the variance of $Y$?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Mean = 5.5 = 5.5 Variance = 27.3 = 27.3"
+      "text": "Mean $= 5.5$\nVariance $= 27.3$"
     },
     {
       "letter": "B",
-      "text": "Mean = 70.5 = 70.5 Variance = 13.02 = 13.02"
+      "text": "Mean $= 70.5$\nVariance $= 13.02$"
     },
     {
       "letter": "C",
-      "text": "Mean = 70.5 = 70.5 Variance = 162.5 = 162.5"
+      "text": "Mean $= 70.5$\nVariance $= 162.5$"
     },
     {
       "letter": "D",
-      "text": "Mean = 70.5 = 70.5 Variance = 169.5 = 169.5"
+      "text": "Mean $= 70.5$\nVariance $= 169.5$"
     },
     {
       "letter": "E",
-      "text": "Mean = 77.5 = 77.5 Variance = 27.3 = 27.3"
+      "text": "Mean $= 77.5$\nVariance $= 27.3$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-5.E",
-    "VAR-5.E.3",
-    "VAR-5",
-    "3.B"
-  ],
-  "standards": [
     "VAR-5.E",
     "VAR-5.E.3",
     "VAR-5",

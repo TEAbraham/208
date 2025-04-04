@@ -1,12 +1,19 @@
 {
   "question_id": "question-045",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "scatterplots",
+    "bivariate-data",
+    "scatter-plots",
+    "exploring-data"
+  ],
   "title": "Scatterplot: Older Sibling vs. Younger Sibling",
-  "difficulty": "Difficult",
-  "question_text": "On the first day of school, $10$ randomly selected sibling combinations were asked how excited they were to come back to school. They were asked to rate their excitement on a scale from $1$ (very unhappy about coming back) to $10$ (very excited). The scatterplot below displays their excitement levels, with the older siblings' ratings on the vertical axis and the younger siblings' ratings on the horizontal axis. Albert.io. Copyright 2016 Which of the following  is an accurate statement?",
+  "difficulty": "Hard",
+  "question_text": "On the first day of school, $10$ randomly selected sibling combinations were asked how excited they were to come back to school. They were asked to rate their excitement on a scale from $1$ (very unhappy about coming back) to $10$ (very excited).\nThe scatterplot below displays their excitement levels, with the older siblings' ratings on the vertical axis and the younger siblings' ratings on the horizontal axis.\nAlbert.io. Copyright 2016\n\nWhich of the following is an accurate statement?",
   "image_files": [
     "images/question-045-img1.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -26,19 +33,13 @@
     },
     {
       "letter": "E",
-      "text": "Fewer ratings of 8 8 or more were assigned to younger siblings than to older siblings."
+      "text": "Fewer ratings of\n8\nor more were assigned to younger siblings than to older siblings."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.S",
-    "UNC-1.S.1",
-    "2.B",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.S",
     "UNC-1.S.1",
     "2.B",

@@ -1,10 +1,16 @@
 {
   "question_id": "question-149",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-experiments",
+    "drawing-conclusions",
+    "sampling-and-experimentation"
+  ],
   "title": "Conclusions About Effectiveness",
-  "difficulty": "Moderate",
-  "question_text": "Suppose $100$ volunteers were selected for a study over a $6$ -month period. Of these, $50$ randomly chosen subjects were given a weight loss drug. These $50\\text{ subjects}$ had an average weight loss of $11.6\\text{ lbs}$ with a standard deviation of $4.2\\text{ pounds}$ . The remaining $50\\text{ subjects}$ lost an average of $12.2\\text{ lbs}$ with a standard deviation of $4.1\\text{ lbs}$ on a placebo. What could one conclude about the weight loss drugs’ effectiveness?",
+  "difficulty": "Medium",
+  "question_text": "Suppose $100$ volunteers were selected for a study over a $6$-month period.\nOf these, $50$ randomly chosen subjects were given a weight loss drug. These $50\\text{ subjects}$ had an average weight loss of $11.6\\text{ lbs}$ with a standard deviation of $4.2\\text{ pounds}$. The remaining $50\\text{ subjects}$ lost an average of $12.2\\text{ lbs}$ with a standard deviation of $4.1\\text{ lbs}$ on a placebo.\nWhat could one conclude about the weight loss drugs’ effectiveness?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -24,19 +30,13 @@
     },
     {
       "letter": "E",
-      "text": "The weight loss drug is most likely effective; losing 11.6 pounds 11.6 pounds is both a practically and statistically significant amount."
+      "text": "The weight loss drug is most likely effective; losing $11.6\\text{ pounds}$ is both a practically and statistically significant amount."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.E",
-    "4.B",
-    "VAR-3",
-    "VAR-3.E.3"
-  ],
-  "standards": [
     "VAR-3.E",
     "4.B",
     "VAR-3",

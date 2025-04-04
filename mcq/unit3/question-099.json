@@ -1,10 +1,17 @@
 {
   "question_id": "question-099",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "matched-pairs-design",
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "randomized-block-design"
+  ],
   "title": "Understanding Blocking in an Experiment",
   "difficulty": "Easy",
   "question_text": "In the context of an experiment, blocking refers to",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,16 +36,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.D",
-    "VAR-3",
-    "VAR-3.C.8",
-    "VAR-3.D.1",
-    "1.C",
-    "VAR-3.C"
-  ],
-  "standards": [
     "VAR-3.D",
     "VAR-3",
     "VAR-3.C.8",

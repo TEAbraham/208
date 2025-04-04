@@ -1,18 +1,23 @@
 {
   "question_id": "question-017",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "drawing-conclusions",
+    "sampling-and-experimentation"
+  ],
   "title": "Data Analysis: Free Throws",
   "difficulty": "Easy",
-  "question_text": "Jimmy, a high school basketball star, has a life-long free throw rate of $45\\%$ . Jimmy spent the last off-season working especially hard to improve his free-throw percentage. During the first game of the season, he connected on three of his first four free throws. What conclusions can be made concerning Jimmy’s free-throw shooting ability?",
+  "question_text": "Jimmy, a high school basketball star, has a life-long free throw rate of $45\\%$.\nJimmy spent the last off-season working especially hard to improve his free-throw percentage. During the first game of the season, he connected on three of his first four free throws.\nWhat conclusions can be made concerning Jimmy’s free-throw shooting ability?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Since 3 3 of 4 = 75 % 4 = 75 % , it is clear that Jimmy has improved his free-throw percentage."
+      "text": "Since $3$ of $4 = 75\\%$, it is clear that Jimmy has improved his free-throw percentage."
     },
     {
       "letter": "B",
-      "text": "Since the sample size is so low, we have strong evidence Jimmy is still a 45 % 45 % -free-throw shooter."
+      "text": "Since the sample size is so low, we have strong evidence Jimmy is still a $45\\%$-free-throw shooter."
     },
     {
       "letter": "C",
@@ -24,19 +29,13 @@
     },
     {
       "letter": "E",
-      "text": "Jimmy is clearly not a 45 % 45 % -free-throw shooter based off the evidence."
+      "text": "Jimmy is clearly not a $45\\%$-free-throw shooter based off the evidence."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "UNC-3.M.1",
-    "UNC-3",
-    "UNC-3.M"
-  ],
-  "standards": [
     "4.B",
     "UNC-3.M.1",
     "UNC-3",

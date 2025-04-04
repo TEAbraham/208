@@ -1,10 +1,16 @@
 {
   "question_id": "question-170",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "sampling-and-experimentation",
+    "sources-of-bias"
+  ],
   "title": "Types of Bias: School Lunch...Sloppy Joes!",
-  "difficulty": "Difficult",
-  "question_text": "In a recent poll of students at the local high school, $20\\%$ of the students reported that they did not vote if the school should change the lunch menu.  However, the vote data showed that actually $55\\%$ of the student body did not vote if the school should change the lunch menu. Which of the following types of bias is most likely to have occurred in the poll?",
+  "difficulty": "Hard",
+  "question_text": "In a recent poll of students at the local high school, $20\\%$ of the students reported that they did not vote if the school should change the lunch menu. However, the vote data showed that actually $55\\%$ of the student body did not vote if the school should change the lunch menu.\nWhich of the following types of bias is most likely to have occurred in the poll?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,17 +35,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.E.1",
-    "VAR-3.E",
-    "4.B",
-    "VAR-3",
-    "DAT-2",
-    "DAT-2.E",
-    "DAT-2.E.5"
-  ],
-  "standards": [
     "VAR-3.E.1",
     "VAR-3.E",
     "4.B",

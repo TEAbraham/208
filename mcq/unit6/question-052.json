@@ -1,10 +1,17 @@
 {
   "question_id": "question-052",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference",
+    "null-hypothesis"
+  ],
   "title": "Hypothesis Test Logic",
   "difficulty": "Easy",
   "question_text": "Which of the following statements gives a good synopsis of the logic behind hypothesis tests?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -20,7 +27,7 @@
     },
     {
       "letter": "D",
-      "text": "The fact that a result such as ours is unlikely, given change occurred, serves as good evidence  the change did not occur."
+      "text": "The fact that a result such as ours is unlikely, given change occurred, serves as good evidence the change did not occur."
     },
     {
       "letter": "E",
@@ -29,15 +36,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-3",
-    "DAT-3.A.2",
-    "DAT-3.A",
-    "DAT-3.A.1"
-  ],
-  "standards": [
     "4.B",
     "DAT-3",
     "DAT-3.A.2",

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-154",
+  "unit": "AP® Statistics | Unit 6 Assessment",
+  "topics": [
+    "deduction",
+    "initial-conditions"
+  ],
+  "title": "Checking Those Conditions!",
+  "difficulty": "Hard",
+  "question_text": "In order to calculate a confidence interval to estimate a population proportion, which of the following is a correct check?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "To check that the sampling distribution of $\\hat{p}$ is approximately normal, check that the number of successes is $n\\hat{p}\\leq 10$."
+    },
+    {
+      "letter": "B",
+      "text": "To check that the sampling distribution of $\\hat{p}$ is approximately normal, check that the number of failures is $n\\hat{p}\\geq 10$."
+    },
+    {
+      "letter": "C",
+      "text": "To check for independence when sampling without replacement, check that $n\\leq10\\%N$."
+    },
+    {
+      "letter": "D",
+      "text": "To check for independence when sampling without replacement, check that the number of successes is $n\\hat{p}\\geq 10$."
+    },
+    {
+      "letter": "E",
+      "text": "To check that the sampling distribution of $\\hat{p}$ is approximately normal, check that data was collected using a random sample or a randomized experiment."
+    }
+  ],
+  "correct_answer": "Choice ‘C’ is correct.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.C",
+    "UNC-4.B",
+    "UNC-4.B.1",
+    "UNC-4"
+  ]
+}

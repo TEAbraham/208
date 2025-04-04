@@ -1,14 +1,20 @@
 {
   "question_id": "question-066",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
   "title": "One-Proportion Z-Test",
   "difficulty": "Easy",
-  "question_text": "The landlord of a $16$ -story apartment building is curious if his tenants are happy with the current temperature in the building. He surveys the first floor and finds that $26$ out of the $40$ tenants are happy with the current temperature. Suppose the landlord wanted to perform a one-proportion z-test. Which of the conditions are violated for this procedure?",
+  "question_text": "The landlord of a $16$-story apartment building is curious if his tenants are happy with the current temperature in the building.\nHe surveys the first floor and finds that $26$ out of the $40$ tenants are happy with the current temperature. Suppose the landlord wanted to perform a one-proportion z-test.\nWhich of the conditions are violated for this procedure?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The population is not at least 10 10 times the sample."
+      "text": "The population is not at least $10$ times the sample."
     },
     {
       "letter": "B",
@@ -16,7 +22,7 @@
     },
     {
       "letter": "C",
-      "text": "The expected counts are not more than 5 5 ."
+      "text": "The expected counts are not more than $5$."
     },
     {
       "letter": "D",
@@ -29,14 +35,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.E",
-    "DAT-3",
-    "DAT-3.B.9",
-    "DAT-3.B"
-  ],
-  "standards": [
     "4.E",
     "DAT-3",
     "DAT-3.B.9",

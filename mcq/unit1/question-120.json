@@ -1,44 +1,47 @@
 {
   "question_id": "question-120",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "mean",
+    "univariate-data",
+    "summarizing-distributions",
+    "center",
+    "exploring-data",
+    "measuring-center"
+  ],
   "title": "Finding the Mean Graphically: Number of Goals Scored",
-  "difficulty": "Moderate",
-  "question_text": "The graph below shows the number of goals scored by the Bobcats' hockey team this year. Albert.io Copyright 2017.  All rights reserved. What is the mean number of goals scored by the Bobcats' hockey team this year?",
+  "difficulty": "Medium",
+  "question_text": "The graph below shows the number of goals scored by the Bobcats' hockey team this year.\nAlbert.io Copyright 2017. All rights reserved.\nWhat is the mean number of goals scored by the Bobcats' hockey team this year?",
   "image_files": [
     "images/question-120-img1.PNG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "4 + 0 2 4 + 0 2"
+      "text": "4+0\n2"
     },
     {
       "letter": "B",
-      "text": "0 + 1 + 2 + 3 + 4 5 0 + 1 + 2 + 3 + 4 5"
+      "text": "0+1+2+3+4\n5"
     },
     {
       "letter": "C",
-      "text": "4 + 8 + 5 + 3 + 2 5 4 + 8 + 5 + 3 + 2 5"
+      "text": "4+8+5+3+2\n5"
     },
     {
       "letter": "D",
-      "text": "( 4 ⋅ 0 ) + ( 8 ⋅ 1 ) + ( 5 ⋅ 2 ) + ( 3 ⋅ 3 ) + ( 2 ⋅ 4 ) 5 ( 4 ⋅ 0 ) + ( 8 ⋅ 1 ) + ( 5 ⋅ 2 ) + ( 3 ⋅ 3 ) + ( 2 ⋅ 4 ) 5"
+      "text": "(4⋅0)+(8⋅1)+(5⋅2)+(3⋅3)+(2⋅4)\n5"
     },
     {
       "letter": "E",
-      "text": "( 4 ⋅ 0 ) + ( 8 ⋅ 1 ) + ( 5 ⋅ 2 ) + ( 3 ⋅ 3 ) + ( 2 ⋅ 4 ) 4 + 8 + 5 + 3 + 2 ( 4 ⋅ 0 ) + ( 8 ⋅ 1 ) + ( 5 ⋅ 2 ) + ( 3 ⋅ 3 ) + ( 2 ⋅ 4 ) 4 + 8 + 5 + 3 + 2"
+      "text": "(4⋅0)+(8⋅1)+(5⋅2)+(3⋅3)+(2⋅4)\n4+8+5+3+2"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.M",
-    "UNC-1.M.1",
-    "2.A",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.M",
     "UNC-1.M.1",
     "2.A",

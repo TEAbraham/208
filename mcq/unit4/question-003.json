@@ -1,14 +1,19 @@
 {
   "question_id": "question-003",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "randomness",
+    "random"
+  ],
   "title": "Coin Toss Game",
   "difficulty": "Easy",
-  "question_text": "Two friends are playing a game where you toss a fair two-sided coin. When it is your turn, you flip the coin once and record your result. Then, to keep playing you flip the coin until you no longer match your initial flip. Player $A$ flips \"tails\" $10$ straight times. Player $B$ gets upset and thinks the coin is rigged. Player $A$ states that since it's a random chance device, the side is not pre-determined. Is Player $A$ correct?",
+  "question_text": "Two friends are playing a game where you toss a fair two-sided coin. When it is your turn, you flip the coin once and record your result. Then, to keep playing you flip the coin until you no longer match your initial flip.\nPlayer $A$ flips \"tails\" $10$ straight times. Player $B$ gets upset and thinks the coin is rigged. Player $A$ states that since it's a random chance device, the side is not pre-determined.\nIs Player $A$ correct?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Yes - But the coin will most likely flip 10 10 \"heads\" on the next ten flips."
+      "text": "Yes - But the coin will most likely flip $10$ \"heads\" on the next ten flips."
     },
     {
       "letter": "B",
@@ -16,11 +21,11 @@
     },
     {
       "letter": "C",
-      "text": "No - 10 10 \"Tails\" in a row is impossible and the coin is rigged."
+      "text": "No - 10 \"Tails\" in a row is impossible and the coin is rigged."
     },
     {
       "letter": "D",
-      "text": "No - Since there's only two outcomes, you would be guaranteed 5 5 \"heads\" and 5 5 \"tails\" on the 10 10 flips."
+      "text": "No - Since there's only two outcomes, you would be guaranteed 5 \"heads\" and 5 \"tails\" on the 10 flips."
     },
     {
       "letter": "E",
@@ -28,15 +33,9 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer",
-  "solution": "A coin is a great example of a chance device as it has two equal outcomes with the same probability . Flipping a coin will result in either a \"heads\" outcome or a \"tails\" outcome.\n\nWhen we examine the data from a chance device, it is important to note that fact that simply because there is a pattern in the data, this does not imply that the data is not random. On each flip, the coin still have an equally likely chance to land on \"heads\" or \"tails\", therefore it is theoretically possible to have 10 10 \"tails\" in a row.\n\nChoice 'B' is correct.",
-  "distractor_explanations": {},
+  "solution": "A coin is a great example of a chance device as it has two equal outcomes with the same probability. Flipping a coin will result in either a \"heads\" outcome or a \"tails\" outcome.\n\nWhen we examine the data from a chance device, it is important to note that fact that simply because there is a pattern in the data, this does not imply that the data is not random. On each flip, the coin still have an equally likely chance to land on \"heads\" or \"tails\", therefore it is theoretically possible to have 10\n\"tails\" in a row.\n\nChoice 'B' is correct.",
+  "explanations": {},
   "tags": [
-    "VAR-1.F",
-    "VAR-1.F.1",
-    "1.A",
-    "VAR-1"
-  ],
-  "standards": [
     "VAR-1.F",
     "VAR-1.F.1",
     "1.A",

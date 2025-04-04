@@ -1,0 +1,44 @@
+{
+  "question_id": "question-078",
+  "unit": "AP® Statistics | Unit 9 Assessment",
+  "topics": [
+    "confidence-interval-interpretations",
+    "confidence-interval"
+  ],
+  "title": "Snow Making",
+  "difficulty": "Medium",
+  "question_text": "Snow making depends on temperature, since water freezes at $32^{\\circ} F$. Dave, a snow-making enthusiast, believes that there is no relationship between air temperature and $\\%$ relative humidity. He collected and analyzed data on the wet-bulb temperature which relates air temperature to $\\%$ relative humidity.\nThe conditions for regression inference were met and the following $98\\%$ confidence interval for $\\beta$, the slope of the population regression line of $\\%$ relative humidity on air temperature, was constructed:\n$$(-10.77,-6.355)$$\nDoes this interval provide convincing evidence of a linear relationship between air temperature and $\\%$ relative humidity at the $\\alpha=0.02$ significance level?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "No because the slope, $\\beta$, is larger than $\\alpha=0.02$."
+    },
+    {
+      "letter": "B",
+      "text": "Yes because $0$ is not contained within the $98\\%$ confidence interval."
+    },
+    {
+      "letter": "C",
+      "text": "Yes because the slope, $\\beta$, is larger than the significance level $\\alpha=0.02$."
+    },
+    {
+      "letter": "D",
+      "text": "No because $0$ is not contained within the $98\\%$ confidence interval."
+    },
+    {
+      "letter": "E",
+      "text": "The answer cannot be determined because you cannot test for significance with confidence intervals."
+    }
+  ],
+  "correct_answer": "Choice 'B' is correct.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.AH.1",
+    "4.D",
+    "UNC-4",
+    "UNC-4.AH"
+  ]
+}

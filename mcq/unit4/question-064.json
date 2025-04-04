@@ -1,42 +1,42 @@
 {
   "question_id": "question-064",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "calculating-probability",
+    "anticipating-patterns",
+    "probability"
+  ],
   "title": "Computer Chips",
   "difficulty": "Easy",
-  "question_text": "Suppose $10$ computer chips are randomly selected for a very large population. If $95\\%$ of the chips work effectively, what is the probability of getting zero defective chips out of the $10$ chosen?",
+  "question_text": "Suppose $10$ computer chips are randomly selected for a very large population.\nIf $95\\%$ of the chips work effectively, what is the probability of getting zero defective chips out of the $10$ chosen?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.5987 0.5987"
+      "text": "$0.5987$"
     },
     {
       "letter": "B",
-      "text": "0.95 0.95"
+      "text": "$0.95$"
     },
     {
       "letter": "C",
-      "text": "0.05 0.05"
+      "text": "$0.05$"
     },
     {
       "letter": "D",
-      "text": "0.000976 0.000976"
+      "text": "$0.000976$"
     },
     {
       "letter": "E",
-      "text": "0.4283 0.4283"
+      "text": "$0.4283$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-4.E.1",
-    "VAR-4.E",
-    "3.A",
-    "VAR-4"
-  ],
-  "standards": [
     "VAR-4.E.1",
     "VAR-4.E",
     "3.A",

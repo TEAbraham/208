@@ -1,18 +1,24 @@
 {
   "question_id": "question-056",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
   "title": "Righties and Lefties",
-  "difficulty": "Moderate",
-  "question_text": "Researchers wanted to test whether right-handed individuals earn more than left-handed individuals. A survey of $60$ randomly selected left-handed individuals found that they had an annual income of $\\$42{,}345$ and standard deviation of $\\$7{,}450$ . The same survey found that $50$ randomly selected right-handed individuals had an annual income of $\\$46{,}812$ and standard deviation of $\\$5{,}943$ . If researchers concluded that this data gives significant evidence right-handed individuals earn more, they",
+  "difficulty": "Medium",
+  "question_text": "Researchers wanted to test whether right-handed individuals earn more than left-handed individuals.\nA survey of $60$ randomly selected left-handed individuals found that they had an annual income of $\\$42{,}345$ and standard deviation of $\\$7{,}450$.\nThe same survey found that $50$ randomly selected right-handed individuals had an annual income of $\\$46{,}812$ and standard deviation of $\\$5{,}943$.\nIf researchers concluded that this data gives significant evidence right-handed individuals earn more, they",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Are correct at the 5 % 5 % level, but not at the 1 % 1 % level."
+      "text": "Are correct at the $5\\%$ level, but not at the $1\\%$ level."
     },
     {
       "letter": "B",
-      "text": "Are correct at the 10 % 10 % level, but not at the 5 % 5 % level."
+      "text": "Are correct at the $10\\%$ level, but not at the $5\\%$ level."
     },
     {
       "letter": "C",
@@ -24,19 +30,13 @@
     },
     {
       "letter": "E",
-      "text": "Should have surveyed more people to get a p p -value significant at 1 % 1 % ."
+      "text": "Should have surveyed more people to get a $p$-value significant at $1\\%$."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-3",
-    "DAT-3.A.2",
-    "DAT-3.A"
-  ],
-  "standards": [
     "4.B",
     "DAT-3",
     "DAT-3.A.2",

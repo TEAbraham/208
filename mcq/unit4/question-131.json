@@ -1,43 +1,44 @@
 {
   "question_id": "question-131",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "model-for-measurements"
+  ],
   "title": "Swimming Relay | 1 of 3",
   "difficulty": "Easy",
-  "question_text": "In the $200$ meter medley relay, four different swimmers each swim $50$ meters using one specific swimming stroke.  The top girl's relay team from Lakeview High School consists of Abby, Bella, Claudia and Danielle.  The following chart shows information about each girl. Name Stroke Mean Time (in Seconds) Standard Deviation Abby Backstroke 26.74 1.32 Bella Breaststroke 30.17 1.57 Claudia Butterfly 25.36 1.12 Danielle Freestyle 24.97 1.15 Assuming the distribution of swim times for each girl is approximately normal and that each girl's time is independent of the others, which of the following is closest to the mean total amount of time it takes for all four girls to finish the $200$ meter medley relay?",
+  "question_text": "In the $200$ meter medley relay, four different swimmers each swim $50$ meters using one specific swimming stroke. The top girl's relay team from Lakeview High School consists of Abby, Bella, Claudia and Danielle. The following chart shows information about each girl.\nName Stroke Mean Time (in Seconds) Standard Deviation\nAbby Backstroke 26.74 1.32\nBella Breaststroke 30.17 1.57\nClaudia Butterfly 25.36 1.12\nDanielle Freestyle 24.97 1.15\n\n\nAssuming the distribution of swim times for each girl is approximately normal and that each girl's time is independent of the others, which of the following is closest to the mean total amount of time it takes for all four girls to finish the $200$ meter medley relay?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Name</th><th scope=\"col\">Stroke</th><th scope=\"col\">Mean Time (in Seconds)</th><th scope=\"col\">Standard Deviation</th></tr></thead><tbody><tr><td>Abby</td><td>Backstroke</td><td>26.74</td><td>1.32</td></tr><tr><td>Bella</td><td>Breaststroke</td><td>30.17</td><td>1.57</td></tr><tr><td>Claudia</td><td>Butterfly</td><td>25.36</td><td>1.12</td></tr><tr><td>Danielle</td><td>Freestyle</td><td>24.97</td><td>1.15</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "5.16 5.16 seconds"
+      "text": "$5.16$ seconds"
     },
     {
       "letter": "B",
-      "text": "26.81 26.81 seconds"
+      "text": "$26.81$ seconds"
     },
     {
       "letter": "C",
-      "text": "1.75 1.75 minutes"
+      "text": "$1.75$ minutes"
     },
     {
       "letter": "D",
-      "text": "1 1 minute, 47 47 seconds"
+      "text": "$1$ minute, $47$ seconds"
     },
     {
       "letter": "E",
-      "text": "1 1 hour, 47 47 minutes, and 24 24 seconds"
+      "text": "$1$ hour, $47$ minutes, and $24$ seconds"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-5.E",
-    "VAR-5.E.2",
-    "VAR-5",
-    "3.B",
-    "VAR-5.E.1"
-  ],
-  "standards": [
     "VAR-5.E",
     "VAR-5.E.2",
     "VAR-5",

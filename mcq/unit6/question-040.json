@@ -1,26 +1,33 @@
 {
   "question_id": "question-040",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference",
+    "power"
+  ],
   "title": "Sample Size and Significance: Who Has the Smallest Power?",
-  "difficulty": "Moderate",
-  "question_text": "In a hypothesis test, ${ H }_{ 0 }:p=0.75$ versus ${ H }_{ a }:p<0.75$ , the power of the test $p=0.75$ would be the smallest for which of the following choices of sample  size $n$ and significance level $\\alpha$ ?",
+  "difficulty": "Medium",
+  "question_text": "In a hypothesis test, ${ H }_{ 0 }:p=0.75$ versus ${ H }_{ a }:p<0.75$, the power of the test $p=0.75$ would be the smallest for which of the following choices of sample size $n$ and significance level $\\alpha$ ?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "n = 110 α = 0.01 n = 110 α = 0.01"
+      "text": "$n=110\\qquad \\alpha =0.01$"
     },
     {
       "letter": "B",
-      "text": "n = 110 α = 0.05 n = 110 α = 0.05"
+      "text": "$n=110\\qquad \\alpha =0.05$"
     },
     {
       "letter": "C",
-      "text": "n = 210 α = 0.01 n = 210 α = 0.01"
+      "text": "$n=210\\qquad \\alpha =0.01$"
     },
     {
       "letter": "D",
-      "text": "n = 210 α = 0.05 n = 210 α = 0.05"
+      "text": "$n=210\\qquad \\alpha =0.05$"
     },
     {
       "letter": "E",
@@ -29,14 +36,8 @@
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "1.F",
-    "VAR-6.D.1",
-    "VAR-6.D",
-    "VAR-6"
-  ],
-  "standards": [
     "1.F",
     "VAR-6.D.1",
     "VAR-6.D",

@@ -1,44 +1,45 @@
 {
   "question_id": "question-137",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "position",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
   "title": "Finding a Proportion Based off a Histogram: Students Absent",
-  "difficulty": "Moderate",
-  "question_text": "The histogram below displays the number of students absent per day over a twenty day period in a Statistics class. What is the proportion of days where at least two students were absent from  this Statistics class? Loading question supplement...",
+  "difficulty": "Medium",
+  "question_text": "The histogram below displays the number of students absent per day over a twenty day period in a Statistics class.\nWhat is the proportion of days where at least two students were absent from this Statistics class?\nCreated for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-137-img1.PNG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.20 0.20"
+      "text": "$0.20$"
     },
     {
       "letter": "B",
-      "text": "0.25 0.25"
+      "text": "0.25"
     },
     {
       "letter": "C",
-      "text": "0.35 0.35"
+      "text": "0.35"
     },
     {
       "letter": "D",
-      "text": "0.40 0.40"
+      "text": "0.40"
     },
     {
       "letter": "E",
-      "text": "0.60 0.60"
+      "text": "0.60"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.M",
-    "UNC-1.M.1",
-    "2.A",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.M",
     "UNC-1.M.1",
     "2.A",

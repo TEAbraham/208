@@ -1,10 +1,16 @@
 {
   "question_id": "question-124",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "difference-two-proportions",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
   "title": "Conditions for 2-sample $z$-test for Proportions",
   "difficulty": "Easy",
-  "question_text": "Which of the following is not a condition necessary for conducting a two-sample $z$ -test for proportions?",
+  "question_text": "Which of the following is not a condition necessary for conducting a two-sample $z$-test for proportions?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -20,7 +26,7 @@
     },
     {
       "letter": "D",
-      "text": "The total number of observations must be at least 30 30 or we must know that the population distribution is approximately normal."
+      "text": "The total number of observations must be at least $30$ or we must know that the population distribution is approximately normal."
     },
     {
       "letter": "E",
@@ -29,15 +35,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.E",
-    "DAT-3.D.2",
-    "DAT-3",
-    "DAT-3.D",
-    "VAR-6"
-  ],
-  "standards": [
     "4.E",
     "DAT-3.D.2",
     "DAT-3",

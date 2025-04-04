@@ -1,10 +1,17 @@
 {
   "question_id": "question-010",
   "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "randomness",
+    "variation"
+  ],
   "title": "Science Club",
-  "difficulty": "Moderate",
-  "question_text": "A high school has four grade levels: Freshman, Sophomore, Junior, and Senior. The school is divided equally among these grades, with $25\\%$ of the students in each grade level. A survey of $60$ participants in the school's science club shows the following distribution: Grade Level Number of Participants Freshman $18$ Sophomore $22$ Junior $12$ Senior $8$ If the science club has $240$ members, which of the following questions would best help determine if the participation in the science club among different grade levels is random?",
+  "difficulty": "Medium",
+  "question_text": "A high school has four grade levels: Freshman, Sophomore, Junior, and Senior. The school is divided equally among these grades, with $25\\%$ of the students in each grade level. A survey of $60$ participants in the school's science club shows the following distribution:\nGrade Level Number of Participants\nFreshman $18$\nSophomore $22$\nJunior $12$\nSenior $8$\nIf the science club has $240$ members, which of the following questions would best help determine if the participation in the science club among different grade levels is random?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Grade Level</th><th scope=\"col\">Number of Participants</th></tr></thead><tbody><tr><td>Freshman</td><td><span class=\"tex2jax_process\">$18$</span></td></tr><tr><td>Sophomore</td><td><span class=\"tex2jax_process\">$22$</span></td></tr><tr><td>Junior</td><td><span class=\"tex2jax_process\">$12$</span></td></tr><tr><td>Senior</td><td><span class=\"tex2jax_process\">$8$</span></td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +36,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-1.J",
-    "VAR-1.J.1",
-    "1.A",
-    "VAR-1"
-  ],
-  "standards": [
     "VAR-1.J",
     "VAR-1.J.1",
     "1.A",

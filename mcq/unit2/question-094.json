@@ -1,12 +1,19 @@
 {
   "question_id": "question-094",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "influential-points",
+    "bivariate-data",
+    "exploring-data",
+    "outliers"
+  ],
   "title": "Speed vs. Tickets",
-  "difficulty": "Difficult",
-  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved. Researchers surveyed a group of motorists, documenting their average speeds and recording the lifetime total number of speeding tickets each motorist had received. The data is recorded in the scatterplot above. The point $(59,10)$ can best be described as",
+  "difficulty": "Hard",
+  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved.\nResearchers surveyed a group of motorists, documenting their average speeds and recording the lifetime total number of speeding tickets each motorist had received. The data is recorded in the scatterplot above.\nThe point $(59,10)$ can best be described as",
   "image_files": [
     "images/question-094-img1.jpg"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -14,7 +21,7 @@
     },
     {
       "letter": "B",
-      "text": "An influential point that greatly changes the slope,  but not a regression outlier."
+      "text": "An influential point that greatly changes the slope, but not a regression outlier."
     },
     {
       "letter": "C",
@@ -31,15 +38,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-1.F.2",
-    "DAT-1.F.1",
-    "DAT-1",
-    "2.A",
-    "DAT-1.F"
-  ],
-  "standards": [
     "DAT-1.F.2",
     "DAT-1.F.1",
     "DAT-1",

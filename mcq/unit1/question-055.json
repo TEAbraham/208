@@ -1,45 +1,44 @@
 {
   "question_id": "question-055",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "graph",
+    "quantitative-data",
+    "histogram"
+  ],
   "title": "Food Delivery Tips",
   "difficulty": "Easy",
-  "question_text": "Larry works for a popular food delivery app. He decides he wants to track the tips he receives over a monthly period. The data he collected is summarized in the graph below: Loading question supplement... How many tips did he receive that were under $\\$6$ ?",
+  "question_text": "Larry works for a popular food delivery app. He decides he wants to track the tips he receives over a monthly period. The data he collected is summarized in the graph below:\nHow many tips did he receive that were under $\\$6$?",
   "image_files": [
     "images/question-055-img1.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "5 5"
+      "text": "$5$"
     },
     {
       "letter": "B",
-      "text": "9 9"
+      "text": "9"
     },
     {
       "letter": "C",
-      "text": "10 10"
+      "text": "10"
     },
     {
       "letter": "D",
-      "text": "20 20"
+      "text": "20"
     },
     {
       "letter": "E",
-      "text": "30 30"
+      "text": "30"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "The quantitative data above has been summarized into a histogram . In a histogram, the height of each bar shows the number of observations in that interval. To find the number of observations in an interval, you have to add up the heights.\n\nIn our case, since we want the number of tips less than $ 6 $ 6 , we will find the height of the first three intervals. The first interval, $ 0 $ 0 to $ 2 $ 2 , has 10 10 observations. The second interval $ 2 $ 2 to $ 4 $ 4 , has 15 15 observations. And the third interval, $ 4 $ 4 to $ 6 $ 6 , has 5 5 observations. Therefore, the total amount of tips less than $ 6 $ 6 is 10 + 15 + 5 = 30 10 + 15 + 5 = 30\n\nChoice 'E' is correct.",
-  "distractor_explanations": {},
+  "solution": "The quantitative data above has been summarized into a histogram. In a histogram, the height of each bar shows the number of observations in that interval. To find the number of observations in an interval, you have to add up the heights.\n\nIn our case, since we want the number of tips less than $6\n, we will find the height of the first three intervals. The first interval, $0\nto $2\n, has 10\nobservations. The second interval $2\nto $4\n, has 15\nobservations. And the third interval, $4\nto $6\n, has 5\nobservations. Therefore, the total amount of tips less than $6\nis 10+15+5=30\n\nChoice 'E' is correct.",
+  "explanations": {},
   "tags": [
-    "UNC-1.G.1",
-    "2.A",
-    "2.B",
-    "UNC-1.G",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.G.1",
     "2.A",
     "2.B",

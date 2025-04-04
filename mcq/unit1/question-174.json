@@ -1,44 +1,47 @@
 {
   "question_id": "question-174",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "boxplots",
+    "summarizing-distributions",
+    "measuring-spread",
+    "exploring-data",
+    "measuring-center"
+  ],
   "title": "Comparing Boxplots: Words Typed Per Minute Between Boys and Girls",
-  "difficulty": "Moderate",
-  "question_text": "Jessica collected data on the number of words typed per minute with zero mistakes in her typing class. Using the data, Jessica generated the boxplots below. Loading question supplement... Which of the following statements must be TRUE ?",
+  "difficulty": "Medium",
+  "question_text": "Jessica collected data on the number of words typed per minute with zero mistakes in her typing class. Using the data, Jessica generated the boxplots below.\nCreated for Albert.io. Copyright 2017. All rights reserved.\nWhich of the following statements must be TRUE?",
   "image_files": [
     "images/question-174-img1.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The mean number of words typed per minute with zero mistakes for the females in Jessica's typing class is 53 53 ."
+      "text": "The mean number of words typed per minute with zero mistakes for the females in Jessica's typing class is 53."
     },
     {
       "letter": "B",
-      "text": "The IQR of the number of words typed per minute with zero mistakes for the females in Jessica's typing class is 34 34 ."
+      "text": "The IQR of the number of words typed per minute with zero mistakes for the females in Jessica's typing class is 34\n."
     },
     {
       "letter": "C",
-      "text": "There is a higher percentage of males students in Jessica's typing class that type less than 45 45 words per minute without making a mistake than females do."
+      "text": "There is a higher percentage of males students in Jessica's typing class that type less than 45\nwords per minute without making a mistake than females do."
     },
     {
       "letter": "D",
-      "text": "There are a lower percentage of females in Jessica's typing class that type at least 64 64 words per minute without making a mistake than males do."
+      "text": "There are a lower percentage of females in Jessica's typing class that type at least 64\nwords per minute without making a mistake than males do."
     },
     {
       "letter": "E",
-      "text": "The range for the males in this data is 15 15 ."
+      "text": "The range for the males in this data is 15\n."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.N.1",
-    "2.D",
-    "UNC-1.N",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.N.1",
     "2.D",
     "UNC-1.N",

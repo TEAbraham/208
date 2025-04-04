@@ -1,43 +1,43 @@
 {
   "question_id": "question-051",
   "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "confidence-interval",
+    "estimation",
+    "statistical-inference",
+    "least-squares-regression-line"
+  ],
   "title": "Self-Esteem | 1 of 2",
-  "difficulty": "Moderate",
-  "question_text": "A high school principal is curious if a linear relationship exists between student height and score on a self-esteem test. A random sample of $20$ pairs of students was taken. A linear regression $T$ -test was performed on $H_0: B = 0$ vs. $H_a: B > 0$ , and the test statistic of $t = 3.19$ was calculated. What is the approximate $p$ -value?",
+  "difficulty": "Medium",
+  "question_text": "A high school principal is curious if a linear relationship exists between student height and score on a self-esteem test.\nA random sample of $20$ pairs of students was taken. A linear regression $T$-test was performed on $H_0: B = 0$ vs. $H_a: B > 0$, and the test statistic of $t = 3.19$ was calculated.\nWhat is the approximate $p$-value?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Greater than 10 % 10 % ."
+      "text": "Greater than $10\\%$."
     },
     {
       "letter": "B",
-      "text": "Between 5 % 5 % and 10 % 10 % ."
+      "text": "Between $5\\%$ and $10\\%$."
     },
     {
       "letter": "C",
-      "text": "Between 1 % 1 % and 5 % 5 % ."
+      "text": "Between $1\\%$ and $5\\%$."
     },
     {
       "letter": "D",
-      "text": "Between 0.5 % 0.5 % and 1 % 1 % ."
+      "text": "Between $0.5\\%$ and $1\\%$."
     },
     {
       "letter": "E",
-      "text": "Less than 0.5 % 0.5 % ."
+      "text": "Less than $0.5\\%$."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-7.M",
-    "VAR-7",
-    "3.E",
-    "VAR-7.M.1",
-    "VAR-7.M.2"
-  ],
-  "standards": [
     "VAR-7.M",
     "VAR-7",
     "3.E",

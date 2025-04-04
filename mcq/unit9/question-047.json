@@ -1,10 +1,16 @@
 {
   "question_id": "question-047",
   "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "least-squares-regression-line"
+  ],
   "title": "Identifying Parameters",
   "difficulty": "Easy",
   "question_text": "When performing a significance test for a least-squares regression line, what parameter can be tested?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -12,11 +18,11 @@
     },
     {
       "letter": "B",
-      "text": "The average x x -value in a set of observations that determine a roughly linear relationship."
+      "text": "The average $x$-value in a set of observations that determine a roughly linear relationship."
     },
     {
       "letter": "C",
-      "text": "The mean y y -value in a set of observations that determine a roughly linear relationship."
+      "text": "The mean $y$-value in a set of observations that determine a roughly linear relationship."
     },
     {
       "letter": "D",
@@ -29,15 +35,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-7.M",
-    "VAR-7",
-    "3.E",
-    "VAR-7.M.1",
-    "VAR-7.M.2"
-  ],
-  "standards": [
     "VAR-7.M",
     "VAR-7",
     "3.E",

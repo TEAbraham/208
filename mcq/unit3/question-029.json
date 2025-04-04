@@ -1,10 +1,15 @@
 {
   "question_id": "question-029",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "extra-practice",
+    "sampling-and-experimentation"
+  ],
   "title": "Concept of Sampling",
   "difficulty": "Easy",
   "question_text": "The concept of sampling describes",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -27,16 +32,10 @@
       "text": "Interviewing subjects that are easiest to reach, hoping to get as large of a sample as possible."
     }
   ],
-  "correct_answer": "Choice 'A' is incorrect; in most situations, the sample is much smaller than the population, and if the sample is perfectly random, a sample size of 1 , 000 − 2 , 000 1 , 000 − 2 , 000 subjects is usually large enough.",
+  "correct_answer": "Choice 'A'is incorrect; in most situations, the sample is much smaller than the population, and if the sample is perfectly random, a sample size of $1,000-2,000$ subjects is usually large enough.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-2",
-    "1.C",
-    "DAT-2.A",
-    "DAT-2.A.2"
-  ],
-  "standards": [
     "DAT-2",
     "1.C",
     "DAT-2.A",

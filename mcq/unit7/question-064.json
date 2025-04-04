@@ -1,43 +1,42 @@
 {
   "question_id": "question-064",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
   "title": "One-Sample $T$ Hypothesis of Ice Water",
   "difficulty": "Easy",
-  "question_text": "Suppose a psychologist decides to use a matched pairs (paired) experiment to determine how long individuals can hold their hands in ice water when intoxicated compared to sober. Suppose the psychologist hypothesizes that alcohol will numb the pain, so individuals will be able to keep their hands in the ice water longer when intoxicated. If the longest amount of time was $5.1\\text{ minutes}$ , what are the appropriate null and alternative hypotheses for this situation?",
+  "question_text": "Suppose a psychologist decides to use a matched pairs (paired) experiment to determine how long individuals can hold their hands in ice water when intoxicated compared to sober.\nSuppose the psychologist hypothesizes that alcohol will numb the pain, so individuals will be able to keep their hands in the ice water longer when intoxicated.\nIf the longest amount of time was $5.1\\text{ minutes}$, what are the appropriate null and alternative hypotheses for this situation?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "H 0 : u 1 = u 2 H 0 : u 1 = u 2 H a : u 1 < u 2 H a : u 1 < u 2 Define u 1 u 1 as the average time an individual can hold their hands in the ice water when intoxicated, and u 2 u 2 as the average time an individual can hold their hands in the ice water when sober."
+      "text": "$H_0: { u }_{ 1 }= { u }_{ 2 }$\n$H_a: { u }_{ 1 }< { u }_{ 2 }$\nDefine ${ u }_{ 1 }$ as the average time an individual can hold their hands in the ice water when intoxicated, and ${ u }_{ 2 }$ as the average time an individual can hold their hands in the ice water when sober."
     },
     {
       "letter": "B",
-      "text": "H 0 : u 1 = u 2 H 0 : u 1 = u 2 H a : u 1 > u 2 H a : u 1 > u 2 Define u 1 u 1 as the average time an individual can hold their hands in the ice water when intoxicated and u 1 u 1 as the average time an individual can hold their hands in the ice water when sober."
+      "text": "$H_0: { u }_{ 1 }={ u }_{ 2 }$\n$H_a: { u }_{ 1 } > { u }_{ 2 }$\nDefine ${ u }_{ 1 }$ as the average time an individual can hold their hands in the ice water when intoxicated and ${ u }_{ 1 }$ as the average time an individual can hold their hands in the ice water when sober."
     },
     {
       "letter": "C",
-      "text": "H 0 : μ = 0 H 0 : μ = 0 H a : μ > 0 H a : μ > 0 Define μ μ as the increase in time an individual can hold their hands in ice water when intoxicated."
+      "text": "$H_0: \\mu = 0$\n$H_a: \\mu > 0$\nDefine $\\mu$ as the increase in time an individual can hold their hands in ice water when intoxicated."
     },
     {
       "letter": "D",
-      "text": "H 0 : μ = 5.1 H 0 : μ = 5.1 H a : μ < 5. 1 H a : μ < 5. 1 Define μ μ as the average amount of time an individual can hold their hands in ice water."
+      "text": "$H_0: \\mu = 5.1$\n$H_a: \\mu < 5. 1$\nDefine $\\mu$ as the average amount of time an individual can hold their hands in ice water."
     },
     {
       "letter": "E",
-      "text": "H 0 : μ = 0 H 0 : μ = 0 H a : μ < 0 H a : μ < 0 Define μ μ as the increase in time an individual can hold their hands in ice water when intoxicated."
+      "text": "$H_0: \\mu = 0$\n$H_a: \\mu < 0$\nDefine $\\mu$ as the increase in time an individual can hold their hands in ice water when intoxicated."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-3.F",
-    "4.E",
-    "DAT-3",
-    "DAT-3.F.2",
-    "DAT-3.F.1"
-  ],
-  "standards": [
     "DAT-3.F",
     "4.E",
     "DAT-3",

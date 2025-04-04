@@ -1,42 +1,42 @@
 {
   "question_id": "question-007",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sample-mean",
+    "sampling-distributions"
+  ],
   "title": "Mean and Standard Deviation of Sampling Distribution",
   "difficulty": "Easy",
-  "question_text": "Suppose a certain brand of candy bar has a mean weight of $1.02\\text{ oz}$ with a standard deviation of $0.03\\text{ oz}$ . If $5$ candy bars are randomly selected, determine the mean and standard deviation of this sampling distribution.",
+  "question_text": "Suppose a certain brand of candy bar has a mean weight of $1.02\\text{ oz}$ with a standard deviation of $0.03\\text{ oz}$.\nIf $5$ candy bars are randomly selected, determine the mean and standard deviation of this sampling distribution.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Mean = 5.1 5.1 ; standard deviation = 0.15 0.15"
+      "text": "Mean = $5.1$; standard deviation = $0.15$"
     },
     {
       "letter": "B",
-      "text": "Mean = 1.02 1.02 ; standard deviation = 0.03 0.03"
+      "text": "Mean = $1.02$; standard deviation = $0.03$"
     },
     {
       "letter": "C",
-      "text": "Mean = 1.02 1.02 ; standard deviation = 0.15 0.15"
+      "text": "Mean = $1.02$; standard deviation = $0.15$"
     },
     {
       "letter": "D",
-      "text": "Mean = 1.02 1.02 ; standard deviation = 0.0134 0.0134"
+      "text": "Mean = $1.02$; standard deviation = $0.0134$"
     },
     {
       "letter": "E",
-      "text": "Mean = 5.10 5.10 ; standard deviation = 0.0134 0.0134"
+      "text": "Mean = 5.10; standard deviation = 0.0134"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.Q.1",
-    "UNC-3",
-    "UNC-3.Q",
-    "3.B"
-  ],
-  "standards": [
     "UNC-3.Q.1",
     "UNC-3",
     "UNC-3.Q",

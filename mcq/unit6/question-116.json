@@ -1,26 +1,31 @@
 {
   "question_id": "question-116",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "significance-tests",
+    "deduction"
+  ],
   "title": "Sound Cards and Motherboards",
   "difficulty": "Easy",
-  "question_text": "A Tech company produces sound cards and motherboards.  It was concerned about how many parts were coming out defective.  A manager randomly selected $78$ sound cards and $58$ motherboards. The manager found $8$ defective soundcards and $5$ defective motherboards.  What statistical technique should be used to see if there is a difference between these products in terms of defects?",
+  "question_text": "A Tech company produces sound cards and motherboards. It was concerned about how many parts were coming out defective. A manager randomly selected $78$ sound cards and $58$ motherboards. The manager found $8$ defective soundcards and $5$ defective motherboards. What statistical technique should be used to see if there is a difference between these products in terms of defects?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "A two-sample t t -test for a difference between two population proportions."
+      "text": "A two-sample $t$-test for a difference between two population proportions."
     },
     {
       "letter": "B",
-      "text": "A two-sample z z -test for a difference between two population proportions."
+      "text": "A two-sample $z$-test for a difference between two population proportions."
     },
     {
       "letter": "C",
-      "text": "A two-sample t t -test for a difference between two population means."
+      "text": "A two-sample $t$-test for a difference between two population means."
     },
     {
       "letter": "D",
-      "text": "A two-sample z z -test for a difference between two population means."
+      "text": "A two-sample $z$-test for a difference between two population means."
     },
     {
       "letter": "E",
@@ -29,14 +34,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-6.I",
-    "VAR-6.I.1",
-    "1.E",
-    "VAR-6"
-  ],
-  "standards": [
     "VAR-6.I",
     "VAR-6.I.1",
     "1.E",

@@ -1,42 +1,43 @@
 {
   "question_id": "question-026",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "conditional-relative-frequencies",
+    "two-way-tables"
+  ],
   "title": "Snacks Anyone?",
-  "difficulty": "Moderate",
-  "question_text": "100 men and 100 women selected at random were asked which type of snack they preferred.  Here are the results: Snack: Popcorn Chips Candy Nuts Men 25 30 15 30 Women 35 20 25 20 What is the conditional relative frequency of the men preferring popcorn and of those preferring candy being women?",
+  "difficulty": "Medium",
+  "question_text": "$100$ men and $100$ women selected at random were asked which type of snack they preferred. Here are the results:\nSnack: Popcorn Chips Candy Nuts\nMen $25$ $30$ $15$ $30$\nWomen $35$ $20$ $25$ $20$\nWhat is the conditional relative frequency of the men preferring popcorn and of those preferring candy being women?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Snack:</th><th scope=\"col\">Popcorn</th><th scope=\"col\">Chips</th><th scope=\"col\">Candy</th><th scope=\"col\">Nuts</th></tr></thead><tbody><tr><td>Men</td><td><span class=\"tex2jax_process\">$25$</span></td><td><span class=\"tex2jax_process\">$30$</span></td><td><span class=\"tex2jax_process\">$15$</span></td><td><span class=\"tex2jax_process\">$30$</span></td></tr><tr><td>Women</td><td><span class=\"tex2jax_process\">$35$</span></td><td><span class=\"tex2jax_process\">$20$</span></td><td><span class=\"tex2jax_process\">$25$</span></td><td><span class=\"tex2jax_process\">$20$</span></td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "of the men preferring popcorn: 0.125 0.125 of those preferring candy being women: 0.125 0.125"
+      "text": "of the men preferring popcorn: $0.125$\nof those preferring candy being women: $0.125$"
     },
     {
       "letter": "B",
-      "text": "of the men preferring popcorn: 0.25 0.25 of those preferring candy being women: 0.25 0.25"
+      "text": "of the men preferring popcorn: $0.25$\nof those preferring candy being women: $0.25$"
     },
     {
       "letter": "C",
-      "text": "of the men preferring popcorn: 0.56 0.56 of those preferring candy being women: 0.625 0.625"
+      "text": "of the men preferring popcorn: $0.56$\nof those preferring candy being women: $0.625$"
     },
     {
       "letter": "D",
-      "text": "of the men preferring popcorn: 0.125 0.125 of those preferring candy being women: 0.25 0.25"
+      "text": "of the men preferring popcorn: $0.125$\nof those preferring candy being women: $0.25$"
     },
     {
       "letter": "E",
-      "text": "of the men preferring popcorn: 0.25 0.25 of those preferring candy being women: 0.625 0.625"
+      "text": "of the men preferring popcorn: $0.25$\nof those preferring candy being women: 0.625"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "2.C",
-    "UNC-1.Q",
-    "UNC-1.Q.2",
-    "UNC-1"
-  ],
-  "standards": [
     "2.C",
     "UNC-1.Q",
     "UNC-1.Q.2",

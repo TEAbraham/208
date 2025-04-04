@@ -1,10 +1,18 @@
 {
   "question_id": "question-075",
   "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference",
+    "chi-square-independence",
+    "chi-square-goodness-of-fit"
+  ],
   "title": "Type of Test: Pour It On",
-  "difficulty": "Moderate",
-  "question_text": "The Pour It On marketing company is investigating whether the  type of house and the color of a house  in a certain town are related. Assume the conditions for inference are met. Which of the following significance tests would be the most appropriate to use to determine whether there is an association between type of house and color of a house?",
+  "difficulty": "Medium",
+  "question_text": "The Pour It On marketing company is investigating whether the type of house and the color of a house in a certain town are related. Assume the conditions for inference are met.\nWhich of the following significance tests would be the most appropriate to use to determine whether there is an association between type of house and color of a house?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,15 +37,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.E",
-    "DAT-3.L",
-    "DAT-3",
-    "DAT-3.L.2",
-    "DAT-3.L.1"
-  ],
-  "standards": [
     "4.E",
     "DAT-3.L",
     "DAT-3",

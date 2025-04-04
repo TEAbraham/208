@@ -1,10 +1,16 @@
 {
   "question_id": "question-051",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "significance-tests",
+    "sample-mean",
+    "t-distribution"
+  ],
   "title": "Statistical Test for Advertiser",
   "difficulty": "Easy",
-  "question_text": "An advertiser for a company wanted to get some research done so she could show that her company's large chain of banks were doing well.  She decided to randomly select $30$ of the banks across the country and see how many customers were coming to the bank on average each day over the past week.  She is hoping to show that this number is greater than $100$ customers per day.  Which of the following statistical tests would be most appropriate here?",
+  "question_text": "An advertiser for a company wanted to get some research done so she could show that her company's large chain of banks were doing well. She decided to randomly select $30$ of the banks across the country and see how many customers were coming to the bank on average each day over the past week. She is hoping to show that this number is greater than $100$ customers per day. Which of the following statistical tests would be most appropriate here?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -12,31 +18,25 @@
     },
     {
       "letter": "B",
-      "text": "One-sample z z -test for a population proportion."
+      "text": "One-sample $z$-test for a population proportion."
     },
     {
       "letter": "C",
-      "text": "One-sample t t -test for a population proportion."
+      "text": "One-sample $t$-test for a population proportion."
     },
     {
       "letter": "D",
-      "text": "One-sample t t -test for a population mean."
+      "text": "One-sample $t$-test for a population mean."
     },
     {
       "letter": "E",
-      "text": "One-sample z z -test for a population mean."
+      "text": "One-sample $z$-test for a population mean."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-7",
-    "VAR-7.B.1",
-    "1.E",
-    "VAR-7.B"
-  ],
-  "standards": [
     "VAR-7",
     "VAR-7.B.1",
     "1.E",

@@ -1,12 +1,19 @@
 {
   "question_id": "question-157",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "boxplots",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
   "title": "Charity 5K: Conclusions from a Boxplot",
   "difficulty": "Easy",
-  "question_text": "Recently, a community group held a 5K Race/Fun Walk to raise money for local charities.  The event was advertised as being appropriate for all ages and ability levels.  Sure enough, on race day, entrants ranged from the most competitive fitness enthusiasts who ran the race at their top speed, to grandparents walking the course at a leisurely pace with their young grandchildren. The distribution of the amount of time it took participants to finish the course are displayed in the boxplot below. Created for Albert.io. Copyright 2016. All rights reserved. Which of the following statements correctly describes the shape of the distribution and the relative positioning of the mean and median race times?",
+  "question_text": "Recently, a community group held a 5K Race/Fun Walk to raise money for local charities. The event was advertised as being appropriate for all ages and ability levels. Sure enough, on race day, entrants ranged from the most competitive fitness enthusiasts who ran the race at their top speed, to grandparents walking the course at a leisurely pace with their young grandchildren.\nThe distribution of the amount of time it took participants to finish the course are displayed in the boxplot below.\nCreated for Albert.io. Copyright 2016. All rights reserved.\nWhich of the following statements correctly describes the shape of the distribution and the relative positioning of the mean and median race times?",
   "image_files": [
     "images/question-157-img1.PNG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -31,16 +38,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.L.1",
-    "UNC-1.M",
-    "UNC-1.M.2",
-    "2.A",
-    "UNC-1.L",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.L.1",
     "UNC-1.M",
     "UNC-1.M.2",

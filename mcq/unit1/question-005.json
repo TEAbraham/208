@@ -1,18 +1,24 @@
 {
   "question_id": "question-005",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "statistics",
+    "data",
+    "variation"
+  ],
   "title": "Library Debate",
-  "difficulty": "Moderate",
-  "question_text": "Two high school statistics students are studying in their school's library. They see the librarian seemingly selected random books from the shelves. The two students wonder aloud what they believe the librarian is doing. Student $1$ states: \"I bet she is selecting random books to try and find the average page number for the books in the library.\" Student $2$ states: \"No, I think she is selecting random books to estimate the proportion of books per category (fiction, non-fiction, etc.)\" Which student is correct?",
+  "difficulty": "Medium",
+  "question_text": "Two high school statistics students are studying in their school's library. They see the librarian seemingly selected random books from the shelves. The two students wonder aloud what they believe the librarian is doing.\nStudent $1$ states: \"I bet she is selecting random books to try and find the average page number for the books in the library.\"\nStudent $2$ states: \"No, I think she is selecting random books to estimate the proportion of books per category (fiction, non-fiction, etc.)\"\nWhich student is correct?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Student 1 1 since the number of pages in a book is numeric value."
+      "text": "Student $1$ since the number of pages in a book is numeric value."
     },
     {
       "letter": "B",
-      "text": "Student 1 1 since the librarian is selected the books randomly."
+      "text": "Student $1$ since the librarian is selected the books randomly."
     },
     {
       "letter": "C",
@@ -20,7 +26,7 @@
     },
     {
       "letter": "D",
-      "text": "Student 2 2 since the data is easily put in categories."
+      "text": "Student $2$ since the data is easily put in categories."
     },
     {
       "letter": "E",
@@ -28,15 +34,9 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "The librarian is randomly selected books to collect data . This data, once collected, can lead to a conclusion that is meaningful, when put into context.\n\nAlthough the students do not know the exact reasoning for the librarian's work, both of their ideas make sense statistically. The librarian could easily find the average number of pages of the book by examining each book and finding the sum of the book pages, then dividing by the number of books. Additionally, the librarian could also easily organize the books into different categories that represent each book.\n\nBoth students have presented a logical statistical argument for what the librarian could be doing.\n\nChoice 'C' is correct.",
-  "distractor_explanations": {},
+  "solution": "The librarian is randomly selected books to collect data. This data, once collected, can lead to a conclusion that is meaningful, when put into context.\n\nAlthough the students do not know the exact reasoning for the librarian's work, both of their ideas make sense statistically. The librarian could easily find the average number of pages of the book by examining each book and finding the sum of the book pages, then dividing by the number of books. Additionally, the librarian could also easily organize the books into different categories that represent each book.\n\nBoth students have presented a logical statistical argument for what the librarian could be doing.\n\nChoice 'C' is correct.",
+  "explanations": {},
   "tags": [
-    "1.A",
-    "VAR-1.A.1",
-    "VAR-1",
-    "VAR-1.A"
-  ],
-  "standards": [
     "1.A",
     "VAR-1.A.1",
     "VAR-1",

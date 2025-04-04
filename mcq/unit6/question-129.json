@@ -1,10 +1,18 @@
 {
   "question_id": "question-129",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "difference-two-proportions",
+    "confidence-interval",
+    "2-proportion-z-intervals",
+    "estimation",
+    "statistical-inference"
+  ],
   "title": "2 Proportion z-Intervals: 2-sided Testing",
-  "difficulty": "Moderate",
-  "question_text": "A two-sample $z$ -test for proportions had the hypotheses: $${ H }_{ 0 }:{ p }_{ 1 }-{ p }_{ 2 }=0$$ $${ H }_{ a }:{ p }_{ 1 }-{ p }_{ 2 }\\neq 0$$ The test produces a $p$ -value of $0.04$ . Which of the following must be TRUE? I. A $90\\%$ confidence interval for the difference in proportions will contain the value $0$ . II. A $95\\%$ confidence interval for the difference in proportions will contain the value $0$ . III. A $99\\%$ confidence interval for the difference in proportions will contain the value $0$ .",
+  "difficulty": "Medium",
+  "question_text": "A two-sample $z$-test for proportions had the hypotheses:\n$${ H }_{ 0 }:{ p }_{ 1 }-{ p }_{ 2 }=0$$\n\n$${ H }_{ a }:{ p }_{ 1 }-{ p }_{ 2 }\\neq 0$$\nThe test produces a $p$-value of $0.04$.\nWhich of the following must be TRUE?\nI. A $90\\%$ confidence interval for the difference in proportions will contain the value $0$.\nII. A $95\\%$ confidence interval for the difference in proportions will contain the value $0$.\nIII. A $99\\%$ confidence interval for the difference in proportions will contain the value $0$.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,15 +37,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.E",
-    "DAT-3.D.1",
-    "DAT-3.D.2",
-    "DAT-3",
-    "DAT-3.D"
-  ],
-  "standards": [
     "4.E",
     "DAT-3.D.1",
     "DAT-3.D.2",

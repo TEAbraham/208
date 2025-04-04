@@ -1,41 +1,43 @@
 {
   "question_id": "question-038",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "sampling-distribution",
+    "sample",
+    "random",
+    "random-variables"
+  ],
   "title": "Roll of Two Dice",
   "difficulty": "Easy",
-  "question_text": "Two friends are playing a board game. One friend decides to find the mean of the sum of his last three rolls. His $3$ rolls are shown below: $3$ Rolls: $8, 7, 6$ for a mean sum of $7$ . Is this friend's next three rolls guaranteed to be equal to $7$ ?",
+  "question_text": "Two friends are playing a board game. One friend decides to find the mean of the sum of his last three rolls. His $3$ rolls are shown below:\n$3$ Rolls: $8, 7, 6$ for a mean sum of $7$.\nIs this friend's next three rolls guaranteed to be equal to $7$?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "No, because rolling 2 2 dice produces random sums"
+      "text": "No, because rolling $2$ dice produces random sums"
     },
     {
       "letter": "B",
-      "text": "No, because 8 , 7 8 , 7 & 6 6 have been rolled and can't be rolled again"
+      "text": "No, because $8, 7$ & $6$ have been rolled and can't be rolled again"
     },
     {
       "letter": "C",
-      "text": "No, because a sum of 7 7 has a probability of 1 6 1 6 , so it won't happen for 5 5 more turns"
+      "text": "No, because a sum of $7$ has a probability of $\\frac{1}{6}$, so it won't happen for $5$ more turns"
     },
     {
       "letter": "D",
-      "text": "Yes, because the mean will always be 7 7 as it's the most likely outcome"
+      "text": "Yes, because the mean will always be $7$ as it's the most likely outcome"
     },
     {
       "letter": "E",
-      "text": "Yes, because we divide by 3 3 the mean will always be 7 7"
+      "text": "Yes, because we divide by $3$ the mean will always be $7$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "Since rolling two dice represent a chance model, the sum produced when rolling two dice will be random on each turn. For example, since each number on each die has a 1 6 1 6 probability of showing on each roll, each sum has it's own probability. Therefore the sums will not always average out to be 7 7 .\n\nThe players next roll is not guaranteed to have an average of 7 7 , and in fact can be any number from 2 − 12 2 − 12 .\n\nChoice 'A' is correct.",
-  "distractor_explanations": {},
+  "solution": "Since rolling two dice represent a chance model, the sum produced when rolling two dice will be random on each turn. For example, since each number on each die has a $\\frac{1}{6}$ probability of showing on each roll, each sum has it's own probability. Therefore the sums will not always average out to be $7$.\n\nThe players next roll is not guaranteed to have an average of $7$, and in fact can be any number from $2-12$.\n\nChoice 'A' is correct.",
+  "explanations": {},
   "tags": [
-    "VAR-1.G",
-    "VAR-1.G.1",
-    "VAR-1"
-  ],
-  "standards": [
     "VAR-1.G",
     "VAR-1.G.1",
     "VAR-1"

@@ -1,43 +1,44 @@
 {
   "question_id": "question-130",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "difference-two-proportions",
+    "confidence-interval",
+    "2-proportion-z-intervals",
+    "estimation",
+    "statistical-inference"
+  ],
   "title": "Construction $2$ Proportion $z$-Interval: Fruits and Vegetables",
-  "difficulty": "Moderate",
-  "question_text": "A nutritionist was interested in seeing if there was difference in people from the U.S. who prefer fruit over vegetables compared with the people in Canada who prefer fruit over vegetables. The nutritionist randomly selected $200\\text{ people}$ from each country, and found that $136\\text{ people}$ from the U.S. and $108\\text{ people}$ from Canada favored fruit over vegetables. Which formula calculates the $98\\%$ confidence interval for the difference in proportions of Americans who prefer fruit over vegetables to Canadians who do so?",
+  "difficulty": "Medium",
+  "question_text": "A nutritionist was interested in seeing if there was difference in people from the U.S. who prefer fruit over vegetables compared with the people in Canada who prefer fruit over vegetables. The nutritionist randomly selected $200\\text{ people}$ from each country, and found that $136\\text{ people}$ from the U.S. and $108\\text{ people}$ from Canada favored fruit over vegetables.\nWhich formula calculates the $98\\%$ confidence interval for the difference in proportions of Americans who prefer fruit over vegetables to Canadians who do so?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "( 0.68 − 0.54 ) ± 2.33 √ ( 0.61 ) ( 0.39 ) 400 ( 0.68 − 0.54 ) ± 2.33 ( 0.61 ) ( 0.39 ) 400"
+      "text": "$(0.68-0.54)\\pm 2.33\\sqrt { \\dfrac { (0.61)(0.39) }{ 400 } } $"
     },
     {
       "letter": "B",
-      "text": "( 0.68 − 0.54 ) ± 2.33 √ ( 0.61 ) ( 0.39 ) 200 + ( 0.61 ) ( 0.39 ) 200 ( 0.68 − 0.54 ) ± 2.33 ( 0.61 ) ( 0.39 ) 200 + ( 0.61 ) ( 0.39 ) 200"
+      "text": "$(0.68-0.54)\\pm 2.33\\sqrt { \\dfrac { (0.61)(0.39) }{ 200 } +\\dfrac { (0.61)(0.39) }{ 200 } } $"
     },
     {
       "letter": "C",
-      "text": "( 0.68 − 0.54 ) ± 2.33 √ ( 0.68 ) ( 0.32 ) 200 + ( 0.54 ) ( 0.46 ) 200 ( 0.68 − 0.54 ) ± 2.33 ( 0.68 ) ( 0.32 ) 200 + ( 0.54 ) ( 0.46 ) 200"
+      "text": "$(0.68-0.54)\\pm 2.33\\sqrt { \\dfrac { (0.68)(0.32) }{ 200 } +\\dfrac { (0.54)(0.46) }{ 200 } }$"
     },
     {
       "letter": "D",
-      "text": "( 0.68 − 0.54 ) ± 2.576 √ ( 0.68 ) ( 0.32 ) 200 + ( 0.54 ) ( 0.46 ) 200 ( 0.68 − 0.54 ) ± 2.576 ( 0.68 ) ( 0.32 ) 200 + ( 0.54 ) ( 0.46 ) 200"
+      "text": "$(0.68-0.54)\\pm 2.576\\sqrt { \\dfrac { (0.68)(0.32) }{ 200 } +\\dfrac { (0.54)(0.46) }{ 200 } }$"
     },
     {
       "letter": "E",
-      "text": "( 0.68 − 0.54 ) ± 2.576 √ ( 0.61 ) ( 0.39 ) 200 + ( 0.61 ) ( 0.39 ) 200 ( 0.68 − 0.54 ) ± 2.576 ( 0.61 ) ( 0.39 ) 200 + ( 0.61 ) ( 0.39 ) 200"
+      "text": "$(0.68-0.54)\\pm 2.576\\sqrt { \\dfrac { (0.61)(0.39) }{ 200 } +\\dfrac { (0.61)(0.39) }{ 200 } } $"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.E",
-    "DAT-3",
-    "VAR-6.K",
-    "VAR-6.K.1",
-    "VAR-6"
-  ],
-  "standards": [
     "4.E",
     "DAT-3",
     "VAR-6.K",

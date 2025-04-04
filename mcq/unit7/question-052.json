@@ -1,43 +1,42 @@
 {
   "question_id": "question-052",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "tests-of-significance",
+    "mean",
+    "statistical-inference"
+  ],
   "title": "Average Home Price - Realtor",
   "difficulty": "Easy",
-  "question_text": "A realtor is interested in the average price of homes in his state. He randomly selects $16\\text{ homes}$ and records the prices. The $16\\text{ homes}$ averaged a price of $\\$183{,}482$ with a standard deviation of $\\$41{,}023$ . If the realtor wishes to determine if this year’s prices are higher than last year’s state average of $\\$175{,}000$ , what would be the appropriate null and alternative hypotheses?",
+  "question_text": "A realtor is interested in the average price of homes in his state.\nHe randomly selects $16\\text{ homes}$ and records the prices. The $16\\text{ homes}$ averaged a price of $\\$183{,}482$ with a standard deviation of $\\$41{,}023$.\nIf the realtor wishes to determine if this year’s prices are higher than last year’s state average of $\\$175{,}000$, what would be the appropriate null and alternative hypotheses?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "H 0 : μ = 175,000 H 0 : μ = 175,000 H a : μ < 175,000 H a : μ < 175,000"
+      "text": "$H_0: \\mu = 175{,}000$\n$H_a: \\mu < 175{,}000$"
     },
     {
       "letter": "B",
-      "text": "H 0 : μ = 183,482 H 0 : μ = 183,482 H a : μ > 183,482 H a : μ > 183,482"
+      "text": "$H_0: \\mu = 183{,}482$\n$H_a: \\mu > 183{,}482$"
     },
     {
       "letter": "C",
-      "text": "H 0 : μ = 175,000 H 0 : μ = 175,000 H a : μ = 183,482 H a : μ = 183,482"
+      "text": "$H_0: \\mu = 175{,}000$\n$H_a: \\mu = 183{,}482$"
     },
     {
       "letter": "D",
-      "text": "H 0 : μ = 175,000 H 0 : μ = 175,000 H a : μ > 175,000 H a : μ > 175,000"
+      "text": "$H_0: \\mu = 175{,}000$\n$H_a: \\mu > 175{,}000$"
     },
     {
       "letter": "E",
-      "text": "H 0 : μ = 175,000 H 0 : μ = 175,000 H a : μ < 183,482 H a : μ < 183,482"
+      "text": "$H_0: \\mu = 175{,}000$\n$H_a: \\mu < 183{,}482$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-7.C.2",
-    "VAR-7.C",
-    "1.F",
-    "VAR-7.C.1",
-    "VAR-7"
-  ],
-  "standards": [
     "VAR-7.C.2",
     "VAR-7.C",
     "1.F",

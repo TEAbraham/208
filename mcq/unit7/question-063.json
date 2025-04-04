@@ -1,50 +1,38 @@
 {
   "question_id": "question-063",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [],
   "title": "Hypotheses for Means: Waiting Time",
   "difficulty": "Easy",
-  "question_text": "A valet company claims that a customer's  average wait time for their car is $8\\text{ minutes}$ .   After waiting $20\\text{ minutes}$ to get your car, Bobby believes the valet company's time to get a car is greater than $8\\text{ minutes}$ . Which of the following hypotheses would be used to test your belief?",
+  "question_text": "A valet company claims that a customer's average wait time for their car is $8\\text{ minutes}$. After waiting $20\\text{ minutes}$ to get your car, Bobby believes the valet company's time to get a car is greater than $8\\text{ minutes}$.\nWhich of the following hypotheses would be used to test your belief?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "H 0 : ¯ ¯ ¯ x = 8 minutes H 0 : x ¯ = 8 minutes H a : ¯ ¯ ¯ x ≠ 8 minutes H a : x ¯ ≠ 8 minutes"
+      "text": "${ H }_{ 0 }:\\overline { x } =8\\text{ minutes}$\n${ H }_{ a }:\\overline { x } \\neq 8\\text{ minutes}$"
     },
     {
       "letter": "B",
-      "text": "H 0 : ¯ ¯ ¯ x = 8 minutes H 0 : x ¯ = 8 minutes H a : ¯ ¯ ¯ x < 8 minutes H a : x ¯ < 8 minutes"
+      "text": "${ H }_{ 0 }:\\overline { x } =8\\text{ minutes}$\n${ H }_{ a }:\\overline { x } < 8\\text{ minutes}$"
     },
     {
       "letter": "C",
-      "text": "H 0 : ¯ ¯ ¯ x = 8 minutes H 0 : x ¯ = 8 minutes H a : ¯ ¯ ¯ x > 8 minutes H a : x ¯ > 8 minutes"
+      "text": "${ H }_{ 0 }:\\overline { x } =8\\text{ minutes}$\n${ H }_{ a }:\\overline { x } > 8\\text{ minutes}$"
     },
     {
       "letter": "D",
-      "text": "H 0 : μ = 8 minutes H 0 : μ = 8 minutes H a : μ < 8 minutes H a : μ < 8 minutes"
+      "text": "${ H }_{ 0 }:\\mu =8\\text{ minutes}$\n${ H }_{ a }:\\mu <8\\text{ minutes}$"
     },
     {
       "letter": "E",
-      "text": "H 0 : μ = 8 minutes H 0 : μ = 8 minutes H a : μ > 8 minutes H a : μ > 8 minutes"
+      "text": "${ H }_{ 0 }:\\mu =8\\text{ minutes}$\n${ H }_{ a }:\\mu >8\\text{ minutes}$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-3.F",
-    "4.E",
-    "4.B",
-    "DAT-3.E",
-    "VAR-7.E",
-    "DAT-3",
-    "DAT-3.F.2",
-    "VAR-7.E.1",
-    "VAR-7",
-    "3.E",
-    "DAT-3.F.1",
-    "DAT-3.E.1"
-  ],
-  "standards": [
     "DAT-3.F",
     "4.E",
     "4.B",

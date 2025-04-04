@@ -1,14 +1,19 @@
 {
   "question_id": "question-014",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "data",
+    "quantitative"
+  ],
   "title": "Identify the Quantitative Variable",
   "difficulty": "Easy",
-  "question_text": "Federal standards in the US require that an advisory be posted on coastal beaches whenever a single water sample results in a bacteria concentration of $174$ counts/ $100$ ml or more. At Variable Beach,  a single water sample was taken at each of three beach locations -  the north end, the center and the south end.  The respective measurements of bacteria (in counts/ $100$ ml) were: $93, 148$ and $102$ . Which of the following is the quantitative variable in this situation?",
+  "question_text": "Federal standards in the US require that an advisory be posted on coastal beaches whenever a single water sample results in a bacteria concentration of $174$ counts/$100$ ml or more.\nAt Variable Beach, a single water sample was taken at each of three beach locations - the north end, the center and the south end. The respective measurements of bacteria (in counts/$100$ ml) were: $93, 148$ and $102$.\nWhich of the following is the quantitative variable in this situation?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "93 93"
+      "text": "$93$"
     },
     {
       "letter": "B",
@@ -29,14 +34,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "2.A",
-    "VAR-1.C.2",
-    "VAR-1",
-    "VAR-1.C"
-  ],
-  "standards": [
     "2.A",
     "VAR-1.C.2",
     "VAR-1",

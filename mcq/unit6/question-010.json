@@ -1,43 +1,44 @@
 {
   "question_id": "question-010",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "sampling-distribution",
+    "sample-proportion",
+    "inference"
+  ],
   "title": "Student Absences",
-  "difficulty": "Difficult",
-  "question_text": "An administrator reads a report that says \"The National Rate of Absenteeism for High School Students is $5\\%$ \". She wonders if this holds true for her school. She takes an SRS of $50$ students from her high school and finds the absentee rate to be $10\\%$ . To see if it is possible that her school was in line with the national absenteeism rate, even though her sample provided a much larger proportion, she used a statistical software to simulate samples of size $50$ with a known parameter value of $5\\%$ . Below is the sampling distribution of the administrator's simulation. Can the administrator claim that her school's absenteeism rate is in line with the national average?",
+  "difficulty": "Hard",
+  "question_text": "An administrator reads a report that says \"The National Rate of Absenteeism for High School Students is $5\\%$\". She wonders if this holds true for her school. She takes an SRS of $50$ students from her high school and finds the absentee rate to be $10\\%$.\nTo see if it is possible that her school was in line with the national absenteeism rate, even though her sample provided a much larger proportion, she used a statistical software to simulate samples of size $50$ with a known parameter value of $5\\%$.\nBelow is the sampling distribution of the administrator's simulation.\nCan the administrator claim that her school's absenteeism rate is in line with the national average?",
   "image_files": [
     "images/question-010-img1.jpeg"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Yes, because a majority of the samples were around 0.05 0.05"
+      "text": "Yes, because a majority of the samples were around $0.05$"
     },
     {
       "letter": "B",
-      "text": "Yes, because all samples in the simulation were 0.10 0.10 or below"
+      "text": "Yes, because all samples in the simulation were $0.10$ or below"
     },
     {
       "letter": "C",
-      "text": "Yes, because 0.10 0.10 did not occur in the simulation, therefore it is a possibility"
+      "text": "Yes, because $0.10$ did not occur in the simulation, therefore it is a possibility"
     },
     {
       "letter": "D",
-      "text": "No, because 0.10 0.10 did not happen in the simulation, therefore it is so far above the data it could not have happened by chance."
+      "text": "No, because $0.10$ did not happen in the simulation, therefore it is so far above the data it could not have happened by chance."
     },
     {
       "letter": "E",
-      "text": "No, since the administrator had a proportion of 0.10 0.10 , the true proportion of students that are absent must be 0.10 0.10 , not 0.05 0.05"
+      "text": "No, since the administrator had a proportion of $0.10$, the true proportion of students that are absent must be $0.10$, not $0.05$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "When making an inference on a set of data, there are typically two conclusions that can be made. In this case those conclusions are:\n\nI. The proportion of 0.05 0.05 is true, and the sample proportion of 0.10 0.10 happened purely by chance\n\nOr\n\nII. The proportion of 0.05 0.05 is not true, and the sample proportion of 0.10 0.10 tells us the proportion must be higher\n\nThe simulation was run to see if 0.10 0.10 would happen purely by chance if the proportion of students absent was truly 0.05 0.05 . As you can see from the dot plot, 0.10 0.10 did not happen by chance in many trials, we can come to the conclusion that the proportion of students absent at the administrator's high school  must be higher than 0.05 0.05 .\n\nChoice 'D\" is correct.",
-  "distractor_explanations": {},
+  "solution": "When making an inference on a set of data, there are typically two conclusions that can be made. In this case those conclusions are:\n\nI. The proportion of $0.05$ is true, and the sample proportion of $0.10$ happened purely by chance\n\nOr\n\nII. The proportion of $0.05$ is not true, and the sample proportion of $0.10$ tells us the proportion must be higher\n\nThe simulation was run to see if $0.10$ would happen purely by chance if the proportion of students absent was truly $0.05$. As you can see from the dot plot, $0.10$ did not happen by chance in many trials, we can come to the conclusion that the proportion of students absent at the administrator's high school must be higher than $0.05$.\n\nChoice 'D\" is correct.",
+  "explanations": {},
   "tags": [
-    "VAR-1.H",
-    "VAR-1.H.1",
-    "VAR-1"
-  ],
-  "standards": [
     "VAR-1.H",
     "VAR-1.H.1",
     "VAR-1"

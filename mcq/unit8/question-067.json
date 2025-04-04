@@ -1,26 +1,33 @@
 {
   "question_id": "question-067",
   "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference",
+    "comparing-distributions"
+  ],
   "title": "Inferential Procedures",
   "difficulty": "Easy",
-  "question_text": "A marathon director is curious how the marathon times of men compare to those of women. She randomly selects $100\\text{ men}$ and $100\\text{ women}$ and wishes to estimate the marathon time differences between men and women. What inferential procedure should she choose?",
+  "question_text": "A marathon director is curious how the marathon times of men compare to those of women. She randomly selects $100\\text{ men}$ and $100\\text{ women}$ and wishes to estimate the marathon time differences between men and women.\nWhat inferential procedure should she choose?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Matched pairs T T -test."
+      "text": "Matched pairs $T$-test."
     },
     {
       "letter": "B",
-      "text": "Two-sample T T -test."
+      "text": "Two-sample $T$-test."
     },
     {
       "letter": "C",
-      "text": "Two-sample T T -interval."
+      "text": "Two-sample $T$-interval."
     },
     {
       "letter": "D",
-      "text": "Two-sample Z Z -test."
+      "text": "Two-sample $Z$-test."
     },
     {
       "letter": "E",
@@ -29,15 +36,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-8.M",
-    "VAR-8.M.2",
-    "3.E",
-    "VAR-8",
-    "VAR-8.M.1"
-  ],
-  "standards": [
     "VAR-8.M",
     "VAR-8.M.2",
     "3.E",

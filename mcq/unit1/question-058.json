@@ -1,12 +1,14 @@
 {
   "question_id": "question-058",
   "unit": "Unit 1 | Exploring One-Variable Data",
-  "title": "Shape of a Cumulative Frequency Histogram",
-  "difficulty": "Moderate",
-  "question_text": "Which of the following best describes the shape of a cumulative frequency histogram?",
-  "image_files": [
-    "images/question-058-img1.png"
+  "topics": [
+    "histogram"
   ],
+  "title": "Shape of a Cumulative Frequency Histogram",
+  "difficulty": "Medium",
+  "question_text": "Which of the following best describes the shape of a cumulative frequency histogram?",
+  "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -31,14 +33,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.G.1",
-    "2.A",
-    "UNC-1.G",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.G.1",
     "2.A",
     "UNC-1.G",

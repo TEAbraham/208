@@ -1,12 +1,17 @@
 {
   "question_id": "question-042",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "categorical-data",
+    "bar-graphs"
+  ],
   "title": "Extrovert or Introvert?",
-  "difficulty": "Difficult",
-  "question_text": "A group of $1200$ men and $900$ women were asked to identify whether they were \"more of an extrovert\" or \"more of an introvert\".  The results are shown in the graph below. Loading question supplement... Assuming everyone who was surveyed responded, and based on the graph, which of the following conclusions can be reached?",
+  "difficulty": "Hard",
+  "question_text": "A group of $1200$ men and $900$ women were asked to identify whether they were \"more of an extrovert\" or \"more of an introvert\". The results are shown in the graph below.\nAssuming everyone who was surveyed responded, and based on the graph, which of the following conclusions can be reached?",
   "image_files": [
     "images/question-042-img1.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -22,7 +27,7 @@
     },
     {
       "letter": "D",
-      "text": "Approximately 46 46 men and 57 57 women said \"more of an extrovert\"."
+      "text": "Approximately\n46\nmen and\n57\nwomen said \"more of an extrovert\"."
     },
     {
       "letter": "E",
@@ -31,16 +36,8 @@
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.E",
-    "UNC-1.D",
-    "2.A",
-    "UNC-1.D.1",
-    "UNC-1.E.1",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.E",
     "UNC-1.D",
     "2.A",

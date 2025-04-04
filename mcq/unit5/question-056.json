@@ -1,42 +1,41 @@
 {
   "question_id": "question-056",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "calculating-probability",
+    "differences-in-proportions"
+  ],
   "title": "The Polls",
-  "difficulty": "Moderate",
-  "question_text": "A candidate running for office was polled at $57\\%$ in City $1$ and at $52\\%$ in City $2$ .  A newspaper decided to do a new poll and randomly selected $50$ people in City $1$ and $60$ people in City $2$ as to whom they would vote for.  What is the probability that City $2$ can show the candidate ahead by at least $3\\%$ over City $1$ ?  Round to the nearest whole percent.",
+  "difficulty": "Medium",
+  "question_text": "A candidate running for office was polled at $57\\%$ in City $1$ and at $52\\%$ in City $2$. A newspaper decided to do a new poll and randomly selected $50$ people in City $1$ and $60$ people in City $2$ as to whom they would vote for. What is the probability that City $2$ can show the candidate ahead by at least $3\\%$ over City $1$? Round to the nearest whole percent.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "11 % 11 %"
+      "text": "$11\\%$"
     },
     {
       "letter": "B",
-      "text": "42 % 42 %"
+      "text": "$42\\%$"
     },
     {
       "letter": "C",
-      "text": "58 % 58 %"
+      "text": "$58\\%$"
     },
     {
       "letter": "D",
-      "text": "80 % 80 %"
+      "text": "$80\\%$"
     },
     {
       "letter": "E",
-      "text": "20 % 20 %"
+      "text": "$20\\%$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "UNC-3.P.1",
-    "UNC-3",
-    "UNC-3.P"
-  ],
-  "standards": [
     "4.B",
     "UNC-3.P.1",
     "UNC-3",

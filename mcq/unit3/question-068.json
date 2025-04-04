@@ -1,10 +1,16 @@
 {
   "question_id": "question-068",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "sampling-and-experimentation",
+    "sources-of-bias"
+  ],
   "title": "Hannah's House of Hobbies",
   "difficulty": "Easy",
-  "question_text": "Hannah's House of Hobbies prints a website address at the bottom of every receipt.  Customers can choose to visit the website to answer a customer satisfaction survey. Which type of bias could result from this type of survey?",
+  "question_text": "Hannah's House of Hobbies prints a website address at the bottom of every receipt. Customers can choose to visit the website to answer a customer satisfaction survey.\nWhich type of bias could result from this type of survey?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +35,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-2.E.2",
-    "4.B",
-    "DAT-2",
-    "DAT-2.E"
-  ],
-  "standards": [
     "DAT-2.E.2",
     "4.B",
     "DAT-2",

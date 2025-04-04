@@ -1,42 +1,41 @@
 {
   "question_id": "question-027",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "probability",
+    "sample-space"
+  ],
   "title": "One Potato, Two Potato",
-  "difficulty": "Moderate",
-  "question_text": "Suppose you have $2$ potatoes, $1$ tomato, and $1$ avocado.  Each item is in its own bag so that you cannot see or feel them.  You pick three bags.  Describe your sample space.  For simplicity call your potatoes:  potato $1$ and potato $2$ .  And, what is the probability of picking any group of $3$ bags (or of any one item in your sample space)?",
+  "difficulty": "Medium",
+  "question_text": "Suppose you have $2$ potatoes, $1$ tomato, and $1$ avocado. Each item is in its own bag so that you cannot see or feel them. You pick three bags. Describe your sample space. For simplicity call your potatoes: potato$1$ and potato$2$. And, what is the probability of picking any group of $3$ bags (or of any one item in your sample space)?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "potato1, potato2, tomato, avocado Probability = 0.25 = 0.25"
+      "text": "potato1, potato2, tomato, avocado\nProbability $= 0.25$"
     },
     {
       "letter": "B",
-      "text": "Potato1 and Potato 2 Tomato Avocado Probability = 0.33 = 0.33"
+      "text": "Potato1 and Potato 2\nTomato\nAvocado\nProbability $= 0.33$"
     },
     {
       "letter": "C",
-      "text": "potato1, potato2, tomato potato1, potato2, avocado potato1, tomato, avocado potato2, tomato, avocado Probability = 0.25 = 0.25"
+      "text": "potato1, potato2, tomato\npotato1, potato2, avocado\npotato1, tomato, avocado\npotato2, tomato, avocado\nProbability $= 0.25$"
     },
     {
       "letter": "D",
-      "text": "potato1, potato2, tomato potato1, potato2, avocado potato1, tomato, avocado potato2, tomato, avocado Probability = 0.50 = 0.50"
+      "text": "potato1, potato2, tomato\npotato1, potato2, avocado\npotato1, tomato, avocado\npotato2, tomato, avocado\nProbability $= 0.50$"
     },
     {
       "letter": "E",
-      "text": "potato1, tomato, avocado potato2, tomato, avocado Probability = 0.50 = 0.50"
+      "text": "potato1, tomato, avocado\npotato2, tomato, avocado\nProbability $= 0.50$"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-4.A.1",
-    "3.A",
-    "VAR-4",
-    "VAR-4.A"
-  ],
-  "standards": [
     "VAR-4.A.1",
     "3.A",
     "VAR-4",

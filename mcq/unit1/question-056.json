@@ -1,45 +1,43 @@
 {
   "question_id": "question-056",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "histogram"
+  ],
   "title": "Scoliosis and Cobb Angles: A Histogram",
-  "difficulty": "Moderate",
-  "question_text": "The Cobb angle measures the angle of bend in the spine and is used to assess the severity of scoliosis.  More severe cases of scoliosis will present with larger Cobb angles.  An angle of less than $20$ degrees is considered mild, while an angle of more than $50$ degrees is considered severe.  Angles between $20$ and $50$ degrees (inclusive) are considered moderate. A random sample of $36$ scoliosis patients was selected and the Cobb angle for each of these patients was recorded.  The data is shown in the histogram below. Loading question supplement... What percent of the patients in this sample had moderate scoliosis?",
+  "difficulty": "Medium",
+  "question_text": "The Cobb angle measures the angle of bend in the spine and is used to assess the severity of scoliosis. More severe cases of scoliosis will present with larger Cobb angles. An angle of less than $20$ degrees is considered mild, while an angle of more than $50$ degrees is considered severe. Angles between $20$ and $50$ degrees (inclusive) are considered moderate.\nA random sample of $36$ scoliosis patients was selected and the Cobb angle for each of these patients was recorded. The data is shown in the histogram below.\nWhat percent of the patients in this sample had moderate scoliosis?",
   "image_files": [
     "images/question-056-img1.png",
     "images/question-056-img2.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Exactly 18 % 18 %"
+      "text": "Exactly 18%"
     },
     {
       "letter": "B",
-      "text": "No more than 18 % 18 %"
+      "text": "No more than 18%"
     },
     {
       "letter": "C",
-      "text": "At least 50 % 50 %"
+      "text": "At least 50%"
     },
     {
       "letter": "D",
-      "text": "Exactly 50 % 50 %"
+      "text": "Exactly\n50\n%"
     },
     {
       "letter": "E",
-      "text": "No more than 50 % 50 %"
+      "text": "No more than\n50\n%"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.G.1",
-    "2.A",
-    "UNC-1.G",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.G.1",
     "2.A",
     "UNC-1.G",

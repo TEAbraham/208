@@ -1,10 +1,17 @@
 {
   "question_id": "question-007",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "sampling-distribution",
+    "sample-proportion",
+    "probability",
+    "normal"
+  ],
   "title": "Bad Grapes",
-  "difficulty": "Moderate",
-  "question_text": "A large retailer always receives a shipment of grapes every Friday. On average, about $10\\%$ of the packages of grapes are determined to be rotten. After looking at many, many shipments, the produce manager wants to figure out the probability that shipment will contain more than $12\\%$ rotten packages. What question must the produce manager answer first?",
+  "difficulty": "Medium",
+  "question_text": "A large retailer always receives a shipment of grapes every Friday. On average, about $10\\%$ of the packages of grapes are determined to be rotten. After looking at many, many shipments, the produce manager wants to figure out the probability that shipment will contain more than $12\\%$ rotten packages.\nWhat question must the produce manager answer first?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,13 +36,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "After looking at many, many shipments for grapes for the large retailer, the manager is essentially looking at a sampling distribution of the packages of grapes that are rotten. When examining the sampling distribution, the manager can find the probability if and only if the distribution meets the Large Counts condition, which is used to assess the normality of the approximation of sampling distribution.\n\nTherefore, the manager must find out if the approximation of the sampling distribution is approximately normal in order to find the probability.\n\nChoice 'C' is correct.",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-1.H",
-    "VAR-1.H.1",
-    "VAR-1"
-  ],
-  "standards": [
     "VAR-1.H",
     "VAR-1.H.1",
     "VAR-1"

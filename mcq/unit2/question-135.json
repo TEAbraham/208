@@ -1,0 +1,47 @@
+{
+  "question_id": "question-135",
+  "unit": "AP® Statistics | Unit 2 Assessment",
+  "topics": [
+    "correlation",
+    "interpret",
+    "quantitative-data",
+    "least-squares-regression-line",
+    "association"
+  ],
+  "title": "Baby Measurements",
+  "difficulty": "Medium",
+  "question_text": "After a baby is born, doctors take routine measurements of three different statistics: height, weight, and head size. A pediatrician wonders if there is a linear association between height and head size. She collects data from the next $20$ babies she examines and finds a correlation of $0.82$.\nInterpret this value in the context of this problem.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "When height goes up by $1$, the head size increases by approximately $0.82$."
+    },
+    {
+      "letter": "B",
+      "text": "When height equals $0$, the head size is approximately $0.82$."
+    },
+    {
+      "letter": "C",
+      "text": "$82\\%$ of the variation in height is accounted for by the least-squares regression line of height and head size."
+    },
+    {
+      "letter": "D",
+      "text": "There is a strong, positive, linear association between height and head size."
+    },
+    {
+      "letter": "E",
+      "text": "The correlation is $0.82$ inches."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "The correlation, $r$, is a measure of the linear association between two quantitative variables. Correlation is unit-free, and always between $−1$ and $1$, inclusive. A value of $r = 0$ indicates that there is no linear association. A value of $r = -1$ or $r = 1$ indicates that there is a perfect linear association.\n\nTo interpret the correlation, one must discuss strength and direction. Since it's a measure of linear association, the form of the graph will always be linear. Therefore, since the correlation is $0.82$, the correlation is strong, while also being positive.\n\nChoice 'D' is correct.",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.C",
+    "DAT-1",
+    "DAT-1.C.1"
+  ]
+}

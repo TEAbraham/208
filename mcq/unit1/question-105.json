@@ -1,14 +1,24 @@
 {
   "question_id": "question-105",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "mean",
+    "univariate-data",
+    "summarizing-distributions",
+    "median",
+    "center",
+    "exploring-data",
+    "measuring-center"
+  ],
   "title": "Mean vs Median in a Skewed Distribution: Buying Prices of Cars",
-  "difficulty": "Difficult",
-  "question_text": "A graph (not shown) of the buying prices of cars at a local dealership reveals that the distribution is skewed to the right. Which of the following statements below is TRUE?",
+  "difficulty": "Hard",
+  "question_text": "A graph (not shown) of the buying prices of cars at a local dealership reveals that the distribution is skewed to the right.\nWhich of the following statements below is TRUE?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The median is the average of the 1 st 1 st and 3 rd 3 rd quartiles."
+      "text": "The median is the average of the $1\\text{st}$ and $3\\text{rd}$ quartiles."
     },
     {
       "letter": "B",
@@ -16,11 +26,11 @@
     },
     {
       "letter": "C",
-      "text": "The value of the 1 st 1 st quartile minus the minimum is less than the maximum minus the 3 rd 3 rd quartile."
+      "text": "The value of the $1\\text{st}$ quartile minus the minimum is less than the maximum minus the $3\\text{rd}$ quartile."
     },
     {
       "letter": "D",
-      "text": "There are more buying prices between the 1 st 1 st quartile and the median than there are between the median and 3 rd 3 rd quartile."
+      "text": "There are more buying prices between the $1\\text{st}$ quartile and the median than there are between the median and $3\\text{rd}$ quartile."
     },
     {
       "letter": "E",
@@ -29,16 +39,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.I.3",
-    "UNC-1.I.2",
-    "2.C",
-    "UNC-1.I",
-    "UNC-1.I.1",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.I.3",
     "UNC-1.I.2",
     "2.C",

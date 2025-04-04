@@ -1,42 +1,42 @@
 {
   "question_id": "question-059",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sampling-distributions",
+    "sample-proportion-two"
+  ],
   "title": "Presidential Approval Ratings",
-  "difficulty": "Moderate",
-  "question_text": "Two polling organizations, Harris and Gallup, report weekly on the President’s approval rating, which is expressed as a proportion of Americans who approve of the job the President is doing. In one particular week, each organization asks $100$ randomly selected people this question. Their results are as follows: Harris Poll: $0.57$ Gallup Poll: $0.6$ What are the mean and standard deviation of the sampling distribution of the difference of these organizations’ results?",
+  "difficulty": "Medium",
+  "question_text": "Two polling organizations, Harris and Gallup, report weekly on the President’s approval rating, which is expressed as a proportion of Americans who approve of the job the President is doing.\nIn one particular week, each organization asks $100$ randomly selected people this question. Their results are as follows:\nHarris Poll: $0.57$\nGallup Poll: $0.6$\nWhat are the mean and standard deviation of the sampling distribution of the difference of these organizations’ results?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "μ = 0.015 ; σ = 0.05 μ = 0.015 ; σ = 0.05"
+      "text": "$\\mu = 0.015; \\sigma = 0.05$"
     },
     {
       "letter": "B",
-      "text": "μ = 0.015 ; σ = 0.07 μ = 0.015 ; σ = 0.07"
+      "text": "$\\mu = 0.015; \\sigma = 0.07$"
     },
     {
       "letter": "C",
-      "text": "μ = 0.03 ; σ = 0.05 μ = 0.03 ; σ = 0.05"
+      "text": "$\\mu = 0.03; \\sigma = 0.05$"
     },
     {
       "letter": "D",
-      "text": "μ = 0.03 ; σ = 0.06 μ = 0.03 ; σ = 0.06"
+      "text": "$\\mu = 0.03; \\sigma = 0.06$"
     },
     {
       "letter": "E",
-      "text": "μ = 0.03 ; σ = 0.07 μ = 0.03 ; σ = 0.07"
+      "text": "$\\mu = 0.03; \\sigma = 0.07$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.N",
-    "UNC-3",
-    "3.B",
-    "UNC-3.N.1"
-  ],
-  "standards": [
     "UNC-3.N",
     "UNC-3",
     "3.B",

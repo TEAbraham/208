@@ -1,44 +1,44 @@
 {
   "question_id": "question-029",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "probability",
+    "discrete-random-variables"
+  ],
   "title": "Family Game Night Probability",
-  "difficulty": "Moderate",
-  "question_text": "It’s family game night in Cocoa Beach. Residents settle in to play their favorite game and eat their favorite snack. A random sample of $115\\text{ families}$ were asked their preferred game and snack, and the results are presented in the two-way table below. Pizza Rolls Chips and Dip Cookies Yahtzee 10 3 12 Trivial Pursuit 8 14 7 Monopoly 14 17 7 Wii Bowling 12 7 4 What is the probability of being neither a Yahtzee enthusiast nor one who prefers chips and dip?",
+  "difficulty": "Medium",
+  "question_text": "It’s family game night in Cocoa Beach. Residents settle in to play their favorite game and eat their favorite snack.\nA random sample of $115\\text{ families}$ were asked their preferred game and snack, and the results are presented in the two-way table below.\nPizza Rolls Chips and Dip Cookies\nYahtzee 10 3 12\nTrivial Pursuit 8 14 7\nMonopoly 14 17 7\nWii Bowling 12 7 4\n\n\nWhat is the probability of being neither a Yahtzee enthusiast nor one who prefers chips and dip?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Pizza Rolls</th><th scope=\"col\">Chips and Dip</th><th scope=\"col\">Cookies</th></tr></thead><tbody><tr><td>Yahtzee</td><td>10</td><td>3</td><td>12</td></tr><tr><td>Trivial Pursuit</td><td>8</td><td>14</td><td>7</td></tr><tr><td>Monopoly</td><td>14</td><td>17</td><td>7</td></tr><tr><td>Wii Bowling</td><td>12</td><td>7</td><td>4</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "25 115 25 115"
+      "text": "$\\dfrac{25}{115}$"
     },
     {
       "letter": "B",
-      "text": "49 115 49 115"
+      "text": "$\\dfrac{49}{115}$"
     },
     {
       "letter": "C",
-      "text": "52 115 52 115"
+      "text": "$\\dfrac{52}{115}$"
     },
     {
       "letter": "D",
-      "text": "90 115 90 115"
+      "text": "$\\dfrac{90}{115}$"
     },
     {
       "letter": "E",
-      "text": "112 115 112 115"
+      "text": "$\\dfrac{112}{115}$"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-4.A.1",
-    "VAR-4.A.3",
-    "3.A",
-    "VAR-4.A.2",
-    "VAR-4",
-    "VAR-4.A"
-  ],
-  "standards": [
     "VAR-4.A.1",
     "VAR-4.A.3",
     "3.A",

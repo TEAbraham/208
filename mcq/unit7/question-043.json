@@ -1,44 +1,46 @@
 {
   "question_id": "question-043",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval",
+    "mean-interval",
+    "estimation",
+    "1-sample-tinterval-means",
+    "statistical-inference",
+    "1-sample-t-test-means",
+    "logic-meaning-properties"
+  ],
   "title": "Confidence Level and $2$-sided Significance Testing",
-  "difficulty": "Moderate",
-  "question_text": "A one sample $t$ -test for was used to conduct a test of the null hypotheses: $${ H }_{ 0 }:\\mu =23.7$$ $${ H }_{ a }:\\mu \\neq 23.7$$ The $p$ -value was $0.034$ . A confidence interval for * $\\mu$ * is to be constructed. Of the following, which is the largest level of confidence for which the confidence interval will NOT contain $23.7$ ?",
+  "difficulty": "Medium",
+  "question_text": "A one sample $t$-test for was used to conduct a test of the null hypotheses:\n$${ H }_{ 0 }:\\mu =23.7$$\n\n$${ H }_{ a }:\\mu \\neq 23.7$$\nThe $p$-value was $0.034$. A confidence interval for *$\\mu$ * is to be constructed.\nOf the following, which is the largest level of confidence for which the confidence interval will NOT contain $23.7$?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "90 % 90 %"
+      "text": "$90\\%$"
     },
     {
       "letter": "B",
-      "text": "95 % 95 %"
+      "text": "$95\\%$"
     },
     {
       "letter": "C",
-      "text": "96 % 96 %"
+      "text": "$96\\%$"
     },
     {
       "letter": "D",
-      "text": "97 % 97 %"
+      "text": "$97\\%$"
     },
     {
       "letter": "E",
-      "text": "99 % 99 %"
+      "text": "$99\\%$"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "UNC-4.S",
-    "UNC-4.S.3",
-    "UNC-4.S.2",
-    "UNC-4.S.1",
-    "UNC-4"
-  ],
-  "standards": [
     "4.B",
     "UNC-4.S",
     "UNC-4.S.3",

@@ -1,9 +1,15 @@
 {
   "question_id": "question-140",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "boxplots",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
   "title": "Seattle in May: From Stemplot to Boxplot",
-  "difficulty": "Moderate",
-  "question_text": "The stemplot below displays the daily high temperature for Seattle, Washington during the month of May in one particular year. Created for Albert.io. Copyright 2016. All rights reserved. Which of the following boxplots displays the same information?",
+  "difficulty": "Medium",
+  "question_text": "The stemplot below displays the daily high temperature for Seattle, Washington during the month of May in one particular year.\nCreated for Albert.io. Copyright 2016. All rights reserved.\nWhich of the following boxplots displays the same information?",
   "image_files": [
     "images/question-140-img1.PNG",
     "images/question-140-img2.PNG",
@@ -13,6 +19,7 @@
     "images/question-140-img6.PNG",
     "images/question-140-img7.PNG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -37,16 +44,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.M",
-    "UNC-1.M.1",
-    "2.A",
-    "UNC-1.L.2",
-    "UNC-1.L",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.M",
     "UNC-1.M.1",
     "2.A",

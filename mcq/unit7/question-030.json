@@ -1,12 +1,17 @@
 {
   "question_id": "question-030",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
-  "title": "Connecting to Confidence Intervals",
-  "difficulty": "Difficult",
-  "question_text": "Suppose a one-sided (greater than) hypothesis test for a population mean results in a $p$ -value of $p = 0.04$ . If the same data were used to construct a $90\\%$ confidence interval, would the value from the null hypothesis of our significance test be contained in the confidence interval?",
-  "image_files": [
-    "images/question-030-img1.png"
+  "topics": [
+    "confidence-interval",
+    "mean",
+    "estimation",
+    "statistical-inference"
   ],
+  "title": "Connecting to Confidence Intervals",
+  "difficulty": "Hard",
+  "question_text": "Suppose a one-sided (greater than) hypothesis test for a population mean results in a $p$-value of $p = 0.04$.\nIf the same data were used to construct a $90\\%$ confidence interval, would the value from the null hypothesis of our significance test be contained in the confidence interval?",
+  "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -22,7 +27,7 @@
     },
     {
       "letter": "D",
-      "text": "Yes, since 90 % 90 % or 0.90 0.90 is greater than 0.04 0.04 ."
+      "text": "Yes, since $90\\%$ or $0.90$ is greater than $0.04$."
     },
     {
       "letter": "E",
@@ -31,14 +36,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-4.P.1",
-    "4.C",
-    "UNC-4",
-    "UNC-4.P"
-  ],
-  "standards": [
     "UNC-4.P.1",
     "4.C",
     "UNC-4",

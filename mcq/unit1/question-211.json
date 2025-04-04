@@ -1,44 +1,43 @@
 {
   "question_id": "question-211",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "model-for-measurements",
+    "mean"
+  ],
   "title": "Golf Drives",
   "difficulty": "Easy",
-  "question_text": "A local driving range keeps track of the distances its clients hit golf balls. Distances are normally distributed and have a standard deviation of $43\\text{ yards}$ . If a $350\\text{ yard}$ drive puts an individual in the top $1\\%$ of all drives, what is the mean of this distribution?",
+  "question_text": "A local driving range keeps track of the distances its clients hit golf balls. Distances are normally distributed and have a standard deviation of $43\\text{ yards}$.\nIf a $350\\text{ yard}$ drive puts an individual in the top $1\\%$ of all drives, what is the mean of this distribution?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "About 250 yards 250 yards ."
+      "text": "About $250\\text{ yards}$."
     },
     {
       "letter": "B",
-      "text": "About 450 yards 450 yards ."
+      "text": "About $450\\text{ yards}$."
     },
     {
       "letter": "C",
-      "text": "About 350 yards 350 yards ."
+      "text": "About $350\\text{ yards}$."
     },
     {
       "letter": "D",
-      "text": "About 295 yards 295 yards ."
+      "text": "About $295\\text{ yards}$."
     },
     {
       "letter": "E",
-      "text": "About 268 yards 268 yards ."
+      "text": "About $268\\text{ yards}$."
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-2.B.2",
-    "VAR-2.B",
-    "VAR-2.B.1",
-    "3.A",
-    "VAR-2.B.4",
-    "VAR-2"
-  ],
-  "standards": [
     "VAR-2.B.2",
     "VAR-2.B",
     "VAR-2.B.1",

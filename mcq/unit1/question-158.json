@@ -1,12 +1,19 @@
 {
   "question_id": "question-158",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "boxplots",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
   "title": "Fitness Tracker: Determining Shape from a 5-Number Summary",
   "difficulty": "Easy",
-  "question_text": "For several months now, Wally has been using a fitness tracker to keep track of how many steps he takes each day.  From data that he has collected, he calculated the $5$ -number summary to be: $\\text{Min}:  3190$ $\\text{Q1}:  6423$ $\\text{Med}:  7807$ $\\text{Q3}:  9672$ $\\text{Max}:  17210$ Wally wants to make a boxplot so that he can determine the shape of the distribution.  Unfortunately, he walked $17210$ steps today and is too tired to create the boxplot!  Wanda tells Wally not to worry.  She can determine the shape of the distribution from the $5$ -number summary using all the data available. What would Wanda tell Wally?",
+  "question_text": "For several months now, Wally has been using a fitness tracker to keep track of how many steps he takes each day. From data that he has collected, he calculated the $5$-number summary to be:\n$\\text{Min}: 3190$\n$\\text{Q1}: 6423$\n$\\text{Med}: 7807$\n$\\text{Q3}: 9672$\n$\\text{Max}: 17210$\nWally wants to make a boxplot so that he can determine the shape of the distribution. Unfortunately, he walked $17210$ steps today and is too tired to create the boxplot! Wanda tells Wally not to worry. She can determine the shape of the distribution from the $5$-number summary using all the data available.\nWhat would Wanda tell Wally?",
   "image_files": [
     "images/question-158-img1.PNG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -14,7 +21,7 @@
     },
     {
       "letter": "B",
-      "text": "The distribution  is roughly symmetric, but not near normal.."
+      "text": "The distribution is roughly symmetric, but not near normal.."
     },
     {
       "letter": "C",
@@ -26,22 +33,13 @@
     },
     {
       "letter": "E",
-      "text": "A 5 5 -number summary can never determine the shape of the distribution ."
+      "text": "A 5\n-number summary can never determine the shape of the distribution ."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.H.1",
-    "UNC-1.H",
-    "UNC-1.H.3",
-    "2.A",
-    "UNC-1.L.2",
-    "UNC-1.L",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.H.1",
     "UNC-1.H",
     "UNC-1.H.3",

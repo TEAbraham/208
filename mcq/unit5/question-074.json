@@ -1,44 +1,42 @@
 {
   "question_id": "question-074",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sampling-distributions",
+    "central-limit-theorem"
+  ],
   "title": "When Does the CLT Apply?",
-  "difficulty": "Moderate",
-  "question_text": "Each answer choice describes the shape of the population distribution and the sample size, $n$ for a sampling distribution. We are not assured of a nearly normal sampling distribution for which choice?",
+  "difficulty": "Medium",
+  "question_text": "Each answer choice describes the shape of the population distribution and the sample size, $n$ for a sampling distribution.\nWe are not assured of a nearly normal sampling distribution for which choice?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Nearly normal population distribution; n = 12 n = 12"
+      "text": "Nearly normal population distribution; $n = 12$"
     },
     {
       "letter": "B",
-      "text": "Bimodal population distribution; n = 37 n = 37"
+      "text": "Bimodal population distribution; $n = 37$"
     },
     {
       "letter": "C",
-      "text": "Nearly normal population distribution; n = 48 n = 48"
+      "text": "Nearly normal population distribution; $n = 48$"
     },
     {
       "letter": "D",
-      "text": "Skewed left population distribution; n = 83 n = 83"
+      "text": "Skewed left population distribution; $n = 83$"
     },
     {
       "letter": "E",
-      "text": "Bimodal population distribution; n = 5 n = 5"
+      "text": "Bimodal population distribution; $n = 5$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.H.2",
-    "UNC-3.H.1",
-    "3.C",
-    "UNC-3",
-    "UNC-3.H",
-    "UNC-3.H.3"
-  ],
-  "standards": [
     "UNC-3.H.2",
     "UNC-3.H.1",
     "3.C",

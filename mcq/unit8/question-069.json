@@ -1,10 +1,16 @@
 {
   "question_id": "question-069",
   "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
   "title": "Name the Test",
   "difficulty": "Easy",
   "question_text": "What type of inferential procedure could be used to investigate data taken from a single sample, that can be represented in a two-way table that is $2 \\times 2$ or larger?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -16,28 +22,21 @@
     },
     {
       "letter": "C",
-      "text": "Two-proportion Z Z -test."
+      "text": "Two-proportion $Z$-test."
     },
     {
       "letter": "D",
-      "text": "Two-sample T T -test."
+      "text": "Two-sample $T$-test."
     },
     {
       "letter": "E",
-      "text": "One-proportion Z Z -test."
+      "text": "One-proportion $Z$-test."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-3.K.1",
-    "DAT-3",
-    "DAT-3.K",
-    "3.E"
-  ],
-  "standards": [
     "4.B",
     "DAT-3.K.1",
     "DAT-3",

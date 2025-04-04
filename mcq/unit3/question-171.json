@@ -1,10 +1,17 @@
 {
   "question_id": "question-171",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "well-designed-conducted"
+  ],
   "title": "Explaining Behaviors: Crime Reduction",
-  "difficulty": "Difficult",
-  "question_text": "A recent study found that people who exercise at least $4\\text{ times a week}$ are less likely to have a criminal record than those who do not exercise at all. This fact could be explained by",
+  "difficulty": "Hard",
+  "question_text": "A recent study found that people who exercise at least $4\\text{ times a week}$ are less likely to have a criminal record than those who do not exercise at all.\nThis fact could be explained by",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +36,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.E.1",
-    "VAR-3.E",
-    "4.B",
-    "VAR-3"
-  ],
-  "standards": [
     "VAR-3.E.1",
     "VAR-3.E",
     "4.B",

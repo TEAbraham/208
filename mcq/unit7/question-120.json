@@ -1,46 +1,40 @@
 {
   "question_id": "question-120",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [],
   "title": "Significance Test: U.S. Versus China",
-  "difficulty": "Moderate",
-  "question_text": "A randomized experiment was performed to determine whether the average miles per gallon of cars manufactured in the U.S.A. is different than the average miles per gallon of cars manufactured in China. U.S.A. Manufactured Cars China Manufactured Cars Average $21.435$ $25.578$ Standard Deviation $6.635$ $7.413$ Number of cars $200$ $85$ Which of the following best describes the conclusion that can be drawn?",
-  "image_files": [
-    "images/question-120-img1.PNG",
-    "images/question-120-img2.PNG"
+  "difficulty": "Medium",
+  "question_text": "A randomized experiment was performed to determine whether the average miles per gallon of cars manufactured in the U.S.A. is different than the average miles per gallon of cars manufactured in China.\nU.S.A. Manufactured Cars China Manufactured Cars\nAverage $21.435$ $25.578$\nStandard Deviation $6.635$ $7.413$\nNumber of cars $200$ $85$\n\n\nWhich of the following best describes the conclusion that can be drawn?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">U.S.A. Manufactured Cars</th><th scope=\"col\">China Manufactured Cars</th></tr></thead><tbody><tr><td>Average</td><td><span class=\"tex2jax_process\">$21.435$</span></td><td><span class=\"tex2jax_process\">$25.578$</span></td></tr><tr><td>Standard Deviation</td><td><span class=\"tex2jax_process\">$6.635$</span></td><td><span class=\"tex2jax_process\">$7.413$</span></td></tr><tr><td>Number of cars</td><td><span class=\"tex2jax_process\">$200$</span></td><td><span class=\"tex2jax_process\">$85$</span></td></tr></tbody></table>"
   ],
   "choices": [
     {
       "letter": "A",
-      "text": "There is evidence of a statistically significant difference in the average miles per gallon of cars manufactured in the U.S.A. compared to the average miles per gallon of cars manufactured in China since p < 0.01 p < 0.01 ."
+      "text": "There is evidence of a statistically significant difference in the average miles per gallon of cars manufactured in the U.S.A. compared to the average miles per gallon of cars manufactured in China since $p<0.01$."
     },
     {
       "letter": "B",
-      "text": "There is no evidence of a statistically significant difference in the average miles per gallon of cars manufactured in the U.S.A. compared to the average miles per gallon of cars manufactured in China since p < 0.01 p < 0.01 ."
+      "text": "There is no evidence of a statistically significant difference in the average miles per gallon of cars manufactured in the U.S.A. compared to the average miles per gallon of cars manufactured in China since $p<0.01$."
     },
     {
       "letter": "C",
-      "text": "There is evidence of a statistically significant difference in the average miles per gallon of cars manufactured  in the U.S.A. compared to the average miles per gallon of cars manufactured in China  since 0.01 < p < 0.05 0.01 < p < 0.05 ."
+      "text": "There is evidence of a statistically significant difference in the average miles per gallon of cars manufactured in the U.S.A. compared to the average miles per gallon of cars manufactured in China since $0.01 < p < 0.05$."
     },
     {
       "letter": "D",
-      "text": "There is no evidence of a statistically significant difference in the average miles per gallon of cars manufactured  in the U.S.A. compared to the average miles per gallon of cars manufactured in China since 0.01 < p < 0.05 0.01 < p < 0.05 ."
+      "text": "There is no evidence of a statistically significant difference in the average miles per gallon of cars manufactured in the U.S.A. compared to the average miles per gallon of cars manufactured in China since $0.01 < p < 0.05$."
     },
     {
       "letter": "E",
-      "text": "There is no evidence of a statistically significant difference in the average miles per gallon of cars manufactured  in the U.S.A. compared to the average miles per gallon of cars manufactured in China since p > 0.05 p > 0.05 ."
+      "text": "There is no evidence of a statistically significant difference in the average miles per gallon of cars manufactured in the U.S.A. compared to the average miles per gallon of cars manufactured in China since $p>0.05$."
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "1.F",
-    "VAR-7",
-    "1.E",
-    "VAR-7.F",
-    "VAR-7.F.1"
-  ],
-  "standards": [
     "1.F",
     "VAR-7",
     "1.E",

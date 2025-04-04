@@ -1,28 +1,36 @@
 {
   "question_id": "question-124",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "cumulative-relative-frequency",
+    "univariate-data",
+    "position",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
   "title": "Cumulative Relative Frequency; MLB Salary",
-  "difficulty": "Moderate",
-  "question_text": "The cumulative relative frequency plot below displays one hundred major league baseball players' salaries (in millions) in 1994. The salaries were rounded to the nearest dollar. Loading question supplement... Which of the salary brackets below contains the smallest amount of players?",
+  "difficulty": "Medium",
+  "question_text": "The cumulative relative frequency plot below displays one hundred major league baseball players' salaries (in millions) in 1994. The salaries were rounded to the nearest dollar.\nCreated for Albert.io. Copyright 2017. All rights reserved.\nWhich of the salary brackets below contains the smallest amount of players?",
   "image_files": [
     "images/question-124-img1.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "$ 1 , 000 , 000 $ 1 , 000 , 000 to $ 2 , 000 , 000 $ 2 , 000 , 000"
+      "text": "$1,000,000 to $2,000,000"
     },
     {
       "letter": "B",
-      "text": "$ 2 , 000 , 001 $ 2 , 000 , 001 to $ 3 , 000 , 000 $ 3 , 000 , 000"
+      "text": "$2,000,001\nto $3,000,000"
     },
     {
       "letter": "C",
-      "text": "$ 3 , 000 , 001 $ 3 , 000 , 001 to $ 4 , 000 , 000 $ 4 , 000 , 000"
+      "text": "$3,000,001\nto $4,000,000"
     },
     {
       "letter": "D",
-      "text": "$ 4 , 000 , 001 $ 4 , 000 , 001 to $ 5 , 000 , 000 $ 5 , 000 , 000"
+      "text": "$4,000,001\nto $5,000,000"
     },
     {
       "letter": "E",
@@ -31,14 +39,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.M",
-    "UNC-1.M.1",
-    "2.A",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.M",
     "UNC-1.M.1",
     "2.A",

@@ -1,42 +1,42 @@
 {
   "question_id": "question-008",
   "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "randomness",
+    "variation",
+    "expected-value"
+  ],
   "title": "The Least Expected?",
-  "difficulty": "Moderate",
-  "question_text": "The chi-square is used to look at expected data and observed data and it decides whether the observed data happened by chance or not.  Of the following five scenarios, which is the one you think is the least likely to occur by chance; that is, the one where the observed value seems to be the greatest distance away from the expected value? Note: Answer using common sense, not statistics",
+  "difficulty": "Medium",
+  "question_text": "The chi-square is used to look at expected data and observed data and it decides whether the observed data happened by chance or not. Of the following five scenarios, which is the one you think is the least likely to occur by chance; that is, the one where the observed value seems to be the greatest distance away from the expected value?\nNote: Answer using common sense, not statistics",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "A roulette wheel has 38 38 numbers on the wheel.  The number of times you expect to see the number 22 22 appear in 38 38 spins. Expected: 1 1 time Observed: 5 5 times"
+      "text": "A roulette wheel has $38$ numbers on the wheel. The number of times you expect to see the number $22$ appear in $38$ spins.\nExpected: $1$ time\nObserved: $5$ times"
     },
     {
       "letter": "B",
-      "text": "You are waiting for a light to turn green at an intersection you often use. Expected: 1.5 1.5 minutes Observed: 0.1 0.1 minutes"
+      "text": "You are waiting for a light to turn green at an intersection you often use.\nExpected: $1.5$ minutes\nObserved: $0.1$ minutes"
     },
     {
       "letter": "C",
-      "text": "You are playing blackjack.  You play 5 5 games.  How many you win. Expected: 2 2 wins Observed: 4 4 wins"
+      "text": "You are playing blackjack. You play $5$ games. How many you win.\nExpected: $2$ wins\nObserved: $4$ wins"
     },
     {
       "letter": "D",
-      "text": "Thirteen cards are dealt from a deck of cards,  The number of aces present. Expected: 1 1 ace Observed: 4 4 aces"
+      "text": "Thirteen cards are dealt from a deck of cards, The number of aces present.\nExpected: $1$ ace\nObserved: $4$ aces"
     },
     {
       "letter": "E",
-      "text": "A coin is tossed 30 30 times. Expected: 15 15 heads Observed: 10 10 heads"
+      "text": "A coin is tossed $30$ times.\nExpected: $15$ heads\nObserved: $10$ heads"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-1.J",
-    "VAR-1.J.1",
-    "1.A",
-    "VAR-1"
-  ],
-  "standards": [
     "VAR-1.J",
     "VAR-1.J.1",
     "1.A",

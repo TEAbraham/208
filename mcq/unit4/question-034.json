@@ -1,43 +1,42 @@
 {
   "question_id": "question-034",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "interpreting-probability",
+    "probability"
+  ],
   "title": "Basketball Free Throws: One and One",
   "difficulty": "Easy",
-  "question_text": "In basketball, one-and-one free throws sometimes occur near the end of a game. A player gets one attempt at a free throw: if she makes it, she gets one other attempt; if she misses, she gets no further attempts. Suppose an athlete has a $64\\%$ free-throw shooting percentage and is shooting a one-and-one situation. What is the probability she makes at least one shot?",
+  "question_text": "In basketball, one-and-one free throws sometimes occur near the end of a game. A player gets one attempt at a free throw: if she makes it, she gets one other attempt; if she misses, she gets no further attempts.\nSuppose an athlete has a $64\\%$ free-throw shooting percentage and is shooting a one-and-one situation.\nWhat is the probability she makes at least one shot?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.64 0.64"
+      "text": "$0.64$"
     },
     {
       "letter": "B",
-      "text": "0.36 0.36"
+      "text": "$0.36$"
     },
     {
       "letter": "C",
-      "text": "0.2304 0.2304"
+      "text": "$0.2304$"
     },
     {
       "letter": "D",
-      "text": "0.4096 0.4096"
+      "text": "$0.4096$"
     },
     {
       "letter": "E",
-      "text": "0.5904 0.5904"
+      "text": "$0.5904$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "VAR-4.C",
-    "VAR-4.C.1",
-    "VAR-4",
-    "VAR-4.C.2"
-  ],
-  "standards": [
     "4.B",
     "VAR-4.C",
     "VAR-4.C.1",

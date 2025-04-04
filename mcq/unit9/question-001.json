@@ -1,20 +1,26 @@
 {
   "question_id": "question-001",
   "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "slope",
+    "linear-regression",
+    "inference"
+  ],
   "title": "Predicting Wait Time",
-  "difficulty": "Difficult",
-  "question_text": "In $2002$ , a large fast-food restaurant wanted to create a linear regression model to predict the wait time, in minutes, for a customer based on the number of items they had ordered. The regression model gave the following equation: $\\widehat{\\text{wait time}} = 2.35 + 0.40(\\text{items})$ The company has since hired a new data consultant who is interested in seeing if the old model is a still viable for making predictions for restaurant today. Based on a sample of $25$ random orders in $2022$ , the data consultant found a new prediction model of $\\widehat{\\text{new wait time}} = 1.58 + 0.68(\\text{items})$ To determine if the old model is still appropriate to use to estimate the wait time in $2022$ , the data consultant constructs a simulated sampling distribution using random samples of $30$ from $2002$ . The simulated sampling distribution is found below: What should the data consultant conclude based off the sampling distribution provided?",
+  "difficulty": "Hard",
+  "question_text": "In $2002$, a large fast-food restaurant wanted to create a linear regression model to predict the wait time, in minutes, for a customer based on the number of items they had ordered. The regression model gave the following equation:\n$\\widehat{\\text{wait time}} = 2.35 + 0.40(\\text{items})$\nThe company has since hired a new data consultant who is interested in seeing if the old model is a still viable for making predictions for restaurant today. Based on a sample of $25$ random orders in $2022$, the data consultant found a new prediction model of\n$\\widehat{\\text{new wait time}} = 1.58 + 0.68(\\text{items})$\nTo determine if the old model is still appropriate to use to estimate the wait time in $2022$, the data consultant constructs a simulated sampling distribution using random samples of $30$ from $2002$. The simulated sampling distribution is found below:\nWhat should the data consultant conclude based off the sampling distribution provided?",
   "image_files": [
     "images/question-001-img1.jpeg"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The old model is appropriate because 0.68 0.68 is not contained in the sampling distribution."
+      "text": "The old model is appropriate because\n0.68\nis not contained in the sampling distribution."
     },
     {
       "letter": "B",
-      "text": "The data is not valid because the consultant only took a sample of size 30 30 from 2002 2002 ."
+      "text": "The data is not valid because the consultant only took a sample of size\n30\nfrom\n2002\n."
     },
     {
       "letter": "C",
@@ -30,15 +36,9 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer",
-  "solution": "When using inference to look at slope of regression models, we want to be able to see if the slope of the old model is still appropriate based on the new model. Since we took many samples from the old data, and simulated a sampling distribution for the slope of the regression line, we were provided with many slopes that could have been a possibility from the old model. When we examined the data, we did not see the new slope, 0.68 0.68 in the sampling distribution.\n\nTherefore, we can concluded that the old model is no longer a sufficient model to predict wait time for the company, and they should use the new model.\n\nChoice 'C' is correct.",
-  "distractor_explanations": {},
+  "solution": "When using inference to look at slope of regression models, we want to be able to see if the slope of the old model is still appropriate based on the new model. Since we took many samples from the old data, and simulated a sampling distribution for the slope of the regression line, we were provided with many slopes that could have been a possibility from the old model. When we examined the data, we did not see the new slope,\n0.68\nin the sampling distribution.\n\nTherefore, we can concluded that the old model is no longer a sufficient model to predict wait time for the company, and they should use the new model.\n\nChoice 'C' is correct.",
+  "explanations": {},
   "tags": [
-    "1.A",
-    "VAR-1.K",
-    "VAR-1.K.1",
-    "VAR-1"
-  ],
-  "standards": [
     "1.A",
     "VAR-1.K",
     "VAR-1.K.1",

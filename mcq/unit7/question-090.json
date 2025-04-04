@@ -1,26 +1,33 @@
 {
   "question_id": "question-090",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "conducting-experiments",
+    "tests-of-significance",
+    "mean",
+    "statistical-inference"
+  ],
   "title": "Rose Wells and Her Pet Alien's Significance Test",
-  "difficulty": "Difficult",
-  "question_text": "Rose Wells has captured an alien and decides to keep it as a pet. Always curious, Rose wonders if the alien's average body temperature is the same as is normal for humans ( $98.6^\\circ$ ) and decides to do a significance test. Below are the alien's temperature readings, gathered at $6$ randomly selected times: $85.1, 99.8, 93.7, 105.6, 98.2, 100.4$ If Rose assumes that the alien's body temperature follows a normal distribution, what would be the $p$ -value of an appropriate significance test?",
+  "difficulty": "Hard",
+  "question_text": "Rose Wells has captured an alien and decides to keep it as a pet. Always curious, Rose wonders if the alien's average body temperature is the same as is normal for humans ($98.6^\\circ$) and decides to do a significance test. Below are the alien's temperature readings, gathered at $6$ randomly selected times:\n$85.1, 99.8, 93.7, 105.6, 98.2, 100.4$\nIf Rose assumes that the alien's body temperature follows a normal distribution, what would be the $p$-value of an appropriate significance test?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.305 0.305"
+      "text": "$0.305$"
     },
     {
       "letter": "B",
-      "text": "0.316 0.316"
+      "text": "$0.316$"
     },
     {
       "letter": "C",
-      "text": "0.631 0.631"
+      "text": "$0.631$"
     },
     {
       "letter": "D",
-      "text": "0.684 0.684"
+      "text": "$0.684$"
     },
     {
       "letter": "E",
@@ -29,14 +36,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-7.E",
-    "VAR-7.E.1",
-    "VAR-7",
-    "3.E"
-  ],
-  "standards": [
     "VAR-7.E",
     "VAR-7.E.1",
     "VAR-7",

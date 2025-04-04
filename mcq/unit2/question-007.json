@@ -1,10 +1,15 @@
 {
   "question_id": "question-007",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "relationship",
+    "variables"
+  ],
   "title": "Explaining the Relationship: Snowblowers and Hypothermia",
-  "difficulty": "Moderate",
-  "question_text": "While doing some research, Nick noticed a very strong, positive relationship between the number of snowblowers sold on a given day and the number of individuals hospitalized with hypothermia (dangerously low body temperature) on that day. Which of the following most likely explains this relationship?",
+  "difficulty": "Medium",
+  "question_text": "While doing some research, Nick noticed a very strong, positive relationship between the number of snowblowers sold on a given day and the number of individuals hospitalized with hypothermia (dangerously low body temperature) on that day.\nWhich of the following most likely explains this relationship?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +34,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-1.D",
-    "VAR-1.D.1",
-    "1.A",
-    "VAR-1"
-  ],
-  "standards": [
     "VAR-1.D",
     "VAR-1.D.1",
     "1.A",

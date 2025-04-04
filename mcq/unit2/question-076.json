@@ -1,45 +1,44 @@
 {
   "question_id": "question-076",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "scatterplots",
+    "bivariate-data",
+    "exploring-data"
+  ],
   "title": "Describing an Association: Linear vs. Non-Linear",
   "difficulty": "Easy",
-  "question_text": "Looking at the scatterplot below, which of the following describes the nature of the association? Created for Albert.io. Copyright 2017. All rights reserved.",
+  "question_text": "Looking at the scatterplot below, which of the following describes the nature of the association?\nCreated for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-076-img1.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "There is a strong negative linear association between x x and y y ."
+      "text": "There is a strong negative linear association between x\nand y\n."
     },
     {
       "letter": "B",
-      "text": "There is a strong positive linear association between x x and y y ."
+      "text": "There is a strong positive linear association between x\nand y\n."
     },
     {
       "letter": "C",
-      "text": "There is a strong negative non-linear association between x x and y y ."
+      "text": "There is a strong negative non-linear association between\nx\nand\ny\n."
     },
     {
       "letter": "D",
-      "text": "There is a strong positive non-linear association between x x and y y ."
+      "text": "There is a strong positive non-linear association between\nx\nand\ny\n."
     },
     {
       "letter": "E",
-      "text": "There is a weak positive non-linear association between x x and y y ."
+      "text": "There is a weak positive non-linear association between\nx\nand\ny\n."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-1.D.3",
-    "2.C",
-    "DAT-1",
-    "DAT-1.D",
-    "DAT-1.D.1"
-  ],
-  "standards": [
     "DAT-1.D.3",
     "2.C",
     "DAT-1",

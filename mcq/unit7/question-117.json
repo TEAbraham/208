@@ -1,10 +1,18 @@
 {
   "question_id": "question-117",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "difference-two-means"
+  ],
   "title": "Making Decisions from Output | 1 of 2",
   "difficulty": "Easy",
-  "question_text": "A veterinarian decided to study the weights (kg) of Siberian and Alaskan huskies. The veterinarian weighted $13$ randomly selected Siberian huskies and $12$ randomly selected Alaskan huskies. A two-sample $t$ -test was performed with the results below (two-sided). Two-Sample $t$ for Siberian Husky vs. Alaskan Husky: N Mean StDev SE Mean Siberian Husky 13 18.66 3.89 1.1 Alaskan Husky 12 23.27 2.47 0.71 $\\text{Difference }= \\mu \\text{(Siberian husky)}-\\mu \\text{(Alaskan husky)}$ Estimate for difference: $-4.61$ $95\\%$ confidence interval for difference: $(-7.3, -1.91)$ $\\text{T-test of Difference }= 0$ $\\text{T-value }= -3.56$ $\\text{P-value }= 0.002$ $\\text{DF }= 20$ What practical conclusions can be made based on these results?",
+  "question_text": "A veterinarian decided to study the weights (kg) of Siberian and Alaskan huskies.\nThe veterinarian weighted $13$ randomly selected Siberian huskies and $12$ randomly selected Alaskan huskies. A two-sample $t$-test was performed with the results below (two-sided).\nTwo-Sample $t$ for Siberian Husky vs. Alaskan Husky:\nN Mean StDev SE Mean\nSiberian Husky 13 18.66 3.89 1.1\nAlaskan Husky 12 23.27 2.47 0.71\n\n\n$\\text{Difference }= \\mu \\text{(Siberian husky)}-\\mu \\text{(Alaskan husky)}$\nEstimate for difference: $-4.61$\n$95\\%$ confidence interval for difference: $(-7.3, -1.91)$\n$\\text{T-test of Difference }= 0$\n$\\text{T-value }= -3.56$\n$\\text{P-value }= 0.002$\n$\\text{DF }= 20$\nWhat practical conclusions can be made based on these results?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">StDev</th><th scope=\"col\">SE Mean</th></tr></thead><tbody><tr><td>Siberian Husky</td><td>13</td><td>18.66</td><td>3.89</td><td>1.1</td></tr><tr><td>Alaskan Husky</td><td>12</td><td>23.27</td><td>2.47</td><td>0.71</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
@@ -12,31 +20,25 @@
     },
     {
       "letter": "B",
-      "text": "There is evidence of a difference in weights at the 10 % 10 % level, but not at the 1 % 1 % or 5 % 5 % alpha levels."
+      "text": "There is evidence of a difference in weights at the $10\\%$ level, but not at the $1\\%$ or $5\\%$ alpha levels."
     },
     {
       "letter": "C",
-      "text": "There is evidence of a difference in weights at the 5 % 5 % and 10 % 10 % levels, but not at the 1 % 1 % level."
+      "text": "There is evidence of a difference in weights at the $5\\%$ and $10\\%$ levels, but not at the $1\\%$ level."
     },
     {
       "letter": "D",
-      "text": "There is evidence of a difference in weights at the 1 % 1 % , 5 % 5 % , and 10 % 10 % alpha levels."
+      "text": "There is evidence of a difference in weights at the $1\\%$, $5\\%$, and $10\\%$ alpha levels."
     },
     {
       "letter": "E",
-      "text": "There is evidence Alaskan huskies weigh more than Siberian huskies at the 1 % , 5 % 1 % , 5 % , and 10 % 10 % alpha levels."
+      "text": "There is evidence Alaskan huskies weigh more than Siberian huskies at the $1\\%, 5\\%$, and $10\\%$ alpha levels."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.C",
-    "VAR-7.H",
-    "VAR-7",
-    "VAR-7.H.1"
-  ],
-  "standards": [
     "4.C",
     "VAR-7.H",
     "VAR-7",

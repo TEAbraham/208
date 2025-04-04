@@ -1,42 +1,45 @@
 {
   "question_id": "question-035",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "critical-value",
+    "confidence-interval",
+    "mean",
+    "estimation",
+    "1-sample-tinterval-means",
+    "statistical-inference"
+  ],
   "title": "Critical Value for Mean with Unknown Standard Deviation",
   "difficulty": "Easy",
-  "question_text": "You want to compute a $90\\%$ confidence interval for the mean population with an unknown standard deviation. The data is collected from an SRS of $20$ observations, and is approximately normal. What critical value would we need for the $90\\%$ confidence interval?",
+  "question_text": "You want to compute a $90\\%$ confidence interval for the mean population with an unknown standard deviation. The data is collected from an SRS of $20$ observations, and is approximately normal.\nWhat critical value would we need for the $90\\%$ confidence interval?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "1.734 1.734"
+      "text": "$1.734$"
     },
     {
       "letter": "B",
-      "text": "1.729 1.729"
+      "text": "$1.729$"
     },
     {
       "letter": "C",
-      "text": "1.725 1.725"
+      "text": "$1.725$"
     },
     {
       "letter": "D",
-      "text": "1.721 1.721"
+      "text": "$1.721$"
     },
     {
       "letter": "E",
-      "text": "1.645 1.645"
+      "text": "$1.645$"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "UNC-4.S",
-    "UNC-4.S.2",
-    "UNC-4"
-  ],
-  "standards": [
     "4.B",
     "UNC-4.S",
     "UNC-4.S.2",

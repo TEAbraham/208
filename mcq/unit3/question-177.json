@@ -1,0 +1,49 @@
+{
+  "question_id": "question-177",
+  "unit": "AP® Statistics | Unit 3 Assessment",
+  "topics": [
+    "data-collection-with-surveys",
+    "Random",
+    "data",
+    "data-analysis",
+    "analysis-random-variable"
+  ],
+  "title": "Dessert Preference with Table",
+  "difficulty": "Easy",
+  "question_text": "A study was conducted to determine if there is a difference in dessert preference among adults based on gender. Researchers offered a random assortment of desserts to a random sample of adults and recorded each adult's dessert choice. The results can be found in the table below.\nApple Pie Chocolate Cake Sugar Cookie Brownie\nFemale $3$ $8$ $4$ $7$\nMale $8$ $2$ $5$ $10$\nWhich of the following is a true conclusion based on the above information?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Apple Pie</th><th scope=\"col\">Chocolate Cake</th><th scope=\"col\">Sugar Cookie</th><th scope=\"col\">Brownie</th></tr></thead><tbody><tr><td>Female</td><td><span class=\"tex2jax_process\">$3$</span></td><td><span class=\"tex2jax_process\">$8$</span></td><td><span class=\"tex2jax_process\">$4$</span></td><td><span class=\"tex2jax_process\">$7$</span></td></tr><tr><td>Male</td><td><span class=\"tex2jax_process\">$8$</span></td><td><span class=\"tex2jax_process\">$2$</span></td><td><span class=\"tex2jax_process\">$5$</span></td><td><span class=\"tex2jax_process\">$10$</span></td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Females chose Brownies more often than any of the other desserts."
+    },
+    {
+      "letter": "B",
+      "text": "The most common dessert choice by the males was Apple Pie."
+    },
+    {
+      "letter": "C",
+      "text": "The percent of women who chose Sugar Cookie is higher than the percent of men who chose Sugar Cookie."
+    },
+    {
+      "letter": "D",
+      "text": "Apple Pie was the dessert chosen the least, regardless of gender."
+    },
+    {
+      "letter": "E",
+      "text": "More than half of the women chose Chocolate Cake or Sugar Cookie."
+    }
+  ],
+  "correct_answer": "Choice ‘E’ is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-1.E",
+    "1.A",
+    "VAR-1",
+    "VAR-1.E.1"
+  ]
+}

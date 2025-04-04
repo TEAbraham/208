@@ -1,42 +1,42 @@
 {
   "question_id": "question-213",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "properties"
+  ],
   "title": "Normal Notation",
   "difficulty": "Easy",
-  "question_text": "Distribution $A$ is $N(28,1.2)$ . Distribution $B$ is $N(25, 1.8)$ . Which of the following statements is true?",
+  "question_text": "Distribution $A$ is $N(28,1.2)$.\nDistribution $B$ is $N(25, 1.8)$.\nWhich of the following statements is true?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Distribution A A has a population of 28 28 individuals and a mean of 1.2 1.2 , while Distribution B B has a population of 25 25 individuals with a mean of 1.8 1.8 ."
+      "text": "Distribution $A$ has a population of $28$ individuals and a mean of $1.2$, while Distribution $B$ has a population of $25$ individuals with a mean of $1.8$."
     },
     {
       "letter": "B",
-      "text": "Distribution A A has a higher mean and a lower standard deviation than Distribution B B ."
+      "text": "Distribution $A$ has a higher mean and a lower standard deviation than Distribution $B$."
     },
     {
       "letter": "C",
-      "text": "Distribution A A has a lower mean and a higher standard deviation than Distribution B B ."
+      "text": "Distribution $A$ has a lower mean and a higher standard deviation than Distribution $B$."
     },
     {
       "letter": "D",
-      "text": "Distribution A A has a higher mean and a higher variance than Distribution B B ."
+      "text": "Distribution $A$ has a higher mean and a higher variance than Distribution $B$."
     },
     {
       "letter": "E",
-      "text": "Distribution A A has a lower mean and a lower variance than Distribution B B ."
+      "text": "Distribution $A$ has a lower mean and a lower variance than Distribution $B$."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "2.D",
-    "VAR-2",
-    "VAR-2.A",
-    "VAR-2.A.2"
-  ],
-  "standards": [
     "2.D",
     "VAR-2",
     "VAR-2.A",

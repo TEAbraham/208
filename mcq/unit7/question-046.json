@@ -1,18 +1,24 @@
 {
   "question_id": "question-046",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "tests-of-significance",
+    "mean",
+    "statistical-inference"
+  ],
   "title": "A Zoologist and the Giraffes: Conclusions from a Test",
-  "difficulty": "Moderate",
-  "question_text": "A zoologist was looking through his old textbooks and found one that said the average height of an adult male giraffe is $18$ feet with a standard deviation of $1.1$ feet. He sees many giraffes and wonders if this average is true. To check it out, he selects the records of $40$ adult male giraffes that come to see him, records their height and finds the sample average to be $18.35$ feet. Assuming that he is willing to consider his sample to represent a random sample, what conclusion would he reach after conducting an appropriate statistical test?",
+  "difficulty": "Medium",
+  "question_text": "A zoologist was looking through his old textbooks and found one that said the average height of an adult male giraffe is $18$ feet with a standard deviation of $1.1$ feet. He sees many giraffes and wonders if this average is true. To check it out, he selects the records of $40$ adult male giraffes that come to see him, records their height and finds the sample average to be $18.35$ feet.\nAssuming that he is willing to consider his sample to represent a random sample, what conclusion would he reach after conducting an appropriate statistical test?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "He should conclude that the textbook is probably wrong. Assuming the average height of adult male giraffes is 18 18 feet (as the textbook claimed), getting a sample average as extreme as 18.35 18.35 feet would only happen about 4.4 % 4.4 % of the time simply by chance."
+      "text": "He should conclude that the textbook is probably wrong. Assuming the average height of adult male giraffes is $18$ feet (as the textbook claimed), getting a sample average as extreme as $18.35$ feet would only happen about $4.4\\%$ of the time simply by chance."
     },
     {
       "letter": "B",
-      "text": "He should conclude that the textbook is definitely wrong. The sample average is more than 4 4 inches above the value claimed in the textbook. That's a lot!"
+      "text": "He should conclude that the textbook is definitely wrong. The sample average is more than $4$ inches above the value claimed in the textbook. That's a lot!"
     },
     {
       "letter": "C",
@@ -20,7 +26,7 @@
     },
     {
       "letter": "D",
-      "text": "He can not conclude that the textbook is wrong. Since our p p -value is greater than 0.05 0.05 , we do not have enough evidence to believe that the average height of adult male giraffes is not 18 18 feet."
+      "text": "He can not conclude that the textbook is wrong. Since our $p$-value is greater than $0.05$, we do not have enough evidence to believe that the average height of adult male giraffes is not $18$ feet."
     },
     {
       "letter": "E",
@@ -29,14 +35,8 @@
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "UNC-4.S",
-    "UNC-4.S.1",
-    "UNC-4"
-  ],
-  "standards": [
     "4.B",
     "UNC-4.S",
     "UNC-4.S.1",

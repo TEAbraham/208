@@ -1,26 +1,33 @@
 {
   "question_id": "question-003",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "mean",
+    "statistics",
+    "parameter",
+    "inference"
+  ],
   "title": "Average Standardized Test Score",
   "difficulty": "Easy",
-  "question_text": "A teacher at a large high school is interested in finding the average standardized test score for all students in the school. The teacher selects a random sample of $150$ students from the school and finds a mean score of $1050$ . In actuality, the mean of the whole school is $1125$ with a standard deviation $50$ . What number above represents a statistic?",
+  "question_text": "A teacher at a large high school is interested in finding the average standardized test score for all students in the school. The teacher selects a random sample of $150$ students from the school and finds a mean score of $1050$. In actuality, the mean of the whole school is $1125$ with a standard deviation $50$.\nWhat number above represents a statistic?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "50 50"
+      "text": "$50$"
     },
     {
       "letter": "B",
-      "text": "150 150"
+      "text": "$150$"
     },
     {
       "letter": "C",
-      "text": "1050 1050"
+      "text": "$1050$"
     },
     {
       "letter": "D",
-      "text": "1125 1125"
+      "text": "$1125$"
     },
     {
       "letter": "E",
@@ -28,15 +35,9 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "Remember, a statistic is a number the represents a sample. Therefore, when the teacher found the mean of the sample, this number is a sample mean, ¯ x = 1050 x ¯ = 1050 .\n\nSince all the other numbers are either sample sizes or parameter values, ¯ x = 1050 x ¯ = 1050 is the only statistic given.\n\nChoice 'C' is correct.",
-  "distractor_explanations": {},
+  "solution": "Remember, a statistic is a number the represents a sample. Therefore, when the teacher found the mean of the sample, this number is a sample mean, $\\bar{x} = 1050$.\n\nSince all the other numbers are either sample sizes or parameter values, $\\bar{x} = 1050$ is the only statistic given.\n\nChoice 'C' is correct.",
+  "explanations": {},
   "tags": [
-    "VAR-1.I.1",
-    "VAR-1",
-    "1.D",
-    "VAR-1.I"
-  ],
-  "standards": [
     "VAR-1.I.1",
     "VAR-1",
     "1.D",

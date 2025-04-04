@@ -1,42 +1,44 @@
 {
   "question_id": "question-236",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "position",
+    "empirical-rule",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
   "title": "Empirical Rule",
-  "difficulty": "Moderate",
-  "question_text": "The random variable $X$ is normally distributed with a mean of $10$ and a standard deviation of $1.5$ . Approximately $84\\%$ of the observations of this data set are greater than",
+  "difficulty": "Medium",
+  "question_text": "The random variable $X$ is normally distributed with a mean of $10$ and a standard deviation of $1.5$.\nApproximately $84\\%$ of the observations of this data set are greater than",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "8.50 8.50"
+      "text": "$8.50$"
     },
     {
       "letter": "B",
-      "text": "10.50 10.50"
+      "text": "$10.50$"
     },
     {
       "letter": "C",
-      "text": "7.50 7.50"
+      "text": "$7.50$"
     },
     {
       "letter": "D",
-      "text": "11.50 11.50"
+      "text": "$11.50$"
     },
     {
       "letter": "E",
-      "text": "8.04 8.04"
+      "text": "$8.04$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "2.D",
-    "VAR-2",
-    "VAR-2.A.3",
-    "VAR-2.A"
-  ],
-  "standards": [
     "2.D",
     "VAR-2",
     "VAR-2.A.3",

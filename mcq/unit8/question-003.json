@@ -1,10 +1,15 @@
 {
   "question_id": "question-003",
   "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "randomness",
+    "variation"
+  ],
   "title": "Which is Random?",
   "difficulty": "Easy",
-  "question_text": "Lots of things happen to us in daily life which may or may not be random.  Of the following $5$ situations, which would you say is a random event?",
+  "question_text": "Lots of things happen to us in daily life which may or may not be random. Of the following $5$ situations, which would you say is a random event?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -12,7 +17,7 @@
     },
     {
       "letter": "B",
-      "text": "The television show on  ABC tonight at 9 9 pm."
+      "text": "The television show on ABC tonight at $9$ pm."
     },
     {
       "letter": "C",
@@ -29,14 +34,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-1.J",
-    "VAR-1.J.1",
-    "1.A",
-    "VAR-1"
-  ],
-  "standards": [
     "VAR-1.J",
     "VAR-1.J.1",
     "1.A",

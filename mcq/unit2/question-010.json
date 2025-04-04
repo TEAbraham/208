@@ -1,10 +1,15 @@
 {
   "question_id": "question-010",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "relationships",
+    "quantitative-data"
+  ],
   "title": "Statements on Variation in Two Variable Relationships",
-  "difficulty": "Difficult",
+  "difficulty": "Hard",
   "question_text": "Which of the following statements is NOT true concerning variation in a roughly linear relationship between two quantitative variables?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +34,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-1.D",
-    "VAR-1.D.1",
-    "1.A",
-    "VAR-1"
-  ],
-  "standards": [
     "VAR-1.D",
     "VAR-1.D.1",
     "1.A",

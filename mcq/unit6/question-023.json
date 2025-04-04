@@ -1,42 +1,43 @@
 {
   "question_id": "question-023",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "confidence-interval",
+    "estimation",
+    "statistical-inference",
+    "proportion"
+  ],
   "title": "Playing Giddy Up - Go: Standard Deviation of Proportion",
   "difficulty": "Easy",
-  "question_text": "Giddy Up - Go is a hot new game app that can be downloaded on smartphones.  Researchers wanted to know what proportion of smartphone users have downloaded the app.  They believe that the actual proportion is $0.10$ and have decided to investigate. After surveying a random sample of $225$ smartphone users, the researchers determined that $27$ had downloaded the app. In constructing a confidence interval, which of the following shows how to calculate the standard deviation of the sample proportion?",
+  "question_text": "Giddy Up - Go is a hot new game app that can be downloaded on smartphones. Researchers wanted to know what proportion of smartphone users have downloaded the app. They believe that the actual proportion is $0.10$ and have decided to investigate.\nAfter surveying a random sample of $225$ smartphone users, the researchers determined that $27$ had downloaded the app.\nIn constructing a confidence interval, which of the following shows how to calculate the standard deviation of the sample proportion?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "√ ( 0.10 ) ( 0.90 ) 225 ( 0.10 ) ( 0.90 ) 225"
+      "text": "$\\sqrt { \\dfrac { (0.10)(0.90) }{ 225 } } $"
     },
     {
       "letter": "B",
-      "text": "√ ( 0.12 ) ( 0.88 ) 225 ( 0.12 ) ( 0.88 ) 225"
+      "text": "$\\sqrt { \\dfrac { (0.12)(0.88) }{ 225 } } $"
     },
     {
       "letter": "C",
-      "text": "( 0.10 ) ( 0.90 ) √ 225 ( 0.10 ) ( 0.90 ) 225"
+      "text": "$\\dfrac { (0.10)(0.90) }{ \\sqrt { 225 } } $"
     },
     {
       "letter": "D",
-      "text": "√ ( 225 ) ( 0.10 ) ( 0.90 ) ( 225 ) ( 0.10 ) ( 0.90 )"
+      "text": "$\\sqrt { (225)(0.10)(0.90) } $"
     },
     {
       "letter": "E",
-      "text": "√ ( 225 ) ( 0.12 ) ( 0.88 ) ( 225 ) ( 0.12 ) ( 0.88 )"
+      "text": "$\\sqrt { (225)(0.12)(0.88) } $"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "3.D",
-    "UNC-4.C.1",
-    "UNC-4.C",
-    "UNC-4"
-  ],
-  "standards": [
     "3.D",
     "UNC-4.C.1",
     "UNC-4.C",

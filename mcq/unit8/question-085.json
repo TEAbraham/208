@@ -1,43 +1,46 @@
 {
   "question_id": "question-085",
   "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "chi-square-test",
+    "two-way-tables",
+    "chi-square-independence"
+  ],
   "title": "Traffic Stops and Gender Equality: Find the $p$-Value",
-  "difficulty": "Difficult",
-  "question_text": "Tommy has gotten pulled over a few times for minor traffic violations and every time he has been pulled over, the officer gave him a ticket. His wife Gina has also been pulled over a few times for minor traffic violations, but she has never gotten a ticket! Tommy wonders whether a police officer's actions during a traffic stop for a minor violation depends upon the driver's gender. To investigate, he selects a random sample of drivers who have been pulled over at some point for a minor traffic violation and asks them what the outcome was. Results are shown in the table below. ACTUAL DATA Ticketed Warned Allowed to Proceed Males 38 17 29 Females 26 24 19 Tommy decides to conduct a ${ \\chi }^{ 2 }$ test for independence. What will the resulting $p$ -value be?",
+  "difficulty": "Hard",
+  "question_text": "Tommy has gotten pulled over a few times for minor traffic violations and every time he has been pulled over, the officer gave him a ticket. His wife Gina has also been pulled over a few times for minor traffic violations, but she has never gotten a ticket!\nTommy wonders whether a police officer's actions during a traffic stop for a minor violation depends upon the driver's gender. To investigate, he selects a random sample of drivers who have been pulled over at some point for a minor traffic violation and asks them what the outcome was. Results are shown in the table below.\nACTUAL DATA Ticketed Warned Allowed to Proceed\nMales 38 17 29\nFemales 26 24 19\n\n\nTommy decides to conduct a ${ \\chi }^{ 2 }$ test for independence.\nWhat will the resulting $p$-value be?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">ACTUAL DATA</th><th scope=\"col\">Ticketed</th><th scope=\"col\">Warned</th><th scope=\"col\">Allowed to Proceed</th></tr></thead><tbody><tr><td>Males</td><td>38</td><td>17</td><td>29</td></tr><tr><td>Females</td><td>26</td><td>24</td><td>19</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "0.129 0.129"
+      "text": "$0.129$"
     },
     {
       "letter": "B",
-      "text": "0.251 0.251"
+      "text": "$0.251$"
     },
     {
       "letter": "C",
-      "text": "0.536 0.536"
+      "text": "$0.536$"
     },
     {
       "letter": "D",
-      "text": "0.664"
+      "text": "$0.664$"
     },
     {
       "letter": "E",
-      "text": "A χ 2 test cannot be used in this situation since not all conditions are satisfied."
+      "text": "A ${ \\chi }^{ 2 }$ test cannot be used in this situation since not all conditions are satisfied."
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-8.M",
-    "VAR-8.M.2",
-    "3.E",
-    "VAR-8",
-    "VAR-8.M.1"
-  ],
-  "standards": [
     "VAR-8.M",
     "VAR-8.M.2",
     "3.E",

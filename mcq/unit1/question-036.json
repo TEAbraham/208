@@ -1,14 +1,19 @@
 {
   "question_id": "question-036",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "categorical-data",
+    "frequency-graph"
+  ],
   "title": "Car Colors: A Frequency Graph",
-  "difficulty": "Moderate",
-  "question_text": "Henry decided to research the distribution of car colors driven by staff members at his high school.  After recording the colors of all cars parked in the faculty parking lot one day, he created the following graph. Which of the following statements cannot be justified by the graph?",
+  "difficulty": "Medium",
+  "question_text": "Henry decided to research the distribution of car colors driven by staff members at his high school. After recording the colors of all cars parked in the faculty parking lot one day, he created the following graph.\nWhich of the following statements cannot be justified by the graph?",
   "image_files": [
     "images/question-036-img1.png",
     "images/question-036-img2.png",
     "images/question-036-img3.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -20,7 +25,7 @@
     },
     {
       "letter": "C",
-      "text": "About 24 % 24 % of the cars in the faculty parking lot were \"white\"."
+      "text": "About\n24\n%\nof the cars in the faculty parking lot were \"white\"."
     },
     {
       "letter": "D",
@@ -33,18 +38,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.D",
-    "UNC-1.C.3",
-    "UNC-1.C.2",
-    "UNC-1.D.1",
-    "2.B",
-    "UNC-1.C.1",
-    "UNC-1.C",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.D",
     "UNC-1.C.3",
     "UNC-1.C.2",

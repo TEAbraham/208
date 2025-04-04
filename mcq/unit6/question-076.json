@@ -1,10 +1,12 @@
 {
   "question_id": "question-076",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [],
   "title": "Possible Errors",
-  "difficulty": "Moderate",
-  "question_text": "Recently a random survey found that $48$ out of $100\\text{ college freshman}$ fail to brush their teeth twice a day. This compares higher than the national average of $39\\%$ . The researcher decided to test the claim that college kids are more likely not to brush their teeth twice daily than the rest of the public, at the $\\alpha = 5\\%$ level. What type of error could the researcher have made, and how could this error be described in the context of the problem?",
+  "difficulty": "Medium",
+  "question_text": "Recently a random survey found that $48$ out of $100\\text{ college freshman}$ fail to brush their teeth twice a day. This compares higher than the national average of $39\\%$.\nThe researcher decided to test the claim that college kids are more likely not to brush their teeth twice daily than the rest of the public, at the $\\alpha = 5\\%$ level.\nWhat type of error could the researcher have made, and how could this error be described in the context of the problem?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,15 +31,8 @@
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "UNC-5.D.1",
-    "UNC-5",
-    "UNC-5.D.2",
-    "UNC-5.D"
-  ],
-  "standards": [
     "4.B",
     "UNC-5.D.1",
     "UNC-5",

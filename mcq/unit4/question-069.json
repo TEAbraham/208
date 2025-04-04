@@ -1,42 +1,44 @@
 {
   "question_id": "question-069",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "calculating-probability",
+    "anticipating-patterns",
+    "probability"
+  ],
   "title": "Take Me Out to the Ballgame: Find the Probability",
-  "difficulty": "Moderate",
-  "question_text": "The table below shows the distribution of the types of tickets that were sold for a minor league baseball game. Seat Type Field Box Reserved Box Grandstand Reserved Bleachers Picnic Area / Standing Relative Frequency 38% 20% 14% 6% If one ticket holder at this game is selected at random to receive free tickets to an upcoming game, what is the probability that the winner is seated in either a field box seat or in the bleachers?",
+  "difficulty": "Medium",
+  "question_text": "The table below shows the distribution of the types of tickets that were sold for a minor league baseball game.\nSeat Type Field Box Reserved Box Grandstand\nReserved Bleachers Picnic Area / Standing\nRelative Frequency 38% 20% 14% 6%\n\n\nIf one ticket holder at this game is selected at random to receive free tickets to an upcoming game, what is the probability that the winner is seated in either a field box seat or in the bleachers?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Seat Type</th><th scope=\"col\">Field Box</th><th scope=\"col\">Reserved Box</th><th scope=\"col\">Grandstand <br>Reserved</th><th scope=\"col\">Bleachers</th><th scope=\"col\">Picnic Area / Standing</th></tr></thead><tbody><tr><td>Relative Frequency</td><td>38%</td><td>20%</td><td>14%</td><td></td><td>6%</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "0.06 0.06"
+      "text": "$0.06$"
     },
     {
       "letter": "B",
-      "text": "0.22 0.22"
+      "text": "$0.22$"
     },
     {
       "letter": "C",
-      "text": "0.38 0.38"
+      "text": "$0.38$"
     },
     {
       "letter": "D",
-      "text": "0.6 0.6"
+      "text": "$0.6$"
     },
     {
       "letter": "E",
-      "text": "0.94 0.94"
+      "text": "$0.94$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-4.E",
-    "3.A",
-    "VAR-4",
-    "VAR-4.E.4"
-  ],
-  "standards": [
     "VAR-4.E",
     "3.A",
     "VAR-4",

@@ -1,45 +1,43 @@
 {
   "question_id": "question-058",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "matched-pairs-design",
+    "hypotheses",
+    "1-sample-t-test",
+    "initial-conditions"
+  ],
   "title": "Which Route to Take?",
-  "difficulty": "Difficult",
-  "question_text": "Nina and Tina live next door to each other and both attend the same school which is some distance away.  They are now seniors and have their own cars and each like to drive a different route.  They have been arguing as to which route takes less time.  So, to complete a project for their statistics class, they designed a matched pairs design where the next $32$ school days, on each day, a coin flip would decide which girl would drive which route.  And on each day they recorded their times for the route driven.  After $32$ days they wrote down the two driving times for each day and subtracted them, Tina’s favored route minus Nina’s favorite route.  Then these times were used in a $1$ -sample $t$ -test test to see if there was a difference in the driving times for each route. Four of the answers below contain some false information about Nina’s and Tina’s experiment and statistical analysis.  One answer is fully correct.  Which is it?",
+  "difficulty": "Hard",
+  "question_text": "Nina and Tina live next door to each other and both attend the same school which is some distance away. They are now seniors and have their own cars and each like to drive a different route. They have been arguing as to which route takes less time. So, to complete a project for their statistics class, they designed a matched pairs design where the next $32$ school days, on each day, a coin flip would decide which girl would drive which route. And on each day they recorded their times for the route driven. After $32$ days they wrote down the two driving times for each day and subtracted them, Tina’s favored route minus Nina’s favorite route. Then these times were used in a $1$-sample $t$-test test to see if there was a difference in the driving times for each route.\nFour of the answers below contain some false information about Nina’s and Tina’s experiment and statistical analysis. One answer is fully correct. Which is it?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "H a : μ d > 0 H a : μ d > 0 The population of the distribution of differences is shown to be approximately normal."
+      "text": "$H_{a}: \\mu_{d}> 0$\nThe population of the distribution of differences is shown to be approximately normal."
     },
     {
       "letter": "B",
-      "text": "H 0 : μ d = 0 H 0 : μ d = 0 The difference of Nina's route minus Tina's route should also be tested."
+      "text": "$H_{0}: \\mu_{d}= 0$\nThe difference of Nina's route minus Tina's route should also be tested."
     },
     {
       "letter": "C",
-      "text": "H a : μ d ≠ 0 H a : μ d ≠ 0 Randomness and approximate normality are both shown here."
+      "text": "$H_{a}: \\mu_{d}\\neq 0$\nRandomness and approximate normality are both shown here."
     },
     {
       "letter": "D",
-      "text": "H 0 : μ d < 0 H 0 : μ d < 0 Routes were assigned at random."
+      "text": "$H_{0}: \\mu_{d}< 0$\nRoutes were assigned at random."
     },
     {
       "letter": "E",
-      "text": "H a : μ d ≠ 0 H a : μ d ≠ 0 Routes were not assigned at random."
+      "text": "$H_{a}: \\mu_{d}\\neq 0$\nRoutes were not assigned at random."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-7.C.2",
-    "VAR-7.C",
-    "4.C",
-    "1.F",
-    "VAR-7.D",
-    "VAR-7.D.1",
-    "VAR-7"
-  ],
-  "standards": [
     "VAR-7.C.2",
     "VAR-7.C",
     "4.C",

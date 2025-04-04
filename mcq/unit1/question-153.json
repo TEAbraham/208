@@ -1,12 +1,23 @@
 {
   "question_id": "question-153",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "mean",
+    "univariate-data",
+    "standard-deviation",
+    "boxplots",
+    "summarizing-distributions",
+    "measuring-spread",
+    "exploring-data",
+    "measuring-center"
+  ],
   "title": "What Happens to the Mean and Standard Deviation?",
-  "difficulty": "Difficult",
-  "question_text": "The boxplot below represents a data set. Created for Albert.io. Copyright 2017. All rights reserved. If the minimum value was changed from twenty to twelve, what would happen to the mean and standard deviation of the data set?",
+  "difficulty": "Hard",
+  "question_text": "The boxplot below represents a data set.\nCreated for Albert.io. Copyright 2017. All rights reserved.\nIf the minimum value was changed from twenty to twelve, what would happen to the mean and standard deviation of the data set?",
   "image_files": [
     "images/question-153-img1.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -31,15 +42,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.M",
-    "UNC-1.M.1",
-    "UNC-1.M.2",
-    "2.A",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.M",
     "UNC-1.M.1",
     "UNC-1.M.2",

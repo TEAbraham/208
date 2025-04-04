@@ -1,42 +1,41 @@
 {
   "question_id": "question-043",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "calculating-probability",
+    "differences-in-means"
+  ],
   "title": "Wrens or Hens?",
-  "difficulty": "Moderate",
-  "question_text": "In their baseball league, near the end of the season, the Wrens were to play the Hens.  The Wrens had averaged $8.2$ runs per game with a standard deviation of $3.0$ runs during the season.  The Hens averaged $5.4$ runs per game with a standard deviation of $2.5$ runs during the season.  Each team had played $112$ games thus far.  Now that they will play each other, what is the probability that the Wrens will beat the Hens by at least $3$ runs?  Round to the nearest percent.",
+  "difficulty": "Medium",
+  "question_text": "In their baseball league, near the end of the season, the Wrens were to play the Hens. The Wrens had averaged $8.2$ runs per game with a standard deviation of $3.0$ runs during the season. The Hens averaged $5.4$ runs per game with a standard deviation of $2.5$ runs during the season. Each team had played $112$ games thus far. Now that they will play each other, what is the probability that the Wrens will beat the Hens by at least $3$ runs? Round to the nearest percent.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "29 % 29 %"
+      "text": "$29\\%$"
     },
     {
       "letter": "B",
-      "text": "3 % 3 %"
+      "text": "$3\\%$"
     },
     {
       "letter": "C",
-      "text": "82 % 82 %"
+      "text": "$82\\%$"
     },
     {
       "letter": "D",
-      "text": "71 % 71 %"
+      "text": "$71\\%$"
     },
     {
       "letter": "E",
-      "text": "97 % 97 %"
+      "text": "$97\\%$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "UNC-3",
-    "UNC-3.V",
-    "UNC-3.V.1"
-  ],
-  "standards": [
     "4.B",
     "UNC-3",
     "UNC-3.V",

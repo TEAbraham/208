@@ -1,42 +1,41 @@
 {
   "question_id": "question-039",
   "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "hypotheses",
+    "regression-slope-t-test"
+  ],
   "title": "General Hypotheses",
-  "difficulty": "Moderate",
-  "question_text": "Suppose you are told you will do a two-sided $t$ -test for slope.  Which are the correct hypotheses when written out in words?",
+  "difficulty": "Medium",
+  "question_text": "Suppose you are told you will do a two-sided $t$-test for slope. Which are the correct hypotheses when written out in words?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "H 0 H 0 :  There is an association between the given two variables. H a H a :  There is no association between the given two variables."
+      "text": "$H_{0}$: There is an association between the given two variables.\n$H_{a}$: There is no association between the given two variables."
     },
     {
       "letter": "B",
-      "text": "H 0 H 0 :  There is no association between the given two variables. H a H a :  There is an association between the given two variables."
+      "text": "$H_{0}$: There is no association between the given two variables.\n$H_{a}$: There is an association between the given two variables."
     },
     {
       "letter": "C",
-      "text": "H 0 H 0 :  There is no association between the given two variables. H a H a :  There is a positive association between the given two variables."
+      "text": "$H_{0}$: There is no association between the given two variables.\n$H_{a}$: There is a positive association between the given two variables."
     },
     {
       "letter": "D",
-      "text": "H 0 H 0 :  There is no association between the given two variables. H a H a :  There is a negative association between the given two variables."
+      "text": "$H_{0}$: There is no association between the given two variables.\n$H_{a}$: There is a negative association between the given two variables."
     },
     {
       "letter": "E",
-      "text": "H 0 H 0 :  There is an association between the given two variables. H a H a :  The association between the given two variables is positive."
+      "text": "$H_{0}$: There is an association between the given two variables.\n$H_{a}$: The association between the given two variables is positive."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "1.F",
-    "VAR-7.K",
-    "VAR-7",
-    "VAR-7.K.1"
-  ],
-  "standards": [
     "1.F",
     "VAR-7.K",
     "VAR-7",

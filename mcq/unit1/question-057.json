@@ -1,44 +1,45 @@
 {
   "question_id": "question-057",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "cumulative-relative-frequency",
+    "graph",
+    "quantitative",
+    "proportion"
+  ],
   "title": "Tech Start Up",
-  "difficulty": "Moderate",
-  "question_text": "Pete is starting a new job at a tech start-up. He is wondering about the age breakdown of the employees who currently work at the company. Given is the cumulative relative frequency graph summarizing the employees' ages: What statement is supported by the cumulative relative frequency graph of employee ages?",
+  "difficulty": "Medium",
+  "question_text": "Pete is starting a new job at a tech start-up. He is wondering about the age breakdown of the employees who currently work at the company. Given is the cumulative relative frequency graph summarizing the employees' ages:\nWhat statement is supported by the cumulative relative frequency graph of employee ages?",
   "image_files": [
     "images/question-057-img1.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The oldest employee is 70 70 years old."
+      "text": "The oldest employee is 70 years old."
     },
     {
       "letter": "B",
-      "text": "Over 50 % 50 % of employees are younger than 40 40 years old."
+      "text": "Over 50% of employees are younger than 40 years old."
     },
     {
       "letter": "C",
-      "text": "Over one-fourth of the employees are younger than 30 30 years old."
+      "text": "Over one-fourth of the employees are younger than 30 years old."
     },
     {
       "letter": "D",
-      "text": "25 % 25 % of employees are aged between 50 50 and 60 60 years old."
+      "text": "25%\nof employees are aged between 50\nand 60\nyears old."
     },
     {
       "letter": "E",
-      "text": "The youngest employee at the company is 20 20 years old."
+      "text": "The youngest employee at the company is 20\nyears old."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "The ages of employees at the tech start-up are summarized in a cumulative relative frequency graph , or Ogive . A cumulative graph represents the number or proportion of a data set less than or equal to a given number. You can find the proportion of data points in a certain interval by finding the percent for the upper bound and the percent for the lower bound and subtracting the two values.\n\nWhen looking at this ogive, to find the proportion of employees younger than 40 40 , follow the horizontal axis until you get to 40 40 years old. Then move vertically until you hit the line graph, and make a right angle to the vertical axis. You find the proportion of employees 40 40 years old or younger is approximately 0.52 0.52 , which is over half of the employees.\n\nChoice 'B' is correct.",
-  "distractor_explanations": {},
+  "solution": "The ages of employees at the tech start-up are summarized in a cumulative relative frequency graph, or Ogive. A cumulative graph represents the number or proportion of a data set less than or equal to a given number. You can find the proportion of data points in a certain interval by finding the percent for the upper bound and the percent for the lower bound and subtracting the two values.\n\nWhen looking at this ogive, to find the proportion of employees younger than 40\n, follow the horizontal axis until you get to 40\nyears old. Then move vertically until you hit the line graph, and make a right angle to the vertical axis. You find the proportion of employees 40\nyears old or younger is approximately 0.52\n, which is over half of the employees.\n\nChoice 'B' is correct.",
+  "explanations": {},
   "tags": [
-    "2.A",
-    "UNC-1.G.4",
-    "UNC-1.G",
-    "UNC-1"
-  ],
-  "standards": [
     "2.A",
     "UNC-1.G.4",
     "UNC-1.G",

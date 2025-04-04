@@ -1,42 +1,43 @@
 {
   "question_id": "question-152",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "sampling-and-experimentation",
+    "estimation",
+    "sampling-methods"
+  ],
   "title": "Sample Design: Friends and Classmates",
-  "difficulty": "Moderate",
-  "question_text": "Eddie wanted to estimate the proportion of students at his large high school who would be interested in having a chess club at the school.  To gather data, he distributed a survey to his friends and many of his classmates. The survey simply asked: Yes or No?  Would you be interested in having a chess club at school? Eddie asked that the survey be returned to him by the end of the week.  Not everyone returned the survey.  From those who did however, Eddie was able to calculate the observed proportion to be $ \\hat { p } =0.32$ . Based on the way the sample was designed, what type of sample was used AND what is the biggest problem with using a sample of this type?",
+  "difficulty": "Medium",
+  "question_text": "Eddie wanted to estimate the proportion of students at his large high school who would be interested in having a chess club at the school. To gather data, he distributed a survey to his friends and many of his classmates.\nThe survey simply asked: Yes or No? Would you be interested in having a chess club at school?\nEddie asked that the survey be returned to him by the end of the week. Not everyone returned the survey. From those who did however, Eddie was able to calculate the observed proportion to be $ \\hat { p } =0.32$.\nBased on the way the sample was designed, what type of sample was used AND what is the biggest problem with using a sample of this type?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "This is a SRS (Simple Random Sample). There is no problem with taking a SRS since it is the type of sample that is most likely to represent the population of students at this high school."
+      "text": "This is a SRS (Simple Random Sample).\n\nThere is no problem with taking a SRS since it is the type of sample that is most likely to represent the population of students at this high school."
     },
     {
       "letter": "B",
-      "text": "This is a stratified random sample with two different strata - friends and classmates. When using this type of sample, it is possible that the opinions of some portions of the population may not be represented at all."
+      "text": "This is a stratified random sample with two different strata - friends and classmates.\n\nWhen using this type of sample, it is possible that the opinions of some portions of the population may not be represented at all."
     },
     {
       "letter": "C",
-      "text": "This is a convenience sample. When using a convenience sample, it is likely that individuals selected to be part of the sample will not truly represent the population of interest.  This means that the results of the survey cannot be generalized to the entire population of students at this high school."
+      "text": "This is a convenience sample.\n\nWhen using a convenience sample, it is likely that individuals selected to be part of the sample will not truly represent the population of interest. This means that the results of the survey cannot be generalized to the entire population of students at this high school."
     },
     {
       "letter": "D",
-      "text": "This is a voluntary response sample. Although Eddie attempted to include  his friends and many of his classmates as well, only some of these individuals voluntarily responded to his survey.  Since only those with strong opinions in favor of a chess club are likely to return the survey, the calculated sample proportion is likely higher than the true proportion of students at the high school who would like having a chess club at the school."
+      "text": "This is a voluntary response sample.\n\nAlthough Eddie attempted to include his friends and many of his classmates as well, only some of these individuals voluntarily responded to his survey. Since only those with strong opinions in favor of a chess club are likely to return the survey, the calculated sample proportion is likely higher than the true proportion of students at the high school who would like having a chess club at the school."
     },
     {
       "letter": "E",
-      "text": "This is a systematic random sample. However, since many individuals who were selected to be surveyed did not respond to the survey, non-response bias will be a problem."
+      "text": "This is a systematic random sample.\n\nHowever, since many individuals who were selected to be surveyed did not respond to the survey, non-response bias will be a problem."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.E.1",
-    "VAR-3.E",
-    "4.B",
-    "VAR-3"
-  ],
-  "standards": [
     "VAR-3.E.1",
     "VAR-3.E",
     "4.B",

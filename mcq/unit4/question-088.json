@@ -1,42 +1,42 @@
 {
   "question_id": "question-088",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "calculating-probability",
+    "anticipating-patterns",
+    "probability"
+  ],
   "title": "Cheese Eaters and Probability",
-  "difficulty": "Moderate",
-  "question_text": "The probability that Mary will eat cheese on any given day is $0.6$ while the probability that Becca will eat cheese on any given day is $0.25$ . If these events are totally independent, what is the probability that Mary or Becca will eat cheese on a randomly selected day?",
+  "difficulty": "Medium",
+  "question_text": "The probability that Mary will eat cheese on any given day is $0.6$ while the probability that Becca will eat cheese on any given day is $0.25$.\nIf these events are totally independent, what is the probability that Mary or Becca will eat cheese on a randomly selected day?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.15 0.15"
+      "text": "$0.15$"
     },
     {
       "letter": "B",
-      "text": "0.25 0.25"
+      "text": "$0.25$"
     },
     {
       "letter": "C",
-      "text": "0.425 0.425"
+      "text": "$0.425$"
     },
     {
       "letter": "D",
-      "text": "0.7 0.7"
+      "text": "$0.7$"
     },
     {
       "letter": "E",
-      "text": "0.85 0.85"
+      "text": "$0.85$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-4.E",
-    "3.A",
-    "VAR-4",
-    "VAR-4.E.4"
-  ],
-  "standards": [
     "VAR-4.E",
     "3.A",
     "VAR-4",

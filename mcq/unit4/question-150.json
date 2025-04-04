@@ -1,43 +1,42 @@
 {
   "question_id": "question-150",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "descriptive-statistics",
+    "combining-random-variables"
+  ],
   "title": "Student Snacks",
-  "difficulty": "Moderate",
-  "question_text": "At an elementary school, each child is given a snack pack consisting of one package of crackers and one bottle of juice. Cracker packages have a mean weight of $6$ ounces with a standard deviation of $0.5$ ounces. Juice bottles have a mean weight of $16$ ounces with a standard deviation of $2$ ounces. What are the mean and standard deviation of the snack packs?",
+  "difficulty": "Medium",
+  "question_text": "At an elementary school, each child is given a snack pack consisting of one package of crackers and one bottle of juice.\nCracker packages have a mean weight of $6$ ounces with a standard deviation of $0.5$ ounces. Juice bottles have a mean weight of $16$ ounces with a standard deviation of $2$ ounces.\nWhat are the mean and standard deviation of the snack packs?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "μ = 22 μ = 22 ; standard deviation = 1.5 1.5"
+      "text": "$ \\mu =22$; standard deviation = $1.5$"
     },
     {
       "letter": "B",
-      "text": "μ = 22 μ = 22 ; standard deviation = 2.06 2.06"
+      "text": "$ \\mu = 22$; standard deviation = $2.06$"
     },
     {
       "letter": "C",
-      "text": "μ = 22 μ = 22 ; standard deviation = 2.5 2.5"
+      "text": "$ \\mu =22$; standard deviation = $2.5$"
     },
     {
       "letter": "D",
-      "text": "μ = 24.5 μ = 24.5 ; standard deviation = 2.13 2.13"
+      "text": "$ \\mu =24.5$; standard deviation = $2.13$"
     },
     {
       "letter": "E",
-      "text": "μ = 24.5 μ = 24.5 ; standard deviation = 2.5 2.5"
+      "text": "$ \\mu = 24.5$; standard deviation = $2.5$"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-5.E",
-    "VAR-5.E.2",
-    "VAR-5",
-    "3.B",
-    "VAR-5.E.1"
-  ],
-  "standards": [
     "VAR-5.E",
     "VAR-5.E.2",
     "VAR-5",

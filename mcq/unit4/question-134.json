@@ -1,43 +1,42 @@
 {
   "question_id": "question-134",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "probability",
+    "analysis-random-variable"
+  ],
   "title": "Linear Transformation",
   "difficulty": "Easy",
-  "question_text": "The random variable $X$ is normally distributed with mean $28$ and standard deviation $9$ .  The random variable $Y$ is defined by $Y=4X-7$ . What are the mean and standard deviation of $Y$ ?",
+  "question_text": "The random variable $X$ is normally distributed with mean $28$ and standard deviation $9$. The random variable $Y$ is defined by $Y=4X-7$.\nWhat are the mean and standard deviation of $Y$?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The mean is 105 105 and the standard deviation is 9 9 ."
+      "text": "The mean is $105$ and the standard deviation is $9$."
     },
     {
       "letter": "B",
-      "text": "The mean is 105 105 and the standard deviation is 29 29 ."
+      "text": "The mean is $105$ and the standard deviation is $29$."
     },
     {
       "letter": "C",
-      "text": "The mean is 105 105 and the standard deviation is 36 36 ."
+      "text": "The mean is $105$ and the standard deviation is $36$."
     },
     {
       "letter": "D",
-      "text": "The mean is 112 112 and the standard deviation is 29 29 ."
+      "text": "The mean is $112$ and the standard deviation is $29$."
     },
     {
       "letter": "E",
-      "text": "The mean is 112 112 and the standard deviation is 36 36 ."
+      "text": "The mean is $112$ and the standard deviation is $36$."
     }
   ],
   "correct_answer": "Choice ‘C’ is our answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-5.E",
-    "VAR-5.E.2",
-    "VAR-5",
-    "3.B",
-    "VAR-5.E.1"
-  ],
-  "standards": [
     "VAR-5.E",
     "VAR-5.E.2",
     "VAR-5",

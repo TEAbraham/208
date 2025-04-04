@@ -1,10 +1,17 @@
 {
   "question_id": "question-010",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "mean",
+    "central-limit-theorem",
+    "inference",
+    "normal"
+  ],
   "title": "Average Tax Refund",
-  "difficulty": "Difficult",
-  "question_text": "According to the Internal Revenue Service, IRS, the average tax return for an American citizen is $\\$3{,}401$ . An accountant examines the records of $30$ random clients and finds the average tax return for his clients to be $\\$3{,}520$ . Explain why the accountant should not make the claim that the stated amount by the IRS is incorrect.",
+  "difficulty": "Hard",
+  "question_text": "According to the Internal Revenue Service, IRS, the average tax return for an American citizen is $\\$3{,}401$. An accountant examines the records of $30$ random clients and finds the average tax return for his clients to be $\\$3{,}520$.\nExplain why the accountant should not make the claim that the stated amount by the IRS is incorrect.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -28,15 +35,9 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "Very rarely will a sample mean equal the population mean, due to sampling variability . Therefore, the accountant's sample is simply a statistic because it describes the sample. Since we do not know the standard deviation, we cannot use the normal distribution to find the probability of the sample happening, if the population mean is correct.\n\nTherefore, the accountant is unable to make the claim that the IRS made is incorrect.\n\nChoice 'A' is correct.",
-  "distractor_explanations": {},
+  "solution": "Very rarely will a sample mean equal the population mean, due to sampling variability. Therefore, the accountant's sample is simply a statistic because it describes the sample. Since we do not know the standard deviation, we cannot use the normal distribution to find the probability of the sample happening, if the population mean is correct.\n\nTherefore, the accountant is unable to make the claim that the IRS made is incorrect.\n\nChoice 'A' is correct.",
+  "explanations": {},
   "tags": [
-    "VAR-1.J",
-    "VAR-1.J.1",
-    "1.A",
-    "VAR-1"
-  ],
-  "standards": [
     "VAR-1.J",
     "VAR-1.J.1",
     "1.A",

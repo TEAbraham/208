@@ -1,10 +1,16 @@
 {
   "question_id": "question-201",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "properties"
+  ],
   "title": "Definition: True Statements of Standard Normal Distribution",
   "difficulty": "Easy",
-  "question_text": "Which of the following statements is/are true concerning the standard normal distribution? I. It is symmetric. II. It always has a mean of $0$ and standard deviation of $1$ . III. It is normal only if the sample size is large enough (say, more than $30$ ).",
+  "question_text": "Which of the following statements is/are true concerning the standard normal distribution?\nI. It is symmetric.\nII. It always has a mean of $0$ and standard deviation of $1$.\nIII. It is normal only if the sample size is large enough (say, more than $30$).",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,15 +35,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "2.D",
-    "VAR-2.A.1",
-    "VAR-2",
-    "VAR-2.A",
-    "VAR-2.A.2"
-  ],
-  "standards": [
     "2.D",
     "VAR-2.A.1",
     "VAR-2",

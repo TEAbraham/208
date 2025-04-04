@@ -1,42 +1,42 @@
 {
   "question_id": "question-117",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "probability",
+    "law-large-numbers"
+  ],
   "title": "Spinning the Roulette Wheel and the Law of Large Numbers",
-  "difficulty": "Moderate",
-  "question_text": "In the game of American roulette, a small ball will randomly land inside one of $38$ colored and numbered pockets on a spinning wheel. Two of these numbered pockets are green, $18$ are red, and $18$ are black. In a large casino, the wheel is spun several hundred times per day. Based on the Law of Large Numbers, which of the following situations is most likely to occur?",
+  "difficulty": "Medium",
+  "question_text": "In the game of American roulette, a small ball will randomly land inside one of $38$ colored and numbered pockets on a spinning wheel. Two of these numbered pockets are green, $18$ are red, and $18$ are black. In a large casino, the wheel is spun several hundred times per day.\nBased on the Law of Large Numbers, which of the following situations is most likely to occur?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "2 2 out of the first 38 spins 38 spins of the wheel on any given day should result in the ball landing in a green pocket."
+      "text": "$2$ out of the first $38\\text{ spins}$ of the wheel on any given day should result in the ball landing in a green pocket."
     },
     {
       "letter": "B",
-      "text": "Approximately 5.3 % 5.3 % of all spins of the wheel during the year should result in the ball landing in a green pocket."
+      "text": "Approximately $5.3\\%$ of all spins of the wheel during the year should result in the ball landing in a green pocket."
     },
     {
       "letter": "C",
-      "text": "The probability that the ball will land in a green pocket on any given spin of the wheel is 1 19 1 19 ."
+      "text": "The probability that the ball will land in a green pocket on any given spin of the wheel is $\\frac{1}{19}$."
     },
     {
       "letter": "D",
-      "text": "Approximately 1 19 1 19 of the spins of the wheel on any given day should result in the ball landing in a green pocket."
+      "text": "Approximately $\\frac{1}{19}$ of the spins of the wheel on any given day should result in the ball landing in a green pocket."
     },
     {
       "letter": "E",
-      "text": "On any given spin of the wheel, approximately 5.3 % 5.3 % of people who bet that the ball will land in a green pocket will win their bet."
+      "text": "On any given spin of the wheel, approximately 5.3% of people who bet that the ball will land in a green pocket will win their bet."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-5.D.1",
-    "VAR-5.D",
-    "4.B",
-    "VAR-5"
-  ],
-  "standards": [
     "VAR-5.D.1",
     "VAR-5.D",
     "4.B",

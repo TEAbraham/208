@@ -1,24 +1,31 @@
 {
   "question_id": "question-038",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "categorical-data",
+    "relative-frequency",
+    "bar-charts",
+    "proportion"
+  ],
   "title": "401k Participation",
-  "difficulty": "Moderate",
-  "question_text": "In a large company, employees can participate in the company sponsored $401$ k program. The following bar graph displays the relative frequency of employees that take advantage of the $401$ k program broken down by department. Which of the following statements is supported by the bar chart?",
+  "difficulty": "Medium",
+  "question_text": "In a large company, employees can participate in the company sponsored $401$k program. The following bar graph displays the relative frequency of employees that take advantage of the $401$k program broken down by department.\nWhich of the following statements is supported by the bar chart?",
   "image_files": [
     "images/question-038-img1.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Over half of the Sales department participate in the 401 401 k program."
+      "text": "Over half of the Sales department participate in the 401\nk program."
     },
     {
       "letter": "B",
-      "text": "Accounting/Finance has the most people participating in the 401 401 k program."
+      "text": "Accounting/Finance has the most people participating in the 401\nk program."
     },
     {
       "letter": "C",
-      "text": "The number of people participating in the 401 401 k program is equal for Human Resources and IT."
+      "text": "The number of people participating in the 401\nk program is equal for Human Resources and IT."
     },
     {
       "letter": "D",
@@ -26,23 +33,13 @@
     },
     {
       "letter": "E",
-      "text": "The relative frequency of the Sales and IT employees who participate combined is 0.40 0.40 ."
+      "text": "The relative frequency of the Sales and IT employees who participate combined is 0.40\n."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.E",
-    "UNC-1.D",
-    "2.D",
-    "2.A",
-    "UNC-1.D.1",
-    "UNC-1.C",
-    "UNC-1.E.1",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.E",
     "UNC-1.D",
     "2.D",

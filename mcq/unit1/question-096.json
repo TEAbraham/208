@@ -1,10 +1,20 @@
 {
   "question_id": "question-096",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "graphical-displays-of-data",
+    "mean",
+    "univariate-data",
+    "standard-deviation",
+    "exploring-data",
+    "outliers",
+    "interquartile-range"
+  ],
   "title": "Outlier Effect on Data",
-  "difficulty": "Moderate",
-  "question_text": "Which of the following values is LEAST affected if an extremely low outlier is added to a large  set of data?",
+  "difficulty": "Medium",
+  "question_text": "Which of the following values is LEAST affected if an extremely low outlier is added to a large set of data?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -27,16 +37,10 @@
       "text": "The standard deviation."
     }
   ],
-  "correct_answer": "The correct answer in this case is Choice 'C' .",
+  "correct_answer": "The correct answer in this case is Choice 'C'.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "UNC-1.K",
-    "UNC-1.K.2",
-    "UNC-1"
-  ],
-  "standards": [
     "4.B",
     "UNC-1.K",
     "UNC-1.K.2",

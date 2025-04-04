@@ -1,43 +1,43 @@
 {
   "question_id": "question-114",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "standard-deviation",
+    "least-squares-regression-line",
+    "bivariate-data",
+    "exploring-data"
+  ],
   "title": "Finding the Equation of an LSRL Using Means and SD",
-  "difficulty": "Difficult",
-  "question_text": "Consider a set of $n$ ordered pairs given by: $$({ x }_{ 1 },y_{ 1 }), ({ x }_{ 2 },y_{ 2 }), ({ x }_{ 3 },y_{ 3 }),...,({ x }_{ n },y_{ n })$$ The mean and standard deviation of the $x$ -values are $\\bar { x } =10$ and ${ s }_{ x }=12$ . The mean and standard deviation of the $y$ -values $\\bar { y } =15$ and ${ s }_{ y }=6$ . Which of the following could represent the least squares regression line?",
+  "difficulty": "Hard",
+  "question_text": "Consider a set of $n$ ordered pairs given by:\n$$({ x }_{ 1 },y_{ 1 }), ({ x }_{ 2 },y_{ 2 }), ({ x }_{ 3 },y_{ 3 }),...,({ x }_{ n },y_{ n })$$\nThe mean and standard deviation of the $x$-values are $\\bar { x } =10$ and ${ s }_{ x }=12$.\nThe mean and standard deviation of the $y$-values $\\bar { y } =15$ and ${ s }_{ y }=6$.\nWhich of the following could represent the least squares regression line?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "ˆ y = − 25 + 4 x y ^ = − 25 + 4 x"
+      "text": "$\\widehat { y } =-25+4x$"
     },
     {
       "letter": "B",
-      "text": "^ y = 8 + 0.5 x y ^ = 8 + 0.5 x"
+      "text": "$\\hat { y } = 8 + 0.5x$"
     },
     {
       "letter": "C",
-      "text": "^ y = 6 + 2 x y ^ = 6 + 2 x"
+      "text": "$\\hat { y } = 6+2x$"
     },
     {
       "letter": "D",
-      "text": "^ y = 4 x y ^ = 4 x"
+      "text": "$\\hat { y } = 4x$"
     },
     {
       "letter": "E",
-      "text": "ˆ y = 11 + 0.4 x y ^ = 11 + 0.4 x"
+      "text": "$\\widehat { y } =11+0.4x$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-1.G.1",
-    "DAT-1.G.2",
-    "2.C",
-    "DAT-1",
-    "DAT-1.G"
-  ],
-  "standards": [
     "DAT-1.G.1",
     "DAT-1.G.2",
     "2.C",

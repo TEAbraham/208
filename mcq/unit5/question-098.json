@@ -1,42 +1,42 @@
 {
   "question_id": "question-098",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sample-proportion",
+    "sampling-distributions"
+  ],
   "title": "Smoking Habits | 2 of 2",
-  "difficulty": "Difficult",
-  "question_text": "Last week, a random sample of size $300$ found that $31\\%$ of people smoke cigarettes on a weekly basis. This compares to $35\\%$ nationally. Suppose the sample was increased to $3{,}000$ people. To be as unlikely as the $31\\%$ sample proportion found for a sample of size $n=300$ , how much below the population proportion of $35\\%$ must the sample of $n=3{,}000$ be?",
+  "difficulty": "Hard",
+  "question_text": "Last week, a random sample of size $300$ found that $31\\%$ of people smoke cigarettes on a weekly basis. This compares to $35\\%$ nationally.\nSuppose the sample was increased to $3{,}000$ people.\nTo be as unlikely as the $31\\%$ sample proportion found for a sample of size $n=300$, how much below the population proportion of $35\\%$ must the sample of $n=3{,}000$ be?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "4 % 4 %"
+      "text": "$4\\%$"
     },
     {
       "letter": "B",
-      "text": "4 % 10 = 2.5 % 4 % 10 = 2.5 %"
+      "text": "$\\dfrac{4\\%}{10} = 2.5\\%$"
     },
     {
       "letter": "C",
-      "text": "0.4 % 0.4 %"
+      "text": "$0.4\\%$"
     },
     {
       "letter": "D",
-      "text": "1.263 % 1.263 %"
+      "text": "$1.263\\%$"
     },
     {
       "letter": "E",
-      "text": "0.15 % 0.15 % according to the 68 − 95 − 99.7 68 − 95 − 99.7 rule."
+      "text": "$0.15\\%$ according to the $68-95-99.7$ rule."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.K.1",
-    "UNC-3",
-    "3.B",
-    "UNC-3.K"
-  ],
-  "standards": [
     "UNC-3.K.1",
     "UNC-3",
     "3.B",

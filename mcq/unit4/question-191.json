@@ -1,42 +1,42 @@
 {
   "question_id": "question-191",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "calculating-probability",
+    "anticipating-patterns",
+    "probability"
+  ],
   "title": "System Failure",
-  "difficulty": "Moderate",
-  "question_text": "A toolmaker fabricates an item that has a system of $4$ O-rings. Each O-ring has a probability of $0.95$ of properly functioning. Assume that each O-ring operates independently of the others, and the entire system fails if one or more of the O-rings fail. What is the probability that the system functions properly?",
+  "difficulty": "Medium",
+  "question_text": "A toolmaker fabricates an item that has a system of $4$ O-rings.\nEach O-ring has a probability of $0.95$ of properly functioning. Assume that each O-ring operates independently of the others, and the entire system fails if one or more of the O-rings fail.\nWhat is the probability that the system functions properly?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.95 0.95"
+      "text": "$0.95$"
     },
     {
       "letter": "B",
-      "text": "0.815 0.815"
+      "text": "$0.815$"
     },
     {
       "letter": "C",
-      "text": "0.75 0.75"
+      "text": "0.75"
     },
     {
       "letter": "D",
-      "text": "0.05 0.05"
+      "text": "0.05"
     },
     {
       "letter": "E",
-      "text": "0.185 0.185"
+      "text": "0.185"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.C.1",
-    "UNC-3",
-    "3.B",
-    "UNC-3.C"
-  ],
-  "standards": [
     "UNC-3.C.1",
     "UNC-3",
     "3.B",

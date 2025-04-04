@@ -1,42 +1,42 @@
 {
   "question_id": "question-166",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "simulation",
+    "probability"
+  ],
   "title": "Probability of $5$ Heads",
   "difficulty": "Easy",
-  "question_text": "A fair coin is tossed $8\\text{ times}$ . What is the probability that $5$ of the resulting tosses land on heads?",
+  "question_text": "A fair coin is tossed $8\\text{ times}$.\nWhat is the probability that $5$ of the resulting tosses land on heads?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "( 8 5 ) ⋅ ( 0.5 3 ) ⋅ ( 0.5 5 ) ( 8 5 ) ⋅ ( 0.5 3 ) ⋅ ( 0.5 5 )"
+      "text": "$\\dbinom{8}{5}\\cdot (0.5^3) \\cdot (0.5^5)$"
     },
     {
       "letter": "B",
-      "text": "( 8 5 ) ⋅ ( 0.5 3 ) ⋅ ( 0.5 8 ) ( 8 5 ) ⋅ ( 0.5 3 ) ⋅ ( 0.5 8 )"
+      "text": "$\\dbinom{8}{5} \\cdot (0.5^3) \\cdot (0.5^8)$"
     },
     {
       "letter": "C",
-      "text": "0.5 3 ⋅ 0.5 5 0.5 3 ⋅ 0.5 5"
+      "text": "$0.5^3 \\cdot 0.5^5$"
     },
     {
       "letter": "D",
-      "text": "8 ⋅ 0.5 3 ⋅ 0.5 5 8 ⋅ 0.5 3 ⋅ 0.5 5"
+      "text": "$8 \\cdot 0.5^3 \\cdot 0.5^5$"
     },
     {
       "letter": "E",
-      "text": "( 5 8 ) ⋅ ( 0.5 3 ) ⋅ ( 0.5 8 ) ( 5 8 ) ⋅ ( 0.5 3 ) ⋅ ( 0.5 8 )"
+      "text": "$\\dbinom{5}{8} \\cdot (0.5^3) \\cdot (0.5^8)$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.B",
-    "3.A",
-    "UNC-3",
-    "UNC-3.B.1"
-  ],
-  "standards": [
     "UNC-3.B",
     "3.A",
     "UNC-3",

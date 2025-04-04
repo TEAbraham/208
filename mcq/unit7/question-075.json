@@ -1,42 +1,42 @@
 {
   "question_id": "question-075",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
   "title": "Hypothesis Setup",
-  "difficulty": "Moderate",
-  "question_text": "A local sandwich shop decided to slash their prices in an attempt to increase weekly sales. Historically, their gross sales have been $\\$6{,}515$ per week. Since slashing their prices, the last $10\\text{ weeks}$ have averaged $\\$6{,}879$ per week in sales with a standard deviation of $\\$400$ . If the manager wishes to test whether the sales promotion was successful, what would the appropriate null and alternative hypotheses be?",
+  "difficulty": "Medium",
+  "question_text": "A local sandwich shop decided to slash their prices in an attempt to increase weekly sales.\nHistorically, their gross sales have been $\\$6{,}515$ per week. Since slashing their prices, the last $10\\text{ weeks}$ have averaged $\\$6{,}879$ per week in sales with a standard deviation of $\\$400$.\nIf the manager wishes to test whether the sales promotion was successful, what would the appropriate null and alternative hypotheses be?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "H 0 : μ = 0 H 0 : μ = 0 H a : μ > 0 H a : μ > 0"
+      "text": "${ H }_{ 0 }: \\mu = 0$\n${ H }_{ a }: \\mu > 0$"
     },
     {
       "letter": "B",
-      "text": "H 0 : μ = 6515 H 0 : μ = 6515 H a : μ ≠ 6515 H a : μ ≠ 6515"
+      "text": "${ H }_{ 0 }: \\mu = 6515$\n${ H }_{ a }: \\mu ≠ 6515$"
     },
     {
       "letter": "C",
-      "text": "H 0 : μ = 6515 H 0 : μ = 6515 H a : μ > 6515 H a : μ > 6515"
+      "text": "${ H }_{ 0 }: \\mu = 6515$\n${ H }_{ a }: \\mu > 6515$"
     },
     {
       "letter": "D",
-      "text": "H 0 : μ = 6879 H 0 : μ = 6879 H a : μ ≥ 6879 H a : μ ≥ 6879"
+      "text": "${ H }_{ 0 }: \\mu = 6879$\n${ H }_{ a }: \\mu ≥ 6879$"
     },
     {
       "letter": "E",
-      "text": "H 0 : μ = 6879 H 0 : μ = 6879 H a : μ ≠ 6879 H a : μ ≠ 6879"
+      "text": "${ H }_{ 0 }: \\mu = 6879$\n${ H }_{ a }: \\mu ≠ 6879$"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-3.F",
-    "4.E",
-    "DAT-3",
-    "DAT-3.F.1"
-  ],
-  "standards": [
     "DAT-3.F",
     "4.E",
     "DAT-3",

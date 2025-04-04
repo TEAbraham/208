@@ -1,10 +1,16 @@
 {
   "question_id": "question-038",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "methods-of-data-collection",
+    "sampling-and-experimentation",
+    "sample-survey"
+  ],
   "title": "Types of Sampling: Self-Defense",
   "difficulty": "Easy",
-  "question_text": "A large company wants to conduct a survey to determine the proportion of its female employees who practice self-defense  on a daily basis. $4$ of its regional offices are  randomly selected  and all of the women in those offices are surveyed. This plan is an example of which type of sampling?",
+  "question_text": "A large company wants to conduct a survey to determine the proportion of its female employees who practice self-defense on a daily basis. $4$ of its regional offices are randomly selected and all of the women in those offices are surveyed.\nThis plan is an example of which type of sampling?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -16,7 +22,7 @@
     },
     {
       "letter": "C",
-      "text": "A simple  random sample."
+      "text": "A simple random sample."
     },
     {
       "letter": "D",
@@ -29,14 +35,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-2.C.4",
-    "DAT-2",
-    "1.C",
-    "DAT-2.C"
-  ],
-  "standards": [
     "DAT-2.C.4",
     "DAT-2",
     "1.C",

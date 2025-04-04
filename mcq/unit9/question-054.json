@@ -1,42 +1,42 @@
 {
   "question_id": "question-054",
   "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
   "title": "Test and Degrees of Freedom: English vs. Math",
-  "difficulty": "Moderate",
-  "question_text": "Some people claim that you can't be good at both Math and English.  Lewis wondered about this and decided to investigate whether or not there was a relationship between a student's final grade (out of $100\\%$ ) in Math and the student's final grade (out of $100\\%$ ) in English during his/her freshman year of high school. He gathered a random sample of $25\\text{ students}$ who had just completed their freshman year at his high school and recorded both their final grade in Math and their final grade in English (both in percents). If Lewis is willing to accept that his sample is representative of what would be found in other high schools as well and assumes that all conditions for inference are met, what type of test should he conduct AND how many degrees of freedom should he use? ​",
+  "difficulty": "Medium",
+  "question_text": "Some people claim that you can't be good at both Math and English. Lewis wondered about this and decided to investigate whether or not there was a relationship between a student's final grade (out of $100\\%$) in Math and the student's final grade (out of $100\\%$) in English during his/her freshman year of high school.\nHe gathered a random sample of $25\\text{ students}$ who had just completed their freshman year at his high school and recorded both their final grade in Math and their final grade in English (both in percents).\nIf Lewis is willing to accept that his sample is representative of what would be found in other high schools as well and assumes that all conditions for inference are met, what type of test should he conduct AND how many degrees of freedom should he use?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Lewis should conduct a 1 1 -sample z z -test for proportions.  Since he will use a z z -test, there is no need to identify degrees of freedom."
+      "text": "Lewis should conduct a $1$-sample $z$-test for proportions. Since he will use a $z$-test, there is no need to identify degrees of freedom."
     },
     {
       "letter": "B",
-      "text": "Lewis should conduct a 2 2 -sample t t -test for means and should use 24 24 degrees of freedom."
+      "text": "Lewis should conduct a $2$-sample $t$-test for means and should use $24$ degrees of freedom."
     },
     {
       "letter": "C",
-      "text": "Lewis should conduct a t t -test for the slope of his LSRL and should use 23 23 degrees of freedom."
+      "text": "Lewis should conduct a $t$-test for the slope of his LSRL and should use $23$ degrees of freedom."
     },
     {
       "letter": "D",
-      "text": "Lewis should conduct a χ 2 χ 2 test for association/independence.  Since there are 2 subjects 2 subjects being compared (Math and English) and there are 101 possible final grades 101 possible final grades (in percents from 0 % 0 % to 100 % 100 % ), he should use ( 2 − 1 ) ( 101 − 1 ) = 100 degrees of freedom ( 2 − 1 ) ( 101 − 1 ) = 100 degrees of freedom ."
+      "text": "Lewis should conduct a ${ \\chi }^{ 2 }$ test for association/independence. Since there are $2\\text{ subjects}$ being compared (Math and English) and there are $101\\text{ possible final grades}$ (in percents from $0\\%$ to $100\\%$), he should use $(2-1)(101-1)=100\\text{ degrees of freedom}$."
     },
     {
       "letter": "E",
-      "text": "Lewis should conduct a χ 2 χ 2 test for homogeneity of populations.  Since there are 2 2 populations being compared (those who do well in Math and those who do well in English) and there are 101 possible final grades 101 possible final grades (in percents from 0 % 0 % to 100 % 100 % ), he should use ( 2 − 1 ) ( 101 − 1 ) = 100 degrees of freedom ( 2 − 1 ) ( 101 − 1 ) = 100 degrees of freedom ."
+      "text": "Lewis should conduct a ${ \\chi }^{ 2 }$ test for homogeneity of populations. Since there are $2$ populations being compared (those who do well in Math and those who do well in English) and there are $101\\text{ possible final grades}$ (in percents from $0\\%$ to $100\\%$), he should use $(2-1)(101-1)=100\\text{ degrees of freedom}$."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-7.M",
-    "VAR-7",
-    "3.E",
-    "VAR-7.M.2"
-  ],
-  "standards": [
     "VAR-7.M",
     "VAR-7",
     "3.E",

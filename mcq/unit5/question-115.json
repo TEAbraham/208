@@ -1,0 +1,44 @@
+{
+  "question_id": "question-115",
+  "unit": "AP® Statistics | Unit 5 Assessment",
+  "topics": [
+    "difference-two-proportions",
+    "sampling-distributions"
+  ],
+  "title": "Oak Forest",
+  "difficulty": "Medium",
+  "question_text": "The proportion of red oak trees on the west-facing slope of a 200 acre forest is known to be pw=0.82. The east-facing slope has known proportion of pe=0.73. The numbers of trees per acre in this densely packed forest is 550. A research team tags a random sample of 56 trees from the west-facing slope and an additional random sample of 40 trees from the east-facing slope.\nWhat is the probability that the difference between the proportion of red oaks in the west and east samples,\nˆ\np\nw−\nˆ\np\ne, is more than 25%?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "P(\nˆ\np\nw−\nˆ\np\ne>0.25)≈0.0004"
+    },
+    {
+      "letter": "B",
+      "text": "P(\nˆ\np\nw−\nˆ\np\ne>0.25)≈0.0038"
+    },
+    {
+      "letter": "C",
+      "text": "P\n(\n^\np\nw\n−\n^\np\ne\n>\n0.25\n)\n≈\n0.0329"
+    },
+    {
+      "letter": "D",
+      "text": "P\n(\n^\np\nw\n−\n^\np\ne\n>\n0.25\n)\n≈\n0"
+    },
+    {
+      "letter": "E",
+      "text": "The answer cannot be computed because the population distribution of the difference between the proportion of west and east facing slope red oaks is unknown."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-3.P.1",
+    "UNC-3",
+    "UNC-3.P"
+  ]
+}

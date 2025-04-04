@@ -1,10 +1,17 @@
 {
   "question_id": "question-183",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "center-spread",
+    "univariate-data",
+    "comparing-distributions",
+    "exploring-data"
+  ],
   "title": "Different Measures of Center",
-  "difficulty": "Moderate",
+  "difficulty": "Medium",
   "question_text": "If two or more distributions are known to have measures of center that are significantly different from each other, then",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -20,7 +27,7 @@
     },
     {
       "letter": "D",
-      "text": "The net difference of the means of the distributions will be close to or equal to 0 0 ."
+      "text": "The net difference of the means of the distributions will be close to or equal to $0$."
     },
     {
       "letter": "E",
@@ -29,14 +36,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.O",
-    "2.D",
-    "UNC-1.O.1",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.O",
     "2.D",
     "UNC-1.O.1",

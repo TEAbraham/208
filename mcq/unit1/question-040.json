@@ -1,16 +1,15 @@
 {
   "question_id": "question-040",
   "unit": "Unit 1 | Exploring One-Variable Data",
-  "title": "Burger Sides: Creating a Frequency Graph",
-  "difficulty": "Moderate",
-  "question_text": "What would you like with your burger? A random sample of individuals were surveyed and asked to identify which of five possible side dishes they would most enjoy with a burger.  From the $250$ responses received, $34\\%$ said \"fries\", $16\\%$ said\" cole slaw\", $24\\%$ said \"chips\", $20\\%$ said\" onion rings\", and the rest said \"salad\". Which of the following graphs correctly represents the frequency of each response?",
-  "image_files": [
-    "images/question-040-img1.png",
-    "images/question-040-img2.png",
-    "images/question-040-img3.png",
-    "images/question-040-img4.png",
-    "images/question-040-img5.png"
+  "topics": [
+    "bar-graph",
+    "categorical-data"
   ],
+  "title": "Burger Sides: Creating a Frequency Graph",
+  "difficulty": "Medium",
+  "question_text": "What would you like with your burger?\nA random sample of individuals were surveyed and asked to identify which of five possible side dishes they would most enjoy with a burger. From the $250$ responses received, $34\\%$ said \"fries\", $16\\%$ said\" cole slaw\", $24\\%$ said \"chips\", $20\\%$ said\" onion rings\", and the rest said \"salad\".\nWhich of the following graphs correctly represents the frequency of each response?",
+  "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -35,16 +34,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.C.3",
-    "UNC-1.C.2",
-    "2.B",
-    "UNC-1.C.1",
-    "UNC-1.C",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.C.3",
     "UNC-1.C.2",
     "2.B",

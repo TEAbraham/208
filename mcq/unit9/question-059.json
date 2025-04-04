@@ -1,43 +1,45 @@
 {
   "question_id": "question-059",
   "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "regression-slope-t-test",
+    "least-squares-regression-line"
+  ],
   "title": "Finding the Slope Test Statistic: Height vs Wingspan",
-  "difficulty": "Moderate",
-  "question_text": "NBA scouts are always interested in the relationship between the height of NBA players and their respective wingspans. An NBA scout randomly selects $19$ players and measures their heights and wingspans. Below is the computer regression analysis of height and wingspan. Dependent variable is wingspan. $R^2 = 0.787$ $S = 2.23$ Degrees of Freedom = $17$ Variable Coefficient SE(Coeff) t-ratio P-value Constant -2.273 0.945 -2.405 <0.014 Height 1.084 0.24 4.52 <0.0001 Assuming all the conditions for inference are met, which of the following represents the test statistic for testing the  null hypothesis that the slope of the population regression line equals $0$ ?",
+  "difficulty": "Medium",
+  "question_text": "NBA scouts are always interested in the relationship between the height of NBA players and their respective wingspans. An NBA scout randomly selects $19$ players and measures their heights and wingspans. Below is the computer regression analysis of height and wingspan.\nDependent variable is wingspan.\n$R^2 = 0.787$\n$S = 2.23$\nDegrees of Freedom = $17$\nVariable Coefficient SE(Coeff) t-ratio P-value\nConstant -2.273 0.945 -2.405 <0.014\nHeight 1.084 0.24 4.52 <0.0001\n\n\nAssuming all the conditions for inference are met, which of the following represents the test statistic for testing the null hypothesis that the slope of the population regression line equals $0$?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">Coefficient</th><th scope=\"col\">SE(Coeff)</th><th scope=\"col\">t-ratio</th><th scope=\"col\">P-value</th></tr></thead><tbody><tr><td>Constant</td><td>-2.273</td><td>0.945</td><td>-2.405</td><td>&lt;0.014</td></tr><tr><td>Height</td><td>1.084</td><td>0.24</td><td>4.52</td><td>&lt;0.0001</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "1.084 0.24 1.084 0.24"
+      "text": "$\\dfrac { 1.084 }{ 0.24 } $"
     },
     {
       "letter": "B",
-      "text": "1.084 0.24 √ 19 1.084 0.24 19"
+      "text": "$\\dfrac { 1.084 }{ \\dfrac { 0.24 }{ \\sqrt { 19 } } } $"
     },
     {
       "letter": "C",
-      "text": "− 2.273 0.945 − 2.273 0.945"
+      "text": "$\\dfrac { -2.273}{ 0.945 } $"
     },
     {
       "letter": "D",
-      "text": "− 2.273 0.945 √ 19 − 2.273 0.945 19"
+      "text": "$\\dfrac { -2.273 }{ \\dfrac { 0.945 }{ \\sqrt { 19 } } } $"
     },
     {
       "letter": "E",
-      "text": "− 2.273 1.084 − 2.273 1.084"
+      "text": "$\\dfrac { -2.273 }{ 1.084 } $"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-7.M",
-    "VAR-7",
-    "3.E",
-    "VAR-7.M.1",
-    "VAR-7.M.2"
-  ],
-  "standards": [
     "VAR-7.M",
     "VAR-7",
     "3.E",

@@ -1,10 +1,17 @@
 {
   "question_id": "question-099",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "graphical-displays-of-data",
+    "univariate-data",
+    "exploring-data",
+    "outliers"
+  ],
   "title": "The Truth about Outliers Part Two",
-  "difficulty": "Moderate",
-  "question_text": "Which of the following statements is TRUE? I. An outlier in a distribution could mean that the data point was entered incorrectly. II. An outlier should always be deleted from the data set so that it does not influence the mean too much. III. When describing a distribution, an outlier should always be mentioned as a second cluster.",
+  "difficulty": "Medium",
+  "question_text": "Which of the following statements is TRUE?\nI. An outlier in a distribution could mean that the data point was entered incorrectly.\nII. An outlier should always be deleted from the data set so that it does not influence the mean too much.\nIII. When describing a distribution, an outlier should always be mentioned as a second cluster.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +36,8 @@
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "UNC-1.K",
-    "UNC-1.K.1",
-    "UNC-1"
-  ],
-  "standards": [
     "4.B",
     "UNC-1.K",
     "UNC-1.K.1",

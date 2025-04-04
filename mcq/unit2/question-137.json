@@ -1,0 +1,45 @@
+{
+  "question_id": "question-137",
+  "unit": "AP® Statistics | Unit 2 Assessment",
+  "topics": [
+    "residual-plots",
+    "least-squares-regression-line",
+    "residuals"
+  ],
+  "title": "Mushroom Hunting",
+  "difficulty": "Hard",
+  "question_text": "A common tradition in the Midwest is hunting for Morel mushrooms during springtime. These mushrooms only grow during certain weather conditions and in certain locations. A mushroom hunter wonders about the production from a location in his local forest. He gathers historical data regarding the amount of rainfall (in inches) and the amount of mushrooms (in ounces) from a mushroom tracking website and finds a least-squares regression line of:\n$$\\hat{y} = 18.2 + 0.85(x)$$\n...where $x =$ the amount of rain in inches and $y =$ the amount of mushrooms in ounces. In the most recent year, the forest received $3$ inches of rain and produced $20.2$ ounces of mushrooms.\nWhich of the following is true about the mushroom production?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The graph of the mushroom production will have a negative direction."
+    },
+    {
+      "letter": "B",
+      "text": "If the forest receives $0$ inches of rain, it will still produce $18.2$ ounces of mushrooms."
+    },
+    {
+      "letter": "C",
+      "text": "The hunter should hope for seasons that have low amount of rain."
+    },
+    {
+      "letter": "D",
+      "text": "The actual amount of mushrooms for the most recent year was more than predicted."
+    },
+    {
+      "letter": "E",
+      "text": "The actual amount of mushrooms for the most recent year was less than predicted."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "When looking at the difference between the actual response variable, $y$, and the predicted response variable, $\\hat{y}$, we want to examine the residual of the data. The formula to find this is\n$$\\text{residual} = y - \\hat{y}$$\n\nThe given least-squares regression line was\n$$\\hat{y} = 18.2 + 0.85(x)$$\nPlugging in our rainfall amount, $x = 3$,\n$$\\hat{y} = 18.2 + 0.85(3)$$\n$$\\hat{y} = 18.2 + 2.55$$\n$$\\hat{y} = 20.75$$\n\nTherefore, to find the residual,\n$$\\text{residual} = y - \\hat{y}$$\n$$\\text{residual} = 20.2 - 20.75$$\n$$\\text{residual} = -0.55$$\n\nTherefore, the actual amount is less than the predicted amount from the least-squares regression line.\n\nChoice 'E' is correct.",
+  "explanations": {},
+  "tags": [
+    "DAT-1.E.1",
+    "DAT-1.E",
+    "DAT-1",
+    "2.B"
+  ]
+}

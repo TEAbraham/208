@@ -1,44 +1,40 @@
 {
   "question_id": "question-118",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [],
   "title": "First-Class Letter Delivery",
-  "difficulty": "Moderate",
-  "question_text": "The U.S. Postal Service recently released data on the number of days it takes for a first-class letter to reach its destination, as shown in the table below. x 1 2 3 4 p(X) 0.42 0.27 0.3 0.01 What are the mean and standard deviation for the number of days it takes for a first-class letter to reach its destination?",
+  "difficulty": "Medium",
+  "question_text": "The U.S. Postal Service recently released data on the number of days it takes for a first-class letter to reach its destination, as shown in the table below.\nx 1 2 3 4\np(X) 0.42 0.27 0.3 0.01\n\n\nWhat are the mean and standard deviation for the number of days it takes for a first-class letter to reach its destination?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">x</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th></tr></thead><tbody><tr><td>p(X)</td><td>0.42</td><td>0.27</td><td>0.3</td><td>0.01</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "μ = 1.9 ; σ = 0.75 μ = 1.9 ; σ = 0.75"
+      "text": "$\\mu = 1.9; \\sigma = 0.75$"
     },
     {
       "letter": "B",
-      "text": "μ = 1.9 ; σ = 0.87 μ = 1.9 ; σ = 0.87"
+      "text": "$\\mu = 1.9; \\sigma = 0.87$"
     },
     {
       "letter": "C",
-      "text": "μ = 2 ; σ = 1 μ = 2 ; σ = 1"
+      "text": "$\\mu = 2; \\sigma = 1$"
     },
     {
       "letter": "D",
-      "text": "μ = 2 ; σ = 1.5 μ = 2 ; σ = 1.5"
+      "text": "$\\mu = 2; \\sigma = 1.5$"
     },
     {
       "letter": "E",
-      "text": "μ = 2.5 ; σ = 1 μ = 2.5 ; σ = 1"
+      "text": "$\\mu = 2.5; \\sigma = 1$"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-5.C.2",
-    "VAR-5.C.3",
-    "VAR-5.C.1",
-    "VAR-5",
-    "3.B",
-    "VAR-5.C"
-  ],
-  "standards": [
     "VAR-5.C.2",
     "VAR-5.C.3",
     "VAR-5.C.1",

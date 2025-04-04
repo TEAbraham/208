@@ -1,42 +1,41 @@
 {
   "question_id": "question-042",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "calculating-probability",
+    "differences-in-sample-means"
+  ],
   "title": "Pick a Hotel",
-  "difficulty": "Moderate",
-  "question_text": "Great Eastern Hotels reported an average stay of $4.8$ nights with a standard deviation of $2.8$ nights, while Motel Seven reported an average stay of $2.2$ nights with a standard deviation of $1.7$ nights.  Random samples of $45$ hotels from each hotel chain were taken by a company that was hired to answer the question:  \"What is the probability that the average stay at a Motel Seven is $3$ nights or less than an average stay at a Great Eastern Hotel?\"  What is that answer?  Round your answer to the nearest percent.",
+  "difficulty": "Medium",
+  "question_text": "Great Eastern Hotels reported an average stay of $4.8$ nights with a standard deviation of $2.8$ nights, while Motel Seven reported an average stay of $2.2$ nights with a standard deviation of $1.7$ nights. Random samples of $45$ hotels from each hotel chain were taken by a company that was hired to answer the question: \"What is the probability that the average stay at a Motel Seven is $3$ nights or less than an average stay at a Great Eastern Hotel?\" What is that answer? Round your answer to the nearest percent.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "21 % 21 %"
+      "text": "$21\\%$"
     },
     {
       "letter": "B",
-      "text": "95 % 95 %"
+      "text": "$95\\%$"
     },
     {
       "letter": "C",
-      "text": "11 % 11 %"
+      "text": "$11\\%$"
     },
     {
       "letter": "D",
-      "text": "89 % 89 %"
+      "text": "$89\\%$"
     },
     {
       "letter": "E",
-      "text": "79 % 79 %"
+      "text": "$79\\%$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "UNC-3",
-    "UNC-3.V",
-    "UNC-3.V.1"
-  ],
-  "standards": [
     "4.B",
     "UNC-3",
     "UNC-3.V",

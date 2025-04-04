@@ -1,10 +1,16 @@
 {
   "question_id": "question-029",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "anticipating-patterns",
+    "sampling-distributions",
+    "t-distribution"
+  ],
   "title": "Changes in $t$-distribution with Decrease of D.O.F.",
-  "difficulty": "Difficult",
-  "question_text": "Which of the following correctly describes the changes in the $t$ -distribution when the degrees of freedom decreases?",
+  "difficulty": "Hard",
+  "question_text": "Which of the following correctly describes the changes in the $t$-distribution when the degrees of freedom decreases?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +35,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-7",
-    "VAR-7.A",
-    "3.C",
-    "VAR-7.A.2"
-  ],
-  "standards": [
     "VAR-7",
     "VAR-7.A",
     "3.C",

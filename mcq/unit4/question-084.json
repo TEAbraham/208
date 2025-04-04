@@ -1,43 +1,42 @@
 {
   "question_id": "question-084",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "calculating-probability",
+    "anticipating-patterns",
+    "probability"
+  ],
   "title": "March Madness: Probability of a Perfect Bracket",
-  "difficulty": "Moderate",
-  "question_text": "The NCAA Men's Division $I$ Basketball Tournament is popularly known as \"March Madness\" or \"The Big Dance\".  Every year, millions of people \"fill out their brackets\" and try to predict the winner of each and every game.  Of course, some teams in the tournament are better than others and receive a higher seed or ranking at the beginning of the tournament.  The team with the higher seed should theoretically win the game.  However, strange things happen during March Madness! A big believer in the theory that on any given day, either team could win, Jordan wondered about the probability of selecting every winning team in the tournament by selecting the winner of each game at random.  A total of $64$ teams play in the tournament.  The first round of the tournament consists of $32$ games.  The second round consists of $16$ games.  The third round consists of $8$ games.  The next round consists of $4$ games and the round after that consists of $2$ games.   Finally a winner is determined in a single game between $2$ teams. If Jordan is correct and either team is equally likely to win a game, what is the probability of correctly selecting the winner of every game in the tournament by selecting the winning teams randomly?",
+  "difficulty": "Medium",
+  "question_text": "The NCAA Men's Division $I$ Basketball Tournament is popularly known as \"March Madness\" or \"The Big Dance\". Every year, millions of people \"fill out their brackets\" and try to predict the winner of each and every game. Of course, some teams in the tournament are better than others and receive a higher seed or ranking at the beginning of the tournament. The team with the higher seed should theoretically win the game. However, strange things happen during March Madness!\nA big believer in the theory that on any given day, either team could win, Jordan wondered about the probability of selecting every winning team in the tournament by selecting the winner of each game at random. A total of $64$ teams play in the tournament. The first round of the tournament consists of $32$ games. The second round consists of $16$ games. The third round consists of $8$ games. The next round consists of $4$ games and the round after that consists of $2$ games. Finally a winner is determined in a single game between $2$ teams.\nIf Jordan is correct and either team is equally likely to win a game, what is the probability of correctly selecting the winner of every game in the tournament by selecting the winning teams randomly?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "1 64 1 64"
+      "text": "$\\dfrac { 1 }{ { 64} }$"
     },
     {
       "letter": "B",
-      "text": "( 1 63 ) 2 ( 1 63 ) 2"
+      "text": "${ \\left( \\dfrac { 1 }{ 63 } \\right) }^{ 2 } $"
     },
     {
       "letter": "C",
-      "text": "( 1 2 ) 63 ( 1 2 ) 63"
+      "text": "${ \\left( \\dfrac { 1 }{ 2 } \\right) }^{ 63 } $"
     },
     {
       "letter": "D",
-      "text": "( 1 2 ) 64 ( 1 2 ) 64"
+      "text": "${ \\left( \\dfrac { 1 }{ 2 } \\right) }^{ 64 } $"
     },
     {
       "letter": "E",
-      "text": "64 64"
+      "text": "$64$"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-4.E.1",
-    "VAR-4.E",
-    "3.A",
-    "VAR-4.E.2",
-    "VAR-4"
-  ],
-  "standards": [
     "VAR-4.E.1",
     "VAR-4.E",
     "3.A",

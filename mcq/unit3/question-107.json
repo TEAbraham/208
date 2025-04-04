@@ -1,14 +1,21 @@
 {
   "question_id": "question-107",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-experiments",
+    "methods-of-data-collection",
+    "sampling-and-experimentation",
+    "experiment"
+  ],
   "title": "The Thrill of Competition: A Study",
-  "difficulty": "Moderate",
-  "question_text": "Does the thrill of competition help students to complete basic multiplication problems more quickly?  On two separate occasions, $20\\text{ third grade students}$ were asked to complete as many multiplication facts as possible in two minutes and the number they got correct was recorded. On one occasion, they were told that they would be competing against a fellow classmate while on the other occasion they were told to try for a personal best.  For each student, the order in which they were told these statements was determined at random. What type of experimental design is being used and why?",
+  "difficulty": "Medium",
+  "question_text": "Does the thrill of competition help students to complete basic multiplication problems more quickly? On two separate occasions, $20\\text{ third grade students}$ were asked to complete as many multiplication facts as possible in two minutes and the number they got correct was recorded.\nOn one occasion, they were told that they would be competing against a fellow classmate while on the other occasion they were told to try for a personal best. For each student, the order in which they were told these statements was determined at random.\nWhat type of experimental design is being used and why?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "This is not an experiment.  It is an observational study and was done to determine the average number of multiplication facts that third grade students can complete in two minutes."
+      "text": "This is not an experiment. It is an observational study and was done to determine the average number of multiplication facts that third grade students can complete in two minutes."
     },
     {
       "letter": "B",
@@ -29,16 +36,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.D",
-    "VAR-3",
-    "VAR-3.D.1",
-    "1.C",
-    "VAR-3.C.9",
-    "VAR-3.C"
-  ],
-  "standards": [
     "VAR-3.D",
     "VAR-3",
     "VAR-3.D.1",

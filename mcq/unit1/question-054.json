@@ -1,10 +1,15 @@
 {
   "question_id": "question-054",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "continuous-variable",
+    "quantitative-data"
+  ],
   "title": "Continuous Quantitative Variable",
   "difficulty": "Easy",
-  "question_text": "On the first day of AP® Statistics class, a teacher surveyed her students about a variety of topics. Which of the following is a continuous quantitative variable describing the students?",
+  "question_text": "On the first day of AP® Statistics class, a teacher surveyed her students about a variety of topics.\nWhich of the following is a continuous quantitative variable describing the students?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +34,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.F.2",
-    "2.A",
-    "UNC-1.F",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.F.2",
     "2.A",
     "UNC-1.F",

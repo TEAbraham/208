@@ -1,45 +1,46 @@
 {
   "question_id": "question-079",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "graphical-displays-of-data",
+    "center-spread",
+    "univariate-data",
+    "stemplots",
+    "exploring-data"
+  ],
   "title": "Price of Woman's Haircut: A Stemplot",
   "difficulty": "Easy",
-  "question_text": "Lori surveyed a random sample of salons to investigate the price of a woman's haircut in her city.  The data is displayed in the stemplot below. Which of the following provides the $5$ -number summary for this distribution?",
+  "question_text": "Lori surveyed a random sample of salons to investigate the price of a woman's haircut in her city. The data is displayed in the stemplot below.\nWhich of the following provides the $5$-number summary for this distribution?",
   "image_files": [
-    "images/question-079-img1.PNG",
-    "images/question-079-img2.PNG"
+    "images/question-079-img1.PNG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "1 , 2.5 , 4 , 5.5 , 7 1 , 2.5 , 4 , 5.5 , 7"
+      "text": "$1, 2.5, 4, 5.5, 7$"
     },
     {
       "letter": "B",
-      "text": "19 , 30 , 40 , 50 , 78 19 , 30 , 40 , 50 , 78"
+      "text": "19,30,40,50,78"
     },
     {
       "letter": "C",
-      "text": "19 , 35.50 , 44 , 53.50 , 78 19 , 35.50 , 44 , 53.50 , 78"
+      "text": "19,35.50,44,53.50,78"
     },
     {
       "letter": "D",
-      "text": "19 , 36 , 44 , 54 , 78 19 , 36 , 44 , 54 , 78"
+      "text": "19,36,44,54,78"
     },
     {
       "letter": "E",
-      "text": "19 , 33.75 , 48.50 , 63.25 , 78 19 , 33.75 , 48.50 , 63.25 , 78"
+      "text": "19,33.75,48.50,63.25,78"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.I.4",
-    "2.C",
-    "UNC-1.I",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.I.4",
     "2.C",
     "UNC-1.I",

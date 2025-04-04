@@ -1,42 +1,43 @@
 {
   "question_id": "question-030",
   "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "chi-square-test",
+    "chi-square-goodness-of-fit"
+  ],
   "title": "Relating Characteristics of $\\chi^2$",
-  "difficulty": "Moderate",
+  "difficulty": "Medium",
   "question_text": "Which of the following statements about ${ \\chi }^{ 2 }$ tests is false?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "For any particular degrees of freedom, as the value of χ 2 χ 2 increases, the related p p -value will decrease."
+      "text": "For any particular degrees of freedom, as the value of ${ \\chi }^{ 2 }$ increases, the related $p$-value will decrease."
     },
     {
       "letter": "B",
-      "text": "A very large χ 2 χ 2 value indicates that the observed counts were far from what was expected."
+      "text": "A very large ${ \\chi }^{ 2 }$ value indicates that the observed counts were far from what was expected."
     },
     {
       "letter": "C",
-      "text": "A very large χ 2 χ 2 value will probably give us reason to reject our null hypothesis."
+      "text": "A very large ${ \\chi }^{ 2 }$ value will probably give us reason to reject our null hypothesis."
     },
     {
       "letter": "D",
-      "text": "A χ 2 χ 2 value near 0 0 will likely produce a p p -value near 1 1 ."
+      "text": "A ${ \\chi }^{ 2 }$ value near $0$ will likely produce a $p$-value near $1$."
     },
     {
       "letter": "E",
-      "text": "As the sample size increases, the number of degrees of freedom for a χ 2 χ 2 Goodness of Fit Test will also increase."
+      "text": "As the sample size increases, the number of degrees of freedom for a ${ \\chi }^{ 2 }$ Goodness of Fit Test will also increase."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-8.G.1",
-    "VAR-8.G",
-    "3.E",
-    "VAR-8"
-  ],
-  "standards": [
     "VAR-8.G.1",
     "VAR-8.G",
     "3.E",

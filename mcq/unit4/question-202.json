@@ -1,9 +1,15 @@
 {
   "question_id": "question-202",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "geometric",
+    "probability",
+    "discrete-random-variables"
+  ],
   "title": "Geometric vs Binomial Matching Graph",
-  "difficulty": "Difficult",
-  "question_text": "$5000$ samples were  generated.  Which graph  below represents a geometric distribution of $5000$ samples  with $p=0.70$ ?",
+  "difficulty": "Hard",
+  "question_text": "$5000$ samples were generated. Which graph below represents a geometric distribution of $5000$ samples with $p=0.70$?",
   "image_files": [
     "images/question-202-img1.pdf",
     "images/question-202-img2.pdf",
@@ -11,6 +17,7 @@
     "images/question-202-img4.pdf",
     "images/question-202-img5.pdf"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -35,14 +42,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.G.1",
-    "4.B",
-    "UNC-3.G",
-    "UNC-3"
-  ],
-  "standards": [
     "UNC-3.G.1",
     "4.B",
     "UNC-3.G",

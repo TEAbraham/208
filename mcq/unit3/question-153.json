@@ -1,14 +1,20 @@
 {
   "question_id": "question-153",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "randomized-design"
+  ],
   "title": "High School Testing",
-  "difficulty": "Moderate",
-  "question_text": "A professor wanted to know whether a prep course would increase students’ test scores. Twelve subjects were randomly chosen to take the prep course, and they scored an average of $20.3$ with a standard deviation of $8.3\\text{ points}$ . Another $12\\text{ subjects}$ were randomly chosen who were not allowed to take the test prep course, and they scored an average of $18.3$ with a standard deviation of $9.1\\text{ points}$ . Despite these scores, why might the professor not be convinced that the course helps?",
+  "difficulty": "Medium",
+  "question_text": "A professor wanted to know whether a prep course would increase students’ test scores.\nTwelve subjects were randomly chosen to take the prep course, and they scored an average of $20.3$ with a standard deviation of $8.3\\text{ points}$. Another $12\\text{ subjects}$ were randomly chosen who were not allowed to take the test prep course, and they scored an average of $18.3$ with a standard deviation of $9.1\\text{ points}$.\nDespite these scores, why might the professor not be convinced that the course helps?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "A difference of 2 points 2 points on the test is not practically significant."
+      "text": "A difference of $2\\text{ points}$ on the test is not practically significant."
     },
     {
       "letter": "B",
@@ -29,14 +35,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.E",
-    "4.B",
-    "VAR-3",
-    "VAR-3.E.3"
-  ],
-  "standards": [
     "VAR-3.E",
     "4.B",
     "VAR-3",

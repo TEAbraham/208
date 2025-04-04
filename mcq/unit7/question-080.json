@@ -1,42 +1,43 @@
 {
   "question_id": "question-080",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "p-value",
+    "tests-of-significance",
+    "mean",
+    "statistical-inference"
+  ],
   "title": "Experimental $P$-Value",
-  "difficulty": "Moderate",
-  "question_text": "An experiment tests the following: $H_0: \\mu = 17$ vs. $H_a: \\mu \\neq 17$ The standard normal curve is used to find the $p$ -value when the test statistic is $z = 1.71$ . What is the $p$ -value of the experiment?",
+  "difficulty": "Medium",
+  "question_text": "An experiment tests the following:\n$H_0: \\mu = 17$ vs. $H_a: \\mu \\neq 17$\nThe standard normal curve is used to find the $p$-value when the test statistic is $z = 1.71$.\nWhat is the $p$-value of the experiment?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.0346 0.0346"
+      "text": "$0.0346$"
     },
     {
       "letter": "B",
-      "text": "0.0872 0.0872"
+      "text": "$0.0872$"
     },
     {
       "letter": "C",
-      "text": "0.9308 0.9308"
+      "text": "$0.9308$"
     },
     {
       "letter": "D",
-      "text": "0.9654 0.9654"
+      "text": "$0.9654$"
     },
     {
       "letter": "E",
-      "text": "0.17 0.17"
+      "text": "$0.17$"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.E",
-    "DAT-3.E",
-    "DAT-3",
-    "DAT-3.E.1"
-  ],
-  "standards": [
     "4.E",
     "DAT-3.E",
     "DAT-3",

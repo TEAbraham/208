@@ -1,44 +1,42 @@
 {
   "question_id": "question-151",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "descriptive-statistics",
+    "combining-random-variables"
+  ],
   "title": "Combining Standard Deviations: Bananas",
-  "difficulty": "Moderate",
-  "question_text": "A  banana has an average weight  of $4$ ounces and a standard deviation of $0.60$ ounces. What is the standard deviation of the total weight for $3$ bananas?",
+  "difficulty": "Medium",
+  "question_text": "A banana has an average weight of $4$ ounces and a standard deviation of $0.60$ ounces.\nWhat is the standard deviation of the total weight for $3$ bananas?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.35 ounces 0.35 ounces"
+      "text": "$0.35\\text{ ounces}$"
     },
     {
       "letter": "B",
-      "text": "0.60 ounces 0.60 ounces"
+      "text": "$0.60\\text{ ounces}$"
     },
     {
       "letter": "C",
-      "text": "1.04 ounces 1.04 ounces"
+      "text": "$1.04\\text{ ounces}$"
     },
     {
       "letter": "D",
-      "text": "1.08 ounces 1.08 ounces"
+      "text": "$1.08\\text{ ounces}$"
     },
     {
       "letter": "E",
-      "text": "1.80 ounces 1.80 ounces"
+      "text": "$1.80\\text{ ounces}$"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-5.E",
-    "VAR-5.E.2",
-    "VAR-5.E.3",
-    "VAR-5",
-    "3.B",
-    "VAR-5.E.1"
-  ],
-  "standards": [
     "VAR-5.E",
     "VAR-5.E.2",
     "VAR-5.E.3",

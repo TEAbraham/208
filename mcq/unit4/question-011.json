@@ -1,10 +1,15 @@
 {
   "question_id": "question-011",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "simulation",
+    "probability"
+  ],
   "title": "What do You Know?",
   "difficulty": "Easy",
   "question_text": "As defined by the AP® Statistics Course and Exam Description, four of the statements about probability below are true. Which one of the statements below is not true?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +34,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "3.A",
-    "UNC-2.A",
-    "UNC-2",
-    "UNC-2.A.5"
-  ],
-  "standards": [
     "3.A",
     "UNC-2.A",
     "UNC-2",

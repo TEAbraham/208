@@ -1,45 +1,45 @@
 {
   "question_id": "question-143",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "spread",
+    "univariate-data",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
   "title": "Unemployment Rates by State",
-  "difficulty": "Difficult",
-  "question_text": "The July 2015 unemployment rates for the $50\\text{ U.S. States}$ are displayed in the relative cumulative frequency graph below. Based on this graph, what is the best estimate of the median and interquartile range? Created for Albert.io. Copyright 2017. All rights reserved.",
+  "difficulty": "Hard",
+  "question_text": "The July 2015 unemployment rates for the $50\\text{ U.S. States}$ are displayed in the relative cumulative frequency graph below.\nBased on this graph, what is the best estimate of the median and interquartile range?\nCreated for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-143-img1.JPG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Median = 5 % = 5 % IQR = 1 % = 1 %"
+      "text": "Median =5%\n\nIQR =1%"
     },
     {
       "letter": "B",
-      "text": "Median = 5 % = 5 % IQR = 2 % = 2 %"
+      "text": "Median =5%\n\nIQR =2%"
     },
     {
       "letter": "C",
-      "text": "Median = 5 % = 5 % IQR = 5 % = 5 %"
+      "text": "Median\n=\n5\n%\n\nIQR\n=\n5\n%"
     },
     {
       "letter": "D",
-      "text": "Median = 5.2 % = 5.2 % IQR = 1.7 % = 1.7 %"
+      "text": "Median\n=\n5.2\n%\n\nIQR\n=\n1.7\n%"
     },
     {
       "letter": "E",
-      "text": "Median = 5.2 % = 5.2 % IQR = 2.8 % = 2.8 %"
+      "text": "Median\n=\n5.2\n%\n\nIQR\n=\n2.8\n%"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.L.1",
-    "UNC-1.L.2",
-    "2.B",
-    "UNC-1.L",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.L.1",
     "UNC-1.L.2",
     "2.B",

@@ -1,26 +1,34 @@
 {
   "question_id": "question-013",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "margin-of-error",
+    "confidence-interval",
+    "estimation",
+    "statistical-inference",
+    "parameters-margins-error"
+  ],
   "title": "Finding the Margin of Error Given an Interval: Vehicle Speed",
   "difficulty": "Easy",
-  "question_text": "A $95\\%$ confidence interval for a car's average speed (mph) on West Street is $(30,40)$ . From this interval, what is the margin of error for the car's average speed (in mph)?",
+  "question_text": "A $95\\%$ confidence interval for a car's average speed (mph) on West Street is $(30,40)$.\nFrom this interval, what is the margin of error for the car's average speed (in mph)?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "5 mph 5 mph"
+      "text": "$5\\text{ mph}$"
     },
     {
       "letter": "B",
-      "text": "10 mph 10 mph"
+      "text": "$10\\text{ mph}$"
     },
     {
       "letter": "C",
-      "text": "35 mph 35 mph"
+      "text": "$35\\text{ mph}$"
     },
     {
       "letter": "D",
-      "text": "70 mph 70 mph"
+      "text": "$70\\text{ mph}$"
     },
     {
       "letter": "E",
@@ -29,16 +37,8 @@
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-4.Q.3",
-    "3.D",
-    "UNC-4.Q.2",
-    "UNC-4",
-    "UNC-4.Q",
-    "UNC-4.Q.1"
-  ],
-  "standards": [
     "UNC-4.Q.3",
     "3.D",
     "UNC-4.Q.2",

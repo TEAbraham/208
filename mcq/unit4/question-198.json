@@ -1,42 +1,43 @@
 {
   "question_id": "question-198",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "geometric",
+    "probability",
+    "discrete-random-variables"
+  ],
   "title": "Expected Number: Mean Chimpanzees",
   "difficulty": "Easy",
-  "question_text": "Chimpanzees love bananas and also love to fight over them.  A chimpanzee has a $5$ % chance of being able to eat a banana before another chimpanzee steals it from him. Assuming the chimpanzees are independent of one another,  how many chimpanzees do we expect it takes for one ​to finally eat a banana?",
+  "question_text": "Chimpanzees love bananas and also love to fight over them. A chimpanzee has a $5$% chance of being able to eat a banana before another chimpanzee steals it from him.\nAssuming the chimpanzees are independent of one another, how many chimpanzees do we expect it takes for one to finally eat a banana?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "1 1"
+      "text": "$1$"
     },
     {
       "letter": "B",
-      "text": "5 5"
+      "text": "$5$"
     },
     {
       "letter": "C",
-      "text": "19 19"
+      "text": "$19$"
     },
     {
       "letter": "D",
-      "text": "20 20"
+      "text": "$20$"
     },
     {
       "letter": "E",
-      "text": "21 21"
+      "text": "$21$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.E.2",
-    "UNC-3.E",
-    "3.A",
-    "UNC-3"
-  ],
-  "standards": [
     "UNC-3.E.2",
     "UNC-3.E",
     "3.A",

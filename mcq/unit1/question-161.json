@@ -1,12 +1,20 @@
 {
   "question_id": "question-161",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "boxplots",
+    "summarizing-distributions",
+    "comparing-distributions",
+    "exploring-data"
+  ],
   "title": "Boxplot Comparisons: Price of the Sweet Seats",
   "difficulty": "Easy",
-  "question_text": "Manny dreams of seeing a game in every Major League ballpark.  Recently he visited the website for each of the $30$ teams in the Major League and looked at how much it would cost to purchase the best single ticket available at the ballpark.  Boxplots for both the American League (AL) teams and National League (NL) teams are shown below.  Prices are in dollars. Created for Albert.io. Copyright 2016. All rights reserved. Which of the following statements can be justified by a comparison of the boxplots?",
+  "question_text": "Manny dreams of seeing a game in every Major League ballpark. Recently he visited the website for each of the $30$ teams in the Major League and looked at how much it would cost to purchase the best single ticket available at the ballpark. Boxplots for both the American League (AL) teams and National League (NL) teams are shown below. Prices are in dollars.\nCreated for Albert.io. Copyright 2016. All rights reserved.\nWhich of the following statements can be justified by a comparison of the boxplots?",
   "image_files": [
     "images/question-161-img1.PNG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -18,7 +26,7 @@
     },
     {
       "letter": "C",
-      "text": "The 25 th percentile 25 th percentile for the American League is higher than the 25 th percentile 25 th percentile for the National League."
+      "text": "The 25th percentile\nfor the American League is higher than the 25th percentile\nfor the National League."
     },
     {
       "letter": "D",
@@ -31,14 +39,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.N.1",
-    "2.D",
-    "UNC-1.N",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.N.1",
     "2.D",
     "UNC-1.N",

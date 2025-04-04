@@ -1,22 +1,30 @@
 {
   "question_id": "question-022",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "categorical-data",
+    "two-way-tables",
+    "exploring-data"
+  ],
   "title": "Income and Age",
-  "difficulty": "Moderate",
-  "question_text": "< $ 25,000 $ 25,001- $ 50,000 $ 50,001- $ 100,000 $ 100,000+ Ages 25 and under 22 40 7 6 Ages 25-34 19 32 11 8 Ages 35-44 17 18 20 16 Ages 45-54 3 18 40 14 Ages 54 and up 1 16 25 15 A sociologist polled random individuals and asked them their age and annual income. The results are shown in the chart above. Which of the following statements is true concerning data from this chart?",
+  "difficulty": "Medium",
+  "question_text": "< $25,000 $25,001- $50,000 $50,001- $100,000 $100,000+\nAges 25 and under 22 40 7 6\nAges 25-34 19 32 11 8\nAges 35-44 17 18 20 16\nAges 45-54 3 18 40 14\nAges 54 and up 1 16 25 15\n\n\nA sociologist polled random individuals and asked them their age and annual income. The results are shown in the chart above.\nWhich of the following statements is true concerning data from this chart?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">&lt; <span>$</span>25,000</th><th scope=\"col\"><span>$</span>25,001- <span>$</span>50,000</th><th scope=\"col\"><span>$</span>50,001- <span>$</span>100,000</th><th scope=\"col\"><span>$</span>100,000+</th></tr></thead><tbody><tr><td>Ages 25 and under</td><td>22</td><td>40</td><td>7</td><td>6</td></tr><tr><td>Ages 25-34</td><td>19</td><td>32</td><td>11</td><td>8</td></tr><tr><td>Ages 35-44</td><td>17</td><td>18</td><td>20</td><td>16</td></tr><tr><td>Ages 45-54</td><td>3</td><td>18</td><td>40</td><td>14</td></tr><tr><td>Ages 54 and up</td><td>1</td><td>16</td><td>25</td><td>15</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "There seems to be an association between frequency and age, as more individuals polled are under 25 25 years old than any other group."
+      "text": "There seems to be an association between frequency and age, as more individuals polled are under $25$ years old than any other group."
     },
     {
       "letter": "B",
-      "text": "There seems to be a relatively even distribution of income among 35 35 - to 44 44 -year-olds."
+      "text": "There seems to be a relatively even distribution of income among $35$- to $44$-year-olds."
     },
     {
       "letter": "C",
-      "text": "There seems to be a relatively even distribution of ages for those who make $ 25 , 001 $ 25 , 001 to $ 50 , 000 $ 50 , 000 ."
+      "text": "There seems to be a relatively even distribution of ages for those who make $\\$25,001$ to $\\$50,000$."
     },
     {
       "letter": "D",
@@ -29,14 +37,8 @@
   ],
   "correct_answer": "Choice 'B' is correct",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.P",
-    "2.D",
-    "UNC-1.P.3",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.P",
     "2.D",
     "UNC-1.P.3",

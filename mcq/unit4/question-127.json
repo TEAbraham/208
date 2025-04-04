@@ -1,42 +1,48 @@
 {
   "question_id": "question-127",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "univariate-data",
+    "summarizing-distributions",
+    "expected-value",
+    "center",
+    "probability",
+    "exploring-data",
+    "probability-distributions"
+  ],
   "title": "Fannie's Fractals and Her Expected Income",
-  "difficulty": "Difficult",
-  "question_text": "Fannie creates beautiful works of fractal art and spends time traveling around the country to major craft shows where she is able to sell her art. The number of pieces of art that she is able to sell per hour is pretty predictable. The distribution is shown below. # Sold (X) 6 7 8 9 10 P(X) 0.33 0.51 0.12 0.03 0.01 If Fannie sells her art for $\\$25$ per piece, but must pay $\\$200$ to rent space at a craft show, how much on average can she expect to take home from a show that lasts $8\\text{ hours}$ ?",
+  "difficulty": "Hard",
+  "question_text": "Fannie creates beautiful works of fractal art and spends time traveling around the country to major craft shows where she is able to sell her art. The number of pieces of art that she is able to sell per hour is pretty predictable. The distribution is shown below.\n# Sold (X) 6 7 8 9 10\nP(X) 0.33 0.51 0.12 0.03 0.01\n\n\nIf Fannie sells her art for $\\$25$ per piece, but must pay $\\$200$ to rent space at a craft show, how much on average can she expect to take home from a show that lasts $8\\text{ hours}$?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"># Sold (X)</th><th scope=\"col\">6</th><th scope=\"col\">7</th><th scope=\"col\">8</th><th scope=\"col\">9</th><th scope=\"col\">10</th></tr></thead><tbody><tr><td>P(X)</td><td>0.33</td><td>0.51</td><td>0.12</td><td>0.03</td><td>0.01</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "$ 688.00 $ 688.00"
+      "text": "$\\$688.00 $"
     },
     {
       "letter": "B",
-      "text": "$ 1,176.00 $ 1,176.00"
+      "text": "$\\$1{,}176.00 $"
     },
     {
       "letter": "C",
-      "text": "$ 1,200.00 $ 1,200.00"
+      "text": "$\\$1{,}200.00 $"
     },
     {
       "letter": "D",
-      "text": "$ 1,376.00 $ 1,376.00"
+      "text": "$\\$1{,}376.00 $"
     },
     {
       "letter": "E",
-      "text": "$ 1,400.00 $ 1,400.00"
+      "text": "$\\$1{,}400.00 $"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-5.C.2",
-    "VAR-5",
-    "3.B",
-    "VAR-5.C"
-  ],
-  "standards": [
     "VAR-5.C.2",
     "VAR-5",
     "3.B",

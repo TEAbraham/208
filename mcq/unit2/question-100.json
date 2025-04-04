@@ -1,44 +1,42 @@
 {
   "question_id": "question-100",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "least-squares-regression-line",
+    "bivariate-data",
+    "exploring-data"
+  ],
   "title": "Mother's Age and Baby's Birth Weights: A Residual",
   "difficulty": "Easy",
-  "question_text": "Researchers conducting a study to investigate the relationship between a mother's age in years ( $x$ ) and her baby's birth weight in pounds ( $y$ ) found that the relationship could be modeled by the following LSRL: $$\\hat { y } =3.23+0.15x$$ Based on this equation, what would be the residual for a $28$ year old mother who gave birth to a baby weighing $8.0$ pounds?",
+  "question_text": "Researchers conducting a study to investigate the relationship between a mother's age in years ($x$) and her baby's birth weight in pounds ($y$) found that the relationship could be modeled by the following LSRL:\n$$\\hat { y } =3.23+0.15x$$\nBased on this equation, what would be the residual for a $28$ year old mother who gave birth to a baby weighing $8.0$ pounds?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "− 1.14 − 1.14"
+      "text": "$-1.14$"
     },
     {
       "letter": "B",
-      "text": "− 0.57 − 0.57"
+      "text": "$-0.57$"
     },
     {
       "letter": "C",
-      "text": "0.57 0.57"
+      "text": "$0.57$"
     },
     {
       "letter": "D",
-      "text": "1.14 1.14"
+      "text": "$1.14$"
     },
     {
       "letter": "E",
-      "text": "165.13 165.13"
+      "text": "$165.13$"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-1.H.2",
-    "DAT-1.H",
-    "DAT-1",
-    "DAT-1.H.3",
-    "DAT-1.H.1"
-  ],
-  "standards": [
     "4.B",
     "DAT-1.H.2",
     "DAT-1.H",

@@ -1,44 +1,42 @@
 {
   "question_id": "question-141",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "model-for-measurements"
+  ],
   "title": "Police Citations | 1 of 2",
-  "difficulty": "Moderate",
-  "question_text": "Suppose a local police department decides to track how many minor citations its officers give per month. The mean and standard deviation of the number of citations per month are $84.3$ and $12.6$ , respectively. Suppose each citation has an average fine of $\\$115.32$ . What are the mean and standard deviation of the revenue the police department takes in per month from minor citations?",
+  "difficulty": "Medium",
+  "question_text": "Suppose a local police department decides to track how many minor citations its officers give per month.\nThe mean and standard deviation of the number of citations per month are $84.3$ and $12.6$, respectively. Suppose each citation has an average fine of $\\$115.32$.\nWhat are the mean and standard deviation of the revenue the police department takes in per month from minor citations?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Mean = $ 84.30 $ 84.30 Standard deviation = $ 12.60 $ 12.60"
+      "text": "Mean = $\\$84.30$\nStandard deviation = $\\$12.60$"
     },
     {
       "letter": "B",
-      "text": "Mean = $ 9 , 721.48 $ 9 , 721.48 Standard deviation = $ 115.32 $ 115.32"
+      "text": "Mean = $\\$9,721.48$\nStandard deviation = $\\$115.32$"
     },
     {
       "letter": "C",
-      "text": "Mean = $ 9,721.48 $ 9,721.48 Standard deviation = $ 1,453.03 $ 1,453.03"
+      "text": "Mean = $\\$9{,}721.48$\nStandard deviation = $\\$1{,}453.03$"
     },
     {
       "letter": "D",
-      "text": "Mean = $ 9,721.48 $ 9,721.48 Standard deviation = $ 18,308.20 $ 18,308.20"
+      "text": "Mean = $\\$9{,}721.48$\nStandard deviation = $\\$18{,}308.20$"
     },
     {
       "letter": "E",
-      "text": "Mean = $ 18,308.20 $ 18,308.20 Standard deviation = $ 1,453.03 $ 1,453.03"
+      "text": "Mean = $\\$18{,}308.20$\nStandard deviation = $\\$1{,}453.03$"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-5.E",
-    "VAR-5.E.2",
-    "VAR-5.E.3",
-    "VAR-5",
-    "3.B",
-    "VAR-5.E.1"
-  ],
-  "standards": [
     "VAR-5.E",
     "VAR-5.E.2",
     "VAR-5.E.3",

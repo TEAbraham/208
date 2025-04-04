@@ -1,44 +1,44 @@
 {
   "question_id": "question-266",
   "unit": "Unit 1 | Exploring One-Variable Data",
-  "title": "Finding the Standard Deviation: Running a Mile",
-  "difficulty": "Difficult",
-  "question_text": "The amount of time it took students to run a mile in their physical education class was recorded. The histogram below shows the distribution of time (in minutes) for these students. Created for Albert.io. Copyright 2017. All rights reserved. Which of the following  is closest to the standard deviation of the one mile times?",
-  "image_files": [
-    "images/question-266-img1.png"
+  "topics": [
+    "spread",
+    "univariate-data",
+    "standard-deviation",
+    "summarizing-distributions",
+    "exploring-data"
   ],
+  "title": "Finding the Standard Deviation: Running a Mile",
+  "difficulty": "Hard",
+  "question_text": "The amount of time it took students to run a mile in their physical education class was recorded. The histogram below shows the distribution of time (in minutes) for these students.\nLoading question supplement...\nWhich of the following is closest to the standard deviation of the one mile times?",
+  "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "1 minute 1 minute"
+      "text": "$1\\text{ minute}$"
     },
     {
       "letter": "B",
-      "text": "2 minutes 2 minutes"
+      "text": "$2\\text{ minutes}$"
     },
     {
       "letter": "C",
-      "text": "3 minutes 3 minutes"
+      "text": "$3\\text{ minutes}$"
     },
     {
       "letter": "D",
-      "text": "4 minutes 4 minutes"
+      "text": "$4\\text{ minutes}$"
     },
     {
       "letter": "E",
-      "text": "6 minutes 6 minutes"
+      "text": "$6\\text{ minutes}$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "2.A",
-    "VAR-2",
-    "VAR-2.A.3",
-    "VAR-2.A"
-  ],
-  "standards": [
     "2.A",
     "VAR-2",
     "VAR-2.A.3",

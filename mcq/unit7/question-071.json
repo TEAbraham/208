@@ -1,46 +1,45 @@
 {
   "question_id": "question-071",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "critical-value",
+    "confidence-interval",
+    "mean",
+    "estimation",
+    "1-sample-tinterval-means",
+    "statistical-inference"
+  ],
   "title": "Finding the Critical Value; $90\\%$ Confidence",
   "difficulty": "Easy",
-  "question_text": "You want to compute a 90 % confidence interval for the mean population with an unknown standard deviation. The data is collected from an SRS of 20 observations, and it is approximately normal. What critical value would we need for the 90 % confidence interval?",
-  "image_files": [
-    "images/question-071-img1.PNG",
-    "images/question-071-img2.PNG"
-  ],
+  "question_text": "You want to compute a $90\\%$ confidence interval for the mean population with an unknown standard deviation. The data is collected from an SRS of $20$ observations, and it is approximately normal.\nWhat critical value would we need for the $90\\%$ confidence interval?",
+  "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "1.645 1.645"
+      "text": "$1.645$"
     },
     {
       "letter": "B",
-      "text": "1.721 1.721"
+      "text": "$1.721$"
     },
     {
       "letter": "C",
-      "text": "1.725 1.725"
+      "text": "$1.725$"
     },
     {
       "letter": "D",
-      "text": "1.729 1.729"
+      "text": "$1.729$"
     },
     {
       "letter": "E",
-      "text": "1.734 1.734"
+      "text": "$1.734$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-3.F",
-    "4.E",
-    "DAT-3",
-    "DAT-3.F.2",
-    "DAT-3.F.1"
-  ],
-  "standards": [
     "DAT-3.F",
     "4.E",
     "DAT-3",

@@ -1,10 +1,17 @@
 {
   "question_id": "question-135",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "graphical-displays-of-data",
+    "univariate-data",
+    "clusters-gaps",
+    "exploring-data"
+  ],
   "title": "Gaps and Clusters",
-  "difficulty": "Moderate",
-  "question_text": "Thinking about distributions that show gaps or clusters, which of the following statements is true? I. When there are multiple clusters in a distribution it is most appropriate to use the mean as the measure of center. II. Gaps in distributions are caused by poor data collection procedures. III .  A distribution composed of multiple subgroups does not always show clusters in its histogram.",
+  "difficulty": "Medium",
+  "question_text": "Thinking about distributions that show gaps or clusters, which of the following statements is true?\nI. When there are multiple clusters in a distribution it is most appropriate to use the mean as the measure of center.\nII. Gaps in distributions are caused by poor data collection procedures.\nIII. A distribution composed of multiple subgroups does not always show clusters in its histogram.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +36,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.M",
-    "UNC-1.M.1",
-    "2.A",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.M",
     "UNC-1.M.1",
     "2.A",

@@ -1,43 +1,43 @@
 {
   "question_id": "question-068",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "combining-random-variables",
+    "independence-vs-dependence",
+    "probability"
+  ],
   "title": "The Relationship Between Tossing a Coin and Buying a Large Coffee",
-  "difficulty": "Moderate",
-  "question_text": "Suppose $A$ is the random variable that represents the number of times a tossed coin will land on “heads” in $8\\text{ tosses}$ . Also, suppose $B$ is the random variable that represents the number of ounces in each of $8$ randomly selected large cups of coffee from the nearby donut shop. Which of the following best describes the relationship between $A$ and $B$ ?",
+  "difficulty": "Medium",
+  "question_text": "Suppose $A$ is the random variable that represents the number of times a tossed coin will land on “heads” in $8\\text{ tosses}$. Also, suppose $B$ is the random variable that represents the number of ounces in each of $8$ randomly selected large cups of coffee from the nearby donut shop.\nWhich of the following best describes the relationship between $A$ and $B$?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "A A and B B are independent random variables. Their probability distributions should not be related to each other in any way."
+      "text": "$A$ and $B$ are independent random variables. Their probability distributions should not be related to each other in any way."
     },
     {
       "letter": "B",
-      "text": "A A and B B are dependent random variables since we are looking at the same number of observations for both."
+      "text": "$A$ and $B$ are dependent random variables since we are looking at the same number of observations for both."
     },
     {
       "letter": "C",
-      "text": "A A and B B are both discrete random variables."
+      "text": "$A$ and $B$ are both discrete random variables."
     },
     {
       "letter": "D",
-      "text": "A A and B B are both continuous random variables."
+      "text": "$A$ and $B$ are both continuous random variables."
     },
     {
       "letter": "E",
-      "text": "A A and B B are mutually exclusive random variables."
+      "text": "$A$ and $B$ are mutually exclusive random variables."
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-4.E.1",
-    "VAR-4.E",
-    "3.A",
-    "VAR-4.E.2",
-    "VAR-4"
-  ],
-  "standards": [
     "VAR-4.E.1",
     "VAR-4.E",
     "3.A",

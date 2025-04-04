@@ -1,10 +1,15 @@
 {
   "question_id": "question-007",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "data",
+    "average"
+  ],
   "title": "Question With No Meaningful Answer",
-  "difficulty": "Moderate",
-  "question_text": "Robin asked $80$ children to identify their favorite season.  The results are shown below. $\\text{Spring:  }25\\%$ $\\text{Summer:  }35\\%$ $\\text{Fall:  }15\\%$ $\\text{Winter:  }25\\%$ Robin also asked $60$ adults to identify their favorite season.  The results are shown below. $\\text{Spring:  }40\\%$ $\\text{Summer:  }20\\%$ $\\text{Fall:  }30\\%$ $\\text{Winter:  }10\\%$ Which of the following questions cannot be answered in a meaningful way from Robin's sets of data?",
+  "difficulty": "Medium",
+  "question_text": "Robin asked $80$ children to identify their favorite season. The results are shown below.\n$\\text{Spring: }25\\%$\n$\\text{Summer: }35\\%$\n$\\text{Fall: }15\\%$\n$\\text{Winter: }25\\%$\nRobin also asked $60$ adults to identify their favorite season. The results are shown below.\n$\\text{Spring: }40\\%$\n$\\text{Summer: }20\\%$\n$\\text{Fall: }30\\%$\n$\\text{Winter: }10\\%$\nWhich of the following questions cannot be answered in a meaningful way from Robin's sets of data?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +34,8 @@
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "1.A",
-    "VAR-1.A.1",
-    "VAR-1",
-    "VAR-1.A"
-  ],
-  "standards": [
     "1.A",
     "VAR-1.A.1",
     "VAR-1",

@@ -1,0 +1,47 @@
+{
+  "question_id": "question-189",
+  "unit": "AP® Statistics | Unit 3 Assessment",
+  "topics": [
+    "randomized-design",
+    "blocking",
+    "randomized-block-design",
+    "study",
+    "experiment"
+  ],
+  "title": "Experimental Design for Learning Styles",
+  "difficulty": "Hard",
+  "question_text": "Students, and people in general, have different styles and preferences of learning new material. An AP Statistics teacher is interested in two types of instruction:\nOne instruction type is considered \"traditional\" consisting of note-taking, written assignments, and paper-and-pencil assessments.\nThe other instruction type is considered \"progressive\" and includes exploratory activities, oral presentations, and project-based assessments.\nThe teacher decides to randomly divide his current AP Statistics class into two equal groups. One group will get the traditional instruction and the other group will get the progressive instruction. At the end of one month, the teacher will compare the amount of learning by each group in the form of a test, given in the style of the instruction each group used for the past month.\nWhich of the following best describes why a completely randomized design is an appropriate design to use in this situation?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The number of students participating in the study was greater than or equal to $30$."
+    },
+    {
+      "letter": "B",
+      "text": "Each type of instruction is a block, and a completely randomized design is not blocked."
+    },
+    {
+      "letter": "C",
+      "text": "There is no blocking variable, and the students were selected at random."
+    },
+    {
+      "letter": "D",
+      "text": "There is no blocking variable, and the type of instruction is randomly assigned to the students."
+    },
+    {
+      "letter": "E",
+      "text": "Each type of instruction is randomly assigned to pairs of students with similar grades before the study began."
+    }
+  ],
+  "correct_answer": "Choice ‘D’ is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-3.D",
+    "VAR-3",
+    "VAR-3.D.1",
+    "1.C"
+  ]
+}

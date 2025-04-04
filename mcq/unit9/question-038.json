@@ -1,10 +1,15 @@
 {
   "question_id": "question-038",
   "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "regression-slope-t-test",
+    "initial-conditions"
+  ],
   "title": "The Wrong Condition?",
-  "difficulty": "Moderate",
-  "question_text": "A study is to be done using a $t$ -test for slope. Conditions need to be verified.  All of the following need to be checked  for the test to be done except one.  Which answer is not a condition for a $t$ -test for slope?",
+  "difficulty": "Medium",
+  "question_text": "A study is to be done using a $t$-test for slope. Conditions need to be verified. All of the following need to be checked for the test to be done except one. Which answer is not a condition for a $t$-test for slope?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -12,11 +17,11 @@
     },
     {
       "letter": "B",
-      "text": "Check to make sure that the population is at least 10 10 times the size of the sample."
+      "text": "Check to make sure that the population is at least $10$ times the size of the sample."
     },
     {
       "letter": "C",
-      "text": "Check for skewness and outliers if the sample size is less than 30 30 ."
+      "text": "Check for skewness and outliers if the sample size is less than $30$."
     },
     {
       "letter": "D",
@@ -29,14 +34,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.C",
-    "VAR-7.L.1",
-    "VAR-7",
-    "VAR-7.L"
-  ],
-  "standards": [
     "4.C",
     "VAR-7.L.1",
     "VAR-7",

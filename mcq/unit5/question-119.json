@@ -1,0 +1,47 @@
+{
+  "question_id": "question-119",
+  "unit": "AP® Statistics | Unit 5 Assessment",
+  "topics": [
+    "standard-deviation",
+    "sampling-distributions",
+    "normal-distribution"
+  ],
+  "title": "Too Much Brass?",
+  "difficulty": "Medium",
+  "question_text": "A manufacturer of specialty cabinet hardware produces over $5{,}000$ decorative brass corner braces every day. The Quality Control Manager suspects that too much brass is being used to produce the braces. Based on measurements from the past quarter, the weight follows a strongly skew right distribution with $\\mu=30$ grams and $\\sigma=4$ grams.\nWhat is the probability that in a simple random sample of $100$ units, the mean weight is more than $31$ grams?",
+  "image_files": [
+    "images/question-119-img1.jpeg"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "40.13\n%"
+    },
+    {
+      "letter": "B",
+      "text": "0.62\n%"
+    },
+    {
+      "letter": "C",
+      "text": "72.25\n%"
+    },
+    {
+      "letter": "D",
+      "text": "99.38\n%"
+    },
+    {
+      "letter": "E",
+      "text": "The answer cannot be determined without more information."
+    }
+  ],
+  "correct_answer": "Choice ‘B’ is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-3.Q.1",
+    "UNC-3",
+    "UNC-3.S"
+  ]
+}

@@ -1,10 +1,15 @@
 {
   "question_id": "question-077",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "extra-practice",
+    "sampling-and-experimentation"
+  ],
   "title": "Undercoverage",
   "difficulty": "Easy",
   "question_text": "If undercovereage occurs in a sample, it means that",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,16 +34,8 @@
   ],
   "correct_answer": "Undercoverage means that certain groups are excluded from the sample, based on how the sample was conducted.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-2",
-    "DAT-2.E.3",
-    "1.C",
-    "DAT-2.E",
-    "DAT-2.C.6",
-    "DAT-2.C"
-  ],
-  "standards": [
     "DAT-2",
     "DAT-2.E.3",
     "1.C",

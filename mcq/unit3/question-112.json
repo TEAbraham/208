@@ -1,10 +1,17 @@
 {
   "question_id": "question-112",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "matched-pairs-design",
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "randomized-block-design"
+  ],
   "title": "Blocking and Matched Pair Studies",
-  "difficulty": "Moderate",
-  "question_text": "Read the following statements about randomized blocked experiments and matched pair experiments. Which of the following statements is false?",
+  "difficulty": "Medium",
+  "question_text": "Read the following statements about randomized blocked experiments and matched pair experiments.\nWhich of the following statements is false?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +36,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.D",
-    "VAR-3",
-    "VAR-3.D.1",
-    "1.C"
-  ],
-  "standards": [
     "VAR-3.D",
     "VAR-3",
     "VAR-3.D.1",

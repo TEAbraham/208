@@ -1,10 +1,19 @@
 {
   "question_id": "question-241",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "comparing-z-scores",
+    "z-score",
+    "univariate-data",
+    "position",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
   "title": "Comparing z-Scores: Danielle's Tests Scores",
-  "difficulty": "Moderate",
-  "question_text": "Danielle had an AP Statistics test and AP US History test on the same day. On the AP Statistics test, the average score was an 81 , with a standard deviation of 4 . On the AP U.S. History Test, the average score was 73 , with a standard deviation of 8 . Danielle scored a 77 on the AP Statistics test and 67 on the AP U.S. History test. Assume the scores of each test were approximately normally distributed. On which test did Danielle score relatively better, compared with the rest of the class?",
+  "difficulty": "Medium",
+  "question_text": "Danielle had an AP Statistics test and AP US History test on the same day. On the AP Statistics test, the average score was an $81$, with a standard deviation of $4$. On the AP U.S. History Test, the average score was $73$, with a standard deviation of $8$. Danielle scored a $77$ on the AP Statistics test and $67$ on the AP U.S. History test. Assume the scores of each test were approximately normally distributed.\nOn which test did Danielle score relatively better, compared with the rest of the class?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,16 +38,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-2.B.2",
-    "VAR-2.B",
-    "VAR-2.C.1",
-    "2.D",
-    "VAR-2.C",
-    "VAR-2"
-  ],
-  "standards": [
     "VAR-2.B.2",
     "VAR-2.B",
     "VAR-2.C.1",

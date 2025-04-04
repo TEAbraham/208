@@ -1,12 +1,16 @@
 {
   "question_id": "question-069",
   "unit": "Unit 2 | Exploring Two-Variable Data",
-  "title": "Studying Times",
-  "difficulty": "Difficult",
-  "question_text": "A statistics professor wanted to know the relationship between the number of minutes spent studying in preparation for the final exam and students’ scores on the test. The professor plotted the number of minutes spent as the explanatory variable and the students' scores as the response. The results are shown in the scatterplot below. Which of the following statements is true about the scatterplot and this relationship?",
-  "image_files": [
-    "images/question-069-img1.gif"
+  "topics": [
+    "scatterplots",
+    "bivariate-data",
+    "exploring-data"
   ],
+  "title": "Studying Times",
+  "difficulty": "Hard",
+  "question_text": "A statistics professor wanted to know the relationship between the number of minutes spent studying in preparation for the final exam and students’ scores on the test. The professor plotted the number of minutes spent as the explanatory variable and the students' scores as the response. The results are shown in the scatterplot below.\nWhich of the following statements is true about the scatterplot and this relationship?\nLoading question supplement...",
+  "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -14,7 +18,7 @@
     },
     {
       "letter": "B",
-      "text": "The correlation, r r , will be close to 0 0 for this data set."
+      "text": "The correlation, $r$, will be close to $0$ for this data set."
     },
     {
       "letter": "C",
@@ -31,14 +35,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-1.C",
-    "DAT-1",
-    "DAT-1.C.1"
-  ],
-  "standards": [
     "4.B",
     "DAT-1.C",
     "DAT-1",

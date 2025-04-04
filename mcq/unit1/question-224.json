@@ -1,42 +1,42 @@
 {
   "question_id": "question-224",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "model-for-measurements"
+  ],
   "title": "Speed Radar Sign: Proportions from the Normal Distribution",
-  "difficulty": "Moderate",
-  "question_text": "Police in a certain town recently set up a roadside speed radar with a sign that displays a vehicle's speed as it approaches the radar. This helps motorists be more aware of their speed, but it can also be used to track the speed of vehicles that pass the radar. During the two weeks that the sign was in place, the mean speed of all vehicles passing the sign was found to be $42.8\\text{ mph}$ . Assuming the distribution of speeds was approximately normal and the standard deviation of all vehicles that passed this sign was $5.3\\text{ mph}$ , what proportion of cars were traveling more than $40\\text{ mph}$ ?",
+  "difficulty": "Medium",
+  "question_text": "Police in a certain town recently set up a roadside speed radar with a sign that displays a vehicle's speed as it approaches the radar. This helps motorists be more aware of their speed, but it can also be used to track the speed of vehicles that pass the radar.\nDuring the two weeks that the sign was in place, the mean speed of all vehicles passing the sign was found to be $42.8\\text{ mph}$.\nAssuming the distribution of speeds was approximately normal and the standard deviation of all vehicles that passed this sign was $5.3\\text{ mph}$, what proportion of cars were traveling more than $40\\text{ mph}$?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.30 0.30"
+      "text": "$0.30$"
     },
     {
       "letter": "B",
-      "text": "0.47 0.47"
+      "text": "$0.47$"
     },
     {
       "letter": "C",
-      "text": "0.53 0.53"
+      "text": "$0.53$"
     },
     {
       "letter": "D",
-      "text": "0.70 0.70"
+      "text": "$0.70$"
     },
     {
       "letter": "E",
-      "text": "5.3 5.3"
+      "text": "$5.3$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-2.B",
-    "3.A",
-    "VAR-2",
-    "VAR-2.B.3"
-  ],
-  "standards": [
     "VAR-2.B",
     "3.A",
     "VAR-2",

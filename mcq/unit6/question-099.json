@@ -1,42 +1,43 @@
 {
   "question_id": "question-099",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "difference-two-proportions",
+    "estimation",
+    "statistical-inference",
+    "parameters-margins-error"
+  ],
   "title": "Estimating Parameters: Margin of Error Calculation",
-  "difficulty": "Moderate",
-  "question_text": "A sociologist wishes to determine whether a significant difference exists in quality of life between people in urban and rural areas. A survey will be sent out to randomly selected people in rural and urban areas and ask, “Are you happy with your quality of life?” Assuming equal sample sizes and that no prior information is known, what is the minimum number of people in rural and urban areas that needs to be selected for a $95\\%$ confidence interval (estimating the difference in happiness) to have a margin of error no more than $3\\%$ ?",
+  "difficulty": "Medium",
+  "question_text": "A sociologist wishes to determine whether a significant difference exists in quality of life between people in urban and rural areas.\nA survey will be sent out to randomly selected people in rural and urban areas and ask, “Are you happy with your quality of life?”\nAssuming equal sample sizes and that no prior information is known, what is the minimum number of people in rural and urban areas that needs to be selected for a $95\\%$ confidence interval (estimating the difference in happiness) to have a margin of error no more than $3\\%$?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "2,135 2,135 rural and 2,135 2,135 urban subjects."
+      "text": "$2{,}135$ rural and $2{,}135$ urban subjects."
     },
     {
       "letter": "B",
-      "text": "432 432 rural and 432 432 urban subjects."
+      "text": "$432$ rural and $432$ urban subjects."
     },
     {
       "letter": "C",
-      "text": "323 323 rural and 323 323 urban subjects."
+      "text": "$323$ rural and $323$ urban subjects."
     },
     {
       "letter": "D",
-      "text": "188 188 rural and 188 188 urban subjects."
+      "text": "$188$ rural and $188$ urban subjects."
     },
     {
       "letter": "E",
-      "text": "128 128 rural and 128 128 urban subjects."
+      "text": "$128$ rural and $128$ urban subjects."
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-4.L",
-    "3.D",
-    "UNC-4.L.1",
-    "UNC-4"
-  ],
-  "standards": [
     "UNC-4.L",
     "3.D",
     "UNC-4.L.1",

@@ -1,10 +1,17 @@
 {
   "question_id": "question-187",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "categorical-data",
+    "frequency-tables",
+    "bar-charts",
+    "exploring-data"
+  ],
   "title": "Gender and College Major",
-  "difficulty": "Moderate",
-  "question_text": "You want to study the relationship between gender and college major at the end of the sophomore year in college. What would be the best way to display or analyze your collected data?",
+  "difficulty": "Medium",
+  "question_text": "You want to study the relationship between gender and college major at the end of the sophomore year in college.\nWhat would be the best way to display or analyze your collected data?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -20,7 +27,7 @@
     },
     {
       "letter": "D",
-      "text": "Calculate the correlation between gender and college major for each gender and compare the two r r -values."
+      "text": "Calculate the correlation between gender and college major for each gender and compare the two $r$-values."
     },
     {
       "letter": "E",
@@ -29,14 +36,8 @@
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.N.1",
-    "2.D",
-    "UNC-1.N",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.N.1",
     "2.D",
     "UNC-1.N",

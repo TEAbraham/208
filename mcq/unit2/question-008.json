@@ -1,14 +1,19 @@
 {
   "question_id": "question-008",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "scatterplot",
+    "variables"
+  ],
   "title": "Relationships Revealed by a Scatterplot",
-  "difficulty": "Moderate",
+  "difficulty": "Medium",
   "question_text": "For which of the following situations would a scatterplot be least likely to reveal a relationship?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "a student's height vs. the number of word puzzles they can solve in 2 2 minutes"
+      "text": "a student's height vs. the number of word puzzles they can solve in $2$ minutes"
     },
     {
       "letter": "B",
@@ -29,14 +34,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-1.D",
-    "VAR-1.D.1",
-    "1.A",
-    "VAR-1"
-  ],
-  "standards": [
     "VAR-1.D",
     "VAR-1.D.1",
     "1.A",

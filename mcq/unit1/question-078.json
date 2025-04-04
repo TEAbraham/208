@@ -1,10 +1,18 @@
 {
   "question_id": "question-078",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "spread",
+    "univariate-data",
+    "summarizing-distributions",
+    "comparing-distributions",
+    "exploring-data"
+  ],
   "title": "Adult Male Heights: Validity of Statements",
   "difficulty": "Easy",
-  "question_text": "Twenty-five adult males had their heights measured in inches, as represented in the data set below. $$65, 66, 67, 67, 68, 68, 69, 69, 69, 70, 70, 70, 71, 71, 71, 72, 72, 72, 73, 73, 74, 75, 75, 76, 77$$ Which of the following statements is true concerning the data set?",
+  "question_text": "Twenty-five adult males had their heights measured in inches, as represented in the data set below.\n$$65, 66, 67, 67, 68, 68, 69, 69, 69, 70, 70, 70, 71, 71, 71, 72, 72, 72, 73, 73, 74, 75, 75, 76, 77$$\nWhich of the following statements is true concerning the data set?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,17 +37,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.I.3",
-    "UNC-1.I.2",
-    "2.C",
-    "UNC-1.K",
-    "UNC-1.I",
-    "UNC-1.K.1",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.I.3",
     "UNC-1.I.2",
     "2.C",

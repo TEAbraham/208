@@ -1,42 +1,45 @@
 {
   "question_id": "question-102",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "position",
+    "5-number-summary",
+    "summarizing-distributions",
+    "measuring-spread",
+    "exploring-data"
+  ],
   "title": "Men's Weights",
-  "difficulty": "Difficult",
-  "question_text": "The statistics below provide a summary of the distribution of weight, in pounds, from a sample of one hundred adult men: Minimum: $138\\text{ pounds}$ First Quartile: $153\\text{ pounds}$ Median: $171\\text{ pounds}$ Third Quartile: $192\\text{ pounds}$ Maximum: $213\\text{ pounds}$ Which of the following statements is always FALSE?",
+  "difficulty": "Hard",
+  "question_text": "The statistics below provide a summary of the distribution of weight, in pounds, from a sample of one hundred adult men:\nMinimum: $138\\text{ pounds}$\nFirst Quartile: $153\\text{ pounds}$\nMedian: $171\\text{ pounds}$\nThird Quartile: $192\\text{ pounds}$\nMaximum: $213\\text{ pounds}$\nWhich of the following statements is always FALSE?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "75 75 of the men in this sample weigh at least 192 pounds 192 pounds ."
+      "text": "$75$ of the men in this sample weigh at least $192\\text{ pounds}$."
     },
     {
       "letter": "B",
-      "text": "25 25 of the men in this sample weigh, at most, 153 pounds 153 pounds ."
+      "text": "$25$ of the men in this sample weigh, at most, $153\\text{ pounds}$."
     },
     {
       "letter": "C",
-      "text": "50 50 of the men in this sample can weigh, at most, 171 pounds 171 pounds ."
+      "text": "$50$ of the men in this sample can weigh, at most, $171\\text{ pounds}$."
     },
     {
       "letter": "D",
-      "text": "50 50 of the men in this sample can weigh at least 171 pounds 171 pounds ."
+      "text": "$50$ of the men in this sample can weigh at least $171\\text{ pounds}$."
     },
     {
       "letter": "E",
-      "text": "25 25 of the men in this sample weigh at least 192 pounds 192 pounds ."
+      "text": "$25$ of the men in this sample weigh at least $192\\text{ pounds}$."
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.I.4",
-    "2.C",
-    "UNC-1.I",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.I.4",
     "2.C",
     "UNC-1.I",

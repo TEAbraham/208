@@ -1,26 +1,32 @@
 {
   "question_id": "question-162",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "sampling-and-experimentation",
+    "sampling-methods"
+  ],
   "title": "Sampling Bouncy Balls",
-  "difficulty": "Moderate",
-  "question_text": "A quality control inspector in a bouncy ball plant must select a simple random sample of bouncy balls at the end of each day to make sure they are producing the required amount of bounciness. Which of the following correctly describes a valid simple random sampling procedure?",
+  "difficulty": "Medium",
+  "question_text": "A quality control inspector in a bouncy ball plant must select a simple random sample of bouncy balls at the end of each day to make sure they are producing the required amount of bounciness.\nWhich of the following correctly describes a valid simple random sampling procedure?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Place all of the bouncy balls for the day in a large container and mix them up.  Draw 10 bouncy balls 10 bouncy balls out of the container."
+      "text": "Place all of the bouncy balls for the day in a large container and mix them up. Draw $10\\text{ bouncy balls}$ out of the container."
     },
     {
       "letter": "B",
-      "text": "Place all of the solid color bouncy balls in one container and all of the swirly bouncy balls in another container.  Mix the bouncy balls in each container and draw 10 bouncy balls 10 bouncy balls out of each."
+      "text": "Place all of the solid color bouncy balls in one container and all of the swirly bouncy balls in another container. Mix the bouncy balls in each container and draw $10\\text{ bouncy balls}$ out of each."
     },
     {
       "letter": "C",
-      "text": "As the bouncy balls come off the production lines, randomly choose one of the first 50 bouncy balls 50 bouncy balls .  Then choose every 50 th bouncy ball 50 th bouncy ball after that one until the end of the day."
+      "text": "As the bouncy balls come off the production lines, randomly choose one of the first $50\\text{ bouncy balls}$. Then choose every $50^\\text{th}\\text{ bouncy ball}$ after that one until the end of the day."
     },
     {
       "letter": "D",
-      "text": "Place all of the bouncy balls from production line A into a large container.  Do the same for production lines B and C.  Mix up the bouncy balls in each container and draw 10 bouncy balls 10 bouncy balls out of each."
+      "text": "Place all of the bouncy balls from production line A into a large container. Do the same for production lines B and C. Mix up the bouncy balls in each container and draw 10 bouncy balls out of each."
     },
     {
       "letter": "E",
@@ -29,17 +35,8 @@
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.E",
-    "4.B",
-    "VAR-3",
-    "DAT-2.C.2",
-    "DAT-2",
-    "VAR-3.E.2",
-    "DAT-2.C"
-  ],
-  "standards": [
     "VAR-3.E",
     "4.B",
     "VAR-3",

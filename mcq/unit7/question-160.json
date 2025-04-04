@@ -1,0 +1,45 @@
+{
+  "question_id": "question-160",
+  "unit": "AP® Statistics | Unit 7 Assessment",
+  "topics": [
+    "assessment-techniques",
+    "deductive-reasoning",
+    "testing"
+  ],
+  "title": "Lights On!",
+  "difficulty": "Hard",
+  "question_text": "Nicky was just hired at the Specific Electric Company. He was asked to compare the average lifespan of the new light bulbs with that of the old bulbs. His manager told him that he wanted to statistically show that the new lights last longer so that they can be advertised that way. Fortunately, the company has a machine that can hasten the life of the bulbs so it would not take Nicky a very long time to measure their lifespans. He was told to test $25$ random light bulbs of each type. Which of the following is the best statistical method to try to show that the new light bulbs last significantly longer than the old light bulbs?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Chi-Square Goodness of Fit Test"
+    },
+    {
+      "letter": "B",
+      "text": "Subtract the means and then use a One-Sample $t$-Test."
+    },
+    {
+      "letter": "C",
+      "text": "Two-Sample $z$-Interval"
+    },
+    {
+      "letter": "D",
+      "text": "Two-Sample Test using $z^*$"
+    },
+    {
+      "letter": "E",
+      "text": "Two-Sample $t$-Test using $t^*$"
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-7",
+    "1.E",
+    "VAR-7.F",
+    "VAR-7.F.1"
+  ]
+}

@@ -1,43 +1,42 @@
 {
   "question_id": "question-062",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "tests-of-significance",
+    "mean",
+    "statistical-inference"
+  ],
   "title": "$z$ vs. $t$ Distribution",
   "difficulty": "Easy",
   "question_text": "Which of the following statements is true concerning significance tests for a population mean?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Tests for a population mean always use the z z -distribution."
+      "text": "Tests for a population mean always use the $z$-distribution."
     },
     {
       "letter": "B",
-      "text": "Tests for a population mean always use the t t -distribution."
+      "text": "Tests for a population mean always use the $t$-distribution."
     },
     {
       "letter": "C",
-      "text": "When testing for a population mean we use the z z -distribution if we know the population standard deviation."
+      "text": "When testing for a population mean we use the $z$-distribution if we know the population standard deviation."
     },
     {
       "letter": "D",
-      "text": "When testing for a population mean we use the t t -distribution if we know the population standard deviation."
+      "text": "When testing for a population mean we use the $t$-distribution if we know the population standard deviation."
     },
     {
       "letter": "E",
-      "text": "When testing for a population mean, we should always complete the procedure using both a z z -distribution and a t t -distribution and then average the resulting p p -values."
+      "text": "When testing for a population mean, we should always complete the procedure using both a $z$-distribution and a $t$-distribution and then average the resulting $p$-values."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-3.E",
-    "VAR-7.E",
-    "VAR-7.E.1",
-    "VAR-7",
-    "3.E"
-  ],
-  "standards": [
     "DAT-3.E",
     "VAR-7.E",
     "VAR-7.E.1",

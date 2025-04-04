@@ -1,14 +1,20 @@
 {
   "question_id": "question-040",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "estimation",
+    "statistical-inference",
+    "parameters-margins-error"
+  ],
   "title": "A New Confidence Interval",
-  "difficulty": "Moderate",
-  "question_text": "A reporter surveyed $100$ randomly selected adult women and asked them how much they spend on clothes every year, then constructed a $90\\%$ confidence interval based off the data. If the reporter instead asked $1{,}000$ randomly selected women the same question, the new $90\\%$ confidence interval",
+  "difficulty": "Medium",
+  "question_text": "A reporter surveyed $100$ randomly selected adult women and asked them how much they spend on clothes every year, then constructed a $90\\%$ confidence interval based off the data.\nIf the reporter instead asked $1{,}000$ randomly selected women the same question, the new $90\\%$ confidence interval",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Would be centered higher than the confidence interval constructed of only 100 subjects 100 subjects ."
+      "text": "Would be centered higher than the confidence interval constructed of only $100\\text{ subjects}$."
     },
     {
       "letter": "B",
@@ -29,14 +35,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-4.U.1",
-    "UNC-4",
-    "4.A",
-    "UNC-4.U.3"
-  ],
-  "standards": [
     "UNC-4.U.1",
     "UNC-4",
     "4.A",

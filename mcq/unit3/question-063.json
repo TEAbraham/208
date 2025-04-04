@@ -1,42 +1,42 @@
 {
   "question_id": "question-063",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "sampling-and-experimentation",
+    "sampling-methods"
+  ],
   "title": "Quick Quiche",
   "difficulty": "Easy",
-  "question_text": "Quick Quiche is a fast-food restaurant that has $150\\text{ locations}$ in the southeast region.  The regional manager will randomly select $10\\text{ restaurants}$ to make a surprise inspection.  He assigns each restaurant a unique number between $1$ and $150$ . He then draws ten pairs of numbers from a random digit table.  The manager will make a surprise visit to the restaurants corresponding to those numbers. Which statement best describes the main flaw in the sampling method for this study?",
+  "question_text": "Quick Quiche is a fast-food restaurant that has $150\\text{ locations}$ in the southeast region. The regional manager will randomly select $10\\text{ restaurants}$ to make a surprise inspection. He assigns each restaurant a unique number between $1$ and $150$.\nHe then draws ten pairs of numbers from a random digit table. The manager will make a surprise visit to the restaurants corresponding to those numbers.\nWhich statement best describes the main flaw in the sampling method for this study?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "All the restaurants do not have the same chance of being chosen.  The manager should make a surprise visit to the restaurants whose numbers were a multiple of 15 15 ."
+      "text": "All the restaurants do not have the same chance of being chosen. The manager should make a surprise visit to the restaurants whose numbers were a multiple of $15$."
     },
     {
       "letter": "B",
-      "text": "All the restaurants do not have the same chance of being chosen.  The manager is only selecting pairs of numbers from the random digit table.  Restaurants with the numbers 100 100 to 150 150 have no chance of being chosen."
+      "text": "All the restaurants do not have the same chance of being chosen. The manager is only selecting pairs of numbers from the random digit table. Restaurants with the numbers $100$ to $150$ have no chance of being chosen."
     },
     {
       "letter": "C",
-      "text": "All the restaurants do not have the same chance of being chosen.  Restaurants labeled with repeating digits (such as 33 33 or 88 88 ) have a smaller chance of being selected because it is unlikely that a number would repeat on a random digit table."
+      "text": "All the restaurants do not have the same chance of being chosen. Restaurants labeled with repeating digits (such as $33$ or $88$) have a smaller chance of being selected because it is unlikely that a number would repeat on a random digit table."
     },
     {
       "letter": "D",
-      "text": "This is a convenience sample.  Only the restaurants that are easy to reach by car are being sampled."
+      "text": "This is a convenience sample. Only the restaurants that are easy to reach by car are being sampled."
     },
     {
       "letter": "E",
-      "text": "The regional manager should not be selecting the sample.  The sample should be chosen by someone who does not work for Quick Quiche."
+      "text": "The regional manager should not be selecting the sample. The sample should be chosen by someone who does not work for Quick Quiche."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-2",
-    "DAT-2.E.3",
-    "1.C",
-    "DAT-2.E"
-  ],
-  "standards": [
     "DAT-2",
     "DAT-2.E.3",
     "1.C",

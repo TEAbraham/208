@@ -1,43 +1,42 @@
 {
   "question_id": "question-100",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "probability",
+    "discrete-random-variables"
+  ],
   "title": "Not Independent Raffle",
-  "difficulty": "Difficult",
-  "question_text": "A charitable organization is hosting a raffle. They are selling $300$ tickets, and $75$ of these tickets are winners. What is the probability of getting a winner by the third ticket?",
+  "difficulty": "Hard",
+  "question_text": "A charitable organization is hosting a raffle. They are selling $300$ tickets, and $75$ of these tickets are winners.\nWhat is the probability of getting a winner by the third ticket?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.683593 0.683593"
+      "text": "$0.683593$"
     },
     {
       "letter": "B",
-      "text": "0.428175 0.428175"
+      "text": "$0.428175$"
     },
     {
       "letter": "C",
-      "text": "0.316406 0.316406"
+      "text": "$0.316406$"
     },
     {
       "letter": "D",
-      "text": "0.579538 0.579538"
+      "text": "$0.579538$"
     },
     {
       "letter": "E",
-      "text": "0.571825 0.571825"
+      "text": "$0.571825$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-4.E",
-    "3.A",
-    "VAR-4.E.2",
-    "VAR-4",
-    "VAR-4.E.4"
-  ],
-  "standards": [
     "VAR-4.E",
     "3.A",
     "VAR-4.E.2",

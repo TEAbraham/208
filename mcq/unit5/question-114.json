@@ -1,0 +1,44 @@
+{
+  "question_id": "question-114",
+  "unit": "AP® Statistics | Unit 5 Assessment",
+  "topics": [
+    "sampling-distributions",
+    "sample-proportion-two"
+  ],
+  "title": "Golden Stock",
+  "difficulty": "Medium",
+  "question_text": "Two hatchery trucks, each carrying $600$ trout (trout is a type of fish), arrive at a trout stocking location. Truck A has $28\\%$ golden trout while truck B has $22\\%$ golden trout. Because the fish are in holding tanks with rapidly moving water, each release can be considered a random sample of fish.\nTruck A releases fish in groups of $40$ fish while truck B releases fish in groups of $50$ fish. An avid angler counts the number of golden trout in the first release from each truck and computes the difference in their sample proportions, $\\hat{p}_A-\\hat{p}_B$.\nWhat is the approximate mean and standard deviation of the sampling distribution of $\\hat{p}_A-\\hat{p}_B$?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$\\mu_{\\hat{p}_{A}-\\hat{p}_{B}}=0.06$, $\\sigma_{\\hat{p}_A-\\hat{p}_B}=0.008$"
+    },
+    {
+      "letter": "B",
+      "text": "$\\mu_{\\hat{p}_{A}-\\hat{p}_{B}}=0.06$, $\\sigma_{\\hat{p}_A-\\hat{p}_B}=0.092$"
+    },
+    {
+      "letter": "C",
+      "text": "$\\mu_{\\hat{p}_{A}-\\hat{p}_{B}}=0.06$, $\\sigma_{\\hat{p}_A-\\hat{p}_B}=0.04$"
+    },
+    {
+      "letter": "D",
+      "text": "$\\mu_{\\hat{p}_{A}-\\hat{p}_{B}}=0.06$, $\\sigma_{\\hat{p}_A-\\hat{p}_B}=0.0016$"
+    },
+    {
+      "letter": "E",
+      "text": "$\\mu_{\\hat{p}_{A}-\\hat{p}_{B}}=0.50$, $\\sigma_{\\hat{p}_A-\\hat{p}_B}=0.092$"
+    }
+  ],
+  "correct_answer": "Correct Answer",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.N",
+    "UNC-3",
+    "3.B",
+    "UNC-3.N.1"
+  ]
+}

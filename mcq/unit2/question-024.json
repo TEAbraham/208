@@ -1,10 +1,18 @@
 {
   "question_id": "question-024",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "categorical-data",
+    "two-way-tables",
+    "exploring-data"
+  ],
   "title": "Two-Way Tables: State School Admissions",
-  "difficulty": "Difficult",
-  "question_text": "State U, funded by state taxpayers, is supposed to favor In-State students in admissions to its graduate schools. The admission rates for each graduate school for In-State and Out of State is shown. Voters complained to the University President that In-State students have an overall admissions rate of $25\\%$ and Out of State have an overall admissions rate of $32\\%$ . The University president claims that In-State applicants are indeed favored in admissions. What could explain this situation? Performing Arts Business School Law School Medical School Total In-State Admissions % 43% 54% 37% 9% 25% Amount of In-State Applicants 174 179 202 648 1200 Out of State Admissions % 36% 52% 31% 8% 32% Amount of Out of State Applicants 152 178 198 158 688",
+  "difficulty": "Hard",
+  "question_text": "State U, funded by state taxpayers, is supposed to favor In-State students in admissions to its graduate schools. The admission rates for each graduate school for In-State and Out of State is shown.\nVoters complained to the University President that In-State students have an overall admissions rate of $25\\%$ and Out of State have an overall admissions rate of $32\\%$. The University president claims that In-State applicants are indeed favored in admissions.\nWhat could explain this situation?\nPerforming Arts Business School Law School Medical School Total\nIn-State Admissions % 43% 54% 37% 9% 25%\nAmount of In-State Applicants 174 179 202 648 1200\nOut of State Admissions % 36% 52% 31% 8% 32%\nAmount of Out of State Applicants 152 178 198 158 688",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Performing Arts</th><th scope=\"col\">Business School</th><th scope=\"col\">Law School</th><th scope=\"col\">Medical School</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>In-State Admissions %</td><td>43%</td><td>54%</td><td>37%</td><td>9%</td><td>25%</td></tr><tr><td>Amount of In-State Applicants</td><td>174</td><td>179</td><td>202</td><td>648</td><td>1200</td></tr><tr><td>Out of State Admissions %</td><td>36%</td><td>52%</td><td>31%</td><td>8%</td><td>32%</td></tr><tr><td>Amount of Out of State Applicants</td><td>152</td><td>178</td><td>198</td><td>158</td><td>688</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +37,8 @@
   ],
   "correct_answer": "Choice 'E' is correct.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.P",
-    "2.D",
-    "UNC-1.P.3",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.P",
     "2.D",
     "UNC-1.P.3",

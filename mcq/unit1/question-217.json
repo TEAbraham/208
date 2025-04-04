@@ -1,10 +1,20 @@
 {
   "question_id": "question-217",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "anticipating-patterns",
+    "extra-practice",
+    "bar-graphs",
+    "boxplots",
+    "pie-graphs",
+    "scatter-plots",
+    "histogram"
+  ],
   "title": "Organizing Data",
   "difficulty": "Easy",
   "question_text": "To best assess whether a set of raw data is approximately normally distributed, a set of data can be organized into a",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +39,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "2.D",
-    "VAR-2",
-    "VAR-2.A",
-    "VAR-2.A.2"
-  ],
-  "standards": [
     "2.D",
     "VAR-2",
     "VAR-2.A",

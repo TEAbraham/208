@@ -1,42 +1,42 @@
 {
   "question_id": "question-028",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "interpreting-probability",
+    "probability"
+  ],
   "title": "Whale Watching: A Statement on Probability",
-  "difficulty": "Moderate",
-  "question_text": "Captain Will's Whale Watching Adventures offers whale watching tours and boasts “the probability that a whale will be sighted on any particular one of our sailings is about $85\\%$ ”. Assuming this statement to be true, what is the best way to interpret it?",
+  "difficulty": "Medium",
+  "question_text": "Captain Will's Whale Watching Adventures offers whale watching tours and boasts “the probability that a whale will be sighted on any particular one of our sailings is about $85\\%$”.\nAssuming this statement to be true, what is the best way to interpret it?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "A whale will be sighted on 85 85 out of every 100 sailings 100 sailings at Captain Will's Whale Watching Adventures."
+      "text": "A whale will be sighted on $85$ out of every $100\\text{ sailings}$ at Captain Will's Whale Watching Adventures."
     },
     {
       "letter": "B",
-      "text": "Over the course of  many, many sailings at Captain Will's Whale Watching Adventures, a whale will be sighted about 85 % 85 % of the time."
+      "text": "Over the course of many, many sailings at Captain Will's Whale Watching Adventures, a whale will be sighted about $85\\%$ of the time."
     },
     {
       "letter": "C",
-      "text": "About 85 % 85 % of people who go whale watching will sight a whale."
+      "text": "About $85\\%$ of people who go whale watching will sight a whale."
     },
     {
       "letter": "D",
-      "text": "About 85 % 85 % of people who go whale watching at Captain Will's Whale Watching Adventures will sight a whale."
+      "text": "About $85\\%$ of people who go whale watching at Captain Will's Whale Watching Adventures will sight a whale."
     },
     {
       "letter": "E",
-      "text": "85 85 out of every 100 people 100 people who sail with Captain Will's Whale Watching Adventures will sight a whale."
+      "text": "$85$ out of every $100\\text{ people}$ who sail with Captain Will's Whale Watching Adventures will sight a whale."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "VAR-4.B.1",
-    "VAR-4",
-    "VAR-4.B"
-  ],
-  "standards": [
     "4.B",
     "VAR-4.B.1",
     "VAR-4",

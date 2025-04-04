@@ -1,26 +1,33 @@
 {
   "question_id": "question-063",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "p-value",
+    "tests-of-significance",
+    "drawing-conclusions",
+    "sampling-and-experimentation"
+  ],
   "title": "P-value and significance level: What to Do?",
-  "difficulty": "Difficult",
-  "question_text": "Suppose in a significance test a P-value of $14\\%$ is produced. The correct conclusion at the $10\\%$ significance level would be to:",
+  "difficulty": "Hard",
+  "question_text": "Suppose in a significance test a P-value of $14\\%$ is produced.\nThe correct conclusion at the $10\\%$ significance level would be to:",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Reject the H 0 H 0 ."
+      "text": "Reject the ${ H }_{ 0 }$."
     },
     {
       "letter": "B",
-      "text": "Accept the H 0 H 0 ."
+      "text": "Accept the ${ H }_{ 0 }$."
     },
     {
       "letter": "C",
-      "text": "Fail to reject H 0 H 0"
+      "text": "Fail to reject ${ H }_{ 0 }$"
     },
     {
       "letter": "D",
-      "text": "Accept the H A H A ."
+      "text": "Accept the ${ H }_{ A }$."
     },
     {
       "letter": "E",
@@ -29,15 +36,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-3",
-    "DAT-3.A.2",
-    "DAT-3.A",
-    "DAT-3.A.1"
-  ],
-  "standards": [
     "4.B",
     "DAT-3",
     "DAT-3.A.2",

@@ -1,42 +1,46 @@
 {
   "question_id": "question-046",
   "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "tests-of-significance",
+    "categorical-data",
+    "statistical-inference",
+    "chi-square-test",
+    "two-way-tables"
+  ],
   "title": "Dog Size and Adoption Rates: Is There Evidence?",
-  "difficulty": "Moderate",
-  "question_text": "Are small, medium, and large sized dogs adopted from animal shelters at the same rate?  Rebecca surveyed several rescue organizations about recent dog adoptions and was able to gather the data displayed below. Small Medium Large Number of Dogs Adopted 28 43 35 Assuming the necessary conditions are satisfied, what is the $p$ -value of the appropriate test?",
+  "difficulty": "Medium",
+  "question_text": "Are small, medium, and large sized dogs adopted from animal shelters at the same rate? Rebecca surveyed several rescue organizations about recent dog adoptions and was able to gather the data displayed below.\nSmall Medium Large\nNumber of Dogs Adopted 28 43 35\n\n\nAssuming the necessary conditions are satisfied, what is the $p$-value of the appropriate test?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Small</th><th scope=\"col\">Medium</th><th scope=\"col\">Large</th></tr></thead><tbody><tr><td>Number of Dogs Adopted</td><td>28</td><td>43</td><td>35</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "0.074 0.074"
+      "text": "$0.074$"
     },
     {
       "letter": "B",
-      "text": "0.203 0.203"
+      "text": "$0.203$"
     },
     {
       "letter": "C",
-      "text": "0.363 0.363"
+      "text": "$0.363$"
     },
     {
       "letter": "D",
-      "text": "0.999 0.999"
+      "text": "$0.999$"
     },
     {
       "letter": "E",
-      "text": "3.189 3.189"
+      "text": "$3.189$"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-8.H",
-    "3.A",
-    "VAR-8",
-    "VAR-8.H.1"
-  ],
-  "standards": [
     "VAR-8.H",
     "3.A",
     "VAR-8",

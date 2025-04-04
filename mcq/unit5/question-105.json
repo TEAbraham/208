@@ -1,43 +1,42 @@
 {
   "question_id": "question-105",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "probability",
+    "discrete-random-variables"
+  ],
   "title": "Overwhelmingly Binomial",
-  "difficulty": "Difficult",
-  "question_text": "In a certain large city, $76\\%$ of individuals between the age of $12$ and $17$ have a cell phone. If $250\\text{ individuals}$ between the age of $12$ and $17$ are randomly selected from those in this city, what is the probability that no more than $175$ of them will have a cell phone?",
+  "difficulty": "Hard",
+  "question_text": "In a certain large city, $76\\%$ of individuals between the age of $12$ and $17$ have a cell phone.\nIf $250\\text{ individuals}$ between the age of $12$ and $17$ are randomly selected from those in this city, what is the probability that no more than $175$ of them will have a cell phone?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.0132 0.0132"
+      "text": "$0.0132$"
     },
     {
       "letter": "B",
-      "text": "0.0052 0.0052"
+      "text": "$0.0052$"
     },
     {
       "letter": "C",
-      "text": "0.76 0.76"
+      "text": "$0.76$"
     },
     {
       "letter": "D",
-      "text": "0.9947 0.9947"
+      "text": "$0.9947$"
     },
     {
       "letter": "E",
-      "text": "0.9868 0.9868"
+      "text": "$0.9868$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-6.B.2",
-    "VAR-6.B",
-    "3.A",
-    "VAR-6.B.1",
-    "VAR-6"
-  ],
-  "standards": [
     "VAR-6.B.2",
     "VAR-6.B",
     "3.A",

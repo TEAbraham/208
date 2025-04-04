@@ -1,43 +1,45 @@
 {
   "question_id": "question-067",
   "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "confidence-interval",
+    "estimation",
+    "statistical-inference",
+    "least-squares-regression-line"
+  ],
   "title": "Regression Slope $t$-Interval: Dow Jones and Year",
-  "difficulty": "Difficult",
-  "question_text": "In February of 2009, the Dow Jones Industrial Average (DJI) reached a low not seen in 10 years. Since then, the Dow Jones has been steadily increasing. Analysts have been studying the relationship between the high points of the Dow Jones for each year since 2009. A computer regression analysis of the data is given below: Dependent variable is: Dow Jones Industrial Average (DJI) $R^2 = 93.33\\%$ $s= 1116.14$ , with $6-2= 4$ D.O.F. Variable Coefficient s.e Coeff t-ratio prob Constant 8224.89 735.23 16.06 0.00001 Year 1993.35 123.34 7.47 0.0017 Assuming all of the conditions have been satisfied, which of the following gives a $90\\%$ confidence interval for the slope of the regression line?",
+  "difficulty": "Hard",
+  "question_text": "In February of 2009, the Dow Jones Industrial Average (DJI) reached a low not seen in 10 years. Since then, the Dow Jones has been steadily increasing. Analysts have been studying the relationship between the high points of the Dow Jones for each year since 2009. A computer regression analysis of the data is given below:\nDependent variable is: Dow Jones Industrial Average (DJI)\n$R^2 = 93.33\\%$\n$s= 1116.14$, with $6-2= 4$ D.O.F.\nVariable Coefficient s.e Coeff t-ratio prob\nConstant 8224.89 735.23 16.06 0.00001\nYear 1993.35 123.34 7.47 0.0017\n\n\nAssuming all of the conditions have been satisfied, which of the following gives a $90\\%$ confidence interval for the slope of the regression line?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\"></th><th scope=\"col\">Coefficient</th><th scope=\"col\"></th><th scope=\"col\">s.e Coeff</th><th scope=\"col\"></th><th scope=\"col\">t-ratio</th><th scope=\"col\"></th><th scope=\"col\">prob</th></tr></thead><tbody><tr><td>Constant</td><td></td><td>8224.89</td><td></td><td>735.23</td><td></td><td>16.06</td><td></td><td>0.00001</td></tr><tr><td>Year</td><td></td><td>1993.35</td><td></td><td>123.34</td><td></td><td>7.47</td><td></td><td>0.0017</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "1993.35 ± ( 1.645 ) ( 123.34 ) 1993.35 ± ( 1.645 ) ( 123.34 )"
+      "text": "$1993.35\\pm (1.645)(123.34)$"
     },
     {
       "letter": "B",
-      "text": "1993.35 ± ( 1.943 ) ( 123.34 ) 1993.35 ± ( 1.943 ) ( 123.34 )"
+      "text": "$1993.35\\pm (1.943)(123.34)$"
     },
     {
       "letter": "C",
-      "text": "1993.35 ± ( 2.132 ) ( 123.34 ) 1993.35 ± ( 2.132 ) ( 123.34 )"
+      "text": "$1993.35\\pm (2.132)(123.34)$"
     },
     {
       "letter": "D",
-      "text": "8224.89 ± ( 1.943 ) ( 735.23 ) 8224.89 ± ( 1.943 ) ( 735.23 )"
+      "text": "$8224.89\\pm (1.943)(735.23)$"
     },
     {
       "letter": "E",
-      "text": "8224.89 ± ( 2.132 ) ( 735.23 ) 8224.89 ± ( 2.132 ) ( 735.23 )"
+      "text": "$8224.89\\pm (2.132)(735.23)$"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-7.M",
-    "VAR-7",
-    "3.E",
-    "VAR-7.M.1",
-    "VAR-7.M.2"
-  ],
-  "standards": [
     "VAR-7.M",
     "VAR-7",
     "3.E",

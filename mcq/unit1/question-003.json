@@ -1,10 +1,15 @@
 {
   "question_id": "question-003",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "data",
+    "context"
+  ],
   "title": "Describing a Single Quantitative Variable",
   "difficulty": "Easy",
-  "question_text": "The distribution of values that describe a single quantitative variable is described below. Skewed left Median of $94$ Range of $11$ Which of the following important information is missing from the above description?",
+  "question_text": "The distribution of values that describe a single quantitative variable is described below.\nSkewed left\nMedian of $94$\nRange of $11$\nWhich of the following important information is missing from the above description?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +34,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "1.A",
-    "VAR-1.A.1",
-    "VAR-1",
-    "VAR-1.A"
-  ],
-  "standards": [
     "1.A",
     "VAR-1.A.1",
     "VAR-1",

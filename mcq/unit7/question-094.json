@@ -1,42 +1,42 @@
 {
   "question_id": "question-094",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
   "title": "Analyzing $T$-Table Results",
-  "difficulty": "Moderate",
-  "question_text": "Suppose a one-sided test gives a test statistic $t = 2.45$ for a sample of size $n=24$ . What conclusion can be made at the $\\alpha = 5\\%$ level?",
+  "difficulty": "Medium",
+  "question_text": "Suppose a one-sided test gives a test statistic $t = 2.45$ for a sample of size $n=24$.\nWhat conclusion can be made at the $\\alpha = 5\\%$ level?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Reject H 0 H 0 at the 5 % 5 % level."
+      "text": "Reject $H_0$ at the $5\\%$ level."
     },
     {
       "letter": "B",
-      "text": "Fail to reject H 0 H 0 at the 5 % 5 % level."
+      "text": "Fail to reject $H_0$ at the $5\\%$ level."
     },
     {
       "letter": "C",
-      "text": "Reject H a H a at the 5 % 5 % level."
+      "text": "Reject $H_a$ at the $5\\%$ level."
     },
     {
       "letter": "D",
-      "text": "Fail to reject H a H a at the 5 % 5 % level."
+      "text": "Fail to reject $H_a$ at the $5\\%$ level."
     },
     {
       "letter": "E",
-      "text": "Retain the null at the 5 % 5 % level."
+      "text": "Retain the null at the $5\\%$ level."
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-1.J",
-    "VAR-1.J.1",
-    "1.A",
-    "VAR-1"
-  ],
-  "standards": [
     "VAR-1.J",
     "VAR-1.J.1",
     "1.A",

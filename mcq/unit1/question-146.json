@@ -1,12 +1,21 @@
 {
   "question_id": "question-146",
   "unit": "Unit 1 | Exploring One-Variable Data",
-  "title": "Boxplot: Shape, Mean vs. Median, S.D. vs. IQR",
-  "difficulty": "Difficult",
-  "question_text": "Created for Albert.io. Copyright 2016. All rights reserved. Looking at the boxplot above,  which of the following choices below is TRUE?",
-  "image_files": [
-    "images/question-146-img1.PNG"
+  "topics": [
+    "mean",
+    "univariate-data",
+    "standard-deviation",
+    "boxplots",
+    "summarizing-distributions",
+    "median",
+    "exploring-data",
+    "interquartile-range"
   ],
+  "title": "Boxplot: Shape, Mean vs. Median, S.D. vs. IQR",
+  "difficulty": "Hard",
+  "question_text": "Created for Albert.io. Copyright 2016. All rights reserved.\nLooking at the boxplot above, which of the following choices below is TRUE?",
+  "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -18,7 +27,7 @@
     },
     {
       "letter": "C",
-      "text": "The distribution is skewed right; the mean is greater than the median; it cannot be determined if the  standard deviation is greater than or  less than the IQR."
+      "text": "The distribution is skewed right; the mean is greater than the median; it cannot be determined if the standard deviation is greater than or less than the IQR."
     },
     {
       "letter": "D",
@@ -31,14 +40,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.L.2",
-    "2.B",
-    "UNC-1.L",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.L.2",
     "2.B",
     "UNC-1.L",

@@ -1,43 +1,43 @@
 {
   "question_id": "question-245",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "tables",
+    "probability"
+  ],
   "title": "Annual Rainfall Amounts: Calculating Probability",
-  "difficulty": "Moderate",
-  "question_text": "Suppose average monthly rainfall has been recorded for a particular city. It has been calculated that the mean monthly rainfall is $2.183\\text{ inches}$ with a standard deviation of $0.424\\text{ inches}$ .  Assume that the city's mean monthly rainfall is normally distributed. Assuming that rainfall varies independently from one month to the next, and that this data is from one location of annual rainfall, determine the probability that this location gets fewer than $25\\text{ inches}$ of rain next year.",
+  "difficulty": "Medium",
+  "question_text": "Suppose average monthly rainfall has been recorded for a particular city.\nIt has been calculated that the mean monthly rainfall is $2.183\\text{ inches}$ with a standard deviation of $0.424\\text{ inches}$. Assume that the city's mean monthly rainfall is normally distributed.\nAssuming that rainfall varies independently from one month to the next, and that this data is from one location of annual rainfall, determine the probability that this location gets fewer than $25\\text{ inches}$ of rain next year.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.0821 0.0821"
+      "text": "$0.0821$"
     },
     {
       "letter": "B",
-      "text": "0.1642 0.1642"
+      "text": "$0.1642$"
     },
     {
       "letter": "C",
-      "text": "0.791 0.791"
+      "text": "$0.791$"
     },
     {
       "letter": "D",
-      "text": "0.209 0.209"
+      "text": "$0.209$"
     },
     {
       "letter": "E",
-      "text": "0.0344 0.0344"
+      "text": "$0.0344$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-2.B.2",
-    "VAR-2.B",
-    "3.A",
-    "VAR-2",
-    "VAR-2.B.3"
-  ],
-  "standards": [
     "VAR-2.B.2",
     "VAR-2.B",
     "3.A",

@@ -1,43 +1,42 @@
 {
   "question_id": "question-156",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "descriptive-statistics",
+    "combining-random-variables"
+  ],
   "title": "Total Mean and Standard Deviation: Expected Number Sold",
-  "difficulty": "Difficult",
-  "question_text": "Per inning, a vendor will sell an average of $6$ hot dogs with a standard deviation of $1.6$ . What is the expected total number of hot dogs he/she will sell  and with what standard deviation during the first four innings of a baseball game?",
+  "difficulty": "Hard",
+  "question_text": "Per inning, a vendor will sell an average of $6$ hot dogs with a standard deviation of $1.6$ .\nWhat is the expected total number of hot dogs he/she will sell and with what standard deviation during the first four innings of a baseball game?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "μ = 24 σ = 3.2 μ = 24 σ = 3.2"
+      "text": "$\\mu =24\\quad \\sigma =3.2$"
     },
     {
       "letter": "B",
-      "text": "μ = 24 σ = 6.4 μ = 24 σ = 6.4"
+      "text": "$\\mu =24\\quad \\sigma =6.4$"
     },
     {
       "letter": "C",
-      "text": "μ = 24 σ = 10.24 μ = 24 σ = 10.24"
+      "text": "$\\mu =24\\quad \\sigma =10.24$"
     },
     {
       "letter": "D",
-      "text": "μ = 1.5 σ = 3.2 μ = 1.5 σ = 3.2"
+      "text": "$\\mu =1.5\\quad \\sigma =3.2$"
     },
     {
       "letter": "E",
-      "text": "μ = 1.5 σ = 6.4 μ = 1.5 σ = 6.4"
+      "text": "$\\mu =1.5\\quad \\sigma =6.4$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-5.E",
-    "VAR-5.E.3",
-    "VAR-5",
-    "3.B",
-    "VAR-5.E.1"
-  ],
-  "standards": [
     "VAR-5.E",
     "VAR-5.E.3",
     "VAR-5",

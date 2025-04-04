@@ -1,49 +1,42 @@
 {
   "question_id": "question-047",
   "unit": "Unit 5 | Sampling Distributions",
-  "title": "Texas County Populations",
-  "difficulty": "Moderate",
-  "question_text": "The campaign director for a Texas governor's candidate is planning a multi-stage sample survey.  In the first stage, the director will randomly choose $15\\text{ counties}$ .  The partial histogram below shows the population by county for Texas (the five highest outlier counties have been omitted). Created for Albert.io. Copyright 2017. All rights reserved. The average population for all $254\\text{ counties}$ is $99{,}423\\text{ people}$ with a standard deviation of $354{,}429\\text{ people}$ . Describe the sampling distribution of the mean population for samples of $15\\text{ counties}$ .",
-  "image_files": [
-    "images/question-047-img1.JPG",
-    "images/question-047-img2.JPG",
-    "images/question-047-img3.JPG",
-    "images/question-047-img4.JPG",
-    "images/question-047-img5.JPG",
-    "images/question-047-img6.JPG"
+  "topics": [
+    "anticipating-patterns",
+    "sample-mean",
+    "sampling-distributions"
   ],
+  "title": "Texas County Populations",
+  "difficulty": "Medium",
+  "question_text": "The campaign director for a Texas governor's candidate is planning a multi-stage sample survey. In the first stage, the director will randomly choose $15\\text{ counties}$. The partial histogram below shows the population by county for Texas (the five highest outlier counties have been omitted).\nCreated for Albert.io. Copyright 2017. All rights reserved.\nThe average population for all $254\\text{ counties}$ is $99{,}423\\text{ people}$ with a standard deviation of $354{,}429\\text{ people}$.\nDescribe the sampling distribution of the mean population for samples of $15\\text{ counties}$.",
+  "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Created for Albert.io. Copyright 2017. All rights reserved. μ ¯ ¯ ¯ x = 99,423 μ x ¯ = 99,423 , σ ¯ ¯ ¯ x = 354,429 σ x ¯ = 354,429"
+      "text": "Created for Albert.io. Copyright 2017. All rights reserved.\n\n${ \\mu }_{ \\overline { x } }=99{,}423$, ${ \\sigma }_{ \\overline { x } }=354{,}429$"
     },
     {
       "letter": "B",
-      "text": "Created for Albert.io. Copyright 2017. All rights reserved. μ ¯ ¯ ¯ x = 99,423 μ x ¯ = 99,423 , σ ¯ ¯ ¯ x = 91,513 σ x ¯ = 91,513"
+      "text": "Created for Albert.io. Copyright 2017. All rights reserved.\n\nμ\n¯\nx\n=99,423, σ\n¯\nx\n=91,513"
     },
     {
       "letter": "C",
-      "text": "Created for Albert.io. Copyright 2017. All rights reserved. μ ¯ ¯ ¯ x = 99,423 μ x ¯ = 99,423 , σ ¯ ¯ ¯ x = 354,429 σ x ¯ = 354,429"
+      "text": "Created for Albert.io. Copyright 2017. All rights reserved.\n\nμ\n¯\nx\n=99,423\n, σ\n¯\nx\n=354,429"
     },
     {
       "letter": "D",
-      "text": "Created for Albert.io. Copyright 2017. All rights reserved. μ ¯ ¯ ¯ x = 99,423 μ x ¯ = 99,423 , σ ¯ ¯ ¯ x = 91,513 σ x ¯ = 91,513"
+      "text": "Created for Albert.io. Copyright 2017. All rights reserved.\n\nμ\n¯\nx\n=99,423\n, σ\n¯\nx\n=91,513"
     },
     {
       "letter": "E",
-      "text": "Created for Albert.io. Copyright 2017. All rights reserved. μ ¯ ¯ ¯ x = 99,423 μ x ¯ = 99,423 , σ ¯ ¯ ¯ x = 22,239 σ x ¯ = 22,239"
+      "text": "Created for Albert.io. Copyright 2017. All rights reserved.\n\nμ\n¯\nx\n=99,423\n, σ\n¯\nx\n=22,239"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "UNC-3.S.1",
-    "UNC-3",
-    "UNC-3.S"
-  ],
-  "standards": [
     "4.B",
     "UNC-3.S.1",
     "UNC-3",

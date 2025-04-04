@@ -1,43 +1,43 @@
 {
   "question_id": "question-077",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "scatterplots",
+    "bivariate-data",
+    "scatter-plots",
+    "exploring-data"
+  ],
   "title": "Exponential Regression on a Scatterplot",
   "difficulty": "Easy",
   "question_text": "If the data in a scatterplot appears to be exponential form, the best way to transform the data into linear form is to",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Plot the log of the values of the independent variable ( x x ) against the dependent variable ( y y )."
+      "text": "Plot the log of the values of the independent variable ($x$) against the dependent variable ($y$)."
     },
     {
       "letter": "B",
-      "text": "Plot the values of the independent variable ( x x ) against the log of the values of the dependent variable ( y y )."
+      "text": "Plot the values of the independent variable ($x$) against the log of the values of the dependent variable ($y$)."
     },
     {
       "letter": "C",
-      "text": "Plot the log of the values of the independent variable ( x x ) against the log of the values of the dependent variable ( y y )."
+      "text": "Plot the log of the values of the independent variable ($x$) against the log of the values of the dependent variable ($y$)."
     },
     {
       "letter": "D",
-      "text": "Plot the values of the independent variable ( x x ) against the square root of the values of the dependent variable ( y y )."
+      "text": "Plot the values of the independent variable ($x$) against the square root of the values of the dependent variable ($y$)."
     },
     {
       "letter": "E",
-      "text": "Plot the values of the independent variable ( x x ) against the reciprocal of the values of the dependent variable ( y y )."
+      "text": "Plot the values of the independent variable ($x$) against the reciprocal of the values of the dependent variable ($y$)."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-1.D.2",
-    "2.C",
-    "DAT-1",
-    "DAT-1.D",
-    "DAT-1.D.1"
-  ],
-  "standards": [
     "DAT-1.D.2",
     "2.C",
     "DAT-1",

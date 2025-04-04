@@ -1,42 +1,42 @@
 {
   "question_id": "question-050",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "significance-tests",
+    "hypotheses",
+    "single-population-mean"
+  ],
   "title": "SuperChips",
   "difficulty": "Easy",
-  "question_text": "There had been some recent complaints about the SuperChips Cookie Company that there were fewer chocolate chips per cookie than there used to be.  Ten years ago, there was shown to be an average of $12$ chips per cookie.  The current company president decided to randomly sample $100$ cookies off the line and have the chips counted.  He wanted to show that there were even more chips per cookie now.  Write the hypotheses that would be used for such a test.",
+  "question_text": "There had been some recent complaints about the SuperChips Cookie Company that there were fewer chocolate chips per cookie than there used to be. Ten years ago, there was shown to be an average of $12$ chips per cookie. The current company president decided to randomly sample $100$ cookies off the line and have the chips counted. He wanted to show that there were even more chips per cookie now. Write the hypotheses that would be used for such a test.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "H 0 : μ = 12 H 0 : μ = 12 H a : μ > 12 H a : μ > 12"
+      "text": "$H_{0}: \\mu=12$\n$H_{a}: \\mu>12$"
     },
     {
       "letter": "B",
-      "text": "H 0 : μ > 12 H 0 : μ > 12 H a : μ = 12 H a : μ = 12"
+      "text": "$H_{0}: \\mu>12$\n$H_{a}: \\mu=12$"
     },
     {
       "letter": "C",
-      "text": "H 0 : μ = 10 H 0 : μ = 10 H a : μ > 12 H a : μ > 12"
+      "text": "$H_{0}: \\mu=10$\n$H_{a}: \\mu>12$"
     },
     {
       "letter": "D",
-      "text": "H 0 : ¯ x = 12 H 0 : x ¯ = 12 H a : ¯ x > 12 H a : x ¯ > 12"
+      "text": "$H_{0}: \\bar{x}=12$\n$H_{a}: \\bar{x}>12$"
     },
     {
       "letter": "E",
-      "text": "H 0 : μ = 12 H 0 : μ = 12 H a : ¯ x > 12 H a : x ¯ > 12"
+      "text": "$H_{0}: \\mu=12$\n$H_{a}: \\bar{x}>12$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-7.C",
-    "1.F",
-    "VAR-7.C.1",
-    "VAR-7"
-  ],
-  "standards": [
     "VAR-7.C",
     "1.F",
     "VAR-7.C.1",

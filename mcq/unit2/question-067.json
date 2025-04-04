@@ -1,10 +1,17 @@
 {
   "question_id": "question-067",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "correlation",
+    "variation",
+    "bivariate-data",
+    "exploring-data"
+  ],
   "title": "Correlation and Variation: Hair on Head",
-  "difficulty": "Difficult",
+  "difficulty": "Hard",
   "question_text": "In a study among men of all ages, it was found that there was a correlation of $-0.8$ between how much hair you have on your head and how old you are. Which of the following is a reasonable conclusion?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -12,32 +19,25 @@
     },
     {
       "letter": "B",
-      "text": "80 % 80 % of men will lose their hair."
+      "text": "$80\\%$ of men will lose their hair."
     },
     {
       "letter": "C",
-      "text": "80 % 80 % of the variation of the hair on men's heads can be explained by the variation of their ages."
+      "text": "$80\\%$ of the variation of the hair on men's heads can be explained by the variation of their ages."
     },
     {
       "letter": "D",
-      "text": "64 % 64 % of the variation of the hair on men's heads can be explained by the variation of their ages."
+      "text": "$64\\%$ of the variation of the hair on men's heads can be explained by the variation of their ages."
     },
     {
       "letter": "E",
-      "text": "36 % 36 % of the variation of the hair on men's heads can be explained by the variation of their ages."
+      "text": "$36\\%$ of the variation of the hair on men's heads can be explained by the variation of their ages."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-1.C",
-    "DAT-1.C.2",
-    "DAT-1",
-    "DAT-1.C.1"
-  ],
-  "standards": [
     "4.B",
     "DAT-1.C",
     "DAT-1.C.2",

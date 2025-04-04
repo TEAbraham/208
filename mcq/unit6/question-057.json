@@ -1,43 +1,42 @@
 {
   "question_id": "question-057",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
   "title": "$p$-value Interpretation",
-  "difficulty": "Moderate",
-  "question_text": "A study reported that the proportion of college students who experience heart palpitations after drinking an energy drink is $0.18$ .  The dean of a university believes that the proportion of students at his university who experience heart palpitations after drinking an energy drink is less than $0.18$ .   The dean  randomly sampled students from the university who had just had an energy drink and found that $16\\%$ of them had experienced heart palpitations. All conditions for inference were met, and the $p$ -value for the appropriate hypothesis test was $0.30$ .  Which of the following statements is the best interpretation of the $p$ -value?",
+  "difficulty": "Medium",
+  "question_text": "A study reported that the proportion of college students who experience heart palpitations after drinking an energy drink is $0.18$. The dean of a university believes that the proportion of students at his university who experience heart palpitations after drinking an energy drink is less than $0.18$. The dean randomly sampled students from the university who had just had an energy drink and found that $16\\%$ of them had experienced heart palpitations.\nAll conditions for inference were met, and the $p$-value for the appropriate hypothesis test was $0.30$. Which of the following statements is the best interpretation of the $p$-value?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The probability that the alternative hypothesis is true is 0.30 0.30 ."
+      "text": "The probability that the alternative hypothesis is true is $0.30$."
     },
     {
       "letter": "B",
-      "text": "The probability that the null hypothesis is true is 0.30 0.30 ."
+      "text": "The probability that the null hypothesis is true is $0.30$."
     },
     {
       "letter": "C",
-      "text": "If the proportion of students who experience heart palpitations at the university is 18 % 18 % , then the probability of observing results of at most 16 % 16 % is 0.30 0.30 ."
+      "text": "If the proportion of students who experience heart palpitations at the university is $18\\%$, then the probability of observing results of at most $16\\%$ is $0.30$."
     },
     {
       "letter": "D",
-      "text": "If the proportion of students who experience heart palpitations at the university is 18 % 18 % , then the probability of observing results of at least 16 % 16 % is 0.30 0.30 ."
+      "text": "If the proportion of students who experience heart palpitations at the university is $18\\%$, then the probability of observing results of at least $16\\%$ is $0.30$."
     },
     {
       "letter": "E",
-      "text": "The probability of observing 16 % 16 % of students who experience heart palpitations at this university is 0.30 0.30 ."
+      "text": "The probability of observing $16\\%$ of students who experience heart palpitations at this university is $0.30$."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-3",
-    "DAT-3.A.2",
-    "DAT-3.A",
-    "DAT-3.A.1"
-  ],
-  "standards": [
     "4.B",
     "DAT-3",
     "DAT-3.A.2",

@@ -1,43 +1,42 @@
 {
   "question_id": "question-058",
   "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "least-squares-regression-line"
+  ],
   "title": "Tokens and Tickets at the Arcade: Degrees of Freedom",
-  "difficulty": "Moderate",
-  "question_text": "Mikey wants to investigate if there is a relationship between the number of tokens he plays and the number of tickets that he earns toward prizes at the arcade. On $10$ different occasions, he recorded how many tokens he had played and how many tickets he had earned. After plotting the ordered pairs $(x, y)$ , where $x$ was the number of tokens and $y$ was the number of tickets earned, he saw that the relationship was roughly linear. In conducting a $t$ -test for the slope of a the least-squares regression line, how many degrees of freedom should Mikey use?",
+  "difficulty": "Medium",
+  "question_text": "Mikey wants to investigate if there is a relationship between the number of tokens he plays and the number of tickets that he earns toward prizes at the arcade.\nOn $10$ different occasions, he recorded how many tokens he had played and how many tickets he had earned. After plotting the ordered pairs $(x, y)$, where $x$ was the number of tokens and $y$ was the number of tickets earned, he saw that the relationship was roughly linear.\nIn conducting a $t$-test for the slope of a the least-squares regression line, how many degrees of freedom should Mikey use?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "5 5"
+      "text": "$5$"
     },
     {
       "letter": "B",
-      "text": "8 8"
+      "text": "$8$"
     },
     {
       "letter": "C",
-      "text": "9 9"
+      "text": "$9$"
     },
     {
       "letter": "D",
-      "text": "10 10"
+      "text": "$10$"
     },
     {
       "letter": "E",
-      "text": "11 11"
+      "text": "$11$"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-7.M",
-    "VAR-7",
-    "3.E",
-    "VAR-7.M.1",
-    "VAR-7.M.2"
-  ],
-  "standards": [
     "VAR-7.M",
     "VAR-7",
     "3.E",

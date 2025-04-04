@@ -1,10 +1,17 @@
 {
   "question_id": "question-203",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "calculating-probability",
+    "anticipating-patterns",
+    "independence",
+    "probability"
+  ],
   "title": "Tennis Model",
-  "difficulty": "Difficult",
-  "question_text": "When tennis is played, the game continues until one player has won four points; however, if the game is tied at either three or four points each, the opponents continue until one player wins two points in a row. Suppose Jane and Tom are playing a single tennis game. For any point, the probability that Jane wins that point is $0.6$ . Assuming that each point played is independent of every other, what probability model is appropriate for describing this game?",
+  "difficulty": "Hard",
+  "question_text": "When tennis is played, the game continues until one player has won four points; however, if the game is tied at either three or four points each, the opponents continue until one player wins two points in a row.\nSuppose Jane and Tom are playing a single tennis game. For any point, the probability that Jane wins that point is $0.6$.\nAssuming that each point played is independent of every other, what probability model is appropriate for describing this game?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -12,11 +19,11 @@
     },
     {
       "letter": "B",
-      "text": "Normal, because the mean μ μ for Jane is 2.4 2.4 , with standard deviation = 0.98 0.98 ."
+      "text": "Normal, because the mean $\\mu$ for Jane is $2.4$, with standard deviation = $0.98$."
     },
     {
       "letter": "C",
-      "text": "Linear, with a slope of 2.4 2.4 and y y -intercept of 0.6 0.6"
+      "text": "Linear, with a slope of $2.4$ and $y$-intercept of $0.6$"
     },
     {
       "letter": "D",
@@ -29,15 +36,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.E.2",
-    "UNC-3.E",
-    "3.A",
-    "UNC-3",
-    "UNC-3.E.1"
-  ],
-  "standards": [
     "UNC-3.E.2",
     "UNC-3.E",
     "3.A",

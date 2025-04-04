@@ -1,10 +1,17 @@
 {
   "question_id": "question-088",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference",
+    "type-1-error"
+  ],
   "title": "Making a Type I Error When Diagnosing Diabetes",
-  "difficulty": "Difficult",
-  "question_text": "Diabetes is a metabolic disease that is characterized by prolonged periods of high blood sugar levels. The disease can be very dangerous, so it is important that those affected by diabetes be diagnosed quickly. Diabetes can be diagnosed if two separate blood sugar readings result in $126\\text{ mg/dL}$ or higher. However, due to sampling variability and variations in an individual's diet and activity level, two separate readings of $126\\text{ mg/dL}$ or higher are possible even in individuals who do not truly have diabetes. Suppose a physician notices two consecutive blood sugar readings of exactly $126\\text{ mg/dL}$ for a particular patient. Since these results are very borderline, she decides to do a hypothesis test with the following hypotheses: $H_0:$ The patient has diabetes $H_a:$ The patient does not have diabetes In this situation, what would be the meaning and potential consequences of the physician making a Type I error?",
+  "difficulty": "Hard",
+  "question_text": "Diabetes is a metabolic disease that is characterized by prolonged periods of high blood sugar levels. The disease can be very dangerous, so it is important that those affected by diabetes be diagnosed quickly. Diabetes can be diagnosed if two separate blood sugar readings result in $126\\text{ mg/dL}$ or higher. However, due to sampling variability and variations in an individual's diet and activity level, two separate readings of $126\\text{ mg/dL}$ or higher are possible even in individuals who do not truly have diabetes.\nSuppose a physician notices two consecutive blood sugar readings of exactly $126\\text{ mg/dL}$ for a particular patient. Since these results are very borderline, she decides to do a hypothesis test with the following hypotheses:\n$H_0:$ The patient has diabetes\n$H_a:$ The patient does not have diabetes\nIn this situation, what would be the meaning and potential consequences of the physician making a Type I error?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -16,7 +23,7 @@
     },
     {
       "letter": "C",
-      "text": "The physician made a mistake when testing the patient's blood sugar level. The blood sugar readings of 126 mg/dL 126 mg/dL were both incorrect."
+      "text": "The physician made a mistake when testing the patient's blood sugar level. The blood sugar readings of $126\\text{ mg/dL}$ were both incorrect."
     },
     {
       "letter": "D",
@@ -24,20 +31,13 @@
     },
     {
       "letter": "E",
-      "text": "The physician determines that the patient does not have diabetes and therefore, does not treat the patient for the disease. It turns out that the patient really is not diabetic and simply had two consecutive blood sugar readings of 126 mg/dL 126 mg/dL because he had been eating a lot of sweets."
+      "text": "The physician determines that the patient does not have diabetes and therefore, does not treat the patient for the disease. It turns out that the patient really is not diabetic and simply had two consecutive blood sugar readings of $126\\text{ mg/dL}$ because he had been eating a lot of sweets."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "UNC-5.D.1",
-    "UNC-5",
-    "UNC-5.D.2",
-    "UNC-5.D"
-  ],
-  "standards": [
     "4.B",
     "UNC-5.D.1",
     "UNC-5",

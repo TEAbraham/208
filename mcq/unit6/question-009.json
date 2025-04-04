@@ -1,10 +1,16 @@
 {
   "question_id": "question-009",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "sampling-distribution",
+    "sample-proportion",
+    "normal"
+  ],
   "title": "Blue Candies",
-  "difficulty": "Difficult",
-  "question_text": "Two AP Statistics students are doing a project regarding a certain famous chocolate candies. The company that produces the candies claims that 8 % of the candies are blue. The students want to investigate this and head to the large candy machine at their local mall.  Each student inserts multiple quarters into the machine and get a sample of 30 candies on each turn. They record the proportion of blue candies on each sample and create an approximate sampling distribution of the candies obtained. The first student is confused when the graph of the sampling distribution after many, many trials does not model a normal distribution. What is the most important reason why the distribution is not normal?",
+  "difficulty": "Hard",
+  "question_text": "Two AP Statistics students are doing a project regarding a certain famous chocolate candies. The company that produces the candies claims that $8\\%$ of the candies are blue. The students want to investigate this and head to the large candy machine at their local mall. Each student inserts multiple quarters into the machine and get a sample of $30$ candies on each turn. They record the proportion of blue candies on each sample and create an approximate sampling distribution of the candies obtained.\nThe first student is confused when the graph of the sampling distribution after many, many trials does not model a normal distribution. What is the most important reason why the distribution is not normal?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -28,14 +34,9 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "When dealing with sampling distributions, the shape is unknown at the beginning, but does approach an approximately normal shape if certain conditions are met. In this case, the student was surprised that the shape was not approximately normal. In order for the sampling distribution to be approximately normal, the expected number of successes and failures need to be greater than or equal to 10 10 . This is called the Large Counts Condition and must be check in order to use the normal approximation for the sampling distribution of sample proportions.\n\nChoice 'B\" is correct.",
-  "distractor_explanations": {},
+  "solution": "When dealing with sampling distributions, the shape is unknown at the beginning, but does approach an approximately normal shape if certain conditions are met. In this case, the student was surprised that the shape was not approximately normal. In order for the sampling distribution to be approximately normal, the expected number of successes and failures need to be greater than or equal to $10$. This is called the Large Counts Condition and must be check in order to use the normal approximation for the sampling distribution of sample proportions.\n\nChoice 'B\" is correct.",
+  "explanations": {},
   "tags": [
-    "VAR-1.H",
-    "VAR-1.H.1",
-    "VAR-1"
-  ],
-  "standards": [
     "VAR-1.H",
     "VAR-1.H.1",
     "VAR-1"

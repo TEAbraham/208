@@ -1,10 +1,18 @@
 {
   "question_id": "question-021",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "census",
+    "populations-samples-random-selection",
+    "sampling-and-experimentation",
+    "undercoverage-bias"
+  ],
   "title": "Census: Education in the Summer",
   "difficulty": "Easy",
-  "question_text": "A large seminar was presented for teachers about possible retirement options.  During the seminar, a random sample of $50$ math teachers attending the conference was selected. Among the teachers selected, $85\\%$ have been teaching math for more than ten years. For which of the following populations is $85\\%$ a reasonable estimate of the percentage of those who have been teaching math for more than ten years?",
+  "question_text": "A large seminar was presented for teachers about possible retirement options. During the seminar, a random sample of $50$ math teachers attending the conference was selected. Among the teachers selected, $85\\%$ have been teaching math for more than ten years.\nFor which of the following populations is $85\\%$ a reasonable estimate of the percentage of those who have been teaching math for more than ten years?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,17 +37,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.E",
-    "4.B",
-    "VAR-3",
-    "DAT-2",
-    "DAT-2.B.2",
-    "DAT-2.B",
-    "VAR-3.E.4"
-  ],
-  "standards": [
     "VAR-3.E",
     "4.B",
     "VAR-3",

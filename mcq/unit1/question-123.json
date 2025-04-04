@@ -1,45 +1,45 @@
 {
   "question_id": "question-123",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "spread",
+    "univariate-data",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
   "title": "Repaving Bottleneck City",
-  "difficulty": "Moderate",
-  "question_text": "Bottleneck City will be repaving many of its roads but needs to prioritize its projects.  The roads that are used most often will be repaved first.  The histogram below displays the number of cars that traveled on Main Street between noon and 1 pm each day for $90\\text{ days}$ . Created for Albert.io. Copyright 2017. All rights reserved. Which choice gives the most reasonable estimates of the median and interquartile range for the number of cars driving on Main Street?",
+  "difficulty": "Medium",
+  "question_text": "Bottleneck City will be repaving many of its roads but needs to prioritize its projects. The roads that are used most often will be repaved first. The histogram below displays the number of cars that traveled on Main Street between noon and 1 pm each day for $90\\text{ days}$.\nCreated for Albert.io. Copyright 2017. All rights reserved.\nWhich choice gives the most reasonable estimates of the median and interquartile range for the number of cars driving on Main Street?",
   "image_files": [
     "images/question-123-img1.JPG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Median = 13 = 13 IQR = 11.5 = 11.5"
+      "text": "Median $= 13$\nIQR $= 11.5 $"
     },
     {
       "letter": "B",
-      "text": "Median = 13 = 13 IQR = 19 = 19"
+      "text": "Median=13\nIQR =19"
     },
     {
       "letter": "C",
-      "text": "Median = 138 = 138 IQR = 50 = 50"
+      "text": "Median =138\n\nIQR =50"
     },
     {
       "letter": "D",
-      "text": "Median = 138 = 138 IQR = 200 = 200"
+      "text": "Median =138\n\nIQR =200"
     },
     {
       "letter": "E",
-      "text": "Median = 150 = 150 IQR = 100 = 100"
+      "text": "Median =150\n\nIQR =100"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.L.1",
-    "UNC-1.L.2",
-    "2.B",
-    "UNC-1.L",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.L.1",
     "UNC-1.L.2",
     "2.B",

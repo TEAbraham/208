@@ -1,12 +1,18 @@
 {
   "question_id": "question-004",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "methods-of-data-collection",
+    "categorical-data",
+    "frequency-tables",
+    "bar-charts",
+    "exploring-data"
+  ],
   "title": "Getting to Work: Comparing Boston and Chicago",
   "difficulty": "Easy",
-  "question_text": "A large company has regional offices in Boston and Chicago.  Recently, the personnel department at each location surveyed employees to determine the modes of transportation that employees use to get to work.  The results of the survey are shown in the side-by-side bar graph below. Created for Albert.io. Copyright 2016. All rights reserved. Which of the following statements is NOT indicated by the graph?",
-  "image_files": [
-    "images/question-004-img1.PNG"
-  ],
+  "question_text": "A large company has regional offices in Boston and Chicago. Recently, the personnel department at each location surveyed employees to determine the modes of transportation that employees use to get to work. The results of the survey are shown in the side-by-side bar graph below.\nWhich of the following statements is NOT indicated by the graph?",
+  "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -31,14 +37,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-1.E",
-    "1.A",
-    "VAR-1",
-    "VAR-1.E.1"
-  ],
-  "standards": [
     "VAR-1.E",
     "1.A",
     "VAR-1",

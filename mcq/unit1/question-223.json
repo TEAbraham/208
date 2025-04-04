@@ -1,46 +1,47 @@
 {
   "question_id": "question-223",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "z-score",
+    "tables",
+    "probability"
+  ],
   "title": "Normal Distribution: Placement Exam",
-  "difficulty": "Moderate",
-  "question_text": "The average score on a placement exam is $450$ with a standard deviation of $50$ . $5\\%$ of the test takers score above what value?",
+  "difficulty": "Medium",
+  "question_text": "The average score on a placement exam is $450$ with a standard deviation of $50$.\n$5\\%$ of the test takers score above what value?",
   "image_files": [
     "images/question-223-img1.PNG",
     "images/question-223-img2.PNG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "367 367"
+      "text": "$367$"
     },
     {
       "letter": "B",
-      "text": "452 452"
+      "text": "$452$"
     },
     {
       "letter": "C",
-      "text": "497 497"
+      "text": "$497$"
     },
     {
       "letter": "D",
-      "text": "532 532"
+      "text": "$532$"
     },
     {
       "letter": "E",
-      "text": "550 550"
+      "text": "$550$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-2.B.2",
-    "VAR-2.B.1",
-    "3.A",
-    "VAR-2.B.4",
-    "VAR-2"
-  ],
-  "standards": [
     "VAR-2.B.2",
     "VAR-2.B.1",
     "3.A",

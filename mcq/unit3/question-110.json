@@ -1,47 +1,44 @@
 {
   "question_id": "question-110",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "matched-pairs-design",
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "randomized-block-design"
+  ],
   "title": "Block Design vs. Stratified Random Sampling",
-  "difficulty": "Moderate",
+  "difficulty": "Medium",
   "question_text": "Which of the following describes a difference between block design and stratified random sampling?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Block design involves splitting the sample into two distinct blocks.  With stratified random sampling however, we can split the sample into as many strata as we wish."
+      "text": "Block design involves splitting the sample into two distinct blocks. With stratified random sampling however, we can split the sample into as many strata as we wish."
     },
     {
       "letter": "B",
-      "text": "With block design, blocks are formed based upon some naturally occurring characteristic.  With stratified random sampling however, strata may be formed based upon any characteristic the researcher deems appropriate."
+      "text": "With block design, blocks are formed based upon some naturally occurring characteristic. With stratified random sampling however, strata may be formed based upon any characteristic the researcher deems appropriate."
     },
     {
       "letter": "C",
-      "text": "With block design, we are able to guarantee that all groups within the population of interest are represented.  Stratified random sampling cannot ensure that all groups within the population will be represented."
+      "text": "With block design, we are able to guarantee that all groups within the population of interest are represented. Stratified random sampling cannot ensure that all groups within the population will be represented."
     },
     {
       "letter": "D",
-      "text": "Block design is a specific method used for designing an experiment  while stratified random sampling is a method of gathering a sample."
+      "text": "Block design is a specific method used for designing an experiment while stratified random sampling is a method of gathering a sample."
     },
     {
       "letter": "E",
-      "text": "There is no difference between block design and stratified random sampling.  Blocks and strata are different words that basically mean the same thing."
+      "text": "There is no difference between block design and stratified random sampling. Blocks and strata are different words that basically mean the same thing."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.D",
-    "VAR-3",
-    "DAT-2",
-    "VAR-3.C.8",
-    "VAR-3.D.1",
-    "1.C",
-    "DAT-2.C.3",
-    "VAR-3.C",
-    "DAT-2.C"
-  ],
-  "standards": [
     "VAR-3.D",
     "VAR-3",
     "DAT-2",

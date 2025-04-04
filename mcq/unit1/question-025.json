@@ -1,10 +1,15 @@
 {
   "question_id": "question-025",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "frequency-table",
+    "categorical-data"
+  ],
   "title": "Breakfast Cereal Frequency Table",
   "difficulty": "Easy",
-  "question_text": "A well-known manufacturerer  was interested in launching a series of commercials to promote their new breakfast cereal.  In order to determine what the focus of these commercials should be, they wanted to learn more about which qualities would be most likely to entice consumers to actually purchase the new cereal. To gather data, they surveyed (and received responses from) a group of $150$ individuals who identified themselves as being the person who makes the main grocery shopping decisions for their household.  They asked:  \"Which of the following would be most important to you in deciding whether or not to purchase a new breakfast cereal?  Taste, Nutrition, Ingredients, or Cost?\" Results of the survey showed that $36\\%$ selected \"Taste\", $24\\%$ selected \"Nutrition\", $28\\%$ selected Ingredients, and the rest selected \"Cost\". Which of the following correctly provides the corresponding frequency table?",
+  "question_text": "A well-known manufacturerer was interested in launching a series of commercials to promote their new breakfast cereal. In order to determine what the focus of these commercials should be, they wanted to learn more about which qualities would be most likely to entice consumers to actually purchase the new cereal.\nTo gather data, they surveyed (and received responses from) a group of $150$ individuals who identified themselves as being the person who makes the main grocery shopping decisions for their household. They asked: \"Which of the following would be most important to you in deciding whether or not to purchase a new breakfast cereal? Taste, Nutrition, Ingredients, or Cost?\"\nResults of the survey showed that $36\\%$ selected \"Taste\", $24\\%$ selected \"Nutrition\", $28\\%$ selected Ingredients, and the rest selected \"Cost\".\nWhich of the following correctly provides the corresponding frequency table?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -27,18 +32,10 @@
       "text": ""
     }
   ],
-  "correct_answer": "The table provided in Choice 'E' correctly identifies up the frequency of each answer.  Therefore, it is the correct answer.",
+  "correct_answer": "The table provided in Choice 'E' correctly identifies up the frequency of each answer. Therefore, it is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.A.1",
-    "UNC-1.A",
-    "UNC-1.B.1",
-    "2.B",
-    "UNC-1.B",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.A.1",
     "UNC-1.A",
     "UNC-1.B.1",

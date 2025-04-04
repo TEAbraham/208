@@ -1,42 +1,43 @@
 {
   "question_id": "question-082",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "tests-of-significance",
+    "mean",
+    "statistical-inference",
+    "sampling-distributions"
+  ],
   "title": "Carrot Chips and $p$-Values",
-  "difficulty": "Moderate",
-  "question_text": "Jessica Rabbit loves carrot chips and buys one ounce bags to pack with her lunch. According to the label, there are an average of $25\\text{ chips per ounce}$ . Jessica suspects that the true average is lower and decides to investigate. She selects $12\\text{ bags of chips}$ (which she is willing to consider a random sample) and finds the average number of chips per bag is $23.4$ with a standard deviation of $4.6$ . Assuming all conditions are satisfied, what is the $p$ -value for the appropriate statistical test?",
+  "difficulty": "Medium",
+  "question_text": "Jessica Rabbit loves carrot chips and buys one ounce bags to pack with her lunch. According to the label, there are an average of $25\\text{ chips per ounce}$. Jessica suspects that the true average is lower and decides to investigate. She selects $12\\text{ bags of chips}$ (which she is willing to consider a random sample) and finds the average number of chips per bag is $23.4$ with a standard deviation of $4.6$.\nAssuming all conditions are satisfied, what is the $p$-value for the appropriate statistical test?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.114 0.114"
+      "text": "$0.114$"
     },
     {
       "letter": "B",
-      "text": "0.127 0.127"
+      "text": "$0.127$"
     },
     {
       "letter": "C",
-      "text": "0.256 0.256"
+      "text": "$0.256$"
     },
     {
       "letter": "D",
-      "text": "0.873 0.873"
+      "text": "$0.873$"
     },
     {
       "letter": "E",
-      "text": "0.886 0.886"
+      "text": "$0.886$"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-3.E",
-    "DAT-3",
-    "DAT-3.E.1"
-  ],
-  "standards": [
     "4.B",
     "DAT-3.E",
     "DAT-3",

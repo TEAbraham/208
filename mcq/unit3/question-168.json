@@ -1,45 +1,42 @@
 {
   "question_id": "question-168",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "sampling-and-experimentation",
+    "well-designed-conducted"
+  ],
   "title": "Consequences of the Non-Response: Music Festival",
-  "difficulty": "Difficult",
-  "question_text": "The city council of a small town is interested in public opinion regarding hosting a large music festival in the town. The council sent out 500 surveys via mail, 274 of which were filled out by respondents and mailed back. Of those mailed back, 201 274 = 73.4 % were in favor of the town hosting the music festival. What could be a possible consequence of the non-response? How could the city fix the issue of non-response to get a better read on how the residents really feel about hosting the music festival?",
+  "difficulty": "Hard",
+  "question_text": "The city council of a small town is interested in public opinion regarding hosting a large music festival in the town.\nThe council sent out $500\\text{ surveys}$ via mail, $274$ of which were filled out by respondents and mailed back.\nOf those mailed back, $\\frac{201}{274} = 73.4\\%$ were in favor of the town hosting the music festival.\nWhat could be a possible consequence of the non-response?\nHow could the city fix the issue of non-response to get a better read on how the residents really feel about hosting the music festival?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "People who do not respond may have different opinions on supporting the music festival than those who do respond. The city council should survey an additional 226 subjects 226 subjects to get the survey size back to 500 500 ."
+      "text": "People who do not respond may have different opinions on supporting the music festival than those who do respond. The city council should survey an additional $226\\text{ subjects}$ to get the survey size back to $500$."
     },
     {
       "letter": "B",
-      "text": "People who did not respond may have different opinions on supporting the music festival than those who did respond. The city council should use some other method to attempt to contact those 226 subjects 226 subjects who did not respond."
+      "text": "People who did not respond may have different opinions on supporting the music festival than those who did respond. The city council should use some other method to attempt to contact those $226\\text{ subjects}$ who did not respond."
     },
     {
       "letter": "C",
-      "text": "There will be a larger margin of error in this sample since 226 people 226 people did not respond. The city council should send additional surveys out until n = 500 n = 500 ."
+      "text": "There will be a larger margin of error in this sample since $226\\text{ people}$ did not respond. The city council should send additional surveys out until $n = 500$."
     },
     {
       "letter": "D",
-      "text": "The subjects who responded are more likely to have lied about their true feelings regarding the festival. The city council should contact these 274 subjects 274 subjects a second time and ask them how they feel about hosting the event."
+      "text": "The subjects who responded are more likely to have lied about their true feelings regarding the festival. The city council should contact these $274\\text{ subjects}$ a second time and ask them how they feel about hosting the event."
     },
     {
       "letter": "E",
-      "text": "Non-response is not a major issue here since the sample size is still large ( n = 274 n = 274 )."
+      "text": "Non-response is not a major issue here since the sample size is still large ($n = 274$)."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.E.1",
-    "VAR-3.E",
-    "4.B",
-    "VAR-3",
-    "DAT-2",
-    "DAT-2.E.4",
-    "DAT-2.E"
-  ],
-  "standards": [
     "VAR-3.E.1",
     "VAR-3.E",
     "4.B",

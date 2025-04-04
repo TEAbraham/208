@@ -1,10 +1,16 @@
 {
   "question_id": "question-069",
   "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "least-squares-regression-line"
+  ],
   "title": "Test Prep Course Benefits",
-  "difficulty": "Difficult",
-  "question_text": "Suppose researchers want to know if a positive linear relationship exists between pre- and post-test scores on the test. Twenty-five students are given the test as a pre-test. Then these $25\\text{ subjects}$ are put into an extensive review course. After the review course, the subjects took the test once more. A linear regression $T$ -test is performed on $$H_0: B = 0  \\\\\nH_a: B>0$$ Define B as the true slope of the linear regression line when plotting pre-test vs. post-test scores. If $p<0.01$ , one could conclude",
+  "difficulty": "Hard",
+  "question_text": "Suppose researchers want to know if a positive linear relationship exists between pre- and post-test scores on the test.\nTwenty-five students are given the test as a pre-test. Then these $25\\text{ subjects}$ are put into an extensive review course. After the review course, the subjects took the test once more.\nA linear regression $T$-test is performed on\n$$H_0: B = 0 \\\\ H_a: B>0$$\nDefine B as the true slope of the linear regression line when plotting pre-test vs. post-test scores.\nIf $p<0.01$, one could conclude",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +35,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-3",
-    "DAT-3.M.1",
-    "DAT-3.M"
-  ],
-  "standards": [
     "4.B",
     "DAT-3",
     "DAT-3.M.1",

@@ -1,10 +1,16 @@
 {
   "question_id": "question-123",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "probability",
+    "law-large-numbers"
+  ],
   "title": "Sneaky, Suspicious and Legal on the Law of Large Numbers",
-  "difficulty": "Difficult",
-  "question_text": "Sneaky Sam tosses a coin $10$ times and the coin lands on “heads” on $7$ of those tosses. Suspicious Sally thinks that Sam is using a weighted coin. What can Legal Lindsay conclude based on the Law of Large Numbers?",
+  "difficulty": "Hard",
+  "question_text": "Sneaky Sam tosses a coin $10$ times and the coin lands on “heads” on $7$ of those tosses.\nSuspicious Sally thinks that Sam is using a weighted coin.\nWhat can Legal Lindsay conclude based on the Law of Large Numbers?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -12,11 +18,11 @@
     },
     {
       "letter": "B",
-      "text": "The next 7 7 tosses of the coin should result in “tails”."
+      "text": "The next $7$ tosses of the coin should result in “tails”."
     },
     {
       "letter": "C",
-      "text": "There is a 70 % 70 % chance that this coin will land on “heads” on any given toss."
+      "text": "There is a $70\\%$ chance that this coin will land on “heads” on any given toss."
     },
     {
       "letter": "D",
@@ -24,19 +30,13 @@
     },
     {
       "letter": "E",
-      "text": "This may simply be coincidence. If the coin is fair, we would expect about 50 % 50 % of the tosses to result in “heads”, but only if the coin is tossed many, many times. 10 10 tosses is not that many!"
+      "text": "This may simply be coincidence. If the coin is fair, we would expect about $50\\%$ of the tosses to result in “heads”, but only if the coin is tossed many, many times. $10$ tosses is not that many!"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-5.D.1",
-    "VAR-5.D",
-    "4.B",
-    "VAR-5"
-  ],
-  "standards": [
     "VAR-5.D.1",
     "VAR-5.D",
     "4.B",

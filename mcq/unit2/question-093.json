@@ -1,44 +1,45 @@
 {
   "question_id": "question-093",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "residual-plots",
+    "bivariate-data",
+    "exploring-data",
+    "residuals"
+  ],
   "title": "Assessing Residual Plots for Linearity",
-  "difficulty": "Difficult",
-  "question_text": "Two variables, $x$ and $y$ , were taken on $10$ subjects and two separate regression models were fit to the data. Regression I yielded the following equation and residual plot: predicted log  y = ax + b ...where $a$ and $b$ are constants. Regression II yielded the following equation and residual plot: predicted log  y = d + log cx ...where $c$ and $d$ are constants. Created for Albert.io. Copyright 2017. All rights reserved. Which of the following conclusions is correct?",
+  "difficulty": "Hard",
+  "question_text": "Two variables, $x$ and $y$, were taken on $10$ subjects and two separate regression models were fit to the data.\nRegression I yielded the following equation and residual plot:\npredicted log y = ax + b\n...where $a$ and $b$ are constants.\nRegression II yielded the following equation and residual plot:\npredicted log y = d + log cx\n...where $c$ and $d$ are constants.\nCreated for Albert.io. Copyright 2017. All rights reserved.\nWhich of the following conclusions is correct?",
   "image_files": [
     "images/question-093-img1.PNG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Regression I is appropriate since the relationship between x x and y y is linear."
+      "text": "Regression I is appropriate since the relationship between x\nand y\nis linear."
     },
     {
       "letter": "B",
-      "text": "Regression II is appropriate since the relationship between x x and y y is linear."
+      "text": "Regression II is appropriate since the relationship between x\nand y\nis linear."
     },
     {
       "letter": "C",
-      "text": "Regression I is appropriate since the relationship between x x and log y log ⁡ y is linear."
+      "text": "Regression I is appropriate since the relationship between\nx\nand\nlog\ny\nis linear."
     },
     {
       "letter": "D",
-      "text": "Regression II is appropriate since the relationship between x x and log y log ⁡ y is linear."
+      "text": "Regression II is appropriate since the relationship between\nx\nand\nlog\ny\nis linear."
     },
     {
       "letter": "E",
-      "text": "Regression II is appropriate since the relationship between log x log ⁡ x and log y log ⁡ y is linear."
+      "text": "Regression II is appropriate since the relationship between\nlog\nx\nand\nlog\ny\nis linear."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-1.F.2",
-    "DAT-1",
-    "2.A",
-    "DAT-1.F"
-  ],
-  "standards": [
     "DAT-1.F.2",
     "DAT-1",
     "2.A",

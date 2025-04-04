@@ -1,10 +1,18 @@
 {
   "question_id": "question-049",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
   "title": "Worker Productivity Incentives",
   "difficulty": "Easy",
-  "question_text": "An office manager wonders if her employees put in more hours of work when free bagels are delivered every day. The manager randomly selects $35\\text{ workers}$ to whom bagels will be delivered and compares the number of hours worked by these individuals to another randomly selected group of $35\\text{ workers}$ who do not receive bagels. The computer output is below. Two-Sample $T$ -Test and Confidence Interval (CI) Sample N Mean StDev SE Mean Bagels $35$ $40.56$ $2.45$ $0.41$ No Bagels $35$ $39.98$ $2.23$ $0.38$ Difference = $\\mu(1)-\\mu(2) $ Estimate for difference: $0.580$ $95\\%$ CI for difference: $(-0.538, 1.698)$ $T$ -test of difference = $0$ (vs. not =): $T$ -value = $1.04$ $P$ -value = $0.304$ DF = $67$ What practical conclusion can be made based off of this data?",
+  "question_text": "An office manager wonders if her employees put in more hours of work when free bagels are delivered every day.\nThe manager randomly selects $35\\text{ workers}$ to whom bagels will be delivered and compares the number of hours worked by these individuals to another randomly selected group of $35\\text{ workers}$ who do not receive bagels.\nThe computer output is below.\nTwo-Sample $T$-Test and Confidence Interval (CI)\n\nSample N Mean StDev SE Mean\nBagels $35$ $40.56$ $2.45$ $0.41$\nNo Bagels $35$ $39.98$ $2.23$ $0.38$\nDifference = $\\mu(1)-\\mu(2) $\nEstimate for difference: $0.580$\n$95\\%$ CI for difference: $(-0.538, 1.698)$\n$T$-test of difference = $0$ (vs. not =): $T$-value = $1.04$\n$P$-value = $0.304$\nDF = $67$\nWhat practical conclusion can be made based off of this data?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Sample</th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">StDev</th><th scope=\"col\">SE Mean</th></tr></thead><tbody><tr><td>Bagels</td><td><span class=\"tex2jax_process\">$35$</span></td><td><span class=\"tex2jax_process\">$40.56$</span></td><td><span class=\"tex2jax_process\">$2.45$</span></td><td><span class=\"tex2jax_process\">$0.41$</span></td></tr><tr><td>No Bagels</td><td><span class=\"tex2jax_process\">$35$</span></td><td><span class=\"tex2jax_process\">$39.98$</span></td><td><span class=\"tex2jax_process\">$2.23$</span></td><td><span class=\"tex2jax_process\">$0.38$</span></td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +37,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-3",
-    "DAT-3.A.2",
-    "DAT-3.A"
-  ],
-  "standards": [
     "4.B",
     "DAT-3",
     "DAT-3.A.2",

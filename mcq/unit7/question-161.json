@@ -1,0 +1,44 @@
+{
+  "question_id": "question-161",
+  "unit": "AP® Statistics | Unit 7 Assessment",
+  "topics": [
+    "hypotheses",
+    "2-sample-t-test"
+  ],
+  "title": "Vaccine Ages",
+  "difficulty": "Medium",
+  "question_text": "A state agency was looking at the average age of people receiving a certain vaccine. It wanted to see if this age was significantly different between City A and City B. City A had an average age of $54.$3 years and City B had an average age of $52.9$ years. If the agency was to run a $2$-Sample $t$-Test for the difference of these means, how should the hypotheses be written?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$H_{o}: \\mu_{A}-\\mu_{B}=1.4$\n$H_{a}: \\mu_{A}-\\mu_{B}\\neq1.4$"
+    },
+    {
+      "letter": "B",
+      "text": "$H_{o}: \\mu_{A}-\\mu_{B}=0$\n$H_{a}: \\mu_{A}-\\mu_{B}<1.4$"
+    },
+    {
+      "letter": "C",
+      "text": "$H_{o}: \\mu_{A}-\\mu_{B}>0$\n$H_{a}: \\mu_{A}-\\mu_{B}<0$"
+    },
+    {
+      "letter": "D",
+      "text": "$H_{o}: \\mu_{A}-\\mu_{B}=0$\n$H_{a}: \\mu_{A}-\\mu_{B}\\neq0$"
+    },
+    {
+      "letter": "E",
+      "text": "$H_{o}: \\mu_{A}-\\mu_{B}\\neq0$\n$H_{a}: \\mu_{A}-\\mu_{B}=0$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "1.F",
+    "VAR-7.G.1",
+    "VAR-7",
+    "VAR-7.G"
+  ]
+}

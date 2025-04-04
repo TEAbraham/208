@@ -1,42 +1,42 @@
 {
   "question_id": "question-079",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "slope",
+    "linear-regression",
+    "variables"
+  ],
   "title": "Find the Slope",
-  "difficulty": "Moderate",
-  "question_text": "Jean was working on a project involving  linear regression.  She obtained a predicted value of 8 when she entered 12 as her explanatory variable.  Then Jean spilled coffee on her work and could no longer read her regression model.  If she remembered that the y -intercept was 26 , what was the value of the slope?",
+  "difficulty": "Medium",
+  "question_text": "Jean was working on a project involving linear regression. She obtained a predicted value of $8$ when she entered $12$ as her explanatory variable. Then Jean spilled coffee on her work and could no longer read her regression model. If she remembered that the $y$-intercept was $26$, what was the value of the slope?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "− 1.75 − 1.75"
+      "text": "$-1.75$"
     },
     {
       "letter": "B",
-      "text": "1.5 1.5"
+      "text": "$1.5$"
     },
     {
       "letter": "C",
-      "text": "− 1.5 − 1.5"
+      "text": "$-1.5$"
     },
     {
       "letter": "D",
-      "text": "1.75 1.75"
+      "text": "$1.75$"
     },
     {
       "letter": "E",
-      "text": "1.33 1.33"
+      "text": "$1.33$"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-1.D.2",
-    "2.C",
-    "DAT-1",
-    "DAT-1.D"
-  ],
-  "standards": [
     "DAT-1.D.2",
     "2.C",
     "DAT-1",

@@ -1,10 +1,15 @@
 {
   "question_id": "question-112",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "extra-practice",
+    "exploring-data"
+  ],
   "title": "LSRL Formation",
-  "difficulty": "Moderate",
+  "difficulty": "Medium",
   "question_text": "The least squares regression line is constructed in such a way as to keep the",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +34,8 @@
   ],
   "correct_answer": "Choice 'A' is incorrect; in a least squares regression one hopes to keep R-squared high as possible to get a strong model.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-1.H",
-    "DAT-1",
-    "DAT-1.H.3"
-  ],
-  "standards": [
     "4.B",
     "DAT-1.H",
     "DAT-1",

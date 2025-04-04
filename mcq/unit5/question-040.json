@@ -1,42 +1,42 @@
 {
   "question_id": "question-040",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "conducting-surveys",
+    "populations-samples-random-selection",
+    "sampling-and-experimentation"
+  ],
   "title": "Population and Sample: Free Food",
   "difficulty": "Easy",
-  "question_text": "The CEO of a large company decided to start a new initiative to provide all sales representatives with free food and drinks while they are on sales calls for the next calendar year. At the end of the year, she followed up by randomly selecting $100$ sales representatives and compared their sales from the year before the initiative to their sales from the year of the initiative. She found that $68$ of the representatives selected had higher sales in the initiative year than in the year prior. What is the population in this situation? What is the sample?",
+  "question_text": "The CEO of a large company decided to start a new initiative to provide all sales representatives with free food and drinks while they are on sales calls for the next calendar year.\nAt the end of the year, she followed up by randomly selecting $100$ sales representatives and compared their sales from the year before the initiative to their sales from the year of the initiative. She found that $68$ of the representatives selected had higher sales in the initiative year than in the year prior.\nWhat is the population in this situation? What is the sample?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Population: all employees at this company   Sample: the 100 100 selected sales representatives"
+      "text": "Population: all employees at this company\nSample: the $100$ selected sales representatives"
     },
     {
       "letter": "B",
-      "text": "Population: all employees at this company   Sample: all sales representatives at this company"
+      "text": "Population: all employees at this company\nSample: all sales representatives at this company"
     },
     {
       "letter": "C",
-      "text": "Population: all sales representatives at this company   Sample: the 100 100 selected sales representatives"
+      "text": "Population: all sales representatives at this company\nSample: the $100$ selected sales representatives"
     },
     {
       "letter": "D",
-      "text": "Population: all sales representatives in all companies   Sample: the 100 100 selected sales representatives"
+      "text": "Population: all sales representatives in all companies\nSample: the $100$ selected sales representatives"
     },
     {
       "letter": "E",
-      "text": "Population: all sales representatives at this company   Sample: the 68 68 sales representatives who had higher sales"
+      "text": "Population: all sales representatives at this company\nSample: the $68$ sales representatives who had higher sales"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-1.G",
-    "1.A",
-    "VAR-1.G.1",
-    "VAR-1"
-  ],
-  "standards": [
     "VAR-1.G",
     "1.A",
     "VAR-1.G.1",

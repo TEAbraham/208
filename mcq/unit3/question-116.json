@@ -1,10 +1,17 @@
 {
   "question_id": "question-116",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "matched-pairs-design",
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "randomized-block-design"
+  ],
   "title": "Prostate Cancer in Male Volunteers",
-  "difficulty": "Moderate",
-  "question_text": "Suppose a new cancer drug is being tested on 200 male volunteers 200 male volunteers who have prostate cancer. The researchers decide to use a block design and wish to test the difference between the new drug and a more traditional treatment. What would be an effective variable to block on?",
+  "difficulty": "Medium",
+  "question_text": "Suppose a new cancer drug is being tested on $200\\text{ male volunteers}$ who have prostate cancer. The researchers decide to use a block design and wish to test the difference between the new drug and a more traditional treatment.\nWhat would be an effective variable to block on?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,16 +36,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.D",
-    "VAR-3",
-    "VAR-3.C.8",
-    "VAR-3.D.1",
-    "1.C",
-    "VAR-3.C"
-  ],
-  "standards": [
     "VAR-3.D",
     "VAR-3",
     "VAR-3.C.8",

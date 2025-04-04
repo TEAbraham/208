@@ -1,26 +1,33 @@
 {
   "question_id": "question-014",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "drawing-conclusions",
+    "sampling-and-experimentation",
+    "parameters-margins-error",
+    "proportion"
+  ],
   "title": "Estimating Parameters: Free Throws",
   "difficulty": "Easy",
-  "question_text": "Suppose an athlete shoots $200\\text{ free throws}$ and makes $160$ of them. Which of the following statements is true?",
+  "question_text": "Suppose an athlete shoots $200\\text{ free throws}$ and makes $160$ of them.\nWhich of the following statements is true?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "This athlete is an 80 % 80 % free-throw shooter."
+      "text": "This athlete is an $80\\%$ free-throw shooter."
     },
     {
       "letter": "B",
-      "text": "A sample of 100 free throws 100 free throws would be more effective in estimating the athlete’s true free-throw percentage."
+      "text": "A sample of $100\\text{ free throws}$ would be more effective in estimating the athlete’s true free-throw percentage."
     },
     {
       "letter": "C",
-      "text": "The athlete’s true free-throw percentage is probably somewhere near 80 % 80 % ."
+      "text": "The athlete’s true free-throw percentage is probably somewhere near $80\\%$."
     },
     {
       "letter": "D",
-      "text": "The athlete could easily make fewer than 100 free throws 100 free throws in the next set of 200 free throw attempts 200 free throw attempts ."
+      "text": "The athlete could easily make fewer than $100\\text{ free throws}$ in the next set of $200\\text{ free throw attempts}$."
     },
     {
       "letter": "E",
@@ -29,14 +36,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.L",
-    "3.C",
-    "UNC-3.L.1",
-    "UNC-3"
-  ],
-  "standards": [
     "UNC-3.L",
     "3.C",
     "UNC-3.L.1",

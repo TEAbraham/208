@@ -1,48 +1,42 @@
 {
   "question_id": "question-249",
   "unit": "Unit 1 | Exploring One-Variable Data",
-  "title": "IQR and Standard Deviation",
-  "difficulty": "Moderate",
-  "question_text": "A set of normally distributed data has a mean $\\mu = 80$ with an interquartile range (IQR) of $12$ . What is the approximate value of the standard deviation?",
-  "image_files": [
-    "images/question-249-img1.png"
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "tables"
   ],
+  "title": "IQR and Standard Deviation",
+  "difficulty": "Medium",
+  "question_text": "A set of normally distributed data has a mean $\\mu = 80$ with an interquartile range (IQR) of $12$.\nWhat is the approximate value of the standard deviation?",
+  "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "5 5"
+      "text": "$5$"
     },
     {
       "letter": "B",
-      "text": "6 6"
+      "text": "$6$"
     },
     {
       "letter": "C",
-      "text": "9 9"
+      "text": "$9$"
     },
     {
       "letter": "D",
-      "text": "12 12"
+      "text": "$12$"
     },
     {
       "letter": "E",
-      "text": "24 24"
+      "text": "$24$"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-2.B.2",
-    "2.D",
-    "VAR-2.B.4",
-    "VAR-2.A.1",
-    "VAR-2",
-    "VAR-2.A",
-    "VAR-2.B.3",
-    "VAR-2.A.2"
-  ],
-  "standards": [
     "VAR-2.B.2",
     "2.D",
     "VAR-2.B.4",

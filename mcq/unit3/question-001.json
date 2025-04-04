@@ -1,10 +1,16 @@
 {
   "question_id": "question-001",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "data-collection",
+    "survey",
+    "random"
+  ],
   "title": "New Start Time",
   "difficulty": "Easy",
-  "question_text": "A school is pondering starting the school day earlier. The assistant principal comes up with a survey to ask students if they support the change to an earlier time. She then waits at the school entrance and asks the first $30$ students who show up to school. Should the school trust the results of the survey?",
+  "question_text": "A school is pondering starting the school day earlier. The assistant principal comes up with a survey to ask students if they support the change to an earlier time. She then waits at the school entrance and asks the first $30$ students who show up to school.\nShould the school trust the results of the survey?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -20,7 +26,7 @@
     },
     {
       "letter": "D",
-      "text": "Yes, because she asked 30 30 students."
+      "text": "Yes, because she asked $30$ students."
     },
     {
       "letter": "E",
@@ -28,14 +34,9 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "The assistant principal is collecting data regarding the new school start time. She asks 30 30 students their thoughts on the new schedule for a survey.\n\nThe issue that the assistant principal has is that she asks the first 30 30 students. This does not represent a random sample, and given that variation may or may not be random, the conclusions are uncertain. These students would be the most likely to not be affected by a schedule change.\n\nChoice 'A' is correct.",
-  "distractor_explanations": {},
+  "solution": "The assistant principal is collecting data regarding the new school start time. She asks $30$ students their thoughts on the new schedule for a survey.\n\nThe issue that the assistant principal has is that she asks the first $30$ students. This does not represent a random sample, and given that variation may or may not be random, the conclusions are uncertain. These students would be the most likely to not be affected by a schedule change.\n\nChoice 'A' is correct.",
+  "explanations": {},
   "tags": [
-    "VAR-1.E",
-    "VAR-1",
-    "VAR-1.E.1"
-  ],
-  "standards": [
     "VAR-1.E",
     "VAR-1",
     "VAR-1.E.1"

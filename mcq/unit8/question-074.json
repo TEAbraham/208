@@ -1,45 +1,48 @@
 {
   "question_id": "question-074",
   "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "chi-square-test",
+    "chi-square-independence"
+  ],
   "title": "${ \\chi }^{ 2 }$ Test of Independence: Expected Cells",
-  "difficulty": "Moderate",
-  "question_text": "A  student wondered  if there was an association between relationship status and overall letter grade(based off grade point average) at her high school.  She used a stratified random sample  to select  20 students within each letter grade.  The information is displayed in the table below. Letter Grade In a relationship Not in a relationship A 8 12 B 11 9 C 13 7 D 10 10 F 6 14 Which of the following expressions gives the expected number of students  who are in relationship and have an overall letter grade of a B?",
+  "difficulty": "Medium",
+  "question_text": "A student wondered if there was an association between relationship status and overall letter grade(based off grade point average) at her high school. She used a stratified random sample to select 20 students within each letter grade. The information is displayed in the table below.\nLetter Grade In a relationship Not in a relationship\nA 8 12\nB 11 9\nC 13 7\nD 10 10\nF 6 14\n\n\nWhich of the following expressions gives the expected number of students who are in relationship and have an overall letter grade of a B?",
   "image_files": [
     "images/question-074-img1.PNG",
     "images/question-074-img2.PNG"
   ],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Letter Grade</th><th scope=\"col\">In a relationship</th><th scope=\"col\">Not in a relationship</th></tr></thead><tbody><tr><td>A</td><td>8</td><td>12</td></tr><tr><td>B</td><td>11</td><td>9</td></tr><tr><td>C</td><td>13</td><td>7</td></tr><tr><td>D</td><td>10</td><td>10</td></tr><tr><td>F</td><td>6</td><td>14</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "20 ⋅ 11 100 20 ⋅ 11 100"
+      "text": "$\\dfrac { 20\\cdot 11 }{ 100 }$"
     },
     {
       "letter": "B",
-      "text": "20 ⋅ 48 100 20 ⋅ 48 100"
+      "text": "$\\dfrac { 20\\cdot 48 }{ 100 }$"
     },
     {
       "letter": "C",
-      "text": "20 ⋅ 100 48 20 ⋅ 100 48"
+      "text": "$\\dfrac { 20\\cdot 100 }{ 48 }$"
     },
     {
       "letter": "D",
-      "text": "48 ⋅ 100 20 48 ⋅ 100 20"
+      "text": "$\\dfrac { 48\\cdot 100 }{ 20 }$"
     },
     {
       "letter": "E",
-      "text": "48 ⋅ 11 100 48 ⋅ 11 100"
+      "text": "$\\dfrac { 48\\cdot 11 }{ 100 } $"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-8.L",
-    "VAR-8.L.1",
-    "3.E",
-    "VAR-8"
-  ],
-  "standards": [
     "VAR-8.L",
     "VAR-8.L.1",
     "3.E",

@@ -1,10 +1,16 @@
 {
   "question_id": "question-147",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "sampling-and-experimentation",
+    "sources-of-bias"
+  ],
   "title": "Raising Taxes to Pay for a New Expressway",
-  "difficulty": "Moderate",
-  "question_text": "The local highway commission draws a random sample of $150\\text{ adults}$ from the driver's license database to ask, \"Would you support raising taxes $1\\%$ to pay for a new $10\\text{ mile}$ expressway?\" This survey will most likely suffer from",
+  "difficulty": "Medium",
+  "question_text": "The local highway commission draws a random sample of $150\\text{ adults}$ from the driver's license database to ask, \"Would you support raising taxes $1\\%$ to pay for a new $10\\text{ mile}$ expressway?\"\nThis survey will most likely suffer from",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +35,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.E.1",
-    "VAR-3.E",
-    "4.B",
-    "VAR-3"
-  ],
-  "standards": [
     "VAR-3.E.1",
     "VAR-3.E",
     "4.B",

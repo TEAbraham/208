@@ -1,10 +1,17 @@
 {
   "question_id": "question-108",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "graphical-displays-of-data",
+    "univariate-data",
+    "exploring-data",
+    "shape"
+  ],
   "title": "Income Distribution",
   "difficulty": "Easy",
-  "question_text": "A journalist wants to know how much money the typical employee earns at a small business. If the distribution is right-skewed, what measure would best describe what the typical employee earns at this business?",
+  "question_text": "A journalist wants to know how much money the typical employee earns at a small business.\nIf the distribution is right-skewed, what measure would best describe what the typical employee earns at this business?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,17 +36,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.H.1",
-    "UNC-1.H",
-    "UNC-1.K",
-    "UNC-1.H.3",
-    "2.A",
-    "UNC-1.K.2",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.H.1",
     "UNC-1.H",
     "UNC-1.K",

@@ -1,12 +1,19 @@
 {
   "question_id": "question-152",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "graphical-displays-of-data",
+    "univariate-data",
+    "exploring-data",
+    "outliers"
+  ],
   "title": "Flashmob Ogive",
-  "difficulty": "Difficult",
-  "question_text": "Flash mobs are a fun internet phenomenon and pop songs are featured in many of them.  The ogive below displays the number of practices that $25\\text{ employees}$ in a small business attended before the debut of a recent flash mob. Created for Albert.io. Copyright 2017. All rights reserved. Which of the following statements can be justified by the graph?",
+  "difficulty": "Hard",
+  "question_text": "Flash mobs are a fun internet phenomenon and pop songs are featured in many of them. The ogive below displays the number of practices that $25\\text{ employees}$ in a small business attended before the debut of a recent flash mob.\nCreated for Albert.io. Copyright 2017. All rights reserved.\nWhich of the following statements can be justified by the graph?",
   "image_files": [
     "images/question-152-img1.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -14,7 +21,7 @@
     },
     {
       "letter": "B",
-      "text": "72 % 72 % of the employees attended 8 8 or more practices."
+      "text": "72%\nof the employees attended 8\nor more practices."
     },
     {
       "letter": "C",
@@ -22,23 +29,17 @@
     },
     {
       "letter": "D",
-      "text": "There is an outlier in this distribution.  One of the employees attended 10 10 practices for the flash mob."
+      "text": "There is an outlier in this distribution. One of the employees attended 10\npractices for the flash mob."
     },
     {
       "letter": "E",
-      "text": "There is an outlier in this distribution.  One of the employees attended two or fewer practices."
+      "text": "There is an outlier in this distribution. One of the employees attended two or fewer practices."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.M",
-    "UNC-1.M.1",
-    "2.A",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.M",
     "UNC-1.M.1",
     "2.A",

@@ -1,10 +1,15 @@
 {
   "question_id": "question-005",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "data-collection",
+    "comparison"
+  ],
   "title": "Printer Comparison",
   "difficulty": "Easy",
-  "question_text": "A small boutique owner ships her own products when ordered online. Recently, she bought two printers, Printer A and Printer B, to help with the process. She then uses Printer A for $30$ labels  and then Printer B for $30$ labels, then compares the results. What question is the shop owner most likely trying to answer?",
+  "question_text": "A small boutique owner ships her own products when ordered online. Recently, she bought two printers, Printer A and Printer B, to help with the process. She then uses Printer A for $30$ labels and then Printer B for $30$ labels, then compares the results.\nWhat question is the shop owner most likely trying to answer?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -28,15 +33,9 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "The shop owner is using data collection to determine a potential solution in her shipping process. She is comparing the two different printers, A and B, while printing 30 30 labels from each printer.\n\nAlthough some of the other answers might seem correct, the owner is most likely looking to see which printer expediates the shipping process. By printing the same amount of labels from each printer, she is more than likely looking at which printer will make shipping her products easiest.\n\nChoice 'B' is correct.",
-  "distractor_explanations": {},
+  "solution": "The shop owner is using data collection to determine a potential solution in her shipping process. She is comparing the two different printers, A and B, while printing $30$ labels from each printer.\n\nAlthough some of the other answers might seem correct, the owner is most likely looking to see which printer expediates the shipping process. By printing the same amount of labels from each printer, she is more than likely looking at which printer will make shipping her products easiest.\n\nChoice 'B' is correct.",
+  "explanations": {},
   "tags": [
-    "VAR-1.E",
-    "1.A",
-    "VAR-1",
-    "VAR-1.E.1"
-  ],
-  "standards": [
     "VAR-1.E",
     "1.A",
     "VAR-1",

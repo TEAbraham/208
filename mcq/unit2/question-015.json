@@ -1,12 +1,19 @@
 {
   "question_id": "question-015",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "categorical-data",
+    "frequency-tables",
+    "bar-charts",
+    "exploring-data"
+  ],
   "title": "Display of Gender Distribution by Class",
   "difficulty": "Easy",
-  "question_text": "The following graph displays the frequency distribution of gender by class level at a small private high school. Created for Albert.io. Copyright 2016. All rights reserved. Which of the following statements is NOT supported by the graph?",
+  "question_text": "The following graph displays the frequency distribution of gender by class level at a small private high school.\nWhich of the following statements is NOT supported by the graph?",
   "image_files": [
     "images/question-015-img1.PNG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -18,7 +25,7 @@
     },
     {
       "letter": "C",
-      "text": "Girls represent about 25 % 25 % of the junior class."
+      "text": "Girls represent about\n25\n%\nof the junior class."
     },
     {
       "letter": "D",
@@ -31,14 +38,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.P",
-    "2.D",
-    "UNC-1.P.4",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.P",
     "2.D",
     "UNC-1.P.4",

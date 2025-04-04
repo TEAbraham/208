@@ -1,14 +1,20 @@
 {
   "question_id": "question-081",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sample-proportion",
+    "sampling-distributions"
+  ],
   "title": "Accounting for Differences: Gun Control",
-  "difficulty": "Moderate",
-  "question_text": "Suppose a local group in support of tighter gun restrictions gives a nationwide survey to $200$ randomly chosen subjects. The question they asked was “Do you favor increased gun control?” In the survey, $66\\%$ of respondents said yes, compared to the national average of $64\\%$ . How might a statistician explain this difference ( $64\\%$ vs. $66\\%$ ) to the group?",
+  "difficulty": "Medium",
+  "question_text": "Suppose a local group in support of tighter gun restrictions gives a nationwide survey to $200$ randomly chosen subjects.\nThe question they asked was “Do you favor increased gun control?” In the survey, $66\\%$ of respondents said yes, compared to the national average of $64\\%$.\nHow might a statistician explain this difference ($64\\%$ vs. $66\\%$) to the group?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The sample of 200 200 subjects was too small to come up with any credible comparisons to the population proportion of 64 % 64 % ."
+      "text": "The sample of $200$ subjects was too small to come up with any credible comparisons to the population proportion of $64\\%$."
     },
     {
       "letter": "B",
@@ -24,19 +30,13 @@
     },
     {
       "letter": "E",
-      "text": "For samples of size 200 200 , sampling variability exists where samples can easily be 1 % − 3 % 1 % − 3 % off the true population proportion."
+      "text": "For samples of size $200$, sampling variability exists where samples can easily be $1\\%-3\\%$ off the true population proportion."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-1.G",
-    "1.A",
-    "VAR-1.G.1",
-    "VAR-1"
-  ],
-  "standards": [
     "VAR-1.G",
     "1.A",
     "VAR-1.G.1",

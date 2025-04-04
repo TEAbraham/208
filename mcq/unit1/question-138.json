@@ -1,28 +1,35 @@
 {
   "question_id": "question-138",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "graphical-displays-of-data",
+    "center-spread",
+    "univariate-data",
+    "exploring-data"
+  ],
   "title": "The Results Are in: Graphical Display of AP Scores",
-  "difficulty": "Moderate",
-  "question_text": "The following graph shows the distribution of the most recent A.P. Statistics exam scores for students at Central High School. What is the median of the distribution?",
+  "difficulty": "Medium",
+  "question_text": "The following graph shows the distribution of the most recent A.P. Statistics exam scores for students at Central High School.\nWhat is the median of the distribution?",
   "image_files": [
     "images/question-138-img1.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "3 3"
+      "text": "3"
     },
     {
       "letter": "B",
-      "text": "4 4"
+      "text": "4"
     },
     {
       "letter": "C",
-      "text": "5 5"
+      "text": "5"
     },
     {
       "letter": "D",
-      "text": "24 24"
+      "text": "24"
     },
     {
       "letter": "E",
@@ -31,16 +38,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.L.1",
-    "2.A",
-    "UNC-1.L.2",
-    "2.B",
-    "UNC-1.L",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.L.1",
     "2.A",
     "UNC-1.L.2",

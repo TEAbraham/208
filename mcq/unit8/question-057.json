@@ -1,10 +1,16 @@
 {
   "question_id": "question-057",
   "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "chi-square-test"
+  ],
   "title": "Tests for Two-Way Tables",
   "difficulty": "Easy",
-  "question_text": "Which inferential procedure(s) could be constructed from a two-way table? I. Chi-squared test for association. II. Chi-squared test for homogeneity. III. Two-proportion $Z$ -test.",
+  "question_text": "Which inferential procedure(s) could be constructed from a two-way table?\nI. Chi-squared test for association.\nII. Chi-squared test for homogeneity.\nIII. Two-proportion $Z$-test.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,15 +35,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-8.J.2",
-    "VAR-8.J.1",
-    "VAR-8",
-    "1.E",
-    "VAR-8.J"
-  ],
-  "standards": [
     "VAR-8.J.2",
     "VAR-8.J.1",
     "VAR-8",

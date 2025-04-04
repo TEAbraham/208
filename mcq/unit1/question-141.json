@@ -1,12 +1,19 @@
 {
   "question_id": "question-141",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "graphical-displays-of-data",
+    "univariate-data",
+    "exploring-data",
+    "shape"
+  ],
   "title": "Name That Distribution!",
-  "difficulty": "Moderate",
-  "question_text": "The dotplot below shows fifty values of a specific variable. Which of the following is most likely the variable being displayed? Created for Albert.io. Copyright 2017. All rights reserved.",
+  "difficulty": "Medium",
+  "question_text": "The dotplot below shows fifty values of a specific variable.\nWhich of the following is most likely the variable being displayed?\nLoading question supplement...",
   "image_files": [
     "images/question-141-img1.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -31,14 +38,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.M",
-    "UNC-1.M.1",
-    "2.A",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.M",
     "UNC-1.M.1",
     "2.A",

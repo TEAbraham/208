@@ -1,42 +1,41 @@
 {
   "question_id": "question-026",
   "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "confidence-interval-interpretations",
+    "linear-regression"
+  ],
   "title": "What Does it Mean?",
   "difficulty": "Easy",
   "question_text": "Which of the following is the correct way to state a claim for results of a $98\\%$ confidence interval about the slope of a regression model?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "We are 98 % 98 % confident that we know the true slope of the population model."
+      "text": "We are $98\\%$ confident that we know the true slope of the population model."
     },
     {
       "letter": "B",
-      "text": "We are 98 % 98 % confident that the true slope of the population model will be at the center of our confidence interval."
+      "text": "We are $98\\%$ confident that the true slope of the population model will be at the center of our confidence interval."
     },
     {
       "letter": "C",
-      "text": "If random sampling is done over and over, we know that about 98 % 98 % of the confidence intervals created would contain the true slope of the population  model."
+      "text": "If random sampling is done over and over, we know that about $98\\%$ of the confidence intervals created would contain the true slope of the population model."
     },
     {
       "letter": "D",
-      "text": "If random sampling is done over and over, we know that about 98 % 98 % of the time we would know that the mean of our confidence interval created would contain the true slope of the population  model."
+      "text": "If random sampling is done over and over, we know that about $98\\%$ of the time we would know that the mean of our confidence interval created would contain the true slope of the population model."
     },
     {
       "letter": "E",
-      "text": "We are 98 % 98 % confident that we would find the exact slope of the population model."
+      "text": "We are $98\\%$ confident that we would find the exact slope of the population model."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-4.AG.1",
-    "4.D",
-    "UNC-4",
-    "UNC-4.AG"
-  ],
-  "standards": [
     "UNC-4.AG.1",
     "4.D",
     "UNC-4",

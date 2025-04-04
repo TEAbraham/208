@@ -1,10 +1,16 @@
 {
   "question_id": "question-151",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "sampling-and-experimentation",
+    "sources-of-bias"
+  ],
   "title": "Radio Poll",
-  "difficulty": "Moderate",
-  "question_text": "The host of a nationally syndicated radio program is discussing whether the United States military should intervene in fewer situations in foreign countries. The host asks callers to voice their opinions by going to an online poll and voting. What is a likely form of bias present in this situation?",
+  "difficulty": "Medium",
+  "question_text": "The host of a nationally syndicated radio program is discussing whether the United States military should intervene in fewer situations in foreign countries. The host asks callers to voice their opinions by going to an online poll and voting.\nWhat is a likely form of bias present in this situation?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +35,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.E.1",
-    "VAR-3.E",
-    "4.B",
-    "VAR-3"
-  ],
-  "standards": [
     "VAR-3.E.1",
     "VAR-3.E",
     "4.B",

@@ -1,43 +1,44 @@
 {
   "question_id": "question-081",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "probability",
+    "discrete-random-variables"
+  ],
   "title": "Police Tickets | 2 of 2",
-  "difficulty": "Moderate",
-  "question_text": "X 1 2 3 4 5 6 P(X) 0.04 0.11 0.33 0.35 0.14 0.03 A local police officer gives out between $1$ and $6\\text{ tickets a day}$ , the probability distribution table of which is shown above, where $X$ is the number of tickets handed out on any given day. Assume the number of tickets given out these two days is independent. If the officer works two days in a row, what is the probability that she gives out more than $10\\text{ tickets}$ during these two days?",
+  "difficulty": "Medium",
+  "question_text": "X 1 2 3 4 5 6\nP(X) 0.04 0.11 0.33 0.35 0.14 0.03\n\n\nA local police officer gives out between $1$ and $6\\text{ tickets a day}$, the probability distribution table of which is shown above, where $X$ is the number of tickets handed out on any given day.\nAssume the number of tickets given out these two days is independent.\nIf the officer works two days in a row, what is the probability that she gives out more than $10\\text{ tickets}$ during these two days?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">X</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th><th scope=\"col\">6</th></tr></thead><tbody><tr><td>P(X)</td><td>0.04</td><td>0.11</td><td>0.33</td><td>0.35</td><td>0.14</td><td>0.03</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "0.0009 0.0009"
+      "text": "$0.0009$"
     },
     {
       "letter": "B",
-      "text": "0.0042 0.0042"
+      "text": "$0.0042$"
     },
     {
       "letter": "C",
-      "text": "0.1073 0.1073"
+      "text": "$0.1073$"
     },
     {
       "letter": "D",
-      "text": "0.0093 0.0093"
+      "text": "$0.0093$"
     },
     {
       "letter": "E",
-      "text": "0.0602 0.0602"
+      "text": "$0.0602$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-4.E.1",
-    "VAR-4.E",
-    "3.A",
-    "VAR-4.E.2",
-    "VAR-4"
-  ],
-  "standards": [
     "VAR-4.E.1",
     "VAR-4.E",
     "3.A",

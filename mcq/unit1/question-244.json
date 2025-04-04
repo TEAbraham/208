@@ -1,44 +1,42 @@
 {
   "question_id": "question-244",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "tables"
+  ],
   "title": "The Legend of Lenny: Determining a Percentile",
-  "difficulty": "Moderate",
-  "question_text": "Lenny's attempts to rescue Princess Polly from the Evil Queen are legendary.  The number of attempts he makes each day is normally distributed with a mean of $12.3$ and variance of $4.41$ .  One day, Lenny makes $15$ attempts to rescue Princess Polly. What percentile does this value fall into?",
+  "difficulty": "Medium",
+  "question_text": "Lenny's attempts to rescue Princess Polly from the Evil Queen are legendary. The number of attempts he makes each day is normally distributed with a mean of $12.3$ and variance of $4.41$. One day, Lenny makes $15$ attempts to rescue Princess Polly.\nWhat percentile does this value fall into?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "15 t h 15 t h percentile"
+      "text": "$15th$ percentile"
     },
     {
       "letter": "B",
-      "text": "73 r d 73 r d percentile"
+      "text": "$73rd$ percentile"
     },
     {
       "letter": "C",
-      "text": "88 t h 88 t h percentile"
+      "text": "$88th$ percentile"
     },
     {
       "letter": "D",
-      "text": "90 t h 90 t h percentile"
+      "text": "$90th$ percentile"
     },
     {
       "letter": "E",
-      "text": "95 t h 95 t h percentile"
+      "text": "$95th$ percentile"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-2.B.2",
-    "VAR-2.B",
-    "VAR-2.C.1",
-    "2.D",
-    "VAR-2.C",
-    "VAR-2"
-  ],
-  "standards": [
     "VAR-2.B.2",
     "VAR-2.B",
     "VAR-2.C.1",

@@ -1,42 +1,45 @@
 {
   "question_id": "question-184",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "rolling-dice",
+    "simulation",
+    "probability"
+  ],
   "title": "Six-Sided Dice Rolls",
   "difficulty": "Easy",
-  "question_text": "Number on Die 1 2 3 4 5 6 Frequency 9 17 12 10 9 15 A fair six-sided die is rolled $72\\text{ times}$ . The distribution of numbers facing up on the dice is in the table above. If the die is rolled another $72\\text{ times}$ , how many instances of $2$ would you expect?",
+  "question_text": "Number on Die 1 2 3 4 5 6\nFrequency 9 17 12 10 9 15\n\n\nA fair six-sided die is rolled $72\\text{ times}$. The distribution of numbers facing up on the dice is in the table above.\nIf the die is rolled another $72\\text{ times}$, how many instances of $2$ would you expect?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Number on Die</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th><th scope=\"col\">6</th></tr></thead><tbody><tr><td>Frequency</td><td>9</td><td>17</td><td>12</td><td>10</td><td>9</td><td>15</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "10 10"
+      "text": "$10$"
     },
     {
       "letter": "B",
-      "text": "4 4"
+      "text": "$4$"
     },
     {
       "letter": "C",
-      "text": "12 12"
+      "text": "$12$"
     },
     {
       "letter": "D",
-      "text": "7 7"
+      "text": "$7$"
     },
     {
       "letter": "E",
-      "text": "17 17"
+      "text": "17"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "UNC-3.D",
-    "UNC-3",
-    "UNC-3.D.1"
-  ],
-  "standards": [
     "4.B",
     "UNC-3.D",
     "UNC-3",

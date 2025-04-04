@@ -1,42 +1,41 @@
 {
   "question_id": "question-033",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "calculating-probability",
+    "normal-distribution"
+  ],
   "title": "At Least a B?",
   "difficulty": "Easy",
-  "question_text": "The same calculus exam has been given for years at a large university.  The scores were normally distributed with a mean score of $78$ and a standard deviation of $6$ .  What is the probability of a student scoring an $80$ or higher to the nearest two-digit percent?",
+  "question_text": "The same calculus exam has been given for years at a large university. The scores were normally distributed with a mean score of $78$ and a standard deviation of $6$. What is the probability of a student scoring an $80$ or higher to the nearest two-digit percent?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "80 % 80 %"
+      "text": "$80\\%$"
     },
     {
       "letter": "B",
-      "text": "67 % 67 %"
+      "text": "$67\\%$"
     },
     {
       "letter": "C",
-      "text": "33 % 33 %"
+      "text": "$33\\%$"
     },
     {
       "letter": "D",
-      "text": "63 % 63 %"
+      "text": "$63\\%$"
     },
     {
       "letter": "E",
-      "text": "37 % 37 %"
+      "text": "37%"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-6.A.3",
-    "VAR-6.A",
-    "3.A",
-    "VAR-6"
-  ],
-  "standards": [
     "VAR-6.A.3",
     "VAR-6.A",
     "3.A",

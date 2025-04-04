@@ -1,10 +1,12 @@
 {
   "question_id": "question-008",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [],
   "title": "Large Counts Condition",
-  "difficulty": "Moderate",
-  "question_text": "Why is it important to check the large counts condition when dealing with sampling distributions of the sample proportion, $\\hat{p}$ ?",
+  "difficulty": "Medium",
+  "question_text": "Why is it important to check the large counts condition when dealing with sampling distributions of the sample proportion, $\\hat{p}$?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -16,7 +18,7 @@
     },
     {
       "letter": "C",
-      "text": "To be able to use the standard deviation of the sampling distribution of ^ p p ^"
+      "text": "To be able to use the standard deviation of the sampling distribution of $\\hat{p}$"
     },
     {
       "letter": "D",
@@ -24,18 +26,13 @@
     },
     {
       "letter": "E",
-      "text": "In order to use the mean of the sampling distribution of ^ p p ^"
+      "text": "In order to use the mean of the sampling distribution of $\\hat{p}$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "When dealing with sampling distributions, the shape of the distribution can vary from one to another. In order to ensure that we can use the normal approximation when dealing with inference problems for the sample proportion, ^ p p ^ , we must first check the Large Counts Condition,\n\nn p ≥ 10 n p ≥ 10\n\nand\n\nn ( 1 − p ) ≥ 10 n ( 1 − p ) ≥ 10\n\nIf both of these conditions are true, then we can apply the normal approximation to our inference problem.\n\nChoice 'D' is correct.",
-  "distractor_explanations": {},
+  "solution": "When dealing with sampling distributions, the shape of the distribution can vary from one to another. In order to ensure that we can use the normal approximation when dealing with inference problems for the sample proportion, $\\hat{p}$, we must first check the Large Counts Condition,\n\n$np \\geq 10$\n\nand\n\n$n(1-p) \\geq 10$\n\nIf both of these conditions are true, then we can apply the normal approximation to our inference problem.\n\nChoice 'D' is correct.",
+  "explanations": {},
   "tags": [
-    "VAR-1.H",
-    "VAR-1.H.1",
-    "VAR-1"
-  ],
-  "standards": [
     "VAR-1.H",
     "VAR-1.H.1",
     "VAR-1"

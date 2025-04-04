@@ -1,12 +1,19 @@
 {
   "question_id": "question-070",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "graphical-displays-of-data",
+    "univariate-data",
+    "exploring-data",
+    "shape"
+  ],
   "title": "Shape of a Bar Graph",
-  "difficulty": "Moderate",
-  "question_text": "A researcher was interested in information regarding post-traumatic seizures (PTS) among patients who have suffered from a traumatic brain injury (TBI). She surveyed a variety of ages and asked the subjects if they have suffered from a post-traumatic seizure. The results in the following graph below. Delldot. A bar graph showing the risk of post traumatic seizures by age group. Digital image. Wikimedia Commons. N.p., 3 Mar. 2008. Web. 7 Mar. 2016. How could one describe the shape of this graph?",
+  "difficulty": "Medium",
+  "question_text": "A researcher was interested in information regarding post-traumatic seizures (PTS) among patients who have suffered from a traumatic brain injury (TBI). She surveyed a variety of ages and asked the subjects if they have suffered from a post-traumatic seizure. The results in the following graph below.\nDelldot. A bar graph showing the risk of post traumatic seizures by age group. Digital image. Wikimedia Commons. N.p., 3 Mar. 2008. Web. 7 Mar. 2016.\nHow could one describe the shape of this graph?",
   "image_files": [
     "images/question-070-img1.jpg"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -31,14 +38,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.H.1",
-    "UNC-1.H",
-    "2.A",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.H.1",
     "UNC-1.H",
     "2.A",

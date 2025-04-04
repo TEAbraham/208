@@ -1,42 +1,40 @@
 {
   "question_id": "question-110",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [],
   "title": "Describing the Distribution",
-  "difficulty": "Moderate",
-  "question_text": "X 1 2 3 4 5 6 P(X) 0.04 0.11 0.33 0.35 0.14 0.03 A local police officer gives out between $1$ and $6\\text{ tickets a day}$ , the probability distribution table of which is shown above, where $X$ is the number of tickets handed out on any given day. One can describe this distribution as...",
+  "difficulty": "Medium",
+  "question_text": "X 1 2 3 4 5 6\nP(X) 0.04 0.11 0.33 0.35 0.14 0.03\n\n\nA local police officer gives out between $1$ and $6\\text{ tickets a day}$, the probability distribution table of which is shown above, where $X$ is the number of tickets handed out on any given day.\nOne can describe this distribution as...",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">X</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th><th scope=\"col\">6</th></tr></thead><tbody><tr><td>P(X)</td><td>0.04</td><td>0.11</td><td>0.33</td><td>0.35</td><td>0.14</td><td>0.03</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "Normal, with a center around 3.5 3.5 ."
+      "text": "Normal, with a center around $3.5$."
     },
     {
       "letter": "B",
-      "text": "Approximately normal, with a center of 3.5 3.5 ."
+      "text": "Approximately normal, with a center of $3.5$."
     },
     {
       "letter": "C",
-      "text": "A distribution with a center of about 3.5 3.5 , but describing the distribution using shape does not make sense in this situation."
+      "text": "A distribution with a center of about $3.5$, but describing the distribution using shape does not make sense in this situation."
     },
     {
       "letter": "D",
-      "text": "Uniform with a center of 3 3 or 4 4 ; one must give integer values for center since a police officer cannot give out a non-integer amount of tickets on a given day."
+      "text": "Uniform with a center of $3$ or $4$; one must give integer values for center since a police officer cannot give out a non-integer amount of tickets on a given day."
     },
     {
       "letter": "E",
-      "text": "Approximately normal, with a center of 3 3 or 4 4 ; one must give integer values for center since a police officer cannot give out a non-integer amount of tickets on a given day."
+      "text": "Approximately normal, with a center of 3 or 4; one must give integer values for center since a police officer cannot give out a non-integer amount of tickets on a given day."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "VAR-5.B.1",
-    "VAR-5",
-    "VAR-5.B"
-  ],
-  "standards": [
     "4.B",
     "VAR-5.B.1",
     "VAR-5",

@@ -1,12 +1,19 @@
 {
   "question_id": "question-050",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "correlation",
+    "bivariate-data",
+    "scatter-plots",
+    "exploring-data"
+  ],
   "title": "Examining a Scatterplot",
   "difficulty": "Easy",
-  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved. The approximate strength and form of the scatterplot above is",
+  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved.\nThe approximate strength and form of the scatterplot above is",
   "image_files": [
     "images/question-050-img1.jpg"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -31,15 +38,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-1.C",
-    "DAT-1.C.2",
-    "DAT-1",
-    "DAT-1.C.1"
-  ],
-  "standards": [
     "4.B",
     "DAT-1.C",
     "DAT-1.C.2",

@@ -1,14 +1,22 @@
 {
   "question_id": "question-079",
   "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
   "title": "Musical Instruments: Best Statistical Test",
-  "difficulty": "Moderate",
-  "question_text": "Piano Guitar Violin Flute None Private School 20 9 7 12 2 Public School 8 30 1 8 3 The data summarized in the two-way chart above reflect the results of asking $50$ students in a public school and $50$ students in a private school what musical instrument they had learned to play. In cases where students had learned to play more than one instrument, they were instructed to choose the instrument they had played for the longest amount of time. A school counselor wants to see if there is a relationship between the type of school and the type of instrument played. What would be the best statistical test for the counselor to use?",
+  "difficulty": "Medium",
+  "question_text": "Piano Guitar Violin Flute None\nPrivate School 20 9 7 12 2\nPublic School 8 30 1 8 3\n\n\nThe data summarized in the two-way chart above reflect the results of asking $50$ students in a public school and $50$ students in a private school what musical instrument they had learned to play.\nIn cases where students had learned to play more than one instrument, they were instructed to choose the instrument they had played for the longest amount of time.\nA school counselor wants to see if there is a relationship between the type of school and the type of instrument played.\nWhat would be the best statistical test for the counselor to use?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Piano</th><th scope=\"col\">Guitar</th><th scope=\"col\">Violin</th><th scope=\"col\">Flute</th><th scope=\"col\">None</th></tr></thead><tbody><tr><td>Private School</td><td>20</td><td>9</td><td>7</td><td>12</td><td>2</td></tr><tr><td>Public School</td><td>8</td><td>30</td><td>1</td><td>8</td><td>3</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "2 2 -sample T-test for means."
+      "text": "$2$-sample T-test for means."
     },
     {
       "letter": "B",
@@ -29,14 +37,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-3.K.1",
-    "DAT-3",
-    "DAT-3.K"
-  ],
-  "standards": [
     "4.B",
     "DAT-3.K.1",
     "DAT-3",

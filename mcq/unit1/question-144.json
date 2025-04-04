@@ -1,12 +1,19 @@
 {
   "question_id": "question-144",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "graphical-displays-of-data",
+    "univariate-data",
+    "exploring-data",
+    "outliers"
+  ],
   "title": "Film Ogive",
-  "difficulty": "Difficult",
-  "question_text": "The graph below (called an ogive) displays the relative cumulative frequency for the number of times a random sample of $30\\text{ adults}$ have seen a particular children's film with their kids. Which of the following statements can be justified by the graph?",
+  "difficulty": "Hard",
+  "question_text": "The graph below (called an ogive) displays the relative cumulative frequency for the number of times a random sample of $30\\text{ adults}$ have seen a particular children's film with their kids.\nWhich of the following statements can be justified by the graph?",
   "image_files": [
     "images/question-144-img1.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -14,11 +21,11 @@
     },
     {
       "letter": "B",
-      "text": "There is an outlier in this distribution.  One person has seen the movie ten times."
+      "text": "There is an outlier in this distribution. One person has seen the movie ten times."
     },
     {
       "letter": "C",
-      "text": "There is an outlier in this distribution.  One person has never seen the movie."
+      "text": "There is an outlier in this distribution. One person has never seen the movie."
     },
     {
       "letter": "D",
@@ -26,19 +33,13 @@
     },
     {
       "letter": "E",
-      "text": "77 % 77 % of the adults in the sample saw the movie 4 4 or more times."
+      "text": "77%\nof the adults in the sample saw the movie 4\nor more times."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.M",
-    "UNC-1.M.1",
-    "2.A",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.M",
     "UNC-1.M.1",
     "2.A",

@@ -1,12 +1,19 @@
 {
   "question_id": "question-128",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "boxplots",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
   "title": "Boxplots and Five Number Summary: Golf - Is It a Sport?",
-  "difficulty": "Moderate",
-  "question_text": "The boxplots below show the age of the members of two local golf organizations, The Fore-fathers and Tee-rific. Which if the following statements is best supported by the boxplots? Created for Albert.io. Copyright 2017. All rights reserved.",
+  "difficulty": "Medium",
+  "question_text": "The boxplots below show the age of the members of two local golf organizations, The Fore-fathers and Tee-rific.\nWhich if the following statements is best supported by the boxplots?\nCreated for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-128-img1.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -31,14 +38,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.L.2",
-    "2.B",
-    "UNC-1.L",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.L.2",
     "2.B",
     "UNC-1.L",

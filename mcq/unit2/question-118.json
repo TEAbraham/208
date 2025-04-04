@@ -1,12 +1,19 @@
 {
   "question_id": "question-118",
   "unit": "Unit 2 | Exploring Two-Variable Data",
-  "title": "Slope, Correlation When Removing Scatterplot Point: X vs. Y",
-  "difficulty": "Difficult",
-  "question_text": "A scatterplot of x x versus y y is shown below: If the point ( 9 , 49 ) ( 9 , 49 ) is removed, which of the following statements is TRUE?",
-  "image_files": [
-    "images/question-118-img1.png"
+  "topics": [
+    "influential-points",
+    "correlation",
+    "slope",
+    "bivariate-data",
+    "exploring-data",
+    "outliers"
   ],
+  "title": "Slope, Correlation When Removing Scatterplot Point: X vs. Y",
+  "difficulty": "Hard",
+  "question_text": "A scatterplot of $x$ versus $y$ is shown below:\nIf the point $(9,49)$ is removed, which of the following statements is TRUE?",
+  "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -31,16 +38,8 @@
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-1.H.2",
-    "DAT-1.H",
-    "DAT-1",
-    "DAT-1.H.3",
-    "DAT-1.H.1"
-  ],
-  "standards": [
     "4.B",
     "DAT-1.H.2",
     "DAT-1.H",

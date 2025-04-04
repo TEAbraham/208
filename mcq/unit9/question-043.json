@@ -1,10 +1,17 @@
 {
   "question_id": "question-043",
   "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "estimation",
+    "statistical-inference"
+  ],
   "title": "Type of Variable with Linear Regression T Procedure",
   "difficulty": "Easy",
   "question_text": "Linear regression $T$ procedures should be used with data from",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +36,8 @@
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-3",
-    "DAT-3.M.1",
-    "DAT-3.M"
-  ],
-  "standards": [
     "4.B",
     "DAT-3",
     "DAT-3.M.1",

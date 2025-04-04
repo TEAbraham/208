@@ -1,10 +1,16 @@
 {
   "question_id": "question-161",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "sampling-and-experimentation",
+    "sources-of-bias"
+  ],
   "title": "Congressional Approval Rating",
-  "difficulty": "Moderate",
-  "question_text": "A pollster is interested in the approval rating of a congressman in his district. Using an address book to select households randomly within the representative’s constituency, the pollster went from door to door and asked, “Do you approve of your United States representative?” What is a potential bias the pollster may encounter?",
+  "difficulty": "Medium",
+  "question_text": "A pollster is interested in the approval rating of a congressman in his district.\nUsing an address book to select households randomly within the representative’s constituency, the pollster went from door to door and asked, “Do you approve of your United States representative?”\nWhat is a potential bias the pollster may encounter?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,17 +35,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.E",
-    "4.B",
-    "VAR-3",
-    "DAT-2",
-    "DAT-2.E.3",
-    "DAT-2.E",
-    "VAR-3.E.3"
-  ],
-  "standards": [
     "VAR-3.E",
     "4.B",
     "VAR-3",

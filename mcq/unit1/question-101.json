@@ -1,10 +1,20 @@
 {
   "question_id": "question-101",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "spread",
+    "univariate-data",
+    "standard-deviation",
+    "summarizing-distributions",
+    "measuring-spread",
+    "exploring-data",
+    "interquartile-range"
+  ],
   "title": "Resistant Measures of Spread",
-  "difficulty": "Difficult",
-  "question_text": "Below are three types of spread. Which one(s) is a resistant measure of spread? I. Range II. Standard deviation III. Interquartile range",
+  "difficulty": "Hard",
+  "question_text": "Below are three types of spread. Which one(s) is a resistant measure of spread?\nI. Range\nII. Standard deviation\nIII. Interquartile range",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,17 +39,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "2.C",
-    "UNC-1.K",
-    "VAR-1.J.1",
-    "UNC-1.J",
-    "UNC-1.J.3",
-    "UNC-1.K.2",
-    "UNC-1"
-  ],
-  "standards": [
     "2.C",
     "UNC-1.K",
     "VAR-1.J.1",

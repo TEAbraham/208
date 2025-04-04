@@ -1,12 +1,20 @@
 {
   "question_id": "question-171",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "stemplots",
+    "comparing-distributions",
+    "exploring-data",
+    "shape"
+  ],
   "title": "Stemplot Comparison",
-  "difficulty": "Moderate",
-  "question_text": "Students in the day and evening classes of a statistics course at a local university were given the same test. Below are back-to-back stemplots for the test results from the two classes. Loading question supplement... Key: 8|2|0 - 28 and 20 What can be said about the scores for these two groups of students?",
+  "difficulty": "Medium",
+  "question_text": "Students in the day and evening classes of a statistics course at a local university were given the same test. Below are back-to-back stemplots for the test results from the two classes.\nCreated for Albert.io. Copyright 2016. All rights reserved.\nKey: 8|2|0 - 28 and 20\nWhat can be said about the scores for these two groups of students?",
   "image_files": [
     "images/question-171-img1.JPG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -14,7 +22,7 @@
     },
     {
       "letter": "B",
-      "text": "The median for each of the distributions is a grade in the 60 60 ’s."
+      "text": "The median for each of the distributions is a grade in the 60’s."
     },
     {
       "letter": "C",
@@ -31,14 +39,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.N.1",
-    "2.D",
-    "UNC-1.N",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.N.1",
     "2.D",
     "UNC-1.N",

@@ -1,26 +1,35 @@
 {
   "question_id": "question-039",
   "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "chi-square-test",
+    "binomial-probability"
+  ],
   "title": "Rolling Dice",
-  "difficulty": "Difficult",
-  "question_text": "Suppose at a local casino, a player rolls $4$ six-sided die. The player wins a dollar each time he gets a $1$ or $2$ on one of the dice, so each game the player could win anywhere from $\\$0$ to $\\$4$ . The player plays the game $100$ times and is disappointed with the outcome. He wonders if the dice are fair. Out of the $100$ trials, the player ended up with the following distribution of winnings: Winnings $ 0 $ 1 $ 2 $ 3 $ 4 Frequency 21 42 30 7 0 Is there sufficient evidence the dice are unfair?",
+  "difficulty": "Hard",
+  "question_text": "Suppose at a local casino, a player rolls $4$ six-sided die.\nThe player wins a dollar each time he gets a $1$ or $2$ on one of the dice, so each game the player could win anywhere from $\\$0$ to $\\$4$.\nThe player plays the game $100$ times and is disappointed with the outcome. He wonders if the dice are fair. Out of the $100$ trials, the player ended up with the following distribution of winnings:\nWinnings $0 $1 $2 $3 $4\nFrequency 21 42 30 7 0\n\n\nIs there sufficient evidence the dice are unfair?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Winnings</th><th scope=\"col\"><span>$</span>0</th><th scope=\"col\"><span>$</span>1</th><th scope=\"col\"><span>$</span>2</th><th scope=\"col\"><span>$</span>3</th><th scope=\"col\"><span>$</span>4</th></tr></thead><tbody><tr><td>Frequency</td><td>21</td><td>42</td><td>30</td><td>7</td><td>0</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "Yes, at the 1 % , 5 % , and 10 % alpha levels."
+      "text": "Yes, at the $1\\%, 5\\%$, and $10\\%$ alpha levels."
     },
     {
       "letter": "B",
-      "text": "Yes, at the 5 % and 10 % alpha levels, but not at the 1 % level."
+      "text": "Yes, at the $5\\%$ and $10\\%$ alpha levels, but not at the $1\\%$ level."
     },
     {
       "letter": "C",
-      "text": "Yes, at the 10 % 10 % alpha level, but not the 1 % 1 % or 5 % 5 % levels."
+      "text": "Yes, at the $10\\%$ alpha level, but not the $1\\%$ or $5\\%$ levels."
     },
     {
       "letter": "D",
-      "text": "No, not at any of the common alpha levels of 1 % , 5 % 1 % , 5 % , or 10 % 10 % ."
+      "text": "No, not at any of the common alpha levels of $1\\%, 5\\%$, or $10\\%$."
     },
     {
       "letter": "E",
@@ -29,15 +38,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-8.F",
-    "3.E",
-    "VAR-8",
-    "VAR-8.F.2",
-    "VAR-8.F.1"
-  ],
-  "standards": [
     "VAR-8.F",
     "3.E",
     "VAR-8",

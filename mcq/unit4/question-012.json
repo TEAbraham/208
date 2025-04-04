@@ -1,18 +1,24 @@
 {
   "question_id": "question-012",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "randomness",
+    "simulation",
+    "probability"
+  ],
   "title": "Simulate This!",
   "difficulty": "Easy",
-  "question_text": "You want to simulate picking two cards from a deck of cards (which includes $4$ suits and $13$ of each number/type of card) and seeing how often you obtain a pair.  Which of the following would not be well-suited to account for the randomness in this simulation?",
+  "question_text": "You want to simulate picking two cards from a deck of cards (which includes $4$ suits and $13$ of each number/type of card) and seeing how often you obtain a pair. Which of the following would not be well-suited to account for the randomness in this simulation?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "A 5 5 -sided die."
+      "text": "A $5$-sided die."
     },
     {
       "letter": "B",
-      "text": "A 13 13 -sided die."
+      "text": "A $13$-sided die."
     },
     {
       "letter": "C",
@@ -29,14 +35,8 @@
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-2.A.4",
-    "3.A",
-    "UNC-2.A",
-    "UNC-2"
-  ],
-  "standards": [
     "UNC-2.A.4",
     "3.A",
     "UNC-2.A",

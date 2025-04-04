@@ -1,45 +1,45 @@
 {
   "question_id": "question-049",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "correlation",
+    "scatterplots",
+    "bivariate-data",
+    "exploring-data"
+  ],
   "title": "Correlation: Finding the Correlation Using a Scatterplot",
   "difficulty": "Easy",
-  "question_text": "Which of the following could be the value of the correlation coefficient for the data represented in the scatterplot below? Created for Albert.io. Copyright 2017. All rights reserved.",
+  "question_text": "Which of the following could be the value of the correlation coefficient for the data represented in the scatterplot below?\nCreated for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-049-img1.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "− 0.98 − 0.98"
+      "text": "−\n0.98"
     },
     {
       "letter": "B",
-      "text": "− 0.87 − 0.87"
+      "text": "−\n0.87"
     },
     {
       "letter": "C",
-      "text": "− 0.32 − 0.32"
+      "text": "−\n0.32"
     },
     {
       "letter": "D",
-      "text": "0.87 0.87"
+      "text": "0.87"
     },
     {
       "letter": "E",
-      "text": "0.98 0.98"
+      "text": "0.98"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-1.B.3",
-    "2.C",
-    "DAT-1",
-    "DAT-1.B.1",
-    "DAT-1.B"
-  ],
-  "standards": [
     "DAT-1.B.3",
     "2.C",
     "DAT-1",

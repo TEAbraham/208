@@ -1,10 +1,16 @@
 {
   "question_id": "question-218",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "properties"
+  ],
   "title": "Select the True Statements about Normal Distribution",
   "difficulty": "Easy",
-  "question_text": "Which of the following statements is/are true of every normal distribution? I. It is symmetric about its median. II. It has µ = $0$ and standard deviation = $1$ . III. $\\frac{3}{4}$ of the data values will be within $1$ standard deviation of its mean.",
+  "question_text": "Which of the following statements is/are true of every normal distribution?\nI. It is symmetric about its median.\nII. It has µ = $0$ and standard deviation = $1$.\nIII. $\\frac{3}{4}$ of the data values will be within $1$ standard deviation of its mean.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +35,8 @@
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "2.D",
-    "VAR-2.A.1",
-    "VAR-2",
-    "VAR-2.A"
-  ],
-  "standards": [
     "2.D",
     "VAR-2.A.1",
     "VAR-2",

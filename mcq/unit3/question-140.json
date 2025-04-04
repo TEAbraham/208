@@ -1,10 +1,16 @@
 {
   "question_id": "question-140",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "well-designed-conducted"
+  ],
   "title": "Pain Relief Study",
-  "difficulty": "Moderate",
-  "question_text": "A doctor wishes to investigate pain relief medications aspirin and acetaminophen. The doctor has $600\\text{ volunteers}$ for this study. The doctor randomly selects $200$ of these volunteer subjects receive aspirin, $200$ to receive acetaminophen and the remaining $200$ to receive a placebo pill. Which of the following statements is correct?",
+  "difficulty": "Medium",
+  "question_text": "A doctor wishes to investigate pain relief medications aspirin and acetaminophen. The doctor has $600\\text{ volunteers}$ for this study.\nThe doctor randomly selects $200$ of these volunteer subjects receive aspirin, $200$ to receive acetaminophen and the remaining $200$ to receive a placebo pill.\nWhich of the following statements is correct?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,15 +35,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.E",
-    "4.B",
-    "VAR-3",
-    "VAR-3.E.3",
-    "VAR-3.E.2"
-  ],
-  "standards": [
     "VAR-3.E",
     "4.B",
     "VAR-3",

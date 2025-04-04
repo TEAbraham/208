@@ -1,42 +1,44 @@
 {
   "question_id": "question-054",
   "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "categorical-data",
+    "two-way-tables",
+    "exploring-data"
+  ],
   "title": "Concerns About Climate Change: An Expected Count",
   "difficulty": "Easy",
-  "question_text": "Are American adults and Canadian adults equally concerned about climate change?  A random sample of American adults and a random sample of Canadian adults were asked if they were \"very concerned\", \"somewhat concerned\" or \"not very concerned\" about the issue.  The table below shows how many adults answered with each response. American Adults Canadian Adults Total Very Concerned 29 38 67 Somewhat Concerned 48 52 100 Not Very Concerned 25 22 47 Total 102 112 214 Assuming that the proportions of those who would provide each response is the same for American adults as for Canadian adults, what is the expected count for how many American adults would say \"very concerned\"?",
+  "question_text": "Are American adults and Canadian adults equally concerned about climate change? A random sample of American adults and a random sample of Canadian adults were asked if they were \"very concerned\", \"somewhat concerned\" or \"not very concerned\" about the issue. The table below shows how many adults answered with each response.\nAmerican Adults Canadian Adults Total\nVery Concerned 29 38 67\nSomewhat Concerned 48 52 100\nNot Very Concerned 25 22 47\nTotal 102 112 214\n\n\nAssuming that the proportions of those who would provide each response is the same for American adults as for Canadian adults, what is the expected count for how many American adults would say \"very concerned\"?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">American Adults</th><th scope=\"col\">Canadian Adults</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Very Concerned</td><td>29</td><td>38</td><td>67</td></tr><tr><td>Somewhat Concerned</td><td>48</td><td>52</td><td>100</td></tr><tr><td>Not Very Concerned</td><td>25</td><td>22</td><td>47</td></tr><tr><td>Total</td><td>102</td><td>112</td><td>214</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "29 29"
+      "text": "$29$"
     },
     {
       "letter": "B",
-      "text": "31.93 31.93"
+      "text": "$31.93$"
     },
     {
       "letter": "C",
-      "text": "32 32"
+      "text": "$32$"
     },
     {
       "letter": "D",
-      "text": "34.61 34.61"
+      "text": "$34.61$"
     },
     {
       "letter": "E",
-      "text": "35.07 35.07"
+      "text": "$35.07$"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-8.H",
-    "3.A",
-    "VAR-8",
-    "VAR-8.H.1"
-  ],
-  "standards": [
     "VAR-8.H",
     "3.A",
     "VAR-8",

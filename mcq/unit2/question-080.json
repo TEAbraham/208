@@ -1,12 +1,19 @@
 {
   "question_id": "question-080",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "scatterplots",
+    "describing-association",
+    "bivariate-data",
+    "exploring-data"
+  ],
   "title": "Describing the Nature of an Association",
-  "difficulty": "Moderate",
-  "question_text": "A study was designed to measure the association between adults' resting pulse and their exercise pulse, which were both measured in beats per minute (bpm). Subjects measured their resting pulse for one minute. They then ran on a treadmill for two minutes and measured their exercise pulse immediately after for one minute. The scatterplot below displays the information: Created for Albert.io. Copyright 2017. All rights reserved. Which of the following describes the nature of the association between adults' resting pulses and their exercise pulses?",
+  "difficulty": "Medium",
+  "question_text": "A study was designed to measure the association between adults' resting pulse and their exercise pulse, which were both measured in beats per minute (bpm). Subjects measured their resting pulse for one minute. They then ran on a treadmill for two minutes and measured their exercise pulse immediately after for one minute.\nThe scatterplot below displays the information:\nCreated for Albert.io. Copyright 2017. All rights reserved.\nWhich of the following describes the nature of the association between adults' resting pulses and their exercise pulses?",
   "image_files": [
     "images/question-080-img1.PNG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -31,14 +38,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "2.C",
-    "DAT-1",
-    "DAT-1.D",
-    "DAT-1.D.1"
-  ],
-  "standards": [
     "2.C",
     "DAT-1",
     "DAT-1.D",

@@ -1,46 +1,44 @@
 {
   "question_id": "question-267",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "spread",
+    "univariate-data",
+    "summarizing-distributions",
+    "exploring-data",
+    "interquartile-range"
+  ],
   "title": "IQR of Variable",
-  "difficulty": "Moderate",
-  "question_text": "The random variable $x$ is normally distributed with a mean of $42$ and a standard deviation of $6$ . What is the approximate interquartile range for this variable?",
+  "difficulty": "Medium",
+  "question_text": "The random variable $x$ is normally distributed with a mean of $42$ and a standard deviation of $6$.\nWhat is the approximate interquartile range for this variable?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "37.98 37.98"
+      "text": "$37.98$"
     },
     {
       "letter": "B",
-      "text": "19.80 19.80"
+      "text": "$19.80$"
     },
     {
       "letter": "C",
-      "text": "23.52 23.52"
+      "text": "$23.52$"
     },
     {
       "letter": "D",
-      "text": "46.02 46.02"
+      "text": "$46.02$"
     },
     {
       "letter": "E",
-      "text": "8.10 8.10"
+      "text": "$8.10$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-2.B",
-    "UNC-1.J.2",
-    "2.C",
-    "UNC-1.J.1",
-    "UNC-1.J",
-    "VAR-2",
-    "VAR-2.B.3",
-    "UNC-1"
-  ],
-  "standards": [
     "VAR-2.B",
     "UNC-1.J.2",
     "2.C",

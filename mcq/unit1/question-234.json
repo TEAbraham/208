@@ -1,47 +1,47 @@
 {
   "question_id": "question-234",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "z-score",
+    "tables",
+    "probability"
+  ],
   "title": "Normal Distribution: Probability Joey Arrives at School on Time",
-  "difficulty": "Moderate",
-  "question_text": "The time it takes for Joey to arrive at his $1$ st period class from home is normally distributed with a mean of $12$ minutes and a standard  deviation of $4$ minutes. If school starts at 8:15 A.M and Joey leaves his house at 8:00 A.M., what is the probability Joey will be late?",
+  "difficulty": "Medium",
+  "question_text": "The time it takes for Joey to arrive at his $1$st period class from home is normally distributed with a mean of $12$ minutes and a standard deviation of $4$ minutes.\nIf school starts at 8:15 A.M and Joey leaves his house at 8:00 A.M., what is the probability Joey will be late?",
   "image_files": [
     "images/question-234-img1.PNG",
-    "images/question-234-img2.PNG",
-    "images/question-234-img3.PNG"
+    "images/question-234-img2.PNG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.23 0.23"
+      "text": "$0.23$"
     },
     {
       "letter": "B",
-      "text": "0.28 0.28"
+      "text": "$0.28$"
     },
     {
       "letter": "C",
-      "text": "0.46 0.46"
+      "text": "$0.46$"
     },
     {
       "letter": "D",
-      "text": "0.77 0.77"
+      "text": "$0.77$"
     },
     {
       "letter": "E",
-      "text": "1.00 1.00"
+      "text": "$1.00$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-2.B.2",
-    "VAR-2.B",
-    "3.A",
-    "VAR-2",
-    "VAR-2.B.3"
-  ],
-  "standards": [
     "VAR-2.B.2",
     "VAR-2.B",
     "3.A",

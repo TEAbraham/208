@@ -1,46 +1,44 @@
 {
   "question_id": "question-073",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sampling-distributions",
+    "statistical-simulation"
+  ],
   "title": "Sampling Distributions and Nurse's Salaries",
-  "difficulty": "Moderate",
-  "question_text": "A typical nurse's salary (in dollars) can range from $\\$25{,}000$ to $\\$55{,}000$ per year.  A computer is programmed to randomly choose $20\\text{ nurse's salaries}$ from among the $200\\text{ nurses}$ employed at a hospital and compute the standard deviation. The computer repeats this process a total of $50\\text{ times}$ .  The sampling distribution of the standard deviation of the nurse's salaries is shown below. Created for Albert.io. Copyright 2017. All rights reserved. One of the points on this sampling distribution, $\\$8{,}165$ , is highlighted. What does this value represent?",
+  "difficulty": "Medium",
+  "question_text": "A typical nurse's salary (in dollars) can range from $\\$25{,}000$ to $\\$55{,}000$ per year. A computer is programmed to randomly choose $20\\text{ nurse's salaries}$ from among the $200\\text{ nurses}$ employed at a hospital and compute the standard deviation.\nThe computer repeats this process a total of $50\\text{ times}$. The sampling distribution of the standard deviation of the nurse's salaries is shown below.\nCreated for Albert.io. Copyright 2017. All rights reserved.\nOne of the points on this sampling distribution, $\\$8{,}165$, is highlighted.\nWhat does this value represent?",
   "image_files": [
     "images/question-073-img1.JPG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Six nurses have a salary lower than $ 8,165 $ 8,165 ."
+      "text": "Six nurses have a salary lower than $8,165\n."
     },
     {
       "letter": "B",
-      "text": "$ 8,165 $ 8,165 is an unusually low value for a nurse's salary at this hospital."
+      "text": "$\n8,165\nis an unusually low value for a nurse's salary at this hospital."
     },
     {
       "letter": "C",
-      "text": "There is a 14 % 14 % chance that the population standard deviation is $ 8,165 $ 8,165 ."
+      "text": "There is a\n14\n%\nchance that the population standard deviation is\n$\n8,165\n."
     },
     {
       "letter": "D",
-      "text": "The standard deviation for one randomly selected sample of nurse's salaries was $ 8,165 $ 8,165 ."
+      "text": "The standard deviation for one randomly selected sample of nurse's salaries was\n$\n8,165\n."
     },
     {
       "letter": "E",
-      "text": "The average standard deviation for the samples of nurse's salaries is $ 8,165 $ 8,165 ."
+      "text": "The average standard deviation for the samples of nurse's salaries is\n$\n8,165\n."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.H.2",
-    "UNC-3.H.1",
-    "3.C",
-    "UNC-3",
-    "UNC-3.H",
-    "UNC-3.H.3"
-  ],
-  "standards": [
     "UNC-3.H.2",
     "UNC-3.H.1",
     "3.C",

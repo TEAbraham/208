@@ -1,42 +1,45 @@
 {
   "question_id": "question-197",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "interpreting-z-score",
+    "z-score",
+    "univariate-data",
+    "position",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
   "title": "Interpreting a $z$-Score: Alan's Bench Press Strength",
   "difficulty": "Easy",
-  "question_text": "Alan's trainer told him that the standardized score ( $z$ -score) for his bench press  is $1.3$ compared to other men his age. Which is the best interpretation for this standardized score?",
+  "question_text": "Alan's trainer told him that the standardized score ($z$-score) for his bench press is $1.3$ compared to other men his age.\nWhich is the best interpretation for this standardized score?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Alan's bench press  is 1.30 1.30 times the average bench press  of other men his age."
+      "text": "Alan's bench press is $1.30$ times the average bench press of other men his age."
     },
     {
       "letter": "B",
-      "text": "Alan's bench press is 1.30 1.30 above the average bench press  for men his age"
+      "text": "Alan's bench press is $1.30$ above the average bench press for men his age"
     },
     {
       "letter": "C",
-      "text": "Alan's bench press  is 1.30 1.30 below the average bench press  for men his age."
+      "text": "Alan's bench press is $1.30$ below the average bench press for men his age."
     },
     {
       "letter": "D",
-      "text": "Alan's bench press  is 1.30 1.30 standard deviations above the average bench press for men his age."
+      "text": "Alan's bench press is $1.30$ standard deviations above the average bench press for men his age."
     },
     {
       "letter": "E",
-      "text": "Alan's bench press  is 1.30 1.30 standard deviations below the average bench press  for men his age."
+      "text": "Alan's bench press is $1.30$ standard deviations below the average bench press for men his age."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-2.B",
-    "VAR-2.B.1",
-    "2.D",
-    "VAR-2"
-  ],
-  "standards": [
     "VAR-2.B",
     "VAR-2.B.1",
     "2.D",

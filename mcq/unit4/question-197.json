@@ -1,42 +1,43 @@
 {
   "question_id": "question-197",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "geometric",
+    "probability",
+    "discrete-random-variables"
+  ],
   "title": "Mean Prize",
   "difficulty": "Easy",
-  "question_text": "Recently a fast food store ran a promotion to increase sales. Certain hamburgers came specially wrapped in gold wrappers. A gold wrapped burger wins the customer $\\$5$ . If $1.5\\%$ of the burgers are wrapped in gold, how many burgers would one expect to buy in order to win the $\\$5$ ?",
+  "question_text": "Recently a fast food store ran a promotion to increase sales.\nCertain hamburgers came specially wrapped in gold wrappers. A gold wrapped burger wins the customer $\\$5$.\nIf $1.5\\%$ of the burgers are wrapped in gold, how many burgers would one expect to buy in order to win the $\\$5$?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "15 15"
+      "text": "$15$"
     },
     {
       "letter": "B",
-      "text": "1.5 1.5"
+      "text": "$1.5$"
     },
     {
       "letter": "C",
-      "text": "98.5 98.5"
+      "text": "$98.5$"
     },
     {
       "letter": "D",
-      "text": "33 33"
+      "text": "$33$"
     },
     {
       "letter": "E",
-      "text": "66.67 66.67"
+      "text": "$66.67$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3",
-    "UNC-3.F.1",
-    "3.B",
-    "UNC-3.F"
-  ],
-  "standards": [
     "UNC-3",
     "UNC-3.F.1",
     "3.B",

@@ -1,14 +1,20 @@
 {
   "question_id": "question-008",
   "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "slope",
+    "linear-regression",
+    "inference"
+  ],
   "title": "Reality Show",
-  "difficulty": "Moderate",
-  "question_text": "The producers of a famous reality show (a show where the contestants do not have much food to eat) are wondering if they can approximate the weight lost for a contestant during their time on the show. The producers select a random sample of $20$ former contestants and use this data to create a linear regression model and a confidence interval for the slope of the regression line. The confidence interval is as follows: ( $-8.23, -2.45$ ) Do the producers have convincing evidence that contestants will lose weight on their time on the show?",
+  "difficulty": "Medium",
+  "question_text": "The producers of a famous reality show (a show where the contestants do not have much food to eat) are wondering if they can approximate the weight lost for a contestant during their time on the show. The producers select a random sample of $20$ former contestants and use this data to create a linear regression model and a confidence interval for the slope of the regression line. The confidence interval is as follows:\n($-8.23, -2.45$)\nDo the producers have convincing evidence that contestants will lose weight on their time on the show?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Yes, because the intervals are less than 0.05 0.05 ."
+      "text": "Yes, because the intervals are less than $0.05$."
     },
     {
       "letter": "B",
@@ -28,15 +34,9 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer",
-  "solution": "The producers are interested in creating a confidence interval that produces a range of possible values for the slope of the regression model for the predicted weight loss of the population of all contestants on the reality show. When the producers found their interval, the bounds ( − 8.23 , − 2.45 − 8.23 , − 2.45 ) were both negative numbers. This is implying that the possible range of slopes is between − 8.23 − 8.23 and − 2.45 − 2.45 .\n\nSince both bounds of the interval are negative, and 0 0 is not a plausible value for the slope, there is convincing evidence that the contestants will lose weight when on the show.\n\nChoice 'B' is correct.",
-  "distractor_explanations": {},
+  "solution": "The producers are interested in creating a confidence interval that produces a range of possible values for the slope of the regression model for the predicted weight loss of the population of all contestants on the reality show. When the producers found their interval, the bounds ($-8.23, -2.45$) were both negative numbers. This is implying that the possible range of slopes is between $-8.23$ and $-2.45$.\n\nSince both bounds of the interval are negative, and $0$ is not a plausible value for the slope, there is convincing evidence that the contestants will lose weight when on the show.\n\nChoice 'B' is correct.",
+  "explanations": {},
   "tags": [
-    "1.A",
-    "VAR-1.K",
-    "VAR-1.K.1",
-    "VAR-1"
-  ],
-  "standards": [
     "1.A",
     "VAR-1.K",
     "VAR-1.K.1",

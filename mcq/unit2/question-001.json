@@ -1,10 +1,15 @@
 {
   "question_id": "question-001",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "relationships",
+    "variables"
+  ],
   "title": "Quantitative Relationship for Cars",
   "difficulty": "Easy",
   "question_text": "Which option below does NOT describe a relationship between two quantitative variables for cars?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +34,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-1.D",
-    "VAR-1.D.1",
-    "1.A",
-    "VAR-1"
-  ],
-  "standards": [
     "VAR-1.D",
     "VAR-1.D.1",
     "1.A",

@@ -1,10 +1,16 @@
 {
   "question_id": "question-113",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "randomized-block-design"
+  ],
   "title": "Building Blocks for Language Learning",
-  "difficulty": "Moderate",
-  "question_text": "A large international company provides language training to many of its employees so that they will be able to conduct business in Japanese. An experiment is being planned to determine if a new program for teaching adults Japanese is more effective than the program currently on the market.  Block design has been requested. Which of the following best describes how to create the blocks?",
+  "difficulty": "Medium",
+  "question_text": "A large international company provides language training to many of its employees so that they will be able to conduct business in Japanese.\nAn experiment is being planned to determine if a new program for teaching adults Japanese is more effective than the program currently on the market. Block design has been requested.\nWhich of the following best describes how to create the blocks?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,16 +35,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.D",
-    "VAR-3",
-    "VAR-3.C.8",
-    "VAR-3.D.1",
-    "1.C",
-    "VAR-3.C"
-  ],
-  "standards": [
     "VAR-3.D",
     "VAR-3",
     "VAR-3.C.8",

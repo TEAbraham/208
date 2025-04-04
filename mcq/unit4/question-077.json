@@ -1,43 +1,42 @@
 {
   "question_id": "question-077",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "model-for-measurements"
+  ],
   "title": "Sums Under $140\\text{ Points}$",
-  "difficulty": "Moderate",
-  "question_text": "Suppose Jane is interested in the total number of points scored in college basketball games. She takes a look at several years of data and finds this distribution is approximately normal with a mean of $154\\text{ points}$ and a standard deviation of $9\\text{ points}$ . A certain group of referees were suspected of missing potential fouls, leading to games that have much lower points than typical. The last three games had point totals that appear low, all with totals under $140\\text{ points}$ . Assuming each game is independent, what’s the probability of three games each having a sum under $140\\text{ points}$ ?",
+  "difficulty": "Medium",
+  "question_text": "Suppose Jane is interested in the total number of points scored in college basketball games. She takes a look at several years of data and finds this distribution is approximately normal with a mean of $154\\text{ points}$ and a standard deviation of $9\\text{ points}$.\nA certain group of referees were suspected of missing potential fouls, leading to games that have much lower points than typical. The last three games had point totals that appear low, all with totals under $140\\text{ points}$.\nAssuming each game is independent, what’s the probability of three games each having a sum under $140\\text{ points}$?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.00021 0.00021"
+      "text": "$0.00021$"
     },
     {
       "letter": "B",
-      "text": "0.0594 0.0594"
+      "text": "$0.0594$"
     },
     {
       "letter": "C",
-      "text": "0.0036 0.0036"
+      "text": "$0.0036$"
     },
     {
       "letter": "D",
-      "text": "0.0352 0.0352"
+      "text": "$0.0352$"
     },
     {
       "letter": "E",
-      "text": "0.0562 0.0562"
+      "text": "$0.0562$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-4.E",
-    "3.A",
-    "VAR-4.E.2",
-    "VAR-4",
-    "VAR-4.E.4"
-  ],
-  "standards": [
     "VAR-4.E",
     "3.A",
     "VAR-4.E.2",

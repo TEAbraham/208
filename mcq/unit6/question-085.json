@@ -1,15 +1,22 @@
 {
   "question_id": "question-085",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference",
+    "type-1-error"
+  ],
   "title": "Reducing the Probability of a Type I Error",
-  "difficulty": "Difficult",
-  "question_text": "For a summer internship with a statistical consulting company, Alison proposed conducting a one-sided (greater than) significance test at the $\\alpha = 0.05$ level.  Her supervisor suggested that she try to reduce her probability of making a type I error.  If Alison does adjust her significance test so that the possibility of a type I error is reduced, which of the following will also happen?  Assume that Alison will still be conducting a one-sided test with the same sample size. I. The significance level of the test will be increased. II. The probability of making a type II error will be increased. III. The power of the test will be decreased.",
+  "difficulty": "Hard",
+  "question_text": "For a summer internship with a statistical consulting company, Alison proposed conducting a one-sided (greater than) significance test at the $\\alpha = 0.05$ level. Her supervisor suggested that she try to reduce her probability of making a type I error. If Alison does adjust her significance test so that the possibility of a type I error is reduced, which of the following will also happen? Assume that Alison will still be conducting a one-sided test with the same sample size.\nI. The significance level of the test will be increased.\nII. The probability of making a type II error will be increased.\nIII. The power of the test will be decreased.",
   "image_files": [
     "images/question-085-img1.PNG",
     "images/question-085-img2.PNG",
     "images/question-085-img3.PNG",
     "images/question-085-img4.PNG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -34,15 +41,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "UNC-5.D.1",
-    "UNC-5",
-    "UNC-5.D.2",
-    "UNC-5.D"
-  ],
-  "standards": [
     "4.B",
     "UNC-5.D.1",
     "UNC-5",

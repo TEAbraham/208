@@ -1,41 +1,41 @@
 {
   "question_id": "question-001",
   "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "chi-square",
+    "categorical-data"
+  ],
   "title": "How many should they expect?",
   "difficulty": "Easy",
-  "question_text": "A large company has the current breakdown of employees: $40\\%$ sales, $30\\%$ Accounting, $20\\%$ Management, $5\\%$ Human Resources, $5\\%$ Public Relations. The HR manager plans to take a random sample of $50$ employees for a company survey. How many employees from the Accounting department should they expect?",
+  "question_text": "A large company has the current breakdown of employees: $40\\%$ sales, $30\\%$ Accounting, $20\\%$ Management, $5\\%$ Human Resources, $5\\%$ Public Relations. The HR manager plans to take a random sample of $50$ employees for a company survey.\nHow many employees from the Accounting department should they expect?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "30 30"
+      "text": "$30$"
     },
     {
       "letter": "B",
-      "text": "20 20"
+      "text": "$20$"
     },
     {
       "letter": "C",
-      "text": "15 15"
+      "text": "$15$"
     },
     {
       "letter": "D",
-      "text": "10 10"
+      "text": "$10$"
     },
     {
       "letter": "E",
-      "text": "2.5 2.5"
+      "text": "$2.5$"
     }
   ],
   "correct_answer": "Choice 'C\" is the correct answer.",
-  "solution": "To calculate the expected counts for a certain category, one must multiply the sample size by the proportion for that category. For instance, the manager is taking a random sample of 50 50 employees and 30 % 30 % of the employees are in the Accounting Department. Therefore,\n\n\n\n50 ( 0.3 ) = 15 employees 50 ( 0.3 ) = 15 employees\n\nTherefore, the manager should expect 15 15 employees from the Accounting department.\n\nChoice 'C' is correct.",
-  "distractor_explanations": {},
+  "solution": "To calculate the expected counts for a certain category, one must multiply the sample size by the proportion for that category. For instance, the manager is taking a random sample of $50$ employees and $30\\%$ of the employees are in the Accounting Department. Therefore,\n\n\n\n$$50(0.3) = 15 \\text{ employees}$$\n\nTherefore, the manager should expect $15$ employees from the Accounting department.\n\nChoice 'C' is correct.",
+  "explanations": {},
   "tags": [
-    "VAR-1.J",
-    "VAR-1.J.1",
-    "VAR-1"
-  ],
-  "standards": [
     "VAR-1.J",
     "VAR-1.J.1",
     "VAR-1"

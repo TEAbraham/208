@@ -1,42 +1,44 @@
 {
   "question_id": "question-121",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "least-squares-regression-line",
+    "bivariate-data",
+    "exploring-data"
+  ],
   "title": "Modeling Data: Profits",
   "difficulty": "Easy",
-  "question_text": "Which equation would be the best to model the following data? Year Profits ( $ Millions) 1 2 2 2.2 3 2.5 4 3 5 3.8 6 6 7 6.5 8 8 9 10 10 13",
+  "question_text": "Which equation would be the best to model the following data?\nYear Profits ($ Millions)\n1 2\n2 2.2\n3 2.5\n4 3\n5 3.8\n6 6\n7 6.5\n8 8\n9 10\n10 13",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Year</th><th scope=\"col\">Profits (<span>$</span> Millions)</th></tr></thead><tbody><tr><td>1</td><td>2</td></tr><tr><td>2</td><td>2.2</td></tr><tr><td>3</td><td>2.5</td></tr><tr><td>4</td><td>3</td></tr><tr><td>5</td><td>3.8</td></tr><tr><td>6</td><td>6</td></tr><tr><td>7</td><td>6.5</td></tr><tr><td>8</td><td>8</td></tr><tr><td>9</td><td>10</td></tr><tr><td>10</td><td>13</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "Profits = 0.09 (Year) + 0.15 Profits = 0.09 (Year) + 0.15"
+      "text": "$\\text{Profits}= 0.09\\text{(Year)} + 0.15$"
     },
     {
       "letter": "B",
-      "text": "log (Profits) = 0.09 log (Year) − 0.15 log ⁡ (Profits) = 0.09 log ⁡ (Year) − 0.15"
+      "text": "$\\log{\\text{(Profits)}} = 0.09\\log{\\text{(Year)}} - 0.15$"
     },
     {
       "letter": "C",
-      "text": "log (Profits) = 0.09 (Year) + 0.15 log ⁡ (Profits) = 0.09 (Year) + 0.15"
+      "text": "$\\log{\\text{(Profits)}} = 0.09 {\\text{(Year)}} + 0.15$"
     },
     {
       "letter": "D",
-      "text": "Profits = 1.2 (Year) − 0.76 Profits = 1.2 (Year) − 0.76"
+      "text": "$\\text{Profits}= 1.2 \\text{(Year)} - 0.76$"
     },
     {
       "letter": "E",
-      "text": "log (Profits) = 1.2 (Year) − 0.76 log ⁡ (Profits) = 1.2 (Year) − 0.76"
+      "text": "$\\log{\\text{(Profits)}} = 1.2\\text{(Year)}-0.76$"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "2.C",
-    "DAT-1",
-    "DAT-1.J",
-    "DAT-1.J.1"
-  ],
-  "standards": [
     "2.C",
     "DAT-1",
     "DAT-1.J",

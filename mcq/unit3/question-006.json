@@ -1,10 +1,14 @@
 {
   "question_id": "question-006",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "data-collection"
+  ],
   "title": "Golf Coach",
   "difficulty": "Easy",
-  "question_text": "A golf coach creates a tutorial video to help fix a golfer's swing. The coach states that $99.07\\%$ of those who watched and responded to his survey reported an improved swing. He posts this video to all his social media accounts. Can we say with certainty that $99.07\\%$ of golfers who watch the video fix their swing?",
+  "question_text": "A golf coach creates a tutorial video to help fix a golfer's swing. The coach states that $99.07\\%$ of those who watched and responded to his survey reported an improved swing. He posts this video to all his social media accounts.\nCan we say with certainty that $99.07\\%$ of golfers who watch the video fix their swing?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -24,19 +28,13 @@
     },
     {
       "letter": "E",
-      "text": "No, because 99.07 % 99.07 % is too high."
+      "text": "No, because $99.07\\%$ is too high."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "The golf coach is using data collection to present his findings to help promote his video. He is claiming that there is a 99.07 % 99.07 % success rate after watching the video.\n\nThe issue with this claim is that not all golfers who watch the video will answer a survey regarding whether or not the video helped. Many golfers will quickly watch the video and move on with their life.  He will mainly only get responses from the people in which the video helped. We have no way of knowing if the video helped the golfers who did not respond.\n\nChoice 'D' is correct.",
-  "distractor_explanations": {},
+  "solution": "The golf coach is using data collection to present his findings to help promote his video. He is claiming that there is a $99.07\\%$ success rate after watching the video.\n\nThe issue with this claim is that not all golfers who watch the video will answer a survey regarding whether or not the video helped. Many golfers will quickly watch the video and move on with their life. He will mainly only get responses from the people in which the video helped. We have no way of knowing if the video helped the golfers who did not respond.\n\nChoice 'D' is correct.",
+  "explanations": {},
   "tags": [
-    "VAR-1.E",
-    "1.A",
-    "VAR-1",
-    "VAR-1.E.1"
-  ],
-  "standards": [
     "VAR-1.E",
     "1.A",
     "VAR-1",

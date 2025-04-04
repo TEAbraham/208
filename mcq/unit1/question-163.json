@@ -1,11 +1,18 @@
 {
   "question_id": "question-163",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "comparing-distributions",
+    "exploring-data",
+    "shape"
+  ],
   "title": "Two-Way Table: Lions and Tigers and Bears",
   "difficulty": "Easy",
-  "question_text": "The Bears and Tigers each score a mean of 50 points per game. Points Scored Per Game Points Scored Per Game Mean Median Bears 50 40 Tigers 50 50 Which of the following statements is most likely true?",
-  "image_files": [
-    "images/question-163-img1.png"
+  "question_text": "The Bears and Tigers each score a mean of $50$ points per game.\nPoints Scored Per Game\nPoints Scored Per Game Mean Median\nBears 50 40\nTigers 50 50\n\n\nWhich of the following statements is most likely true?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Points Scored Per Game</th><th scope=\"col\">Mean</th><th scope=\"col\">Median</th></tr></thead><tbody><tr><td>Bears</td><td>50</td><td>40</td></tr><tr><td>Tigers</td><td>50</td><td>50</td></tr></tbody></table>"
   ],
   "choices": [
     {
@@ -31,14 +38,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.O",
-    "2.D",
-    "UNC-1.O.1",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.O",
     "2.D",
     "UNC-1.O.1",

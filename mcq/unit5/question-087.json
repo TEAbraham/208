@@ -1,42 +1,42 @@
 {
   "question_id": "question-087",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sample-mean",
+    "sampling-distributions"
+  ],
   "title": "Sampling Distribution of a Sample Mean: Get to Class!",
-  "difficulty": "Difficult",
-  "question_text": "$P \\left( z >\\dfrac { 4.1-5 }{ \\sqrt { \\frac { (0.88)(0.12) }{ 100 }  }  } \\right)$",
+  "difficulty": "Hard",
+  "question_text": "During passing time at a high school, it takes a student an average of $4.1\\text{ minutes}$ with a standard deviation of $0.88\\text{ minutes}$ to make it from one class to another class.\nIf the students have $5\\text{ minutes}$ to make it from one class to another class without being late, what is the probability when $100\\text{ students}$ are randomly selected their average time will be GREATER than $5\\text{ minutes}$?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "P ⎛ ⎜\n⎜ ⎝ z > 4.1 − 5 √ ( 0.88 ) ( 0.12 ) 100 ⎞ ⎟\n⎟ ⎠ P ( z > 4.1 − 5 ( 0.88 ) ( 0.12 ) 100 )"
+      "text": "$P \\left( z >\\dfrac { 4.1-5 }{ \\sqrt { \\frac { (0.88)(0.12) }{ 100 } } } \\right)$"
     },
     {
       "letter": "B",
-      "text": "P ⎛ ⎜ ⎝ z > 4.1 − 5 0.88 √ 100 ⎞ ⎟ ⎠ P ( z > 4.1 − 5 0.88 100 )"
+      "text": "$P \\left( z >\\dfrac { 4.1-5 }{ \\frac { 0.88 }{ \\sqrt { 100 } } } \\right)$"
     },
     {
       "letter": "C",
-      "text": "P ( z > 5 − 4.1 0.88 ) P ( z > 5 − 4.1 0.88 )"
+      "text": "$P \\left( z >\\dfrac { 5-4.1 }{ 0.88 } \\right)$"
     },
     {
       "letter": "D",
-      "text": "P ⎛ ⎜\n⎜ ⎝ z > 5 − 4.1 √ ( 0.88 ) ( 0.12 ) 100 ⎞ ⎟\n⎟ ⎠ P ( z > 5 − 4.1 ( 0.88 ) ( 0.12 ) 100 )"
+      "text": "$P \\left( z >\\dfrac { 5-4.1 }{ \\sqrt { \\frac { (0.88)(0.12) }{ 100 } } } \\right)$"
     },
     {
       "letter": "E",
-      "text": "P ⎛ ⎜ ⎝ z > 5 − 4.1 0.88 √ 100 ⎞ ⎟ ⎠ P ( z > 5 − 4.1 0.88 100 )"
+      "text": "$P \\left( z >\\dfrac { 5-4.1 }{ \\frac { 0.88 }{ \\sqrt { 100 } } } \\right)$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.Q.1",
-    "UNC-3",
-    "UNC-3.Q",
-    "3.B"
-  ],
-  "standards": [
     "UNC-3.Q.1",
     "UNC-3",
     "UNC-3.Q",

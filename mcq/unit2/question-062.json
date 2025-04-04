@@ -1,43 +1,42 @@
 {
   "question_id": "question-062",
   "unit": "Unit 2 | Exploring Two-Variable Data",
-  "title": "Misuse of r",
-  "difficulty": "Moderate",
-  "question_text": "Which of the following statements uses r r , the correlation coefficient, correctly?",
+  "topics": [
+    "correlation",
+    "bivariate-data",
+    "exploring-data"
+  ],
+  "title": "Misuse of $r$",
+  "difficulty": "Medium",
+  "question_text": "Which of the following statements uses $r$, the correlation coefficient, correctly?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The correlation between price of pizza and number of toppings is r = 0.98 r = 0.98 dollars per topping."
+      "text": "The correlation between price of pizza and number of toppings is $r = 0.98$ dollars per topping."
     },
     {
       "letter": "B",
-      "text": "There is a moderate correlation ( r = 0.56 r = 0.56 ) between hours studying for a test and percent correct on the test."
+      "text": "There is a moderate correlation ($r = 0.56$) between hours studying for a test and percent correct on the test."
     },
     {
       "letter": "C",
-      "text": "There is a strong correlation ( r = 0.82 r = 0.82 ) between race and musical preference."
+      "text": "There is a strong correlation ($r = 0.82$) between race and musical preference."
     },
     {
       "letter": "D",
-      "text": "The correlation between age and shoe size is r = 1.34 r = 1.34 ."
+      "text": "The correlation between age and shoe size is $r = 1.34$."
     },
     {
       "letter": "E",
-      "text": "If the correlation between a person’s AP Stats grade and AP English grade is 0 .68 .68 ; the correlation becomes − 0.68 − 0.68 when explanatory and response variables are switched."
+      "text": "If the correlation between a person’s AP Stats grade and AP English grade is 0$.68$; the correlation becomes $-0.68$ when explanatory and response variables are switched."
     }
   ],
   "correct_answer": "Choice 'A' is incorrect; correlation cannot have units.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-1.C",
-    "DAT-1.C.2",
-    "DAT-1",
-    "DAT-1.C.1"
-  ],
-  "standards": [
     "4.B",
     "DAT-1.C",
     "DAT-1.C.2",

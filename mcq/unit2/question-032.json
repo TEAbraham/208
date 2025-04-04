@@ -1,42 +1,44 @@
 {
   "question_id": "question-032",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "categorical-data",
+    "conditional-relative-frequencies",
+    "exploring-data"
+  ],
   "title": "Junior Year Stress: Boys vs. Girls",
-  "difficulty": "Difficult",
-  "question_text": "Junior year of high school is traditionally a time of high stress for students as they begin making decisions about college.  A reporter for the Maintown High School newspaper is planning to write an article about the topic of \"Junior Year Stress\" and wonders if this stress is experienced equally by both boys and girls. To gather data for her article, the reporter surveyed a random sample of juniors and asked them to identify how often they felt stressed about school.  Results, broken down by gender, are shown in the table below. Boys Girls Often Stressed 19 27 Sometimes Stressed 28 39 Rarely Stressed 3 4 Based upon the results shown, should the reporter claim that there is a difference in the levels of stress experienced by boys and girls during their junior year?",
+  "difficulty": "Hard",
+  "question_text": "Junior year of high school is traditionally a time of high stress for students as they begin making decisions about college. A reporter for the Maintown High School newspaper is planning to write an article about the topic of \"Junior Year Stress\" and wonders if this stress is experienced equally by both boys and girls.\nTo gather data for her article, the reporter surveyed a random sample of juniors and asked them to identify how often they felt stressed about school. Results, broken down by gender, are shown in the table below.\nBoys Girls\nOften Stressed 19 27\nSometimes Stressed 28 39\nRarely Stressed 3 4\n\n\nBased upon the results shown, should the reporter claim that there is a difference in the levels of stress experienced by boys and girls during their junior year?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Boys</th><th scope=\"col\">Girls</th></tr></thead><tbody><tr><td>Often Stressed</td><td>19</td><td>27</td></tr><tr><td>Sometimes Stressed</td><td>28</td><td>39</td></tr><tr><td>Rarely Stressed</td><td>3</td><td>4</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "No.  Although there appears to be a difference in the other two categories, the number of boys and girls claiming they are \"Rarely Stressed\" is almost equal.  Since this category is close to equal, we cannot claim an overall difference in the stress levels of boys and girls."
+      "text": "No. Although there appears to be a difference in the other two categories, the number of boys and girls claiming they are \"Rarely Stressed\" is almost equal. Since this category is close to equal, we cannot claim an overall difference in the stress levels of boys and girls."
     },
     {
       "letter": "B",
-      "text": "No.  The conditional distributions of stress levels are very similar for both boys and girls.  Since the stress levels occur in about the same proportions for both genders, we cannot claim that there is a difference."
+      "text": "No. The conditional distributions of stress levels are very similar for both boys and girls. Since the stress levels occur in about the same proportions for both genders, we cannot claim that there is a difference."
     },
     {
       "letter": "C",
-      "text": "Yes.  The number of girls reporting that they are stressed at least \"sometimes\" is higher than the number of boys reporting the same level of stress.  In general, girls appear to experience more stress than boys."
+      "text": "Yes. The number of girls reporting that they are stressed at least \"sometimes\" is higher than the number of boys reporting the same level of stress. In general, girls appear to experience more stress than boys."
     },
     {
       "letter": "D",
-      "text": "Yes.  The marginal distributions are not the same for both boys and girls.  This shows that there is some difference in the stress levels experienced by boys and girls during their junior year."
+      "text": "Yes. The marginal distributions are not the same for both boys and girls. This shows that there is some difference in the stress levels experienced by boys and girls during their junior year."
     },
     {
       "letter": "E",
-      "text": "Yes and no.  There is a difference for the categories of \"Often Stressed\" and \"Sometimes Stressed\" but not a substantial difference for the category of \"Rarely Stressed\"."
+      "text": "Yes and no. There is a difference for the categories of \"Often Stressed\" and \"Sometimes Stressed\" but not a substantial difference for the category of \"Rarely Stressed\"."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.Q",
-    "1.C",
-    "UNC-1.Q.2",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.Q",
     "1.C",
     "UNC-1.Q.2",

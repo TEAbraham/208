@@ -1,42 +1,42 @@
 {
   "question_id": "question-179",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "probability",
+    "discrete-random-variables"
+  ],
   "title": "Plant Survival",
-  "difficulty": "Moderate",
-  "question_text": "The probability that a particular species of plant survives the winter is $0.7$ . Charlotte has $22$ plants of this species. What is the probability that at least $17$ of her plants survive the winter?",
+  "difficulty": "Medium",
+  "question_text": "The probability that a particular species of plant survives the winter is $0.7$. Charlotte has $22$ plants of this species.\nWhat is the probability that at least $17$ of her plants survive the winter?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.165 0.165"
+      "text": "$0.165$"
     },
     {
       "letter": "B",
-      "text": "0.313 0.313"
+      "text": "$0.313$"
     },
     {
       "letter": "C",
-      "text": "0.687 0.687"
+      "text": "$0.687$"
     },
     {
       "letter": "D",
-      "text": "0.773 0.773"
+      "text": "$0.773$"
     },
     {
       "letter": "E",
-      "text": "0.835 0.835"
+      "text": "$0.835$"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.B",
-    "3.A",
-    "UNC-3",
-    "UNC-3.B.1"
-  ],
-  "standards": [
     "UNC-3.B",
     "3.A",
     "UNC-3",

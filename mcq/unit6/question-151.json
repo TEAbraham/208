@@ -1,0 +1,45 @@
+{
+  "question_id": "question-151",
+  "unit": "AP® Statistics | Unit 6 Assessment",
+  "topics": [
+    "difference-two-proportions",
+    "p-value",
+    "p-value-interpretation"
+  ],
+  "title": "How's the Weather?",
+  "difficulty": "Medium",
+  "question_text": "Blue Fin Real Estate was interested in what prompted people to choose to live on either the East Coast or the West Coast. Random samples of $400$ people on each coast were asked what the most important factor was in their decision. On the East Coast, $68$ people chose weather and on the West Coast, $88$ people chose weather.\nBlue Fin wanted to know if there was a difference in the proportions of choice of weather between people living on the East and West Coasts. Given a significance level of $\\alpha=0.05$, determine the range of where the $p$-value falls and whether or not we can reject the null hypothesis that the proportions are really the same.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.025<p$-value$<0.05$\nFail to reject $Ho$, there is no difference in the proportions."
+    },
+    {
+      "letter": "B",
+      "text": "$0.05<p$-value$<0.10$\nFail to reject $Ho$, there is no difference in the proportions."
+    },
+    {
+      "letter": "C",
+      "text": "$0.05<p$-value$<0.10$\nReject $Ho$, there is a difference in the proportions."
+    },
+    {
+      "letter": "D",
+      "text": "$0.025<p$-value$<0.05$\nReject $Ho$, there is a difference in the proportions."
+    },
+    {
+      "letter": "E",
+      "text": "0.05<p-value<0.10\nReject Ho, there is no difference in the proportions."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "DAT-3.C",
+    "4.B",
+    "DAT-3.C.1",
+    "VAR-6"
+  ]
+}

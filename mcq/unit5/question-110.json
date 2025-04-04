@@ -1,0 +1,46 @@
+{
+  "question_id": "question-110",
+  "unit": "AP® Statistics | Unit 5 Assessment",
+  "topics": [
+    "sample-size",
+    "sampling",
+    "central-limit-theorem",
+    "average"
+  ],
+  "title": "The Central Limit Theorem",
+  "difficulty": "Easy",
+  "question_text": "The annual salary of real estate agents varies from realtor to realtor. The distribution of annual salaries for all real estate agents in Florida is strongly skewed to the right. The Central Limit Theorem states:",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "As more and more realtor's salaries are observed, the average salary gets even closer to the average $\\mu$ of all realtors."
+    },
+    {
+      "letter": "B",
+      "text": "The average salary of a large number of real estate agents has a distribution with the same shape as the population distribution."
+    },
+    {
+      "letter": "C",
+      "text": "The average salary of a large number of real estate agents has a distribution with a similar shape (but not as strongly skewed) as the population distribution."
+    },
+    {
+      "letter": "D",
+      "text": "The average salary of a large number of real estate agents has a distribution that is close to Normal."
+    },
+    {
+      "letter": "E",
+      "text": "The average salary of a large number of real estate agents has a distribution that is exactly Normal."
+    }
+  ],
+  "correct_answer": "Choice ‘D’ is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.H.2",
+    "3.C",
+    "UNC-3",
+    "UNC-3.H"
+  ]
+}

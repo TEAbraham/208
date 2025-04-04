@@ -1,14 +1,21 @@
 {
   "question_id": "question-077",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "type-2-error",
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
   "title": "Type II Errors and Snow Days",
-  "difficulty": "Moderate",
-  "question_text": "Many school districts in various parts of the country routinely add extra days onto the school calendar to account for the possibility of snow days or other unexpected days off. Ananya has been carefully watching the weather report and sees that the forecast is calling for $6\\text{ inches}$ of snow overnight. Based upon past history, she knows that school will be cancelled if more than $3\\text{ inches}$ of snow fall. Therefore, she forms the null hypothesis that there will be no school tomorrow. In this situation, what would be the meaning and potential consequences of Ananya making a Type II error?",
+  "difficulty": "Medium",
+  "question_text": "Many school districts in various parts of the country routinely add extra days onto the school calendar to account for the possibility of snow days or other unexpected days off. Ananya has been carefully watching the weather report and sees that the forecast is calling for $6\\text{ inches}$ of snow overnight.\nBased upon past history, she knows that school will be cancelled if more than $3\\text{ inches}$ of snow fall. Therefore, she forms the null hypothesis that there will be no school tomorrow.\nIn this situation, what would be the meaning and potential consequences of Ananya making a Type II error?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Ananya decides that the weather report is wrong yet again. As a result, she stays up late in order to complete her homework and study for the tests that have been scheduled for tomorrow. OOPS! Oh well! It snowed 8 inches 8 inches and school got cancelled. Now Ananya is wishing that she had slept in!"
+      "text": "Ananya decides that the weather report is wrong yet again. As a result, she stays up late in order to complete her homework and study for the tests that have been scheduled for tomorrow. OOPS! Oh well! It snowed $8\\text{ inches}$ and school got cancelled. Now Ananya is wishing that she had slept in!"
     },
     {
       "letter": "B",
@@ -29,14 +36,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-5.C.1",
-    "UNC-5",
-    "UNC-5.C",
-    "4.A"
-  ],
-  "standards": [
     "UNC-5.C.1",
     "UNC-5",
     "UNC-5.C",

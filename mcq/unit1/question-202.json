@@ -1,45 +1,46 @@
 {
   "question_id": "question-202",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "properties",
+    "z-score",
+    "probability"
+  ],
   "title": "Normal Distribution: Chatterbox",
   "difficulty": "Easy",
-  "question_text": "The  words per minute spoken by a student  at Talk University is approximately normal  with a mean of $150$ words per minute  and standard deviation of $25$ words per minute. The shaded area in the figure below represents which of the following probabilities? Created for Albert.io. Copyright 2017. All rights reserved.",
+  "question_text": "The words per minute spoken by a student at Talk University is approximately normal with a mean of $150$ words per minute and standard deviation of $25$ words per minute.\nThe shaded area in the figure below represents which of the following probabilities?\nCreated for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-202-img1.PNG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The probability the number of  words spoken by a student  at Talk University is between 75 75 words per minute  and 200 200 words per minute."
+      "text": "The probability the number of words spoken by a student at Talk University is between $75$ words per minute and $200$ words per minute."
     },
     {
       "letter": "B",
-      "text": "The probability the number of words spoken by a student  at Talk University is between 100 100 words per minute  and 200 200 words per minute."
+      "text": "The probability the number of words spoken by a student at Talk University is between $100$ words per minute and $200$ words per minute."
     },
     {
       "letter": "C",
-      "text": "The probability the number of  words spoken by a student  at Talk University is between 100 100 words per minute  and 225 225 words per minute."
+      "text": "The probability the number of words spoken by a student at Talk University is between $100$ words per minute and $225$ words per minute."
     },
     {
       "letter": "D",
-      "text": "The probability the number of words spoken by a student  at Talk University is between 125 125 words per minute  and 200 200 words per minute."
+      "text": "The probability the number of words spoken by a student at Talk University is between $125$ words per minute and $200$ words per minute."
     },
     {
       "letter": "E",
-      "text": "The probability the number of words spoken by a student  at Talk University is between 125 125 words per minute  and 225 225 words per minute."
+      "text": "The probability the number of words spoken by a student at Talk University is between $125$ words per minute and $225$ words per minute."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "2.D",
-    "VAR-2",
-    "VAR-2.A.3",
-    "VAR-2.A",
-    "VAR-2.A.2"
-  ],
-  "standards": [
     "2.D",
     "VAR-2",
     "VAR-2.A.3",

@@ -1,10 +1,16 @@
 {
   "question_id": "question-057",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "methods-of-data-collection",
+    "sampling-and-experimentation",
+    "identifying-methods"
+  ],
   "title": "Sampling the Amount of Homework",
   "difficulty": "Easy",
-  "question_text": "Ms. Jones, an AP Statistics teacher, wonders whether she is giving too much homework. She asks all of her students if the level of homework is a.) about right. b.) too high. c.) too low. How would one best describe this collection of data?",
+  "question_text": "Ms. Jones, an AP Statistics teacher, wonders whether she is giving too much homework. She asks all of her students if the level of homework is\na.) about right.\nb.) too high.\nc.) too low.\nHow would one best describe this collection of data?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +35,8 @@
   ],
   "correct_answer": "The population in this case consists solely of Ms. Jones’s AP Statistics students, and since she attempts to contact the entire population (all of her students), this is a census.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-2",
-    "1.C",
-    "DAT-2.C.6",
-    "DAT-2.C"
-  ],
-  "standards": [
     "DAT-2",
     "1.C",
     "DAT-2.C.6",

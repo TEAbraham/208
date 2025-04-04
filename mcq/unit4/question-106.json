@@ -1,18 +1,24 @@
 {
   "question_id": "question-106",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "probability",
+    "discrete-random-variables"
+  ],
   "title": "Let's Be Discrete",
   "difficulty": "Easy",
   "question_text": "Which of the following situations does not describe a discrete random variable?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The number of eggs in a carton of 12 eggs 12 eggs which are found to be cracked or broken."
+      "text": "The number of eggs in a carton of $12\\text{ eggs}$ which are found to be cracked or broken."
     },
     {
       "letter": "B",
-      "text": "The number of times a coin will land on heads when tossed 10 times 10 times ."
+      "text": "The number of times a coin will land on heads when tossed $10\\text{ times}$."
     },
     {
       "letter": "C",
@@ -29,14 +35,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-5",
-    "VAR-5.A",
-    "2.B",
-    "VAR-5.A.1"
-  ],
-  "standards": [
     "VAR-5",
     "VAR-5.A",
     "2.B",

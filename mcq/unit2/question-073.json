@@ -1,14 +1,20 @@
 {
   "question_id": "question-073",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "correlation",
+    "slope",
+    "bivariate-data",
+    "exploring-data"
+  ],
   "title": "Slope, Correlation When Removing Scatterplot Point: SAT vs. IQ",
-  "difficulty": "Difficult",
-  "question_text": "A scatterplot of SAT scores versus IQ scores is shown below: Created for Albert.io. Copyright 2017. All rights reserved. If point $(900,155)$ is removed, which of the following statements is TRUE?",
+  "difficulty": "Hard",
+  "question_text": "A scatterplot of SAT scores versus IQ scores is shown below:\nCreated for Albert.io. Copyright 2017. All rights reserved.\nIf point $(900,155)$ is removed, which of the following statements is TRUE?",
   "image_files": [
     "images/question-073-img1.png",
-    "images/question-073-img2.PNG",
-    "images/question-073-img3.PNG"
+    "images/question-073-img2.PNG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -33,14 +39,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-1.C",
-    "DAT-1",
-    "DAT-1.C.1"
-  ],
-  "standards": [
     "4.B",
     "DAT-1.C",
     "DAT-1",

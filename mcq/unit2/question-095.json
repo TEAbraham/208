@@ -1,12 +1,17 @@
 {
   "question_id": "question-095",
   "unit": "Unit 2 | Exploring Two-Variable Data",
-  "title": "Scatterplot vs. Residual Plot",
-  "difficulty": "Difficult",
-  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved. Consider the scatterplot to the left and its accompanying residual plot to the right. Which of the following statements is TRUE?",
-  "image_files": [
-    "images/question-095-img1.jpg"
+  "topics": [
+    "residual-plots",
+    "bivariate-data",
+    "exploring-data",
+    "residuals"
   ],
+  "title": "Scatterplot vs. Residual Plot",
+  "difficulty": "Hard",
+  "question_text": "Loading question supplement...\nConsider the scatterplot to the left and its accompanying residual plot to the right.\nWhich of the following statements is TRUE?",
+  "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -31,15 +36,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-1.F.2",
-    "DAT-1.F.1",
-    "DAT-1",
-    "2.A",
-    "DAT-1.F"
-  ],
-  "standards": [
     "DAT-1.F.2",
     "DAT-1.F.1",
     "DAT-1",

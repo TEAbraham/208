@@ -1,10 +1,17 @@
 {
   "question_id": "question-041",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "methods-of-data-collection",
+    "populations-samples-random-selection",
+    "sampling-and-experimentation"
+  ],
   "title": "Applying Conclusions From a Sample to a Population",
   "difficulty": "Easy",
-  "question_text": "A large random sample of people aged $18$ to $35$ living in the state of Alabama was taken and each individual was surveyed to determine their views on gun control. To which of the following populations might the results of the survey apply?",
+  "question_text": "A large random sample of people aged $18$ to $35$ living in the state of Alabama was taken and each individual was surveyed to determine their views on gun control.\nTo which of the following populations might the results of the survey apply?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -16,11 +23,11 @@
     },
     {
       "letter": "C",
-      "text": "Only people aged 18 18 to 35 35 living in the southern portion of the United States."
+      "text": "Only people aged $18$ to $35$ living in the southern portion of the United States."
     },
     {
       "letter": "D",
-      "text": "Only people aged 18 18 to 35 35 living in the state of Alabama."
+      "text": "Only people aged $18$ to $35$ living in the state of Alabama."
     },
     {
       "letter": "E",
@@ -29,14 +36,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-2",
-    "DAT-2.B.2",
-    "1.C",
-    "DAT-2.B"
-  ],
-  "standards": [
     "DAT-2",
     "DAT-2.B.2",
     "1.C",

@@ -1,42 +1,44 @@
 {
   "question_id": "question-111",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "distribution-shapes",
+    "random-variables",
+    "probability-distributions"
+  ],
   "title": "Describe the Distribution",
-  "difficulty": "Difficult",
-  "question_text": "Here is a probability distribution for a random variable, $x$ ,  describing the grades a professor has given out over the years.  There are no plus or minus grades.  Here, an $A=5$ , a $B=4$ , etc. $x$ $1$ $ 2$ $3$ $4$ $5$ $p(x)$ $0.02$ $0.08$ $0.10$ $0.55$ $0.25$ Which of the following most closely describes the distribution?",
+  "difficulty": "Hard",
+  "question_text": "Here is a probability distribution for a random variable, $x$, describing the grades a professor has given out over the years. There are no plus or minus grades. Here, an $A=5$, a $B=4$, etc.\n$x$ $1$ $ 2$ $3$ $4$ $5$\n$p(x)$ $0.02$ $0.08$ $0.10$ $0.55$ $0.25$\nWhich of the following most closely describes the distribution?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"><span class=\"tex2jax_process\">$x$</span></th><th scope=\"col\"><span class=\"tex2jax_process\">$1$</span></th><th scope=\"col\"><span class=\"tex2jax_process\">$ 2$</span></th><th scope=\"col\"><span class=\"tex2jax_process\">$3$</span></th><th scope=\"col\"><span class=\"tex2jax_process\">$4$</span></th><th scope=\"col\"><span class=\"tex2jax_process\">$5$</span></th></tr></thead><tbody><tr><td><span class=\"tex2jax_process\">$p(x)$</span></td><td><span class=\"tex2jax_process\">$0.02$</span></td><td><span class=\"tex2jax_process\">$0.08$</span></td><td><span class=\"tex2jax_process\">$0.10$</span></td><td><span class=\"tex2jax_process\">$0.55$</span></td><td><span class=\"tex2jax_process\">$0.25$</span></td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "The distribution is skewed to the left.  Its center is a B B , and there is some amount of spread."
+      "text": "The distribution is skewed to the left. Its center is a $B$, and there is some amount of spread."
     },
     {
       "letter": "B",
-      "text": "The distribution is skewed to the right.  Its center is a B B , and there is some amount of spread."
+      "text": "The distribution is skewed to the right. Its center is a $B$, and there is some amount of spread."
     },
     {
       "letter": "C",
-      "text": "The distribution is skewed to the left.  Its center is a C C , and there is some amount of spread."
+      "text": "The distribution is skewed to the left. Its center is a $C$, and there is some amount of spread."
     },
     {
       "letter": "D",
-      "text": "The distribution is symmetric.  Its center is a B B , and there is some amount of spread."
+      "text": "The distribution is symmetric. Its center is a $B$, and there is some amount of spread."
     },
     {
       "letter": "E",
-      "text": "The distribution is symmetric.  Its center is a C C , and there is some amount of spread."
+      "text": "The distribution is symmetric. Its center is a $C$, and there is some amount of spread."
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-5.B.1",
-    "VAR-5",
-    "2.B",
-    "VAR-5.B"
-  ],
-  "standards": [
     "VAR-5.B.1",
     "VAR-5",
     "2.B",

@@ -1,42 +1,45 @@
 {
   "question_id": "question-047",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "categorical-data",
+    "conditional-relative-frequencies",
+    "probability",
+    "exploring-data"
+  ],
   "title": "Probability from a Table: Place of Birth",
-  "difficulty": "Moderate",
-  "question_text": "The human resources department at a small local company compiled information about where employees of the company were born.  This information is shown in the table below. Born In-State Born in a  Different State Born in a Different Country Total Women 23 16 3 42 Men 19 24 5 48 Total 42 40 8 90 If $2\\text{ employees}$ are randomly selected from the employees at this company, what is the probability that neither employee was born in-state?",
+  "difficulty": "Medium",
+  "question_text": "The human resources department at a small local company compiled information about where employees of the company were born. This information is shown in the table below.\nBorn In-State Born in a Different State Born in a Different Country Total\nWomen 23 16 3 42\nMen 19 24 5 48\nTotal 42 40 8 90\n\n\nIf $2\\text{ employees}$ are randomly selected from the employees at this company, what is the probability that neither employee was born in-state?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Born In-State</th><th scope=\"col\">Born in a  Different State</th><th scope=\"col\">Born in a Different Country</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Women</td><td>23</td><td>16</td><td>3</td><td>42</td></tr><tr><td>Men</td><td>19</td><td>24</td><td>5</td><td>48</td></tr><tr><td>Total</td><td>42</td><td>40</td><td>8</td><td>90</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "0.1948 0.1948"
+      "text": "$0.1948$"
     },
     {
       "letter": "B",
-      "text": "0.2785 0.2785"
+      "text": "$0.2785$"
     },
     {
       "letter": "C",
-      "text": "0.2816 0.2816"
+      "text": "$0.2816$"
     },
     {
       "letter": "D",
-      "text": "0.2844 0.2844"
+      "text": "$0.2844$"
     },
     {
       "letter": "E",
-      "text": "0.5333 0.5333"
+      "text": "$0.5333$"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "3.A",
-    "VAR-4.D.2",
-    "VAR-4",
-    "VAR-4.D"
-  ],
-  "standards": [
     "3.A",
     "VAR-4.D.2",
     "VAR-4",

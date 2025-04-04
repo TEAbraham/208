@@ -1,42 +1,43 @@
 {
   "question_id": "question-219",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "z-score",
+    "tables"
+  ],
   "title": "Find the Mean When Given the Z-score",
   "difficulty": "Easy",
-  "question_text": "One of the values in a normal distribution is $37$ and its z -score is $-2.15$ . If the standard deviation of the distribution is $4.19$ , what is the approximate mean of the distribution?",
+  "question_text": "One of the values in a normal distribution is $37$ and its z-score is $-2.15$.\nIf the standard deviation of the distribution is $4.19$, what is the approximate mean of the distribution?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "− 46 − 46"
+      "text": "$-46$"
     },
     {
       "letter": "B",
-      "text": "− 28 − 28"
+      "text": "$-28$"
     },
     {
       "letter": "C",
-      "text": "28 28"
+      "text": "$28$"
     },
     {
       "letter": "D",
-      "text": "38 38"
+      "text": "$38$"
     },
     {
       "letter": "E",
-      "text": "46 46"
+      "text": "$46$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-2.B.2",
-    "VAR-2.B",
-    "3.A",
-    "VAR-2"
-  ],
-  "standards": [
     "VAR-2.B.2",
     "VAR-2.B",
     "3.A",

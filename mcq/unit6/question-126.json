@@ -1,26 +1,32 @@
 {
   "question_id": "question-126",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "difference-two-proportions",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
   "title": "Which Distribution for Two Population Proportions?",
   "difficulty": "Easy",
   "question_text": "When completing a significance test for the difference between two population proportions, which of the following distributions should be used?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "A binomial distribution where n n is the combined number of observations from both populations and p p is the overall proportion of successful observations."
+      "text": "A binomial distribution where $n$ is the combined number of observations from both populations and $p$ is the overall proportion of successful observations."
     },
     {
       "letter": "B",
-      "text": "A z z -distribution that assumes a mean difference of 0 0 ."
+      "text": "A $z$-distribution that assumes a mean difference of $0$."
     },
     {
       "letter": "C",
-      "text": "A t t -distribution that assumes a mean difference of 0 0 ."
+      "text": "A $t$-distribution that assumes a mean difference of $0$."
     },
     {
       "letter": "D",
-      "text": "A χ 2 χ 2 distribution where d f = n − 1 d f = n − 1 and n n is the combined number of observations from both populations."
+      "text": "A ${ \\chi }^{ 2 }$ distribution where $df = n-1$ and $n$ is the combined number of observations from both populations."
     },
     {
       "letter": "E",
@@ -29,15 +35,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-3.C",
-    "4.B",
-    "DAT-3",
-    "DAT-3.D",
-    "DAT-3.C.1"
-  ],
-  "standards": [
     "DAT-3.C",
     "4.B",
     "DAT-3",

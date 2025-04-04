@@ -1,14 +1,20 @@
 {
   "question_id": "question-028",
   "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "chi-square-test"
+  ],
   "title": "Type of Smartphones in Usage: Finding Evidence",
-  "difficulty": "Moderate",
-  "question_text": "Jackie recently read a report claiming that $43.8\\%$ of smartphone users have an Apple iPhone, $39.6\\%$ have an Android device, $13.6\\%$ have a Blackberry, and $3\\%$ have some other type of smartphone. She wonders whether this distribution is true for students at her high school. To gather data, she randomly surveyed $30\\text{ students}$ who have smartphones. She found that $15$ of them have Apple iPhones, $11$ have an Android device, $3$ have a Blackberry, and $1$ has some other type of smartphone. Does this provide evidence that the distribution of smartphones at this high school is not the same as was stated in the report?",
+  "difficulty": "Medium",
+  "question_text": "Jackie recently read a report claiming that $43.8\\%$ of smartphone users have an Apple iPhone, $39.6\\%$ have an Android device, $13.6\\%$ have a Blackberry, and $3\\%$ have some other type of smartphone. She wonders whether this distribution is true for students at her high school.\nTo gather data, she randomly surveyed $30\\text{ students}$ who have smartphones. She found that $15$ of them have Apple iPhones, $11$ have an Android device, $3$ have a Blackberry, and $1$ has some other type of smartphone.\nDoes this provide evidence that the distribution of smartphones at this high school is not the same as was stated in the report?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Yes. 50 % 50 % of those surveyed had iPhones and this is far greater than the percentage stated in the report."
+      "text": "Yes. $50\\%$ of those surveyed had iPhones and this is far greater than the percentage stated in the report."
     },
     {
       "letter": "B",
@@ -16,11 +22,11 @@
     },
     {
       "letter": "C",
-      "text": "No. The p p -value for the one-proportion z z -test is too large for us to be able to conclude that the proportions stated in the report are not correct."
+      "text": "No. The $p$-value for the one-proportion $z$-test is too large for us to be able to conclude that the proportions stated in the report are not correct."
     },
     {
       "letter": "D",
-      "text": "No. The p p -value from the χ 2 χ 2 Goodness of Fit test is too large to provide evidence that the distribution is different from what was reported."
+      "text": "No. The $p$-value from the ${ \\chi }^{ 2 }$ Goodness of Fit test is too large to provide evidence that the distribution is different from what was reported."
     },
     {
       "letter": "E",
@@ -29,15 +35,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.E",
-    "DAT-3",
-    "DAT-3.J",
-    "DAT-3.J.1",
-    "DAT-3.J.2"
-  ],
-  "standards": [
     "4.E",
     "DAT-3",
     "DAT-3.J",

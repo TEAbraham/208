@@ -1,10 +1,17 @@
 {
   "question_id": "question-090",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "sources-of-bias",
+    "observational-study"
+  ],
   "title": "Vegetarians and the Common Cold: Flaws in the Study",
-  "difficulty": "Moderate",
-  "question_text": "Can following a vegetarian diet reduce the occurrence of the common cold?  An observational study is being planned to compare the average number of colds self-proclaimed vegetarians suffer from each year with the average number of colds non-vegetarians suffer from each year. Which of the following represents the biggest problem with this type of study?",
+  "difficulty": "Medium",
+  "question_text": "Can following a vegetarian diet reduce the occurrence of the common cold? An observational study is being planned to compare the average number of colds self-proclaimed vegetarians suffer from each year with the average number of colds non-vegetarians suffer from each year.\nWhich of the following represents the biggest problem with this type of study?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,17 +36,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3",
-    "DAT-2",
-    "VAR-3.A",
-    "VAR-3.A.4",
-    "DAT-2.E.3",
-    "1.C",
-    "DAT-2.E"
-  ],
-  "standards": [
     "VAR-3",
     "DAT-2",
     "VAR-3.A",

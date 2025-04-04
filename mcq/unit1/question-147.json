@@ -1,12 +1,19 @@
 {
   "question_id": "question-147",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "graphical-displays-of-data",
+    "center-spread",
+    "univariate-data",
+    "exploring-data"
+  ],
   "title": "Histogram Spread",
-  "difficulty": "Difficult",
-  "question_text": "The nurse at an elementary school measured the heights (in inches) of $17\\text{ subjects}$ and made the below histogram to display their heights. Which of the following statements must be true? I. The range is exactly $20\\text{ inches}$ . II. The IQR is at least $12\\text{ inches}$ . III. The standard deviation is about $8\\text{ inches}$ .",
+  "difficulty": "Hard",
+  "question_text": "The nurse at an elementary school measured the heights (in inches) of $17\\text{ subjects}$ and made the below histogram to display their heights.\nWhich of the following statements must be true?\nI. The range is exactly $20\\text{ inches}$.\nII. The IQR is at least $12\\text{ inches}$.\nIII. The standard deviation is about $8\\text{ inches}$.",
   "image_files": [
     "images/question-147-img1.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -31,16 +38,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.L.1",
-    "UNC-1.M",
-    "UNC-1.M.1",
-    "2.B",
-    "UNC-1.L",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.L.1",
     "UNC-1.M",
     "UNC-1.M.1",

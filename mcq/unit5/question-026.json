@@ -1,42 +1,42 @@
 {
   "question_id": "question-026",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sample-proportion",
+    "sampling-distributions"
+  ],
   "title": "Vocabulary for Given Values",
   "difficulty": "Easy",
-  "question_text": "In order to improve their marketing strategy, the manufacturer of a multi-vitamin for women wants to know the proportion of adult women who take a multi-vitamin daily.   They survey a random sample of $520\\text{ adult women}$ of which $250$ report that they do take a multi-vitamin daily. Which of the following correctly describes the value obtained from this sample?",
+  "question_text": "In order to improve their marketing strategy, the manufacturer of a multi-vitamin for women wants to know the proportion of adult women who take a multi-vitamin daily. They survey a random sample of $520\\text{ adult women}$ of which $250$ report that they do take a multi-vitamin daily.\nWhich of the following correctly describes the value obtained from this sample?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.481 0.481 is a statistic that represents the true proportion of adult women who take a multi-vitamin daily."
+      "text": "$0.481$ is a statistic that represents the true proportion of adult women who take a multi-vitamin daily."
     },
     {
       "letter": "B",
-      "text": "0.481 0.481 is a statistic that represents the proportion of adult women in this sample who take a multi-vitamin daily."
+      "text": "$0.481$ is a statistic that represents the proportion of adult women in this sample who take a multi-vitamin daily."
     },
     {
       "letter": "C",
-      "text": "0.481 0.481 is a parameter that represents the proportion of adult women in this sample who take a multi-vitamin daily."
+      "text": "$0.481$ is a parameter that represents the proportion of adult women in this sample who take a multi-vitamin daily."
     },
     {
       "letter": "D",
-      "text": "0.481 0.481 is a parameter that represents the true proportion of adult women who take a multi-vitamin daily."
+      "text": "$0.481$ is a parameter that represents the true proportion of adult women who take a multi-vitamin daily."
     },
     {
       "letter": "E",
-      "text": "250 250 is a statistic that represents the true number of adult women in every sample of size n = 520 n = 520 who would say that they take a multi-vitamin daily."
+      "text": "$250$ is a statistic that represents the true number of adult women in every sample of size $n=520$ who would say that they take a multi-vitamin daily."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.I",
-    "4.B",
-    "UNC-3.I.1",
-    "UNC-3"
-  ],
-  "standards": [
     "UNC-3.I",
     "4.B",
     "UNC-3.I.1",

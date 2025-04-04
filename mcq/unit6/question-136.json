@@ -1,42 +1,44 @@
 {
   "question_id": "question-136",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "difference-two-proportions",
+    "confidence-interval",
+    "2-proportion-z-intervals",
+    "estimation",
+    "statistical-inference"
+  ],
   "title": "Constructing a $2$ Proportion $z$-Interval: High School Break Up",
-  "difficulty": "Moderate",
-  "question_text": "Independent random samples of $50$ boys and $50$ girls in a school were asked if they are depressed for more than a week after they got broken up with by their significant other. Of the $50$ boys, $26$ said yes, and of the $50$ girls, $35$ said yes. Which of the following is a $95\\%$ confidence interval for the difference in the proportion of boys compared to the proportion of girls who are depressed for more than a week after they have been broken with by their significant other in this school?",
+  "difficulty": "Medium",
+  "question_text": "Independent random samples of $50$ boys and $50$ girls in a school were asked if they are depressed for more than a week after they got broken up with by their significant other. Of the $50$ boys, $26$ said yes, and of the $50$ girls, $35$ said yes.\nWhich of the following is a $95\\%$ confidence interval for the difference in the proportion of boys compared to the proportion of girls who are depressed for more than a week after they have been broken with by their significant other in this school?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "( 0.52 − 0.70 ) ± 1.645 √ ( 0.52 ) ( 0.48 ) 50 + ( 0.70 ) ( 0.30 ) 50 ( 0.52 − 0.70 ) ± 1.645 ( 0.52 ) ( 0.48 ) 50 + ( 0.70 ) ( 0.30 ) 50"
+      "text": "$(0.52-0.70)\\pm 1.645\\sqrt { \\dfrac { (0.52)(0.48) }{ 50 } +\\dfrac { (0.70)(0.30) }{ 50 } }$"
     },
     {
       "letter": "B",
-      "text": "( 0.52 − 0.70 ) ± 1.96 √ ( 0.52 ) ( 0.48 ) 50 + ( 0.70 ) ( 0.30 ) 50 ( 0.52 − 0.70 ) ± 1.96 ( 0.52 ) ( 0.48 ) 50 + ( 0.70 ) ( 0.30 ) 50"
+      "text": "$(0.52-0.70)\\pm 1.96\\sqrt { \\dfrac { (0.52)(0.48) }{ 50 } +\\dfrac { (0.70)(0.30) }{ 50 } }$"
     },
     {
       "letter": "C",
-      "text": "( 0.52 − 0.70 ) ± 1.645 √ ( 61 100 ) ( 39 100 ) ( 1 50 + 1 50 ) ( 0.52 − 0.70 ) ± 1.645 ( 61 100 ) ( 39 100 ) ( 1 50 + 1 50 )"
+      "text": "$(0.52-0.70)\\pm 1.645\\sqrt { (\\dfrac { 61 }{ 100 } )(\\dfrac { 39 }{ 100 } )(\\dfrac { 1 }{ 50 } +\\dfrac { 1 }{ 50 } ) }$"
     },
     {
       "letter": "D",
-      "text": "( 0.52 − 0.70 ) ± 1.96 √ ( 61 100 ) ( 39 100 ) ( 1 50 + 1 50 ) ( 0.52 − 0.70 ) ± 1.96 ( 61 100 ) ( 39 100 ) ( 1 50 + 1 50 )"
+      "text": "$(0.52-0.70)\\pm 1.96\\sqrt { (\\dfrac { 61 }{ 100 } )(\\dfrac { 39 }{ 100 } )(\\dfrac { 1 }{ 50 } +\\dfrac { 1 }{ 50 } ) }$"
     },
     {
       "letter": "E",
-      "text": "( 0.52 − 0.70 ) ± 1.96 √ ( 26 100 ) ( 35 100 ) ( 1 50 + 1 50 ) ( 0.52 − 0.70 ) ± 1.96 ( 26 100 ) ( 35 100 ) ( 1 50 + 1 50 )"
+      "text": "$(0.52-0.70)\\pm 1.96\\sqrt { (\\dfrac { 26 }{ 100 } )(\\dfrac { 35 }{ 100 } )(\\dfrac { 1 }{ 50 } +\\dfrac { 1 }{ 50 } ) }$"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-6.K",
-    "3.E",
-    "VAR-6.K.1",
-    "VAR-6"
-  ],
-  "standards": [
     "VAR-6.K",
     "3.E",
     "VAR-6.K.1",

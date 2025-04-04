@@ -1,43 +1,41 @@
 {
   "question_id": "question-082",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "extra-practice",
+    "exploring-data"
+  ],
   "title": "Smallest Deviation",
   "difficulty": "Easy",
-  "question_text": "Which of the following data sets would have the smallest standard deviation assuming $x$ is a real number greater than $0$ ?",
+  "question_text": "Which of the following data sets would have the smallest standard deviation assuming $x$ is a real number greater than $0$?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "{ ( x − 3 ) , ( x − 2 ) , ( x − 1 ) , ( x ) , ( x + 1 ) , ( x + 2 ) , ( x + 3 ) } { ( x − 3 ) , ( x − 2 ) , ( x − 1 ) , ( x ) , ( x + 1 ) , ( x + 2 ) , ( x + 3 ) }"
+      "text": "$\\{ (x-3), (x-2), (x-1), (x), (x+1), (x+2), (x+3)\\}$"
     },
     {
       "letter": "B",
-      "text": "{ ( x ) , ( x ) , ( x ) , ( x ) , ( x ) } { ( x ) , ( x ) , ( x ) , ( x ) , ( x ) }"
+      "text": "$\\{ (x), (x), (x), (x), (x) \\}$"
     },
     {
       "letter": "C",
-      "text": "{ ( x − 10 ) , ( x − 5 ) , ( x ) , ( x + 5 ) , ( x + 10 ) } { ( x − 10 ) , ( x − 5 ) , ( x ) , ( x + 5 ) , ( x + 10 ) }"
+      "text": "$\\{ (x-10), (x-5), (x), (x+5), (x+10)\\}$"
     },
     {
       "letter": "D",
-      "text": "{ ( x ) , ( 2 x ) , ( 3 x ) , ( 5 x ) } { ( x ) , ( 2 x ) , ( 3 x ) , ( 5 x ) }"
+      "text": "$\\{ (x), (2x), (3x), (5x) \\}$"
     },
     {
       "letter": "E",
-      "text": "{ ( x − 1 ) , ( x + 1 ) , ( x + 1 ) , ( x − 1 ) , ( x + 1 ) } { ( x − 1 ) , ( x + 1 ) , ( x + 1 ) , ( x − 1 ) , ( x + 1 ) }"
+      "text": "$\\{ (x-1), (x+1), (x+1), (x-1), (x+1)\\}$"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "2.C",
-    "UNC-1.J.1",
-    "UNC-1.J",
-    "UNC-1.J.3",
-    "UNC-1"
-  ],
-  "standards": [
     "2.C",
     "UNC-1.J.1",
     "UNC-1.J",

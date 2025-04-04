@@ -1,42 +1,44 @@
 {
   "question_id": "question-228",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "anticipating-patterns",
+    "binomial-distribution",
+    "sampling-distributions",
+    "uniform-distribution",
+    "statistical-simulation"
+  ],
   "title": "Data Analysis: Exam Grades",
-  "difficulty": "Moderate",
-  "question_text": "Suppose the grades on a statistics exam range from $65$ to $95$ . The professor states that approximately $68\\%$ of the class got between a $75$ and $85$ , and $95\\%$ of the class got between a $70$ and $90$ . What type of distribution is this? What is the mean, and what is the standard deviation?",
+  "difficulty": "Medium",
+  "question_text": "Suppose the grades on a statistics exam range from $65$ to $95$. The professor states that approximately $68\\%$ of the class got between a $75$ and $85$, and $95\\%$ of the class got between a $70$ and $90$.\nWhat type of distribution is this? What is the mean, and what is the standard deviation?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Normal distribution; μ = 80 ; σ = 5 μ = 80 ; σ = 5"
+      "text": "Normal distribution; $\\mu = 80; \\sigma= 5$"
     },
     {
       "letter": "B",
-      "text": "Uniform distribution; μ = 80 ; σ = 30 μ = 80 ; σ = 30"
+      "text": "Uniform distribution; $\\mu = 80; \\sigma = 30$"
     },
     {
       "letter": "C",
-      "text": "Binomial distribution; μ = 80 ; σ = 5 μ = 80 ; σ = 5"
+      "text": "Binomial distribution; $\\mu = 80; \\sigma = 5$"
     },
     {
       "letter": "D",
-      "text": "Normal distribution; μ = 80 ; σ = 10 μ = 80 ; σ = 10"
+      "text": "Normal distribution; $\\mu = 80; \\sigma= 10$"
     },
     {
       "letter": "E",
-      "text": "Binomial distribution; μ = 80 ; σ = 30 μ = 80 ; σ = 30"
+      "text": "Binomial distribution; $\\mu = 80; \\sigma = 30$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "3.A",
-    "VAR-2",
-    "VAR-2.A.3",
-    "VAR-2.A"
-  ],
-  "standards": [
     "3.A",
     "VAR-2",
     "VAR-2.A.3",

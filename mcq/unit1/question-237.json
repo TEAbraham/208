@@ -1,44 +1,42 @@
 {
   "question_id": "question-237",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "model-for-measurements"
+  ],
   "title": "Calculating Probability: Average Song Length",
-  "difficulty": "Moderate",
-  "question_text": "The length of songs played by a certain radio station is approximately normally distributed with a mean of $210\\text{ seconds}$ and a standard deviation of $25\\text{ seconds}$ . If DJ turns on the radio just in time to catch the beginning of a new song, what is the probability the song will last between $170$ and $225\\text{ seconds}$ ?",
+  "difficulty": "Medium",
+  "question_text": "The length of songs played by a certain radio station is approximately normally distributed with a mean of $210\\text{ seconds}$ and a standard deviation of $25\\text{ seconds}$.\nIf DJ turns on the radio just in time to catch the beginning of a new song, what is the probability the song will last between $170$ and $225\\text{ seconds}$?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.05 0.05"
+      "text": "$0.05$"
     },
     {
       "letter": "B",
-      "text": "0.27 0.27"
+      "text": "$0.27$"
     },
     {
       "letter": "C",
-      "text": "0.67 0.67"
+      "text": "$0.67$"
     },
     {
       "letter": "D",
-      "text": "0.73 0.73"
+      "text": "$0.73$"
     },
     {
       "letter": "E",
-      "text": "0.95 0.95"
+      "text": "$0.95$"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-2.B",
-    "VAR-2.B.1",
-    "3.A",
-    "VAR-2.B.4",
-    "VAR-2",
-    "VAR-2.B.3"
-  ],
-  "standards": [
     "VAR-2.B",
     "VAR-2.B.1",
     "3.A",

@@ -1,10 +1,17 @@
 {
   "question_id": "question-126",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "boxplots",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
   "title": "Modified Boxplot",
-  "difficulty": "Moderate",
+  "difficulty": "Medium",
   "question_text": "What is the principal difference between a modified boxplot and a regular boxplot?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -20,7 +27,7 @@
     },
     {
       "letter": "D",
-      "text": "A modified boxplot has whiskers that extend to the outlier cutoffs: Third Quartile + 1.5 ( I Q R ) Third Quartile + 1.5 ( I Q R ) and First Quartile − 1.5 ( I Q R ) First Quartile − 1.5 ( I Q R ) Outliers are not plotted."
+      "text": "A modified boxplot has whiskers that extend to the outlier cutoffs:\n$\\text{Third Quartile}+1.5(IQR)$ and $\\text{First Quartile} -1.5(IQR)$\nOutliers are not plotted."
     },
     {
       "letter": "E",
@@ -29,14 +36,8 @@
   ],
   "correct_answer": "Choice 'B' is correct.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.L.2",
-    "2.B",
-    "UNC-1.L",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.L.2",
     "2.B",
     "UNC-1.L",

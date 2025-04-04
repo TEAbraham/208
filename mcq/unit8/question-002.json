@@ -1,22 +1,27 @@
 {
   "question_id": "question-002",
   "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "randomness",
+    "variation"
+  ],
   "title": "Which is Not Random?",
   "difficulty": "Easy",
-  "question_text": "Five situations are described below.  Which one do you think was not a result of chance or random variation?",
+  "question_text": "Five situations are described below. Which one do you think was not a result of chance or random variation?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "You and 2 2 friends each buy a new tablet and all 3 3 of them turn out to be defective in the same way."
+      "text": "You and $2$ friends each buy a new tablet and all $3$ of them turn out to be defective in the same way."
     },
     {
       "letter": "B",
-      "text": "You flip a coin 10 10 times and the result is 9 9 heads and 1 1 tail."
+      "text": "You flip a coin $10$ times and the result is $9$ heads and $1$ tail."
     },
     {
       "letter": "C",
-      "text": "You drive to a store some distance away and you notice that all 12 12 traffic lights you hit were red."
+      "text": "You drive to a store some distance away and you notice that all $12$ traffic lights you hit were red."
     },
     {
       "letter": "D",
@@ -24,19 +29,13 @@
     },
     {
       "letter": "E",
-      "text": "You and 3 3 friends each by a new fitness watch, all the same brand, and they all work."
+      "text": "You and $3$ friends each by a new fitness watch, all the same brand, and they all work."
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-1.J",
-    "VAR-1.J.1",
-    "1.A",
-    "VAR-1"
-  ],
-  "standards": [
     "VAR-1.J",
     "VAR-1.J.1",
     "1.A",

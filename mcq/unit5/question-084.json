@@ -1,14 +1,19 @@
 {
   "question_id": "question-084",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "calculating-probability",
+    "differences-in-sample-means"
+  ],
   "title": "How Many Candies?",
-  "difficulty": "Difficult",
-  "question_text": "The company which makes the very popular N & N Candies has two assembly lines that fill jumbo bags with what is supposed to be $400$ candies.  It has been found that the first assembly line fills the bags with an average of $398$ candies with a standard deviation of $6$ candies. The other assembly line fills bags with an average of $401$ candies with a standard deviation of $8$ candies.  Suppose $36$ bags are randomly sampled from the first assembly line and $32$ bags are randomly sampled from the second assembly line.  What is the probability of finding that the bags from the two assembly lines differ by more than a total of $5$ candies?",
+  "difficulty": "Hard",
+  "question_text": "The company which makes the very popular N & N Candies has two assembly lines that fill jumbo bags with what is supposed to be $400$ candies. It has been found that the first assembly line fills the bags with an average of $398$ candies with a standard deviation of $6$ candies. The other assembly line fills bags with an average of $401$ candies with a standard deviation of $8$ candies. Suppose $36$ bags are randomly sampled from the first assembly line and $32$ bags are randomly sampled from the second assembly line. What is the probability of finding that the bags from the two assembly lines differ by more than a total of $5$ candies?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Nearly 1 1"
+      "text": "Nearly $1$"
     },
     {
       "letter": "B",
@@ -16,27 +21,21 @@
     },
     {
       "letter": "C",
-      "text": "0.1251 0.1251"
+      "text": "$0.1251$"
     },
     {
       "letter": "D",
-      "text": "0.2552 0.2552"
+      "text": "$0.2552$"
     },
     {
       "letter": "E",
-      "text": "0.8749 0.8749"
+      "text": "$0.8749$"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "UNC-3",
-    "UNC-3.V",
-    "UNC-3.V.1"
-  ],
-  "standards": [
     "4.B",
     "UNC-3",
     "UNC-3.V",

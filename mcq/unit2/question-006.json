@@ -1,10 +1,15 @@
 {
   "question_id": "question-006",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "relationships",
+    "variables"
+  ],
   "title": "Are the Variables Related?",
-  "difficulty": "Moderate",
+  "difficulty": "Medium",
   "question_text": "Which of the following situations involves two categorical variables that might be related?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,14 +34,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-1.D",
-    "VAR-1.D.1",
-    "1.A",
-    "VAR-1"
-  ],
-  "standards": [
     "VAR-1.D",
     "VAR-1.D.1",
     "1.A",

@@ -1,10 +1,16 @@
 {
   "question_id": "question-083",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "correlation",
+    "bivariate-data",
+    "exploring-data"
+  ],
   "title": "Linear Regression",
-  "difficulty": "Difficult",
-  "question_text": "Which of the following statements is/are true concerning linear regression? I. One can take the log log of the x x and y y -values to transform an exponential relationship into a linear relationship. II. If the original data is of exponential form, one can increase the correlation coefficient, r r , by transforming the data to linear form. III. As long as there is a strong correlation ( | r | > 0.7 | r | > 0.7 ), the data is most likely linear.",
+  "difficulty": "Hard",
+  "question_text": "Which of the following statements is/are true concerning linear regression?\nI. One can take the $\\log$ of the $x$ and $y$-values to transform an exponential relationship into a linear relationship.\nII. If the original data is of exponential form, one can increase the correlation coefficient, $r$, by transforming the data to linear form.\nIII. As long as there is a strong correlation ($|r| > 0.7$), the data is most likely linear.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,15 +35,8 @@
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-1.D.2",
-    "2.C",
-    "DAT-1",
-    "DAT-1.D",
-    "DAT-1.D.1"
-  ],
-  "standards": [
     "DAT-1.D.2",
     "2.C",
     "DAT-1",

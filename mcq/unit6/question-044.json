@@ -1,10 +1,17 @@
 {
   "question_id": "question-044",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "logic",
+    "methods-of-data-collection",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
   "title": "Calling an Election Based on a Sample",
-  "difficulty": "Difficult",
-  "question_text": "On November 3, 1948, the Chicago Daily Tribune made a famous big mistake when they published the headline Dewey Defeats Truman . No newspaper wants to make that type of mistake! Yet, on election night you can turn on the television and hear statements like “with $3\\%$ of the precincts reporting, we are now calling the election in favor of Candidate X”. Suppose your town (population: $7320$ ) has a hotly contested two-candidate race for mayor and you would like to be able to call the election. To gather data, you station yourself outside the town's only polling place and randomly select $200$ individuals to ask who they voted for. If $55\\%$ of those individuals say they voted for Candidate Y (and we assume that they are being truthful), would you be willing to call the election in Candidate Y's favor?",
+  "difficulty": "Hard",
+  "question_text": "On November 3, 1948, the Chicago Daily Tribune made a famous big mistake when they published the headline Dewey Defeats Truman. No newspaper wants to make that type of mistake! Yet, on election night you can turn on the television and hear statements like “with $3\\%$ of the precincts reporting, we are now calling the election in favor of Candidate X”.\nSuppose your town (population: $7320$) has a hotly contested two-candidate race for mayor and you would like to be able to call the election. To gather data, you station yourself outside the town's only polling place and randomly select $200$ individuals to ask who they voted for.\nIf $55\\%$ of those individuals say they voted for Candidate Y (and we assume that they are being truthful), would you be willing to call the election in Candidate Y's favor?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -12,15 +19,15 @@
     },
     {
       "letter": "B",
-      "text": "Yes. Since a significance test returns a p p -value of p = 0.04 p = 0.04 , we have strong evidence to suggest that more than 50 % 50 % of voters voted for Candidate Y."
+      "text": "Yes. Since a significance test returns a $p$-value of $p = 0.04$, we have strong evidence to suggest that more than $50\\%$ of voters voted for Candidate Y."
     },
     {
       "letter": "C",
-      "text": "No. At the α = 0.05 α = 0.05 level, we do not have enough evidence to believe that the proportion of voters supporting Candidate Y is greater than 0.50 0.50 ."
+      "text": "No. At the $\\alpha = 0.05$ level, we do not have enough evidence to believe that the proportion of voters supporting Candidate Y is greater than $0.50$."
     },
     {
       "letter": "D",
-      "text": "No, because a sample size of 200 200 is too small to provide reliable results."
+      "text": "No, because a sample size of $200$ is too small to provide reliable results."
     },
     {
       "letter": "E",
@@ -29,15 +36,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "1.F",
-    "VAR-6.D.1",
-    "VAR-6.D",
-    "VAR-6",
-    "VAR-6.D.2"
-  ],
-  "standards": [
     "1.F",
     "VAR-6.D.1",
     "VAR-6.D",

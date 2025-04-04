@@ -1,26 +1,31 @@
 {
   "question_id": "question-005",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "mean",
+    "inference"
+  ],
   "title": "Different MPG",
-  "difficulty": "Moderate",
-  "question_text": "A large car company is wondering if the fuel efficiency in miles per gallon (MPG) would improve if they use a new tire on their mid-size SUV. The company selects a random sample of $70$ mid-size SUVs and assigns half of them to tire $1$ , the new tire, and the other half to tire $2$ , the old tire. After running trials on the SUVs, the company finds the average fuel efficiency for tire $1$ to be $25.6$ mpg and the average fuel efficiency for tire $2$ to be $24.3$ mpg. Does the company have evidence to continue investigating if the new tire improves gas mileage?",
+  "difficulty": "Medium",
+  "question_text": "A large car company is wondering if the fuel efficiency in miles per gallon (MPG) would improve if they use a new tire on their mid-size SUV. The company selects a random sample of $70$ mid-size SUVs and assigns half of them to tire $1$, the new tire, and the other half to tire $2$, the old tire. After running trials on the SUVs, the company finds the average fuel efficiency for tire $1$ to be $25.6$ mpg and the average fuel efficiency for tire $2$ to be $24.3$ mpg.\nDoes the company have evidence to continue investigating if the new tire improves gas mileage?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Yes, because there average difference between tire 1 1 and tire 2 2 is positive."
+      "text": "Yes, because there average difference between tire $1$ and tire $2$ is positive."
     },
     {
       "letter": "B",
-      "text": "Yes,  because both samples have sample sizes of at least 30 30 ."
+      "text": "Yes, because both samples have sample sizes of at least $30$."
     },
     {
       "letter": "C",
-      "text": "No, because the difference between tire 1 1 and tire 2 2 is negative."
+      "text": "No, because the difference between tire $1$ and tire $2$ is negative."
     },
     {
       "letter": "D",
-      "text": "No, because the difference between tire 1 1 and tire 2 2 is not large enough"
+      "text": "No, because the difference between tire $1$ and tire $2$ is not large enough"
     },
     {
       "letter": "E",
@@ -28,14 +33,9 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "To investigate if the new tires actually improve miles per gallon, the company first needs to see if the average miles per gallon is different between the two types of tires. In this scenario, tire 1 1 has an average fuel efficiency of 25.6 25.6 mpg, while tire 2 2 has an average fuel efficiency of 24.3 24.3 mpg. If we were to find the difference between the new tire and the old tire, we would get 25.6 − 24.3 = 1.3 25.6 − 24.3 = 1.3 mpg.\n\nTherefore, since there is a positive difference between the two brands of tires, the company should continue its investigation to see if there is a difference between the two brands of tires.\n\nChoice 'A' is correct.",
-  "distractor_explanations": {},
+  "solution": "To investigate if the new tires actually improve miles per gallon, the company first needs to see if the average miles per gallon is different between the two types of tires. In this scenario, tire $1$ has an average fuel efficiency of $25.6$ mpg, while tire $2$ has an average fuel efficiency of $24.3$ mpg. If we were to find the difference between the new tire and the old tire, we would get $25.6 - 24.3 = 1.3$ mpg.\n\nTherefore, since there is a positive difference between the two brands of tires, the company should continue its investigation to see if there is a difference between the two brands of tires.\n\nChoice 'A' is correct.",
+  "explanations": {},
   "tags": [
-    "VAR-1.I.1",
-    "VAR-1",
-    "VAR-1.I"
-  ],
-  "standards": [
     "VAR-1.I.1",
     "VAR-1",
     "VAR-1.I"

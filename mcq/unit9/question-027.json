@@ -1,10 +1,17 @@
 {
   "question_id": "question-027",
   "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "confidence-interval-interpretations",
+    "confidence-interval",
+    "slope",
+    "linear-regression"
+  ],
   "title": "Confidence Interval Facts",
-  "difficulty": "Moderate",
-  "question_text": "Four statements below about some aspects of confidence intervals for the slope of a regression model are true.  One statement is false. Which statement below is false ?",
+  "difficulty": "Medium",
+  "question_text": "Four statements below about some aspects of confidence intervals for the slope of a regression model are true. One statement is false.\nWhich statement below is false?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -16,7 +23,7 @@
     },
     {
       "letter": "C",
-      "text": "Approximately C % C % of confidence intervals will contain the true slope of the regression model in repeated random sampling."
+      "text": "Approximately $C\\%$ of confidence intervals will contain the true slope of the regression model in repeated random sampling."
     },
     {
       "letter": "D",
@@ -29,14 +36,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-4.AG.1",
-    "UNC-4",
-    "4.A",
-    "UNC-4.AG"
-  ],
-  "standards": [
     "UNC-4.AG.1",
     "UNC-4",
     "4.A",

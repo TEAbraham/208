@@ -1,10 +1,16 @@
 {
   "question_id": "question-069",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "sampling-and-experimentation",
+    "sources-of-bias"
+  ],
   "title": "Hannah's House of Hobbies Revisited",
   "difficulty": "Easy",
-  "question_text": "The manager of Hannah's House of Hobbies wants to improve his method for gathering customer opinions.  Which of the following statements is false?",
+  "question_text": "The manager of Hannah's House of Hobbies wants to improve his method for gathering customer opinions. Which of the following statements is false?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -16,11 +22,11 @@
     },
     {
       "letter": "C",
-      "text": "The manager can avoid as much bias as possible if he rolls a number cube for each customer who walks in the store.  If the number cube shows a 3 3 , the customer will be given a written survey to be turned in at the end of their shopping."
+      "text": "The manager can avoid as much bias as possible if he rolls a number cube for each customer who walks in the store. If the number cube shows a $3$, the customer will be given a written survey to be turned in at the end of their shopping."
     },
     {
       "letter": "D",
-      "text": "The manager can avoid as much bias as possible if he gives a written survey to customers who spend more than $ 100 $ 100 in the store."
+      "text": "The manager can avoid as much bias as possible if he gives a written survey to customers who spend more than $\\$100$ in the store."
     },
     {
       "letter": "E",
@@ -29,17 +35,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.E.1",
-    "VAR-3.E",
-    "4.B",
-    "VAR-3",
-    "DAT-2.E.1",
-    "DAT-2",
-    "DAT-2.E"
-  ],
-  "standards": [
     "VAR-3.E.1",
     "VAR-3.E",
     "4.B",

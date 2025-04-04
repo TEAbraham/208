@@ -1,10 +1,16 @@
 {
   "question_id": "question-030",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "estimation",
+    "statistical-inference",
+    "parameters-margins-error"
+  ],
   "title": "Estimating Parameters: Conditions",
   "difficulty": "Easy",
-  "question_text": "Suppose the conditions are not met for a confidence interval. When conditions are not met, then",
+  "question_text": "Suppose the conditions are not met for a confidence interval.\nWhen conditions are not met, then",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -24,19 +30,13 @@
     },
     {
       "letter": "E",
-      "text": "The critical value t ∗ t ∗ or z ∗ z ∗ will need to increase."
+      "text": "The critical value $t^*$ or $z^*$ will need to increase."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-4.G",
-    "4.D",
-    "UNC-4.G.1",
-    "UNC-4"
-  ],
-  "standards": [
     "UNC-4.G",
     "4.D",
     "UNC-4.G.1",

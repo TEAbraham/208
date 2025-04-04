@@ -1,10 +1,18 @@
 {
   "question_id": "question-023",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "conducting-experiments",
+    "methods-of-data-collection",
+    "sampling-and-experimentation",
+    "well-designed-conducted"
+  ],
   "title": "The Goal in Designing a Sample",
-  "difficulty": "Moderate",
+  "difficulty": "Medium",
   "question_text": "Which of the following best describes the goal of sample design?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -29,17 +37,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.D",
-    "VAR-3",
-    "DAT-2",
-    "VAR-3.D.1",
-    "1.C",
-    "DAT-2.B",
-    "DAT-2.B.1"
-  ],
-  "standards": [
     "VAR-3.D",
     "VAR-3",
     "DAT-2",

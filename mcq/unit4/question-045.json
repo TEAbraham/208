@@ -1,42 +1,43 @@
 {
   "question_id": "question-045",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "calculating-probability",
+    "anticipating-patterns",
+    "probability",
+    "a-given-b"
+  ],
   "title": "School A Given School B",
-  "difficulty": "Moderate",
-  "question_text": "Suppose Sophia applied to $2$ different medical schools, school A and school B. Sophia has determined that she has a $40\\%$ chance of getting into school A, a $55\\%$ chance of getting into school B, and a $25\\%$ chance of getting into both schools. What is the probability she gets into school A given that she gets into school B?",
+  "difficulty": "Medium",
+  "question_text": "Suppose Sophia applied to $2$ different medical schools, school A and school B.\nSophia has determined that she has a $40\\%$ chance of getting into school A, a $55\\%$ chance of getting into school B, and a $25\\%$ chance of getting into both schools.\nWhat is the probability she gets into school A given that she gets into school B?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.4545 0.4545"
+      "text": "$0.4545$"
     },
     {
       "letter": "B",
-      "text": "0.4 0.4"
+      "text": "$0.4$"
     },
     {
       "letter": "C",
-      "text": "0.4239 0.4239"
+      "text": "$0.4239$"
     },
     {
       "letter": "D",
-      "text": "0.15 0.15"
+      "text": "$0.15$"
     },
     {
       "letter": "E",
-      "text": "0.3387 0.3387"
+      "text": "$0.3387$"
     }
   ],
   "correct_answer": "This situation deals with conditional probability. Remember, formula is:",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-4.D.1",
-    "3.A",
-    "VAR-4",
-    "VAR-4.D"
-  ],
-  "standards": [
     "VAR-4.D.1",
     "3.A",
     "VAR-4",

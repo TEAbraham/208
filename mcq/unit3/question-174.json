@@ -1,10 +1,18 @@
 {
   "question_id": "question-174",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-experiments",
+    "grouping",
+    "sampling-and-experimentation",
+    "random-sampling",
+    "experiment"
+  ],
   "title": "Experimental Design: Burn Those Calories",
-  "difficulty": "Difficult",
-  "question_text": "Is running on a treadmill for one hour or jumping rope for twenty minutes better at burning calories? Which option below gives the most effective method at determining which treatment is better at burning calories?",
+  "difficulty": "Hard",
+  "question_text": "Is running on a treadmill for one hour or jumping rope for twenty minutes better at burning calories?\nWhich option below gives the most effective method at determining which treatment is better at burning calories?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -16,7 +24,7 @@
     },
     {
       "letter": "C",
-      "text": "Randomly divide the subjects into three groups.  The  first group will jump rope, the second group will run on the treadmill for twenty minutes, and the third group will do neither of the activities."
+      "text": "Randomly divide the subjects into three groups. The first group will jump rope, the second group will run on the treadmill for twenty minutes, and the third group will do neither of the activities."
     },
     {
       "letter": "D",
@@ -24,21 +32,13 @@
     },
     {
       "letter": "E",
-      "text": "Randomly separate the group and have half on them jump rope for twenty minutes the first day and then run for an hour the next day.  The other group will run for an hour the first day and jump rope for twenty minutes the next."
+      "text": "Randomly separate the group and have half on them jump rope for twenty minutes the first day and then run for an hour the next day. The other group will run for an hour the first day and jump rope for twenty minutes the next."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-3.D",
-    "VAR-3.E",
-    "4.B",
-    "VAR-3",
-    "VAR-3.D.1",
-    "VAR-3.E.2"
-  ],
-  "standards": [
     "VAR-3.D",
     "VAR-3.E",
     "4.B",

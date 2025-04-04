@@ -1,12 +1,21 @@
 {
   "question_id": "question-156",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "mean",
+    "univariate-data",
+    "standard-deviation",
+    "boxplots",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
   "title": "Boxplot: Outlier Effect on the Mean and Standard Deviation",
-  "difficulty": "Moderate",
-  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved. Looking at the modified boxplot above, what will happen to the mean and standard deviation when the outlier of $23$ is removed?",
+  "difficulty": "Medium",
+  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved.\n\nLooking at the modified boxplot above, what will happen to the mean and standard deviation when the outlier of $23$ is removed?",
   "image_files": [
     "images/question-156-img1.PNG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -31,14 +40,8 @@
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "2.C",
-    "UNC-1.M",
-    "UNC-1.M.2",
-    "UNC-1"
-  ],
-  "standards": [
     "2.C",
     "UNC-1.M",
     "UNC-1.M.2",

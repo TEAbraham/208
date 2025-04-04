@@ -1,43 +1,42 @@
 {
   "question_id": "question-158",
   "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "descriptive-statistics",
+    "combining-random-variables"
+  ],
   "title": "Assembly Line Probability",
-  "difficulty": "Difficult",
-  "question_text": "Workers at a large company inspect large wooden bookcases for defects and then wrap the bookcases to be ready to ship. The average worker takes $21\\text{ seconds}$ to inspect a bookcase with a standard deviation of $3\\text{ seconds}$ . The average worker takes $41\\text{ seconds}$ to wrap a bookcase with a standard deviation of $18\\text{ seconds}$ . The assembly line starts to get backed up if the entire process takes longer than $1\\text{ minute}$ and $15\\text{ seconds}$ . Assuming the times for each process are independent and approximately normal, what is the probability of a bookcase taking more than $1\\text{ minute}$ and $15\\text{ seconds}$ for the entire inspection and wrapping process?",
+  "difficulty": "Hard",
+  "question_text": "Workers at a large company inspect large wooden bookcases for defects and then wrap the bookcases to be ready to ship.\nThe average worker takes $21\\text{ seconds}$ to inspect a bookcase with a standard deviation of $3\\text{ seconds}$. The average worker takes $41\\text{ seconds}$ to wrap a bookcase with a standard deviation of $18\\text{ seconds}$. The assembly line starts to get backed up if the entire process takes longer than $1\\text{ minute}$ and $15\\text{ seconds}$.\nAssuming the times for each process are independent and approximately normal, what is the probability of a bookcase taking more than $1\\text{ minute}$ and $15\\text{ seconds}$ for the entire inspection and wrapping process?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.0523 0.0523"
+      "text": "$0.0523$"
     },
     {
       "letter": "B",
-      "text": "0.1452 0.1452"
+      "text": "$0.1452$"
     },
     {
       "letter": "C",
-      "text": "0.5327 0.5327"
+      "text": "$0.5327$"
     },
     {
       "letter": "D",
-      "text": "0.0235 0.0235"
+      "text": "$0.0235$"
     },
     {
       "letter": "E",
-      "text": "0.2389 0.2389"
+      "text": "$0.2389$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-5.E",
-    "VAR-5.E.2",
-    "VAR-5",
-    "3.B",
-    "VAR-5.E.1"
-  ],
-  "standards": [
     "VAR-5.E",
     "VAR-5.E.2",
     "VAR-5",

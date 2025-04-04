@@ -1,42 +1,38 @@
 {
   "question_id": "question-128",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [],
   "title": "Determining a $p$-Value",
-  "difficulty": "Moderate",
-  "question_text": "A group of college students in a psychology class wonders if the order of treatments changes the outcome of a study. To test this, they ask students in a blind taste test which of two colas they prefer, Pepsi or Coke. In this blind taste test, the first $50\\text{ randomly chosen subjects}$ are given Pepsi and then Coke, with $34$ preferring Pepsi. The next $50\\text{ randomly chosen subjects}$ are given Coke and then Pepsi, with $29$ preferring Pepsi. Does this give evidence that the order in which colas, or options, are presented makes a difference? Determine the approximate $p$ -value of a test to answer this question.",
+  "difficulty": "Medium",
+  "question_text": "A group of college students in a psychology class wonders if the order of treatments changes the outcome of a study.\nTo test this, they ask students in a blind taste test which of two colas they prefer, Pepsi or Coke. In this blind taste test, the first $50\\text{ randomly chosen subjects}$ are given Pepsi and then Coke, with $34$ preferring Pepsi. The next $50\\text{ randomly chosen subjects}$ are given Coke and then Pepsi, with $29$ preferring Pepsi.\nDoes this give evidence that the order in which colas, or options, are presented makes a difference?\nDetermine the approximate $p$-value of a test to answer this question.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.8508 0.8508"
+      "text": "$0.8508$"
     },
     {
       "letter": "B",
-      "text": "0.1492 0.1492"
+      "text": "$0.1492$"
     },
     {
       "letter": "C",
-      "text": "0.1092 0.1092"
+      "text": "$0.1092$"
     },
     {
       "letter": "D",
-      "text": "0.0345 0.0345"
+      "text": "$0.0345$"
     },
     {
       "letter": "E",
-      "text": "0.2984 0.2984"
+      "text": "$0.2984$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-6.K",
-    "3.E",
-    "VAR-6.K.1",
-    "VAR-6"
-  ],
-  "standards": [
     "VAR-6.K",
     "3.E",
     "VAR-6.K.1",

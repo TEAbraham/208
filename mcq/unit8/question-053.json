@@ -1,10 +1,18 @@
 {
   "question_id": "question-053",
   "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "proportion"
+  ],
   "title": "Are Driver's Age and Traffic Tickets Associated?",
-  "difficulty": "Difficult",
-  "question_text": "Young adults in a small town are convinced that age has something to do with whether or not the police will give a driver a ticket when stopped for a traffic violation. The table below summarizes police records from traffic violation stops during the previous year. Driver's Age Ticket Issued Warning Issued Total Under 25 24 18 42 25 - 45 42 37 79 Over 45 15 28 43 Total 81 83 164 Which of the following statements is FALSE?",
+  "difficulty": "Hard",
+  "question_text": "Young adults in a small town are convinced that age has something to do with whether or not the police will give a driver a ticket when stopped for a traffic violation. The table below summarizes police records from traffic violation stops during the previous year.\nDriver's Age Ticket Issued Warning Issued Total\nUnder 25 24 18 42\n25 - 45 42 37 79\nOver 45 15 28 43\nTotal 81 83 164\n\n\nWhich of the following statements is FALSE?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Driver's Age</th><th scope=\"col\">Ticket Issued</th><th scope=\"col\">Warning Issued</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Under 25</td><td>24</td><td>18</td><td>42</td></tr><tr><td>25 - 45</td><td>42</td><td>37</td><td>79</td></tr><tr><td>Over 45</td><td>15</td><td>28</td><td>43</td></tr><tr><td>Total</td><td>81</td><td>83</td><td>164</td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
@@ -24,19 +32,13 @@
     },
     {
       "letter": "E",
-      "text": "We cannot reject the idea that the age of a driver is independent of whether the driver will get a ticket since a χ 2 χ 2 test of independence results in a p p -value greater than 0.05 0.05 ."
+      "text": "We cannot reject the idea that the age of a driver is independent of whether the driver will get a ticket since a ${ \\chi }^{ 2 }$ test of independence results in a $p$-value greater than $0.05$."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "VAR-8.H",
-    "3.A",
-    "VAR-8",
-    "VAR-8.H.1"
-  ],
-  "standards": [
     "VAR-8.H",
     "3.A",
     "VAR-8",

@@ -1,10 +1,15 @@
 {
   "question_id": "question-002",
   "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "mean",
+    "inference"
+  ],
   "title": "Hours of Sleep",
   "difficulty": "Easy",
-  "question_text": "A statistics teacher at a large high school wants to estimate the average number of hours the students at the school get on a nightly basis. She decides to ask a random sample of $40$ students from the high school \"How much sleep did you get last night?\" She got a sample mean of $\\bar{x} = 6.5$ hours. If the other statistics teacher decides to select their own sample of $40$ random students, should they expect to get a sample mean of $\\bar{x} = 6.5$ as well?",
+  "question_text": "A statistics teacher at a large high school wants to estimate the average number of hours the students at the school get on a nightly basis. She decides to ask a random sample of $40$ students from the high school \"How much sleep did you get last night?\" She got a sample mean of $\\bar{x} = 6.5$ hours.\nIf the other statistics teacher decides to select their own sample of $40$ random students, should they expect to get a sample mean of $\\bar{x} = 6.5$ as well?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -28,15 +33,9 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "The first teacher's sample produced a statistic of ¯ x = 6.5 x ¯ = 6.5 hours. When the second teacher selects their sample, there is a good chance that many of the students selected will be different from the first sample. (Although, some students can be in both samples). Therefore, due to sampling variability the different samples of students will more than likely produce different statistic values.\n\nThe second teacher should not expect their sample to produce the same statistic value.\n\nChoice 'C' is correct.",
-  "distractor_explanations": {},
+  "solution": "The first teacher's sample produced a statistic of $\\bar{x} = 6.5$ hours. When the second teacher selects their sample, there is a good chance that many of the students selected will be different from the first sample. (Although, some students can be in both samples). Therefore, due to sampling variability the different samples of students will more than likely produce different statistic values.\n\nThe second teacher should not expect their sample to produce the same statistic value.\n\nChoice 'C' is correct.",
+  "explanations": {},
   "tags": [
-    "VAR-1.I.1",
-    "1.A",
-    "VAR-1",
-    "VAR-1.I"
-  ],
-  "standards": [
     "VAR-1.I.1",
     "1.A",
     "VAR-1",

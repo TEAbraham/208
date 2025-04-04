@@ -1,14 +1,21 @@
 {
   "question_id": "question-089",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "position",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
   "title": "College Prep Test Scores",
   "difficulty": "Easy",
-  "question_text": "Suppose $500$ females at a local high school took a college prep test this year. Below is the five-number summary of their scores: Minimum: $14$ First quartile: $16$ Median: $21$ Third quartile: $28$ Maximum: $36$ Which of the following statements is true?",
+  "question_text": "Suppose $500$ females at a local high school took a college prep test this year. Below is the five-number summary of their scores:\nMinimum: $14$\nFirst quartile: $16$\nMedian: $21$\nThird quartile: $28$\nMaximum: $36$\nWhich of the following statements is true?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "About 250 250 females at this high school scored greater than 28 28 ."
+      "text": "About $250$ females at this high school scored greater than $28$."
     },
     {
       "letter": "B",
@@ -16,27 +23,21 @@
     },
     {
       "letter": "C",
-      "text": "The student who scored 36 36 is obviously an outlier."
+      "text": "The student who scored $36$ is obviously an outlier."
     },
     {
       "letter": "D",
-      "text": "Roughly 125 125 females scored less than 16 16 ."
+      "text": "Roughly $125$ females scored less than $16$."
     },
     {
       "letter": "E",
-      "text": "About 125 125 females scored less than 28 28 ."
+      "text": "About $125$ females scored less than $28$."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.I.4",
-    "2.C",
-    "UNC-1.I",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.I.4",
     "2.C",
     "UNC-1.I",

@@ -1,10 +1,16 @@
 {
   "question_id": "question-061",
   "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "methods-of-data-collection",
+    "census",
+    "sampling-and-experimentation"
+  ],
   "title": "Finding a Census",
   "difficulty": "Easy",
   "question_text": "Which of the following scenarios describes a census?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
@@ -12,15 +18,15 @@
     },
     {
       "letter": "B",
-      "text": "Amy is worried about her addiction to buying shoes and wonders if her shoe collection is larger than the average for high school girls. To find out, she randomly contacts 10 10 of her female high school friends and asks them how many pairs of shoes they own.  She then finds the average so that she can compare it to the number of pairs that she owns."
+      "text": "Amy is worried about her addiction to buying shoes and wonders if her shoe collection is larger than the average for high school girls. To find out, she randomly contacts $10$ of her female high school friends and asks them how many pairs of shoes they own. She then finds the average so that she can compare it to the number of pairs that she owns."
     },
     {
       "letter": "C",
-      "text": "Margeaux wants to know the average age of the people who belong to her book club. To gather data, she consults the membership list which consists of 40 40 individuals. She then contacts each of these 40 40 people who provide her with their age so that she can find the average."
+      "text": "Margeaux wants to know the average age of the people who belong to her book club. To gather data, she consults the membership list which consists of $40$ individuals. She then contacts each of these $40$ people who provide her with their age so that she can find the average."
     },
     {
       "letter": "D",
-      "text": "In order to estimate the proportion of grocery shoppers who use coupons, a researcher observes a randomly selected line at a certain grocery store for a period of 3 3 days. He then determines the proportion of shoppers who were observed using a coupon."
+      "text": "In order to estimate the proportion of grocery shoppers who use coupons, a researcher observes a randomly selected line at a certain grocery store for a period of $3$ days. He then determines the proportion of shoppers who were observed using a coupon."
     },
     {
       "letter": "E",
@@ -29,14 +35,8 @@
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "DAT-2",
-    "1.C",
-    "DAT-2.C.6",
-    "DAT-2.C"
-  ],
-  "standards": [
     "DAT-2",
     "1.C",
     "DAT-2.C.6",

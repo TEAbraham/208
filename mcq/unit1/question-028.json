@@ -1,18 +1,26 @@
 {
   "question_id": "question-028",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "frequency-table",
+    "categorical-data",
+    "relative-frequency"
+  ],
   "title": "Lake Houses",
-  "difficulty": "Moderate",
-  "question_text": "Sam is vacationing at his friend's lake house one weekend. He's curious about the favorite water activity of the other people at the lake. So, he polls $150$ people at the lake and asks them what is their favorite water activity. The table below summarizes the data. Activity Relative Frequency Boating $0.24$ Fishing $0.20$ Tubing $0.18$ Kayaking $0.16$ Paddle-Boarding $0.12$ Swimming $0.06$ Which of the following statements is supported by the table?",
+  "difficulty": "Medium",
+  "question_text": "Sam is vacationing at his friend's lake house one weekend. He's curious about the favorite water activity of the other people at the lake. So, he polls $150$ people at the lake and asks them what is their favorite water activity. The table below summarizes the data.\nActivity Relative Frequency\nBoating $0.24$\nFishing $0.20$\nTubing $0.18$\nKayaking $0.16$\nPaddle-Boarding $0.12$\nSwimming $0.06$\nWhich of the following statements is supported by the table?",
   "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Activity</th><th scope=\"col\">Relative Frequency</th></tr></thead><tbody><tr><td>Boating</td><td><span class=\"tex2jax_process\">$0.24$</span></td></tr><tr><td>Fishing</td><td><span class=\"tex2jax_process\">$0.20$</span></td></tr><tr><td>Tubing</td><td><span class=\"tex2jax_process\">$0.18$</span></td></tr><tr><td>Kayaking</td><td><span class=\"tex2jax_process\">$0.16$</span></td></tr><tr><td>Paddle-Boarding</td><td><span class=\"tex2jax_process\">$0.12$</span></td></tr><tr><td>Swimming</td><td><span class=\"tex2jax_process\">$0.06$</span></td></tr></tbody></table>"
+  ],
   "choices": [
     {
       "letter": "A",
-      "text": "20 20 people answered fishing as their favorite activity."
+      "text": "$20$ people answered fishing as their favorite activity."
     },
     {
       "letter": "B",
-      "text": "36 36 people answered boating as their favorite activity."
+      "text": "$36$ people answered boating as their favorite activity."
     },
     {
       "letter": "C",
@@ -28,18 +36,9 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "The data above is summarized in a relative table that takes the favorite activity and gives the relative frequency of the responses. The relative frequency represent the proportion of times the activity was answered, and all the relative frequencies add up to be 1 1 .\n\nIn order to figure out the amount of people who answered boating as their favorite activity, we need to take the number of people who responded and multiply it by the relative frequency. For example, for boating, we will do the following:\n\n(Number of responders)(Relative Frequency) (Number of responders)(Relative Frequency) 150 ( 0.24 ) 150 ( 0.24 ) = 36 people = 36 people\n\nTherefore, 36 36 people answered boating as their favorite activity.\n\nChoice 'B' is correct.",
-  "distractor_explanations": {},
+  "solution": "The data above is summarized in a relative table that takes the favorite activity and gives the relative frequency of the responses. The relative frequency represent the proportion of times the activity was answered, and all the relative frequencies add up to be 1\n.\n\nIn order to figure out the amount of people who answered boating as their favorite activity, we need to take the number of people who responded and multiply it by the relative frequency. For example, for boating, we will do the following:\n\n(Number of responders)(Relative Frequency)\n150(0.24)\n=36 people\n\nTherefore, 36\npeople answered boating as their favorite activity.\n\nChoice 'B' is correct.",
+  "explanations": {},
   "tags": [
-    "UNC-1.A.1",
-    "UNC-1.B.2",
-    "UNC-1.A",
-    "UNC-1.B.1",
-    "2.B",
-    "UNC-1.B",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.A.1",
     "UNC-1.B.2",
     "UNC-1.A",

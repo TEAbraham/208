@@ -1,28 +1,34 @@
 {
   "question_id": "question-041",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "categorical-data",
+    "bar-charts",
+    "comparison"
+  ],
   "title": "Warranty Information",
-  "difficulty": "Difficult",
-  "question_text": "Three coffee maker companies (each with the same number of customers) offer warranties with their products. Company $A$ only puts the warranty information in the packaging when purchased, Company $B$ sends a follow-up email three days after purchase, and Company $C$ calls the customer and offers the warranty a week after purchase. The graph shows the proportion of customers that sign up for the warranty on their product. Which statement about warranty sign up is not supported by the graph?",
+  "difficulty": "Hard",
+  "question_text": "Three coffee maker companies (each with the same number of customers) offer warranties with their products. Company $A$ only puts the warranty information in the packaging when purchased, Company $B$ sends a follow-up email three days after purchase, and Company $C$ calls the customer and offers the warranty a week after purchase.\nThe graph shows the proportion of customers that sign up for the warranty on their product.\nLoading question supplement...\nWhich statement about warranty sign up is not supported by the graph?",
   "image_files": [
     "images/question-041-img1.png"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Company B B had a higher proportion sign up for the warranty than Company A A ."
+      "text": "Company $B$ had a higher proportion sign up for the warranty than Company $A$."
     },
     {
       "letter": "B",
-      "text": "Company C C had a higher proportion sign up than Company A A and B B combined."
+      "text": "Company C had a higher proportion sign up than Company A and B combined."
     },
     {
       "letter": "C",
-      "text": "More people signed up for Company B B 's warranty than not."
+      "text": "More people signed up for Company B's warranty than not."
     },
     {
       "letter": "D",
-      "text": "Company C C had approximately twice the proportion sign up than Company A A ."
+      "text": "Company C\nhad approximately twice the proportion sign up than Company A\n."
     },
     {
       "letter": "E",
@@ -30,21 +36,9 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "The bar chart is a visualization of a categorical variable . The variable is the proportion of people who sign up for a warranty on their coffee maker. The segmented bar chart shows the proportion who has signed up for the warranty and the proportion who did not sign up for the warranty.\n\nLooking at Company C C , they had approximately 0.70 0.70 sign up for the warranty, while Company A A had about 0.35 0.35 and Company B B had approximately 0.55 0.55 , so Company C C did not have more than Company A A and B B combined.\n\nChoice 'B' is correct.",
-  "distractor_explanations": {},
+  "solution": "The bar chart is a visualization of a categorical variable. The variable is the proportion of people who sign up for a warranty on their coffee maker. The segmented bar chart shows the proportion who has signed up for the warranty and the proportion who did not sign up for the warranty.\n\nLooking at Company C\n, they had approximately 0.70\nsign up for the warranty, while Company A\nhad about 0.35\nand Company B\nhad approximately 0.55\n, so Company C\ndid not have more than Company A\nand B\ncombined.\n\nChoice 'B' is correct.",
+  "explanations": {},
   "tags": [
-    "UNC-1.E",
-    "UNC-1.D",
-    "UNC-1.C.2",
-    "2.D",
-    "2.A",
-    "UNC-1.D.1",
-    "UNC-1.C.1",
-    "UNC-1.C",
-    "UNC-1.E.1",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.E",
     "UNC-1.D",
     "UNC-1.C.2",

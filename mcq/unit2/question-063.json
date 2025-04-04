@@ -1,18 +1,24 @@
 {
   "question_id": "question-063",
   "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "correlation",
+    "bivariate-data",
+    "exploring-data"
+  ],
   "title": "Analyzing Correlation Coefficient",
-  "difficulty": "Moderate",
-  "question_text": "Which of the following statements is true regarding r r , the correlation coefficient?",
+  "difficulty": "Medium",
+  "question_text": "Which of the following statements is true regarding $r$, the correlation coefficient?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Units must be attached to r r ."
+      "text": "Units must be attached to $r$."
     },
     {
       "letter": "B",
-      "text": "The closer | r | | r | is to 1 1 , the stronger the linear correlation will be."
+      "text": "The closer $|r|$ is to $1$, the stronger the linear correlation will be."
     },
     {
       "letter": "C",
@@ -20,24 +26,17 @@
     },
     {
       "letter": "D",
-      "text": "When switching the dependent and independent variables, r r changes to ( 1 1 / r r )."
+      "text": "When switching the dependent and independent variables, $r$ changes to ($1$/$r$)."
     },
     {
       "letter": "E",
-      "text": "When multiplying both data sets by a constant x x , the correlation coefficient increases by the factor of x x ."
+      "text": "When multiplying both data sets by a constant x, the correlation coefficient increases by the factor of x."
     }
   ],
   "correct_answer": "Choice 'A' is incorrect; the opposite is true. r must have no units attached to it.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "4.B",
-    "DAT-1.C",
-    "DAT-1.C.2",
-    "DAT-1",
-    "DAT-1.C.1"
-  ],
-  "standards": [
     "4.B",
     "DAT-1.C",
     "DAT-1.C.2",

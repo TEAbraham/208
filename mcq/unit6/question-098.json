@@ -1,42 +1,41 @@
 {
   "question_id": "question-098",
   "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "confidence-interval",
+    "differences-in-proportions"
+  ],
   "title": "Cereal Games",
-  "difficulty": "Moderate",
-  "question_text": "Two top cereal producers were competing with each other by putting game cards in their cereal boxes.  Toot Loops cereal claimed that $33\\%$ of their boxes contained winning cards and Major Munch cereal claimed that $31\\%$ of their boxes contained winning cards.  In an attempt to test this, a consumer goods company randomly purchased $60$ boxes of Toot Loops and $55$ boxes of Major Munch cereals. Find a $99\\%$ confidence interval for the difference of the proportions of game cards contained in the boxes of the two kinds of cereal.",
+  "difficulty": "Medium",
+  "question_text": "Two top cereal producers were competing with each other by putting game cards in their cereal boxes. Toot Loops cereal claimed that $33\\%$ of their boxes contained winning cards and Major Munch cereal claimed that $31\\%$ of their boxes contained winning cards. In an attempt to test this, a consumer goods company randomly purchased $60$ boxes of Toot Loops and $55$ boxes of Major Munch cereals.\nFind a $99\\%$ confidence interval for the difference of the proportions of game cards contained in the boxes of the two kinds of cereal.",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "− 0.02 ± 0.143 − 0.02 ± 0.143"
+      "text": "$-0.02\\pm0.143$"
     },
     {
       "letter": "B",
-      "text": "− 0.02 ± 0.008 − 0.02 ± 0.008"
+      "text": "$-0.02\\pm0.008$"
     },
     {
       "letter": "C",
-      "text": "0.02 ± 0.224 0.02 ± 0.224"
+      "text": "$0.02\\pm0.224$"
     },
     {
       "letter": "D",
-      "text": "0.2 ± 0.171 0.2 ± 0.171"
+      "text": "$0.2\\pm0.171$"
     },
     {
       "letter": "E",
-      "text": "0.02 ± 0.171 0.02 ± 0.171"
+      "text": "$0.02\\pm0.171$"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "3.D",
-    "UNC-4.K.1",
-    "UNC-4.K",
-    "UNC-4"
-  ],
-  "standards": [
     "3.D",
     "UNC-4.K.1",
     "UNC-4.K",

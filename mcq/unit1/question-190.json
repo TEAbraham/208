@@ -1,9 +1,15 @@
 {
   "question_id": "question-190",
   "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "center-spread",
+    "univariate-data",
+    "comparing-distributions",
+    "exploring-data"
+  ],
   "title": "Exam Grades",
-  "difficulty": "Difficult",
-  "question_text": "A college professor displays the distribution of her final exam scores for her five classes using a variety of graphs. The graph below shows the distribution of exam scores for Monday's class. Created for Albert.io. Copyright 2017. All rights reserved. Which class has a higher center than Monday's class?",
+  "difficulty": "Hard",
+  "question_text": "A college professor displays the distribution of her final exam scores for her five classes using a variety of graphs.\nThe graph below shows the distribution of exam scores for Monday's class.\nCreated for Albert.io. Copyright 2017. All rights reserved.\nWhich class has a higher center than Monday's class?",
   "image_files": [
     "images/question-190-img1.JPG",
     "images/question-190-img2.JPG",
@@ -11,22 +17,23 @@
     "images/question-190-img4.JPG",
     "images/question-190-img5.JPG"
   ],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Tuesday's class:   Created for Albert.io. Copyright 2017. All rights reserved."
+      "text": "Tuesday's class:\nCreated for Albert.io. Copyright 2017. All rights reserved."
     },
     {
       "letter": "B",
-      "text": "Wednesday's class:   Created for Albert.io. Copyright 2017. All rights reserved."
+      "text": "Wednesday's class:\nCreated for Albert.io. Copyright 2017. All rights reserved."
     },
     {
       "letter": "C",
-      "text": "Thursday's class:   Created for Albert.io. Copyright 2017. All rights reserved."
+      "text": "Thursday's class:\nCreated for Albert.io. Copyright 2017. All rights reserved."
     },
     {
       "letter": "D",
-      "text": "Friday's class:   Created for Albert.io. Copyright 2017. All rights reserved."
+      "text": "Friday's class:\nCreated for Albert.io. Copyright 2017. All rights reserved."
     },
     {
       "letter": "E",
@@ -35,14 +42,8 @@
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-1.N.1",
-    "2.D",
-    "UNC-1.N",
-    "UNC-1"
-  ],
-  "standards": [
     "UNC-1.N.1",
     "2.D",
     "UNC-1.N",

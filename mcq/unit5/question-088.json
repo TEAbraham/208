@@ -1,43 +1,42 @@
 {
   "question_id": "question-088",
   "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sample-mean",
+    "sampling-distributions"
+  ],
   "title": "Sampling Distribution of a Sample Mean: Roll That Dice",
-  "difficulty": "Difficult",
-  "question_text": "The roll of a six-sided die has a uniform distribution with a mean outcome of $3.5$ and a standard deviation of approximately $1.708$ . Which of the following best describes the sampling distribution of the sample means when the same dice is rolled $48$ times?",
+  "difficulty": "Hard",
+  "question_text": "The roll of a six-sided die has a uniform distribution with a mean outcome of $3.5$ and a standard deviation of approximately $1.708$.\nWhich of the following best describes the sampling distribution of the sample means when the same dice is rolled $48$ times?",
   "image_files": [],
+  "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Uniform with a μ ¯ ¯ ¯ x = 3.5 μ x ¯ = 3.5 and a σ ¯ ¯ ¯ x = 1.708 σ x ¯ = 1.708"
+      "text": "Uniform with a ${ \\mu }_{ \\overline { x } }=3.5$ and a $ \\sigma _{ \\overline { x } }=1.708$"
     },
     {
       "letter": "B",
-      "text": "Uniform with a μ ¯ ¯ ¯ x = 3.5 μ x ¯ = 3.5 and a σ ¯ ¯ ¯ x = 1.708 √ 48 σ x ¯ = 1.708 48"
+      "text": "Uniform with a ${ \\mu }_{ \\overline { x } }=3.5$ and a $ \\sigma _{ \\overline { x } }=\\dfrac { 1.708 }{ \\sqrt { 48 } } $"
     },
     {
       "letter": "C",
-      "text": "Normal with a μ ¯ ¯ ¯ x = 3.5 μ x ¯ = 3.5 and a σ ¯ ¯ ¯ x = 1.708 √ 48 σ x ¯ = 1.708 48"
+      "text": "Normal with a ${ \\mu }_{ \\overline { x } }=3.5$ and a $\\sigma _{ \\overline { x } }=\\dfrac { 1.708 }{ \\sqrt { 48 } } $"
     },
     {
       "letter": "D",
-      "text": "Approximately normal with a μ ¯ ¯ ¯ x = 3.5 μ x ¯ = 3.5 and a σ ¯ ¯ ¯ x = 1.708 σ x ¯ = 1.708"
+      "text": "Approximately normal with a ${ \\mu }_{ \\overline { x } }=3.5$ and a $ \\sigma _{ \\overline { x } }=1.708$"
     },
     {
       "letter": "E",
-      "text": "Approximately normal with a μ ¯ ¯ ¯ x = 3.5 μ x ¯ = 3.5 and a σ ¯ ¯ ¯ x = 1.708 √ 48 σ x ¯ = 1.708 48"
+      "text": "Approximately normal with a ${ \\mu }_{ \\overline { x } }=3.5$ and a $ \\sigma _{ \\overline { x } }=\\dfrac { 1.708 }{ \\sqrt { 48 } } $"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
   "solution": "",
-  "distractor_explanations": {},
+  "explanations": {},
   "tags": [
-    "UNC-3.Q.2",
-    "UNC-3.Q.1",
-    "UNC-3",
-    "UNC-3.Q",
-    "3.B"
-  ],
-  "standards": [
     "UNC-3.Q.2",
     "UNC-3.Q.1",
     "UNC-3",
