@@ -45,16 +45,24 @@
     <!-- LaTeXMathML -->
     <script src="../../js/LaTeXMathML.js"></script>
     <!-- D3 -->
-    <script src="../../js/d3.min.js"></script>
+    <script src="../../js/d3.v7.min.js"></script>
+    <script src="../../js/d3.v7.hexbin.min.js"></script>
     <!-- Module scripts -->
     <script type="module" src="../../js/script.js"></script>
     <script type="module" src="../../js/home.js"></script>
-    <!-- Visualizations -->
-    <link rel="stylesheet" href="random_variables.css">
-    <script type="module">
-      import { initRandomVariableApp } from './random_variables.js';
-      window.addEventListener('DOMContentLoaded', initRandomVariableApp);
-    </script>
+<!-- CSS styles -->
+<link rel="stylesheet" href="random_variables.css" />
+
+<!-- JS scripts -->
+<script type="module">
+  import { initRandomVariableA, initRandomVariableB } from './random_variables.js';
+
+  document.addEventListener("DOMContentLoaded", () => {
+    initRandomVariableA();
+    initRandomVariableB();
+  });
+</script>
+
   </head>
   <body>
       <header class="menu-top">
@@ -105,21 +113,25 @@
     </section>
     <section>
       <div class="Row">
+      </div>
+    </section>
+    <section>
+      <div class="Row">
         <div class="Column">
           <h1>A</h1>
-          <div id="rvDist">
+          <div id="rvDistA">
             <div class="rv-buttons">
-              <button id="startRV">Generate</button>
-              <button id="resetRV">Reset</button>
+              <button id="startRVA">Generate</button>
+              <button id="resetRVA">Reset</button>
             </div>
           </div>
         </div>
         <div class="Column">
           <h1>B</h1>
-          <div id="rvDist">
+          <div id="rvDistB">
             <div class="rv-buttons">
-              <button id="startRV">Generate</button>
-              <button id="resetRV">Reset</button>
+              <button id="startRVB">Generate</button>
+              <button id="resetRVB">Reset</button>
             </div>
           </div>
         </div>
