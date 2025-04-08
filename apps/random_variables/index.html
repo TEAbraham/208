@@ -50,18 +50,9 @@
     <!-- Module scripts -->
     <script type="module" src="../../js/script.js"></script>
     <script type="module" src="../../js/home.js"></script>
-<!-- CSS styles -->
-<link rel="stylesheet" href="random_variables.css" />
-
-<!-- JS scripts -->
-<script type="module">
-  import { initRandomVariableA, initRandomVariableB } from './random_variables.js';
-
-  document.addEventListener("DOMContentLoaded", () => {
-    initRandomVariableA();
-    initRandomVariableB();
-  });
-</script>
+    <!-- CSS styles -->
+    <link rel="stylesheet" href="random_variables.css" />
+    <script src="random_variables.js"></script>
 
   </head>
   <body>
@@ -134,6 +125,12 @@
               <button id="resetRVB">Reset</button>
             </div>
           </div>
+        </div>
+      </div>
+      <div class="Row">
+        <div class="Column">
+          <h1>C</h1>
+          <div id="rvDistC">
         </div>
       </div>
     </section>

@@ -1,5 +1,11 @@
 // random_variable.js
-export function initRandomVariableA() {
+window.onload = function () {
+  const getDataA = initRandomVariableA();
+  const getDataB = initRandomVariableB();
+  initRandomVariableC(getDataA, getDataB);
+}
+
+function initRandomVariableA() {
   const width = 600;
   const height = 300;
 
@@ -60,41 +66,52 @@ export function initRandomVariableA() {
 
     bars.exit().remove();
 
-    const mean = d3.mean(data) * 10;
-    const std = d3.deviation(data) * 10;
+    const mean = d3.mean(data);
+    const std = d3.deviation(data);
 
     meanLine
-      .attr("x1", xScale(mean))
-      .attr("x2", xScale(mean))
+      .attr("x1", xScale(mean * 10))
+      .attr("x2", xScale(mean * 10))
       .attr("y1", 50)
       .attr("y2", height - 50)
       .style("display", "inline");
 
     stdLineLeft
-      .attr("x1", xScale((mean - std)))
-      .attr("x2", xScale((mean - std)))
+      .attr("x1", xScale((mean - std) * 10))
+      .attr("x2", xScale((mean - std) * 10))
       .attr("y1", 50)
       .attr("y2", height - 50)
       .style("display", "inline");
 
     stdLineRight
-      .attr("x1", xScale((mean + std)))
-      .attr("x2", xScale((mean + std)))
+      .attr("x1", xScale((mean + std) * 10))
+      .attr("x2", xScale((mean + std) * 10))
       .attr("y1", 50)
       .attr("y2", height - 50)
       .style("display", "inline");
 
-    statsDiv.html(`Mean: ${mean.toFixed(3)} &nbsp;&nbsp; SD: ${std.toFixed(3)}`);
+    statsDiv.html(`Mean: ${(mean*10).toFixed(3)} &nbsp;&nbsp; SD: ${(std*10).toFixed(3)}`);
+
+    return { mean, std };
   }
 
   const randomData = () => Array.from({ length: 10 }, () => Math.random());
-  drawBars(randomData());
+  let dataA = randomData();
+  drawBars(dataA);
 
-  document.getElementById("startRVA").onclick = () => drawBars(randomData());
-  document.getElementById("resetRVA").onclick = () => drawBars(Array(10).fill(0));
+  document.getElementById("startRVA").onclick = () => {
+    dataA = randomData();
+    drawBars(dataA);
+  };
+  document.getElementById("resetRVA").onclick = () => {
+    dataA = Array(10).fill(0);
+    drawBars(dataA);
+  };
+
+  return () => dataA;
 }
 
-export function initRandomVariableB() {
+function initRandomVariableB() {
   const width = 600;
   const height = 300;
 
@@ -155,36 +172,120 @@ export function initRandomVariableB() {
 
     bars.exit().remove();
 
-    const mean = d3.mean(data) * 10;
-    const std = d3.deviation(data) * 10;
+    const mean = d3.mean(data);
+    const std = d3.deviation(data);
 
     meanLine
-      .attr("x1", xScale(mean))
-      .attr("x2", xScale(mean))
+      .attr("x1", xScale(mean * 10))
+      .attr("x2", xScale(mean * 10))
       .attr("y1", 50)
       .attr("y2", height - 50)
       .style("display", "inline");
 
     stdLineLeft
-      .attr("x1", xScale((mean - std)))
-      .attr("x2", xScale((mean - std)))
+      .attr("x1", xScale((mean - std) * 10))
+      .attr("x2", xScale((mean - std) * 10))
       .attr("y1", 50)
       .attr("y2", height - 50)
       .style("display", "inline");
 
     stdLineRight
-      .attr("x1", xScale((mean + std)))
-      .attr("x2", xScale((mean + std)))
+      .attr("x1", xScale((mean + std) * 10))
+      .attr("x2", xScale((mean + std) * 10))
       .attr("y1", 50)
       .attr("y2", height - 50)
       .style("display", "inline");
 
-    statsDiv.html(`Mean: ${mean.toFixed(3)} &nbsp;&nbsp; SD: ${std.toFixed(3)}`);
+    statsDiv.html(`Mean: ${(mean*10).toFixed(3)} &nbsp;&nbsp; SD: ${(std*10).toFixed(3)}`);
+
+    return { mean, std };
   }
 
   const randomData = () => Array.from({ length: 10 }, () => Math.random());
-  drawBars(randomData());
+  let dataB = randomData();
+  drawBars(dataB);
 
-  document.getElementById("startRVB").onclick = () => drawBars(randomData());
-  document.getElementById("resetRVB").onclick = () => drawBars(Array(10).fill(0));
+  document.getElementById("startRVB").onclick = () => {
+    dataB = randomData();
+    drawBars(dataB);
+  };
+  document.getElementById("resetRVB").onclick = () => {
+    dataB = Array(10).fill(0);
+    drawBars(dataB);
+  };
+
+  return () => dataB;
+}
+
+function initRandomVariableC(getDataA, getDataB) {
+  const width = 1200;
+  const height = 300;
+
+  const svg = d3.select("#rvDistC")
+    .append("svg")
+    .attr("width", width)
+    .attr("height", height)
+    .style("background", "#ffffff")
+    .style("border", "1px solid #ccc");
+
+    const xScale = d3.scaleLinear().domain([-10, 20]).range([50, width - 50]);
+    const yScale = d3.scaleLinear().domain([0, 1]).range([height - 50, 50]);
+
+    const xAxis = d3.axisBottom(xScale);
+    const yAxis = d3.axisLeft(yScale);
+
+    svg.append("g")
+      .attr("transform", `translate(0, ${height - 50})`)
+      .call(xAxis);
+
+    svg.append("g")
+      .attr("transform", `translate(50, 0)`)
+      .call(yAxis);
+
+  const line = (x, color, dash = false) => {
+    svg.append("line")
+      .attr("x1", xScale(x*10))
+      .attr("x2", xScale(x*10))
+      .attr("y1", 50)
+      .attr("y2", height - 50)
+      .attr("stroke", color)
+      .attr("stroke-width", 2)
+      .style("stroke-dasharray", dash ? "5,5" : "none");
+  };
+
+  const statsDiv = d3.select("#rvDistC")
+    .append("div")
+    .attr("class", "rv-stats")
+    .style("margin-top", "10px");
+
+  const update = () => {
+    svg.selectAll("line").remove();
+    const dataA = getDataA();
+    const dataB = getDataB();
+    const meanA = d3.mean(dataA);
+    const stdA = d3.deviation(dataA);
+    const meanB = d3.mean(dataB);
+    const stdB = d3.deviation(dataB);
+    const meanMinus = meanA - meanB;
+    const meanPlus = meanA + meanB;
+    const stdC = Math.sqrt(stdA**2 + stdB**2);
+
+    line(meanMinus, "red");
+    line(meanPlus, "green");
+    line(meanMinus - stdC, "red", true);
+    line(meanMinus + stdC, "red", true);
+    line(meanPlus - stdC, "green", true);
+    line(meanPlus + stdC, "green", true);
+
+    statsDiv.html(
+      `A−B Mean: ${(meanMinus*10).toFixed(3)} &nbsp; SD: ${(stdC*10).toFixed(3)}<br>A+B Mean: ${(meanPlus*10).toFixed(3)} &nbsp; SD: ${(stdC*10).toFixed(3)}`
+    )
+  }
+
+  document.getElementById("startRVA").addEventListener("click", update);
+  document.getElementById("startRVB").addEventListener("click", update);
+  document.getElementById("resetRVA").addEventListener("click", update);
+  document.getElementById("resetRVB").addEventListener("click", update);
+
+  update();
 }
