@@ -41,6 +41,11 @@ export function initRandomVariableA() {
     .attr("stroke-dasharray", "5,5")
     .style("display", "none");
 
+  const statsDiv = d3.select("#rvDistA")
+    .append("div")
+    .attr("class", "rv-stats")
+    .style("margin-top", "10px");
+
   function drawBars(data) {
     const bars = barGroup.selectAll("rect").data(data);
 
@@ -55,29 +60,31 @@ export function initRandomVariableA() {
 
     bars.exit().remove();
 
-    const mean = d3.mean(data);
-    const std = d3.deviation(data);
+    const mean = d3.mean(data) * 10;
+    const std = d3.deviation(data) * 10;
 
     meanLine
-      .attr("x1", xScale(mean * 10))
-      .attr("x2", xScale(mean * 10))
+      .attr("x1", xScale(mean))
+      .attr("x2", xScale(mean))
       .attr("y1", 50)
       .attr("y2", height - 50)
       .style("display", "inline");
 
     stdLineLeft
-      .attr("x1", xScale((mean - std) * 10))
-      .attr("x2", xScale((mean - std) * 10))
+      .attr("x1", xScale((mean - std)))
+      .attr("x2", xScale((mean - std)))
       .attr("y1", 50)
       .attr("y2", height - 50)
       .style("display", "inline");
 
     stdLineRight
-      .attr("x1", xScale((mean + std) * 10))
-      .attr("x2", xScale((mean + std) * 10))
+      .attr("x1", xScale((mean + std)))
+      .attr("x2", xScale((mean + std)))
       .attr("y1", 50)
       .attr("y2", height - 50)
       .style("display", "inline");
+
+    statsDiv.html(`Mean: ${mean.toFixed(3)} &nbsp;&nbsp; SD: ${std.toFixed(3)}`);
   }
 
   const randomData = () => Array.from({ length: 10 }, () => Math.random());
@@ -129,6 +136,11 @@ export function initRandomVariableB() {
     .attr("stroke-dasharray", "5,5")
     .style("display", "none");
 
+  const statsDiv = d3.select("#rvDistB")
+    .append("div")
+    .attr("class", "rv-stats")
+    .style("margin-top", "10px");
+
   function drawBars(data) {
     const bars = barGroup.selectAll("rect").data(data);
 
@@ -143,29 +155,31 @@ export function initRandomVariableB() {
 
     bars.exit().remove();
 
-    const mean = d3.mean(data);
-    const std = d3.deviation(data);
+    const mean = d3.mean(data) * 10;
+    const std = d3.deviation(data) * 10;
 
     meanLine
-      .attr("x1", xScale(mean * 10))
-      .attr("x2", xScale(mean * 10))
+      .attr("x1", xScale(mean))
+      .attr("x2", xScale(mean))
       .attr("y1", 50)
       .attr("y2", height - 50)
       .style("display", "inline");
 
     stdLineLeft
-      .attr("x1", xScale((mean - std) * 10))
-      .attr("x2", xScale((mean - std) * 10))
+      .attr("x1", xScale((mean - std)))
+      .attr("x2", xScale((mean - std)))
       .attr("y1", 50)
       .attr("y2", height - 50)
       .style("display", "inline");
 
     stdLineRight
-      .attr("x1", xScale((mean + std) * 10))
-      .attr("x2", xScale((mean + std) * 10))
+      .attr("x1", xScale((mean + std)))
+      .attr("x2", xScale((mean + std)))
       .attr("y1", 50)
       .attr("y2", height - 50)
       .style("display", "inline");
+
+    statsDiv.html(`Mean: ${mean.toFixed(3)} &nbsp;&nbsp; SD: ${std.toFixed(3)}`);
   }
 
   const randomData = () => Array.from({ length: 10 }, () => Math.random());
