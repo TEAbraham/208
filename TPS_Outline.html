@@ -888,8 +888,10 @@ Finally, to calculate probabilities for a <strong>geometric distribution</strong
 </table>
 </section>
 </section>
-<section id="unit-6" class="level1">
-<h1>Unit 6</h1>
+<section id="unit-6-inference-for-categorical-data-proportions-1" class="level1">
+<h1>Unit 6: Inference for Categorical Data: Proportions</h1>
+<section id="part-i-inference-for-one-sample-1" class="level2">
+<h2 class="anchored" data-anchor-id="part-i-inference-for-one-sample-1">Part I: Inference for One Sample</h2>
 <section id="introduction-6" class="level3">
 <h3 class="anchored" data-anchor-id="introduction-6">Introduction</h3>
 <p>How long does a battery last on the newest iPhone, on average? What proportion of college undergraduates attended all of their classes last week? Do a majority of U.S. adults keep their New Year’s resolutions? These are examples of the types of questions we can answer using the statistical inference methods you’ll learn about in this chapter.</p>
@@ -1084,6 +1086,109 @@ Finally, to calculate probabilities for a <strong>geometric distribution</strong
 </tr>
 </tbody>
 </table>
+</section>
+</section>
+<section id="part-ii-inference-for-two-samples-1" class="level2">
+<h2 class="anchored" data-anchor-id="part-ii-inference-for-two-samples-1">Part II: Inference for Two Samples</h2>
+<section id="introduction-7" class="level3">
+<h3 class="anchored" data-anchor-id="introduction-7">Introduction</h3>
+<p>In Part I of Unit 6, you learned about confidence intervals and significance tests for a population proportion <span class="math inline">\(p\)</span>. Many interesting statistical questions involve <em>comparing</em> the proportion of successes in two populations. Whatis the difference between the proportion of Democrats and the proportion of Republicans who favor the death penalty? Has there been a change in the proportion of U.S. adults who watch the Super Bowl in the last 5 years? In both of these cases, we are interested in the difference <span class="math inline">\(p_1-p_2\)</span>, where <span class="math inline">\(p_1\)</span> and <span class="math inline">\(p_2\)</span> are the proportions of success in Population 1 and Population 2.</p>
+<p>Other statistical questions involved comparing the effectiveness of two treatments in an experiment. For example, is a new medication more effective than a current medication for relieving headaches? What is the difference in the survival rate for two cancer treatments? In these cases, we are also interested in the difference <span class="math inline">\(p_1-p_2\)</span>. But in the settings, <span class="math inline">\(p_1\)</span> and <span class="math inline">\(p_2\)</span> are the true proportions of success for individuals like the ones in the experiment who receive Treatment <span class="math inline">\(1\)</span> or Treatment <span class="math inline">\(2\)</span>.</p>
+<p>For their response bias project (page 312), Sarah and Miranda investigated whether the characteristics of the interviewer can affect the response to a survey question. At the Tucson Mall, they asked 60 shoppers the question, “Do you like tattoos?” When interviewing 30 of the shoppers, Sarah and Miranda wore long-sleeved shirts that covered their tattoos. For the remaining 30 shoppers, the interviewers wore tank tops that revealed their tattoos. The choice of long sleeve or tank top was determined at random for each subject. Sarah and Miranda suspected that more people would answer “Yes” when their tattoos were visible.</p>
+<p>What happened in the experiment? The two-way table summarizes the results:</p>
+**
+<center>
+<p>Clothing worn<strong> </strong>Like tattoos?**<br>
+| | Tank top | Long sleeves | Total | |:— | :—: | :—: | :—: | | Yes | 18 | 14 | 32 | |No | 12 | 16 | 28 | | Total | 30 | 30 | 60 |</p>
+<p>The difference (Tank top - Long sleeves) in the proportions of people who said they like tattoos is <span class="math inline">\(18/30-14/30 = 0.600–0.467 = 0.133\)</span>. does this difference provide convincing evidence that the appearance of the interviewer has the intended effect on the response, what would the difference be due to chance variation in the random assignment?</p>
+</center></section>
+<section id="section-6e-confidence-intervals-for-a-difference-in-population-proportions" class="level3">
+<h3 class="anchored" data-anchor-id="section-6e-confidence-intervals-for-a-difference-in-population-proportions">Section 6E: Confidence Intervals for a Difference in Population Proportions</h3>
+<ul>
+<li>confidence intervals for the difference <span class="math inline">\(p_1-p_2\)</span> between the proportions of successes in two populations or treatments use the difference <span class="math inline">\(\hat{p}_1-\hat{p}_2\)</span> between the sample proportions as the point estimate.<br>
+</li>
+<li>When constructing a confidence interval for a difference in population proportions, we must check for independence in the data collection process and that the sampling distribution of <span class="math inline">\(\hat{p}_1-\hat{p}_2\)</span> is approximately normal. The required conditions are
+<ul>
+<li>Random: the data come from two independent random samples or from two groups in a randomized experiment.
+<ul>
+<li><span class="math inline">\(10\%\)</span>: when sampling without replacement, <span class="math inline">\(n_1 &lt; 0.10N_1\text{ and }n_2 &lt; 0.10N_2\)</span>.</li>
+</ul></li>
+<li>Large Counts: the counts of “successes” and “failures” in each sample or group – <span class="math inline">\(n_1\hat{p}_1, n_1(1 - \hat{p}_1), n_2\hat{p}_2\text{, and }n_2(1 - \hat{p}_2)\)</span> - are all at least <span class="math inline">\(10\)</span>.</li>
+</ul></li>
+<li>When conditions are met, a <span class="math inline">\(C\%\)</span> confidence interval for <span class="math inline">\(p_1-p_2\)</span> is <span class="math display">\[(\hat{p}_1-\hat{p}_2)\pm z^\ast\sqrt{\frac{\hat{p}_1(1-\hat{p}_1)}{n_1}+\frac{\hat{p}_2(1-\hat{p}_2)}{n_2}}\]</span> where <span class="math inline">\(z^\ast\)</span>is the critical value for the standard normal curve with <span class="math inline">\(C\%\)</span> of its area between <span class="math inline">\(-z^\ast\)</span> and <span class="math inline">\(z^\ast\)</span>. This is called a <strong>two-sample <span class="math inline">\(z\)</span> interval for a difference in proportions</strong>.<br>
+</li>
+<li>When performing inference for experiments, make sure to include “for individuals like the ones in the study” and avoid talking about the sample proportions when you are defining parameters and making your conclusion.</li>
+<li>Be sure to follow the four step process whenever you construct an interpret a confidence interval for the difference between two proportions.</li>
+</ul>
+</section>
+<section id="section-6f-significance-tests-for-a-difference-in-population-proportions" class="level3">
+<h3 class="anchored" data-anchor-id="section-6f-significance-tests-for-a-difference-in-population-proportions">Section 6F: Significance Tests for a Difference in Population Proportions</h3>
+<ul>
+<li>Tests for the difference <span class="math inline">\(p_1-p_2\)</span> between the proportions of successes in two populations or treatments are based on the difference <span class="math inline">\(\hat{p}_1-\hat{p}_2\)</span> between the sample proportions.<br>
+</li>
+<li>The usual null hypothesis for a significance test about the difference between two population proportions is $ H_0: p_1 - p_2 = 0$ or <span class="math inline">\(H_0: p_1=p_2\)</span>. The alternative hypothesis says what kind of difference we expect.</li>
+<li>When testing a claim about a difference in proportions, we must check for independence in the data collection process and that the sampling distribution of <span class="math inline">\(\hat{p}_1-\hat{p}_2\)</span> is approximately normal. The required conditions are
+<ul>
+<li>Random: The data come from two independent random samples or from two groups in a randomized experiment.
+<ul>
+<li><span class="math inline">\(10\%\)</span>: When sampling without replacement, <span class="math inline">\(n_1 &lt; 0.10N_1\text{ and }n_2 &lt; 0.10N_2\)</span>.</li>
+</ul></li>
+<li>Large Counts: the expected counts of successes and failures in each sample or group – <span class="math inline">\(n_1\hat{p}_C, n_1(1 - \hat{p}_C), n_2\hat{p}_C\text{, and }n_2(1 - \hat{p}_C)\)</span> - are all at least <span class="math inline">\(10\)</span>, where <span class="math inline">\(\hat{p}_C\)</span> is the combined (pooled) sample proportion. To calculate <span class="math inline">\(\hat{p}_C\)</span>, combine the two samples and divide the total number of successes by the total sample size: <span class="math display">\[\hat{p}_C = \frac{X_1+X_2}{n_1+n_2}\]</span><br>
+</li>
+</ul></li>
+<li>When conditions are met, the <strong>two-sample <span class="math inline">\(z\)</span> test for a difference in proportions</strong> uses the standardized test statistic <span class="math display">\[z=\frac{(\hat{p}_1-\hat{p}_2) - 0}{\sqrt{\hat{p}_C(1-\hat{p}_C)(\frac{1}{n_1}+\frac{1}{n_2})}}\]</span> with <span class="math inline">\(P\)</span>-values calculated from the standard normal distribution.<br>
+</li>
+<li>Be sure to follow the four-step process whenever you perform a significance test about a difference in proportions.</li>
+</ul>
+</section>
+<section id="unit-6-part-ii-review" class="level3">
+<h3 class="anchored" data-anchor-id="unit-6-part-ii-review">Unit 6, Part II Review</h3>
+<section id="section-6e-confidence-intervals-for-a-difference-in-population-proportions-1" class="level4">
+<h4 class="anchored" data-anchor-id="section-6e-confidence-intervals-for-a-difference-in-population-proportions-1">Section 6E: Confidence Intervals for a Difference in Population Proportions</h4>
+<p>In this section, you learned how to construct confidence in her force for a difference between two population proportions. To verify independence and data collection and that the sampling distribution of <span class="math inline">\(\hat{p}_1-\hat{p}_2\)</span> Is approximately normal, we checked three conditions. The Random condition says that the data must be from two independent random samples or two groups in a randomized experiment. The <span class="math inline">\(10\%\)</span> condition says that each sample size should be less than <span class="math inline">\(10\%\)</span> of the corresponding population size when sampling without replacement. The Large Counts condition says that the number of successes and the number of failures from each sample should be at least <span class="math inline">\(10\)</span> - that is, <span class="math inline">\(n_1\hat{p}_1, n_1(1 - \hat{p}_1), n_2\hat{p}_2\text{, and }n_2(1 - \hat{p}_2)\text{ are }\ge10\)</span>.</p>
+<p>A confidence interval for a difference between two proportions provides an interval of plausible values for the difference in the population proportions. The formula is <span class="math display">\[(\hat{p}_1-\hat{p}_2)\pm z^\ast\sqrt{\frac{\hat{p}_1(1-\hat{p}_1)}{n_1}+\frac{\hat{p}_2(1-\hat{p}_2)}{n_2}}\]</span></p>
+<p>The logic of confidence intervals, including how to interpret the confidence interval and the confidence level, is the same as when estimating a single population proportion. Likewise, you can use a confidence interval for a difference in proportions to evaluate claims about the population proportions. For example, if <span class="math inline">\(0\)</span> is not included in a confidence interval for <span class="math inline">\(p_1-p_2\)</span>, there is convincing evidence that the population proportions are different.</p>
+</section>
+<section id="section-6f-significance-tests-for-a-difference-in-population-proportions-1" class="level4">
+<h4 class="anchored" data-anchor-id="section-6f-significance-tests-for-a-difference-in-population-proportions-1">Section 6F: Significance Tests for a Difference in Population Proportions</h4>
+<p>In this section, you learned how to perform significance tests for a difference between two proportions. As in any test, you start by stating hypotheses. In AP Statistics, we focus on the null hypothesis of $ H_0: p_1 - p_2 = 0$ (or, equivalently, <span class="math inline">\(H_0: p_1=p_2\)</span>). The alternative hypothesis can be one-sided (<span class="math inline">\(\lt\)</span>,<span class="math inline">\(\gt\)</span>) or two-sided (<span class="math inline">\(\ne\)</span>).</p>
+<p>As with confidence intervals for <span class="math inline">\(p_1-p_2\)</span>, we check the conditions to verify independence in the data collection process and that the sampling distribution of <span class="math inline">\(\hat{p}_1-\hat{p}_2\)</span> is approximately normal. The Random condition says that the data must be from two independent random samples or two groups in a randomized experiment. The <span class="math inline">\(10\%\)</span> condition says that each sample size should be less than <span class="math inline">\(10\%\)</span> of the corresponding population size when sampling without replacement. The Large Counts condition says that the <em>expected</em> numbers of successes and failures in each sample should be at least <span class="math inline">\(10\)</span>. For a test of $ H_0: p_1 - p_2 = 0$, we estimate the common value <span class="math inline">\(p\)</span> of the parameters <span class="math inline">\(p_1\)</span> and <span class="math inline">\(p_2\)</span> using the combined (pooled) proportion of successes in the two samples: <span class="math inline">\(\hat{p}_C = \frac{X_1+X_2}{n_1+n_2}\)</span>. Consequently, the Large Counts condition requires us to check that <span class="math inline">\(n_1\hat{p}_C, n_1(1 - \hat{p}_C), n_2\hat{p}_C\text{, and }n_2(1 - \hat{p}_C)\)</span> are all at least <span class="math inline">\(10\)</span>.</p>
+<p>For a test of $ H_0: p_1 - p_2 = 0$, the standardized test statistic is <span class="math display">\[z=\frac{(\hat{p}_1-\hat{p}_2) - 0}{\sqrt{\hat{p}_C(1-\hat{p}_C)(\frac{1}{n_1}+\frac{1}{n_2})}}\]</span> When conditions are met, <span class="math inline">\(P\)</span>-values can be obtained from the standard normal distribution.</p>
+<p>A significance test for a difference between two proportions uses the same logic as the significance test for one population proportion from Section 6D. Likewise, the way we interpret <span class="math inline">\(P\)</span>-values and power and the way we describe Type I and Type II errors is very similar to what you learned in Section 6D.</p>
+</section>
+</section>
+<section id="inference-for-a-difference-in-proportions" class="level3">
+<h3 class="anchored" data-anchor-id="inference-for-a-difference-in-proportions">Inference for a Difference in Proportions</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 28%">
+<col style="width: 35%">
+<col style="width: 35%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Name (TI-83/84)</strong></td>
+<td style="text-align: left;">Two-sample <span class="math inline">\(z\)</span> interval for <span class="math inline">\(p_1-p_2\)</span> (2-PropZInt)</td>
+<td style="text-align: left;">Two-sample <span class="math inline">\(z\)</span> test for <span class="math inline">\(p_1-p_2\)</span> (2-PropZTest)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Null Hypothesis</strong></td>
+<td style="text-align: left;"><em>Not applicable.</em></td>
+<td style="text-align: left;">$ H_0: p_1 - p_2 = 0$</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Conditions</strong></td>
+<td style="text-align: left;"><strong>Random</strong>: The data come from two independent random samples or from two groups in a randomized experiment. <br><br><strong><span class="math inline">\(10\%\)</span></strong>: When sampling without replacement, <span class="math inline">\(n_1 &lt; 0.10N_1\text{, and }n_2 &lt; 0.10N_2\)</span>. <br><br><strong>Large Counts</strong>: The counts of “successes” and “failures” in each sample or group–<span class="math inline">\(n_1\hat{p}_1, n_1(1 - \hat{p}_1), n_2\hat{p}_2\text{, and }n_2(1 - \hat{p}_2)\)</span>–are all at least <span class="math inline">\(10\)</span>.<br><br></td>
+<td style="text-align: left;"><strong>Random</strong>: The data come from two independent random samples or from two groups in a randomized experiment. <br><br><strong><span class="math inline">\(10\%\)</span></strong>: When sampling without replacement, <span class="math inline">\(n_1 &lt; 0.10N_1\text{, and }n_2 &lt; 0.10N_2\)</span>. <br><br><strong>Large Counts</strong>: The expected counts of “successes” and “failures” in each sample or group–<span class="math inline">\(n_1\hat{p}_C, n_1(1 - \hat{p}_C), n_2\hat{p}_C\text{, and }n_2(1 - \hat{p}_C)\)</span>–are all at least <span class="math inline">\(10\)</span>,<br><br> where <span class="math inline">\(\hat{p}_C = \frac{X_1+X_2}{n_1+n_2}\)</span>.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Formula</strong></td>
+<td style="text-align: left;"><span class="math display">\[(\hat{p}_1-\hat{p}_2)\pm z^\ast\sqrt{\frac{\hat{p}_1(1-\hat{p}_1)}{n_1}+\frac{\hat{p}_2(1-\hat{p}_2)}{n_2}}\]</span><br> Critical value <span class="math inline">\(z^\ast\)</span> from the standard normal distribution</td>
+<td style="text-align: left;"><span class="math display">\[z=\frac{(\hat{p}_1-\hat{p}_2) - 0}{\sqrt{\hat{p}_C(1-\hat{p}_C)(\frac{1}{n_1}+\frac{1}{n_2})}}\]</span><br> <span class="math inline">\(P\)</span>-value from the standard normal distribution</td>
+</tr>
+</tbody>
+</table>
+</section>
 </section>
 </section>
 
