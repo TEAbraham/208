@@ -9,9 +9,10 @@
   ],
   "title": "Hot Dog Sales: Stemplots and Outliers",
   "difficulty": "Medium",
-  "question_text": "For the past $24$ days, Oscar has been keeping track of the number of hot dogs sold daily at his hot dog cart. His data is displayed in the stemplot below.\nWhich of the following statements accurately describes the outliers in this distribution?",
+  "question_text": "For the past $24$ days, Oscar has been keeping track of the number of hot dogs sold daily at his hot dog cart. His data is displayed in the stemplot below.<br><br>Which of the following statements accurately describes the outliers in this distribution?",
   "image_files": [
-    "images/question-136-img1.PNG"
+    "images/question-136-img1.PNG",
+    "images/question-136-img2.PNG"
   ],
   "tables": [],
   "choices": [
@@ -21,19 +22,19 @@
     },
     {
       "letter": "B",
-      "text": "There is only one outlier and it occurs at 12\nhot dogs."
+      "text": "There is only one outlier and it occurs at\n12\nhot dogs."
     },
     {
       "letter": "C",
-      "text": "There is only one outlier and it occurs at 62\nhot dogs."
+      "text": "There is only one outlier and it occurs at\n62\nhot dogs."
     },
     {
       "letter": "D",
-      "text": "There are two outliers. One outlier is at 12\nhot dogs and the other outlier is at 62\nhot dogs."
+      "text": "There are two outliers. One outlier is at\n12\nhot dogs and the other outlier is at\n62\nhot dogs."
     },
     {
       "letter": "E",
-      "text": "There are three outliers. One outlier is at 12\nhot dogs, another is at 57\nhot dogs, and another is at 62\nhot dogs."
+      "text": "There are three outliers. One outlier is at\n12\nhot dogs, another is at\n57\nhot dogs, and another is at\n62\nhot dogs."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",

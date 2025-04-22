@@ -10,7 +10,7 @@
   ],
   "title": "Chebyshev's Inequality: University Applicants",
   "difficulty": "Hard",
-  "question_text": "State University applicants are required to take an admission test for entrance into the university.\nIn a given year, $850\\text{ applicants}$ took the test. The test results gave a mean score of $68\\text{ points}$ with a standard deviation of $4\\text{ points}$. Suppose we do not know whether the scores are approximately normally distributed.\nWhat can be said about the number of scores that are less than $60\\text{ points}$?",
+  "question_text": "State University applicants are required to take an admission test for entrance into the university.<br>In a given year, $850\\text{ applicants}$ took the test. The test results gave a mean score of $68\\text{ points}$ with a standard deviation of $4\\text{ points}$. Suppose we do not know whether the scores are approximately normally distributed.<br>What can be said about the number of scores that are less than $60\\text{ points}$?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -20,19 +20,19 @@
     },
     {
       "letter": "B",
-      "text": "At least $20$ of the scores are less than $60$."
+      "text": "At least 20 of the scores are less than 60."
     },
     {
       "letter": "C",
-      "text": "Of the scores, $0.0228$ are less than $60$."
+      "text": "Of the scores, 0.0228\nare less than 60\n."
     },
     {
       "letter": "D",
-      "text": "At least $637$ of the scores are less than $60$."
+      "text": "At least 637\nof the scores are less than 60\n."
     },
     {
       "letter": "E",
-      "text": "Most likely, no more than about $213$ subjects can be expected to score either less than $60$ or more than $76$."
+      "text": "Most likely, no more than about 213\nsubjects can be expected to score either less than 60\nor more than 76\n."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",

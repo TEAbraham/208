@@ -8,8 +8,10 @@
   ],
   "title": "Puzzle Competition",
   "difficulty": "Medium",
-  "question_text": "In a puzzle competition, competitors are given a different puzzle to solve for each round.\nThe first round presents a puzzle known to be normally distributed with a solution time of $\\mu = 3\\text{ minutes}$ and $\\sigma=0.4\\text{ minutes}$. The fastest $20\\%$ of competitors advance to the next round.\nTo the nearest tenth of a minute, what cutoff score will advance a competitor to the next round?",
-  "image_files": [],
+  "question_text": "In a puzzle competition, competitors are given a different puzzle to solve for each round.<br>The first round presents a puzzle known to be normally distributed with a solution time of $\\mu = 3\\text{ minutes}$ and $\\sigma=0.4\\text{ minutes}$. The fastest $20\\%$ of competitors advance to the next round.<br>To the nearest tenth of a minute, what cutoff score will advance a competitor to the next round?",
+  "image_files": [
+    "images/question-221-img1.png"
+  ],
   "tables": [],
   "choices": [
     {
@@ -18,19 +20,19 @@
     },
     {
       "letter": "B",
-      "text": "2.7"
+      "text": "$2.7$"
     },
     {
       "letter": "C",
-      "text": "3.1"
+      "text": "$3.1$"
     },
     {
       "letter": "D",
-      "text": "3.2"
+      "text": "$3.2$"
     },
     {
       "letter": "E",
-      "text": "3.4"
+      "text": "$3.4$"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",

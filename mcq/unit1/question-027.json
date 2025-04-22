@@ -10,7 +10,7 @@
   ],
   "title": "Golfer's Background",
   "difficulty": "Medium",
-  "question_text": "A local golf tournament released a breakdown of the backgrounds of all the golfers. A table of the data is provided below.\nContinent Relative Frequency\nNorth America $0.72$\nEurope $0.15$\nAsia $0.08$\nSouth America $0.03$\nAustralia $0.02$\nWhich of the following is not supported by the table?",
+  "question_text": "A local golf tournament released a breakdown of the backgrounds of all the golfers. A table of the data is provided below.<br>Which of the following is not supported by the table?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Continent</th><th scope=\"col\">Relative Frequency</th></tr></thead><tbody><tr><td>North America</td><td><span class=\"tex2jax_process\">$0.72$</span></td></tr><tr><td>Europe</td><td><span class=\"tex2jax_process\">$0.15$</span></td></tr><tr><td>Asia</td><td><span class=\"tex2jax_process\">$0.08$</span></td></tr><tr><td>South America</td><td><span class=\"tex2jax_process\">$0.03$</span></td></tr><tr><td>Australia</td><td><span class=\"tex2jax_process\">$0.02$</span></td></tr></tbody></table>"
@@ -30,7 +30,7 @@
     },
     {
       "letter": "D",
-      "text": "South America and Australia golfers make up $5\\%$ of the field."
+      "text": "South America and Australia golfers make up 5%\nof the field."
     },
     {
       "letter": "E",

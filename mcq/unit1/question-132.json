@@ -10,7 +10,7 @@
   ],
   "title": "Five Number Summary: Keeping Up with the Statistics",
   "difficulty": "Medium",
-  "question_text": "The publicity agency for a famous family tracks how many retweets each tweet receives. All tweets from May 4th to October 3rd were analyzed. The amount of retweets (in thousands) is summarized below.\nMinimum Q$_1$ Median Q$_3$ Maximum\n@Chloe 47 54 72 82 103\n@Cylie 45 77 83 91 105\n@Cendall 32 37 66 95 256\n\n\nWhich statement is true?",
+  "question_text": "The publicity agency for a famous family tracks how many retweets each tweet receives. All tweets from May 4th to October 3rd were analyzed. The amount of retweets (in thousands) is summarized below.<br>Which statement is true?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Minimum</th><th scope=\"col\">Q<span class=\"tex2jax_process\">$_1$</span></th><th scope=\"col\">Median</th><th scope=\"col\">Q<span class=\"tex2jax_process\">$_3$</span></th><th scope=\"col\">Maximum</th></tr></thead><tbody><tr><td>@Chloe</td><td>47</td><td>54</td><td>72</td><td>82</td><td>103</td></tr><tr><td>@Cylie</td><td>45</td><td>77</td><td>83</td><td>91</td><td>105</td></tr><tr><td>@Cendall</td><td>32</td><td>37</td><td>66</td><td>95</td><td>256</td></tr></tbody></table>"

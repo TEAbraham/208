@@ -9,7 +9,7 @@
   ],
   "title": "Tech Start Up",
   "difficulty": "Medium",
-  "question_text": "Pete is starting a new job at a tech start-up. He is wondering about the age breakdown of the employees who currently work at the company. Given is the cumulative relative frequency graph summarizing the employees' ages:\nWhat statement is supported by the cumulative relative frequency graph of employee ages?",
+  "question_text": "Pete is starting a new job at a tech start-up. He is wondering about the age breakdown of the employees who currently work at the company. Given is the cumulative relative frequency graph summarizing the employees' ages:<br>What statement is supported by the cumulative relative frequency graph of employee ages?",
   "image_files": [
     "images/question-057-img1.png"
   ],
@@ -17,15 +17,15 @@
   "choices": [
     {
       "letter": "A",
-      "text": "The oldest employee is 70 years old."
+      "text": "The oldest employee is 70\nyears old."
     },
     {
       "letter": "B",
-      "text": "Over 50% of employees are younger than 40 years old."
+      "text": "Over 50%\nof employees are younger than 40\nyears old."
     },
     {
       "letter": "C",
-      "text": "Over one-fourth of the employees are younger than 30 years old."
+      "text": "Over one-fourth of the employees are younger than 30\nyears old."
     },
     {
       "letter": "D",
@@ -33,11 +33,11 @@
     },
     {
       "letter": "E",
-      "text": "The youngest employee at the company is 20\nyears old."
+      "text": "The youngest employee at the company is\n20\nyears old."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "The ages of employees at the tech start-up are summarized in a cumulative relative frequency graph, or Ogive. A cumulative graph represents the number or proportion of a data set less than or equal to a given number. You can find the proportion of data points in a certain interval by finding the percent for the upper bound and the percent for the lower bound and subtracting the two values.\n\nWhen looking at this ogive, to find the proportion of employees younger than 40\n, follow the horizontal axis until you get to 40\nyears old. Then move vertically until you hit the line graph, and make a right angle to the vertical axis. You find the proportion of employees 40\nyears old or younger is approximately 0.52\n, which is over half of the employees.\n\nChoice 'B' is correct.",
+  "solution": "The ages of employees at the tech start-up are summarized in a cumulative relative frequency graph, or Ogive. A cumulative graph represents the number or proportion of a data set less than or equal to a given number. You can find the proportion of data points in a certain interval by finding the percent for the upper bound and the percent for the lower bound and subtracting the two values.\n\nWhen looking at this ogive, to find the proportion of employees younger than\n40\n, follow the horizontal axis until you get to\n40\nyears old. Then move vertically until you hit the line graph, and make a right angle to the vertical axis. You find the proportion of employees\n40\nyears old or younger is approximately\n0.52\n, which is over half of the employees.\n\nChoice 'B' is correct.",
   "explanations": {},
   "tags": [
     "2.A",

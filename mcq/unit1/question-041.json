@@ -8,7 +8,7 @@
   ],
   "title": "Warranty Information",
   "difficulty": "Hard",
-  "question_text": "Three coffee maker companies (each with the same number of customers) offer warranties with their products. Company $A$ only puts the warranty information in the packaging when purchased, Company $B$ sends a follow-up email three days after purchase, and Company $C$ calls the customer and offers the warranty a week after purchase.\nThe graph shows the proportion of customers that sign up for the warranty on their product.\nLoading question supplement...\nWhich statement about warranty sign up is not supported by the graph?",
+  "question_text": "Three coffee maker companies (each with the same number of customers) offer warranties with their products. Company $A$ only puts the warranty information in the packaging when purchased, Company $B$ sends a follow-up email three days after purchase, and Company $C$ calls the customer and offers the warranty a week after purchase.<br>The graph shows the proportion of customers that sign up for the warranty on their product.<br>Which statement about warranty sign up is not supported by the graph?",
   "image_files": [
     "images/question-041-img1.png"
   ],
@@ -16,7 +16,7 @@
   "choices": [
     {
       "letter": "A",
-      "text": "Company $B$ had a higher proportion sign up for the warranty than Company $A$."
+      "text": "Company B had a higher proportion sign up for the warranty than Company A."
     },
     {
       "letter": "B",
@@ -24,7 +24,7 @@
     },
     {
       "letter": "C",
-      "text": "More people signed up for Company B's warranty than not."
+      "text": "More people signed up for Company B\n's warranty than not."
     },
     {
       "letter": "D",
@@ -36,7 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "The bar chart is a visualization of a categorical variable. The variable is the proportion of people who sign up for a warranty on their coffee maker. The segmented bar chart shows the proportion who has signed up for the warranty and the proportion who did not sign up for the warranty.\n\nLooking at Company C\n, they had approximately 0.70\nsign up for the warranty, while Company A\nhad about 0.35\nand Company B\nhad approximately 0.55\n, so Company C\ndid not have more than Company A\nand B\ncombined.\n\nChoice 'B' is correct.",
+  "solution": "The bar chart is a visualization of a categorical variable. The variable is the proportion of people who sign up for a warranty on their coffee maker. The segmented bar chart shows the proportion who has signed up for the warranty and the proportion who did not sign up for the warranty.\n\nLooking at Company\nC\n, they had approximately\n0.70\nsign up for the warranty, while Company\nA\nhad about\n0.35\nand Company\nB\nhad approximately\n0.55\n, so Company\nC\ndid not have more than Company\nA\nand\nB\ncombined.\n\nChoice 'B' is correct.",
   "explanations": {},
   "tags": [
     "UNC-1.E",

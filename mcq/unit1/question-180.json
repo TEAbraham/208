@@ -10,31 +10,32 @@
   ],
   "title": "Comparing Boxplots: Grade Distributions",
   "difficulty": "Medium",
-  "question_text": "After giving a recent test, a teacher wanted to compare the distributions of grades earned by students in each of her two AP Statistics classes. The distributions are shown in the boxplots below.\nCreated for Albert.io. Copyright 2016. All rights reserved.\nBased on the boxplots, which of the following is a correct conclusion about the distribution of grades in the two classes?",
+  "question_text": "After giving a recent test, a teacher wanted to compare the distributions of grades earned by students in each of her two AP Statistics classes. The distributions are shown in the boxplots below.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>Based on the boxplots, which of the following is a correct conclusion about the distribution of grades in the two classes?",
   "image_files": [
-    "images/question-180-img1.PNG"
+    "images/question-180-img1.PNG",
+    "images/question-180-img2.PNG"
   ],
   "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The range of scores was larger in Class $\\#1$ than in Class $\\#2$, but the IQR was smaller for Class $\\#1$ than for Class $\\#2$."
+      "text": "The range of scores was larger in Class #1\nthan in Class #2\n, but the IQR was smaller for Class #1\nthan for Class #2\n."
     },
     {
       "letter": "B",
-      "text": "About 75% of the students in Class #1 scored higher on the test than about half the students in Class #2."
+      "text": "About\n75\n%\nof the students in Class\n#\n1\nscored higher on the test than about half the students in Class\n#\n2\n."
     },
     {
       "letter": "C",
-      "text": "About 75% of the students in Class #2 scored higher on the test than almost all of the students in Class #1."
+      "text": "About\n75\n%\nof the students in Class\n#\n2\nscored higher on the test than almost all of the students in Class\n#\n1\n."
     },
     {
       "letter": "D",
-      "text": "A smaller percentage of students in Class #1\nachieved scores below their class median than in Class #2\n."
+      "text": "A smaller percentage of students in Class\n#\n1\nachieved scores below their class median than in Class\n#\n2\n."
     },
     {
       "letter": "E",
-      "text": "More students in Class #1\nachieved scores of 80\nor above on the test than in Class #2\n."
+      "text": "More students in Class\n#\n1\nachieved scores of\n80\nor above on the test than in Class\n#\n2\n."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",

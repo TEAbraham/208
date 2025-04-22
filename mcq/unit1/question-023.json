@@ -7,7 +7,7 @@
   ],
   "title": "Farmer's Market",
   "difficulty": "Easy",
-  "question_text": "The director of a local farmers market is interested in classifying the vendors by the products that they sell. The table below shows vendors classified.\nType Count\nProduce $26$\nFood Truck $16$\nApparel $7$\nCrafts $6$\nWhich of the following is true?",
+  "question_text": "The director of a local farmers market is interested in classifying the vendors by the products that they sell. The table below shows vendors classified.<br>Which of the following is true?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Type</th><th scope=\"col\">Count</th></tr></thead><tbody><tr><td>Produce</td><td><span class=\"tex2jax_process\">$26$</span></td></tr><tr><td>Food Truck</td><td><span class=\"tex2jax_process\">$16$</span></td></tr><tr><td>Apparel</td><td><span class=\"tex2jax_process\">$7$</span></td></tr><tr><td>Crafts</td><td><span class=\"tex2jax_process\">$6$</span></td></tr></tbody></table>"
@@ -31,7 +31,7 @@
     },
     {
       "letter": "E",
-      "text": "Produce vendors make up over $50\\%$ of the vendors."
+      "text": "Produce vendors make up over 50% of the vendors."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",

@@ -7,11 +7,9 @@
   ],
   "title": "Car Colors: A Frequency Graph",
   "difficulty": "Medium",
-  "question_text": "Henry decided to research the distribution of car colors driven by staff members at his high school. After recording the colors of all cars parked in the faculty parking lot one day, he created the following graph.\nWhich of the following statements cannot be justified by the graph?",
+  "question_text": "Henry decided to research the distribution of car colors driven by staff members at his high school. After recording the colors of all cars parked in the faculty parking lot one day, he created the following graph.<br>Which of the following statements cannot be justified by the graph?",
   "image_files": [
-    "images/question-036-img1.png",
-    "images/question-036-img2.png",
-    "images/question-036-img3.png"
+    "images/question-036-img1.png"
   ],
   "tables": [],
   "choices": [
@@ -25,7 +23,7 @@
     },
     {
       "letter": "C",
-      "text": "About\n24\n%\nof the cars in the faculty parking lot were \"white\"."
+      "text": "About 24%\nof the cars in the faculty parking lot were \"white\"."
     },
     {
       "letter": "D",

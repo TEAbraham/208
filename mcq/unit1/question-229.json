@@ -8,7 +8,7 @@
   ],
   "title": "Proportions: Chocolate Manufacturing",
   "difficulty": "Medium",
-  "question_text": "A certain chocolate bar is advertised as having a weight of $1\\text{ ounce}$.\nTo minimize the number of consumer complaints about underweight candy bars, the candy company sets its machines to produce chocolate bars whose weights are normally distributed with $\\mu = 1.1\\text{ ounces}$ and $\\sigma = 0.08\\text{ ounces}$.\nWhat proportion of chocolate bars will weigh $1\\text{ ounce}$ or more?",
+  "question_text": "A certain chocolate bar is advertised as having a weight of $1\\text{ ounce}$.<br>To minimize the number of consumer complaints about underweight candy bars, the candy company sets its machines to produce chocolate bars whose weights are normally distributed with $\\mu = 1.1\\text{ ounces}$ and $\\sigma = 0.08\\text{ ounces}$.<br>What proportion of chocolate bars will weigh $1\\text{ ounce}$ or more?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -30,7 +30,7 @@
     },
     {
       "letter": "E",
-      "text": "$0.8944$"
+      "text": "0.8944"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",

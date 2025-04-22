@@ -10,7 +10,7 @@
   ],
   "title": "Stemplot",
   "difficulty": "Medium",
-  "question_text": "An economist studied the annual returns of $24$ randomly selected stocks over a given year. The stem-and-leaf plot below shows the returns (in percents) on these stocks over the year.\nStem-and-leaf display: returns\n*Stem-and-leaf of returns: N = $24$\n*Leaf unit = $1.0$\nKey: $1 | 3 = 13\\%$\n$-1| 2$\n$-0|$\n$-0| 4$\n$0 |34$\n$0 |677$\n$1 |013344$\n$1 |5566$\n$2 |011$\n$2 |79$\n$3 |0$\n$3 |7$\nThe mean return of these $24$ stocks is closest to:",
+  "question_text": "An economist studied the annual returns of $24$ randomly selected stocks over a given year. The stem-and-leaf plot below shows the returns (in percents) on these stocks over the year.<br>Stem-and-leaf display: returns<br>*Stem-and-leaf of returns: N = $24$<br>*Leaf unit = $1.0$<br>Key: $1 | 3 = 13\\%$<br>$-1| 2$\n$-0|$\n$-0| 4$\n$0 |34$\n$0 |677$\n$1 |013344$\n$1 |5566$\n$2 |011$\n$2 |79$\n$3 |0$\n$3 |7$<br>The mean return of these $24$ stocks is closest to:",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -28,7 +28,7 @@
     },
     {
       "letter": "D",
-      "text": "$-12\\%$"
+      "text": "−12%"
     },
     {
       "letter": "E",

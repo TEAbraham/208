@@ -8,7 +8,7 @@
   ],
   "title": "Lake Houses",
   "difficulty": "Medium",
-  "question_text": "Sam is vacationing at his friend's lake house one weekend. He's curious about the favorite water activity of the other people at the lake. So, he polls $150$ people at the lake and asks them what is their favorite water activity. The table below summarizes the data.\nActivity Relative Frequency\nBoating $0.24$\nFishing $0.20$\nTubing $0.18$\nKayaking $0.16$\nPaddle-Boarding $0.12$\nSwimming $0.06$\nWhich of the following statements is supported by the table?",
+  "question_text": "Sam is vacationing at his friend's lake house one weekend. He's curious about the favorite water activity of the other people at the lake. So, he polls $150$ people at the lake and asks them what is their favorite water activity. The table below summarizes the data.<br>Which of the following statements is supported by the table?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Activity</th><th scope=\"col\">Relative Frequency</th></tr></thead><tbody><tr><td>Boating</td><td><span class=\"tex2jax_process\">$0.24$</span></td></tr><tr><td>Fishing</td><td><span class=\"tex2jax_process\">$0.20$</span></td></tr><tr><td>Tubing</td><td><span class=\"tex2jax_process\">$0.18$</span></td></tr><tr><td>Kayaking</td><td><span class=\"tex2jax_process\">$0.16$</span></td></tr><tr><td>Paddle-Boarding</td><td><span class=\"tex2jax_process\">$0.12$</span></td></tr><tr><td>Swimming</td><td><span class=\"tex2jax_process\">$0.06$</span></td></tr></tbody></table>"
@@ -36,7 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "The data above is summarized in a relative table that takes the favorite activity and gives the relative frequency of the responses. The relative frequency represent the proportion of times the activity was answered, and all the relative frequencies add up to be 1\n.\n\nIn order to figure out the amount of people who answered boating as their favorite activity, we need to take the number of people who responded and multiply it by the relative frequency. For example, for boating, we will do the following:\n\n(Number of responders)(Relative Frequency)\n150(0.24)\n=36 people\n\nTherefore, 36\npeople answered boating as their favorite activity.\n\nChoice 'B' is correct.",
+  "solution": "The data above is summarized in a relative table that takes the favorite activity and gives the relative frequency of the responses. The relative frequency represent the proportion of times the activity was answered, and all the relative frequencies add up to be $1$.\n\nIn order to figure out the amount of people who answered boating as their favorite activity, we need to take the number of people who responded and multiply it by the relative frequency. For example, for boating, we will do the following:\n\n$$\\text{(Number of responders)(Relative Frequency)}$$\n$$150(0.24)$$\n$$=36 \\text{ people}$$\n\nTherefore, $36$ people answered boating as their favorite activity.\n\nChoice 'B' is correct.",
   "explanations": {},
   "tags": [
     "UNC-1.A.1",

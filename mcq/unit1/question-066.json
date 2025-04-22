@@ -7,7 +7,7 @@
   ],
   "title": "Shoe Size Outlier",
   "difficulty": "Easy",
-  "question_text": "The dotplot below shows the shoe sizes for a group of $31\\text{ nine-year-old girls}$.\nWhich of the following is the MOST plausible conclusion that can be made from the dotplot?",
+  "question_text": "The dotplot below shows the shoe sizes for a group of $31\\text{ nine-year-old girls}$.<br>Which of the following is the MOST plausible conclusion that can be made from the dotplot?<br>",
   "image_files": [
     "images/question-066-img1.JPG"
   ],
@@ -15,19 +15,19 @@
   "choices": [
     {
       "letter": "A",
-      "text": "The shoe size of 10 should be thrown out."
+      "text": "The shoe size of\n10\nshould be thrown out."
     },
     {
       "letter": "B",
-      "text": "Most of the girls have shoe sizes greater than 5\n."
+      "text": "Most of the girls have shoe sizes greater than\n5\n."
     },
     {
       "letter": "C",
-      "text": "One of the girls' shoe sizes was accidentally recorded as a 10\ninstead of a 1\n."
+      "text": "One of the girls' shoe sizes was accidentally recorded as a\n10\ninstead of a\n1\n."
     },
     {
       "letter": "D",
-      "text": "Most of the girls have a shoe size of 2\nor less."
+      "text": "Most of the girls have a shoe size of\n2\nor less."
     },
     {
       "letter": "E",

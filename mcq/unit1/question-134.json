@@ -10,7 +10,7 @@
   ],
   "title": "Penguin: Determining Outliers",
   "difficulty": "Medium",
-  "question_text": "A random sample of the weights of $40\\text{ Emperor penguins}$ (in pounds) is taken. The table below displays the summary statistics.\n\nVariable N Mean Median Standard Deviation Minimum Q1 Q3 Maximum\nWeight 40 56.1 42.3 7.2 21.3 32.5 54.2 88.7\n\n\nUsing the IQR method, which conclusion can be drawn about the number of outliers in this data set?",
+  "question_text": "A random sample of the weights of $40\\text{ Emperor penguins}$ (in pounds) is taken. The table below displays the summary statistics.<br>Using the IQR method, which conclusion can be drawn about the number of outliers in this data set?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">Median</th><th scope=\"col\">Standard Deviation</th><th scope=\"col\">Minimum</th><th scope=\"col\">Q1</th><th scope=\"col\">Q3</th><th scope=\"col\">Maximum</th></tr></thead><tbody><tr><td>Weight</td><td>40</td><td>56.1</td><td>42.3</td><td>7.2</td><td>21.3</td><td>32.5</td><td>54.2</td><td>88.7</td></tr></tbody></table>"
@@ -26,15 +26,15 @@
     },
     {
       "letter": "C",
-      "text": "There are no more than $1$ outlier."
+      "text": "There are no more than 1 outlier."
     },
     {
       "letter": "D",
-      "text": "There are at least $2$ outliers."
+      "text": "There are at least 2 outliers."
     },
     {
       "letter": "E",
-      "text": "There are no more than $2$ outliers."
+      "text": "There are no more than 2 outliers."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",

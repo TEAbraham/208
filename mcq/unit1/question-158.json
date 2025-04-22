@@ -9,10 +9,8 @@
   ],
   "title": "Fitness Tracker: Determining Shape from a 5-Number Summary",
   "difficulty": "Easy",
-  "question_text": "For several months now, Wally has been using a fitness tracker to keep track of how many steps he takes each day. From data that he has collected, he calculated the $5$-number summary to be:\n$\\text{Min}: 3190$\n$\\text{Q1}: 6423$\n$\\text{Med}: 7807$\n$\\text{Q3}: 9672$\n$\\text{Max}: 17210$\nWally wants to make a boxplot so that he can determine the shape of the distribution. Unfortunately, he walked $17210$ steps today and is too tired to create the boxplot! Wanda tells Wally not to worry. She can determine the shape of the distribution from the $5$-number summary using all the data available.\nWhat would Wanda tell Wally?",
-  "image_files": [
-    "images/question-158-img1.PNG"
-  ],
+  "question_text": "For several months now, Wally has been using a fitness tracker to keep track of how many steps he takes each day. From data that he has collected, he calculated the $5$-number summary to be:<br>$\\text{Min}: 3190$\n$\\text{Q1}: 6423$\n$\\text{Med}: 7807$\n$\\text{Q3}: 9672$\n$\\text{Max}: 17210$<br>Wally wants to make a boxplot so that he can determine the shape of the distribution. Unfortunately, he walked $17210$ steps today and is too tired to create the boxplot! Wanda tells Wally not to worry. She can determine the shape of the distribution from the $5$-number summary using all the data available.<br>What would Wanda tell Wally?",
+  "image_files": [],
   "tables": [],
   "choices": [
     {
@@ -33,7 +31,7 @@
     },
     {
       "letter": "E",
-      "text": "A 5\n-number summary can never determine the shape of the distribution ."
+      "text": "A $5$-number summary can never determine the shape of the distribution ."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",

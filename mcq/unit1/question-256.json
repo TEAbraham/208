@@ -8,7 +8,7 @@
   ],
   "title": "Probabilities Associated With a Particular $z$-score",
   "difficulty": "Hard",
-  "question_text": "Suppose a $z$-score was calculated and the value was found to be $k$.\nBased upon the standard normal distribution, which of the following statements is false?",
+  "question_text": "Suppose a $z$-score was calculated and the value was found to be $k$.<br>Based upon the standard normal distribution, which of the following statements is false?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -30,7 +30,7 @@
     },
     {
       "letter": "E",
-      "text": "If $k > 0$, then $p\\left( z\\ge k \\right) <0.50$."
+      "text": "If k>0, then p(z≥k)<0.50."
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
