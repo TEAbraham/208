@@ -104,7 +104,20 @@ async function updateScore(uid) {
 function renderQuestion(q) {
   questionTitle.textContent = q.title || "";
   questionDifficulty.textContent = `Difficulty: ${q.difficulty || "Medium"}`;
-  questionText.innerHTML = q.question_text || "";
+  const cleanedText = (q.question_text || "")
+    .replace(/\n/g, "<br>")
+    .replace(/Created for Albert\.io\. Copyright 2017\. All rights reserved\./gi, "<br>")
+    .replace(/Created for Albert\.io\. Copyright 2016\. All rights reserved\./gi, "<br>")
+    .replace(/Created for Albert\.io\. Copyright 2015\. All rights reserved\./gi, "<br>")
+    .replace(/Created for Albert\.io\. Copyright 2014\. All rights reserved\./gi, "<br>")
+    .replace(/Created for Albert\.io\. Copyright 2013\. All rights reserved\./gi, "<br>")
+    .replace(/Created for Albert\.io\. Copyright 2012\. All rights reserved\./gi, "<br>")
+    .replace(/Created for Albert\.io\. Copyright 2011\. All rights reserved\./gi, "<br>")
+    .replace(/Created for Albert\.io\. Copyright 2010\. All rights reserved\./gi, "<br>")
+    .replace(/Created for Albert\.io\. Copyright 2009\. All rights reserved\./gi, "<br>")
+    .replace(/Created for Albert\.io\. Copyright 2008\. All rights reserved\./gi, "<br>");
+
+  questionText.innerHTML = cleanedText;
 
   if (window.MathJax) MathJax.typesetPromise();
 
