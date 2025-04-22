@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Firebase -->
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
+      import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, onAuthStateChanged, signInWithPopup, GoogleAuthProvider  } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
+      import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
+      import { firebaseConfig } from '../../js/firebase-config.js';
+
+      const app = initializeApp(firebaseConfig);
+      const auth = getAuth(app);
+      const db = getFirestore(app);
+
+      // Check if user is logged in
+      onAuthStateChanged(auth, (user) => {
+          if (!user) {
+              // User not logged in, save current page before redirecting
+              localStorage.setItem("redirectAfterLogin", window.location.href);
+              window.location.href = "../../index.html";
+          }
+      });
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 2</title>
+
+    <!-- CSS Imports -->
+    <link rel="stylesheet" type="text/css" href="../../css/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/jquery.fullpage.css" />
+    <link rel="stylesheet" href="../../css/home.css">
+    <link rel="stylesheet" href="style.css">
+    <!--Fonts-->
+    <link href="//fonts.googleapis.com/css?family=Lato:100,200,300,400" rel="stylesheet" type="text/css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="../../img/favicon.png" />
+
+    <!-- JavaScript Imports -->
+    <!-- Jquery -->
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/jquery-ui.js"></script>
+    <!-- jstat -->
+    <script src="../../js/jStat.js"></script>
+    <!-- LaTeXMathML -->
+    <script src="../../js/LaTeXMathML.js" async></script>
+    <!-- D3 -->
+    <script src="../../js/d3.v7.min.js"></script>
+    <script src="../../js/d3.v7.hexbin.min.js"></script>
+    <!-- Module scripts -->
+    <script type="module" src="../../js/script.js"></script>
+    <script type="module" src="../../js/home.js"></script>
+    <!-- MathJax for rendering LaTeX -->
+    <script>
+        window.MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$', '$$'], ['\\[', '\\]']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+  </head>
+  <body>
+      <header class="menu-top">
+          <ul id="menu">
+              <li class="dropdown">
+                  <a href="../../home.html" class="dropbtn">Home</a>
+                  <ul class="dropdown-content">
+                      <li><a href="../../home.html#unit1">Unit 1</a></li>
+                      <li><a href="../../home.html#unit2">Unit 2</a></li>
+                      <li><a href="../../home.html#unit3">Unit 3</a></li>
+                      <li><a href="../../home.html#unit4">Unit 4</a></li>
+                      <li><a href="../../home.html#unit5">Unit 5</a></li>
+                      <li><a href="../../home.html#unit6">Unit 6</a></li>
+                      <li><a href="../../home.html#unit7">Unit 7</a></li>
+                      <li><a href="../../home.html#unit8">Unit 8</a></li>
+                      <li><a href="../../home.html#unit9">Unit 9</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown">
+                  <a href="https://classroom.google.com/u/1/" class="dropbtn" target="_blank">Classroom</a>
+                  <ul class="dropdown-content">
+                      <li><a href="https://classroom.google.com/u/1/c/NzA4OTk2OTI3MzAw" target="_blank">Announcements</a></li>
+                      <li><a href="https://classroom.google.com/u/1/w/NzA4OTk2OTI3MzAw/t/all" target="_blank">Course Documents</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown">
+                <a href="../../apps" class="dropbtn">Apps</a>
+                <ul class="dropdown-content">
+                  <li><a href="../../apps/conditional_probability/">Conditional Probability</a></li>
+                  <li><a href="../../apps/galton_board/">Galton Board</a></li>
+                  <li><a href="../../apps/normal_distribution/">Normal Distribution</a></li>
+                  <li><a href="../../apps/binomial_distribution/">Binomial Distribution</a></li>
+                  <li><a href="../../apps/geometric_distribution/">Geometric Distribution</a></li>
+                  <li><a href="../../apps/random_variables/">Random Variables</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="../../mcq/" class="dropbtn">MCQ</a>
+              </li>
+              <li id="logoutButton" style="display:none;"><a href="../../index.html" onclick="logout('../../index.html')">Logout</a></li>
+          </ul>
+          <span id="user-email" style="color:darkgreen; margin-left: 1em;"></span>
+          <div id="logo"></div>
+      </header>
+      <main id="mcq-container" style="display:none; max-width: 800px; margin: auto; padding: 2em;">
+        <div id="unit-score" style="margin-bottom: 1em; font-size: 1.1em;"></div>
+        <h2 id="question-title"></h2><p id="question-difficulty"></p>
+        <div id="question-images" style="margin-bottom: 1em;"></div>
+        <div id="question-tables" style="margin-bottom: 1em;"></div>
+        <br>
+        <div id="question-text" style="margin-bottom: 1em; font-size: 1.2em;"></div>
+        <br>
+        <div id="question-choices" style="margin-bottom: 1em;"></div>
+        <br>
+        <button id="submit" class="button-1 perspective" style="padding: 10px 20px; font-size: 1em;">Submit Answer</button>
+        <button id="next-question" class="button-1 perspective" style="padding: 10px 20px; font-size: 1em; display: none;">Next Question</button>
+        <br>
+        <div id="feedback" style="margin-top: 1em; font-weight: bold;"></div>
+        <div id="question-correct_answer" style="margin-bottom: 1em; font-size: 1.2em; visibility: hidden;"></div>
+        <div id="question-solution" style="margin-bottom: 1em; font-size: 1.2em; visibility: hidden;"></div>
+        <br>
+      </main>
+
+      <!-- Quiz logic -->
+      <script type="module" src="script.js"></script>
+    </body>
+</html>
