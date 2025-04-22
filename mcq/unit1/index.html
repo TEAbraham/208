@@ -50,6 +50,19 @@
     <!-- Module scripts -->
     <script type="module" src="../../js/script.js"></script>
     <script type="module" src="../../js/home.js"></script>
+    <!-- MathJax for rendering LaTeX -->
+    <script>
+        window.MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$', '$$'], ['\\[', '\\]']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
   </head>
   <body>
       <header class="menu-top">
@@ -95,22 +108,25 @@
           <div id="logo"></div>
       </header>
       <main id="mcq-container" style="display:none; max-width: 800px; margin: auto; padding: 2em;">
-        <h2>Unit 1 Question</h2>
-
+        <div id="unit-score" style="margin-bottom: 1em; font-size: 1.1em;"></div>
+        <h2 id="question-title"></h2><p id="question-difficulty"></p>
+        <div id="question-images" style="margin-bottom: 1em;"></div>
+        <div id="question-tables" style="margin-bottom: 1em;"></div>
+        <br>
         <div id="question-text" style="margin-bottom: 1em; font-size: 1.2em;"></div>
         <br>
-        <div id="question-images" style="margin-bottom: 1em;"></div>
+        <div id="question-choices" style="margin-bottom: 1em;"></div>
         <br>
-        <div id="choices" style="margin-bottom: 1em;"></div>
-        <br>
-        <button id="submit" style="padding: 10px 20px; font-size: 1em;">Submit</button>
+        <button id="submit" style="padding: 10px 20px; font-size: 1em;">Submit Answer</button>
+        <button id="next-question" style="padding: 10px 20px; font-size: 1em; display: none;">Next Question</button>
         <br>
         <div id="feedback" style="margin-top: 1em; font-weight: bold;"></div>
+        <div id="question-correct_answer" style="margin-bottom: 1em; font-size: 1.2em; visibility: hidden;"></div>
+        <div id="question-solution" style="margin-bottom: 1em; font-size: 1.2em; visibility: hidden;"></div>
+        <br>
       </main>
 
       <!-- Quiz logic -->
       <script type="module" src="script.js"></script>
-      <!-- MathJax for rendering LaTeX -->
-      <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
     </body>
 </html>

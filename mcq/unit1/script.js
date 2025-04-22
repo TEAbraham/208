@@ -1,83 +1,130 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
-import { getFirestore, collection, query, where, getDocs, doc, setDoc } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
-import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
+import {
+  getFirestore, collection, query, where, getDocs, doc, setDoc
+} from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
+import {
+  getAuth, onAuthStateChanged
+} from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
 import { firebaseConfig } from "../../js/firebase-config.js";
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const auth = getAuth(app);
 
-// Elements
+// UI Elements
 const mcqContainer = document.getElementById("mcq-container");
-const questionText = document.getElementById("question-text");
+
+const unitScore = document.getElementById("unit-score");
+const questionTitle = document.getElementById("question-title");
+const questionDifficulty = document.getElementById("question-difficulty");
 const questionImages = document.getElementById("question-images");
-const choicesDiv = document.getElementById("choices");
-const submitBtn = document.getElementById("submit");
+const questionTables = document.getElementById("question-tables");
+const questionText = document.getElementById("question-text");
+const questionChoices = document.getElementById("question-choices");
 const feedbackDiv = document.getElementById("feedback");
+const correctDiv = document.getElementById("question-correct_answer");
+const solutionDiv = document.getElementById("question-solution");
+const explanationDiv = document.getElementById("question-explanations");
 
-let selectedAnswer = null;
+const submitBtn = document.getElementById("submit");
+const nextBtn = document.getElementById("next-question");
+
 let currentQuestion = null;
+let selectedAnswer = null;
+let allQuestions = [];
 
-onAuthStateChanged(auth, async user => {
+onAuthStateChanged(auth, async (user) => {
   if (!user) return;
-
   mcqContainer.style.display = "block";
 
-  const qSnap = await getDocs(query(
+  const snapshot = await getDocs(query(
     collection(db, "mcq_questions"),
     where("unit", "==", "unit1")
   ));
 
-  const questions = qSnap.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-  currentQuestion = questions[Math.floor(Math.random() * questions.length)];
-
-  renderQuestion(currentQuestion);
+  allQuestions = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
+  updateScore(user.uid);
+  showNewQuestion();
 });
 
-function renderQuestion(q) {
-  questionText.innerText = q.question_text;
-
-  // ✅ Tell MathJax to re-render LaTeX
-  if (window.MathJax) {
-    MathJax.typesetPromise();
-  }
-
-  // Render images
-  questionImages.innerHTML = "";
-  if (q.image_urls) {
-    q.image_urls.forEach(url => {
-      const img = document.createElement("img");
-      img.src = url;
-      img.style.maxWidth = "300px";
-      img.style.margin = "5px";
-      questionImages.appendChild(img);
-    });
-  }
-
-  // Render choices
-  choicesDiv.innerHTML = "";
+function showNewQuestion() {
   selectedAnswer = null;
-  q.choices.forEach(choice => {
+  const idx = Math.floor(Math.random() * allQuestions.length);
+  currentQuestion = allQuestions[idx];
+  renderQuestion(currentQuestion);
+}
+
+function updateScore(uid) {
+  getDocs(query(collection(db, "student_answers"), where("userId", "==", uid)))
+    .then(snapshot => {
+      let score = 0;
+      snapshot.forEach(doc => {
+        const data = doc.data();
+        if (!data.questionId.startsWith("unit1_")) return;
+
+        const difficulty = (data.difficulty || "medium").toLowerCase();
+        const pointMap = { easy: 1, medium: 2, hard: 3 };
+        const base = pointMap[difficulty] || 2;
+        score += data.correct ? base : -1;
+      });
+
+      unitScore.innerText = `Unit 1 Progress: ${score} / 50 pts`;
+    });
+}
+
+function renderQuestion(q) {
+  questionTitle.textContent = q.title || "";
+  questionDifficulty.textContent = `Difficulty: ${q.difficulty || "Medium"}`;
+  questionText.innerHTML = q.question_text || "";
+
+  if (window.MathJax) MathJax.typesetPromise();
+
+  questionImages.innerHTML = "";
+  (q.image_urls || []).forEach(url => {
+    const img = document.createElement("img");
+    img.src = url;
+    img.style.maxWidth = "400px";
+    img.style.margin = "5px";
+    questionImages.appendChild(img);
+  });
+
+  questionTables.innerHTML = "";
+  (q.tables || []).forEach(html => {
+    if (window.MathJax) MathJax.typesetPromise();
+    const el = document.createElement("div");
+    el.innerHTML = html;
+    questionTables.appendChild(el);
+  });
+
+  questionChoices.innerHTML = "";
+  (q.choices || []).forEach(choice => {
+    if (window.MathJax) MathJax.typesetPromise();
     const btn = document.createElement("button");
     btn.innerText = `${choice.letter}: ${choice.text}`;
+    btn.style.display = "block";
+    btn.style.marginBottom = "0.5em";
+    btn.dataset.letter = choice.letter;
     btn.onclick = () => {
       selectedAnswer = choice.letter;
-      document.querySelectorAll("#choices button").forEach(b => b.style.background = "");
-      btn.style.background = "lightblue";
+      document.querySelectorAll("#question-choices button").forEach(b => b.style.background = "");
+      btn.style.background = "#d0eaff";
     };
-    choicesDiv.appendChild(btn);
+    questionChoices.appendChild(btn);
   });
 
   feedbackDiv.innerText = "";
+  correctDiv.style.visibility = "hidden";
+  correctDiv.innerText = "";
+  solutionDiv.style.visibility = "hidden";
+  solutionDiv.innerText = "";
+
+  nextBtn.style.display = "none";
 }
 
 submitBtn.onclick = async () => {
-  if (!selectedAnswer || !currentQuestion) {
-    alert("Please select an answer.");
-    return;
-  }
+  if (!selectedAnswer || !currentQuestion) return alert("Please select an answer.");
 
-  const correct = currentQuestion.correct_answer.includes(selectedAnswer);
+  const correct = currentQuestion.correct_answer?.includes(selectedAnswer);
 
   await setDoc(doc(db, "student_answers", `${auth.currentUser.uid}_${currentQuestion.id}`), {
     userId: auth.currentUser.uid,
@@ -89,4 +136,25 @@ submitBtn.onclick = async () => {
   });
 
   feedbackDiv.innerText = correct ? "✅ Correct!" : "❌ Incorrect.";
+
+  document.querySelectorAll("#question-choices button").forEach(btn => {
+    const isCorrect = currentQuestion.correct_answer.includes(btn.dataset.letter);
+    btn.style.background = isCorrect ? "#a6f3a6" : (btn.dataset.letter === selectedAnswer ? "#fdaaa0" : "");
+  });
+
+  correctDiv.innerText = currentQuestion.correct_answer || "";
+  correctDiv.style.visibility = "visible";
+
+  solutionDiv.innerText = currentQuestion.solution || "";
+  solutionDiv.style.visibility = "visible";
+
+  if (window.MathJax) MathJax.typesetPromise();
+
+  updateScore(auth.currentUser.uid);
+  nextBtn.style.display = "inline-block";
+};
+
+nextBtn.onclick = () => {
+  showNewQuestion();
+  window.scrollTo({ top: 0, behavior: "smooth" });
 };
