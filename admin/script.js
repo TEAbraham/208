@@ -1,26 +1,26 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
-import {
-  getFirestore, collection, getDocs
-} from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
-import {
-  getAuth, onAuthStateChanged, getIdTokenResult
-} from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
-import { firebaseConfig } from "../js/firebase-config.js";
+// import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
+// import {
+//   getFirestore, collection, getDocs
+// } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
+// import {
+//   getAuth, onAuthStateChanged, getIdTokenResult
+// } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
+// import { firebaseConfig } from "../js/firebase-config.js";
 
-const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
-const auth = getAuth(app);
+// const app = initializeApp(firebaseConfig);
+// const db = getFirestore(app);
+// const auth = getAuth(app);
 
 const units = ["unit1", "unit2", "unit3", "unit4", "unit5", "unit6", "unit7", "unit8", "unit9"];
 const tableBody = document.getElementById("dashboard-body");
 
 onAuthStateChanged(auth, async user => {
-  if (!user) return location.href = "/mcq"; // redirect to login if not signed in
+  if (!user) return location.href = "../index.html"; // redirect to login if not signed in
 
   const token = await getIdTokenResult(user);
   if (token.claims?.teacher !== true) {
     alert("Access denied. You must be a teacher.");
-    return location.href = "/mcq";
+    return location.href = "../index.html";
   }
 
   const [usersSnap, completionsSnap] = await Promise.all([
