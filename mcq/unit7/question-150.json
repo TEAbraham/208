@@ -1,0 +1,45 @@
+{
+  "question_id": "question-150",
+  "unit": "AP® Statistics | Unit 7 Assessment",
+  "topics": [
+    "confidence-interval-interpretations",
+    "confidence-interval",
+    "t-distribution"
+  ],
+  "title": "Confidence Interval Conclusion",
+  "difficulty": "Easy",
+  "question_text": "You come across this confidence interval:\n$$50\\pm2.492\\lgroup\\dfrac{6}{\\sqrt{25}}\\rgroup=(47.01,52.99)$$\nWhich of the following is a correct conclusion?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "We are $98\\%$ confident that the this confidence interval contains the population mean of $50$."
+    },
+    {
+      "letter": "B",
+      "text": "We know that $98\\%$ of the time this confidence interval contains all $25$ values."
+    },
+    {
+      "letter": "C",
+      "text": "We are confident that $98\\%$ of the time this confidence interval is correct."
+    },
+    {
+      "letter": "D",
+      "text": "We are $98\\%$ confident that the this confidence interval captures the population mean."
+    },
+    {
+      "letter": "E",
+      "text": "We are $99\\%$ confident that the this confidence interval captures the population mean."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-4.S",
+    "UNC-4.S.2",
+    "UNC-4"
+  ]
+}

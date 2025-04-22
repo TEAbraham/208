@@ -1,0 +1,48 @@
+{
+  "question_id": "question-074",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "graphical-displays-of-data",
+    "center-spread",
+    "univariate-data",
+    "exploring-data"
+  ],
+  "title": "Histogram Center",
+  "difficulty": "Medium",
+  "question_text": "A traffic engineer studied the speed of traffic on a side street. Her observations are represented in the histogram below.\nCreated for Albert.io. Copyright 2017. All rights reserved.\nHow does the mean speed compare to the median in the data displayed by this histogram?",
+  "image_files": [
+    "images/question-074-img1.jpg"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The value of the mean will be close to the value of the median."
+    },
+    {
+      "letter": "B",
+      "text": "The mean will be less than the median because the data is right skewed."
+    },
+    {
+      "letter": "C",
+      "text": "The mean will be greater than the median because the data is left skewed."
+    },
+    {
+      "letter": "D",
+      "text": "The mean will be less than the median because the data is left skewed."
+    },
+    {
+      "letter": "E",
+      "text": "The mean will be greater than the median because the data is right skewed."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.H",
+    "2.D",
+    "UNC-1.H.3",
+    "UNC-1"
+  ]
+}

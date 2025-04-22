@@ -1,0 +1,45 @@
+{
+  "question_id": "question-022",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "confidence-interval-interpretations",
+    "slope",
+    "linear-regression"
+  ],
+  "title": "An Association?",
+  "difficulty": "Easy",
+  "question_text": "We are trying to show that there is an association between study time and test performance. A $98\\%$ confidence interval for the slope of this regression model is $(-0.24, 1.03)$.\nCan you conclude that an association exists? Why or why not?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "No because zero is included in the interval, we do not have convincing evidence that there is an association between study time and test performance."
+    },
+    {
+      "letter": "B",
+      "text": "No because we do not have a very large slope, we do not have convincing evidence that there is an association between study time and test performance."
+    },
+    {
+      "letter": "C",
+      "text": "Yes because zero is included in the interval, we do have convincing evidence that there is an association between study time and test performance."
+    },
+    {
+      "letter": "D",
+      "text": "Yes because we are $98\\%$ confident of what our true slope will be, we do have convincing evidence that there is an association between study time and test performance."
+    },
+    {
+      "letter": "E",
+      "text": "Yes since it is more likely that the slope is positive, we do have convincing evidence that there is an association between study time and test performance."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.AH.1",
+    "UNC-4",
+    "4.A",
+    "UNC-4.AH"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-096",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval",
+    "calculating-margin-of-error"
+  ],
+  "title": "Tennis Anyone?",
+  "difficulty": "Easy",
+  "question_text": "A company was hired to compare the bounce height of two brands of tennis balls using a $90\\%$ confidence interval. A bounce method was established and $15$ balls were randomly selected and tested from each brand. Brand $1$ had a mean bounce height of $5.8$ feet and a standard deviation of $1.1$ feet. Brand $2$ had a bounce height of $5.3$ feet and a standard deviation of $0.9$ feet. Assuming that all conditions were met and that a $d.f. = 14$ would be used, find the margin of error of this confidence interval.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$5.14$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.237$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.646$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.787$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.367$"
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.X",
+    "3.D",
+    "UNC-4.X.1",
+    "UNC-4"
+  ]
+}

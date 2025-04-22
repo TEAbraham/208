@@ -1,0 +1,52 @@
+{
+  "question_id": "question-176",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "center-spread",
+    "mean",
+    "univariate-data",
+    "boxplots",
+    "median",
+    "comparing-distributions",
+    "exploring-data",
+    "interquartile-range"
+  ],
+  "title": "Parallel Boxplots: Male Pulse Rates Versus Female Pulse Rates",
+  "difficulty": "Medium",
+  "question_text": "A study was conducted to compare male pulse rates and female pulse rates.\nBased on the information displayed in the boxplots below, which of the following statements is TRUE?\nCreated for Albert.io. Copyright 2017. All rights reserved.",
+  "image_files": [
+    "images/question-176-img1.PNG"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Both distributions are skewed left."
+    },
+    {
+      "letter": "B",
+      "text": "At least 75% of the female pulse rates are greater than 50% of the male pulse rates."
+    },
+    {
+      "letter": "C",
+      "text": "The mean of the male pulse rates is less than the median of the male pulse rates."
+    },
+    {
+      "letter": "D",
+      "text": "The interquartile range for the female pulse rates is larger than the male pulse rates."
+    },
+    {
+      "letter": "E",
+      "text": "There are more data points among females than males."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.O",
+    "2.D",
+    "UNC-1.O.1",
+    "UNC-1"
+  ]
+}

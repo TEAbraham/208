@@ -1,0 +1,47 @@
+{
+  "question_id": "question-061",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "probability",
+    "discrete-random-variables"
+  ],
+  "title": "Police Tickets | 1 of 2",
+  "difficulty": "Easy",
+  "question_text": "X 1 2 3 4 5 6\nP(X) 0.04 0.11 0.33 0.35 0.14 0.03\n\n\nA local police officer gives out between $1$ and $6\\text{ tickets a day}$, the probability distribution table of which is shown above, where $X$ is the number of tickets handed out on any given day.\nWhat is the probability the officer gives out at least $4\\text{ tickets}$ on any given day?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">X</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th><th scope=\"col\">6</th></tr></thead><tbody><tr><td>P(X)</td><td>0.04</td><td>0.11</td><td>0.33</td><td>0.35</td><td>0.14</td><td>0.03</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.17$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.52$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.35$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.15$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.48$"
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4"
+  ]
+}

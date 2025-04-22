@@ -1,0 +1,45 @@
+{
+  "question_id": "question-094",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "confidence-interval",
+    "differences-in-proportions",
+    "initial-conditions"
+  ],
+  "title": "Check the Polls",
+  "difficulty": "Easy",
+  "question_text": "National polls for a political candidate were being compared between two different polling companies.\nCompany $1$ randomly polled $32$ people and found $22$ planning to vote for the candidate.\nCompany $2$ randomly polled $34$ people and found $31$ planning to vote for the candidate.\nA person was commissioned to analyze the results by creating a confidence interval for the difference between the two proportions. Which of the following pairs of checks would fail to verify the conditions for the confidence interval?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$\\dfrac{22}{32}\\times32$\n$\\dfrac{31}{34}\\times34$"
+    },
+    {
+      "letter": "B",
+      "text": "$\\dfrac{31}{34}\\times34$\n$(1-\\dfrac{31}{34})\\times34$"
+    },
+    {
+      "letter": "C",
+      "text": "$\\dfrac{22}{32}\\times32$\nBoth samples were randomly selected."
+    },
+    {
+      "letter": "D",
+      "text": "$\\dfrac{22}{32}\\times32$\n$(1-\\dfrac{22}{32})\\times32$"
+    },
+    {
+      "letter": "E",
+      "text": "$\\dfrac{31}{34}\\times34$\n$(1-\\dfrac{22}{32})\\times32$"
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.C",
+    "UNC-4.J.1",
+    "UNC-4.J",
+    "UNC-4"
+  ]
+}

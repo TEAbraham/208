@@ -1,0 +1,45 @@
+{
+  "question_id": "question-154",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "randomized-design"
+  ],
+  "title": "Correlation and Causation: Study Session",
+  "difficulty": "Medium",
+  "question_text": "Suppose a teacher decided to offer an after-school study session the day before a $100\\text{ point}$ test.\nThe $34\\text{ students}$ who came to this study session averaged scores $8\\text{ points}$ higher on the test than the $72\\text{ students}$ who did not come to the study session.\nBased on this information, what may one conclude?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Enough evidence exists to say the study session was helpful."
+    },
+    {
+      "letter": "B",
+      "text": "If the teacher really wanted to see if the study session is helpful, she should have randomly assigned students to attend the session."
+    },
+    {
+      "letter": "C",
+      "text": "Since the samples sizes were quite different, no reasonable comparisons can be made in this situation."
+    },
+    {
+      "letter": "D",
+      "text": "Since it was not a double-blind experiment, no reasonable comparisons can be made in this situation."
+    },
+    {
+      "letter": "E",
+      "text": "An increase of $8\\text{ points}$ is not significant enough to determine whether the study session helped."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.E.2"
+  ]
+}

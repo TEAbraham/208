@@ -1,0 +1,46 @@
+{
+  "question_id": "question-104",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "difference-two-proportions",
+    "confidence-interval",
+    "estimation",
+    "statistical-inference"
+  ],
+  "title": "Convertibles: Conclusions from a Confidence Interval",
+  "difficulty": "Medium",
+  "question_text": "In order to plan a new advertising campaign, a marketing firm wants to know whether men in a certain area of the country are more likely to purchase a convertible than women in that same area. To gather data, they took a random sample of men and a random sample of women who had recently purchased a new vehicle and then determined both the proportion of men and the proportion of women who had purchased a convertible. A $90\\%$ confidence interval for the difference in the proportion of men vs. women who purchased a convertible was found to be $(-0.021, 0.115)$.\nBased on this confidence interval should the marketing firm conclude that the proportion of men who purchase a convertible is higher than the proportion of women who purchase a convertible?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes. Most of the confidence interval consists of positive values which show that the proportion of men who purchase a convertible is greater than the proportion of women who purchase a convertible."
+    },
+    {
+      "letter": "B",
+      "text": "Yes. The proportion of women who purchase a convertible was estimated to be $0.021$ while the proportion of men who purchase a convertible was estimated to be $0.115$."
+    },
+    {
+      "letter": "C",
+      "text": "Yes. The difference in proportions of men and women who purchased a convertible was $0.047$ and this value is well above $0$."
+    },
+    {
+      "letter": "D",
+      "text": "No. Since $0$ is included in the confidence interval, there may be no difference in the proportion of men and the proportion of women who purchase a convertible."
+    },
+    {
+      "letter": "E",
+      "text": "No. The proportion of men who purchase a convertible was estimated to be $0.021$ while the proportion of women who purchase a convertible was estimated to be $0.115$. It actually appears that the proportion of women who purchase a convertible is higher than the proportion of men who purchase a convertible."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.N.1",
+    "4.D",
+    "UNC-4",
+    "UNC-4.N"
+  ]
+}

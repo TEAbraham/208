@@ -1,0 +1,47 @@
+{
+  "question_id": "question-125",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "type-of-signficance-test",
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
+  "title": "Which Type of Significance Test to Use: Sporting Event",
+  "difficulty": "Easy",
+  "question_text": "In a random sample of $100$ consumers at a sports store, $64$ indicated that they had gone to a professional sporting event in the past year. In an independent random sample of $75$ consumers from a bookstore, $15$ said they had gone to a professional sporting event in the past year.\nWhat significance test should be used to determine whether the proportion of consumers at a sports store attending a sporting event in the past year is significantly greater than the proportion of consumers at a bookstore attending a sporting event in the past year?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "One proportion z-test."
+    },
+    {
+      "letter": "B",
+      "text": "Two proportion z-test."
+    },
+    {
+      "letter": "C",
+      "text": "Chi-square goodness-of-fit test."
+    },
+    {
+      "letter": "D",
+      "text": "One sample t-test for means."
+    },
+    {
+      "letter": "E",
+      "text": "Two sample t-test for means."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.D.1",
+    "DAT-3.D.2",
+    "DAT-3",
+    "DAT-3.D"
+  ]
+}

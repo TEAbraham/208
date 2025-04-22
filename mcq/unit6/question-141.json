@@ -1,0 +1,45 @@
+{
+  "question_id": "question-141",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "difference-two-proportions",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
+  "title": "Ghost Sightings: Investigating Proportions",
+  "difficulty": "Hard",
+  "question_text": "According to some studies, women are more likely to believe in ghosts than men. Casper wondered whether women were also more likely to report having seen a ghost than men and decided to do a study.\nIn Casper's random sample of $85$ women, $10$ women reported having seen a ghost at some point in their lives. In his random sample of $63$ men, only $4$ reported having seen a ghost.\nWhich of the following shows how to calculate the z-statistic for a test of the difference in the proportions of men and women who would report that they have seen a ghost?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$\\dfrac { \\frac { 10 }{ 85 } -\\frac { 4 }{ 63 } }{ \\sqrt { \\left( \\frac { 10 }{ 85 } \\right) \\left( \\frac { 4 }{ 63 } \\right) \\left( \\frac { 1 }{ 85 } +\\frac { 1 }{ 63 } \\right) } } $"
+    },
+    {
+      "letter": "B",
+      "text": "$\\dfrac { \\frac { 10 }{ 85 } -\\frac { 4 }{ 63 } }{ \\sqrt { \\left( \\frac { 14 }{ 148 } \\right) \\left( \\frac { 134 }{ 148 } \\right) \\left( \\frac { 10 }{ 85 } +\\frac { 4 }{ 63 } \\right) } } $"
+    },
+    {
+      "letter": "C",
+      "text": "$\\dfrac { \\frac { 10 }{ 85 } -\\frac { 4 }{ 63 } }{ \\sqrt { \\left( \\frac { 14 }{ 148 } \\right) \\left( \\frac { 134 }{ 148 } \\right) \\left( \\frac { 1 }{ 85 } +\\frac { 1 }{ 63 } \\right) } }$"
+    },
+    {
+      "letter": "D",
+      "text": "$\\dfrac { \\frac { 10 }{ 85 } -\\frac { 4 }{ 63 } }{ \\sqrt { \\frac { \\left( \\frac { 4 }{ 63 } \\right) \\left( \\frac { 59 }{ 63 } \\right) }{ 63 } +\\frac { \\left( \\frac { 10 }{ 85 } \\right) \\left( \\frac { 75 }{ 85 } \\right) }{ 85 } } }$"
+    },
+    {
+      "letter": "E",
+      "text": "$\\dfrac { \\frac { 10 }{ 85 } -\\frac { 4 }{ 63 } }{ \\sqrt { \\frac { \\left( \\frac { 4 }{ 63 } \\right) \\left( \\frac { 10 }{ 85 } \\right) }{ 148 } +\\frac { \\left( \\frac { 59 }{ 63 } \\right) \\left( \\frac { 75 }{ 85 } \\right) }{ 148 } } } $"
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-6.K",
+    "3.E",
+    "VAR-6.K.1",
+    "VAR-6"
+  ]
+}

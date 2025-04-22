@@ -1,0 +1,47 @@
+{
+  "question_id": "question-028",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval",
+    "mean",
+    "estimation",
+    "statistical-inference"
+  ],
+  "title": "Annual Income Interval",
+  "difficulty": "Hard",
+  "question_text": "One hundred randomly chosen adult subjects in Jacksonville, FL, were asked their annual income.\nThe data reported from the sample was approximately normal and showed a mean of $\\$46{,}203$ with a standard deviation of $\\$10{,}201$.\nA $95\\%$ confidence interval would show, approximately, that we are $95 \\% $ confident the average annual income for Jacksonville, Florida residents is between:",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$\\$36{,}002$ and $\\$56{,}404$"
+    },
+    {
+      "letter": "B",
+      "text": "$\\$44{,}204$ and $\\$48{,}202$"
+    },
+    {
+      "letter": "C",
+      "text": "$\\$25{,}801$ and $\\$66{,}605$"
+    },
+    {
+      "letter": "D",
+      "text": "$\\$44{,}179$ and $\\$48{,}227$"
+    },
+    {
+      "letter": "E",
+      "text": "Assumptions are not met in this situation to compute an appropriate $95\\%$ confidence interval."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "3.D",
+    "UNC-4",
+    "UNC-4.R",
+    "UNC-4.R.2",
+    "UNC-4.R.1"
+  ]
+}

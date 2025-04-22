@@ -1,0 +1,45 @@
+{
+  "question_id": "question-063",
+  "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "properties"
+  ],
+  "title": "Conditions Violated",
+  "difficulty": "Medium",
+  "question_text": "A community organization wishes to know the proportion of subjects who feel financially comfortable in a certain town.\nBased on last year’s census, $64\\%$ of the town residents felt financially comfortable. In this year’s survey, $56$ out of $115$ randomly chosen subjects expressed feeling financially comfortable. The organization wishes to determine if the residents’ opinion of financial comfort has changed from last year.\nIf the town has a population of $500$, why would it be incorrect to use a normal probability calculation on proportions?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The survey taken was not an SRS."
+    },
+    {
+      "letter": "B",
+      "text": "The population is not at least $10\\text{ times}$ the sample size."
+    },
+    {
+      "letter": "C",
+      "text": "The sampling distribution is not approximately normal."
+    },
+    {
+      "letter": "D",
+      "text": "The sample size was too small."
+    },
+    {
+      "letter": "E",
+      "text": "It would be a statistically correct procedure to use a normal probability calculation in this situation."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.K.2",
+    "UNC-3",
+    "3.B",
+    "UNC-3.K"
+  ]
+}

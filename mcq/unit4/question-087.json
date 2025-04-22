@@ -1,0 +1,46 @@
+{
+  "question_id": "question-087",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "interpreting-probability",
+    "probability"
+  ],
+  "title": "Independent Events A and B",
+  "difficulty": "Medium",
+  "question_text": "Suppose two events, A and B, are independent.\nWhich of the following statements is/are true?\nI. $P(A$ and $B) = P(A) \\times P(B)$\nII. $P(A|B) = P(A)$\nIII. $P(A|B) = P(B)$",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and II only."
+    },
+    {
+      "letter": "E",
+      "text": "I, II, and III."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ]
+}

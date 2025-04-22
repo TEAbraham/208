@@ -1,0 +1,46 @@
+{
+  "question_id": "question-171",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "well-designed-conducted"
+  ],
+  "title": "Explaining Behaviors: Crime Reduction",
+  "difficulty": "Hard",
+  "question_text": "A recent study found that people who exercise at least $4\\text{ times a week}$ are less likely to have a criminal record than those who do not exercise at all.\nThis fact could be explained by",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Simple coincidence since exercising has nothing to do with crime involvement."
+    },
+    {
+      "letter": "B",
+      "text": "Some other type of common response or confounding variable."
+    },
+    {
+      "letter": "C",
+      "text": "A possible causal link between exercise and lack of a criminal record."
+    },
+    {
+      "letter": "D",
+      "text": "A flaw in the implementation of the experiment."
+    },
+    {
+      "letter": "E",
+      "text": "Nothing; since this was an observational study, no real linkage can be made between exercise and criminal activity."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-3.E.1",
+    "VAR-3.E",
+    "4.B",
+    "VAR-3"
+  ]
+}

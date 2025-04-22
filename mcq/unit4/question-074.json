@@ -1,0 +1,46 @@
+{
+  "question_id": "question-074",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "calculating-probability",
+    "anticipating-patterns",
+    "probability"
+  ],
+  "title": "Geometric Exact Value",
+  "difficulty": "Medium",
+  "question_text": "Suppose a $75\\%$ accuracy free-throw shooter attempts free throws until one is missed.\nWhat is the probability that the shooter’s first miss is on the fourth attempt?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.1054$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.0117$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.3164$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.0791$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.4219$"
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ]
+}

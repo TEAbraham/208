@@ -1,0 +1,45 @@
+{
+  "question_id": "question-055",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "significance-tests",
+    "population-means",
+    "initial-conditions"
+  ],
+  "title": "More SuperChips",
+  "difficulty": "Medium",
+  "question_text": "There had been some recent complaints about the SuperChips Cookie Company that there were fewer chocolate chips per cookie than there used to be. Ten years ago there was shown to be an average of $12$ chips per cookie. The current company president decided to randomly sample $100$ cookies off the line and have the chips counted as he wanted to show that the number of chips per cookie had not changed. The average number of chips from the sample was $11$. Can the president go ahead and proceed with the test?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes.\nHaving a sample size much greater than $30$ is enough to prove his point."
+    },
+    {
+      "letter": "B",
+      "text": "No.\nHe did not check to show that the sampling distribution for the mean was approximately normal."
+    },
+    {
+      "letter": "C",
+      "text": "Yes.\nConditions are verified so he can try to show that the $11$ did not significantly change from the $12$."
+    },
+    {
+      "letter": "D",
+      "text": "No.\nThe fact that the number dropped from $12$ to $11$ disproves what he is trying to show."
+    },
+    {
+      "letter": "E",
+      "text": "No.\nHe should be running a matched-pairs test."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.C",
+    "VAR-7.D",
+    "VAR-7.D.1",
+    "VAR-7"
+  ]
+}

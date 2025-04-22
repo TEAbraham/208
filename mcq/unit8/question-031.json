@@ -1,0 +1,50 @@
+{
+  "question_id": "question-031",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "chi-square-distribution",
+    "chi-square-test",
+    "chi-square-goodness-of-fit"
+  ],
+  "title": "Chi-Square Goodness of Fit: Voter Population",
+  "difficulty": "Medium",
+  "question_text": "A politician projects that the population of voters who support him will be evenly divided between younger voters, middle-aged voters, and older voters. The table below shows the distribution of a random sample of 120 of the politician's supporters.\nYounger Voters Middle-aged Voters Older Voters\n27 34 59\n\n\nWhat is the value of the ${ \\chi }^{ 2 }$ statistic for the goodness of fit test on these data?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Younger Voters</th><th scope=\"col\">Middle-aged Voters</th><th scope=\"col\">Older Voters</th></tr></thead><tbody><tr><td>27</td><td>34</td><td>59</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Less than $1$."
+    },
+    {
+      "letter": "B",
+      "text": "At least $1$, but less than $10$."
+    },
+    {
+      "letter": "C",
+      "text": "At least $10$, but less than $20$."
+    },
+    {
+      "letter": "D",
+      "text": "At least $20$, but less than $30$."
+    },
+    {
+      "letter": "E",
+      "text": "At least $30$."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-8.F",
+    "3.E",
+    "VAR-8",
+    "VAR-8.F.2",
+    "VAR-8.F.1"
+  ]
+}

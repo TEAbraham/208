@@ -1,0 +1,44 @@
+{
+  "question_id": "question-040",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "mutually-exclusive",
+    "interpreting-probability"
+  ],
+  "title": "Can You Pick it?",
+  "difficulty": "Medium",
+  "question_text": "Of the $5$ probability problems listed below, $4$ of the probabilities are not mutually exclusive.\nWhich one is mutually exclusive?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "From a school population:\nFind the probability of picking a male or a senior."
+    },
+    {
+      "letter": "B",
+      "text": "From a school population:\nFind the probability of picking a student taking Statistics or a student taking Band."
+    },
+    {
+      "letter": "C",
+      "text": "For coins:\nWhen flipping $3$ coins, find the probability of flipping $2$ heads or $1$ tail."
+    },
+    {
+      "letter": "D",
+      "text": "From a random number table:\nFind the probability of selecting an odd one-digit number or a $6$ or an $8$."
+    },
+    {
+      "letter": "E",
+      "text": "From a random number table:\nFind the probability of selecting an odd two-digit number or a $27$ or a multiple of $3$."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "VAR-4.C",
+    "VAR-4",
+    "VAR-4.C.2"
+  ]
+}

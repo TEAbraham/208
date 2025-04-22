@@ -1,0 +1,46 @@
+{
+  "question_id": "question-069",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "confidence-interval",
+    "estimation",
+    "statistical-inference",
+    "proportion"
+  ],
+  "title": "Confidence Intervals: Coffee Shop Opening Times",
+  "difficulty": "Medium",
+  "question_text": "A survey of $500\\text{ customers}$ for a national chain of coffee houses was conducted to measure whether customers wanted an earlier opening time or were satisfied with the current opening time.\nThe survey found that $181$ of the customers were satisfied with the current hours.\nFind the $99\\%$ confidence interval for the proportion of the population of customers who were not satisfied with the opening hours, and determine whether we can conclude that the true proportion of customers who are not satisfied is greater than half.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$(0.58263; 0.69336)$; no, because the confidence interval does not contain $0.5$."
+    },
+    {
+      "letter": "B",
+      "text": "$(0.58263; 0.69336)$; yes, because the confidence interval does not contain $0.5$."
+    },
+    {
+      "letter": "C",
+      "text": "$(0.59587; 0.68012)$; no, because the confidence interval does not contain $0.5$."
+    },
+    {
+      "letter": "D",
+      "text": "$(0.59587; 0.68012)$; yes, because the confidence interval does not contain $0.5$."
+    },
+    {
+      "letter": "E",
+      "text": "$(0.61651; 0.65949)$; yes, because the confidence interval does not contain $0.5$."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3",
+    "DAT-3.B.9",
+    "DAT-3.B"
+  ]
+}

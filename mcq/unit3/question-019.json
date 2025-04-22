@@ -1,0 +1,47 @@
+{
+  "question_id": "question-019",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "blocking",
+    "well-designed-conducted",
+    "experiment"
+  ],
+  "title": "Type of Design: Laundry Detergents",
+  "difficulty": "Medium",
+  "question_text": "The manager of a dry cleaning facility wants to compare the effectiveness of two different types of laundry detergents. The manager thinks light colors and dark colors will react differently.\nWhich type of design should the manager use to effectively compare the two types of detergents?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A completely randomized design."
+    },
+    {
+      "letter": "B",
+      "text": "A randomized block design with the detergents as blocks and the light and dark colors as the treatments."
+    },
+    {
+      "letter": "C",
+      "text": "A randomized block design with the light and dark colors as the blocks and the types of detergents as the treatments."
+    },
+    {
+      "letter": "D",
+      "text": "An observational study."
+    },
+    {
+      "letter": "E",
+      "text": "A matched pair design with the detergents being the pair."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "DAT-2",
+    "1.C",
+    "DAT-2.A",
+    "DAT-2.A.4"
+  ]
+}

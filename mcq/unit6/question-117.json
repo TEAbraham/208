@@ -1,0 +1,45 @@
+{
+  "question_id": "question-117",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "difference-two-proportions",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
+  "title": "Two-Proportion $Z$-Test Risks",
+  "difficulty": "Medium",
+  "question_text": "In a survey done in a small town last year, $8$ out of $12$ randomly selected people said they approve of the job the mayor is doing.\nThe following year, $10$ different people are randomly surveyed, and of these, only $6\\text{ people}$ approve.\nWhy would it be inappropriate to perform a two-proportion $Z$-test to determine whether the mayor’s approval rating has changed?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "It is illogical to perform an inferential procedure like a two-proportion $Z$-test when the population data is already known."
+    },
+    {
+      "letter": "B",
+      "text": "The data does not come from simple random samples."
+    },
+    {
+      "letter": "C",
+      "text": "The populations are most likely NOT at least $10$ times each sample."
+    },
+    {
+      "letter": "D",
+      "text": "At least one of the following is not at least 5:\n${N}_{1}\\cdot \\text{(pooled p)}$\n${N}_{2}\\cdot \\text{(pooled p) }$\n${N}_{1}\\cdot \\text{(1-pooled p) }$\n$ {N}_{2}\\cdot \\text{(1-pooled p)}$"
+    },
+    {
+      "letter": "E",
+      "text": "The combined sample sizes are only $22$, which is too small."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.C",
+    "VAR-6.J",
+    "VAR-6.J.1",
+    "VAR-6"
+  ]
+}

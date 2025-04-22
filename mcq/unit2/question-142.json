@@ -1,0 +1,45 @@
+{
+  "question_id": "question-142",
+  "unit": "AP® Statistics | Unit 2 Assessment",
+  "topics": [
+    "nonlinear-regression",
+    "data-transformation",
+    "natural-logarithm"
+  ],
+  "title": "Cicada Invasion",
+  "difficulty": "Medium",
+  "question_text": "A specific breed of Cicada, a type of tree insect, only appears in the Eastern United States every $17$ years. But, the cicadas do not simply show up all at one time. A researcher is working on developing a model to predict the number of cicadas that will show up in his town during the summer. Using historical data, the researcher created the following model:\n$$ln(\\hat{y}) = 3.4 + 0.87x$$\n...where $x = $ the number of weeks since the Summer Solstice and $y = $ the number of cicadas in his town (in hundred thousands).\nWhich is the closest to the predicted number of cicadas (in hundred thousands) in his town $2$ weeks after the Summer Solstice?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$5.14$"
+    },
+    {
+      "letter": "B",
+      "text": "$171$"
+    },
+    {
+      "letter": "C",
+      "text": "$4.70$"
+    },
+    {
+      "letter": "D",
+      "text": "$138{,}038$"
+    },
+    {
+      "letter": "E",
+      "text": "$35$"
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "The regression model used to predict the number of cicadas was a non-linear regression model. Specifically, it was transformed using the natural logarithm function.\n\nTo use the model to predict, we need to get our $\\hat{y}$ by itself. To \"undo\" the natural log, we use its inverse, the natural exponential function, e.\n\nFor example:\n\nln(\nˆ\ny\n)=3.4+0.87x\neln(\nˆ\ny\n)=e3.4+0.87x\nˆ\ny\n=e3.4+0.87x\nˆ\ny\n=e3.4+0.87(2)\nˆ\ny\n=170.71\nˆ\ny\n=171\n\nTherefore, the closest number of cicadas in the researchers town is 171 (hundred thousands)\n\nChoice 'B' is correct.",
+  "explanations": {},
+  "tags": [
+    "2.C",
+    "DAT-1",
+    "DAT-1.J",
+    "DAT-1.J.1"
+  ]
+}

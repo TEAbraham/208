@@ -1,0 +1,47 @@
+{
+  "question_id": "question-199",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "geometric",
+    "binomial-probability",
+    "probability",
+    "discrete-random-variables"
+  ],
+  "title": "Marty's Prom: Binomial or Geometric Distribution?",
+  "difficulty": "Medium",
+  "question_text": "Marty has an $87$% chance of a girl saying \"yes\" to him to prom.\nWhat is the probability it takes until the third girl before one says \"yes\" to be his prom date?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$\\begin{pmatrix} 10 \\\\ 3 \\end{pmatrix}(0.87)^{3}(0.13)^{7}$"
+    },
+    {
+      "letter": "B",
+      "text": "$\\begin{pmatrix} 10 \\\\ 3 \\end{pmatrix}(0.87)^{7}(0.13)^{3}$"
+    },
+    {
+      "letter": "C",
+      "text": "$\\dfrac { ({ 0.87) }^{ 2 } }{ { (0.13) }^{ 1 } } $"
+    },
+    {
+      "letter": "D",
+      "text": "${ (0.13) }^{ 2 }(0.87)$"
+    },
+    {
+      "letter": "E",
+      "text": "${ (0.87) }^{ 2 }(0.13)$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.G.1",
+    "4.B",
+    "UNC-3.G",
+    "UNC-3"
+  ]
+}

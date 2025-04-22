@@ -1,0 +1,46 @@
+{
+  "question_id": "question-193",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "center-spread",
+    "univariate-data",
+    "comparing-distributions",
+    "exploring-data"
+  ],
+  "title": "Shot in the Dark",
+  "difficulty": "Hard",
+  "question_text": "Basketball Scores Dot Net records the results of every game in the National Basketball Association history. List X contains the amount of points scored by each winning team and list Y contains the amount of points scored by each losing team (assume that there are no ties in the NBA).\nWhich of the following MUST be true about X and Y?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The maximum of X is greater than the maximum of Y and the standard deviation of X is greater than the standard deviation of Y."
+    },
+    {
+      "letter": "B",
+      "text": "The mode of X is greater than the mode of Y and the minimum of X is greater than the minimum of Y."
+    },
+    {
+      "letter": "C",
+      "text": "The interquartile range of X is greater than the interquartile range of Y and the variance of X is less than the variance of Y."
+    },
+    {
+      "letter": "D",
+      "text": "The mean of X is greater than the mean of Y and the minimum of Y is less than the minimum of X."
+    },
+    {
+      "letter": "E",
+      "text": "The maximum of X is greater than the maximum of Y and the range of X is greater than the range of Y."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.O",
+    "2.D",
+    "UNC-1.O.1",
+    "UNC-1"
+  ]
+}

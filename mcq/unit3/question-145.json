@@ -1,0 +1,48 @@
+{
+  "question_id": "question-145",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "matched-pairs-design",
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "randomized-block-design"
+  ],
+  "title": "Matched Pairs: Computer Program",
+  "difficulty": "Medium",
+  "question_text": "Suppose a teacher wishes to determine if his students learn better through in-class instruction or computer program.\nThe teacher has only $10\\text{ students}$, so he randomly divides them into two groups of $5$, one group of which learns through in-class instruction while the other group learns via computer program.\nWhy could the results be better trusted if the experiment were done in a matched pairs fashion?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The teacher would have $10\\text{ data points}$ to work with instead of $5$."
+    },
+    {
+      "letter": "B",
+      "text": "Even if the subjects were randomly divided, such a small sample size makes it very likely that one group could have more intelligent students than the other simply by chance."
+    },
+    {
+      "letter": "C",
+      "text": "Students would feel more comfortable doing an experiment such as this with a pair."
+    },
+    {
+      "letter": "D",
+      "text": "A matched pairs design in this situation allows the teacher to use a control group."
+    },
+    {
+      "letter": "E",
+      "text": "A matched pairs design ensures the correct teaching method would be found in this situation."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-3.D",
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.D.1",
+    "VAR-3.E.2"
+  ]
+}

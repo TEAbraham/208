@@ -1,0 +1,44 @@
+{
+  "question_id": "question-024",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [],
+  "title": "Math Program: Test Statistic and $p$-value",
+  "difficulty": "Medium",
+  "question_text": "Suppose a high school principal wishes to determine if students in her after-school math program perform better than those not in the program.\nThe principal randomly selected $115\\text{ students}$ for an after-school study session that runs $3\\text{ days per week}$ for $1\\text{ hour}$ each day, focusing solely on math.\nThe grade distribution of these students’ math grades is compared to the historical grade distribution of students’ math grades at this high school. The data is below:\nA B C D F\nAfter-School Program (Counts) 28 38 36 9 4\nHistorical Grade Distribution (%) 18% 32% 25% 20% 5%\n\n\nWhen performing a chi-squared goodness of fit test, the appropriate chi-squared test statistic and $p$-value are approximately what?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th><th scope=\"col\">F</th></tr></thead><tbody><tr><td>After-School Program (Counts)</td><td>28</td><td>38</td><td>36</td><td>9</td><td>4</td></tr><tr><td>Historical Grade Distribution (%)</td><td>18%</td><td>32%</td><td>25%</td><td>20%</td><td>5%</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Chi-squared: $13.496$\n$P$-value: $0.009$"
+    },
+    {
+      "letter": "B",
+      "text": "Chi-squared: $11.32$\n$P$-value: $0.005$"
+    },
+    {
+      "letter": "C",
+      "text": "Chi-squared: $1.83$\n$P$-value: $p > 0.25$"
+    },
+    {
+      "letter": "D",
+      "text": "Chi-squared: $26.34$\n$P$-value: $p$"
+    },
+    {
+      "letter": "E",
+      "text": "Chi-squared: $13.496$\n$P$-value: $0.05$"
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-8.F",
+    "3.E",
+    "VAR-8",
+    "VAR-8.F.2",
+    "VAR-8.F.1"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "question_id": "question-105",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval",
+    "mean-interval",
+    "estimation",
+    "statistical-inference",
+    "difference-two-means"
+  ],
+  "title": "Construction of a Type of Mean interval : Who Gets Paid More?",
+  "difficulty": "Hard",
+  "question_text": "You have probably heard that men are typically paid more than women for the same type of job. A researcher wanted to investigate this claim. Using information from a census, the researcher randomly selected $10$ occupations and looked at the median salary (in dollars) for men and women from each occupation. The median salaries per occupation and the differences (man-woman) are given in the table below. Each occupation is listed as a letter.\nCreated for Albert.io. Copyright 2017. All rights reserved.\nWhich of the following represents a $90\\%$ confidence interval for the average difference in the median prices per occupation between men and women?",
+  "image_files": [
+    "images/question-105-img1.png"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$(6175.10, 16945)$"
+    },
+    {
+      "letter": "B",
+      "text": "$(6976.10, 16144)$"
+    },
+    {
+      "letter": "C",
+      "text": "$(-5737, 28857)$"
+    },
+    {
+      "letter": "D",
+      "text": "$(-4003, 27123)$"
+    },
+    {
+      "letter": "E",
+      "text": "$(8183, 20282)$"
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "3.D",
+    "UNC-4.Y.1",
+    "UNC-4.Y.2",
+    "UNC-4",
+    "UNC-4.Y"
+  ]
+}

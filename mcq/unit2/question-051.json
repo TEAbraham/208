@@ -1,0 +1,46 @@
+{
+  "question_id": "question-051",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "correlation",
+    "bivariate-data",
+    "exploring-data"
+  ],
+  "title": "Grocery Shopping: Predicting Correlation",
+  "difficulty": "Easy",
+  "question_text": "Jasmine has been keeping track of the relationship between the number of items she buys at the grocery store and the total amount of her grocery bill (in dollars). She has noticed that the relationship is roughly linear.\nWhat would you predict regarding the correlation for this relationship?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The correlation will be $0$."
+    },
+    {
+      "letter": "B",
+      "text": "The correlation will be negative but not near $-1$."
+    },
+    {
+      "letter": "C",
+      "text": "The correlation will be positive and fairly close to $1$."
+    },
+    {
+      "letter": "D",
+      "text": "The correlation will be the same as the slope of the LSRL."
+    },
+    {
+      "letter": "E",
+      "text": "Correlation is meaningless in this situation since the appropriate conditions for using correlation have not been satisfied."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.C",
+    "DAT-1.C.2",
+    "DAT-1",
+    "DAT-1.C.1"
+  ]
+}

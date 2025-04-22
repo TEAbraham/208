@@ -1,0 +1,46 @@
+{
+  "question_id": "question-016",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "categorical-data",
+    "data",
+    "quantitative"
+  ],
+  "title": "Quantitative and Categorical Differences",
+  "difficulty": "Medium",
+  "question_text": "Which of the following statements correctly describes a difference between a quantitative and a categorical variable?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A quantitative variable is always described using a numerical value, while a categorical variable is never described using numerical values."
+    },
+    {
+      "letter": "B",
+      "text": "A quantitative variable describes a characteristic of an individual based upon a numerical measure of that characteristic, while a categorical variable describes a characteristic of an individual by identifying a category or group to which the characteristic belongs."
+    },
+    {
+      "letter": "C",
+      "text": "A quantitative variable can provide very specific information about an individual, while a categorical variable can only provide general information about an individual."
+    },
+    {
+      "letter": "D",
+      "text": "A quantitative variable cannot be described using units of measurement, while a categorical variable is always described using units of measurement."
+    },
+    {
+      "letter": "E",
+      "text": "A quantitative variable can only be used to describe a characteristic of an individual, while a categorical variable can only be used to describe a characteristic of a group."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-1.C.1",
+    "VAR-1.B",
+    "2.A",
+    "VAR-1.C.2",
+    "VAR-1"
+  ]
+}

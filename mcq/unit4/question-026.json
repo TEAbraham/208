@@ -1,0 +1,49 @@
+{
+  "question_id": "question-026",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "simulation",
+    "probability"
+  ],
+  "title": "What is the Probability?",
+  "difficulty": "Easy",
+  "question_text": "How do Americans really feel about their jobs?\nA random sample of $100$ working American men and $100$ working American women were asked to describe how they feel about their job. Responses, by gender, are shown in the table below.\nLove It Like It Neutral Dislike It Hate It\nMen 31 42 6 12 9\nWomen 39 39 3 14 5\n\n\nWhat is the probability that a randomly selected person from among those surveyed would say that they \"Love It\"?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Love It</th><th scope=\"col\">Like It</th><th scope=\"col\">Neutral</th><th scope=\"col\">Dislike It</th><th scope=\"col\">Hate It</th></tr></thead><tbody><tr><td>Men</td><td>31</td><td>42</td><td>6</td><td>12</td><td>9</td></tr><tr><td>Women</td><td>39</td><td>39</td><td>3</td><td>14</td><td>5</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.20$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.31$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.35$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.39$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.70$"
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-4.A.1",
+    "VAR-4.A.3",
+    "3.A",
+    "VAR-4.A.2",
+    "VAR-4",
+    "VAR-4.A"
+  ]
+}

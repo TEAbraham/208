@@ -1,0 +1,47 @@
+{
+  "question_id": "question-102",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "least-squares-regression-line",
+    "bivariate-data",
+    "exploring-data"
+  ],
+  "title": "LSRL Form",
+  "difficulty": "Easy",
+  "question_text": "Least squares regression lines have the form of",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$y = ax^2+bx+c$\nDefine $x$ and $y$ as variables.\nDefine $a$, $b$, and $c$ as constants."
+    },
+    {
+      "letter": "B",
+      "text": "$y = a+bx$\nDefine $x$ and $y$ as variables.\nDefine $a$ and $b$ as constants."
+    },
+    {
+      "letter": "C",
+      "text": "$y = ab^x$\nDefine x and y as variables.\nDefine a and b as constants."
+    },
+    {
+      "letter": "D",
+      "text": "y=\na\nx\nDefine x\nand y\nas variables.\nDefine a\nas a constant."
+    },
+    {
+      "letter": "E",
+      "text": "y=a+b⋅log(x)\nDefine x\nand y\nas variables.\nDefine a\nand b\nas constants."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.H.2",
+    "DAT-1.H",
+    "DAT-1",
+    "DAT-1.H.3",
+    "DAT-1.H.1"
+  ]
+}

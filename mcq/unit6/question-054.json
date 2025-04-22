@@ -1,0 +1,48 @@
+{
+  "question_id": "question-054",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "p-value",
+    "one-sided-test",
+    "tables",
+    "two-sided-test"
+  ],
+  "title": "Finding the P-value of a 1-sided When Given a 2-sided P-value",
+  "difficulty": "Medium",
+  "question_text": "A two-sided hypothesis test obtained a $p$-value of $0.36$.\nIf the test was conducted as a one-tailed test using the same set of data, which of the following is true about the possible $p$-values that could have been acquired?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The only possible $p$- value is $0.18$."
+    },
+    {
+      "letter": "B",
+      "text": "The only possible $p$- value is $0.72$."
+    },
+    {
+      "letter": "C",
+      "text": "The only possible $p$- value is $0.82$."
+    },
+    {
+      "letter": "D",
+      "text": "The possible $p$- values are $0.18$ and $0.72$."
+    },
+    {
+      "letter": "E",
+      "text": "The possible $p$- values are $0.18$ and $0.82$."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.A",
+    "DAT-3.A.1"
+  ]
+}

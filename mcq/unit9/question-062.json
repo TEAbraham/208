@@ -1,0 +1,46 @@
+{
+  "question_id": "question-062",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "least-squares-regression-line"
+  ],
+  "title": "Library Survey on Child Height and Shoe Size",
+  "difficulty": "Hard",
+  "question_text": "Suppose a random sample of size $n = 40\\text{ children}$ were taken at a local library, where they were asked their shoe size and age.\nWhat $r$ value and test statistic would be most likely to occur when performing a linear regression $T$-test of $H_0: B = 0$ vs. $H_a: B \\gt 0$?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$T = -4.32$\n$r = 0.4$"
+    },
+    {
+      "letter": "B",
+      "text": "$T = 0.99$\n$r = -0.9$"
+    },
+    {
+      "letter": "C",
+      "text": "$T = -0.99$\n$r = -0.8$"
+    },
+    {
+      "letter": "D",
+      "text": "$T = 3.43$\n$r = 3.42$"
+    },
+    {
+      "letter": "E",
+      "text": "$T =4.89$\n$r = 0.9$"
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.1",
+    "VAR-7.M.2"
+  ]
+}

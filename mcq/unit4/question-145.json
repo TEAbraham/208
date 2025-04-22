@@ -1,0 +1,46 @@
+{
+  "question_id": "question-145",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "descriptive-statistics",
+    "combining-random-variables"
+  ],
+  "title": "Don't Worry, Bee Happy: Combined Variance",
+  "difficulty": "Medium",
+  "question_text": "Don't Worry, Bee Happy is a store that sells artisanal honey. One of their best sellers is Wild Wildflower Honey, packaged in glass jars that are labeled as containing $8\\text{ ounces}$ of honey. The owners want to make very sure that their customers are happy however, so the actual mean amount of honey contained in the jars is $8.05\\text{ ounces}$. And while production standards are tight, not all jars contain exactly $8.05\\text{ ounces}$. In fact, the standard deviation is $0.09\\text{ ounces}$.\nFor true lovers of Wild Wildflower Honey (and for those looking for a more economical way to purchase several jars), the store offers a special $3$-pack consisting of three individual $8\\text{ ounce}$ jars of Wild Wildflower Honey.\nSince knowing the actual weight of one jar of honey will tell you nothing about the actual weight of another jar of honey, the weights of all $3$ jars in the pack would be considered independent.\nWhich of the following shows how to calculate the variance of the number of ounces of honey in the $3$-pack?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$3\\cdot { \\left( 0.09 \\right) }^{ 2 }$"
+    },
+    {
+      "letter": "B",
+      "text": "${ \\left[ \\left( 3 \\right) \\cdot \\left( 0.09 \\right) \\right] }^{ 2 }$"
+    },
+    {
+      "letter": "C",
+      "text": "$\\left( { 3 }^{ 2 } \\right) \\cdot \\left( 0.09 \\right) $"
+    },
+    {
+      "letter": "D",
+      "text": "${ \\left( 3.09 \\right) }^{ 2 }$"
+    },
+    {
+      "letter": "E",
+      "text": "$(3)\\cdot(0.09) $"
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

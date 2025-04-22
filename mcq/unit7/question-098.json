@@ -1,0 +1,45 @@
+{
+  "question_id": "question-098",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval",
+    "differences-in-means",
+    "initial-conditions"
+  ],
+  "title": "Can We Proceed?",
+  "difficulty": "Medium",
+  "question_text": "We want to create a $99\\%$ confidence interval for the different of the means of the effectiveness of two drugs to reduce the incidence of headaches. Forty-two headache patients are randomly selected from several large medical practices and half of them are given one drug and half the other drug. Determination of which drug was given to which patient was decided by a coin flip. Means and standard deviations of the subjects are obtained. What conditions need to be verified in order to continue with this study and create a confidence interval?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Both samples should be checked for skewness and the size of the population of headache patients should be checked."
+    },
+    {
+      "letter": "B",
+      "text": "The check for independence has been verified but the check for normal approximation of the sampling distribution has not been verified."
+    },
+    {
+      "letter": "C",
+      "text": "The check for normal approximation of the sampling distribution has been verified but the check for independence has not been verified."
+    },
+    {
+      "letter": "D",
+      "text": "Since there are $42$ patients, and this number is greater than $30$, then the only other thing needed to be checked is the randomization process."
+    },
+    {
+      "letter": "E",
+      "text": "Nothing else needs to be done. All conditions are verified and the confidence interval may be calculated."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.C",
+    "UNC-4.W.1",
+    "UNC-4",
+    "UNC-4.W"
+  ]
+}

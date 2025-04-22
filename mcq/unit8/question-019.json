@@ -1,0 +1,45 @@
+{
+  "question_id": "question-019",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "anticipating-patterns",
+    "chi-square-distribution",
+    "sampling-distributions"
+  ],
+  "title": "Chi-square distribution vs $t$-distribution",
+  "difficulty": "Medium",
+  "question_text": "In what way is the chi-square distribution different from the $t$-distribution?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There are many chi-square distributions based on the number of degrees of freedom, but only one $t$-distribution."
+    },
+    {
+      "letter": "B",
+      "text": "The chi-square distribution is used to write both confidence intervals and hypothesis tests, but the $t$-distribution is only used to write hypothesis tests."
+    },
+    {
+      "letter": "C",
+      "text": "Chi-square values are always positive while $t$-values can be positive or negative."
+    },
+    {
+      "letter": "D",
+      "text": "The chi-square distribution becomes more nearly normal as the degrees of freedom gets smaller while the $t$-distribution becomes more nearly normal as the degrees of freedom gets larger."
+    },
+    {
+      "letter": "E",
+      "text": "For low degrees of freedom, the chi-square distribution is symmetric while the $t$-distribution is skewed right."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-8.C",
+    "VAR-8.C.1",
+    "VAR-8",
+    "1.E"
+  ]
+}

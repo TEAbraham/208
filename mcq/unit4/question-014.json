@@ -1,0 +1,46 @@
+{
+  "question_id": "question-014",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "simulations",
+    "estimation",
+    "randomness",
+    "probability"
+  ],
+  "title": "Numbering People",
+  "difficulty": "Medium",
+  "question_text": "You want to find out how often you would end up with a group of $5$ men and $5$ women if you were picking a group of $10$ people out of a group of $350$ men and $400$ women. Using a random number table you would choose $10$ people at a time over and over to make this estimate using simulation. How would the people be numbered?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Let $001$-$350$ be men and $351$-$751$ be women.\nSkip $000$ and $752-999$."
+    },
+    {
+      "letter": "B",
+      "text": "Let $001$-$350$ be men and $351$-$750$ be women.\nSkip $751-999$."
+    },
+    {
+      "letter": "C",
+      "text": "Let $000$-$349$ be men and $350$-$749$ be women.\nSkip $750-999$."
+    },
+    {
+      "letter": "D",
+      "text": "Let $000$-$349$ be men and $350$-$749$ be women."
+    },
+    {
+      "letter": "E",
+      "text": "Let $000$-$350$ be men and $351$-$750$ be women.\nSkip $751-999$."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "3.A",
+    "UNC-2.A",
+    "UNC-2",
+    "UNC-2.A.5"
+  ]
+}

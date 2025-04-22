@@ -1,0 +1,47 @@
+{
+  "question_id": "question-067",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference",
+    "alternative-hypothesis"
+  ],
+  "title": "Appropriate Null Hypothesis: West Wake Up Time Versus East",
+  "difficulty": "Easy",
+  "question_text": "A sleep specialist believes that adults on the West Coast sleep less hours per day than adults on the East Coast. Collecting large random samples of adults from the West Coast and East Coast, the sleep specialist studies the amount of hours per day adults on the West Coast sleep compared to adults on the East Coast.\nWhich of the following might be an appropriate alternative hypothesis for this study?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The average amount of hours per day adults on the West Coast sleep is different than the average amount of hours per day adults on the East Coast sleep."
+    },
+    {
+      "letter": "B",
+      "text": "The average amount of hours per day adults on the West Coast sleep is less than the average amount of hours per day adults on the East Coast sleep."
+    },
+    {
+      "letter": "C",
+      "text": "The average amount of hours per day adults on the West Coast sleep is more than the average amount of hours per day adults on the East Coast sleep."
+    },
+    {
+      "letter": "D",
+      "text": "The average amount of hours per day adults on the West Coast sleep is the same as the average amount of hours per day adults on the East Coast sleep."
+    },
+    {
+      "letter": "E",
+      "text": "The probability that West Coast adults sleep the same amount as East Coast adults is $0.5$."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "DAT-3.F",
+    "4.E",
+    "DAT-3",
+    "DAT-3.F.2",
+    "DAT-3.F.1"
+  ]
+}

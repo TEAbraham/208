@@ -1,0 +1,46 @@
+{
+  "question_id": "question-137",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "difference-two-proportions",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
+  "title": "Psychic Abilities",
+  "difficulty": "Hard",
+  "question_text": "A researcher wants to determine whether a proclaimed psychic really has any special abilities.\nFour decks of regular playing cards are shuffled together so that the researcher has $208\\text{ cards}$ in a pile. Half the cards are colored red, and the other half are black. As the researcher looks at each card, the blindfolded psychic calls out the card’s color. Cards are replaced and shuffled after each trial.\nAssuming conditions are met, at the $5\\%$ level of significance, what is the least number of cards the mind reader must call correctly to show that he is not merely guessing?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$55$"
+    },
+    {
+      "letter": "B",
+      "text": "$104$"
+    },
+    {
+      "letter": "C",
+      "text": "$108$"
+    },
+    {
+      "letter": "D",
+      "text": "$112$"
+    },
+    {
+      "letter": "E",
+      "text": "$116$"
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.D.1",
+    "DAT-3.D.2",
+    "DAT-3",
+    "DAT-3.D"
+  ]
+}

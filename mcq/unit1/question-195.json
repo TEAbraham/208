@@ -1,0 +1,50 @@
+{
+  "question_id": "question-195",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "center-spread",
+    "univariate-data",
+    "summarizing-distributions",
+    "comparing-distributions",
+    "exploring-data"
+  ],
+  "title": "Comparing Monthly Temperatures in Rome and Rio",
+  "difficulty": "Hard",
+  "question_text": "The time plot below shows the average high temperature by month for Rome, Italy and Rio de Janeiro, Brazil. Temperatures are reported in degrees Celsius.\nCreated for Albert.io. Copyright 2016. All rights reserved.\nWhich of the following statements cannot be justified by the information provided in the graph?",
+  "image_files": [
+    "images/question-195-img1.PNG",
+    "images/question-195-img2.PNG"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The range of temperatures is larger in Rome than in Rio."
+    },
+    {
+      "letter": "B",
+      "text": "The median average monthly high temperature in Rio is greater than the median average monthly high temperature in Rome."
+    },
+    {
+      "letter": "C",
+      "text": "The distribution of average monthly high temperatures is skewed right for Rio but skewed left for Rome."
+    },
+    {
+      "letter": "D",
+      "text": "In Rome, the average monthly high temperature increases from January to July and decreases from August to December. In Rio however, the average monthly high temperature decreases from February to June and increases from July to December."
+    },
+    {
+      "letter": "E",
+      "text": "In September, the average monthly high temperature is about the same in both Rome and Rio."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.N.1",
+    "2.D",
+    "UNC-1.N",
+    "UNC-1"
+  ]
+}

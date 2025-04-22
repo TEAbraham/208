@@ -1,0 +1,46 @@
+{
+  "question_id": "question-171",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "binomial-distribution",
+    "probability",
+    "discrete-random-variables"
+  ],
+  "title": "Binomial Distribution: Brickosaurus' Free Throws",
+  "difficulty": "Medium",
+  "question_text": "Brickosaurus is a $23$% free throw shooter.\nWhat is the probability he makes exactly $4$ out of $10$ free throws? Assume his free throw shots are independent of one another.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$\\begin{pmatrix} 10 \\\\ 4 \\end{pmatrix}(0.23)^{4}(1-0.23)^{6}$"
+    },
+    {
+      "letter": "B",
+      "text": "$\\begin{pmatrix} 10 \\\\ 4 \\end{pmatrix}(0.23)^{6}(1-0.23)^{4}$"
+    },
+    {
+      "letter": "C",
+      "text": "$(0.23)^{4}(1-.23)^{6}$"
+    },
+    {
+      "letter": "D",
+      "text": "$(0.23)^{6}(1-0.23)^{4}$"
+    },
+    {
+      "letter": "E",
+      "text": "$\\dfrac { ({ 0.23) }^{ 4 } }{ { (0.77) }^{ 6 } } $"
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.A.2",
+    "3.A",
+    "UNC-3",
+    "UNC-3.A"
+  ]
+}

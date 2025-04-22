@@ -1,0 +1,46 @@
+{
+  "question_id": "question-091",
+  "unit": "AP® Statistics | Unit 8 Assessment",
+  "topics": [
+    "chi-square",
+    "chi-square-distribution",
+    "degrees-of-freedom",
+    "chi-square-goodness-of-fit"
+  ],
+  "title": "Degrees of Freedom for a Chi-Square GOF Test",
+  "difficulty": "Easy",
+  "question_text": "A chi-square goodness of fit test is used to test whether a $0$ – $9$ spinner is “fair” (i.e., the outcomes are all equally likely). The spinner is spun $100$ times, and the results are recorded.\nWhat are the degrees of freedom for this problem?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$8$"
+    },
+    {
+      "letter": "B",
+      "text": "$9$"
+    },
+    {
+      "letter": "C",
+      "text": "$10$"
+    },
+    {
+      "letter": "D",
+      "text": "$99$"
+    },
+    {
+      "letter": "E",
+      "text": "$100$"
+    }
+  ],
+  "correct_answer": "Choice ‘B’ is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-8.F",
+    "3.E",
+    "VAR-8",
+    "VAR-8.F.1"
+  ]
+}

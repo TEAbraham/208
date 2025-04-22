@@ -1,0 +1,44 @@
+{
+  "question_id": "question-028",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "confidence-interval-interpretations",
+    "population-proportions"
+  ],
+  "title": "Marshmallows?",
+  "difficulty": "Easy",
+  "question_text": "Clucky Arms Cereal was looking into the proportion of cereal pieces that are marshmallows in each of its cereal boxes. Researchers came up with a $95\\%$ confidence interval of $(0.32, 0.38)$. Which of the following statements gives the best interpretation of this confidence interval?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "We are $95\\%$ confident that the mean number of marshmallows in each box of Clucky Arms Cereal is $35\\%$."
+    },
+    {
+      "letter": "B",
+      "text": "We are confident that every box of Clucky Arms Cereal will contain between $32\\%$ and $38\\%$ marshmallows as the true population proportion."
+    },
+    {
+      "letter": "C",
+      "text": "We are $95\\%$ confident that repeated samples of any size will still contain between $32\\%$ and $38\\%$ marshmallows."
+    },
+    {
+      "letter": "D",
+      "text": "We are $95\\%$ confident that every box of Clucky Arms Cereal will contain about one-third marshmallows."
+    },
+    {
+      "letter": "E",
+      "text": "We are $95\\%$ confident that the interval from $32\\%$ to $38\\%$ captures the population proportion of marshmallows in boxes of Clucky Arms Cereal."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.F.2",
+    "UNC-4.F",
+    "UNC-4",
+    "4.A"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "question_id": "question-009",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
+  "title": "Rejection of Null Hypothesis",
+  "difficulty": "Medium",
+  "question_text": "Which of the following statements correctly describes strong evidence for rejection of the null hypothesis?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The experimental outcome yields a test statistic of $0$."
+    },
+    {
+      "letter": "B",
+      "text": "The experimental results, gleaned from a simple random sample of subjects from the population, are consistent with the statement contained in the null hypothesis."
+    },
+    {
+      "letter": "C",
+      "text": "The experimental results obtained would be very unlikely if the null hypothesis were true."
+    },
+    {
+      "letter": "D",
+      "text": "The value of the test statistic of one sample is different from the value of the test statistic obtained from a different sample from the same population."
+    },
+    {
+      "letter": "E",
+      "text": "The p-value is $0.32$."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-1.J",
+    "VAR-1.J.1",
+    "1.A",
+    "VAR-1"
+  ]
+}

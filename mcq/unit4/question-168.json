@@ -1,0 +1,45 @@
+{
+  "question_id": "question-168",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "probability",
+    "discrete-random-variables"
+  ],
+  "title": "Spin the Spinner Probability",
+  "difficulty": "Medium",
+  "question_text": "A spinner consists of $8$ equally sized sections. Each section is labeled with a different number from $1$ to $8$.\nIf the spinner is spun five times and the result on each spin is independent, what is the probability that the number $3$ will come up on exactly two of the spins?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.0105$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.0156$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.1047$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.1963$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.9839$"
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.B",
+    "3.A",
+    "UNC-3",
+    "UNC-3.B.1"
+  ]
+}

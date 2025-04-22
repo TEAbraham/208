@@ -1,0 +1,44 @@
+{
+  "question_id": "question-277",
+  "unit": "AP® Statistics | Unit 1 Assessment",
+  "topics": [
+    "boxplots",
+    "5-number-summary"
+  ],
+  "title": "Interpreting a Boxplot",
+  "difficulty": "Medium",
+  "question_text": "Consider the following boxplot. Which of the following statements is true?\nLoading question supplement...",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There is at least one data point whose value is $4$."
+    },
+    {
+      "letter": "B",
+      "text": "There are fewer data points between the Median and $Q_1$ then there are between the Median and $Q_3$."
+    },
+    {
+      "letter": "C",
+      "text": "$IQR=5$"
+    },
+    {
+      "letter": "D",
+      "text": "Any value that falls below $3-8(1.5)$ can be considered an outlier."
+    },
+    {
+      "letter": "E",
+      "text": "There are outliers in this data set."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-1.K",
+    "UNC-1.K.1",
+    "UNC-1"
+  ]
+}

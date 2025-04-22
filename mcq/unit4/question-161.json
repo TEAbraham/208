@@ -1,0 +1,48 @@
+{
+  "question_id": "question-161",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "descriptive-statistics",
+    "combining-random-variables"
+  ],
+  "title": "Combining Random Variables: A Van Full of Characters",
+  "difficulty": "Hard",
+  "question_text": "Homer Simpson has yet another new job. He is now the personal chauffeur for a bunch of characters. These characters always travel together to places like the Cartoon-Con Convention, and Homer always drives them in a van that weighs $4050$ pounds.\nOf course, Homer's weight and the weights of the other characters go up and down a bit each day depending on how much they have been enjoying their food. The table below gives Homer's and each of the other character's mean weights and the standard deviation of their weights (in pounds).\nMean Standard Deviation\nHomer Simpson 225 4\nPorky Pig 180 5.1\nScooby Doo 140 3.8\nDonald Duck 2.7 0.4\nWile E. Coyote 35 1.2\n\n\nWhat is the mean AND the standard deviation of the total weight of the van when Homer and all of the other characters are in transit (disregard the weight of gas, oil, and any other extras)?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Mean</th><th scope=\"col\">Standard Deviation</th></tr></thead><tbody><tr><td>Homer Simpson</td><td>225</td><td>4</td></tr><tr><td>Porky Pig</td><td>180</td><td>5.1</td></tr><tr><td>Scooby Doo</td><td>140</td><td>3.8</td></tr><tr><td>Donald Duck</td><td>2.7</td><td>0.4</td></tr><tr><td>Wile E. Coyote</td><td>35</td><td>1.2</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Mean $= 582.7\\text{ pounds}$\nStandard Deviation $= 1.6\\text{ pounds}$"
+    },
+    {
+      "letter": "B",
+      "text": "Mean $= 582.7\\text{ pounds}$\nStandard Deviation $= 7.62\\text{ pounds}$"
+    },
+    {
+      "letter": "C",
+      "text": "Mean $= 4632.7\\text{ pounds}$\nStandard Deviation $= 1.6\\text{ pounds}$"
+    },
+    {
+      "letter": "D",
+      "text": "Mean $= 4632.7\\text{ pounds}$\nStandard Deviation $= 7.62\\text{ pounds}$"
+    },
+    {
+      "letter": "E",
+      "text": "We cannot find the standard deviation of the total weight since we are not given the standard deviation of the weight of the van."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

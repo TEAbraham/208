@@ -1,0 +1,46 @@
+{
+  "question_id": "question-062",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "combining-random-variables",
+    "independence-vs-dependence"
+  ],
+  "title": "Independent Events",
+  "difficulty": "Easy",
+  "question_text": "Event $A$ has a probability of $0.5$, and event $B$ has a probability of $0.4$.\nIf $A$ and $B$ are independent events, what is the probability that either $A$ or $B$ occurs?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.1$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.3$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.5$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.7$"
+    },
+    {
+      "letter": "E",
+      "text": "0.9"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ]
+}

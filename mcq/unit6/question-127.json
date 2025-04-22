@@ -1,0 +1,46 @@
+{
+  "question_id": "question-127",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "difference-two-proportions",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
+  "title": "Testing Conclusions: Kitana and Other Female Gamers",
+  "difficulty": "Medium",
+  "question_text": "Once upon a time a greater proportion of males played video games than females. Kitana, Jade, Lara and other female gamers wanted to know if this was still true and decided to investigate. Assuming all conditions were satisfied, a $z$-statistic of $z = 1.08$ was obtained from a test using the following hypotheses:\n$$H_0: p_{males} = p_{females}$$\n$$H_a: p_{males} > p_{females}$$\nWhat should Kitana and her friends conclude based upon the results of her test?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Since the sample of females produced a greater proportion of gamers than the sample of males, it appears that the proportion of females who play video games is now higher than the proportion of males who play video games."
+    },
+    {
+      "letter": "B",
+      "text": "Since the sample of males produced a greater proportion of gamers than the sample of females, it appears that the proportion of males who play video games is still higher than the proportion of females who play video games."
+    },
+    {
+      "letter": "C",
+      "text": "Since the $p$-value of the test was greater than $0.05$, we do not have enough evidence to rule out the possibility that the proportion of females who play video games is now equal to the proportion of males who play video games."
+    },
+    {
+      "letter": "D",
+      "text": "Since the $p$-value of the test was less than $0.05$, we have good evidence to suggest that the proportion of females who play video games is still less than the proportion of males who play video games."
+    },
+    {
+      "letter": "E",
+      "text": "Since the $z$-statistic is greater than $1$, the observed difference in proportions is more than $1$ standard deviation above a mean difference of $0$. Because this happens so rarely, our data proves that the proportion of males who play video games is still greater than the proportion of females who play video games."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.D.1",
+    "DAT-3.D.2",
+    "DAT-3",
+    "DAT-3.D"
+  ]
+}

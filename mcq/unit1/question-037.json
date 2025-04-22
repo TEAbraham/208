@@ -1,0 +1,48 @@
+{
+  "question_id": "question-037",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "categorical-data",
+    "univariate-data",
+    "sample-mean",
+    "summarizing-distributions",
+    "center",
+    "exploring-data"
+  ],
+  "title": "Candy Summary Statistics",
+  "difficulty": "Easy",
+  "question_text": "A candy company wants to survey its customers on their favorite flavor. The options include Apple, Blueberry, Cherry, Dorian, and Espresso.\nGiven the survey scenario, which of the following summary statistics could possibly be calculated?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Mean"
+    },
+    {
+      "letter": "B",
+      "text": "Median"
+    },
+    {
+      "letter": "C",
+      "text": "Mode"
+    },
+    {
+      "letter": "D",
+      "text": "Standard deviation"
+    },
+    {
+      "letter": "E",
+      "text": "None of the above"
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.E",
+    "2.D",
+    "UNC-1.E.1",
+    "UNC-1"
+  ]
+}

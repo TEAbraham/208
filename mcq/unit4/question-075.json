@@ -1,0 +1,47 @@
+{
+  "question_id": "question-075",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "categorical-data",
+    "two-way-tables",
+    "exploring-data"
+  ],
+  "title": "Independence: Age and Ownership",
+  "difficulty": "Medium",
+  "question_text": "Category Own Rent\nYounger (ages 18-44) 29 31\nOlder (ages 45 and up) 27 13\n\n\nThe data chart summarizes the responses of $100$ randomly selected individuals in response to the question “Do you own or rent your dwelling?”\nDoes home ownership appear to be independent of age?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Category</th><th scope=\"col\">Own</th><th scope=\"col\">Rent</th></tr></thead><tbody><tr><td>Younger (ages 18-44)</td><td>29</td><td>31</td></tr><tr><td>Older (ages 45 and up)</td><td>27</td><td>13</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes, because the marginal probability of 'Younger' is different from the marginal probability of 'Own.'"
+    },
+    {
+      "letter": "B",
+      "text": "Yes, because fewer older people own their homes than younger people do."
+    },
+    {
+      "letter": "C",
+      "text": "No, because the conditional probability of 'Younger,' given that a home is owned, is different from the probability of 'Own.'"
+    },
+    {
+      "letter": "D",
+      "text": "No, because the probability of 'Own' is different from the conditional probability of 'Own,' given that a person is younger."
+    },
+    {
+      "letter": "E",
+      "text": "No, because older people have a more dependable source of income and can afford a home more readily than a younger person can."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "question_id": "question-005",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "randomness",
+    "variation",
+    "probability"
+  ],
+  "title": "The Tongue Roll",
+  "difficulty": "Medium",
+  "question_text": "While it is fairly common for people to be able to roll their tongue upwards ($70\\%$!), Caleb read once in a genetics book that only $1$ in $1000$ people can roll their tongue downwards. For a statistics project, Caleb decided to randomly sample $400$ of his fellow students and found $2$ of them who could do it. What is Caleb's most accurate conclusion?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "This result seems odd and not random. Caleb should do his project again and choose another $400$ random people."
+    },
+    {
+      "letter": "B",
+      "text": "Caleb thinks that there may simply be two students in the school with a mutation."
+    },
+    {
+      "letter": "C",
+      "text": "Finding $2$ out of $400$ is a rate of $0.005$ which is much higher than the expected 0.001. Therefore Caleb can conclude that the genetics book must be wrong and that the rate of those able to roll their tongue downwards is actually $0.005$."
+    },
+    {
+      "letter": "D",
+      "text": "Finding $2$ out of $400$ is a rate of $0.005$ which is much higher than the expected $0.001$. Therefore Caleb can conclude that the genetics book must be wrong and that the rate of those able to roll their tongue downwards is definitely higher than $0.001$."
+    },
+    {
+      "letter": "E",
+      "text": "Though finding $2$ out of $400$ was a higher percentage than expected, Caleb can still maintain that the original claim is true and I believe that this is simply a result of random variation."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-1.F",
+    "VAR-1.F.1",
+    "1.A",
+    "VAR-1"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "question_id": "question-011",
+  "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sampling-distributions",
+    "sample-proportion-two"
+  ],
+  "title": "Fizzy Cola and Carbalicious",
+  "difficulty": "Easy",
+  "question_text": "Two soda companies are running a prize giveaway. Fizzy Cola has placed winning messages under $12\\%$ of its bottle caps. Carbalicious has placed winning messages under $20\\%$ of its bottle caps. A random sample of $60$ Fizzy Cola bottles will be chosen and the proportion of winning bottle caps will be calculated. The same will be done for $55$ randomly chosen bottles of Carbalicious. The difference between these proportions will then be calculated.\nWhat can be said about the sampling distribution of the difference in proportions of winning caps for the two sodas?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "It will be nearly normal because the condition:\n$({ n }_{ C })({ p }_{ C })=(55)(0.2)=11.0\\ge 10\\\\ ({ n }_{ C })(1-{ p }_{ C })=(55)(0.8)=44.0\\ge 10$\nis met for the sampling distribution of the Carbalicious winning proportion."
+    },
+    {
+      "letter": "B",
+      "text": "It will be nearly normal because two samples mean the sample size is larger. A larger sample size yields a more normal sampling distribution."
+    },
+    {
+      "letter": "C",
+      "text": "It will not be nearly normal because one of the conditions is not met:\n$({ n }_{ F })({ p }_{ F })=(60)(0.12)=7.2\\ngeq 10\\\\ ({ n }_{ F })(1-{ p }_{ F })=(60)(0.88)=52.8\\ge 10\\\\ ({ n }_{ C })({ p }_{ C })=(55)(0.2)=11.0\\ge 10\\\\ ({ n }_{ C })(1-{ p }_{ C })=(55)(0.8)=44.0\\ge 10$"
+    },
+    {
+      "letter": "D",
+      "text": "It will not be nearly normal because the true proportions of winning bottle caps are different for each group."
+    },
+    {
+      "letter": "E",
+      "text": "It will not be nearly normal because the two samples are not the same size."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-3.P.1",
+    "UNC-3",
+    "UNC-3.P"
+  ]
+}

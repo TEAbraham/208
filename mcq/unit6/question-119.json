@@ -1,0 +1,45 @@
+{
+  "question_id": "question-119",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "difference-two-proportions",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
+  "title": "Two-Proportion Z-Interval: Conditions",
+  "difficulty": "Medium",
+  "question_text": "A high school athletic director was interested whether high school males are more likely to compete in sports than high school females are.\nHe randomly sampled $200$ high school males across the country and found that $82$ of them participated in at least one high school sport at some point during the year. This compares to $68$ out of $200$ randomly sampled high school females who participated in at least one sport during the year.\nSuppose the athletic director wanted to perform a two-proportion $Z$-interval.\nIn addition to needing two independent random samples, another necessary condition is",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Sample sizes must be large, say at least $30$ each."
+    },
+    {
+      "letter": "B",
+      "text": "Combined sample sizes must be large, say at least $30$."
+    },
+    {
+      "letter": "C",
+      "text": "$200 \\cdot (0.34)$ and $200\\cdot (0.41)$ must both be at least $5$, as well as $200\\cdot (0.66)$ and $200 \\cdot (0.59)$."
+    },
+    {
+      "letter": "D",
+      "text": "$200 \\cdot (0.5)$ must be at least $5$."
+    },
+    {
+      "letter": "E",
+      "text": "The parent population must be roughly normal."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.C",
+    "VAR-6.J",
+    "VAR-6.J.1",
+    "VAR-6"
+  ]
+}

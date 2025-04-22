@@ -1,0 +1,45 @@
+{
+  "question_id": "question-092",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "anticipating-patterns",
+    "sample-mean",
+    "sampling-distributions"
+  ],
+  "title": "Test Scores",
+  "difficulty": "Medium",
+  "question_text": "Which of the following situations does NOT describe a situation with sample means?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Select $30\\text{ students}$ for an after-school study session and determine how many out of the $30$ pass the next unit test."
+    },
+    {
+      "letter": "B",
+      "text": "Select $30\\text{ students}$ for an after-school study session and determine their average score on the next unit test."
+    },
+    {
+      "letter": "C",
+      "text": "Randomly select $30\\text{ students}$ for an after-school study session and another $30\\text{ students}$ who are not allowed to go to the study session; compare the average score of the two groups."
+    },
+    {
+      "letter": "D",
+      "text": "Randomly select $30\\text{ students}$ to take a unit test; next, have them all take an after-school study session before taking an equally hard unit test again. Examine the change in test scores."
+    },
+    {
+      "letter": "E",
+      "text": "All of the listed responses deal with sample means."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "2.C",
+    "UNC-1.I",
+    "UNC-1.I.1",
+    "UNC-1"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "question_id": "question-112",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "tests-of-significance",
+    "mean",
+    "statistical-inference"
+  ],
+  "title": "Computer Output T-Test | 1 of 2",
+  "difficulty": "Medium",
+  "question_text": "A study on women’s weights was recently completed.\nFifteen randomly selected high school females from an urban setting were compared to $16$ randomly selected high school females from a rural setting. Assume that the distribution of both populations are approximately normal. The results are below:\nTwo-Sample T for Urban Weights vs. Rural Weights\nN Mean StDev SE Mean\nUrban Weights 15 126.1 10.5 2.7\nRural Weights 16 128.8 13.2 3.3\n\n\n$\\text{ Difference }= \\mu \\text{ (Urban Weights)} - \\mu \\text{ (Rural Weights)}$\nEstimate for difference: $-2.68$\n$95\\%$ confidence interval for difference: ($-11.45, 6.09$)\n$\\text{T-test of difference }= 0$\n$\\text{T-value }= -0.63$\n$\\text{ P-value }= 0.537$\n$\\text{ DF }= 28$\nWhat can one conclude from the results of the two-sample $T$-test?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">StDev</th><th scope=\"col\">SE Mean</th></tr></thead><tbody><tr><td>Urban Weights</td><td>15</td><td>126.1</td><td>10.5</td><td>2.7</td></tr><tr><td>Rural Weights</td><td>16</td><td>128.8</td><td>13.2</td><td>3.3</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Strong evidence exists that females from rural and urban areas weigh about the same."
+    },
+    {
+      "letter": "B",
+      "text": "Weak evidence exists that females from rural and urban areas have different weights."
+    },
+    {
+      "letter": "C",
+      "text": "There was a failure to find sufficient evidence of a difference between weights for rural and urban high school females."
+    },
+    {
+      "letter": "D",
+      "text": "Strong evidence exists that rural high school females weigh more than urban high school females."
+    },
+    {
+      "letter": "E",
+      "text": "The conditions for this test were not met, so any conclusions are invalid."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.D",
+    "UNC-4.AA.1",
+    "UNC-4.AA",
+    "UNC-4"
+  ]
+}

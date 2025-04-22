@@ -1,0 +1,46 @@
+{
+  "question_id": "question-064",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "chi-square",
+    "inference",
+    "alternative-hypothesis",
+    "null-hypothesis"
+  ],
+  "title": "Gym Preferences",
+  "difficulty": "Easy",
+  "question_text": "A local gym is studying whether the type of membership (Regular, Premium, VIP) has any association with the choice of workout sessions (Aerobics, Weightlifting, Yoga). For a chi-square test of independence, which of the following sets of hypotheses is appropriate?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$H_0$: Membership type dictates workout session choices.\n$H_a$: Membership type has no influence on workout session choices."
+    },
+    {
+      "letter": "B",
+      "text": "$H_0$: Workout session choice and membership type are independent.\n$H_a$: Workout session choice and membership type are dependent."
+    },
+    {
+      "letter": "C",
+      "text": "$H_0$: The popularity of Yoga is the same across all membership types.\n$H_a$: Yoga is more popular in one membership type compared to others."
+    },
+    {
+      "letter": "D",
+      "text": "$H_0$: Premium members choose Aerobics and Weightlifting equally.\n$H_a$: Premium members choose Aerobics more than Weightlifting."
+    },
+    {
+      "letter": "E",
+      "text": "$H_0$: The distribution of workout session preferences is the same for all membership types.\n$H_a$: The distribution of workout session preferences is not the same for all membership types."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "1.F",
+    "VAR-8.I",
+    "VAR-8.I.2",
+    "VAR-8"
+  ]
+}

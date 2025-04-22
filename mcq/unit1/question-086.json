@@ -1,0 +1,52 @@
+{
+  "question_id": "question-086",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "mean",
+    "spread",
+    "univariate-data",
+    "standard-deviation",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
+  "title": "Students Losing Weight",
+  "difficulty": "Easy",
+  "question_text": "Suppose a school nurse measured the weights of $10$ of her students. The weights have a mean of $104\\text{ pounds}$ with a standard deviation of $11\\text{ pounds}$.\nIf each student lost $5\\text{ pounds}$ the next day, what would the new mean and standard deviation be?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Mean = $104\\text{ lbs}$\nStandard deviation = $11\\text{ lbs}$"
+    },
+    {
+      "letter": "B",
+      "text": "Mean = $99\\text{ lbs}$\nStandard deviation = $11\\text{ lbs}$"
+    },
+    {
+      "letter": "C",
+      "text": "Mean = $99\\text{ lbs}$\nStandard deviation = $6\\text{ lbs}$"
+    },
+    {
+      "letter": "D",
+      "text": "Mean = $104\\text{ lbs}$\nStandard deviation = $6\\text{ lbs}$"
+    },
+    {
+      "letter": "E",
+      "text": "Mean = $52\\text{ lbs}$\nStandard deviation =$6\\text{ lbs}$"
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.I.2",
+    "2.C",
+    "UNC-1.J.1",
+    "UNC-1.J",
+    "UNC-1.I",
+    "UNC-1.J.3",
+    "UNC-1.I.1",
+    "UNC-1"
+  ]
+}

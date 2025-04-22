@@ -1,0 +1,48 @@
+{
+  "question_id": "question-018",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval",
+    "mean-interval",
+    "estimation",
+    "statistical-inference"
+  ],
+  "title": "One Sample Mean Interval: Average Number of Tweets",
+  "difficulty": "Medium",
+  "question_text": "Camden was asked by one of his friends how many tweets he sends out a day. Not knowing the exact answer, Camden randomly selected $16$ days from the past and looked at the number of tweets he sent out.\nUsing his knowledge and AP Statistical power, he decided to construct a $95\\%$ confidence interval for the average number of tweets he sent out.\nThe data he collected from the $16$ days followed an approximately normal distribution with a mean of $3.14$ and standard deviation of $0.68$.\nWhich of the following represents a $95\\%$ confidence interval for the average number of tweets Camden sends out a day?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$3.14\\pm 1.96\\dfrac { 0.68 }{ \\sqrt { 16 } }$"
+    },
+    {
+      "letter": "B",
+      "text": "$3.14\\pm 2.12\\dfrac { 0.68 }{ \\sqrt { 16 } }$"
+    },
+    {
+      "letter": "C",
+      "text": "$3.14\\pm 2.131\\dfrac { 0.68 }{ \\sqrt { 16 } }$"
+    },
+    {
+      "letter": "D",
+      "text": "$3.14\\pm 2.12\\cdot 0.68$"
+    },
+    {
+      "letter": "E",
+      "text": "$3.14\\pm 2.131\\cdot 0.68$"
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.Q.3",
+    "3.D",
+    "UNC-4.Q.2",
+    "UNC-4",
+    "UNC-4.Q",
+    "UNC-4.Q.1"
+  ]
+}

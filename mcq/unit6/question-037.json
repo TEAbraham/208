@@ -1,0 +1,46 @@
+{
+  "question_id": "question-037",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "1-proportion-z-interval",
+    "proportion"
+  ],
+  "title": "Testing Hypothesis: Conditions",
+  "difficulty": "Easy",
+  "question_text": "Which of the following is/are conditions necessary for a one-proportion $Z$-test?\nI. The data must come from a random sample.\nII. $np$ and $n(1-p)$ must both be more than $10$, where $n$ is the sample size and $p$ is the probability of success.\nIII. The sample size must be more than $30$.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and II only."
+    },
+    {
+      "letter": "E",
+      "text": "II and III only."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.C",
+    "VAR-6.F",
+    "VAR-6.F.1",
+    "VAR-6"
+  ]
+}

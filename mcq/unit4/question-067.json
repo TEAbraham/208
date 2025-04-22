@@ -1,0 +1,45 @@
+{
+  "question_id": "question-067",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "simulation",
+    "probability"
+  ],
+  "title": "Rolling Doubles: What are the Chances?",
+  "difficulty": "Easy",
+  "question_text": "When two fair, $6$-sided dice are tossed, the result is called “doubles” if both dice land with the same number of dots showing (for example, both dice land with $3\\text{ dots}$ showing).\nWhat is the probability that when tossing two dice, more than $4\\text{ tosses}$ will be needed in order to get doubles for the first time?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.0965$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.3858$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.4213$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.4823$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.5177$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-4.E",
+    "3.A",
+    "VAR-4",
+    "VAR-4.E.4"
+  ]
+}

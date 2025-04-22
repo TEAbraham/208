@@ -1,0 +1,49 @@
+{
+  "question_id": "question-114",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "matched-pairs-design",
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "blocking",
+    "randomized-block-design"
+  ],
+  "title": "Purpose of Blocking",
+  "difficulty": "Medium",
+  "question_text": "What is the essential purpose of blocking, and how should the blocks be designated?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Blocking reduces variability within the blocks; individuals within each block should be as similar as possible."
+    },
+    {
+      "letter": "B",
+      "text": "Blocking reduces measurement error; individuals should be self-selected in each block."
+    },
+    {
+      "letter": "C",
+      "text": "Blocking makes subjects more comfortable; subjects select their own groups."
+    },
+    {
+      "letter": "D",
+      "text": "Blocking increases the sample size, which in turn reduces variability; individuals within blocks should be as different as possible to create a more heterogeneous experiment."
+    },
+    {
+      "letter": "E",
+      "text": "Blocking reduces bias in experiments; individuals should be randomly divided into their blocks."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-3.D",
+    "VAR-3",
+    "VAR-3.C.8",
+    "VAR-3.D.1",
+    "1.C",
+    "VAR-3.C"
+  ]
+}

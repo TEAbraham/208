@@ -1,0 +1,45 @@
+{
+  "question_id": "question-155",
+  "unit": "AP® Statistics | Unit 6 Assessment",
+  "topics": [
+    "difference-two-proportions",
+    "significance-tests",
+    "pre-conditions"
+  ],
+  "title": "Is the Test Valid?",
+  "difficulty": "Hard",
+  "question_text": "For a senior project, a student wishes to compare the proportions of girls and boys taking AP exams in Calculus. In her school, there are more than $1{,}000$ boys and $1{,}000$ girls. She randomly samples $30$ girls and $20$ boys and asks if they are taking a Calculus AP exam. $16$ boys responded yes and $24$ girls responded yes. While she performs the test and is pleased with her work, she realizes she forgot to check the conditions. Do these results verify the conditions of her making any statistical inference while comparing these two proportions?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes, because she sampled both of her populations randomly and because both of her samples are less than or equal to $10\\%$ of their population sizes."
+    },
+    {
+      "letter": "B",
+      "text": "Yes, because both of her samples are less than or equal to $10\\%$ of their population sizes and because both values of $\\hat{p}$ are equal which means that $\\hat{p}_{c}$ is also equal.."
+    },
+    {
+      "letter": "C",
+      "text": "Yes, because both values of $\\hat{p}$ are equal which means that $\\hat{p}_{c}$ is also equal and because her sample sizes are all greater than $10$."
+    },
+    {
+      "letter": "D",
+      "text": "No, because both values of $\\hat{p}$ are equal, but the sample sizes are not."
+    },
+    {
+      "letter": "E",
+      "text": "No, because the value of ${n}_{1}(1-\\hat{p}_{c})$ is only equal to $4$."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.C",
+    "VAR-6.J",
+    "VAR-6.J.1",
+    "VAR-6"
+  ]
+}

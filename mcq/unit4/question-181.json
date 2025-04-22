@@ -1,0 +1,46 @@
+{
+  "question_id": "question-181",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "binomial-distribution",
+    "probability",
+    "discrete-random-variables"
+  ],
+  "title": "Composite Binomial Situation",
+  "difficulty": "Hard",
+  "question_text": "Suppose a basketball player shoots $10\\text{ free throws}$ per game.\nIf the season lasts $32\\text{ games}$ and the player is an $80\\%$ lifetime free-throw shooter, what is the probability that the player makes all $10$ of his free throws during at least one of the games?\nAssume each game and each of the free throw attempts is independent.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.893$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.973$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.026$"
+    },
+    {
+      "letter": "D",
+      "text": "Approximately $1$."
+    },
+    {
+      "letter": "E",
+      "text": "$0.989$"
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.B",
+    "3.A",
+    "UNC-3",
+    "UNC-3.B.1"
+  ]
+}

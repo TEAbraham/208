@@ -1,0 +1,48 @@
+{
+  "question_id": "question-099",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "matched-pairs-design",
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "randomized-block-design"
+  ],
+  "title": "Understanding Blocking in an Experiment",
+  "difficulty": "Easy",
+  "question_text": "In the context of an experiment, blocking refers to",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Dividing subjects up in the such a way that they are in the group they wish to join."
+    },
+    {
+      "letter": "B",
+      "text": "Performing the experiment on a variety of different subjects to make generalizing the results to the population more effective."
+    },
+    {
+      "letter": "C",
+      "text": "Dividing the subjects up in such a way that the subjects in each group have less variability."
+    },
+    {
+      "letter": "D",
+      "text": "Performing the experiment on many different people as a way to reduce variability."
+    },
+    {
+      "letter": "E",
+      "text": "Hiring a third party so that neither the subjects nor the people conducting the experiment know who gets what treatment."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-3.D",
+    "VAR-3",
+    "VAR-3.C.8",
+    "VAR-3.D.1",
+    "1.C",
+    "VAR-3.C"
+  ]
+}

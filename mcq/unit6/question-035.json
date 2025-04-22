@@ -1,0 +1,48 @@
+{
+  "question_id": "question-035",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "confidence-interval",
+    "confidence-level",
+    "estimation",
+    "statistical-inference",
+    "logic-meaning-properties",
+    "1-proportion-z-interval"
+  ],
+  "title": "Meaning of a Confidence Level for Proportions: Town Budget",
+  "difficulty": "Hard",
+  "question_text": "A random sample of $100$ citizens in a town were asked: \"Would you approve the budget proposal?\". A $90\\%$ confidence interval was constructed for the proportion of citizens who would approve the budget and yielded a result of $(0.567, 0.634)$.\nWhich of the following statements is correct?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "About $90\\%$ of all random samples of $100$ citizens from this town would result in a $90\\%$ confidence interval of $(0.567,0.634)$."
+    },
+    {
+      "letter": "B",
+      "text": "$90\\%$ of citizens in the survey reported that they had a $56.7\\%$ to $63.4\\%$ chance of approving the budget."
+    },
+    {
+      "letter": "C",
+      "text": "$90\\%$ of all possible samples of $100$ citizens will contain the interval $(0.567,0.634)$."
+    },
+    {
+      "letter": "D",
+      "text": "About $90\\%$ of all random samples of $100$ citizens from the town would result in a confidence interval that captures the population proportion of citizens who approve the budget."
+    },
+    {
+      "letter": "E",
+      "text": "$90\\%$ of the time the interval from $(0.567, 0.634)$ will contain the population proportion of citizens who would approve the budget."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.G",
+    "4.D",
+    "UNC-4.G.1",
+    "UNC-4"
+  ]
+}

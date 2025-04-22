@@ -1,0 +1,49 @@
+{
+  "question_id": "question-143",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "spread",
+    "univariate-data",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
+  "title": "Unemployment Rates by State",
+  "difficulty": "Hard",
+  "question_text": "The July 2015 unemployment rates for the $50\\text{ U.S. States}$ are displayed in the relative cumulative frequency graph below.\nBased on this graph, what is the best estimate of the median and interquartile range?\nCreated for Albert.io. Copyright 2017. All rights reserved.",
+  "image_files": [
+    "images/question-143-img1.JPG"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Median =5%\n\nIQR =1%"
+    },
+    {
+      "letter": "B",
+      "text": "Median =5%\n\nIQR =2%"
+    },
+    {
+      "letter": "C",
+      "text": "Median\n=\n5\n%\n\nIQR\n=\n5\n%"
+    },
+    {
+      "letter": "D",
+      "text": "Median\n=\n5.2\n%\n\nIQR\n=\n1.7\n%"
+    },
+    {
+      "letter": "E",
+      "text": "Median\n=\n5.2\n%\n\nIQR\n=\n2.8\n%"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.L.1",
+    "UNC-1.L.2",
+    "2.B",
+    "UNC-1.L",
+    "UNC-1"
+  ]
+}

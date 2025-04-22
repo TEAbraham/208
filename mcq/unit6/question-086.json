@@ -1,0 +1,45 @@
+{
+  "question_id": "question-086",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "type-2-error",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
+  "title": "Type II Error: Avalanche Airbag Pack",
+  "difficulty": "Hard",
+  "question_text": "A boss was not satisfied with the survival rate of his company's avalanche airbag pack. His company redesigned their pack in the hopes of increasing the survival rate. Which of the following conditions would a Type II error be committed?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The company concludes that the new airbag pack increases the survival rate when it actually does not increase the survival rate."
+    },
+    {
+      "letter": "B",
+      "text": "The company concludes that the new airbag pack does not increase the survival rate when it actually does increase the survival rate."
+    },
+    {
+      "letter": "C",
+      "text": "The company concludes that the new airbag pack increases the survival rate when it really does increase the survival rate."
+    },
+    {
+      "letter": "D",
+      "text": "The company concludes that the new airbag pack does not increase the survival rate when it really does not increase the survival rate."
+    },
+    {
+      "letter": "E",
+      "text": "A Type II error cannot be committed in this situation."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-5.A.1",
+    "UNC-5.A",
+    "UNC-5",
+    "1.B"
+  ]
+}

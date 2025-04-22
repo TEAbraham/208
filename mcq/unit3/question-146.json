@@ -1,0 +1,48 @@
+{
+  "question_id": "question-146",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "observational-study",
+    "well-designed-conducted"
+  ],
+  "title": "Effectiveness of a Test Prep Course",
+  "difficulty": "Medium",
+  "question_text": "A company just launched an ACT prep course.\nWhat would be the best way to determine the effectiveness of this course?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Randomly select $100\\text{ students}$ who have taken the ACT once, have them take the prep course, and then have them take the ACT a second time. Randomly select another $100\\text{ students}$ who have taken the ACT once and have them take the ACT again without the prep course. Compare the increase in ACT scores of the two groups."
+    },
+    {
+      "letter": "B",
+      "text": "Randomly select $100\\text{ students}$, enroll them in the prep course, then have them take the ACT. Randomly select another $100\\text{ students}$, do not allow them to take the prep course, then have them take the ACT. Compare ACT scores of the two groups."
+    },
+    {
+      "letter": "C",
+      "text": "Find $100$ randomly chosen students who have taken the prep course, then have these students take the ACT. Compare these scores to the ACT scores of $100$ randomly chosen students who have not taken the prep course."
+    },
+    {
+      "letter": "D",
+      "text": "Randomly select $100\\text{ students}$ who have not taken the ACT or the prep course and have them take the ACT once, then take the prep course, and then finally take the ACT a second time. Compare the difference in scores on the ACT."
+    },
+    {
+      "letter": "E",
+      "text": "Randomly select 200 students, pair each student up with another who is about the same age, and have one student in each pair take the prep course while the other does not. Compare ACT scores of each of the 100 pairs."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-3.D",
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.D.1",
+    "VAR-3.E.2"
+  ]
+}

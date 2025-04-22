@@ -1,0 +1,47 @@
+{
+  "question_id": "question-032",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "categorical-data",
+    "conditional-relative-frequencies",
+    "exploring-data"
+  ],
+  "title": "School Choices",
+  "difficulty": "Hard",
+  "question_text": "Fifty students were asked to check off their primary reason for choosing a particular state university. The table below summarizes the students’ responses:\nReason for Attending Frequency\nLow Tuition 22\nConvenient Location 12\nAcademic Program 8\nSports Program 3\nCampus Facilities 3\nFood in Cafeteria 2\n\n\nWhich of the statements below is true?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Reason for Attending</th><th scope=\"col\">Frequency</th></tr></thead><tbody><tr><td>Low Tuition</td><td>22</td></tr><tr><td>Convenient Location</td><td>12</td></tr><tr><td>Academic Program</td><td>8</td></tr><tr><td>Sports Program</td><td>3</td></tr><tr><td>Campus Facilities</td><td>3</td></tr><tr><td>Food in Cafeteria</td><td>2</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "This distribution is highly skewed to the last categories (on campus facilities and food in cafeteria)."
+    },
+    {
+      "letter": "B",
+      "text": "A histogram would give an accurate graphical depiction of this data."
+    },
+    {
+      "letter": "C",
+      "text": "A cumulative percentage distribution would give valuable information about why students picked this university."
+    },
+    {
+      "letter": "D",
+      "text": "$22\\%$ of students surveyed picked this university for its academic or sports programs."
+    },
+    {
+      "letter": "E",
+      "text": "A percentage polygon can be constructed for this data by letting the midpoints of each group represent the data in that group and then connecting the midpoint dots."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.B.2",
+    "2.A",
+    "UNC-1.B",
+    "UNC-1"
+  ]
+}

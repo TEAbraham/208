@@ -1,0 +1,47 @@
+{
+  "question_id": "question-011",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval",
+    "mean",
+    "estimation",
+    "statistical-inference"
+  ],
+  "title": "Prom Costs: Upper Bound of Confidence Interval",
+  "difficulty": "Easy",
+  "question_text": "A group of students decided to construct a confidence interval to estimate the average cost of attending prom in their area. To gather data they surveyed a random sample of students who attended prom and surveyed them about how much they had spent.\nIf the sample mean was $\\$914.32$ and the lower bound of their confidence interval was $\\$863.57$, what was the largest cost estimated by the confidence interval?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$\\$50.75$"
+    },
+    {
+      "letter": "B",
+      "text": "$\\$101.50$"
+    },
+    {
+      "letter": "C",
+      "text": "$\\$939.70$"
+    },
+    {
+      "letter": "D",
+      "text": "$\\$965.07$"
+    },
+    {
+      "letter": "E",
+      "text": "$\\$1{,}015.82$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "3.D",
+    "UNC-4",
+    "UNC-4.R",
+    "UNC-4.R.2",
+    "UNC-4.R.1"
+  ]
+}

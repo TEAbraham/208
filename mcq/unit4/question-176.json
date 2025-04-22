@@ -1,0 +1,46 @@
+{
+  "question_id": "question-176",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "binomial-distribution",
+    "probability",
+    "discrete-random-variables"
+  ],
+  "title": "Binomial Applications",
+  "difficulty": "Medium",
+  "question_text": "A student is taking a $10\\text{ question}$ multiple choice test that has five options for each question (A, B, C, D, and E).\nSuppose a student knows the correct answer to $6$ of the questions. For the remaining $4\\text{ questions}$, the student can eliminate one response per question, on average.\nWhat is the probability the student gets at least an $80\\%$ on the test?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.2109$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.0823$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.3023$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.2617$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.5233$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.B",
+    "3.A",
+    "UNC-3",
+    "UNC-3.B.1"
+  ]
+}

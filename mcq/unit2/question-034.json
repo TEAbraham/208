@@ -1,0 +1,47 @@
+{
+  "question_id": "question-034",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "categorical-data",
+    "two-way-tables",
+    "exploring-data"
+  ],
+  "title": "Restaurant Preference: A Two Way Table",
+  "difficulty": "Medium",
+  "question_text": "For his final statistics project, Ramsey completed a study to determine which of $4$ local restaurants students at his school preferred. After gathering data he organized the counts for each restaurant into the table shown below.\nPancake Factory Onion Garden Emerald Wednesdays Cayenne Total\nBoys 25 28 12 43 108\nGirls 30 33 27 32 122\nTotal 55 61 39 75 230\n$\\ $\nWhat is the conditional distribution of gender for those who prefer Cayenne?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Pancake Factory</th><th scope=\"col\">Onion Garden</th><th scope=\"col\">Emerald Wednesdays</th><th scope=\"col\">Cayenne</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Boys</td><td>25</td><td>28</td><td>12</td><td>43</td><td>108</td></tr><tr><td>Girls</td><td>30</td><td>33</td><td>27</td><td>32</td><td>122</td></tr><tr><td>Total</td><td>55</td><td>61</td><td>39</td><td>75</td><td>230</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Boys: $\\dfrac { 43 }{ 108 } $\nGirls: $\\dfrac { 32 }{ 122 } $"
+    },
+    {
+      "letter": "B",
+      "text": "Boys: $\\dfrac { 43 }{ 230 } $\nGirls: $\\dfrac { 32 }{ 230 } $"
+    },
+    {
+      "letter": "C",
+      "text": "Boys: $\\dfrac { 108 }{ 230 } $\nGirls: $\\dfrac { 122 }{ 230 } $"
+    },
+    {
+      "letter": "D",
+      "text": "Boys: $\\dfrac { 43 }{ 75 } $\nGirls: $\\dfrac { 32 }{ 75 } $"
+    },
+    {
+      "letter": "E",
+      "text": "Boys: $\\dfrac { 25 }{ 55 } $\nGirls: $\\dfrac { 30 }{ 55 } $"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "2.C",
+    "UNC-1.Q",
+    "UNC-1.Q.2",
+    "UNC-1"
+  ]
+}

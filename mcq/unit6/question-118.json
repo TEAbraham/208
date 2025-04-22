@@ -1,0 +1,45 @@
+{
+  "question_id": "question-118",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "difference-two-proportions",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
+  "title": "Constructing an Interval",
+  "difficulty": "Medium",
+  "question_text": "A group of college students in a psychology class wonders if the order of treatments changes the outcome of a study.\nTo test this, they ask students in a blind taste test which of two colas they prefer, Pepsi or Coke. In this blind taste test, the first $50\\text{ randomly chosen subjects}$ are given Pepsi and then Coke, with $34$ preferring Pepsi. The next $50\\text{ randomly chosen subjects}$ are given Coke and then Pepsi, with $29$ preferring Pepsi.\nIf the students wish to determine whether the order in which options are offered changes preferences, what would be an appropriate interval at $95\\%$ confidence?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$(0.1882, 0.2882)$"
+    },
+    {
+      "letter": "B",
+      "text": "$(-0.0882, 0.2882)$"
+    },
+    {
+      "letter": "C",
+      "text": "$(-0.2434, 0.2980)$"
+    },
+    {
+      "letter": "D",
+      "text": "$(-0.1882, 0.0134)$"
+    },
+    {
+      "letter": "E",
+      "text": "$(-0.034, 0.0683)$"
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-6.I",
+    "VAR-6.I.1",
+    "1.E",
+    "VAR-6"
+  ]
+}

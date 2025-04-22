@@ -1,0 +1,48 @@
+{
+  "question_id": "question-020",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "variable",
+    "categorical-data",
+    "data",
+    "quantitative"
+  ],
+  "title": "Supermarket Survey",
+  "difficulty": "Hard",
+  "question_text": "Sam is working on a statistics class project and decides to collect data from people at the local supermarket. The survey he is asking collects information on gender, hair color, number of kids, zip code, number of items in the cart, and how much money in their wallet.\nOnce all the data has been collected Sam organizes the data into two groups: Quantitative or Categorical. The groups are listed below.\nQuantitative: number of kids, zip code, number of Items in the cart, and amount of money in wallet\nCategorical: gender, hair color\nDid Sam correctly break down the variable into the two groups?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes, Sam correctly identified all the quantitative and categorical variables."
+    },
+    {
+      "letter": "B",
+      "text": "No, Sam listed number of kids as quantitative, when it should be categorical."
+    },
+    {
+      "letter": "C",
+      "text": "No, Sam incorrectly listed zip code as quantitative, but it is categorical."
+    },
+    {
+      "letter": "D",
+      "text": "No, the amount of money in your wallet should be categorical."
+    },
+    {
+      "letter": "E",
+      "text": "Sam has the idea of quantitative and categorical variables completely flipped."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "Sam's survey collected data on individuals from the supermarket. The data can be split into two groups: quantitative or categorical. A quantitative variable is one that takes one a value that can be measured whereas a categorical variable takes on values that are category names or group names.\n\nAlthough zip code is a numeric value, it is not a value that can be measured from one person to another. Another way to think about it is, we cannot find the average zip code. Since we cannot find the numeric average, the value is categorical.\n\nChoice 'C' is correct.",
+  "explanations": {},
+  "tags": [
+    "VAR-1.C.1",
+    "VAR-1.B",
+    "2.A",
+    "VAR-1.C.2",
+    "VAR-1",
+    "VAR-1.C"
+  ]
+}

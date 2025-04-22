@@ -1,0 +1,48 @@
+{
+  "question_id": "question-086",
+  "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "model-for-measurements"
+  ],
+  "title": "University Initiative",
+  "difficulty": "Hard",
+  "question_text": "A local university is interested in summer earnings of its students. The data from all students over the last $10\\text{ years}$ is given in the following table:\nMales Females\nMean $3,201 $2,401\nSt. Dev. $1,231 $984\n\n\nThe university recently started an initiative to encourage students to find higher-paying summer jobs in line with their potential careers. A random sample of $30\\text{ males}$ found a mean summer income of $\\$3{,}804$ with a standard deviation of $\\$1{,}240$.\nAssuming females have the same standard deviation as before ($\\$984$), how large of a sample mean would the female sample of size $30$ have to be in order to claim that females have benefited just as much as males from this initiative?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Males</th><th scope=\"col\">Females</th></tr></thead><tbody><tr><td>Mean</td><td><span>$</span>3,201</td><td><span>$</span>2,401</td></tr><tr><td>St. Dev.</td><td><span>$</span>1,231</td><td><span>$</span>984</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$\\$2{,}474.32$"
+    },
+    {
+      "letter": "B",
+      "text": "$\\$2{,}878.88$"
+    },
+    {
+      "letter": "C",
+      "text": "$\\$2{,}938.83$"
+    },
+    {
+      "letter": "D",
+      "text": "$\\$3{,}432.10$"
+    },
+    {
+      "letter": "E",
+      "text": "$\\$3{,}804.00$"
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.Q.2",
+    "UNC-3.Q.1",
+    "UNC-3",
+    "UNC-3.Q",
+    "3.B"
+  ]
+}

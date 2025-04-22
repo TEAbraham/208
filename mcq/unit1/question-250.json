@@ -1,0 +1,45 @@
+{
+  "question_id": "question-250",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "properties"
+  ],
+  "title": "Normal Characteristics",
+  "difficulty": "Medium",
+  "question_text": "Which of the following is NOT a characteristic of the standard normal distribution?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The area beneath the standard normal distribution curve is exactly equal to $1$."
+    },
+    {
+      "letter": "B",
+      "text": "The mean is $0$ and the standard deviation is $1$."
+    },
+    {
+      "letter": "C",
+      "text": "The curve is bell-shaped and symmetric about its peak which occurs at the median."
+    },
+    {
+      "letter": "D",
+      "text": "The distribution contains higher frequencies for values near the center and smaller frequencies for values to the far left and far right of the center."
+    },
+    {
+      "letter": "E",
+      "text": "As the sample size increases, the standard deviation will decrease."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "2.D",
+    "VAR-2",
+    "VAR-2.A",
+    "VAR-2.A.2"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-151",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "center-spread",
+    "univariate-data",
+    "comparing-distributions",
+    "exploring-data"
+  ],
+  "title": "Shoe Distribution",
+  "difficulty": "Hard",
+  "question_text": "The manager of an athletic-shoe store wants to know the size distribution of shoes for one of her most popular models before she puts in the next order. The manager collects size data for both men’s and women’s shoes on the last $50\\text{ pairs}$ of this model sold.\nWhat is the best type of graphical display the manager could use for her purposes?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Scatterplot, making sure to use different symbols for the men’s and the women’s shoes."
+    },
+    {
+      "letter": "B",
+      "text": "Two separate bar graphs: one for men’s shoes, one for women’s shoes."
+    },
+    {
+      "letter": "C",
+      "text": "A single histogram, using bar width of $1$."
+    },
+    {
+      "letter": "D",
+      "text": "Two separate histograms: one for men’s shoes, one for women’s shoes, using bar width of $1$."
+    },
+    {
+      "letter": "E",
+      "text": "Two separate dot plots: one for men’s shoes, one for women’s shoes."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.M",
+    "UNC-1.M.1",
+    "2.A",
+    "UNC-1"
+  ]
+}

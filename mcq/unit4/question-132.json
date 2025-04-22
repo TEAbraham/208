@@ -1,0 +1,46 @@
+{
+  "question_id": "question-132",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "descriptive-statistics",
+    "combining-random-variables"
+  ],
+  "title": "Finding and Combining Expected Values",
+  "difficulty": "Easy",
+  "question_text": "A hat contains $5$ slips of paper, numbered $1$ through $5$, with a different number on each slip of paper. Another hat contains $4$ slips of paper, numbered $20$ through $23$, with a different number on each slip of paper. One number is randomly drawn from each hat.\nWhat is the expected value of the sum of the numbers on the two selected pieces of paper?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$12.25$"
+    },
+    {
+      "letter": "B",
+      "text": "$12.5$"
+    },
+    {
+      "letter": "C",
+      "text": "$18.5$"
+    },
+    {
+      "letter": "D",
+      "text": "$24.5$"
+    },
+    {
+      "letter": "E",
+      "text": "$25$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

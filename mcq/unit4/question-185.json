@@ -1,0 +1,45 @@
+{
+  "question_id": "question-185",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "probability",
+    "discrete-random-variables"
+  ],
+  "title": "Mean Variance of Binomial",
+  "difficulty": "Easy",
+  "question_text": "What are the mean and variance of the binomial distribution with $n$ number of trials and $P$ probability of success?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Mean: $nP$\nVariance: $n(P)(1-P)$"
+    },
+    {
+      "letter": "B",
+      "text": "Mean: $P$\nVariance: $\\dfrac{ n(P) } { (1-P)}$"
+    },
+    {
+      "letter": "C",
+      "text": "Mean: $P$\nVariance:$\\dfrac{ (P)}{[\\sqrt{n}]}$"
+    },
+    {
+      "letter": "D",
+      "text": "Mean: $ nP$\nVariance: $\\dfrac{(\\sigma)}{[\\sqrt{n}]}$"
+    },
+    {
+      "letter": "E",
+      "text": "Mean: μ\nVariance:\n√\n(n)(P)(1−P)"
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.C.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.C"
+  ]
+}

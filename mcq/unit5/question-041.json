@@ -1,0 +1,45 @@
+{
+  "question_id": "question-041",
+  "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "standard-deviation",
+    "parameters",
+    "differences-in-sample-means"
+  ],
+  "title": "Pumpkin Time",
+  "difficulty": "Medium",
+  "question_text": "There has been a tradition of pumpkin growing contests in both the East and West Coasts with thousands of pumpkins being entered. In the past, the average entered pumpkin on the East Coast weighed $360$ pounds with a standard deviation of $60$ pounds. The average pumpkin entered on the West Coast weighed $340$ pounds.\nThis year, random samples of $36$ pumpkins were taken on the East Coast and $24$ pumpkins on the West Coast (both coasts' pumpkins were shown to be normally distributed). Given that the standard deviation of the sampling distribution of the difference of sample means is $14$, find the standard deviation of the pumpkins on the west coast.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$6.93$ pounds"
+    },
+    {
+      "letter": "B",
+      "text": "$40$ pounds"
+    },
+    {
+      "letter": "C",
+      "text": "$40.7$ pounds"
+    },
+    {
+      "letter": "D",
+      "text": "$48$ pounds"
+    },
+    {
+      "letter": "E",
+      "text": "$60$ pounds"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.T",
+    "UNC-3.T.1",
+    "UNC-3",
+    "3.B"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "question_id": "question-090",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "binomial-distribution",
+    "probability",
+    "discrete-random-variables"
+  ],
+  "title": "Probability of First Win: Dice",
+  "difficulty": "Hard",
+  "question_text": "Suppose two fair dice are rolled.\nIf both dice show the same number (called a \"double\"), the player wins $\\$10$. If they do not, the player loses $\\$2$.\nIf a player plays this game once every day for one week, what is the probability she gets her first \"double\" on or before the seventh day of the week?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.166$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.721$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.0558$"
+    },
+    {
+      "letter": "D",
+      "text": "$0$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.9929$"
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ]
+}

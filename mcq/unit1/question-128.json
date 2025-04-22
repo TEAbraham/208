@@ -1,0 +1,48 @@
+{
+  "question_id": "question-128",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "boxplots",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
+  "title": "Boxplots and Five Number Summary: Golf - Is It a Sport?",
+  "difficulty": "Medium",
+  "question_text": "The boxplots below show the age of the members of two local golf organizations, The Fore-fathers and Tee-rific.\nWhich if the following statements is best supported by the boxplots?\nCreated for Albert.io. Copyright 2017. All rights reserved.",
+  "image_files": [
+    "images/question-128-img1.png"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Although a five number summary is a quick way to analyze data, it is not able to indicate the range of a dataset."
+    },
+    {
+      "letter": "B",
+      "text": "Although a five number summary is a quick way to analyze data, it can hide characteristics such as gaps and clusters."
+    },
+    {
+      "letter": "C",
+      "text": "Although a five number summary is a quick way to analyze data, it can hide the Inter Quartile Range."
+    },
+    {
+      "letter": "D",
+      "text": "Although a five number summary is a quick way to analyze data, it cannot determine the difference between the median and maximum value."
+    },
+    {
+      "letter": "E",
+      "text": "A five number summary always provides enough information about a dataset that none of the above flaws apply."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.L.2",
+    "2.B",
+    "UNC-1.L",
+    "UNC-1"
+  ]
+}

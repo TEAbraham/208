@@ -1,0 +1,50 @@
+{
+  "question_id": "question-059",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "influential-points",
+    "bivariate-data",
+    "exploring-data",
+    "outliers"
+  ],
+  "title": "Categorization of a Point in a Scatterplot",
+  "difficulty": "Medium",
+  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved.\nThe scatterplot above shows age and shoe-size data that researchers collected on a random sample of students in a middle school.\nHow would the point ($19, 14$) be categorized?",
+  "image_files": [
+    "images/question-059-img1.jpg"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The point is an outlier but will not change the correlation."
+    },
+    {
+      "letter": "B",
+      "text": "The point is an outlier that is influential in changing the correlation."
+    },
+    {
+      "letter": "C",
+      "text": "The point is high-leverage but not an outlier."
+    },
+    {
+      "letter": "D",
+      "text": "The point is neither an outlier nor high-leverage."
+    },
+    {
+      "letter": "E",
+      "text": "Unable to tell."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1",
+    "DAT-1.I",
+    "DAT-1.I.3",
+    "2.A",
+    "DAT-1.I.1"
+  ]
+}

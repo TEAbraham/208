@@ -1,0 +1,44 @@
+{
+  "question_id": "question-004",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "mean",
+    "inference"
+  ],
+  "title": "Average Number of Emails",
+  "difficulty": "Easy",
+  "question_text": "A school teacher wonders, on average, how many emails does he get a day? To investigate, he selects $30$ random days during the last year, and calculates the mean. His results shows that he got a mean of $\\bar{x} = 52.5$.\nCan the teacher safely assume that his true average number of emails was $52.5$?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes, since $n = 30$, the Central Limit Theorem says this result is valid."
+    },
+    {
+      "letter": "B",
+      "text": "Yes, since the days were random, we can generalize this result for the entire population."
+    },
+    {
+      "letter": "C",
+      "text": "Yes, since the $10\\%$ condition is met, the teacher can use this statistic."
+    },
+    {
+      "letter": "D",
+      "text": "No, since the distribution is not stated as Normal, he can not use this statistic."
+    },
+    {
+      "letter": "E",
+      "text": "No, since the number found is a statistic, the true population mean most likely differs from this amount."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "When dealing with statistics, numbers that describe a sample, and parameters, numbers that describe a population, it is important to remember that rarely do statistics equal the population parameter. In this case, $\\bar{x} = 52.5$ is a statistic, a sample mean. If the teacher had chosen $30$ different days, it is very unlikely that he would've gotten the same sample mean. This is due to Sampling Variability.\n\nTherefore, since the sample mean was only based off one sample, the teacher should not believe this is the true population mean, and use an inference method to find plausible values for his true population mean.\n\nChoice 'E' is correct.",
+  "explanations": {},
+  "tags": [
+    "VAR-1.I.1",
+    "1.A",
+    "VAR-1",
+    "VAR-1.I"
+  ]
+}

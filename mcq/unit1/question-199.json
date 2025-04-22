@@ -1,0 +1,47 @@
+{
+  "question_id": "question-199",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "tables"
+  ],
+  "title": "Pogopalooza and Normal Probability Calculations",
+  "difficulty": "Easy",
+  "question_text": "Xpogo is an extreme sport that involves jumping and performing tricks on a pogo stick. David Armstrong has been practicing hard for a couple years and hopes to one day be able to compete at Pogopalooza in pursuit of the world record for most consecutive jumps. In addition to practicing, David records his total consecutive jumps from each practice session and keeps close track of his statistics.\nHe knows that his current mean number of consecutive jumps is $72{,}381$ (getting close to the world record) and the standard deviation is $565$.\nWhat is the probability that if we look at a randomly selected day from his current records that on that day he was able to achieve more than $73{,}250$ consecutive jumps (assume the distribution of David's number of consecutive jumps is approximately normal)?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.01$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.06$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.94$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.99$"
+    },
+    {
+      "letter": "E",
+      "text": "The probability cannot be determined since David is probably improving over time."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2",
+    "VAR-2.B.3"
+  ]
+}

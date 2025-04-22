@@ -1,0 +1,45 @@
+{
+  "question_id": "question-012",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "chi-square-test"
+  ],
+  "title": "Conditions for Chi-Squared GOF",
+  "difficulty": "Easy",
+  "question_text": "Conditions necessary for a chi-squared goodness of fit include which of the following?\nI. Two independent SRSs.\nII. Expected counts must all be greater than $5$.\nIII. np and n(1-p) must both be at least $10$",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "II only."
+    },
+    {
+      "letter": "B",
+      "text": "III only."
+    },
+    {
+      "letter": "C",
+      "text": "I and II only."
+    },
+    {
+      "letter": "D",
+      "text": "II and III only."
+    },
+    {
+      "letter": "E",
+      "text": "I, II, and III."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-8.E.1",
+    "4.C",
+    "VAR-8.E",
+    "VAR-8"
+  ]
+}

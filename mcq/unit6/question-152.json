@@ -1,0 +1,44 @@
+{
+  "question_id": "question-152",
+  "unit": "AP® Statistics | Unit 6 Assessment",
+  "topics": [
+    "significance-tests",
+    "pre-conditions"
+  ],
+  "title": "Can the Test be Done?",
+  "difficulty": "Easy",
+  "question_text": "The CEO of a company wanted to randomly select $12$ people to see if they would purchase a new product. $8$ of the randomly selected people said that they would make the purchase. Could a test of significance for a population proportion be done to help the CEO make a decision?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes, since the sample was random."
+    },
+    {
+      "letter": "B",
+      "text": "Yes, since the sample proportion was greater than $0.5$."
+    },
+    {
+      "letter": "C",
+      "text": "Yes, since the proportion of failures was less than $10$."
+    },
+    {
+      "letter": "D",
+      "text": "No, since the proportion of successes was less than $10$."
+    },
+    {
+      "letter": "E",
+      "text": "No, since the proportion of failures was greater than$10.$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.C",
+    "VAR-6.F",
+    "VAR-6.F.1",
+    "VAR-6"
+  ]
+}

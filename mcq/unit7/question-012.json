@@ -1,0 +1,45 @@
+{
+  "question_id": "question-012",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "anticipating-patterns",
+    "sampling-distributions",
+    "t-distribution"
+  ],
+  "title": "Average Price of Homes: T Procedures",
+  "difficulty": "Easy",
+  "question_text": "A realtor is interested in the average price of homes in his state. He randomly selects $16\\text{ homes}$ and records the prices.\nUnder what conditions could $T$ procedures be safely used in this situation?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "As long as the sample is larger, say over $30$, $T$ procedures could be used in this case."
+    },
+    {
+      "letter": "B",
+      "text": "$T$ procedures can be used only if the problem states that the parent population is approximately normal."
+    },
+    {
+      "letter": "C",
+      "text": "$T$ procedures cannot be used in this situation as it would be more appropriate to use $Z$ procedures."
+    },
+    {
+      "letter": "D",
+      "text": "$T$ procedures can be used in this situation as is."
+    },
+    {
+      "letter": "E",
+      "text": "$T$ procedures can be used in this situation as long as a graph of the data shows no strong skewness or outliers."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.P.1",
+    "4.C",
+    "UNC-4",
+    "UNC-4.P"
+  ]
+}

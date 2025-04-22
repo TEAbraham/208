@@ -1,0 +1,47 @@
+{
+  "question_id": "question-163",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "binomial-distribution",
+    "sampling-distributions",
+    "probability",
+    "discrete-random-variables"
+  ],
+  "title": "Conditions of the Binomial Setting",
+  "difficulty": "Easy",
+  "question_text": "Which of the following is NOT a condition for the binomial setting?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There are only two distinct possible outcomes."
+    },
+    {
+      "letter": "B",
+      "text": "The probability of success is the same on each observation."
+    },
+    {
+      "letter": "C",
+      "text": "The outcome of each observation is independent."
+    },
+    {
+      "letter": "D",
+      "text": "The outcome of each observation falls into one of only two possible categories."
+    },
+    {
+      "letter": "E",
+      "text": "The number of observations is fixed."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.A.2",
+    "3.A",
+    "UNC-3",
+    "UNC-3.A"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "question_id": "question-123",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "difference-two-proportions",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
+  "title": "Situation for Two Proportions",
+  "difficulty": "Easy",
+  "question_text": "Which of the following situations would be appropriate for a two-proportion interval?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Comparing whether men earn more income than women."
+    },
+    {
+      "letter": "B",
+      "text": "Determining the proportion of people who attend church at least once a week."
+    },
+    {
+      "letter": "C",
+      "text": "Comparing whether dogs are more likely to live longer than cats."
+    },
+    {
+      "letter": "D",
+      "text": "Determining whether males or females are more likely to exercise regularly."
+    },
+    {
+      "letter": "E",
+      "text": "Examining whether a relationship exists between grade point average and hours studied."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "DAT-3.C",
+    "4.B",
+    "DAT-3",
+    "DAT-3.C.1"
+  ]
+}

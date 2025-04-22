@@ -1,0 +1,45 @@
+{
+  "question_id": "question-051",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
+  "title": "Reject ${H}_{0}$",
+  "difficulty": "Easy",
+  "question_text": "Suppose a one-sided hypothesis test gives a p-value of $0.19$.\nOne can reject ${H}_{0}$",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "At alpha = $0.01$ only."
+    },
+    {
+      "letter": "B",
+      "text": "At alpha =$0.05$ only."
+    },
+    {
+      "letter": "C",
+      "text": "At alpha = $0.1$ only."
+    },
+    {
+      "letter": "D",
+      "text": "At alpha = $0.01$, $0.05$, and $0.1$."
+    },
+    {
+      "letter": "E",
+      "text": "At none of the common alpha levels of $0.01$, $0.05$, or $0.1$."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.A.2",
+    "DAT-3.A"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "question_id": "question-246",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "model-for-measurements",
+    "z-score"
+  ],
+  "title": "Womens' Heights: Z-score Equation When Given the Percentile",
+  "difficulty": "Medium",
+  "question_text": "Women's heights are approximately normally distributed with a mean of $63.6\\text{ inches}$ and a standard deviation of $2.5\\text{ inches}$.\nWhich of the following equations can be used to find the height $x$ in which $18\\%$ of the heights fall above?",
+  "image_files": [
+    "images/question-246-img1.PNG"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$-0.92=\\dfrac { 63.6-x }{ 2.5 }$"
+    },
+    {
+      "letter": "B",
+      "text": "$-0.92=\\dfrac {x-63.6 }{ 2.5 }$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.18=\\dfrac {x-63.6 }{ 2.5 }$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.92=\\dfrac { 63.6-x }{ 2.5 }$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.92=\\dfrac { x-63.6 }{ 2.5 }$"
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2",
+    "VAR-2.B.3"
+  ]
+}

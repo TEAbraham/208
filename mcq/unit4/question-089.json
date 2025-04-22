@@ -1,0 +1,46 @@
+{
+  "question_id": "question-089",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "calculating-probability",
+    "anticipating-patterns",
+    "probability"
+  ],
+  "title": "Yahtzee Probability",
+  "difficulty": "Hard",
+  "question_text": "In the game of Yahtzee, a player tosses $5$, fair, $6$-sided dice while trying to form various combinations like three of a kind (for example: $4, 4, 4, 5, 1$), or a full house (for example: $2, 2, 2, 6, 6$). If all five dice show the same number (for example: $3, 3, 3, 3, 3$), the player has rolled a Yahtzee.\nHow would you calculate the probability that a player will roll Yahtzee on their first roll of the dice?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$\\dfrac { 1 }{ 6 } $"
+    },
+    {
+      "letter": "B",
+      "text": "${ \\left( \\dfrac { 1 }{ 6 } \\right) }^{ 5 }$"
+    },
+    {
+      "letter": "C",
+      "text": "${ \\left( \\dfrac { 1 }{ 6 } \\right) }^{ 5 }\\cdot 6$"
+    },
+    {
+      "letter": "D",
+      "text": "$5\\cdot \\left( \\dfrac { 1 }{ 6 } \\right)$"
+    },
+    {
+      "letter": "E",
+      "text": "$0$"
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ]
+}

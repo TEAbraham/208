@@ -1,0 +1,48 @@
+{
+  "question_id": "question-137",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "descriptive-statistics",
+    "combining-random-variables"
+  ],
+  "title": "Finding the Total Mean: Freddie Just Cannot Get to School on Time",
+  "difficulty": "Easy",
+  "question_text": "Freddie has a problem of showing up to school on time. Freddie has broken down how his time (in minutes) is spent before school into four parts. The four parts consists of getting out of bed (Freddie likes to hit that snooze button), getting ready for school, driving to school, and walking to class (Freddie is a bit of a social butterfly).\nThe chart below shows the mean and standard deviation of the number of minutes it takes Freddie to complete each one of these tasks.\nMean Standard Deviation\nGetting out of bed 20.13 6.23\nGetting ready 12.85 4.14\nDriving to school 8.26 2.34\nWalking to class 7.34 1.79\n\n\nWhat is the total mean time of Freddie's four part morning schedule?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Mean</th><th scope=\"col\">Standard Deviation</th></tr></thead><tbody><tr><td>Getting out of bed</td><td>20.13</td><td>6.23</td></tr><tr><td>Getting ready</td><td>12.85</td><td>4.14</td></tr><tr><td>Driving to school</td><td>8.26</td><td>2.34</td></tr><tr><td>Walking to class</td><td>7.34</td><td>1.79</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$3.63\\text{ minutes}$"
+    },
+    {
+      "letter": "B",
+      "text": "$12.15\\text{ minutes}$"
+    },
+    {
+      "letter": "C",
+      "text": "$14.50\\text{ minutes}$"
+    },
+    {
+      "letter": "D",
+      "text": "$48.58\\text{ minutes}$"
+    },
+    {
+      "letter": "E",
+      "text": "$63.08\\text{ minutes}$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

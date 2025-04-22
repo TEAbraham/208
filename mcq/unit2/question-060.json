@@ -1,0 +1,48 @@
+{
+  "question_id": "question-060",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "scatterplots",
+    "bivariate-data",
+    "exploring-data"
+  ],
+  "title": "Complaints and Sales",
+  "difficulty": "Medium",
+  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved.\nA small retailer believes there is an association between the number of complaints in a given month and sales volume.\nTo investigate this relationship, he retrieves the past $24\\text{ months}$ of data using the number of complaints as the independent variable and store sales as the dependent variable. The scatterplot above represents this data.\nUsing the graph, which of the following statements is correct?",
+  "image_files": [
+    "images/question-060-img1.JPG"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The scatterplot shows a distribution that is skewed to the right."
+    },
+    {
+      "letter": "B",
+      "text": "The slope of this scatterplot is\n0\n."
+    },
+    {
+      "letter": "C",
+      "text": "There is a positive linear relationship between the number of complaints and monthly sales."
+    },
+    {
+      "letter": "D",
+      "text": "There is a negative non-linear relationship between the number of complaints and monthly sales."
+    },
+    {
+      "letter": "E",
+      "text": "There is no apparent relationship between the number of complaints and monthly sales."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.C",
+    "DAT-1.C.2",
+    "DAT-1",
+    "DAT-1.C.1"
+  ]
+}

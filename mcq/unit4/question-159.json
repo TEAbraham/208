@@ -1,0 +1,46 @@
+{
+  "question_id": "question-159",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "descriptive-statistics",
+    "combining-random-variables"
+  ],
+  "title": "Farmer's Harvest",
+  "difficulty": "Hard",
+  "question_text": "A farmer’s harvest of apples has a normal distribution with the distribution of individual apple weights $µ = 5\\text{ ounces}$, and $σ = 0.5\\text{ ounces}$.\nTwo apples are randomly chosen from this year’s harvest. The difference in the weights of the two apples is a normally distributed random variable.\nWhat are the mean and standard deviation of this distribution of differences?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$µ = 0; σ = 0.1$"
+    },
+    {
+      "letter": "B",
+      "text": "$µ = 0; σ = √(0.1)$"
+    },
+    {
+      "letter": "C",
+      "text": "$µ = 0; σ = 0.5$"
+    },
+    {
+      "letter": "D",
+      "text": "$µ = 0; σ = √(0.5)$"
+    },
+    {
+      "letter": "E",
+      "text": "$µ = 0; σ = 1$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

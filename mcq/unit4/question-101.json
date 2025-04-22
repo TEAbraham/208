@@ -1,0 +1,47 @@
+{
+  "question_id": "question-101",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "combining-random-variables"
+  ],
+  "title": "A. P. Exam Scores - Are They Independent?",
+  "difficulty": "Hard",
+  "question_text": "Sam has been studying really hard for both the A. P. Calculus exam and the A. P. Statistics exam. He feels very confident that he will get either a $4$ or $5$ on the Statistics exam and that he will get at least a $3$ on the Calculus exam. Sam has estimated the joint probabilities associated with the two exams and his estimates are shown in the table below.\nA.P. Calculus\nScores 5 4 3\nA.P. Statistics 5 0.3 0.2 0.1\n4 0.2 0.1 0.1\n\n\nBased on these probabilities, are the scores that Sam will achieve on the two exams independent? Why or why not?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\"></th><th scope=\"col\">A.P. Calculus</th><th scope=\"col\"></th><th scope=\"col\"></th></tr></thead><tbody><tr><td></td><td>Scores</td><td>5</td><td>4</td><td>3</td></tr><tr><td>A.P. Statistics</td><td>5</td><td>0.3</td><td>0.2</td><td>0.1</td></tr><tr><td></td><td>4</td><td>0.2</td><td>0.1</td><td>0.1</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes. The scores are independent because Calculus and Statistics are two totally separate courses and two totally separate exams."
+    },
+    {
+      "letter": "B",
+      "text": "Yes. They are independent because the probability of getting a $5$ on the Statistics exam does not change even if we already know that Sam gets a $5$ on the Calculus exam."
+    },
+    {
+      "letter": "C",
+      "text": "Yes. They are independent because the probability of getting a $5$ on the Calculus exam and a $4$ on the Statistics exam is the same as the probability of getting a $5$ on the Statistics exam and a $4$ on the Calculus exam."
+    },
+    {
+      "letter": "D",
+      "text": "No. They are not independent because the probability of getting a $5$ on the Statistics exam changes if we know that the score on the Calculus exam is a $4$."
+    },
+    {
+      "letter": "E",
+      "text": "No. They are not independent because there are $3$ possible outcomes on the Calculus exam but only $2$ possible outcomes on the Statistics exam."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ]
+}

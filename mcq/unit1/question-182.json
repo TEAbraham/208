@@ -1,0 +1,46 @@
+{
+  "question_id": "question-182",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "center-spread",
+    "univariate-data",
+    "comparing-distributions",
+    "exploring-data"
+  ],
+  "title": "Comparing Standard Deviations of Data Sets",
+  "difficulty": "Medium",
+  "question_text": "Which set of data has the smallest standard deviation?\n$A=\\{1, 2, 3, 4, 5\\}$\n$B=\\{10, 11, 12, 13, 14\\}$\n$C=\\{0, 0, 10, 10\\}$\n$D=\\{-5, -5, 0, 5, 5\\}$",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$A$"
+    },
+    {
+      "letter": "B",
+      "text": "$B$"
+    },
+    {
+      "letter": "C",
+      "text": "$C$"
+    },
+    {
+      "letter": "D",
+      "text": "$D$"
+    },
+    {
+      "letter": "E",
+      "text": "$A$ and $B$"
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.O",
+    "2.D",
+    "UNC-1.O.1",
+    "UNC-1"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "question_id": "question-145",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "difference-two-means"
+  ],
+  "title": "Track Times",
+  "difficulty": "Hard",
+  "question_text": "Suppose Jimmy and Bobby are two long-time competitors on the same track team in the $400$-meter dash.\nJimmy and Bobby have ran $10$ races this year. Jimmy has averaged $56.2$ seconds with a standard deviation of $1.3$ seconds, while Bobby has averaged $55.8$ seconds with a standard deviation of $1.3$ seconds. Bobby asked the coach to perform a two-sample T-test to determine if he is significantly better than Jimmy this year.\nWhat conclusion does the coach make?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Any inferential procedure in this context does not make sense."
+    },
+    {
+      "letter": "B",
+      "text": "Bobby is faster at the alpha $5\\%$ level, but not at the $1\\%$ level."
+    },
+    {
+      "letter": "C",
+      "text": "Jimmy is faster at the alpha $5\\%$ level, but not at the $1\\%$ level."
+    },
+    {
+      "letter": "D",
+      "text": "Bobby is faster at the alpha $1\\%$ level."
+    },
+    {
+      "letter": "E",
+      "text": "There is insufficient evidence at the alpha $10\\%$ level to determine who is faster."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.G",
+    "DAT-3.G.1"
+  ]
+}

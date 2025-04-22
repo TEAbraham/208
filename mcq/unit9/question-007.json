@@ -1,0 +1,46 @@
+{
+  "question_id": "question-007",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "linear-regression",
+    "population",
+    "inference",
+    "random"
+  ],
+  "title": "Avocado Farm",
+  "difficulty": "Easy",
+  "question_text": "An avocado farmer in California divides his farmland into $8$ different plots. Each plot of land has a different watering system assigned that will use a variable amount of water. During a recent month, the farmer selects $5$ random avocados from each plot of land and measures the average weight of the avocado.\nThe farmer then compares the average weight (in ounces) to the amount of water used on the specific plot (in gallons). The linear regression model of the data is as follows:\n$\\widehat{\\text{weight}} = 2.31 + 0.042(\\text{gallons})$\nWhat is the population of interest for the farmer?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$5$ avocados"
+    },
+    {
+      "letter": "B",
+      "text": "$40$ avocados"
+    },
+    {
+      "letter": "C",
+      "text": "All avocados on his farm"
+    },
+    {
+      "letter": "D",
+      "text": "Amount of water used for each plots"
+    },
+    {
+      "letter": "E",
+      "text": "Predicted weight"
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer",
+  "solution": "Using the avocados from his farm, the farmer selected a random sample of $5$ avocados from each plot, resulting in a sample of $40$ avocados. Using the $40$ avocados from the farm, the farmer created a linear regression model to predict the weight of an average avocado on his farm.\n\nSince the farmer selected a random sample from the whole farm land, the population of interest would be all the avocados on the farm.\n\nChoice 'C' is correct.",
+  "explanations": {},
+  "tags": [
+    "1.A",
+    "VAR-1.K",
+    "VAR-1.K.1",
+    "VAR-1"
+  ]
+}

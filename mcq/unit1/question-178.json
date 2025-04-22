@@ -1,0 +1,51 @@
+{
+  "question_id": "question-178",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "center-spread",
+    "univariate-data",
+    "boxplots",
+    "measuring-spread",
+    "comparing-distributions",
+    "exploring-data",
+    "interquartile-range"
+  ],
+  "title": "Comparing Parallel Boxplots: Texting Between Boys and Girls",
+  "difficulty": "Medium",
+  "question_text": "The boxplots above illustrate the distribution of the number of tweets in a week that ninety-nine females and ninety-nine males send out a week.\nBased on these boxplots, which of the following is TRUE?\nCreated for Albert.io. Copyright 2017. All rights reserved.",
+  "image_files": [
+    "images/question-178-img1.png"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The interquartile range of the boys is greater than that of the girls."
+    },
+    {
+      "letter": "B",
+      "text": "The range of the tweets for the boys is greater than for the girls."
+    },
+    {
+      "letter": "C",
+      "text": "The data set for the boys has fewer points than the data set of the girls."
+    },
+    {
+      "letter": "D",
+      "text": "75%\nof the boys tweeted more than 50%\nof the girls."
+    },
+    {
+      "letter": "E",
+      "text": "75%\nof the boys tweeted less than 50%\nof the girls."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.N.1",
+    "2.D",
+    "UNC-1.N",
+    "UNC-1"
+  ]
+}

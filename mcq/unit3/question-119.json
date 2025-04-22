@@ -1,0 +1,47 @@
+{
+  "question_id": "question-119",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "randomized-design"
+  ],
+  "title": "Completely Randomized Design: Which One?",
+  "difficulty": "Medium",
+  "question_text": "Which of the following describes an experiment using completely randomized design?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A group of $20$ students was given a computer-based survey consisting of $4$ questions.\nThe order in which the questions appeared on the survey was completely randomized for each student and students were required to type their responses."
+    },
+    {
+      "letter": "B",
+      "text": "A group of $20$ students was given a one-minute typing test. The test consisted of typing as many words as possible from a long list of words.\nThe order of the words was determined at random for each student. The order in which the students were tested was also determined at random."
+    },
+    {
+      "letter": "C",
+      "text": "Are students able to type faster while listening to music? To investigate, $20$ students were asked to complete a one-minute typing test on the computer on two separate occasions.\nOn one occasion music was playing in the background. On the other occasion the room was silent. Which condition was tested first was determined at random."
+    },
+    {
+      "letter": "D",
+      "text": "Are students able to type faster while using a desktop keyboard or a laptop keyboard? To investigate, $20$ students were divided at random into two groups of $10$ students each.\nStudents in the first group were given a one-minute typing test on a desktop keyboard and students in the second group were given a one-minute typing test on a laptop keyboard."
+    },
+    {
+      "letter": "E",
+      "text": "Are students able to type faster in a cold room than in a warm room? From a group of $20$ students $5$ boys and $5$ girls were randomly selected and placed in a cold room where they were given a one-minute typing test.\nThe remaining $5$ boys and $5$ girls were placed in a warm room and given the same one-minute typing test."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-3.D",
+    "VAR-3",
+    "VAR-3.D.1",
+    "1.C",
+    "VAR-3.C.1",
+    "VAR-3.C"
+  ]
+}

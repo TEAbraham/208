@@ -1,0 +1,46 @@
+{
+  "question_id": "question-092",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "tests-of-significance",
+    "mean",
+    "statistical-inference",
+    "sampling-distributions"
+  ],
+  "title": "The Effect of Increasing Sample Size",
+  "difficulty": "Hard",
+  "question_text": "Jason conducted a one-sample $t$-test for a population mean. Later, he realized that he had made a mistake when entering the sample size into his calculations. The actual sample size was in fact larger than the sample size he had used in his calculations.\nHow will this change the results associated with his test?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The standard deviation of the related $t$-distribution will be larger than previously calculated."
+    },
+    {
+      "letter": "B",
+      "text": "The actual $p$-value will be smaller than previously calculated."
+    },
+    {
+      "letter": "C",
+      "text": "The power of the test will be smaller than previously calculated."
+    },
+    {
+      "letter": "D",
+      "text": "The probability of making a Type I error will be larger than previously calculated."
+    },
+    {
+      "letter": "E",
+      "text": "The probability of making a Type II error will be larger than previously calculated."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3.E",
+    "DAT-3",
+    "DAT-3.E.1"
+  ]
+}

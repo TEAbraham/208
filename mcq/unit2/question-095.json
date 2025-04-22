@@ -1,0 +1,47 @@
+{
+  "question_id": "question-095",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "residual-plots",
+    "bivariate-data",
+    "exploring-data",
+    "residuals"
+  ],
+  "title": "Scatterplot vs. Residual Plot",
+  "difficulty": "Hard",
+  "question_text": "Loading question supplement...\nConsider the scatterplot to the left and its accompanying residual plot to the right.\nWhich of the following statements is TRUE?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The residual plot shows a moderate correlation."
+    },
+    {
+      "letter": "B",
+      "text": "The scatterplot shows a weak linear correlation."
+    },
+    {
+      "letter": "C",
+      "text": "The residual plot shows that a linear model might not be best for this situation since the absolute value of the residuals is so large."
+    },
+    {
+      "letter": "D",
+      "text": "The residual plot shows that a linear model might not be best for this situation since the residual plot shows a pattern."
+    },
+    {
+      "letter": "E",
+      "text": "Both plots show a history of underpredicting then overpredicting and then underpredicting once again."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "DAT-1.F.2",
+    "DAT-1.F.1",
+    "DAT-1",
+    "2.A",
+    "DAT-1.F"
+  ]
+}

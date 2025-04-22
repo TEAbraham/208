@@ -1,0 +1,45 @@
+{
+  "question_id": "question-122",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "difference-two-proportions",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
+  "title": "Targeted Advertising",
+  "difficulty": "Hard",
+  "question_text": "You are a researcher for a seed company and want to advertise to those with vegetable gardens.\nYou will use your advertising budget to advertise on either Lifetime (primarily female viewers) or ESPN (primarily male viewers).\nYour null hypothesis is that the proportions of men and women who have a vegetable garden are equal. You randomly choose $20\\text{ men}$ and $20\\text{ women}$ from your community and ask them if they have a vegetable garden.\nOf those asked, $3$ of the men and $5$ of the women have a vegetable garden. You calculate your $z$-test statistic and compute your $p$-value.\nWhat assumptions or conditions for comparing two proportions have you violated?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Independent random selection procedure."
+    },
+    {
+      "letter": "B",
+      "text": "Population size $N$ compared to the sample size."
+    },
+    {
+      "letter": "C",
+      "text": "Calculating a $z$-value for a two-sample proportion test."
+    },
+    {
+      "letter": "D",
+      "text": "Sample sizes for the two samples."
+    },
+    {
+      "letter": "E",
+      "text": "There are no violations of the assumptions or conditions."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.C",
+    "VAR-6.J",
+    "VAR-6.J.1",
+    "VAR-6"
+  ]
+}

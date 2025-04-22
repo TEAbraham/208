@@ -1,0 +1,50 @@
+{
+  "question_id": "question-095",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "mean",
+    "spread",
+    "univariate-data",
+    "standard-deviation",
+    "mode",
+    "summarizing-distributions",
+    "median",
+    "exploring-data"
+  ],
+  "title": "Basketball Team Height Roster",
+  "difficulty": "Medium",
+  "question_text": "Suppose a basketball team consists of $15\\text{ players}$ that range in height from $5\\text{ feet}$ $8\\text{ inches}$ to $6\\text{ feet}$ $10\\text{ inches}$. Suppose the tallest player on this team leaves but is replaced by a $7$-feet-tall player.\nWhich of the following measures are guaranteed to change, and how so?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Interquartile range will increase."
+    },
+    {
+      "letter": "B",
+      "text": "Median will increase."
+    },
+    {
+      "letter": "C",
+      "text": "Mode will decrease."
+    },
+    {
+      "letter": "D",
+      "text": "Standard deviation will increase."
+    },
+    {
+      "letter": "E",
+      "text": "Mean will decrease."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-1.K",
+    "UNC-1.K.2",
+    "UNC-1"
+  ]
+}

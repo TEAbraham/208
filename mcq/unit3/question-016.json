@@ -1,0 +1,48 @@
+{
+  "question_id": "question-016",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "cause-and-effect",
+    "observational-study",
+    "experiment"
+  ],
+  "title": "Migraine Medication",
+  "difficulty": "Medium",
+  "question_text": "Millions of people suffer from migraine headaches. A research team believes it has created a new medication that will help those who suffer from migraines. They recruit $100$ people who suffer from migraines and give all of them the new medication to take when a migraine headache occurs. They are asked to rate the effectiveness of the medication in helping reduce the effects of the migraine out of $10$. Overall, the sample rates the medication $7.6$ on average.\nCan the research team prove that the medication caused the a reduction in the migraine effects?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes, because the rating is $7.6$."
+    },
+    {
+      "letter": "B",
+      "text": "Yes, because all members of the sample suffered from migraines."
+    },
+    {
+      "letter": "C",
+      "text": "No, because $100$ people is not a large enough sample."
+    },
+    {
+      "letter": "D",
+      "text": "No, because $7.6$ is not significant enough."
+    },
+    {
+      "letter": "E",
+      "text": "No, because it is an observational study and not an experiment."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "The researchers had two choices of studies they could've performed: an observational study or an experiment. In an observational study, the researchers do not attempt to influence the response variable, meaning that different groups within the sample do not receive different treatments. In an experiment, different treatments are imposed to different experimental units.\n\nIn the above case, since all members of the study received the medication, this was an observational study, not an experiment. And since this was an observational study, it is not possible to to determine a causal relationship between variables using data collected in an observational study. So the researchers cannot prove the medication caused the reduction of symptoms.\n\nChoice 'E' is correct.",
+  "explanations": {},
+  "tags": [
+    "DAT-2",
+    "DAT-2.A",
+    "DAT-2.A.4",
+    "DAT-2.B.3",
+    "DAT-2.B",
+    "DAT-2.A.3",
+    "4.A"
+  ]
+}

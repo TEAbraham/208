@@ -1,0 +1,44 @@
+{
+  "question_id": "question-032",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "extra-practice"
+  ],
+  "title": "Disjoint vs. Independent",
+  "difficulty": "Easy",
+  "question_text": "Which of the following statements is true concerning disjoint and independent events?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Disjoint events are never independent."
+    },
+    {
+      "letter": "B",
+      "text": "Disjoint events are sometimes independent."
+    },
+    {
+      "letter": "C",
+      "text": "Disjoint events are always independent."
+    },
+    {
+      "letter": "D",
+      "text": "If one knows events are disjoint, the events are more likely to be independent."
+    },
+    {
+      "letter": "E",
+      "text": "The relationship of disjoint to independent events depends on the situation."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "VAR-4.C",
+    "VAR-4",
+    "VAR-4.C.2"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-039",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval",
+    "estimation",
+    "statistical-inference",
+    "logic-meaning-properties"
+  ],
+  "title": "Attendance Records",
+  "difficulty": "Medium",
+  "question_text": "A secretary at a local high school keeps track of the attendance records of all students at the high school.\nThe secretary randomly selects $40\\text{ students}$ from the records and constructs a $95\\%$ confidence interval to estimate the average number of days students miss per year.\nWhy would it be incorrect for the secretary to construct a confidence interval for this data?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "This problem does not differentiate between the categorical reasons for being absent."
+    },
+    {
+      "letter": "B",
+      "text": "It does not make sense to construct a confidence interval when the population data is known."
+    },
+    {
+      "letter": "C",
+      "text": "A distribution such as this one is likely to have data that is strongly skewed to the right."
+    },
+    {
+      "letter": "D",
+      "text": "The sample size is too small for the assumptions to be met."
+    },
+    {
+      "letter": "E",
+      "text": "It is impossible to find the critical $T^*$ value for a problem such as this."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.T",
+    "4.D",
+    "UNC-4",
+    "UNC-4.T.1"
+  ]
+}

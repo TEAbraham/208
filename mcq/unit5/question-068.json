@@ -1,0 +1,45 @@
+{
+  "question_id": "question-068",
+  "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sample-proportion",
+    "sampling-distributions"
+  ],
+  "title": "Financially Comfortable | 1 of 2",
+  "difficulty": "Medium",
+  "question_text": "A community organization wishes to know the proportion of subjects who feel financially comfortable in a certain town.\nBased on last year’s census, $64\\%$ of the residents in this town felt financially comfortable. This year, in a sample of $60$ randomly chosen subjects, $39$ say they feel financially comfortable.\nIf indeed the subjects’ economic opinions have NOT changed from last year, describe the sampling distribution of the proportion of those who feel financially comfortable.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Shape: unable to tell\nCenter: mean = $0.65$\nSpread: standard deviation = $0.06197$"
+    },
+    {
+      "letter": "B",
+      "text": "Shape: approximately normal\nCenter: mean = $0.64$\nSpread: standard deviation = $0.06158$"
+    },
+    {
+      "letter": "C",
+      "text": "Shape: exactly normal\nCenter: mean = 0.65\nSpread: standard deviation = 0.06197"
+    },
+    {
+      "letter": "D",
+      "text": "Shape: left skewed\nCenter: mean = 0.64\nSpread: standard deviation = 0.06158"
+    },
+    {
+      "letter": "E",
+      "text": "Shape: approximately normal\nCenter: mean = 0.64\nSpread: standard deviation = 0.06197"
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.L",
+    "3.C",
+    "UNC-3.L.1",
+    "UNC-3"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "question_id": "question-022",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "anticipating-patterns",
+    "sample-proportion",
+    "sampling-distributions"
+  ],
+  "title": "Dental Health",
+  "difficulty": "Easy",
+  "question_text": "Which of the following situations deal with sample proportions?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Survey $10$ subjects, record how many brush their teeth daily."
+    },
+    {
+      "letter": "B",
+      "text": "Survey $10$ subjects, record the number of cavities they have."
+    },
+    {
+      "letter": "C",
+      "text": "Survey $10$ subjects, record the percent who brush their teeth daily."
+    },
+    {
+      "letter": "D",
+      "text": "Survey subjects until you have found one who does not brush their teeth daily."
+    },
+    {
+      "letter": "E",
+      "text": "None of the responses are correct since $10$ subjects is too small a sample size for sample proportions."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.B.2",
+    "2.A",
+    "UNC-1.B",
+    "UNC-1"
+  ]
+}

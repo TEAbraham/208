@@ -1,0 +1,50 @@
+{
+  "question_id": "question-015",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "margin-of-error",
+    "confidence-interval",
+    "estimation",
+    "statistical-inference",
+    "parameters-margins-error"
+  ],
+  "title": "How to Reduce the Margin of Error to $1/5$ of the Original?",
+  "difficulty": "Medium",
+  "question_text": "A one-proportion $z$-interval was constructed. A researcher wants to reduce the margin of error to one-fifth of its original margin of error.\nWhat would she have to do to the sample size?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "This cannot be answered without the sample size."
+    },
+    {
+      "letter": "B",
+      "text": "Divide the sample size by $5$."
+    },
+    {
+      "letter": "C",
+      "text": "Divide the sample size by $25$."
+    },
+    {
+      "letter": "D",
+      "text": "Multiply the sample size by $5$."
+    },
+    {
+      "letter": "E",
+      "text": "Multiply the sample size by $25$."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.C.4",
+    "UNC-4.C.3",
+    "3.D",
+    "UNC-4.C.2",
+    "UNC-4.C.1",
+    "UNC-4.C",
+    "UNC-4"
+  ]
+}

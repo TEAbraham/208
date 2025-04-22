@@ -1,0 +1,47 @@
+{
+  "question_id": "question-009",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "slope",
+    "linear-regression",
+    "inference"
+  ],
+  "title": "Bath Time",
+  "difficulty": "Medium",
+  "question_text": "A new parent is trying to determine the perfect amount of time to run the bathwater until the water is the perfect temperature for their new baby. Over the first year of the baby's life, the parent has kept records of the length of time the bathwater ran and the temperature of the water.\nThe parents decides to create a regression model to run inference on the data by selecting random samples of $25$ days to help determine the amount of time needed to create the perfect bath temperature. The data is summarized in the table below:\nPredictor Coef SE Coef T P\nConstant $68.05$ $1.34$ $2.31$ $0.47$\nTime Ran $2.35$ $0.013$ $4.23$ $0.00$\n$S = 4.12$ $r-sq = 88.2$\nWhat number is not represented on the table above?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Predictor</th><th scope=\"col\">Coef</th><th scope=\"col\">SE Coef</th><th scope=\"col\">T</th><th scope=\"col\">P</th></tr></thead><tbody><tr><td><strong>Constant</strong></td><td><span class=\"tex2jax_process\">$68.05$</span></td><td><span class=\"tex2jax_process\">$1.34$</span></td><td><span class=\"tex2jax_process\">$2.31$</span></td><td><span class=\"tex2jax_process\">$0.47$</span></td></tr><tr><td><strong>Time Ran</strong></td><td><span class=\"tex2jax_process\">$2.35$</span></td><td><span class=\"tex2jax_process\">$0.013$</span></td><td><span class=\"tex2jax_process\">$4.23$</span></td><td><span class=\"tex2jax_process\">$0.00$</span></td></tr><tr><td></td><td><span class=\"tex2jax_process\">$S = 4.12$</span></td><td><span class=\"tex2jax_process\">$r-sq = 88.2$</span></td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$a$, the y-intercept of the sample regression line"
+    },
+    {
+      "letter": "B",
+      "text": "$\\beta$, the slope of the population regression line"
+    },
+    {
+      "letter": "C",
+      "text": "$b$, the slope of the sample regression line"
+    },
+    {
+      "letter": "D",
+      "text": "$r$, the correlation of the sample data"
+    },
+    {
+      "letter": "E",
+      "text": "The standard deviation of the residuals"
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer",
+  "solution": "Since the parent used random samples, $n = 25$, the data provided on the table represents sample data. Therefore, we can only find the y-intercept, slope, correlation, standard deviation of the residuals, for our sample data.\n\nThe samples do provide an estimate for the parameter values, but the parameters values (the values for the population regression line) are not given on the table above.\n\nTherefore, we cannot find $\\beta$ as it is the slope of the population standard deviation.\n\nChoice 'B' is correct.",
+  "explanations": {},
+  "tags": [
+    "1.A",
+    "VAR-1.K",
+    "VAR-1.K.1",
+    "VAR-1"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "question_id": "question-028",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "confidence-interval",
+    "estimation",
+    "statistical-inference",
+    "logic-meaning-properties",
+    "slope-interval"
+  ],
+  "title": "Interpretation of Slope $t$-Interval: Height, Weight",
+  "difficulty": "Medium",
+  "question_text": "A statistician wanted to construct a $95\\%$ confidence interval for the population slope between height (in inches) and weight (in pounds) of his co-workers. He made height the explanatory (independent) variable and weight the response (dependent) variable.\nHe selected a random sample of $30$ people from work and asked them to list their height and weight. After seeing his conditions were satisfied, he constructed the interval and got a result of $(1.97, 2.89)$.\nWhich of the following is the correct interpretation of the interval in the context of this study?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$95\\%$ of the time the population slope relating height to weight for the statistician's co-workers will be in the interval from $1.97$ to $2.89$."
+    },
+    {
+      "letter": "B",
+      "text": "The statistician is $95\\%$ confident that for each additional increase in pounds, the average height will increase between $1.97$ to $2.89$ inches."
+    },
+    {
+      "letter": "C",
+      "text": "The statistician is $95\\%$ confident that for each additional increase in pounds, the height will increase between $1.97$ to $2.89$ inches"
+    },
+    {
+      "letter": "D",
+      "text": "The statistician is $95\\%$ confident that the interval from $1.97$ to $2.89$ captures the sample slope for relating height to weight of his co-workers."
+    },
+    {
+      "letter": "E",
+      "text": "The statistician is $95\\%$ confident that the interval from $1.97$ to $2.89$ captures the population slope for relating height to weight for his co-workers."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-4.AG.1",
+    "UNC-4.AG.2",
+    "UNC-4",
+    "UNC-4.AG"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-113",
+  "unit": "AP® Statistics | Unit 5 Assessment",
+  "topics": [
+    "standard-deviation",
+    "proportion"
+  ],
+  "title": "Gone Fish Samplin'",
+  "difficulty": "Easy",
+  "question_text": "A large pond in rural Vermont with thousands of fish has an established proportion of $ 40 \\%$ native brown trout. April of $2019$ brought severe weather with tornadoes and massive flash floods, during which much of the natural features in the area were disturbed. Wes, the local game warden, was put in charge of sampling ponds in the area for native brown trout.\nWhich of the following statements is NOT true?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "If Wes takes a random sample of $30$ fish, the mean of the sampling distribution of $\\hat{p}$, the proportion of native brown trout, is $\\mu_\\hat{p} =0.40$."
+    },
+    {
+      "letter": "B",
+      "text": "If Wes takes a random sample of $30$ fish, the standard deviation of the sampling distribution of $\\hat{p}$ is $\\sigma_\\hat{p} ≈0.09$."
+    },
+    {
+      "letter": "C",
+      "text": "If Wes takes a random sample of $30$ fish, the sampling distribution of $\\hat{p}$ is approximately normal."
+    },
+    {
+      "letter": "D",
+      "text": "If Wes sampled $20$ fish instead of $30$, the sampling distribution of $\\hat{p}$ would still be approximately normal."
+    },
+    {
+      "letter": "E",
+      "text": "If Wes sampled $20$ fish, the standard deviation of the sampling distribution of $\\hat{p}$ would be larger than if he had sampled $30$ fish."
+    }
+  ],
+  "correct_answer": "Correct Answer",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-3.L",
+    "UNC-3.L.1",
+    "UNC-3"
+  ]
+}

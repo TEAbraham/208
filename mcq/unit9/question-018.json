@@ -1,0 +1,46 @@
+{
+  "question_id": "question-018",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "confidence-interval",
+    "linear-regression",
+    "calculating-margin-of-error"
+  ],
+  "title": "Find the Margin of Error",
+  "difficulty": "Medium",
+  "question_text": "The lower bound of a confidence interval constructed for the slope of a regression model is $5.06$. If the slope of the model is equal to $8.66$ and the standard error is equal to $1.5$, find the value of the margin of error.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$3.6$"
+    },
+    {
+      "letter": "B",
+      "text": "$2.4$"
+    },
+    {
+      "letter": "C",
+      "text": "$-2.4$"
+    },
+    {
+      "letter": "D",
+      "text": "$-3.6$"
+    },
+    {
+      "letter": "E",
+      "text": "$12.26$"
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.AE.1",
+    "3.D",
+    "UNC-4.AF.2",
+    "UNC-4",
+    "UNC-4.AE"
+  ]
+}

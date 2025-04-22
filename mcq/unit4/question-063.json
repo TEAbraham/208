@@ -1,0 +1,48 @@
+{
+  "question_id": "question-063",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "simulation",
+    "probability"
+  ],
+  "title": "Bank Lines",
+  "difficulty": "Easy",
+  "question_text": "A bank has kept records for several years on the number of people in line on Fridays at 3 p.m., as presented in the probability distribution below.\nX 0 1 2 3 4\nP(X) 0.1 0.3 0.4 0.1 0.1\n\n\nWhat is the probability that on any given Friday at 3 p.m. there will be at most $3$ people waiting in line?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">X</th><th scope=\"col\">0</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th></tr></thead><tbody><tr><td>P(X)</td><td>0.1</td><td>0.3</td><td>0.4</td><td>0.1</td><td>0.1</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.1$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.3$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.5$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.8$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.9$"
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-4.E.3",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4",
+    "VAR-4.E.4"
+  ]
+}

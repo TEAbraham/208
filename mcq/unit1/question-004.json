@@ -1,0 +1,44 @@
+{
+  "question_id": "question-004",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "data",
+    "variation"
+  ],
+  "title": "Average GPA",
+  "difficulty": "Medium",
+  "question_text": "A high school principal collects some data about students at his school. He uses his student information system to find the grade point average (GPA) of $10$ random students. The GPAs are listed below:\n$$3.2, 3.7, 4.0, 2.5, 3.1, 3.5, 3.8, 3.0, 2.7, 2.5$$\nThis gives the principal an average GPA of $3.2$ on a $4$ point scale.\nCan the principal confidently say that the average GPA of his high school is $3.2$?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes, because he collected data on $10$ students."
+    },
+    {
+      "letter": "B",
+      "text": "Yes, because the data was randomly collected."
+    },
+    {
+      "letter": "C",
+      "text": "No, because the data was randomly collected."
+    },
+    {
+      "letter": "D",
+      "text": "No, because the median does not equal $3.2$."
+    },
+    {
+      "letter": "E",
+      "text": "No, because the data will change with a different sample of $10$ students."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "When data is collected randomly, there will always be some variation. Since variation occurs, the conclusions based off that data is often uncertain.\n\nSince the principal only took a sample of size $10$, we can safely assume the school is larger than $10$ students. Therefore, the \"average\" of the $10$ is uncertain to be the average of the whole school.\n\nThe principal cannot confidently say that the average GPA of the whole school is $3.2$.\n\nChoice 'E' is correct.",
+  "explanations": {},
+  "tags": [
+    "1.A",
+    "VAR-1.A.1",
+    "VAR-1",
+    "VAR-1.A"
+  ]
+}

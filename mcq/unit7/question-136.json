@@ -1,0 +1,49 @@
+{
+  "question_id": "question-136",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval",
+    "estimation",
+    "statistical-inference",
+    "logic-meaning-properties"
+  ],
+  "title": "One-Sample T-Test Output",
+  "difficulty": "Medium",
+  "question_text": "An exercise physiologist is interested in the effect of exercise on heart rate.\nShe has subjects walk slowly for $5\\text{ minutes}$ and records their heart rates. Then she has the subjects run vigorously for $5\\text{ minutes}$ and records their heart rates again.\nThe differences are recorded, (heart rate after running - heart rate before running), with results below:\nOne-Sample T: Differences\nTest of $\\mu$ = $0$ vs. > $0$\nVariable N Mean StDev SE Mean 96% CI T P\nDifferences 12 59.88 10.36 3.66 (51.22, 68.53) 16.35 0.000\n\n\nWhat is a valid interpretation of the hypothesis test given from the computer output?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">StDev</th><th scope=\"col\">SE Mean</th><th scope=\"col\">96% CI</th><th scope=\"col\">T</th><th scope=\"col\">P</th></tr></thead><tbody><tr><td>Differences</td><td>12</td><td>59.88</td><td>10.36</td><td>3.66</td><td>(51.22, 68.53)</td><td>16.35</td><td>0.000</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Strong evidence exists that heart rate increased by about $60\\text{ beats}$ (after - before running)."
+    },
+    {
+      "letter": "B",
+      "text": "Strong evidence exists of an increase in heart rate (after - before running)."
+    },
+    {
+      "letter": "C",
+      "text": "There was a failure to find strong evidence of an increase in heart rate since the sample is so small."
+    },
+    {
+      "letter": "D",
+      "text": "There was a failure to find strong evidence of an increase in heart rate because this sample clearly contains bias."
+    },
+    {
+      "letter": "E",
+      "text": "There was a failure to find strong evidence of an increase in heart rate because of the low $p$-value."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.H.1",
+    "DAT-3",
+    "DAT-3.H",
+    "DAT-3.H.2"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-035",
+  "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "properties",
+    "binomial-distribution"
+  ],
+  "title": "Roughly Normal",
+  "difficulty": "Easy",
+  "question_text": "A binomial distribution will be approximately normal if",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The sample size is at least $30$."
+    },
+    {
+      "letter": "B",
+      "text": "Each trial is independent."
+    },
+    {
+      "letter": "C",
+      "text": "$n(P)$ and $n(1-P)$ are both over $10$, where $n$ is the number of trials and $P$ is the probability of success."
+    },
+    {
+      "letter": "D",
+      "text": "The population is at least $10$ times the sample size."
+    },
+    {
+      "letter": "E",
+      "text": "Each trial has the same probability."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-6.C",
+    "VAR-6.C.1",
+    "3.C",
+    "VAR-6"
+  ]
+}

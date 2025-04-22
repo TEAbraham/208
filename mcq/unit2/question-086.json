@@ -1,0 +1,46 @@
+{
+  "question_id": "question-086",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "bivariate-data",
+    "exploring-data",
+    "residuals"
+  ],
+  "title": "Calculating Residuals on Exam Scores",
+  "difficulty": "Easy",
+  "question_text": "Joey thinks he can predict his final exam score based on his score on the last unit test. Using data from the rest of the class, he came up with the following equation:\n$$\\text{Final exam score} = 10 + 0.81 \\times (\\text{Unit test score})$$\nCalculate the residual if Joey got $84\\text{ points}$ on his unit test and $80\\text{ points}$ on the final.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$84\\text{ points}$"
+    },
+    {
+      "letter": "B",
+      "text": "$-4\\text{ points}$"
+    },
+    {
+      "letter": "C",
+      "text": "$-1.96\\text{ points}$"
+    },
+    {
+      "letter": "D",
+      "text": "$1.96\\text{ points}$"
+    },
+    {
+      "letter": "E",
+      "text": "$4\\text{ points}$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "DAT-1.E.1",
+    "DAT-1.E",
+    "DAT-1",
+    "2.B",
+    "DAT-1.E.2"
+  ]
+}

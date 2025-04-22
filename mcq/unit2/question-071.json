@@ -1,0 +1,47 @@
+{
+  "question_id": "question-071",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "scatterplots",
+    "bivariate-data",
+    "exploring-data"
+  ],
+  "title": "Weight vs Height Scatterplots Based on Gender",
+  "difficulty": "Hard",
+  "question_text": "Examine the scatterplot below.\nCreated for Albert.io. Copyright 2017. All rights reserved.\nWhich of the following statements is/are true?\nI. Combining the female and male data results in a stronger correlation than inspecting their correlations separately.\nII. When inspecting males and females separately, females have a weaker correlation.\nIII. Since gender is categorical, this image represents a misuse of scatterplots.",
+  "image_files": [
+    "images/question-071-img1.jpg"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and II only."
+    },
+    {
+      "letter": "E",
+      "text": "I, II, and III."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.C",
+    "DAT-1",
+    "DAT-1.C.1"
+  ]
+}

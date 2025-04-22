@@ -1,0 +1,45 @@
+{
+  "question_id": "question-069",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "tables"
+  ],
+  "title": "Continuous Uniform Density",
+  "difficulty": "Medium",
+  "question_text": "Consider a continuous uniform density function such that $0 < X < 2$.\nCalculate the probability $X$ between $0.71$ and $1.33$ (inclusive).",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.165$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.31$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.5$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.62$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.665$"
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.H",
+    "UNC-1.H.4",
+    "2.A",
+    "UNC-1"
+  ]
+}

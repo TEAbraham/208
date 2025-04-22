@@ -1,0 +1,45 @@
+{
+  "question_id": "question-146",
+  "unit": "AP® Statistics | Unit 6 Assessment",
+  "topics": [
+    "margin-of-error",
+    "confidence-interval",
+    "deduction"
+  ],
+  "title": "What Influences the Width of a Confidence Interval?",
+  "difficulty": "Medium",
+  "question_text": "Which of the following will decrease the width of a confidence interval?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Increase the value of $z^*$."
+    },
+    {
+      "letter": "B",
+      "text": "Increase the sample size."
+    },
+    {
+      "letter": "C",
+      "text": "Increase the confidence level."
+    },
+    {
+      "letter": "D",
+      "text": "Increase the value of the margin of error."
+    },
+    {
+      "letter": "E",
+      "text": "Change the value of $\\hat{p}$ so that it gets closer to 0.5."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.H.2",
+    "UNC-4.H",
+    "UNC-4",
+    "4.A"
+  ]
+}

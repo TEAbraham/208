@@ -1,0 +1,49 @@
+{
+  "question_id": "question-079",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval",
+    "mean-interval",
+    "mean",
+    "estimation",
+    "1-sample-tinterval-means",
+    "statistical-inference"
+  ],
+  "title": "Condition Failed: Restaurant Ages",
+  "difficulty": "Medium",
+  "question_text": "A restaurant wants to estimate the average age of its customers who visit during September. The manager of the restaurant decides to find the average age by asking the ages of the customers on three weekday afternoons between the times of 3 to 4 PM.\nHe surveyed $40$ customers and found that the distribution to be slightly skewed to the right with an average age of $62$ years.\nWhich condition for constructing a $1$-sample $t$-interval for means has the manager failed to satisfy?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The data is a random sample from the population of interest."
+    },
+    {
+      "letter": "B",
+      "text": "Normality."
+    },
+    {
+      "letter": "C",
+      "text": "The data is a random sample from the population and the shape of the sampling distribution is approximately normal."
+    },
+    {
+      "letter": "D",
+      "text": "The sample is less than $10\\%$ of the population."
+    },
+    {
+      "letter": "E",
+      "text": "All the conditions for constructing a $1$-sample $t$-interval for means have failed."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "DAT-3.F",
+    "4.E",
+    "DAT-3",
+    "DAT-3.F.2",
+    "DAT-3.F.1"
+  ]
+}

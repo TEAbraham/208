@@ -1,0 +1,46 @@
+{
+  "question_id": "question-130",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
+  "title": "Two-Sample $T$-Test",
+  "difficulty": "Easy",
+  "question_text": "A two-sample $T$-test attempts to determine if",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A significant difference exists between two proportions."
+    },
+    {
+      "letter": "B",
+      "text": "A significant difference exists between two means when the population standard deviation is known."
+    },
+    {
+      "letter": "C",
+      "text": "A significant difference exists between two means when the population standard deviation is unknown."
+    },
+    {
+      "letter": "D",
+      "text": "A straight line relationship exists between two quantitative variables."
+    },
+    {
+      "letter": "E",
+      "text": "A relationship exists between two categorical variables."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.H.1",
+    "DAT-3",
+    "DAT-3.H",
+    "DAT-3.H.2"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-036",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval",
+    "estimation",
+    "statistical-inference",
+    "logic-meaning-properties"
+  ],
+  "title": "Interpreting a Confidence Interval",
+  "difficulty": "Easy",
+  "question_text": "A $90\\%$ confidence interval for an unknown population mean, $\\mu$, has been calculated as $87±12$.\nWhat is the correct interpretation of this confidence interval?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "We are $90\\%$ confident that the unknown population mean is between $75$ and $99$."
+    },
+    {
+      "letter": "B",
+      "text": "There is a $0.9$ probability that the unknown population mean is between $75$ and $99$."
+    },
+    {
+      "letter": "C",
+      "text": "$90\\%$ of all confidence intervals will be between $75$ and $99$."
+    },
+    {
+      "letter": "D",
+      "text": "If we took many samples from this population, $90\\%$ of the computed confidence intervals would contain the unknown population mean."
+    },
+    {
+      "letter": "E",
+      "text": "$90\\%$ of data from the population is between $75$ and $99$."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-4.S",
+    "UNC-4.S.2",
+    "UNC-4"
+  ]
+}

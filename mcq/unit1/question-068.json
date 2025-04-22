@@ -1,0 +1,50 @@
+{
+  "question_id": "question-068",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "graphical-displays-of-data",
+    "univariate-data",
+    "exploring-data",
+    "shape"
+  ],
+  "title": "Histogram Shape",
+  "difficulty": "Easy",
+  "question_text": "A local weatherman decided to look at historical data of low temperatures for a city during the months of December, January, and February. The weatherman plotted these temperatures in a histogram shown below.\nCreated for Albert.io. Copyright 2016. All rights reserved.\nAssuming the frequency is on an even scale, how could one describe the shape of this histogram?",
+  "image_files": [
+    "images/question-068-img1.png"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Symmetric."
+    },
+    {
+      "letter": "B",
+      "text": "Left skewed."
+    },
+    {
+      "letter": "C",
+      "text": "Right skewed."
+    },
+    {
+      "letter": "D",
+      "text": "Bimodal."
+    },
+    {
+      "letter": "E",
+      "text": "Uniform."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.H.1",
+    "UNC-1.H",
+    "UNC-1.H.4",
+    "UNC-1.H.3",
+    "2.A",
+    "UNC-1"
+  ]
+}

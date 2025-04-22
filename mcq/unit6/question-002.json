@@ -1,0 +1,44 @@
+{
+  "question_id": "question-002",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "sampling-distribution",
+    "sample-proportion",
+    "normal"
+  ],
+  "title": "Shape of Distribution",
+  "difficulty": "Easy",
+  "question_text": "Suppose the graduation rate for high school students in a certain state is $91\\%$. A sample survey contacts an SRS of $100$ recent high school seniors and calculates the proportion $\\hat{p}$ in this sample who graduated high school.\nWhat is the shape of the sampling distribution of $\\hat{p}$?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Uniform"
+    },
+    {
+      "letter": "B",
+      "text": "Bimodal"
+    },
+    {
+      "letter": "C",
+      "text": "Approximately Normal"
+    },
+    {
+      "letter": "D",
+      "text": "Skewed Left"
+    },
+    {
+      "letter": "E",
+      "text": "The shape is unknown"
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "Since we are dealing with a sample proportion, $\\hat{p}$, we can use the Large Counts Condition to tell us the shape. The only shape we would be able to prove is approximately normal.\n\nThe sampling distribution of any $\\hat{p}$ is approximately normal if:\n\n$np \\geq 10$\n\nand\n\n$n(1 - p) \\geq 10$\n\nSince our $n=100$ and $p = 0.91$, the inequality $n(1-p)$ does not equal at least $10$ as $100(0.09)$ only equals $9$. Therefore, the shape of the sampling distribution is unknown.\n\nChoice 'E\" is correct.",
+  "explanations": {},
+  "tags": [
+    "VAR-1.H",
+    "VAR-1.H.1",
+    "VAR-1"
+  ]
+}

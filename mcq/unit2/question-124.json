@@ -1,0 +1,52 @@
+{
+  "question_id": "question-124",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "transformations",
+    "bivariate-data",
+    "exploring-data",
+    "residuals"
+  ],
+  "title": "Transformation of Data on a Scatterplot",
+  "difficulty": "Medium",
+  "question_text": "A statistician plotted bivariate data and constructed a residual plot on the original data, as shown below.\nWhat transformations should be performed on the data in order for a least-squares regression line to be an appropriate model?",
+  "image_files": [
+    "images/question-124-img1.jpg",
+    "images/question-124-img2.gif",
+    "images/question-124-img3.gif"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Take the log of the y-values."
+    },
+    {
+      "letter": "B",
+      "text": "Take the log of the x-values."
+    },
+    {
+      "letter": "C",
+      "text": "Take the log of the x- and y-values."
+    },
+    {
+      "letter": "D",
+      "text": "Take the natural log of the y-values (ln)."
+    },
+    {
+      "letter": "E",
+      "text": "Keep the data as is."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "DAT-1",
+    "DAT-1.I",
+    "DAT-1.I.2",
+    "DAT-1.I.3",
+    "2.A",
+    "DAT-1.I.1"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "question_id": "question-155",
+  "unit": "AP® Statistics | Unit 7 Assessment",
+  "topics": [
+    "deductive-reasoning",
+    "1-sample-t-test",
+    "p-value-interpretation"
+  ],
+  "title": "Are the Batteries Lasting Long Enough?",
+  "difficulty": "Hard",
+  "question_text": "The Durabell Battery company was concerned about the life of its EE battery. In the past, the EE battery had a mean life span of $34$ hours, but the company was concerned that the battery life had decreased. It took a random sample of $40$ batteries from its assembly plant and tested them. The mean life span was $33.4$ hours with a standard deviation of $2.4$ hours. Using a significance level of $\\alpha=0.05$, which of the following is an appropriate conclusion of a one-sample $t$-test for the population mean of the EE battery?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Clearly, the new mean battery life has decreased from $34$ to $33.4$ hours. Thus, we can reject the null hypothesis and show that the EE battery life has decreased."
+    },
+    {
+      "letter": "B",
+      "text": "Because we obtain a $p$-value of $0.94$, which is greater than our significance level of $0.05$, we cannot reject the null hypothesis. Thus, we do not have enough evidence to show that the mean EE battery life has decreased."
+    },
+    {
+      "letter": "C",
+      "text": "Because we obtain a $p$-value of $0.06$, which is greater than our significance level of $0.05$, we must reject the null hypothesis. Thus, we have enough evidence to show that the mean EE battery life has decreased."
+    },
+    {
+      "letter": "D",
+      "text": "Because we obtain a $p$-value of $0.12$, which is greater than our significance level of $0.05$, we cannot reject the null hypothesis. Thus, we do not have enough evidence to show that the mean EE battery life has decreased."
+    },
+    {
+      "letter": "E",
+      "text": "Because we obtain a $p$-value of $0.06$, which is greater than our significance level of $0.05$, we cannot reject the null hypothesis. Thus, we do not have enough evidence to show that the mean EE battery life has decreased."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "DAT-3.F",
+    "DAT-3",
+    "3.E",
+    "DAT-3.F.1"
+  ]
+}

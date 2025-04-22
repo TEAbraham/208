@@ -1,0 +1,46 @@
+{
+  "question_id": "question-066",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
+  "title": "Connections Between Interests: Beverages and Sports",
+  "difficulty": "Easy",
+  "question_text": "Researchers feel that there may be some type of connection between a person’s favorite beverage (soda, milk, energy drink, or juice) and favorite professional sport (hockey, basketball, football, baseball, or other).\nWhich of the following statements is appropriate?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The null hypothesis is that favorite drink and favorite professional sport are not independent."
+    },
+    {
+      "letter": "B",
+      "text": "The alternative hypothesis is that there is no association between favorite drink and favorite sport."
+    },
+    {
+      "letter": "C",
+      "text": "The null hypothesis is that hockey fans like all four listed beverages equally."
+    },
+    {
+      "letter": "D",
+      "text": "The null hypothesis is that favorite drink and favorite professional sport are independent."
+    },
+    {
+      "letter": "E",
+      "text": "The null hypothesis is that a person’s favorite drink and whether he watches basketball is independent."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-8.M",
+    "VAR-8.M.2",
+    "3.E",
+    "VAR-8",
+    "VAR-8.M.1"
+  ]
+}

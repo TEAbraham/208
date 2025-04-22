@@ -1,0 +1,43 @@
+{
+  "question_id": "question-010",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "randomness",
+    "random"
+  ],
+  "title": "Recessive Trait",
+  "difficulty": "Hard",
+  "question_text": "A genealogist reads a recently published study that claims only $0.5\\%$ of people have a certain recessive trait. The genealogist is intrigued after reading the article and decides to do their own research. Once they received many random samples of patients' genes, they begin testing for the recessive trait. During the first three trials, the genealogist finds that all three have the recessive trait.\nIf the $0.5\\%$ is actually true, what is the most likely explanation for this scenario?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The three positives were randomly chosen first, and most of, if not all, the rest will not have the trait"
+    },
+    {
+      "letter": "B",
+      "text": "The sample includes all patients that have the recessive trait"
+    },
+    {
+      "letter": "C",
+      "text": "The testing mechanism must be flawed"
+    },
+    {
+      "letter": "D",
+      "text": "The recessive trait must be more common than the study states"
+    },
+    {
+      "letter": "E",
+      "text": "The collection method from the sample is confounded with the lab results."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "When researchers begin to look at data, they understand that there will always be some variation, especially when the data is collected randomly. Simply because the data that is collected displays a pattern at some point in the research, does not imply that data is not random.\n\nIn this case, we know the researcher collected many random samples. And while the percent that should have the recessive trait is $0.5\\%$, the researcher gets three positives in the first three trials. As stated in the question, we know that the $0.5\\%$ is true, meaning that the researcher more than likely examined the few positive cases in the sample first, and that many after the initial three will end up being negative.\n\nChoice 'A' is correct.",
+  "explanations": {},
+  "tags": [
+    "VAR-1.F",
+    "VAR-1.F.1",
+    "VAR-1"
+  ]
+}

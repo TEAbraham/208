@@ -1,0 +1,46 @@
+{
+  "question_id": "question-098",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "calculating-probability",
+    "anticipating-patterns",
+    "probability"
+  ],
+  "title": "Probability Rules!",
+  "difficulty": "Hard",
+  "question_text": "Events $A$ and $B$ are independent, with $P(A) = 0.40$ and $P(A \\text{ and } B)= 0.04$. Which of the following is true?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$P(B) = 0.06$"
+    },
+    {
+      "letter": "B",
+      "text": "$P(B) = 0.60$"
+    },
+    {
+      "letter": "C",
+      "text": "$P(A\\text{ or } B) = 0.46$"
+    },
+    {
+      "letter": "D",
+      "text": "$P(A \\text{ or } B)= 0.50$"
+    },
+    {
+      "letter": "E",
+      "text": "$P(A \\text{ or } B)= 0.54$"
+    }
+  ],
+  "correct_answer": "Choice ‘C’ is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ]
+}

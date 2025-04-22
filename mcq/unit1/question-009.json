@@ -1,0 +1,45 @@
+{
+  "question_id": "question-009",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "statistics",
+    "data",
+    "variation"
+  ],
+  "title": "School Carnival",
+  "difficulty": "Hard",
+  "question_text": "Pete is running a game at his school's yearly carnival. The game consists a giant spinning wheel. On the wheel, there are some spots that say \"You're a winner!\" and some spots that say \"Try again next time.\"\nA couple, Sam and Chris, decide to each play Pete's game $5$ times. Sam wins $3$ times out the $5$ turns and Chris wins only $1$ time out of the $5$ turns.\nAfter they leave, Sam gloats and says \"\"I'm the better player than you!\". Is Sam correct?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes, since Sam won $3$ times compared to Chris only winning $1$ time."
+    },
+    {
+      "letter": "B",
+      "text": "Yes, because Same won $60\\%$ of the time."
+    },
+    {
+      "letter": "C",
+      "text": "No, because Chris won $20\\%$ of the time."
+    },
+    {
+      "letter": "D",
+      "text": "No, because Pete could've rigged the game for Sam."
+    },
+    {
+      "letter": "E",
+      "text": "No, since the game was based on \"luck\" and not \"skill\", Sam randomly won the game."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "Statistics and data are based around the idea of variation. This idea of variation implies that all data points will not be the same throughout many trials. In this case, the carnival game will provide some winners and some losers.\n\nSince the carnival game was strictly based on luck, and each spin of the wheel has a chance of being a \"winner\" or a \"loser\", the fact that Sam won $3$ times out of $5$ is meaningless when looking for a conclusion. Chris could've easily won just as many, or more, games as Sam simply by playing the game.\n\nTherefore, Sam is incorrect in the thinking of being the best player.\n\nChoice 'E is correct.",
+  "explanations": {},
+  "tags": [
+    "1.A",
+    "VAR-1.A.1",
+    "VAR-1",
+    "VAR-1.A"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "question_id": "question-071",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "calculating-probability",
+    "anticipating-patterns",
+    "probability"
+  ],
+  "title": "Steroid Usage Conditional Probability",
+  "difficulty": "Medium",
+  "question_text": "Many collegiate athletes are tested for performance enhancing steroids.\nSuppose a common test gives a positive result for usage of steroids $98\\%$ of the time on individuals who actually do use steroids. However, the drug test gives a positive results for steroids when the individual is in fact not using steroids, $8\\%$ of the time.\nIf $15\\%$ of college athletes use steroids, what percent of all positive results happen to be from individuals who do NOT use steroids?",
+  "image_files": [
+    "images/question-071-img1.jpg"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$84.2\\%$"
+    },
+    {
+      "letter": "B",
+      "text": "$15\\%$"
+    },
+    {
+      "letter": "C",
+      "text": "$14.7\\%$"
+    },
+    {
+      "letter": "D",
+      "text": "$21.5\\%$"
+    },
+    {
+      "letter": "E",
+      "text": "$31.63\\%$"
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-4.E",
+    "3.A",
+    "VAR-4",
+    "VAR-4.E.4"
+  ]
+}

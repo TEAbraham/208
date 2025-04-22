@@ -1,0 +1,48 @@
+{
+  "question_id": "question-124",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "univariate-data",
+    "summarizing-distributions",
+    "center",
+    "exploring-data"
+  ],
+  "title": "Genealogy: Average Number of Generations Discovered",
+  "difficulty": "Easy",
+  "question_text": "A group of amateur genealogists compared notes on how many generations back they were able to trace their family history. All members of the group knew their own parents (the first generation back) and their grandparents (the second generation back). However, only $40\\%$ of the group members were able to trace back to their great grandparents (the third generation back) and none of the group members was able to trace back past six generations. The table below shows the relative frequency for how many generations back members of the group were able to trace.\n\nNumber of Generations Back 3 4 5 6\nRelative Frequency 0.4 0.3 0.2 0.1\n\n\nOn average, how many generations back were group members able to trace?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Number of Generations Back</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th><th scope=\"col\">6</th></tr></thead><tbody><tr><td>Relative Frequency</td><td>0.4</td><td>0.3</td><td>0.2</td><td>0.1</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$3$"
+    },
+    {
+      "letter": "B",
+      "text": "$3.5$"
+    },
+    {
+      "letter": "C",
+      "text": "$4$"
+    },
+    {
+      "letter": "D",
+      "text": "$4.5$"
+    },
+    {
+      "letter": "E",
+      "text": "5"
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-5.C.2",
+    "VAR-5",
+    "2.A",
+    "VAR-5.C"
+  ]
+}

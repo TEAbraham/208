@@ -1,0 +1,51 @@
+{
+  "question_id": "question-120",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "mean",
+    "standard-deviation",
+    "probability",
+    "analysis-random-variable"
+  ],
+  "title": "Delectable Journeys: Finding Mean and Standard Deviation",
+  "difficulty": "Medium",
+  "question_text": "Delectable Journeys is a small but growing company that offers different types of guided food tours in various U. S. cities. At the end of each tour, participants are asked to rate their experience on a scale of $1$ to $5$ with $5$ being the best rating possible. The table below shows the distribution of customer ratings.\nRating (X) 1 2 3 4 5\np(X) 0.04 0.11 0.21 0.28 0.36\n\n\nWhat is the mean and standard deviation of the customer ratings?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Rating (X)</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th></tr></thead><tbody><tr><td>p(X)</td><td>0.04</td><td>0.11</td><td>0.21</td><td>0.28</td><td>0.36</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Mean $= 3.81$\nStandard Deviation $= 1.15$"
+    },
+    {
+      "letter": "B",
+      "text": "Mean $= 3.81$\nStandard Deviation $= 1.33$"
+    },
+    {
+      "letter": "C",
+      "text": "Mean $= 3.81$\nStandard Deviation $= 1.50$"
+    },
+    {
+      "letter": "D",
+      "text": "Mean $= 3$\nStandard Deviation $= 1.41$"
+    },
+    {
+      "letter": "E",
+      "text": "Mean $= 3$\nStandard Deviation $= 1.50$"
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-5.C.2",
+    "VAR-5.C.3",
+    "VAR-5.C.1",
+    "VAR-5",
+    "3.B",
+    "VAR-5.C"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "question-083",
+  "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "calculating-probability",
+    "differences-in-sample-means"
+  ],
+  "title": "Ice Cream Containers",
+  "difficulty": "Hard",
+  "question_text": "An ice cream company ran two assembly lines for two of its most popular flavors. Assembly line $1$ had a mean container weight of $15.8$ ounces with a standard deviation of $0.6$ ounces. Assembly line $2$ had a mean container weight of $16.1$ ounces with a standard deviation of $0.7$ ounces. If $40$ containers are to be sampled from each assembly line, what is the probability that the weights do not differ by more than $0.1$ ounce in either direction? Round your answer to the nearest percent.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$9\\%$"
+    },
+    {
+      "letter": "B",
+      "text": "$91\\%$"
+    },
+    {
+      "letter": "C",
+      "text": "Nearly 1"
+    },
+    {
+      "letter": "D",
+      "text": "$88\\%$"
+    },
+    {
+      "letter": "E",
+      "text": "$41\\%$"
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-3",
+    "UNC-3.V",
+    "UNC-3.V.1"
+  ]
+}

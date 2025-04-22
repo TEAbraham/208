@@ -1,0 +1,45 @@
+{
+  "question_id": "question-007",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "chanceevents",
+    "randomness",
+    "random"
+  ],
+  "title": "Homework Days",
+  "difficulty": "Medium",
+  "question_text": "Mr. Anderson is a first-year AP Statistics teacher. He doesn't want to collect homework everyday but still wants to make sure his students do their homework nightly. He devises a plan to use a random number generator, using the numbers $1-10$, on the day that homework is due that says if the number generated is even, he will collect the homework. If the number generated is odd, he will not collect the homework. He will use this process throughout the whole semester.\nMr. Anderson believes that since half the numbers are even, he will be guaranteed that students will turn in half the assignments throughout the year. Is Mr. Anderson correct?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "No - because probability relies on randomness and can't be guaranteed"
+    },
+    {
+      "letter": "B",
+      "text": "No - because the random number generator will not select $10$ because it has two digits."
+    },
+    {
+      "letter": "C",
+      "text": "Yes - because half of the numbers are even and half are odd"
+    },
+    {
+      "letter": "D",
+      "text": "Yes - because the random number generator will make sure that $50\\%$ of the numbers are even and $50\\%$ are odd"
+    },
+    {
+      "letter": "E",
+      "text": "Yes - because the number of assignments is so large, that the percent is guaranteed to be $50\\%$"
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "When dealing with randomness and probability, it is important to note that probability is unpredictable in the short run, but in the long run $approaches$ a pattern. This does not necessarily imply that it is guaranteed to be a certain percentage, or observations, even though we have enough trials.\n\nSo when Mr. Anderson believes that his random number generator will guarantee him that half of the assignments will be turned in, he is not correct. Even though the probability of having the students turn in their assignment is $50\\%$, probability is never a guarantee and the overall percentage at the end will be left up to fate!\n\nChoice 'A' is correct.",
+  "explanations": {},
+  "tags": [
+    "VAR-1.F",
+    "VAR-1.F.1",
+    "1.A",
+    "VAR-1"
+  ]
+}

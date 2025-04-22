@@ -1,0 +1,47 @@
+{
+  "question_id": "question-209",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "z-score",
+    "tables"
+  ],
+  "title": "Find the Standard Deviation when Given the Z-score",
+  "difficulty": "Easy",
+  "question_text": "One of the values in a normal distribution is $24$ and its z-score is $1.37$.\nIf the mean of the distribution is $20$, what is the approximate standard deviation of the distribution?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$-2.92$"
+    },
+    {
+      "letter": "B",
+      "text": "$-0.34$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.34$"
+    },
+    {
+      "letter": "D",
+      "text": "$2.92$"
+    },
+    {
+      "letter": "E",
+      "text": "$5.48$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-079",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "calculating-probability",
+    "anticipating-patterns",
+    "probability"
+  ],
+  "title": "Probability of Winning a Basketball Game",
+  "difficulty": "Medium",
+  "question_text": "A basketball team plays $60\\%$ of its games at home.\nThe home-court advantage is obvious because the team wins $70\\%$ of all its home games and only $35\\%$ of their away games. Suppose the team plays one game.\nWhat is the probability that they won the game?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.42$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.48$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.5$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.56$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.6$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-4.E.3",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-153",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "descriptive-statistics",
+    "combining-random-variables"
+  ],
+  "title": "Nuts and Berries: Combined Standard Deviation",
+  "difficulty": "Hard",
+  "question_text": "Nuts and Berries is an online company that sells different types of nut butters (like peanut butter and almond butter) and different types of jams (like raspberry jam and grape jam). Jams are sold in $8\\text{ oz}$ quantities and nut butters are sold in $12\\text{ oz}$ quantities.\nIf the mean weight of one jar of grape jam is $8.6\\text{ oz}$ with a standard deviation of $0.17\\text{ oz}$, and the average weight of a jar of peanut butter is $12.7\\text{ oz}$ with a standard deviation of $0.23\\text{ oz}$, what is the standard deviation of the weight of an order consisting of $3\\text{ jars}$ of grape jam and $1\\text{ jar}$ of peanut butter? Assume that the weights of all $4$ jars in this order are independent.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.559\\text{ oz}$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.17\\text{ oz}$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.23\\text{ oz}$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.74\\text{ oz}$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.374\\text{ oz}$"
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.2",
+    "VAR-5",
+    "3.B",
+    "VAR-5.E.1"
+  ]
+}

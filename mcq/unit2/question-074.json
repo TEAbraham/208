@@ -1,0 +1,44 @@
+{
+  "question_id": "question-074",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "linear-regression",
+    "variables"
+  ],
+  "title": "Solve Linear Regression Model",
+  "difficulty": "Easy",
+  "question_text": "A linear regression model is given as $\\hat{y}=-12+2.5x$.\nIf the explanatory variable is given as having a value of $6$, find the value of the response variable.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$3$"
+    },
+    {
+      "letter": "B",
+      "text": "$27$"
+    },
+    {
+      "letter": "C",
+      "text": "$7.2$"
+    },
+    {
+      "letter": "D",
+      "text": "$6$"
+    },
+    {
+      "letter": "E",
+      "text": "$0$"
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "DAT-1.D.2",
+    "2.C",
+    "DAT-1",
+    "DAT-1.D"
+  ]
+}

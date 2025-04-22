@@ -1,0 +1,47 @@
+{
+  "question_id": "question-036",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "interpreting-probability",
+    "binomial-probability",
+    "probability"
+  ],
+  "title": "Calculator: Free-Throw Outcomes",
+  "difficulty": "Easy",
+  "question_text": "Suppose a basketball player shoots $10$ free throws and makes $8$ of them.\nHow many different ways could this happen?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$10$"
+    },
+    {
+      "letter": "B",
+      "text": "$8$"
+    },
+    {
+      "letter": "C",
+      "text": "$1$"
+    },
+    {
+      "letter": "D",
+      "text": "$45$"
+    },
+    {
+      "letter": "E",
+      "text": "$3,628,800$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "VAR-4.C",
+    "VAR-4",
+    "VAR-4.C.2"
+  ]
+}

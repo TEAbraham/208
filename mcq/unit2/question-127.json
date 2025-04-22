@@ -1,0 +1,46 @@
+{
+  "question_id": "question-127",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "transformations",
+    "bivariate-data",
+    "exploring-data"
+  ],
+  "title": "When to Transform a Model",
+  "difficulty": "Hard",
+  "question_text": "Which of the following statements is/are true regarding transforming a model involving an explanatory and response relationship?\nI. One should consider transforming the data if the residual plot of residuals on $X$ fails to show a pattern.\nII. One should consider transforming the data if the scatterplot of $X$ against $Y$ shows a curved pattern.\nIII. One should consider transforming the data if the correlation coefficient, $r$, is $-0.30$.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and II only."
+    },
+    {
+      "letter": "E",
+      "text": "I, II, and III."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "2.C",
+    "DAT-1",
+    "DAT-1.J",
+    "DAT-1.J.1",
+    "DAT-1.J.2"
+  ]
+}

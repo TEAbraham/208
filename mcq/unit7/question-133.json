@@ -1,0 +1,45 @@
+{
+  "question_id": "question-133",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "difference-two-means"
+  ],
+  "title": "Plant Yield",
+  "difficulty": "Medium",
+  "question_text": "A gardener wishes to determine which of two different potato plants gives the highest yield (in terms of pounds per plant).\nIn a large field, $15$ plants of variety A were planted in random locations. In a different large field, $15$ plants of variety B were planted in random locations.\nVariety A averaged $56.43\\text{ pounds per plant}$, with a standard deviation of $0.1\\text{ pounds}$, and variety B averaged $56.53\\text{ pounds per plant}$ with a standard deviation of $0.14\\text{ pounds}$. When performing a two-sample $T$-test on this data, the $p$-value was $0.033$.\nWhich of the following statements is/are true concerning the interpretation of these results?\nI. These results cannot be trusted, as randomization was not properly used in this context.\nII. These results may not be useful, as the difference is so small.\nIII. These results may not be useful, as it is likely that the sampling distribution will not be approximately normal.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and II only."
+    },
+    {
+      "letter": "E",
+      "text": "II and III only."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3",
+    "DAT-3.H",
+    "DAT-3.H.2"
+  ]
+}

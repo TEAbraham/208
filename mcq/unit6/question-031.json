@@ -1,0 +1,45 @@
+{
+  "question_id": "question-031",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "confidence-interval",
+    "sample-size",
+    "proportions"
+  ],
+  "title": "Rotten Tomatoes",
+  "difficulty": "Medium",
+  "question_text": "WellMart orders huge numbers of tomatoes to sell. It decides to randomly sample a bunch of tomatoes and finds that $0.16$ of them are rotten. The manager declared that $4$ times as many should have been sampled, and the same proportion of $0.16$ were rotten. How did the width of the confidence interval change, if at all, when the sample size increased by a factor of $4$?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "It decreased by one-half."
+    },
+    {
+      "letter": "B",
+      "text": "It decreased by one-fourth."
+    },
+    {
+      "letter": "C",
+      "text": "It stayed the same."
+    },
+    {
+      "letter": "D",
+      "text": "It increased by a factor of $2$."
+    },
+    {
+      "letter": "E",
+      "text": "It increased by a factor of $4$."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-4.H.1",
+    "UNC-4.H",
+    "UNC-4"
+  ]
+}

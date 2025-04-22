@@ -1,0 +1,44 @@
+{
+  "question_id": "question-009",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "relationships",
+    "variables"
+  ],
+  "title": "Gender and Vehicles?",
+  "difficulty": "Hard",
+  "question_text": "You suspect that there may be a relationship between two variables. One variable is gender and the other is the type of vehicle driven. To gather evidence in support of this relationship between these variables, after collecting data, you might do all of the following except:",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Construct two-way tables, and analyze the data. Use $5$ columns for types of vehicles owned and $2$ rows for gender."
+    },
+    {
+      "letter": "B",
+      "text": "Do a chi-square test for independence. Base this on the two-way table you would construct in answer $A$."
+    },
+    {
+      "letter": "C",
+      "text": "Carry out a test for the difference of two population means. Given an equal sample size for each gender, compare the mean number of a specific vehicle type owned."
+    },
+    {
+      "letter": "D",
+      "text": "Compare distributions. Create histograms for each gender with vehicle types on the $x$-axis and number of vehicles owned on the $y$-axis."
+    },
+    {
+      "letter": "E",
+      "text": "Carry out a test for the difference of two population proportions. Given an equal sample size for each gender, compare the proportion of a specific vehicle type owned."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-1.D",
+    "VAR-1.D.1",
+    "1.A",
+    "VAR-1"
+  ]
+}

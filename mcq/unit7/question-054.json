@@ -1,0 +1,46 @@
+{
+  "question_id": "question-054",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "matched-pairs-design",
+    "significance-tests",
+    "hypotheses"
+  ],
+  "title": "ACT Improvement?",
+  "difficulty": "Medium",
+  "question_text": "A national test prep firm advertised that ACT scores would go up after taking one of its courses. To test this, an outside research firm decided to run a matched-pairs test. Forty randomly selected students would take an ACT test before the course and then again after the course. The before and after scores would then be examined and tested to see if there was any improvement. Which of the following would be the correct set of hypotheses for this test?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$H_{0}: \\mu_{d}=0$\n$H_{a}: \\mu_{d}>0$\nwhere $\\mu_{d}=$ before - after ACT scores"
+    },
+    {
+      "letter": "B",
+      "text": "$H_{0}: \\mu_{d}=0$\n$H_{a}: \\mu_{d}>0$\nwhere $\\mu_{d}=$ after - before ACT scores"
+    },
+    {
+      "letter": "C",
+      "text": "$H_{0}: \\mu_{d}=0$\n$H_{a}: \\mu_{d}\\neq0$\nwhere $\\mu_{d}=$ after - before ACT scores"
+    },
+    {
+      "letter": "D",
+      "text": "$H_{0}: \\mu_{a}-\\mu_{b}=0$\n$H_{a}: \\mu_{a}-\\mu_{b}>0$\nwhere $\\mu_{a}=$ after scores and where $\\mu_{b}=$ before scores"
+    },
+    {
+      "letter": "E",
+      "text": "$H_{0}: \\bar{x}_{d}=0$\n$H_{a}: \\bar{x}_{d}\\neq0$\nwhere $\\bar{x}_{d}=$ after - before ACT scores"
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-7.C.2",
+    "VAR-7.C",
+    "1.F",
+    "VAR-7.C.1",
+    "VAR-7"
+  ]
+}

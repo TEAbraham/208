@@ -1,0 +1,46 @@
+{
+  "question_id": "question-121",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "probability",
+    "law-large-numbers"
+  ],
+  "title": "Law of Large Numbers",
+  "difficulty": "Medium",
+  "question_text": "From a large population, you take a random sample of size $n = 30$ and obtain a sample mean $\\bar{x} = 21.34$ and $s = 3.2$.\nYou add additional members of the population to this sample.\nWhat does the “law of large numbers” tell us about the mean and standard deviation of this ever-increasing sample?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "As $n$ increases, the expected values of the sample mean and sample standard deviation will approach the population mean and population standard deviation."
+    },
+    {
+      "letter": "B",
+      "text": "As $n$ increases, the expected value of the sample mean will approach the population mean."
+    },
+    {
+      "letter": "C",
+      "text": "As $n$ increases, the expected value of $s$ will be $\\sigma$."
+    },
+    {
+      "letter": "D",
+      "text": "As $n$ increases, the distribution will become more and more skewed."
+    },
+    {
+      "letter": "E",
+      "text": "As $n$ increases, the values of the sample mean $\\bar{x}$ and $s$ will vary significantly."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-5.D.1",
+    "VAR-5.D",
+    "4.B",
+    "VAR-5",
+    "3.B"
+  ]
+}

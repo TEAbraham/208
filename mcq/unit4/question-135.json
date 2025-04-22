@@ -1,0 +1,45 @@
+{
+  "question_id": "question-135",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "transformations",
+    "bivariate-data",
+    "exploring-data"
+  ],
+  "title": "Linear Transformation of Variables",
+  "difficulty": "Easy",
+  "question_text": "The random variable $X$ is skewed left with a median of $10$ and IQR of $40$. The random variable $Y$ is defined by $Y=3X-7$. What are the median and IQR of $Y$?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The median is $23$ and the IQR is $33$."
+    },
+    {
+      "letter": "B",
+      "text": "The median is $23$ and the IQR is $113$."
+    },
+    {
+      "letter": "C",
+      "text": "The median is $23$ and the IQR is $120$."
+    },
+    {
+      "letter": "D",
+      "text": "The median is $30$ and the IQR is $113$."
+    },
+    {
+      "letter": "E",
+      "text": "The median is $30$ and the IQR is $120$."
+    }
+  ],
+  "correct_answer": "Choice ‘C’ is our answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-5.F.1",
+    "VAR-5.F",
+    "VAR-5",
+    "3.C"
+  ]
+}

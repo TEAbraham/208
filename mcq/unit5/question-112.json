@@ -1,0 +1,48 @@
+{
+  "question_id": "question-112",
+  "unit": "AP® Statistics | Unit 5 Assessment",
+  "topics": [
+    "sampling-distribution",
+    "sample-proportion",
+    "proportion"
+  ],
+  "title": "Describing the Sampling Distribution of a Proportion",
+  "difficulty": "Medium",
+  "question_text": "You take a sample of size $35$ from a very large population in which the true proportion of males is $p = 0.52$. Which of the statements below best describes what is known about the sampling distribution of $\\hat{p}$, the sample proportion of males?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$\\mu_{\\hat{p}} = 0.52$\n$\\sigma_{\\hat{p}} = \\sqrt{\\dfrac {(0.52)(0.48)} {35}}$\nThe distribution is not approximately Normal."
+    },
+    {
+      "letter": "B",
+      "text": "$\\mu_{\\hat{p}} = 0.52$\n$\\sigma_{\\hat{p}} = \\sqrt{\\dfrac {(0.52)(0.48)} {35}}$\nThe distribution is approximately Normal."
+    },
+    {
+      "letter": "C",
+      "text": "$\\mu_{\\hat{p}} = 0.52$\nThe formula for $\\sigma_{\\hat{p}}$ will not give an accurate value as the $10$% condition is violated.\nThe distribution is approximately Normal."
+    },
+    {
+      "letter": "D",
+      "text": "$\\mu_{\\hat{p}} = 0.52$\nThe formula for $\\sigma_{\\hat{p}}$ will not give an accurate value as the $10$% condition is violated.\nThe distribution is not approximately Normal."
+    },
+    {
+      "letter": "E",
+      "text": "We cannot calculate the value of $\\mu_{\\hat{p}}$.\n$\\sigma_{\\hat{p}} = \\sqrt{\\dfrac {(0.52)(0.48)} {35}}$\nThe distribution is approximately Normal."
+    }
+  ],
+  "correct_answer": "Choice ‘B’ is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.L",
+    "UNC-3.K.1",
+    "3.C",
+    "UNC-3.L.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.K"
+  ]
+}

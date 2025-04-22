@@ -1,0 +1,44 @@
+{
+  "question_id": "question-109",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval-interpretations",
+    "differences-in-means"
+  ],
+  "title": "Halloween Candy",
+  "difficulty": "Medium",
+  "question_text": "Two large candy companies produce Halloween assortment bags which contain Cutsie Rolls as one of the candies in the bags. A firm did a verified study sampling these candy bags from each company and counting the number of Cutsie Rolls contained. It found that Company A had an average of $15$ Cutsie Rolls per bag while Company B had an average of $18$ Cutsie Rolls per bag. If a $95\\%$ confidence interval of the difference of these two means had a margin of error of $2.54$, would you agree that Company B really had more Cutsie Rolls in its Halloween bags?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "No.\nBecause zero is not contained in the confidence interval, we are confident there are not more Cutsie Rolls in the Company B bags."
+    },
+    {
+      "letter": "B",
+      "text": "No.\nBecause zero is contained in the confidence interval, we are confident there are not more Cutsie Rolls in the Company B bags."
+    },
+    {
+      "letter": "C",
+      "text": "We cannot know because not enough information was given to us."
+    },
+    {
+      "letter": "D",
+      "text": "Yes.\nBecause zero is not contained in the confidence interval, we are confident there are more Cutsie Rolls in the Company B bags."
+    },
+    {
+      "letter": "E",
+      "text": "Yes.\nBecause zero is contained in the confidence interval, we are confident there are more Cutsie Rolls in the Company B bags."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.AA.1",
+    "UNC-4.AA",
+    "UNC-4",
+    "4.A"
+  ]
+}

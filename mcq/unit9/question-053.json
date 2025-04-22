@@ -1,0 +1,47 @@
+{
+  "question_id": "question-053",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "confidence-interval",
+    "estimation",
+    "statistical-inference",
+    "least-squares-regression-line",
+    "null-hypothesis"
+  ],
+  "title": "Ice Cream Shop | 3 of 3",
+  "difficulty": "Medium",
+  "question_text": "An owner of a local ice cream shop wishes to determine if a positive linear relationship exists between high temperatures and the shop’s profits recorded that day.\nThe owner recorded sales from the last $50\\text{ days}$ of the summer and performed a linear regression $T$-interval on temperature vs. sales at $95\\%$ confidence.\nIf the interval extends from $50.2$ to $76.2$, which of the following statements is/are true?\nI. Strong evidence exists $(p < 0.05)$ of a linear relationship between these variables.\nII. The model predicts an extra $\\$63.20$ in sales for every extra degree the temperature rises.\nIII. In this situation specifically, extrapolation is probably safe.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and II only."
+    },
+    {
+      "letter": "E",
+      "text": "II and III only."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.M.1",
+    "DAT-3.M"
+  ]
+}

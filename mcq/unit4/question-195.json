@@ -1,0 +1,45 @@
+{
+  "question_id": "question-195",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "geometric",
+    "extra-practice"
+  ],
+  "title": "Conditions for Geometric Distribution",
+  "difficulty": "Easy",
+  "question_text": "Which of the following conditions is NOT among those required for the geometric distribution?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Each trial has the same probability of success."
+    },
+    {
+      "letter": "B",
+      "text": "Each trial has only two outcomes."
+    },
+    {
+      "letter": "C",
+      "text": "A fixed number of trials exists."
+    },
+    {
+      "letter": "D",
+      "text": "Each trial is independent of the previous one."
+    },
+    {
+      "letter": "E",
+      "text": "The variable of interest is the number of trials necessary until the first success."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.G.1",
+    "4.B",
+    "UNC-3.G",
+    "UNC-3"
+  ]
+}

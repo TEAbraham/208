@@ -1,0 +1,46 @@
+{
+  "question_id": "question-078",
+  "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "properties"
+  ],
+  "title": "High School Drivers",
+  "difficulty": "Medium",
+  "question_text": "In a large metropolitan area, the proportion of high school seniors who drive to school at least $3\\text{ days a week}$ is $0.45$. A random sample of $25\\text{ students}$ is chosen.\nHow would you calculate the probability that at least $13$ of these students drive to school at least $3\\text{ days a week}$?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Use the multiplication rule for probabilities for the following item from the sample space, where $D$ = drives and $N$ = does not drive:\n$DDDDDDDDDDDDDNNNNNNNNNNNN$"
+    },
+    {
+      "letter": "B",
+      "text": "Calculate the binomial probability on a calculator using $\\mu = 11.25$, $\\sigma = 6.19$, and $X \\ge 13$."
+    },
+    {
+      "letter": "C",
+      "text": "Use the normal approximation to the binomial because the sample size is large."
+    },
+    {
+      "letter": "D",
+      "text": "Use the binomial formula for $n = 25$, $X = 13$, and $p = 0.45$."
+    },
+    {
+      "letter": "E",
+      "text": "Use the normal approximation to the binomial because $np \\ge 10$ and $n(1-p) \\ge 10$."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-6.B.2",
+    "VAR-6.B",
+    "3.A",
+    "VAR-6.B.1",
+    "VAR-6"
+  ]
+}

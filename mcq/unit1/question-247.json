@@ -1,0 +1,49 @@
+{
+  "question_id": "question-247",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "univariate-data",
+    "position",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
+  "title": "Calibrating a Candy Machine For a Normal Distribution",
+  "difficulty": "Medium",
+  "question_text": "A candy machine dispenses small chocolate candies and claims that $1$ oz is dispensed each time. It is known that the standard deviation of the amount of candy that will be dispensed from this machine is $0.08$ oz and that the amount dispensed follows a normal distribution. We need to calibrate the machine so that the mean amount dispensed will be less than the advertised amount no more than $2\\%$ of the time.\nWhat should we calibrate the mean to be?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.92\\text{ oz}$"
+    },
+    {
+      "letter": "B",
+      "text": "$1\\text{ oz}$"
+    },
+    {
+      "letter": "C",
+      "text": "$1.08\\text{ oz}$"
+    },
+    {
+      "letter": "D",
+      "text": "$1.16\\text{ oz}$"
+    },
+    {
+      "letter": "E",
+      "text": "$1.24\\text{ oz}$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2"
+  ]
+}

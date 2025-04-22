@@ -1,0 +1,48 @@
+{
+  "question_id": "question-165",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "matched-pairs-design",
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "randomized-block-design"
+  ],
+  "title": "Why Use Matched Pairs?",
+  "difficulty": "Hard",
+  "question_text": "A manufacturer of hair care products believes that they have developed a new formula for their shampoo that will leave hair feeling softer and silkier. The shampoo that contains the new formula looks and smells like the original formula, so those who use the shampoo would not be able to tell the two formulas apart.\nSeveral volunteers who use the company's shampoo have agreed to help them test their theory, and since the group of volunteers is very diverse, the manufacturer believes that the volunteers actually would be a good representation of the population of individuals who would use their shampoo.\nFor this study, each volunteer will have the hair on one side of their head shampooed with the original formula and the hair on the other side of their head shampooed with the new formula. Which side receives which formula will be determined at random and the hair on the left side of the head will always be shampooed first.\nAfter the hair is then dried and styled to the individual's preference, each individual will be asked to rate how soft and silky their hair feels on the side with the original formula and on the side with the new formula. Ratings will be based on a scale from $1$ to $5$ with $1$ being \"not soft and silky\" and $5$ being \"the most soft and silky\". The difference between the new formula rating and the old formula rating will be recorded for each individual in the study.\nWhat is the advantage of using matched pairs design for this study?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Using matched pairs design gives each individual an opportunity to experience both shampoos so they will know which one they prefer."
+    },
+    {
+      "letter": "B",
+      "text": "Using matched pairs will help the researchers to be able to determine if the new formula of shampoo will work better on certain types of hair (such as curly, thin, coarse, etc.) than on other types of hair."
+    },
+    {
+      "letter": "C",
+      "text": "By using matched pairs, each individual is able to act as their own control. Each individual can control for the effects of the different formulas so they will know which formula works best for them. Using matched pairs ensures that the individuals will not be influenced by the opinions of others."
+    },
+    {
+      "letter": "D",
+      "text": "By using matched pairs, each individual is able to act as their own control. Each individual has their own opinion on what \"soft and silky\" feels like and different individuals may have different types of hair. Using matched pairs design reduces the chances that the results will be affected by these differences."
+    },
+    {
+      "letter": "E",
+      "text": "Using matched pairs design requires the use of more individuals than completely randomized design or block design. Therefore it may provide better opportunities for the company to market their products to more individuals."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-3.D",
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.D.1",
+    "VAR-3.E.3"
+  ]
+}

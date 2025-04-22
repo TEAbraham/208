@@ -1,0 +1,50 @@
+{
+  "question_id": "question-015",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "categorical-data",
+    "data",
+    "quantitative",
+    "variables"
+  ],
+  "title": "Car Research",
+  "difficulty": "Medium",
+  "question_text": "Steven is looking for a new car. He knows that he is going to purchase a used car from a certain dealership. To compare, he decides to make a table of the three cars he intends on test driving at the dealership.\nCar Price Mileage Color Drivetrain Remote Start\nFord Edge $\\$17{,}999$ $32{,}456$ White All-Wheel Drive Yes\nToyota Rav-4 $\\$16{,}500$ $42{,}000$ Silver All-Wheel Drive Yes\nHonda CRV $\\$17{,}350$ $37{,}500$ Black Front-Wheel Drive No\nThis data set contains which of the following?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Car</th><th scope=\"col\">Price</th><th scope=\"col\">Mileage</th><th scope=\"col\">Color</th><th scope=\"col\">Drivetrain</th><th scope=\"col\">Remote Start</th></tr></thead><tbody><tr><td>Ford Edge</td><td><span class=\"tex2jax_process\">$\\$17{,}999$</span></td><td><span class=\"tex2jax_process\">$32{,}456$</span></td><td>White</td><td>All-Wheel Drive</td><td>Yes</td></tr><tr><td>Toyota Rav-4</td><td><span class=\"tex2jax_process\">$\\$16{,}500$</span></td><td><span class=\"tex2jax_process\">$42{,}000$</span></td><td>Silver</td><td>All-Wheel Drive</td><td>Yes</td></tr><tr><td>Honda CRV</td><td><span class=\"tex2jax_process\">$\\$17{,}350$</span></td><td><span class=\"tex2jax_process\">$37{,}500$</span></td><td>Black</td><td>Front-Wheel Drive</td><td>No</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$6$ variables, $4$ of which are categorical"
+    },
+    {
+      "letter": "B",
+      "text": "$6$ variables, $3$ of which are categorical."
+    },
+    {
+      "letter": "C",
+      "text": "$5$ variables, $4$ of which are categorical."
+    },
+    {
+      "letter": "D",
+      "text": "$5$ variables, $3$ of which are categorical."
+    },
+    {
+      "letter": "E",
+      "text": "$3$ variables, with $5$ sub-variables."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "A data set contains information about a certain number of individuals. The data collected on the individuals can be split into one or more variables.\n\nSome variables are Categorical, can easily be put into groups or categories, or Quantitative, which has a numerical value that measures something about the individuals.\n\nIn this case, the individuals are the three cars Steven is researching. He collected data on five variables for each car. The variables can be split into the following categories:\n\nChoice 'D' is correct.",
+  "explanations": {},
+  "tags": [
+    "VAR-1.C.1",
+    "VAR-1.B",
+    "2.A",
+    "VAR-1.C.2",
+    "VAR-1",
+    "VAR-1.C"
+  ]
+}

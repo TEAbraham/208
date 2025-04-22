@@ -1,0 +1,46 @@
+{
+  "question_id": "question-143",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "difference-two-means"
+  ],
+  "title": "Convincing Evidence That Seniors Are Absent More Often?",
+  "difficulty": "Hard",
+  "question_text": "In a certain state, officials at the Department of Education wanted to investigate whether seniors in high school are absent more often than other high school students. At the end of the school year, a random sample of $50$ seniors from the state was selected, and their attendance records were analyzed.\nThe mean number of days these seniors were absent from school was $6.2$ with a standard deviation of $2.1$. Attendance records were also analyzed for a second, independent random sample of $50$ high school students in the state who were not seniors. The mean number of days these students were absent was $5.7$ days with a standard deviation of $1.6$. No outliers were found in either sample.\nDoes the data provide convincing evidence at the $\\alpha=0.05$ level that seniors in high school have more absences on average than other high school students?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "No, since the test statistic is less than $2.0$, the difference in sample averages was not significant enough to suggest that seniors are absent more often on average than other high school students."
+    },
+    {
+      "letter": "B",
+      "text": "No, since the $p$-value of the test is greater than $0.05$, we do not have sufficient evidence to suggest that seniors have more absences on average than other high school students."
+    },
+    {
+      "letter": "C",
+      "text": "Yes, since the $p$-value of the test is less than $0.02$, it is also less than $0.05$. Therefore, at the $\\alpha=0.05$ level, we have strong evidence to suggest that seniors are absent more often on average than other high schools students."
+    },
+    {
+      "letter": "D",
+      "text": "Yes, since the sample average for seniors was $0.50$ days greater than the sample average for other high school students, we do have convincing evidence at the $\\alpha=0.05$ level."
+    },
+    {
+      "letter": "E",
+      "text": "No conclusion can be reached since the conditions for inference have not been satisfied."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.H.1",
+    "DAT-3",
+    "DAT-3.H",
+    "DAT-3.H.2"
+  ]
+}

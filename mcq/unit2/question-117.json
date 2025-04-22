@@ -1,0 +1,46 @@
+{
+  "question_id": "question-117",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "least-squares-regression-line",
+    "bivariate-data",
+    "exploring-data"
+  ],
+  "title": "Weight and Height LSRL",
+  "difficulty": "Hard",
+  "question_text": "A researcher wanted to investigate the potential relationship between subjects’ weight and height.\nAfter measuring $15\\text{ individuals}$, the researcher found heights average $68\\text{ inches}$ with a standard deviation of $3.4\\text{ inches}$. Weights averaged $204\\text{ pounds}$ with a standard deviation of $24.5\\text{ pounds}$. The correlation coefficient was $r = 0.76$.\nWhat is the equation of the least squares regression line?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$\\text{Weight = 5.48(Height)} -168.64$"
+    },
+    {
+      "letter": "B",
+      "text": "$\\text{Weight = 204(Height)} -168.84$"
+    },
+    {
+      "letter": "C",
+      "text": "$\\text{Height = 5.48(Weight)} -168.84$"
+    },
+    {
+      "letter": "D",
+      "text": "$\\text{Weight = 68(Height)} +24.5$"
+    },
+    {
+      "letter": "E",
+      "text": "$\\text{Weight = 45(Height)} -24.5$"
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "DAT-1.G.1",
+    "DAT-1.G.2",
+    "2.C",
+    "DAT-1",
+    "DAT-1.G"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "question_id": "question-081",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [],
+  "title": "Type II error: West Wake Up Time Versus East",
+  "difficulty": "Medium",
+  "question_text": "A sleep specialist believes that adults on the West Coast sleep less hours per day than adults on the East Coast. Collecting large random samples of adults from the West Coast and East Coast, the sleep specialist studies the amount of hours per day adults on the West Coast sleep compared to adults on the East Coast.\nWhich of the following describes a Type II error in the context of the situation?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The sleep specialist correctly concludes the average amount of hours per day adults sleep on the West Coast is less than adults on the East Coast."
+    },
+    {
+      "letter": "B",
+      "text": "The sleep specialist concludes the average amount of hours per day adults sleep on the West Coast is less than adults on the East Coast when in reality adults on the West Coast average the same amount of sleep as adults on the East Coast."
+    },
+    {
+      "letter": "C",
+      "text": "The sleep specialist concludes the average amount of hours per day adults sleep on the West Coast is not less than adults on the East Coast when in reality adults on the West Coast average less sleep than adults on the East Coast."
+    },
+    {
+      "letter": "D",
+      "text": "The sleep specialist concludes the average amount of hours per day adults sleep on the West Coast is the same as adults on the East Coast when in reality adults on the West Coast average the same amount of sleep as adults on the East Coast."
+    },
+    {
+      "letter": "E",
+      "text": "A type II error cannot be committed in this situation."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-5.A",
+    "UNC-5",
+    "UNC-5.A.2",
+    "1.B"
+  ]
+}

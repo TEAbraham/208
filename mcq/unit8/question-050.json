@@ -1,0 +1,48 @@
+{
+  "question_id": "question-050",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "categorical-data",
+    "conditional-relative-frequencies",
+    "chi-square-distribution",
+    "exploring-data"
+  ],
+  "title": "Expected Count: Orange Soda",
+  "difficulty": "Medium",
+  "question_text": "A researcher surveyed a sample of $1{,}989\\text{ people}$. Here are the actual results of his survey on interest in orange soda:\nAge Range High School College 22 year olds Total\nInterested 256 774 115 1145\nLying but Interested 618 15 117 750\nNot Interested 37 22 35 94\nTotal 911 811 267 1989\nUnder the null hypothesis that age range and orange soda interest are independent, what would be the expected count for the number of college students who are ‘Not Interested’ in orange soda given the college sample size of $811 \\text{ college students}$?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Age Range</th><th scope=\"col\">High School</th><th scope=\"col\">College</th><th scope=\"col\">22 year olds</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Interested</td><td>256</td><td>774</td><td>115</td><td>1145</td></tr><tr><td>Lying but Interested</td><td>618</td><td>15</td><td>117</td><td>750</td></tr><tr><td>Not Interested</td><td>37</td><td>22</td><td>35</td><td>94</td></tr><tr><td>Total</td><td>911</td><td>811</td><td>267</td><td>1989</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$22.0$"
+    },
+    {
+      "letter": "B",
+      "text": "$38.3$"
+    },
+    {
+      "letter": "C",
+      "text": "$189.9$"
+    },
+    {
+      "letter": "D",
+      "text": "$221.0$"
+    },
+    {
+      "letter": "E",
+      "text": "$270.3$"
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-8.H",
+    "3.A",
+    "VAR-8",
+    "VAR-8.H.1"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "question_id": "question-072",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "logic",
+    "mean-interval",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
+  "title": "Paired Conditions: Which One?",
+  "difficulty": "Easy",
+  "question_text": "Which of the following conditions is NEVER satisfied in a paired $t$-interval?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Random."
+    },
+    {
+      "letter": "B",
+      "text": "Normal or Approximately Normal"
+    },
+    {
+      "letter": "C",
+      "text": "$10\\%$"
+    },
+    {
+      "letter": "D",
+      "text": "Independent groups."
+    },
+    {
+      "letter": "E",
+      "text": "All of the conditions will work at some point."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "DAT-3.F",
+    "4.E",
+    "DAT-3",
+    "DAT-3.F.2",
+    "DAT-3.F.1"
+  ]
+}

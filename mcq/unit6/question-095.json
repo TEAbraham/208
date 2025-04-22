@@ -1,0 +1,46 @@
+{
+  "question_id": "question-095",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "confidence-interval",
+    "estimation",
+    "statistical-inference",
+    "logic-meaning-properties"
+  ],
+  "title": "Two-Proportion $Z$-Interval",
+  "difficulty": "Easy",
+  "question_text": "A two-proportion $Z$-interval attempts to estimate",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "How many times larger one proportion is than the other."
+    },
+    {
+      "letter": "B",
+      "text": "How many times smaller one proportion is than the other."
+    },
+    {
+      "letter": "C",
+      "text": "The difference between two proportions."
+    },
+    {
+      "letter": "D",
+      "text": "Each of the two proportions."
+    },
+    {
+      "letter": "E",
+      "text": "The sum of the two proportions."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4",
+    "UNC-4.I",
+    "1.D",
+    "UNC-4.I.1"
+  ]
+}

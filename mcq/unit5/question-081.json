@@ -1,0 +1,45 @@
+{
+  "question_id": "question-081",
+  "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sample-proportion",
+    "sampling-distributions"
+  ],
+  "title": "Accounting for Differences: Gun Control",
+  "difficulty": "Medium",
+  "question_text": "Suppose a local group in support of tighter gun restrictions gives a nationwide survey to $200$ randomly chosen subjects.\nThe question they asked was “Do you favor increased gun control?” In the survey, $66\\%$ of respondents said yes, compared to the national average of $64\\%$.\nHow might a statistician explain this difference ($64\\%$ vs. $66\\%$) to the group?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The sample of $200$ subjects was too small to come up with any credible comparisons to the population proportion of $64\\%$."
+    },
+    {
+      "letter": "B",
+      "text": "Since the sample was conducted by a group that supports tighter gun control, it is probable the poll sampled people who would be more likely to support their cause."
+    },
+    {
+      "letter": "C",
+      "text": "Since the sample was conducted by a group that supports tighter gun control, it is likely the question was worded in a confusing or biased manner."
+    },
+    {
+      "letter": "D",
+      "text": "Since the group who conducted the survey was local, the respondents might have the opinions of this area, but not necessarily the opinions of the entire country."
+    },
+    {
+      "letter": "E",
+      "text": "For samples of size $200$, sampling variability exists where samples can easily be $1\\%-3\\%$ off the true population proportion."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-1.G",
+    "1.A",
+    "VAR-1.G.1",
+    "VAR-1"
+  ]
+}

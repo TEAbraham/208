@@ -1,0 +1,46 @@
+{
+  "question_id": "question-041",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "categorical-data",
+    "chi-square-test",
+    "two-way-tables",
+    "exploring-data"
+  ],
+  "title": "Conditions for Two-Way Tables",
+  "difficulty": "Easy",
+  "question_text": "Which of the following statements is/are true concerning conditions for chi-squared procedures involving two-way tables?\nI. Data must come from a random sample or random samples.\nII. Expected counts must all be greater than $1$, and no more than $20\\%$ of expected counts can be less than $5$.\nIII. $np$ and $n(1-p)$ must both be greater than $5$ where $n$ is the number of trials and $p$ is the proportion of successes.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and II only."
+    },
+    {
+      "letter": "E",
+      "text": "II and III only."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-8.H",
+    "3.A",
+    "VAR-8",
+    "VAR-8.H.1"
+  ]
+}

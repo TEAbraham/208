@@ -1,0 +1,46 @@
+{
+  "question_id": "question-231",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "anticipating-patterns",
+    "sample-mean",
+    "sampling-distributions"
+  ],
+  "title": "Calculator: Apple Weights",
+  "difficulty": "Medium",
+  "question_text": "The distribution of weights of apples at a local supermarket is normally distributed with a mean of $0.75\\text{ lbs}$ and standard deviation of $0.12\\text{ lbs}$.\nApproximately $98\\%$ of the apples weigh at least",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.5034\\text{ lbs}$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.9966\\text{ lbs}$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.6496\\text{ lbs}$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.85038\\text{ lbs}$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.5940\\text{ lbs}$"
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2"
+  ]
+}

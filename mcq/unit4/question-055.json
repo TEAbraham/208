@@ -1,0 +1,47 @@
+{
+  "question_id": "question-055",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "calculating-probability",
+    "anticipating-patterns",
+    "probability"
+  ],
+  "title": "Smoking and Cancer Probability",
+  "difficulty": "Medium",
+  "question_text": "The relationship between smoking and cancer is well known.\nIn a particular state’s population, the following probabilities have been ascertained:\nEvent Probability\nsmokes and is diagnosed with cancer 0.09\nsmokes and is not diagnosed with cancer 0.22\ndoes not smoke and is diagnosed with cancer 0.03\ndoes not smoke and is not diagnosed with cancer 0.66\n\n\nA person is randomly selected from this population. The individual is a smoker.\nWhat is the probability that the individual has been diagnosed with cancer?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Event</th><th scope=\"col\">Probability</th></tr></thead><tbody><tr><td>smokes and is diagnosed with cancer</td><td>0.09</td></tr><tr><td>smokes and is not diagnosed with cancer</td><td>0.22</td></tr><tr><td>does not smoke and is diagnosed with cancer</td><td>0.03</td></tr><tr><td>does not smoke and is not diagnosed with cancer</td><td>0.66</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.09$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.12$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.29$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.34$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.75$"
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-4.D.1",
+    "3.A",
+    "VAR-4",
+    "VAR-4.D"
+  ]
+}

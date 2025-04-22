@@ -1,0 +1,45 @@
+{
+  "question_id": "question-003",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "regression",
+    "predicting-response-variable",
+    "inference"
+  ],
+  "title": "Effects of Squats",
+  "difficulty": "Easy",
+  "question_text": "An elite performance trainer is wondering if the amount of weight that a long-jumper can squat can predict the distance jumped. The trainer has had over $1000$ clients, so he selects a random sample of $25$ long-jumpers and compares the max squat amount to the distance jumped and creates a linear regression model.\nWhat is the response variable for the trainer's regression model ?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Distance jumped"
+    },
+    {
+      "letter": "B",
+      "text": "Max squat rate"
+    },
+    {
+      "letter": "C",
+      "text": "$25$ long-jumpers"
+    },
+    {
+      "letter": "D",
+      "text": "Slope of the regression line"
+    },
+    {
+      "letter": "E",
+      "text": "$Y$-intercept of the regression line"
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer",
+  "solution": "When looking at a regression model, there are explanatory and response variables. The explanatory variable is the variable that is causing the response, and in this problem would be the max squat weight for the jumpers. The response variable is the variable that is being measured, and in this problem would the predicted long-jump distance.\n\nTherefore, the response variable for the trainer's regression model is distance jumped.\n\nChoice 'A' is correct.",
+  "explanations": {},
+  "tags": [
+    "1.A",
+    "VAR-1.K",
+    "VAR-1.K.1",
+    "VAR-1"
+  ]
+}

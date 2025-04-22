@@ -1,0 +1,48 @@
+{
+  "question_id": "question-068",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "scatterplots",
+    "bivariate-data",
+    "scatter-plots",
+    "exploring-data"
+  ],
+  "title": "Driving Speed and Stopping Distance",
+  "difficulty": "Hard",
+  "question_text": "Examine the scatterplot below, used to predict stopping distance based off motorists’ speed.\nCreated for Albert.io. Copyright 2017. All rights reserved.\nWhich feature does this scatterplot show that might make one hesitate to use this as a model for prediction?",
+  "image_files": [
+    "images/question-068-img1.jpg"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The correlation is weak to moderate."
+    },
+    {
+      "letter": "B",
+      "text": "More pieces of data should be used to make predictions more reliable."
+    },
+    {
+      "letter": "C",
+      "text": "As speed increases, there seems to be more variability in stopping distance."
+    },
+    {
+      "letter": "D",
+      "text": "The stopping distance seems to level off as speed increases."
+    },
+    {
+      "letter": "E",
+      "text": "There is no data in the speed range past $40\\text{ miles per hour}$."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.C",
+    "DAT-1",
+    "DAT-1.C.1"
+  ]
+}

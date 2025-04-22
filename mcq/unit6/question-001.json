@@ -1,0 +1,40 @@
+{
+  "question_id": "question-001",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [],
+  "title": "Margin of Error",
+  "difficulty": "Easy",
+  "question_text": "A local news station was covering a city council race and said that Candidate $A$ was polling ahead of Candidate $B$ with $52\\%$ of voters favoring Candidate $A$. The news station also stated their results come with a margin of error of $3\\%$.\nWhat is believed to be the true proportion of voters who favor Candidate $A$?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Somewhere between $49\\%$ and $55\\%$"
+    },
+    {
+      "letter": "B",
+      "text": "Exactly $52\\%$"
+    },
+    {
+      "letter": "C",
+      "text": "Less than $52\\%$"
+    },
+    {
+      "letter": "D",
+      "text": "More than $52\\%$"
+    },
+    {
+      "letter": "E",
+      "text": "Less the $49\\%$ but greater than $55\\%$"
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "When a random sample is taken, the sample proportion will rarely equal the true population proportion. In this case, the sample proportion produced a $\\hat{p} = 0.52%$ or $52\\%$. But, this value came with a margin of error, so the news station does believes that the value of $52\\%$ is a good starting point, but might not be exactly correct. The news station believes the true population proportion will be:\n\n$52\\% \\pm 3\\%$\n\nTherefore, they believe the true proportion who favor candidate $A$ to be somewhere between $49\\%$ and $55\\%$\n\nChoice 'A' is correct.",
+  "explanations": {},
+  "tags": [
+    "VAR-1.H",
+    "VAR-1.H.1",
+    "VAR-1"
+  ]
+}

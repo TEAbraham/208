@@ -1,0 +1,46 @@
+{
+  "question_id": "question-105",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "least-squares-regression-line",
+    "bivariate-data",
+    "exploring-data"
+  ],
+  "title": "Rent and Square Footage",
+  "difficulty": "Easy",
+  "question_text": "A realtor would like to examine the relationship between rental price and square footage of an apartment. He believes that the rent asked for an apartment can be predicted based on the square footage.\nA random sample of $25\\text{ apartments}$ was collected and a least square regression line was obtained with a slope = $1.0632$, a $y$-intercept of $83.527$, and $R^2$ value of $0.8165$.\nDetermine the predicted rental price for a $1{,}200\\text{ ft}^2$ apartment.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$\\$1{,}359.37$"
+    },
+    {
+      "letter": "B",
+      "text": "$\\$979.80$"
+    },
+    {
+      "letter": "C",
+      "text": "$\\$1{,}023$"
+    },
+    {
+      "letter": "D",
+      "text": "$\\$1{,}109.93$"
+    },
+    {
+      "letter": "E",
+      "text": "Cannot be determined from the information given."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.H",
+    "DAT-1",
+    "DAT-1.H.3",
+    "DAT-1.H.1"
+  ]
+}

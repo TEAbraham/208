@@ -1,0 +1,45 @@
+{
+  "question_id": "question-055",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "sampling-and-experimentation",
+    "sampling-methods"
+  ],
+  "title": "Absorbs-All",
+  "difficulty": "Easy",
+  "question_text": "Absorbs-All is a paper towel company that claims its paper towels can absorb $25\\%$ more liquid than the leading paper towel. At the end of each day, quality control inspectors at the manufacturing plant collect a sample of all the paper towels produced that day to ensure the absorbing standard is being met.\nWhich of the following describes the best way for quality control officers to collect the sample?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The inspectors will select the first $10\\text{ rolls}$ of paper towels produced each day so that the inspection can be completed early in the day."
+    },
+    {
+      "letter": "B",
+      "text": "The inspectors will select the last $10\\text{ rolls}$ of paper towels produced each day because the best towels are produced at the end of each day."
+    },
+    {
+      "letter": "C",
+      "text": "The inspectors will select $10\\text{ rolls}$ of paper towels that look like typical rolls."
+    },
+    {
+      "letter": "D",
+      "text": "The packaging equipment will sequentially number each of the paper towel rolls produced in a day. The inspectors will program a computer to randomly select $10\\text{ unique numbers}$ from among all of the paper towel numbers. The paper towel rolls corresponding to the $10\\text{ numbers}$ will be part of the sample."
+    },
+    {
+      "letter": "E",
+      "text": "The inspectors will select $10\\text{ rolls}$ of paper towels from one of the factory's seven assembly lines."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-2.C.2",
+    "DAT-2",
+    "DAT-2.C"
+  ]
+}

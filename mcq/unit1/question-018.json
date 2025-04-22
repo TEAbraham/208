@@ -1,0 +1,47 @@
+{
+  "question_id": "question-018",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "categorical-data",
+    "data",
+    "quantitative",
+    "variables"
+  ],
+  "title": "Facts About Variables",
+  "difficulty": "Hard",
+  "question_text": "Which of the following statements about variables is NOT true?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "An individual can often be described with respect to many different variables."
+    },
+    {
+      "letter": "B",
+      "text": "Two different individuals can be measured or described on the same variable, but the value or description of the variable may not be the same for both individuals."
+    },
+    {
+      "letter": "C",
+      "text": "For one specific individual, the value of a quantitative variable may change over time but the value of a categorical variable will remain constant."
+    },
+    {
+      "letter": "D",
+      "text": "The individuals in a sample should all be the same with respect to the variable that makes them part of a population of interest."
+    },
+    {
+      "letter": "E",
+      "text": "Some types of variables can be considered either quantitative or categorical depending upon how they are described."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-1.C.1",
+    "2.A",
+    "VAR-1.C.2",
+    "VAR-1",
+    "VAR-1.C"
+  ]
+}

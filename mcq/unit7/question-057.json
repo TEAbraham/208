@@ -1,0 +1,45 @@
+{
+  "question_id": "question-057",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval",
+    "significance-tests",
+    "deduction"
+  ],
+  "title": "Who Wins?",
+  "difficulty": "Medium",
+  "question_text": "Five interns work for a large popcorn company. They are in a competition to see who can come up with the best idea to help with popcorn sales. They are required to use some sort of statistical test. Their five ideas are listed below. Four are in the running because they seemed to make sense, but one did not make sense. Which one mentions a test which does not coordinate with the information to be collected?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Annie suggested that $50$ random households be surveyed and asked about the amount they spent on popcorn they purchased in the previous month. Then Annie planned to take those numbers and run a one-sample $z$-test for a population proportion."
+    },
+    {
+      "letter": "B",
+      "text": "Bob suggested that $50$ random movie theaters be surveyed and asked about the amount of popcorn sales they had in the previous month. Then Bob would test to see if sales exceeded $\\$10,000$ by using a one-sample t-test for a population mean."
+    },
+    {
+      "letter": "C",
+      "text": "Carly suggested $50$ random convenience stores be surveyed. She wanted to find what percentage of sales on average over the past week was for popcorn. Then Carly would test to see if sales surpassed $20\\%$ using a one-sample $z$-test for a population proportion."
+    },
+    {
+      "letter": "D",
+      "text": "Dan wanted to compare sales in convenience stores and grocery stores. He would sample $30$ random stores of each to obtain their sales for the previous week. Dan would then construct a confidence interval for the difference of two population means."
+    },
+    {
+      "letter": "E",
+      "text": "Eduardo suggested that $50$ random grocery stores be surveyed and asked about the amount of popcorn sales they had in the previous month. Then Eduardo would make a confidence interval for the sample mean."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-7",
+    "VAR-7.B.1",
+    "1.E",
+    "VAR-7.B"
+  ]
+}

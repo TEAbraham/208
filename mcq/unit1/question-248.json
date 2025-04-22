@@ -1,0 +1,50 @@
+{
+  "question_id": "question-248",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "model-for-measurements",
+    "comparing-z-scores",
+    "z-score",
+    "probability"
+  ],
+  "title": "Normal Distribution: Giganticville",
+  "difficulty": "Medium",
+  "question_text": "The distribution of heights of $4\\text{-year-old boys}$ in the town of Giganticville is approximately normally distributed with a mean of $78.0$ inches and standard deviation of $4.3\\text{ inches}$.\nManute, a $4\\text{-year-old-boy}$ from Giganticville has a height that is $0.23$ standard deviations below the mean. His $4\\text{-year-old-boy}$ neighbor Mugsy is at the $45^\\text{th}$ percentile of the height distribution.\nWhat percentile is Manute's height, and how does his height compare to Mugsy's height?",
+  "image_files": [
+    "images/question-248-img1.PNG"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Manute's height is at the $41^\\text{st}$ percentile of the distribution, and he is shorter than Mugsy."
+    },
+    {
+      "letter": "B",
+      "text": "Manute's height is at the $41^\\text{st}$ percentile of the distribution, and he is the taller than Mugsy."
+    },
+    {
+      "letter": "C",
+      "text": "Manute's height is at the $46^\\text{th}$ percentile of the distribution, and he is shorter than Mugsy."
+    },
+    {
+      "letter": "D",
+      "text": "Manute's height is at the $59^\\text{th}$ percentile of the distribution, and he is shorter than Mugsy."
+    },
+    {
+      "letter": "E",
+      "text": "Manute's height is at the $59^\\text{th}$ percentile of the distribution, and he is taller than Mugsy."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-2.C.1",
+    "2.D",
+    "VAR-2.C",
+    "VAR-2"
+  ]
+}

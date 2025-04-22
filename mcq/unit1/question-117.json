@@ -1,0 +1,51 @@
+{
+  "question_id": "question-117",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "boxplots",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
+  "title": "Determining First Quartile Value: Calories in Meat",
+  "difficulty": "Easy",
+  "question_text": "Examine the boxplots of calories below. Calories were measured per $3$ ounces of each type of meat.\nCreated for Albert.io. Copyright 2017. All rights reserved.\nWhich type of meat has a first quartile value of $125 \\text{ calories}$?",
+  "image_files": [
+    "images/question-117-img1.jpg",
+    "images/question-117-img2.png"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Beef."
+    },
+    {
+      "letter": "B",
+      "text": "Other meat."
+    },
+    {
+      "letter": "C",
+      "text": "Poultry."
+    },
+    {
+      "letter": "D",
+      "text": "Beef and other meat."
+    },
+    {
+      "letter": "E",
+      "text": "None of the above."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.M",
+    "UNC-1.M.1",
+    "UNC-1.L.2",
+    "2.B",
+    "UNC-1.L",
+    "UNC-1"
+  ]
+}

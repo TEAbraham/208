@@ -1,0 +1,50 @@
+{
+  "question_id": "question-033",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "categorical-data",
+    "bar-charts"
+  ],
+  "title": "Baby Average Height",
+  "difficulty": "Easy",
+  "question_text": "A night nurse works at a birth center. Her job is to measure the baby's vitals as soon as it is born. She decides to record the number of babies and their heights compared to the average stated on the internet. The data below is split into gender categories as well.\nShorter Average Taller\nMale $25$ $32$ $18$\nFemale $30$ $22$ $15$\nBased off the information in table, which of the following is the appropriate graph to determine if a relationship exists between gender and height compared to average?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Shorter</th><th scope=\"col\">Average</th><th scope=\"col\">Taller</th></tr></thead><tbody><tr><td>Male</td><td><span class=\"tex2jax_process\">$25$</span></td><td><span class=\"tex2jax_process\">$32$</span></td><td><span class=\"tex2jax_process\">$18$</span></td></tr><tr><td>Female</td><td><span class=\"tex2jax_process\">$30$</span></td><td><span class=\"tex2jax_process\">$22$</span></td><td><span class=\"tex2jax_process\">$15$</span></td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Parallel Boxplots"
+    },
+    {
+      "letter": "B",
+      "text": "Scatterplot"
+    },
+    {
+      "letter": "C",
+      "text": "Histogram"
+    },
+    {
+      "letter": "D",
+      "text": "Stacked Doplot"
+    },
+    {
+      "letter": "E",
+      "text": "Side-by-side Bar Graph"
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "The table given in the prompt summarizes the data of two Categorical Variables since the nurse is placing the babies into different groups based off gender and height.\n\nWhen looking at categorical variables, there are many different graphs we can use to visualize the data. Examples of these graphs are pie charts, bar charts, segmented bar charts, and side-by-side bar graphs. This graph allows you to see the counts, or frequencies, of the categories split up into two different categories. Therefore, of the options given above, the side-by-side bar graph is the only acceptable graph.\n\nChoice 'E' is correct.",
+  "explanations": {},
+  "tags": [
+    "UNC-1.E",
+    "UNC-1.D",
+    "2.D",
+    "2.B",
+    "UNC-1.C.1",
+    "UNC-1.C",
+    "UNC-1.E.1",
+    "UNC-1"
+  ]
+}

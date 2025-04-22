@@ -1,0 +1,46 @@
+{
+  "question_id": "question-048",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "tests-of-significance",
+    "mean",
+    "statistical-inference",
+    "probability"
+  ],
+  "title": "The True Meaning of $p$",
+  "difficulty": "Hard",
+  "question_text": "A one-sided significance test for a population mean was conducted and the resulting $p$-value was $p = 0.03$.\nWhat is the best interpretation of this $p$-value?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There is a $3\\%$ chance that the statistic obtained from our sample is equal to the true population mean."
+    },
+    {
+      "letter": "B",
+      "text": "We are only $3\\%$ confident that our results are correct."
+    },
+    {
+      "letter": "C",
+      "text": "Our results are statistically significant at the $\\alpha=0.05$ level. We have sufficient evidence to reject the null hypothesis."
+    },
+    {
+      "letter": "D",
+      "text": "The probability that we will make a type $II$ error based on our results is about $3\\%$."
+    },
+    {
+      "letter": "E",
+      "text": "If our null hypothesis is true, the probability is only $3\\%$ that we would obtain a sample statistic as far away from the hypothesized mean as the statistic we actually got from our sample."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-4.T",
+    "UNC-4",
+    "UNC-4.T.1"
+  ]
+}

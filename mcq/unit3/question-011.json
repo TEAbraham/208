@@ -1,0 +1,44 @@
+{
+  "question_id": "question-011",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "experimental",
+    "experiment"
+  ],
+  "title": "Burn Treatments",
+  "difficulty": "Easy",
+  "question_text": "A medical doctor is trying to determine which medical cream helps her patients recover from burns the best. She recruits the next $60$ people, and separates them into three groups $1$, $2$, and $3$. Then she assigns group $1$ cream $A$, group $2$ cream $B$, and group $3$ cream $C$. She then measures the results at the end of the study.\nWhat are the treatments in this experiment?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "All patients with burns."
+    },
+    {
+      "letter": "B",
+      "text": "The $60$ patients in the experiment."
+    },
+    {
+      "letter": "C",
+      "text": "The three groups of patients."
+    },
+    {
+      "letter": "D",
+      "text": "The three different creams."
+    },
+    {
+      "letter": "E",
+      "text": "The results at the end of the experiment."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "In an experiment, different conditions are assigned to the experimental units. The experimental units are those that have been recruited or offered to be a part of the study. The different conditions that are assigned to the experimental units are called treatments.\n\nIn this experiment, the doctor is trying to determine the best cream to help her patients recover. The experimental units in this study would be the $60$ patients. The treatments that were imposed on the experimental units would be the three different creams.\n\nChoice 'D' is correct.",
+  "explanations": {},
+  "tags": [
+    "DAT-2",
+    "1.C",
+    "DAT-2.A",
+    "DAT-2.A.4"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "question_id": "question-122",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "spread",
+    "univariate-data",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
+  "title": "Estimating Spread from a Histogram",
+  "difficulty": "Medium",
+  "question_text": "The distributions of three variables are shown below. Each distribution contains fifty observations.\nWhich answer choice lists the distributions in order from the smallest to largest amount of spread?\nGraph I:\nCreated for Albert.io. Copyright 2017. All rights reserved.\nGraph II:\nCreated for Albert.io. Copyright 2017. All rights reserved.\nGraph III:\nCreated for Albert.io. Copyright 2017. All rights reserved.",
+  "image_files": [
+    "images/question-122-img1.png",
+    "images/question-122-img2.png",
+    "images/question-122-img3.png"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I, II, III."
+    },
+    {
+      "letter": "B",
+      "text": "I, III, II."
+    },
+    {
+      "letter": "C",
+      "text": "II, III, I."
+    },
+    {
+      "letter": "D",
+      "text": "II, I, III."
+    },
+    {
+      "letter": "E",
+      "text": "III, I, II."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.M",
+    "UNC-1.M.1",
+    "2.A",
+    "2.B",
+    "UNC-1"
+  ]
+}

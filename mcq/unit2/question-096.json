@@ -1,0 +1,47 @@
+{
+  "question_id": "question-096",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "bivariate-data",
+    "exploring-data",
+    "residuals"
+  ],
+  "title": "Finding the Actual Value When Given the Residual: Boys vs. Girls",
+  "difficulty": "Hard",
+  "question_text": "The least squares regression line for boys and girls in a classroom is given by:\n$$\\hat { b } = -5.2 + 2.1g$$\n...where $b$ is boys and $g$ is girls.\nIf Mr. Law has $12$ girls in his class and his residual is $3$, how many boys does he have in his class?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$17$"
+    },
+    {
+      "letter": "B",
+      "text": "$20$"
+    },
+    {
+      "letter": "C",
+      "text": "$22.2$"
+    },
+    {
+      "letter": "D",
+      "text": "$23$"
+    },
+    {
+      "letter": "E",
+      "text": "$28.2$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "DAT-1.E.1",
+    "DAT-1.E",
+    "DAT-1",
+    "2.B",
+    "DAT-1.F",
+    "DAT-1.E.2"
+  ]
+}

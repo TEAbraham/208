@@ -1,0 +1,47 @@
+{
+  "question_id": "question-041",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "tests-of-significance",
+    "mean",
+    "statistical-inference"
+  ],
+  "title": "Evidence from a Test: Growing Jalapeños for Salsa",
+  "difficulty": "Medium",
+  "question_text": "Felipe wants to grow his own jalapeño peppers so that he can make fresh salsa. When he picked out his seedlings at the plant nursery, he was told that jalapeño peppers of this variety reach an average length of $2.75\\text{ inches}$ with a standard deviation of $0.25\\text{ inches}$.\nFelipe thinks that the average length of his peppers is less than $2.75\\text{ inches}$ and decides to do a test. Assume all of the appropriate conditions have been satisfied.\nIf Felipe finds that $8$ randomly selected peppers have an average length of $2.625\\text{ inches}$, is this enough evidence to suggest that his peppers are shorter on average than what was advertised to him?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There is definitely enough evidence to suggest that the average length of this variety of jalapeño pepper is less than $2.75\\text{ inches}$. The person at the nursery was lying to Felipe."
+    },
+    {
+      "letter": "B",
+      "text": "There is enough evidence to suggest that the average length of peppers on Felipe's plants is less than $2.75\\text{ inches}$. Maybe his peppers are just not growing to be as long as the true average for some reason."
+    },
+    {
+      "letter": "C",
+      "text": "There is enough evidence for Felipe to conclude that the actual average length of his jalapeño peppers is $2.625\\text{ inches}$."
+    },
+    {
+      "letter": "D",
+      "text": "There is not enough evidence to suggest that the average length of Felipe's jalapeño peppers is less than $2.75\\text{ inches}$. His results could simply be the result of sampling variability."
+    },
+    {
+      "letter": "E",
+      "text": "There is not enough evidence to suggest that the average length of Felipe's jalapeño peppers is $2.625\\text{ inches}$. His results were probably just the result of bad luck."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.S",
+    "4.D",
+    "UNC-4.S.3",
+    "UNC-4.S.2",
+    "UNC-4.S.1",
+    "UNC-4"
+  ]
+}

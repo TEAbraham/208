@@ -1,0 +1,50 @@
+{
+  "question_id": "question-070",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "chi-square-distribution",
+    "chi-square-test",
+    "chi-square-independence"
+  ],
+  "title": "${ \\chi}^{2}$ Independence: How Much Freedom In Relationships?",
+  "difficulty": "Easy",
+  "question_text": "A student wondered if there was an association between relationship status and overall letter grade(based off grade point average) at her high school. She used a stratified random sample to select 20 students within each letter grade. The information is displayed in the table below.\nLetter Grade In a relationship Not in a relationship Total\nA 8 12 20\nB 11 9 20\nC 13 7 20\nD 10 10 20\nF 6 14 20\nTotal 48 52 100\n\n\nWhich of the following is the number of degrees of freedom used for the appropriate test of significance?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Letter Grade</th><th scope=\"col\">In a relationship</th><th scope=\"col\">Not in a relationship</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>A</td><td>8</td><td>12</td><td>20</td></tr><tr><td>B</td><td>11</td><td>9</td><td>20</td></tr><tr><td>C</td><td>13</td><td>7</td><td>20</td></tr><tr><td>D</td><td>10</td><td>10</td><td>20</td></tr><tr><td>F</td><td>6</td><td>14</td><td>20</td></tr><tr><td>Total</td><td>48</td><td>52</td><td>100</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$2$"
+    },
+    {
+      "letter": "B",
+      "text": "$4$"
+    },
+    {
+      "letter": "C",
+      "text": "$5$"
+    },
+    {
+      "letter": "D",
+      "text": "$10$"
+    },
+    {
+      "letter": "E",
+      "text": "$18$"
+    }
+  ],
+  "correct_answer": "Choice 'B' is correct.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-8.M",
+    "VAR-8.M.2",
+    "3.E",
+    "VAR-8",
+    "VAR-8.M.1"
+  ]
+}

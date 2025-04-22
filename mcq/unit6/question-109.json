@@ -1,0 +1,41 @@
+{
+  "question_id": "question-109",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [],
+  "title": "Two-Proportion Z-Interval: Drawing Conclusions",
+  "difficulty": "Hard",
+  "question_text": "A high school athletic director was interested whether high school males are more likely to compete in sports than high school females are.\nHe randomly sampled $200$ high school males across the country and found that $82$ of them participated in at least one high school sport at some point during the year. This compares to $68$ out of $200$ randomly sampled high school females who participated in at least one sport during the year.\nWhat conclusion can be drawn if the athletic director conducts a two-proportion Z-test?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Evidence exists that a higher proportion of males competes in high school sports than do females, significant at the $5\\%$ and $10\\%$ levels, but not at the $1\\%$ level."
+    },
+    {
+      "letter": "B",
+      "text": "Evidence exists that a higher proportion of males competes in high school sports than do females, significant at the $10\\%$ level, but not at the $5\\%$ or $1\\%$ levels."
+    },
+    {
+      "letter": "C",
+      "text": "Evidence exists that a higher proportion of males competes in high school sports than do females, significant at the $1\\%$, $5\\%$, and $10\\%$ levels."
+    },
+    {
+      "letter": "D",
+      "text": "No evidence at the $1\\%$, $5\\%$, or $10\\%$ levels exists that a higher proportion of males is involved in sports than are females."
+    },
+    {
+      "letter": "E",
+      "text": "At the $5\\%$ level, there is evidence that males and females have about the same percentage of being involved in sports."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.N.1",
+    "4.D",
+    "UNC-4",
+    "UNC-4.N"
+  ]
+}

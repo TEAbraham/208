@@ -1,0 +1,46 @@
+{
+  "question_id": "question-112",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "matched-pairs-design",
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "randomized-block-design"
+  ],
+  "title": "Blocking and Matched Pair Studies",
+  "difficulty": "Medium",
+  "question_text": "Read the following statements about randomized blocked experiments and matched pair experiments.\nWhich of the following statements is false?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Blocks should be formed on variables that cannot otherwise be controlled, such as age or gender."
+    },
+    {
+      "letter": "B",
+      "text": "A randomized block study in which all blocks have exactly two subjects is a type of matched pair study."
+    },
+    {
+      "letter": "C",
+      "text": "A matched pair study is an advantageous experiment design because it is a simple design that controls for a large number of variables."
+    },
+    {
+      "letter": "D",
+      "text": "When a research team is able to foresee a confounding variable, it should block on that variable."
+    },
+    {
+      "letter": "E",
+      "text": "At the end of a randomized block experiment, it is most important to compare the blocks to each other."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-3.D",
+    "VAR-3",
+    "VAR-3.D.1",
+    "1.C"
+  ]
+}

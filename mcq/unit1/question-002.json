@@ -1,0 +1,44 @@
+{
+  "question_id": "question-002",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "data",
+    "variation"
+  ],
+  "title": "Car Dealership",
+  "difficulty": "Easy",
+  "question_text": "A car dealership manager has to routinely examine data as part of his job. On his day off, one of his sales team members dropped off this chart on his desk.\nWhat should be the manager's best guess as to what the sales team member was trying to communicate?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The color distribution of the most recent sales."
+    },
+    {
+      "letter": "B",
+      "text": "The average price of the cars the sales team recently sold."
+    },
+    {
+      "letter": "C",
+      "text": "The different types of cars sold during the most recent week."
+    },
+    {
+      "letter": "D",
+      "text": "Which sales team member sold the most cars last week."
+    },
+    {
+      "letter": "E",
+      "text": "The average color of car sold last week."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "The data given to the manager is representing in a bar chart. There is not much data given in the graph, other than the color of a car. (For reference, we do not suggest that you create a graph without a title, or some context!)\n\nSince the graph only shows the color of the car, we believe that the sales team member is trying to communicate the color distribution of the most recent car sales.\n\nChoice 'A' is correct.",
+  "explanations": {},
+  "tags": [
+    "1.A",
+    "VAR-1.A.1",
+    "VAR-1",
+    "VAR-1.A"
+  ]
+}

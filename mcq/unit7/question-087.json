@@ -1,0 +1,45 @@
+{
+  "question_id": "question-087",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "tests-of-significance",
+    "mean",
+    "statistical-inference"
+  ],
+  "title": "Degrees of Freedom and Statistical Significance",
+  "difficulty": "Hard",
+  "question_text": "Lauren conducted a one-sample $t$-test for a population mean and her results were found to be statistically significant at the $\\alpha=0.05$ level.\nLater, she realized that she had calculated the $p$-value using the wrong value for degrees of freedom, $\\text{df}$. If the true $\\text{df}$ should have been higher than the $\\text{df}$ she had used in her calculation, would her results still be statistically significant?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "No, using a higher value for $\\text{df}$ would result in a higher $p$-value."
+    },
+    {
+      "letter": "B",
+      "text": "Maybe, using a higher value for $\\text{df}$ would result in a higher $p$-value, but the $p$-value may still be less than $0.05$."
+    },
+    {
+      "letter": "C",
+      "text": "Maybe, using a higher value for $\\text{df}$ would result in a lower $p$-value, but the $p$-value may then end up being too low for the results to be considered statistically significant."
+    },
+    {
+      "letter": "D",
+      "text": "Yes, using a higher value for $\\text{df}$ would result in a lower $p$-value."
+    },
+    {
+      "letter": "E",
+      "text": "It depends on whether Lauren was using a one-sided or two-sided alternative hypothesis."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3.E",
+    "DAT-3",
+    "DAT-3.E.1"
+  ]
+}

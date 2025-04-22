@@ -1,0 +1,46 @@
+{
+  "question_id": "question-094",
+  "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sample-proportion",
+    "sampling-distributions"
+  ],
+  "title": "Income Tax Returns",
+  "difficulty": "Hard",
+  "question_text": "Assume that $37\\%$ of all Americans are late filing their income tax returns.\nYou ask $100$ randomly selected Americans if they were late filing their tax returns, and $45$ of them say they were late.\nHow unusual is your result, or rather, what is the probability that you would get a result that high, or higher, from a sample of $100$, rounded to the nearest hundredth?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.05$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.1$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.37$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.45$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.5$"
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.K.1",
+    "3.C",
+    "UNC-3",
+    "3.B",
+    "UNC-3.K"
+  ]
+}

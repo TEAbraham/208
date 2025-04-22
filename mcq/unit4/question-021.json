@@ -1,0 +1,45 @@
+{
+  "question_id": "question-021",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "methods-of-data-collection",
+    "sampling-and-experimentation",
+    "observational-study"
+  ],
+  "title": "Simulation of Multiple Choice Test",
+  "difficulty": "Medium",
+  "question_text": "Last week, Abby completely forgot to study for her multiple choice test.\nShe decides to randomly guess on each question. Suppose the test has four answer possibilities for each question (A, B, C, and D).\nHow could one use simulation to determine the number of questions she could answer correctly until she gets one wrong?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Assign digit 1 to answers correctly; assign digit 2 to answers incorrectly."
+    },
+    {
+      "letter": "B",
+      "text": "Assign digits 0-4 to answers correctly; assign digits 5-9 to answers incorrectly."
+    },
+    {
+      "letter": "C",
+      "text": "Assign digits 0-1 to answers correctly; assign digits 2-9 to answers incorrectly."
+    },
+    {
+      "letter": "D",
+      "text": "Assign digits 0-1 to answers correctly; assign digits 2-7 to answers incorrectly."
+    },
+    {
+      "letter": "E",
+      "text": "Assign digits 2-4 to answers correctly; assign digit 1 to answers incorrectly."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-2.A.4",
+    "3.A",
+    "UNC-2.A",
+    "UNC-2"
+  ]
+}

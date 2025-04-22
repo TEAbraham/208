@@ -1,0 +1,48 @@
+{
+  "question_id": "question-045",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "categorical-data",
+    "bar-charts",
+    "comparing-distributions",
+    "exploring-data"
+  ],
+  "title": "Comparing Movie Ratings: A Graphical Display",
+  "difficulty": "Medium",
+  "question_text": "A random sample of $90\\text{ adults}$ and a random sample of $90\\text{ kids}$ were asked to provide their opinion on a recently released superhero movie they had seen at the theater. Results of the survey are displayed below.\nCreated for Albert.io. Copyright 2016. All rights reserved.\nWhich of the following statements is NOT supported by the graphical display?",
+  "image_files": [
+    "images/question-045-img1.PNG"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Approximately $70\\%$ of kids said the movie was \"Good\" or \"Excellent\", but fewer than $60\\%$ of adults said the movie was \"Good\" or \"Excellent\"."
+    },
+    {
+      "letter": "B",
+      "text": "More than half of those individuals surveyed said the movie was either \"Good\" or \"Excellent\"."
+    },
+    {
+      "letter": "C",
+      "text": "Approximately 20% of individuals surveyed said the movie was \"Terrible\"."
+    },
+    {
+      "letter": "D",
+      "text": "The number of adults who said the movie was \"OK\" is greater than the number of kids who said the movie was \"OK\"."
+    },
+    {
+      "letter": "E",
+      "text": "The number of kids who said the movie was \"Excellent\" is about twice the number of adults who said the movie was \"Excellent\"."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "2.A",
+    "UNC-1.C.1",
+    "UNC-1.C",
+    "UNC-1"
+  ]
+}

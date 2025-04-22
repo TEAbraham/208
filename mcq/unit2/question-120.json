@@ -1,0 +1,45 @@
+{
+  "question_id": "question-120",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "transformations",
+    "bivariate-data",
+    "exploring-data"
+  ],
+  "title": "Correlation Transformed",
+  "difficulty": "Easy",
+  "question_text": "Suppose a doctor is examining her patients’ weight (in pounds) and height (in inches) and found a strong positive correlation of $r =0.964$.\nIf $1\\text{ pound}$ is approximately $0.45\\text{ kilograms}$, the correlation between weights in kilograms and height in inches is",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.964$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.45$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.4338$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.765$"
+    },
+    {
+      "letter": "E",
+      "text": "Unable to determine from the information provided."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "2.C",
+    "DAT-1",
+    "DAT-1.J",
+    "DAT-1.J.1"
+  ]
+}

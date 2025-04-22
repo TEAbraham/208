@@ -1,0 +1,44 @@
+{
+  "question_id": "question-024",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "confidence-interval-interpretations",
+    "linear-regression"
+  ],
+  "title": "The Lower Bound",
+  "difficulty": "Easy",
+  "question_text": "Given the mean of the sampling distribution for a slope is $4.6$, the standard error for the slope of a regression line is $1.2$, and the critical value for the confidence interval for this slope is $2.000$, find the lower bound of the $95\\%$ confidence interval and state what it means.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$7.8$\nWe are $95\\%$ confident that the true slope will not be less than this number."
+    },
+    {
+      "letter": "B",
+      "text": "$7.0$\nWe are $95\\%$ confident that the true slope will always be greater than this number."
+    },
+    {
+      "letter": "C",
+      "text": "$5.8$\nWe are $95\\%$ confident that the true slope will not be less than this number."
+    },
+    {
+      "letter": "D",
+      "text": "$3.4$\nWe are $95\\%$ confident that the true slope will always be greater than this number."
+    },
+    {
+      "letter": "E",
+      "text": "$2.2$\nWe are $95\\%$ confident that the true slope will not be less than this number."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-4.AG.1",
+    "UNC-4",
+    "UNC-4.AG"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-078",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "conducting-surveys",
+    "tests-of-significance",
+    "statistical-inference",
+    "proportion"
+  ],
+  "title": "Cat Ownership and Test Conditions",
+  "difficulty": "Medium",
+  "question_text": "According to the American Veterinary Medical Foundation, $30.4\\%$ of U. S. households owned at least one cat in 2012. Josephina wonders if this percentage is currently true for households in her town. To investigate, she contacts randomly selected households in her town and determines the proportion of these households that own at least one cat. To analyze the results of her study she will use a one sample $z$-test for proportions.\nWhich of the following is a condition that must be satisfied in order for her test to be valid?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Josephina must gather data from at least $30\\text{ households}$."
+    },
+    {
+      "letter": "B",
+      "text": "Josephina must select a sample size, $n$, such that:\n$0.304n\\ge10$\n$\\left( 1-0.304 \\right) n\\ge10$"
+    },
+    {
+      "letter": "C",
+      "text": "The population of households that own at least one cat must be at least twice as large as Josephina's sample size."
+    },
+    {
+      "letter": "D",
+      "text": "Josephina must make sure that there are no outliers in the number of cats owned by a household in her sample."
+    },
+    {
+      "letter": "E",
+      "text": "Josephina must know that the population distribution for households that own at least one cat is approximately normal."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-5.C.1",
+    "UNC-5",
+    "UNC-5.C",
+    "4.A"
+  ]
+}

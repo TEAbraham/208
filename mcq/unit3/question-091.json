@@ -1,0 +1,48 @@
+{
+  "question_id": "question-091",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-experiments",
+    "methods-of-data-collection",
+    "sampling-and-experimentation",
+    "categorical-data",
+    "sources-of-bias",
+    "confounding-variable"
+  ],
+  "title": "Confounded by Sunshine?",
+  "difficulty": "Medium",
+  "question_text": "A study of adults over the age of $50$ who live in Miami, Florida was conducted to determine if there is a relationship between the mean number of hours of sunlight that an individual receives each day and the general health of the individual.\nThe results of the study showed that adults over the age of $50$ who receive more sunlight are generally healthier than those who receive less sunlight.\nWhich of the following could be a confounding variable in the context of this study?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The mean age of those who live in Miami, Florida."
+    },
+    {
+      "letter": "B",
+      "text": "The mean number of hours of sunshine that individuals in the sample receive each day."
+    },
+    {
+      "letter": "C",
+      "text": "The overall general health of adults over the age of $50$."
+    },
+    {
+      "letter": "D",
+      "text": "The overall lifestyle of people who would choose to spend time outdoors rather than indoors."
+    },
+    {
+      "letter": "E",
+      "text": "There are no possible confounding variables in this situation. The results of the study can be used to prove the health benefits of sunshine."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-3",
+    "VAR-3.A",
+    "VAR-3.A.4",
+    "1.C"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-092",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "bivariate-data",
+    "exploring-data",
+    "residuals"
+  ],
+  "title": "Calculating a Residual: Birth Rate",
+  "difficulty": "Medium",
+  "question_text": "A least squares regression line was fitted to the birth rate (per $1000$ women) of women, ages $15-44$, in the United States from $1997$ to $2009$.\nThe equation of the line is $ \\widehat { y } =154.16-.07x$, where $\\widehat { y } $ is the birth rate (per $1000$ women) and $x$ is the year. The birth rate in $2000$ was $14.7$ (per $1000$ women).\nWhich of the following is the residual of the birth rate (per $1000$ women) in the year $2000$?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$-14.16$"
+    },
+    {
+      "letter": "B",
+      "text": "$-0.54$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.54$"
+    },
+    {
+      "letter": "D",
+      "text": "$14.16$"
+    },
+    {
+      "letter": "E",
+      "text": "$14.7$"
+    }
+  ],
+  "correct_answer": "Choice 'A' is incorrect. The year $2000$ was substituted into the LSRL, but the residual was never calculated. Also, when the year $2000$ is substituted in, the predicted birth rate is $14.16$ and not $-14.16$.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "DAT-1.E.1",
+    "DAT-1.E",
+    "DAT-1",
+    "2.B",
+    "DAT-1.E.2"
+  ]
+}

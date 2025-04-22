@@ -1,0 +1,44 @@
+{
+  "question_id": "question-103",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval",
+    "differences-in-means"
+  ],
+  "title": "Headaches",
+  "difficulty": "Hard",
+  "question_text": "We want to create a confidence interval for the difference of the means of the effectiveness of two drugs to reduce the incidence of headaches. Sixty-two headache patients are randomly selected from several large medical practices and half of them are given one drug and half the other drug. Determination of which drug was given to which patient was decided by a coin flip and all conditions were verified.\nThree months later the total number of headaches suffered by each group was gathered. Group $1$ had $2.1$ headaches per person with a standard deviation of $1.2$ headaches. Group $2$ had $2.9$ headaches per person with a standard deviation of $1.6$ headaches.\nIf the upper bound of the confidence interval came out to be $0.02$, find the value of $t^{*}$ that was used in the calculation of this confidence interval.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$1.960$"
+    },
+    {
+      "letter": "B",
+      "text": "$2.000$"
+    },
+    {
+      "letter": "C",
+      "text": "$2.724$"
+    },
+    {
+      "letter": "D",
+      "text": "$2.173$"
+    },
+    {
+      "letter": "E",
+      "text": "$2.284$"
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "3.D",
+    "UNC-4.Y.2",
+    "UNC-4",
+    "UNC-4.Y"
+  ]
+}

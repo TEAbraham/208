@@ -1,0 +1,48 @@
+{
+  "question_id": "question-044",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval",
+    "mean-interval",
+    "2-proportion-z-intervals",
+    "estimation",
+    "statistical-inference",
+    "logic-meaning-properties"
+  ],
+  "title": "Type of Interval to Use: New Running Sneaker",
+  "difficulty": "Medium",
+  "question_text": "A shoe company claims that its lighter sneaker can make you run faster than its competitor's top running sneaker. The company randomly selects $200$ people that attend a seminar about the sneaker. Each subject runs a 100-meter dash with the company's new running sneaker and the competitors' top running sneaker. Subjects are randomized with respect to which type of sneaker they would run with first.\nWhat type of interval would the company use to construct an average difference between the running times for the company's new running sneaker and the competitor's top running sneaker?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Paired $z$-interval for means."
+    },
+    {
+      "letter": "B",
+      "text": "Paired $t$-interval for means."
+    },
+    {
+      "letter": "C",
+      "text": "Two sample $z$-interval for means."
+    },
+    {
+      "letter": "D",
+      "text": "Two sample $t$-interval for means."
+    },
+    {
+      "letter": "E",
+      "text": "Two proportion $z$-interval."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.T",
+    "4.D",
+    "UNC-4",
+    "UNC-4.T.1"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-124",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "difference-two-proportions",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
+  "title": "Conditions for 2-sample $z$-test for Proportions",
+  "difficulty": "Easy",
+  "question_text": "Which of the following is not a condition necessary for conducting a two-sample $z$-test for proportions?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "We have a random sample from each of the two populations or from each of two different treatment groups."
+    },
+    {
+      "letter": "B",
+      "text": "The samples are independent of each other."
+    },
+    {
+      "letter": "C",
+      "text": "Each of the two populations is sufficiently larger than their respective sample size."
+    },
+    {
+      "letter": "D",
+      "text": "The total number of observations must be at least $30$ or we must know that the population distribution is approximately normal."
+    },
+    {
+      "letter": "E",
+      "text": "For each population, we expect a sufficient number of successes and a sufficient number of failures."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.D.2",
+    "DAT-3",
+    "DAT-3.D",
+    "VAR-6"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "question_id": "question-172",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "stemplots",
+    "comparing-distributions",
+    "exploring-data",
+    "shape"
+  ],
+  "title": "Exam Scores | 2 of 2",
+  "difficulty": "Medium",
+  "question_text": "Created for Albert.io. Copyright 2016. All rights reserved.\nThese side-by-side stemplots represent the scores on the final exam for a statistics teacher’s $1^\\text{st}$ period class $(n = 29)$ on the left and $5^\\text{th}$ period class $(n = 22)$ on the right. The scores are raw scores, out of a possible $100\\text{ points}$.\nWhich of the following statements is true?",
+  "image_files": [
+    "images/question-172-img1.png"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "If the two sets of data were combined into one set, the new distribution would be nearly normal."
+    },
+    {
+      "letter": "B",
+      "text": "If the data for the two groups were combined, the overall mean would be the average of the means of each group."
+    },
+    {
+      "letter": "C",
+      "text": "If the data for the two groups were combined, the range would be unchanged from that of 1st\nperiod."
+    },
+    {
+      "letter": "D",
+      "text": "The two groups have similar standard deviations."
+    },
+    {
+      "letter": "E",
+      "text": "The two groups have similar skewness in their distributions."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.N.1",
+    "2.D",
+    "UNC-1.N",
+    "UNC-1"
+  ]
+}

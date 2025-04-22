@@ -1,0 +1,47 @@
+{
+  "question_id": "question-084",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "spread",
+    "univariate-data",
+    "estimation",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
+  "title": "Statistical Resistance: Getting Ready in the Morning",
+  "difficulty": "Easy",
+  "question_text": "A random sample of $20\\text{ high school students}$ was surveyed and asked \"How long does it take you to get ready for school in the morning?\"\nWhich of the following measures is most resistant to the addition of an extremely large outlier?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The $95\\%$ confidence interval for the population mean."
+    },
+    {
+      "letter": "B",
+      "text": "The $p$-value calculated by using the sample mean to conduct a significance test."
+    },
+    {
+      "letter": "C",
+      "text": "The range of the data set."
+    },
+    {
+      "letter": "D",
+      "text": "The IQR of the data set."
+    },
+    {
+      "letter": "E",
+      "text": "The maximum value in the data set."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "2.C",
+    "UNC-1.K",
+    "UNC-1.K.2",
+    "UNC-1"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "question_id": "question-144",
+  "unit": "AP® Statistics | Unit 6 Assessment",
+  "topics": [
+    "population-proportions",
+    "p-value",
+    "significance-tests"
+  ],
+  "title": "AP Passing Score",
+  "difficulty": "Medium",
+  "question_text": "In the year $2020$, $63.4\\%$ of students taking the AP® Statistics exam passed it, meaning they obtained a score of 3 or higher. There are $200$ students who took the exam in a given county and $140$ of them passed. Did these students achieve higher than the national average? Show the equation of the test statistic and give the range of where the $p$-value of that statistic falls.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "test statistic: $ z=\\dfrac{0.634-0.7}{\\sqrt{\\dfrac{0.634(1-0.634)}{200}}}$\n$p$-value: $0.05$ < $p$-value < $0.10$"
+    },
+    {
+      "letter": "B",
+      "text": "test statistic: $ z=\\dfrac{0.7-0.634}{\\sqrt{\\dfrac{0.7(1-0.7)}{200}}}$\n$p$-value: $0.05$ < $p$-value <$ 0.10$"
+    },
+    {
+      "letter": "C",
+      "text": "test statistic: $ z=\\dfrac{0.7-0.634}{\\sqrt{200}}$\n$p$-value: $0.025$ < $p$-value < $0.05$"
+    },
+    {
+      "letter": "D",
+      "text": "test statistic: $ z=\\dfrac{0.7-0.634}{\\sqrt{\\dfrac{0.634(1-0.634)}{200}}}$\n$p$-value: $0.025$ < $p$-value < $0.05$"
+    },
+    {
+      "letter": "E",
+      "text": "test statistic: $z=\\dfrac{0.634-0.7}{\\sqrt{\\dfrac{0.7(1-0.7)}{200}}}$\n$p$-value: $0.025$ < $p$-value < $0.05$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "3.E",
+    "VAR-6.G",
+    "VAR-6.G.3",
+    "VAR-6"
+  ]
+}

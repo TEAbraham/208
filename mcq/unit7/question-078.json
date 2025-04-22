@@ -1,0 +1,47 @@
+{
+  "question_id": "question-078",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "logic",
+    "p-value",
+    "tests-of-significance",
+    "statistical-inference",
+    "null-hypothesis"
+  ],
+  "title": "P-value of a 1-sided Test Given t-test",
+  "difficulty": "Medium",
+  "question_text": "A significance test was performed to test ${ H }_{ 0 }:\\mu =18$ versus the alternative ${ H }_{ a }:\\mu > 18$. Data from a random sample of size $30$ makes a normal distribution and produces a test statistic of $t = 1.734$.\nWhich of the following intervals contains the P-value for this test?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.01 < P < 0.02$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.02 < P < 0.025$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.025 < P < 0.05$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.05 < P < 0.10$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.10 < P < 0.05$"
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3.E",
+    "DAT-3",
+    "DAT-3.E.1"
+  ]
+}

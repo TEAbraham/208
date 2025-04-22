@@ -1,0 +1,47 @@
+{
+  "question_id": "question-031",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "categorical-data",
+    "two-way-tables",
+    "exploring-data"
+  ],
+  "title": "Preferences: Family Game Night",
+  "difficulty": "Easy",
+  "question_text": "It’s family game night in Cocoa Beach. Residents settle in to play their favorite game and eat their favorite snack.\nA random sample of $115\\text{ families}$ were asked their preferred game and snack, and the results are presented in the two-way table below.\nPizza Rolls Chips and Dip Cookies\nYahtzee 10 3 12\nTrivial Pursuit 8 14 7\nMonopoly 14 17 7\nWii Bowling 12 7 4\n\n\nWhat are the game preferences in order, from most popular to least popular?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Pizza Rolls</th><th scope=\"col\">Chips and Dip</th><th scope=\"col\">Cookies</th></tr></thead><tbody><tr><td>Yahtzee</td><td>10</td><td>3</td><td>12</td></tr><tr><td>Trivial Pursuit</td><td>8</td><td>14</td><td>7</td></tr><tr><td>Monopoly</td><td>14</td><td>17</td><td>7</td></tr><tr><td>Wii Bowling</td><td>12</td><td>7</td><td>4</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yahtzee, Trivial Pursuit, Monopoly, Wii Bowling."
+    },
+    {
+      "letter": "B",
+      "text": "Wii Bowling, Monopoly, Trivial Pursuit, Yahtzee."
+    },
+    {
+      "letter": "C",
+      "text": "Monopoly, Trivial Pursuit, Yahtzee, Wii Bowling."
+    },
+    {
+      "letter": "D",
+      "text": "Wii Bowling, Yahtzee, Trivial Pursuit, Monopoly."
+    },
+    {
+      "letter": "E",
+      "text": "Trivial Pursuit, Monopoly, Wii Bowling, Yahtzee."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.B.2",
+    "2.A",
+    "UNC-1.B",
+    "UNC-1"
+  ]
+}

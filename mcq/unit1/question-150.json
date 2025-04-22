@@ -1,0 +1,50 @@
+{
+  "question_id": "question-150",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "range",
+    "univariate-data",
+    "boxplots",
+    "summarizing-distributions",
+    "exploring-data",
+    "interquartile-range"
+  ],
+  "title": "Boxplot: Effect on the Range and IQR by an Outlier",
+  "difficulty": "Hard",
+  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved.\nLooking at the modified boxplot above, what will happen to the range and IQR(interquartile range) when the outlier of $23$ is removed?",
+  "image_files": [
+    "images/question-150-img1.PNG"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The range and IQR will decrease."
+    },
+    {
+      "letter": "B",
+      "text": "The range will decrease, but the IQR will increase."
+    },
+    {
+      "letter": "C",
+      "text": "The range will decrease, but the IQR will remain about the same."
+    },
+    {
+      "letter": "D",
+      "text": "The range and IQR will both increase."
+    },
+    {
+      "letter": "E",
+      "text": "The range will increase and the IQR will decrease."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.L.2",
+    "2.B",
+    "UNC-1.L",
+    "UNC-1"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "question_id": "question-045",
+  "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sampling-distributions",
+    "statistical-simulation"
+  ],
+  "title": "Grass Length",
+  "difficulty": "Medium",
+  "question_text": "In a given neighborhood, residents’ grass has a mean of $3.4\\text{ inches}$ with a standard deviation of $1.4\\text{ inches}$, and is normally distributed.\nAssuming the lawns are randomly selected, find the probability of coming across $5\\text{ lawns}$ that average more than $5\\text{ inches}$ long in this neighborhood.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.0052$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.9948$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.8729$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.1271$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.0345$"
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.Q.1",
+    "UNC-3",
+    "UNC-3.Q",
+    "3.B"
+  ]
+}

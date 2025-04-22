@@ -1,0 +1,48 @@
+{
+  "question_id": "question-061",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "p-value",
+    "tables",
+    "null-hypothesis"
+  ],
+  "title": "P-value of a 2-sided Test Given z-score",
+  "difficulty": "Hard",
+  "question_text": "A significance test was used to test the null hypothesis ${ H }_{ 0 }$: $p=0.20$ versus the alternative ${ H }_{ a }$: $p≠0.20$. The resulting test statistic is $z=-1.73$.\nThe p-value for this test is approximately",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.0418$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.0627$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.0836$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.9164$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.9582$"
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-6.G.4",
+    "3.E",
+    "VAR-6.G",
+    "VAR-6.G.3",
+    "VAR-6"
+  ]
+}

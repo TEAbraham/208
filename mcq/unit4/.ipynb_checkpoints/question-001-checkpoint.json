@@ -1,0 +1,44 @@
+{
+  "question_id": "question-001",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "randomness"
+  ],
+  "title": "The Coin Toss",
+  "difficulty": "Easy",
+  "question_text": "In a Statistics class a teacher showed these results for $20$ tosses of a coin:\n$H H T T H H T T H H T T H H T T H H T T$\nOne student, Jackie, said that clearly these results were surely made up and not random. Another student, Cory, disagreed and said that was not true, that these results could certainly happen as a result from a random process. Which statement below best answers this question?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Cory is correct. We expect $10$ heads and $10$ tails, and since this result occurred, we know it is due to a random process."
+    },
+    {
+      "letter": "B",
+      "text": "Cory is correct. While these exact results may not happen often, they certainly can happen and be the result of a random process."
+    },
+    {
+      "letter": "C",
+      "text": "Jackie is correct. She had tried tossing a coin at home for a homework assignment and never achieved this result. Therefore, this result must have been made up."
+    },
+    {
+      "letter": "D",
+      "text": "Jackie is correct. While patterns can occur in a random process, this pattern is too perfect and goes on for too long, so it must have been made up."
+    },
+    {
+      "letter": "E",
+      "text": "Jackie is correct. Since this pattern would happen so rarely, it most certainly must have been made up."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-1.F",
+    "VAR-1.F.1",
+    "1.A",
+    "VAR-1"
+  ]
+}

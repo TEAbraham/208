@@ -1,0 +1,47 @@
+{
+  "question_id": "question-127",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "well-designed-conducted"
+  ],
+  "title": "Preventing Falling Cakes",
+  "difficulty": "Easy",
+  "question_text": "No one likes a cake that collapses on itself after it comes out of the oven! To find the best way to prevent falling cakes, a baker runs an experiment using $24\\text{ cakes}$:\nGroup A: $12\\text{ cakes}$ are made with $1\\text{ teaspoon}$ of baking powder and bake at $350\\text{ degrees}$ for $35\\text{ minutes}$.\nGroup B: $12\\text{ cakes}$ are made with $1.5\\text{ teaspoons}$ of baking powder and bake at $375\\text{ degrees}$ for $30\\text{ minutes}$.\nTen minutes after the cakes come out of the oven, an assistant measures the height of each cake at its center. The assistant does not know the specific treatment given to any of the cakes he measures. The average height of the cakes in Group B is significantly higher than the average height of the cakes in Group A.\nThis study is flawed because it demonstrates",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Response bias."
+    },
+    {
+      "letter": "B",
+      "text": "Confounding."
+    },
+    {
+      "letter": "C",
+      "text": "Blinding."
+    },
+    {
+      "letter": "D",
+      "text": "The placebo effect."
+    },
+    {
+      "letter": "E",
+      "text": "There is no flaw in this study."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.B.1",
+    "VAR-3.B",
+    "VAR-3.E.3"
+  ]
+}

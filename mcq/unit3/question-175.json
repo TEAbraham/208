@@ -1,0 +1,46 @@
+{
+  "question_id": "question-175",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "well-designed-conducted"
+  ],
+  "title": "Statistical Advantages/Disadvantages in Prolonging Dog Life Study",
+  "difficulty": "Hard",
+  "question_text": "Suppose a large dog food company has a new prototype that is supposed to prolong the life of dogs.\nThe company randomly selects two groups of $100\\text{ dogs}$ each: one group will be fed this new food for the duration of their entire lives; the other group will be fed the leading competitor’s brand of dog food.\nVariables such as exercise, location, and medical treatment are all controlled for. However, the company needs to decide whether to use only a specific breed of dog or include a variety of dogs.\nWhat is a statistical advantage of using only one specific breed of dog for this study? A statistical disadvantage?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Advantage: less variability in results\nDisadvantage: difficult to generalize the results to other breeds"
+    },
+    {
+      "letter": "B",
+      "text": "Advantage: less expensive to run the experiment\nDisadvantage: difficult to generalize the results to other breeds"
+    },
+    {
+      "letter": "C",
+      "text": "Advantage: more detailed information\nDisadvantage: more lurking variables"
+    },
+    {
+      "letter": "D",
+      "text": "Advantage: less variability in results\nDisadvantage: difficult to obtain dogs of all the same breed"
+    },
+    {
+      "letter": "E",
+      "text": "Advantage: less expensive to run the experiment\nDisadvantage: more lurking variables"
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-3.E.1",
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.E.4"
+  ]
+}

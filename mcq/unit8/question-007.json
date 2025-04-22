@@ -1,0 +1,45 @@
+{
+  "question_id": "question-007",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "categorical-data",
+    "randomness",
+    "chi-square-distribution"
+  ],
+  "title": "Candy Colors",
+  "difficulty": "Medium",
+  "question_text": "Some years ago Ms. Tracey (a statistics teacher) gave her class bags of a certain type of candy. She had $50$ students in $2$ classes. The candy company claimed that we would find $10\\%$ red candies and $20\\%$ yellow candies. Well, Ms. Tracey's students found the opposite percentages in the candies!\nDo you think that this result is likely due to random variation? And what comment below explains the yes or no answer the best?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes.\nIn bags of candy you would always expect some random variation."
+    },
+    {
+      "letter": "B",
+      "text": "Yes.\nThere was no random assignment so we cannot draw any conclusions."
+    },
+    {
+      "letter": "C",
+      "text": "Yes.\nWe do not know if the candies were normally distributed so we cannot make any conclusions."
+    },
+    {
+      "letter": "D",
+      "text": "No.\nFifty bags are a big enough sample to show statistically that the company was wrong."
+    },
+    {
+      "letter": "E",
+      "text": "No.\nWhile we might always expect some random variation, the fact that the percentages were reversed is just not likely."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-1.J",
+    "VAR-1.J.1",
+    "1.A",
+    "VAR-1"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-138",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "difference-two-proportions",
+    "tests-of-significance",
+    "statistical-inference",
+    "sampling-distributions"
+  ],
+  "title": "Vampires and $p$-Values",
+  "difficulty": "Hard",
+  "question_text": "One night at twilight, Bella began to wonder if the proportion of teenage males who believe in vampires is lower than the proportion of teenage females who believe in vampires. She decided to investigate and selected a random sample of teenage males and a random sample of teenage females.\nThe samples were independent and people in each sample were asked if they believe in vampires. $14$ of the $150$ teenage males surveyed said “yes”, while $25$ of the $150$ teenage females said “yes”.\nWhat is the $p$-value for a test to determine whether the proportion of teenage males who believe in vampires is less than the proportion of teenage females who believe in vampires?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.001$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.03$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.09$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.13$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.17$"
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-6.K",
+    "3.E",
+    "VAR-6.K.1",
+    "VAR-6"
+  ]
+}

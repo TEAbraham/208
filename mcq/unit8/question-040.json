@@ -1,0 +1,46 @@
+{
+  "question_id": "question-040",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "chi-square-test"
+  ],
+  "title": "Sports Drinks: Chi-squared Test Statistic",
+  "difficulty": "Hard",
+  "question_text": "Suppose a random survey was taken in a large urban high school to determine if vending machine location affects whether sports drinks are more likely to be ordered.\nA large single sample of size n = $500$ was taken over the last week. In the cafeteria, $78$ of the $165$ drinks purchased were sports drinks. In the gym, $98$ of the $157$ drinks purchased were sports drinks, and in the auditorium, $54$ of the $178$ drinks purchased were sports drinks.\nWhat is the chi-squared test statistic and approximate p-value?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Chi-squared: $7.81$\nP-value: $0.025$"
+    },
+    {
+      "letter": "B",
+      "text": "Chi-squared: $5.99$\nP-value: $p<0.0005$"
+    },
+    {
+      "letter": "C",
+      "text": "Chi-squared: $5.99$\nP-value: $0.025$"
+    },
+    {
+      "letter": "D",
+      "text": "Chi-squared: $34.72$\nP-value: $p > 0.25$"
+    },
+    {
+      "letter": "E",
+      "text": "Chi-squared: $34.72$\nP-value: $p<0.0005$"
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-8.F",
+    "3.E",
+    "VAR-8",
+    "VAR-8.F.2",
+    "VAR-8.F.1"
+  ]
+}

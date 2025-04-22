@@ -1,0 +1,48 @@
+{
+  "question_id": "question-098",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "methods-of-data-collection",
+    "sampling-and-experimentation",
+    "identifying-methods"
+  ],
+  "title": "Carrot Consumption and Weight",
+  "difficulty": "Easy",
+  "question_text": "A researcher thinks there may be a negative correlation between the number of carrots an individual consumes and that individual’s weight.\nThe researcher surveys $250$ randomly selected females and asks each her weight and how many servings of carrots she consumes per month.\nThe researcher also surveys $250$ randomly selected males and asks them the same questions. A scatterplot is made with different symbols for male and female data.\nThe study done by this researcher is:",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A controlled randomized experiment."
+    },
+    {
+      "letter": "B",
+      "text": "An experiment with a block design, blocking on gender."
+    },
+    {
+      "letter": "C",
+      "text": "A census."
+    },
+    {
+      "letter": "D",
+      "text": "An observational study."
+    },
+    {
+      "letter": "E",
+      "text": "A matched pairs experiment where a male could be paired with a female of similar weight."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-3.D",
+    "VAR-3",
+    "DAT-2",
+    "VAR-3.D.1",
+    "1.C",
+    "DAT-2.A",
+    "DAT-2.A.3"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "question_id": "question-035",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [],
+  "title": "Marginal Totals of Young Populations",
+  "difficulty": "Easy",
+  "question_text": "Category Own Rent\nYoung (18-29) 18 32\nMiddle-Aged (30-49) 22 18\nOlder (50 and up) 27 13\n\n\nThe data chart above summarizes the responses of $130$ randomly selected individuals in response to the question “Do you own or rent your dwelling?”\nWhat is the marginal total for those in the Young category?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Category</th><th scope=\"col\">Own</th><th scope=\"col\">Rent</th></tr></thead><tbody><tr><td>Young (18-29)</td><td>18</td><td>32</td></tr><tr><td>Middle-Aged (30-49)</td><td>22</td><td>18</td></tr><tr><td>Older (50 and up)</td><td>27</td><td>13</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$18$"
+    },
+    {
+      "letter": "B",
+      "text": "$32$"
+    },
+    {
+      "letter": "C",
+      "text": "$40$"
+    },
+    {
+      "letter": "D",
+      "text": "$50$"
+    },
+    {
+      "letter": "E",
+      "text": "$130$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.Q.1",
+    "2.C",
+    "UNC-1.Q",
+    "UNC-1"
+  ]
+}

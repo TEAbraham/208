@@ -1,0 +1,46 @@
+{
+  "question_id": "question-164",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-experiments",
+    "sampling-and-experimentation",
+    "well-designed-conducted",
+    "random-sampling"
+  ],
+  "title": "Laundry Detergent Effectiveness",
+  "difficulty": "Hard",
+  "question_text": "A company just launched a new formula of laundry detergent, and is curious about the effectiveness of the detergent as measured by proportion of clothes that were stain free after being washed.\nOf the following designs, which would be the best way to use results from their customers to determine the effectiveness of this new detergent?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Randomly select $100\\text{ current customers}$. For each subject, flip a coin. If the coin lands heads these customers will use the new detergent for $60\\text{ days}$. If the coin lands tails these customers will use the old detergent for $60\\text{ days}$. Then ask each group about their level of satisfaction of their detergents."
+    },
+    {
+      "letter": "B",
+      "text": "Randomly select $100\\text{ subjects}$. Ask them to use the new detergent for $60\\text{ days}$, and then ask for their opinion on the effectiveness of the new detergent."
+    },
+    {
+      "letter": "C",
+      "text": "Give out free samples at a nearby supermarket to $100\\text{ subjects}$. After $60\\text{ days}$, follow up on these subjects and ask them their opinion on the new detergent."
+    },
+    {
+      "letter": "D",
+      "text": "Randomly select $100\\text{ current customers}$, ask them to use the new detergent. After $60\\text{ days}$, ask the customers their opinion on the new detergent."
+    },
+    {
+      "letter": "E",
+      "text": "Randomly select $100\\text{ current customers}$, ask them to flip a coin each time they do laundry. If it lands heads, they will use the new detergent formula. If it lands tails, they will use the old detergent formula. After $60\\text{ days}$, ask the customers which formula was more effective."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.E.2"
+  ]
+}

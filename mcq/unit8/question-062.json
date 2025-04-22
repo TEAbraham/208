@@ -1,0 +1,44 @@
+{
+  "question_id": "question-062",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "chi-square-test",
+    "initial-conditions"
+  ],
+  "title": "The Correct Condition?",
+  "difficulty": "Hard",
+  "question_text": "To go forward and do a chi-square test for homogeneity, certain conditions must be met. Of the following $5$ conditions, $4$ are incorrect. Which of the following is a correct condition for doing a chi-square test for homogeneity?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "All cell counts should be at least $10$."
+    },
+    {
+      "letter": "B",
+      "text": "Data should be collected using a stratified random sample."
+    },
+    {
+      "letter": "C",
+      "text": "Check that the sample size is at least as big as $10\\%$ of the population."
+    },
+    {
+      "letter": "D",
+      "text": "The sample size should be greater than $30$."
+    },
+    {
+      "letter": "E",
+      "text": "Data should be collected using a simple random sample."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.C",
+    "VAR-8",
+    "VAR-8.K",
+    "VAR-8.K.1"
+  ]
+}

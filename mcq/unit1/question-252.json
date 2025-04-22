@@ -1,0 +1,45 @@
+{
+  "question_id": "question-252",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [],
+  "title": "Information From a Normal Distribution Displayed in a Boxplot",
+  "difficulty": "Hard",
+  "question_text": "The amount (in dollars per hour) that Certified Pharmacy Technicians are paid in a certain area of the country is known to be approximately normally distributed. The boxplot is shown below.\nBased upon information provided in the boxplot and the fact that the distribution is approximately normal, which of the following values is closest to the $95\\text{th}$ percentile?",
+  "image_files": [
+    "images/question-252-img1.png"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$\\$17.00$"
+    },
+    {
+      "letter": "B",
+      "text": "$\\$17.17$"
+    },
+    {
+      "letter": "C",
+      "text": "$\\$18.08$"
+    },
+    {
+      "letter": "D",
+      "text": "$\\$18.29$"
+    },
+    {
+      "letter": "E",
+      "text": "$\\$18.38$"
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.4",
+    "VAR-2",
+    "2.B",
+    "VAR-2.B.3"
+  ]
+}

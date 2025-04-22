@@ -1,0 +1,46 @@
+{
+  "question_id": "question-089",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-experiments",
+    "methods-of-data-collection",
+    "sampling-and-experimentation",
+    "well-designed-conducted"
+  ],
+  "title": "Defeating Mold: An Experiment",
+  "difficulty": "Hard",
+  "question_text": "Mold on walls and windowsills is not only unsightly, it can also pose a health risk to those who live in the home. The best way to prevent mold is to control moisture. However, this can be difficult in places where the climate is hot and humid.\nA chemical engineer has developed a solution that he believes will prevent mold from growing on treated surfaces. To test the solution, he has built $8$ small rooms. Each room has one window. Two of the $8$ rooms will be maintained at a relative humidity level of $60\\%$, two rooms will be maintained at a relative humidity level of $70\\%$, two rooms at $80\\%$, and two rooms at $90\\%$.\nAll $8$ rooms will be maintained at a temperature of $80$ degrees. At each relative humidity level, the surfaces in one of the two rooms will be treated with the new solution and the surfaces in the other room will remain untreated.\nWhich of the two rooms is treated with the new solution will be determined at random. Mold spores will then be introduced into all $8$ rooms and the growth of mold in the treated and untreated rooms will be compared.\nWhich of the following describes the biggest flaw in the design of this experiment?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The experiment suffers from lack of control."
+    },
+    {
+      "letter": "B",
+      "text": "The experiment suffers from lack of randomization."
+    },
+    {
+      "letter": "C",
+      "text": "The experiment suffers from lack of replication."
+    },
+    {
+      "letter": "D",
+      "text": "The experiment suffers from lack of realism."
+    },
+    {
+      "letter": "E",
+      "text": "The experiment suffers from undercoverage."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-3",
+    "VAR-3.B.1",
+    "1.C",
+    "VAR-3.B"
+  ]
+}

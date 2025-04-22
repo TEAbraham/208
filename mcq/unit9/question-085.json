@@ -1,0 +1,47 @@
+{
+  "question_id": "question-085",
+  "unit": "AP® Statistics | Unit 9 Assessment",
+  "topics": [
+    "t-test",
+    "linear-regression",
+    "regression"
+  ],
+  "title": "Time vs Tip",
+  "difficulty": "Medium",
+  "question_text": "Do customers who shop for a longer time in a store spend more money?\nCharlotte, an AP Statistics student who worked at the mall, decided to investigate this question. Over the course of the next few months, she obtained a random sample of receipts, which included the length of time (in minutes) the shopper spent at the mall and the total amount the shopper spent (in dollars). Here is regression output for the data Charlotte collected:\nTip (dollars) versus Time (minutes)\nPredictor Coef SE Coef $T$ $ P$\nConstant $4.535$ $1.657$ $2.74$ $0.021$\nTime $0.03013$ $0.02448$ $0.247$\n$S = 1.77931$ R-sq = $13.2$% R-sq (adj) = $4.5$%\nBased on this output, what is the correct value for the $t$ test statistic for determining whether those who stay longer spend more?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Tip (dollars) versus Time (minutes)</th></tr></thead><tbody><tr><td>Predictor</td><td>Coef</td><td>SE Coef</td><td><span class=\"tex2jax_process\">$T$</span></td><td><span class=\"tex2jax_process\">$ P$</span></td></tr><tr><td>Constant</td><td><span class=\"tex2jax_process\">$4.535$</span></td><td><span class=\"tex2jax_process\">$1.657$</span></td><td><span class=\"tex2jax_process\">$2.74$</span></td><td><span class=\"tex2jax_process\">$0.021$</span></td></tr><tr><td>Time</td><td><span class=\"tex2jax_process\">$0.03013$</span></td><td><span class=\"tex2jax_process\">$0.02448$</span></td><td></td><td><span class=\"tex2jax_process\">$0.247$</span></td></tr><tr><td><span class=\"tex2jax_process\">$S = 1.77931$</span></td><td>R-sq = <span class=\"tex2jax_process\">$13.2$</span>%</td><td></td><td>R-sq (adj) = <span class=\"tex2jax_process\">$4.5$</span>%</td><td></td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$1.23$"
+    },
+    {
+      "letter": "B",
+      "text": "$2.74$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.247$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.021$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.812$"
+    }
+  ],
+  "correct_answer": "Choice ‘A’ is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.2"
+  ]
+}

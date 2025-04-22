@@ -1,0 +1,47 @@
+{
+  "question_id": "question-191",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "center-spread",
+    "mean",
+    "univariate-data",
+    "comparing-distributions",
+    "exploring-data"
+  ],
+  "title": "A Mean Question",
+  "difficulty": "Hard",
+  "question_text": "Consider two distributions X and Y. For both distributions the mean, median, range, standard deviation, and variance are all greater than 1.\nWhich of the following is NOT possible?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "X has a greater mean and Y has a greater standard deviation."
+    },
+    {
+      "letter": "B",
+      "text": "X has a greater range and Y has a greater standard deviation."
+    },
+    {
+      "letter": "C",
+      "text": "X has a greater variance and Y has a greater range."
+    },
+    {
+      "letter": "D",
+      "text": "X has a greater mean and Y has a greater median."
+    },
+    {
+      "letter": "E",
+      "text": "X has a greater standard deviation and Y has a greater variance."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.O",
+    "2.D",
+    "UNC-1.O.1",
+    "UNC-1"
+  ]
+}

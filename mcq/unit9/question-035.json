@@ -1,0 +1,44 @@
+{
+  "question_id": "question-035",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "deductive-reasoning",
+    "regression-slope-t-test"
+  ],
+  "title": "Name the Test",
+  "difficulty": "Easy",
+  "question_text": "Five situations ready for significance testing are presented. Assume all people are randomly selected. Which one describes a potential $t$-test for slope?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A pollster asks $30$ men and $30$ women whether they plan to vote for a certain candidate."
+    },
+    {
+      "letter": "B",
+      "text": "A pollster asks $60$ people how many times they voted in the past and how old they are."
+    },
+    {
+      "letter": "C",
+      "text": "A pollster asks $60$ people their race, their political party, and their religion."
+    },
+    {
+      "letter": "D",
+      "text": "A pollster asks $60$ people how many times they have voted in the past."
+    },
+    {
+      "letter": "E",
+      "text": "A pollster asks $30$ men and $30$ women how many years of school they attended."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-7.J.1",
+    "VAR-7",
+    "VAR-7.J",
+    "1.E"
+  ]
+}

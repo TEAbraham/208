@@ -1,0 +1,48 @@
+{
+  "question_id": "question-257",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "tables",
+    "outliers"
+  ],
+  "title": "An Outlier on the High End of Normal",
+  "difficulty": "Hard",
+  "question_text": "An outlier is an observation that falls more than $1.5$ IQR's above the third quartile or more than $1.5$ IQR's below quartile I.\nAccording to this definition, which of the following $z$-scores is the smallest $z$-score that would correspond to an outlier on the high end of a standard normal distribution?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$2.00$"
+    },
+    {
+      "letter": "B",
+      "text": "$2.25$"
+    },
+    {
+      "letter": "C",
+      "text": "$2.50$"
+    },
+    {
+      "letter": "D",
+      "text": "$2.75$"
+    },
+    {
+      "letter": "E",
+      "text": "$3.15$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-2.B",
+    "VAR-2.C.1",
+    "2.D",
+    "VAR-2.C",
+    "VAR-2.B.4",
+    "VAR-2"
+  ]
+}

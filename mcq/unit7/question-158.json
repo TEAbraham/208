@@ -1,0 +1,46 @@
+{
+  "question_id": "question-158",
+  "unit": "AP® Statistics | Unit 7 Assessment",
+  "topics": [
+    "confidence-interval-interpretations",
+    "2-sample-mean-interval",
+    "confidence-interval"
+  ],
+  "title": "Mail Delivery",
+  "difficulty": "Easy",
+  "question_text": "The U.S. government was comparing delivery times between the post offices of two large cities. Many post offices in each city were randomly sampled as to how long mail took to be delivered within each city. They found a $95\\%$ confidence interval for delivery times for first-class mail in hours at $(0.43, 1.26)$. Interpret this confidence interval.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "We see a $95\\%$ chance that the difference in mail delivery times is at most $1.26$ hours."
+    },
+    {
+      "letter": "B",
+      "text": "We are $95\\%$ confident that there is a difference of $1.26-0.43=0.83$ hours between the mail delivery times of the two cities."
+    },
+    {
+      "letter": "C",
+      "text": "We see a $95\\%$ chance that the mail will be delivered on time in less than $1.26$ hours between the two cities."
+    },
+    {
+      "letter": "D",
+      "text": "We are $95\\%$ confident that the difference in the population mean times of mail delivery from the two sampled cities is between $0.43$ and $1.26$ hours."
+    },
+    {
+      "letter": "E",
+      "text": "We are $95\\%$ confident that the mail delivered between the two cities will vary between $0.43$ and $1.26$ hours due to the difference in their population mean times."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.Z",
+    "4.B",
+    "UNC-4.Z.2",
+    "UNC-4.Z.1",
+    "UNC-4"
+  ]
+}

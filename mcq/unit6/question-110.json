@@ -1,0 +1,41 @@
+{
+  "question_id": "question-110",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [],
+  "title": "Two-sided Conclusion",
+  "difficulty": "Hard",
+  "question_text": "A group of college students in a psychology class wonders if the order of treatments changes the outcome of a study.\nTo test this, they ask students in a blind taste test which of two colas they prefer, Pepsi or Coke. In this blind taste test, the first $50\\text{ randomly chosen subjects}$ are given Pepsi and then Coke. The next $50\\text{ randomly chosen subjects}$ are given Coke and then Pepsi.\nSuppose the test statistic is $z = 1.56$ when comparing the proportion of those who preferred Pepsi when tasted first to the proportion who liked Pepsi when tasted second.\nOn a two-sided test, what is the appropriate conclusion?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Since $p > 0.05$, strong evidence exists of no difference between the treatments."
+    },
+    {
+      "letter": "B",
+      "text": "Since $p <0.1$, strong evidence exists of a difference in treatments."
+    },
+    {
+      "letter": "C",
+      "text": "Since $p < 0.05$, strong evidence exists of a difference in treatments."
+    },
+    {
+      "letter": "D",
+      "text": "Since $p > 0.1$, there is insufficient evidence of a difference in preference based on which order the sodas are given."
+    },
+    {
+      "letter": "E",
+      "text": "Since $p > 0.1$, strong evidence exists that order does not affect preference."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.N.1",
+    "4.D",
+    "UNC-4",
+    "UNC-4.N"
+  ]
+}

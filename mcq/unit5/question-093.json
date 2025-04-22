@@ -1,0 +1,45 @@
+{
+  "question_id": "question-093",
+  "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sample-proportion",
+    "sampling-distributions"
+  ],
+  "title": "Sampling Distribution of Sample Proportion: Ladies Dominate",
+  "difficulty": "Hard",
+  "question_text": "According to the 2014 U.S. census, $50.8\\%$ of the people in the U.S. are females. A simple random sample of $200$ people in the United States were selected.\nWhat is the probability that more than $52\\%$ of the people selected were females?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$P\\left(z > \\dfrac { 0.508-0.52 }{ \\sqrt { \\dfrac { (0.508)(0.492) }{ 200 } } } \\right)$"
+    },
+    {
+      "letter": "B",
+      "text": "$P\\left(z > \\dfrac { 0.508-0.52 }{ \\sqrt { \\dfrac { (0.52)(0.48) }{ 200 } } } \\right)$"
+    },
+    {
+      "letter": "C",
+      "text": "$P\\left(z > \\dfrac { 0.508-0.52 }{ \\sqrt { (0.52)(0.48) } } \\right)$"
+    },
+    {
+      "letter": "D",
+      "text": "$P\\left(z > \\dfrac { 0.52-0.508 }{ \\sqrt { \\dfrac { (0.508)(0.492) }{ 200 } } } \\right)$"
+    },
+    {
+      "letter": "E",
+      "text": "$P\\left(z > \\dfrac { 0.52-0.508 }{ \\sqrt { \\dfrac { (0.52)(0.48) }{ 200 } } } \\right)$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.K.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.K"
+  ]
+}

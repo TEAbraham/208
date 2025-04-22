@@ -1,0 +1,46 @@
+{
+  "question_id": "question-077",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "type-2-error",
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
+  "title": "Type II Errors and Snow Days",
+  "difficulty": "Medium",
+  "question_text": "Many school districts in various parts of the country routinely add extra days onto the school calendar to account for the possibility of snow days or other unexpected days off. Ananya has been carefully watching the weather report and sees that the forecast is calling for $6\\text{ inches}$ of snow overnight.\nBased upon past history, she knows that school will be cancelled if more than $3\\text{ inches}$ of snow fall. Therefore, she forms the null hypothesis that there will be no school tomorrow.\nIn this situation, what would be the meaning and potential consequences of Ananya making a Type II error?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Ananya decides that the weather report is wrong yet again. As a result, she stays up late in order to complete her homework and study for the tests that have been scheduled for tomorrow. OOPS! Oh well! It snowed $8\\text{ inches}$ and school got cancelled. Now Ananya is wishing that she had slept in!"
+    },
+    {
+      "letter": "B",
+      "text": "Ananya decides that the weather report is wrong yet again. As a result, she stays up late in order to complete her homework and study for the tests that have been scheduled for tomorrow. It turns out that she was right. It barely snowed one inch, so school is not cancelled! Although she is a bit tired, Ananya has all of her homework done and is well prepared for the tests that she must take."
+    },
+    {
+      "letter": "C",
+      "text": "Ananya truly believes that tomorrow will be a snow day and that she will get to sleep as late as she wants to in the morning. As a result, she decides not to do her homework or to study for the tests that are on tomorrow's schedule. Thank goodness she was right! School was cancelled and she has another day to complete her homework and study for upcoming tests. Bonus - she got to sleep late!"
+    },
+    {
+      "letter": "D",
+      "text": "Ananya truly believes that tomorrow will be a snow day and that she will get to sleep as late as she wants to in the morning. As a result, she decides not to do her homework or to study for the tests that are on tomorrow's schedule. OOPS! It doesn't snow at all and school goes on. She can only hope that her teachers do not check homework and that she passes those tests! After all, she is really tired from the late-night Netflix binge!"
+    },
+    {
+      "letter": "E",
+      "text": "Ananya is making mistakes (or errors) all over the place. She makes mistakes on her homework, makes mistakes on her tests, and makes a mistake when deciding when to go to sleep. She even ends up sleeping late in the morning and ends up missing the bus."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-5.C.1",
+    "UNC-5",
+    "UNC-5.C",
+    "4.A"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "question_id": "question-192",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "calculating-probability",
+    "anticipating-patterns",
+    "probability"
+  ],
+  "title": "Shipment of Lightbulbs",
+  "difficulty": "Medium",
+  "question_text": "After a large shipment of lightbulbs goes out, the manufacturer estimates that about $1\\%$ are defective.\nWhat is the probability that in a package of $10\\text{ lightbulbs}$, at most $1\\text{ lightbulb}$ is defective?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "About $0.90438$."
+    },
+    {
+      "letter": "B",
+      "text": "About $0.99573$."
+    },
+    {
+      "letter": "C",
+      "text": "About $0.00427$."
+    },
+    {
+      "letter": "D",
+      "text": "About $0$."
+    },
+    {
+      "letter": "E",
+      "text": "About $0.91352$."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.C.1",
+    "UNC-3",
+    "3.B",
+    "UNC-3.C"
+  ]
+}

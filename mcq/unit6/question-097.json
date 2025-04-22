@@ -1,0 +1,45 @@
+{
+  "question_id": "question-097",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "confidence-interval",
+    "differences-in-proportions",
+    "estimation"
+  ],
+  "title": "Jeans on Sale",
+  "difficulty": "Medium",
+  "question_text": "A company produced two lines of women's blue jeans, the Cheapos and the Fancies. The CEO of the company wanted to sample its stores to find the proportions of pants on hand which were purchased on a given day. It was found that in a sample of $80$ Cheapos, a proportion of $0.45$ was sold, and in a sample of $80$ Fancies, a proportion of $0.25$ was sold. Calculate an approximate interval estimate of the difference of on-hand inventory sold based on a $90\\%$ confidence interval.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$25\\%$ to $45\\%$"
+    },
+    {
+      "letter": "B",
+      "text": "About $20\\%$"
+    },
+    {
+      "letter": "C",
+      "text": "$1\\%$ to $39\\%$"
+    },
+    {
+      "letter": "D",
+      "text": "$6\\%$ to $34\\%$"
+    },
+    {
+      "letter": "E",
+      "text": "$8\\%$ to $32\\%$"
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.L",
+    "3.D",
+    "UNC-4.L.1",
+    "UNC-4"
+  ]
+}

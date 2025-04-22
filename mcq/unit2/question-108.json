@@ -1,0 +1,45 @@
+{
+  "question_id": "question-108",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "least-squares-regression-line",
+    "bivariate-data",
+    "exploring-data"
+  ],
+  "title": "Attendance vs. Sales at the Concession Stand",
+  "difficulty": "Medium",
+  "question_text": "Members of the Home and School Association at a local high school are in charge of operating the concession stand during home athletic events. They have been wondering if the number of tickets sold for an event can help to predict the amount of money they will make from selling snacks at the concession stand during the event. Students in the school's AP Statistics classes have offered to help them out.\nAfter gathering data about the number of tickets sold and the amount of money made at the concession stand during a random sample of home athletic events, the students used a statistical software program to develop the equation for the least squares regression line (LSRL). Computer output is displayed below.\nLoading question supplement...\nIdentify the slope of the LSRL and explain what it means.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The slope is $0.47$. For every additional ticket sold, the amount of money made at the concession stand is expected to increase by $\\$0.47$."
+    },
+    {
+      "letter": "B",
+      "text": "The slope is $0.47$. For every additional dollar made at the concession stand, the expected attendance at the event will increase by $0.47$."
+    },
+    {
+      "letter": "C",
+      "text": "The slope is $0.83$. For every additional dollar made at the concession stand, the number of tickets sold is expected to increase by $0.83$."
+    },
+    {
+      "letter": "D",
+      "text": "The slope is $4.32$. For every additional ticket sold, the amount of money made at the concession stand is expected to increase by $\\$4.32$."
+    },
+    {
+      "letter": "E",
+      "text": "The slope is $4.32$. For every additional dollar made at the concession stand, the number of tickets sold is expected to increase by $4.32$."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.H.2",
+    "DAT-1.H",
+    "DAT-1"
+  ]
+}

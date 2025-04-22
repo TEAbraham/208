@@ -1,0 +1,46 @@
+{
+  "question_id": "question-053",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "tests-of-significance",
+    "mean",
+    "statistical-inference"
+  ],
+  "title": "Comparison: Which Distribution",
+  "difficulty": "Easy",
+  "question_text": "When testing a sample against a set population mean, one should typically use",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The standard normal $Z$-distribution."
+    },
+    {
+      "letter": "B",
+      "text": "The $T$ distribution."
+    },
+    {
+      "letter": "C",
+      "text": "The binomial distribution."
+    },
+    {
+      "letter": "D",
+      "text": "The chi-squared distribution."
+    },
+    {
+      "letter": "E",
+      "text": "The $F$ distribution."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-7.B.2",
+    "VAR-7",
+    "VAR-7.B.1",
+    "1.E",
+    "VAR-7.B"
+  ]
+}

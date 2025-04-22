@@ -1,0 +1,48 @@
+{
+  "question_id": "question-070",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "graphical-displays-of-data",
+    "univariate-data",
+    "exploring-data",
+    "shape"
+  ],
+  "title": "Shape of a Bar Graph",
+  "difficulty": "Medium",
+  "question_text": "A researcher was interested in information regarding post-traumatic seizures (PTS) among patients who have suffered from a traumatic brain injury (TBI). She surveyed a variety of ages and asked the subjects if they have suffered from a post-traumatic seizure. The results in the following graph below.\nDelldot. A bar graph showing the risk of post traumatic seizures by age group. Digital image. Wikimedia Commons. N.p., 3 Mar. 2008. Web. 7 Mar. 2016.\nHow could one describe the shape of this graph?",
+  "image_files": [
+    "images/question-070-img1.jpg"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Roughly symmetric."
+    },
+    {
+      "letter": "B",
+      "text": "Right skewed."
+    },
+    {
+      "letter": "C",
+      "text": "Left skewed."
+    },
+    {
+      "letter": "D",
+      "text": "Unable to tell since not all age groups were surveyed."
+    },
+    {
+      "letter": "E",
+      "text": "Unable to tell since the variables are categorical."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.H.1",
+    "UNC-1.H",
+    "2.A",
+    "UNC-1"
+  ]
+}

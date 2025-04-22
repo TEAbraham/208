@@ -1,0 +1,46 @@
+{
+  "question_id": "question-025",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval",
+    "mean",
+    "estimation",
+    "statistical-inference"
+  ],
+  "title": "Interpret Income | 1 of 2",
+  "difficulty": "Medium",
+  "question_text": "Last year, the mean annual income of residents in a small town was $\\$49,382$.\nThis year, a random sample of $100$ residents in the same town found an annual income of $\\$52,301$. A $95\\%$ confidence interval was calculated and extended from $\\$50,199$ to $\\$54,403$.\nWhich of the following statements is correct concerning this interval?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "It seems likely that mean income for this town has risen from last year."
+    },
+    {
+      "letter": "B",
+      "text": "We’re $95\\%$ confident that the true mean income of the town this year is $\\$52,301$."
+    },
+    {
+      "letter": "C",
+      "text": "We’re $95\\%$ confident the true population mean salary of this town last year was between $\\$50,199$ and $\\$54,403$."
+    },
+    {
+      "letter": "D",
+      "text": "We’re $95\\%$ confident the sample mean from this year’s survey is between $\\$50,199$ and $\\$54,403$."
+    },
+    {
+      "letter": "E",
+      "text": "$95\\%$ of samples such as this one would give an interval that captures the population mean of $\\$49,382$."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.P.1",
+    "4.C",
+    "UNC-4",
+    "UNC-4.P"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "question_id": "question-226",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "model-for-measurements"
+  ],
+  "title": "Height Estimation",
+  "difficulty": "Medium",
+  "question_text": "Suppose the heights of American men are normally distributed with a mean of $68\\text{ inches}$ and a standard deviation of $2.5\\text{ inches}$. Ted’s height is at the $20^\\text{th}$ percentile.\nTo the nearest inch, how tall is Ted?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$63$"
+    },
+    {
+      "letter": "B",
+      "text": "$64$"
+    },
+    {
+      "letter": "C",
+      "text": "$65$"
+    },
+    {
+      "letter": "D",
+      "text": "$66$"
+    },
+    {
+      "letter": "E",
+      "text": "$67$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "question_id": "question-076",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
+  "title": "Hypotheses About Perceived Attractiveness and Annual Income",
+  "difficulty": "Medium",
+  "question_text": "A researcher wants to do a study to see if there is a relationship between how attractive an individual is perceived as being and their annual income level. He has randomly selected a sample of individuals who all agree to participate in his study.\nTo rate attractiveness, he will show each individual's picture to a separate large sample of people and will combine their responses in order to classify each individual as being of high, average or low attractiveness. He will then match that up with each individual's annual income level using the following categories: Under $50,000, Between $50,000 and $100,000, Over $100,000.\nIn order to analyze his results he has decided to use a ${ \\chi }^{ 2 }$ test. What should his hypotheses be?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$H_0:$ the proportion of people in each attractiveness category will be the same.\n$H_a:$ the proportion of people in each attractiveness category will not all be the same."
+    },
+    {
+      "letter": "B",
+      "text": "$H_0:$ the proportion of people in each income category will be the same.\n$H_a:$ the proportion of people in each income category will not all be the same."
+    },
+    {
+      "letter": "C",
+      "text": "$H_0:$ for each income category, the proportions of people in each category of perceived attractiveness will be the same.\n$H_a:$ for each income category, the proportions of people in each category of perceived attractiveness will not be the same."
+    },
+    {
+      "letter": "D",
+      "text": "$H_0:$ an individual's perceived attractiveness is independent of their annual income level.\n$H_a:$ an individual's perceived attractiveness is not independent of their annual income level."
+    },
+    {
+      "letter": "E",
+      "text": "$H_0:$ there is no association between perceived attractiveness and annual income level.\n$H_a:$ as perceived attractiveness increases, so does annual income level."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3.K.1",
+    "DAT-3",
+    "DAT-3.K"
+  ]
+}

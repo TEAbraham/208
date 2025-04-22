@@ -1,0 +1,46 @@
+{
+  "question_id": "question-144",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "difference-two-means"
+  ],
+  "title": "Males/Females ACT",
+  "difficulty": "Hard",
+  "question_text": "Suppose a two-sample T-test hypothesizes that $H_0: { u }_{ 1 }= { u }_{ 2 }$ vs. $H_a: { u }_{ 1 } > { u }_{ 2 }$\nLet ${ u }_{ 1 }$= the ACT score of all males in the U.S.\nLet ${ u }_{ 2 }$= the ACT score of all females in the U.S.\nThe two-sample $T$-test gives a $p$-value of $0.013$.\nWhen testing at the $5\\%$ level, one can conclude that",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There is no evidence to suggest males score higher than females on the ACT."
+    },
+    {
+      "letter": "B",
+      "text": "There is no evidence to suggest males and females score the same as each other."
+    },
+    {
+      "letter": "C",
+      "text": "Significant evidence exists to accept the alternative hypothesis."
+    },
+    {
+      "letter": "D",
+      "text": "Significant evidence exists to reject the null hypothesis."
+    },
+    {
+      "letter": "E",
+      "text": "No evidence exists to claim males and females score the same."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.H.1",
+    "DAT-3",
+    "DAT-3.H",
+    "DAT-3.H.2"
+  ]
+}

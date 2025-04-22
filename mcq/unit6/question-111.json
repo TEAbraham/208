@@ -1,0 +1,45 @@
+{
+  "question_id": "question-111",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "difference-two-proportions",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
+  "title": "Traffic Accidents",
+  "difficulty": "Hard",
+  "question_text": "A traffic engineer is curious if elderly drivers are more or less likely to get into accidents than teenage drivers.\nThe engineer randomly sampled $100$ teenage drivers and $100$ drivers more than $80$ years old, asking both groups if they have gotten in an accident in the last year.\nA hypothesis test of $ { p }_{ 1 }= { p }_{ 2 }$ vs. ${ p }_{ 1 } ≠ { p }_{ 2 }$ gives a test statistic $z = 1.13$.\nAssuming conditions for inference have been met, what conclusion can be made?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Strong evidence exists to suggest that younger and older drivers are equally likely to get into an accident."
+    },
+    {
+      "letter": "B",
+      "text": "Weak evidence exists to suggest that younger and older drivers are equally likely to get into an accident."
+    },
+    {
+      "letter": "C",
+      "text": "There is insufficient information to come to any conclusion."
+    },
+    {
+      "letter": "D",
+      "text": "There is strong evidence of a difference in accident rates between older and younger drivers."
+    },
+    {
+      "letter": "E",
+      "text": "There is insufficient evidence to conclude older and younger drivers have different accident rates."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-4.M",
+    "UNC-4",
+    "UNC-4.M.2"
+  ]
+}

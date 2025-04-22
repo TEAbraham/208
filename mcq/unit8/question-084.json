@@ -1,0 +1,47 @@
+{
+  "question_id": "question-084",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "chi-square-distribution",
+    "chi-square-test"
+  ],
+  "title": "Effects of Degrees of Freedom on the Chi-square Distribution",
+  "difficulty": "Hard",
+  "question_text": "Which of the following statements are true?\nI. A small chi-square value leads to rejecting the null hypothesis.\nII. The chi-square distribution is nearly normal for very large degrees of freedom.\nIII. If a chi-square value leads to rejecting the null hypothesis with $20$ degrees of freedom it must also lead to rejecting the null hypothesis with $10$ degrees of freedom.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and III only."
+    },
+    {
+      "letter": "E",
+      "text": "II and III only."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-8.M",
+    "VAR-8.M.2",
+    "3.E",
+    "VAR-8",
+    "VAR-8.M.1"
+  ]
+}

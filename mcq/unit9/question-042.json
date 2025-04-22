@@ -1,0 +1,46 @@
+{
+  "question_id": "question-042",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "confidence-interval",
+    "estimation",
+    "statistical-inference",
+    "least-squares-regression-line"
+  ],
+  "title": "Linear Regression $T$-Interval",
+  "difficulty": "Easy",
+  "question_text": "A linear regression $T$-interval attempts to estimate",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The true population difference between two sample means of bivariate data."
+    },
+    {
+      "letter": "B",
+      "text": "The true population difference between two sample proportions when plotted on a scatterplot."
+    },
+    {
+      "letter": "C",
+      "text": "The true population mean of the response variable in linear regression."
+    },
+    {
+      "letter": "D",
+      "text": "The true population slope of the least squares regression line when two continuous variables are plotted."
+    },
+    {
+      "letter": "E",
+      "text": "The sample slope of the least squares regression line when two continuous variables are plotted."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.M.1",
+    "DAT-3.M"
+  ]
+}

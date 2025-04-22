@@ -1,0 +1,51 @@
+{
+  "question_id": "question-179",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "boxplots",
+    "measuring-spread",
+    "comparing-distributions",
+    "exploring-data",
+    "measuring-center",
+    "shape"
+  ],
+  "title": "Comparing Distributions: Grocery Shopping of Men versus Women",
+  "difficulty": "Medium",
+  "question_text": "The boxplots below display the number of minutes that single men grocery shop compared to single women. Based on these boxplots, which of the following is the correct conclusion about the data collected in this study?\nCreated for Albert.io. Copyright 2017. All rights reserved.",
+  "image_files": [
+    "images/question-179-img1.png"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The shapes of both distributions are skewed to the left. Single men tend to spend less time grocery shopping, and with a smaller variation, when compared to single women."
+    },
+    {
+      "letter": "B",
+      "text": "The shapes of both distributions are skewed to the left. Single men tend to spend less time grocery shopping, and with larger variation, when compared to single women."
+    },
+    {
+      "letter": "C",
+      "text": "The shapes of both distributions are skewed to the right. Single men tend to spend less time grocery shopping, and with smaller variation, compared to single women."
+    },
+    {
+      "letter": "D",
+      "text": "The shapes of both distributions are skewed to the right. Single men tend to spend less time grocery shopping, and with a larger variation, compared to single women."
+    },
+    {
+      "letter": "E",
+      "text": "The shapes of both distributions are skewed to the right. Single men tend to spend more time grocery shopping, and with a smaller variation, compared to women."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.N.1",
+    "2.D",
+    "UNC-1.N",
+    "UNC-1"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "question_id": "question-180",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "center-spread",
+    "univariate-data",
+    "boxplots",
+    "comparing-distributions",
+    "exploring-data"
+  ],
+  "title": "Comparing Boxplots: Grade Distributions",
+  "difficulty": "Medium",
+  "question_text": "After giving a recent test, a teacher wanted to compare the distributions of grades earned by students in each of her two AP Statistics classes. The distributions are shown in the boxplots below.\nCreated for Albert.io. Copyright 2016. All rights reserved.\nBased on the boxplots, which of the following is a correct conclusion about the distribution of grades in the two classes?",
+  "image_files": [
+    "images/question-180-img1.PNG"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The range of scores was larger in Class $\\#1$ than in Class $\\#2$, but the IQR was smaller for Class $\\#1$ than for Class $\\#2$."
+    },
+    {
+      "letter": "B",
+      "text": "About 75% of the students in Class #1 scored higher on the test than about half the students in Class #2."
+    },
+    {
+      "letter": "C",
+      "text": "About 75% of the students in Class #2 scored higher on the test than almost all of the students in Class #1."
+    },
+    {
+      "letter": "D",
+      "text": "A smaller percentage of students in Class #1\nachieved scores below their class median than in Class #2\n."
+    },
+    {
+      "letter": "E",
+      "text": "More students in Class #1\nachieved scores of 80\nor above on the test than in Class #2\n."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.N.1",
+    "2.D",
+    "UNC-1.N",
+    "UNC-1"
+  ]
+}

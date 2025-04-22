@@ -1,0 +1,47 @@
+{
+  "question_id": "question-083",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference",
+    "1-sample-t-test-means"
+  ],
+  "title": "Type I error: Waiting Time",
+  "difficulty": "Medium",
+  "question_text": "A valet company claims that a customer's average wait time for their car is $8\\text{ minutes}$. After waiting $20\\text{ minutes}$ to get your car, Bobby believes the valet company's time to get a car is greater than $8\\text{ minutes}$.\nWhich of the following describes a type I error in the context of this situation?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Bobby concludes the average wait time it takes the valet company to get a car is $8\\text{ minutes}$, when it is actually greater than $8\\text{ minutes}$."
+    },
+    {
+      "letter": "B",
+      "text": "Bobby concludes the average wait time it takes the valet company to get a car is greater than $8\\text{ minutes}$, when it is actually $8\\text{ minutes}$."
+    },
+    {
+      "letter": "C",
+      "text": "Bobby concludes the average wait time it takes the valet company to get a car is greater than $8\\text{ minutes}$, when it is actually is greater than $8\\text{ minutes}$."
+    },
+    {
+      "letter": "D",
+      "text": "Bobby concludes the average wait time it takes the valet company to get a car is $8\\text{ minutes}$, when it is actually is $8\\text{ minutes}$."
+    },
+    {
+      "letter": "E",
+      "text": "A type I error cannot be committed in this situation"
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-5.D.1",
+    "UNC-5",
+    "UNC-5.D.2",
+    "UNC-5.D"
+  ]
+}

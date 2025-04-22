@@ -1,0 +1,49 @@
+{
+  "question_id": "question-035",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "chi-square-test",
+    "chi-square-goodness-of-fit"
+  ],
+  "title": "Chi-Squared GOF Test",
+  "difficulty": "Medium",
+  "question_text": "The vegetable sales at a local convenience store last year broke down as follows: $34\\%$ broccoli, $21\\%$ peas, $18\\%$ carrots, $17\\%$ cabbage, and $10\\%$ beans.\nRecently a random sample of $123$ vegetable-buying customers found that $39$ bought broccoli, $23$ bought peas, $20$ bought carrots, $17$ bought cabbage, and $24$ bought beans. A chi-squared goodness of fit test was performed.\nDetermine the test statistic, $p$-value, and degrees of freedom.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Test statistic: $23.42$\n$P$-value: $0.01$\nDegrees of freedom: $122$"
+    },
+    {
+      "letter": "B",
+      "text": "Test statistic: $12.57$\n$P$-value: $0.01$\nDegrees of freedom: $122$"
+    },
+    {
+      "letter": "C",
+      "text": "Test statistic: $12.57$\n$P$-value: $0.01$\nDegrees of freedom: $4$"
+    },
+    {
+      "letter": "D",
+      "text": "Test statistic: $23.42$\n$P$-value: $0.025$\nDegrees of freedom: $122$"
+    },
+    {
+      "letter": "E",
+      "text": "Test statistic: $12.57$\n$P$-value:$ p < 0.0005$\nDegrees of freedom: $4$"
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-8.F",
+    "VAR-8.G.1",
+    "VAR-8.G",
+    "3.E",
+    "VAR-8",
+    "VAR-8.F.2",
+    "VAR-8.F.1"
+  ]
+}

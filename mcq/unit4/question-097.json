@@ -1,0 +1,49 @@
+{
+  "question_id": "question-097",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "probability-distribution-table",
+    "anticipating-patterns",
+    "probability",
+    "discrete-random-variables"
+  ],
+  "title": "Probability Distribution: Everybody Needs a Hero Part II",
+  "difficulty": "Hard",
+  "question_text": "At Burger Bell when someone buys a Hero Meal they receive an action figure. The distribution of action figures is shown in the table below.\nAction Figure A B C D\nP(x) 0.30 0.10 0.10 0.50\n\n\nAssuming each Hero Meal is independent of one another, what is the probability when someone buys two Hero Meals they get action figures A and B?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Action Figure</th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th></tr></thead><tbody><tr><td>P(x)</td><td>0.30</td><td>0.10</td><td>0.10</td><td>0.50</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.03$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.06$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.16$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.40$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.80$"
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct choice.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-4.E.1",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4.E.2",
+    "VAR-4"
+  ]
+}

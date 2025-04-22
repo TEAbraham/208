@@ -1,0 +1,50 @@
+{
+  "question_id": "question-118",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "influential-points",
+    "correlation",
+    "slope",
+    "bivariate-data",
+    "exploring-data",
+    "outliers"
+  ],
+  "title": "Slope, Correlation When Removing Scatterplot Point: X vs. Y",
+  "difficulty": "Hard",
+  "question_text": "A scatterplot of $x$ versus $y$ is shown below:\nIf the point $(9,49)$ is removed, which of the following statements is TRUE?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The slope of the least squares regression line decreases and the correlation coefficient decreases."
+    },
+    {
+      "letter": "B",
+      "text": "The slope of the least squares regression line decreases and the correlation coefficient increases."
+    },
+    {
+      "letter": "C",
+      "text": "The slope of the least squares regression line decreases and the correlation coefficient does not change."
+    },
+    {
+      "letter": "D",
+      "text": "The slope of the least squares regression line increases and the correlation coefficient increases."
+    },
+    {
+      "letter": "E",
+      "text": "The slope of the least squares regression line increases and the correlation coefficient decreases."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-1.H.2",
+    "DAT-1.H",
+    "DAT-1",
+    "DAT-1.H.3",
+    "DAT-1.H.1"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-138",
+  "unit": "AP® Statistics | Unit 2 Assessment",
+  "topics": [
+    "correlation",
+    "correlation-coefficient",
+    "r-squared",
+    "least-squares-regression-line"
+  ],
+  "title": "Baseball Statistics",
+  "difficulty": "Medium",
+  "question_text": "A baseball coach was wondering if his team got more hits, would they score more runs? He collected data from his last $30$ baseball games and found a least-squares regression line of:\n$$\\hat{y} = 3.2 + 1.3x$$\n...where $x = $ the number of hits per game and $y = $ the number of runs scored in a game. He also found that $45$ percent of the variation of runs can be accounted for the number of hits.\nWhat is the value of the correlation coefficient?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$3.2$"
+    },
+    {
+      "letter": "B",
+      "text": "$1.3$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.45$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.67$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.20$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "Given in the problem is the least-squares regression line, and the percent of variation, which is also known as, $r^2$. The question asks you to find the correlation coefficient, which is more commonly known as r.\n\nIn order to find the correlation coefficient from the percent of variation, one must take the square root of the $r^2$ value. For example,\n\n$$r^2 = 45\\% = 0.45$$\n$$\\sqrt{r^2} = \\sqrt{0.45}$$\n$$r = 0.67$$\n\nThe value of the correlation coefficient is r=0.67.\n\nChoice 'D' is correct.",
+  "explanations": {},
+  "tags": [
+    "2.C",
+    "DAT-1",
+    "DAT-1.G",
+    "DAT-1.G.4"
+  ]
+}

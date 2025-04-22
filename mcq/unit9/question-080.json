@@ -1,0 +1,47 @@
+{
+  "question_id": "question-080",
+  "unit": "AP® Statistics | Unit 9 Assessment",
+  "topics": [
+    "regression",
+    "inference",
+    "t-distribution",
+    "degrees-of-freedom"
+  ],
+  "title": "$T$ Distribution for Regression",
+  "difficulty": "Easy",
+  "question_text": "When performing inference for regression to determine if there is a linear relationship between two variables in a population, which of the following distributions is used?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The $t$ distribution with $\\text{n } – 1$ degrees of freedom"
+    },
+    {
+      "letter": "B",
+      "text": "The standard normal distribution"
+    },
+    {
+      "letter": "C",
+      "text": "The chi-square distribution with $\\text{n } – 1$ degrees of freedom"
+    },
+    {
+      "letter": "D",
+      "text": "The $t$ distribution with $\\text{n } – 2$ degrees of freedom"
+    },
+    {
+      "letter": "E",
+      "text": "The standard normal distribution with $\\text{n } – 2$ degrees of freedom"
+    }
+  ],
+  "correct_answer": "Choice ‘D’ is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.1",
+    "VAR-7.M.2"
+  ]
+}

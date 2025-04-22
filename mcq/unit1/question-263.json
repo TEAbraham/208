@@ -1,0 +1,45 @@
+{
+  "question_id": "question-263",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "model-for-measurements"
+  ],
+  "title": "Snowfall Amounts",
+  "difficulty": "Hard",
+  "question_text": "A meteorologist in a small town has been keeping track of annual snowfall amounts for the last $65\\text{ years}$. The annual snowfall has an average of $54\\text{ inches}$ with a standard deviation of $9.8\\text{ inches}$. This year a local citizen claimed the town received $124.5\\text{ inches}$ of snow.\nBased on this information, one can conclude",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A mistake was likely made in recording snowfall amounts."
+    },
+    {
+      "letter": "B",
+      "text": "This year was surprisingly snowy but is not a huge abnormality."
+    },
+    {
+      "letter": "C",
+      "text": "The interquartile range must be well over $9.8\\text{ inches}$."
+    },
+    {
+      "letter": "D",
+      "text": "Before the point $124.5$ was added, this distribution was right skewed."
+    },
+    {
+      "letter": "E",
+      "text": "The median will be greater than the mean for this distribution."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-2.C.1",
+    "2.D",
+    "VAR-2.C",
+    "VAR-2"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "question_id": "question-048",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "tests-of-significance",
+    "estimation",
+    "statistical-inference",
+    "chi-square-test"
+  ],
+  "title": "Termites | 1 of 2",
+  "difficulty": "Medium",
+  "question_text": "Termites are starting to become a big problem in a large city.\nTwo different chemicals, chemicals A and B, are typically used to exterminate termites. Forty homes are treated with chemical A, and another forty are treated with chemical B. Forty homes are treated with a mixture of chemicals A and B, and another forty homes are treated with nothing (as a control group). Six months after the chemicals were used, the homes were examined to determine if all the termites were exterminated.\nThis information is represented in the table below:\nTermites Exterminated Termites NOT Exterminated\nChemical A 28 12\nChemical B 27 13\nBoth Chemicals A and B 28 12\nNeither Chemical (control) 7 33\n\n\nAssume the homes were randomly selected and that each had a similar termite condition.\nUse the table to determine if each of the four treatments are equally effective.",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Termites Exterminated</th><th scope=\"col\">Termites NOT Exterminated</th></tr></thead><tbody><tr><td>Chemical A</td><td>28</td><td>12</td></tr><tr><td>Chemical B</td><td>27</td><td>13</td></tr><tr><td>Both Chemicals A and B</td><td>28</td><td>12</td></tr><tr><td>Neither Chemical  (control)</td><td>7</td><td>33</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Strong evidence exists that the four treatments are equally effective since $p < 0.0005$."
+    },
+    {
+      "letter": "B",
+      "text": "No strong evidence exists that the four treatments are equally effective since $p < 0.0005$."
+    },
+    {
+      "letter": "C",
+      "text": "Strong evidence exists that the four treatments are not equally effective since $p < 0.0005$."
+    },
+    {
+      "letter": "D",
+      "text": "Moderate evidence exists that the four treatments are not equally effective since p > $0.01$."
+    },
+    {
+      "letter": "E",
+      "text": "Since $p > 0.25$, no significant evidence exists of a difference between the four treatments."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-8.H",
+    "3.A",
+    "VAR-8",
+    "VAR-8.H.1"
+  ]
+}

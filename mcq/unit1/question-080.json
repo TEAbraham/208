@@ -1,0 +1,48 @@
+{
+  "question_id": "question-080",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "spread",
+    "univariate-data",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
+  "title": "IQR of a Set of Observations",
+  "difficulty": "Easy",
+  "question_text": "What is the interquartile range of this set of observations?\n$$\\{ 5, 9, 13, 14, 18, 24, 24, 29, 30, 31, 37, 39, 48, 55, 62 \\}$$",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$25$"
+    },
+    {
+      "letter": "B",
+      "text": "$12$"
+    },
+    {
+      "letter": "C",
+      "text": "$18$"
+    },
+    {
+      "letter": "D",
+      "text": "$23$"
+    },
+    {
+      "letter": "E",
+      "text": "$34$"
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.I.4",
+    "UNC-1.J.2",
+    "2.C",
+    "UNC-1.J",
+    "UNC-1.I",
+    "UNC-1"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-099",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval",
+    "differences-in-means",
+    "degrees-of-freedom"
+  ],
+  "title": "LSAT Challenge",
+  "difficulty": "Medium",
+  "question_text": "Two competing universities each believed that they better prepared their students for law school. They hired an independent researcher to create a $95\\%$ confidence interval for the difference between the mean LSAT scores of the two schools. Thirty-five pre-law students from each school were randomly selected. At School $1$ the mean LSAT score was $171$ with a standard deviation of $14$. At School $2$ the mean LSAT score was $168$ with a standard deviation of $11$.\nUsing Table B for your critical value, which is the correct $95\\%$ confidence interval for the difference between the mean LSAT scores of the two schools?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$3\\pm3.01$"
+    },
+    {
+      "letter": "B",
+      "text": "$3\\pm6.15$"
+    },
+    {
+      "letter": "C",
+      "text": "$3\\pm18.49$"
+    },
+    {
+      "letter": "D",
+      "text": "$3\\pm1.73$"
+    },
+    {
+      "letter": "E",
+      "text": "$3\\pm5.11$"
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.V.1",
+    "UNC-4.Y.2",
+    "UNC-4",
+    "UNC-4.Y",
+    "1.D"
+  ]
+}

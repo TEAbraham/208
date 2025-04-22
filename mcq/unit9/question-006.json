@@ -1,0 +1,47 @@
+{
+  "question_id": "question-006",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "slope",
+    "linear-regression",
+    "inference"
+  ],
+  "title": "Does Studying Pay Off?",
+  "difficulty": "Easy",
+  "question_text": "A college statistics professor is interested in showing her students the effect of studying for a test. She selected a random sample of $20$ students from the large class and asked \"How long did you study for your previous test?\".\nThen she plotted the time studied versus the score on the test. Given is the computer output for the linear regression model for the data:\nPredictor Coef SE Coef T P\nConstant $65.03$ $4.54$ $4.54$ $0.00$\nTime Studied $0.0650$ $0.0023$ $6.23$ $0.00$\n$S = 4.03$ $r-sq = 88.2$\nWhat is the estimated slope of the regression model for sample of $20$ students?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Predictor</th><th scope=\"col\">Coef</th><th scope=\"col\">SE Coef</th><th scope=\"col\">T</th><th scope=\"col\">P</th></tr></thead><tbody><tr><td><strong>Constant</strong></td><td><span class=\"tex2jax_process\">$65.03$</span></td><td><span class=\"tex2jax_process\">$4.54$</span></td><td><span class=\"tex2jax_process\">$4.54$</span></td><td><span class=\"tex2jax_process\">$0.00$</span></td></tr><tr><td><strong>Time Studied</strong></td><td><span class=\"tex2jax_process\">$0.0650$</span></td><td><span class=\"tex2jax_process\">$0.0023$</span></td><td><span class=\"tex2jax_process\">$6.23$</span></td><td><span class=\"tex2jax_process\">$0.00$</span></td></tr><tr><td></td><td><span class=\"tex2jax_process\">$S = 4.03$</span></td><td><span class=\"tex2jax_process\">$r-sq = 88.2$</span></td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$65.03$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.0650$"
+    },
+    {
+      "letter": "C",
+      "text": "$4.03$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.882$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.0023$"
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer",
+  "solution": "The college professor inputted her data into a computer program and created a computer output for the data. The computer output gives numerous data points that provide information for linear regression, as well as for inference for linear regression.\n\nFinding the necessary information is the key to finding the correct answer to the problem. The slope of the linear regression model is located at the intersection of \"Time Studied\" and \"Coef\" on the table below:\n\nTherefore, the estimated slope for the regression model for $20$ students is $0.0650$\n\nChoice 'B' is correct.",
+  "explanations": {},
+  "tags": [
+    "1.A",
+    "VAR-1.K",
+    "VAR-1.K.1",
+    "VAR-1"
+  ]
+}

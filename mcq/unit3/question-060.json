@@ -1,0 +1,48 @@
+{
+  "question_id": "question-060",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "sampling-and-experimentation",
+    "stratified-sampling",
+    "sampling-methods"
+  ],
+  "title": "Superintendent Survey",
+  "difficulty": "Medium",
+  "question_text": "Suppose the superintendent of a large school district is interested in district-wide student satisfaction with the cafeteria food.\nThe superintendent decides to conduct a stratified sample by randomly selecting $30\\text{ subjects}$ from each grade level, K-12, for a total of $390\\text{ students}$ surveyed in the district.\nWhat is the greatest benefit of conducting a stratified sample such as this one, compared to a simple random sample of $390\\text{ students}$?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A stratified sample can contact more individuals to get more pieces of data and less variability."
+    },
+    {
+      "letter": "B",
+      "text": "A stratified sample can reduce bias."
+    },
+    {
+      "letter": "C",
+      "text": "A stratified sample can give more detailed information, showing food satisfaction for a variety of different ages."
+    },
+    {
+      "letter": "D",
+      "text": "Students are less likely to lie about their feelings regarding cafeteria food in this district if the sample is stratified."
+    },
+    {
+      "letter": "E",
+      "text": "In this situation, there are no benefits of a stratified sample compared to a simple random sample."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "DAT-2",
+    "DAT-2.D.1",
+    "1.C",
+    "DAT-2.D",
+    "DAT-2.C.3",
+    "DAT-2.C"
+  ]
+}

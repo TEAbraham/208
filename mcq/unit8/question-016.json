@@ -1,0 +1,45 @@
+{
+  "question_id": "question-016",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "anticipating-patterns",
+    "chi-square-distribution",
+    "sampling-distributions"
+  ],
+  "title": "Chi-Squared Distribution Attributes",
+  "difficulty": "Easy",
+  "question_text": "A chi-squared distribution\nI. Will be approximately normal.\nII. Will have n-$1$ degrees of freedom, where $n$ is the sample size.\nIII. Can only be used to determine if there is a difference, not the direction of the difference.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and II only."
+    },
+    {
+      "letter": "E",
+      "text": "II and III only."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-8.C",
+    "VAR-8.C.1",
+    "VAR-8",
+    "1.E"
+  ]
+}

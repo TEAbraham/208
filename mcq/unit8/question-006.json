@@ -1,0 +1,44 @@
+{
+  "question_id": "question-006",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "chi-square",
+    "categorical-data"
+  ],
+  "title": "Expected Counts of Candy",
+  "difficulty": "Medium",
+  "question_text": "Suppose a well-known candy brand comes in three colors: Orange, Brown, and Yellow. The company that produces the candies claims the color distribution is $45\\%$ Orange, $30\\%$ Brown, and $25\\%$ Yellow.\nWhich table below correctly identifies the expected number of each candy in a sample of $100$ candies?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": ""
+    },
+    {
+      "letter": "B",
+      "text": ""
+    },
+    {
+      "letter": "C",
+      "text": ""
+    },
+    {
+      "letter": "D",
+      "text": ""
+    },
+    {
+      "letter": "E",
+      "text": ""
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "The company claims the color distribution to be $45\\%$ Orange, $30\\%$ Brown, and $25\\%$ Yellow. Therefore, if we want to find the expected number of candies for each color, we can take the sample size, $n = 100$, and multiply it by the proportion of colors for each candy. For instance,\n\nExpected Orange: $100(0.45) = 45$\n\nExpected Brown: $100(0.30) = 30$\n\nExpected Yellow: $100(0.25) = 25$\n\nTherefore, the table in Choice $A$ correctly identifies the expected number for each color.\n\nChoice 'A' is correct.",
+  "explanations": {},
+  "tags": [
+    "VAR-1.J",
+    "VAR-1.J.1",
+    "1.A",
+    "VAR-1"
+  ]
+}

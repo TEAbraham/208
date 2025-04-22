@@ -1,0 +1,48 @@
+{
+  "question_id": "question-071",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-surveys",
+    "sampling-and-experimentation",
+    "response-bias",
+    "sources-of-bias",
+    "undercoverage-bias",
+    "non-response-bias"
+  ],
+  "title": "Undercoverage Bias: Homework",
+  "difficulty": "Easy",
+  "question_text": "A teacher wants to know the average amount of time a typical student at her school spends per night on homework. The teacher decides to survey $73$ students in AP classes.\nOf the following, which is the most likely example of undercoverage bias?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The students might want to impress the teacher (give those kids an apple) and as a result might exaggerate the amount of time they spend per night on homework."
+    },
+    {
+      "letter": "B",
+      "text": "Students not in AP classes are overlooked in this sampling procedure used to determine who will be surveyed."
+    },
+    {
+      "letter": "C",
+      "text": "The wording of the questions in the survey leads students to respond in a certain way."
+    },
+    {
+      "letter": "D",
+      "text": "The behavior of the teacher encourages students to respond in a certain way."
+    },
+    {
+      "letter": "E",
+      "text": "Many of the students chosen to participate in the survey who do respond might spend a vastly different amount of time on homework than those who do not respond."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-2",
+    "DAT-2.E.3",
+    "DAT-2.E"
+  ]
+}

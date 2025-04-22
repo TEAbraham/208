@@ -1,0 +1,45 @@
+{
+  "question_id": "question-048",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
+  "title": "Significant Results",
+  "difficulty": "Easy",
+  "question_text": "If a hypothesis test is performed and the results are significant at significance level alpha, then",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Alpha = $0.05$."
+    },
+    {
+      "letter": "B",
+      "text": "Alpha is a small value."
+    },
+    {
+      "letter": "C",
+      "text": "The $p$-value is greater than alpha."
+    },
+    {
+      "letter": "D",
+      "text": "The $p$-value is equal to $2$ alpha."
+    },
+    {
+      "letter": "E",
+      "text": "The $p$-value is less than alpha."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.A.2",
+    "DAT-3.A"
+  ]
+}

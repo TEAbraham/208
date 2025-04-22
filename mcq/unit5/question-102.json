@@ -1,0 +1,47 @@
+{
+  "question_id": "question-102",
+  "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "properties"
+  ],
+  "title": "Which Is Normal?",
+  "difficulty": "Hard",
+  "question_text": "Which of the following sampling distributions involving sample means will be approximately normal?\nI. A sample of size $n = 55$ from a population that is strongly skewed right.\nII. A sample of size $n = 20$ from a population that is slightly skewed right with no outliers.\nIII. A sample of size $n = 5$ from a population that is roughly normal.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "II and III only."
+    },
+    {
+      "letter": "E",
+      "text": "I, II, and III."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.H.2",
+    "UNC-3.H.1",
+    "3.C",
+    "UNC-3",
+    "UNC-3.H",
+    "UNC-3.H.3"
+  ]
+}

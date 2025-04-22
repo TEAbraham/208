@@ -1,0 +1,52 @@
+{
+  "question_id": "question-130",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "spread",
+    "univariate-data",
+    "standard-deviation",
+    "summarizing-distributions",
+    "measuring-spread",
+    "exploring-data"
+  ],
+  "title": "Ranking Standard Deviations Based on Histograms",
+  "difficulty": "Medium",
+  "question_text": "The three histograms below represent the distribution of three data sets, each containing the same number of points, ranging from one-ten inclusive. Which of the of the choices ranks the histograms' standard deviations from smallest to largest?\nCreated for Albert.io. Copyright 2017. All rights reserved.\nCreated for Albert.io. Copyright 2017. All rights reserved.\nCreated for Albert.io. Copyright 2017. All rights reserved.",
+  "image_files": [
+    "images/question-130-img1.png",
+    "images/question-130-img2.png",
+    "images/question-130-img3.png"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A\n,\nB\n,\nC"
+    },
+    {
+      "letter": "B",
+      "text": "A\n,\nC\n,\nB"
+    },
+    {
+      "letter": "C",
+      "text": "B\n,\nC\n,\nA"
+    },
+    {
+      "letter": "D",
+      "text": "B\n,\nA\n,\nC"
+    },
+    {
+      "letter": "E",
+      "text": "C\n,\nA\n,\nB"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.M",
+    "UNC-1.M.1",
+    "2.A",
+    "UNC-1"
+  ]
+}

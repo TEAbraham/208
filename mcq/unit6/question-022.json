@@ -1,0 +1,51 @@
+{
+  "question_id": "question-022",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "confidence-interval",
+    "sample-size",
+    "estimation",
+    "statistical-inference",
+    "parameters-margins-error",
+    "1-proportion-z-interval"
+  ],
+  "title": "One Proportion $z$-Interval: Finding the Minimum Sample Size",
+  "difficulty": "Hard",
+  "question_text": "You want to design a study for the proportion of adults who agree with this statement: \"Do you think this coin will land on tails when I flip it?\". You will use a $95\\%$ confidence interval, and you want the margin of error to be $.05$ or less.\nWhat is the minimum sample size that is required for those conditions?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$4$"
+    },
+    {
+      "letter": "B",
+      "text": "$20$"
+    },
+    {
+      "letter": "C",
+      "text": "$39$"
+    },
+    {
+      "letter": "D",
+      "text": "$385$"
+    },
+    {
+      "letter": "E",
+      "text": "$770$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.C.4",
+    "UNC-4.C.3",
+    "3.D",
+    "UNC-4.C.2",
+    "UNC-4.C.1",
+    "UNC-4.C",
+    "UNC-4"
+  ]
+}

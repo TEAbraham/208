@@ -1,0 +1,47 @@
+{
+  "question_id": "question-045",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "confidence-interval",
+    "estimation",
+    "statistical-inference",
+    "least-squares-regression-line",
+    "null-hypothesis"
+  ],
+  "title": "Ice Cream Shop | 1 of 3",
+  "difficulty": "Easy",
+  "question_text": "An owner of a local ice cream shop wishes to determine if a positive linear relationship exists between high temperatures and the shop’s profits recorded that day.\nThe owner recorded sales from the last $50\\text{ days}$ of the summer and performed a linear regression $T$-interval on temperature vs. sales at $95\\%$ confidence.\nThe appropriate degrees of freedom for this situation is",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$25$"
+    },
+    {
+      "letter": "B",
+      "text": "$98$"
+    },
+    {
+      "letter": "C",
+      "text": "$50$"
+    },
+    {
+      "letter": "D",
+      "text": "$49$"
+    },
+    {
+      "letter": "E",
+      "text": "$48$"
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-7.M",
+    "VAR-7",
+    "3.E",
+    "VAR-7.M.2"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-030",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "confidence-interval",
+    "mean",
+    "estimation",
+    "statistical-inference"
+  ],
+  "title": "Connecting to Confidence Intervals",
+  "difficulty": "Hard",
+  "question_text": "Suppose a one-sided (greater than) hypothesis test for a population mean results in a $p$-value of $p = 0.04$.\nIf the same data were used to construct a $90\\%$ confidence interval, would the value from the null hypothesis of our significance test be contained in the confidence interval?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "No. The upper bound of the confidence interval will be less than the value from the null hypothesis."
+    },
+    {
+      "letter": "B",
+      "text": "No. The lower bound of the confidence interval will be greater than the value from the null hypothesis."
+    },
+    {
+      "letter": "C",
+      "text": "Yes. The value from the null hypothesis will be right in the middle of the confidence interval."
+    },
+    {
+      "letter": "D",
+      "text": "Yes, since $90\\%$ or $0.90$ is greater than $0.04$."
+    },
+    {
+      "letter": "E",
+      "text": "There is not enough information given to be able to answer this question."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.P.1",
+    "4.C",
+    "UNC-4",
+    "UNC-4.P"
+  ]
+}

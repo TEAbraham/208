@@ -1,0 +1,44 @@
+{
+  "question_id": "question-006",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "relationships",
+    "variables"
+  ],
+  "title": "Are the Variables Related?",
+  "difficulty": "Medium",
+  "question_text": "Which of the following situations involves two categorical variables that might be related?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A high school student's GPA and the student's favorite subject area."
+    },
+    {
+      "letter": "B",
+      "text": "A high school student's grade level and whether the student carries a backpack."
+    },
+    {
+      "letter": "C",
+      "text": "The SAT score of a high school student and the student's ACT score."
+    },
+    {
+      "letter": "D",
+      "text": "The lunch period a high school student eats and the types of books the student enjoys."
+    },
+    {
+      "letter": "E",
+      "text": "The number of hours a high school student sleeps and the number of times the student is tardy to first period."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-1.D",
+    "VAR-1.D.1",
+    "1.A",
+    "VAR-1"
+  ]
+}

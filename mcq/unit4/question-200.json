@@ -1,0 +1,45 @@
+{
+  "question_id": "question-200",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "probability",
+    "discrete-random-variables"
+  ],
+  "title": "Variable of Interest: Car Color",
+  "difficulty": "Medium",
+  "question_text": "Suppose $30\\%$ of all cars in a certain town are red.\nIf the variable of interest is the number of cars that drive by until a red car is seen, what is the center and shape of this distribution?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Center: $3.33$\nShape: approximately normal"
+    },
+    {
+      "letter": "B",
+      "text": "Center: $3$\nShape: approximately normal"
+    },
+    {
+      "letter": "C",
+      "text": "Center: $3$\nShape: right skewed"
+    },
+    {
+      "letter": "D",
+      "text": "Center: $3$\nShape: normal"
+    },
+    {
+      "letter": "E",
+      "text": "Center: $3.33$\nShape: right skewed"
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.G.1",
+    "4.B",
+    "UNC-3.G",
+    "UNC-3"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-256",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "properties"
+  ],
+  "title": "Probabilities Associated With a Particular $z$-score",
+  "difficulty": "Hard",
+  "question_text": "Suppose a $z$-score was calculated and the value was found to be $k$.\nBased upon the standard normal distribution, which of the following statements is false?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$p\\left( z\\ge k \\right) >p\\left( z > k \\right)$."
+    },
+    {
+      "letter": "B",
+      "text": "$p\\left( z\\ge k \\right) =1-p\\left( z\\le k \\right)$."
+    },
+    {
+      "letter": "C",
+      "text": "$p\\left( z < k \\right) =p\\left( z\\le k \\right)$."
+    },
+    {
+      "letter": "D",
+      "text": "If $k = 0$, the $p(z < k) = 0.50$."
+    },
+    {
+      "letter": "E",
+      "text": "If $k > 0$, then $p\\left( z\\ge k \\right) <0.50$."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2"
+  ]
+}

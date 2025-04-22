@@ -1,0 +1,45 @@
+{
+  "question_id": "question-148",
+  "unit": "AP® Statistics | Unit 6 Assessment",
+  "topics": [
+    "confidence-interval-interpretations",
+    "confidence-interval",
+    "sample-proportion-two"
+  ],
+  "title": "Did the Scores Improve?",
+  "difficulty": "Easy",
+  "question_text": "Ten years ago, $45$ of a teacher's $90$ AP Statistics students scored a $4$ or $5$ on their AP exam. Last year, $50$ of this same teacher's $80$ AP Statistics students did the same. Did this teacher's classes show improvement? Use a $95\\%$ confidence interval to support your answer to the question.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Yes, because the sample proportion values rose from $0.50$ to $0.625$."
+    },
+    {
+      "letter": "B",
+      "text": "Yes, because $0$ is not included in the confidence interval."
+    },
+    {
+      "letter": "C",
+      "text": "Yes, because the two samples are independent of each other."
+    },
+    {
+      "letter": "D",
+      "text": "No, because the sample sizes are not large enough and violate the conditions for the interval."
+    },
+    {
+      "letter": "E",
+      "text": "No, because $0$ is included in the interval."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-4.M",
+    "UNC-4",
+    "UNC-4.M.1"
+  ]
+}

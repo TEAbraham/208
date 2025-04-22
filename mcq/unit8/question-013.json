@@ -1,0 +1,45 @@
+{
+  "question_id": "question-013",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "chi-square-test"
+  ],
+  "title": "Chi-Squared Goodness of Fit Situations",
+  "difficulty": "Easy",
+  "question_text": "A chi-squared goodness of fit test can be used in which of the following situations?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Determine whether snake populations follow a set pattern of proportions relative to acreage in four different types of habitats in a large state park."
+    },
+    {
+      "letter": "B",
+      "text": "Determine whether men earn more income than women do."
+    },
+    {
+      "letter": "C",
+      "text": "Determine if a relationship exists between snake size and number of mice in a certain area."
+    },
+    {
+      "letter": "D",
+      "text": "Determine if at least $15\\%$ of men earned more than $\\$100,000$ this year."
+    },
+    {
+      "letter": "E",
+      "text": "Determine if a relationship exists between drink preference and grade level in high school."
+    }
+  ],
+  "correct_answer": "Choice 'A' is correct; chi-squared goodness of fit tests are performed when testing multiple proportions of the same variable. The variable of interest here is the proportion of snakes in each of the four areas, so four proportions are present.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-8.E.1",
+    "4.C",
+    "VAR-8.E",
+    "VAR-8"
+  ]
+}

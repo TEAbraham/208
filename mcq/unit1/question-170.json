@@ -1,0 +1,48 @@
+{
+  "question_id": "question-170",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "center-spread",
+    "univariate-data",
+    "comparing-distributions",
+    "exploring-data"
+  ],
+  "title": "Lottery Tickets I | 2 of 3",
+  "difficulty": "Medium",
+  "question_text": "Each month for the past year, Barbara and Pauline have purchased $30\\text{ scratch-off lottery tickets}$ each. Barbara always buys Florida Gold scratch-off tickets, and Pauline always buys Lotsa Cash scratch-off tickets.\nThey have kept track of their number of winning tickets each month. Below are the results of the number of tickets that have been winners each month during the $12\\text{ months}$ of their record-keeping. (For ease of calculation, the data have been ordered from smallest to largest, not chronologically.)\nBarbara (Florida Gold) 2 3 3 4 6 6 6 7 7 8 8 14\nPauline (Lotsa Cash) 5 7 7 8 8 8 8 9 9 10 12 17\n\n\nWhich is a true statement when comparing these two distributions?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Barbara (Florida Gold)</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">6</th><th scope=\"col\">6</th><th scope=\"col\">6</th><th scope=\"col\">7</th><th scope=\"col\">7</th><th scope=\"col\">8</th><th scope=\"col\">8</th><th scope=\"col\">14</th></tr></thead><tbody><tr><td>Pauline (Lotsa Cash)</td><td>5</td><td>7</td><td>7</td><td>8</td><td>8</td><td>8</td><td>8</td><td>9</td><td>9</td><td>10</td><td>12</td><td>17</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$Q3$ for Florida Gold equals $Q1$ for Lotsa Cash."
+    },
+    {
+      "letter": "B",
+      "text": "Florida Gold has one outlier, while Lotsa Cash has two outliers."
+    },
+    {
+      "letter": "C",
+      "text": "Florida Gold has a center of about $6$ and a smaller IQR than Lotsa Cash."
+    },
+    {
+      "letter": "D",
+      "text": "Both distributions have the same variability."
+    },
+    {
+      "letter": "E",
+      "text": "Lotsa Cash yields more net profit for Pauline than Florida Gold does for Barbara."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.O",
+    "2.D",
+    "UNC-1.O.1",
+    "UNC-1"
+  ]
+}

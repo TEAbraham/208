@@ -1,0 +1,46 @@
+{
+  "question_id": "question-140",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "difference-two-means",
+    "sampling-distributions"
+  ],
+  "title": "World Geography Test: Find the $p$-Value",
+  "difficulty": "Hard",
+  "question_text": "Can Canadian adults identify more countries of the world on a map than American adults? Researchers tested a random sample of $50$ Canadian adults and a random sample of $50$ American adults.\nOn average, the selected Canadian adults could identify $23.92$ countries with a standard deviation of $4.8$, while Americans in the sample could identify $22.61$ countries with a standard deviation of $6.2$.\nAssuming all conditions are satisfied, what is the $p$-value of the appropriate test?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.12$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.24$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.36$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.76$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.88$"
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.G",
+    "DAT-3.G.1"
+  ]
+}

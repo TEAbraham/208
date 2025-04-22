@@ -1,0 +1,47 @@
+{
+  "question_id": "question-048",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "categorical-data",
+    "conditional-relative-frequencies",
+    "exploring-data"
+  ],
+  "title": "Probability from a Bar Graph",
+  "difficulty": "Medium",
+  "question_text": "Just for fun, Isabella decided to survey several of her friends to determine what language they were studying at school. All of Isabella's friends that were surveyed reported studying one and only one language. The results are shown in the bar graph below.\nCreated for Albert.io. Copyright 2016. All rights reserved.\nIf $2$ of Isabella's friends are selected at random from among those surveyed, which of the following shows how to calculate the probability that both said \"Italian\"?",
+  "image_files": [
+    "images/question-048-img1.PNG"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$\\dfrac{9}{60}$"
+    },
+    {
+      "letter": "B",
+      "text": "$2{ \\left( \\dfrac { 9 }{ 60 } \\right) }$"
+    },
+    {
+      "letter": "C",
+      "text": "${ \\left( \\dfrac { 9 }{ 60 } \\right) }^{ 2 }$"
+    },
+    {
+      "letter": "D",
+      "text": "$\\left( \\dfrac { 9 }{ 60 } \\right) \\left( \\dfrac { 8 }{ 59 } \\right) $"
+    },
+    {
+      "letter": "E",
+      "text": "$\\dfrac { (9)(8) }{ 60 } $"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "3.A",
+    "VAR-4.D.2",
+    "VAR-4",
+    "VAR-4.D"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "question_id": "question-119",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "difference-two-means"
+  ],
+  "title": "Degrees of Freedom",
+  "difficulty": "Easy",
+  "question_text": "What is an appropriate number of degrees of freedom to use when conducting a two-sample $t$-test for the difference between two means?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$n – 1$, where $n$ is the number of different populations."
+    },
+    {
+      "letter": "B",
+      "text": "$n – 1$, where $n$ is the larger of the two sample sizes."
+    },
+    {
+      "letter": "C",
+      "text": "$n – 1$, where $n$ is the smaller of the two sample sizes."
+    },
+    {
+      "letter": "D",
+      "text": "$n – 1$, where $n$ is the total number of observations in both samples combined."
+    },
+    {
+      "letter": "E",
+      "text": "$n – 2$, where $n$ is the total number of observations in both samples combined."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-7",
+    "1.E",
+    "VAR-7.F",
+    "VAR-7.F.1"
+  ]
+}

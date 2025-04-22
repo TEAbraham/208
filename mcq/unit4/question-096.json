@@ -1,0 +1,49 @@
+{
+  "question_id": "question-096",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "calculating-probability",
+    "anticipating-patterns",
+    "independence",
+    "probability"
+  ],
+  "title": "Town Budget",
+  "difficulty": "Hard",
+  "question_text": "Vote Male Female Total\nYes 2,304 3,024 5,328\nNo 3,156 2,016 5,172\nTotal 5,460 5,040 10,500\n\n\nIn a small town, $10{,}500$ residents were asked to vote whether they were in favor of increasing the budget to pay for a new local library. The responses were broken down by gender and are shown in the table above.\nIs the event “in favor of increase” independent of gender?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Vote</th><th scope=\"col\">Male</th><th scope=\"col\">Female</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Yes</td><td>2,304</td><td>3,024</td><td>5,328</td></tr><tr><td>No</td><td>3,156</td><td>2,016</td><td>5,172</td></tr><tr><td>Total</td><td>5,460</td><td>5,040</td><td>10,500</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "No, the two events are not mutually exclusive; therefore, they cannot be independent."
+    },
+    {
+      "letter": "B",
+      "text": "Yes, the two events are mutually exclusive and collectively exhaustive; therefore, they must be independent."
+    },
+    {
+      "letter": "C",
+      "text": "No, because $P(\\text{increase}) = 0.5075$ and the $P(\\text{increase | male}) = 0.2195$."
+    },
+    {
+      "letter": "D",
+      "text": "No, because $P(\\text{increase}) = 0.5075$ and the $P(\\text{increase | male}) = 0.4222$."
+    },
+    {
+      "letter": "E",
+      "text": "Yes, because $P(\\text{increase}) \\cdot P(\\text{male}) = 0.2639$ and $P(\\text{increase})\\cdot P(\\text{female}) = 0.2436$."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-4.E.3",
+    "VAR-4.E",
+    "3.A",
+    "VAR-4",
+    "VAR-4.E.4"
+  ]
+}

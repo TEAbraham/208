@@ -1,0 +1,49 @@
+{
+  "question_id": "question-114",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "p-value",
+    "tests-of-significance",
+    "statistical-inference",
+    "difference-two-means",
+    "2-sample-t-test",
+    "alternative-hypothesis",
+    "null-hypothesis"
+  ],
+  "title": "Statistical Power: U.S. and China",
+  "difficulty": "Medium",
+  "question_text": "A randomized experiment was performed to determine whether the average miles per gallon of cars manufactured in the U.S.A. is different than the average miles per gallon of cars manufactured in China.\nWhich of the following describes the statistical power in the context of the situation?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The probability that the test concludes that there is a difference in average miles per gallon for cars manufactured in the U.S.A compared to China, when actually the average mile per gallon for cars manufactured in the U.S.A. compared to China is the same."
+    },
+    {
+      "letter": "B",
+      "text": "The probability that the test correctly concludes that there is a difference in the average miles per gallon for cars manufactured in the U.S.A compared to China."
+    },
+    {
+      "letter": "C",
+      "text": "The probability that the test concludes that the average miles per gallon for cars manufactured in the U.S.A compared to China is not different, when actually there is a difference."
+    },
+    {
+      "letter": "D",
+      "text": "The probability that the test correctly concludes that the average miles per gallon for cars manufactured in the U.S.A compared to China is not different."
+    },
+    {
+      "letter": "E",
+      "text": "The probability that the test concludes that the average miles per gallon for cars manufactured in the U.S.A. compared to China is the same when actually there is a difference."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.AB",
+    "UNC-4.AB.1",
+    "UNC-4",
+    "4.A"
+  ]
+}

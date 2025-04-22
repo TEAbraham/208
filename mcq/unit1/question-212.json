@@ -1,0 +1,53 @@
+{
+  "question_id": "question-212",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "model-for-measurements",
+    "z-score",
+    "probability"
+  ],
+  "title": "Normal Distribution: What Percentile Does Your Car Fall In?",
+  "difficulty": "Easy",
+  "question_text": "The weight of a particular type of car follows a normal distribution with a mean weight of $2970\\text{ pounds}$ and a standard deviation of $840\\text{ pounds}$.\nAbout thirty-two percent of cars of this type weigh below what value?",
+  "image_files": [
+    "images/question-212-img1.PNG",
+    "images/question-212-img2.PNG"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$1414.2\\text{ pounds}$"
+    },
+    {
+      "letter": "B",
+      "text": "$2130\\text{ pounds}$"
+    },
+    {
+      "letter": "C",
+      "text": "$2577.2\\text{ pounds}$"
+    },
+    {
+      "letter": "D",
+      "text": "$3238.8\\text{ pounds}$"
+    },
+    {
+      "letter": "E",
+      "text": "$3362.9\\text{ pounds}$"
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2",
+    "VAR-2.B.3"
+  ]
+}

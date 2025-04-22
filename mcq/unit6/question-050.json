@@ -1,0 +1,45 @@
+{
+  "question_id": "question-050",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
+  "title": "Laptop Battery Life: Interpreting a $p$-Value",
+  "difficulty": "Easy",
+  "question_text": "When Carter bought his new laptop computer, the sales person told him that the average battery life was $5$ hours and that the number of hours of battery life is approximately normally distributed. After using the computer for a few days, Carter began to have his doubts. The next $10$ times that Carter used his computer, he kept track of how long it took for the battery to drain. The sample average was $4.25$.\nConducting a one-sided significance test, he found the $p$-value to be $0.038$.\nWhat is the best way to interpret this $p$-value in the context of this situation?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A $p$-value as small as $0.038$ gives Carter good reason to doubt that the average battery life of his laptop really is $5$ hours."
+    },
+    {
+      "letter": "B",
+      "text": "If the average battery life really is $5$ hours, then a sample of $10$ observations having a sample mean of $4.25$ hours or lower would only occur about $3.8\\%$ of the time."
+    },
+    {
+      "letter": "C",
+      "text": "When $10$ observations are made, the battery life will be as low as $4.25$ hours in $3.8\\%$ of the observations."
+    },
+    {
+      "letter": "D",
+      "text": "There is a $3.8\\%$ chance that Carter's laptop computer battery will last for $4.25$ hours anytime he uses it."
+    },
+    {
+      "letter": "E",
+      "text": "Only $3.8\\%$ of all laptop batteries will last as long as $5$ hours."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "DAT-3",
+    "DAT-3.A.2",
+    "DAT-3.A"
+  ]
+}

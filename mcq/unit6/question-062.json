@@ -1,0 +1,47 @@
+{
+  "question_id": "question-062",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "standard-error",
+    "proportion"
+  ],
+  "title": "Sample Size: Effect on $Z$-Statistic and $P$-Value",
+  "difficulty": "Hard",
+  "question_text": "Miguel conducted a one-sample $z$-test for a population proportion. Later, he realized that while he had correctly computed the sample proportion (which was larger than his hypothesized proportion), he had incorrectly recorded the sample size when calculating the standard error. In reality, the actual sample size was smaller than the sample size he had used in his calculation.\nIf Miguel revises his calculation of standard error to decrease the sample size, which of the following describes the effect upon the $z$-statistic and the corresponding $p$-value?\nNote: his alternative hypothesis is that $p > p_0$",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Both the $z$-statistic and the $p$-value will remain unchanged."
+    },
+    {
+      "letter": "B",
+      "text": "Both the $z$-statistic and the $p$-value will decrease."
+    },
+    {
+      "letter": "C",
+      "text": "Both the $z$-statistic and the $p$-value will increase."
+    },
+    {
+      "letter": "D",
+      "text": "The $z$-statistic will decrease and the $p$-value will increase."
+    },
+    {
+      "letter": "E",
+      "text": "The $z$-statistic will increase and the $p$-value will decrease."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-6.G.1",
+    "3.E",
+    "VAR-6.G",
+    "VAR-6",
+    "VAR-6.G.2"
+  ]
+}

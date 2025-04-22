@@ -1,0 +1,47 @@
+{
+  "question_id": "question-031",
+  "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sampling-distributions",
+    "central-limit-theorem"
+  ],
+  "title": "Football Players' Salaries",
+  "difficulty": "Easy",
+  "question_text": "A histogram of the salaries of all professional football players is skewed right. Repeated samples of $50\\text{ salaries}$ are drawn and the means are calculated.\nThe _______________ assures us that a dotplot of these means will be nearly normal in shape.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Law of large numbers."
+    },
+    {
+      "letter": "B",
+      "text": "Law of averages."
+    },
+    {
+      "letter": "C",
+      "text": "Law of diminishing returns."
+    },
+    {
+      "letter": "D",
+      "text": "Central limit theorem."
+    },
+    {
+      "letter": "E",
+      "text": "Law of independence."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.H.2",
+    "UNC-3.H.1",
+    "3.C",
+    "UNC-3",
+    "UNC-3.H",
+    "UNC-3.H.3"
+  ]
+}

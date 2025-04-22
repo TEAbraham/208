@@ -1,0 +1,44 @@
+{
+  "question_id": "question-017",
+  "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "drawing-conclusions",
+    "sampling-and-experimentation"
+  ],
+  "title": "Data Analysis: Free Throws",
+  "difficulty": "Easy",
+  "question_text": "Jimmy, a high school basketball star, has a life-long free throw rate of $45\\%$.\nJimmy spent the last off-season working especially hard to improve his free-throw percentage. During the first game of the season, he connected on three of his first four free throws.\nWhat conclusions can be made concerning Jimmy’s free-throw shooting ability?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Since $3$ of $4 = 75\\%$, it is clear that Jimmy has improved his free-throw percentage."
+    },
+    {
+      "letter": "B",
+      "text": "Since the sample size is so low, we have strong evidence Jimmy is still a $45\\%$-free-throw shooter."
+    },
+    {
+      "letter": "C",
+      "text": "No reasonable conclusions can be drawn since the sample size is so low."
+    },
+    {
+      "letter": "D",
+      "text": "Free throws can hardly be treated as a simple random sample; therefore, this data cannot be trusted."
+    },
+    {
+      "letter": "E",
+      "text": "Jimmy is clearly not a $45\\%$-free-throw shooter based off the evidence."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.B",
+    "UNC-3.M.1",
+    "UNC-3",
+    "UNC-3.M"
+  ]
+}

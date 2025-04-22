@@ -1,0 +1,48 @@
+{
+  "question_id": "question-072",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "graphical-displays-of-data",
+    "univariate-data",
+    "exploring-data",
+    "shape"
+  ],
+  "title": "Mean vs. Median",
+  "difficulty": "Hard",
+  "question_text": "Consider the histogram below.\nCreated for Albert.io. Copyright 2017. All rights reserved.\nApproximately where, on the graph, is the median compared to the mean?",
+  "image_files": [
+    "images/question-072-img1.jpg"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The median will be to the left of the mean due to the left skewness."
+    },
+    {
+      "letter": "B",
+      "text": "The median will be to the right of the mean due to the left skewness."
+    },
+    {
+      "letter": "C",
+      "text": "The median will be to the left of the mean due to the high outliers."
+    },
+    {
+      "letter": "D",
+      "text": "The median will be to the left of the mean due to the right skewness"
+    },
+    {
+      "letter": "E",
+      "text": "The median and the mean will be in the exact same spot in this case since the distribution is roughly normal."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.H",
+    "2.D",
+    "UNC-1.H.3",
+    "UNC-1"
+  ]
+}

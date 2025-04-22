@@ -1,0 +1,47 @@
+{
+  "question_id": "question-032",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "chi-square-test",
+    "chi-square-goodness-of-fit"
+  ],
+  "title": "Calculator Troubles with Goodness of Fit",
+  "difficulty": "Medium",
+  "question_text": "Jovita was researching demographics online and found the following information about the distribution of races in her town.\nWhite Non-Hispanic: $81.5\\%$\nBlack: $2.1\\%$\nAmerican Indian and Alaska Native: $0.0\\%$\nAsian: $10.5\\%$\nNative Hawaiian and Other Pacific Islander: $0.0\\%$\nHispanic or Latino: $4.8\\%$\nTwo or more races: $1.0\\%$\nSome other race: $0.1\\%$\nShe wondered whether the information was correct and decided to investigate. A random sample of $245$ residents in her town (population $47,238$) provides the following counts for each category:\nWhite Non-Hispanic: $181$\nBlack: $8$\nAmerican Indian and Alaska Native: $5$\nAsian: $28$\nNative Hawaiian and Other Pacific Islander: $5$\nHispanic or Latino: $14$\nTwo or more races: $2$\nSome other race: $2$\nJovita entered the actual counts into List $1$ in her $TI84$ calculator and entered the expected counts into List $2$ after applying the appropriate percentages. While she noticed that not all expected counts were above $5$, she remembered her AP Statistics teacher telling her that she should proceed cautiously with an appropriate test even if one of the conditions for performing the test was violated. She then asked the calculator to perform a ${ \\chi }^{ 2 }$ GOF Test but the calculator returned an error message.\nWhat went wrong?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Jovita must have incorrectly entered one of the values into her calculator. This is the only possible explanation for the error message."
+    },
+    {
+      "letter": "B",
+      "text": "Jovita should have been using a different type of test. The calculator returned an error message because a Goodness of Fit Test is not appropriate."
+    },
+    {
+      "letter": "C",
+      "text": "The calculated $p$-value would be greater than $1$. Since this is not possible, the calculator returned an error message."
+    },
+    {
+      "letter": "D",
+      "text": "The calculator was returning an error message because the $p$-value was so incredibly close to $0$ that the calculator ran out of room to deal with the scientific notation."
+    },
+    {
+      "letter": "E",
+      "text": "The ${ \\chi }^{ 2 }$ statistic cannot be calculated because two of the expected counts are $0$."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3",
+    "DAT-3.J",
+    "DAT-3.J.1",
+    "DAT-3.J.2"
+  ]
+}

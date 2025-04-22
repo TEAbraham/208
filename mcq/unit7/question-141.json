@@ -1,0 +1,46 @@
+{
+  "question_id": "question-141",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "difference-two-means"
+  ],
+  "title": "Drawing Conclusions: Employee Experience",
+  "difficulty": "Hard",
+  "question_text": "Two large supermarket chains are interested in comparing the experience, in years, that their employees have. The summary statistics are below:\nStore $1$ : mean = $5.4, { S }_{ x }= 3.2, n = 34 $\nStore $2$ : mean = $6.1, { S }_{ x }= 3.6, n = 36$\nWhen performing a two-sample $T$-test on $H_0: { u }_{ 1 }={ u }_{ 2 }$ versus $H_a: { u }_{ 1 } < { u }_{ 2 } $, what conclusion can be made?\nDefine ${ u }_{ 1 }$ as the average experience at store $1$, and ${ u }_{ 2 }$ as the average experience at store $2$.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Evidence exists that the stores’ employees have the same amount of experience, at the $10\\%$ level."
+    },
+    {
+      "letter": "B",
+      "text": "Evidence exists that the second has employees with more experience than those at the first store, significant at the $10\\%$ level, but not at the $5\\%$ or $1\\%$ levels."
+    },
+    {
+      "letter": "C",
+      "text": "Evidence exists the second store has employees with more experience than those at the first store $1$, significant at the $5\\%$ level."
+    },
+    {
+      "letter": "D",
+      "text": "There is insufficient evidence that employees at the second store have more experience than those at the first store, at the $10\\%$ level."
+    },
+    {
+      "letter": "E",
+      "text": "There is no evidence of there not being a difference in employee experience between the two stores, at the $10\\%$ level."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.H.1",
+    "DAT-3",
+    "DAT-3.H",
+    "DAT-3.H.2"
+  ]
+}

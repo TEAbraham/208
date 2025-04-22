@@ -1,0 +1,51 @@
+{
+  "question_id": "question-081",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "tests-of-significance",
+    "statistical-inference",
+    "chi-square-distribution",
+    "chi-square-test",
+    "random-sampling",
+    "chi-square-independence"
+  ],
+  "title": "${ \\chi}^{2}$ Independence: Relationships or Grades?",
+  "difficulty": "Hard",
+  "question_text": "A student wondered if there was an association between relationship status and overall letter grade (based on grade point average) at her high school. She used a stratified random sample to select $20$ students within each letter grade. The information is displayed in the table below.\nLetter Grade In a relationship Not in a relationship Total\nA 8 12 20\nB 11 9 20\nC 13 7 20\nD 10 10 20\nF 6 14 20\nTotal 48 52 100\n\n\nA ${ \\chi}^{2}$ test of independence was conducted to determine whether the data above provides convincing evidence of an association between relationship status and overall letter grade. The ${ \\chi}^{2}$ test statistic was $5.849$ with a $p$-value of $0.211$. Which of the following statements is true?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\">Letter Grade</th><th scope=\"col\">In a relationship</th><th scope=\"col\">Not in a relationship</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>A</td><td>8</td><td>12</td><td>20</td></tr><tr><td>B</td><td>11</td><td>9</td><td>20</td></tr><tr><td>C</td><td>13</td><td>7</td><td>20</td></tr><tr><td>D</td><td>10</td><td>10</td><td>20</td></tr><tr><td>F</td><td>6</td><td>14</td><td>20</td></tr><tr><td>Total</td><td>48</td><td>52</td><td>100</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "No relevant conclusion can be made because the data is not normally distributed."
+    },
+    {
+      "letter": "B",
+      "text": "Since the $p$-value is greater than the significance level of $\\alpha =0.05$, there is sufficient evidence to suggest relationship status and overall letter grade are independent."
+    },
+    {
+      "letter": "C",
+      "text": "Since the $p$-value is greater than the significance level of $\\alpha =0.05$, there is sufficient evidence to suggest relationship status and overall letter grade are dependent."
+    },
+    {
+      "letter": "D",
+      "text": "Since the $p$-value is greater than the significance level of $\\alpha =0.05$, there is insufficient evidence to suggest an association between relationship status and overall letter grade."
+    },
+    {
+      "letter": "E",
+      "text": "Since the $p$-value is greater than the significance level of $\\alpha =0.05$, there is sufficient evidence to suggest an association between relationship status and overall letter grade."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3.L",
+    "DAT-3",
+    "DAT-3.L.2",
+    "DAT-3.L.1"
+  ]
+}

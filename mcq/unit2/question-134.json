@@ -1,0 +1,44 @@
+{
+  "question_id": "question-134",
+  "unit": "AP® Statistics | Unit 2 Assessment",
+  "topics": [
+    "correlation",
+    "linear"
+  ],
+  "title": "Touchdown Correlation",
+  "difficulty": "Hard",
+  "question_text": "As the sport of football grows, teams are becoming increasingly interested in using statistics to better their teams. In a typical football game, a touchdown scored by a team is worth $6$ points. Suppose a team wants to make a graph for the number of touchdowns scored and points scored for their team.\nWhich of the following would be the correlation for this data, assuming there are no extra points scored after each touchdown?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.06$"
+    },
+    {
+      "letter": "B",
+      "text": "$6$"
+    },
+    {
+      "letter": "C",
+      "text": "$-1$"
+    },
+    {
+      "letter": "D",
+      "text": "$1$"
+    },
+    {
+      "letter": "E",
+      "text": "$0$"
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "The correlation, $r$, gives the direction and quantifies the strength of the linear association between two quantitative variables. A correlation is considered strong if its value is close to $1$ or $-1$.\n\nIn this case, as the number of touchdowns increases, the number of points will increase by a constant $6$. For example,\n\nSince points are increasingly constantly, the graph would be perfectly linear in a positive direction, as both variables are increasing. Therefore, the correlation would be $r = 1$.\n\nChoice 'D' is correct.",
+  "explanations": {},
+  "tags": [
+    "2.C",
+    "DAT-1",
+    "DAT-1.B.1",
+    "DAT-1.B"
+  ]
+}

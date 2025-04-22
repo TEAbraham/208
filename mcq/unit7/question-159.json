@@ -1,0 +1,45 @@
+{
+  "question_id": "question-159",
+  "unit": "AP® Statistics | Unit 7 Assessment",
+  "topics": [
+    "confidence-interval-interpretations",
+    "margin-of-error",
+    "confidence-interval"
+  ],
+  "title": "More Weight Loss?",
+  "difficulty": "Medium",
+  "question_text": "A consumer products company was looking at two weight loss regimens: the Moon and Teko diet programs. $32$ users of each program were selected at random and their weight loss was recorded over a three-month period.\nThose on the Moon regimen had an average weight loss of $12.9$ pounds with a standard deviation of $2.3$ pounds, while those on the Teko diet had an average weight loss of $13.8$ pounds with a standard deviation of $2.4$ pounds. The analyst working with the data came out with a $95\\%$ confidence interval of $(-2.10, 0.30)$. She wondered that if the study was run again, what the effects of sample size would be?\nWhich of the following would decrease the width of the confidence interval and show more clearly that one diet program produced more weight loss than the other (assuming all other values remained the same)?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Halve the sample sizes and sample $16$ people from each diet program."
+    },
+    {
+      "letter": "B",
+      "text": "Double the sample sizes and sample $64$ people from each diet program."
+    },
+    {
+      "letter": "C",
+      "text": "Increase the sample sizes to $50$ people from each diet program."
+    },
+    {
+      "letter": "D",
+      "text": "Increase the Moon sample to $50$ people and keep the Teko sample size at $32$."
+    },
+    {
+      "letter": "E",
+      "text": "Decrease the Teko sample to $16$ people and keep the Moon sample size at $32$."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.AB",
+    "UNC-4.AB.1",
+    "UNC-4",
+    "4.A"
+  ]
+}

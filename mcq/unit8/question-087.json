@@ -1,0 +1,46 @@
+{
+  "question_id": "question-087",
+  "unit": "AP® Statistics | Unit 8 Assessment",
+  "topics": [
+    "significance-tests",
+    "goodness-of-fit",
+    "inference",
+    "chi-square-goodness-of-fit"
+  ],
+  "title": "Choosing the Correct Significance Test",
+  "difficulty": "Medium",
+  "question_text": "Sarah loves Skittles and treats herself to a bag every Friday after school. Her favorite Skittle is the red one and she wonders if the distribution of all Skittle colors is equal in proportion. Consider a standard package of Skittles in which there are five different colors: red, orange, yellow, green, and purple.\nWhich of the following is the most appropriate significance test Sarah can use to test the claim that the distribution of all Skittle colors is equal in proportion?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A chi-square test of association"
+    },
+    {
+      "letter": "B",
+      "text": "A $1$-sample $z$ test for a population proportion"
+    },
+    {
+      "letter": "C",
+      "text": "A $1$-sample $z$ test for a population average"
+    },
+    {
+      "letter": "D",
+      "text": "A chi-square test for goodness of fit"
+    },
+    {
+      "letter": "E",
+      "text": "A $2$-sample $z$ test for the difference in population proportions"
+    }
+  ],
+  "correct_answer": "Choice ‘D’ is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-8.C",
+    "VAR-8.C.1",
+    "VAR-8",
+    "1.E"
+  ]
+}

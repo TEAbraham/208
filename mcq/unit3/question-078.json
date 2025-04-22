@@ -1,0 +1,45 @@
+{
+  "question_id": "question-078",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "random-assignment",
+    "experiment"
+  ],
+  "title": "Randomly Selected",
+  "difficulty": "Easy",
+  "question_text": "Pat and Amy are doing an experiment for their AP Statistics final project. They will be splitting their volunteers into two groups, Group $A$ and Group $B$.\nWhich of the following methods will not result in randomly selected groups?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Assigning numbers to all volunteers then using a random number generator to get the two groups."
+    },
+    {
+      "letter": "B",
+      "text": "Placing all names on equal slips of paper and drawing two groups out of a hat."
+    },
+    {
+      "letter": "C",
+      "text": "Assigning numbers to all volunteers and using a random digit table."
+    },
+    {
+      "letter": "D",
+      "text": "Using a coin and assigning \"Heads\" to Group $A$ and \"Tails\" to Group $B$."
+    },
+    {
+      "letter": "E",
+      "text": "Pat and Amy will alternate selecting members for Group $A$ and Group $B$."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "In a completely randomized experiment, treatments are assigned to experimental units completely at random. Using random assignment will hopefully balance the effects of the uncontrolled (confounding) variables so we can attribute the difference in the response to the treatments.\n\nMethods for randomly assigning treatments in experimental units in a completely randomized design must have a chance process involved. Some examples of methods are using a random number generator, a random digit table, drawing names out of a hat, etc. The only choice above that won't result in random assignment is Choice 'E'.\n\nChoice 'E' is correct.",
+  "explanations": {},
+  "tags": [
+    "VAR-3",
+    "VAR-3.C.2",
+    "1.C",
+    "VAR-3.C.1",
+    "VAR-3.C"
+  ]
+}

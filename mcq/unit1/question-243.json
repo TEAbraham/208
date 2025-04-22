@@ -1,0 +1,51 @@
+{
+  "question_id": "question-243",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "model-for-measurements",
+    "z-score",
+    "probability"
+  ],
+  "title": "Normal Distribution: Calculus Exam",
+  "difficulty": "Medium",
+  "question_text": "Free-response questions on the AP Calculus Exam are scored $0$ through $9$. A question on one of the previous exams had an average score of $3.10$ with a standard deviation of $2.45$.\nWhat was the approximate score achieved by a student that would put him or her in the $87$th percentile on this question?\nYou may assume the scores on this question are approximately normally distributed.",
+  "image_files": [
+    "images/question-243-img1.PNG",
+    "images/question-243-img2.PNG"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.34$"
+    },
+    {
+      "letter": "B",
+      "text": "$0.97$"
+    },
+    {
+      "letter": "C",
+      "text": "$1.74$"
+    },
+    {
+      "letter": "D",
+      "text": "$5.23$"
+    },
+    {
+      "letter": "E",
+      "text": "$5.86$"
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2"
+  ]
+}

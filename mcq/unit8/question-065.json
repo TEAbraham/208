@@ -1,0 +1,51 @@
+{
+  "question_id": "question-065",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [
+    "categorical-data",
+    "probability",
+    "two-way-tables",
+    "exploring-data"
+  ],
+  "title": "Early Birds and Night Owls: Distribution by Gender",
+  "difficulty": "Medium",
+  "question_text": "Joe is an early bird. He is up at the crack of dawn and ready to begin his day! His sister, Eve, however, is a night owl. She is awake and active well into the night but hates getting up the next morning.\nJoe and Eve started to wonder whether gender has anything to do with preferences for morning or night. To investigate, they interviewed a random sample of individuals and asked them to identify themselves as being either more of an early bird or more of a night owl. The results of their survey are organized in the two-way table below:\nEarly Bird Night Owl\nMale 48 46\nFemale 47 53\n\n\nIf gender and preference for time of day are independent, which of the following statements is most likely not true?",
+  "image_files": [],
+  "tables": [
+    "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Early Bird</th><th scope=\"col\">Night Owl</th></tr></thead><tbody><tr><td>Male</td><td>48</td><td>46</td></tr><tr><td>Female</td><td>47</td><td>53</td></tr></tbody></table>"
+  ],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A ${\\chi}^{2}$ test for association will return a $p$-value that is statistically insignificant."
+    },
+    {
+      "letter": "B",
+      "text": "A $2$-sample $z$-test for a difference in the proportion of female night owls vs. the proportion of male night owls will return a $p$-value that is statistically insignificant."
+    },
+    {
+      "letter": "C",
+      "text": "The expected count for males who are early birds is $46.03$."
+    },
+    {
+      "letter": "D",
+      "text": "The expected count for females who are night owls is greater than the actual count of females who said they were more of a night owl."
+    },
+    {
+      "letter": "E",
+      "text": "If a surveyed individual said they were more of an early bird, the probability that the individual was male is $\\frac{47}{97}$."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-8.J.2",
+    "VAR-8.L",
+    "VAR-8.I",
+    "VAR-8.I.2",
+    "VAR-8.L.1",
+    "3.E",
+    "VAR-8"
+  ]
+}

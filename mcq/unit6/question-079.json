@@ -1,0 +1,46 @@
+{
+  "question_id": "question-079",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "type-2-error",
+    "logic",
+    "tests-of-significance",
+    "statistical-inference"
+  ],
+  "title": "Reducing Type II Errors",
+  "difficulty": "Medium",
+  "question_text": "Which of the following statements is/are true given the following situation?\nWhen performing a two-sample $T$-test, possible ways to reduce the probability of a type II error would be to\nI. Increase alpha.\nII. Increase sample size.\nIII. Use a matched pairs experimental design.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and II only."
+    },
+    {
+      "letter": "E",
+      "text": "II and III only."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-5.C.1",
+    "UNC-5",
+    "UNC-5.C",
+    "4.A"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "question_id": "question-025",
+  "unit": "Unit 5 | Sampling Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "sample-proportion",
+    "sampling-distributions"
+  ],
+  "title": "Voter Participation",
+  "difficulty": "Easy",
+  "question_text": "A political polling company wants to know what percent of a particular city’s population votes in a general election.\nA week before the election, the company asks $100$ registered voters if they intend to cast a ballot, and $72\\%$ of them say yes. Three days after the election, city officials state that $67\\%$ of registered voters cast ballots during the election.\nWhat can be said about the two percentages?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$72\\%$ is a statistic; $67\\%$ is a parameter."
+    },
+    {
+      "letter": "B",
+      "text": "$72\\%$ is a parameter; $67\\%$ is a statistic."
+    },
+    {
+      "letter": "C",
+      "text": "$72\\%$ and $67\\%$ are both statistics."
+    },
+    {
+      "letter": "D",
+      "text": "$72\\%$ and $67\\%$ are both parameters."
+    },
+    {
+      "letter": "E",
+      "text": "Without information about the standard deviations, one cannot say with certainty that either of these percentages is a statistic or a parameter."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.J",
+    "UNC-3.J.1",
+    "UNC-3.J.2",
+    "UNC-3",
+    "3.B"
+  ]
+}

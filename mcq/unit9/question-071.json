@@ -1,0 +1,47 @@
+{
+  "question_id": "question-071",
+  "unit": "Unit 9 | Inference for Quantitative Data: Slopes",
+  "topics": [
+    "correlation",
+    "bivariate-data",
+    "exploring-data"
+  ],
+  "title": "Age vs. Test Score on Standardized Test",
+  "difficulty": "Hard",
+  "question_text": "Suppose all students took a standardized test at a local school.\nThe students were between ages $8$ and $12\\text{ years old}$.\nLinear regression was performed on age vs. test score. The computer output is below:\nCreated for Albert.io. Copyright 2017. All rights reserved.\nWhich of the following statements is true?",
+  "image_files": [
+    "images/question-071-img1.jpg"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There is insufficient evidence to suggest a linear relationship between age and test scores."
+    },
+    {
+      "letter": "B",
+      "text": "According to this model, we can expect students will increase their score by an average of 0.4349 points per year\non this test."
+    },
+    {
+      "letter": "C",
+      "text": "According to this model, we can expect students will increase their score by an average of 7.8151 points per year\n."
+    },
+    {
+      "letter": "D",
+      "text": "This model would be appropriate to use to predict scores of college age students."
+    },
+    {
+      "letter": "E",
+      "text": "The\np\n-value indicates no relationship between age and score."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "2.C",
+    "DAT-1",
+    "DAT-1.B.1",
+    "DAT-1.B"
+  ]
+}

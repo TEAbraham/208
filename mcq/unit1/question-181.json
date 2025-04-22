@@ -1,0 +1,48 @@
+{
+  "question_id": "question-181",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "boxplots",
+    "summarizing-distributions",
+    "exploring-data"
+  ],
+  "title": "Gender and Heights",
+  "difficulty": "Medium",
+  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved.\nHeights of men and women were measured, and the modified box plot above was constructed. The male heights are represented in the top box plot, and the female heights are represented in the bottom one.\nWhich of the following statements is true?",
+  "image_files": [
+    "images/question-181-img1.png"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Men have greater variability in their heights than women do."
+    },
+    {
+      "letter": "B",
+      "text": "The male height distribution appears roughly symmetrical."
+    },
+    {
+      "letter": "C",
+      "text": "The female height distribution appears right skewed."
+    },
+    {
+      "letter": "D",
+      "text": "The tallest woman is taller than roughly half of all the men measured."
+    },
+    {
+      "letter": "E",
+      "text": "There are two men who are shorter than all of the women measured."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.N.1",
+    "2.D",
+    "UNC-1.N",
+    "UNC-1"
+  ]
+}

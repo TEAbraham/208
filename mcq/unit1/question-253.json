@@ -1,0 +1,47 @@
+{
+  "question_id": "question-253",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "model-for-measurements"
+  ],
+  "title": "Zack and Nick",
+  "difficulty": "Hard",
+  "question_text": "Zack takes the SAT, and his best friend, Nick, takes the ACT.\nZack’s SAT Math score is $680$, and Nick’s ACT Math score is $27$. SAT Math scores in the county are normally distributed with a mean of $500$ and a standard deviation of $100$. ACT Math scores in the county are also normally distributed but with a mean of $18$ and a standard deviation of $6$.\nAssuming that both tests measure the same kind of ability, who has scored better relative to their peers?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Zack, because his score is higher than Nick’s."
+    },
+    {
+      "letter": "B",
+      "text": "Zack, because his standardized score is higher than Nick’s."
+    },
+    {
+      "letter": "C",
+      "text": "Nick, because ACT math is more difficult than SAT math."
+    },
+    {
+      "letter": "D",
+      "text": "Nick, because his standardized score is higher than Zack’s."
+    },
+    {
+      "letter": "E",
+      "text": "A valid comparison cannot be made between these two scores."
+    }
+  ],
+  "correct_answer": "Choice 'B' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.C.1",
+    "2.D",
+    "VAR-2.C",
+    "VAR-2"
+  ]
+}

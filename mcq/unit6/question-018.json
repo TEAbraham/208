@@ -1,0 +1,46 @@
+{
+  "question_id": "question-018",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "estimation",
+    "statistical-inference",
+    "sample-proportion",
+    "parameters-margins-error"
+  ],
+  "title": "NFL Viewership",
+  "difficulty": "Medium",
+  "question_text": "In a survey on NFL viewership, $589$ subjects were asked if they watch NFL football on a regular basis during the season. In this survey, $43\\%$ responded favorably, with a margin of error of $4\\%$.\nThe confidence interval used in this situation is a",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$95\\%$ confidence one-proportion $Z$-interval."
+    },
+    {
+      "letter": "B",
+      "text": "$99\\%$ confidence one-proportion $Z$-interval."
+    },
+    {
+      "letter": "C",
+      "text": "$95\\%$ confidence one-sample $T$-interval."
+    },
+    {
+      "letter": "D",
+      "text": "$90\\%$ confidence proportion $Z$-interval."
+    },
+    {
+      "letter": "E",
+      "text": "Cannot be determined with the given information."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-4.A",
+    "UNC-4.A.1",
+    "UNC-4",
+    "1.D"
+  ]
+}

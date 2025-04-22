@@ -1,0 +1,53 @@
+{
+  "question_id": "question-103",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "mean",
+    "spread",
+    "univariate-data",
+    "summarizing-distributions",
+    "median",
+    "exploring-data",
+    "interquartile-range"
+  ],
+  "title": "Quartiles, Median, Mean, and Range: Oh What Fun!",
+  "difficulty": "Hard",
+  "question_text": "If ${ Q }_{ 1 }=38$ and ${ Q }_{ 3 }=60$, which of the following statements must be true?\nI. The median is $49$.\nII. The mean is somewhere between $38$ and $60$.\nIII. The range is $22$.",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "II only."
+    },
+    {
+      "letter": "C",
+      "text": "III only."
+    },
+    {
+      "letter": "D",
+      "text": "I and II only."
+    },
+    {
+      "letter": "E",
+      "text": "None of the statements above are necessarily true."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.I.3",
+    "UNC-1.I.4",
+    "UNC-1.J.2",
+    "2.C",
+    "UNC-1.J",
+    "UNC-1.I",
+    "UNC-1.I.1",
+    "UNC-1"
+  ]
+}

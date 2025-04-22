@@ -1,0 +1,47 @@
+{
+  "question_id": "question-068",
+  "unit": "Unit 6 | Inference for Categorical Data: Proportions",
+  "topics": [
+    "confidence-interval",
+    "estimation",
+    "statistical-inference",
+    "1-proportion-z-interval",
+    "proportion"
+  ],
+  "title": "One Proportion $z$-Interval: Left-Handed Students",
+  "difficulty": "Medium",
+  "question_text": "A student at RHAM high school wondered what percent of the students in her school were left-handed. She randomly sampled $150$ students at her school and found $21$ of them to be left-handed.\nWhich of the following represents a $95\\%$ confidence interval for the proportion of left-handed students at RHAM High School?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$0.14\\pm 1.96\\sqrt { \\dfrac { (0.14)(0.86) }{150 } } $"
+    },
+    {
+      "letter": "B",
+      "text": "$0.14\\pm 1.96\\sqrt { (0.14)(0.86) }$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.86\\pm 1.96\\sqrt { \\dfrac { (0.14)(0.86) }{ 150 } }$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.86\\pm 1.96\\sqrt { (0.14)(0.86) }$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.86\\pm 2.576\\sqrt { (0.14)(0.86) }$"
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "4.E",
+    "DAT-3",
+    "DAT-3.B",
+    "DAT-3.B.5"
+  ]
+}

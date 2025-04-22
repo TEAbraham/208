@@ -1,0 +1,42 @@
+{
+  "question_id": "question-017",
+  "unit": "Unit 8 | Inference for Categorical Data: Chi-Square",
+  "topics": [],
+  "title": "Appropriate Null and Alternative Hypotheses",
+  "difficulty": "Easy",
+  "question_text": "A fast food company is offering a prize promotion game.\nThe company claims that in $0.5\\%$ of all orders will receive $\\$100$ cash, $1\\%$ of all orders will receive $\\$10$ cash, and $10\\%$ of orders will receive a coupon for a free soft drink. The remaining orders will receive no prizes.\nA group of long-time customers were excited about the new promotion, and over the course of the promotion, they placed $651\\text{ orders}$. Of these orders, $2$ ended up winning $\\$100$, $6$ won $\\$10$, and $52$ won a free soft drink.\nIf this group wanted to do a chi-squared goodness of fit test to test the advertised odds, what would be the appropriate null and alternative hypotheses?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$H_0$: The respective probabilities of winning the different prizes is as advertised.\n$H_a$: The respective probability of winning the different prizes is NOT as advertised."
+    },
+    {
+      "letter": "B",
+      "text": "$H_0$: The respective probabilities of winning the different prizes is as advertised.\n$H_a$: The respective probabilities of winning the different prizes is greater than advertised."
+    },
+    {
+      "letter": "C",
+      "text": "$H_0$: The respective probabilities of winning the different prizes is as advertised.\n$H_a$: The respective probabilities of winning the different prizes is less than advertised."
+    },
+    {
+      "letter": "D",
+      "text": "$H_0$: There is no association between prize winnings and frequency.\n$H_a$: There is an association between prize winnings and frequency."
+    },
+    {
+      "letter": "E",
+      "text": "$H_0$: Prize-winning and frequency are independent.\n$H_a$: Prize-winning and frequency are not independent."
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "1.F",
+    "VAR-8.B.1",
+    "VAR-8.C",
+    "VAR-8",
+    "VAR-8.B"
+  ]
+}

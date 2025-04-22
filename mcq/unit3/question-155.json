@@ -1,0 +1,47 @@
+{
+  "question_id": "question-155",
+  "unit": "Unit 3 | Collecting Data",
+  "topics": [
+    "conducting-experiments",
+    "grouping",
+    "sampling-and-experimentation"
+  ],
+  "title": "Hybrid Flowers: Factors and Treatments",
+  "difficulty": "Medium",
+  "question_text": "A horticulturist has developed a new type of hybrid flower and is trying to determine the ideal conditions for growing the flower. She has several seedlings and wants to test the growth of the seedlings under various conditions.\nAll of the seedlings will be planted in potting soil and grown in one of her greenhouses where she can control the amount of light and the temperature at which the seedlings are grown.\nTo determine what type of sunlight will produce the best growth she wants to plant some seedlings in full sun, some in partial sun and some in the shade.\nTo determine the right level of water for optimal growth she plans to give some seedlings only a little water, some seedlings a moderate amount of water, and some a lot of water.\nFinally, to determine the best temperature for growing the flowers, she wants to plant some in a greenhouse which is maintained at $70$ degrees and some in a greenhouse maintained at $85$ degrees.\nWhich of the following describes the number of factors and the number of treatments in this study?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "There are $2$ factors and $5$ treatments."
+    },
+    {
+      "letter": "B",
+      "text": "There are $3$ factors and $3$ treatments."
+    },
+    {
+      "letter": "C",
+      "text": "There are $3$ factors and $8$ treatments."
+    },
+    {
+      "letter": "D",
+      "text": "There are $3$ factors and $18$ treatments."
+    },
+    {
+      "letter": "E",
+      "text": "There are $4$ factors, but we cannot determine the number of treatments without knowing how many greenhouses the horticulturalist will use."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-3.E",
+    "4.B",
+    "VAR-3",
+    "VAR-3.A",
+    "VAR-3.E.3",
+    "VAR-3.A.2"
+  ]
+}

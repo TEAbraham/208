@@ -1,0 +1,44 @@
+{
+  "question_id": "question-130",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "combining-random-variables"
+  ],
+  "title": "Random Variables: Rules for Standard Deviations and Variances",
+  "difficulty": "Easy",
+  "question_text": "Given A and B are random variables, which of the following statements is true about the random variable A+B?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The standard deviation of A+B is always the sum of the standard deviation of A and the standard deviation of B."
+    },
+    {
+      "letter": "B",
+      "text": "The variance of A+B is always the sum of the variance of A and the variance of B."
+    },
+    {
+      "letter": "C",
+      "text": "The standard deviation of A+B is the sum of the standard deviation of A and the standard deviation of B but only if A and B are independent."
+    },
+    {
+      "letter": "D",
+      "text": "The variance of A+B is the sum of the variance of A and the variance of B but only if A and B are independent."
+    },
+    {
+      "letter": "E",
+      "text": "The variance of A+B is the square root of the sum of the standard deviation of A and the standard deviation of B, but only if A and B are independent."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-5.E",
+    "VAR-5.E.3",
+    "VAR-5",
+    "3.B"
+  ]
+}

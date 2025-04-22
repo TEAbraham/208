@@ -1,0 +1,45 @@
+{
+  "question_id": "question-029",
+  "unit": "Unit 7 | Inference for Quantitative Data: Means",
+  "topics": [
+    "anticipating-patterns",
+    "sampling-distributions",
+    "t-distribution"
+  ],
+  "title": "Changes in $t$-distribution with Decrease of D.O.F.",
+  "difficulty": "Hard",
+  "question_text": "Which of the following correctly describes the changes in the $t$-distribution when the degrees of freedom decreases?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The center decreases, the spread increases and the shape becomes less normal."
+    },
+    {
+      "letter": "B",
+      "text": "The center decreases, the spread increases and the shape becomes more normal."
+    },
+    {
+      "letter": "C",
+      "text": "The center increases, the spread decreases and the shape becomes less normal."
+    },
+    {
+      "letter": "D",
+      "text": "The center remains the same, the spread decreases and the shape becomes more normal."
+    },
+    {
+      "letter": "E",
+      "text": "The center remains the same, the spread increases and the shape becomes less normal."
+    }
+  ],
+  "correct_answer": "Choice 'E' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-7",
+    "VAR-7.A",
+    "3.C",
+    "VAR-7.A.2"
+  ]
+}

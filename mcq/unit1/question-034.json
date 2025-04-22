@@ -1,0 +1,51 @@
+{
+  "question_id": "question-034",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "categorical-data",
+    "relative-frequency",
+    "bar-charts",
+    "percent"
+  ],
+  "title": "Favorite Children's Show",
+  "difficulty": "Easy",
+  "question_text": "An executive at a streaming service is surveying parent's on what show is their children's favorite on their app. The data is summarized in the graph below.\nWhich of the following statements is supported by the bar chart?",
+  "image_files": [
+    "images/question-034-img1.png"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "Bubble Guppies was selected more than Paw Patrol."
+    },
+    {
+      "letter": "B",
+      "text": "The data is not accurate because the percentages do not add to be 100%."
+    },
+    {
+      "letter": "C",
+      "text": "Bluey and Bubble Guppies account for more than half of the responses."
+    },
+    {
+      "letter": "D",
+      "text": "Bluey was answered more than the other two shows combined."
+    },
+    {
+      "letter": "E",
+      "text": "The data is invalid because they didn't offer an \"Other\" category."
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "The Bar Chart is a visual representation of a Categorical Variable. In this case, the Categorical Variable would be the children's favorite tv show. The height of the bar corresponds to the percent of children that answered the tv show.\n\nBluey was selected 40%\nof the time, while Bubble Guppies was selected 25%\nof the time. Therefore, they account for 65%\nof the data, which is more than half.\n\nChoice 'C' is correct.",
+  "explanations": {},
+  "tags": [
+    "UNC-1.D",
+    "UNC-1.C.2",
+    "2.A",
+    "UNC-1.D.1",
+    "UNC-1.C.1",
+    "UNC-1.C",
+    "UNC-1"
+  ]
+}

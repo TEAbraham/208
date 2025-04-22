@@ -1,0 +1,51 @@
+{
+  "question_id": "question-097",
+  "unit": "Unit 2 | Exploring Two-Variable Data",
+  "topics": [
+    "influential-points",
+    "residual-plots",
+    "bivariate-data",
+    "exploring-data",
+    "outliers",
+    "residuals"
+  ],
+  "title": "Interpreting a Residual Plot: Speed and Average Gas Mileage",
+  "difficulty": "Hard",
+  "question_text": "A least squares regression analysis of average gas mileage versus speed (mph) produces the following residual plot:\nCreated for Albert.io. Copyright 2017. All rights reserved.\nBased on the residual plot, which of the following statement(s) must be TRUE?\nI. The relationship between speed and average gas mileage is non-linear.\nII. The average gas mileage decreased as speed increased from $35$ mph to $60$ mph.\nIII. The regression equation would overestimate the average miles per gallon the car gets when the speed is $10$ miles per hour.",
+  "image_files": [
+    "images/question-097-img1.png"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "I only."
+    },
+    {
+      "letter": "B",
+      "text": "III only."
+    },
+    {
+      "letter": "C",
+      "text": "I and II only."
+    },
+    {
+      "letter": "D",
+      "text": "I and III only."
+    },
+    {
+      "letter": "E",
+      "text": "I, II, and III."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "DAT-1.E.1",
+    "DAT-1.E",
+    "DAT-1",
+    "2.B",
+    "DAT-1.E.2"
+  ]
+}

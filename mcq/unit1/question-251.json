@@ -1,0 +1,48 @@
+{
+  "question_id": "question-251",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "normal-distributions",
+    "anticipating-patterns",
+    "properties",
+    "z-score"
+  ],
+  "title": "Mens' Heights: Correct Z-score Equation When Given Percentile",
+  "difficulty": "Hard",
+  "question_text": "Men's heights are approximately normally distributed with a mean of $69\\text{ inches}$ and a standard deviation of $2.8\\text{ inches}$.\nWhich of the following equations can be used to find the height $x$ in which $24\\%$ of the heights fall below?",
+  "image_files": [],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "$-0.71=\\dfrac { x-69 }{ 2.8 }$"
+    },
+    {
+      "letter": "B",
+      "text": "$-0.71=\\dfrac { 69-x }{ 2.8 }$"
+    },
+    {
+      "letter": "C",
+      "text": "$0.24=\\dfrac { x-69 }{ 2.8 }$"
+    },
+    {
+      "letter": "D",
+      "text": "$0.71=\\dfrac {69+x }{ 2.8 }$"
+    },
+    {
+      "letter": "E",
+      "text": "$0.71=\\dfrac { x-69 }{ 2.8 }$"
+    }
+  ],
+  "correct_answer": "Choice 'A' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "VAR-2.B.2",
+    "VAR-2.B",
+    "VAR-2.B.1",
+    "3.A",
+    "VAR-2.B.4",
+    "VAR-2"
+  ]
+}

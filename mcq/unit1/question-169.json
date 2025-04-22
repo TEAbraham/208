@@ -1,0 +1,49 @@
+{
+  "question_id": "question-169",
+  "unit": "Unit 1 | Exploring One-Variable Data",
+  "topics": [
+    "univariate-data",
+    "stemplots",
+    "comparing-distributions",
+    "exploring-data",
+    "shape"
+  ],
+  "title": "Exam Scores | 1 of 2",
+  "difficulty": "Easy",
+  "question_text": "Created for Albert.io. Copyright 2016. All rights reserved.\nThese side-by-side stemplots represent the scores on the final exam for a statistics teacher’s $1^\\text{st}$ period class $(n = 29)$ on the left and $5^\\text{th}$ period class $(n = 22)$ on the right. The scores are raw scores, out of a possible $100\\text{ points}$.\nWhich of the following statements is false?",
+  "image_files": [
+    "images/question-169-img1.png"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "The mean for 5th period is greater than the mean for 1st period."
+    },
+    {
+      "letter": "B",
+      "text": "Both groups have the same modal class."
+    },
+    {
+      "letter": "C",
+      "text": "5th\nperiod's data have less variability than 1st\nperiod."
+    },
+    {
+      "letter": "D",
+      "text": "1st\nperiod is skewed right."
+    },
+    {
+      "letter": "E",
+      "text": "1st\nperiod did worse than 5th\nperiod."
+    }
+  ],
+  "correct_answer": "Choice 'D' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-1.N.1",
+    "2.D",
+    "UNC-1.N",
+    "UNC-1"
+  ]
+}

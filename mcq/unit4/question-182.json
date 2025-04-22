@@ -1,0 +1,50 @@
+{
+  "question_id": "question-182",
+  "unit": "Unit 4 | Probability, Random Variables, and Probability Distributions",
+  "topics": [
+    "anticipating-patterns",
+    "probability",
+    "discrete-random-variables"
+  ],
+  "title": "Comparing Skew in Binomial Distributions",
+  "difficulty": "Hard",
+  "question_text": "From the given information, list the binomial distributions in order from the most normal to the most heavily skewed left.\nBinomial Distribution A: $n = 5, p = 0.98$\nBinomial Distribution B: $n = 10, p = 0.75$\nBinomial Distribution C: $n = 50, p = 0.50$\nBinomial Distribution D: $n = 50, p = 0.75$",
+  "image_files": [
+    "images/question-182-img1.PNG",
+    "images/question-182-img2.PNG",
+    "images/question-182-img3.PNG",
+    "images/question-182-img4.PNG"
+  ],
+  "tables": [],
+  "choices": [
+    {
+      "letter": "A",
+      "text": "A, B, C, D"
+    },
+    {
+      "letter": "B",
+      "text": "A, B, D, C"
+    },
+    {
+      "letter": "C",
+      "text": "C, D, B, A"
+    },
+    {
+      "letter": "D",
+      "text": "C, A, B, D"
+    },
+    {
+      "letter": "E",
+      "text": "D, B, A, C"
+    }
+  ],
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "",
+  "explanations": {},
+  "tags": [
+    "UNC-3.A.2",
+    "3.A",
+    "UNC-3",
+    "UNC-3.A"
+  ]
+}
