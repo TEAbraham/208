@@ -1,18 +1,14 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
 import { getFirestore, collection, query, where, getDocs, doc, setDoc } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
-import { getAuth, signInWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
-import { firebaseConfig } from "../js/firebase-config.js";
+import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
+import { firebaseConfig } from "../../js/firebase-config.js";
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const auth = getAuth(app);
 
 // Elements
-const loginScreen = document.getElementById("login-screen");
 const mcqContainer = document.getElementById("mcq-container");
-const emailInput = document.getElementById("email");
-const passwordInput = document.getElementById("password");
-const loginBtn = document.getElementById("login");
 const questionText = document.getElementById("question-text");
 const questionImages = document.getElementById("question-images");
 const choicesDiv = document.getElementById("choices");
@@ -22,22 +18,16 @@ const feedbackDiv = document.getElementById("feedback");
 let selectedAnswer = null;
 let currentQuestion = null;
 
-// Login
-loginBtn.onclick = () => {
-  const email = emailInput.value;
-  const password = passwordInput.value;
-  signInWithEmailAndPassword(auth, email, password)
-    .catch(err => alert(err.message));
-};
-
-// After login, load a random question
 onAuthStateChanged(auth, async user => {
   if (!user) return;
 
-  loginScreen.style.display = "none";
   mcqContainer.style.display = "block";
 
-  const qSnap = await getDocs(query(collection(db, "mcq_questions"), where("unit", "==", "unit1")));
+  const qSnap = await getDocs(query(
+    collection(db, "mcq_questions"),
+    where("unit", "==", "unit1")
+  ));
+
   const questions = qSnap.docs.map(doc => ({ id: doc.id, ...doc.data() }));
   currentQuestion = questions[Math.floor(Math.random() * questions.length)];
 
@@ -46,6 +36,11 @@ onAuthStateChanged(auth, async user => {
 
 function renderQuestion(q) {
   questionText.innerText = q.question_text;
+
+  // ✅ Tell MathJax to re-render LaTeX
+  if (window.MathJax) {
+    MathJax.typesetPromise();
+  }
 
   // Render images
   questionImages.innerHTML = "";
@@ -72,11 +67,16 @@ function renderQuestion(q) {
     };
     choicesDiv.appendChild(btn);
   });
+
+  feedbackDiv.innerText = "";
 }
 
-// Handle submission
 submitBtn.onclick = async () => {
-  if (!selectedAnswer || !currentQuestion) return alert("Please select an answer.");
+  if (!selectedAnswer || !currentQuestion) {
+    alert("Please select an answer.");
+    return;
+  }
+
   const correct = currentQuestion.correct_answer.includes(selectedAnswer);
 
   await setDoc(doc(db, "student_answers", `${auth.currentUser.uid}_${currentQuestion.id}`), {
@@ -84,6 +84,7 @@ submitBtn.onclick = async () => {
     questionId: currentQuestion.id,
     selected: selectedAnswer,
     correct,
+    difficulty: currentQuestion.difficulty || "medium",
     timestamp: new Date()
   });
 

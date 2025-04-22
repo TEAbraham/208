@@ -146,3 +146,27 @@ ul, li {
         font-size: 0.8em;
     }
 }
+
+.unit-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    /* max-width: 600px; */
+    text-align: left;
+}
+
+.unit-nav li {
+    margin: 10px 0;
+}
+
+.unit-nav a {
+    font-size: 1.2em;
+    color: #0066cc;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.unit-nav a:hover {
+    text-decoration: underline;
+    color: #003399;
+}

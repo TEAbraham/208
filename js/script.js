@@ -2,10 +2,12 @@ import {
     getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut,
     onAuthStateChanged, GoogleAuthProvider
 } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
+import { getFirestore, collection, getDocs, query, where } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
 import { app } from "./firebase-config.js";
 
 const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
+const db = getFirestore();
 
 provider.addScope('https://www.googleapis.com/auth/classroom.courses.readonly');
 provider.addScope('https://www.googleapis.com/auth/classroom.coursework.me.readonly');
@@ -172,7 +174,7 @@ window.logout = (redirectTo = "index.html") => {
   });
 };
 
-onAuthStateChanged(auth, user => {
+onAuthStateChanged(auth, async (user) => {
   const currentPage = window.location.pathname.split("/").pop();
   const logoutButton = document.getElementById('logoutButton');
 
@@ -189,6 +191,41 @@ onAuthStateChanged(auth, user => {
   }
 
   if (user) {
-    document.getElementById('user-email').textContent = `${user.email}`;
+    document.getElementById("user-email").textContent = `${user.email}`;
+
+    const progress = {};  // Track score per unit
+
+    const answersRef = await collection(db, "student_answers");
+    const snapshot = await getDocs(query(answersRef, where("userId", "==", user.uid)));
+
+    snapshot.forEach(doc => {
+      const data = doc.data();
+      const unit = data.questionId.split("_")[0];  // e.g., "unit1"
+      const difficulty = (data.difficulty || "medium").toLowerCase();
+      const correct = data.correct;
+
+      const pointMap = { easy: 1, medium: 2, hard: 3 };
+      const basePoints = pointMap[difficulty] || 2;
+
+      if (!progress[unit]) progress[unit] = 0;
+
+      if (correct) {
+        progress[unit] += basePoints;
+      } else {
+        progress[unit] -= 1;  // Incorrect answer penalty
+      }
+    });
+
+    // Update UI for each unit link
+    Object.entries(progress).forEach(([unit, points]) => {
+      const link = document.querySelector(`a[href="${unit}/"]`);
+      if (link) {
+        if (points >= 50) {
+          link.textContent += ` ✅ (${points} pts)`;
+        } else {
+          link.textContent += ` 🟡 (${points} pts)`;
+        }
+      }
+    });
   }
 });
