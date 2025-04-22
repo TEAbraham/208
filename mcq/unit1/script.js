@@ -68,11 +68,19 @@ function updateScore(uid) {
         const baseReward = rewardPoints[difficulty];
         const basePenalty = penaltyPoints[difficulty];
 
-        score += data.correct ? baseReward : basePenalty;
+        // Lock score at 50 once reached
+        if (score < 50) {
+          const nextScore = score + (data.correct ? baseReward : basePenalty);
+          score = Math.min(50, nextScore);
+        }
 
       });
 
       unitScore.innerText = `Unit 1 Progress: ${score} / 50 pts`;
+      if (score >= 50) {
+        unitScore.innerText += " ✅ Complete!";
+      }
+
     });
 }
 
