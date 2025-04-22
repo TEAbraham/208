@@ -1,26 +1,37 @@
-const units = ["unit1", "unit2", "unit3", "unit4", "unit5", "unit6", "unit7", "unit8", "unit9"];
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
+import {
+  getFirestore, collection, getDocs
+} from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
+import {
+  getAuth, onAuthStateChanged, getIdTokenResult
+} from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
+import { firebaseConfig } from "../js/firebase-config.js";
+
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+const auth = getAuth(app);
+
 const tableBody = document.getElementById("dashboard-body");
+const units = ["unit1", "unit2", "unit3", "unit4", "unit5", "unit6", "unit7", "unit8", "unit9"];
 
 onAuthStateChanged(auth, async user => {
-  if (!user) return location.href = "../mcq"; // redirect to login if not signed in
+  if (!user) return location.href = "/mcq";
 
   const token = await getIdTokenResult(user);
-  if (token.claims?.teacher !== true) {
+  if (!token.claims?.teacher) {
     alert("Access denied. You must be a teacher.");
-    return location.href = "../mcq";
+    return location.href = "/mcq";
   }
 
   const [usersSnap, completionsSnap] = await Promise.all([
-    getDocs(collection(db, "users")), // students in your system
-    getDocs(collection(db, "unit_completion")) // their unit completions
+    getDocs(collection(db, "users")),
+    getDocs(collection(db, "unit_completion"))
   ]);
 
   const completions = {};
   completionsSnap.forEach(doc => {
     const data = doc.data();
-    const key = `${data.userId}_${data.unit}`;
-    completions[key] = {
-      score: data.score,
+    completions[`${data.userId}_${data.unit}`] = {
       answers: data.totalAnswers,
       timestamp: data.completedAt?.toDate()
     };
@@ -29,6 +40,7 @@ onAuthStateChanged(auth, async user => {
   usersSnap.forEach(doc => {
     const user = doc.data();
     const tr = document.createElement("tr");
+    tr.dataset.uid = doc.id;
 
     const nameCell = document.createElement("td");
     nameCell.textContent = user.displayName || "Unnamed";
@@ -40,9 +52,11 @@ onAuthStateChanged(auth, async user => {
 
     for (const unit of units) {
       const cell = document.createElement("td");
-      const data = completions[`${user.uid}_${unit}`];
+      const key = `${doc.id}_${unit}`;
+      const data = completions[key];
+
       if (data) {
-        cell.innerHTML = `✅ ${data.answers} 🕒 ${data.timestamp.toLocaleDateString()}`;
+        cell.innerHTML = `✅ ${data.answers} <br> 🕒 ${data.timestamp.toLocaleDateString()}`;
       } else {
         cell.textContent = "";
       }
@@ -52,3 +66,39 @@ onAuthStateChanged(auth, async user => {
     tableBody.appendChild(tr);
   });
 });
+
+// Export CSV
+const exportBtn = document.getElementById("export-csv");
+if (exportBtn) {
+  exportBtn.addEventListener("click", () => {
+    const rows = [["Student", "Email", ...units]];
+    const trs = document.querySelectorAll("#dashboard-body tr");
+
+    trs.forEach(tr => {
+      const row = [];
+      tr.querySelectorAll("td").forEach(td => {
+        row.push(td.textContent.replaceAll("\n", " ").trim());
+      });
+      rows.push(row);
+    });
+
+    const csv = rows.map(r => r.join(",")).join("\n");
+    const blob = new Blob([csv], { type: "text/csv" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "student-dashboard.csv";
+    a.click();
+    URL.revokeObjectURL(url);
+  });
+}
+
+// Row click → student view
+const dashboardTable = document.getElementById("dashboard-body");
+if (dashboardTable) {
+  dashboardTable.addEventListener("click", e => {
+    const tr = e.target.closest("tr");
+    if (!tr || !tr.dataset.uid) return;
+    window.open(`/admin/student.html?uid=${tr.dataset.uid}`, '_blank');
+  });
+}
