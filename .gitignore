@@ -67,3 +67,9 @@ node_modules/
 
 # dataconnect generated files
 .dataconnect
+
+# Never include private backend code
+*.json
+node_modules/
+mcq-uploader/
+serviceAccountKey.json
