@@ -54,35 +54,52 @@ function showNewQuestion() {
   renderQuestion(currentQuestion);
 }
 
-function updateScore(uid) {
-  getDocs(query(collection(db, "student_answers"), where("userId", "==", uid)))
-    .then(snapshot => {
-      let score = 0;
-      snapshot.forEach(doc => {
-        const data = doc.data();
-        if (!data.questionId.startsWith("unit1_")) return;
+async function updateScore(uid) {
+  const snapshot = await getDocs(query(
+    collection(db, "student_answers"),
+    where("userId", "==", uid)
+  ));
 
-        const rewardPoints = { easy: 1, medium: 2, hard: 3 };
-        const penaltyPoints = { easy: -3, medium: -2, hard: -1 };
+  let score = 0;
+  let answerCount = 0;
+  const unit = "unit1"; // adjust if using this across units
 
-        const baseReward = rewardPoints[difficulty];
-        const basePenalty = penaltyPoints[difficulty];
+  snapshot.forEach(doc => {
+    const data = doc.data();
+    if (!data.questionId.startsWith(`${unit}_`)) return;
 
-        // Lock score at 50 once reached
-        if (score < 50) {
-          const nextScore = score + (data.correct ? baseReward : basePenalty);
-          score = Math.min(50, nextScore);
-        }
+    const difficulty = (data.difficulty || "medium").toLowerCase();
+    const rewardPoints = { easy: 1, medium: 2, hard: 3 };
+    const penaltyPoints = { easy: -3, medium: -2, hard: -1 };
+    const baseReward = rewardPoints[difficulty] || 2;
+    const basePenalty = penaltyPoints[difficulty] || -1;
 
-      });
+    if (score < 50) {
+      const nextScore = score + (data.correct ? baseReward : basePenalty);
+      score = Math.min(50, nextScore);
+      answerCount++;
+    }
+  });
 
-      unitScore.innerText = `Unit 1 Progress: ${score} / 50 pts`;
-      if (score >= 50) {
-        unitScore.innerText += " ✅ Complete!";
-      }
+  unitScore.innerText = `Unit 1 Progress: ${score} / 50 pts`;
+  if (score >= 50) unitScore.innerText += " ✅ Complete!";
 
+  // 🔐 Save to `unit_completion` if not already stored
+  const docRef = doc(db, "unit_completion", `${uid}_${unit}`);
+  const existing = await getDoc(docRef);
+
+  if (!existing.exists() && score >= 50) {
+    await setDoc(docRef, {
+      userId: uid,
+      unit,
+      score: 50,
+      totalAnswers: answerCount,
+      completedAt: new Date()
     });
+    console.log("📌 Unit completion logged for", uid);
+  }
 }
+
 
 function renderQuestion(q) {
   questionTitle.textContent = q.title || "";
