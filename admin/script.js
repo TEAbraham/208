@@ -17,7 +17,8 @@ const units = ["unit1", "unit2", "unit3", "unit4", "unit5", "unit6", "unit7", "u
 onAuthStateChanged(auth, async user => {
   if (!user) return location.href = "/mcq";
 
-  const token = await getIdTokenResult(user);
+  const token = await user.getIdTokenResult();
+  console.log("👤 User claims:", token.claims);
   if (!token.claims?.teacher) {
     alert("Access denied. You must be a teacher.");
     return location.href = "/mcq";

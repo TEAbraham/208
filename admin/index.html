@@ -6,6 +6,14 @@
   <title>Teacher Dashboard</title>
   <link rel="stylesheet" href="style.css" />
   <script type="module" src="script.js" defer></script>
+  <script type="module">
+    import { getAuth } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
+    const auth = getAuth();
+    auth.currentUser?.getIdTokenResult().then(token => {
+      console.log("👤 Claims:", token.claims);
+    });
+  </script>
+
 </head>
 <body>
   <h1>📊 AP Stats Unit Completion Dashboard</h1>
