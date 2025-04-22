@@ -4,7 +4,7 @@
   "topics": [],
   "title": "One-Sample T-Interval Output",
   "difficulty": "Medium",
-  "question_text": "An exercise physiologist is interested in the effect of exercise on heart rate.\nShe has subjects walk slowly for $5\\text{ minutes}$ and records their heart rates. Then she has the subjects run vigorously for $5\\text{ minutes}$ and records their heart rates again.\nThe differences are recorded (heart rate after running - heart rate before running), with results below:\nOne-Sample T: Differences\nTest of $\\mu$ = $0$ vs. > $0$\nVariable N Mean StDev SE Mean 96% CI T P\nDifferences 12 59.88 10.36 3.66 (51.22, 68.53) 16.35 0.000\n\n\nWhat is a valid interpretation of the confidence interval given from the computer output?",
+  "question_text": "An exercise physiologist is interested in the effect of exercise on heart rate.<br>She has subjects walk slowly for $5\\text{ minutes}$ and records their heart rates. Then she has the subjects run vigorously for $5\\text{ minutes}$ and records their heart rates again.<br>The differences are recorded (heart rate after running - heart rate before running), with results below:<br>One-Sample T: Differences<br>Test of $\\mu$ = $0$ vs. > $0$<br>What is a valid interpretation of the confidence interval given from the computer output?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">StDev</th><th scope=\"col\">SE Mean</th><th scope=\"col\">96% CI</th><th scope=\"col\">T</th><th scope=\"col\">P</th></tr></thead><tbody><tr><td>Differences</td><td>12</td><td>59.88</td><td>10.36</td><td>3.66</td><td>(51.22, 68.53)</td><td>16.35</td><td>0.000</td></tr></tbody></table>"

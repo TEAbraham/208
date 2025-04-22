@@ -8,7 +8,7 @@
   ],
   "title": "Basketball Free Throws: One and One",
   "difficulty": "Easy",
-  "question_text": "In basketball, one-and-one free throws sometimes occur near the end of a game. A player gets one attempt at a free throw: if she makes it, she gets one other attempt; if she misses, she gets no further attempts.\nSuppose an athlete has a $64\\%$ free-throw shooting percentage and is shooting a one-and-one situation.\nWhat is the probability she makes at least one shot?",
+  "question_text": "In basketball, one-and-one free throws sometimes occur near the end of a game. A player gets one attempt at a free throw: if she makes it, she gets one other attempt; if she misses, she gets no further attempts.<br>Suppose an athlete has a $64\\%$ free-throw shooting percentage and is shooting a one-and-one situation.<br>What is the probability she makes at least one shot?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -26,11 +26,11 @@
     },
     {
       "letter": "D",
-      "text": "$0.4096$"
+      "text": "0.4096"
     },
     {
       "letter": "E",
-      "text": "$0.5904$"
+      "text": "0.5904"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",

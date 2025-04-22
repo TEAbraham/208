@@ -9,7 +9,7 @@
   ],
   "title": "How High Will he Jump?",
   "difficulty": "Easy",
-  "question_text": "The height that a mountain biker achieves off of a jump is directly related to his comfort level with the jump. We will assume that conditions for regression inference are met.\nOver his first $10$ runs at a newly designed downhill course, Will's jump height is found to increase an average of $4$ cm every time he goes off the jump. A computer output from this regression is shown below:\nWhat procedure is appropriate for computing a $95\\%$ confidence interval for the slope of the true regression line that relates Will's height to the number of completed runs on the newly designed downhill course?",
+  "question_text": "The height that a mountain biker achieves off of a jump is directly related to his comfort level with the jump. We will assume that conditions for regression inference are met.<br>Over his first $10$ runs at a newly designed downhill course, Will's jump height is found to increase an average of $4$ cm every time he goes off the jump. A computer output from this regression is shown below:<br>What procedure is appropriate for computing a $95\\%$ confidence interval for the slope of the true regression line that relates Will's height to the number of completed runs on the newly designed downhill course?",
   "image_files": [
     "images/question-072-img1.jpeg"
   ],
@@ -17,11 +17,11 @@
   "choices": [
     {
       "letter": "A",
-      "text": "t-interval for slope"
+      "text": "t\n-interval for slope"
     },
     {
       "letter": "B",
-      "text": "z-interval for slope"
+      "text": "z\n-interval for slope"
     },
     {
       "letter": "C",

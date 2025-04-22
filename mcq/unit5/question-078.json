@@ -8,7 +8,7 @@
   ],
   "title": "High School Drivers",
   "difficulty": "Medium",
-  "question_text": "In a large metropolitan area, the proportion of high school seniors who drive to school at least $3\\text{ days a week}$ is $0.45$. A random sample of $25\\text{ students}$ is chosen.\nHow would you calculate the probability that at least $13$ of these students drive to school at least $3\\text{ days a week}$?",
+  "question_text": "In a large metropolitan area, the proportion of high school seniors who drive to school at least $3\\text{ days a week}$ is $0.45$. A random sample of $25\\text{ students}$ is chosen.<br>How would you calculate the probability that at least $13$ of these students drive to school at least $3\\text{ days a week}$?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -30,7 +30,7 @@
     },
     {
       "letter": "E",
-      "text": "Use the normal approximation to the binomial because $np \\ge 10$ and $n(1-p) \\ge 10$."
+      "text": "Use the normal approximation to the binomial because np≥10 and n(1−p)≥10."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",

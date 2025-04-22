@@ -8,7 +8,7 @@
   ],
   "title": "Class Presentations",
   "difficulty": "Medium",
-  "question_text": "Suppose a high school statistics teacher decides to pick $5\\text{ students}$ to do a problem on the chalkboard in front of the class.\nEach student does one problem, and the student cannot be picked more than once. The teacher claims that selection of students is random.\nThe class contains $18\\text{ students}$: $8$ wearing polos and $10$ wearing sweatshirts. Suppose all $5\\text{ students}$ picked were wearing polos. One of the students feels this is enough evidence to say that the teacher unfairly calls on students wearing polos too often and the selection most likely is not random.\nDo you think the selection is random?",
+  "question_text": "Suppose a high school statistics teacher decides to pick $5\\text{ students}$ to do a problem on the chalkboard in front of the class.<br>Each student does one problem, and the student cannot be picked more than once. The teacher claims that selection of students is random.<br>The class contains $18\\text{ students}$: $8$ wearing polos and $10$ wearing sweatshirts. Suppose all $5\\text{ students}$ picked were wearing polos. One of the students feels this is enough evidence to say that the teacher unfairly calls on students wearing polos too often and the selection most likely is not random.<br>Do you think the selection is random?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -30,7 +30,7 @@
     },
     {
       "letter": "E",
-      "text": "Yes, as the probability of randomly picking $5$ wearing polos is $0.44$."
+      "text": "Yes, as the probability of randomly picking 5 wearing polos is 0.44."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",

@@ -10,8 +10,11 @@
   ],
   "title": "P-value of a 1-sided Test Given t-test",
   "difficulty": "Medium",
-  "question_text": "A significance test was performed to test ${ H }_{ 0 }:\\mu =18$ versus the alternative ${ H }_{ a }:\\mu > 18$. Data from a random sample of size $30$ makes a normal distribution and produces a test statistic of $t = 1.734$.\nWhich of the following intervals contains the P-value for this test?",
-  "image_files": [],
+  "question_text": "A significance test was performed to test ${ H }_{ 0 }:\\mu =18$ versus the alternative ${ H }_{ a }:\\mu > 18$. Data from a random sample of size $30$ makes a normal distribution and produces a test statistic of $t = 1.734$.<br>Which of the following intervals contains the P-value for this test?",
+  "image_files": [
+    "images/question-078-img1.PNG",
+    "images/question-078-img2.PNG"
+  ],
   "tables": [],
   "choices": [
     {

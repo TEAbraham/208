@@ -7,7 +7,7 @@
   ],
   "title": "Coke vs Pepsi",
   "difficulty": "Medium",
-  "question_text": "Years ago, Pepsi wanted to show it was more popular than Coke.\nSo, Pepsi went around the country to various shopping centers giving people both colas to taste and tried to see if they knew the difference. Assuming that people do not know the difference (so $p=0.5$) if $64$ people came by to take the test, and $40$ seemed to know the difference, does this show it is likely true that people could tell the difference between Coke and Pepsi? Say \"yes\" or \"no\" and explain why using appropriate calculations.",
+  "question_text": "Years ago, Pepsi wanted to show it was more popular than Coke.<br>So, Pepsi went around the country to various shopping centers giving people both colas to taste and tried to see if they knew the difference. Assuming that people do not know the difference (so $p=0.5$) if $64$ people came by to take the test, and $40$ seemed to know the difference, does this show it is likely true that people could tell the difference between Coke and Pepsi?\nSay \"yes\" or \"no\" and explain why using appropriate calculations.",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -29,7 +29,7 @@
     },
     {
       "letter": "E",
-      "text": "Yes. With a mean of $32$ and a standard deviation of 4, we would expect to find $28$ to $36$ people on average to taste the difference. $40$ is $2$ standard deviations above $32$ so it is likely they can taste the difference."
+      "text": "Yes. With a mean of 32 and a standard deviation of 4, we would expect to find 28 to 36 people on average to taste the difference. 40 is 2 standard deviations above 32 so it is likely they can taste the difference."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",

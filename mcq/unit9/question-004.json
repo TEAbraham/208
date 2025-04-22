@@ -9,7 +9,7 @@
   ],
   "title": "Minutes of Biking",
   "difficulty": "Easy",
-  "question_text": "Typically, when a person rides a bike for exercise, the number of calories burned increases as the duration of time rode increases. A large local bicycle club finds the population regression line for predicted amount of calories burned vs. the duration of time rode. The equation of the population regression line is:\n$\\widehat{\\text{calories}} = 12.78 + 1.23(\\text{minutes})$\nOne member of the group decides she is going to take a random sample of $20$ bikers from the group and create a sample regression model. Is the member's model guaranteed to have the same slope as the population regression line?",
+  "question_text": "Typically, when a person rides a bike for exercise, the number of calories burned increases as the duration of time rode increases. A large local bicycle club finds the population regression line for predicted amount of calories burned vs. the duration of time rode. The equation of the population regression line is:<br>$\\widehat{\\text{calories}} = 12.78 + 1.23(\\text{minutes})$<br>One member of the group decides she is going to take a random sample of $20$ bikers from the group and create a sample regression model.\nIs the member's model guaranteed to have the same slope as the population regression line?",
   "image_files": [],
   "tables": [],
   "choices": [

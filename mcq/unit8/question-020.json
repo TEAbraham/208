@@ -8,7 +8,7 @@
   ],
   "title": "Purple Candies",
   "difficulty": "Medium",
-  "question_text": "A company published its percentages for colors of candy included in its jumbo packs. Here they are:\nred orange yellow green blue purple\n$0.10$ $0.30$ $0.25$ $0.05$ $0.15$ $0.15$\nA firm was hired to perform a chi-square goodness of fit test. What is the alternative hypothesis and what is the expected number of purple candies given there were $40$ bags randomly selected which included $960$ total candies sampled?",
+  "question_text": "A company published its percentages for colors of candy included in its jumbo packs. Here they are:<br>A firm was hired to perform a chi-square goodness of fit test.\nWhat is the alternative hypothesis and what is the expected number of purple candies given there were $40$ bags randomly selected which included $960$ total candies sampled?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">red</th><th scope=\"col\">orange</th><th scope=\"col\">yellow</th><th scope=\"col\">green</th><th scope=\"col\">blue</th><th scope=\"col\">purple</th></tr></thead><tbody><tr><td><span class=\"tex2jax_process\">$0.10$</span></td><td><span class=\"tex2jax_process\">$0.30$</span></td><td><span class=\"tex2jax_process\">$0.25$</span></td><td><span class=\"tex2jax_process\">$0.05$</span></td><td><span class=\"tex2jax_process\">$0.15$</span></td><td><span class=\"tex2jax_process\">$0.15$</span></td></tr></tbody></table>"
@@ -24,15 +24,15 @@
     },
     {
       "letter": "C",
-      "text": "$H_{a}$: The proportions of colors in the jumbo bags is not the same as what the company claims.\nExpected number of purple candies: $144$"
+      "text": "Ha: The proportions of colors in the jumbo bags is not the same as what the company claims.\nExpected number of purple candies: 144"
     },
     {
       "letter": "D",
-      "text": "$H_{a}$: The proportions of candy colors should all be the same.\nExpected number of purple candies: $144$"
+      "text": "Ha\n: The proportions of candy colors should all be the same.\nExpected number of purple candies: 144"
     },
     {
       "letter": "E",
-      "text": "$H_{a}$: The proportions of colors in the jumbo bags is the same as what the company claims.\nExpected number of purple candies: $96$"
+      "text": "Ha\n: The proportions of colors in the jumbo bags is the same as what the company claims.\nExpected number of purple candies: 96"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",

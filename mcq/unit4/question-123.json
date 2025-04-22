@@ -8,7 +8,7 @@
   ],
   "title": "Sneaky, Suspicious and Legal on the Law of Large Numbers",
   "difficulty": "Hard",
-  "question_text": "Sneaky Sam tosses a coin $10$ times and the coin lands on “heads” on $7$ of those tosses.\nSuspicious Sally thinks that Sam is using a weighted coin.\nWhat can Legal Lindsay conclude based on the Law of Large Numbers?",
+  "question_text": "Sneaky Sam tosses a coin $10$ times and the coin lands on “heads” on $7$ of those tosses.<br>Suspicious Sally thinks that Sam is using a weighted coin.<br>What can Legal Lindsay conclude based on the Law of Large Numbers?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -30,7 +30,7 @@
     },
     {
       "letter": "E",
-      "text": "This may simply be coincidence. If the coin is fair, we would expect about $50\\%$ of the tosses to result in “heads”, but only if the coin is tossed many, many times. $10$ tosses is not that many!"
+      "text": "This may simply be coincidence. If the coin is fair, we would expect about 50% of the tosses to result in “heads”, but only if the coin is tossed many, many times. 10 tosses is not that many!"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",

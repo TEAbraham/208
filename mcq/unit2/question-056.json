@@ -10,8 +10,10 @@
   ],
   "title": "Removing Outliers: Baseball",
   "difficulty": "Easy",
-  "question_text": "Loading question supplement...\nA baseball manager is hoping to guess the speed of pitches thrown by the opposing pitcher based on how often his players strike out during the season. The manager recorded the number of times each player struck out and the average speed of pitches thrown to that player. The data points for each player are represented by a red dot in the scatterplot above.\nHow would the correlation change if the regression outlier was removed?",
-  "image_files": [],
+  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved.<br><br>A baseball manager is hoping to guess the speed of pitches thrown by the opposing pitcher based on how often his players strike out during the season. The manager recorded the number of times each player struck out and the average speed of pitches thrown to that player. The data points for each player are represented by a red dot in the scatterplot above.<br>How would the correlation change if the regression outlier was removed?",
+  "image_files": [
+    "images/question-056-img1.jpg"
+  ],
   "tables": [],
   "choices": [
     {

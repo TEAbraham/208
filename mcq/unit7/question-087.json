@@ -8,7 +8,7 @@
   ],
   "title": "Degrees of Freedom and Statistical Significance",
   "difficulty": "Hard",
-  "question_text": "Lauren conducted a one-sample $t$-test for a population mean and her results were found to be statistically significant at the $\\alpha=0.05$ level.\nLater, she realized that she had calculated the $p$-value using the wrong value for degrees of freedom, $\\text{df}$. If the true $\\text{df}$ should have been higher than the $\\text{df}$ she had used in her calculation, would her results still be statistically significant?",
+  "question_text": "Lauren conducted a one-sample $t$-test for a population mean and her results were found to be statistically significant at the $\\alpha=0.05$ level.<br>Later, she realized that she had calculated the $p$-value using the wrong value for degrees of freedom, $\\text{df}$.\nIf the true $\\text{df}$ should have been higher than the $\\text{df}$ she had used in her calculation, would her results still be statistically significant?",
   "image_files": [],
   "tables": [],
   "choices": [

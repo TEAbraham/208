@@ -8,7 +8,7 @@
   ],
   "title": "Gender Balance in Alaska and Rhode Island",
   "difficulty": "Hard",
-  "question_text": "Based on the latest U.S. Census count, only $48.0\\%$ of Alaskans are female while $51.7\\%$ of Rhode Islanders are female.\nWhat is the probability that randomly chosen samples of $50\\text{ residents}$ from each of the two states would show a larger proportion of women in Alaska than in Rhode Island?",
+  "question_text": "Based on the latest U.S. Census count, only $48.0\\%$ of Alaskans are female while $51.7\\%$ of Rhode Islanders are female.<br>What is the probability that randomly chosen samples of $50\\text{ residents}$ from each of the two states would show a larger proportion of women in Alaska than in Rhode Island?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -26,7 +26,7 @@
     },
     {
       "letter": "D",
-      "text": "$0.644$"
+      "text": "0.644"
     },
     {
       "letter": "E",

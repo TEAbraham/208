@@ -10,7 +10,7 @@
   ],
   "title": "Regression Slope $t$-Interval Formula Work: Height and Wingspan",
   "difficulty": "Medium",
-  "question_text": "NBA scouts are always interested in the relationship between the height of NBA players and their wingspans. An NBA scout randomly selects $20$ players and measures their heights and respective wingspans. Below is the computer regression analysis of wingspan and height:\nDependent variable is: Wingspan\n$R^2 = 0.787$\n$S=2.23$\nVariable Coefficient SE(Coeff) t-ratio P-value\nConstant -2.273 0.39 -5.83 <0.0001\nHeight 1.084 0.24 4.51 <0.0001\n\n\nAssuming all of the conditions have been satisfied, which of the following gives a $95\\%$ confidence interval for the slope of the regression line?",
+  "question_text": "NBA scouts are always interested in the relationship between the height of NBA players and their wingspans. An NBA scout randomly selects $20$ players and measures their heights and respective wingspans. Below is the computer regression analysis of wingspan and height:<br>Dependent variable is: Wingspan<br>$R^2 = 0.787$\n$S=2.23$<br>Assuming all of the conditions have been satisfied, which of the following gives a $95\\%$ confidence interval for the slope of the regression line?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">Coefficient</th><th scope=\"col\">SE(Coeff)</th><th scope=\"col\">t-ratio</th><th scope=\"col\">P-value</th></tr></thead><tbody><tr><td>Constant</td><td>-2.273</td><td>0.39</td><td>-5.83</td><td>&lt;0.0001</td></tr><tr><td>Height</td><td>1.084</td><td>0.24</td><td>4.51</td><td>&lt;0.0001</td></tr></tbody></table>"

@@ -8,7 +8,7 @@
   ],
   "title": "Variance of the Difference",
   "difficulty": "Medium",
-  "question_text": "$A$ is a random variable whose mean is $71.2$ and whose standard deviation is $1.1$.\n$B$ is a random variable whose mean is $23.7$ and whose standard deviation is $0.25$.\nIf $A$ and $B$ are independent, what is the variance of $A-B$?",
+  "question_text": "$A$ is a random variable whose mean is $71.2$ and whose standard deviation is $1.1$.\n$B$ is a random variable whose mean is $23.7$ and whose standard deviation is $0.25$.<br>If $A$ and $B$ are independent, what is the variance of $A-B$?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -26,11 +26,11 @@
     },
     {
       "letter": "D",
-      "text": "$1.2725$"
+      "text": "1.2725"
     },
     {
       "letter": "E",
-      "text": "$1.3500$"
+      "text": "1.3500"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",

@@ -8,10 +8,8 @@
   ],
   "title": "Student Absences",
   "difficulty": "Hard",
-  "question_text": "An administrator reads a report that says \"The National Rate of Absenteeism for High School Students is $5\\%$\". She wonders if this holds true for her school. She takes an SRS of $50$ students from her high school and finds the absentee rate to be $10\\%$.\nTo see if it is possible that her school was in line with the national absenteeism rate, even though her sample provided a much larger proportion, she used a statistical software to simulate samples of size $50$ with a known parameter value of $5\\%$.\nBelow is the sampling distribution of the administrator's simulation.\nCan the administrator claim that her school's absenteeism rate is in line with the national average?",
-  "image_files": [
-    "images/question-010-img1.jpeg"
-  ],
+  "question_text": "An administrator reads a report that says \"The National Rate of Absenteeism for High School Students is $5\\%$\". She wonders if this holds true for her school. She takes an SRS of $50$ students from her high school and finds the absentee rate to be $10\\%$.<br>To see if it is possible that her school was in line with the national absenteeism rate, even though her sample provided a much larger proportion, she used a statistical software to simulate samples of size $50$ with a known parameter value of $5\\%$.<br>Below is the sampling distribution of the administrator's simulation.<br>Can the administrator claim that her school's absenteeism rate is in line with the national average?",
+  "image_files": [],
   "tables": [],
   "choices": [
     {

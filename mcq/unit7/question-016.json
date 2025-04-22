@@ -9,7 +9,7 @@
   ],
   "title": "Heights of American Women",
   "difficulty": "Medium",
-  "question_text": "Fifth grader Scott is studying the heights of American women for a science fair project.\nScott’s teacher told him that the heights of American females are normally distributed with the population standard deviation of $2.4\\text{ inches}$, but he cannot remember the value for the mean.\nScott’s older brother suggests that he estimate the unknown mean by calculating a confidence interval using data that Scott has collected for the heights of four women, as follows:\n$63 \\text{ inches}$\n$69\\text{ inches}$\n$62\\text{ inches}$\n$66\\text{ inches}$\nBased on this, Scott’s $99\\%$ confidence interval would be:",
+  "question_text": "Fifth grader Scott is studying the heights of American women for a science fair project.<br>Scott’s teacher told him that the heights of American females are normally distributed with the population standard deviation of $2.4\\text{ inches}$, but he cannot remember the value for the mean.<br>Scott’s older brother suggests that he estimate the unknown mean by calculating a confidence interval using data that Scott has collected for the heights of four women, as follows:<br>$63 \\text{ inches}$\n$69\\text{ inches}$\n$62\\text{ inches}$\n$66\\text{ inches}$<br>Based on this, Scott’s $99\\%$ confidence interval would be:",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -31,7 +31,7 @@
     },
     {
       "letter": "E",
-      "text": "$65 \\pm 4.07$."
+      "text": "65±4.07\n."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",

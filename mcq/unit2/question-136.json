@@ -8,7 +8,7 @@
   ],
   "title": "Growth of Puppies",
   "difficulty": "Medium",
-  "question_text": "A certain breed of dog's growth during the first year of life can be summarized by the least squares regression line $\\hat{y} = 10 + 1.2x$, where $x =$ the age in month and $y =$ the weight in pounds.\nWhat would be the predicted increase in weight for a $5$ month old puppy?",
+  "question_text": "A certain breed of dog's growth during the first year of life can be summarized by the least squares regression line $\\hat{y} = 10 + 1.2x$, where $x =$ the age in month and $y =$ the weight in pounds.<br>What would be the predicted increase in weight for a $5$ month old puppy?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,7 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "A simple linear regression model is an equation,\n$$\\hat{y} = a + bx$$\nthat uses an explanatory variable, $x$, to predict the response variable, $y$.\n\nThis problem is asking for the predicted increase of the response variable, not the predicted response variable. To solve this problem, we can do two different methods:\n\nMethod $1$: Use $x = 5$ and $x = 0$ and find the difference:\n$$\\hat{y} = 10 + 1.2(5) = 16$$\n$$\\hat{y} = 10 + 1.2(0) = 10$$\nTherefore,\n$$16 - 10 = 6$$\n\nMethod $2$: Simply use the slope of the equation. Since the slope of the equation, $\\hat{y} = a + bx$, is represented by $b$, the slope in our equation is $1.2$. The slope is the increase of the predicted response variable for every increase of $1$ unit of the explanatory variable.\n\nTherefore,\n$$1.2(5) = 6$$\n\nChoice 'D' is correct.",
+  "solution": "A simple linear regression model is an equation,\nˆ\ny\n=a+bx\nthat uses an explanatory variable, x\n, to predict the response variable, y\n.\n\nThis problem is asking for the predicted increase of the response variable, not the predicted response variable. To solve this problem, we can do two different methods:\n\nMethod 1\n: Use x=5\nand x=0\nand find the difference:\nˆ\ny\n=10+1.2(5)=16\nˆ\ny\n=10+1.2(0)=10\nTherefore,\n16−10=6\n\nMethod 2\n: Simply use the slope of the equation. Since the slope of the equation,\nˆ\ny\n=a+bx\n, is represented by b\n, the slope in our equation is 1.2\n. The slope is the increase of the predicted response variable for every increase of 1\nunit of the explanatory variable.\n\nTherefore,\n1.2(5)=6\n\nChoice 'D' is correct.",
   "explanations": {},
   "tags": [
     "DAT-1.D.2",

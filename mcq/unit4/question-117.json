@@ -8,7 +8,7 @@
   ],
   "title": "Spinning the Roulette Wheel and the Law of Large Numbers",
   "difficulty": "Medium",
-  "question_text": "In the game of American roulette, a small ball will randomly land inside one of $38$ colored and numbered pockets on a spinning wheel. Two of these numbered pockets are green, $18$ are red, and $18$ are black. In a large casino, the wheel is spun several hundred times per day.\nBased on the Law of Large Numbers, which of the following situations is most likely to occur?",
+  "question_text": "In the game of American roulette, a small ball will randomly land inside one of $38$ colored and numbered pockets on a spinning wheel. Two of these numbered pockets are green, $18$ are red, and $18$ are black. In a large casino, the wheel is spun several hundred times per day.<br>Based on the Law of Large Numbers, which of the following situations is most likely to occur?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -30,7 +30,7 @@
     },
     {
       "letter": "E",
-      "text": "On any given spin of the wheel, approximately 5.3% of people who bet that the ball will land in a green pocket will win their bet."
+      "text": "On any given spin of the wheel, approximately $5.3\\%$ of people who bet that the ball will land in a green pocket will win their bet."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",

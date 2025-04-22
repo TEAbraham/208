@@ -8,7 +8,7 @@
   ],
   "title": "Accuracy in Predicting the Height of a Sunflower?",
   "difficulty": "Easy",
-  "question_text": "Melanie planted a sunflower seed and decided to track its growth. Letting $x$ represent the number of days since the seed was planted and letting $y$ represent the plant's height in inches, she carefully gathered data each day beginning on day $7$ when the seed sprouted and continued for $30\\text{ days}$ after that. She then developed the following LSRL:\n$$\\hat { y } =-6.78+1.43x$$\nThe correlation for the relationship was $r=0.972$.\nMelanie wonders how tall her sunflower will be $6\\text{ months}$ after the seed was planted and decides to use the LSRL to make a prediction. Which of the following statements would best describe the accuracy of her prediction?",
+  "question_text": "Melanie planted a sunflower seed and decided to track its growth. Letting $x$ represent the number of days since the seed was planted and letting $y$ represent the plant's height in inches, she carefully gathered data each day beginning on day $7$ when the seed sprouted and continued for $30\\text{ days}$ after that. She then developed the following LSRL:<br>$$\\hat { y } =-6.78+1.43x$$<br>The correlation for the relationship was $r=0.972$.<br>Melanie wonders how tall her sunflower will be $6\\text{ months}$ after the seed was planted and decides to use the LSRL to make a prediction.\nWhich of the following statements would best describe the accuracy of her prediction?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -30,7 +30,7 @@
     },
     {
       "letter": "E",
-      "text": "It would be impossible to use the LSRL for making a prediction about the height of the sunflower in $6\\text{ months}$. since the LSRL was created using data that related height to number of days (not months) since the seed sprouted."
+      "text": "It would be impossible to use the LSRL for making a prediction about the height of the sunflower in 6 months. since the LSRL was created using data that related height to number of days (not months) since the seed sprouted."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",

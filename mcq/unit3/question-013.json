@@ -9,7 +9,7 @@
   ],
   "title": "Mayor's Constituents",
   "difficulty": "Easy",
-  "question_text": "A small town mayor wonders if his town will support a new city hall building in their town. He decides to send a survey to $50$ houses in order to get a feel for those who support the building. Only $30$ of the households return the survey.\nWhat is the population of interest in this setting?",
+  "question_text": "A small town mayor wonders if his town will support a new city hall building in their town. He decides to send a survey to $50$ houses in order to get a feel for those who support the building. Only $30$ of the households return the survey.<br>What is the population of interest in this setting?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -35,7 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "When planning a study, one must know the population and the sample from which the data comes. The population consists of all items or subjects of interest, while the sample is the subset of the population selected for the study.\n\nIn the problem, the mayor is trying to gather data about his constituents by sending a survey to a sample of $50$ households. Therefore, the subjects of interest in this setting would be all the mayors constituents.\n\nChoice 'A' is correct.",
+  "solution": "When planning a study, one must know the population and the sample from which the data comes. The population consists of all items or subjects of interest, while the sample is the subset of the population selected for the study.\n\nIn the problem, the mayor is trying to gather data about his constituents by sending a survey to a sample of 50\nhouseholds. Therefore, the subjects of interest in this setting would be all the mayors constituents.\n\nChoice 'A' is correct.",
   "explanations": {},
   "tags": [
     "DAT-2",

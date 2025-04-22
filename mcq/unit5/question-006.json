@@ -8,7 +8,7 @@
   ],
   "title": "Credit Card Facts: Describe the Sampling Distribution",
   "difficulty": "Easy",
-  "question_text": "A consumer research organization was interested in determining the mean number of credit cards owned by adults living in Kansas. To investigate, surveys were mailed to a random sample of $500$ adults with a Kansas address. However, only $84$ adults actually answered and returned the survey.\nGiven the following facts:\nThe population parameter is known to be $2.8$ credit cards.\nThe sample mean was found to be $2.9$ credit cards.\nThe standard deviation, $\\sigma$ is $0.7$ credit cards.\nDescribe the sampling distribution of $\\bar{x}$.",
+  "question_text": "A consumer research organization was interested in determining the mean number of credit cards owned by adults living in Kansas. To investigate, surveys were mailed to a random sample of $500$ adults with a Kansas address. However, only $84$ adults actually answered and returned the survey.<br>Given the following facts:<br>The population parameter is known to be $2.8$ credit cards.\nThe sample mean was found to be $2.9$ credit cards.\nThe standard deviation, $\\sigma$ is $0.7$ credit cards.<br>Describe the sampling distribution of $\\bar{x}$.",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -30,7 +30,7 @@
     },
     {
       "letter": "E",
-      "text": "Since the sample size of $84$ is sufficiently large, the sampling distribution will be approximately normal with a center at $2.8$ and a standard deviation of $0.7$."
+      "text": "Since the sample size of 84 is sufficiently large, the sampling distribution will be approximately normal with a center at 2.8 and a standard deviation of 0.7."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",

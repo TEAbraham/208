@@ -8,29 +8,31 @@
   ],
   "title": "Probability of Combining Two Normal Independent Variables",
   "difficulty": "Hard",
-  "question_text": "A farm stand sells apples and tomatoes as well as other fruits and vegetables The distributions for the weights of the apples and tomatoes are each approximately normal. The mean weight of an apple is $4.68$ ounces with a standard deviation of $0.20$ ounces. The mean weight of a tomato is $4.19$ ounces with a standard deviation of $0.18$ ounces.\nWhat is the probability when you randomly select one tomato and one apple that the tomato will weigh more than the apple?",
-  "image_files": [],
+  "question_text": "A farm stand sells apples and tomatoes as well as other fruits and vegetables The distributions for the weights of the apples and tomatoes are each approximately normal. The mean weight of an apple is $4.68$ ounces with a standard deviation of $0.20$ ounces. The mean weight of a tomato is $4.19$ ounces with a standard deviation of $0.18$ ounces.<br>What is the probability when you randomly select one tomato and one apple that the tomato will weigh more than the apple?",
+  "image_files": [
+    "images/question-162-img1.PNG"
+  ],
   "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "$0.007$"
+      "text": "0.007"
     },
     {
       "letter": "B",
-      "text": "$0.034$"
+      "text": "0.034"
     },
     {
       "letter": "C",
-      "text": "$0.966$"
+      "text": "0.966"
     },
     {
       "letter": "D",
-      "text": "$0.993$"
+      "text": "0.993"
     },
     {
       "letter": "E",
-      "text": "$1$"
+      "text": "1"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",

@@ -8,7 +8,7 @@
   ],
   "title": "Find the Error",
   "difficulty": "Hard",
-  "question_text": "A pharmaceutical company was testing a new drug. It wanted to show that a higher dose of the drug would result in patients having fewer headaches. Thirty-two patients were to be randomly selected from a group of headache sufferers from several medical practices in a large city. Four different dosages of the drug would be administered and the number of headaches would be counted over a period of time. Data was carefully documented and residuals were examined. A $t$-test was to be done using the following hypotheses:\n$H_{0}: \\beta=0$\n$H_{a}: \\beta\\neq0$\nSomething is wrong here. What is incorrect?",
+  "question_text": "A pharmaceutical company was testing a new drug. It wanted to show that a higher dose of the drug would result in patients having fewer headaches. Thirty-two patients were to be randomly selected from a group of headache sufferers from several medical practices in a large city. Four different dosages of the drug would be administered and the number of headaches would be counted over a period of time. Data was carefully documented and residuals were examined. A $t$-test was to be done using the following hypotheses:<br>$H_{0}: \\beta=0$<br>$H_{a}: \\beta\\neq0$<br>Something is wrong here.\nWhat is incorrect?",
   "image_files": [],
   "tables": [],
   "choices": [

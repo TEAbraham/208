@@ -8,7 +8,7 @@
   ],
   "title": "First-Class Letter Delivery: Mean and Standard Deviation of $Z$",
   "difficulty": "Medium",
-  "question_text": "The U.S. Postal Service recently released data on the number of days it takes for a first-class letter to reach its destination, as shown in the table below.\nx 1 2 3 4\np(X) 0.42 0.27 0.3 0.01\n\n\nTwo first-class letters are randomly selected from all letters mailed on a given day. Let Z be the sum of the number of days it takes for the two letters to reach their respective destinations.\nWhat are the mean and standard deviation of the random variable Z?",
+  "question_text": "The U.S. Postal Service recently released data on the number of days it takes for a first-class letter to reach its destination, as shown in the table below.<br>Two first-class letters are randomly selected from all letters mailed on a given day. Let Z be the sum of the number of days it takes for the two letters to reach their respective destinations.<br>What are the mean and standard deviation of the random variable Z?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">x</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th></tr></thead><tbody><tr><td>p(X)</td><td>0.42</td><td>0.27</td><td>0.3</td><td>0.01</td></tr></tbody></table>"
@@ -32,7 +32,7 @@
     },
     {
       "letter": "E",
-      "text": "μ=3.8;σ=1.5"
+      "text": "$\\mu = 3.8; \\sigma = 1.5$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",

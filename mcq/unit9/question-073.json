@@ -6,12 +6,8 @@
   ],
   "title": "Squirrel Population",
   "difficulty": "Medium",
-  "question_text": "The population of squirrels is regulated by, among other things, natural predators such as coyotes, foxes, hawks, and owls. It is known that higher density populations generally result in higher proportions of squirrels eaten by predators.\nA recent study observed the density of squirrels in a random selection of $4$ towns over the summer months and recorded the proportion of squirrels eaten. The explanatory variable is the density of the squirrel population in a particular town. The response variable is the proportion of the population consumed by predators. The data is shown below.\nA regression analysis is performed for these data and the scatterplot and residual plot are shown below.\nFor what reason(s) is inference about the regression model NOT met?\nThe true relationship between squirrel population density and proportion consumed is linear.\nThe standard deviation for proportion consumed does not vary with population density.\nFor any particular squirrel population density, the responses (proportion consumed) are approximately normally distributed.",
-  "image_files": [
-    "images/question-073-img1.jpeg",
-    "images/question-073-img2.jpeg",
-    "images/question-073-img3.jpeg"
-  ],
+  "question_text": "The population of squirrels is regulated by, among other things, natural predators such as coyotes, foxes, hawks, and owls. It is known that higher density populations generally result in higher proportions of squirrels eaten by predators.<br>A recent study observed the density of squirrels in a random selection of $4$ towns over the summer months and recorded the proportion of squirrels eaten. The explanatory variable is the density of the squirrel population in a particular town. The response variable is the proportion of the population consumed by predators. The data is shown below.\nLoading question supplement...<br>A regression analysis is performed for these data and the scatterplot and residual plot are shown below.<br>For what reason(s) is inference about the regression model NOT met?",
+  "image_files": [],
   "tables": [],
   "choices": [
     {

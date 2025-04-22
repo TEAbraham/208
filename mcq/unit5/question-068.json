@@ -8,17 +8,17 @@
   ],
   "title": "Financially Comfortable | 1 of 2",
   "difficulty": "Medium",
-  "question_text": "A community organization wishes to know the proportion of subjects who feel financially comfortable in a certain town.\nBased on last year’s census, $64\\%$ of the residents in this town felt financially comfortable. This year, in a sample of $60$ randomly chosen subjects, $39$ say they feel financially comfortable.\nIf indeed the subjects’ economic opinions have NOT changed from last year, describe the sampling distribution of the proportion of those who feel financially comfortable.",
+  "question_text": "A community organization wishes to know the proportion of subjects who feel financially comfortable in a certain town.<br>Based on last year’s census, $64\\%$ of the residents in this town felt financially comfortable. This year, in a sample of $60$ randomly chosen subjects, $39$ say they feel financially comfortable.<br>I\nf indeed the subjects’ economic opinions have NOT changed from last year, describe the sampling distribution of the proportion of those who feel financially comfortable.",
   "image_files": [],
   "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Shape: unable to tell\nCenter: mean = $0.65$\nSpread: standard deviation = $0.06197$"
+      "text": "Shape: unable to tell\nCenter: mean = 0.65\nSpread: standard deviation = 0.06197"
     },
     {
       "letter": "B",
-      "text": "Shape: approximately normal\nCenter: mean = $0.64$\nSpread: standard deviation = $0.06158$"
+      "text": "Shape: approximately normal\nCenter: mean = 0.64\nSpread: standard deviation = 0.06158"
     },
     {
       "letter": "C",
@@ -26,11 +26,11 @@
     },
     {
       "letter": "D",
-      "text": "Shape: left skewed\nCenter: mean = 0.64\nSpread: standard deviation = 0.06158"
+      "text": "Shape: left skewed\nCenter: mean =\n0.64\nSpread: standard deviation =\n0.06158"
     },
     {
       "letter": "E",
-      "text": "Shape: approximately normal\nCenter: mean = 0.64\nSpread: standard deviation = 0.06197"
+      "text": "Shape: approximately normal\nCenter: mean =\n0.64\nSpread: standard deviation =\n0.06197"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",

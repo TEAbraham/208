@@ -9,7 +9,7 @@
   ],
   "title": "Favorite Color",
   "difficulty": "Easy",
-  "question_text": "Color Red Blue Yellow Pink Green Orange\nRelative Frequency 13% 24% 18% 21% 16% 8%\n\n\nIn a large survey, $1$st graders were asked what their favorite color is. The results are in the table above.\nSuppose that $8$ randomly selected students are chosen.\nWhat is the probability that $2$ students say blue is their favorite color?",
+  "question_text": "In a large survey, $1$st graders were asked what their favorite color is. The results are in the table above.<br>Suppose that $8$ randomly selected students are chosen.<br>What is the probability that $2$ students say blue is their favorite color?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Color</th><th scope=\"col\">Red</th><th scope=\"col\">Blue</th><th scope=\"col\">Yellow</th><th scope=\"col\">Pink</th><th scope=\"col\">Green</th><th scope=\"col\">Orange</th></tr></thead><tbody><tr><td>Relative Frequency</td><td>13%</td><td>24%</td><td>18%</td><td>21%</td><td>16%</td><td>8%</td></tr></tbody></table>"
@@ -33,7 +33,7 @@
     },
     {
       "letter": "E",
-      "text": "$0.24^2 \\cdot 0.76^6 \\cdot \\left[\\dfrac{8!}{(2! \\cdot 6!)}\\right]$"
+      "text": "0.242⋅0.766⋅[\n8!\n(2!⋅6!)\n]"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",

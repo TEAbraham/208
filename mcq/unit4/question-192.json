@@ -8,29 +8,29 @@
   ],
   "title": "Shipment of Lightbulbs",
   "difficulty": "Medium",
-  "question_text": "After a large shipment of lightbulbs goes out, the manufacturer estimates that about $1\\%$ are defective.\nWhat is the probability that in a package of $10\\text{ lightbulbs}$, at most $1\\text{ lightbulb}$ is defective?",
+  "question_text": "After a large shipment of lightbulbs goes out, the manufacturer estimates that about $1\\%$ are defective.<br>What is the probability that in a package of $10\\text{ lightbulbs}$, at most $1\\text{ lightbulb}$ is defective?",
   "image_files": [],
   "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "About $0.90438$."
+      "text": "About 0.90438."
     },
     {
       "letter": "B",
-      "text": "About $0.99573$."
+      "text": "About 0.99573\n."
     },
     {
       "letter": "C",
-      "text": "About $0.00427$."
+      "text": "About 0.00427\n."
     },
     {
       "letter": "D",
-      "text": "About $0$."
+      "text": "About 0\n."
     },
     {
       "letter": "E",
-      "text": "About $0.91352$."
+      "text": "About\n0.91352\n."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",

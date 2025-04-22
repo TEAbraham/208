@@ -11,7 +11,7 @@
   ],
   "title": "Experimental Design",
   "difficulty": "Medium",
-  "question_text": "A fitness researcher is interested in learning which form of exercise helps people lose weight the best. She decides to run an experiment with three groups. One group will do no exercise, the second group with be on a strictly cardio regimen, while the third group will be on a strictly weight-lifting regimen. She decides to take $30$ volunteers for the study, and will use a random number generator to assign $10$ volunteers to each group. She decides to let the volunteers choose their own diet throughout the experiment. At the end, she will measure the weight loss from each group and compare.\nWhich principle of experimental design is not followed in this experiment?",
+  "question_text": "A fitness researcher is interested in learning which form of exercise helps people lose weight the best. She decides to run an experiment with three groups. One group will do no exercise, the second group with be on a strictly cardio regimen, while the third group will be on a strictly weight-lifting regimen. She decides to take $30$ volunteers for the study, and will use a random number generator to assign $10$ volunteers to each group. She decides to let the volunteers choose their own diet throughout the experiment. At the end, she will measure the weight loss from each group and compare.<br>Which principle of experimental design is not followed in this experiment?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -37,7 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C\" is the correct answer.",
-  "solution": "Any well-designed experiment will meet all four-principles of experimental design: 1. Comparison, 2. Random Assignment, 3. Control, and 4. Replication. In order to meet comparison, the experiment must have two or more treatments. Additionally, volunteers must be randomly assigned to each treatment, and we must have more than one experimental unit per treatment (replication).\n\nTo meet control, one must take into account variables that could affect the response that aren't our experimental treatments. A control group is one positive step for the experiment, but a well-designed experiment takes into account ALL variables that could be confounding. By not controlling the volunteers diets, we cannot be sure if the weight loss is due to the exercise regimens or the volunteers' diets. Therefore, control was not adequately met in this experiment.\n\nChoice 'C' is correct.",
+  "solution": "Any well-designed experiment will meet all four-principles of experimental design: 1.\nComparison, 2.\nRandom Assignment, 3.\nControl, and 4.\nReplication. In order to meet comparison, the experiment must have two or more treatments. Additionally, volunteers must be randomly assigned to each treatment, and we must have more than one experimental unit per treatment (replication).\n\nTo meet control, one must take into account variables that could affect the response that aren't our experimental treatments. A control group is one positive step for the experiment, but a well-designed experiment takes into account ALL variables that could be confounding. By not controlling the volunteers diets, we cannot be sure if the weight loss is due to the exercise regimens or the volunteers' diets. Therefore, control was not adequately met in this experiment.\n\nChoice 'C' is correct.",
   "explanations": {},
   "tags": [
     "VAR-3",

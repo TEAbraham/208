@@ -8,7 +8,7 @@
   ],
   "title": "Admissions Test",
   "difficulty": "Medium",
-  "question_text": "State University applicants are required to take an admission test for entrance into the university.\nIn a given year, $850\\text{ applicants}$ took the test, and the mean score was $68$ with a standard deviation of $4\\text{ points}$. Suppose we do not know if the scores are approximately normally distributed.\nWhat can be said about the number of scores that are less than $60$ (to the nearest integer)?",
+  "question_text": "State University applicants are required to take an admission test for entrance into the university.<br>In a given year, $850\\text{ applicants}$ took the test, and the mean score was $68$ with a standard deviation of $4\\text{ points}$. Suppose we do not know if the scores are approximately normally distributed.<br>What can be said about the number of scores that are less than $60$ (to the nearest integer)?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -18,19 +18,19 @@
     },
     {
       "letter": "B",
-      "text": "At least $20$ of the scores are less than $60$."
+      "text": "At least 20 of the scores are less than 60."
     },
     {
       "letter": "C",
-      "text": "Exactly $0.0228$ of the scores are less than $60$."
+      "text": "Exactly 0.0228 of the scores are less than 60."
     },
     {
       "letter": "D",
-      "text": "At least $637$ of the scores are less than $60$."
+      "text": "At least 637\nof the scores are less than 60\n."
     },
     {
       "letter": "E",
-      "text": "At most 213 of the scores are less than 60."
+      "text": "At most 213\nof the scores are less than 60\n."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",

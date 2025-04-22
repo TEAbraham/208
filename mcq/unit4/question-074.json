@@ -8,7 +8,7 @@
   ],
   "title": "Geometric Exact Value",
   "difficulty": "Medium",
-  "question_text": "Suppose a $75\\%$ accuracy free-throw shooter attempts free throws until one is missed.\nWhat is the probability that the shooter’s first miss is on the fourth attempt?",
+  "question_text": "Suppose a $75\\%$ accuracy free-throw shooter attempts free throws until one is missed.<br>What is the probability that the shooter’s first miss is on the fourth attempt?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -26,11 +26,11 @@
     },
     {
       "letter": "D",
-      "text": "$0.0791$"
+      "text": "0.0791"
     },
     {
       "letter": "E",
-      "text": "$0.4219$"
+      "text": "0.4219"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",

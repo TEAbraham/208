@@ -9,7 +9,7 @@
   ],
   "title": "Binomial Distribution: Manipulate that Binomial Standard Style",
   "difficulty": "Medium",
-  "question_text": "A random variable $X$ has the probability:\n$$\\begin{pmatrix} 20 \\\\ k \\end{pmatrix}(0.44)^{k}(0.56)^{20-k}$$\n...associated with the value $k$ is for $k= 0,1,2,3,…,20$.\nWhat is the standard deviation of $X$?",
+  "question_text": "A random variable $X$ has the probability:<br>$$\\begin{pmatrix} 20 \\\\ k \\end{pmatrix}(0.44)^{k}(0.56)^{20-k}$$<br>...associated with the value $k$ is for $k= 0,1,2,3,…,20$.<br>What is the standard deviation of $X$?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -23,11 +23,11 @@
     },
     {
       "letter": "C",
-      "text": "4.93"
+      "text": "$4.93$"
     },
     {
       "letter": "D",
-      "text": "8.80"
+      "text": "$8.80$"
     },
     {
       "letter": "E",

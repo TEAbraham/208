@@ -4,7 +4,7 @@
   "topics": [],
   "title": "Sports Drinks: Null and Alternative Hypotheses",
   "difficulty": "Medium",
-  "question_text": "Suppose a random survey was taken in a large urban high school to determine if vending machine location affects whether sports drinks are more likely to be ordered.\nA large single sample of size n = $500$ was taken over the last week. In the cafeteria, $78$ of the $165$ drinks purchased were sports drinks. In the gym, $98$ of the $157$ drinks purchased were sports drinks, and in the auditorium, $54$ of the $178$ drinks purchased were sports drinks.\nWhat are the appropriate null and alternative hypotheses?",
+  "question_text": "Suppose a random survey was taken in a large urban high school to determine if vending machine location affects whether sports drinks are more likely to be ordered.<br>A large single sample of size n = $500$ was taken over the last week. In the cafeteria, $78$ of the $165$ drinks purchased were sports drinks. In the gym, $98$ of the $157$ drinks purchased were sports drinks, and in the auditorium, $54$ of the $178$ drinks purchased were sports drinks.<br>What are the appropriate null and alternative hypotheses?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -26,7 +26,7 @@
     },
     {
       "letter": "E",
-      "text": "$H_o:$ Sports drinks and preference are homogeneous\n$H_a:$ Sports drinks and preference are not homogeneous"
+      "text": "$H_o:$ Sports drinks and preference are homogeneous\nHa: Sports drinks and preference are not homogeneous"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",

@@ -9,7 +9,7 @@
   ],
   "title": "Avocado Farm",
   "difficulty": "Easy",
-  "question_text": "An avocado farmer in California divides his farmland into $8$ different plots. Each plot of land has a different watering system assigned that will use a variable amount of water. During a recent month, the farmer selects $5$ random avocados from each plot of land and measures the average weight of the avocado.\nThe farmer then compares the average weight (in ounces) to the amount of water used on the specific plot (in gallons). The linear regression model of the data is as follows:\n$\\widehat{\\text{weight}} = 2.31 + 0.042(\\text{gallons})$\nWhat is the population of interest for the farmer?",
+  "question_text": "An avocado farmer in California divides his farmland into $8$ different plots. Each plot of land has a different watering system assigned that will use a variable amount of water. During a recent month, the farmer selects $5$ random avocados from each plot of land and measures the average weight of the avocado.<br>The farmer then compares the average weight (in ounces) to the amount of water used on the specific plot (in gallons). The linear regression model of the data is as follows:<br>$\\widehat{\\text{weight}} = 2.31 + 0.042(\\text{gallons})$<br>What is the population of interest for the farmer?",
   "image_files": [],
   "tables": [],
   "choices": [

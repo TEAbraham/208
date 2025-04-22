@@ -10,7 +10,7 @@
   ],
   "title": "Max Battery Life",
   "difficulty": "Hard",
-  "question_text": "A popular cell phone maker allows its users to measure the \"Max Battery Life\" to determine the health of the battery. This compares the user's current battery life to the life of the battery when it was new. A data scientist for the company wants to create a linear regression model for a random sample of $22$ phones and determine the Max Battery Life after a certain amount of time (in months).\nBelow is the scatter plot (with the regression line plotted), a table of the regression data, and a model sampling distribution if the researcher simulated a sampling distribution for his data:\nWhat question cannot be answered by the provided information?",
+  "question_text": "A popular cell phone maker allows its users to measure the \"Max Battery Life\" to determine the health of the battery. This compares the user's current battery life to the life of the battery when it was new. A data scientist for the company wants to create a linear regression model for a random sample of $22$ phones and determine the Max Battery Life after a certain amount of time (in months).<br>Below is the scatter plot (with the regression line plotted), a table of the regression data, and a model sampling distribution if the researcher simulated a sampling distribution for his data:<br>What question cannot be answered by the provided information?",
   "image_files": [
     "images/question-010-img1.jpeg",
     "images/question-010-img2.jpeg",

@@ -9,7 +9,7 @@
   ],
   "title": "Spinning the Prize Wheel",
   "difficulty": "Hard",
-  "question_text": "A certain prize wheel has $12\\text{ spots}$ on it.\nFive of the spots contain cash values of $\\$500$. Five other spots contain cash values of $\\$1{,}000$. One spot contains a cash value of $\\$10{,}000$. The $12^\\text{th}$ spot represents a bankruptcy, resulting in losing all money gained from previous spins.\nIn this game, the player spins until he gets a bankruptcy or chooses to stop. One particular player has bad luck and thinks the wheel may not be balanced in a fair way so that each spot does not have the same likelihood of getting stopped on.\nWhich of the following methods of geometric simulation could determine if the player is correct?",
+  "question_text": "A certain prize wheel has $12\\text{ spots}$ on it.<br>Five of the spots contain cash values of $\\$500$. Five other spots contain cash values of $\\$1{,}000$. One spot contains a cash value of $\\$10{,}000$. The $12^\\text{th}$ spot represents a bankruptcy, resulting in losing all money gained from previous spins.<br>In this game, the player spins until he gets a bankruptcy or chooses to stop. One particular player has bad luck and thinks the wheel may not be balanced in a fair way so that each spot does not have the same likelihood of getting stopped on.<br>Which of the following methods of geometric simulation could determine if the player is correct?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -27,11 +27,11 @@
     },
     {
       "letter": "D",
-      "text": "On a TI-83 or -84 calculator, type in RandInt ($1,12$), where $1-11$ represent not a bankruptcy and $12$ represents a bankruptcy. Repeat this process and calculate the number of trials it takes until a bankruptcy occurs. Repeat this process $1{,}000\\text{ times}$. Find the average number of trials until a bankruptcy and compare this to the theoretical mean of $6.4\\text{ trials}$ until the first bankruptcy."
+      "text": "On a TI-83 or -84 calculator, type in RandInt (1,12), where 1−11 represent not a bankruptcy and 12 represents a bankruptcy. Repeat this process and calculate the number of trials it takes until a bankruptcy occurs. Repeat this process 1,000 times. Find the average number of trials until a bankruptcy and compare this to the theoretical mean of 6.4 trials until the first bankruptcy."
     },
     {
       "letter": "E",
-      "text": "Put $12\\text{ tags}$ numbered $1-12$ in a hat. Label tags $1-11$ not a bankruptcy and tag number $12$ a bankruptcy. Draw tags out of the hat, with replacement, recording the number of bankruptcies found. Perform at least $1{,}000\\text{ trials}$ and find the proportion of bankruptcies compared to the theoretical proportion of $\\frac{1}{12}$."
+      "text": "Put 12 tags\nnumbered 1−12\nin a hat. Label tags 1−11\nnot a bankruptcy and tag number 12\na bankruptcy. Draw tags out of the hat, with replacement, recording the number of bankruptcies found. Perform at least 1,000 trials\nand find the proportion of bankruptcies compared to the theoretical proportion of\n1\n12\n."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",

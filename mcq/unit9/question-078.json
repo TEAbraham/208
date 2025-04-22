@@ -7,7 +7,7 @@
   ],
   "title": "Snow Making",
   "difficulty": "Medium",
-  "question_text": "Snow making depends on temperature, since water freezes at $32^{\\circ} F$. Dave, a snow-making enthusiast, believes that there is no relationship between air temperature and $\\%$ relative humidity. He collected and analyzed data on the wet-bulb temperature which relates air temperature to $\\%$ relative humidity.\nThe conditions for regression inference were met and the following $98\\%$ confidence interval for $\\beta$, the slope of the population regression line of $\\%$ relative humidity on air temperature, was constructed:\n$$(-10.77,-6.355)$$\nDoes this interval provide convincing evidence of a linear relationship between air temperature and $\\%$ relative humidity at the $\\alpha=0.02$ significance level?",
+  "question_text": "Snow making depends on temperature, since water freezes at $32^{\\circ} F$. Dave, a snow-making enthusiast, believes that there is no relationship between air temperature and $\\%$ relative humidity. He collected and analyzed data on the wet-bulb temperature which relates air temperature to $\\%$ relative humidity.<br>The conditions for regression inference were met and the following $98\\%$ confidence interval for $\\beta$, the slope of the population regression line of $\\%$ relative humidity on air temperature, was constructed:<br>$$(-10.77,-6.355)$$<br>Does this interval provide convincing evidence of a linear relationship between air temperature and $\\%$ relative humidity at the $\\alpha=0.02$ significance level?",
   "image_files": [],
   "tables": [],
   "choices": [

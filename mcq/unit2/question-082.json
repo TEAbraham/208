@@ -7,7 +7,7 @@
   ],
   "title": "Can We Extrapolate?",
   "difficulty": "Hard",
-  "question_text": "A statistics student wanted to do a study by examining data from last year's baseball season. He wanted to randomly select $40$ players and note their weight and the number of home runs they hit. The student wanted to see if weighing more might predict more home runs being hit.\nOf the $40$ players, the weights ranged from $180$ to $280$ pounds. He obtained a regression equation of $\\hat{y}=-60+0.4x$. The student wondered if it was reasonable to predict the number of home runs hit by a $300$ pound man and by a $400$ pound man.\nWhich answer below seems most reasonable?",
+  "question_text": "A statistics student wanted to do a study by examining data from last year's baseball season. He wanted to randomly select $40$ players and note their weight and the number of home runs they hit. The student wanted to see if weighing more might predict more home runs being hit.<br>Of the $40$ players, the weights ranged from $180$ to $280$ pounds. He obtained a regression equation of $\\hat{y}=-60+0.4x$. The student wondered if it was reasonable to predict the number of home runs hit by a $300$ pound man and by a $400$ pound man.<br>Which answer below seems most reasonable?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -21,7 +21,7 @@
     },
     {
       "letter": "C",
-      "text": "Yes. These predictions are not always reasonable, but in this case they might be as the $400$ pound man could be very tall and very strong."
+      "text": "Yes. These predictions are not always reasonable, but in this case they might be as the 400 pound man could be very tall and very strong."
     },
     {
       "letter": "D",
@@ -29,7 +29,7 @@
     },
     {
       "letter": "E",
-      "text": "Yes and No. It is reasonable to predict for the 300 pound man since that weight is very close to the others, but to predict as far away as 400 pounds is not reasonable."
+      "text": "Yes and No. It is reasonable to predict for the 300\npound man since that weight is very close to the others, but to predict as far away as 400\npounds is not reasonable."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",

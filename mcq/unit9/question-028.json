@@ -10,7 +10,7 @@
   ],
   "title": "Interpretation of Slope $t$-Interval: Height, Weight",
   "difficulty": "Medium",
-  "question_text": "A statistician wanted to construct a $95\\%$ confidence interval for the population slope between height (in inches) and weight (in pounds) of his co-workers. He made height the explanatory (independent) variable and weight the response (dependent) variable.\nHe selected a random sample of $30$ people from work and asked them to list their height and weight. After seeing his conditions were satisfied, he constructed the interval and got a result of $(1.97, 2.89)$.\nWhich of the following is the correct interpretation of the interval in the context of this study?",
+  "question_text": "A statistician wanted to construct a $95\\%$ confidence interval for the population slope between height (in inches) and weight (in pounds) of his co-workers. He made height the explanatory (independent) variable and weight the response (dependent) variable.<br>He selected a random sample of $30$ people from work and asked them to list their height and weight. After seeing his conditions were satisfied, he constructed the interval and got a result of $(1.97, 2.89)$.<br>Which of the following is the correct interpretation of the interval in the context of this study?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -24,15 +24,15 @@
     },
     {
       "letter": "C",
-      "text": "The statistician is $95\\%$ confident that for each additional increase in pounds, the height will increase between $1.97$ to $2.89$ inches"
+      "text": "The statistician is 95% confident that for each additional increase in pounds, the height will increase between 1.97 to 2.89 inches"
     },
     {
       "letter": "D",
-      "text": "The statistician is $95\\%$ confident that the interval from $1.97$ to $2.89$ captures the sample slope for relating height to weight of his co-workers."
+      "text": "The statistician is 95% confident that the interval from 1.97 to 2.89 captures the sample slope for relating height to weight of his co-workers."
     },
     {
       "letter": "E",
-      "text": "The statistician is $95\\%$ confident that the interval from $1.97$ to $2.89$ captures the population slope for relating height to weight for his co-workers."
+      "text": "The statistician is 95%\nconfident that the interval from 1.97\nto 2.89\ncaptures the population slope for relating height to weight for his co-workers."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",

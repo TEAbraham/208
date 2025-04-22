@@ -9,7 +9,7 @@
   ],
   "title": "Newspaper Headline",
   "difficulty": "Hard",
-  "question_text": "A recent headline in a national newspaper read,\n$$\\text{Running Ten Miles a Day Lowers Blood Pressure}$$\nUpon reading the article, you realize that the study had $30$ volunteer participants that normally ran $10$ miles per day, and that the results showed the participants had lower blood pressure than an average person.\nWhich statement is false regarding the situation?",
+  "question_text": "A recent headline in a national newspaper read,\n$$\\text{Running Ten Miles a Day Lowers Blood Pressure}$$<br>Upon reading the article, you realize that the study had $30$ volunteer participants that normally ran $10$ miles per day, and that the results showed the participants had lower blood pressure than an average person.<br>Which statement is false regarding the situation?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -35,7 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "The headline is interpreting the results of a study from $30$ volunteer participants. The participants in the study also consistently ran $10$ miles a day. This fact leads you to the belief that since the participants were already running $10$ miles per day, we cannot generalize the results to the whole population.\n\nAdditionally, the study is an observational study as there was no treatment imposed on the individuals in the study. Therefore, we cannot show a cause and effect relationship between running $10$ miles per day and the lowering of blood pressure. We would need a well-designed experiment to show a causal relationship.\n\nChoice 'D' is correct.",
+  "solution": "The headline is interpreting the results of a study from $30$ volunteer participants. The participants in the study also consistently ran $10$ miles a day. This fact leads you to the belief that since the participants were already running $10$ miles per day, we cannot generalize the results to the whole population.\n\nAdditionally, the study is an observational study as there was no treatment imposed on the individuals in the study. Therefore, we cannot show a cause and effect relationship between running 10 miles per day and the lowering of blood pressure. We would need a well-designed experiment to show a causal relationship.\n\nChoice 'D' is correct.",
   "explanations": {},
   "tags": [
     "DAT-2",

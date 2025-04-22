@@ -8,7 +8,7 @@
   ],
   "title": "Probability of $5$ Heads",
   "difficulty": "Easy",
-  "question_text": "A fair coin is tossed $8\\text{ times}$.\nWhat is the probability that $5$ of the resulting tosses land on heads?",
+  "question_text": "A fair coin is tossed $8\\text{ times}$.<br>What is the probability that $5$ of the resulting tosses land on heads?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -22,15 +22,15 @@
     },
     {
       "letter": "C",
-      "text": "$0.5^3 \\cdot 0.5^5$"
+      "text": "0.5^3 \\cdot 0.5^5"
     },
     {
       "letter": "D",
-      "text": "$8 \\cdot 0.5^3 \\cdot 0.5^5$"
+      "text": "8 \\cdot 0.5^3 \\cdot 0.5^5"
     },
     {
       "letter": "E",
-      "text": "$\\dbinom{5}{8} \\cdot (0.5^3) \\cdot (0.5^8)$"
+      "text": "\\dbinom{5}{8} \\cdot (0.5^3) \\cdot (0.5^8)"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",

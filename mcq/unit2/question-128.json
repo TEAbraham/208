@@ -9,7 +9,7 @@
   ],
   "title": "Logarithmic Transformation: Speed vs. Miles per Gallon",
   "difficulty": "Hard",
-  "question_text": "A consumer report gave the following regression equation on the relationship between the speed ($s$) in miles per hour and the average miles per gallon at that speed ($a$) for a particular car:\n$$\\widehat {\\log (a)} =0.971+0.363\\cdot\\log (s)$$\nWhich of the following is closest to the predicted average miles per gallon when the speed of the car is $45$ miles per hour?",
+  "question_text": "A consumer report gave the following regression equation on the relationship between the speed ($s$) in miles per hour and the average miles per gallon at that speed ($a$) for a particular car:<br>$$\\widehat {\\log (a)} =0.971+0.363\\cdot\\log (s)$$<br>Which of the following is closest to the predicted average miles per gallon when the speed of the car is $45$ miles per hour?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -27,11 +27,11 @@
     },
     {
       "letter": "D",
-      "text": "$17.306$"
+      "text": "17.306"
     },
     {
       "letter": "E",
-      "text": "$37.239$"
+      "text": "37.239"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",

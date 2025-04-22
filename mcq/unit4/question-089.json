@@ -8,7 +8,7 @@
   ],
   "title": "Yahtzee Probability",
   "difficulty": "Hard",
-  "question_text": "In the game of Yahtzee, a player tosses $5$, fair, $6$-sided dice while trying to form various combinations like three of a kind (for example: $4, 4, 4, 5, 1$), or a full house (for example: $2, 2, 2, 6, 6$). If all five dice show the same number (for example: $3, 3, 3, 3, 3$), the player has rolled a Yahtzee.\nHow would you calculate the probability that a player will roll Yahtzee on their first roll of the dice?",
+  "question_text": "In the game of Yahtzee, a player tosses $5$, fair, $6$-sided dice while trying to form various combinations like three of a kind (for example: $4, 4, 4, 5, 1$), or a full house (for example: $2, 2, 2, 6, 6$). If all five dice show the same number (for example: $3, 3, 3, 3, 3$), the player has rolled a Yahtzee.<br>How would you calculate the probability that a player will roll Yahtzee on their first roll of the dice?",
   "image_files": [],
   "tables": [],
   "choices": [

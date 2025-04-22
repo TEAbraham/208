@@ -8,7 +8,7 @@
   ],
   "title": "Upcoming Election",
   "difficulty": "Hard",
-  "question_text": "The mayor of a large city is considering running for reelection.\nShe won the previous election against her competitor $52\\%$ to $48\\%$.\nLast week, two independent, random samples were taken of likely voters, each of size $n = 50$. These polls found the proportion of likely voters to vote for the current mayor is $48\\%$ and $50\\%$, respectively.\nAssume she is running against one other candidate and needs the majority of votes to win.\nIndividually, which of the following statements is true about these samples?",
+  "question_text": "The mayor of a large city is considering running for reelection.<br>She won the previous election against her competitor $52\\%$ to $48\\%$.<br>Last week, two independent, random samples were taken of likely voters, each of size $n = 50$. These polls found the proportion of likely voters to vote for the current mayor is $48\\%$ and $50\\%$, respectively.<br>Assume she is running against one other candidate and needs the majority of votes to win.<br>Individually, which of the following statements is true about these samples?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -30,7 +30,7 @@
     },
     {
       "letter": "E",
-      "text": "These samples give strong evidence the mayor will NOT lose the upcoming race and still has $52\\%$ of the vote, as these values could have easily happened by chance."
+      "text": "These samples give strong evidence the mayor will NOT lose the upcoming race and still has 52% of the vote, as these values could have easily happened by chance."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",

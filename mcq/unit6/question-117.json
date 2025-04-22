@@ -8,7 +8,7 @@
   ],
   "title": "Two-Proportion $Z$-Test Risks",
   "difficulty": "Medium",
-  "question_text": "In a survey done in a small town last year, $8$ out of $12$ randomly selected people said they approve of the job the mayor is doing.\nThe following year, $10$ different people are randomly surveyed, and of these, only $6\\text{ people}$ approve.\nWhy would it be inappropriate to perform a two-proportion $Z$-test to determine whether the mayor’s approval rating has changed?",
+  "question_text": "In a survey done in a small town last year, $8$ out of $12$ randomly selected people said they approve of the job the mayor is doing.<br>The following year, $10$ different people are randomly surveyed, and of these, only $6\\text{ people}$ approve.<br>Why would it be inappropriate to perform a two-proportion $Z$-test to determine whether the mayor’s approval rating has changed?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -26,11 +26,11 @@
     },
     {
       "letter": "D",
-      "text": "At least one of the following is not at least 5:\n${N}_{1}\\cdot \\text{(pooled p)}$\n${N}_{2}\\cdot \\text{(pooled p) }$\n${N}_{1}\\cdot \\text{(1-pooled p) }$\n$ {N}_{2}\\cdot \\text{(1-pooled p)}$"
+      "text": "At least one of the following is not at least 5:\n${N}_{1}\\cdot \\text{(pooled p)}$\nN2⋅(pooled p) \nN1⋅(1-pooled p) \nN2⋅(1-pooled p)"
     },
     {
       "letter": "E",
-      "text": "The combined sample sizes are only $22$, which is too small."
+      "text": "The combined sample sizes are only 22\n, which is too small."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",

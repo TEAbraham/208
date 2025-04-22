@@ -9,7 +9,7 @@
   ],
   "title": "Apple Picking",
   "difficulty": "Easy",
-  "question_text": "A couple decides to go to an apple orchard to pick some apples. After searching the orchard for the best looking apples, they decide to pick $10$ apples from a single tree. When they go to pay, they figure out the average weight of each apple is $75$ grams.\nCan the couple speculate that the average size of the apples from the farm is $75$ grams?",
+  "question_text": "A couple decides to go to an apple orchard to pick some apples. After searching the orchard for the best looking apples, they decide to pick $10$ apples from a single tree. When they go to pay, they figure out the average weight of each apple is $75$ grams.<br>Can the couple speculate that the average size of the apples from the farm is $75$ grams?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -35,7 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "As stated in the problem, the couple selected a sample of $10$ random apples from a tree. Due to the fact of Sampling Variability, not all samples of size $10$ are guaranteed to have a mean of $75$ grams. Some samples will produce a mean that is greater, while some will produce a mean that is less.\n\nTherefore, not all samples of size $10$ will result in a mean weight of $75$ grams.\n\nChoice 'D' is correct.",
+  "solution": "As stated in the problem, the couple selected a sample of 10 random apples from a tree. Due to the fact of Sampling Variability, not all samples of size 10 are guaranteed to have a mean of 75 grams. Some samples will produce a mean that is greater, while some will produce a mean that is less.\n\nTherefore, not all samples of size 10 will result in a mean weight of 75 grams.\n\nChoice 'D' is correct.",
   "explanations": {},
   "tags": [
     "VAR-1.G",

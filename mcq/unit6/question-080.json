@@ -8,7 +8,7 @@
   ],
   "title": "Type II Error in Context",
   "difficulty": "Medium",
-  "question_text": "A study on women’s weights was recently completed.\nFifteen randomly selected high school females from an urban setting were compared to $16$ randomly selected high school females from a rural setting. The results are below:\nTwo-Sample T for Urban Weights vs. Rural Weights\nN Mean StDev SE Mean\nUrban Weights 15 126.1 10.5 2.7\nRural Weights 16 128.8 13.2 3.3\n\n\nDifference = $\\mu$ (Urban Weights) - $\\mu$ (Rural Weights)\nEstimate for difference: $-2.68$\n$95\\%$ CI for difference: $(-11.45, 6.09)$\n$T$-test of difference = $0$ (vs. not =): $T$-value = $-0.63$\n$P$-value = $0.537$\nDF = $28$\nA type II error in the context of this study would involve",
+  "question_text": "A study on women’s weights was recently completed.<br>Fifteen randomly selected high school females from an urban setting were compared to $16$ randomly selected high school females from a rural setting. The results are below:<br>Two-Sample T for Urban Weights vs. Rural Weights<br>Difference = $\\mu$ (Urban Weights) - $\\mu$ (Rural Weights)<br>Estimate for difference: $-2.68$<br>$95\\%$ CI for difference: $(-11.45, 6.09)$<br>$T$-test of difference = $0$ (vs. not =): $T$-value = $-0.63$\n$P$-value = $0.537$\nDF = $28$<br>A type II error in the context of this study would involve",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">StDev</th><th scope=\"col\">SE Mean</th></tr></thead><tbody><tr><td>Urban Weights</td><td>15</td><td>126.1</td><td>10.5</td><td>2.7</td></tr><tr><td>Rural Weights</td><td>16</td><td>128.8</td><td>13.2</td><td>3.3</td></tr></tbody></table>"

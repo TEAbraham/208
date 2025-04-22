@@ -10,7 +10,7 @@
   ],
   "title": "Constructing Certain Types of Mean Intervals: Respect Your Boss",
   "difficulty": "Medium",
-  "question_text": "An insurance company is assessing two of its regional managers (Manager $A$ and Manager $B$) on how well-respected they are by their employees. The insurance company randomly selects $40$ employees from both regions.\nThey ask the employees to rate how much they respect their managers on a $1-10$ scale, with $1$ representing no respect and $10$ representing the utmost respect. Here are the summary results:\nCompany N Average Standard Deviation\nA 40 8.1 1.4\nB 40 6.2 1.1\n\n\nWhich of the following represents a $99\\%$ confidence interval for the difference in the averages between how much company $A$'s employees respect their manager when compared with company $B$'s?",
+  "question_text": "An insurance company is assessing two of its regional managers (Manager $A$ and Manager $B$) on how well-respected they are by their employees. The insurance company randomly selects $40$ employees from both regions.<br>They ask the employees to rate how much they respect their managers on a $1-10$ scale, with $1$ representing no respect and $10$ representing the utmost respect. Here are the summary results:<br>Which of the following represents a $99\\%$ confidence interval for the difference in the averages between how much company $A$'s employees respect their manager when compared with company $B$'s?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Company</th><th scope=\"col\">N</th><th scope=\"col\">Average</th><th scope=\"col\">Standard Deviation</th></tr></thead><tbody><tr><td>A</td><td>40</td><td>8.1</td><td>1.4</td></tr><tr><td>B</td><td>40</td><td>6.2</td><td>1.1</td></tr></tbody></table>"

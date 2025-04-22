@@ -8,29 +8,31 @@
   ],
   "title": "Bamboo Gains",
   "difficulty": "Medium",
-  "question_text": "The average daily growth of unfertilized bamboo in peek growing season is $\\mu_o=11 \\text{ cm}$ with standard deviation $\\sigma_o=1.3 \\text{ cm}$. The average daily growth of fertilized bamboo in peek growing season is $\\mu_f=12.9 \\text{ cm}$ with standard deviation $\\sigma_f=0.9 \\text{ cm}$.\nA random sample of $90$ unfertilized and $100$ fertilized bamboo plants are tracked during peak growing season and the difference in their sample's average growth is analyzed.\nThe difference in sample mean growth is found to be $\\bar{x}_f-\\bar{x}_o=1.5 \\text{ cm}$.\nInterpret the likelihood of a difference in sample mean as little as $1.5 \\text{ cm}$.",
-  "image_files": [],
+  "question_text": "The average daily growth of unfertilized bamboo in peek growing season is $\\mu_o=11 \\text{ cm}$ with standard deviation $\\sigma_o=1.3 \\text{ cm}$. The average daily growth of fertilized bamboo in peek growing season is $\\mu_f=12.9 \\text{ cm}$ with standard deviation $\\sigma_f=0.9 \\text{ cm}$.<br>A random sample of $90$ unfertilized and $100$ fertilized bamboo plants are tracked during peak growing season and the difference in their sample's average growth is analyzed.<br>The difference in sample mean growth is found to be $\\bar{x}_f-\\bar{x}_o=1.5 \\text{ cm}$.<br>Interpret the likelihood of a difference in sample mean as little as $1.5 \\text{ cm}$.<br>",
+  "image_files": [
+    "images/question-122-img1.jpeg"
+  ],
   "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "About $0.7\\%$ of the time, the sample of bamboo that received fertilizer grew more than the sample that did not receive fertilizer."
+      "text": "About\n0.7\n%\nof the time, the sample of bamboo that received fertilizer grew more than the sample that did not receive fertilizer."
     },
     {
       "letter": "B",
-      "text": "The probability that the fertilizer works is approximately $0.7\\%$."
+      "text": "The probability that the fertilizer works is approximately\n0.7\n%\n."
     },
     {
       "letter": "C",
-      "text": "There is a $99.3\\%$ chance that the bamboo with fertilizer will outgrow the bamboo without fertilizer."
+      "text": "There is a\n99.3\n%\nchance that the bamboo with fertilizer will outgrow the bamboo without fertilizer."
     },
     {
       "letter": "D",
-      "text": "If this process were repeated over and over, we would expect to see a difference in sample means of $1.5$ or less only $0.7\\%$ of the time."
+      "text": "If this process were repeated over and over, we would expect to see a difference in sample means of\n1.5\nor less only\n0.7\n%\nof the time."
     },
     {
       "letter": "E",
-      "text": "The fertilized bamboo experienced only $0.7\\%$ greater total growth than that of the unfertilized bamboo."
+      "text": "The fertilized bamboo experienced only\n0.7\n%\ngreater total growth than that of the unfertilized bamboo."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",

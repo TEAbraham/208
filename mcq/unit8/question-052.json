@@ -9,7 +9,7 @@
   ],
   "title": "What Kind of Car Do You Drive? Conclusions from a Test",
   "difficulty": "Hard",
-  "question_text": "Do the types of cars that people drive differ based upon where they live? A marketing researcher for a major car manufacturer wonders whether the proportions of American-made cars owned by people who live in rural, suburban and urban areas is the same, and decides to do a study.\nThe researcher selects a random sample of individuals who live in each of these settings and asks whether they drive an American-made car or a foreign-made car. Results are shown in the table below.\nACTUAL DATA American Foreign Total\nRural 38 21 59\nSuburban 25 27 52\nUrban 22 32 54\nTotal 85 80 165\n\n\nBased upon this data and the results of an appropriate ${ \\chi }^{ 2 }$ test, what should the researcher conclude?",
+  "question_text": "Do the types of cars that people drive differ based upon where they live? A marketing researcher for a major car manufacturer wonders whether the proportions of American-made cars owned by people who live in rural, suburban and urban areas is the same, and decides to do a study.<br>The researcher selects a random sample of individuals who live in each of these settings and asks whether they drive an American-made car or a foreign-made car. Results are shown in the table below.<br>Based upon this data and the results of an appropriate ${ \\chi }^{ 2 }$ test, what should the researcher conclude?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">ACTUAL DATA</th><th scope=\"col\">American</th><th scope=\"col\">Foreign</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Rural</td><td>38</td><td>21</td><td>59</td></tr><tr><td>Suburban</td><td>25</td><td>27</td><td>52</td></tr><tr><td>Urban</td><td>22</td><td>32</td><td>54</td></tr><tr><td>Total</td><td>85</td><td>80</td><td>165</td></tr></tbody></table>"
@@ -29,11 +29,11 @@
     },
     {
       "letter": "D",
-      "text": "Since $p = 0.035$, we have good evidence to suggest that the proportions of American-made cars and foreign made cars driven by people in each of the three settings are not the same."
+      "text": "Since p=0.035, we have good evidence to suggest that the proportions of American-made cars and foreign made cars driven by people in each of the three settings are not the same."
     },
     {
       "letter": "E",
-      "text": "A ${ \\chi }^{ 2 }$ test cannot be used in this situation since not all conditions are satisfied."
+      "text": "A χ2\ntest cannot be used in this situation since not all conditions are satisfied."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",

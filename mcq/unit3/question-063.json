@@ -8,7 +8,7 @@
   ],
   "title": "Quick Quiche",
   "difficulty": "Easy",
-  "question_text": "Quick Quiche is a fast-food restaurant that has $150\\text{ locations}$ in the southeast region. The regional manager will randomly select $10\\text{ restaurants}$ to make a surprise inspection. He assigns each restaurant a unique number between $1$ and $150$.\nHe then draws ten pairs of numbers from a random digit table. The manager will make a surprise visit to the restaurants corresponding to those numbers.\nWhich statement best describes the main flaw in the sampling method for this study?",
+  "question_text": "Quick Quiche is a fast-food restaurant that has $150\\text{ locations}$ in the southeast region. The regional manager will randomly select $10\\text{ restaurants}$ to make a surprise inspection. He assigns each restaurant a unique number between $1$ and $150$.<br>He then draws ten pairs of numbers from a random digit table. The manager will make a surprise visit to the restaurants corresponding to those numbers.<br>Which statement best describes the main flaw in the sampling method for this study?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -22,7 +22,7 @@
     },
     {
       "letter": "C",
-      "text": "All the restaurants do not have the same chance of being chosen. Restaurants labeled with repeating digits (such as $33$ or $88$) have a smaller chance of being selected because it is unlikely that a number would repeat on a random digit table."
+      "text": "All the restaurants do not have the same chance of being chosen. Restaurants labeled with repeating digits (such as 33 or 88) have a smaller chance of being selected because it is unlikely that a number would repeat on a random digit table."
     },
     {
       "letter": "D",

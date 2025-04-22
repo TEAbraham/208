@@ -9,7 +9,7 @@
   ],
   "title": "Transformation with Natural Logs: Exponential Decay",
   "difficulty": "Medium",
-  "question_text": "The regression equation between the exponential decay of a material ($D$) in grams and the time ($t$) in years is:\n$$ { \\ln (\\hat{D}) }= 0.94 \\ln(t)$$\nWhich of the following is the closest to the predicted value of exponential decay when the time is $30\\text{ years}$?",
+  "question_text": "The regression equation between the exponential decay of a material ($D$) in grams and the time ($t$) in years is:<br>$$ { \\ln (\\hat{D}) }= 0.94 \\ln(t)$$<br>Which of the following is the closest to the predicted value of exponential decay when the time is $30\\text{ years}$?",
   "image_files": [],
   "tables": [],
   "choices": [

@@ -8,7 +8,7 @@
   ],
   "title": "Marty McMath Makes Predictions from Computer Output",
   "difficulty": "Hard",
-  "question_text": "Marty McMath wants to know if a student's final grade in Algebra II can be used to predict his or her final grade in Precalculus. To investigate, he gathers data from a random sample of $8$ students who have completed both courses.\nAfter noticing that the relationship is roughly linear and confirming that the conditions have been satisfied, he decides to use statistical software to conduct a $2$-sided $t$-test for linear regression where the null hypothesis is the slope equals $0$.\nComputer output is shown below.\nPredictor Coef SE Coef T\nConstant 16.46 3.73 4.41\nAlgebra II 0.82 0.22 3.73\n\n\nUnfortunately, he can't figure out how to make the computer output display the $p$-value. Luckily, he knows enough statistics to be able to calculate it from the output shown.\nWhat is the $p$-value?",
+  "question_text": "Marty McMath wants to know if a student's final grade in Algebra II can be used to predict his or her final grade in Precalculus. To investigate, he gathers data from a random sample of $8$ students who have completed both courses.<br>After noticing that the relationship is roughly linear and confirming that the conditions have been satisfied, he decides to use statistical software to conduct a $2$-sided $t$-test for linear regression where the null hypothesis is the slope equals $0$.<br>Computer output is shown below.<br>Unfortunately, he can't figure out how to make the computer output display the $p$-value. Luckily, he knows enough statistics to be able to calculate it from the output shown.<br>What is the $p$-value?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Predictor</th><th scope=\"col\">Coef</th><th scope=\"col\">SE Coef</th><th scope=\"col\">T</th></tr></thead><tbody><tr><td>Constant</td><td>16.46</td><td>3.73</td><td>4.41</td></tr><tr><td>Algebra II</td><td>0.82</td><td>0.22</td><td>3.73</td></tr></tbody></table>"
@@ -32,7 +32,7 @@
     },
     {
       "letter": "E",
-      "text": "$0.22$"
+      "text": "0.22"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",

@@ -7,7 +7,7 @@
   ],
   "title": "Finding Expected Values in a Two-Way Table",
   "difficulty": "Easy",
-  "question_text": "Find the expected value of the cell marked with the # in the following $3$ x $2$ table.\nred blue total\nsmall observation observation $19$\nmedium observation # $31$\nlarge observation observation $27$\ntotal $45$ $32$ $77$",
+  "question_text": "Find the expected value of the cell marked with the # in the following $3$ x $2$ table.",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">red</th><th scope=\"col\">blue</th><th scope=\"col\">total</th></tr></thead><tbody><tr><td><strong>small</strong></td><td>observation</td><td>observation</td><td><strong><span class=\"tex2jax_process\">$19$</span></strong></td></tr><tr><td><strong>medium</strong></td><td>observation</td><td>#</td><td><strong><span class=\"tex2jax_process\">$31$</span></strong></td></tr><tr><td><strong>large</strong></td><td>observation</td><td>observation</td><td><strong><span class=\"tex2jax_process\">$27$</span></strong></td></tr><tr><td>total</td><td><strong><span class=\"tex2jax_process\">$45$</span></strong></td><td><strong><span class=\"tex2jax_process\">$32$</span></strong></td><td><strong><span class=\"tex2jax_process\">$77$</span></strong></td></tr></tbody></table>"

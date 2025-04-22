@@ -8,7 +8,7 @@
   ],
   "title": "MPG and Horsepower",
   "difficulty": "Hard",
-  "question_text": "A consumer advocate wants to determine the relationship between cars’ miles per gallon (mpg) and horsepower.\nA sample of $15\\text{ car models}$ from the current year was selected. The regression analysis of the data resulted in the following output:\nCoefficients Standard Error t-Stat P-Value\nIntercept 36.93884096 2.139220436 17.26743 2.4035E-10\nHorsepower -0.051610508 0.009635294 -5.3564 0.00013055\nCreated for Albert.io. Copyright 2017. All rights reserved.\nBased on this information, which of the following statements is true?",
+  "question_text": "A consumer advocate wants to determine the relationship between cars’ miles per gallon (mpg) and horsepower.<br>A sample of $15\\text{ car models}$ from the current year was selected. The regression analysis of the data resulted in the following output:<br><br>Based on this information, which of the following statements is true?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Coefficients</th><th scope=\"col\">Standard Error</th><th scope=\"col\">t-Stat</th><th scope=\"col\">P-Value</th></tr></thead><tbody><tr><td>Intercept</td><td>36.93884096</td><td>2.139220436</td><td>17.26743</td><td>2.4035E-10</td></tr><tr><td>Horsepower</td><td>-0.051610508</td><td>0.009635294</td><td>-5.3564</td><td>0.00013055</td></tr></tbody></table>"

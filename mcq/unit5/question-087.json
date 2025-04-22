@@ -8,7 +8,7 @@
   ],
   "title": "Sampling Distribution of a Sample Mean: Get to Class!",
   "difficulty": "Hard",
-  "question_text": "During passing time at a high school, it takes a student an average of $4.1\\text{ minutes}$ with a standard deviation of $0.88\\text{ minutes}$ to make it from one class to another class.\nIf the students have $5\\text{ minutes}$ to make it from one class to another class without being late, what is the probability when $100\\text{ students}$ are randomly selected their average time will be GREATER than $5\\text{ minutes}$?",
+  "question_text": "During passing time at a high school, it takes a student an average of $4.1\\text{ minutes}$ with a standard deviation of $0.88\\text{ minutes}$ to make it from one class to another class.<br>If the students have $5\\text{ minutes}$ to make it from one class to another class without being late, what is the probability when $100\\text{ students}$ are randomly selected their average time will be GREATER than $5\\text{ minutes}$?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -26,11 +26,11 @@
     },
     {
       "letter": "D",
-      "text": "$P \\left( z >\\dfrac { 5-4.1 }{ \\sqrt { \\frac { (0.88)(0.12) }{ 100 } } } \\right)$"
+      "text": "P(z>\n5−4.1\n√\n(0.88)(0.12)\n100\n)"
     },
     {
       "letter": "E",
-      "text": "$P \\left( z >\\dfrac { 5-4.1 }{ \\frac { 0.88 }{ \\sqrt { 100 } } } \\right)$"
+      "text": "P(z>\n5−4.1\n0.88\n√\n100\n)"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",

@@ -8,7 +8,7 @@
   ],
   "title": "Increasing the Fish Population",
   "difficulty": "Medium",
-  "question_text": "A state Wildlife and Fisheries agent is trying to stimulate the growth of the population of a certain type of fish. She will conduct an experiment that involves randomly assigning $3\\text{ different treatments}$ to $36\\text{ fish}$ to determine which treatment will cause the largest amount of weight gain in the fish. The agent wants to make sure that the $3\\text{ treatment groups}$ each have exactly $12\\text{ fish}$.\nWhich of the following methods should be used to assign the treatments?",
+  "question_text": "A state Wildlife and Fisheries agent is trying to stimulate the growth of the population of a certain type of fish. She will conduct an experiment that involves randomly assigning $3\\text{ different treatments}$ to $36\\text{ fish}$ to determine which treatment will cause the largest amount of weight gain in the fish. The agent wants to make sure that the $3\\text{ treatment groups}$ each have exactly $12\\text{ fish}$.<br>Which of the following methods should be used to assign the treatments?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -26,11 +26,11 @@
     },
     {
       "letter": "D",
-      "text": "Catch $36\\text{ fish}$ and assign each fish a unique number between $1$ and $36$. Write the numbers from $1$ to $36$ on separate slips of paper. Place the slips in a fish bowl and mix them up. Draw $12\\text{ slips}$ of paper. The fish corresponding to those numbers will receive treatment 'A'. Draw $12\\text{ more slips}$ of paper. The fish corresponding to those numbers will receive Treatment 'B'. The remaining fish will receive treatment 'C'."
+      "text": "Catch 36 fish and assign each fish a unique number between 1 and 36. Write the numbers from 1 to 36 on separate slips of paper. Place the slips in a fish bowl and mix them up. Draw 12 slips of paper. The fish corresponding to those numbers will receive treatment 'A'. Draw 12 more slips of paper. The fish corresponding to those numbers will receive Treatment 'B'. The remaining fish will receive treatment 'C'."
     },
     {
       "letter": "E",
-      "text": "All of these methods will randomly assign the treatments to $3\\text{ groups}$ of $12\\text{ fish}$."
+      "text": "All of these methods will randomly assign the treatments to 3 groups of 12 fish."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",

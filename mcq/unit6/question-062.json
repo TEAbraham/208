@@ -9,8 +9,10 @@
   ],
   "title": "Sample Size: Effect on $Z$-Statistic and $P$-Value",
   "difficulty": "Hard",
-  "question_text": "Miguel conducted a one-sample $z$-test for a population proportion. Later, he realized that while he had correctly computed the sample proportion (which was larger than his hypothesized proportion), he had incorrectly recorded the sample size when calculating the standard error. In reality, the actual sample size was smaller than the sample size he had used in his calculation.\nIf Miguel revises his calculation of standard error to decrease the sample size, which of the following describes the effect upon the $z$-statistic and the corresponding $p$-value?\nNote: his alternative hypothesis is that $p > p_0$",
-  "image_files": [],
+  "question_text": "Miguel conducted a one-sample $z$-test for a population proportion. Later, he realized that while he had correctly computed the sample proportion (which was larger than his hypothesized proportion), he had incorrectly recorded the sample size when calculating the standard error. In reality, the actual sample size was smaller than the sample size he had used in his calculation.<br>If Miguel revises his calculation of standard error to decrease the sample size, which of the following describes the effect upon the $z$-statistic and the corresponding $p$-value?<br>Note: his alternative hypothesis is that $p > p_0$",
+  "image_files": [
+    "images/question-062-img1.png"
+  ],
   "tables": [],
   "choices": [
     {

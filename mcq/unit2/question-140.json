@@ -9,7 +9,7 @@
   ],
   "title": "Drying Time",
   "difficulty": "Medium",
-  "question_text": "A company that produces clothes dryers is interested in making changes to its flagship dryer. They want to add a sensor that will alter the time needed to fully dry the clothes. A quality assurance representative collects data on the amount of time it takes a load of clothes to fully dry and records the weight of the clothes in pounds. She creates the following linear regression model that predicts the time needed to fully dry a load of clothes:\n$$\\hat{y} = 32.6 + 1.3x$$\n...where $x = $ the weight of clothes in the dryer in pounds and $y = $ the amount of time needed to fully dry the clothes in minutes.\nWhich of the following statements is false regarding the linear regression model?",
+  "question_text": "A company that produces clothes dryers is interested in making changes to its flagship dryer. They want to add a sensor that will alter the time needed to fully dry the clothes. A quality assurance representative collects data on the amount of time it takes a load of clothes to fully dry and records the weight of the clothes in pounds. She creates the following linear regression model that predicts the time needed to fully dry a load of clothes:<br>$$\\hat{y} = 32.6 + 1.3x$$<br>...where $x = $ the weight of clothes in the dryer in pounds and $y = $ the amount of time needed to fully dry the clothes in minutes.<br>Which of the following statements is false regarding the linear regression model?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -35,7 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "Remember: we're looking for the answer choice that is false.\n\nWhen given a least-square regression line in the form of:\n\n$$\\hat{y} = a + bx$$\n\n...where $a$ represents the $y$-intercept and $b$ represents the slope of the LSRL.\n\nIn this case, our LSRL was:\n\nˆ\ny\n=32.6+1.3x\n\n...so the slope of the LSRL was 1.3. The slope is the amount the predicted y-value changes for every unit increase in x.\n\nTherefore, the slope is not predicted by the weight, it is predicting the time needed to dry the clothes.\n\nSo, Choice 'C' is correct.",
+  "solution": "Remember: we're looking for the answer choice that is false.\n\nWhen given a least-square regression line in the form of:\n\nˆ\ny\n=a+bx\n\n...where a represents the y-intercept and b represents the slope of the LSRL.\n\nIn this case, our LSRL was:\n\nˆ\ny\n=32.6+1.3x\n\n...so the slope of the LSRL was 1.3\n. The slope is the amount the predicted y\n-value changes for every unit increase in x\n.\n\nTherefore, the slope is not predicted by the weight, it is predicting the time needed to dry the clothes.\n\nSo, Choice 'C' is correct.",
   "explanations": {},
   "tags": [
     "4.B",

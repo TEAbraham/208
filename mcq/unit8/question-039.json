@@ -9,7 +9,7 @@
   ],
   "title": "Rolling Dice",
   "difficulty": "Hard",
-  "question_text": "Suppose at a local casino, a player rolls $4$ six-sided die.\nThe player wins a dollar each time he gets a $1$ or $2$ on one of the dice, so each game the player could win anywhere from $\\$0$ to $\\$4$.\nThe player plays the game $100$ times and is disappointed with the outcome. He wonders if the dice are fair. Out of the $100$ trials, the player ended up with the following distribution of winnings:\nWinnings $0 $1 $2 $3 $4\nFrequency 21 42 30 7 0\n\n\nIs there sufficient evidence the dice are unfair?",
+  "question_text": "Suppose at a local casino, a player rolls $4$ six-sided die.<br>The player wins a dollar each time he gets a $1$ or $2$ on one of the dice, so each game the player could win anywhere from $\\$0$ to $\\$4$.<br>The player plays the game $100$ times and is disappointed with the outcome. He wonders if the dice are fair. Out of the $100$ trials, the player ended up with the following distribution of winnings:<br>Is there sufficient evidence the dice are unfair?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Winnings</th><th scope=\"col\"><span>$</span>0</th><th scope=\"col\"><span>$</span>1</th><th scope=\"col\"><span>$</span>2</th><th scope=\"col\"><span>$</span>3</th><th scope=\"col\"><span>$</span>4</th></tr></thead><tbody><tr><td>Frequency</td><td>21</td><td>42</td><td>30</td><td>7</td><td>0</td></tr></tbody></table>"

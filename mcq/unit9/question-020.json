@@ -7,7 +7,7 @@
   ],
   "title": "Find the Confidence Interval",
   "difficulty": "Hard",
-  "question_text": "You are given a regression analysis computer output table below for \"$y$-value versus $x$-value.\"\nPredictor Coef SE Coef $T$ $ P$\nConstant $-4.231$ $0.2561$ $5.05$ $0.0000$\n$x$ value $0.5678$ $0.0769$ $6.11$ $0.0000$\nGiven a sample size of $42$, and assuming that all conditions have been verified, find the $95\\%$ confidence interval for this data.",
+  "question_text": "You are given a regression analysis computer output table below for \"$y$-value versus $x$-value.\"<br>Given a sample size of $42$, and assuming that all conditions have been verified, find the $95\\%$ confidence interval for this data.",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Predictor</th><th scope=\"col\">Coef</th><th scope=\"col\">SE Coef</th><th scope=\"col\"><span class=\"tex2jax_process\">$T$</span></th><th scope=\"col\"><span class=\"tex2jax_process\">$ P$</span></th></tr></thead><tbody><tr><td>Constant</td><td><span class=\"tex2jax_process\">$-4.231$</span></td><td><span class=\"tex2jax_process\">$0.2561$</span></td><td><span class=\"tex2jax_process\">$5.05$</span></td><td><span class=\"tex2jax_process\">$0.0000$</span></td></tr><tr><td><span class=\"tex2jax_process\">$x$</span> value</td><td><span class=\"tex2jax_process\">$0.5678$</span></td><td><span class=\"tex2jax_process\">$0.0769$</span></td><td><span class=\"tex2jax_process\">$6.11$</span></td><td><span class=\"tex2jax_process\">$0.0000$</span></td></tr></tbody></table>"

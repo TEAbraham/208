@@ -8,7 +8,7 @@
   ],
   "title": "Sampling Distribution of a Sample Mean: Roll That Dice",
   "difficulty": "Hard",
-  "question_text": "The roll of a six-sided die has a uniform distribution with a mean outcome of $3.5$ and a standard deviation of approximately $1.708$.\nWhich of the following best describes the sampling distribution of the sample means when the same dice is rolled $48$ times?",
+  "question_text": "The roll of a six-sided die has a uniform distribution with a mean outcome of $3.5$ and a standard deviation of approximately $1.708$.<br>Which of the following best describes the sampling distribution of the sample means when the same dice is rolled $48$ times?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -30,7 +30,7 @@
     },
     {
       "letter": "E",
-      "text": "Approximately normal with a ${ \\mu }_{ \\overline { x } }=3.5$ and a $ \\sigma _{ \\overline { x } }=\\dfrac { 1.708 }{ \\sqrt { 48 } } $"
+      "text": "Approximately normal with a μ\n¯\nx\n=3.5 and a σ\n¯\nx\n=\n1.708\n√\n48"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",

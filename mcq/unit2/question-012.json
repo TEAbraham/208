@@ -10,7 +10,7 @@
   ],
   "title": "Two-Way Tables: Campus Housing",
   "difficulty": "Easy",
-  "question_text": "A small college offers On Campus housing and Off Campus housing. An unmotivated worker in the housing office was goofing around on her phone at work and forgot to complete the chart.\nHow many Upper Classmen live in On Campus housing?\nFreshmen Upper Classmen Total\nOff Campus _ 280 352\nOn Campus 84 _ 190\nTotal 156 _ 542",
+  "question_text": "A small college offers On Campus housing and Off Campus housing. An unmotivated worker in the housing office was goofing around on her phone at work and forgot to complete the chart.<br>How many Upper Classmen live in On Campus housing?<br>",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Freshmen</th><th scope=\"col\">Upper Classmen</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Off Campus</td><td>_</td><td>280</td><td>352</td></tr><tr><td>On Campus</td><td>84</td><td><u>_</u></td><td>190</td></tr><tr><td>Total</td><td>156</td><td><u>_</u></td><td>542</td></tr></tbody></table>"
@@ -34,7 +34,7 @@
     },
     {
       "letter": "E",
-      "text": "386"
+      "text": "$386$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",

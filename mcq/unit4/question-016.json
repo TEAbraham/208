@@ -8,7 +8,7 @@
   ],
   "title": "Let's Play Ball",
   "difficulty": "Medium",
-  "question_text": "Danny wanted to do a simulation on the types of hits in baseball. While the percentages change slightly from year to year, he found that in $2020$ that approximately $63\\%$ of hits were singles, $18\\%$ were doubles, $15\\%$ were home runs, and $4\\%$ were triples. Danny wanted to simulate $200$ at bats using these percentages. How would he assign numbers using a random number table? Then, how would he calculate the estimated probabilities from using his table?",
+  "question_text": "Danny wanted to do a simulation on the types of hits in baseball. While the percentages change slightly from year to year, he found that in $2020$ that approximately $63\\%$ of hits were singles, $18\\%$ were doubles, $15\\%$ were home runs, and $4\\%$ were triples. Danny wanted to simulate $200$ at bats using these percentages.\nHow would he assign numbers using a random number table? Then, how would he calculate the estimated probabilities from using his table?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -30,7 +30,7 @@
     },
     {
       "letter": "E",
-      "text": "Let $01$ to $63$ indicate a single, let $64$ to $81$ indicate a double, let $82$ to $85$ indicate a triple, and let $86$ to $99$ and $00$ indicate a home run.\nDanny would then count up the number in each category and divide each number by $200$."
+      "text": "Let 01 to 63 indicate a single, let 64 to 81 indicate a double, let 82 to 85 indicate a triple, and let 86 to 99 and 00 indicate a home run.\nDanny would then count up the number in each category and divide each number by 200."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",

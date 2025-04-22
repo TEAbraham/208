@@ -11,7 +11,7 @@
   ],
   "title": "Plant Manager | 1 of 2",
   "difficulty": "Hard",
-  "question_text": "A plant manager wants to see if there are different proportions of defective items among the four machines at her automotive plant.\nShe randomly selects $100$ automobile parts from each of the four machines, as shown in the table below:\nMachine A B C D\nNumber of Defective Parts 58 55 51 66\n\n\nIs there appropriate evidence the machines are not equal concerning proportions of defective products?",
+  "question_text": "A plant manager wants to see if there are different proportions of defective items among the four machines at her automotive plant.<br>She randomly selects $100$ automobile parts from each of the four machines, as shown in the table below:<br>Is there appropriate evidence the machines are not equal concerning proportions of defective products?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Machine</th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th></tr></thead><tbody><tr><td>Number of Defective Parts</td><td>58</td><td>55</td><td>51</td><td>66</td></tr></tbody></table>"

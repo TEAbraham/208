@@ -8,7 +8,7 @@
   ],
   "title": "Do You Have A Job?",
   "difficulty": "Easy",
-  "question_text": "A suburban high school wondered if their students had part-time jobs outside of school. The school counselor decided to survey the students at the high school and ask them if they had a part-time job and if they did, how many hours they worked. The data, broken down by class in school, is summarized below.\nWhich of the following is not supported by the graph?",
+  "question_text": "A suburban high school wondered if their students had part-time jobs outside of school. The school counselor decided to survey the students at the high school and ask them if they had a part-time job and if they did, how many hours they worked. The data, broken down by class in school, is summarized below.<br>Which of the following is not supported by the graph?",
   "image_files": [
     "images/question-131-img1.png"
   ],
@@ -20,7 +20,7 @@
     },
     {
       "letter": "B",
-      "text": "Sophomores work 5 to <10 hours more than any other group."
+      "text": "Sophomores work 5\nto <10\nhours more than any other group."
     },
     {
       "letter": "C",
@@ -36,7 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "Remember: the question asks us to find the choice that is not supported by the graph.\n\nThe information given in this problem is summarized in a segmented bar graph. The data on the graph represents two categorical variables. To compare the proportions for all four variables, we examine the stacked columns of the graph.\n\nWhen looking at the 5\nto <10\ncategory, sophomores have an approximate proportion of 0.18\n. But, looking at the senior column, they have an approximate proportion of 0.20\nthat work 5\nto <10\nhours. Therefore, the sophomores do not have the highest proportion who work 5\nto <10\nhours.\n\nChoice 'B' is correct.",
+  "solution": "Remember: the question asks us to find the choice that is not supported by the graph.\n\nThe information given in this problem is summarized in a segmented bar graph. The data on the graph represents two categorical variables. To compare the proportions for all four variables, we examine the stacked columns of the graph.\n\nWhen looking at the\n5\nto\n<\n10\ncategory, sophomores have an approximate proportion of\n0.18\n. But, looking at the senior column, they have an approximate proportion of\n0.20\nthat work\n5\nto\n<\n10\nhours. Therefore, the sophomores do not have the highest proportion who work\n5\nto\n<\n10\nhours.\n\nChoice 'B' is correct.",
   "explanations": {},
   "tags": [
     "UNC-1.R",

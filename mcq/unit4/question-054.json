@@ -4,7 +4,7 @@
   "topics": [],
   "title": "Steroid Usage",
   "difficulty": "Medium",
-  "question_text": "Many collegiate athletes are tested for performance-enhancing steroids.\nSuppose a standard test gives a positive result for the usage of steroids $98\\%$ of the time on individuals who use steroids. However, the drug test shows a positive result for steroids when the individual is in fact not using steroids, $8\\%$ of the time.\nIf $15\\%$ of college athletes use steroids, what is the probability that a randomly selected test result gives a positive test for steroids?",
+  "question_text": "Many collegiate athletes are tested for performance-enhancing steroids.<br>Suppose a standard test gives a positive result for the usage of steroids $98\\%$ of the time on individuals who use steroids. However, the drug test shows a positive result for steroids when the individual is in fact not using steroids, $8\\%$ of the time.<br>If $15\\%$ of college athletes use steroids, what is the probability that a randomly selected test result gives a positive test for steroids?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -26,7 +26,7 @@
     },
     {
       "letter": "E",
-      "text": "$0.15$"
+      "text": "0.15"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",

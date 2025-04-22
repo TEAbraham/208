@@ -10,8 +10,11 @@
   ],
   "title": "P-value of a 1-sided Test When Given the z-score",
   "difficulty": "Easy",
-  "question_text": "A significance test was used to test the null hypothesis ${ H }_{ 0 }$: $p =0.34$ versus the alternative ${ H }_{ a }$: $p <0.34$. The resulting test statistic is $z=-0.83$.\nThe $P$-value for this test is approximately:",
-  "image_files": [],
+  "question_text": "A significance test was used to test the null hypothesis ${ H }_{ 0 }$: $p =0.34$ versus the alternative ${ H }_{ a }$: $p <0.34$. The resulting test statistic is $z=-0.83$.<br>The $P$-value for this test is approximately:",
+  "image_files": [
+    "images/question-065-img1.PNG",
+    "images/question-065-img2.PNG"
+  ],
   "tables": [],
   "choices": [
     {

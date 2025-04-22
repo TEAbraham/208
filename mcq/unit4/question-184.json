@@ -9,7 +9,7 @@
   ],
   "title": "Six-Sided Dice Rolls",
   "difficulty": "Easy",
-  "question_text": "Number on Die 1 2 3 4 5 6\nFrequency 9 17 12 10 9 15\n\n\nA fair six-sided die is rolled $72\\text{ times}$. The distribution of numbers facing up on the dice is in the table above.\nIf the die is rolled another $72\\text{ times}$, how many instances of $2$ would you expect?",
+  "question_text": "A fair six-sided die is rolled $72\\text{ times}$. The distribution of numbers facing up on the dice is in the table above.<br>If the die is rolled another $72\\text{ times}$, how many instances of $2$ would you expect?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Number on Die</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th><th scope=\"col\">6</th></tr></thead><tbody><tr><td>Frequency</td><td>9</td><td>17</td><td>12</td><td>10</td><td>9</td><td>15</td></tr></tbody></table>"
@@ -29,7 +29,7 @@
     },
     {
       "letter": "D",
-      "text": "$7$"
+      "text": "7"
     },
     {
       "letter": "E",

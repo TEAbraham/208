@@ -7,7 +7,7 @@
   ],
   "title": "Coin Toss Game",
   "difficulty": "Easy",
-  "question_text": "Two friends are playing a game where you toss a fair two-sided coin. When it is your turn, you flip the coin once and record your result. Then, to keep playing you flip the coin until you no longer match your initial flip.\nPlayer $A$ flips \"tails\" $10$ straight times. Player $B$ gets upset and thinks the coin is rigged. Player $A$ states that since it's a random chance device, the side is not pre-determined.\nIs Player $A$ correct?",
+  "question_text": "Two friends are playing a game where you toss a fair two-sided coin. When it is your turn, you flip the coin once and record your result. Then, to keep playing you flip the coin until you no longer match your initial flip.<br>Player $A$ flips \"tails\" $10$ straight times. Player $B$ gets upset and thinks the coin is rigged. Player $A$ states that since it's a random chance device, the side is not pre-determined.<br>Is Player $A$ correct?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -21,7 +21,7 @@
     },
     {
       "letter": "C",
-      "text": "No - 10 \"Tails\" in a row is impossible and the coin is rigged."
+      "text": "No - $10$ \"Tails\" in a row is impossible and the coin is rigged."
     },
     {
       "letter": "D",

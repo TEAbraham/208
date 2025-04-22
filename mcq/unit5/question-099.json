@@ -8,7 +8,7 @@
   ],
   "title": "News Stories Distribution",
   "difficulty": "Hard",
-  "question_text": "A TV broadcaster is deciding on news stories for the 10 PM evening news.\nThe network strives to make sure that stories cover an equal representation of four news topics: education, crime/police activity, community, and national news.\nOver the last year, the network covered a total of 980 stories\n, 204\nof which focused on national news.\nUtilizing sample proportions, is this statistically significant evidence that the network covered fewer national news stories than it should have last year?",
+  "question_text": "A TV broadcaster is deciding on news stories for the 10 PM evening news.<br>The network strives to make sure that stories cover an equal representation of four news topics: education, crime/police activity, community, and national news.<br>Over the last year, the network covered a total of $980\\text{ stories}$, $204$ of which focused on national news.<br>Utilizing sample proportions, is this statistically significant evidence that the network covered fewer national news stories than it should have last year?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -18,15 +18,15 @@
     },
     {
       "letter": "B",
-      "text": "Yes, since\n204\nis less than\nn\np\n=\n980\n⋅\n0.25\n=\n245\n."
+      "text": "Yes, since $204$ is less than $np = 980 \\cdot 0.25 = 245$."
     },
     {
       "letter": "C",
-      "text": "Yes, since the result of\n204\nout of\n980\nis more than three standard deviations away from the mean."
+      "text": "Yes, since the result of $204$ out of $980$ is more than three standard deviations away from the mean."
     },
     {
       "letter": "D",
-      "text": "No, since\n204\n980\n=\n20.8\n%\n, which is within\n5\n%\nof the targeted goal."
+      "text": "No, since $\\dfrac{204}{980} = 20.8\\%$, which is within $5\\%$ of the targeted goal."
     },
     {
       "letter": "E",

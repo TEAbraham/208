@@ -9,7 +9,7 @@
   ],
   "title": "Meaning of Slope in Speed and Mileage Relationship",
   "difficulty": "Easy",
-  "question_text": "The speed (in kilometers per hour) and mileage (in kilometers per liter) of $13\\text{ cars}$ was measured. The regression equation is as follows:\n$$\\text{Mileage (km per liter)}= -1.8 + 0.536 \\times \\text{Speed (km per hour)}$$\n\nPredictor Coef SE Coef T P\nConstant -1.8 8.357 -0.22 0.8333\nKilometers per hour 0.536 0.1192 4.5 0.001\n\n\nAccording to this model, an increase in speed of $10$ kilometers per hour would change the fuel economy by",
+  "question_text": "The speed (in kilometers per hour) and mileage (in kilometers per liter) of $13\\text{ cars}$ was measured. The regression equation is as follows:<br>$$\\text{Mileage (km per liter)}= -1.8 + 0.536 \\times \\text{Speed (km per hour)}$$<br>According to this model, an increase in speed of $10$ kilometers per hour would change the fuel economy by",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Predictor</th><th scope=\"col\">Coef</th><th scope=\"col\">SE Coef</th><th scope=\"col\">T</th><th scope=\"col\">P</th></tr></thead><tbody><tr><td>Constant</td><td>-1.8</td><td>8.357</td><td>-0.22</td><td>0.8333</td></tr><tr><td>Kilometers per hour</td><td>0.536</td><td>0.1192</td><td>4.5</td><td>0.001</td></tr></tbody></table>"
@@ -17,23 +17,23 @@
   "choices": [
     {
       "letter": "A",
-      "text": "An increase of 5.36 kilometers per liter\n."
+      "text": "An increase of $5.36\\text{ kilometers per liter}$."
     },
     {
       "letter": "B",
-      "text": "A decrease of\n5.36\n kilometers per liter\n."
+      "text": "A decrease of $5.36\\text{ kilometers per liter}$."
     },
     {
       "letter": "C",
-      "text": "A decrease of\n1.8\n kilometers per liter\n."
+      "text": "A decrease of $1.8\\text{ kilometers per liter}$."
     },
     {
       "letter": "D",
-      "text": "An increase of\n0.536\n kilometers per liter\n."
+      "text": "An increase of 0.536 kilometers per liter."
     },
     {
       "letter": "E",
-      "text": "An increase in\n8.357\n kilometers per liter\n."
+      "text": "An increase in 8.357 kilometers per liter."
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",

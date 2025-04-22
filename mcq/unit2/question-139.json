@@ -8,10 +8,8 @@
   ],
   "title": "Pear Tree Production",
   "difficulty": "Medium",
-  "question_text": "A researcher wondered if the pear tree in his backyard would keep its current production during future years. He decided to look at historical records for this certain type of pear tree and found a least squares regression line of $\\hat{y} = 156 + 25.4x$, where $x =$ the age of the pear tree in years and $y =$ the amount of pears produced by the tree.\nGiven is the residual plot for the least-squares regression line.\nShould the researcher use the linear model to represent the pear production?",
-  "image_files": [
-    "images/question-139-img1.png"
-  ],
+  "question_text": "A researcher wondered if the pear tree in his backyard would keep its current production during future years. He decided to look at historical records for this certain type of pear tree and found a least squares regression line of $\\hat{y} = 156 + 25.4x$, where $x =$ the age of the pear tree in years and $y =$ the amount of pears produced by the tree.<br>Given is the residual plot for the least-squares regression line.<br>Should the researcher use the linear model to represent the pear production?",
+  "image_files": [],
   "tables": [],
   "choices": [
     {
@@ -20,7 +18,7 @@
     },
     {
       "letter": "B",
-      "text": "Yes, because there are some points above and below 0 on the residual plot."
+      "text": "Yes, because there are some points above and below $0$ on the residual plot."
     },
     {
       "letter": "C",

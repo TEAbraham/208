@@ -10,7 +10,7 @@
   ],
   "title": "Annual Income and Age: Which Statement Is False?",
   "difficulty": "Medium",
-  "question_text": "x < 25,000 25,001 < x <50,000 50,001 < x < 100,000 100,000 < x\nAge under 30 37 31 14 1\nAge 31-50 11 36 51 23\nAge over 50 8 34 45 43\n\n\nResearchers surveyed working adults and asked them their yearly income and age.\nBased on this table, which of the following statements is false?",
+  "question_text": "Researchers surveyed working adults and asked them their yearly income and age.<br>Based on this table, which of the following statements is false?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">x &lt; 25,000</th><th scope=\"col\">25,001 &lt; x &lt;50,000</th><th scope=\"col\">50,001 &lt; x &lt; 100,000</th><th scope=\"col\">100,000 &lt; x</th></tr></thead><tbody><tr><td>Age under 30</td><td>37</td><td>31</td><td>14</td><td>1</td></tr><tr><td>Age 31-50</td><td>11</td><td>36</td><td>51</td><td>23</td></tr><tr><td>Age over 50</td><td>8</td><td>34</td><td>45</td><td>43</td></tr></tbody></table>"

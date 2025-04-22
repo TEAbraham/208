@@ -9,7 +9,7 @@
   ],
   "title": "Hours Studied and Exam Scores",
   "difficulty": "Medium",
-  "question_text": "A study was conducted to see if there was a linear relationship between the number of hours studied and exam scores.\nThe following table of values summarizes the data collected:\nHours Studied 0 1 2 3 4\nExam Score 50 63 65 81 99\n\n\nBased on these data, compute a $99\\%$ confidence for the slope of the regression line, $β$.",
+  "question_text": "A study was conducted to see if there was a linear relationship between the number of hours studied and exam scores.<br>The following table of values summarizes the data collected:<br>Based on these data, compute a $99\\%$ confidence for the slope of the regression line, $β$.",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Hours Studied</th><th scope=\"col\">0</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th></tr></thead><tbody><tr><td>Exam Score</td><td>50</td><td>63</td><td>65</td><td>81</td><td>99</td></tr></tbody></table>"

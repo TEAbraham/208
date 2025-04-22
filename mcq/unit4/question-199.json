@@ -10,7 +10,7 @@
   ],
   "title": "Marty's Prom: Binomial or Geometric Distribution?",
   "difficulty": "Medium",
-  "question_text": "Marty has an $87$% chance of a girl saying \"yes\" to him to prom.\nWhat is the probability it takes until the third girl before one says \"yes\" to be his prom date?",
+  "question_text": "Marty has an $87$% chance of a girl saying \"yes\" to him to prom.<br>What is the probability it takes until the third girl before one says \"yes\" to be his prom date?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -20,19 +20,19 @@
     },
     {
       "letter": "B",
-      "text": "$\\begin{pmatrix} 10 \\\\ 3 \\end{pmatrix}(0.87)^{7}(0.13)^{3}$"
+      "text": "(\n10\n3\n)(0.87)7(0.13)3"
     },
     {
       "letter": "C",
-      "text": "$\\dfrac { ({ 0.87) }^{ 2 } }{ { (0.13) }^{ 1 } } $"
+      "text": "(0.87)2\n(0.13)1"
     },
     {
       "letter": "D",
-      "text": "${ (0.13) }^{ 2 }(0.87)$"
+      "text": "(0.13)2(0.87)"
     },
     {
       "letter": "E",
-      "text": "${ (0.87) }^{ 2 }(0.13)$"
+      "text": "(\n0.87\n)\n2\n(\n0.13\n)"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",

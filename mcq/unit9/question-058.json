@@ -8,7 +8,7 @@
   ],
   "title": "Tokens and Tickets at the Arcade: Degrees of Freedom",
   "difficulty": "Medium",
-  "question_text": "Mikey wants to investigate if there is a relationship between the number of tokens he plays and the number of tickets that he earns toward prizes at the arcade.\nOn $10$ different occasions, he recorded how many tokens he had played and how many tickets he had earned. After plotting the ordered pairs $(x, y)$, where $x$ was the number of tokens and $y$ was the number of tickets earned, he saw that the relationship was roughly linear.\nIn conducting a $t$-test for the slope of a the least-squares regression line, how many degrees of freedom should Mikey use?",
+  "question_text": "Mikey wants to investigate if there is a relationship between the number of tokens he plays and the number of tickets that he earns toward prizes at the arcade.<br>On $10$ different occasions, he recorded how many tokens he had played and how many tickets he had earned. After plotting the ordered pairs $(x, y)$, where $x$ was the number of tokens and $y$ was the number of tickets earned, he saw that the relationship was roughly linear.<br>In conducting a $t$-test for the slope of a the least-squares regression line, how many degrees of freedom should Mikey use?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -18,19 +18,19 @@
     },
     {
       "letter": "B",
-      "text": "$8$"
+      "text": "8"
     },
     {
       "letter": "C",
-      "text": "$9$"
+      "text": "9"
     },
     {
       "letter": "D",
-      "text": "$10$"
+      "text": "10"
     },
     {
       "letter": "E",
-      "text": "$11$"
+      "text": "11"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",

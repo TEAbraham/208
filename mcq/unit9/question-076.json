@@ -10,7 +10,7 @@
   ],
   "title": "Crab Grass",
   "difficulty": "Medium",
-  "question_text": "In the warm summer months, crab grass proliferates and sets seed. Because it is unsightly, many homeowners attempt to interrupt the crabgrass cycle with \"preventer\" herbicide/fertilizers that inhibit germination.\nRob decided to apply $4$ different levels of the same treatment chemical to his lawn in $16$ total random sections. He then counted and recorded the difference in number of crab grass plants in each treatment area before and after treatment. A linear regression analysis was run, and the residuals for the $16$ data points are listed below.\nUse the residual data to estimate $\\sigma$, the variability of the change in crabgrass about the true regression line.",
+  "question_text": "In the warm summer months, crab grass proliferates and sets seed. Because it is unsightly, many homeowners attempt to interrupt the crabgrass cycle with \"preventer\" herbicide/fertilizers that inhibit germination.<br>Rob decided to apply $4$ different levels of the same treatment chemical to his lawn in $16$ total random sections. He then counted and recorded the difference in number of crab grass plants in each treatment area before and after treatment. A linear regression analysis was run, and the residuals for the $16$ data points are listed below.<br>Use the residual data to estimate $\\sigma$, the variability of the change in crabgrass about the true regression line.",
   "image_files": [
     "images/question-076-img1.jpeg"
   ],
@@ -18,11 +18,11 @@
   "choices": [
     {
       "letter": "A",
-      "text": "s\n≈\n0.7423"
+      "text": "s≈0.7423"
     },
     {
       "letter": "B",
-      "text": "s\n≈\n1.176\nx\n10\n−\n13"
+      "text": "s≈1.176\nx 10−13"
     },
     {
       "letter": "C",

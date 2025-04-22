@@ -8,7 +8,7 @@
   ],
   "title": "College Tuition: Testing the Data",
   "difficulty": "Medium",
-  "question_text": "According to the National Center for Education Statistics, the average total tuition, fees, room and board at 4-year colleges and universities was $$24{,}706$ in 2013-2014. Mr. Nye believes the average is now higher.\nTo investigate, he randomly selects one 4-year school from each of the 50 states. He finds the sample average to be $$25{,}322$ and the sample standard deviation to be $$2{,}375$. There are no outliers in his data.\nDoes his data provide evidence at the $\\alpha = 0.05$ level that the average total tuition, fees, room and board at 4-year colleges has increased?",
+  "question_text": "According to the National Center for Education Statistics, the average total tuition, fees, room and board at 4-year colleges and universities was $$24{,}706$ in 2013-2014. Mr. Nye believes the average is now higher.<br>To investigate, he randomly selects one 4-year school from each of the 50 states. He finds the sample average to be $$25{,}322$ and the sample standard deviation to be $$2{,}375$. There are no outliers in his data.<br>Does his data provide evidence at the $\\alpha = 0.05$ level that the average total tuition, fees, room and board at 4-year colleges has increased?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -26,7 +26,7 @@
     },
     {
       "letter": "D",
-      "text": "Yes, the sample average represents a $2.5\\%$ increase over the 2013-2014 costs. Since this is less than $5\\%$, our results are statistically significant at the $\\alpha = 0.05$ level."
+      "text": "Yes, the sample average represents a 2.5% increase over the 2013-2014 costs. Since this is less than 5%, our results are statistically significant at the α=0.05 level."
     },
     {
       "letter": "E",

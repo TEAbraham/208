@@ -9,7 +9,7 @@
   ],
   "title": "Points Per Game",
   "difficulty": "Easy",
-  "question_text": "A sports researcher examines data to determine if a team's average points per game can be used as a predictor for the number of games the team won throughout the season. Of the $350$ teams in the division, the sports researcher selects a random sample of $15$ teams. After he runs the linear regression on the data, he finds the least-squares regression line for the variables points per game ($x$) and the predicted number of wins ($\\hat{y}$) to be:\n$\\widehat{\\text{wins}} = 15.52 + 0.056(\\text{points per game})$\nWhat question is unknown to the researcher after creating the regression model?",
+  "question_text": "A sports researcher examines data to determine if a team's average points per game can be used as a predictor for the number of games the team won throughout the season. Of the $350$ teams in the division, the sports researcher selects a random sample of $15$ teams. After he runs the linear regression on the data, he finds the least-squares regression line for the variables points per game ($x$) and the predicted number of wins ($\\hat{y}$) to be:<br>$\\widehat{\\text{wins}} = 15.52 + 0.056(\\text{points per game})$<br>What question is unknown to the researcher after creating the regression model?",
   "image_files": [],
   "tables": [],
   "choices": [

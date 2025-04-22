@@ -4,7 +4,7 @@
   "topics": [],
   "title": "Pets in the City",
   "difficulty": "Easy",
-  "question_text": "The number of pets per household in a large city varies with mean $1.4$ and standard deviation $1.0$. Because a household cannot have a fraction of a pet, the population distribution cannot be Normal. The city animal control officer inspects $100$ apartments and calculates $\\bar{x}$. What is the mean and standard deviation for the sampling distribution of average number of pets in samples of size $n=100$?",
+  "question_text": "The number of pets per household in a large city varies with mean $1.4$ and standard deviation $1.0$. Because a household cannot have a fraction of a pet, the population distribution cannot be Normal. The city animal control officer inspects $100$ apartments and calculates $\\bar{x}$.\nWhat is the mean and standard deviation for the sampling distribution of average number of pets in samples of size $n=100$?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -26,7 +26,7 @@
     },
     {
       "letter": "E",
-      "text": "The mean and standard deviation of the sampling distribution of\nˉ\nx\ncannot be determined without more information."
+      "text": "The mean and standard deviation of the sampling distribution of $\\bar{x}$ cannot be determined without more information."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",

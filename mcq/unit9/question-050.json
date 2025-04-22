@@ -9,7 +9,7 @@
   ],
   "title": "Follow the Bouncing Ball to Determine the $t$-Statistic",
   "difficulty": "Medium",
-  "question_text": "Jessica was stuck babysitting and was feeling quite bored from watching her little sister Allison bounce a ball up and down. To ease her boredom she decided to keep track of the number of bounces Allison could complete in various amounts of time.\nShe then developed the equation for the least squares regression line to be:\n$$\\hat { y } = 2.136+1.021x$$\n...where $\\hat { y }$ is the predicted number of bounces and $x$ is the number of seconds.\nIf the standard error of the slope is $0.763$, what $t$-statistic would Jessica arrive at when completing a $t$-test for the linear regression?",
+  "question_text": "Jessica was stuck babysitting and was feeling quite bored from watching her little sister Allison bounce a ball up and down. To ease her boredom she decided to keep track of the number of bounces Allison could complete in various amounts of time.<br>She then developed the equation for the least squares regression line to be:<br>$$\\hat { y } = 2.136+1.021x$$<br>...where $\\hat { y }$ is the predicted number of bounces and $x$ is the number of seconds.<br>If the standard error of the slope is $0.763$, what $t$-statistic would Jessica arrive at when completing a $t$-test for the linear regression?",
   "image_files": [],
   "tables": [],
   "choices": [

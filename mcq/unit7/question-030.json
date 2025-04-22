@@ -9,8 +9,10 @@
   ],
   "title": "Connecting to Confidence Intervals",
   "difficulty": "Hard",
-  "question_text": "Suppose a one-sided (greater than) hypothesis test for a population mean results in a $p$-value of $p = 0.04$.\nIf the same data were used to construct a $90\\%$ confidence interval, would the value from the null hypothesis of our significance test be contained in the confidence interval?",
-  "image_files": [],
+  "question_text": "Suppose a one-sided (greater than) hypothesis test for a population mean results in a $p$-value of $p = 0.04$.<br>If the same data were used to construct a $90\\%$ confidence interval, would the value from the null hypothesis of our significance test be contained in the confidence interval?",
+  "image_files": [
+    "images/question-030-img1.png"
+  ],
   "tables": [],
   "choices": [
     {

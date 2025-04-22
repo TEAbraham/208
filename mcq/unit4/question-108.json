@@ -8,7 +8,7 @@
   ],
   "title": "Snack Time",
   "difficulty": "Medium",
-  "question_text": "Sonia did a survey for her Statistics class about students' favorite snack foods. She offered $5$ choices and tallied her results from $200$ questionnaires:\n$s$ chips pretzels cookies veggies nuts\n$p(s)$ $0.18$ $0.12$ $ 0.42$ $0.13$ $0.15$\nFind the probability of the complement of a student choosing veggies or nut.",
+  "question_text": "Sonia did a survey for her Statistics class about students' favorite snack foods. She offered $5$ choices and tallied her results from $200$ questionnaires:<br>Find the probability of the complement of a student choosing veggies or nut.",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"><span class=\"tex2jax_process\">$s$</span></th><th scope=\"col\">chips</th><th scope=\"col\">pretzels</th><th scope=\"col\">cookies</th><th scope=\"col\">veggies</th><th scope=\"col\">nuts</th></tr></thead><tbody><tr><td><span class=\"tex2jax_process\">$p(s)$</span></td><td><span class=\"tex2jax_process\">$0.18$</span></td><td><span class=\"tex2jax_process\">$0.12$</span></td><td><span class=\"tex2jax_process\">$ 0.42$</span></td><td><span class=\"tex2jax_process\">$0.13$</span></td><td><span class=\"tex2jax_process\">$0.15$</span></td></tr></tbody></table>"
@@ -28,11 +28,11 @@
     },
     {
       "letter": "D",
-      "text": "$0.28$"
+      "text": "0.28"
     },
     {
       "letter": "E",
-      "text": "$0.74$"
+      "text": "0.74"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",

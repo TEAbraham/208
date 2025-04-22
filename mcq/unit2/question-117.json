@@ -8,7 +8,7 @@
   ],
   "title": "Weight and Height LSRL",
   "difficulty": "Hard",
-  "question_text": "A researcher wanted to investigate the potential relationship between subjects’ weight and height.\nAfter measuring $15\\text{ individuals}$, the researcher found heights average $68\\text{ inches}$ with a standard deviation of $3.4\\text{ inches}$. Weights averaged $204\\text{ pounds}$ with a standard deviation of $24.5\\text{ pounds}$. The correlation coefficient was $r = 0.76$.\nWhat is the equation of the least squares regression line?",
+  "question_text": "A researcher wanted to investigate the potential relationship between subjects’ weight and height.<br>After measuring $15\\text{ individuals}$, the researcher found heights average $68\\text{ inches}$ with a standard deviation of $3.4\\text{ inches}$. Weights averaged $204\\text{ pounds}$ with a standard deviation of $24.5\\text{ pounds}$. The correlation coefficient was $r = 0.76$.<br>What is the equation of the least squares regression line?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -30,7 +30,7 @@
     },
     {
       "letter": "E",
-      "text": "$\\text{Weight = 45(Height)} -24.5$"
+      "text": "Weight = 45(Height)−24.5"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",

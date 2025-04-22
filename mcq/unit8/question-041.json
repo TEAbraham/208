@@ -9,7 +9,7 @@
   ],
   "title": "Conditions for Two-Way Tables",
   "difficulty": "Easy",
-  "question_text": "Which of the following statements is/are true concerning conditions for chi-squared procedures involving two-way tables?\nI. Data must come from a random sample or random samples.\nII. Expected counts must all be greater than $1$, and no more than $20\\%$ of expected counts can be less than $5$.\nIII. $np$ and $n(1-p)$ must both be greater than $5$ where $n$ is the number of trials and $p$ is the proportion of successes.",
+  "question_text": "Which of the statements is/are true concerning conditions for chi-squared procedures involving two-way tables?<br><br>I. Data must come from a random sample or random samples.<br>II. Expected counts must all be greater than $1$, and no more than $20\\%$ of expected counts can be less than $5$.<br>III. $np$ and $n(1-p)$ must both be greater than $5$ where $n$ is the number of trials and $p$ is the proportion of successes.",
   "image_files": [],
   "tables": [],
   "choices": [

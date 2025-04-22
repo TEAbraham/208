@@ -9,31 +9,29 @@
   ],
   "title": "Crabgrass Confidence Interval",
   "difficulty": "Easy",
-  "question_text": "Rob applied preventative herbicide/fertilizer to stop crabgrass in his lawn. He applied $4$ levels of treatment, each to $4$ sections of his lawn at random, and recorded the change in crabgrass plants per square meter. The data is given below:\nRegression analysis was performed and a $98\\%$ confidence interval for the slope of the true regression line of change in crabgrass on treatment was constructed.\n$98\\%$ Confidence Interval: $ (-1.134, -0.8364)$\nInterpret the meaning of this interval in context.",
-  "image_files": [
-    "images/question-077-img1.jpeg"
-  ],
+  "question_text": "Rob applied preventative herbicide/fertilizer to stop crabgrass in his lawn. He applied $4$ levels of treatment, each to $4$ sections of his lawn at random, and recorded the change in crabgrass plants per square meter. The data is given below:\nLoading question supplement...\nRegression analysis was performed and a $98\\%$ confidence interval for the slope of the true regression line of change in crabgrass on treatment was constructed.<br>$98\\%$ Confidence Interval: $ (-1.134, -0.8364)$<br>Interpret the meaning of this interval in context.",
+  "image_files": [],
   "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "We are 98%\nconfident that the mean change in crab grass plants per square meter is between −1.134\nand −0.8364\nplants."
+      "text": "We are $98\\%$ confident that the mean change in crab grass plants per square meter is between $-1.134$ and $-0.8364$ plants."
     },
     {
       "letter": "B",
-      "text": "The slope of the true regression line relating change in crab grass and herbicide/fertilizer is between −1.134\nand −0.8364\napproximately 98%\nof the time."
+      "text": "The slope of the true regression line relating change in crab grass and herbicide/fertilizer is between $-1.134$ and $-0.8364$ approximately $98\\%$ of the time."
     },
     {
       "letter": "C",
-      "text": "If Rob were to perform the same experiment many times, we would expect approximately 98%\nof the sample regression slopes to fall between −1.134\nand −0.8364\n."
+      "text": "If Rob were to perform the same experiment many times, we would expect approximately $98\\%$ of the sample regression slopes to fall between $-1.134$ and $-0.8364$."
     },
     {
       "letter": "D",
-      "text": "Rob can expect the herbicide/fertilizer to kill between −1.134\nand −0.8364\non 98%\nof the sections of his lawn."
+      "text": "Rob can expect the herbicide/fertilizer to kill between $-1.134$ and $-0.8364$ on $98\\%$ of the sections of his lawn."
     },
     {
       "letter": "E",
-      "text": "We are\n98\n%\nconfident that the interval from\n−\n1.134\nto\n−\n0.8364\ncrab grass plants per square meter captures the slope of the true regression line relating change in crab grass and herbicide/fertilizer."
+      "text": "We are 98% confident that the interval from −1.134 to −0.8364 crab grass plants per square meter captures the slope of the true regression line relating change in crab grass and herbicide/fertilizer."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",

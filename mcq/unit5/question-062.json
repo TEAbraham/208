@@ -8,7 +8,7 @@
   ],
   "title": "Sampling Distribution of Sample Prop: Get Off Social Media, Mom!",
   "difficulty": "Medium",
-  "question_text": "A recent survey in the town of Pleasantville found that $55\\%$ of the adults had a social media account. The true percentage of adults that have a social media account in Pleasantville is $58\\%$.\nUsing simple random samples of size $100$, what are the mean and standard deviation respectively, for the sampling distribution of the sample proportions of adults who own a social media account in Pleasantville?",
+  "question_text": "A recent survey in the town of Pleasantville found that $55\\%$ of the adults had a social media account. The true percentage of adults that have a social media account in Pleasantville is $58\\%$.<br>Using simple random samples of size $100$, what are the mean and standard deviation respectively, for the sampling distribution of the sample proportions of adults who own a social media account in Pleasantville?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -22,11 +22,11 @@
     },
     {
       "letter": "C",
-      "text": "$0.58,\\quad \\sqrt { 100(0.58)(0.42) } $"
+      "text": "0.58,\n√\n100(0.58)(0.42)"
     },
     {
       "letter": "D",
-      "text": "$0.58,\\quad \\sqrt { \\dfrac { (0.55)(0.45) }{ 100 } } $"
+      "text": "0.58,\n√\n(0.55)(0.45)\n100"
     },
     {
       "letter": "E",

@@ -8,7 +8,7 @@
   ],
   "title": "Teacher Salaries",
   "difficulty": "Hard",
-  "question_text": "A local school board is trying to estimate the proportion of the school district's population that feels that teacher salaries should be increased.\nWhich of the following sampling methods is most effective in minimizing bias in this sample proportion?",
+  "question_text": "A local school board is trying to estimate the proportion of the school district's population that feels that teacher salaries should be increased.<br>Which of the following sampling methods is most effective in minimizing bias in this sample proportion?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -18,19 +18,19 @@
     },
     {
       "letter": "B",
-      "text": "$100\\text{ adults}$ will be randomly chosen from voter registration records. Each adult will be asked the question, \"Do you feel teacher salaries should be increased?\"\nIf the voter cannot be reached on the first attempt, the surveyor will continue calling back until they are able to reach the voter."
+      "text": "100 adults will be randomly chosen from voter registration records. Each adult will be asked the question, \"Do you feel teacher salaries should be increased?\"\nIf the voter cannot be reached on the first attempt, the surveyor will continue calling back until they are able to reach the voter."
     },
     {
       "letter": "C",
-      "text": "$100\\text{ adults}$ will be randomly chosen from voter registration records. Each adult will be asked the question, \"Do you feel teacher salaries should be increased?\"\nIf the voter cannot be reached on the first attempt, the surveyor will move on to another randomly selected voter who can be easily reached."
+      "text": "100 adults\nwill be randomly chosen from voter registration records. Each adult will be asked the question, \"Do you feel teacher salaries should be increased?\"\nIf the voter cannot be reached on the first attempt, the surveyor will move on to another randomly selected voter who can be easily reached."
     },
     {
       "letter": "D",
-      "text": "$75\\text{ adults}$ will be randomly chosen from among the attendees at a school board meeting. A teacher wearing her school ID badge will ask subjects the question, \"Do you think teacher salaries should be increased?\""
+      "text": "75 adults\nwill be randomly chosen from among the attendees at a school board meeting. A teacher wearing her school ID badge will ask subjects the question, \"Do you think teacher salaries should be increased?\""
     },
     {
       "letter": "E",
-      "text": "$75\\text{ adults}$ will be randomly chosen from among the attendees at a school board meeting. The interviewer will ask subjects the question, \"Given the many hours that teachers work outside of the regular school day and during the summer months, do you feel their salaries should be increased?\""
+      "text": "75 adults\nwill be randomly chosen from among the attendees at a school board meeting. The interviewer will ask subjects the question, \"Given the many hours that teachers work outside of the regular school day and during the summer months, do you feel their salaries should be increased?\""
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
