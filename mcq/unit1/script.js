@@ -1,5 +1,5 @@
 import {
-  getFirestore, collection, query, where, getDocs, doc, setDoc
+  getFirestore, collection, query, where, getDocs, doc, setDoc, addDoc
 } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
 import {
   getAuth, onAuthStateChanged
@@ -62,10 +62,14 @@ function updateScore(uid) {
         const data = doc.data();
         if (!data.questionId.startsWith("unit1_")) return;
 
-        const difficulty = (data.difficulty || "medium").toLowerCase();
-        const pointMap = { easy: 1, medium: 2, hard: 3 };
-        const base = pointMap[difficulty] || 2;
-        score += data.correct ? base : -1;
+        const rewardPoints = { easy: 1, medium: 2, hard: 3 };
+        const penaltyPoints = { easy: -3, medium: -2, hard: -1 };
+
+        const baseReward = rewardPoints[difficulty];
+        const basePenalty = penaltyPoints[difficulty];
+
+        score += data.correct ? baseReward : basePenalty;
+
       });
 
       unitScore.innerText = `Unit 1 Progress: ${score} / 50 pts`;
@@ -98,11 +102,12 @@ function renderQuestion(q) {
 
   questionChoices.innerHTML = "";
   (q.choices || []).forEach(choice => {
-    if (window.MathJax) MathJax.typesetPromise();
     const btn = document.createElement("button");
-    btn.innerText = `${choice.letter}: ${choice.text}`;
+    btn.innerHTML = `<strong>${choice.letter}:</strong> ${choice.text}`;
+    btn.className = "button-1 perspective";
     btn.style.display = "block";
     btn.style.marginBottom = "0.5em";
+    btn.style.textAlign = "left";
     btn.dataset.letter = choice.letter;
     btn.onclick = () => {
       selectedAnswer = choice.letter;
@@ -111,6 +116,9 @@ function renderQuestion(q) {
     };
     questionChoices.appendChild(btn);
   });
+
+  if (window.MathJax) MathJax.typesetPromise();
+
 
   feedbackDiv.innerText = "";
   correctDiv.style.visibility = "hidden";
@@ -124,7 +132,10 @@ function renderQuestion(q) {
 submitBtn.onclick = async () => {
   if (!selectedAnswer || !currentQuestion) return alert("Please select an answer.");
 
-  const correct = currentQuestion.correct_answer?.includes(selectedAnswer);
+  const correctLetterMatch = currentQuestion.correct_answer?.match(/Choice '([A-E])'/i);
+  const correctLetter = correctLetterMatch ? correctLetterMatch[1] : null;
+  const correct = selectedAnswer === correctLetter;
+
 
   await setDoc(doc(db, "student_answers", `${auth.currentUser.uid}_${currentQuestion.id}`), {
     userId: auth.currentUser.uid,
@@ -138,7 +149,7 @@ submitBtn.onclick = async () => {
   feedbackDiv.innerText = correct ? "✅ Correct!" : "❌ Incorrect.";
 
   document.querySelectorAll("#question-choices button").forEach(btn => {
-    const isCorrect = currentQuestion.correct_answer.includes(btn.dataset.letter);
+    const isCorrect = btn.dataset.letter === correctLetter;
     btn.style.background = isCorrect ? "#a6f3a6" : (btn.dataset.letter === selectedAnswer ? "#fdaaa0" : "");
   });
 
@@ -158,3 +169,35 @@ nextBtn.onclick = () => {
   showNewQuestion();
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
+
+document.addEventListener('DOMContentLoaded', () => {
+  const container = document.getElementById("mcq-container");
+
+  if (!container) return;
+
+  // 🛡️ Block copy/cut/paste/right-click
+  const blockAction = async (event, type) => {
+    event.preventDefault();
+    alert(`Sorry, ${type} is disabled during the quiz.`);
+    await addDoc(collection(db, "user_violations"), {
+      userId: auth.currentUser?.uid || "anonymous",
+      event: type,
+      timestamp: new Date(),
+      page: "unit1"
+    });
+  };
+
+  container.addEventListener("copy", e => blockAction(e, "copy"));
+  container.addEventListener("cut", e => blockAction(e, "cut"));
+  container.addEventListener("paste", e => blockAction(e, "paste"));
+  container.addEventListener("contextmenu", e => blockAction(e, "right-click"));
+
+  // 🛑 Block Print Shortcut
+  document.addEventListener("keydown", e => {
+    if ((e.ctrlKey || e.metaKey) && e.key === "p") {
+      e.preventDefault();
+      alert("Printing is disabled during the quiz.");
+      console.warn("Blocked print attempt");
+    }
+  });
+});
