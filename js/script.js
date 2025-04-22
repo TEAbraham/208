@@ -187,4 +187,8 @@ onAuthStateChanged(auth, user => {
 
     if (logoutButton) logoutButton.style.display = user ? 'block' : 'none';
   }
+
+  if (user) {
+    document.getElementById('user-email').textContent = `${user.email}`;
+  }
 });
