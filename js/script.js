@@ -222,7 +222,7 @@ onAuthStateChanged(auth, async (user) => {
     Object.entries(progress).forEach(([unit, points]) => {
       const link = document.querySelector(`a[href="${unit}/"]`);
       if (link) {
-        if (points >= 50) {
+        if (points >= 25) {
           link.textContent += ` ✅ (${points} pts)`;
         } else {
           link.textContent += ` 🟡 (${points} pts)`;

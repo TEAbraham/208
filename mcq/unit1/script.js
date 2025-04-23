@@ -74,25 +74,25 @@ async function updateScore(uid) {
     const baseReward = rewardPoints[difficulty] || 2;
     const basePenalty = penaltyPoints[difficulty] || -1;
 
-    if (score < 50) {
+    if (score < 25) {
       const nextScore = score + (data.correct ? baseReward : basePenalty);
-      score = Math.min(50, nextScore);
+      score = Math.min(25, nextScore);
       answerCount++;
     }
   });
 
-  unitScore.innerText = `Unit 1 Progress: ${score} / 50 pts`;
-  if (score >= 50) unitScore.innerText += " ✅ Complete!";
+  unitScore.innerText = `Unit 1 Progress: ${score} / 25 pts`;
+  if (score >= 25) unitScore.innerText += " ✅ Complete!";
 
   // 🔐 Save to `unit_completion` if not already stored
   const docRef = doc(db, "unit_completion", `${uid}_${unit}`);
   const existing = await getDoc(docRef);
 
-  if (!existing.exists() && score >= 50) {
+  if (!existing.exists() && score >= 25) {
     await setDoc(docRef, {
       userId: uid,
       unit,
-      score: 50,
+      score: 25,
       totalAnswers: answerCount,
       completedAt: new Date()
     });
