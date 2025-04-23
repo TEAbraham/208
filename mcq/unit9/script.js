@@ -1,5 +1,5 @@
 import {
-  getFirestore, collection, query, where, getDocs, doc, setDoc, addDoc
+  getFirestore, collection, query, where, getDoc, getDocs, doc, setDoc, addDoc
 } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
 import {
   getAuth, onAuthStateChanged
