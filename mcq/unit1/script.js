@@ -143,7 +143,7 @@ function renderQuestion(q) {
         questionImages.querySelectorAll("img").forEach(img => img.style.display = "block");
         clearInterval(interval);
       }
-    }, 50);
+    }, 100);
   }
 
 
