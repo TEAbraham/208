@@ -24,13 +24,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const line = d3.line()
       .x(d => x(d.x))
       .y(d => y(d.y));
-  
+
     function drawNormalCurve(mean, sd) {
       const data = d3.range(-4, 4.01, 0.01).map(x => ({
         x: x,
         y: jStat.normal.pdf(x * sd + mean, mean, sd)
       }));
-  
+
       plotArea.selectAll(".dist-line").remove();
       plotArea.append("path")
         .datum(data)
@@ -39,11 +39,11 @@ document.addEventListener("DOMContentLoaded", function () {
         .attr("stroke", "steelblue")
         .attr("stroke-width", 2)
         .attr("d", line);
-  
+
       // Shade areas and update ranges
       drawShadedIntervals(mean, sd);
     }
-  
+
     function drawShadedIntervals(mean, sd) {
       plotArea.selectAll(".shade").remove();
       const intervals = [1, 2, 3].reverse();
