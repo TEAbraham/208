@@ -66,22 +66,21 @@ document.addEventListener("DOMContentLoaded", function () {
             .y0(innerHeight)
             .y1(d => y(d.y))
           );
-  
+
         // Update text in table
         const selector = ["range-68", "range-95", "range-997"].reverse()[i];
         document.getElementById(selector).textContent = `${start.toFixed(2)} to ${end.toFixed(2)}`;
       });
     }
-  
+
     // Hook up controls
     function update() {
       const mean = parseFloat(document.getElementById("mean").value);
       const sd = parseFloat(document.getElementById("sd").value);
       drawNormalCurve(mean, sd);
     }
-  
+
     $("#mean, #sd").on("input", update);
-  
+
     update();
   });
-  
