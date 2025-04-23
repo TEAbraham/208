@@ -2,7 +2,9 @@ import {
     getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut,
     onAuthStateChanged, GoogleAuthProvider
 } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
-import { getFirestore, collection, getDocs, query, where } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
+import {
+  getFirestore, collection, getDocs, getDoc, query, where, doc
+} from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
 import { app } from "./firebase-config.js";
 
 const auth = getAuth(app);
@@ -228,4 +230,46 @@ onAuthStateChanged(auth, async (user) => {
       }
     });
   }
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const wrapper = document.getElementById("calc-wrapper");
+  const header = document.getElementById("calc-header");
+  const toggle = document.getElementById("toggle-calc");
+  const close = document.getElementById("close-calc");
+
+  // Show/hide toggle
+  if (toggle && close && wrapper) {
+    toggle.addEventListener("click", () => {
+      wrapper.style.display = "block";
+    });
+
+    close.addEventListener("click", () => {
+      wrapper.style.display = "none";
+    });
+  }
+
+
+  // Drag logic
+  let offsetX = 0, offsetY = 0, isDragging = false;
+
+  header.addEventListener("mousedown", (e) => {
+    isDragging = true;
+    offsetX = e.clientX - wrapper.offsetLeft;
+    offsetY = e.clientY - wrapper.offsetTop;
+    document.body.style.userSelect = "none";
+  });
+
+  document.addEventListener("mousemove", (e) => {
+    if (!isDragging) return;
+    wrapper.style.left = `${e.clientX - offsetX}px`;
+    wrapper.style.top = `${e.clientY - offsetY}px`;
+    wrapper.style.bottom = 'auto';
+    wrapper.style.right = 'auto';
+  });
+
+  document.addEventListener("mouseup", () => {
+    isDragging = false;
+    document.body.style.userSelect = "";
+  });
 });
