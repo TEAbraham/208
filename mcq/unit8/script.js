@@ -140,7 +140,7 @@ function renderQuestion(q) {
     // reveal all images once all have loaded
     const interval = setInterval(() => {
       if (loadedCount >= urls.length) {
-        questionImages.querySelectorAll("img").forEach(img => img.style.display = "inline-block");
+        questionImages.querySelectorAll("img").forEach(img => img.style.display = "block");
         clearInterval(interval);
       }
     }, 50);
