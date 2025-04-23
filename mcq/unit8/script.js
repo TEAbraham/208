@@ -122,13 +122,40 @@ function renderQuestion(q) {
   if (window.MathJax) MathJax.typesetPromise();
 
   questionImages.innerHTML = "";
-  (q.image_urls || []).forEach(url => {
-    const img = document.createElement("img");
-    img.src = url;
-    img.style.maxWidth = "400px";
-    img.style.margin = "5px";
-    questionImages.appendChild(img);
-  });
+  const urls = q.image_urls || [];
+  let loadedCount = 0;
+
+  if (urls.length === 0) {
+    questionImages.style.display = "none";
+  } else {
+    urls.forEach(url => {
+      const img = document.createElement("img");
+      img.src = url;
+      img.style.maxWidth = "400px";
+      img.style.margin = "5px";
+      img.onload = () => {
+        loadedCount++;
+        if (loadedCount === urls.length) {
+          questionImages.style.display = "block";
+        }
+      };
+      img.onerror = () => {
+        console.warn("❌ Failed to load image:", url);
+        loadedCount++;
+      };
+      img.style.display = "none";
+      questionImages.appendChild(img);
+    });
+
+    // reveal all images once all have loaded
+    const interval = setInterval(() => {
+      if (loadedCount >= urls.length) {
+        questionImages.querySelectorAll("img").forEach(img => img.style.display = "inline-block");
+        clearInterval(interval);
+      }
+    }, 50);
+  }
+
 
   questionTables.innerHTML = "";
   (q.tables || []).forEach(html => {
