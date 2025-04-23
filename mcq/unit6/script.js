@@ -112,7 +112,7 @@ function renderQuestion(q) {
   if (window.MathJax) MathJax.typesetPromise();
 
   questionImages.innerHTML = "";
-  const urls = q.image_urls || [];
+  const urls = q.image_files;
   let loadedCount = 0;
 
   if (urls.length === 0) {
