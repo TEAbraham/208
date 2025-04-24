@@ -211,41 +211,48 @@ function discrete_continuous() {
 
   // Draw PDF/CDF Path
   function redrawPath(dist) {
-    if(dist != "") {
-    	var line = d3.line()
-    	  .x(function(d) { return xScaleDist(d[0])})
-    	  .y(function(d) { return yScaleDist(d[1])})
-    	  .curve(d3.curveBasis);
-    	var area = d3.area()
-    	  .x(function(d) { return xScaleDist(d[0])})
-    	  .y0(yScaleDist(0))
-    	  .y1(function(d) { return yScaleDist(d[1])})
-    	  .interpolate("linear");
-    	var parameter = parameters[dist];
-    	var params = parameter.map(function(x){return parseFloat(document.getElementById(dist+x).value)});
-    	params.unshift(0);
-    	pdfPath
-    	  .datum(d3.range(Math.floor(currentView[0]),Math.ceil(currentView[1])+0.01,0.01).map(function(x) { 
-    	  	params[0] = x;
-    	  	return [x, Math.min(jStat[dist].pdf.apply(null, params),yMax[1])]; }))
-    	  .attr("d", line)
-    	  .style("stroke-width", "5px");
-    	pdfArea
-    	  .datum(d3.range(currentView[0],currentView[0]+0.01+(currentView[1]-currentView[0])*currentPercent,0.01).map(function(x) { 
-    	  	params[0] = x;
-    	  	return [x, Math.min(jStat[dist].pdf.apply(null, params),yMax[1])]; }))
-    	  .attr("d", area)
-        .style("opacity", "0.5");
-    	cdfPath
-    	  .datum(d3.range(currentView[0],currentView[0]+0.01+(currentView[1]-currentView[0])*currentPercent,0.01).map(function(x) { 
-    	  	params[0] = x;
-    	  	return [x, jStat[dist].cdf.apply(null, params)]; }))
-    	  .attr("d", line)
-        .style("stroke-width", "5px");
-    } else {
-      pdfPath.style("stroke-width", "0px");
-      pdfArea.style("opacity", "0");
-      cdfPath.style("stroke-width", "0px");
+    try {
+      if (dist != "") {
+        var line = d3.line()
+          .x(function (d) { return xScaleDist(d[0]) })
+          .y(function (d) { return yScaleDist(d[1]) })
+          .curve(d3.curveBasis);
+        var area = d3.area()
+          .x(function (d) { return xScaleDist(d[0]) })
+          .y0(yScaleDist(0))
+          .y1(function (d) { return yScaleDist(d[1]) })
+          .curve(d3.curveBasis);
+        var parameter = parameters[dist];
+        var params = parameter.map(function (x) { return parseFloat(document.getElementById(dist + x).value) });
+        params.unshift(0);
+        pdfPath
+          .datum(d3.range(Math.floor(currentView[0]), Math.ceil(currentView[1]) + 0.01, 0.01).map(function (x) {
+            params[0] = x;
+            return [x, Math.min(jStat[dist].pdf.apply(null, params), yMax[1])];
+          }))
+          .attr("d", line)
+          .style("stroke-width", "5px");
+        pdfArea
+          .datum(d3.range(currentView[0], currentView[0] + 0.01 + (currentView[1] - currentView[0]) * currentPercent, 0.01).map(function (x) {
+            params[0] = x;
+            return [x, Math.min(jStat[dist].pdf.apply(null, params), yMax[1])];
+          }))
+          .attr("d", area)
+          .style("opacity", "0.5");
+        cdfPath
+          .datum(d3.range(currentView[0], currentView[0] + 0.01 + (currentView[1] - currentView[0]) * currentPercent, 0.01).map(function (x) {
+            params[0] = x;
+            return [x, jStat[dist].cdf.apply(null, params)];
+          }))
+          .attr("d", line)
+          .style("stroke-width", "5px");
+      } else {
+        pdfPath.style("stroke-width", "0px");
+        pdfArea.style("opacity", "0");
+        cdfPath.style("stroke-width", "0px");
+      }
+    } catch (e) {
+      console.error("Error generating sample for distribution:", dist, e);
     }
   }
 
@@ -288,7 +295,7 @@ function discrete_continuous() {
   	redrawPath(this.parentNode.id);
   	});
   function updateRangeInput(n, id) {
-    d3.select("#"+id+"-value").text(round(n,2));
+    d3.select("#"+id+"-value").text(n.toFixed(2));
   };
 
   // //Update Percent Input
@@ -342,7 +349,14 @@ function discrete_continuous() {
     currentView = initialView[currentDist];
     xScaleDist.domain(currentView);
     yScaleDist.domain([0, 1]);
-    zoom.x(xScaleDist).y(yScaleDist);
+    d3.zoom()
+  .scaleExtent([1, 10]) // optional
+  .on("zoom", (event) => {
+    const transform = event.transform;
+    // Rescale axes
+    const newX = transform.rescaleX(xScaleDist);
+    const newY = transform.rescaleY(yScaleDist);
+    })
     xDist.call(xAxisDist);
     yDist.call(yAxisDist);
     currentPercent = 0;
@@ -620,14 +634,14 @@ function clt() {
   // update alpha
   $("#alpha_clt").on("input", function(e) {
     alpha = parseFloat($(this).val());
-    d3.select("#alpha_clt-value").text(round(alpha,2));
+    d3.select("#alpha_clt-value").text(alpha.toFixed(2));
     reset_clt();
   });
 
   // update beta
   $("#beta_clt").on("input", function(e) {
     beta = parseFloat($(this).val());
-    d3.select("#beta_clt-value").text(round(beta,2));
+    d3.select("#beta_clt-value").text(beta.toFixed(2));
     reset_clt();
   });
 
