@@ -36,12 +36,27 @@ function round(number, decimal) {
 }
 
 // Additional jStat functions
+jStat.bernoulli = {
+  pdf: (k, p) => (k < 0 || !Number.isInteger(k) || k > 1 || p < 0 || p > 1) ? 0 : jStat.binomial.pdf(k, 1, p),
+  cdf: (k, p) => jStat.binomial.cdf(k, 1, p),
+  mean: (p) => p,
+  sample: (p) => Array.from({length: 1}, () => +(Math.random() < p)).reduce((a, b) => a + b, 0)
+};
+
 jStat.binomialDiscrete = {
   pdf: (k, n, p) => (k < 0 || !Number.isInteger(k) || k > n || p < 0 || p > 1) ? 0 : jStat.binomial.pdf(k, n, p),
   cdf: (k, n, p) => jStat.binomial.cdf(k, n, p),
   mean: (n, p) => n * p,
   sample: (n, p) => Array.from({length: n}, () => +(Math.random() < p)).reduce((a, b) => a + b, 0)
 };
+
+jStat.geometric = {
+  pdf: (k, p) => (k < 0 || !Number.isInteger(k) || p < 0 || p > 1) ? 0 : (1-p)**(k-1)*p,
+  cdf: (k, p) => { let sum = 0; for (let i = 0; i <= k; i++) {sum +=jStat.geometric.pdf(i,p) }; return sum  },
+  mean: (p) => 1/p,
+  sample: (p) => Array.from({length: 1}, () => +(Math.random() < p)).reduce((a, b) => a + b, 0)
+};
+
 
 // Slider creation function
 function create_slider(slide, svg, width, height, margin) {

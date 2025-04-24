@@ -111,53 +111,6 @@ function discrete_continuous() {
   var yAxisDist = d3.axisLeft(yScaleDist).ticks(5);
 
 
-  //Handle zoom and scale
-  var zoom = d3.zoom()
-      .scaleExtent([0.25, 4])
-      .on("zoom", zoomed);
-
-
-  //Zoom function
-  function zoomed() {
-  	if (xScaleDist.domain()[0] < xMax[0]) {
-  	    var x = zoom.translate()[0] - xScaleDist(xMax[0]) + xScaleDist.range()[0];
-  	    zoom.translate([x, 0]);
-  	}
-  	if (xScaleDist.domain()[1] > xMax[1]) {
-  	    var x = zoom.translate()[0] - xScaleDist(xMax[1]) + xScaleDist.range()[1];
-  	    zoom.translate([x, 0]);
-  	}
-  	if (yScaleDist.domain()[0] != yMax[0]) {
-  	    var y = zoom.translate()[1] - yScaleDist(yMax[0]) + yScaleDist.range()[0];
-  	    zoom.translate([zoom.translate()[0], y]);
-  	}
-  	if (yScaleDist.domain()[1] > yMax[1]) {
-  	    var y = zoom.translate()[1] - yScaleDist(yMax[1]) + yScaleDist.range()[1];
-  	    zoom.translate([zoom.translate()[0], y]);
-  	}
-  	//Update X axis
-  	xDist.call(xAxisDist);
-  	//Update Y axis
-  	yDist.call(yAxisDist);
-  	//Update current view area
-  	currentView = xScaleDist.domain();
-
-  	redrawPath(currentDist);
-  }
-
-  //Add control buttons for zoom and pan
-  function move() {
-    svgDist.call(zoom.event); // https://github.com/mbostock/d3/issues/2387
-
-    // Record the coordinates (in data space) of the center (in screen space).
-    var center0 = zoom.center(), translate0 = zoom.translate(), dir = +this.getAttribute("data-move");
-    var translate = translate0[0]+center0[0]*dir;
-    // Translate from center.
-    zoom.translate([translate, 0]);
-
-    svgDist.transition().duration(1000).call(zoom.event);
-  }
-
   function scale() {
     svgDist.call(zoom.event); // https://github.com/mbostock/d3/issues/2387
 
@@ -182,32 +135,6 @@ function discrete_continuous() {
     var scale = zoom.scale(), translate = zoom.translate();
     return [coordinates[0] * scale + translate[0], coordinates[1] * scale + translate[1]];
   }
-
-  control.selectAll('image.move')
-          .data(['left','right'])
-          .enter()
-          .append('image')
-          .attr("xlink:href", function(d,i) { return "./img/"+d+".png"; })
-          .attr("x", function(d,i) {return i*50;})
-          .attr("y", 10)
-          .attr("width", 25)
-          .attr("height", 25)
-          .attr("class", "move")
-          .attr("data-move",function(d,i) {return 1 + i*-2;})
-          .on("click", move);
-
-  control.selectAll('image.scale')
-          .data(['plus','minus'])
-          .enter()
-          .append('image')
-          .attr("xlink:href", function(d,i) { return "./img/"+d+".png"; })
-          .attr("x", 25)
-          .attr("y", function(d,i) {return i*25;})
-          .attr("width", 25)
-          .attr("height", 25)
-          .attr("class", "scale")
-          .attr("data-zoom",function(d,i) {return 1 + i*-2;})
-          .on("click", scale);
 
   // Draw PDF/CDF Path
   function redrawPath(dist) {
@@ -258,17 +185,26 @@ function discrete_continuous() {
 
   function create_slider(callback, svg, width, height, padding) {
     const sliderScale = d3.scaleLinear().domain([0, 1]).range([padding, width - padding]);
-
+  
     const sliderGroup = svg.append("g")
       .attr("class", "giant-slider")
-      .attr("transform", `translate(0, ${height - 30})`);
-
+      .attr("transform", `translate(0, ${height})`);
+  
+    // Full slider line (background track)
     sliderGroup.append("line")
       .attr("x1", sliderScale(0))
       .attr("x2", sliderScale(1))
       .attr("stroke", "#888")
       .attr("stroke-width", 4);
-
+  
+    // Filled portion of slider
+    const fill = sliderGroup.append("line")
+      .attr("x1", sliderScale(0))
+      .attr("x2", sliderScale(0))
+      .attr("stroke", "#FF8B22")
+      .attr("stroke-width", 4);
+  
+    // Handle (draggable circle)
     const handle = sliderGroup.append("circle")
       .attr("r", 8)
       .attr("cx", sliderScale(0))
@@ -279,15 +215,19 @@ function discrete_continuous() {
           const x = Math.max(sliderScale(0), Math.min(sliderScale(1), event.x));
           const val = sliderScale.invert(x);
           handle.attr("cx", sliderScale(val));
+          fill.attr("x2", sliderScale(val)); // update fill width
           callback(val);
         })
       );
 
+    // Reset function
     return () => {
       handle.attr("cx", sliderScale(0));
+      fill.attr("x2", sliderScale(0));
       callback(0);
     };
   }
+
 
   //Update Range Input
   $(".inputDist").on("input", function(e) {
@@ -295,15 +235,9 @@ function discrete_continuous() {
   	redrawPath(this.parentNode.id);
   	});
   function updateRangeInput(n, id) {
-    d3.select("#"+id+"-value").text(n.toFixed(2));
+    d3.select("#"+id+"-value").text(n);
   };
 
-  // //Update Percent Input
-  // $("#percentDist").on("input", function(e) {
-  // 	currentPercent = $(this).val();
-  // 	redrawPath(currentDist);
-  // 	});
-  // slide function
   function slide(val) {
     currentPercent = val;
     redrawPath(currentDist);
@@ -391,14 +325,11 @@ function discrete_continuous() {
       .attr("width", d => Math.max(0, newX(d.x1) - newX(d.x0) - 1));
   });
 
-// svg.call(zoom)
-//    .call(zoom.transform, d3.zoomIdentity.translate(width / 2, height / 2));
-
   control.attr("transform", "translate(" + (width-120) + "," + hpad + ")")
 
 	xDist.attr("transform", "translate(0," + (height - hpad) + ")").call(xAxisDist);
 	yDist.attr("transform", "translate(" + wpad + ",0)").call(yAxisDist);
-	shift.attr("x", wpad).attr("y", hpad).attr("width", width-2*wpad).attr("height", height-2*hpad).call(zoom);
+	shift.attr("x", wpad).attr("y", hpad).attr("width", width-2*wpad).attr("height", height-2*hpad);
 	clip.attr("x", wpad).attr("y", hpad-2).attr("width", width-2*wpad).attr("height", height-2*hpad+4);
 
 	redrawPath(currentDist);
@@ -411,8 +342,8 @@ function discrete_continuous() {
 function clt() {
   // define width, height, margin
   var margin = {top: 15, right: 5, bottom: 15, left: 5};
-  var width = 800;//parseInt(d3.select("#graph").style("width")) - margin.left - margin.right,
-      height = 500;
+  var width = 1000;//parseInt(d3.select("#graph").style("width")) - margin.left - margin.right,
+      height = 400;
   // create svg
   var svg_clt = d3.select("#graph").append("svg")
     .attr("width", "100%")
@@ -441,15 +372,6 @@ function clt() {
   var z_scale_clt = d3.scaleLinear().domain([0, 3]).range([0, y1]);
 
 
-  // clip path
-  var clip_clt = svg_clt.append("clipPath")
-                  .attr("id", "view_clt")
-                  .append("rect")
-                  .attr("x", 0)
-                  .attr("y", height - (2*y1 - y2))
-                  .attr("width", width)
-                  .attr("height", (2*y1 - y2));
-
   // draw horizontal bar
   function draw_bar(selection, dy, label) {
     // group
@@ -468,9 +390,9 @@ function clt() {
       .text(label);
   };
   // create three bars
-  svg_clt.call(draw_bar, y1, "draw");
-  svg_clt.call(draw_bar, y1+y2, "average");
-  svg_clt.call(draw_bar, 3*y1, "count");
+  svg_clt.call(draw_bar, y1, "population");
+  svg_clt.call(draw_bar, y1+y2, "samples");
+  svg_clt.call(draw_bar, 3*y1, "sampling distribution");
 
 
   // path and area elements
@@ -534,78 +456,83 @@ function clt() {
   var bars = svg_clt.append("g").attr("class", "histogram");
 
   function draw_histogram() {
-    // get histrogram of counts
     var data = histogram(counts);
-    // update scale
-    var ymax = d3.max(data.map(function(d) { return d.y; }));
-    y_scale_clt.domain([0, ymax*bins]);
-    // enter bars
+    var ymax = d3.max(data.map(d => d.length));
+    y_scale_clt.domain([0, ymax * bins]);
+  
     var bar = bars.selectAll("g").data(data);
+  
     var barEnter = bar.enter().append("g").attr("class", "bar");
     barEnter.append("rect");
     barEnter.append("text")
-      .attr("y", 3*y1 - 15)
+      .attr("y", 3 * y1 - 15)
       .attr("text-anchor", "middle");
-    // update bars
+  
     bar.select("rect")
-      .attr("x", function(d) { return x_scale_clt(d.x) + 1; })
-      .attr("width", x_scale_clt(data[0].dx) - 1)
-    .transition().duration(250)
-      .attr("y", function(d) { return 3*y1 - y_scale_clt(d.y*bins); })
-      .attr("height", function(d) { return y_scale_clt(d.y*bins); });
+      .attr("x", d => x_scale_clt(d.x0) + 1)
+      .attr("width", d => Math.max(0, x_scale_clt(d.x1) - x_scale_clt(d.x0) - 1))
+      .transition().duration(250)
+      .attr("y", d => 3 * y1 - y_scale_clt(d.length * bins))
+      .attr("height", d => y_scale_clt(d.length * bins));
+  
     bar.select("text")
-      .attr("x", function(d) { return x_scale_clt(d.x + 1/(2*bins)); })
-      .text(function(d) { return d.y > 0 ? d3.format("%")(d.y) : ""; });
-    // exit bars
+      .attr("x", d => x_scale_clt((d.x0 + d.x1) / 2))
+      .text(d => d.length > 0 ? d3.format(".0%")(d.length / counts.length) : "");
+  
     bar.exit().remove();
-  };
+  }
+  
 
   // Creates Circles and transitions
-  function tick() {
-    // take samples
-    var data = [];
-    for (var i = 0; i < n; i++) {
-      data.push(jStat.beta.sample(alpha,beta));
-    };
-    var mean = d3.mean(data);
-    // add balls
-    var group = svg_clt.append("g").attr("class", "ball-group");
-    var balls = group.selectAll(".ball").data(data);
-    // animate balls
-    var i = 0, j = 0;
-    balls.enter()
-      .append("circle")
-      .attr("class", "ball")
-      .attr("cx", function(d) { return x_scale_clt(d); })
-      .attr("cy", y1)
-      .attr("r", 5)
-      .transition()
-      .duration(dt)
-      .attr("cy", y1 + y2 - 5)
-      .each(function() { ++i; })
-      .each("end", function() {
-        if (!--i) {
-          balls
-            .transition()
-            .duration(400)
-            .attr("cx", x_scale_clt(mean))
-            .style("fill", "#FF8B22")
-            .transition()
-            .duration(400)
-            .attr("cy", 3*y1-3)
-            .attr("r", 3)
-            .each(function() { ++j; })
-            .each("end", function() {
-              if (!--j) {
-                counts.push(mean);
-                draw_histogram();
-                draw_sampling();
-              }
-              d3.select(this).remove();
-            });
-        };
-      });
-  }
+function tick() {
+  var data = [];
+  for (var i = 0; i < n; i++) {
+    data.push(jStat.beta.sample(alpha, beta));
+  };
+  var mean = d3.mean(data);
+
+  var group = svg_clt.append("g").attr("class", "ball-group");
+
+  // Capture the enter selection!
+  var balls = group.selectAll(".ball")
+    .data(data)
+    .enter() // << here's the important part
+    .append("circle")
+    .attr("class", "ball")
+    .attr("cx", function(d) { return x_scale_clt(d); })
+    .attr("cy", y1)
+    .attr("r", 5);
+
+  var i = 0, j = 0;
+
+  balls.transition()
+    .duration(dt)
+    .attr("cy", y1 + y2 - 5)
+    .each(function() { ++i; })
+    .on("end", function() {
+      if (!--i) {
+        balls
+          .transition()
+          .duration(400)
+          .attr("cx", x_scale_clt(mean))
+          .style("fill", "#FF8B22")
+          .transition()
+          .duration(400)
+          .attr("cy", 3 * y1 - 3)
+          .attr("r", 3)
+          .each(function() { ++j; })
+          .on("end", function() {
+            if (!--j) {
+              counts.push(mean);
+              draw_histogram();
+              draw_sampling();
+            }
+            d3.select(this).remove();
+          });
+      }
+    });
+}
+
 
   // initiate sampling
   function start_sampling() {
@@ -624,10 +551,9 @@ function clt() {
   function reset_clt() {
     clearInterval(interval_clt);
     counts = [];
-    d3.timer.flush();
     svg_clt.selectAll("circle").remove();
     svg_clt.selectAll(".bar").remove();
-    y_scale_clt.domain([0,3]);
+    y_scale_clt.domain([0, 3]);
     draw_sampling();
   }
 
@@ -673,6 +599,6 @@ function clt() {
     clearInterval(interval_clt);
     start_sampling();
   });
-  
+
   draw_sampling();
 }

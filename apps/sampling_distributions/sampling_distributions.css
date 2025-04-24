@@ -24,11 +24,7 @@ body {
 }
 .Column {
   display: table-cell;
-}
-
-.col-left {
-
-  background-color: #fff;
+  vertical-align: top;
 }
 
 .action-buttons ul a li:hover {
@@ -91,7 +87,6 @@ background: #F5D800;
 .hexagon {
 fill: white;
 opacity: 0.6;
-/*pointer-events: all;*/
 cursor: pointer;
 }
 
@@ -100,13 +95,6 @@ cursor: pointer;
 transition: fill 250ms linear;
 }
 
-/*.hexagon :hover {
-opacity: 0.5
-}*/
-
-/*.hexagon .fill {
-fill: #c7c7c7;
-}*/
 
 .mesh {
 fill: none;
@@ -139,14 +127,6 @@ svg g image:hover {
 opacity: 1;
 }
 
-
-/*graph table*/
-/*.click { background-color: rgba(255,155,60,0.6); }
-.hover { background-color: #eee; }
-#mean {
-stroke: #FF9B3C;
-stroke-dasharray: 2, 2;
-}*/
 
 #descriptionTable td {
 vertical-align: middle;
@@ -244,6 +224,28 @@ width: 150px;
 
 #rvNewMap{
 height: 100%;
+}
+
+.button-1 {
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #46C8B2;
+  background-color: white;
+  color: #333;
+}
+
+.button-1.active,
+.button-1:hover {
+  background-color: #46C8B2;
+  color: white;
+}
+
+.button-1.active,.button-1:hover, .button-1-s:hover{
+   border: 1px solid #46C8B2;
+   background-color: #46C8B2;
+   color:white;
 }
 
 
