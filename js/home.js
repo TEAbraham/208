@@ -51,8 +51,8 @@ jStat.binomialDiscrete = {
 };
 
 jStat.geometric = {
-  pdf: (k, p) => (k < 0 || !Number.isInteger(k) || p < 0 || p > 1) ? 0 : (1-p)**(k-1)*p,
-  cdf: (k, p) => { let sum = 0; for (let i = 0; i <= k; i++) {sum +=jStat.geometric.pdf(i,p) }; return sum  },
+  pdf: (k, p) => (k < 1 || !Number.isInteger(k) || p < 0 || p > 1) ? 0 : (1-p)**(k-1)*p,
+  cdf: (k, p) => { let sum = 0; for (let i = 1; i <= k; i++) {sum +=jStat.geometric.pdf(i,p) }; return sum  },
   mean: (p) => 1/p,
   sample: (p) => Array.from({length: 1}, () => +(Math.random() < p)).reduce((a, b) => a + b, 0)
 };

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Correlation Visualizer</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="defaultSettings.js"></script>
+  <script src="utils.js"></script>
+  <script src="scatterplot.js" defer></script>
+  <script src="venn.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+
+<div class="controls">
+  <button id="mode-drag">Drag Points</button>
+  <button id="mode-add">Add Points</button>
+  <button id="mode-delete">Delete Points</button>
+  <input id="correlation-slider" type="range" min="-1" max="1" step="0.01" value="0">
+  <label id="correlation-label">Correlation: 0</label>
+</div>
+
+<div id="scatter-container"></div>
+<div id="venn-container"></div>
+
+</body>
+</html>
