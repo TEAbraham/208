@@ -293,116 +293,116 @@
               <div class="interactive-wrapper">
                   <div id="bernoulli" class="bernoulli distribution">
                       <label for="bernoulliProbability">
-                          \(\large p\) = <span id="bernoulliProbability-value">0.5</span>
+                        Success Probability (p): <span id="bernoulliProbability-value">0.5</span>
                       </label><br>
                       <input id="bernoulliProbability" class="inputDist blueSlider" type="range" min="0" max="1" step="0.01" value="0.5">
                   </div>
                   <div id="binomialDiscrete" class="binomialDiscrete distribution">
                       <label for="binomialDiscreteNumber">
-                          \(\large n\) = <span id="binomialDiscreteNumber-value">5</span>
+                        Number of Trials (n): <span id="binomialDiscreteNumber-value">5</span>
                       </label><br>
-                      <input id="binomialDiscreteNumber" class="inputDist blueSlider" type="range" min="1" max="20" step="1" value="5">
+                      <input id="binomialDiscreteNumber" class="inputDist blueSlider" type="range" min="1" max="50" step="1" value="5">
                       <br>
                       <label for="binomialDiscreteProbability">
-                          \(\large p\) = <span id="binomialDiscreteProbability-value">0.5</span>
+                        Success Probability (p): <span id="binomialDiscreteProbability-value">0.5</span>
                       </label><br>
                       <input id="binomialDiscreteProbability" class="inputDist blueSlider" type="range" min="0" max="1" step="0.01" value="0.5">
                   </div>
                   <div id="negbin" class="negbin distribution">
                       <label for="negbinNumber">
-                          \(\large r\) = <span id="negbinNumber-value">5</span>
+                        Failures until Stop (r): <span id="negbinNumber-value">5</span>
                       </label><br>
-                      <input id="negbinNumber" class="inputDist blueSlider" type="range" min="1" max="20" step="1" value="5">
+                      <input id="negbinNumber" class="inputDist blueSlider" type="range" min="1" max="50" step="1" value="5">
                       <br>
                       <label for="negbinProbability">
-                          \(\large p\) = <span id="negbinProbability-value">0.5</span>
+                        Success Probability (p): <span id="negbinProbability-value">0.5</span>
                       </label><br>
                       <input id="negbinProbability" class="inputDist blueSlider" type="range" min="0" max="1" step="0.01" value="0.5">
                   </div>
                   <div id="geometric" class="geometric distribution">
                       <label for="geometricProbability">
-                          \(\large p\) = <span id="geometricProbability-value">0.5</span>
+                        Success Probability (p): <span id="geometricProbability-value">0.5</span>
                       </label><br>
                       <input id="geometricProbability" class="inputDist blueSlider" type="range" min="0" max="1" step="0.01" value="0.5">
                   </div>
                   <div id="poisson" class="poisson distribution">
                       <label for="poissonLambda">
-                          \(\large\lambda\) = <span id="poissonLambda-value">5</span>
+                        Rate (λ): <span id="poissonLambda-value">5</span>
                       </label><br>
-                      <input id="poissonLambda" class="inputDist blueSlider" type="range" min="0.01" max="10" step="0.01" value="5">
+                      <input id="poissonLambda" class="inputDist blueSlider" type="range" min="0.01" max="30" step="0.01" value="5">
                   </div>
                   <div id="uniform" class="uniform distribution">
                       <label for="uniformMin">
-                          \(\large a\) = <span id="uniformMin-value">-5</span>
+                        Min (a): <span id="uniformMin-value">-5</span>
                       </label><br>
                       <input id="uniformMin" class="inputDist blueSlider" type="range" min="-10" max="0" step="0.01" value="-5">
                       <br>
                       <label for="uniformMax">
-                          \(\large b\) = <span id="uniformMax-value">5</span>
+                        Max (b): <span id="uniformMax-value">5</span>
                       </label><br>
-                      <input id="uniformMax" class="inputDist blueSlider" type="range" min="0" max="10" step="0.01" value="5">
+                      <input id="uniformMax" class="inputDist blueSlider" type="range" min="0" max="30" step="0.01" value="5">
                   </div>
                   <div id="normal" class="normal distribution">
                       <label for="normalMean">
-                          \(\large \mu\) = <span id="normalMean-value">0</span>
+                        Mean (μ): <span id="normalMean-value">0</span>
                       </label><br>
-                      <input id="normalMean" class="inputDist blueSlider" type="range" min="-10" max="10" step="0.01" value="0">
+                      <input id="normalMean" class="inputDist blueSlider" type="range" min="-10" max="30" step="0.01" value="0">
                       <br>
                       <label for="normalStd">
-                          \(\large \sigma\) = <span id="normalStd-value">1</span>
+                        Std Dev (σ): <span id="normalStd-value">1</span>
                       </label><br>
-                      <input id="normalStd" class="inputDist blueSlider" type="range" min="0.01" max="5" step="0.01" value="1">
+                      <input id="normalStd" class="inputDist blueSlider" type="range" min="0.01" max="10" step="0.01" value="1">
                   </div>
                   <div id="studentt" class="studentt distribution">
                       <label for="studenttDof">
-                          \(\large k\) = <span id="studenttDof-value">5</span>
+                        Degrees of Freedom (k): <span id="studenttDof-value">5</span>
                       </label><br>
-                      <input id="studenttDof" class="inputDist blueSlider" type="range" min="1" max="20" step="1" value="5">
+                      <input id="studenttDof" class="inputDist blueSlider" type="range" min="1" max="50" step="1" value="5">
                   </div>
                   <div id="chisquare" class="chisquare distribution">
                       <label for="chisquaredDof">
-                          \(\large k\) = <span id="chisquareDof-value">5</span>
+                        Degrees of Freedom (k): <span id="chisquareDof-value">5</span>
                       </label><br>
-                      <input id="chisquareDof" class="inputDist blueSlider" type="range" min="1" max="20" step="1" value="5">
+                      <input id="chisquareDof" class="inputDist blueSlider" type="range" min="1" max="50" step="1" value="5">
                   </div>
                   <div id="exponential" class="exponential distribution">
                       <label for="exponentialLambda">
-                          \(\large \lambda\) = <span id="exponentialLambda-value">5</span>
+                        Rate (λ): <span id="exponentialLambda-value">5</span>
                       </label><br>
-                      <input id="exponentialLambda" class="inputDist blueSlider" type="range" min="0.01" max="10" step="0.01" value="1">
+                      <input id="exponentialLambda" class="inputDist blueSlider" type="range" min="0.01" max="30" step="0.01" value="1">
                   </div>
                   <div id="centralF" class="centralF distribution">
                       <label for="centralFDof1">
-                          \(\large d_{1}\) = <span id="centralFDof1-value">5</span>
+                        Degrees of Freedom (d1): <span id="centralFDof1-value">5</span>
                       </label><br>
-                      <input id="centralFDof1" class="inputDist blueSlider" type="range" min="1" max="20" step="1" value="5">
+                      <input id="centralFDof1" class="inputDist blueSlider" type="range" min="1" max="50" step="1" value="5">
                       <br>
                       <label for="centralFDof2">
-                          \(\large d_{2}\) = <span id="centralFDof2-value">5</span>
+                        Degrees of Freedom (d2): <span id="centralFDof2-value">5</span>
                       </label><br>
-                      <input id="centralFDof2" class="inputDist blueSlider" type="range" min="1" max="20" step="1" value="5">
+                      <input id="centralFDof2" class="inputDist blueSlider" type="range" min="1" max="50" step="1" value="5">
                   </div>
                   <div id="gamma" class="gamma distribution">
                       <label for="gammaShape">
-                          \(\large k\) = <span id="gammaShape-value">5</span>
+                        Shape (k): <span id="gammaShape-value">5</span>
                       </label><br>
-                      <input id="gammaShape" class="inputDist blueSlider" type="range" min="0.01" max="10" step="0.01" value="1">
+                      <input id="gammaShape" class="inputDist blueSlider" type="range" min="0.01" max="30" step="0.01" value="1">
                       <br>
                       <label for="gammaScale">
-                          \(\large \theta\) = <span id="gammaScale-value">5</span>
+                        Scale (θ): <span id="gammaScale-value">5</span>
                       </label><br>
-                      <input id="gammaScale" class="inputDist blueSlider" type="range" min="0.01" max="10" step="0.01" value="1">
+                      <input id="gammaScale" class="inputDist blueSlider" type="range" min="0.01" max="30" step="0.01" value="1">
                   </div>
                   <div id="beta" class="beta distribution">
                       <label for="betaAlpha">
-                          \(\large \alpha\) = <span id="betaAlpha-value">5</span>
+                        Alpha (α): <span id="betaAlpha-value">5</span>
                       </label><br>
-                      <input id="betaAlpha" class="inputDist blueSlider" type="range" min="0.01" max="5" step="0.01" value="1">
+                      <input id="betaAlpha" class="inputDist blueSlider" type="range" min="0.01" max="10" step="0.01" value="1">
                       <br>
                       <label for="betaBeta">
-                          \(\large \beta\) = <span id="betaBeta-value">5</span>
+                        Beta (β): <span id="betaBeta-value">5</span>
                       </label><br>
-                      <input id="betaBeta" class="inputDist blueSlider" type="range" min="0.01" max="5" step="0.01" value="1">
+                      <input id="betaBeta" class="inputDist blueSlider" type="range" min="0.01" max="10" step="0.01" value="1">
                   </div>
               </div>
             </div>
@@ -420,28 +420,108 @@
       <div class="Column">
           <h3>Central Limit Theorem</h3>
           <p>The Central Limit Theorem (CLT) states that the sample mean of a sufficiently large number of i.i.d. random variables is approximately normally distributed. The larger the sample, the better the approximation.</p>
-          <p> Change the parameters \(\alpha\) and \(\beta\) to change the distribution from which to sample.</p>
-          <div class="interactive-wrapper">
-              <label for="alpha_clt">
-                  \(\large \alpha\) = <span id="alpha_clt-value">1.00</span>
-              </label><br>
-              <input id="alpha_clt" class="inputDist blueSlider" type="range" min="0.1" max="5" step="0.01" value="1.00">
-              <br>
-              <label for="beta_clt">
-                  \(\large \beta\) = <span id="beta_clt-value">1.00</span>
-              </label><br>
-              <input id="beta_clt" class="inputDist blueSlider" type="range" min="0.1" max="5" step="0.01" value="1.00">
-
-          </div>
+          <br>
+            <!-- CLT Distribution Dropdown -->
+            <div class="interactive-wrapper">
+                <label for="cltDist">Sampling Distribution:</label><br>
+                <select id="cltDist" class="inputDist greenSlider">
+                <option disabled value> -- select a distribution -- </option>
+                <option value="bernoulli">Bernoulli</option>
+                <option value="binomialDiscrete">Binomial</option>
+                <option value="geometric">Geometric</option>
+                <option value="poisson">Poisson</option>
+                <option value="negativebinomial">Negative Binomial</option>
+                <option value="beta">Beta</option>
+                <option value="normal">Normal</option>
+                <option value="uniform" selected>Uniform</option>
+                <option value="gamma">Gamma</option>
+                <option value="exponential">Exponential</option>
+                <option value="chisquare">Chi-Square</option>
+                <option value="studentt">Student T</option>
+                </select>
+            </div>
+            <br><br>
+            <!-- CLT Parameter Sliders (One for each distribution) -->
+            <div id="parameters-bernoulli" class="clt-params" style="display:none;">
+                <label>Success Probability (p): <span id="bernoulliP-value">0.5</span></label><br>
+                <input id="bernoulliP" type="range" min="0" max="1" step="0.01" value="0.5" class="inputDist blueSlider"><br>
+            </div>
+            
+            <div id="parameters-binomialDiscrete" class="clt-params" style="display:none;">
+                <label>Number of Trials (n): <span id="binomialN-value">10</span></label><br>
+                <input id="binomialN" type="range" min="1" max="50" step="1" value="10" class="inputDist blueSlider"><br>
+                <label>Success Probability (p): <span id="binomialP-value">0.5</span></label><br>
+                <input id="binomialP" type="range" min="0" max="1" step="0.01" value="0.5" class="inputDist blueSlider"><br>
+            </div>
+            
+            <div id="parameters-geometric" class="clt-params" style="display:none;">
+                <label>Success Probability (p): <span id="geometricP-value">0.5</span></label><br>
+                <input id="geometricP" type="range" min="0" max="1" step="0.01" value="0.5" class="inputDist blueSlider"><br>
+            </div>
+            
+            <div id="parameters-poisson" class="clt-params" style="display:none;">
+                <label>Rate (λ): <span id="poissonLambda-value">5</span></label><br>
+                <input id="poissonLambda" type="range" min="0.1" max="30" step="0.1" value="5" class="inputDist blueSlider"><br>
+            </div>
+            
+            <div id="parameters-negativebinomial" class="clt-params" style="display:none;">
+                <label>Failures until Stop (r): <span id="negativebinomialR-value">5</span></label><br>
+                <input id="negativebinomialR" type="range" min="1" max="50" step="1" value="5" class="inputDist blueSlider"><br>
+                <label>Success Probability (p): <span id="negativebinomialP-value">0.5</span></label><br>
+                <input id="negativebinomialP" type="range" min="0" max="1" step="0.01" value="0.5" class="inputDist blueSlider"><br>
+            </div>
+            
+            <div id="parameters-beta" class="clt-params" style="display:none;">
+                <label>Alpha (α): <span id="BetaAlpha-value">1.00</span></label><br>
+                <input id="BetaAlpha" type="range" min="0.1" max="10" step="0.01" value="1.00" class="inputDist blueSlider"><br>
+                <label>Beta (β): <span id="BetaBeta-value">1.00</span></label><br>
+                <input id="BetaBeta" type="range" min="0.1" max="10" step="0.01" value="1.00" class="inputDist blueSlider"><br>
+            </div>
+            
+            <div id="parameters-normal" class="clt-params" style="display:none;">
+                <label>Mean (μ): <span id="normalMu-value">0</span></label><br>
+                <input id="normalMu" type="range" min="-10" max="10" step="0.1" value="0" class="inputDist blueSlider"><br>
+                <label>Std Dev (σ): <span id="normalSigma-value">1</span></label><br>
+                <input id="normalSigma" type="range" min="0.1" max="10" step="0.1" value="1" class="inputDist blueSlider"><br>
+            </div>
+            
+            <div id="parameters-uniform" class="clt-params" style="display:none;">
+                <label>Min (a): <span id="uniformA-value">0</span></label><br>
+                <input id="uniformA" type="range" min="-10" max="10" step="0.1" value="0" class="inputDist blueSlider"><br>
+                <label>Max (b): <span id="uniformB-value">1</span></label><br>
+                <input id="uniformB" type="range" min="0" max="10" step="0.1" value="1" class="inputDist blueSlider"><br>
+            </div>
+            
+            <div id="parameters-gamma" class="clt-params" style="display:none;">
+                <label>Shape (k): <span id="gammaK-value">2</span></label><br>
+                <input id="gammaK" type="range" min="0.1" max="10" step="0.1" value="2" class="inputDist blueSlider"><br>
+                <label>Scale (θ): <span id="gammaTheta-value">2</span></label><br>
+                <input id="gammaTheta" type="range" min="0.1" max="10" step="0.1" value="2" class="inputDist blueSlider"><br>
+            </div>
+            
+            <div id="parameters-exponential" class="clt-params" style="display:none;">
+                <label>Rate (λ): <span id="exponentialLambda-value">1</span></label><br>
+                <input id="exponentialLambda" type="range" min="0.1" max="10" step="0.1" value="1" class="inputDist blueSlider"><br>
+            </div>
+            
+            <div id="parameters-chisquare" class="clt-params" style="display:none;">
+                <label>Degrees of Freedom (k): <span id="chisquareK-value">5</span></label><br>
+                <input id="chisquareK" type="range" min="1" max="50" step="1" value="5" class="inputDist blueSlider"><br>
+            </div>
+            
+            <div id="parameters-studentt" class="clt-params" style="display:none;">
+                <label>Degrees of Freedom (k): <span id="studenttK-value">5</span></label><br>
+                <input id="studenttK" type="range" min="1" max="50" step="1" value="5" class="inputDist blueSlider"><br>
+            </div>
           <p> Choose the sample size $n$ and how many samples should be computed, then press "Sample." Check the box to display the true distribution of the sample mean.</p>
           <div class="interactive-wrapper">
               <label for="sample">
-                  $n$ = <span id="sample-value">1</span>
+                  Sample size (n): <span id="sample-value">1</span>
               </label><br>
               <input id="sample" class="inputDist greenSlider" type="range" min="1" max="15" step="1" value="1">
               <br>
               <label for="draws">
-                  Samples = <span id="draws-value">1</span>
+                  Samples: <span id="draws-value">1</span>
               </label><br>
               <input id="draws" class="inputDist greenSlider" type="range" min="1" max="50" step="1" value="1">
 
@@ -452,7 +532,8 @@
                   </label><br>
               </div>
               <br>
-              <btn class="button-1"  id="form_clt">Sample</btn>
+              <button class="button-1"  id="sampleButton">Sample</button>
+              <button class="button-1"  id="resetButton">Reset</button>
             <br>
             <br>
             <br>
