@@ -144,7 +144,7 @@ window.login = () => {
         localStorage.removeItem("redirectAfterLogin");
         window.location.href = redirectURL;
       } else {
-        window.location.href = "home/home/home.html";
+        window.location.href = "home/home.html";
       }
     })
     .catch(error => {
@@ -230,42 +230,4 @@ onAuthStateChanged(auth, async (user) => {
       }
     });
   }
-});
-
-document.addEventListener("DOMContentLoaded", () => {
-
-  // Show/hide toggle
-  if (toggle && close && wrapper) {
-    toggle.addEventListener("click", () => {
-      wrapper.style.display = "block";
-    });
-
-    close.addEventListener("click", () => {
-      wrapper.style.display = "none";
-    });
-  }
-
-
-  // Drag logic
-  let offsetX = 0, offsetY = 0, isDragging = false;
-
-  header.addEventListener("mousedown", (e) => {
-    isDragging = true;
-    offsetX = e.clientX - wrapper.offsetLeft;
-    offsetY = e.clientY - wrapper.offsetTop;
-    document.body.style.userSelect = "none";
-  });
-
-  document.addEventListener("mousemove", (e) => {
-    if (!isDragging) return;
-    wrapper.style.left = `${e.clientX - offsetX}px`;
-    wrapper.style.top = `${e.clientY - offsetY}px`;
-    wrapper.style.bottom = 'auto';
-    wrapper.style.right = 'auto';
-  });
-
-  document.addEventListener("mouseup", () => {
-    isDragging = false;
-    document.body.style.userSelect = "";
-  });
 });
