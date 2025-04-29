@@ -144,7 +144,7 @@ window.login = () => {
         localStorage.removeItem("redirectAfterLogin");
         window.location.href = redirectURL;
       } else {
-        window.location.href = "home.html";
+        window.location.href = "home/home.html";
       }
     })
     .catch(error => {
@@ -169,7 +169,7 @@ window.login = () => {
 };
 
 
-window.logout = (redirectTo = "index.html") => {
+window.logout = (redirectTo = "../index.html") => {
   signOut(auth).then(() => {
     alert('Logged out');
     window.location.href = redirectTo;
@@ -184,9 +184,9 @@ onAuthStateChanged(auth, async (user) => {
   if (typeof window.authChecked === 'undefined') {
     window.authChecked = true; // only run this logic once
 
-    if (!user && currentPage !== "index.html" && currentPage !== "") {
+    if (!user && currentPage !== "../index.html" && currentPage !== "") {
       localStorage.setItem("redirectAfterLogin", window.location.href);
-      window.location.href = "index.html";
+      window.location.href = "../index.html";
     }
 
     if (logoutButton) logoutButton.style.display = user ? 'block' : 'none';
@@ -233,10 +233,6 @@ onAuthStateChanged(auth, async (user) => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  const wrapper = document.getElementById("calc-wrapper");
-  const header = document.getElementById("calc-header");
-  const toggle = document.getElementById("toggle-calc");
-  const close = document.getElementById("close-calc");
 
   // Show/hide toggle
   if (toggle && close && wrapper) {
