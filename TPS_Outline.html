@@ -1219,6 +1219,255 @@ Finally, to calculate probabilities for a <strong>geometric distribution</strong
 </section>
 </section>
 </section>
+<section id="unit-7-inference-for-quantitative-data-means-1" class="level1">
+<h1>Unit 7: Inference for Quantitative Data: Means</h1>
+<section id="introduction-8" class="level3">
+<h3 class="anchored" data-anchor-id="introduction-8">Introduction</h3>
+<p>In Unit 6, you learned the basics of confidence intervals and significance tests, along with the details of estimating and testing claims about population proportions. In Unit 7, we revisit the big ideas–including possible errors that can occurr when performing statistical inference–but focus on estimating and testing claims about population means. There’s one key difference between these two units: inference about proportions involves <em>categorical</em> data; inference about means involves <em>quantitative</em> data. However, one thing remains the same: you will need to apply the skills of selecting statistical methods, using probability and simulation, and statistical argumentation to perform inference successfully.</p>
+</section>
+<section id="section-7a-confidence-intervals-for-a-population-mean-or-mean-difference" class="level3">
+<h3 class="anchored" data-anchor-id="section-7a-confidence-intervals-for-a-population-mean-or-mean-difference">Section 7A: Confidence Intervals for a Population Mean or Mean Difference</h3>
+<ul>
+<li>Confidence intervals for the population mean <span class="math inline">\(\mu\)</span> use the sample mean <span class="math inline">\(\bar{x}\)</span> as the point estimate.<br>
+</li>
+<li>Because the population standard deviation <span class="math inline">\(\sigma\)</span> is usually unknown, we use the sample standard deviation <span class="math inline">\(s_x\)</span> to estimate <span class="math inline">\(\sigma\)</span> when constructing a confidence interval for a population mean. Doing so requires the use of a <strong><span class="math inline">\(t\)</span>-distribution</strong> with <span class="math inline">\(n-1\)</span> <em>degrees of freedom</em> (df) to calculate a <span class="math inline">\(t^\ast\)</span> critical value rather than the standard normal distribution and a <span class="math inline">\(z^\ast\)</span> critical value.</li>
+<li>A <span class="math inline">\(t\)</span>-dstribution is described by a symmetric, single-peaked, bell-shaped density curve centered at <span class="math inline">\(0\)</span>. Any <span class="math inline">\(t\)</span>-distribution is completely specified by its degrees of freedom (df) and has more area in its tails than the standard normal distribution.<br>
+</li>
+<li>When constructing a confidence interval for a population mean <span class="math inline">\(\mu\)</span>, we need to ensure that the observations in the sample can be viewed as independent and that the observations in the sample can be viewed as independent and that the sampling distribution of <span class="math inline">\(\bar{x}\)</span> is approximately normal. The required conditions are:
+<ul>
+<li>Random: The data come from a random sample from the population of interest.
+<ul>
+<li><span class="math inline">\(10\%\)</span>: When sampling without replacement, <span class="math inline">\(n \lt 0.10N\)</span>.<br>
+</li>
+</ul></li>
+<li>Normal/Large Sample: The population distribution is approximately normal or the sample size is large (<span class="math inline">\(n \ge 30\)</span>). If the population has unkown shape and <span class="math inline">\(n \lt 30\)</span>, a graph of the sample data shows no strong skewness or outliers.<br>
+</li>
+</ul></li>
+<li>The <strong>standard error of the sample mean <span class="math inline">\(\bar{x}\)</span></strong> is an estimate of the standard deviation of the sampling distribution of <span class="math inline">\(\bar{x}\)</span>: <span class="math display">\[s_{\bar{x}}=\frac{s_x}{\sqrt{n}}\]</span> This value estimates how much the sample mean <span class="math inline">\(\bar{x}\)</span> typically varies from the population mean <span class="math inline">\(\mu\)</span> in random samples of size <span class="math inline">\(n\)</span>.<br>
+</li>
+<li>When conditions are met, a <span class="math inline">\(C\%\)</span> confidence interval for the population mean <span class="math inline">\(\mu\)</span> is given by <span class="math display">\[\bar{x}\pm t^\ast\frac{s_x}{\sqrt{n}}\]</span> where <span class="math inline">\(t^\ast\)</span> is the critical value for a <span class="math inline">\(t\)</span>-distribution with <span class="math inline">\(\text{df} = n-1\)</span> and <span class="math inline">\(C\%\)</span> of its area between <span class="math inline">\(-t^\ast\)</span> and <span class="math inline">\(t^\ast\)</span>. This is known as a <strong>one-sample t interval for a mean</strong>.<br>
+</li>
+<li>When estimating a population mean, the margin of error will be smaller when the sample size increases and larger when the confidence level increases, assuming that everything else remains the same.<br>
+</li>
+<li><strong>Paired data</strong> result from recording two values of the same quantitative variable for each individual or for each pair of similar individuals.<br>
+</li>
+<li>To analyze paired data, start by computing the difference for each pair. Then make a graph of the differences. Uses the mean difference <span class="math inline">\(\bar{x}_{\text{Diff}}\)</span> and the standard deviation of the differences <span class="math inline">\(s_{\text{Diff}}\)</span> as summary statistics.<br>
+</li>
+<li>Confidence intervals for a population mean difference <span class="math inline">\(\mu_{\text{Diff}}\)</span> use the sample mean difference <span class="math inline">\(\bar{x}_{\text{Diff}}\)</span> as the point estimate.<br>
+</li>
+<li>Befor estimating <span class="math inline">\(\mu_{\text{Diff}}\)</span>, we need to check for independence of the individual differences and confirm that the sampling distribution of <span class="math inline">\(\bar{x}_{\text{Diff}}\)</span> is approximately normal. The required conditions are:
+<ul>
+<li>Random: Paired data come from a random sample from the population of interest or from a randomized experiment.
+<ul>
+<li><span class="math inline">\(10\%\)</span>: When sampling without replacement, <span class="math inline">\(n_{\text{Diff}}\lt 0.10N_{\text{Diff}}\)</span>.</li>
+</ul></li>
+<li>Normal/Large Sample: The population distribution of differences is approximately normal or the sample size is large (<span class="math inline">\(n_{\text{Diff}} \ge 30\)</span>). If the population distribution of differences has unknown shape and the number of differences in the sample is less than <span class="math inline">\(30\)</span>, a graph of the sample differences shows no strong skewness or outliers.<br>
+</li>
+</ul></li>
+<li>When the conditions are met, a <span class="math inline">\(C\%\)</span> confidence interval for the population mean difference <span class="math inline">\(\mu_{\text{Diff}}\)</span> is <span class="math display">\[\bar{x}_{\text{Diff}} \pm t^\ast\frac{s_{\text{Diff}}}{\sqrt{n_{\text{Diff}}}}\]</span> where <span class="math inline">\(t^\ast\)</span> is the critical value for a <span class="math inline">\(t\)</span> distribution with <span class="math inline">\(\text{df} = n_{\text{Diff}}-1\)</span> and <span class="math inline">\(C\%\)</span> of its area between <span class="math inline">\(-t^\ast\)</span> and <span class="math inline">\(t^\ast\)</span>. This is called a <strong>paired <span class="math inline">\(t\)</span> interval for a mean difference</strong>(or a one-sample <span class="math inline">\(t\)</span> interval for a mean difference).<br>
+</li>
+<li>Follow the four-step process–State, Plan, Do, Conclude–whenever you are asked to construct and interpret a confidence interval for a population mean <span class="math inline">\(\mu\)</span> or a population mean difference <span class="math inline">\(\mu_{\text{Diff}}\)</span>.</li>
+</ul>
+</section>
+<section id="section-7b-significance-tests-for-a-population-mean-or-mean-difference" class="level3">
+<h3 class="anchored" data-anchor-id="section-7b-significance-tests-for-a-population-mean-or-mean-difference">Section 7B: Significance Tests for a Population Mean or Mean Difference</h3>
+<ul>
+<li>Tests about a population mean <span class="math inline">\(\mu\)</span> are based on the sample mean <span class="math inline">\(\bar{x}\)</span>.<br>
+</li>
+<li>A significance test about a population mean starts with stating hypotheses. The null hypothesis is <span class="math inline">\(H_0: \mu = \mu_0\)</span> and the alternative hypothesis can be one-sided (<span class="math inline">\(H_a: \mu \lt \mu_0 \text{ or } H_a: \mu \gt \mu_0\)</span>) or two-sided (<span class="math inline">\(H_a: \mu \ne \mu_0\)</span>).<br>
+</li>
+<li>To perform a test of <span class="math inline">\(H_0: \mu = \mu_0\)</span>, we need to ensure that the observations in the sample can be viewed as independent and that the sampling distribution of <span class="math inline">\(\bar{x}\)</span> is approximately normal. The required conditions are:
+<ul>
+<li>Random: The data come from a random sample from the population of interest.
+<ul>
+<li><span class="math inline">\(10\%\)</span>: when sampling without replacement, <span class="math inline">\(n \lt 0.10N\)</span>.<br>
+</li>
+</ul></li>
+<li>Normal/Large Sample: The population distribution is approximately normal or the sample size is large (<span class="math inline">\(n \ge 30\)</span>). If the population has unkown shape and <span class="math inline">\(n \lt 30\)</span>, a graph of the sample data shows no strong skewness or outliers.<br>
+</li>
+</ul></li>
+<li>The standardized test statistic for a <strong>one-sample <span class="math inline">\(t\)</span> test for a mean</strong> is <span class="math display">\[t = \frac{\bar{x}-\mu_0}{\frac{s_x}{\sqrt{n}}}\]</span> When the conditions are met, find the <span class="math inline">\(P\)</span>-value by calculating the probability of getting a <span class="math inline">\(t\)</span> statistic this large or larger in the direction specified by the alternative hypothesis <span class="math inline">\(H_a\)</span> in a <span class="math inline">\(t\)</span> distribution with <span class="math inline">\(\text{df} = n-1\)</span>.<br>
+</li>
+<li>Confidence intervals provide additional information that significance tests do not–namely, a set of plausible values for the parameter <span class="math inline">\(\mu\)</span>. A <span class="math inline">\(95\%\)</span> confidence interval for <span class="math inline">\(\mu\)</span> gives consistent results with a two-sided test of <span class="math inline">\(H_0: \mu_{\text{Diff}}=0\)</span>. Be sure to specify the order of subtraction when defining the parameter.<br>
+</li>
+<li>Significance tasks about a population mean difference <span class="math inline">\(\mu_{\text{Diff}}\)</span> are based on the sample mean difference <span class="math inline">\(\bar{x}_{\text{Diff}}\)</span>.<br>
+</li>
+<li>Before testing a claim about <span class="math inline">\(\mu_{\text{Diff}}\)</span>, we need to check for independence of the differences and that the sampling distribution of <span class="math inline">\(\bar{x}_{\text{Diff}}\)</span> is approximately normal. The required conditions are:
+<ul>
+<li>Random: Paired data come from a random sample from the population of interest or from a randomized experiment.
+<ul>
+<li><span class="math inline">\(10\%\)</span>: when sampling without replacement, <span class="math inline">\(n_{\text{Diff}} \lt 0.10N_{\text{Diff}}\)</span>.<br>
+</li>
+</ul></li>
+<li>Normal/Large Sample: The population distribution is approximately normal or the sample size is large (<span class="math inline">\(n \ge 30\)</span>). If the population has unkown shape and <span class="math inline">\(n \lt 30\)</span>, a graph of the sample data shows no strong skewness or outliers.<br>
+</li>
+</ul></li>
+<li>The standardized test statistic for a <strong>paired <span class="math inline">\(t\)</span> test for a mean difference</strong> (also called a one-sample <span class="math inline">\(t\)</span> test for a mean difference)is <span class="math display">\[t = \frac{\bar{x}_{\text{Diff}}-0}{\frac{s_{\text{Diff}}}{\sqrt{n_{\text{Diff}}}}}\]</span> When the conditions are met, find the <span class="math inline">\(P\)</span>-value using the <span class="math inline">\(t\)</span> distribution with <span class="math inline">\(\text{df} = n_{\text{Diff}}-1\)</span>.<br>
+</li>
+<li>Follow the four-step process–State, Plan, Do, Conclude–whenever you are asked to perform a significance test about a population mean <span class="math inline">\(\mu\)</span> or a population mean difference <span class="math inline">\(\mu_{\text{Diff}}\)</span>.</li>
+</ul>
+</section>
+<section id="section-7c-confidence-intervals-for-a-difference-in-population-means" class="level3">
+<h3 class="anchored" data-anchor-id="section-7c-confidence-intervals-for-a-difference-in-population-means">Section 7C: Confidence Intervals for a Difference in Population Means</h3>
+<ul>
+<li>Confidence intervals for the difference <span class="math inline">\(\mu_1-\mu_2\)</span> between the means of two populations or the true mean responses to two treatments use the difference <span class="math inline">\(\bar{x}_1-\bar{x}_2\)</span> between sample means as the point estimate.<br>
+</li>
+<li>Before constructing a confidence interval for <span class="math inline">\(\mu_1-\mu_2\)</span>, we need to check for independence and confirm that the sampling distribution of <span class="math inline">\(\bar{x}_1-\bar{x}_2\)</span> is approximately normal. The required conditions are:
+<ul>
+<li>Random: The data come from two independent random samples or from two groups in a randomized experiment.
+<ul>
+<li><span class="math inline">\(10\%\)</span>: When sampling without replacement, <span class="math inline">\(n_1 \lt 0.10N_1 \text{ and } n_2 \lt 0.10N_2\)</span>.<br>
+</li>
+</ul></li>
+<li>Normal/Large Sample: For each sample, the data come from an approximately normally distributed population or the sample size is large (<span class="math inline">\(n \ge 30\)</span>). For each sample, if the population distribution has unknown shape and <span class="math inline">\(n \lt 30\)</span>, a graph of the sample data shows no strong skewness or outliers.<br>
+</li>
+</ul></li>
+<li>When the conditions are met, a <span class="math inline">\(C\%\)</span> confidence interval for <span class="math inline">\(\mu_1-\mu_2\)</span> is <span class="math display">\[(bar{x}_1-\bar{x}_2)\pm t^\ast\sqrt{\frac{s^2_1}{n_1}+\frac{s^2_2}{n_2}}\]</span> where <span class="math inline">\(t^\ast\)</span> is the critical value with <span class="math inline">\(C\%\)</span> of its area between <span class="math inline">\(-t^\ast\)</span> and <span class="math inline">\(t^\ast\)</span> for the <span class="math inline">\(t\)</span> distribution with degrees of freedom given by technology. This is called a <strong>two-sample <span class="math inline">\(t\)</span> interval for a difference in means</strong>.</li>
+</ul>
+</section>
+<section id="section-7d-significance-tests-for-a-difference-in-population-means" class="level3">
+<h3 class="anchored" data-anchor-id="section-7d-significance-tests-for-a-difference-in-population-means">Section 7D: Significance Tests for a Difference in Population Means</h3>
+<ul>
+<li>Tests for the difference <span class="math inline">\(\mu_1-\mu_2\)</span> between the means of two populations or treatments are based on the difference <span class="math inline">\(\bar{x}_1-\bar{x}_2\)</span> between the sample means.<br>
+</li>
+<li>Before testing a claim about <span class="math inline">\(\mu_1-\mu_2\)</span>, we need to check for independence in the data collection process and verify that the sampling distribution of <span class="math inline">\(\bar{x}_1-\bar{x}_2\)</span> is approximately normal. The required conditions are:
+<ul>
+<li>Random: The data come from two independent random samples or from two groups in a randomized experiment.
+<ul>
+<li><span class="math inline">\(10\%\)</span>: When sampling without replacement, <span class="math inline">\(n_1 \lt 0.10N_1 \text{ and } n_2 \lt 0.10N_2\)</span>.<br>
+</li>
+</ul></li>
+<li>Normal/Large Sample: For each sample, the data come from an approximately normally distributed population or the sample size is large (<span class="math inline">\(n \ge 30\)</span>). For each sample, if the population distribution has unknown shape and <span class="math inline">\(n \lt 30\)</span>, a graph of the sample data shows no strong skewness or outliers.<br>
+</li>
+</ul></li>
+<li>To test <span class="math inline">\(H_0: \mu_1-\mu_2 = 0\)</span>, use a <strong>two-sample <span class="math inline">\(t\)</span> test for a difference in means</strong>. The standardized test statistic is <span class="math display">\[t=\frac{(\bar{x}_1-\bar{x}_2)-0}{ \sqrt{\frac{s^2_1}{n_1}+\frac{s^2_2}{n_2}}}\]</span> <span class="math inline">\(P\)</span>-values are calculated using the <span class="math inline">\(t\)</span> distribution with degrees of freedom obtained by technology.<br>
+</li>
+<li>Be sure to follow the four-step process whenever you perform a significance test for a difference between two population means.<br>
+</li>
+<li>The proper inference method depends on how the data were produced. For paired data involving one quantitative variable, use paired <span class="math inline">\(t\)</span> procedures to perform inference about <span class="math inline">\(\mu_{\text{Diff}}\)</span>. For quantitative data that come from independent random samples from two populations of interest or from two groups in a randomized experiment, use two-sample <span class="math inline">\(t\)</span> procedures to perform inference about <span class="math inline">\(\mu_1-\mu_2\)</span>.<br>
+</li>
+<li>Very small deviations from the null hypothesis can be highly significant (small <span class="math inline">\(P\)</span>-value) when a test is based on a large sample. A statistically significant result may not be practically important.<br>
+</li>
+<li>Many tests run at once will likely produce some significant results by chance alone, even if all the null hypotheses are true. Beware of <span class="math inline">\(P\)</span>-hacking.</li>
+</ul>
+</section>
+<section id="unit-7-review" class="level3">
+<h3 class="anchored" data-anchor-id="unit-7-review">Unit 7, Review</h3>
+<section id="section-7a-confidence-intervals-for-a-population-mean-or-mean-difference-1" class="level4">
+<h4 class="anchored" data-anchor-id="section-7a-confidence-intervals-for-a-population-mean-or-mean-difference-1">Section 7A: Confidence Intervals for a Population Mean or Mean Difference</h4>
+<p>In this section, you learned how to construct an interpret confidence intervals for a population mean <span class="math inline">\(\mu\)</span>. To verify independence in data collection and that the sampling distribution of <span class="math inline">\(\bar{x}\)</span> is approximately normal, we check three conditions. The Random condition says that the data come from a random sample from the population of interest. the <span class="math inline">\(10\%\)</span> condition says that the sample size must be less than <span class="math inline">\(10\%\)</span> of the population size when sampling without replacement. the Normal/Large Sample condition says that the population is approximately normally distributed or the sample size is at least <span class="math inline">\(30\)</span>. If the population distribution’s shape is unknown and the sample size is less than <span class="math inline">\(30\)</span>, graph the sample data and check for strong skewness or outliers. If there is no strong skewness or outliers, it is reasonable to assume that the population distribution is approximately normal.</p>
+<p>Because the population standard deviation <span class="math inline">\(\sigma\)</span> is usually unknown, we used the sample standard deviation <span class="math inline">\(s_x\)</span> to estimate <span class="math inline">\(\sigma\)</span> when constructing a confidence interval for a population mean <span class="math inline">\(\mu\)</span>. Doing so requires use of a <strong><span class="math inline">\(t\)</span> distribution</strong> with <span class="math inline">\(n-1\)</span> <em>degrees of freedom</em> (df) to calculate a <span class="math inline">\(t^\ast\)</span> critical value rather than the standard normal distribution. A <span class="math inline">\(t\)</span> distribution is described by a symmetric, single-peaked, bell-shaped density curve centered at <span class="math inline">\(0\)</span>. Any <span class="math inline">\(t\)</span> distribution is completely specified by its degrees of freedom (df) and has more area in its tails than the standard normal distribution.</p>
+<p>The formula for calculating a <strong>one-sample t interval for a mean</strong> is <span class="math display">\[\bar{x}\pm t^\ast\frac{s_x}{\sqrt{n}}\]</span> where <span class="math inline">\(\bar{x}\)</span> is the sample mean, <span class="math inline">\(t^\ast\)</span> is the critical value, <span class="math inline">\(s_x\)</span> is the sample standard deviation, and <span class="math inline">\(n\)</span> is the sample size. To find the critical value, use technology or Table B to determine the values of <span class="math inline">\(-t^\ast\)</span> and <span class="math inline">\(t^\ast\)</span> that capture the middle <span class="math inline">\(C\%\)</span> of a <span class="math inline">\(t\)</span> distribution with <span class="math inline">\(\text{df}=n-1\)</span>, where <span class="math inline">\(C\)</span> is the confidence level.</p>
+<p>In this section, you also learned how to analyze <strong>paired data</strong>, which result from measuring the same quantitative variable twice for each individual or once for each of two very similar individuals. Start by finding the difference between the values in each pair. Then make a graph of the differences. Use the mean difference <span class="math inline">\(\bar{x}_{\text{Diff}}\)</span> and the standard deviation of the differences <span class="math inline">\(s_{\text{Diff}}\)</span> as summary statistics.</p>
+<p>Three conditions need to be verified before calculating a confidence interval for a population mean difference <span class="math inline">\(\mu_{\text{Diff}}\)</span>. The Random condition says that paired data must come from a random sample from the population of interest or from a randomized experiment. The <span class="math inline">\(10\%\)</span> condition says that the sample size <span class="math inline">\(n_{\text{Diff}}\)</span> should be less than <span class="math inline">\(10\%\)</span> of the size of the corresponding population of differences <span class="math inline">\(N_{\text{Diff}}\)</span> when sampling without replacement. The Normal/Large Sample condition says that the population distribution of differences is approximately normal or the sample size is large (<span class="math inline">\(n_{\text{Diff}} \ge 30\)</span>). If the number of differences is small and the population distribution’s shape is unknown, graph the difference values to make sure there is no strong skewness or outliers.</p>
+<p>Once you have computed the differences, calculations proceed as in a one-sample <span class="math inline">\(t\)</span> interval for a population mean. Find the critical value <span class="math inline">\(t^\ast\)</span> using a <span class="math inline">\(t\)</span> distribution with <span class="math inline">\(\text{df}=n_{\text{Diff}}-1\)</span>. The formula for the <strong>paired <span class="math inline">\(t\)</span> interval for a mean difference</strong> is <span class="math display">\[\bar{x}_{\text{Diff}} \pm t^\ast\frac{s_{\text{Diff}}}{\sqrt{n_{\text{Diff}}}}\]</span></p>
+<p>Always use the four-step process whenever you are asked to construct and interpret a confidence interval for a population mean <span class="math inline">\(\mu\)</span> or a population mean difference <span class="math inline">\(\mu_{\text{Diff}}\)</span>.</p>
+<p>The logic of confidence intervals, including how to interpret the confidence interval and the confidence level, is the same as in Unit 6. Likewise, you can use a confidence interval for <span class="math inline">\(\mu\)</span> or <span class="math inline">\(\mu_{\text{Diff}}\)</span> to evaluate a claim about the population mean or mean difference. As with other intervals, increasing confidence level leads to a larger margin of error and increasing the sample size leads to a smaller margin of error, assuming other things remain the same.</p>
+</section>
+<section id="section-7b-significance-tests-for-a-population-mean-or-mean-difference-1" class="level4">
+<h4 class="anchored" data-anchor-id="section-7b-significance-tests-for-a-population-mean-or-mean-difference-1">Section 7B: Significance Tests for a Population Mean or Mean Difference</h4>
+<p>In this section, you learned how to perform a significance test about a population mean. As in any test, you start by stating hypotheses. The null hypothesis is <span class="math inline">\(H_0: \mu=\mu_0\)</span>. The alternative hypothesis can be one-sided (<span class="math inline">\(\lt\)</span> or <span class="math inline">\(\gt\)</span>)or two-sided (<span class="math inline">\(\ne\)</span>).</p>
+<p>Next, we check three conditions to verify independence in data collection and confirm that the sampling distribution of <span class="math inline">\(\bar{x}\)</span> is approximately normal. The Random, 10%, and Normal/Large Sample conditions for significant tests about <span class="math inline">\(\mu\)</span> are the same as the ones for confidence intervals for a population mean.</p>
+<p>For a test of <span class="math inline">\(H_0: \mu=\mu_0\)</span> when the population standard deviation <span class="math inline">\(\sigma\)</span> is unknown, the standardized test statistic is <span class="math display">\[t = \frac{\bar{x}-\mu_0}{\frac{s_x}{\sqrt{n}}}\]</span> When the conditions are met, the <span class="math inline">\(P\)</span>-value can be obtained from a <span class="math inline">\(t\)</span> distribution with <span class="math inline">\(\text{df}=n-1\)</span>. Use the <span class="math inline">\(P\)</span>-value to make an appropriate conclusion about the hypotheses, in context. This inference method is called a <strong>one-sample <span class="math inline">\(t\)</span> test for a mean</strong>.</p>
+<p>In this section, you also learned how to perform a significance test about a population mean difference <span class="math inline">\(\mu_{\text{Diff}}\)</span> in the special case paired data. It is very similar to the one sample <span class="math inline">\(t\)</span> test for a population mean except that you use the difference in each pair as the sample data the new hypothesis is usually <span class="math inline">\(H_0: \mu_{\text{Diff}}=0\)</span>. The Random, <span class="math inline">\(10\%\)</span>, and Normal/Large Sample conditions are the same for significance tests about <span class="math inline">\(\mu_{\text{Diff}}\)</span> as confidence intervals about a population mean difference.</p>
+<p>For a test of <span class="math inline">\(H_0: \mu_{\text{Diff}}=0\)</span>, the standardized test statistic is <span class="math display">\[t = \frac{\bar{x}_{\text{Diff}}-0}{\frac{s_{\text{Diff}}}{\sqrt{n_{\text{Diff}}}}}\]</span> When the conditions are met, the <span class="math inline">\(P\)</span>-value can be obtained from a <span class="math inline">\(t\)</span> distribution with <span class="math inline">\(\text{df}=n_{\text{Diff}}-1\)</span>. This inference method is called a <strong>paired <span class="math inline">\(t\)</span> test for a mean difference</strong>.</p>
+<p>Whenever you were asked if there is convincing evidence for a claim about a population mean or mean difference, be sure to follow the four-step process.</p>
+<p>A significance test for a population mean or mean difference uses the same logic as the significance tests for a population proportion from Section 6D. Likewise, the way we interpret <span class="math inline">\(P\)</span>-values and power and the way we describe Type I and Type II errors are very similar to what you learned in Unit 6.</p>
+</section>
+<section id="section-7c-confidence-intervals-for-a-difference-in-population-means-1" class="level4">
+<h4 class="anchored" data-anchor-id="section-7c-confidence-intervals-for-a-difference-in-population-means-1">Section 7C: Confidence Intervals for a Difference in Population Means</h4>
+<p>In this section, you learned how to construct confidence intervals for the difference <span class="math inline">\(\mu_1-\mu_2\)</span> between the means of two populations or treatments. To verify independence and data collection and confirm that the sampling distribution of <span class="math inline">\(\bar{x}_1-\bar{x}_2\)</span> is approximately normal, we check three conditions. The Random condition says that the data must be from two independent random samples or two groups in a randomized experiment. The <span class="math inline">\(10\%\)</span> condition says that each sample size should be less than <span class="math inline">\(10\%\)</span> of the corresponding population size when sampling without replacement. The Normal/Large Sample condition says that for each sample, the data come from an approximately normally distributed population or the sample size is large (<span class="math inline">\(n \ge 30\)</span>). For each sample, if the population distribution has unknown shape and <span class="math inline">\(n \lt 30\)</span>, confirm that graph of the sample data shows no strong skewness or outliers.</p>
+<p>Because we rarely know the two population standard deviations, we use a <span class="math inline">\(t\)</span> distribution with degrees of freedom calculated by technology to determine the critical value <span class="math inline">\(t^\ast\)</span> for a given confidence level <span class="math inline">\(C\)</span>. Be sure to choose the technology’s unpooled option when constructing a confidence interval for a difference between two means. Also, note that the df is usually not a whole number. The formula for the <strong>two-sample <span class="math inline">\(t\)</span> interval for a difference in means</strong> is <span class="math display">\[(\bar{x}_1-\bar{x}_2)\pm t^\ast\sqrt{\frac{s^2_1}{n_1}+\frac{s^2_2}{n_2}}\]</span> The logic of confidence intervals, including how to interpret the confidence interval and the confidence level, is the same as when estimating a single population mean. Likewise, you can use a confidence interval for a difference in means to evaluate claims about the population means. For example, if <span class="math inline">\(0\)</span> is not included in a confidence interval for <span class="math inline">\(\mu_1-\mu_2\)</span>, there is convincing evidence that the population means are different.</p>
+</section>
+<section id="section-7d-significance-tests-for-a-difference-in-population-means-1" class="level4">
+<h4 class="anchored" data-anchor-id="section-7d-significance-tests-for-a-difference-in-population-means-1">Section 7D: Significance Tests for a Difference in Population Means</h4>
+<p>In this section, you learned how to perform significance tests for the difference between the means of two populations or treatments. As in any test, you start by stating hypotheses. The null hypothesis is usually <span class="math inline">\(H_0: \mu_1-\mu_2=0\)</span> (or equivalently, <span class="math inline">\(H_0: \mu_1=\mu_2\)</span>). The alternative hypothesis can be one-sided (<span class="math inline">\(\lt\)</span> or <span class="math inline">\(\gt\)</span>)or two-sided (<span class="math inline">\(\ne\)</span>).</p>
+<p>Next, we need to verify independence and data collection and confirm that the sampling distribution of <span class="math inline">\(\bar{x}_1-\bar{x}_2\)</span> is approximately normal. The Random, <span class="math inline">\(10\%\)</span>, and Normal/Large Sample conditions for significance tests about a difference in means <span class="math inline">\(\mu_1-\mu_2\)</span> are the same as the conditions for confidence intervals about a difference in means.</p>
+<p>For a test of <span class="math inline">\(H_0: \mu_1-\mu_2=0\)</span>, the standardized test statistic is <span class="math display">\[t=\frac{(\bar{x}_1-\bar{x}_2)-0}{ \sqrt{\frac{s^2_1}{n_1}+\frac{s^2_2}{n_2}}}\]</span> When the conditions are met, <span class="math inline">\(P\)</span>-values can be obtained using a <span class="math inline">\(t\)</span> distribution with degrees of freedom calculated by technology. This inference method is called a <strong>two-sample <span class="math inline">\(t\)</span> test for a difference in means</strong>. Be sure to choose the technology’s unpooled option when performing a significance test for a difference between two population means.</p>
+<p>To decide whether a paired <span class="math inline">\(t\)</span> procedure for a population mean difference <span class="math inline">\(\mu_{\text{Diff}}\)</span> or a two-sample <span class="math inline">\(t\)</span> procedure for a difference between two means <span class="math inline">\(\mu_1-\mu_2\)</span> is appropriate in a given setting, consider how the data were produced.</p>
+<p>Remember to use significance tests wisely. Also, remember that statistically significant results aren’t always practically important. Finally, be aware that the probability of making at least one Type I error goes up dramatically when conducting multiple tests.</p>
+</section>
+</section>
+<section id="inference-for-means" class="level3">
+<h3 class="anchored" data-anchor-id="inference-for-means">Inference for Means</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 26%">
+<col style="width: 26%">
+<col style="width: 26%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Parameter</strong></td>
+<td style="text-align: left;"><span class="math inline">\(\mu\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\mu_{\text{Diff}}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\mu_1-\mu_2\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Conditions</strong></td>
+<td style="text-align: left;"><strong>Random</strong>: The data come from a random sample from the population of interest.<br><br> <strong><span class="math inline">\(10\%\)</span></strong>: When sampling without replacement, <span class="math inline">\(n \lt 0.10N\)</span>.<br><br> <strong>Normal/Large Sample</strong>: The population distribution is approximately normal or the sample size is large (<span class="math inline">\(n \ge 30\)</span>). If the population has unkown shape and <span class="math inline">\(n \lt 30\)</span>, a graph of the sample data shows no strong skewness or outliers.</td>
+<td style="text-align: left;"><strong>Random</strong>: Paired data come from a random sample from the population of interest or from a randomized experiment.<br><br><strong><span class="math inline">\(10\%\)</span></strong>: when sampling without replacement, <span class="math inline">\(n_{\text{Diff}} \lt 0.10N_{\text{Diff}}\)</span>.<br><br><strong>Normal/Large Sample</strong>: The population distribution of differences is approximately normal or the sample size is large (<span class="math inline">\(n_{\text{Diff}} \ge 30\)</span>). If the population distribution of differences has unknown shape and <span class="math inline">\(n_{\text{Diff}} \lt 30\)</span>, a graph of the sample differences shows no strong skewness or outliers.</td>
+<td style="text-align: left;"><strong>Random</strong>: The data come from two independent random samples or from two groups in a randomized experiment.<br><br><strong><span class="math inline">\(10\%\)</span></strong>: When sampling without replacement, <span class="math inline">\(n_1 \lt 0.10N_1 \text{ and } n_2 \lt 0.10N_2\)</span>.<br><br><strong>Normal/Large Sample</strong>: For each sample, the data come from an approximately normally distributed population or the sample size is large (<span class="math inline">\(n \ge 30\)</span>). For each sample, if the population distribution has unknown shape and <span class="math inline">\(n \lt 30\)</span>, a graph of the sample data shows no strong skewness or outliers.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Parameter</strong></td>
+<td style="text-align: left;"><span class="math inline">\(\mu\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\mu_{\text{Diff}}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\mu_1-\mu_2\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Name (TI-83/84)</strong></td>
+<td style="text-align: left;">One-sample <span class="math inline">\(t\)</span> interval for a mean<br>(TInterval)</td>
+<td style="text-align: left;">Paired <span class="math inline">\(t\)</span> interval for a mean difference<br>(TInterval)</td>
+<td style="text-align: left;">Two-sample <span class="math inline">\(t\)</span> interval for a difference in means<br>(2-SampTInt)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Formula</strong></td>
+<td style="text-align: left;"><span class="math display">\[\bar{x}\pm t^\ast\frac{s_x}{\sqrt{n}}\]</span> Critical value from <span class="math inline">\(t\)</span> distribution with <span class="math inline">\(\text{df} = n-1\)</span></td>
+<td style="text-align: left;"><span class="math display">\[\bar{x}_{\text{Diff}} \pm t^\ast\frac{s_{\text{Diff}}}{\sqrt{n_{\text{Diff}}}}\]</span> Critical value from <span class="math inline">\(t\)</span> distribution with <span class="math inline">\(\text{df} = n_{\text{Diff}}-1\)</span></td>
+<td style="text-align: left;"><span class="math display">\[(\bar{x}_1-\bar{x}_2)\pm t^\ast\sqrt{\frac{s^2_1}{n_1}+\frac{s^2_2}{n_2}}\]</span> Critical value from <span class="math inline">\(t\)</span> distribution with <span class="math inline">\(\text{df}\)</span> from technology</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Parameter</strong></td>
+<td style="text-align: left;"><span class="math inline">\(\mu\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\mu_{\text{Diff}}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\mu_1-\mu_2\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Name (TI-83/84)</strong></td>
+<td style="text-align: left;">One-sample <span class="math inline">\(t\)</span> test for a mean<br>(T-Test)</td>
+<td style="text-align: left;">Paired <span class="math inline">\(t\)</span> test for a mean difference<br>(T-Test)</td>
+<td style="text-align: left;">Two-sample <span class="math inline">\(t\)</span> test for a difference in means<br>(2-SampTTest)</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Null Hypothesis</strong></td>
+<td style="text-align: left;"><span class="math inline">\(H_0: \mu=\mu_0\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(H_0: \mu_{\text{Diff}}=0\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(H_0: \mu_1-\mu_2=0\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Formula</strong></td>
+<td style="text-align: left;"><span class="math display">\[t = \frac{\bar{x}-\mu_0}{\frac{s_x}{\sqrt{n}}}\]</span> <span class="math inline">\(P\)</span>-value from <span class="math inline">\(t\)</span> distribution with <span class="math inline">\(\text{df} = n-1\)</span></td>
+<td style="text-align: left;"><span class="math display">\[t = \frac{\bar{x}_{\text{Diff}}-0}{\frac{s_{\text{Diff}}}{\sqrt{n_{\text{Diff}}}}}\]</span> <span class="math inline">\(P\)</span>-value from <span class="math inline">\(t\)</span> distribution with <span class="math inline">\(\text{df} = n_{\text{Diff}}-1\)</span></td>
+<td style="text-align: left;"><span class="math display">\[t=\frac{(\bar{x}_1-\bar{x}_2)-0}{ \sqrt{\frac{s^2_1}{n_1}+\frac{s^2_2}{n_2}}}\]</span> <span class="math inline">\(P\)</span>-value from <span class="math inline">\(t\)</span> distribution with <span class="math inline">\(\text{df}\)</span> from technology</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
 
 </main>
 <!-- /main column -->
