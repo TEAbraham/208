@@ -169,7 +169,7 @@ window.login = () => {
 };
 
 
-window.logout = (redirectTo = "../index.html") => {
+window.logout = (redirectTo = "index.html") => {
   signOut(auth).then(() => {
     alert('Logged out');
     window.location.href = redirectTo;
@@ -184,9 +184,9 @@ onAuthStateChanged(auth, async (user) => {
   if (typeof window.authChecked === 'undefined') {
     window.authChecked = true; // only run this logic once
 
-    if (!user && currentPage !== "../index.html" && currentPage !== "") {
+    if (!user && currentPage !== "index.html" && currentPage !== "") {
       localStorage.setItem("redirectAfterLogin", window.location.href);
-      window.location.href = "../index.html";
+      window.location.href = "index.html";
     }
 
     if (logoutButton) logoutButton.style.display = user ? 'block' : 'none';
