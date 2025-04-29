@@ -144,7 +144,7 @@ window.login = () => {
         localStorage.removeItem("redirectAfterLogin");
         window.location.href = redirectURL;
       } else {
-        window.location.href = "home/home.html";
+        window.location.href = "home/home/home.html";
       }
     })
     .catch(error => {
