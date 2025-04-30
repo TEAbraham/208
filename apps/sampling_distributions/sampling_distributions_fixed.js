@@ -396,8 +396,9 @@ function discrete_continuous() {
     $("#descriptionTable").css("display", "table");
     $("#resetDist").css("display", "inline-block");
     centerOnDistribution(currentDist); 
-
+    redrawPath(currentDist); // ✅ Ensure graph updates
   });
+  
   
 
 
@@ -496,9 +497,9 @@ function clt() {
   svg_clt.call(draw_bar, height/2, "samples");
   svg_clt.call(draw_bar, height, "sampling distribution");
 
-  sampling_path = svg_clt.append("path").attr("id", "pdf");
-  sampling_area = svg_clt.append("path").attr("id", "pdfArea");
-  theoretical_path = svg_clt.append("path").attr("id", "cdf").attr("opacity", 0);
+  sampling_path = svg_clt.append("path").attr("id", "pdf-clt");
+  sampling_area = svg_clt.append("path").attr("id", "pdfArea-clt");
+  theoretical_path = svg_clt.append("path").attr("id", "cdf-clt").attr("opacity", 0);
 
   function draw_population() {
     var line = d3.line()
