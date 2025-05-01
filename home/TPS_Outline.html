@@ -8,7 +8,7 @@
 
 <meta name="author" content="Mr.&nbsp;Abraham">
 
-<title>AP Statistics</title>
+<title>AP Statistics Outline</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -75,7 +75,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">AP Statistics</h1>
+<h1 class="title">AP Statistics Outline</h1>
 </div>
 
 
@@ -1463,6 +1463,176 @@ Finally, to calculate probabilities for a <strong>geometric distribution</strong
 <td style="text-align: left;"><span class="math display">\[t = \frac{\bar{x}-\mu_0}{\frac{s_x}{\sqrt{n}}}\]</span> <span class="math inline">\(P\)</span>-value from <span class="math inline">\(t\)</span> distribution with <span class="math inline">\(\text{df} = n-1\)</span></td>
 <td style="text-align: left;"><span class="math display">\[t = \frac{\bar{x}_{\text{Diff}}-0}{\frac{s_{\text{Diff}}}{\sqrt{n_{\text{Diff}}}}}\]</span> <span class="math inline">\(P\)</span>-value from <span class="math inline">\(t\)</span> distribution with <span class="math inline">\(\text{df} = n_{\text{Diff}}-1\)</span></td>
 <td style="text-align: left;"><span class="math display">\[t=\frac{(\bar{x}_1-\bar{x}_2)-0}{ \sqrt{\frac{s^2_1}{n_1}+\frac{s^2_2}{n_2}}}\]</span> <span class="math inline">\(P\)</span>-value from <span class="math inline">\(t\)</span> distribution with <span class="math inline">\(\text{df}\)</span> from technology</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="unit-8-inference-for-categorical-data-chi-square-1" class="level1">
+<h1>Unit 8: Inference for Categorical Data: Chi-Square</h1>
+<section id="introduction-9" class="level3">
+<h3 class="anchored" data-anchor-id="introduction-9">Introduction</h3>
+<p>In Section 6C,you learned how to perform tests for the proportion of successes in a single population. These tests were based on a single categorical variable with values that were divided into two-categories: success and failure. Sometimes we want to perform a test for the distribution of a categorical variable with two <em>or more</em> categories. The <em>chi-square test for goodness of fit</em> allows us to determine whether a hypothesized distribution seems valid. This test is useful in fields such as genetics, where the laws of probability give the expected proportion of outcomes in each category.</p>
+<p>In Section 2A, you learned how to analyze the relationship between two categorical variables. For instance, we used two-way tables and segmented bar graphs to show there was an association between environmental club membership and snowmobile use for a random sample of winter visitors to Yellowstone National Park. Do these data provide convincing evidence of an association between these two variables in the population of winter visitors to Yellowstone? We can answer this question with a <em>chi-square test for independence</em>.</p>
+<p>Tests for independence use data that can be summarized in a two-way table. It is also possible to use the information in a two-way table to compare the distribution of a categorical variable for two or <em>more</em> populations or treatments, where the variable can have two <em>or more</em> categories. We can decide whether the distribution of a categorical variable differs for two or more populations or treatments using a <em>chi-square test for homogeneity</em>. This test will help us answer questions like “Does background music influence customer purchases?”</p>
+</section>
+<section id="section-8a-chi-square-tests-for-goodness-of-fit" class="level3">
+<h3 class="anchored" data-anchor-id="section-8a-chi-square-tests-for-goodness-of-fit">Section 8A: Chi-Square Tests for Goodness of Fit</h3>
+<ul>
+<li>The <strong>chi-square test for goodness of fit</strong> tests the null hypothesis that a categorical variable has a specified distribution in the population of interest. The alternative hypothesis is that the variable does not have the specified distribution in the population of interest.<br>
+</li>
+<li>This test compares the <strong>observed count</strong> in each category with the counts that would be expected if <span class="math inline">\(H_0\)</span> were true. The <strong>expected count</strong> for any category is found by multiplying the sample size by the proportion specified by the null hypothesis for that category.<br>
+</li>
+<li>To ensure that the observations in the sample can be viewed as independent and that the sampling distribution of <span class="math inline">\(\chi^2\)</span> test statistic can be modeled by a chi-square distribution, the following conditions must be met:
+<ul>
+<li>Random: The data come from a random sample from the population of interest.
+<ul>
+<li><span class="math inline">\(10\%\)</span>: When sampling without replacement, <span class="math inline">\(n \lt 0.10N\)</span>.<br>
+</li>
+</ul></li>
+<li>Large Counts: All expected counts are at least 5.<br>
+</li>
+</ul></li>
+<li>The <strong>chi-square test statistic <span class="math inline">\(\chi^2\)</span></strong> is <span class="math display">\[\chi^2=\sum{\frac{(\text{Observed - Expected})^2}{\text{Expected}}}\]</span> where Observed is the observed count, Expected is the expected count, and the sum is over all possible categories.<br>
+</li>
+<li>Large values of <span class="math inline">\(\chi^2\)</span> are evidence against <span class="math inline">\(H_0\)</span> and in favor of <span class="math inline">\(H_a\)</span>. The <span class="math inline">\(P\)</span>-value is the area to the right of <span class="math inline">\(\chi^2\)</span> under the chi-square density curve with degrees of freedom .</li>
+<li>If the test finds a s<span class="math inline">\(\text{df = number of categories - 1}\)</span>tatistically significant result, consider doing a <em>follow-up analysis</em> that identifies the largest contributions to the chi-square test statistic and compares the observed and expected counts in the identified categories.</li>
+</ul>
+</section>
+<section id="section-8b-chi-square-tests-for-independence-or-homogeneity" class="level3">
+<h3 class="anchored" data-anchor-id="section-8b-chi-square-tests-for-independence-or-homogeneity">Section 8B: Chi-Square Tests for Independence or Homogeneity</h3>
+<ul>
+<li>We use the <strong>chi-square test for independence</strong> to test for an association between two-categorical variables in a population of interest.<br>
+</li>
+<li>The hypotheses for a test of independence are
+<ul>
+<li><span class="math inline">\(H_0\)</span>: There is no association between two categorical variables in the population of interest.<br>
+</li>
+<li><span class="math inline">\(H_a\)</span>: There is an association between two categorical variables in the population of interest.<br>
+</li>
+</ul></li>
+<li>When performing a chi-square test for independence, we need to check that the observations in the sample can be viewed as independent and that the sampling distribution of the <span class="math inline">\(\chi^2\)</span> test statistic can be modeled by a chi-sqaure distribution. The required conditions are
+<ul>
+<li>Random: The data come from a random sample from the population of interest.
+<ul>
+<li><span class="math inline">\(10\%\)</span>: When sampling without replacement, <span class="math inline">\(n &lt; 0.10N\)</span>.<br>
+</li>
+</ul></li>
+<li>Large Counts: All expected counts must be at least 5.<br>
+</li>
+</ul></li>
+<li>The <strong>expected count</strong> in any cell of a two-way table when <span class="math inline">\(H_0\)</span> is true is <span class="math display">\[\text{expected count} = \frac{\text{(row total)}\text{(column total)}}{\text{table total}}\]</span><br>
+</li>
+<li>The chi-square test statistic is <span class="math display">\[\chi^2=\sum{\frac{(\text{Observed - Expected})^2}{\text{Expected}}}\]</span> where the sum is over all cells in the two-way table (not including the totals).<br>
+</li>
+<li>Calculate the <span class="math inline">\(P\)</span>-value by finding the area to the right of <span class="math inline">\(\chi^2\)</span> in a chi-square distribution with <span class="math inline">\(\text{df = (number of rows - 1)(number of columns - 1)}\)</span>.<br>
+</li>
+<li>We use the <strong>chi-square test for homogeneity</strong> to compare the distribution of a single categorical variable for each of several populations or treatments.<br>
+</li>
+<li>The hypotheses for a test for homogeneity are
+<ul>
+<li><span class="math inline">\(H_0\)</span>: There is no difference in the distributions of a categorical variable in the populations of interest or for the treatments in an experiment.<br>
+</li>
+<li><span class="math inline">\(H_a\)</span>: There is a difference in the distributions of a categorical variable in the populations of interest or for the treatments in an experiment.<br>
+</li>
+</ul></li>
+<li>When performing a chi-square test for homogeneity, we need to check for independence and verify that the sampling distribution of the <span class="math inline">\(\chi^2\)</span> test statistic can be modeled by a chi-square distribution. The required conditions are
+<ul>
+<li>Random: The data come from independent random samples or groups in a randomized experiment.
+<ul>
+<li><span class="math inline">\(10\%\)</span>: When sampling without replacement, <span class="math inline">\(n &lt; 0.10N\)</span> for each sample.<br>
+</li>
+</ul></li>
+<li>Large Counts: All expected counts must be at least 5.<br>
+</li>
+</ul></li>
+<li>If a test for independence or a test for homogeneity finds a statistically significant result, consider doing a <em>follow up analysis</em> that looks for the largest components of the chi-square test statistic and compares the observed and expected counts in the corresponding cells.</li>
+</ul>
+</section>
+<section id="unit-8-review" class="level3">
+<h3 class="anchored" data-anchor-id="unit-8-review">Unit 8 Review</h3>
+<section id="section-8a-chi-square-tests-for-goodness-of-fit-1" class="level4">
+<h4 class="anchored" data-anchor-id="section-8a-chi-square-tests-for-goodness-of-fit-1">Section 8A: Chi-Square Tests for Goodness of Fit</h4>
+<p>In this section, you learned how to perform a <strong>chi-square test for goodness of fit</strong>. The null hypothesis is that a single categorical variable follows a specified distribution in a population of interest. The alternative hypothesis is that the variable does not follow the specified distribution in the population of interest.</p>
+<p>The <strong>chi-square test statistic <span class="math inline">\(\chi^2\)</span></strong> measures the difference between the observed distribution of a categorical variable and its hypothesized distribution. To calculate the chi-square test statistic, use the following formula with observed and expected counts: <span class="math display">\[\chi^2=\sum{\frac{(\text{Observed - Expected})^2}{\text{Expected}}}\]</span> To calculate the expected counts, multiply the sample size by the proportion specified by the null hypothesis for each category. Larger values of the chi-square test statistic provide more convincing evidence that the distribution of the categorical variable differs from the hypothesized distribution in the population of interest.</p>
+<p>To ensure that the observations in the sample can be viewed as independent and that the sampling distribution of the chi-square test statistic can be modeled by a chi-square distribution, we check three conditions. The Random condition says that the data are from a random sample from the population of interest. The <span class="math inline">\(10\%\)</span> condition says that the sample size should be less than <span class="math inline">\(10\%\)</span> of the population size when sampling without replacement. The Large Counts condition says that the <em>expected</em> counts for each category must be at least five. In a test for goodness to fit, use a chi-square distribution with degrees of freedom = number of categories <span class="math inline">\(- 1\)</span>.</p>
+<p>When the results of a test for goodness to fit are significant, consider doing a <em>follow up analysis</em>. Identify which categories of the variable made the largest contributions to the chi-square test statistic and whether the observed values in those categories were larger or smaller than expected.</p>
+<p>A sky square test for goodness of it uses the same logic as the previously introduced significant tests. Likewise, the way we interpret <span class="math inline">\(P\)</span>-values and power and the way we describe Type I and Type II errors is very similar to what you learned earlier.</p>
+</section>
+<section id="section-8b-chi-square-tests-for-independence-or-homogeneity-1" class="level4">
+<h4 class="anchored" data-anchor-id="section-8b-chi-square-tests-for-independence-or-homogeneity-1">Section 8B: Chi-Square Tests for Independence or Homogeneity</h4>
+<p>In this section, you learn two different tests to analyze categorical data that are summarized in a two-way table. A <strong>chi-square test for independence</strong> looks for an association between two categorical variables in a single population. A <strong>chi-square test for homogeneity</strong> compares the distribution of a single categorical variable for two or more populations or treatments.</p>
+<p>In a chi-square test for independence, the null hypothesis is that there is no association between two categorical variables in one population (or that the two variables are independent in the population). The alternative hypothesis is that there is an association between the two variables (or that the two variables are not independent).</p>
+<p>As with other significance tests, we need to verify that the observations in the sample can be viewed as independent and that the sampling distribution of the chi-square test statistic can be modeled by a chi-square distribution. The conditions for a chi-square test for independence are exactly the same as the conditions for a chi-square test for goodness of fit. However, there is a new method for calculating the expected counts: <span class="math display">\[\text{expected count} = \frac{\text{(row total)}\text{(column total)}}{\text{table total}}\]</span> To calculate the P value, compute the chi-square test statistic and use a high square distribution with degrees of freedom = (number of rows - 1)(number of columns - 1).</p>
+<p>In a chi-square test for homogeneity, the null hypothesis is that there is no difference in the distribution of a categorical variable for two or more populations or treatments.the alternative hypothesis is that there is a difference in the distributions.</p>
+<p>The conditions are slightly different, but the purpose for checking them is still the same: to ensure independence in the data collection process and verify that the sampling distribution of the chi-square test statistic can be modeled by a chi-square distribution. The Random Condition is that the data come from independent random samples from groups in a randomized experiment. The <span class="math inline">\(10\%\)</span> condition applies for each sample when sampling without replacement, but not for experiments when there is no sampling without replacement from a population. Finally the large counts condition remains the same – the expected counts must be at least five in each cell of the two-way table. The methods for calculating expected counts, the chi-square test statistic, the degrees of freedom, and the <span class="math inline">\(P\)</span>-value are exactly the same in a test for homogeneity as in the test for independence.</p>
+<p>As with tests for goodness to fit, when the results of a test for homogeneity or a test for independence are significant, consider doing a follow up analysis. Identify which cells in the two-way table made the largest contributions to the chi-square test statistic and whether the observed counts in those cells were larger or smaller than expected.</p>
+<p>The chi-square tests for independence and homogeneity use the same logic at the previously discussed significance tests. Likewise, the way we interpret <span class="math inline">\(P\)</span>-values and power and the way we describe Type I and Type II errors is very similar to what you learned in previous units.</p>
+</section>
+</section>
+<section id="comparing-the-three-chi-square-tests" class="level3">
+<h3 class="anchored" data-anchor-id="comparing-the-three-chi-square-tests">Comparing the Three Chi-Square Tests</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 26%">
+<col style="width: 26%">
+<col style="width: 26%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Number of samples/treatments</strong></td>
+<td style="text-align: left;"><span class="math inline">\(1\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(1\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(2\)</span> or more</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Null Hypothesis</strong></td>
+<td style="text-align: left;">The stated distribution of a categorical variable in the population of interest is correct.</td>
+<td style="text-align: left;">There is no association between two categorical variables in the population of interest.</td>
+<td style="text-align: left;">There is no difference in the distribution of a categorical variable for several populations or treatments.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Random condition</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">The data come from a random sample from the population of interest.</td>
+<td style="text-align: left;">The data come from independent random samples or groups in a randomized experiment.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong><span class="math inline">\(10\%\)</span> condition</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">When sampling without replacement, <span class="math inline">\(n &lt; 0.10N\)</span> for each sample.</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Large Counts condition</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">All expected counts <span class="math inline">\(\ge 5\)</span>.</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Expected Counts</strong></td>
+<td style="text-align: left;"><span class="math inline">\(np_i\)</span><br><br>where <span class="math inline">\(p_i\)</span> is the proportion specified by the null hypothesis for a particular category</td>
+<td style="text-align: left;"><span class="math display">\[\frac{\text{(row total)}\text{(column total)}}{\text{table total}}\]</span></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Formula for test statistic</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><span class="math display">\[\chi^2=\sum{\frac{(\text{Observed - Expected})^2}{\text{Expected}}}\]</span></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Degrees of freedom</strong></td>
+<td style="text-align: left;"># categories - 1</td>
+<td style="text-align: left;">(# rows - 1)(# columns - 1)</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Name (TI-83/84)</strong></td>
+<td style="text-align: left;"><span class="math inline">\(\chi^2\)</span>GOF-test</td>
+<td style="text-align: left;"><span class="math inline">\(\chi^2\)</span>-test</td>
+<td style="text-align: left;"></td>
 </tr>
 </tbody>
 </table>
