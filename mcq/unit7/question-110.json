@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since the $p$-value of $0.034$ is greater than $0.01$ significance level, we would be failing to reject the null hypothesis. This indicates there is insufficient evidence of a difference between the average number of cups of coffee an adult drinks compared to a teenager at the $0.01$ significance level.\n\nSince the $p$-value of $0.034$ is less than the $0.05$ and $0.10$ significance level, we would reject the null hypothesis. This indicates there is sufficient evidence of a difference between the average number of cups of coffee an adult drinks compared to a teenager at the $0.05$ and $0.10$ significance level.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as there is insufficient evidence at the $0.01$ significance level and sufficient evidence at the $0.05$ and $0.10$ significance levels.\n\nChoice 'B' is incorrect as there is insufficient evidence at the $0.01$ significance level and sufficient evidence at the $0.10$ significance level.\n\nChoice 'C' is incorrect as there is insufficient evidence at the $0.01$ significance level.\n\nChoice 'E' is incorrect as there is sufficient evidence at the $0.05$ significance level.",
   "tags": [
     "UNC-4.AA.1",
     "UNC-4.AA",

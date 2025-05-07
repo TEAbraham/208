@@ -8,7 +8,7 @@
   ],
   "title": "Parts of the Confidence Interval",
   "difficulty": "Hard",
-  "question_text": "A sociologist named Dana wanted to know how many girls at age $15$ were interested in pursuing a career in the sciences. Dana’s first step in her study was to randomly choose $3{,}000$ girls across the country and ask them if they were interested in a career in the sciences. $996$ girls replied that they did intend to pursue such a career. Dana created a confidence interval based on her collected data.\nGiven that the upper limit of the confidence interval is $0.352$, find both the margin of error and the confidence level.",
+  "question_text": "A sociologist named Dana wanted to know how many girls at age $15$ were interested in pursuing a career in the sciences. Dana’s first step in her study was to randomly choose $3{,}000$ girls across the country and ask them if they were interested in a career in the sciences. $996$ girls replied that they did intend to pursue such a career. Dana created a confidence interval based on her collected data.\nGiven that the upper limit of the confidence interval is $0.352$, find both the margin of error and the confidence level.<br>Given that the upper limit of the confidence interval is $0.352$, find both the margin of error and the confidence level.",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We will use the formula for a confidence interval:\n\n$$\\hat{p} \\pm z^{*}\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n} }$$\n\n...where $\\hat{p}$ is the sample proportion, n is the sample size, and $z^*$ is the critical value.\n\nPlugging in the values where $\\hat{p} = \\frac{996}{3000}=0.332$ and $n = 3000$ we get:\n\n0.332±z∗\n√\n0.332(1−0.332)\n3000\n\nNow, if we set this equal to the given upper value, 0.352, and use the plus part of the plus or minus sign, we get:\n\n0.352=0.332+z∗\n√\n0.332(1−0.332)\n3000\n\nTo answer the first question, simply subtract 0.332 from each side. This leaves the margin of error formula on the right side of the equation and its value on the left. Thus, the margin of error is:\n\n=0.352−0.332=0.02\n\nTo answer the second question, we calculate the value of what is inside the square root sign which is equal to 0.008598. Remember not to round numbers much when in the middle of a calculation!\n\nDivide 0.02\nby 0.008598\nto obtain the value for z∗=2.326\n. Finally, check Table B in your formula packet to see that this z∗\nvalue is associated with a confidence level of 98%\n.\n\nSo, Choice 'C' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as the confidence level was calculated incorrectly by omitting\nˆ\np\nand doubling the answer to get 80%\n.\n\nChoice 'B' is incorrect as the confidence level was assumed incorrectly to be the one seen most often at 95%\n.\n\nChoice 'D' is incorrect as the margin of error was assumed incorrectly to be the one seen most often at 0.03\n.\n\nChoice 'E' is incorrect as both parts of the solution are wrong due to incorrect assumptions.",
   "tags": [
     "UNC-4.D",
     "3.D",

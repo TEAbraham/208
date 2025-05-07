@@ -39,8 +39,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since the alternative includes $<$ we want to find the probability that $z < -0.83$.\n\nBelow is a picture of the data:\n\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\nMethod 1: Solving by Using the Standard Normal Distribution Chart\n\nLooking at the z-score table find the probability that $z<-0.83$. This gives a probability of $0.2033$.\n\nMethod 2: Using the TI Graphing Calculator\n\nUsing the normalcdf function(located by hitting 2nd Vars).\n$normalcdf(-99999,-0.83,0,1)=0.2033$\n\nBelow is the calculator input on the TI-84. Since we are dealing with z-scores the mean is $0$ and standard deviation is $1$. We want our lower value to be a very small number so that is why it is $-99999$.\n\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\nExplanation of Distractors Choice 'B' is incorrect as that is the probability of $z<-0.38$. Choice 'C' is incorrect as that is the probability of $z\\neq -0.83$. Choice 'D' is incorrect as that is the probability of $z\\neq -0.38$. Choice 'E' is incorrect as that is the probability of $z>-0.83$.",
   "tags": [
     "DAT-3.B.4",
     "4.E",

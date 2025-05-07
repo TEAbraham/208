@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "There are a total of $63$ games in the tournament each of which has $2$ possible winners. Since Jordan is assuming that in any given game both teams have an equal chance at winning, the outcome of each game should be independent. That is, the winner of one game will tell you nothing about which team will win any other game and the probability of correctly guessing the winner of a game at random is $\\frac { 1 }{ 2 } $.\n\nThe multiplication rule for probability of independent events tells us:\n\n$$p\\left( A\\cap B \\right) =p(A)\\bullet p(B)$$\n\nThis rule can be extended to involve more than two outcomes and therefore the probability of correctly selecting the winner of $63$ games at random is: ${ \\left( \\frac { 1 }{ 2 } \\right) }^{ 63 } $\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Since there are $64$ teams in the tournament, this answer may represent the probability of correctly selecting the winner of the entire tournament by randomly selecting one team.\n\nChoice 'B' is incorrect. This value reverses the individual game probability and the exponent that would be used to calculate the correct answer.\n\nChoice 'D' would have been correct if the tournament consisted of $64$ games. However, the tournament consists of $64$ teams but only $63$ games.\n\nChoice 'E' is incorrect. There are $64$ teams that compete in the tournament. However, $64$ is not a valid value when discussing probability.",
   "tags": [
     "VAR-4.E.1",
     "VAR-4.E",

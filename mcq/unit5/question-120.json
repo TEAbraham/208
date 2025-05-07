@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice ‘A’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe sampling distribution of $\\bar{x}_c-\\bar{x}_w$ has mean $\\mu_{\\bar{x}_c-\\bar{x}_w}=\\mu_c-\\mu_w=20-25=5$. The standard deviation is:\n\n$$\\sigma_{\\bar{x}_c-\\bar{x}_w}=\\sqrt{\\frac{\\sigma^2_c}{n_c}+\\frac{\\sigma^2_w}{n_w}}=\\sqrt{\\frac{2^2}{30}+\\frac{3^2}{45}}\\approx0.577$$\n\nExplanation of Distractors\n\nChoice ‘B’ is incorrect.\n\nThe difference in the sample mean amount of nuggets consumed is computed correctly, however the variance is given in place of the standard deviation.\n\nChoice ‘C’ is incorrect.\n\nThe difference in sample mean amount of nuggets consumed can be found by subtracting $\\mu_w$ from $\\mu_c$. The error is made by computing the average of sample means instead of the difference. Further error is made by computing the population variance without attention to sample size.\n\nChoice ‘D’ is incorrect.\n\nThe difference in the sample mean amount of nuggets consumed is computed correctly, however the pooled variance is given in place of the standard deviation of the sampling distribution of difference in mean nugget consumption.\n\nChoice ‘E’ is incorrect.\n\nThe difference in the sample mean amount of nuggets consumed is computed correctly, however the pooled standard deviation is given. Pooling is used in hypothesis testing when we are assuming that two populations are the same. In this instance, we know that the populations are not the same, and we are making generalizations about the sampling distributions thereof.",
   "tags": [
     "UNC-3.T",
     "UNC-3.T.1",

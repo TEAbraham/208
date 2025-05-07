@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Statement I is false. A stemplot is very much like a histogram with a bin width of 10. It would be slightly easier to spot an outlier in a stemplot because the actual data values can be read.\n\nStatement II is true. One way to decide if a suspected point is an outlier is to see how much the mean changes when the outlier is removed from the set. If the mean changes significantly, then the point is probably an outlier.\n\nStatement III is false. This sounds a lot like manipulating the data. Changing the bin width to an unusually large size would mean that there would only be a few bars in the histogram. Any shape (skewed or nearly normal) that was previously present in the distribution would be very difficult to see.\n\nSince Statement II is true, the correct answer is Choice 'B'.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.1",

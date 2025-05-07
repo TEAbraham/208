@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Created for Albert.io. Copyright 2017. All rights reserved.\n\n\n\nThe $20^\\text{th}$ percentile means that $20\\%$ of the curve will be to the left of Ted’s height, and $80\\%$ will be to the right.\n\nUse the table of standard normal probabilities or the “inverse normal” function on a calculator corresponding to an area (not a $z$-value) of $0.2000$, and the corresponding $z$-value will be $-0.84$.\n\nNow use the conversion formula:\n\n$$z =\\dfrac{ (X - \\mu )}{ \\sigma }$$\n\n$$-0.84 = \\dfrac{(X-68)}{2.5}$$\n\nSolving for Ted’s height $X$ yields the following:\n\n$$(-0.84)(2.5) = X-68$$\n\n$$-2.1 = X-68$$\n\n$$X = 66.1$$\n\nSo then $66.1$ rounds to $66$. Choice 'D' is correct.",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

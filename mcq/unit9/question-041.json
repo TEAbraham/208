@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThere are many conditions to verify before doing a $t$-test for the slope of a regression model.\n\nThe one in the correct answer will be discussed here, and the remainder of them will be mentioned in the explanation of distractors section (rather than repeat them twice).\n\nOne condition that does not show up in the answers is the familiar idea that data should be collected in a random fashion. The answer states that the standard deviation of the $y$ values does not vary with $x$. Residuals should be checked to ensure that there are approximately equal standard deviations for all values of $x$. This can be done through an analysis of residuals which should be randomly scattered about the horizontal zero line in a residual plot.\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because if the sample size is less than $30$, then the distribution should be checked for strong skewness and outliers, not linearity.\n\nChoice 'B' is incorrect because the size of the population should be checked to make sure it is more, not less, than $10$ times larger than the sample.\n\nChoice 'D' is incorrect because a check for linearity should include an analysis of residuals, not finding the slope value.\n\nChoice 'E' is incorrect because if the observed distribution is strongly skewed, then the sample size should be more, not less, than $30$.",
   "tags": [
     "4.C",
     "VAR-7.L.1",

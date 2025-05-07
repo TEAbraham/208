@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice ‘A’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The dean is trying to see what part out of the whole population of his students at his university experience heart palpitations after drinking an energy drink, indicating we are looking for a proportion. Also, the word proportion is stated in the question.\n\nThe reason we would use a z-test is because the null hypothesis specifies a value for the population proportion, called ${ p }_{ 0 }$.\n\nWe assume that this value is correct when performing our calculations. This indicates we know the standard deviation of the population, thus making this a z-test. The standard deviation for a one proportion z-test is ${ \\sigma }_{ \\hat { p } }=\\sqrt { \\frac { { (p }_{ 0 })(1-{ p }_{ 0 }) }{ n } } $.\n\nThe prompt also states that a large random sample is used, indicating a one-sample test.\n\nTherefore our answer is Choice 'A'.\n\nExplanation of Distractors\n\nChoice ‘B’ is incorrect as this is a one-sample test and not a two-sample test. We are not looking to compare the difference between two samples.\n\nChoice ‘C’ is incorrect. A chi-square test for homogeneity would indicate that we have one categorical variable for two or more different populations. While it is true we have one categorical variable (the experience of heart palpitations), it is only for one population (students at the university).\n\nChoice ‘D’ is incorrect as the dean is not averaging data, but rather looking at what part out of the whole population of his students at his university experience heart palpitations after drinking an energy drink.\n\nChoice ‘E’ is incorrect as the dean is not averaging data, but rather looking at what part out of the whole population of his students at his university experience heart palpitations after drinking an energy drink.",
   "tags": [
     "4.E",
     "DAT-3.B.1",

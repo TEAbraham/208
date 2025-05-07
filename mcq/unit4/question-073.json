@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "By definition, two events are independent if and only if $\\text{P(A)}\\cdot \\text{P(B)}$ is equal to $\\text{P(A and B)}$; this is the only selection that correctly uses this formula to show that the events are not independent.\n\nWe can find the probability of each A and B:\n\nP(A)=P(event A and not B)+P(events A and B)\n=0.12+0.18=0.3\n\nP(B)=P(event B and not A)+P(events A and B)\n=0.22+0.18=0.4\n\nThen we can find P(A)⋅P(B) and compare with P(A and B):\n\nP(A)⋅P(B)=0.3⋅0.4=0.12\nP(A and B)=0.18\n\nSince 0.12\nis not equal to 0.18\n, events A and B are not independent.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; If the events are mutually exclusive, then the probabilities of both events A and B happening at the same time is equal to 0\n. However, mutually exclusive events are never independent.\n\nChoice 'B' is incorrect; It is not true that events A and B must be independent if at least one of them must occur. Additionally, in this situation it is not even true that either event A or B must occur.\n\nChoice 'C' is incorrect. This selection implies for events to be independent at least one of them must occur, which is not a stipulation for independence.\n\nChoice 'E' is incorrect. This selection attempts to use the multiplication formula to prove independence, but incorrectly uses the probability of events A AND Not B, instead of only event A.",
   "tags": [
     "VAR-4.E.1",
     "VAR-4.E",

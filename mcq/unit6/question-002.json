@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "Since we are dealing with a sample proportion, $\\hat{p}$, we can use the Large Counts Condition to tell us the shape. The only shape we would be able to prove is approximately normal.\n\nThe sampling distribution of any $\\hat{p}$ is approximately normal if:\n\n$np \\geq 10$\n\nand\n\n$n(1 - p) \\geq 10$\n\nSince our $n=100$ and $p = 0.91$, the inequality $n(1-p)$ does not equal at least $10$ as $100(0.09)$ only equals $9$. Therefore, the shape of the sampling distribution is unknown.\n\nChoice 'E\" is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nSince we are dealing with a sample proportion, $\\hat{p}$, we can use the Large Counts Condition to tell us the shape. The only shape we would be able to prove is approximately normal.\n\nThe sampling distribution of any $\\hat{p}$ is approximately normal if:\n\n$np \\geq 10$\n\nand\n\n$n(1 - p) \\geq 10$\n\nSince our $n=100$ and $p = 0.91$, the inequality $n(1-p)$ does not equal at least $10$ as $100(0.09)$ only equals $9$. Therefore, the shape of the sampling distribution is unknown.\n\nChoice 'E\" is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. As noted above, the only shape we can prove for the sampling distribution of $\\hat{p}$ is approximately normal by justifying the Large Counts Condition.\n\nChoice 'B' is incorrect. As noted above, the only shape we can prove for the sampling distribution of $\\hat{p}$ is approximately normal by justifying the Large Counts Condition.\n\nChoice 'C' is incorrect. Since the Large Counts Condition is not met, we do not know the shape of the sampling distribution for $\\hat{p}$\n\nChoice 'D' is incorrect. As noted above, the only shape we can prove for the sampling distribution of $\\hat{p}$ is approximately normal by justifying the Large Counts Condition.",
   "tags": [
     "VAR-1.H",
     "VAR-1.H.1",

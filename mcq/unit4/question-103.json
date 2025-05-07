@@ -23,7 +23,7 @@
     },
     {
       "letter": "C",
-      "text": "$\\dfrac{2}{9}$"
+      "text": "2\n9"
     },
     {
       "letter": "D",
@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe sum of the probabilities for the distribution of a random variable is always equal to 1\n. Therefore, in this problem, you must add up the 4\ngiven probabilities and then subtract that sum from 1\n:\n\n1\n9\n+\n1\n9\n+\n2\n9\n+\n1\n9\n=\n5\n9\n\nAnd, 1−\n5\n9\n=\n4\n9\n.\n\nSo, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it is wrong. It may be the result of an arithmetic error.\n\nChoice 'B' is incorrect because it is wrong. It may be the result of an arithmetic error or a misunderstanding of the problem.\n\nChoice 'C' is incorrect because it is wrong. It may be the result of an arithmetic erroror a misunderstanding of the problem.\n\nChoice 'D' is incorrect because it represents the sum of the given probabilities. Perhaps there was no subtraction from\n1\n. It should be noted that this answer and the solution are complements of each other.",
   "tags": [
     "VAR-5.A.2",
     "4.B",

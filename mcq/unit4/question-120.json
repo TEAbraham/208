@@ -10,7 +10,7 @@
   ],
   "title": "Delectable Journeys: Finding Mean and Standard Deviation",
   "difficulty": "Medium",
-  "question_text": "Delectable Journeys is a small but growing company that offers different types of guided food tours in various U. S. cities. At the end of each tour, participants are asked to rate their experience on a scale of 1 to 5 with 5 being the best rating possible. The table below shows the distribution of customer ratings.<br>What is the mean and standard deviation of the customer ratings?",
+  "question_text": "Delectable Journeys is a small but growing company that offers different types of guided food tours in various U. S. cities. At the end of each tour, participants are asked to rate their experience on a scale of $1$ to $5$ with $5$ being the best rating possible. The table below shows the distribution of customer ratings.<br>What is the mean and standard deviation of the customer ratings?<br>What is the mean and standard deviation of the customer ratings?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Rating (X)</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th></tr></thead><tbody><tr><td>p(X)</td><td>0.04</td><td>0.11</td><td>0.21</td><td>0.28</td><td>0.36</td></tr></tbody></table>"
@@ -18,28 +18,27 @@
   "choices": [
     {
       "letter": "A",
-      "text": "Mean =3.81\n\nStandard Deviation =1.15"
+      "text": "Mean $= 3.81$\nStandard Deviation $= 1.15$"
     },
     {
       "letter": "B",
-      "text": "Mean =3.81\n\nStandard Deviation =1.33"
+      "text": "Mean $= 3.81$\nStandard Deviation $= 1.33$"
     },
     {
       "letter": "C",
-      "text": "Mean =3.81\n\nStandard Deviation =1.50"
+      "text": "Mean $= 3.81$\nStandard Deviation $= 1.50$"
     },
     {
       "letter": "D",
-      "text": "Mean\n=\n3\n\nStandard Deviation\n=\n1.41"
+      "text": "Mean $= 3$\nStandard Deviation $= 1.41$"
     },
     {
       "letter": "E",
-      "text": "Mean\n=\n3\n\nStandard Deviation\n=\n1.50"
+      "text": "Mean $= 3$\nStandard Deviation $= 1.50$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The rating that a customer will give is a random variable that we will call $X$.\n\nThe formula for calculating the mean of a random variable is:\n\nμX=∑(xi)(pi)=(x1)(p1)+(x2)(p2)+......+(xn)(pn)\n\nWe can substitute our values in the formula:\n\nμX=(1)(0.04)+(2)(0.11)+(3)(0.21)+(4)(0.28)+(5)(0.36)=3.81\n\nThe formula for calculating the standard deviation of a random variable is:\n\nσX=\n√\n∑(xi−μx)2(pi)\n=\n√\n(x1−μX)2(p1)+(x2−μX)2(p2)+....+(xn−μX)2(pn)\n\nFill in the formula:\n\nσ\nX\n=\n√\n(\n1\n−\n3.81\n)\n2\n(\n0.04\n)\n+\n(\n2\n−\n3.81\n)\n2\n(\n0.11\n)\n+\n(\n3\n−\n3.81\n)\n2\n(\n0.21\n)\n+\n(\n4\n−\n3.81\n)\n2\n(\n0.28\n)\n+\n(\n5\n−\n3.81\n)\n2\n(\n0.36\n)\n=\n1.15\n\nTherefore, the mean is\n3.81\nand standard deviation of\n1.15\n. Choice 'A' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect. The variance has been reported rather than the standard deviation.\n\nChoice 'C' is incorrect since the standard deviation was not calculated correctly.\n\nChoice 'D' is incorrect. We cannot find the mean by simply averaging the possible values of\nX\n. Rather, the mean is a weighted average which takes into account the related probabilities. If the mean actually had been\n3\n, then the standard deviation was calculated correctly.\n\nChoice 'E' is incorrect, making the mistakes from both Choices 'C' and 'D'.",
   "tags": [
     "VAR-5.C.2",
     "VAR-5.C.3",

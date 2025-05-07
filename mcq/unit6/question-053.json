@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since a two-sided test calculates the areas under the curve for both tails, one must double the $P$-value whenever conducting a two-sided test.\n\nNote, however, that when performing a two-sided test by computer or calculator, the two-sided $P$-value is already doubled for you.\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "4.B",
     "DAT-3",

@@ -10,7 +10,7 @@
   ],
   "title": "${ \\chi}^{2}$ Independence: How Much Freedom In Relationships?",
   "difficulty": "Easy",
-  "question_text": "A student wondered if there was an association between relationship status and overall letter grade(based off grade point average) at her high school. She used a stratified random sample to select 20 students within each letter grade. The information is displayed in the table below.<br>Which of the following is the number of degrees of freedom used for the appropriate test of significance?",
+  "question_text": "A student wondered if there was an association between relationship status and overall letter grade(based off grade point average) at her high school. She used a stratified random sample to select 20 students within each letter grade. The information is displayed in the table below.<br>Which of the following is the number of degrees of freedom used for the appropriate test of significance?<br>Which of the following is the number of degrees of freedom used for the appropriate test of significance?",
   "image_files": [
     "images/question-070-img1.PNG",
     "images/question-070-img2.PNG"
@@ -41,8 +41,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is correct.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The degrees of freedom in a ${ \\chi}^{2}$ test of independence is determined by multiplying $(\\text{rows}-1)(\\text{columns}-1)$ excluding the $\\text{totals}$. In this case we are given $5$ rows and $2$ columns.\n\n$$\\text{Degrees of freedom} =(5-1)(2-1)= 4$$\n\nAn alternative approach in case you forget the formula would be to run the ${ \\chi}^{2}$ test of independence on your graphing calculator. For a TI-84 or TI-83:\n\n1) Enter all your observed values into Matrix A by going over to the edit section in the Matrix.\nCreated for Albert.io. Copyright 2017. All rights reserved.\n2) Quit out of the Matrix 3) Press the Stats key, Test, and then select ${ \\chi}^{2}$ - Test.\n4) Press Calculate\n\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\n\n\nExplanation of Distractors Choice 'A' is incorrect as $2$ represents the number of variables in this case. Choice 'C' is incorrect as this $(5)(1)=5$. One was never subtracted from the number of rows. Choice 'D' is the trap answer as the row total and column total were included in finding the degrees of the freedom, $(6-1)(3-1)=10$. However, the totals must be excluded when calculating the degrees of freedom. Or the other way someone may have came to conclude $10$ was by never subtracting one from each row and column. Choice 'E' is incorrect as the totals were included in both the number of rows and columns were multiplied together\n$$(6)(3)=18$$",
   "tags": [
     "VAR-8.M",
     "VAR-8.M.2",

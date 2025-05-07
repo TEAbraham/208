@@ -39,18 +39,19 @@ unitFilter.addEventListener("change", e => {
   renderStudentAnswers(e.target.value);
 });
 
-function renderStudentAnswers(unit) {
-  const filtered = unit === "all" ? allAnswers : allAnswers.filter(q => q.questionId.startsWith(`${unit}_`));
+async function renderStudentAnswers(unit) {
+  const filtered = unit === "all"
+    ? allAnswers
+    : allAnswers.filter(q => q.questionId.startsWith(`${unit}_`));
 
   // Table
   tableBody.innerHTML = "";
   filtered.forEach(data => {
+    const [unitId, questionNum] = data.questionId.split("_");
     const tr = document.createElement("tr");
-    const parts = data.questionId.split("_");
-
     tr.innerHTML = `
-      <td>${parts[1]}</td>
-      <td>${parts[0]}</td>
+      <td>${questionNum}</td>
+      <td>${unitId}</td>
       <td>${data.difficulty}</td>
       <td>${data.selected}</td>
       <td>${data.correct ? "✅" : "❌"}</td>
@@ -62,56 +63,38 @@ function renderStudentAnswers(unit) {
   // Chart
   const scoreByUnit = {};
   filtered.forEach(q => {
-    const unit = q.questionId.split("_")[0];
+    const unitKey = q.questionId.split("_")[0];
     const diff = q.difficulty || "medium";
-    const points = q.correct ? { easy: 1, medium: 2, hard: 3 }[diff] : { easy: -3, medium: -2, hard: -1 }[diff];
-    scoreByUnit[unit] = (scoreByUnit[unit] || 0) + points;
+    const pts = q.correct
+      ? { easy: 1, medium: 2, hard: 3 }[diff]
+      : { easy: -3, medium: -2, hard: -1 }[diff];
+    scoreByUnit[unitKey] = (scoreByUnit[unitKey] || 0) + pts;
   });
 
   const labels = Object.keys(scoreByUnit);
   const dataPoints = labels.map(u => scoreByUnit[u]);
 
-  if (labels.length === 0) {
+  if (!labels.length) {
     chartCanvas.parentElement.style.display = "none";
   } else {
     chartCanvas.parentElement.style.display = "block";
-
     if (window.chartInstance) window.chartInstance.destroy();
-
     window.chartInstance = new Chart(chartCanvas, {
       type: 'bar',
       data: {
         labels,
-        datasets: [{
-          label: "Score by Unit",
-          data: dataPoints,
-          backgroundColor: "rgba(54, 162, 235, 0.7)"
-        }]
+        datasets: [{ label: "Score by Unit", data: dataPoints }]
       },
-      options: {
-        responsive: true,
-        scales: { y: { beginAtZero: true } }
-      }
+      options: { responsive: true, scales: { y: { beginAtZero: true } } }
     });
   }
 
   const totalScore = dataPoints.reduce((a, b) => a + b, 0);
   summaryDiv.textContent = `Total Score: ${totalScore}, Questions Answered: ${filtered.length}`;
 
-  getDoc(doc(db, "users", uid)).then(docSnap => {
-    if (docSnap.exists()) {
-      const student = docSnap.data();
-      studentHeader.textContent = `History for ${student.displayName || uid}`;
-    }
-  });
-}
-
-// Enable row click on main dashboard to open student.html in new tab
-const dashboardTable = document.getElementById("dashboard-body");
-if (dashboardTable) {
-  dashboardTable.addEventListener("click", e => {
-    const tr = e.target.closest("tr");
-    if (!tr || !tr.dataset.uid) return;
-    window.open(`/admin/student.html?uid=${tr.dataset.uid}`, '_blank');
-  });
+  const userDoc = await getDoc(doc(db, "users", uid));
+  if (userDoc.exists()) {
+    const student = userDoc.data();
+    studentHeader.textContent = `History for ${student.displayName || uid}`;
+  }
 }

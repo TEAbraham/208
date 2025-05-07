@@ -9,7 +9,7 @@
   ],
   "title": "Assessing Residual Plots for Linearity",
   "difficulty": "Hard",
-  "question_text": "Two variables, $x$ and $y$, were taken on $10$ subjects and two separate regression models were fit to the data.<br>Regression I yielded the following equation and residual plot:<br>predicted log y = ax + b<br>...where $a$ and $b$ are constants.<br>Regression II yielded the following equation and residual plot:<br>predicted log y = d + log cx<br>...where $c$ and $d$ are constants.<br><br><br><br><br>Which of the following conclusions is correct?",
+  "question_text": "Two variables, $x$ and $y$, were taken on $10$ subjects and two separate regression models were fit to the data.<br>Regression I yielded the following equation and residual plot:<br>predicted log y = ax + b<br>...where $a$ and $b$ are constants.<br>Regression II yielded the following equation and residual plot:<br>predicted log y = d + log cx<br>...where $c$ and $d$ are constants.<br>Created for Albert.io. Copyright 2017. All rights reserved.<br><br>Which of the following conclusions is correct?",
   "image_files": [
     "images/question-093-img1.PNG"
   ],
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When assessing a residual plot for linearity, the residual plot needs to show no form and relatively even scatter throughout. If the residual plot shows both of these, then the relationship between the two variables is linear.\n\nThe residual plot for Regression I shows a form (curve) which indicates a linear model is inappropriate. Therefore Choices 'A' and 'C' are eliminated.\n\nThe residual plot for Regression II show no form and even scatter which indicates a linear model is appropriate. The answer is Choice 'E' since the equation that goes along with the residual plot for Regression II is\nlog\ny\nvs.\nlog\nx\n.\n\nExplanation of Distractors Choice 'A' was already discussed. Choice 'B' is incorrect as regression II does not show\nx\nand\ny\nbeing linear. Choice 'C' was already discussed. Choice 'D' is incorrect as regression II is not appropriate since the relationship between\nx\nand\nlog\ny\nis not linear, but rather the relationship between\nlog\nx\nand\nlog\ny\nis linear.",
   "tags": [
     "DAT-1.F.2",
     "DAT-1",

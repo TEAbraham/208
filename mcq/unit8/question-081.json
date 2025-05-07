@@ -11,7 +11,7 @@
   ],
   "title": "${ \\chi}^{2}$ Independence: Relationships or Grades?",
   "difficulty": "Hard",
-  "question_text": "A student wondered if there was an association between relationship status and overall letter grade (based on grade point average) at her high school. She used a stratified random sample to select $20$ students within each letter grade. The information is displayed in the table below.<br>A ${ \\chi}^{2}$ test of independence was conducted to determine whether the data above provides convincing evidence of an association between relationship status and overall letter grade. The ${ \\chi}^{2}$ test statistic was $5.849$ with a $p$-value of $0.211$.\nWhich of the following statements is true?",
+  "question_text": "A student wondered if there was an association between relationship status and overall letter grade (based on grade point average) at her high school. She used a stratified random sample to select $20$ students within each letter grade. The information is displayed in the table below.<br>A ${ \\chi}^{2}$ test of independence was conducted to determine whether the data above provides convincing evidence of an association between relationship status and overall letter grade. The ${ \\chi}^{2}$ test statistic was $5.849$ with a $p$-value of $0.211$.\nWhich of the following statements is true?<br>Which of the following statements is true?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Letter Grade</th><th scope=\"col\">In a relationship</th><th scope=\"col\">Not in a relationship</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>A</td><td>8</td><td>12</td><td>20</td></tr><tr><td>B</td><td>11</td><td>9</td><td>20</td></tr><tr><td>C</td><td>13</td><td>7</td><td>20</td></tr><tr><td>D</td><td>10</td><td>10</td><td>20</td></tr><tr><td>F</td><td>6</td><td>14</td><td>20</td></tr><tr><td>Total</td><td>48</td><td>52</td><td>100</td></tr></tbody></table>"
@@ -39,8 +39,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The hypotheses in this problem would be:\n\n${ H }_{ 0 }$: Relationship status and overall letter grade are independent(no association).\n${ H }_{ a }$ Relationship status and overall letter grade are dependent(association).\n\nSince the $p$-value of $0.211$ is greater than the $0.05$ significance level we would fail to reject the ${ H }_{ 0 }$ which implies there is insufficient evidence against the ${ H }_{ 0 }$. In context, this means there is insufficient evidence that relationship status and overall letter grade are dependent (associated).\n\nTherefore, Choice 'D' is the answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as in a chi-square test normality is not one of the conditions since the data is skewed to the right.\n\nChoice 'B' is incorrect as this statement accepts the ${ H }_{ 0 }$ and we never accept the ${ H }_{ 0 }$.\n\nChoice 'C' is incorrect as this statement implies that the ${ H }_{ 0 }$ was rejected for the ${ H }_{ a }$.\n\nChoice 'E' is incorrect for the same reason as Choice 'B'.",
   "tags": [
     "4.E",
     "DAT-3.L",

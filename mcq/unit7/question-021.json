@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The critical value for a $95\\%$ confidence interval marks off the middle $95\\%$ of the distribution. This is the same value that marks off the lower $2.5\\%$ of the distribution ($2.5\\%$ on the left + $95\\%$ in the center + $2.5\\%$ on the right = $100\\%$)\n\nThere are two ways to find the $t$-value for the lower $2.5\\%$ of the distribution:\n\nUsing a table\n\nFind the row for $20$ degrees of freedom and find the column for the $95\\%$ confidence level (at $0.025$ since there are both right and left sides). The value of $2.086$ is the value at the intersection of that row and column.\n\nUsing a calculator\n\nSome calculators have the invT function. Using invT, type in the area of $0.025$ and $20$ degrees of freedom.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. This is the result of looking at the $0.05$ level at $20$ degrees of freedom. Remember, that you must account for both left and right sides.\n\nChoice 'B' is incorrect. This is the result of looking at the $0.05$ level at $19$ degrees of freedom. We have been told the degrees of freedom, not the sample size number.\n\nChoice 'C' is incorrect. This is the $t$ value at the point of $0.025$ but at $21$ degrees of freedom.\n\nChoice 'E' is incorrect. This is the $t$ value at the point of $0.025$ but at $19$ degrees of freedom.",
   "tags": [
     "UNC-4.Q.3",
     "3.D",

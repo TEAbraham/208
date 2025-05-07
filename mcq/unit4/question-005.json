@@ -8,7 +8,7 @@
   ],
   "title": "The Tongue Roll",
   "difficulty": "Medium",
-  "question_text": "While it is fairly common for people to be able to roll their tongue upwards ($70\\%$!), Caleb read once in a genetics book that only $1$ in $1000$ people can roll their tongue downwards. For a statistics project, Caleb decided to randomly sample $400$ of his fellow students and found $2$ of them who could do it.\nWhat is Caleb's most accurate conclusion?",
+  "question_text": "While it is fairly common for people to be able to roll their tongue upwards ($70\\%$!), Caleb read once in a genetics book that only $1$ in $1000$ people can roll their tongue downwards. For a statistics project, Caleb decided to randomly sample $400$ of his fellow students and found $2$ of them who could do it.\nWhat is Caleb's most accurate conclusion?<br>What is Caleb's most accurate conclusion?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "Though finding 2 out of 400 was a higher percentage than expected, Caleb can still maintain that the original claim is true and I believe that this is simply a result of random variation."
+      "text": "Though finding $2$ out of $400$ was a higher percentage than expected, Caleb can still maintain that the original claim is true and I believe that this is simply a result of random variation."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nHaving read this statistic in a genetics book there is a reasonable assumption that the statistic is true. However, when sampling people we could have just as easily found no people at all who could roll their tongue downwards. While a very high numerical result such as $10$ might call the statistic into question, finding just $2$ people is a reasonable result as there is always some variation when dealing with random data.\n\nWithout more convincing evidence, Caleb has to assume that the result was simply because of random variation. There is no distinct pattern in evidence here and no reason to dismiss the results. Of course, there are always questions and more research could be done.\n\nSo, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because, while repeating the project could prove helpful, the results do not show any pattern and is a realistic indication of random variation.\n\nChoice 'B' is incorrect because this answer is just an excuse or explanation for the result rather than recognizing it as a result of random variation.\n\nChoice 'C' is incorrect because, even with a suspicion that the percentage may be higher, stating a new exact frequency cannot be done from one sample.\n\nChoice 'D' is incorrect because the claim is that the proportion of people who can roll their tongue downwards is \"definitely higher.\" It is reasonable to question the sample result and suspect a higher value, but it cannot be stated definitively.",
   "tags": [
     "VAR-1.F",
     "VAR-1.F.1",

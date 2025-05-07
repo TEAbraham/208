@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTo perform a test of significance for a population proportion two checks must be made:\n\nFirst, a check for independence must be made. This includes verifying that the sample was taken randomly or that a randomized experiment was performed. Also, when sampling without replacement, the sample size must be less than $10\\%$ of the population.\n\nSecond, a check to see if the sampling distribution is approximately normal must be done. Here you want to multiply the sample size by the proportion of successes (what you are looking for) to make sure that it is greater than $10$. Then you need to check that the proportion of failures is also greater than $10$.\n\nIn this problem, while the sample was taken randomly, the proportion of successes and failures are both less than $10$ so that the test of significance cannot be performed. Successes $= 12(0.67) = 8$. Since this number is not greater than $10$, a test cannot be done.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because while randomization was correctly used, this is not enough information to support using the test.\n\nChoice 'B' is incorrect because the size of the sample proportion alone is not enough information to support using the test.\n\nChoice 'C' is incorrect because when the proportion of failures is less than 10 a test should not be used.\n\nChoice 'E' is incorrect because the proportion of failures is not greater than 10. It is 12(1−0.67)=4.",
   "tags": [
     "4.C",
     "VAR-6.F",

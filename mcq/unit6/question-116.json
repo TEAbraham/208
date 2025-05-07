@@ -7,7 +7,7 @@
   ],
   "title": "Sound Cards and Motherboards",
   "difficulty": "Easy",
-  "question_text": "A Tech company produces sound cards and motherboards. It was concerned about how many parts were coming out defective. A manager randomly selected $78$ sound cards and $58$ motherboards. The manager found $8$ defective soundcards and $5$ defective motherboards.\nWhat statistical technique should be used to see if there is a difference between these products in terms of defects?",
+  "question_text": "A Tech company produces sound cards and motherboards. It was concerned about how many parts were coming out defective. A manager randomly selected $78$ sound cards and $58$ motherboards. The manager found $8$ defective soundcards and $5$ defective motherboards.\nWhat statistical technique should be used to see if there is a difference between these products in terms of defects?<br>What statistical technique should be used to see if there is a difference between these products in terms of defects?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nIn this problem, we are given two counts for the number of defectives, a single categorical variable. A test of means cannot be used because the sample sizes are different. Therefore, a test for a difference of population proportions must be used.\n\nA t\n-test is used for means while a z\n-test is used for proportions. In this problem we are comparing the proportions of defectives where\n8\n78\n≈0.10\nand\n5\n58\n≈0.09\n. These two proportions need to be tested to see if they are in fact different. Difference is measured through a two-sided test.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it states a t\n-test is used instead of a z\n-test.\n\nChoice 'C' is incorrect because it states a t\n-test is used instead of a z\n-test and it says means instead of proportions.\n\nChoice 'D' is incorrect because it states means are to be compared instead of proportions.\n\nChoice 'E' is incorrect because, while a chi-square test for independence can be used for two proportions, a goodness-of-fit test cannot.",
   "tags": [
     "VAR-6.I",
     "VAR-6.I.1",

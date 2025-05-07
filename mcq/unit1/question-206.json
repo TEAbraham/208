@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Changing the units of measure has no effect on $z$-scores. A $z$-score measures how many standard deviations an observation is above/below the mean.\n\nThe spread of heights around the mean is not affected by the fact that we may choose to use a different unit of measure. Therefore, $z$-scores for each student will remain unchanged.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect. To convert inches to centimeters, we would multiply by $2.54$. Therefore, the mean that we determined by measuring in inches will be multiplied by $2.54$ when converting to cm. Likewise, the standard deviation that we determined by measuring in inches will be multiplied by $2.54$ when converting to cm. The $z$-score remains unchanged.\n\nChoice 'C' is incorrect. The difference between $2.54$ (cm) and $1$ (inch) has nothing to do with the $z$-score.\n\nChoice 'D' is incorrect. While the value describing an individual's height in cm is $254$% of the value that describes his/her height in inches, this does not mean that the new $z$-score will be $254$% of the original value.\n\nChoice 'E' is incorrect. No prediction is necessary - just knowledge of the fact that z-scores are not affected by converting to a different unit of measure.",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B.1",

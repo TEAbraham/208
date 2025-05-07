@@ -10,35 +10,32 @@
   "title": "Womens' Heights: Z-score Equation When Given the Percentile",
   "difficulty": "Medium",
   "question_text": "Women's heights are approximately normally distributed with a mean of $63.6\\text{ inches}$ and a standard deviation of $2.5\\text{ inches}$.<br>Which of the following equations can be used to find the height $x$ in which $18\\%$ of the heights fall above?",
-  "image_files": [
-    "images/question-246-img1.PNG"
-  ],
+  "image_files": [],
   "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "−\n0.92\n=\n63.6\n−\nx\n2.5"
+      "text": "$-0.92=\\dfrac { 63.6-x }{ 2.5 }$"
     },
     {
       "letter": "B",
-      "text": "−\n0.92\n=\nx\n−\n63.6\n2.5"
+      "text": "$-0.92=\\dfrac {x-63.6 }{ 2.5 }$"
     },
     {
       "letter": "C",
-      "text": "0.18\n=\nx\n−\n63.6\n2.5"
+      "text": "$0.18=\\dfrac {x-63.6 }{ 2.5 }$"
     },
     {
       "letter": "D",
-      "text": "0.92\n=\n63.6\n−\nx\n2.5"
+      "text": "$0.92=\\dfrac { 63.6-x }{ 2.5 }$"
     },
     {
       "letter": "E",
-      "text": "0.92\n=\nx\n−\n63.6\n2.5"
+      "text": "$0.92=\\dfrac { x-63.6 }{ 2.5 }$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "If $x$ is an observation from a normal distribution with a known mean and standard deviation, the z-score of $x$ is:\n\n$$z=\\dfrac { \\text{x-mean }}{ \\text{standard deviation} } $$\n\nUsing process of elimination, we can eliminate Choices 'A' and 'D' as $63.6$ and $x$ are incorrectly placed in the numerator.\n\nNow we need to find the z-score for $82\\%$ either using Table A or a graphing calculator. The reason for $82\\%$ and not $18\\%$ is we are looking for the cutoff for the top$18\\%$ which equivalent to the bottom $82\\%$. Table A and the graphing calculator takes the bottom area(cumulative area) also known as the area to the left.\n\nUsing table A: Look in the middle of the chart look for an entry closest to $0.82$. It is $0.8212$. This is the entry corresponding to z = $0.92$.\n\nUsing the TI-84 graphing calculator: Press 2nd then Vars to get into the Distribution menu. Using the InvNorm function enter:\n\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\n\n\nArea represents the area to the left. In this case, we want the cutoff for the bottom $82\\%$ of heights so the area would be $0.82$.\n\nThe mean, $\\mu $, is represented by $0$ and the standard deviation,$\\sigma$, is represented by $1$ because we have standardized the variable $x$.\n\nChoice 'B' is eliminated as the z-score is $0.92$ and not $-0.92$.\n\nChoice 'C' is incorrect as the z-score for the top $18 \\%$ was never found.",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

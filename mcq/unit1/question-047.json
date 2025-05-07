@@ -9,7 +9,7 @@
   ],
   "title": "Different Graphical Representations",
   "difficulty": "Medium",
-  "question_text": "April loves the springtime but wondered which season was the favorite among students at her high school. To investigate, she randomly surveyed other students. The following frequency table shows the responses.<br>Which of the following graphs does not provide an appropriate representation of the data?",
+  "question_text": "April loves the springtime but wondered which season was the favorite among students at her high school. To investigate, she randomly surveyed other students. The following frequency table shows the responses.<br>Which of the following graphs does not provide an appropriate representation of the data?<br>Which of the following graphs does not provide an appropriate representation of the data?",
   "image_files": [
     "images/question-047-img1.PNG",
     "images/question-047-img2.PNG",
@@ -43,8 +43,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'E' is an attempt to create a scatterplot from the data. However, favorite season is a categorical variable and a scatterplot is an inappropriate way to display the distribution of a categorical variable. Rather, a scatterplot can be used to display the relationship between two quantitative variables.\n\nExplanation of Distractors\n\nChoice 'A' presents a dotplot where every dot corresponds to a frequency of\n1\n. Close inspection of the dotplot shows that the number of dots above each season matches the frequency of those who chose that season as their favorite. This is an appropriate graphical display of the data.\n\nChoice 'B' presents a bar graph. Matching the height of each bar to the frequency shown on the vertical axis confirms that this graph accurately represents the distribution of the data.\n\nChoice 'C' presents a segmented bar graph which displays the percent of individuals who favored each season. To determine if this graphical representation is accurate, we must determine the percents related to each season.\n\nSpring:\n14\n50\n=\n0.28\n=\n28\n%\n\nSummer:\n18\n50\n=\n0.36\n=\n36\n%\n\nFall:\n12\n50\n=\n0.24\n=\n24\n%\n\nWinter:\n6\n50\n=\n0.12\n=\n12\n%\n\nThese percentages do seem to reasonable match what is displayed in the graph.\n\nChoice 'D' presents a pie chart and labels the percents that apply to each season. This is an appropriate and accurate way to display the distribution.",
   "tags": [
     "UNC-1.C.3",
     "2.A",

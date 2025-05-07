@@ -8,7 +8,7 @@
   ],
   "title": "Statistical Test for Advertiser",
   "difficulty": "Easy",
-  "question_text": "An advertiser for a company wanted to get some research done so she could show that her company's large chain of banks were doing well. She decided to randomly select $30$ of the banks across the country and see how many customers were coming to the bank on average each day over the past week. She is hoping to show that this number is greater than $100$ customers per day.\nWhich of the following statistical tests would be most appropriate here?",
+  "question_text": "An advertiser for a company wanted to get some research done so she could show that her company's large chain of banks were doing well. She decided to randomly select $30$ of the banks across the country and see how many customers were coming to the bank on average each day over the past week. She is hoping to show that this number is greater than $100$ customers per day.\nWhich of the following statistical tests would be most appropriate here?<br>Which of the following statistical tests would be most appropriate here?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nHere we are trying to find the appropriate statistical test for this advertiser to do. Since she is collecting the number of people frequenting each bank on a daily basis over the previous week, each bank will supply her with a number (which she hopes will be greater than $100$). Thus, a mean should be examined, not a proportion.\n\nIn this case there is only one mean that is being examined, the mean number of people each from $30$ banks, so we do not wish to compare two means.\n\nFinally, when performing tests of significance on means we use the $t$-distribution unless we are absolutely sure that the distribution is normally distributed. Since we do not know that here, we would use the $t$-test. And since we are looking at the mean, we would call this a one-sample t-test for a population mean.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because there are not two sample means involved.\n\nChoice 'B' is incorrect because we are dealing with a mean, not a proportion.\n\nChoice 'C' is incorrect because we are dealing with a mean, not a proportion, though the t-test part is correct.\n\nChoice 'E' is incorrect because we do not use the $z$-test unless we are sure that our distribution is normally distributed, which we do not know here.",
   "tags": [
     "VAR-7",
     "VAR-7.B.1",

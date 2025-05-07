@@ -7,7 +7,7 @@
   ],
   "title": "What to Hypothesize?",
   "difficulty": "Easy",
-  "question_text": "The students in an AP Statistics class heard that their average school grade point average (GPA) was $3.92$. They were sure that that was too high and thought that certainly, the average GPA was $3.60$ at the most. The students in the class decided to take a random sample of $200$ students from the school to show that the mean GPA in their school was really lower than what the school claimed.\nHow would they write the hypotheses for their one-sample $t$-test?",
+  "question_text": "The students in an AP Statistics class heard that their average school grade point average (GPA) was $3.92$. They were sure that that was too high and thought that certainly, the average GPA was $3.60$ at the most. The students in the class decided to take a random sample of $200$ students from the school to show that the mean GPA in their school was really lower than what the school claimed.\nHow would they write the hypotheses for their one-sample $t$-test?<br>How would they write the hypotheses for their one-sample $t$-test?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWhen writing hypotheses for a 1-sample $t$-test the letter $\\mu$ is always used for both the null and alternative hypotheses. The null hypothesis, $H_{o}$ always uses an equals sign. The number that it is set equal to is what is assumed to be the true population mean. In this problem, the school claims that the GPA average is $3.92$ so this number should be used. The $3.60$ figure is simply a number that the students thought was closer to what was true. Thus the correct answer is $H_{o}: \\mu=3.92$.\n\nThe alternative hypothesis, $H_{a}$, may use any of these signs: $<, >, or \\neq$. The choice of which sign to use depends upon the language used in the problem. In this case, the students believed that the $3.92$ number was too high, so they wanted to show that the GPA was actually lower, or less than, that. Here, the correct answer is $H_{a}: \\mu<3.92$.\n\nNote that in any problem where it is not stated clearly to be greater than or less than the suspected mean, then the $\\neq$ sign should be used.\n\nSo, Choice 'C'is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the $\\bar{x}$ symbol is never used in writing hypotheses; $\\mu$ should be used instead.\n\nChoice 'B' is incorrect because the $\\neq$ is incorrectly used in the alternative hypothesis instead of $<$.\n\nChoice 'D' is incorrect because two different numbers are used in the hypotheses; they should always be the same.\n\nChoice 'E' is incorrect for two reasons: $\\bar{x}$ should not be used and the wrong number is used.",
   "tags": [
     "VAR-7.C",
     "1.F",

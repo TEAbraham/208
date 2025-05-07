@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since the residual plot has a curved form, the original data is exponential.\n\nBelow is an example of what the original scatterplot may look like with exponential data and the least squares regression line drawn in:\n\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\n\n\nBelow is an example of what the residual plot would look like on the same data:\n\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\n\n\nResiduals represent the vertical distance between observed and predicted observations. One should be able to see how these two plots relate to each other. Look at the top plot. The furthest point on the left is clearly above the least squares regression line. This same point is represented on the residual plot as the point on the furthest left but has a positive residual because the point is clearly above the regression line.\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "DAT-1.F.2",
     "DAT-1.F.1",

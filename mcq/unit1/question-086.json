@@ -25,7 +25,7 @@
     },
     {
       "letter": "C",
-      "text": "Mean = $99\\text{ lbs}$\nStandard deviation = 6 lbs"
+      "text": "Mean = 99 lbs\nStandard deviation = 6 lbs"
     },
     {
       "letter": "D",
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When subtracting a constant from the data, the measures of center change by that constant, but measures of spread do not change.\n\nIn this situation, the mean changes but the standard deviation does not.\n\nThus, the correct answer is Choice 'B'.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. This selection has both the mean and standard deviation unchanged. The standard deviation should remain unchanged, but the mean will change.\n\nChoice 'C' is incorrect. This selection has the mean appropriately dropping\n5\n pounds\n, but also has the standard deviation dropping\n5\n pounds\n. Anytime a constant is added or subtracted from a data set, the standard deviation remains unchanged.\n\nChoice 'D' is incorrect. This selection changed the standard deviation, but not the mean. The opposite should occur; the mean should be changed but not the standard deviation.\n\nChoice 'E' is incorrect. This formula has the mean cut in half, and there is nothing in the stem at the problem that suggests the weights have been halved. Furthermore, the standard deviation should remain at\n11\n pounds\n.",
   "tags": [
     "UNC-1.I.2",
     "2.C",

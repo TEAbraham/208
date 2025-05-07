@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This problem tests your ability to know the formula for margin of error and solve algebraically to find the sample size with the original $99\\%$ interval. Use the following equation, with the corresponding variables:\n\n$$m=z^{*} \\sqrt{\\dfrac{p^{*}(1-p^{*})}{n}}$$\n\n$m = \\text{margin of error} = 5\\%$\n$p = 0.48$\n$z^{*} = 2.576$ from the standard normal table\n\n$$n=\\dfrac{(z^*)^2\\cdot p^* (1-p^*)}{m^2}$$\n\n$$n=\\dfrac{(2.576)^2 \\cdot (0.48)(1-0.48)}{0.05^2}$$\n\n$$n=662.516$$\n\nSolve for sample size to get $n = 663$.\n\nThen find the margin of error with the new $z$ of $1.645$ by using the same equation above for our $90\\%$ confidence interval:\n\n$$m=z^{*} \\sqrt{\\dfrac{p^{*}(1-p^{*})}{n}}$$\n\n$$m=1.645 \\sqrt{\\dfrac{0.48(1-0.48)}{663}}$$\n\n$$m=0.03192\\cdot 100\\%$$\n\n$$m=3.192\\%$$\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "UNC-4.H.2",
     "UNC-4.H",

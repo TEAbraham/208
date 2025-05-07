@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When it is known that variances are equal, one could pool the variances to get:\n\n$${ { n }_{ 1 } }-1+{ { n }_{ 2 } }-1 = 24+16 = 40$$\n\n...degrees of freedom.\n\nHowever, in this situation it is not known that the variances are equal, so the most conservative approach must be used. This consists of $n-1$ degrees of freedom for the smaller sample: $17-1 = 16$ degrees of freedom.\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "VAR-7.I",
     "VAR-7.I.1",

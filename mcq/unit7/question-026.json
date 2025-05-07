@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The margin of error will be half the width of a confidence interval:\n\n$$1.5694-1.2306 = 0.3388$$\n\n$$\\dfrac{0.3388}{2} = 0.1694$$\n\nThis margin of error should be equal to:\n\n$$t\\cdot \\left[\\dfrac{\\text{standard deviation}}{\\sqrt{n}}\\right]$$\n\nAll information is known except for $t$, so we use the equation above to solve for $t$, where $\\text{margin of error} = 0.1694$, $n = 16$, and $s = 0.23$.\n\nThus, the correct answer is Choice 'D'.\n\nSolve to find $t = 2.947$.\n\nWith sample size $n = 16$, at $15$ degrees of freedom, only an interval of $99\\%$ confidence gives a $t$-value of $2.947$ using the $T$-distribution table.",
   "tags": [
     "UNC-4.Q.3",
     "3.D",

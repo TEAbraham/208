@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The degrees of freedom in a ${ \\chi}^{2}$ test of homogeneity is determined by multiplying $(\\text{rows}-1)(\\text{columns}-1)$ In this case we have $4$ rows (freshmen, sophomores, juniors, and seniors) and $10$ columns (a number $0$ to $9$).\n\n$$\\text{Degrees of freedom}=\\mathrm{(rows-1)(columns-1)}$$\n\n$$\\text{Degrees of freedom}=(4-1)(10-1)= 27$$\n\nExplanation of Distractors Choice 'A' is incorrect. This is not a goodness of fit test. We have several groups($4$ grades) and one categorical variable (which number they pick), thus making this a test of homogeneity. In a goodness of fit test, we have one group and one categorical variable.\n\nChoice 'B' is incorrect. $10$ represents the number of digits from $0$ to $9$.\n\nChoice 'D' is incorrect as this represents $(10-1)\\bullet (4)$. The degrees of freedom for the grade level was not subtracted by $1$.\n\nChoice 'E' is incorrect as this represents $(10)\\bullet (4)$. One was never subtracted from the digits or the grade level for the degrees of freedom.",
   "tags": [
     "VAR-8.M",
     "VAR-8.M.2",

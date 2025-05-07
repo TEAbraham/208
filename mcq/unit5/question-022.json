@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Bias is the property of the expected value of an estimate being the parameter of interest, so you want bias as low as possible, optimally zero.\n\nAdditionally, one wants the variability of any estimator to be small, which is accomplished by increasing the sample size.\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "UNC-3.I",
     "4.B",

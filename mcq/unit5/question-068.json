@@ -8,7 +8,7 @@
   ],
   "title": "Financially Comfortable | 1 of 2",
   "difficulty": "Medium",
-  "question_text": "A community organization wishes to know the proportion of subjects who feel financially comfortable in a certain town.<br>Based on last year’s census, $64\\%$ of the residents in this town felt financially comfortable. This year, in a sample of $60$ randomly chosen subjects, $39$ say they feel financially comfortable.<br>I\nf indeed the subjects’ economic opinions have NOT changed from last year, describe the sampling distribution of the proportion of those who feel financially comfortable.",
+  "question_text": "A community organization wishes to know the proportion of subjects who feel financially comfortable in a certain town.<br>Based on last year’s census, $64\\%$ of the residents in this town felt financially comfortable. This year, in a sample of $60$ randomly chosen subjects, $39$ say they feel financially comfortable.<br>I\nf indeed the subjects’ economic opinions have NOT changed from last year, describe the sampling distribution of the proportion of those who feel financially comfortable.<br>f indeed the subjects’ economic opinions have NOT changed from last year, describe the sampling distribution of the proportion of those who feel financially comfortable.",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When asked to give the sampling distribution, the main features that should be expressed are shape, center, and spread. For sampling distributions, the best measure of center is mean, and best measure of spread is standard deviation.\n\nThe shape will be approximately normal since np and n(\n1\n-p) are both more than\n10\n, as\nn\n=\n60\nand\np\n=\n0.64\n.\n\nThe center will be the mean of all the sample proportions, which is equal to the true population mean =\n0.64\n.\n\nThe standard deviation will be\n0.06197\nbased off the formula below, using\nn\n=\n60\n, and\np\n=\n0.64\n:\n\n√\np\n(\n1\n−\np\n)\nn\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "UNC-3.L",
     "3.C",

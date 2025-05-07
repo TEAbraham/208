@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWhen finding a confidence interval for the slope of a regression line, the following formula should be used:\n\n$$b\\pm t^{*} (SE_{b})$$\n\n...where $b$ is the slope of the line of best fit, $t^{*}$ is the critical value, and $ SE_{b}$ is the standard error of the slope.\n\nTo use this formula we need to know how to read the computer data. For a confidence interval, the $T$ and $P$ columns are ignored. Also, ignore the \"constant\" line. Thus, only two numbers from the table are used in this problem to construct the confidence interval.\n\nThese two values come from the \"plane length\" line which is the $x$ variable. In this problem we have the slope value, or $b$, as $0.263$ and the standard error, or $SE_{b}$, as $0.156$.\n\nNext, we need to use Table $B$ to find the value of the critical value or $t^{*}$. Since our sample size is $28$, and we know that the degrees of freedom for this type of interval is $n-2$, then we use a d.f. of $28-2=26$ from the table. Using the $95\\%$ confidence level column, we find a $t^{*}$ value of $2.056$.\n\nSubstituting the above values into our formula for a confidence interval, we get:\n\n$$0.263 \\pm (2.056)(0.156)$$\n\nSince we are looking for the upper bound we would simplify:\n\n$$0.263 + 0.321=0.584$$\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the value for the degrees of freedom is based on $z^{*}$ instead of $t^{*}$.\n\nChoice 'B' is incorrect because the value for the degrees of freedom is based on a confidence level of $99\\%$ instead of $95\\%$.\n\nChoice 'D' is incorrect because the value of the slope is taken from the wrong line.\n\nChoice 'E' is incorrect because the value of the standard error is taken from the wrong line.",
   "tags": [
     "3.D",
     "UNC-4.AF",

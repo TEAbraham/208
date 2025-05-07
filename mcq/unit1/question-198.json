@@ -27,16 +27,15 @@
     },
     {
       "letter": "D",
-      "text": "57"
+      "text": "$57$"
     },
     {
       "letter": "E",
-      "text": "60"
+      "text": "$60$"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "If x is an observation from a normal distribution with a known mean and standard deviation, the z-score of x is:\n\nz=\nx-mean \nstandard deviation\n\n1) Substitute the values into the formula:\n\n−0.98=\nx−54\n6.3\n\n2) Solve for x\n:\n\n(6.3)(−0.98)=\nx−54\n6.3\n(6.3)\n\n−6.174=x−54\n\n47.826=x\n\nExplanations of Distractors Choice 'A' can be eliminated because our standard deviation is 6.3\n. Since 44\nis more than one standard deviation from 54\nthen the z-score will be less than −0.98\n.\n\nChoices 'C' and 'D' can be eliminated as the z-score is a negative value which indicates the value must fall below the mean of 54\n.\n\nChoice 'E' is the common incorrect answer as this could have happened in one of two ways: 1) the first method being\nx\nand\n54\nwere reversed in the equation.\n2) the second method being\n0.98\nwas used as the\nz\n-score instead of\n−\n0.98\n.",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

@@ -32,12 +32,11 @@
     },
     {
       "letter": "E",
-      "text": "20"
+      "text": "$20$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The slope t-interval has degrees of freedom n−2, where n is the sample size.\nWhen trying to remember that is n−2 degrees of freedom think about how many variables we have. We have 2 variables so our degrees of freedom is n−2.\n\nIn this case, the degrees of freedom is: 18−2=16.\n\nExplanation of Distractors Choice 'B' is incorrect as the sample size was subtracted by one. Choice 'C' is incorrect as this is the sample size. Choice 'D' is incorrect as the sample size was added by one. Choice 'E' is incorrect as the sample size was added by two.",
   "tags": [
     "UNC-4.AC.3",
     "UNC-4.AC",

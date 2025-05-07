@@ -4,7 +4,7 @@
   "topics": [],
   "title": "Pets in the City",
   "difficulty": "Easy",
-  "question_text": "The number of pets per household in a large city varies with mean $1.4$ and standard deviation $1.0$. Because a household cannot have a fraction of a pet, the population distribution cannot be Normal. The city animal control officer inspects $100$ apartments and calculates $\\bar{x}$.\nWhat is the mean and standard deviation for the sampling distribution of average number of pets in samples of size $n=100$?",
+  "question_text": "The number of pets per household in a large city varies with mean $1.4$ and standard deviation $1.0$. Because a household cannot have a fraction of a pet, the population distribution cannot be Normal. The city animal control officer inspects $100$ apartments and calculates $\\bar{x}$.\nWhat is the mean and standard deviation for the sampling distribution of average number of pets in samples of size $n=100$?<br>What is the mean and standard deviation for the sampling distribution of average number of pets in samples of size $n=100$?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -30,8 +30,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe mean of the sampling distribution of sample means is μ\nˉ\nx\n=μ=1.4. The standard deviation of the sampling distribution of sample means is σ\nˉ\nx\n=\nσ\n√\nn\n=\n1.0\n√\n100\n=0.1\n\nExplanation of Distractors\n\nChoice 'A' is incorrect.\n\nThe mean of the sampling distribution is incorrectly given as 140\n. The error lies in multiplying the population mean, μ\n, by the sample size, 100\n. There is further error in computing standard deviation of the sampling distribution incorrectly: σ\nˉ\nx\n=14\n. The error lies in multiplying the population standard deviation by\n√\n100\ninstead of dividing by it.\n\nChoice 'B' is incorrect.\n\nThe error lies in neglecting to take into consideration the sample size when computing the standard deviation of the sampling distribution of sample means. The standard deviation of the sampling distribution of sample means is σ\nˉ\nx\n=\nσ\n√\nn\n. The mean of the sampling distribution of sample means is correctly given as μ\nˉ\nx\n=μ=1.4\n.\n\nChoice 'D' is incorrect.\n\nThe error lies in computing the standard deviation of the sampling distribution of μ\nˉ\nx\n.\nThe standard deviation of the sampling distribution of sample means is σ\nˉ\nx\n=\nσ\n√\nn\n. The standard deviation was incorrectly computed by dividing by n\ninstead of\n√\nn\n.\n\nChoice 'E' is incorrect.\n\nThe sampling distribution of sample mean number of pets will have center\nμ\n¯\nx\n=\nμ\n=\n1.4\nregardless of the shape of the population. The standard deviation of the sampling distribution of sample mean number of pets can be approximated using\nσ\n¯\nx\n=\nσ\n√\nn\n=\n1.0\n√\n100\n=\n0.1\nsince the sample size\nn\n=\n100\nis certainly less than\n10\n%\nof the population in a \"large city\".",
   "tags": [
     "UNC-3.Q.1",
     "UNC-3",

@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "One can add probabilities to find the probability of $A$ or $B$ but only when the events are disjoint.\n\nWhen events are not disjoint, one must subtract the intersection of the two events so that this value is not counted twice.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "4.B",
     "VAR-4.C",

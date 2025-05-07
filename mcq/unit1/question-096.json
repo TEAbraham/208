@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "The correct answer in this case is Choice 'C'.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The IQR, interquartile range, is equal to $Q3 - Q1$.\n\nTherefore, the value of the IQR will not change. The IQR is a resistant measure of spread as $Q3$ and $Q1$ do not take outliers into consideration.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because when a low outlier is added to the set, the minimum value will change.\n\nChoice 'B' is incorrect because the mean is non-resistant to extreme values.\n\nChoice 'D' is incorrect because the range is equal to the maximum value minus the minimum value which indicates the range will change when a low outlier is added to the set. The range is a non-resistant measure of spread.\n\nChoice 'E' is incorrect as the standard deviation takes into account how far all the individual values vary from the mean. Therefore, when a low outlier is added to the set, the standard deviation will increase. The standard deviation is also a non-resistant measure of spread.",
   "tags": [
     "4.B",
     "UNC-1.K",

@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To be a valid probability distribution:\n\nThe probability of any individual event must be a number between 0 and 1 (or between 0% and 100%).\n\nThe sum of the probabilities for all events in the sample space must equal exactly 1 (or 100%).\n\nMrs. Jackson has placed two additional restrictions on the probability distributions created by her students. They are:\n\nThe probability distribution must relate to a discrete random variable.\n\nThe sample space must consist of 5\ndistinct outcomes.\n\nA discrete random variable is a random variable with a countable number of possible outcomes. All of the probability distributions provided meet this criterion. However, Choice 'D' is the only option that meets all of the criteria.\n\nThe individual probabilities (p(X)\n) shown in the table are all values between 0\nand 1\n.\nThe sum of the individual probabilities is 0.30+0.40+0.15+0.10+0.05=1\n\nThere are five possible outcomes. They are: 0.01,0.05,0.10,0.25,and 1.00\n\nExplanation of Distractors\n\nChoice A is incorrect because the sum of the individual probabilities does not equal 1\n.\n\nChoice 'B' is incorrect because p(X=10)=−0.20\n. A probability cannot be negative.\n\nChoice 'C' is incorrect because there are only 4\npossible outcomes in the sample space.\n\nChoice 'E' is incorrect because the sum of the individual probabilities does not equal 1\n. Perhaps the student who provided this distribution intended for the probabilities to be expressed in percents. However, without the percent sign showing, we cannot assume that the student understood this distinction.",
   "tags": [
     "VAR-5.A.2",
     "VAR-5",

@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Consider the basic formula for the margin of error, which is:\n\n$$z^{*}\\cdot \\left(\\dfrac{\\sigma}{\\sqrt{n}}\\right)$$\n\nIf the confidence level increases, then the $z^{*}$ value will be larger. Thus the margin of error will get larger.\n\nNote that any confidence interval formula, not just the example used in this explanation, would yield the same answer.\n\nExplanation of Distractors\n\nChoice 'A'and 'C' are incorrect; these have nothing to do with the value of the margin of error.\n\nChoice 'B' is incorrect; an increase in the sample size yields a decrease of the margin of error (division by a larger $\\sqrt{n}$ value makes the fraction $\\frac{\\sigma}{\\sqrt{n}}$ get smaller).\n\nChoice 'D' is incorrect; an decrease in the standard error $\\frac{\\sigma}{\\sqrt{n}}$ results in an decrease in the margin of error of the confidence interval.",
   "tags": [
     "4.B",
     "UNC-4.F.2",

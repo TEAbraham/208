@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The random variable Y has been formed through a linear transformation of X involving both multiplication and subtraction.\n\nMultiplication affects both the mean and the variance of X, while subtraction only affects the mean. Here are the rules:\n\nIf Y=aX−b:\n\nμY=a(μX)−b\n\nσ\n2\nY\n=(a2)(σ\n2\nX\n)\n\nFilling in these formulas we get:\n\nμY=6.2(12.5)−7=70.5\n\nσ\n2\nY\n=(6.22)(2.12)=169.5\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. In this answer, the mean was arrived at by subtracting 7\nwithout regard for the effect of multiplication. Furthermore, the variance was arrived at my multiplying the variance of X\nby 6.2\nrather than by (6.22)\n\nChoice 'B' is incorrect. The mean is reported correctly, but the standard deviation (rather than the variance) has been reported.\n\nChoice 'C' is incorrect. The mean has been identified correctly, but the variance was calculated as though the subtraction had an effect.\n\nChoice 'D' is incorrect. In this case, the mean did not account for the effect of subtraction. Furthermore, the same mistake was made on variance as in Choice 'A'.",
   "tags": [
     "VAR-5.E",
     "VAR-5.E.3",

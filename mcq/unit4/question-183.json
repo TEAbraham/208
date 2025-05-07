@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'A' is incorrect; while it is true that the probabilities are not 50/50\nin this problem, that is NOT an issue when calculating a binomial probability.\n\nChoice 'B' is incorrect; there are a fixed number of trials; in this case, n=5\n.\n\nChoice 'C' is correct; the selections are not independent. For example, once a 7\nth grader is chosen from a pool of 50\nstudents, the probability of another 7\nth-grade student being chosen is slightly less, since the pool has shrunk.\n\nChoice 'D' is incorrect; there are two outcomes in this situation; the student is either a 7\nth grader or an 8\nth grader.\n\nChoice 'E' is incorrect; sample size is not an issue when dealing with binomial calculations.",
   "tags": [
     "UNC-3.A.2",
     "3.A",

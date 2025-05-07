@@ -7,7 +7,7 @@
   ],
   "title": "Defective Light Bulbs",
   "difficulty": "Easy",
-  "question_text": "A researcher was hired to examine a company's production of defective light bulbs. The bulbs were made in two wattages, $60$ and $100$. Fifty $60$-watt bulbs were randomly selected and $70$ $100$-watt bulbs were randomly selected. Eight defective bulbs were found in the $60$-watt type and $11$ defective bulbs were found in the $100$-watt type. While the company wanted to lower the defective rate overall, it was particularly concerned with keeping the defective rate the same for both bulb types.\nWhich procedure below would most effectively give this information?",
+  "question_text": "A researcher was hired to examine a company's production of defective light bulbs. The bulbs were made in two wattages, $60$ and $100$. Fifty $60$-watt bulbs were randomly selected and $70$ $100$-watt bulbs were randomly selected. Eight defective bulbs were found in the $60$-watt type and $11$ defective bulbs were found in the $100$-watt type. While the company wanted to lower the defective rate overall, it was particularly concerned with keeping the defective rate the same for both bulb types.\nWhich procedure below would most effectively give this information?<br>Which procedure below would most effectively give this information?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThis is a problem dealing with proportions: the number of defective items for each bulb type must be divided by their respective sample sizes. Because the sample sizes are different, the number of defective items cannot be compared as means.\n\nBecause the company wants to examine the differences in the defective rates, a confidence interval will give that information. They will compare how different those rates are or whether the defective rates are close to being the same. Thus, the differences in the two proportions are compared.\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because this method would take a lot of time, would be expensive, and would not give meaningful statistical results.\n\nChoice 'B' is incorrect because two proportions are being compared here, not one.\n\nChoice 'D' is incorrect because two different items are being compared. And, means will not work since the number of defectives are taken from two different-sized samples.\n\nChoice 'E' is incorrect because means will not work since the number of defectives are taken from two different-sized samples.",
   "tags": [
     "UNC-4",
     "UNC-4.I",

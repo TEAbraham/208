@@ -18,24 +18,23 @@
     },
     {
       "letter": "B",
-      "text": "100 adults will be randomly chosen from voter registration records. Each adult will be asked the question, \"Do you feel teacher salaries should be increased?\"\nIf the voter cannot be reached on the first attempt, the surveyor will continue calling back until they are able to reach the voter."
+      "text": "$100\\text{ adults}$ will be randomly chosen from voter registration records. Each adult will be asked the question, \"Do you feel teacher salaries should be increased?\"\nIf the voter cannot be reached on the first attempt, the surveyor will continue calling back until they are able to reach the voter."
     },
     {
       "letter": "C",
-      "text": "100 adults\nwill be randomly chosen from voter registration records. Each adult will be asked the question, \"Do you feel teacher salaries should be increased?\"\nIf the voter cannot be reached on the first attempt, the surveyor will move on to another randomly selected voter who can be easily reached."
+      "text": "$100\\text{ adults}$ will be randomly chosen from voter registration records. Each adult will be asked the question, \"Do you feel teacher salaries should be increased?\"\nIf the voter cannot be reached on the first attempt, the surveyor will move on to another randomly selected voter who can be easily reached."
     },
     {
       "letter": "D",
-      "text": "75 adults\nwill be randomly chosen from among the attendees at a school board meeting. A teacher wearing her school ID badge will ask subjects the question, \"Do you think teacher salaries should be increased?\""
+      "text": "$75\\text{ adults}$ will be randomly chosen from among the attendees at a school board meeting. A teacher wearing her school ID badge will ask subjects the question, \"Do you think teacher salaries should be increased?\""
     },
     {
       "letter": "E",
-      "text": "75 adults\nwill be randomly chosen from among the attendees at a school board meeting. The interviewer will ask subjects the question, \"Given the many hours that teachers work outside of the regular school day and during the summer months, do you feel their salaries should be increased?\""
+      "text": "$75\\text{ adults}$ will be randomly chosen from among the attendees at a school board meeting. The interviewer will ask subjects the question, \"Given the many hours that teachers work outside of the regular school day and during the summer months, do you feel their salaries should be increased?\""
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'B' and Choice 'C' are very similar but crucially different. Both options draw from the same pool of individuals, but importantly rely on the reachability of the person.\n\nChoice 'C' is incorrect. By only recording responses from those voters who are easy to reach on the first call, there will be an over-representation of people who do not work or who work from home. Their opinions might be different from the opinions of those who work outside of the home or who are very busy.\n\nChoice 'B' is correct because the callers will have a list of individuals and persist until that randomly identified individual is reached. Choice 'C' excludes any individual who is not reached on the first attempt, leading to over-representation stated above.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The phrase \"Given the many hours that teachers work\" would lead some subjects to answer \"Yes.\" This is response bias.\n\nChoice 'D' is incorrect. Having a teacher ask the question will lead many subjects to say \"Yes\" even if their opinion is \"No.\" This is response bias.\n\nChoice 'E' is incorrect because of reasons of Choices 'A' and 'C'.",
   "tags": [
     "VAR-3.E.1",
     "VAR-3.E",

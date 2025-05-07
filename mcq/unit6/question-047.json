@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The parameter of interest in this situation is the proportion of customers who would order dessert after seeing the dessert tray and being reminded to “save room for dessert” upon being seated at this restaurant.\n\nPrior to conducting the experiment, we know the proportion of customer who order dessert is $p = 0.10$. The null hypothesis, $H_0$, claims that there is no change and that it is still true that $p = 0.10$.\n\nHowever, we want to know whether the tactic of showing the dessert tray and suggesting that customers “save room for dessert” will cause the proportion to increase.\n\nIn other words, we are wondering if after the experiment $p > 0.10$. This is our alternative hypothesis, $H_a$. Remember that our hypotheses must always be expressed in terms of the parameter, $p$.\n\nExplanation of Distractors\n\nChoices 'A' and 'B' are incorrect because they express the hypotheses in terms of the statistic or observed value $\\hat { p }$.\n\nChoice 'A' is also incorrect because it does not offer an alternative hypothesis that reflects the idea that the proportion is now greater than $0.10$ after servers display the dessert tray and remind customers to “save room for dessert” but instead offers a $2$-sided alternative hypothesis.\n\nChoices 'D' and 'E' are incorrect because they express the parameter as a mean, $\\mu$ rather than as a proportion. Choice 'E' is also incorrect because it converts the proportion of $0.10$ to a whole number of $10$.",
   "tags": [
     "1.F",
     "VAR-6.D.4",

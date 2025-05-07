@@ -7,7 +7,7 @@
   ],
   "title": "Which Wattage to Buy",
   "difficulty": "Medium",
-  "question_text": "A researcher was hired to examine a company's production of defective light bulbs. The bulbs were made in two wattages, $60$ and $100$. Fifty $60$-watt bulbs were randomly selected and $72$ $100$-watt bulbs were randomly selected. Eight defective bulbs were found in the $60$-watt type and $9$ defective bulbs were found in the $100$-watt type. The researcher decided to create a confidence interval for the difference of the proportion of defective bulbs.\nWhich of the following is the lower bound of the $98\\%$ confidence interval?",
+  "question_text": "A researcher was hired to examine a company's production of defective light bulbs. The bulbs were made in two wattages, $60$ and $100$. Fifty $60$-watt bulbs were randomly selected and $72$ $100$-watt bulbs were randomly selected. Eight defective bulbs were found in the $60$-watt type and $9$ defective bulbs were found in the $100$-watt type. The researcher decided to create a confidence interval for the difference of the proportion of defective bulbs.\nWhich of the following is the lower bound of the $98\\%$ confidence interval?<br>Which of the following is the lower bound of the $98\\%$ confidence interval?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe formula for a confidence interval for the difference of two proportions is:\n\n$(\\hat{p}_{1}-\\hat{p}_{2})\\pm z^{*}\\sqrt{\\dfrac{\\hat{p}_{1}(1-\\hat{p}_{1})}{n_{1}}+\\dfrac{\\hat{p}_{2}(1-\\hat{p}_{2})}{n_{2}}}$\n\nwhere $\\hat{p}_{1}$ and $\\hat{p}_{2}$ are the given proportions, ${n_{1}}$ and ${n_{2}}$ are the given sample sizes, and $z^{*}$ is the critical value for the given confidence level.\n\nIn this problem, we assume all conditions have been verified, we will plug in the values:\n\n$(0.16-0.125)\\pm 2.326\\sqrt{\\dfrac{0.16(1-0.16)}{50}+\\dfrac{0.125(1-0.125)}{72}}$\n\nSimplify this to get $0.035\\pm0.151$. Since we are looking for the lower bound only we simply subtract to get $0.035-0.151=-0.116$.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the square root step was not taken in the calculation of the standard error.\n\nChoice 'C' is incorrect because the calculation included the critical value for a $95\\%$ confidence interval.\n\nChoice 'D' is incorrect because the wattage values were used in place of the sample sizes.\n\nChoice 'E' is incorrect because it is the value of the upper bound of the confidence interval.",
   "tags": [
     "3.D",
     "UNC-4.K.1",

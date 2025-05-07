@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "By definition, variance is the square of the standard deviation. If X had a standard deviation of $4$ and Y had a standard deviation of $3$, then X would have a variance of $16$ and Y would have a variance of only $9$. Therefore, X would have both a greater standard deviation and a greater variance.\n\nThe question prompt states that the standard deviation and variance are greater than $1$. If X had a standard deviation of $0.8$ and Y had a standard deviation of $0.7$, then X would have a variance of $0.49$ and Y would have a variance of $0.64$. This would allow X to have a larger standard deviation and Y to have a larger variance.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect mostly because the mean is a measure of center and the standard deviation is a measure of spread. If X is the heights of NBA centers and Y is the heights of all of the NBA players, then X will have a higher mean and Y would have a higher standard deviation.\n\nChoice ‘B’ is incorrect because the range is very sensitive to outliers, and standard deviation is somewhat sensitive to outliers.\n\nIf X was $2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 50$ and Y was $5, 10, 15, 20, 25, 30, 35, 40, 45, 50$, then X will have a larger range and Y will have a larger standard deviation.\n\nChoice ‘C’is incorrect largely because the variance is a squared number while range is a linear number. If X is $0, 150$, and Y is $0, 50, 100, 150, 200$, then X has a greater variance, and Y has a greater range ($200$ versus $150$).\n\nChoice ‘D’ is incorrect mostly because the mean is sensitive to outliers and the median is resistant to outliers. If X is $5, 10, 15, 20, 250$ and Y is $14, 15, 16, 17, 18$; then X has a greater mean ($60$ versus $16$) and Y has a greater median ($16$ versus $15$).",
   "tags": [
     "UNC-1.O",
     "2.D",

@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "As the sample size increases, the standard deviation decreases. The smallest sample size will yield the greatest standard deviation for the sampling distribution of a sample mean when $\\sigma $ is the same.\n\nAn analytic approach to this problem is using the formula for the standard deviation for the sampling distribution of a sample mean:\n\n$${ \\sigma }_{ \\overline { x } }=\\dfrac { \\sigma }{ \\sqrt { n } }$$\n\nYou can then make up a value for σ, say 1, and then substitute the values from the choices in for n and see which choice yields the smallest standard deviation.\n\nExplanation of Distractors\n\nChoices 'B', 'C', 'D', and E are all incorrect as their samples sizes are all greater than 50 which is choice 'A'.",
   "tags": [
     "UNC-3.R.2",
     "UNC-3",

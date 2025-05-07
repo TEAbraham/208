@@ -9,7 +9,7 @@
   ],
   "title": "Morning Beverage Preference: Stacked Bar Graph",
   "difficulty": "Medium",
-  "question_text": "Patty is the manager of a marketing company and is planning a big breakfast to celebrate her company's success in landing a major new client. She wondered about what drinks to serve with breakfast and decided to survey each employee in her office regarding their morning beverage preference. The results are displayed below in a stacked bar graph.<br><br><br><br><br>Which of the following is closest to the percent of those surveyed who said they prefer coffee?",
+  "question_text": "Patty is the manager of a marketing company and is planning a big breakfast to celebrate her company's success in landing a major new client. She wondered about what drinks to serve with breakfast and decided to survey each employee in her office regarding their morning beverage preference. The results are displayed below in a stacked bar graph.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>Which of the following is closest to the percent of those surveyed who said they prefer coffee?",
   "image_files": [
     "images/question-048-img1.png"
   ],
@@ -17,7 +17,7 @@
   "choices": [
     {
       "letter": "A",
-      "text": "25%"
+      "text": "25\n%"
     },
     {
       "letter": "B",
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The figure shows a stacked bar graph of the frequencies of women and men who responded to their morning beverage preference. The blue portion of each bar represents those who responded that coffee was their preference. Match the length of the blue portions of each bar with the numbers found on the horizontal axis at the bottom of the graph, which represent the frequency of respondents with the respective preferences.\n\nFor both women and men, the blue portion of the bar extends about midway between the numbers\n20\nand\n40\non the horizontal axis. We can estimate that about\n30\nwomen and about\n30\nmen said that they prefer coffee. Since\n30\n+\n30\n=\n60\n, we can estimate that a total of about\n60\nindividuals said they prefer coffee.\n\nTo determine the total number of individuals surveyed, match the entire length of each bar against the numbers found on the horizontal axis. The length of the entire bar for women corresponds with a value of\n80\non the horizontal axis which indicates that a total of\n80\nwomen were surveyed.\n\nThe length of the entire bar for men corresponds with a value of\n60\non the horizontal axis which indicates that a total of\n60\nmen were surveyed. Since\n80\n+\n60\n=\n140\n, we know that a total of\n140\nindividuals were surveyed.\n\nTo determine what percent of those surveyed prefer coffee, we need to determine what percent of\n140\nis\n60\n.\n\n60\n140\n=\n0.4286\n=\n42.86\n%\n\nThis value can be rounded to about\n43\n%\n, which makes Choice 'D' the correct choice.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. While coffee is one of four possible choices, it is not true that one in four individuals (or approximately\n25\n%\n) preferred coffee. The true percentage is higher.\n\nChoice 'B' is incorrect. The figure displays the actual number of women (or men) who prefer coffee is about\n30\n. However, we are looking for a total and a percent of those surveyed who prefer coffee. If this data were represented in a segmented bar graph, which would show the percent of each category, this would be correct. However, this figure is a stacked bar graph.\n\nChoice 'C' is incorrect and represents the approximate percentage of those surveyed who prefer tea.\n\nChoice 'E' is incorrect. The total number of those surveyed who prefer coffee is about\n60\n. However, the problem calls for a percent, not an actual number of individuals.",
   "tags": [
     "UNC-1.D",
     "2.A",

@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWell, four of the answers are correct statements. In Choice 'D' the term \"cumulative\" is incorrect. The word here should be \"relative.\"\n\nWhen doing a simulation you need to divide by the total number of outcomes. For example, if you are simulating 50 poker hands, then you need to divide the number of what you are looking for, say a pair, by the number of trials or outcomes, which is 50. This division gives you the relative frequency which can also be used as an estimate of probability.\n\nA cumulative frequency means that you are adding up outcomes, which does not enable a single and specific probability estimate.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it is true. A random process generates results that are determined by chance.\n\nChoice 'B' is incorrect because it is true. Simulation is a way to model random events.\n\nChoice 'C' is incorrect because it is true. An event is a collection of outcomes.\n\nChoice 'E' is incorrect because it is true. An outcome is the result of a trial of a random process.",
   "tags": [
     "3.A",
     "UNC-2.A",

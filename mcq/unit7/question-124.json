@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This study utilizes a matched pairs design where each pole-vaulter serves as his/her own control. We cannot adequately compare the difference in pole-vaulting heights for someone whose average height is $8\\text{ feet}$ with someone whose average height is $12\\text{ feet}$, but we can compare each individual against themselves.\n\nTherefore, we look at the differences between the mean height with the new pole and the traditional pole (new – traditional) for each of the pole-vaulters in the study. Our null hypothesis should be that there is no difference.\n\nAlternatively, we are looking at the possibility that the mean height with the new pole is greater than the mean height with the traditional pole.\n\nIf:\n\n$${ \\mu }_{ new } > { \\mu }_{ traditional }$$\n\n...then:\n\n$${ \\mu }_{ new } - { \\mu }_{ traditional } > 0$$\n\n...and:\n\n$${ \\mu }_{ new-traditional } > 0, \\quad \\text{ or } \\quad { \\mu }_{ difference } > 0$$\n\nKeep in mind that the parameter of interest in a matched pairs design is the mean difference between the two conditions (in this case the two types of poles).\n\nExplanation of Distractors\n\nChoices 'A' and 'B' are incorrect as they consider the means of two separate populations – the population of those using a traditional pole and the population of those using the new pole. However, there is a single population of experienced pole-vaulters who are using both poles as part of this experiment.\n\nChoices 'C' and 'D' recognize that we are looking at the mean difference in maximum heights, but both use inappropriate equality/inequality symbols as part of the alternative hypotheses.",
   "tags": [
     "1.F",
     "VAR-7.G.1",

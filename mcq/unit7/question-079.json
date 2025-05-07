@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'A' is correct. The manager asked only his customers on weekday afternoons between the times of 3 to 4 PM. Typically, people at the restaurant during this time would be older people and retirees. This does not generalize to the entire population of customers, as it leaves out people who work 9-5 jobs, teenagers (they are at school), and families. This is known as undercoverage bias.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect. Even though the distribution is slightly skewed to the right, we can assume that since $40 > 30$, by the Central Limit Theorem, the sampling distribution of statistic is approximately normal.\n\nChoice 'C' is incorrect. Even though the distribution is slightly skewed to the right, we can assume that since $40 > 30$, by the Central Limit Theorem, the sampling distribution of statistic is approximately normal.\n\nChoice 'D' is incorrect. We can assume that $40$ customers is less than $10\\%$ of the population of all of the restaurant's customers.\n\nChoice 'E' is incorrect as only the random sample condition is violated.",
   "tags": [
     "DAT-3.F",
     "4.E",

@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'D' is correct; the correct formula uses $n = 500$, $Z^*$ = $1.645$, and sample proportion is:\n\n$$\\dfrac{261}{500} = 0.522$$\n\nStart with the formula for a 1 proportion $Z$ interval:\n\n$$\\text{Sample Proportion} \\pm (\\text{Critical} \\ z^* \\ \\text{value}) \\sqrt { \\frac { (\\text{Sample Proportion})(1 - \\ \\text{Sample Proportion}) }{ \\text{Sample Size} } } $$\n\n$$\\text{Sample Proportion} = \\dfrac{261}{500} = 0.522$$\n\nWe know that $Z^*$ = $1.645$ using table B in the AP Statistics resources. See where infinite degrees of freedom meets $90\\%$ confidence. The sample size is $500$.\n\nThen substitute the appropriate values into the equation, and solve. Alternatively, one can perform this on a TI 83/84 calculator as well.\n\n$$0.522 \\pm 1.645 \\cdot \\sqrt { \\dfrac { (0.522) (1 - 0.522) }{ 500 } } $$\n\n$$0.522 \\pm 1.645 \\cdot 0.022339$$\n\n$$0.522 \\pm 0.037$$\n\n...which results in an interval that extends from $0.485$ to $0.559$.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; the interval contains $50\\%$ so no evidence exists the true proportion is over $50\\%$.\n\nChoices 'B' and 'C' are both incorrect; both these calculations use a $Z^*$ of $1.96$, not $1.645$.\n\nChoice 'E' is incorrect; the interval contains $50\\%$, so no evidence exists to suggest that the majority of individuals are happy or unhappy.",
   "tags": [
     "VAR-6.E.1",
     "VAR-6.E",

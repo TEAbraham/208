@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To solve this problem, we must first convert the raw data to a $z$-score. The formula for calculating $z$ is:\n\n$$z = \\dfrac { x - \\mu }{ \\sigma }$$\n\n...where $x$ is the observed value or value of interest, $\\mu$ is the mean, and $\\sigma$ is the standard deviation.\n\n$$z = \\dfrac { 40 - 42.8 }{ 5.3 } = -0.53$$\n\nWe are looking for $p(z > -0.53)$. The easiest way to find this answer is to use your TI83/84 graphing calculator's normalcdf function. The normalcdf function finds probabilities associated with given $z$-scores. The syntax is: normalcdf (lower bound, upper bound, mean, standard deviation)\n\nIn this case you would:\n\nEnter again and the calculator will return the value of about $0.70$.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect and represents $p(z < -0.53)$.\n\nChoice 'B' is incorrect. It was calculated as $1 - 0.47 = 0.53$.\n\nChoice 'C' is incorrect. We cannot assume that the absolute value of the $z$-score equals the proportion we are interested in.\n\nChoice 'E' is incorrect and makes no sense. A proportion cannot be greater than $1$. This value represents the standard deviation.",
   "tags": [
     "VAR-2.B",
     "3.A",

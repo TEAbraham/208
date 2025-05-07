@@ -9,7 +9,7 @@
   ],
   "title": "Unemployment Rates by State",
   "difficulty": "Hard",
-  "question_text": "The July 2015 unemployment rates for the $50\\text{ U.S. States}$ are displayed in the relative cumulative frequency graph below.<br>Based on this graph, what is the best estimate of the median and interquartile range?<br><br><br><br>",
+  "question_text": "The July 2015 unemployment rates for the $50\\text{ U.S. States}$ are displayed in the relative cumulative frequency graph below.<br>Based on this graph, what is the best estimate of the median and interquartile range?<br><br>Created for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-143-img1.JPG"
   ],
@@ -17,28 +17,27 @@
   "choices": [
     {
       "letter": "A",
-      "text": "Median =5%\nIQR =1%"
+      "text": "Median\n=\n5\n%\n\nIQR\n=\n1\n%"
     },
     {
       "letter": "B",
-      "text": "Median =5%\nIQR =2%"
+      "text": "Median\n=\n5\n%\n\nIQR\n=\n2\n%"
     },
     {
       "letter": "C",
-      "text": "Median =5%\n\nIQR =5%"
+      "text": "Median\n=\n5\n%\n\nIQR\n=\n5\n%"
     },
     {
       "letter": "D",
-      "text": "Median =5.2%\n\nIQR =1.7%"
+      "text": "Median\n=\n5.2\n%\n\nIQR\n=\n1.7\n%"
     },
     {
       "letter": "E",
-      "text": "Median =5.2%\n\nIQR =2.8%"
+      "text": "Median\n=\n5.2\n%\n\nIQR\n=\n2.8\n%"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The median is the\n50\nth\npercentile. Locate\n0.5\non the vertical axis and read across to the graph, then down to the horizontal axis. The\n50\nth\npercentile happens at around\n5.2\n%\nunemployment.\n\nIn a similar way, Q3 is the\n75\nth\npercentile and Q1 is the\n25\nth\npercentile. Locate these numbers on the vertical axis, then read across to the graph and down to the horizontal axis.\n\nQ1 is approximately\n4.2\n%\nand Q3 is approximately\n5.9\n%\n, leading to an IQR estimate of\n1.7\n%\n.\n\nExplanation of Distractors\n\nChoices 'A', 'B', and 'C' are incorrect. On the graph, it is clear that the median at\n0.5\nis above\n5\n.\n\nChoice 'E' is incorrect. The IQR is the difference between the values at\n0.25\nand\n0.75\nare between\n4\nand\n6\n. The difference then must be less than\n2\n.",
   "tags": [
     "UNC-1.L.1",
     "UNC-1.L.2",

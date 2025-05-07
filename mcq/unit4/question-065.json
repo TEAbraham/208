@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since the children in the sample were selected at random, it is reasonable to assume independence. Therefore, this problem can be solved using the multiplication rule for independent events where the four events are the four selections of children who had a dental visit in the previous year.\n\n$$p(\\text{all $\n4$ had visit}) = p(\\text{first had visit})\\cdot p(\\text{second had visit})\\cdot p(\\text{third had visit})\\cdot p(\\text{fourth had visit})=$$\n$$= (0.83)(0.83)(0.83)(0.83) = 0.4746$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. It simply averages the probability of one child having had a dental visit in the previous year over the $4$ observations $(.83/4)$\n\nChoice 'C' is incorrect. It is the complement of the correct answer. That is, $1 – 0.4746 = 0.5254$. It represents the probability that NOT all $4$ children in the sample would have had a dental visit in the previous year.\n\nChoice 'D' is incorrect. It is the complement of answer choice A, or $1 – 0.2075 = 0.7925$.\n\nChoice 'E' is incorrect. We cannot say that the probability of all $4$ children in the sample having had a dental visit in the previous year is equal to the probability of an individual child having had a dental visit in the previous year.",
   "tags": [
     "VAR-4.E.1",
     "VAR-4.E",

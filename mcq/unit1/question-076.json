@@ -9,7 +9,7 @@
   ],
   "title": "Last Digits of ID Numbers",
   "difficulty": "Easy",
-  "question_text": "The histogram below displays the last digit of the ID numbers for fifty students.\nThis distribution is best described as<br><br><br>",
+  "question_text": "The histogram below displays the last digit of the ID numbers for fifty students.\nThis distribution is best described as<br>This distribution is best described as<br>Created for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-076-img1.png"
   ],
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "All of the digits from 0 to 9 have almost the same number of observations (either 4, 5, or 6).\n\nThere are no peaks or clusters in the histogram, so this is best described as a uniform distribution.\n\nThe other answer choices would only be correct if we could see clusters of higher bars in one or more sections of the histogram. Higher clusters are not seen in this histogram.\n\nNote: a uniform distribution is a type of symmetric distributions, which represent distributions that are symmetric across a line of symmetry. Another example of symmetric distributions includes normal distribution.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect - in a skewed left shaped distribution, the data shows a tail on the left and a large cluster on the right. This description does not match the given distribution.\n\nChoice 'B' is incorrect - in a skewed right shaped distribution, the data shows a tail on the right and a large cluster on the left. This description does not match the given distribution.\n\nChoice 'C' is incorrect - in a nearly normal distribution, we would expect to see a majority of frequencies occurring near the median or mean with a symmetrical distribution leveling off from both directions of the median or mean.\n\nChoice 'D' is incorrect - in a bimodal distribution, we would expect to see two distinct peaks. In this case, we do not see a strong clustering, let alone two.",
   "tags": [
     "UNC-1.H",
     "UNC-1.H.4",

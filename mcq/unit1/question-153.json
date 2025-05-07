@@ -13,7 +13,7 @@
   ],
   "title": "What Happens to the Mean and Standard Deviation?",
   "difficulty": "Hard",
-  "question_text": "The boxplot below represents a data set.<br><br><br><br><br>If the minimum value was changed from twenty to twelve, what would happen to the mean and standard deviation of the data set?",
+  "question_text": "The boxplot below represents a data set.<br><br>If the minimum value was changed from twenty to twelve, what would happen to the mean and standard deviation of the data set?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -39,8 +39,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The mean would have to decrease, since twelve is less than twenty. By process of elimination, we can eliminate Choices 'C', 'D' and 'E'.\n\nThe standard deviation is a type of spread. When the minimum value is changed from twenty to twelve, the histogram becomes wider and more spread out. This indicates that the spread will increase, and therefore the standard deviation will increase. We can eliminate Choice 'A' as a result.\n\nChoice 'B' is the correct answer.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.1",

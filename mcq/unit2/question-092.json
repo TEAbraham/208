@@ -26,16 +26,15 @@
     },
     {
       "letter": "D",
-      "text": "14.16"
+      "text": "$14.16$"
     },
     {
       "letter": "E",
-      "text": "14.7"
+      "text": "$14.7$"
     }
   ],
-  "correct_answer": "Choice 'A' is incorrect. The year 2000\nwas substituted into the LSRL, but the residual was never calculated. Also, when the year 2000\nis substituted in, the predicted birth rate is 14.16\nand not −14.16\n.",
-  "solution": "",
-  "explanations": {},
+  "correct_answer": "Choice 'A' is incorrect. The year 2000 was substituted into the LSRL, but the residual was never calculated. Also, when the year 2000 is substituted in, the predicted birth rate is 14.16 and not −14.16.",
+  "solution": "ˆ\ny\n=154.16−.07(2000)=14.16\n\nChoice 'B' is incorrect. The year 2000 was substituted into the LSRL to get the correct predicted birth rate of 14.16. However, the formula for the residual is:\n\nActual value − Predicted value =y−\nˆ\ny\n\nIn this case, the incorrect formula calculated was:\n\n Predicted − Actual =14.16−14.7=−0.54\n\nChoice 'C' is correct because the year 2000\nwas substituted into the LSRL to get the predicted birth rate of 14.16\n. Also, the correct residual was computed, as seen below:\n\n Actual − Predicted = Residual ⇒14.7−14.16=0.54\n\nChoice 'D' is incorrect because the correct predicted birth rate for the year 2000\nwas substituted into the LSRL, but the residual was never calculated.\n\nChoice 'E' is incorrect because it the actual birth rate for the year 2000\nwas mistaken for the residual.",
   "tags": [
     "DAT-1.E.1",
     "DAT-1.E",

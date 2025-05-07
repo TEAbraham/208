@@ -8,7 +8,7 @@
   ],
   "title": "Combining Random Variables: A Van Full of Characters",
   "difficulty": "Hard",
-  "question_text": "Homer Simpson has yet another new job. He is now the personal chauffeur for a bunch of characters. These characters always travel together to places like the Cartoon-Con Convention, and Homer always drives them in a van that weighs $4050$ pounds.<br>Of course, Homer's weight and the weights of the other characters go up and down a bit each day depending on how much they have been enjoying their food. The table below gives Homer's and each of the other character's mean weights and the standard deviation of their weights (in pounds).<br>What is the mean AND the standard deviation of the total weight of the van when Homer and all of the other characters are in transit (disregard the weight of gas, oil, and any other extras)?",
+  "question_text": "Homer Simpson has yet another new job. He is now the personal chauffeur for a bunch of characters. These characters always travel together to places like the Cartoon-Con Convention, and Homer always drives them in a van that weighs $4050$ pounds.<br>Of course, Homer's weight and the weights of the other characters go up and down a bit each day depending on how much they have been enjoying their food. The table below gives Homer's and each of the other character's mean weights and the standard deviation of their weights (in pounds).<br>What is the mean AND the standard deviation of the total weight of the van when Homer and all of the other characters are in transit (disregard the weight of gas, oil, and any other extras)?<br>What is the mean AND the standard deviation of the total weight of the van when Homer and all of the other characters are in transit (disregard the weight of gas, oil, and any other extras)?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Mean</th><th scope=\"col\">Standard Deviation</th></tr></thead><tbody><tr><td>Homer Simpson</td><td>225</td><td>4</td></tr><tr><td>Porky Pig</td><td>180</td><td>5.1</td></tr><tr><td>Scooby Doo</td><td>140</td><td>3.8</td></tr><tr><td>Donald Duck</td><td>2.7</td><td>0.4</td></tr><tr><td>Wile E. Coyote</td><td>35</td><td>1.2</td></tr></tbody></table>"
@@ -28,7 +28,7 @@
     },
     {
       "letter": "D",
-      "text": "Mean $= 4632.7\\text{ pounds}$\nStandard Deviation $= 7.62\\text{ pounds}$"
+      "text": "Mean =4632.7 pounds\nStandard Deviation =7.62 pounds"
     },
     {
       "letter": "E",
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The weight of each of the characters is a random variable. The weight of the van however, is a constant.\n\nTo find the total mean weight of the full van, simply add each of the means weights of the individual characters and don't forget to add in the weight of the van.\n\nμTOTAL=μHomer+μPorky+μScooby+μDonald+μWileE+4050=\n\n=225+180+140+2.7+35+4050=4632.7\n\nTo find the standard deviation, we must first decide whether the weights of each character are independent. It seems reasonable to assume this is true, since each may have their own tastes in food and characters do not have to eat the same amount.\n\nWe must also remember that the standard deviations of independent random variables do not add, but the variances do.\n\nStart by finding the variance of the weights for each character by squaring the given standard deviations:\n\nσ\n2\nHomer\n=\n4\n2\n=\n16\n\nσ\n2\nPorky\n=\n5.1\n2\n=\n26.01\n\nσ\n2\nScooby\n=\n3.8\n2\n=\n14.44\n\nσ\n2\nDonald\n=\n0.4\n2\n=\n0.16\n\nσ\n2\nWileE\n=\n1.2\n2\n=\n1.44\n\nSince the weight of the van is constant, the standard deviation of the weight of the van is\n0\n. It will not affect our calculation.\n\nNow, add the variances:\n\nσ\n2\nT\nO\nT\nA\nL\n=\n16\n+\n26.01\n+\n14.44\n+\n0.16\n+\n1.44\n=\n58.05\n\nFinally, take the square root of the variance in order to find the standard deviation:\n\nσ\nT\nO\nT\nA\nL\n=\n√\n58.05\n=\n7.62\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. There are two mistakes here. First, the calculation of the mean did not include the weight of the van. Second, the standard deviation was calculated as the sum of the individual standard deviations. As noted above, we cannot simply add the standard deviations.\n\nChoice 'B' is incorrect. The standard deviation is correct, but the mean did not include the weight of the van.\n\nChoice 'C' is incorrect. While the mean is correct, the standard deviation was incorrectly calculated by adding individual standard deviations.\n\nChoice 'E' is incorrect. The standard deviation of the van is\n0\n.",
   "tags": [
     "VAR-5.E",
     "VAR-5.E.2",

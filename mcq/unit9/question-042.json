@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In a linear regression confidence interval, bivariate sample data is used to estimate what the true population slope is.\n\nUsually, computer output will already give the slope for the sample data. The interval is constructed by taking the sample slope, plus or minus the critical $t^*$ value, times the standard deviation of the slope.\n\nThe $t^*$ value can be found in table B looking it up with $n-2$ degrees of freedom based of off desired confidence, and the standard deviation of the slope will be given to you.\n\nThis interval will give a range of intervals that will likely catch the true population slope.\n\nThe formula for the interval is given below:\n\n$$b \\pm t^* SE_b$$\n\nThus, the correct answer is Choice 'D'.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. One never needs to perform inferential procedures for sample data; the sample means can always be found using single variable statistics.\n\nChoice 'B' is incorrect. While this selection sounds good, two sample proportions would not reasonably be plotted on a scatterplot. Scatterplots are used to plot quantitative data, while proportions deal with categorical data.\n\nChoice 'C' is incorrect. A linear regression $T$-interval measures the slope, NOT the response variable ($y$).\n\nChoice 'E' is incorrect. Any inferential procedure hopes to give a snapshot of population data, not sample data. While this selection is correct when it says slope, it is the population slope, not sample slope that we are interested in.",
   "tags": [
     "4.B",
     "DAT-3",

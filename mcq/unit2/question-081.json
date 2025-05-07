@@ -28,16 +28,15 @@
     },
     {
       "letter": "D",
-      "text": "About 65% of the variation in fuel economy (as measured by kilometers per liter) can be explained by the least squares regression line on speed (as measured by kilometers per hour)."
+      "text": "About $65\\%$ of the variation in fuel economy (as measured by kilometers per liter) can be explained by the least squares regression line on speed (as measured by kilometers per hour)."
     },
     {
       "letter": "E",
-      "text": "About 65% of the time, the true population slope will be caught within the given interval."
+      "text": "About $65\\%$ of the time, the true population slope will be caught within the given interval."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The definition of $R^2$ is the fraction of variation in $y$ that can be explained by the least squares regression line on $x$ where $y$ represents the response variable and $x$ represents the explanatory variable. One can see that $R^2$ is about $64.8\\%$, which can be rounded to $65\\%$.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. It is true that if data is approximately normal, then $68\\%$ of observations will be within one standard deviation of the mean. However, this rule applies to single variable data and does not relate in any way to $R^2$.\n\nChoice 'B' is incorrect. The value of $R^2$ does not give the percentage of data points that follow the model. Furthermore, the idea of a point following the model can be quite subjective.\n\nChoice 'C' is incorrect. This selection gives a vague definition of R2, but does not provide context. Make sure all answers provide context!\n\nChoice 'E' is incorrect. It is true that one could construct a linear regression T-interval to estimate the true unknown population slope. However, this interval does not directly relate to the value of R2.",
   "tags": [
     "DAT-1.D.2",
     "2.C",

@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "While this is not a standard way to interpret a confidence interval, since the entire interval is above the population mean from the previous year, it’s likely that mean income has risen in this town from last year.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect; intervals will always point to a range, not a specific number.\n\nChoice 'C' is incorrect; the interval hopes to estimate the mean income for this year, not last year.\n\nChoice 'D' is incorrect; intervals always hope to predict a population mean, not a sample mean.\n\nChoice 'E' is incorrect. It is true that $95\\%$ of confidence intervals would capture the population mean. However, the population mean is unknown in this case; it is certainly possible it has changed from the previous year's value of $\\$49,382$",
   "tags": [
     "UNC-4.P.1",
     "4.C",

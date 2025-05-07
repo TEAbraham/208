@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The probability of at least $4\\text{ tickets}$ can be found by adding up the following events of getting $4, 5,$ or $6\\text{ tickets}$:\n\n$$P\\text{(at least 4)} = P(4)+P(5)+P(6) $$\n\n$$= 0.35+0.14+0.03$$\n\n$$ = 0.52$$\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "VAR-4.E.1",
     "VAR-4.E",

@@ -12,7 +12,7 @@
   ],
   "title": "Comparing Parallel Boxplots: Texting Between Boys and Girls",
   "difficulty": "Medium",
-  "question_text": "The boxplots above illustrate the distribution of the number of tweets in a week that ninety-nine females and ninety-nine males send out a week.<br>Based on these boxplots, which of the following is TRUE?<br><br><br><br>",
+  "question_text": "The boxplots above illustrate the distribution of the number of tweets in a week that ninety-nine females and ninety-nine males send out a week.<br>Based on these boxplots, which of the following is TRUE?<br><br>Created for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-178-img1.png"
   ],
@@ -32,7 +32,7 @@
     },
     {
       "letter": "D",
-      "text": "75\n%\nof the boys tweeted more than\n50\n%\nof the girls."
+      "text": "75%\nof the boys tweeted more than 50%\nof the girls."
     },
     {
       "letter": "E",
@@ -40,8 +40,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To evaluate this question, we need to find the correct statement given the boxplots.\n\nChoice 'A' is incorrect, as the IQR (Q3-Q1) for the boys is\n77\n, compared to the girls', which is\n157\n.\n\nChoice 'B' is incorrect, as the range for the boys (max-min) is\n216\n, compared to the girls', which is\n381\n.\n\nChoice 'C' is incorrect as it states there are\n99\nboys and\n99\ngirls.\n\nJust to note: If the number of values are not given, you cannot determine how many individual data points there are in a boxplot.\n\nChoice 'D' is incorrect, as Q3 of the boys is less than the median of the girls.\n\nChoice 'E' is correct, as Q3 of the boys is less than the median of the girls.",
   "tags": [
     "UNC-1.N.1",
     "2.D",

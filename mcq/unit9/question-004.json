@@ -9,7 +9,7 @@
   ],
   "title": "Minutes of Biking",
   "difficulty": "Easy",
-  "question_text": "Typically, when a person rides a bike for exercise, the number of calories burned increases as the duration of time rode increases. A large local bicycle club finds the population regression line for predicted amount of calories burned vs. the duration of time rode. The equation of the population regression line is:<br>$\\widehat{\\text{calories}} = 12.78 + 1.23(\\text{minutes})$<br>One member of the group decides she is going to take a random sample of $20$ bikers from the group and create a sample regression model.\nIs the member's model guaranteed to have the same slope as the population regression line?",
+  "question_text": "Typically, when a person rides a bike for exercise, the number of calories burned increases as the duration of time rode increases. A large local bicycle club finds the population regression line for predicted amount of calories burned vs. the duration of time rode. The equation of the population regression line is:<br>$\\widehat{\\text{calories}} = 12.78 + 1.23(\\text{minutes})$<br>One member of the group decides she is going to take a random sample of $20$ bikers from the group and create a sample regression model.\nIs the member's model guaranteed to have the same slope as the population regression line?<br>Is the member's model guaranteed to have the same slope as the population regression line?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer",
-  "solution": "When the bike club found their regression model, they used all the members of the club, thus giving them the population regression line. When the member of the club created her model using a random sample of $20$ members, she found what is called the sample regression line, since it does not use all the members of the group.\n\nTherefore, whenever randomization is used to estimate the slope and y-intercept of a regression line, there will always be some sort of variability involved. And while it is entirely possible that the member could get the same slope, it is unlikely due to sampling variability.\n\nChoice 'D' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nWhen the bike club found their regression model, they used all the members of the club, thus giving them the population regression line. When the member of the club created her model using a random sample of $20$ members, she found what is called the sample regression line, since it does not use all the members of the group.\n\nTherefore, whenever randomization is used to estimate the slope and y-intercept of a regression line, there will always be some sort of variability involved. And while it is entirely possible that the member could get the same slope, it is unlikely due to sampling variability.\n\nChoice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The only condition that deals with sample size would be the $10\\%$ condition, and this does not imply a guaranteed same slope for the sample regression line.\n\nChoice 'B' is incorrect. While the slope of the sample regression is an unbiased estimator the population slope, since it is an estimation, it definitely can differ from the population slope.\n\nChoice 'C' is incorrect. In order to create a sample regression model, the sample must come from the population. Therefore, it does not imply a similar slope for both models.\n\nChoice 'E' is incorrect. Although the population size is unknown, we know its a large bicycle club, therefore a sample of $20$ should still be well-within the $10\\%$ condition.",
   "tags": [
     "1.A",
     "VAR-1.K",

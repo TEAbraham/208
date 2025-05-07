@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer",
-  "solution": "Using the avocados from his farm, the farmer selected a random sample of $5$ avocados from each plot, resulting in a sample of $40$ avocados. Using the $40$ avocados from the farm, the farmer created a linear regression model to predict the weight of an average avocado on his farm.\n\nSince the farmer selected a random sample from the whole farm land, the population of interest would be all the avocados on the farm.\n\nChoice 'C' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nUsing the avocados from his farm, the farmer selected a random sample of $5$ avocados from each plot, resulting in a sample of $40$ avocados. Using the $40$ avocados from the farm, the farmer created a linear regression model to predict the weight of an average avocado on his farm.\n\nSince the farmer selected a random sample from the whole farm land, the population of interest would be all the avocados on the farm.\n\nChoice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The $5$ avocados represent a random sample from each plot on his farm.\n\nChoice 'B' is incorrect. The $40$ avocados represent the total random sample from all plots on the farm.\n\nChoice 'D' is incorrect. The amount of water used would be the explanatory variable to determine the predicted weight of an avocado.\n\nChoice 'E' is incorrect. While the predicted weight is the variable of interest for the avocados, the population of interest would simply be all avocados.",
   "tags": [
     "1.A",
     "VAR-1.K",

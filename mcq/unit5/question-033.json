@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nSince the test scores represent a normally distributed, continuous random variable, we can easily find this probability. We solve this problem using the formula:\n\nz=\nˉ\nx\n−μ\nσ\n\nwhere z\nrepresents the z\n-score,\nˉ\nx\nrepresents the statistic in the problem, μ\nrepresents the mean of the population, and σ\nrepresents the standard deviation of the population.\n\nWe need to find the appropriate z\nscore and then use Table A\nto find our answer. We plug in the given values of 80\n, the statistic (or what we are looking for) for\nˉ\nx\n, the given population mean of 78\nfor μ\n, and the given population standard deviation of 6\nfor σ\nto obtain this equation:\n\nz=\n80−78\n6\n=0.33\n\nWe look up 0.33\nin Table A\nand see the value 0.6293\n. Because we are looking for the probability of greater than this z\n-score, we need to subtract it from 1\nto obtain our answer: 1−0.6293=0.3707\n. And rounding this off to 37%\ngives us our final answer\n\nso, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the\n80\nvalue from the prompt is simply copied as the answer.\n\nChoice 'B' is incorrect because\n1\n−\n0.33\nfrom the\nz\n-score is being used.\n\nChoice 'C' is incorrect because the\n0.33\nfrom the\nz\n-score is being used.\n\nChoice 'D' is incorrect because this answer would result if the two numbers in the numerator were reversed.",
   "tags": [
     "VAR-6.A.3",
     "VAR-6.A",

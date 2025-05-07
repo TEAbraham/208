@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We pool when we assume the standard deviations or the variances of two populations are equal. This occurs in the case of a two-sample $z$-test for the difference between two proportions because we are assuming (in the null hypothesis) that $p_1 = p_2$.\n\nIf the proportion of successes is the same in both populations then the standard deviation (and variance) should also be equal.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect. We do not use pooled procedures when dealing with means.\n\nChoice 'C' is incorrect. We do not pool when constructing confidence intervals for the difference between two proportions.\n\nChoice 'D' is incorrect. In a one-sample $z$-test for a single population proportion there is no need to pool and no way to pool – we only have one population!\n\nChoice 'E' is incorrect. We do pool when conducting significance tests for the difference between two proportions.",
   "tags": [
     "UNC-4.V.1",
     "UNC-4.V.2",

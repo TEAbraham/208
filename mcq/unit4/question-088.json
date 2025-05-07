@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "You can calculate this answer using the addition property for probabilities. You will also need to use the multiplication property for independent events. That is:\n\n$$p(A\\text{ or }B) = p(A) + p(B) – p(A\\text{ and }B)$$\n\nWhen two events are independent:\n\n$$p(A \\text{ and }B) = p(A)\\cdot p(B)$$\n\nLet $M$ = the probability that Mary will eat cheese.\n\nLet $B$ = the probability that Becca will eat cheese.\n\nThen:\n\n$$p(M \\text{ or }B) = 0.6 + 0.25 – (0.6)(0.25) = 0.7$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. You cannot find the probability of $M$ or $B$ by multiplying the individual probabilities.\n\nChoice 'B' is incorrect. You cannot simply take the lower of the two given probabilities.\n\nChoice 'C' is incorrect. You cannot simply average the probabilities.\n\nChoice 'E' is incorrect. By adding the individual probabilities, the probability of both Mary and Becca eating cheese has been included twice – once as part of Mary's probability and once as part of Becca's probability. That is why we need to subtract the probability of both Mary and Becca eating cheese from this answer in order to arrive at the correct answer.",
   "tags": [
     "VAR-4.E",
     "3.A",

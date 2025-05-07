@@ -8,7 +8,7 @@
   ],
   "title": "Johnny's Photos: Total Mean Processing Time",
   "difficulty": "Easy",
-  "question_text": "Johnny is a photographer who frames and sells his best photos. It is a long process. Once Johnny finds a photo that he thinks will sell, he spends time editing and enhancing the photo on his computer.<br>Then he prints the photo, cuts the mat and mats the photo. Finally, he frames the photo so that it is ready to go. The chart below shows the mean and standard deviation of the number of minutes required for various parts of this process.<br>What is the total mean time it takes Johnny to fully prepare one photo for sale?",
+  "question_text": "Johnny is a photographer who frames and sells his best photos. It is a long process. Once Johnny finds a photo that he thinks will sell, he spends time editing and enhancing the photo on his computer.<br>Then he prints the photo, cuts the mat and mats the photo. Finally, he frames the photo so that it is ready to go. The chart below shows the mean and standard deviation of the number of minutes required for various parts of this process.<br>What is the total mean time it takes Johnny to fully prepare one photo for sale?<br>What is the total mean time it takes Johnny to fully prepare one photo for sale?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Mean</th><th scope=\"col\">Standard Deviation</th></tr></thead><tbody><tr><td>Photo Editing on Computer</td><td>16.2</td><td>3.7</td></tr><tr><td>Printing and Matting</td><td>12.7</td><td>2.4</td></tr><tr><td>Framing</td><td>8.2</td><td>2.2</td></tr></tbody></table>"
@@ -28,7 +28,7 @@
     },
     {
       "letter": "D",
-      "text": "$45.4\\text{ minutes}$"
+      "text": "45.4 minutes"
     },
     {
       "letter": "E",
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To find the sum of the mean of two random variables, simply add the individual means.\n\nLet μE\nrepresent the mean time it takes for photo editing on the computer.\nLet μM\nrepresent the mean time it takes for printing and matting.\nLet μF\nrepresent the mean time it takes for framing.\n\nThen:\n\nμE+M+F=μE+μM+μF\n\n=16.2+12.7+8.2\n\n=37.1\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. This is the sum of the standard deviations.\n\nChoice 'B' is incorrect. This is the total time required for photo editing only.\n\nChoice 'D' is incorrect. We cannot simply add all of the values in the table.\n\nChoice 'E' is incorrect. Regardless of whether or not the two random variables are independent, the mean of the sums will always equal the sum of the means.",
   "tags": [
     "VAR-5.F.1",
     "VAR-5.F",

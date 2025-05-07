@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThere are two goals for verifying conditions for conducting a one-sample $t$-test:\n\nFirst, independence must be checked. To do this there must be mention of some kind of random selection or randomized experiment. And then it must be checked that the population is at least $10$ times greater than that of the sample size.\n\nSecond, there must be evidence that there is an approximately normal shape to the sampling distribution. If the sample size is greater than $30$, then this condition is met. If the sample size is less than $30$ then there must not be any outliers or more than a small degree of skewness.\n\nThe correct answer above gives a sample size of $100$ which is well above $30$, it states that the people in the sample come from a population of $2000$ which is greater than $10$ times $100$, and, of course, it mentions that the sample is chosen randomly. Thus, the conditions are verified.\n\nSo, Choice 'D' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it chooses a sample of $100$ from a population of $500$ which is only $5$ times the size of the sample.\n\nChoice 'B' is incorrect because it fails to mention that the sample will be chosen randomly.\n\nChoice 'C' is incorrect because the sample size is very small and there is no information available to check for skewness or outliers.\n\nChoice 'E' is incorrect because the small sample includes two outliers indicating possibly strong skewness of the sampling distribution.",
   "tags": [
     "4.C",
     "VAR-7.D",

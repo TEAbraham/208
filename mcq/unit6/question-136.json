@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This is a $2$ proportion $z$-interval. The formula for the $2$ proportion $z$-interval is:\n\n$${ (\\hat { p } }_{ 1 }-{ \\hat { p } }_{ 2 })\\pm { z }^{ * }\\sqrt { \\dfrac { ({ \\hat { p } }_{ 1 })(1-{ \\hat { p } }_{ 1 }) }{ { n }_{ 1 } } +\\dfrac { { \\hat { (p } }_{ 2 })({ 1-\\hat { p } }_{ 2 }) }{ { n }_{ 2 } } }$$\n\nNote that the standard deviation for the difference of two proportions is given on the AP formula sheet.\n\nWe can use process of elimination to solve this. To find the critical value ($z^*$) for $95\\%$, look at table B ($t$-distribution of critical values) and look directly above $95\\%$.\n\nAn alternative approach to solving this: if you do not know the formula, run the $2$ proportion $z$-interval on your calculator and get the interval. Then, do the calculations out for all the choices and see which one matches your interval you received on the calculator.\n\nExplanation of Distractors\n\nWe can see that for $95\\%$, the critical value is $1.96$ on the t-distribution. This value comes from the normal distribution. Therefore, we can eliminate Choices 'A' and 'C'.\n\nChoice 'D' is incorrect because the interval was pooled. We pool in $2$ proportion $z$-tests, but not in $2$ proportion $z$-intervals.\n\nChoice 'E' is incorrect because the standard error (the content in the square root) component is wrong.",
   "tags": [
     "VAR-6.K",
     "3.E",

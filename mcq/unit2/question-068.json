@@ -9,7 +9,7 @@
   ],
   "title": "Driving Speed and Stopping Distance",
   "difficulty": "Hard",
-  "question_text": "Examine the scatterplot below, used to predict stopping distance based off motorists’ speed.<br><br><br><br><br>Which feature does this scatterplot show that might make one hesitate to use this as a model for prediction?",
+  "question_text": "Examine the scatterplot below, used to predict stopping distance based off motorists’ speed.<br>Created for Albert.io. Copyright 2017. All rights reserved.<br><br>Which feature does this scatterplot show that might make one hesitate to use this as a model for prediction?",
   "image_files": [
     "images/question-068-img1.jpg"
   ],
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The data appears to be much more spread out at higher speeds, making predictions less accurate.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; the correlation appears strong.\n\nChoice 'B' is incorrect; there is more than enough data for this scatterplot.\n\nChoice 'D' is incorrect; the data does NOT level off; if anything, there is a slight increase in the scatterplot at higher speeds.\n\nChoice 'E' is incorrect; this might be a problem if one wanted to use this model for speeds of faster than $40$ miles per hour, but otherwise, it is suitable for speeds up to $40$ miles per hour.",
   "tags": [
     "4.B",
     "DAT-1.C",

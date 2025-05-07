@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A hypothesis test will only determine evidence (low $P$-value) or fail to find evidence (high $P$-value) in order to reject the null hypothesis.\n\nThere is insufficient evidence from this data to reject the null hypothesis (which states there is no difference in more working hours). Thus, there is insufficient evidence for claiming the alternative hypothesis (which there is an increase in working hours) is true.\n\nSince $P$ is higher than any common alpha levels ($P = 0.304$), there is insufficient evidence from this data to claim that bagels cause people to work more hours.\n\nWhile it is possible that bagels could increase workers hours, this experiment simply failed to show that or to disprove it. Therefore, Choices 'A', 'B', and 'D' are incorrect.\n\nNote that Choice 'C' is incorrect as this statement implies that no conclusions can be reached.\n\nLastly, the word “cause” is in the solutions since this is a randomized experiment.\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "4.B",
     "DAT-3",

@@ -8,10 +8,7 @@
   "title": "Difference in Reading Times",
   "difficulty": "Hard",
   "question_text": "A set of parents is wondering if there is a difference in the average amount of time spent reading by their third-grader and their fifth-grader.<br>Over the next $35$ nights, the parents record the amount of reading done by both of their kids. The parents then found some summary statistics and graphed the differences between the fifth-grader and the third-grader.<br>Can the parents claim there is a difference in the average reading times between their two kids?",
-  "image_files": [
-    "images/question-009-img1.jpeg",
-    "images/question-009-img2.jpeg"
-  ],
+  "image_files": [],
   "tables": [],
   "choices": [
     {
@@ -36,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "The parents are looking at two-sample data for their fifth-grader and their third-grade student's average reading times. When deciding if there is a difference between the two different samples, the parents need to determine if there is significant enough evidence to claim there is a difference.\n\nWhen looking at our data, even though the mean is positive, indicating a slight difference between the two readers, when you look at the dot plot, $0$ is an outcome indicating there is a possibility of no difference.\n\nTherefore, the parents do not have convincing evidence of a difference when it comes to the average reading times of their two kids.\n\nChoice 'D' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nThe parents are looking at two-sample data for their fifth-grader and their third-grade student's average reading times. When deciding if there is a difference between the two different samples, the parents need to determine if there is significant enough evidence to claim there is a difference.\n\nWhen looking at our data, even though the mean is positive, indicating a slight difference between the two readers, when you look at the dot plot, $0$ is an outcome indicating there is a possibility of no difference.\n\nTherefore, the parents do not have convincing evidence of a difference when it comes to the average reading times of their two kids.\n\nChoice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. As mentioned above, the mean is positive, indicating a slight difference between the two readers. But, the mean cannot be the only measure examined to determine if there is a difference.\n\nChoice 'B' is incorrect. Although the sampling distribution is approximately normal, this will not be enough evidence to prove or disprove a difference in the two reading times.\n\nChoice 'C' is incorrect. The interquartile range is a measure of distance, therefore the IQR should always be positive. This would not be an indication of a difference for reading time.\n\nChoice 'E' is incorrect. Even though the graph is roughly symmetric, the shape of the graph is not an indicator of a difference.",
   "tags": [
     "VAR-1.I.1",
     "1.A",

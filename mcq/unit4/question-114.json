@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The number of eggs that a robin will lay at one time is a random variable that we will call $x$.\n\nThe formula for calculating the mean of a random variable is:\n\nμX=∑(xi)(pi)\n\n=(x1)(p1)+(x2)(p2)+......+(xn)(pn)\n\nSimply fill in the formula:\n\nμX=(2)(0.18)+(3)(0.41)+(4)(0.39)+(5)(0.02)=3.25\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. While it could happen, the smallest possible value of X\nis unlikely to be the mean, especially with such a low probability attached to it.\n\nChoice 'B' is incorrect. While 3\neggs corresponds to the highest individual probability, the mean, or expected value weights the probabilities of all outcomes. Also, it is not necessary that the mean be a whole number. Do not round down simply to arrive at a whole number.\n\nChoice 'D' is incorrect. We cannot simply average the possible values of the random variable to arrive at the mean.\n\nChoice 'E' is incorrect. The probability of 3\neggs and the probability of 4\neggs are somewhat close, however, we can't simply choose the larger number of eggs from among those with the greatest probability.",
   "tags": [
     "VAR-5.C.2",
     "VAR-5",

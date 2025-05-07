@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "${ \\mu }_{ \\overline { x } }=12,{ \\sigma }_{ \\overline { x } }=0.01$"
+      "text": "μ\n¯\nx\n=12,σ\n¯\nx\n=0.01"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The mean of the sampling distribution of the mean, μ\n¯\nx\n, is equal to the population mean. In this case, we are told that the machines are calibrated to a mean of 12 ounces\n, so this is the population mean.\n\nThe standard deviation of the sampling distribution, σ\n¯\nx\n, can be found using the formula below where σ\nis the population standard deviation (0.25 ounces\n) and n\nis the sample size, 25\n.\n\nσ\n¯\nx\n=\nσ\n√\nn\n\n=\n0.25\n√\n25\n\n=0.05\n\nExplanation of Distractors\n\nChoices 'A' and 'B' are incorrect. The mean of the sampling distribution would be 300 ounces\nif the problem asked for the sampling distribution of the total weight of the sample bags each day.\n\nChoices 'C' and 'E' are incorrect. Some students use the sample size in the denominator instead of the square root of the sample size. That mistake leads to an incorrect standard deviation of 0.01\n.",
   "tags": [
     "UNC-3.Q.1",
     "UNC-3",

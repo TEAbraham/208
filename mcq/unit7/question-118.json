@@ -26,12 +26,11 @@
     },
     {
       "letter": "E",
-      "text": "H0:p1=0.41,p2=0.34\nHa:p1≠0.41,p2≠0.34"
+      "text": "$H_{0}: { { p }_{ 1 } }= 0.41, { { p }_{ 2 } }= 0.34$\n$H_{a}:{ { p }_{ 1 } }\\neq 0.41, { { p }_{ 2 } }\\neq 0.34$"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When setting up hypotheses for a two-proportion Z-test, the data from the survey never factors into the hypothesis set up.\n\nThe null hypothesis will always be p1=p2.\n\nIn this case, the alternative is p1>p2 because the problem states the athletic director wishes to see if a higher percentage of males participate than do females.\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "1.F",
     "VAR-7.G.1",

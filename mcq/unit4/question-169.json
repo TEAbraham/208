@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To find this answer, we must set up a series of equations.\n\n$$P(\\text{more than }8) = P(9)+P(10)$$\n\n$$P(9\\text{ chips work}) = (\\text{first }9\\text{ work})(10^\\text{th}\\text{ chip does not work})(\\text{number of ways this can happen})$$\n\n$$=0.95^9\\cdot 0.05^1\\cdot { _{ 10 }{ C }_{ 9 } }= 0.3151$$\n\n$$P(10\\text{ chips work}) = (\\text{first }10\\text{ work}) $$\n\n$$= 0.95^10= 0.5987$$\n\n(Note: There is only one way this can happen, so no multiplication is necessary)\n\n$$P(9)+P(10) = 0.3151+0.5987 = 0.9138$$\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "UNC-3.B",
     "3.A",

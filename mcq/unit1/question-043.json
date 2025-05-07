@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Although each type of coin has a value that can be expressed numerically, Joey wants to display the relative frequency of each type of coin - not the value of each coin.\n\nSince type of coin is his variable of interest, this would be considered a categorical variable.\n\nOf the choices provided, a pie chart is the only type of graph that would be appropriate for displaying data related to a categorical variable.\n\nAdditionally, a pie chart is able to display the relative frequencies (percents for each type of coin) by sectioning off the pie into corresponding percentages of the overall area. Therefore, Choice 'C' is the correct choice.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. A boxplot is a good way to display the distribution of a quantitative variable. It cannot be used to display relative frequencies.\n\nChoice 'B' is incorrect. While a histogram could be used to display relative frequencies, a histogram is more appropriate for displaying the distribution of a quantitative variable.\n\nChoice 'D' is incorrect. A scatterplot is used to display the relationship between two quantitative variables. It is not at all appropriate when dealing with a categorical variable.\n\nChoice 'E' is incorrect. A stemplot is a good way to display the distribution of a quantitative variable. It cannot be used to display relative frequencies.",
   "tags": [
     "UNC-1.C.3",
     "2.A",

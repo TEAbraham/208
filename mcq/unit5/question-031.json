@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The Central Limit Theorem states that given a large number of independent random variables, the distribution of those data will be approximately normal.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The Law of Large Numbers states that if we repeat a random event many times the proportion of success will, in the long run, approach the true probability.\n\nChoice 'B' is incorrect. The Law of Averages is the commonly held misconception that a random event needs to somehow make up for past outcomes. For example, I haven't rolled a 5 in a long time so I'm more likely to get a 5 on my next roll.\n\nChoice 'C' is incorrect. The Law of Diminishing Returns describes the fact that sample size would need to be quadrupled in order to cut the margin of error in half.\n\nChoice 'E' is incorrect. While independence is an important concept in probability, there is no Law of Independence.",
   "tags": [
     "UNC-3.H.2",
     "UNC-3.H.1",

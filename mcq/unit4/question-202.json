@@ -41,8 +41,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The difference between a geometric distribution and a binomial distribution is that in a geometric distribution we are interested in the number of trials it will take for our first success whereas in a binomial distribution the number of trials is fixed.\n\nChoices 'C' and 'D' can be eliminated because in a geometric distribution, the first success cannot occur when\nx\n=\n0\n.\n\nThe formula for a geometric distribution is:\n\n(\np\n)\n∙\n(\n1\n−\np\n)\nn\n−\n1\n\n...where\nn\nis the number of trials it takes for the first success, and\np\nrepresents the probability of success.\n\nThe probability that the success happens on the first try is\n0.70\n.\n\nChoice 'B' is our answer because there were\n3500\nout of the\n5000\nsamples(\n0.70\n) on the first try.\n\nExplanations of Distractors Choice 'A' is incorrect this represents a geometric distribution with\np\n=\n0.25\nChoices 'C' and 'D' were already discussed. Choice 'E' is incorrect as the geometric distribution must be skewed right.",
   "tags": [
     "UNC-3.G.1",
     "4.B",

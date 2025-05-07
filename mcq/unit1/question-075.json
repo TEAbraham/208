@@ -9,27 +9,25 @@
   ],
   "title": "Girls' Shoes",
   "difficulty": "Medium",
-  "question_text": "The graph below shows the distribution of the number of shoes for a group of $37\\text{ girls}$.<br>Which of the following choices BEST estimates the mean and standard deviation of the distribution?<br><br><br><br>",
-  "image_files": [
-    "images/question-075-img1.png"
-  ],
+  "question_text": "The graph below shows the distribution of the number of shoes for a group of $37\\text{ girls}$.<br>Which of the following choices BEST estimates the mean and standard deviation of the distribution?<br>",
+  "image_files": [],
   "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The mean of the distribution is around\n20\n pairs of shoes\nwith a standard deviation of around\n13\n pairs of shoes\n."
+      "text": "The mean of the distribution is around $20\\text{ pairs of shoes}$ with a standard deviation of around $13\\text{ pairs of shoes}$."
     },
     {
       "letter": "B",
-      "text": "The mean of the distribution is around\n13\n pairs of shoes\nwith a standard deviation of around\n20\n pairs of shoes\n."
+      "text": "The mean of the distribution is around $13\\text{ pairs of shoes}$ with a standard deviation of around $20\\text{ pairs of shoes}$."
     },
     {
       "letter": "C",
-      "text": "The mean of the distribution is around\n9\n pairs of shoes\nwith a standard deviation of around\n3\n pairs of shoes\n."
+      "text": "The mean of the distribution is around $9\\text{ pairs of shoes}$ with a standard deviation of around $3\\text{ pairs of shoes}$."
     },
     {
       "letter": "D",
-      "text": "The mean of the distribution is around\n30\n pairs of shoes\nwith a standard deviation of around\n25\n pairs of shoes\n."
+      "text": "The mean of the distribution is around $30\\text{ pairs of shoes}$ with a standard deviation of around $25\\text{ pairs of shoes}$."
     },
     {
       "letter": "E",
@@ -37,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The distribution of the number of shoes is skewed right with most of the observations on the lower end of the horizontal axis. In a skewed right distribution, the mean is higher than the median. So if we can locate the median, we will know that the mean will be higher than that number.\n\nThe median is found by counting the observations in each bin. There are $37$ data from girls shown in the histogram, so the median is the $19^\\text{th}$ value. Counting up from the bottom, the $19^\\text{th}$ is between $13$ and $19$. The mean should be higher than that, so $20$ is a reasonable mean, as shown in Choice 'A'.\n\nStandard deviation helps to describe the variability in the distribution. A majority (but not ALL) of the measurements should fall within one standard deviation of the mean. Adding and subtracting $13$ from the mean of $20$ includes a majority of the responses given.\n\nExplanation of Distractors\n\nSince Choices 'B' and 'C' both contain mean values less than $20$, we can eliminate them.\n\nChoice 'D' demonstrates a mean value of $30$, which is much higher than the mean of the data. Students may have found this answer by finding the average of the highest and lowest values in the data set: $\\dfrac{5+55}{2}=\\dfrac{60}{2}=30$.\n\nChoice 'E' is incorrect because we can make the following assumptions about the data: they are independent, the sample size is $37$, and the distribution is not strongly skewed. As such, we can assume that the distribution is nearly normal.",
   "tags": [
     "UNC-1.H.1",
     "UNC-1.H",

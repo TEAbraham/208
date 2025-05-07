@@ -8,7 +8,7 @@
   ],
   "title": "Comparing Reading Preferences at Different Ages",
   "difficulty": "Medium",
-  "question_text": "A librarian was interested in whether people tend to read different types of books at different stages of their lives. To investigate, as people were checking books out of the library she kept track of their age category and the type(s) of books they were checking out. She did this for several days. Results are shown in the table below.<br>Which of the following statements is NOT indicated by the data?",
+  "question_text": "A librarian was interested in whether people tend to read different types of books at different stages of their lives. To investigate, as people were checking books out of the library she kept track of their age category and the type(s) of books they were checking out. She did this for several days. Results are shown in the table below.<br>Which of the following statements is NOT indicated by the data?<br>Which of the following statements is NOT indicated by the data?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Fiction Only</th><th scope=\"col\">Non-Fiction Only</th><th scope=\"col\">Both</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Age 16-25</td><td>41</td><td>29</td><td>20</td><td>90</td></tr><tr><td>Age 26-50</td><td>42</td><td>38</td><td>21</td><td>101</td></tr><tr><td>Over age 50</td><td>31</td><td>44</td><td>18</td><td>93</td></tr><tr><td>Total</td><td>114</td><td>111</td><td>59</td><td>284</td></tr></tbody></table>"
@@ -16,15 +16,15 @@
   "choices": [
     {
       "letter": "A",
-      "text": "Individuals over the age of 50 were most likely to check out non-fiction books only compared to individuals in the other age groups."
+      "text": "Individuals over the age of $50$ were most likely to check out non-fiction books only compared to individuals in the other age groups."
     },
     {
       "letter": "B",
-      "text": "Individuals in the 16−25 age category were most likely to check out both types of books compared to individuals in the other age groups."
+      "text": "Individuals in the $16-25$ age category were most likely to check out both types of books compared to individuals in the other age groups."
     },
     {
       "letter": "C",
-      "text": "Individuals in the 26−50\nage category were most likely to check out fiction books only compared to individuals in the other age groups."
+      "text": "Individuals in the $26-50$ age category were most likely to check out fiction books only compared to individuals in the other age groups."
     },
     {
       "letter": "D",
@@ -32,12 +32,11 @@
     },
     {
       "letter": "E",
-      "text": "About 21%\nof the individuals in this sample checked out both types of books."
+      "text": "About $21\\%$ of the individuals in this sample checked out both types of books."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The proportion of individuals in each age category who checked out non-fiction books only can be calculated as follows:\n\nAge 16−25:\n29\n90\n=0.322\nAge 26−50:\n38\n101\n=0.376\nOver age 50:\n44\n93\n=0.473\n\nLet us approach each statement and evaluate its accuracy.\n\nThe data confirms the statement made in Choice 'A'. Since we are looking for the statement that is NOT supported by the data, Choice 'A' is not the answer.\n\nThe proportion of individuals in each age category who checked out both types of books can be calculated as follows:\n\nAge 16−25:\n20\n90\n=0.222\n\nAge 26−50:\n21\n101\n=0.208\n\nOver age 50:\n18\n93\n=0.194\n\nThe data confirms the statement made in Choice 'B'. Since we are looking for the statement that is NOT supported by the data, Choice 'B' is not the answer.\n\nThe proportion of individuals in each age category who checked out fiction books only can be calculated as follows:\n\nAge 16−25:\n41\n90\n=0.456\n\nAge 26−50:\n42\n101\n=0.416\n\nOver age 50:\n31\n93\n=0.333\n\nThe data shows that individuals in the 16−25\nage category were most likely to check out fiction books only. This contradicts the statement given in Choice 'C'. Since we are looking for the statement that is NOT supported by the data, Choice 'C' is the answer.\n\nChoice 'D' is not the answer. This statement is confirmed by the calculations above which show that the proportions decreased from\n0.456\nto\n0.416\nto\n0.333\nas the age categories increased.\n\nChoice 'E' is not the answer. This statement can be confirmed by the following calculation:\n\n59\n284\n=\n0.208\n≈\n21\n%",
   "tags": [
     "UNC-1.Q.1",
     "2.C",

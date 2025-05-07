@@ -22,11 +22,11 @@
     },
     {
       "letter": "C",
-      "text": "The populations are most likely NOT at least $10$ times each sample."
+      "text": "The populations are most likely NOT at least 10 times each sample."
     },
     {
       "letter": "D",
-      "text": "At least one of the following is not at least 5:\n${N}_{1}\\cdot \\text{(pooled p)}$\nN2⋅(pooled p) \nN1⋅(1-pooled p) \nN2⋅(1-pooled p)"
+      "text": "At least one of the following is not at least 5:\nN1⋅(pooled p)\nN2⋅(pooled p) \nN1⋅(1-pooled p) \nN2⋅(1-pooled p)"
     },
     {
       "letter": "E",
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Two proportion Z tests require a roughly normal sampling distribution of the difference of sample means. As long as the values mentioned in Choice 'D' are at least 5 (or some textbooks require 10), this distribution will be roughly normal and the condition will be met.\n\nPooled p\n:\n\n(8+6)\n(10+12)\n=\n14\n22\n=0.636\n\nIn this case, we would then determine:\n\n12(1−0.636) and 10(1−0.636)\n\n4.368 and 3.64\n\n...are both less than 5\n.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; this situation deals with two samples to determine how people feel about the mayor from one year to the next. Therefore, an inference is reasonable in this situation.\n\nChoice 'B' is incorrect; the problem makes clear that the data comes from simple random samples.\n\nChoice 'C' is incorrect; even though the problem states that this is a small town, it’s reasonable to assume the populations are greater than\n10\n⋅\n12\n=\n120\nand\n10\n⋅\n10\n=\n100\n.\n\nChoice 'E' is incorrect; this simply is not a condition necessary for two-proportion\nZ\nprocedures.",
   "tags": [
     "4.C",
     "VAR-6.J",

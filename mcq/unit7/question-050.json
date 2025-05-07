@@ -8,7 +8,7 @@
   ],
   "title": "SuperChips",
   "difficulty": "Easy",
-  "question_text": "There had been some recent complaints about the SuperChips Cookie Company that there were fewer chocolate chips per cookie than there used to be. Ten years ago, there was shown to be an average of $12$ chips per cookie. The current company president decided to randomly sample $100$ cookies off the line and have the chips counted. He wanted to show that there were even more chips per cookie now.\nWrite the hypotheses that would be used for such a test.",
+  "question_text": "There had been some recent complaints about the SuperChips Cookie Company that there were fewer chocolate chips per cookie than there used to be. Ten years ago, there was shown to be an average of $12$ chips per cookie. The current company president decided to randomly sample $100$ cookies off the line and have the chips counted. He wanted to show that there were even more chips per cookie now.\nWrite the hypotheses that would be used for such a test.<br>Write the hypotheses that would be used for such a test.",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTwo hypotheses must be written for this test for a population mean: a null hypothesis and an alternative hypothesis. The hypotheses for this test always use the Greek letter mu, $\\mu$.\n\nThe null hypothesis always uses an equals sign. The mu is set equal to the value believed to be, or hypothesized to be, true. In this problem it was shown there to be $12$ chips per cookie in the past, so we would write $H_{0}: \\mu=12$.\n\nThe alternative hypothesis is what we are trying to prove. This time the sign could be a $<$, $>$, or a $\\neq$ depending upon the wording of the question. In this problem the president is hoping to show that there are now even more chips per cookie, so we would write $H_{a}: \\mu>12$.\n\nSo, Choice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect because the two hypotheses have their signs reversed.\n\nChoice 'C' is incorrect because the null hypothesis uses the number $10$ (from the number of years) instead of the $12$.\n\nChoice 'D' is incorrect because both hypotheses use an $\\bar{x}$ instead of a $\\mu$.\n\nChoice 'E' is incorrect because the alternative hypothesis uses an $\\bar{x}$ instead of a $\\mu$.",
   "tags": [
     "VAR-7.C",
     "1.F",

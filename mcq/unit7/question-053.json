@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When dealing with sample means, the $T$ distribution should be used. The exception to this is the standard normal distribution ($Z$) can be used if the population standard deviation is known or if the sample is very large. However, neither of these assumptions are given in the problem.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "VAR-7.B.2",
     "VAR-7",

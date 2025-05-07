@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The length of a confidence interval is always twice the margin of error. Therefore, the margin of error for this problem is:\n\n$$\\dfrac{(74-67)}{2} = 3.5\\%$$\n\nUse the following equation, with the corresponding variables:\n\n$$m=z^*\\sqrt { \\frac { p^*(1-p^*) }{ n } } $$\n\nwhere $m = 3.5\\%$, $p^* = 0.705$, and $z^* = 2.576$ from the standard normal table.\n\nSolve for sample size to get $n = 1126.59$. Round up to $1{,}127$ since sample size must be a whole number. Then use the same equation above, now substituting $1.96$ for $z^*$ to find the margin of error to be $2.66\\%$.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "UNC-4.C.4",
     "UNC-4.C.3",

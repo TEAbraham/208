@@ -12,9 +12,7 @@
   "title": "Normal Distribution: Mitchell's Serve",
   "difficulty": "Medium",
   "question_text": "The distribution of the speed of Mitchell’s tennis serve is approximately normal with a mean of $105.9$ miles per hour and a standard deviation of $7.4$ miles per hour.<br>If Mitchell is asked to serve at $80$%, which expression represents the speed (in miles per hour) at the $80$th percentile of this distribution?",
-  "image_files": [
-    "images/question-222-img1.PNG"
-  ],
+  "image_files": [],
   "tables": [],
   "choices": [
     {
@@ -39,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct choice.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The distribution is stated as normal therefore we can use the z-score formula.\n\nIf $x$ is an observation from a normal distribution with a known mean and standard deviation, the z-score of $x$ is:\n\n$$z=\\dfrac { \\text{x-mean }}{ \\text{standard deviation} } $$\n\n1) Substitute the values into the formula:\n\n$$z=\\dfrac { x-105.9 }{ 7.4 }$$\n\n2) We need to find the z-score for $80$%. This can be done either by using the calculator or table A.\n\nMethod 1: Using the TI-84 calculator:\n\nPress 2nd then Vars to get into the distribution menu. Using the InvNorm function enter:\n\n\n\nArea represents the area to the left. In this case, we want the cutoff for the bottom $80$% so the area would be $0.80$. The mean and standard deviation of a z-score are $0$ and $1$ respectively.\n\nMethod 2 for finding the z-score of $80$%: Using table A:\n\nLook in the middle of the chart look for an entry closest to $0.80$. This is the entry corresponding to a z-score of $0.84$.\n\nSolve for $x$:\n\n$$0.84=\\dfrac { x-105.9 }{ 7.4 } \\\\ (0.84)(7.4)=(\\dfrac { x-105.9 }{ 7.4 } )(7.4)\\\\ (0.84)(7.4)+105.9=x-105.9+105.9\\\\ 0.84(7.4)+105.9=x$$\n\nChoice 'E' is our answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as the z-score of $-0.84$ is the $20$ percentile of the distribution.\n\nChoice 'B' is incorrect as $-0.80$ is not the z-score for the $80$th percentile.\n\nChoice 'C' is incorrect as $0.20$ was found from taking $100$% minus $80$%.\n\nChoice 'D' is incorrect as $0.80$ represents the $80$th percentile and not the z-score for $80$ percent.",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

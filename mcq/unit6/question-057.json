@@ -8,7 +8,7 @@
   ],
   "title": "$p$-value Interpretation",
   "difficulty": "Medium",
-  "question_text": "A study reported that the proportion of college students who experience heart palpitations after drinking an energy drink is $0.18$. The dean of a university believes that the proportion of students at his university who experience heart palpitations after drinking an energy drink is less than $0.18$. The dean randomly sampled students from the university who had just had an energy drink and found that $16\\%$ of them had experienced heart palpitations.<br>All conditions for inference were met, and the $p$-value for the appropriate hypothesis test was $0.30$.\nWhich of the following statements is the best interpretation of the $p$-value?",
+  "question_text": "A study reported that the proportion of college students who experience heart palpitations after drinking an energy drink is $0.18$. The dean of a university believes that the proportion of students at his university who experience heart palpitations after drinking an energy drink is less than $0.18$. The dean randomly sampled students from the university who had just had an energy drink and found that $16\\%$ of them had experienced heart palpitations.<br>All conditions for inference were met, and the $p$-value for the appropriate hypothesis test was $0.30$.\nWhich of the following statements is the best interpretation of the $p$-value?<br>Which of the following statements is the best interpretation of the $p$-value?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The definition of the $p$-value is the probability, assuming the null hypothesis is true, that the statistic would take a value as extreme or more extreme from the null hypothesis than the one actually observed.\n\nBy this definition, we can eliminate Choices 'A', 'B', and 'E'.\n\nDeciding between Choices 'C' and 'D', let us refer to the hypotheses:\n\n$$H_0: p = 0.18 $$\n\n$$H_A: p < 0.18$$\n\nThe alternative hypothesis states the dean is trying to prove is less than $18\\%$ of students who drink energy drinks at his university experience heart palpitations. The statistic he got when he gathered his data was $16\\%$ and it yielded a $p$-value of $0.30$. This indicates if the null hypothesis were true, then observing results of at most $16\\%$ would happen $30\\%$ of the time.\n\nThe reason it is at most is that he is trying to prove that less than $18\\%$ of students at his university experience heart palpitations. Based on the definition of the $p$-value, the values of the statistic would take a value as far or farther away from the value of the null hypothesis($18\\%$) than the statistic in our sample($16\\%$).\n\nFor example, $15\\%$ is further away from our null hypothesis value of $18\\%$ than $16\\%$ is. However $17\\%$ is not further away from $18\\%$ than $16\\%$ is.\n\nTest-taking tip: in essence, whatever the inequality sign for the alternative is, that will indicate the way you want to describe $p$-value.\n\nExplanation of Distractors\n\nChoices 'A', 'B', and 'E' have already been eliminated.\n\nChoice 'D' is incorrect because the $p$-value if it was at least $16\\%$ would be $1-0.30=0.70$.",
   "tags": [
     "4.B",
     "DAT-3",

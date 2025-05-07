@@ -33,12 +33,11 @@
     },
     {
       "letter": "E",
-      "text": "77%\nof the adults in the sample saw the movie 4\nor more times."
+      "text": "77\n%\nof the adults in the sample saw the movie\n4\nor more times."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When reading an ogive from left to right, we can see that each point adds to the running total for the variable. For example, the point\n(\n2\n,\n0.23\n)\non this ogive means that\n23\n%\nof people have seen the film two times or less (that's the cumulative part).\n\nThe flattening of the curve at\n7\n,\n8\n,\nand\n9\nviewings indicates that no one was added into the running total for those numbers. There were some adults who saw the movie six times, but none who saw it\n7\n,\n8\n,\nor\n9\ntimes. Then one person saw the movie\n10\ntimes. That person is an outlier in this data set.\n\nChoice 'B' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' refers to the point\n(\n10\n,\n1\n)\n. This means that\n100\n%\nof the adults in the sample have seen the film\n10\ntimes or less.\n\nChoice 'C' is incorrect. The interpretation for the point\n(\n1\n,\n0\n)\nis that no one saw the movie\n1\nor fewer times.\n\nChoice 'D' is incorrect. An ogive does not show any trends that develop over time.\n\nChoice 'E' would be correct if it said \"\n77\n%\nof the adults in the sample saw the movie 4 or fewer times.\"",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.1",

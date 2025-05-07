@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Power is the probability of correctly rejecting the null hypothesis.\n\nIt will occur when the significance level is the largest as the null hypothesis will have a higher probability of being rejected. Choices 'A' and 'B' can be eliminated.\n\nRegarding the sample size, the power will be the greatest when the sample size is the largest. The reason for this is with a larger sample size we will be more likely to correctly reject the null hypothesis. Choices 'C' and 'E' can be eliminated.\n\nIt occurs when the sample size and the significance level are the largest. Therefore, our answer is Choice 'D'.\n\nNote: to have the greatest power, we always want the largest significance level and sample size.",
   "tags": [
     "1.F",
     "VAR-6.D.5",

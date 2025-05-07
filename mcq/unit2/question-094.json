@@ -9,7 +9,7 @@
   ],
   "title": "Speed vs. Tickets",
   "difficulty": "Hard",
-  "question_text": "<br><br><br><br>Researchers surveyed a group of motorists, documenting their average speeds and recording the lifetime total number of speeding tickets each motorist had received. The data is recorded in the scatterplot above.<br>The point $(59,10)$ can best be described as",
+  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved.<br><br>Researchers surveyed a group of motorists, documenting their average speeds and recording the lifetime total number of speeding tickets each motorist had received. The data is recorded in the scatterplot above.<br>The point $(59,10)$ can best be described as",
   "image_files": [
     "images/question-094-img1.jpg"
   ],
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This point is a regression outlier, as it is outside the overall pattern of the rest of the data. However, it is not influential, as its removal would not greatly change the slope or correlation since the point is not far away from the rest of the points in terms of its\nx\nvalue.\n\nInfluential points typically need to be far out on the\nx\n-axis to have additional leverage.\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "DAT-1.F.2",
     "DAT-1.F.1",

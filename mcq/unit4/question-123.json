@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "This may simply be coincidence. If the coin is fair, we would expect about 50% of the tosses to result in “heads”, but only if the coin is tossed many, many times. 10 tosses is not that many!"
+      "text": "This may simply be coincidence. If the coin is fair, we would expect about $50\\%$ of the tosses to result in “heads”, but only if the coin is tossed many, many times. $10$ tosses is not that many!"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "According to the Law of Large Numbers, the relative frequency of an event will approach the theoretical probability of the event, but only in a large number of trials. $10$ tosses does not represent a large number of trials.\n\nChoices 'A' and 'B' are incorrect. Both rely to some extent upon the Law of Averages. The Law of Averages is actually a flawed belief that the theoretical probability should be reached in the short term and therefore if the coin really is fair it needs to start landing on “tails” in a hurry!\n\nChoice 'C' is incorrect. If the coin lands on tails $70\\%$ of the time after many number of tosses, then we might have reason to believe this statement to be true. We might even conduct a hypothesis test to evaluate our belief. However, even if a significance test returned statistically significant results, this statement is worded too strongly. We can't say for absolute certain that there is a $70\\%$ chance of “heads”.\n\nChoice 'D' is incorrect. The Law of Large Numbers gives us no way to determine whether or not the coin is weighted and cannot provide evidence related to any particular conclusion.\n\nNOTE: although not based on the Law of Large Numbers, we can also establish the fact that this result may be coincidence by conducting a one sample $z$-test for proportions. On a multiple choice problem, the easiest way to do so is by using the TI83/84 graphing calculator.\n\nAssuming the coin is fair, we would expect the proportion of “heads” to be $0.50$. Therefore, we establish our null hypothesis as: ${ H }_{ 0 }: p=0.50$ and our alternative hypothesis as: ${ H }_{ a }: p\\neq 0.50$\n\nOn the calculator:\n\nThe calculator will return the p-value of p=0.206. This result is not statistically significant at any acceptable α level.\n\nTherefore, we do not have sufficient evidence to suggest that the proportion of “heads” that would be obtained from this coin is not equal to 0.50.\n\nSo it seems Sneaky Sam simply is not so sneaky after all!",
   "tags": [
     "VAR-5.D.1",
     "VAR-5.D",

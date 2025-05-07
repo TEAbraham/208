@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "If the significance level is increased then it is more likely that the null hypothesis will be rejected (meaning the alternative hypothesis is accepted).\n\nThe probability of a type I error is the significance level. When the significance level increases from $1\\%$ to $5\\%$ the probability of a type I error will increase from $1\\%$ to $5\\%$. Statement I is true.\n\nTherefore we can eliminate Choices 'B' and 'D'.\n\nPower is the probability that the null hypothesis is correctly rejected. When the significance level is increased, the probability of power increases as well. Statement III is true.\n\nTherefore we can eliminate Choice 'A'.\n\nType II error is the complement of power so when the significance level increases the probability of a type II error will decrease. Therefore Statement II is false.\n\nTherefore our answer is Choice 'C'.",
   "tags": [
     "UNC-5",
     "UNC-5.B.2",

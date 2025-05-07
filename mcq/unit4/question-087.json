@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Statement I is correct; independent events can be multiplied, so the probability of events A and B happening at the same time is $P(A) \\times P(B)$. This rule can be extended to multiple events.\n\nStatement II is correct; by definition of independent events, the probability of A occurring stays the same regardless of whether event B occurs.\n\nStatement III is incorrect; this statement states that the probability of A occurring given that B occurs is equal to the probability of B. Even if events are independent, there is no reason to believe that events A and B have equal probability.\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "VAR-4.E.1",
     "VAR-4.E",

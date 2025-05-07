@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Due to sampling variability, different random samples will produce different results. Yet, if the mean we hypothesized in $H_0$ is correct, as we assume it to be, most samples will produce a sample mean that is close to that hypothesized mean.\n\nIf on the other hand, our sample mean is very far from our hypothesized mean, we would consider that to be unusual. We would then say that our results are statistically significant.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Statistically significant and impressive are not equivalent ideas. Also, we never accept the null hypothesis. We only look for evidence that it may be false. If we do not have sufficient evidence, then we fail to reject the null hypothesis.\n\nChoice 'B' is incorrect. We cannot prove that our null hypothesis is false even if we have strong evidence to suggest that it may be false. Remember – being a statistician means never having to say you're certain.\n\nChoice 'C' is incorrect. Statistically significant results would suggest that our null hypothesis is false.\n\nChoice 'D' is incorrect. If our results are statistically significant, then they were not what we expected based upon the assumption that our null hypothesis is true.",
   "tags": [
     "DAT-3.F",
     "4.E",

@@ -29,12 +29,11 @@
     },
     {
       "letter": "E",
-      "text": "Based on the samples of ice cream, we can be 90% confident that the difference in weights of the pint-sized ice cream brands is between −0.13 and 0.21 ounces."
+      "text": "Based on the samples of ice cream, we can be 90%\nconfident that the difference in weights of the pint-sized ice cream brands is between −0.13\nand 0.21\nounces."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThere are two common ways to define a confidence interval using its confidence level. Note that the context and measures of the problem should always be used.\n\nOne way to define the confidence interval in this problem would be to say that in repeated random sampling with the same sample sizes, approximately 95%\nof confidence intervals created will capture the mean difference in weights of the two brands of ice cream.\n\nThe other way would be to say that based on the samples of ice cream, we can be 95%\nconfident that the difference in weights of the pint-sized ice cream brands is between −0.13\nand 0.21\nounces.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because only one end of the interval is used, not the entire interval.\n\nChoice 'C' is incorrect because we are not looking for such a probability and we are comparing the difference in weights, not whether one weighs more than the other.\n\nChoice 'D' is incorrect because this sentence doesn't quite make sense!\n\nChoice 'E' is incorrect because a confidence level of\n90\n%\nis stated rather than the given\n95\n%\n.",
   "tags": [
     "UNC-4.Z",
     "UNC-4.Z.2",

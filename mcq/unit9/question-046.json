@@ -11,7 +11,7 @@
   ],
   "title": "Standard Error of the Slope: Make it Rain!",
   "difficulty": "Easy",
-  "question_text": "An NBA basketball player is interested if there is an association between the amount of time a player practices his three-point shooting(in hours) and the percentage of three pointers made. Since the NBA player took AP Statistics in high school, he knew of a perfect way to design his study and share it with his NBA friends.<br>He randomly selected $20$ NBA players and asked them how much time they spent practicing shooting behind the arc (shooting $3$ pointers). He then looked up their three-point percentage. A computer output from fitting a least squares regression line to the data is shown below.<br>Dependent variable is: % of 3-Pointers Made<br>$R^2 = 91.24\\%$\n$S=0.052$<br>Which of the following is the standard error of the slope?",
+  "question_text": "An NBA basketball player is interested if there is an association between the amount of time a player practices his three-point shooting(in hours) and the percentage of three pointers made. Since the NBA player took AP Statistics in high school, he knew of a perfect way to design his study and share it with his NBA friends.<br>He randomly selected $20$ NBA players and asked them how much time they spent practicing shooting behind the arc (shooting $3$ pointers). He then looked up their three-point percentage. A computer output from fitting a least squares regression line to the data is shown below.<br>Dependent variable is: % of 3-Pointers Made<br>$R^2 = 91.24\\%$\n$S=0.052$<br>Which of the following is the standard error of the slope?<br>Which of the following is the standard error of the slope?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Variable:</th><th scope=\"col\">Coefficient</th><th scope=\"col\">s.e Coeff</th><th scope=\"col\">t-ratio</th><th scope=\"col\">prob</th></tr></thead><tbody><tr><td>Constant:</td><td>30.1</td><td>20.001</td><td>1.505</td><td>.075</td></tr><tr><td>Practice Time</td><td>0.002</td><td>0.000849</td><td>2.356</td><td>0.03</td></tr></tbody></table>"
@@ -39,8 +39,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The standard error the slope can be found by locating the s.e. coeff column. The row that deals with the slope is the practice time. Find where the s.e. coeff column and the practice time row intersect. This number is $0.000849$ which is Choice 'B'.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as the standard error the slope was divided by the $\\sqrt { 20 } $\n\nChoice 'C' is incorrect as the standard error of the y-intercept was used and divided by the $\\sqrt { 20 }$.\n\nChoice 'D' is incorrect as $20.001$ represents the standard error of the y-intercept.\n\nChoice 'E' is incorrect as $0.052$ represents the standard error of the residuals.",
   "tags": [
     "4.B",
     "DAT-3",

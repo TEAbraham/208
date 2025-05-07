@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When constructing intervals for a mean, there are no proportions involved, so this makes no sense in this context.\n\nIf checking conditions for a proportion, a low sample proportion of near $1\\%$ could be a reason for concern, but the stem of this problem states inference for a mean.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect. Strong skewness can be a reason for concern, especially for samples under $30$.\n\nChoice 'C' is incorrect. Outliers are a reason for concern when doing any type of inference of means since the mean is not resistant to outliers\n\nChoice 'D' is incorrect. Smaller samples are a reason for concern, especially when the data does not appear roughly normal or symmetric.\n\nChoice 'E' is incorrect. Inference on means requires data to come from a simple random sample, not a stratified sample.",
   "tags": [
     "UNC-4.P.1",
     "4.C",

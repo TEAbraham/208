@@ -12,7 +12,7 @@
   ],
   "title": "Finding the Median from a Histogram: NBA Payroll",
   "difficulty": "Easy",
-  "question_text": "This histogram below represents the average payroll of $29$ NBA teams. ;qsIn which bin is the median located?<br><br><br><br>",
+  "question_text": "This histogram below represents the average payroll of $29$ NBA teams. ;qsIn which bin is the median located?<br><br>Created for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The median, in this case, is the $15$th value in the data set. In the first bin ($22\\le \\text{ payroll }<28$) the frequency is $12$, which means the first $12$ values are in that bin.\n\nIn the second bin ($28\\le \\text{ payroll }<34$) there are $5$ values in there which indicates the $13$th, $14$th, $15$th, $16$th, and $17$th value are in there.\n\nSince the $15$th value is the median then the correct choice is Choice 'B'.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as the first $12/29$ or $41.3$% of NBA teams are in the payroll. We need the cumulative relative frequency for $50$%.\n\nChoices 'C', 'D', and 'E' are incorrect as the first value in each of those bins would already exceed $50$%.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.1",

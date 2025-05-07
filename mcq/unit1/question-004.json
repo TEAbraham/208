@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "When data is collected randomly, there will always be some variation. Since variation occurs, the conclusions based off that data is often uncertain.\n\nSince the principal only took a sample of size $10$, we can safely assume the school is larger than $10$ students. Therefore, the \"average\" of the $10$ is uncertain to be the average of the whole school.\n\nThe principal cannot confidently say that the average GPA of the whole school is $3.2$.\n\nChoice 'E' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nWhen data is collected randomly, there will always be some variation. Since variation occurs, the conclusions based off that data is often uncertain.\n\nSince the principal only took a sample of size 10, we can safely assume the school is larger than 10 students. Therefore, the \"average\" of the 10 is uncertain to be the average of the whole school.\n\nThe principal cannot confidently say that the average GPA of the whole school is 3.2.\n\nChoice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. 10\nstudents might be able to give us an estimate of the average GPA, but since data is uncertain, it is unlikely to be the average GPA for the whole school.\n\nChoice 'B' is incorrect. Although data that is randomly collected is preferred, it's not the only requirement to estimate the whole school's GPA.\n\nChoice 'C' is incorrect. As stated above, data needs to be collected randomly if we want to use the data in any meaningful way\n\nChoice 'D' is incorrect. It does not specify which \"average\", or measure of center, the principal wants to use, but since data will vary, he still wouldn't be positive even if the median was 3.2\n.",
   "tags": [
     "1.A",
     "VAR-1.A.1",

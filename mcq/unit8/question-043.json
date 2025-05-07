@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "First, let's add the marginal distributions (totals) into the two way table.\n\nThe actual number of sophomores who said \"tacos\" is $25$. However, we are trying to determine the expected count.\n\nTo find the expected count for a particular cell in a two-way table, we use the following formula:\n\n$$EC = \\frac { \\left( row\\ total \\right) \\left( column\\ total \\right) }{ table\\ total }$$\n\nFor the cell related to sophomores and tacos, we have:\n\nRow (sophomores) $= 19 + 25 + 10 + 12 = 66$\nColumn (tacos) $= 18 + 25 + 22 + 16 = 81$\nTable $= 23 + 18 + 7 + 5 + 19 + 25 + 10 + 12 + 27 + 22 + 8 + 8 + 24 + 16 + 14 + 7 = 245$\n\nExpected Count $= \\dfrac { \\left( 66 \\right) \\left( 81 \\right) }{ 245 } = 21.82$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. We cannot simply take the total number of sophomores ($66$) divided by the number of meal choices ($4$).\n\nChoice 'B' is incorrect. We cannot simply take the total number who chose tacos ($81$) divided by the number of class levels ($4$).\n\nChoice 'D' is incorrect. While reality would tell us that a whole number is appropriate for an expected count, expected counts are not rounded when used to conduct a ${ \\chi }^{ 2 }$ test.\n\nChoice 'E' is incorrect. We cannot assume that the actual count is equal to the expected count.",
   "tags": [
     "VAR-8.H",
     "3.A",

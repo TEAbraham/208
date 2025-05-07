@@ -22,20 +22,19 @@
     },
     {
       "letter": "C",
-      "text": "$H_{0}$: $p_{1}-p_{2}=0$\nHa: p1−p2>0"
+      "text": "$H_{0}$: $p_{1}-p_{2}=0$\n$H_{a}$: $p_{1}-p_{2}>0$"
     },
     {
       "letter": "D",
-      "text": "H0:\nˆ\np\n1−\nˆ\np\n2=0\nHa\n:\nˆ\np\n1−\nˆ\np\n2>0"
+      "text": "$H_{0}$: $\\hat{p}_{1}-\\hat{p}_{2}=0$\n$H_{a}$: $\\hat{p}_{1}-\\hat{p}_{2}>0$"
     },
     {
       "letter": "E",
-      "text": "H0\n:\nˆ\np\n1−\nˆ\np\n2>0\nHa\n:\nˆ\np\n1−\nˆ\np\n2=0"
+      "text": "H0:\nˆ\np\n1−\nˆ\np\n2>0\nHa:\nˆ\np\n1−\nˆ\np\n2=0"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWe need to write hypotheses for a test for the difference of two population proportions.\n\nThe null hypothesis states what we assume to be true. It is always written with an equals sign. It can be written as H0\n: p1−p2=0\nor H0\n: p1=p2\n. In this problem, the first form is used.\n\nThe alternative hypothesis states what we are trying to prove. It can be written with inequalities: >\n, <\n, or ≠\n. Here, we are trying to show that the men's proportion is higher than the women's proportion. It could be written as Ha\n: p1−p2>0\nor Ha\n: p1>p2\n. The first form was used here.\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the signs of the two hypotheses are reversed.\n\nChoice 'B' is incorrect because the null hypothesis has a less than sign when it should be an equal sign.\n\nChoice 'D' is incorrect because\n^\np\nis used instead of\np\n.\n\nChoice 'E' is incorrect because\n^\np\nis used instead of\np\nand the signs are reversed.",
   "tags": [
     "VAR-6.H.3",
     "1.F",

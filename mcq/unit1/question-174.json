@@ -11,7 +11,7 @@
   ],
   "title": "Comparing Boxplots: Words Typed Per Minute Between Boys and Girls",
   "difficulty": "Medium",
-  "question_text": "Jessica collected data on the number of words typed per minute with zero mistakes in her typing class. Using the data, Jessica generated the boxplots below.<br><br><br><br><br>Which of the following statements must be TRUE?",
+  "question_text": "Jessica collected data on the number of words typed per minute with zero mistakes in her typing class. Using the data, Jessica generated the boxplots below.<br>Created for Albert.io. Copyright 2017. All rights reserved.<br><br>Which of the following statements must be TRUE?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -21,24 +21,23 @@
     },
     {
       "letter": "B",
-      "text": "The IQR of the number of words typed per minute with zero mistakes for the females in Jessica's typing class is 34."
+      "text": "The IQR of the number of words typed per minute with zero mistakes for the females in Jessica's typing class is $34$."
     },
     {
       "letter": "C",
-      "text": "There is a higher percentage of males students in Jessica's typing class that type less than 45 words per minute without making a mistake than females do."
+      "text": "There is a higher percentage of males students in Jessica's typing class that type less than $45$ words per minute without making a mistake than females do."
     },
     {
       "letter": "D",
-      "text": "There are a lower percentage of females in Jessica's typing class that type at least 64\nwords per minute without making a mistake than males do."
+      "text": "There are a lower percentage of females in Jessica's typing class that type at least $64$ words per minute without making a mistake than males do."
     },
     {
       "letter": "E",
-      "text": "The range for the males in this data is 15\n."
+      "text": "The range for the males in this data is 15."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "At least 50% of the males in Jessica's typing class type fewer than 45 words per minute without making a mistake, since the median is 42 for the males. 25% of the females type less than 45 words per minute without making a mistake since Q1 is 45 for the females.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The median for the females is 53. Since the individual values are not given, we cannot solve for the mean. The only thing that can be said in this case about the mean is that it is bigger than median, since the distribution is skewed to the right.\n\nChoice 'B' is incorrect. 34\nrepresents the range for the female students. The interquartile range (IQR) can be found by taking Q3−Q1\n. The interquartile range is 19\nby subtracting 64−45\n.\n\nChoice 'D' is incorrect. There are no males in Jessica's typing class that type at least 64\nwords per minute without making a mistake, as the maximum for the men is 59\n. Whereas 64\nrepresents Q3\nfor the females which means at least 25%\nof the females in Jessica's typing class type at least 64\nwords per minute without making a mistake\n\n25%\nof the females in Jessica's typing class type at least 64\nwords per minute without making a mistake, since Q3\nfor the females, is 64\n.\n\nChoice 'E' is incorrect. The range is (\nmaximum value −\nminimum value)\n. In this case, the range is 59−20=39\n.",
   "tags": [
     "UNC-1.N.1",
     "2.D",

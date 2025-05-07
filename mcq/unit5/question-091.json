@@ -8,7 +8,7 @@
   ],
   "title": "They're Toast!",
   "difficulty": "Hard",
-  "question_text": "A company has two assembly lines for making toasters. One assembly line (line A) has been producing $2\\%$ of its toasters as defective while the other assembly line (line B) has been producing $4\\%$ defective. The company president is unhappy about this and wants to randomly sample $500$ toasters from each assembly line.\nWhat is the probability, to the nearest whole percent, of line B producing more than $3\\%$ defective toasters than line A?",
+  "question_text": "A company has two assembly lines for making toasters. One assembly line (line A) has been producing $2\\%$ of its toasters as defective while the other assembly line (line B) has been producing $4\\%$ defective. The company president is unhappy about this and wants to randomly sample $500$ toasters from each assembly line.\nWhat is the probability, to the nearest whole percent, of line B producing more than $3\\%$ defective toasters than line A?<br>What is the probability, to the nearest whole percent, of line B producing more than $3\\%$ defective toasters than line A?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTo calculate this probability we need to first calculate the parameters for the sampling distribution of the difference of these two proportions. Those parameters are the mean and the standard deviation.\n\nThe mean is equal to pB−pA. Plugging in we get 0.04−0.02=0.02.\n\nThe standard deviation is given by this formula:\n\n√\npA(1−pA)\nnA\n+\npB(1−pB)\nnB\n\nFilling in our values where both values of n are equal to 500 and the two given proportions are 0.02 and 0.04 we get:\n\n√\n0.02(1−0.02)\n500\n+\n0.04(1−0.04)\n500\n≈0.011\n\nFinally, we compute a z\n-score in order to look up the probability. We plug in our values to get\n\nz=\n0.03−0.02\n0.011\n≈0.91\n\nThis problem calls for a probability greater than 0.03\napart. Because the normal distribution is symmetric, we want to look up the proportion of values below 0.91\nusing the z-table, and subtract that from 1\n. Looking at 0.91\nin Table A\nwe see the value 0.8186\n. Subtracting from 1\n, we get an 18%\nchance that line B will be at least 3%\nhigher than line A.\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. This value represents the doubled proportion.\n\nChoice 'B' is incorrect. This represents the z-score subtracted from 1\n. The z-score must be used with table A to find the proportion.\n\nChoice 'D' is incorrect. This value represents the probability that the difference in defective rates is less than\n3\n%\nrather than greater.\n\nChoice 'E' is incorrect. This represents the z-score. The z-score must be used with table A to find the proportion.",
   "tags": [
     "4.B",
     "UNC-3.P.1",

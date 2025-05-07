@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The purpose of a confidence intervals is to capture the parameter, which in this case is the population proportion or the true proportion. When looking for the correct answer, look for something that mentions the population proportion, as this will help in eliminating answers.\n\nChoice 'A' is incorrect, as it refers to the individual data, rather than the population proportion. Also, there was no mention of population proportion.\n\nChoice 'B' is incorrect, because in this sample we know that $48.5\\%$ would use steroids to improve performance, as this is the point estimate.\n\nChoice 'C' correctly interprets the confidence interval, and is correct.\n\nChoice 'D' is incorrect because it refers to the sample proportion in sample intervals, not the population proportion.\n\nChoice 'E' is incorrect because it refers to the sample proportion, not the population proportion.",
   "tags": [
     "4.E",
     "DAT-3",

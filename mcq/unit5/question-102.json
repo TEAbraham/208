@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Statement I is roughly normal; the central limit theorem states sampling distributions will be roughly normal if the sample is large enough, say greater than 30, no matter what the population looks like.\n\nStatement II is roughly normal; samples of size between n=10 and n=29 will be roughly normal as long as the sample shows no strong skewness or outliers.\n\nStatement III is roughly normal; samples of any size will be roughly normal if the parent population is normal.\n\nKeep in mind that cutoffs of sample size such as 10\n, 29\n, or 30\nare not necessarily special; as sample sizes get larger, the sampling distribution gradually becomes closer to normal.\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "UNC-3.H.2",
     "UNC-3.H.1",

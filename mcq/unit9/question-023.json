@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWe can make a confidence interval for the slope of a population model using linear regression. The correct way to state a conclusion should include the context of the regression model being examined.\n\nSo, we take the given confidence level, $C$, and use it to state we are $C\\%$ confident that our interval contains the true slope of our regression model.\n\nIn addition, we would like to state whether or not there is an association between the variables. When zero is not included in the interval, then we have evidence to say that there is an association.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the context is not made clear.\n\nChoice 'C' is incorrect because no association is claimed when there really is one.\n\nChoice 'D' is incorrect because the interval values are wrong.\n\nChoice 'E' is incorrect because the word \"slope\" is never mentioned.",
   "tags": [
     "UNC-4.AH.1",
     "UNC-4",

@@ -10,11 +10,8 @@
   ],
   "title": "Boys and Girls Long Jump Results: Parallel Boxplots",
   "difficulty": "Medium",
-  "question_text": "Results for the boys and girls long jump at a state meet are displayed in the graph below. Twenty-two girls and twenty-three boys competed in the event.<br><br><br><br><br>If the distances for both boys and girls were combined into a single data set and an appropriate histogram of the data set was produced, which of the following statements would best describe the shape of the distribution?",
-  "image_files": [
-    "images/question-196-img1.PNG",
-    "images/question-196-img2.PNG"
-  ],
+  "question_text": "Results for the boys and girls long jump at a state meet are displayed in the graph below. Twenty-two girls and twenty-three boys competed in the event.<br><br>If the distances for both boys and girls were combined into a single data set and an appropriate histogram of the data set was produced, which of the following statements would best describe the shape of the distribution?",
+  "image_files": [],
   "tables": [],
   "choices": [
     {
@@ -39,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Data for Boys\n\nThe median of the distribution for boys can be found by looking at where the second vertical segment of the box plot for boys is with respect to the values on the horizontal axis. The median for boys is about $6.3$.\n\nAbout $50\\%$ of the data in a box plot can be found between the first and third vertical segment, or within the box. For boys then, about half the distances are between about $6.1$ and $6.6\\text{ meters}$.\n\nSince so many of the long jump distances for boys occur within this interval, a histogram will show a peak and cluster of values within this interval indicating that values between $6.1$ and $6.6\\text{ meters}$ are most common for boys. The mode is the most common value, so the mode for boys will be somewhere between $6.1$ and $6.6$.\n\nData for Girls\n\nThe median of the distribution for girls can be found by looking at where the second vertical segment of the box plot for girls is with respect to the values on the horizontal axis. The median for girls is about 5.2.\n\nAlso, about 50% of the data in a box plot can be found between the first and third vertical segment, or within the box. For girls then, about half the distances are between about 4.9 and 5.3 meters.\n\nSince so many of the long jump distances for girls occur within this interval, a histogram will show a peak and a cluster of values within this interval indicating that values between 4.9 and 5.3 meters are most common for girls. The mode is the most common value, so the mode for girls will be somewhere between 4.9 and 5.3.\n\nConclusion\n\nSince the mode for boys does not overlap with the mode for girls, a well-constructed histogram will show both modes separately as two different peaks. Therefore, the histogram will be bimodal (having two separate modes). The data for girls will be clustered around the peak (mode) for girls, and the data for boys will be clustered around the peak (mode) for boys.\n\nChoice 'B' accurately describes the shape of the histogram for all long jump distances and is the correct choice.\n\nFor reference, the histogram below shows the distribution of long jump distances for both boys and girls combined.\n\nCreated for Albert.io. Copyright 2016. All rights reserved.\n\n\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The boxplots show that the maximum distance for girls is less than the minimum distance for boys. Therefore, depending upon how the histogram is constructed, there might be a gap between data for girls and data for boys. However, the distribution shown by a histogram will not be unimodal.\n\nChoice 'C' is incorrect. A normal distribution is unimodal and cannot be bimodal.\n\nChoices 'D' and 'E' are incorrect. A distribution that is skewed left will have a clustering of data on the right while a distribution of data that is skewed right will have a clustering of data on the left. Since this distribution has two separate clusters of data, attempting to describe the distribution in terms of skew is not the best choice.",
   "tags": [
     "UNC-1.H.1",
     "UNC-1.H",

@@ -9,7 +9,7 @@
   ],
   "title": "Slope, Correlation When Removing Scatterplot Point: SAT vs. IQ",
   "difficulty": "Hard",
-  "question_text": "A scatterplot of SAT scores versus IQ scores is shown below:<br><br><br><br><br>If point $(900,155)$ is removed, which of the following statements is TRUE?",
+  "question_text": "A scatterplot of SAT scores versus IQ scores is shown below:<br>Created for Albert.io. Copyright 2017. All rights reserved.<br><br>If point $(900,155)$ is removed, which of the following statements is TRUE?",
   "image_files": [
     "images/question-073-img1.png",
     "images/question-073-img2.PNG"
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Below is approximate scatterplots with and without the points $(900,155)$.\n\nWith the point $(900,155)$:\nCopyright Albert.io.2017. All rights reserved\n\nCopyright Albert.io.2017. All rights reserved\n\nWithout the point $(900,155)$:\nCopyright Albert.io 2017. All rights reserved\n\nCopyright Albert.io 2017. All rights reserved\n\nWhen the point $(900,155)$ is removed, the slope of the least squares regression line becomes steeper in the positive direction indicating the slope has increased.\n\nThe correlation also increases because the linear pattern has become stronger. The regression line falls on most the points and their appears to be less scatters between the points and the regression line.\n\nExplanation of Distractors Choice 'A' is incorrect as both the slope and correlation increase. Choice 'B' is incorrect as the slope increases. Choice 'C' is incorrect as the correlation increases. Choice 'D' is incorrect as the correlation increases.",
   "tags": [
     "4.B",
     "DAT-1.C",

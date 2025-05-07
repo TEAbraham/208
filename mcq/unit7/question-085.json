@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since we do not want the confidence interval to contain $28$, this indicates we want to reject the null hypotheses.\n\nNotice that in this case, the alternative hypothesis is one-sided, whereas the confidence interval measures a $2$-sided test. The easiest way to approach this is to make the alternative two-sided by doubling the $p$-value. Our new $p$-value will be $0.012$.\n\nFor each one of the confidence levels, create the significance level that corresponds to the confidence level. Then, see if you would reject or fail to reject the null hypotheses using the $p$-value and significance level.\n\nFor a $95\\%$ confidence level, the significance level is $5\\%$. $0.012 < 0.05$; therefore we reject the null hypotheses.\n\nFor a $96\\%$ confidence level, the significance level is $4\\%$. $0.012 < 0.04$; therefore, we reject the null hypotheses.\n\nFor a $97\\%$ confidence level, the significance level is $3\\%$. $0.012 < 0.03$; therefore, we reject the null hypotheses.\n\nFor a $98\\%$ confidence level, the significance level is $2\\%$. $0.012< 0.02$; therefore, we reject the null hypotheses.\n\nFor a $99\\%$ confidence level, the significance level is $1\\%$. $0.012 > 0.01$; therefore, we fail to reject the null hypotheses.\n\nThe largest confidence interval that will not contain $28$ is $98\\%$.",
   "tags": [
     "DAT-3.F",
     "4.E",

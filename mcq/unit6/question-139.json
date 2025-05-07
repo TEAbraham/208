@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We want the interval to contain $0$, meaning we fail to reject the null hypotheses. Notice in this case that the alternative hypotheses is one-sided, whereas the confidence interval measures $2$-sided. The easiest way to approach this is to make the alternative two-sided by doubling the $p$-value. Our new $p$-value will be $0.086$.\n\nIn order to solve for this, we need to calculate the significance level of each one of the intervals and then see if the $p$-value falls above or below the level.\n\nStatement I. For a $90\\%$ confidence interval, the significance level is $10\\%$. Since our $p$-value of $0.086 < 0.10$, we reject the null hypotheses. Therefore, Statement I is false.\n\nStatement II. For a $95\\%$ confidence interval, the significance level is $5\\%$. Since our $p$-value of $0.086>0.05$, we fail to reject the null hypotheses. Therefore, Statement II is TRUE.\n\nStatement III. For a $99\\%$ confidence interval, the significance level is $1\\%$. Since our $p$-value of $0.086>0.01$, we fail to reject the null hypotheses. Therefore, Statement III is TRUE.",
   "tags": [
     "4.E",
     "DAT-3.D.1",

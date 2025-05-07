@@ -9,7 +9,7 @@
   ],
   "title": "Hours Studied and Exam Scores",
   "difficulty": "Medium",
-  "question_text": "A study was conducted to see if there was a linear relationship between the number of hours studied and exam scores.<br>The following table of values summarizes the data collected:<br>Based on these data, compute a $99\\%$ confidence for the slope of the regression line, $β$.",
+  "question_text": "A study was conducted to see if there was a linear relationship between the number of hours studied and exam scores.<br>The following table of values summarizes the data collected:<br>Based on these data, compute a $99\\%$ confidence for the slope of the regression line, $β$.<br>Based on these data, compute a $99\\%$ confidence for the slope of the regression line, $β$.",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Hours Studied</th><th scope=\"col\">0</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th></tr></thead><tbody><tr><td>Exam Score</td><td>50</td><td>63</td><td>65</td><td>81</td><td>99</td></tr></tbody></table>"
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The manual calculation is quite complicated, so the best strategy is to use the LIST function in your calculator to enter the data into List $1$ and List $2$.\n\nThen use the “Linear Regression $t$-interval” option, with a confidence level of $0.99$.\n\nYou can interpret the results to say that there is indeed a linear relationship between the number of hours studied and the score on the exam because the value $0$ (indicating no linear relationship) is not included in this confidence interval.\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "VAR-7.M",
     "VAR-7",

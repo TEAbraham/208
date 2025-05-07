@@ -10,9 +10,7 @@
   "title": "Connecting to Confidence Intervals",
   "difficulty": "Hard",
   "question_text": "Suppose a one-sided (greater than) hypothesis test for a population mean results in a $p$-value of $p = 0.04$.<br>If the same data were used to construct a $90\\%$ confidence interval, would the value from the null hypothesis of our significance test be contained in the confidence interval?",
-  "image_files": [
-    "images/question-030-img1.png"
-  ],
+  "image_files": [],
   "tables": [],
   "choices": [
     {
@@ -37,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This is a difficult problem that can best be understood by looking at a normal distribution curve and the associated areas.\n\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\n\n\nLet us start with the one-sided test in the greater than direction. The test starts with a hypothesized mean which is then the center of the sampling distribution from which we will complete the calculation of our $p$-value.\n\nIf $p = 0.04$, then the sample mean was such that there was an area of $0.04$ to the right of that value. There is also an area of $0.46$ to the right of the hypothesized mean, but to the left of the sample mean. This is seen in the normal distribution curve at the top of the image above.\n\nNow let us think about how a confidence interval is constructed. We start with the sample mean. It is the very center of our confidence interval. From the sample mean, we add and subtract a certain margin of error in order to create an interval of values that we believe will contain the true mean.\n\nIn a $90\\%$ confidence interval, a total area of $0.90$ must be included. This includes an area of $0.45$ to the left of the sample mean and an area of $0.45$ to the right of the sample mean. This is shown in the normal distribution at the bottom of the image shown above. Next, we need to compare areas in the two distributions.\n\nThe confidence interval covers an area of $0.45$ to the left of the sample mean and there is an area of $0.46$ to the left of the sample mean but to the right of the hypothesized mean. As a result, the lower bound of the confidence interval will be greater than the hypothesized mean and the confidence interval will not include it.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The upper bound of the confidence interval will be greater than the hypothesized mean.\n\nChoice 'C' is incorrect. The sample mean will be in the center of the confidence interval.\n\nChoice 'D' is incorrect. The confidence level and $p$-value cannot be compared in this way.\n\nChoice 'E' is incorrect. We did have enough information!",
   "tags": [
     "UNC-4.P.1",
     "4.C",

@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "If we do not want the confidence interval to contain $0.08$, this indicates that we want to reject the null hypotheses.\n\nNotice that in this case, the alternative hypotheses is one-sided, whereas the confidence interval measures a $2$-sided test. The easiest way to approach this is to make the alternative two-sided by doubling the $p$-value. Our new $p$-value will be $0.094$.\n\nFor each one of the confidence levels, create the significance level that corresponds to the confidence level.\n\nNext, see if you would reject or fail to reject the null hypotheses using the $p$-value and significance level.\n\nFor a $90\\%$ confidence level, the significance level is $10\\%$. $0.094 < 0.10$; therefore we reject the null hypotheses.\n\nFor a $91\\%$ confidence level, the significance level is $9\\%$. $0.094 > 0.09$; therefore we fail to reject the null hypotheses.\n\nFor a $92\\%$ confidence level, the significance level is $8\\%$. $0.094 > 0.08$; therefore we fail to reject the null hypotheses.\n\nFor a $94\\%$ confidence level, the significance level is $6\\%$. $0.094 > 0.06$; therefore we fail to reject the null hypotheses.\n\nFor a $95\\%$ confidence level, the significance level is $5\\%$. $0.094 > 0.05$; therefore we fail to reject the null hypotheses.\n\nThe largest confidence interval that will not contain $0.08$ will be $90\\%$.",
   "tags": [
     "4.B",
     "UNC-4.F.2",

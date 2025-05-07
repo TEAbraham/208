@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Use the equation below, where $n = 30$, $x = 495,000$, and $\\mu = 475,000$, then look up in the $T$-distribution table to find $29$ degrees of freedom ($n-1$) meets $1\\%$ upper tail probability at $t = 2.462$.\n\n$$t=\\dfrac { \\bar { X } -\\mu }{ s/\\sqrt { n } } $$\n\nSolve to find $s = 44{,}494$.\n\nIf $s = 44{,}494$, then the $p$-value will be exactly $1\\%$. To be significant at the $1\\%$ level, the $p$-value must be lower than $1\\%$. Lower variability gives stronger evidence; therefore, less variability is needed, so the standard deviation must be less than $44{,}494$.\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "4.B",
     "DAT-3.E",

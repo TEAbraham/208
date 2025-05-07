@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nA cumulative distribution shows probabilities for the values of the given random variable which is x is in this problem. The cumulative aspect means that the second line shows the probability that the x will take on the given value and all of the values less than that value. Thus, cumulative distributions always end with a 1.\n\nIn this problem the question refers to 0.72 which is matched up with the x value of 6. Thus, using the above definition we can say that the value 0.72 is the probability that the random variable, x, will take on a value less than or equal to 6 a total of 72% of the time. This can be written as: p(x⩽.\n\nSo, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it states only that the numbers are matched up, but not what they mean.\n\nChoice 'B' is incorrect because it says to divide the probability by the value of the random variable, which is something that is not done.\n\nChoice 'C' is incorrect because it says that 0.72 is simply the probability of obtaining a 6. This does not take into account the cumulative aspect of the distribution.\n\nChoice 'D' is incorrect because it defines the cumulative distribution function as \"greater than\" rather than \"less than\" as it should be.",
   "tags": [
     "4.B",
     "VAR-5.A.4",

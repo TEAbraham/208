@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "Mean = 18\nStandard deviation = 6"
+      "text": "Mean = $18$\nStandard deviation = $6$"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The mean μ of the sampling distribution is the mean of the original distribution.\n\nThe standard deviation is smaller, with formula:\n\nStandard deviation=\nσ\n√\nn\n\n...where σ is the standard deviation and n is the sample size.\n\nThis becomes\n6\n√\n36\n=\n6\n6\n=1\n.\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "UNC-3.Q.1",
     "UNC-3",

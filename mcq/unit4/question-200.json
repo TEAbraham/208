@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The mean of a geometric distribution is $\\frac{1}{P}$, where $P$ is the probability of success. In this situation, $\\text{mean} = \\frac{1}{0.3} = 3.33$. Do not round this value to a whole number.\n\nGeometric distributions will always be right skewed. To get an idea what this distribution looks like, observe the following:\n\n$P(X = 1) = 0.3$\n$P(X = 2) = 0.7\\cdot 0.3 = 0.21$\n$P(X = 3) = 0.7\\cdot 0.7\\cdot 0.3 = 0.147$\n$P(X = 4) = 0.7\\cdot 0.7\\cdot 0.7\\cdot 0.3 = 0.1029$\n\nAs X increases, each probability decreases; therefore; the distribution will have a longer right tail.\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "UNC-3.G.1",
     "4.B",

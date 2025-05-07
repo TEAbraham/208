@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'A' is incorrect; assuming the floors are relatively the same size, by surveying one of the $16$ floors, the population should be at least $10$ times the sample.\n\nChoice 'B' is incorrect; the sampling distribution will be approximately normal since np and n ($1$-p) are both more than $10$ (or $5$).\n\nChoice 'C' is incorrect; expected counts are part of chi-squared conditions, but not for a one-proportion Z-test.\n\nChoice 'D' is incorrect; sample size for proportions does not matter as long as np and n ($1$-p) are both more than $10$ (or $5$).\n\nChoice 'E' is correct; this is not an SRS. It is possible that tenants on the first floor have different feelings about the building’s temperature than do tenants in the rest of the building.",
   "tags": [
     "4.E",
     "DAT-3",

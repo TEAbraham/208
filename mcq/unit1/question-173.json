@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The lowest value of either dataset will become the new minimum, and the highest value of either dataset will become the new maximum. Therefore, the minimum is 50, the maximum is 98, and so the range is 98−50=48.\n\nPeriod F scored 25×82=2050 points and period G scored 2100 total points. Together they scored 4150 points and\n4150\n50\n=83. Since the range is 48 and the mean is 83, Choice ‘B’ is correct.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect because we cannot accurately calculate the median. To calculate the median, we would need the score of the 25th and 26th highest scoring students. We do not have that information, so we cannot calculate the median.\n\nChoice ‘C’ is incorrect because the new range is 48\n, not 46\n.\n\nChoice ‘D’ is incorrect because we are not able to calculate the new median.\n\nChoice ‘E’ is incorrect because we are not able to calculate the new median.",
   "tags": [
     "UNC-1.O",
     "2.D",

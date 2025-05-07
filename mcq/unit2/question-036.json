@@ -8,7 +8,7 @@
   ],
   "title": "Hotel Stays and Marginal Distribution",
   "difficulty": "Easy",
-  "question_text": "Do guests from out of state tend to stay at a hotel longer? The Hotel Association in a certain state decided to investigate.<br>A random sample of hotel stays from various hotels in the state was selected, and for each stay the Hotel Association recorded whether the guest was a resident of the state, a resident of a neighboring state, or a resident of a distant state. They also recorded whether the guest stayed for a single night or for multiple nights. The results are shown in the table below.<br>Which of the following gives the marginal distribution of the row variable?",
+  "question_text": "Do guests from out of state tend to stay at a hotel longer? The Hotel Association in a certain state decided to investigate.<br>A random sample of hotel stays from various hotels in the state was selected, and for each stay the Hotel Association recorded whether the guest was a resident of the state, a resident of a neighboring state, or a resident of a distant state. They also recorded whether the guest stayed for a single night or for multiple nights. The results are shown in the table below.<br>Which of the following gives the marginal distribution of the row variable?<br>Which of the following gives the marginal distribution of the row variable?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Single Night Stay</th><th scope=\"col\">Multi-Night Stay</th></tr></thead><tbody><tr><td>In-State Resident</td><td>48</td><td>34</td></tr><tr><td>Resident of a Neighboring State</td><td>27</td><td>53</td></tr><tr><td>Resident of a Distant State</td><td>36</td><td>41</td></tr></tbody></table>"
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We are looking for the marginal distribution of the row variable. This means we are looking for the totals associated with the variable that is presented in the rows of the two-way table. Rows are in a line from left to right while columns are in a line from top to bottom.\n\nTherefore, the variable that is identified in the rows of the two way table is \"state of residence\". To find the totals, add the value in each row.\n\nIn-State Resident: $48+34=82$\nResident of a Neighboring State: $27+53+80$\nResident of a Distant State: $36+41=77$\n\nChoice 'D' correctly presents the marginal distribution.\n\nExplanation of Distractors\n\nChoice 'A' is a correct statement, but does not give the marginal distribution.\n\nChoice 'B' is incorrect and simply lists the values in the bottom row of the two way table. However, totals were not given in the table. Do not assume that totals will be found in the bottom row or the last column. You may have to calculate the totals yourself!\n\nChoice 'C' is incorrect because it provides the marginal distribution for the column variable (type of hotel stay).\n\nChoice 'E' is incorrect because it averages the two values found in each row. The marginal distribution involves a total, not an average.",
   "tags": [
     "UNC-1.Q.1",
     "2.C",

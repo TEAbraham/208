@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The sampling distribution of calorie savings when we are concerned with the average for $n = 2$ becomes $\\mu = 550$, which is unchanged.\n\n$$\\sigma(\\text{new}) = \\dfrac{\\sigma(\\text{old})}{\\sqrt{2}} $$\n\n$$=\\dfrac{55.9}{1.414} $$\n\n$$= 39.53$$\n\nNow find the probability that $\\bar{x} > 600$ from this distribution of sample means of size $2$.\n\nUse the conversion formula:\n\n$$z = \\dfrac{\\bar{x}-\\mu}{\\left(\\dfrac{\\sigma}{\\sqrt{2}}\\right)}$$\n\n$$z = \\dfrac{(600-550)}{39.53}$$\n\n$$ = 1.26$$\n\nNow the problem becomes finding $\\text{P (z ≥ 1.26)}$.\n\nUsing the table of standard normal probabilities or a calculator, we find that the answer is $0.1038$, which rounds to $0.1$.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "UNC-3.R.1",
     "3.C",

@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "For the officer to give out more than $10\\text{ tickets}$, one of the following situations must occur:\n\nDay $1 = 5\\text{ tickets}$\nDay $2 = 6\\text{ tickets}$\n= $0.14 \\times 0.03$\n\nDay $1 = 6\\text{ tickets}$\nDay $2 = 5\\text{ tickets}$\n= $0.03 \\times 0.14$\n\nDay $1 = 6\\text{ tickets}$\nDay $2 = 6\\text{ tickets}$\n= $0.03 \\times 0.03$\n\nAdd these probabilities together:\n\n$(0.14 \\cdot 0.03) +( 0.03 \\cdot 0.14) + (0.03 \\cdot 0.03) = 0.0093$\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "VAR-4.E.1",
     "VAR-4.E",

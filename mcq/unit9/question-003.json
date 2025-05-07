@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer",
-  "solution": "When looking at a regression model, there are explanatory and response variables. The explanatory variable is the variable that is causing the response, and in this problem would be the max squat weight for the jumpers. The response variable is the variable that is being measured, and in this problem would the predicted long-jump distance.\n\nTherefore, the response variable for the trainer's regression model is distance jumped.\n\nChoice 'A' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nWhen looking at a regression model, there are explanatory and response variables. The explanatory variable is the variable that is causing the response, and in this problem would be the max squat weight for the jumpers. The response variable is the variable that is being measured, and in this problem would the predicted long-jump distance.\n\nTherefore, the response variable for the trainer's regression model is distance jumped.\n\nChoice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect. The max squat weight would be explanatory variable for the regression model.\n\nChoice 'C' is incorrect. The number of jumpers selected by the trainer would represent the sample size for the regression model.\n\nChoice 'D' is incorrect. The slope of the regression model would be the predicted increase/decrease in jumping distance for an increase of $1$ unit in the explanatory variable, in this case, the max squat weight.\n\nChoice 'E' is incorrect. The y-intercept of the regression model would be the predicted distance jumped if the long-jumper had a max squat amount of $0$.",
   "tags": [
     "1.A",
     "VAR-1.K",

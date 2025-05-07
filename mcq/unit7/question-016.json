@@ -31,12 +31,11 @@
     },
     {
       "letter": "E",
-      "text": "65±4.07\n."
+      "text": "$65 \\pm 4.07$."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "An important note to realize is that we are given the population standard deviation. Since the population standard deviation is known, we can use the $Z$ distribution. If this was not known, or we only had the sample standard deviation, we would be using the $T$ distribution for such a small sample of size $n = 4$.\n\nHowever, when $\\sigma$ is known, we use the confidence interval formula:\n\n$$\\bar{X} \\pm z \\cdot \\dfrac{\\sigma}{\\sqrt{n}}$$\n\nThe value for the sample mean is $65\\text{ inches}$, found simply by adding all four observations and dividing by $4$.\n\n$\\sigma$ is known to be $2.4\\text{ inches}$, and $n = 4$. The value for $z^{*}$ must be found using the table of standard normal probabilities, with an area of $\\frac{0.01}{2} = 0.005$ to the left of $-z$.\n\nThe closest $z$-value is $-2.58$ (or $2.576$). Substituting these values yields $65 \\pm 3.1$.\n\nAlternatively, the confidence interval can also be calculated using a calculator, using the $z$-interval option, with a confidence level of $0.99$.\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "UNC-4.Q.3",
     "3.D",

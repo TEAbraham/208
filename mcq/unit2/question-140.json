@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "Remember: we're looking for the answer choice that is false.\n\nWhen given a least-square regression line in the form of:\n\nˆ\ny\n=a+bx\n\n...where a represents the y-intercept and b represents the slope of the LSRL.\n\nIn this case, our LSRL was:\n\nˆ\ny\n=32.6+1.3x\n\n...so the slope of the LSRL was 1.3\n. The slope is the amount the predicted y\n-value changes for every unit increase in x\n.\n\nTherefore, the slope is not predicted by the weight, it is predicting the time needed to dry the clothes.\n\nSo, Choice 'C' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nRemember: we're looking for the answer choice that is false.\n\nWhen given a least-square regression line in the form of:\n\n$$\\hat{y} = a + bx$$\n\n...where a represents the y-intercept and b represents the slope of the LSRL.\n\nIn this case, our LSRL was:\n\nˆ\ny\n=32.6+1.3x\n\n...so the slope of the LSRL was 1.3. The slope is the amount the predicted y-value changes for every unit increase in x.\n\nTherefore, the slope is not predicted by the weight, it is predicting the time needed to dry the clothes.\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Since the least-squares regression line has a positive slope, the correct interpretation on the direction would be as pounds increase, the predicted time increases as well.\n\nChoice 'B' is incorrect. This is the correct interpretation of the slope in context to this problem.\n\nChoice 'D' is incorrect. Sometimes, the LSRL gives a y\n-intercept without a logical interpretation. Since one would not dry 0\npounds of clothes, the y\n-intercept does not make logical sense to interpret in this case.\n\nChoice 'E' is incorrect. To find the predicted drying time, plug in 10\npounds into x\nand find the predicted time, which is 45.6\nminutes.",
   "tags": [
     "4.B",
     "DAT-1.H.2",

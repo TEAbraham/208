@@ -7,7 +7,7 @@
   ],
   "title": "College Grads?",
   "difficulty": "Easy",
-  "question_text": "The town of Adams boasts that $76\\%$ of its adult residents have college degrees. The nearby town of Bates says that its rate is $77\\%$. A journalist decides to randomly sample the same number of adult residents in each town to see which town has more college graduates.\nWhich of the numbers below is the minimum number of adults to be sampled in each town which will give an accurate result (so the sampling distribution of the difference of sample proportions will be approximately normal)?",
+  "question_text": "The town of Adams boasts that $76\\%$ of its adult residents have college degrees. The nearby town of Bates says that its rate is $77\\%$. A journalist decides to randomly sample the same number of adult residents in each town to see which town has more college graduates.\nWhich of the numbers below is the minimum number of adults to be sampled in each town which will give an accurate result (so the sampling distribution of the difference of sample proportions will be approximately normal)?<br>Which of the numbers below is the minimum number of adults to be sampled in each town which will give an accurate result (so the sampling distribution of the difference of sample proportions will be approximately normal)?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTo show that the sampling distribution of this difference of proportions is approximately normally distributed, the following conditions or formulas must all be greater than or equal to 10\n:\n\nn1p1\n\nn2p2\n\nn1(1−p1)\n\nn2(1−p2)\n\nPlugging in the values, where we assume that the 1\nwill represent the town of Adams, and both values of n\nwill equal the answer of 44\n, we obtain these answers:\n\n(\n44\n)\n(\n0.76\n)\n=\n33.4\n\n(\n44\n)\n(\n0.77\n)\n=\n33.9\n\n(\n44\n)\n(\n1\n−\n0.76\n)\n=\n10.6\n\n(\n44\n)\n(\n1\n−\n0.77\n)\n=\n10.1\n\nHere you can see that all\n4\nconditions give a value higher than\n10\n, The final one above demonstrates that\nn\ncannot go any lower!\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because here, values of\nn\nwere multiplied by\n0.77\nand only one condition is satisfied.\n\nChoice 'B' is incorrect because here, values of\nn\nwere multiplied by\n0.76\nand only two conditions are satisfied.\n\nChoice 'C' is incorrect because here, values of\nn\nwere multiplied by\n0.24\nand only three conditions are satisfied.\n\nChoice 'E' is incorrect because this number is bigger than the minimum, but it is a nice number!",
   "tags": [
     "UNC-3.O.1",
     "3.C",

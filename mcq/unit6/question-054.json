@@ -12,11 +12,7 @@
   "title": "Finding the P-value of a 1-sided When Given a 2-sided P-value",
   "difficulty": "Medium",
   "question_text": "A two-sided hypothesis test obtained a $p$-value of $0.36$.<br>If the test was conducted as a one-tailed test using the same set of data, which of the following is true about the possible $p$-values that could have been acquired?",
-  "image_files": [
-    "images/question-054-img1.PNG",
-    "images/question-054-img2.PNG",
-    "images/question-054-img3.PNG"
-  ],
+  "image_files": [],
   "tables": [],
   "choices": [
     {
@@ -41,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In a normal distribution, a two-sided test indicates half of $0.36$ is in each tail, meaning $0.18$. Please see the picture below.\n\n\n\nThis question tells us that it is one-sided, but not in which direction. Let us assume we are in the left tail. Since we do not know the direction of the one-sided test, we must assume the direction can either be less than or greater than.\n\nFiguring out the less-than component in the left tail is the easier one. Taking half of $0.36$, we get $0.18$. Please see the picture below.\n\n\n\nFiguring out the greater-than component in the left tail is a little bit more challenging.\n\nSince $0.18$ or $18\\%$ is the cutoff in the left tail then we must figure out how much area is to the right of the cutoff. In a normal distribution, the area under the curve is $1$. Therefore $1-0.18=0.82$.\n\n\n\nThe possible $p$-values are $0.18$ and $0.82$.\n\nThis matches Choice 'E'.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as this is only one of two possible answers.\n\nChoice 'B' is incorrect as this is merely the $p$-value doubled, which does not help determine the possible p-value.\n\nChoice 'C' is incorrect as this only one of the two possible $p$-values.\n\nChoice 'D' is incorrect as this has one of the choices as the $p$-value doubled or incorrectly subtracted from $1.0$.",
   "tags": [
     "4.B",
     "DAT-3",

@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The margin of error represents the content after the $\\pm $. Since we are dealing with means and a known standard deviation, the formula setup will look like this:\n\n$$z^* \\frac { \\sigma }{ \\sqrt { n } } \\le M.E.$$\n\nLet's start substituting the values we know into the formula. Since it is a $99\\%$ confidence interval, the $z^*$ is $2.576$. The standard deviation is $10$, $M.E.$ is $4$, and $n$ is unknown. Our setup looks like this:\n\n$$2.576\\frac { 10 }{ \\sqrt { n } } \\le 4$$\n\nNow solve:\n\n$$\\frac { 25.76 }{ \\sqrt { n } } \\le 4 \\Rightarrow 25.76\\le 4\\sqrt { n } \\Rightarrow 6.44\\le \\sqrt { n } \\Rightarrow { (6.44) }^{ 2 }\\le ({ \\sqrt { n } ) }^{ 2 }\\Rightarrow 41.4736\\le n$$\n\nExplanation of Distractors\n\nChoices 'A' and 'B' are incorrect, as both sides were never squared.\n\nChoice 'C' is incorrect, as $4$ was not divided by both sides, and also because both sides were not squared.\n\nChoice 'D' is incorrect, as the answer was rounded down instead of up. The answer needs to be rounded up instead of down, since $41.4736\\le n$. If you made it $41$, then you are saying $41.4736\\le 41$, which is not true.",
   "tags": [
     "4.D",
     "UNC-4.U",

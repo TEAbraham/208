@@ -24,7 +24,7 @@
     },
     {
       "letter": "C",
-      "text": "Mean = $23$\nStandard deviation = 2.4\nShape is unable to be determined."
+      "text": "Mean = $23$\nStandard deviation = $2.4$\nShape is unable to be determined."
     },
     {
       "letter": "D",
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When asked to determine the sampling distribution, shape, center, and spread are the main features that should be mentioned.\n\nFor shape, when samples are large (greater than 30\n), the sampling distribution will be approximately normal. However, when samples are small, such as this one, the shape will be unknown but non-normal.\n\nThe mean of the sampling distribution will be equal to the population mean, 23\n.\n\nThe standard deviation will\n0.8485\n, using the formula below with\nn\n=\n8\n:\n\nσ\nx\n=\nσ\n√\nn\n=\n2.4\n√\n8\n=\n0.8485\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "UNC-3.Q.1",
     "UNC-3",

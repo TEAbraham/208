@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nA $t$-test for slope uses linear regression to estimate the slope between two variables. Both variables should be quantitative in nature. Whether or not the $y$ variable is consistently responding to an $x$ variable can be shown in part through the value of the slope. A regression equation is calculated from the data and is used to predict values for one variable based on the other. The $t$-test then tests to see how sure we are of a possible association between the two variables.\n\nIn this problem, the answer asks students their SAT scores and ACT scores. Both variables are quantitative. While the predictive aspect might work in either direction, it is likely that the two numbers may well be associated.\n\nSo, Choice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect because one group of people are being asked a yes or no question. Thus, this is a one-sample test for a proportion.\n\nChoice 'C' is incorrect because two groups of people are being asked a question with $4$ qualitative answers. Thus, this is a chi-square test for homogeneity.\n\nChoice 'D' is incorrect because two groups of people are being asked one question that is quantitative. Thus, this is a two-sample test for a difference of means.\n\nChoice 'E' is incorrect because, well, this one is a little tricky. Since there are only two choices, then this really could be written as a one-sample proportion test as to the preferred subject. Or, it could be a simple chi-square goodness of fit test. Regardless, it is not a $t$-test for slope.",
   "tags": [
     "VAR-7.J.1",
     "VAR-7",

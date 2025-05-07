@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "It correctly uses binomial probabilities. Assuming the student is simply guessing:\n\n$$\\text{P(7 or 8 questions correct)} = \\text{P(7)+P(8)}$$\n\n$$0.2^7 \\times 0.8^1\\times { _{ 8 }{ C }_{ 1 } }+0.2^8= 0.00008448$$\n\nSince it would be incredibly unlikely for the student to randomly guess this close to the answer key (or closer), there is strong evidence to suggest that the student cheated.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; this situation follows the binomial situation since there are a fixed number of trials ($8$), success or failure (whether the question is correct or not), same probability ($20\\%$), and getting each question is independent.",
   "tags": [
     "UNC-3.B",
     "3.A",

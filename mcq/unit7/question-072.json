@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In a paired $t$-interval, the groups or subjects are paired somehow, which violates the independent groups.\n\nFor example, if you were running an experiment for medication, you may block by health. You would not want a somewhat healthy person receiving the medication and an unhealthy person receiving the placebo. Health would be a confounding variable. You would want an unhealthy person to receive the medicine and another unhealthy person (in similar condition) to get the placebo.\n\nTherefore, the probability of selecting one person to one group depends on how you selected another person to the other group. Therefore, the independent groups condition is violated.\n\nThis is the main difference in conditions between two sample and paired.\n\nChoice 'A' is incorrect as if our sample is not random then there's scope of inference for the population. Choice 'B' is incorrect as normality or approximately normal is the distribution of any t-distribution for mean. Choice 'C' is incorrect as in some cases the sample size must be less than $10$% of the population.",
   "tags": [
     "DAT-3.F",
     "4.E",

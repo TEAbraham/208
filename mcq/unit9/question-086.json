@@ -39,8 +39,7 @@
     }
   ],
   "correct_answer": "Choice ‘E’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe $P$-value of a test gives us the probability of obtaining the test statistic, calculated from the sample data, or a value of the test statistic more extreme than the one calculated, under the assumption that the null hypothesis is a true statement.\n\nWhen using the value of the $P$-value to make a decision about the null hypothesis, sometimes a value of $\\alpha$ is given. When the $P$-value is compared to $\\alpha$, if the P-value is less than $\\alpha$, the data from the sample is statistically significant and the null hypothesis is rejected in favor of the alternative hypothesis.\n\nHere, the $P$-value is found in the printout as $0.026$, which is less than the $\\alpha$ value of $0.05$, so reject the null hypothesis and conclude the alternative hypothesis.\n\nSo, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect: The statement in choice A is correct but is using an incorrect value for the P-value.\n\nChoice ‘B’ is incorrect: The value of the P-value is incorrect and the P-value is not greater than the $\\alpha$ value of $0.05$.\n\nChoice ‘C’ is incorrect: The P-value of $0.026$ is not greater than the $\\alpha$ value of $0.05$. Also, the phrase \"we accept Ho\" is not used in statistics unless a census is taken and the null hypothesis is proven true!\n\nChoice ‘D’ is incorrect: When the P-value is less than the $\\alpha$ value, the null hypothesis is rejected in favor of the alternative hypothesis.",
   "tags": [
     "4.E",
     "DAT-3",

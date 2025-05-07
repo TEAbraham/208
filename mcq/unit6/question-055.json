@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A $p$-value is always calculated based upon the assumption that the null hypothesis identifies the true value of the parameter. In addition, a $p$-value gives us the probability of obtaining a sample result at least as far from the hypothesized parameter as the result we actually got. A very small $p$-value means that our results were very unlikely to happen if our null hypothesis really were true.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. A $p$-value cannot identify a level of confidence in our results.\n\nChoice 'B' is incorrect. The $p$-value is related to the outcome of a statistical test. Margin of error is related to confidence intervals.\n\nChoice 'C' is incorrect. A $p$-value tells us nothing about standard deviation. In addition, we would expect some variation around the parameter identified in our null hypothesis. Some samples will produce statistics that are lower than the hypothesized value, some will produce statistics that are higher.\n\nChoice 'E' is incorrect. A very small $p$-value would cause us to doubt that our null hypothesis was true and we would reject it.",
   "tags": [
     "4.B",
     "DAT-3",

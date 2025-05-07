@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice ‘D’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWhen regression output is given, the P-value of a test of significance for linear regression can be found in the second row under the column header P. For this regression output, the P-value is 0.014.\n\nThe P-value of a significance test gives the probability of finding the t test statistic value from the sample or a value more extreme, under the assumption that the null hypothesis is a true statement. Here, the null hypothesis states β=0, indicating the rating of a science class and the rating of a math class do not have a linear relationship.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect. The value of the P\n-value is incorrect here; the interpretation is correct, however.\n\nChoice ‘B’ is incorrect. The value of the P\n-value is incorrect here. In addition, the P\n-value is the probability of getting the results from the sample taken or results that would be even more extreme than the ones found.\n\nChoice ‘C’ is incorrect. The correct value of the P\n-value is given here; however, the P\n-value is the probability of an event, under the assumption that the null hypothesis is true. This statement is stating that probability under the assumption that the alternative hypothesis is true.\n\nChoice ‘E’ is incorrect. The value stated here would actually be the correct value for the t\ntest statistic for this linear regression significance test; the interpretation would be correct, however, if this value was the correct P\n-value.",
   "tags": [
     "4.B",
     "DAT-3",

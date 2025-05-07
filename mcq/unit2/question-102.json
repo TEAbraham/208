@@ -18,15 +18,15 @@
     },
     {
       "letter": "B",
-      "text": "$y = a+bx$\nDefine $x$ and $y$ as variables.\nDefine $a$ and $b$ as constants."
+      "text": "$y = a+bx$\nDefine x and y as variables.\nDefine a and b as constants."
     },
     {
       "letter": "C",
-      "text": "$y = ab^x$\nDefine $x$ and $y$ as variables.\nDefine a and b as constants."
+      "text": "y=abx\nDefine x and y as variables.\nDefine a\nand b\nas constants."
     },
     {
       "letter": "D",
-      "text": "y=\na\nx\nDefine x and y as variables.\nDefine a as a constant."
+      "text": "y=\na\nx\nDefine x\nand y\nas variables.\nDefine a\nas a constant."
     },
     {
       "letter": "E",
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The least squares regression line is a linear model.\n\nAny linear model must have a slope and a constant that acts as the\ny\n-intercept.\n\nIn this situation,\na\nis the\ny\n-intercept and\nb\nis the slope:\n\ny\n=\na\n+\nb\nx\n\nThis has the correct linear form with a constant of degree one in front of the variable (\nx\n) and a\ny\n-intercept.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. This model is quadratic since the largest exponent is of degree\n2\n.\n\nChoice 'C' is incorrect. This model is exponential.\n\nChoice 'D' is incorrect since the variable of interest is in the denominator, representing a rational function.\n\nChoice 'E' is incorrect. This model is a logarithmic function.",
   "tags": [
     "4.B",
     "DAT-1.H.2",

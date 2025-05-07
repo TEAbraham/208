@@ -31,12 +31,11 @@
     },
     {
       "letter": "E",
-      "text": "46"
+      "text": "$46$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "If $x$ is an observation from a normal distribution with a known mean and standard deviation, the z-score of $x$ is:\n\n$$z=\\dfrac { \\text{x-mean }}{ \\text{standard deviation} } $$\n\n1) Substitute the values into the formula:\n\n$$-2.15=\\dfrac { 37-\\mu }{ 4.19 }$$\n\n2) Solve for the mean:\n\n$$(4.19)\\times -2.15=\\dfrac { 37-\\mu }{ 4.19 } \\times (4.19)$$\n\n$$ -9=37-\\mu $$\n\n$$ -46=-\\mu $$\n\n$$ 46=\\mu $$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as both sides of the equation were not divided by $-1$.\n\nChoice 'B' is incorrect as $37$ was added to both sides instead of being subtracted and both sides of the equation were not divided by $-1$.\n\nChoice 'C' is incorrect as $37$ was added to both sides of the equation.\n\nChoice 'D' is incorrect as $-2.15$ was divided by $4.19$ instead of being multiplied.",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

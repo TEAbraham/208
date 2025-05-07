@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "The company claims the color distribution to be $45\\%$ Orange, $30\\%$ Brown, and $25\\%$ Yellow. Therefore, if we want to find the expected number of candies for each color, we can take the sample size, $n = 100$, and multiply it by the proportion of colors for each candy. For instance,\n\nExpected Orange: $100(0.45) = 45$\n\nExpected Brown: $100(0.30) = 30$\n\nExpected Yellow: $100(0.25) = 25$\n\nTherefore, the table in Choice $A$ correctly identifies the expected number for each color.\n\nChoice 'A' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nThe company claims the color distribution to be $45\\%$ Orange, $30\\%$ Brown, and $25\\%$ Yellow. Therefore, if we want to find the expected number of candies for each color, we can take the sample size, $n = 100$, and multiply it by the proportion of colors for each candy. For instance,\n\nExpected Orange: $100(0.45) = 45$\n\nExpected Brown: $100(0.30) = 30$\n\nExpected Yellow: $100(0.25) = 25$\n\nTherefore, the table in Choice $A$ correctly identifies the expected number for each color.\n\nChoice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect. The expected counts is found by multiplying the sample size by the proportion for each color. This table infers that the colors are evenly distributed, which is not true.\n\nChoice 'C' is incorrect. Expected counts are represented as countable numbers, and not as proportions. One must multiply the sample size by the proportion to find the expected counts.\n\nChoice 'D' is incorrect. This table finds the expected counts for a sample size of $200$, not the given sample size of $100$.\n\nChoice 'E' is incorrect. Again, Expected counts are represented as countable numbers and not as proportions. Additionally, the proportion of candies is not evenly distributed like this table infers.",
   "tags": [
     "VAR-1.J",
     "VAR-1.J.1",

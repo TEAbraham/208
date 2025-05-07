@@ -8,7 +8,7 @@
   ],
   "title": "Find the Error",
   "difficulty": "Hard",
-  "question_text": "A pharmaceutical company was testing a new drug. It wanted to show that a higher dose of the drug would result in patients having fewer headaches. Thirty-two patients were to be randomly selected from a group of headache sufferers from several medical practices in a large city. Four different dosages of the drug would be administered and the number of headaches would be counted over a period of time. Data was carefully documented and residuals were examined. A $t$-test was to be done using the following hypotheses:<br>$H_{0}: \\beta=0$<br>$H_{a}: \\beta\\neq0$<br>Something is wrong here.\nWhat is incorrect?",
+  "question_text": "A pharmaceutical company was testing a new drug. It wanted to show that a higher dose of the drug would result in patients having fewer headaches. Thirty-two patients were to be randomly selected from a group of headache sufferers from several medical practices in a large city. Four different dosages of the drug would be administered and the number of headaches would be counted over a period of time. Data was carefully documented and residuals were examined. A $t$-test was to be done using the following hypotheses:<br>$H_{0}: \\beta=0$<br>$H_{a}: \\beta\\neq0$<br>Something is wrong here.\nWhat is incorrect?<br>What is incorrect?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nGiven that a $t$-test for slope is being asked for, two main questions must be asked: Have the conditions been checked and are the hypotheses correct?\n\nFirst, there are $4$ categories of conditions for conducting a $t$-test for slope. These include:\n\nChecking to see that the relationship between the two variables is linear.\n\nChecking to see that the standard deviation for $y$ does not vary with different values of $x$.\n\nChecking for independence like with other tests. Data is collected randomly and sample size is less than one-tenth the size of the population.\n\nChecking for approximate normality. Sample size should either be greater than $30$ or the sample data should be checked for skewness and outliers.\n\nIn this problem these conditions appear to have been verified or met.\n\nSecond, the hypotheses need to be checked. The null hypothesis should be that there is no association between the variables so it is correct. But, the alternative is supposed to show that as the dosage increases, the number of headaches decreases. Because the variables would be moving in opposite directions, the company is trying to prove a negative slope. This would result in a $<$ sign and not a $\\neq$ sign.\n\nSo, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the sample size need simply be greater than $30$, and it is.\n\nChoice 'B' is incorrect because the independence condition requires that data should be collected randomly and that the population should be at least $10$ times the the sample size. The problem states random selection, and, in a large city with multiple medical practices, it is certainly reasonable to believe that there are more than $320$ headache patients.\n\nChoice 'C' is incorrect because linearity is checked through an analysis of residuals which was stated.\n\nChoice 'D' is incorrect because the alternative hypothesis should have a less than, not a greater than, sign.",
   "tags": [
     "4.C",
     "VAR-7.L.1",

@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To determine the confidence level, set up the following equation, with the corresponding variables:\n\n$$m = Z^*\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n}}$$\n\nThen solve for $Z^*$.\n\nWhen solving for $Z^*$, the closest approximate value is $Z^* = 1.96$. Use table B (given on the AP test) to look up $1.96$ on the bottom row of the table to determine a $95\\%$ confidence level was used.\n\nThus, the correct answer is Choice 'A'.\n\nExplanation of Distractors\n\nChoice 'C' is incorrect. Since this situation deals with proportions, not means, the $Z$ distribution should be used instead of the $T$.",
   "tags": [
     "UNC-4.A",
     "UNC-4.A.1",

@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A confidence interval can be used as a hypothesis test. In this case, the null hypothesis would state that there is no difference in the two proportions, and the alternative hypothesis would state that there is a difference (two-sided test).\n\nThe null hypothesis of no difference is a possibility, as the value $µD = 0$ is within the calculated confidence interval.\n\nThus, Choice 'D' is the best answer. While the sample proportions show that a greater percentage of the girls believe in Santa Claus than do the boys, the difference is not statistically significant at the $5\\%$ level.",
   "tags": [
     "UNC-4.N.1",
     "4.D",

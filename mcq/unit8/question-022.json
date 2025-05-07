@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We are looking to compare gathered data against a specific model – namely the 2022 predictions provided by the Bureau of Labor Statistics. This model is provided using a table where all the percentages add up to $100\\%$. Furthermore, the variable of interest (industry sector) is categorical.\n\nAll of these things should lead us to conclude that a ${ \\chi }^{ 2 }$ Goodness of Fit Test is appropriate. For this type of test, the number of degrees of freedom ($df$) is $k – 1$ where $k$ is the number of different categories the variable can fall into. There are $4$ different major industry sectors, therefore: $4–1=3$ degrees of freedom.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. We use $n–2$ degrees of freedom (where $n$ is the number of observations) only when conducting a $t$-test for linear regression.\n\nChoice 'C' is incorrect. The degrees of freedom does not equal the number of different categories.\n\nChoices 'D' and 'E' are incorrect. Although our model consists of various percentages (or proportions), and although our data should come from a single sample, we cannot use a $z$-test for proportions.\n\nA $z$-test for proportions would be used when we have a single hypothesized proportion related to the overall population, not several hypothesized proportions related to various categories within the overall population.\n\nAlso, Choice 'D' is incorrect because degrees of freedom are irrelevant when working with a $z$-distribution.",
   "tags": [
     "VAR-8.G.1",
     "VAR-8.G",

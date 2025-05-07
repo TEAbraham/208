@@ -9,7 +9,7 @@
   ],
   "title": "Charity 5K: Conclusions from a Boxplot",
   "difficulty": "Easy",
-  "question_text": "Recently, a community group held a 5K Race/Fun Walk to raise money for local charities. The event was advertised as being appropriate for all ages and ability levels. Sure enough, on race day, entrants ranged from the most competitive fitness enthusiasts who ran the race at their top speed, to grandparents walking the course at a leisurely pace with their young grandchildren.<br>The distribution of the amount of time it took participants to finish the course are displayed in the boxplot below.<br><br><br><br><br>Which of the following statements correctly describes the shape of the distribution and the relative positioning of the mean and median race times?",
+  "question_text": "Recently, a community group held a 5K Race/Fun Walk to raise money for local charities. The event was advertised as being appropriate for all ages and ability levels. Sure enough, on race day, entrants ranged from the most competitive fitness enthusiasts who ran the race at their top speed, to grandparents walking the course at a leisurely pace with their young grandchildren.<br>The distribution of the amount of time it took participants to finish the course are displayed in the boxplot below.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>Which of the following statements correctly describes the shape of the distribution and the relative positioning of the mean and median race times?",
   "image_files": [
     "images/question-157-img1.PNG"
   ],
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A boxplot is divided into four sections, each representing about\n25\n%\nof the data. In this case, about\n25\n%\nof race times were in the\n15\n−\n26\nminute range,\n25\n%\nof the times were in the\n26\n−\n32\nminute range,\n25\n%\nof the times were in the\n32\n−\n48\nminute range, and\n25\n%\nof times were in the\n48\n−\n64\nminute range.\n\nThe lowest\n50\n%\nof times were between about\n15\nminutes and\n32\nminutes but the highest\n50\n%\nof times were much more spread out from about\n32\nminutes to about\n64\nminutes. This larger spread in the higher values means that the distribution is skewed right.\n\nFrom the boxplot, we know the median of this distribution is about\n32\nminutes. However, the mean will be greater than\n32\nbecause it is pulled up by the high race times.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. While the mean will equal the median in a symmetric distribution, this distribution is not roughly symmetric.\n\nChoices 'B' and 'C' are incorrect. In a distribution that is skewed to the left, the mean will be less than the median. However, this distribution is not skewed to the left.\n\nChoice 'D' is incorrect. In a distribution that is skewed to the right, the mean will be greater than the median.",
   "tags": [
     "UNC-1.L.1",
     "UNC-1.M",

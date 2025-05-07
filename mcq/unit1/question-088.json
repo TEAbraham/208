@@ -15,28 +15,27 @@
   "choices": [
     {
       "letter": "A",
-      "text": "Mean = 46.8 kg\n;\nStandard deviation = 11 kg"
+      "text": "Mean = $46.8\\text{ kg}$;\nStandard deviation = $11\\text{ kg}$"
     },
     {
       "letter": "B",
-      "text": "Mean = 46.8 kg\n;\nStandard deviation = 4.95 kg"
+      "text": "Mean = $46.8\\text{ kg}$;\nStandard deviation = $4.95\\text{ kg}$"
     },
     {
       "letter": "C",
-      "text": "Mean 104 kg\n;\nStandard deviation = 4.95 kg"
+      "text": "Mean $104\\text{ kg}$;\nStandard deviation = $4.95\\text{ kg}$"
     },
     {
       "letter": "D",
-      "text": "Mean = 104 kg\n;\nStandard deviation = 11 kg"
+      "text": "Mean = 104 kg;\nStandard deviation = 11 kg"
     },
     {
       "letter": "E",
-      "text": "Mean = 46.8 kg\n;\nStandard deviation = unable to determine"
+      "text": "Mean = 46.8 kg;\nStandard deviation = unable to determine"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When all of the data is multiplied by a single value (0.45, in this case), both the measures of center and spread change by that factor. Thus, in this situation, both the mean and standard deviation change by that factor.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "UNC-1.I.2",
     "2.C",

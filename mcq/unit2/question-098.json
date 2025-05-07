@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This question addresses the issue of being able to find the slope and interpret it. The slope is the number in front of the $x$-variable, which in this case is $136.89$.\n\nTherefore, we can eliminate Choices 'B' and 'D' since they suggest slopes of $\\$14578.91$, which are found by taking the $y$-intercept of the least squares regression line. Again, we are looking for the slope.\n\nWe can also eliminate Choice 'E', as we are given the equation of the line and therefore do not need the $50$ data points.\n\nSlope is:\n\n$$\\frac { \\text{rise} }{ \\text{run} } =\\frac { y }{ x }$$\n\n...which in this case is: $ \\dfrac { \\text{cost} }{ \\text{square footage} }$\n\nSince 136.89 is the same as\n136.89\n1\n, then for each additional square foot, the estimated cost of the house will increase by $136.89.",
   "tags": [
     "4.B",
     "DAT-1.H.2",

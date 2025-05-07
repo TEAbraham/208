@@ -10,7 +10,7 @@
   ],
   "title": "Exam Scores | 1 of 2",
   "difficulty": "Easy",
-  "question_text": "<br><br><br><br>These side-by-side stemplots represent the scores on the final exam for a statistics teacher’s $1^\\text{st}$ period class $(n = 29)$ on the left and $5^\\text{th}$ period class $(n = 22)$ on the right. The scores are raw scores, out of a possible $100\\text{ points}$.<br>Which of the following statements is false?",
+  "question_text": "Created for Albert.io. Copyright 2016. All rights reserved.<br><br>These side-by-side stemplots represent the scores on the final exam for a statistics teacher’s $1^\\text{st}$ period class $(n = 29)$ on the left and $5^\\text{th}$ period class $(n = 22)$ on the right. The scores are raw scores, out of a possible $100\\text{ points}$.<br>Which of the following statements is false?",
   "image_files": [
     "images/question-169-img1.png"
   ],
@@ -18,7 +18,7 @@
   "choices": [
     {
       "letter": "A",
-      "text": "The mean for 5th\nperiod is greater than the mean for 1st\nperiod."
+      "text": "The mean for\n5\nth\nperiod is greater than the mean for\n1\nst\nperiod."
     },
     {
       "letter": "B",
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "For side-by-side stemplots, the left-hand stemplot is “backward” when you consider its skewness, so the skewness for\n1\nst\nperiod is to the left, because few values are occurring in the low scores and many values in the higher score categories. The distribution is skewed left, not right.\n\nRemember, we are looking for the statement which is false.\n\nChoice 'D' is false, making it correct; since there are few values in the low scores and many values in the higher scores, the distribution is skewed left, not right.\n\nExplanation of Distractors\n\nChoice 'A' is a true, making it incorrect; visual observation shows larger values for the\n5\nth\nperiod class.\n\nChoice 'B' is true, making it incorrect; both distributions have a modal class that encompasses scores in the\n80\n′\ns\n.\n\nChoice 'C' is true, making it incorrect; this is due to the relatively tight clustering of the data in the\n80\n′\ns\nand\n90\n′\ns\n.\n\nChoice 'E' is true, making it incorrect; from the distribution, we can see that\n5\nth\nperiod had scores that were more concentrated in the high-end and so had a higher average. Thus,\n5\nth\nperiod did better than\n1\nst\nperiod regarding mean scores.",
   "tags": [
     "UNC-1.N.1",
     "2.D",

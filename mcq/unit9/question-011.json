@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nKnowing how to calculate a residual is essential when estimating the slope of a linear regression model. Residuals are used to verify conditions for calculating a confidence interval as well as for conducting a significance test for slope.\n\nThe equation for the calculation of a residual is $y-\\hat{y}$ where $y$ is the $y$ value in a given point and $\\hat{y}$ is the value when the $x$ value of a given point is plugged into a given linear regression equation.\n\nIn this problem, we would first plug in $8$ to find the $\\hat{y}$ value. So:\n\nˆ\ny\n=42−6(8)=−6\n\nThen use the residual equation above to find:\n\ny−\nˆ\ny\n=3−(−6)=9\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because either the subtraction was done incorrectly or the two values were reversed.\n\nChoice 'C' is incorrect because this is the value of\nˆ\ny\n.\n\nChoice 'D' is incorrect because this is the value of −\nˆ\ny\n.\n\nChoice 'E' is incorrect because here the y\nvalue of the given point was plugged into the regression equation.",
   "tags": [
     "UNC-4.AC",
     "UNC-4",

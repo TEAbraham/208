@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThere are $4$ categories of conditions for conducting a $t$-test for slope. These include:\n\nChecking to see that the relationship between the two variables is linear.\n\nChecking to see that the standard deviation for $y$ does not vary with different values of $x$.\n\nChecking for independence like with other tests. Data is collected randomly and sample size is less than one-tenth the size of the population.\n\nChecking for approximate normality. Sample size should either be greater than $30$ or the sample data should be checked for skewness and outliers.\n\nIn this problem, the answer incorrectly states that the data should be collected via a stratified random sample. This is a requirement for a chi-square test for homogeneity, not for the $t$-test for slope as only one population is being examined.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because checking the residual plot can verify that the standard deviation for $y$ does not vary with different values of $x$.\n\nChoice 'B' is incorrect because comparing the sample and population sizes verifies the condition for independence.\n\nChoice 'C' is incorrect because checking for skewness and outliers verifies the condition for normality.\n\nChoice 'E' is incorrect because the variables do need to be checked for linearity.",
   "tags": [
     "4.C",
     "VAR-7.L.1",

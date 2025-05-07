@@ -9,7 +9,7 @@
   ],
   "title": "Genealogy: Average Number of Generations Discovered",
   "difficulty": "Easy",
-  "question_text": "A group of amateur genealogists compared notes on how many generations back they were able to trace their family history. All members of the group knew their own parents (the first generation back) and their grandparents (the second generation back). However, only $40\\%$ of the group members were able to trace back to their great grandparents (the third generation back) and none of the group members was able to trace back past six generations. The table below shows the relative frequency for how many generations back members of the group were able to trace.<br>On average, how many generations back were group members able to trace?",
+  "question_text": "A group of amateur genealogists compared notes on how many generations back they were able to trace their family history. All members of the group knew their own parents (the first generation back) and their grandparents (the second generation back). However, only $40\\%$ of the group members were able to trace back to their great grandparents (the third generation back) and none of the group members was able to trace back past six generations. The table below shows the relative frequency for how many generations back members of the group were able to trace.<br>On average, how many generations back were group members able to trace?<br>On average, how many generations back were group members able to trace?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Number of Generations Back</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th><th scope=\"col\">6</th></tr></thead><tbody><tr><td>Relative Frequency</td><td>0.4</td><td>0.3</td><td>0.2</td><td>0.1</td></tr></tbody></table>"
@@ -25,7 +25,7 @@
     },
     {
       "letter": "C",
-      "text": "$4$"
+      "text": "4"
     },
     {
       "letter": "D",
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The number of generations back that group members are able to trace is a random variable that we will call X\n. We will use the relative frequency distribution given to find the mean or expected value of X\n.\n\nThe formula is:\n\nμX=∑(Xi)(pi)=(X1)(p1)+(X2)(p2)+......+(Xn)(pn)\n\nFilling in the formula with our known quantities, we have:\n\nμ\nX\n=\n(\n3\n)\n(\n0.4\n)\n+\n(\n4\n)\n(\n0.3\n)\n+\n(\n5\n)\n(\n0.2\n)\n+\n(\n6\n)\n(\n0.1\n)\n\nμ\nX\n=\n4\n\nChoice 'C' is the correct choice.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect and represents the most common number of generations back that group members were able to trace.\n\nChoice 'B' is incorrect. We cannot find the mean by simply averaging the two most common values.\n\nChoice 'D' is incorrect. We cannot find the mean by averaging all possible values that describe how many generations back group members were able to trace. Since\n70\n%\nof the group members were able to trace back\n3\nor\n4\ngenerations, you may have guessed that the answer would be a little more than\n4\nif you did not take the time to do the calculation. Do the calculation if you can!\n\nChoice 'E' is incorrect and probably represents a pure guess!",
   "tags": [
     "VAR-5.C.2",
     "VAR-5",

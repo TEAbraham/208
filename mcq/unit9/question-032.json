@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nIn doing a $t$-test for slope in a regression model, a similar approach to hypotheses is used as with other tests of significance. Instead of using $p$ or $\\mu$, here we use $\\beta$, beta, which is the population value of the slope for the regression line.\n\nThe null hypothesis is what is assumed to be true. While it is possible to assume a given slope, it is more common to test for an association between the variables by assuming that there is none in the first place. But, in this case, we are given an assumed value of $-1.5$ so we would set $\\beta$ equal to $-1.5$. Whether zero or another slope value is used, the null hypothesis always uses an equals sign.\n\nThe alternative hypothesis is what we want to prove to be true. We set $\\beta$ to be less than, greater than, or not equal to zero or some other value. The sign is chosen based on the wording in the question. If not clearly less than or greater than, or one-sided, then a two-sided test should be used with a not equal to sign used. In this problem, since it is believed that the slope value is less than the assumed value of $-1.5$, we would use the $<$ sign.\n\nSo, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because both hypotheses should use $\\beta$'s and not $b$'s and the numbers should be $-1.5$ instead of zero.\n\nChoice 'B' is incorrect because both hypotheses should use $\\beta$'s and not $b$'s.\n\nChoice 'C' is incorrect because $H_{a}$ should have a $<$ sign.\n\nChoice 'D' is incorrect because $H_{0}$ should equal the value $-1.5$.",
   "tags": [
     "1.F",
     "VAR-7.K",

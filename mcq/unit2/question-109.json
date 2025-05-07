@@ -10,7 +10,7 @@
   ],
   "title": "Determining the LSRL From Summary Statistics",
   "difficulty": "Medium",
-  "question_text": "A nutritionist wanted to investigate the relationship between the number of fat grams ($x$) and the total number of calories ($y$) found in foods offered at fast-food restaurants. She randomly selected $16$ food items found at local fast food restaurants and gathered information about these food items from the nutritional information provided by the restaurants, Here are some statistics related to her findings:<br><br><br><br><br>If the correlation for the relationship between number of fat grams and total number of calories is $0.947$, what is the equation of the LSRL?",
+  "question_text": "A nutritionist wanted to investigate the relationship between the number of fat grams ($x$) and the total number of calories ($y$) found in foods offered at fast-food restaurants. She randomly selected $16$ food items found at local fast food restaurants and gathered information about these food items from the nutritional information provided by the restaurants, Here are some statistics related to her findings:<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>If the correlation for the relationship between number of fat grams and total number of calories is $0.947$, what is the equation of the LSRL?",
   "image_files": [
     "images/question-109-img1.PNG"
   ],
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "All of the formulas you need to complete this problem can be found in the reference materials provided with the AP exam. Of course, it is important to review these reference materials ahead of time so that you know what will be provided and understand what each of the formulas relate to.\n\nWe are attempting to write the equation of the LSRL. In the reference materials, this equation is given in the form:\n\n$$\\hat { y } ={ b }_{ 0 }+{ b }_{ 1 }x$$\n\nThe formula for the slope of the LSRL is given as follows:\n\n$${ b }_{ 1 }=r\\dfrac { { s }_{ y } }{ { s }_{ x } }$$\n\nTo use this formula, you will need to know that $r$ represents the correlation, ${ s }_{ y }$ represents the standard deviation of the $y$ values and ${ s }_{ x }$ represents the standard deviation of the $x$ values.\n\nFill in the formula:\n\n$${ b }_{ 1 }=(0.947)\\dfrac { 188.79 }{ 11.81 } =15.138$$\n\nNow we can find the $y$-intercept of the LSRL. The formula given in the reference materials is:\n\n$${ b }_{ 0 }=\\overline { y } -{ b }_{ 1 }\\overline { x } $$\n\nFill in the formula:\n\n$${ b }_{ 0 }=441.875-(15.138)(20.875)=125.869$$\n\nNow that we know both the slope and $y$-intercept, we can substitute these values into the form of the equation of the LSRL as follows:\n\n$$\\hat { y } ={ b }_{ 0 }+{ b }_{ 1 }x$$\n\n$$\\hat { y } =125.869+15.138x$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. This equation results from interchanging values related to $x$ with values related to $y$ when completing calculations.\n\nChoice 'B' is incorrect. This equation results from making the same mistake as noted above for Choice 'A' and also reversing the slope and $y$-intercept in the equation.\n\nChoice 'C' is incorrect because the values of the slope and $y$-intercept have been interchanged.\n\nChoice 'E' is incorrect. We cannot simply use the average $y$-value ($\\overline { y } $) as the value of the $y$-intercept, nor can we use the average $x$ value ($\\overline { x } $) as the slope or coefficient of $x$ in the equation of the LSRL.",
   "tags": [
     "4.B",
     "DAT-1.H.2",

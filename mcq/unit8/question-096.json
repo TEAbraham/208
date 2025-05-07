@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice ‘B’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWhen a two-way table is give in a chi-square setting, it usually contains the observed values from the study. In order to calculate the expected value of any cell from the two-way table, use the formula:\n\n$$\\text{expected value} = \\dfrac{(\\text {row total})(\\text {column total})}{\\text {table total}}$$\n\nNext, to calculate the chi-square test statistic, use the formula:\n\n$$\\chi^2 = \\Sigma \\dfrac{(\\text {observed value - expected value})^2}{\\text {expected value}}$$\n\nHere is a table of the expected values:\n\nFinally, the chi-square test statistic:\n\n$$\\chi^2 \\Sigma \\dfrac{(\\text {observed value - expected value})^2}{\\text {expected value}}$$\n\n$$\\dfrac{(177 - 190)^2}{190} + \\dfrac{(330 - 317)^2}{317} + \\dfrac{(193 - 180)^2}{180} + \\dfrac{(289 - 302)^2}{302} = 2.777$$\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect: For a chi-square test for association, the degrees of freedom is:\n\n$$\\text {degrees of freedom} = (\\text {amount of rows} - 1)(\\text {amount of columns} - 1)$$\n\nIn this setting degrees of freedom would equal $1$.\n\nChoice ‘C’ is incorrect: $0.002$ is the value calculated if each numerator is not squared.\n\nChoice ‘D’ is incorrect: $1.666$ is the square root of the value of the correct test statistic, $2.777$.\n\nChoice ‘E’ is incorrect: $4$ is how many cells exist for this setting.",
   "tags": [
     "VAR-8.L",
     "VAR-8.L.1",

@@ -18,24 +18,23 @@
     },
     {
       "letter": "B",
-      "text": "8"
+      "text": "$8$"
     },
     {
       "letter": "C",
-      "text": "9"
+      "text": "$9$"
     },
     {
       "letter": "D",
-      "text": "10"
+      "text": "$10$"
     },
     {
       "letter": "E",
-      "text": "11"
+      "text": "$11$"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When conducting a $t$-test for slope, we use $n – 2$ degrees of freedom where $n$ is the number of observations. There are $10$ observations. Therefore, $10 – 2 = 8$.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The number of degrees of freedom is not half the number of observations.\n\nChoice 'C' would be correct is we were conducting a $t$-test for means. In a $t$-test for means, we use $n – 1$ degrees of freedom where $n$ is the number of observations.\n\nChoice 'D' is incorrect. The number of degrees of freedom is not equal to the number of observations.\n\nChoice 'E' is incorrect. The number of degrees of freedom is not equal to $n + 1$.",
   "tags": [
     "VAR-7.M",
     "VAR-7",

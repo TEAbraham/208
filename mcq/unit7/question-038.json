@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The purpose of a confidence interval is to capture the parameter, which in this case is the population mean. When looking for the correct answer, look for something that mentions the population mean or the true mean.\n\nChoice 'A' is incorrect, as it does not refer to the population mean, but rather to individuals.\n\nChoice 'B' is incorrect, as it does not refer to the population mean, but rather to individuals.\n\nChoice 'C' is incorrect, as it does not refer to the population mean, but rather to the boys in this study, which is the sample mean. Also, we would be $100\\%$ confident, since we used this study to create the interval so the average height of the boys in the study would have to be in the interval.\n\nChoice 'D' is incorrect. The average height grown does not vary. The average height is either in the interval (probability of $1$) or not in the interval (probability of $0$).\n\nChoice 'E' is correct. This is the correct interpretation of a confidence interval.",
   "tags": [
     "4.B",
     "UNC-4.S",

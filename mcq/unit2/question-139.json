@@ -9,7 +9,9 @@
   "title": "Pear Tree Production",
   "difficulty": "Medium",
   "question_text": "A researcher wondered if the pear tree in his backyard would keep its current production during future years. He decided to look at historical records for this certain type of pear tree and found a least squares regression line of $\\hat{y} = 156 + 25.4x$, where $x =$ the age of the pear tree in years and $y =$ the amount of pears produced by the tree.<br>Given is the residual plot for the least-squares regression line.<br>Should the researcher use the linear model to represent the pear production?",
-  "image_files": [],
+  "image_files": [
+    "images/question-139-img1.png"
+  ],
   "tables": [],
   "choices": [
     {
@@ -18,7 +20,7 @@
     },
     {
       "letter": "B",
-      "text": "Yes, because there are some points above and below $0$ on the residual plot."
+      "text": "Yes, because there are some points above and below 0 on the residual plot."
     },
     {
       "letter": "C",
@@ -34,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "A residual plot shows the residuals graphed against the explanatory variable. A residual shows the difference between the actual response variable and the predicted response variable found from the least-squares regression line.\n\nA residual plot can be used to to investigate the appropriateness of the model used. Apparent randomness in the residual plot is evidence for a linear model. For this problem, the residuals are in a parabolic form, which is not random. Therefore, a linear model is not appropriate for the researcher.\n\nChoice 'D' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nA residual plot shows the residuals graphed against the explanatory variable. A residual shows the difference between the actual response variable and the predicted response variable found from the least-squares regression line.\n\nA residual plot can be used to to investigate the appropriateness of the model used. Apparent randomness in the residual plot is evidence for a linear model. For this problem, the residuals are in a parabolic form, which is not random. Therefore, a linear model is not appropriate for the researcher.\n\nChoice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Although the researcher did find a least-squares regression line, the model would not accurately depict the situation as the residual plot is parabolic.\n\nChoice 'B' is incorrect. It is true that some points are above and below 0\non the residual plot, but they are in a pattern, not random.\n\nChoice 'C' is incorrect. When looking at a residual plot, randomness is what indicates a linear model, not clusters.\n\nChoice 'E' is incorrect. Ironically, a linear form in the residual plot would indicate that a linear model is not appropriate as only randomness would indicate a linear is appropriate.",
   "tags": [
     "DAT-1.F.2",
     "DAT-1.F.1",

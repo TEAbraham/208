@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This question combines two components: first, calculating the variation (correlation squared), and second, being able to correctly interpret it.\n\n$$\\mathrm{Variation={Correlation}^2}$$\n\n$$\\mathrm{Variation={(-0.8)}^2}$$\n\n$$\\mathrm{Variation={0.64}}$$\n\nThis leaves us with Choice 'D' as the correct answer which correctly calculates variation.\n\nExplanation of Distractors\n\nChoice 'A' and Choice 'B' can be eliminated, as they imply causation. Correlation does not imply causation.\n\nChoice 'C' is the absolute value of the correlation $-0.8$ turned into a percentage.\n\nChoice 'E' is the result of calculating the variation correctly, but then subtracting it from $100\\%$.",
   "tags": [
     "4.B",
     "DAT-1.C",

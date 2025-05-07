@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A two proportion $Z$ interval is used to estimate the difference in proportions of two independent populations. The data must come from two independent samples that deal with proportions (remember proportions give yes or no answers, not quantitative).\n\nThe interval then takes the difference in proportions between samples, and attaches a margin of error both above and below this difference and gives a range of values that hopes to catch the true difference of proportions for the two populations.\n\nChoice 'D' is correct. It deals with two independent samples (males and females) and asks them if they go to the gym regularly. This question can be answered with a yes or no response and therefore deals with proportions.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; these offer quantitative variables that deal with sample means.\n\nChoice 'B' is incorrect; this selection refers to only a single proportion.\n\nChoice 'C' is incorrect; this would be best measured with sample means, not proportions.\n\nChoice 'E' is incorrect; this refers to bivariate data, which is best performed with linear regression $T$ procedures.",
   "tags": [
     "DAT-3.C",
     "4.B",

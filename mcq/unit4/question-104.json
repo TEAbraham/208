@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe probabilities in any probability distribution for a random variable must always add up to $1.0$. Also, the random variable values must be countable; that is, no inequality signs can be part of the distribution.\n\nIn the given problem you want to look at the bottom line for the probabilities given as p($x$). The decimals in this row must add up to $1.0$.\n\nThe correct answer gives its probabilities as 0.30+0.55+0.05+0.05+0.05 which adds up to 1.0.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because, while the probabilities do add to 1, the x values include a ≤ sign which is not allowed in the probability distribution for a random variable. The x values must be countable.\n\nChoice 'C' is incorrect because the probabilities add up to 1.1\n, a value that is greater than 1\n.\n\nChoice 'D' is incorrect because the probabilities add up to .99\n, a value that is less than 1\n.\n\nChoice 'E' is incorrect because, while the probabilities do add to 1\n, the x\nvalues include ≤\nand ≥\nsigns which are not allowed in the probability distribution for a random variable. The x\nvalues must be countable.",
   "tags": [
     "VAR-5.A.2",
     "VAR-5",

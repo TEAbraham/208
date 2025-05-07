@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The value of the parameter stated in the null hypothesis sets us up for what would be expected if the treatment had no effect.\n\nAn unlikely experimental result from a sample means that this experimental group has some aspect that makes it unlikely that this sample behaves like others in the original population, so it probably comes from a population whose parameter is different from the one stated in the null hypothesis. Thus, the null hypothesis of no difference would be rejected.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; generally, a test statistic of $0$ means that there is no difference between the experimental outcome and what would be expected if no treatment had been applied. This would lead to NOT rejecting the null hypothesis.\n\nChoice 'B' is incorrect; if the results are consistent with the null hypothesis, one would not be led to reject it.\n\nChoice 'D' is incorrect; this selection might be correct when conducting a two-sample hypothesis test, but no sample values are provided, nor is a p-value given.\n\nChoice 'E' is incorrect; this selection gives a p-value so large that one would never reject the null hypothesis based on its value.",
   "tags": [
     "VAR-1.J",
     "VAR-1.J.1",

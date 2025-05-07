@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To get at least an $80\\%$, the student must guess at least $2$ of the $4\\text{ questions}$ correct. Since the student can eliminate $1$ of the answers, $\\text{P(success)} = \\frac{1}{4} = 0.25$.\n\n$\\text{P(x = 8) = P(guess 2 correct)} = 0.25^2 \\cdot 0.75^2 \\cdot { { _{ 4 }C_{ 2 } } }$\n$\\text{P(x = 9) = P(guess 3 correct)} = 0.25^3 \\cdot 0.75^1 \\cdot { { _{ 4 }C_{ 1 } } }$\n$\\text{P(x = 10) = P(guess 4 correct)} = 0.25^4 \\cdot 0.75^0 \\cdot { { _{ 4 }C_{ 0 } } }$\n\nAdd these up to get $0.2617$.\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "UNC-3.B",
     "3.A",

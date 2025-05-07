@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "An outlier in regression is a point that does not follow the general trend shown in the rest of the data and have a large residual when the least-squares regression line (LSRL) is found.\n\nIn this example, the general trend is the more you study, the higher your test score. Students who studied a good amount of time for the test, typically did well, while students who did not study much, typically did poorly on the exam. Only one point in the graph does not follow this trend, Point B.\n\nChoice 'B' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nAn outlier in regression is a point that does not follow the general trend shown in the rest of the data and have a large residual when the least-squares regression line (LSRL) is found.\n\nIn this example, the general trend is the more you study, the higher your test score. Students who studied a good amount of time for the test, typically did well, while students who did not study much, typically did poorly on the exam. Only one point in the graph does not follow this trend, Point B.\n\nChoice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Point A represents a student who did not study much, and did poorly on the exam. This follows the trend.\n\nChoice 'C' is incorrect. Point C fits well within the data, so it would not be considered an outlier.\n\nChoice 'D' is incorrect. Although point D is a little lower than the points around it, it is not far enough away from the typically trend to be considered an outlier.\n\nChoice 'E' is incorrect. Even though point E is at the end of the data, it represents a student who studied a long time, and did well on the exam, which follows the trend .",
   "tags": [
     "DAT-1.I",
     "DAT-1.I.2",

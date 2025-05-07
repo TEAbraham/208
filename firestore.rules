@@ -1,0 +1,44 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // 🛡 Utility functions
+    function isAdmin() {
+      return request.auth.token.admin == true;
+    }
+
+    // Allow admins to read/write everything
+    match /{document=**} {
+      allow read, write: if isAdmin();
+    }
+
+    // Also make sure you can read from users
+    match /users/{userId} {
+      allow read: if request.auth != null;
+    }
+
+    // Allow logged-in users to read questions (excluding correct answers)
+    match /mcq_questions/{questionId} {
+      allow get, list: if request.auth != null;
+    }
+
+    // Allow students to read/write their own answers
+    match /student_answers/{docId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null &&
+                    request.auth.uid == request.resource.data.userId;
+    }
+
+    match /unit_completion/{docId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null &&
+                    request.auth.uid == request.resource.data.userId;
+    }
+
+    match /student_summary/{docId} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null &&
+                    request.auth.uid == request.resource.data.userId;
+    }
+  }
+}

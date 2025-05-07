@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "First, since no value for $p$ has been provided, use the conservative guess for $p$ as $0.5$.\n\nThe formula for margin of error for a proportion is:\n\n$$m=z^{*}\\sqrt{\\dfrac{p^{*}(1-p^{*})}{n}}$$\n\nSubstitute $0.01$ for $m$, a $z$-score of $1.96$ using the standard normal table, and $p = 0.5$.\n\nSolve the resulting algebraic equation to find that $n = 9{,}604\\text{ flips}$. The closest value from the answer choices is $10{,}000$.\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "UNC-4.C.4",
     "3.D",

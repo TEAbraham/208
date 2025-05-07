@@ -8,7 +8,7 @@
   ],
   "title": "Marginal Distributions from a Graph",
   "difficulty": "Hard",
-  "question_text": "A school club was asked to produce information about the gender and class level of those belonging to the club. The club President decided to provide the information in the form of the graph shown below.<br><br><br><br><br>Find the marginal distribution of class level using percents.",
+  "question_text": "A school club was asked to produce information about the gender and class level of those belonging to the club. The club President decided to provide the information in the form of the graph shown below.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>Find the marginal distribution of class level using percents.",
   "image_files": [
     "images/question-031-img1.PNG"
   ],
@@ -16,28 +16,27 @@
   "choices": [
     {
       "letter": "A",
-      "text": "Female: 52.63%\nMale: 47.37%"
+      "text": "Female:\n52.63\n%\n\nMale:\n47.37\n%"
     },
     {
       "letter": "B",
-      "text": "Freshman: 13.16%\n\nSophomore: 15,79%\n\nJunior: 13.16%\n\nSenior: 10.53%"
+      "text": "Freshman:\n13.16\n%\n\nSophomore:\n15\n,\n79\n%\n\nJunior:\n13.16\n%\n\nSenior:\n10.53\n%"
     },
     {
       "letter": "C",
-      "text": "Freshman: 5.26%\n\nSophomore: 13.16%\n\nJunior: 18.42%\n\nSenior: 10.53%"
+      "text": "Freshman:\n5.26\n%\n\nSophomore:\n13.16\n%\n\nJunior:\n18.42\n%\n\nSenior:\n10.53\n%"
     },
     {
       "letter": "D",
-      "text": "Freshman: 18.42%\n\nSophomore: 28.95%\n\nJunior: 31.58%\n\nSenior: 21.05%"
+      "text": "Freshman:\n18.42\n%\n\nSophomore:\n28.95\n%\n\nJunior:\n31.58\n%\n\nSenior:\n21.05\n%"
     },
     {
       "letter": "E",
-      "text": "Freshman: 14\n\nSophomore: 22\n\nJunior: 24\n\nSenior: 16"
+      "text": "Freshman:\n14\n\nSophomore:\n22\n\nJunior:\n24\n\nSenior:\n16"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The marginal distribution of class level simply refers to the totals by class level. These totals have been requested as percents, so we must determine what percent each class level is of the overall total number of students in the club.\n\nStart by determining the total number of students in the club. We can find the number of females and males in each class level by matching up the height of the corresponding bar to the frequency shown on the vertical axis. To find the total number of students in the club, we would then add. Moving from left to right on the graph, we would get:\n\n10\n+\n12\n+\n10\n+\n8\n+\n4\n+\n10\n+\n14\n+\n8\n=\n76\n\nTo find the marginal distribution for the freshman class, find the total number of freshmen in the club and determine what percent this is of\n76\n.\n\nThe total number from the freshman class is:\n10\n+\n4\n=\n14\n.\n\nThe marginal distribution of the freshman class is:\n14\n76\n=\n0.1842\n=\n18.42\n%\n.\n\nDo the same for each class level.\n\nThe total number of sophomores is:\n12\n+\n10\n=\n22\n.\n\nThe marginal distribution of the sophomore class is:\n22\n76\n=\n0.2895\n=\n28.95\n%\n.\n\nThe total number of juniors is:\n10\n+\n14\n=\n24\n.\n\nThe marginal distribution of the junior class is:\n24\n76\n=\n0.3158\n=\n31.58\n%\n.\n\nThe total number of seniors is:\n8\n+\n8\n=\n16\n.\n\nThe marginal distribution of the senior class is:\n16\n76\n=\n0.2105\n=\n21.05\n%\n.\n\nChoice 'D' provides the marginal distribution using correct percents and is the correct choice.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. It is the marginal distribution of gender.\n\nChoice 'B' is incorrect and is the percent of girls (in the overall total) by class level.\n\nChoice 'C' is incorrect and is the percent of boys (in the overall total) by class level.\n\nChoice 'E' is incorrect. While this does provide the marginal distribution of class level, it is given in terms of actual counts rather than in terms of percent. The problem specifically requests percents.",
   "tags": [
     "UNC-1.Q.1",
     "2.C",

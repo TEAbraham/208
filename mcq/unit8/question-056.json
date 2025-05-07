@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe chi-square test for independence looks to see if two categorical variables are related.\n\nThe null hypothesis for this test assumes that there is no association or relationship between the two categorical variables; that is, the two variables are independent.\n\nThe alternative hypothesis for this test assumes that there is an association or relationship between the two categorical variables; that is, the two variables are dependent.\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because this is the null hypothesis for the chi-square test for independence.\n\nChoice 'B' is incorrect because this is the alternative hypothesis for the chi-square test for homogeneity.\n\nChoice 'D' is incorrect because this is the alternative hypothesis for the chi-square test for goodness of fit.\n\nChoice 'E' is incorrect because this is the null hypothesis for the chi-square test for homogeneity.",
   "tags": [
     "1.F",
     "VAR-8.I",

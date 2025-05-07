@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In the previous problem, the mean and standard deviation were found to be 1.9 days and 0.87 days, respectively.\n\nTo find the expected number of total days it takes for two letters to reach their destination, simply add the expected value for each of the letters: 1.9+1.9=3.8 days.\n\nTo find the standard deviation for this combined distribution, first add the two values of the original variance: new variance = 0.75+0.75=1.5.\n\nTo determine the standard deviation σ, take the square root of the new variance:\n\nσ=\n√\n1.5\n=1.22\n\nThus, the correct answer is Choice 'D'.\n\nNote: Remember that when you are finding the standard deviation of combined random variables, you must add the variances and then take the square root of the result. Do not add the standard deviations!",
   "tags": [
     "VAR-5.E",
     "VAR-5.E.2",

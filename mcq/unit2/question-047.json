@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "All a scatterplot can show is how $Y$ behaves according to changes in $X$. Since the problem states the correlation is negative, as $X$ increases, then $Y$ decreases.\n\nExplanation of Distractors\n\nChoices 'A' and 'B' are incorrect; no causal link between $X$ and $Y$ can be established because the data was from a sample. Perhaps $X$ and $Y$ are related, but one cannot say that $X$ causes changes in $Y$ or that $Y$ causes changes in $X$.\n\nChoice 'C' is incorrect; since this plot has a negative correlation, $Y$ decreases as $X$ increases.\n\nChoice 'E' is incorrect; one may make generalizations on how variables move together for moderate or strongly correlated plots.",
   "tags": [
     "4.B",
     "DAT-1.C",

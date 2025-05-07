@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe interpretation of a confidence interval for a population proportion as defined by the AP® Statistics Course and Exam Description is \"We are $C\\%$ confident that the confidence interval for a population proportion captures the population proportion,\" where $C$ stands for the confidence level.\n\nIn this problem we insert $95$ in for the $C$ and then we give the interval in the problem. It is always important to describe the population, so this is done as the proportion of marshmallows in Clucky Arms Cereal. This ties together the numbers with what is being examined.\n\nSo, Choice 'E' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it does not interpret the interval.\n\nChoice 'B' is incorrect because it omits the confidence level.\n\nChoice 'C' is incorrect because the confidence interval is only true for repeated samples taken of the same size.\n\nChoice 'D' is incorrect because it is just generalizing a number and using a single number instead of an interval.",
   "tags": [
     "UNC-4.F.2",
     "UNC-4.F",

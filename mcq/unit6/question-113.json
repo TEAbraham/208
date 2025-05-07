@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Both one and two proportions use the standard normal $Z$ distribution.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The $T$ distribution is used for inference on a single sample mean, the difference of sample means, or linear regression.\n\nChoice 'C' is incorrect. The chi-squared distribution can be used to compare two proportions, but does not specify direction, making Choice 'C' not the best selection. The chi-squared distribution is mainly used to test three or more proportions or data that can be displayed in a two way table.\n\nChoice 'D' is incorrect. Similar to that of proportions, the binomial distribution does deal with two selections only (yes or no), but the binomial distribution cannot compare two proportions.\n\nChoice 'E' is incorrect. The Poisson distribution deals with sample means, not proportions.",
   "tags": [
     "4.C",
     "VAR-6.J",

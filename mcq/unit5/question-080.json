@@ -7,7 +7,7 @@
   ],
   "title": "Which is More Random?",
   "difficulty": "Medium",
-  "question_text": "Two students are working on a project in AP Statistics. The students are taking random samples of size $n = 100$ from a population with a known mean of $\\mu = 10$. The students sample means are given below:<br>Each student is claiming their sample was \"more random\".\nWhich student is correct?",
+  "question_text": "Two students are working on a project in AP Statistics. The students are taking random samples of size $n = 100$ from a population with a known mean of $\\mu = 10$. The students sample means are given below:<br>Each student is claiming their sample was \"more random\".\nWhich student is correct?<br>Which student is correct?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Student</th><th scope=\"col\">Mean</th></tr></thead><tbody><tr><td><span class=\"tex2jax_process\">$1$</span></td><td><span class=\"tex2jax_process\">$\\mu_1 = 9.5$</span></td></tr><tr><td><span class=\"tex2jax_process\">$2$</span></td><td><span class=\"tex2jax_process\">$\\mu_2 = 10$</span></td></tr></tbody></table>"
@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "When selecting a sample from a population, with or without a known population mean, it is important to remember that differences between the samples can exist. This idea is called sampling variability. All sample of size 100 will not produce the same sample mean.\n\nTherefore, since both students took random samples of size 100\n, both of the samples would be considered equally \"random\", even if one sample produced the a sample mean that was equal to the population mean.\n\nChoice 'E' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nWhen selecting a sample from a population, with or without a known population mean, it is important to remember that differences between the samples can exist. This idea is called sampling variability. All sample of size 100 will not produce the same sample mean.\n\nTherefore, since both students took random samples of size 100, both of the samples would be considered equally \"random\", even if one sample produced the a sample mean that was equal to the population mean.\n\nChoice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. When selecting random samples, a sample mean that is equal to the know population mean is entirely possible and does not mean the sample was not random.\n\nChoice 'B' is incorrect. When selecting random samples, a sample mean that is a whole number is entirely possible and does not mean the sample was not random.\n\nChoice 'C' is incorrect. When selecting random samples, a sample mean can be equal to a value that is not the population mean, but this does not imply the sample was more random.\n\nChoice 'D' is incorrect. When selecting random samples, a sample mean that is not a whole number is entirely possible and does not imply that it was not random.",
   "tags": [
     "VAR-1.G",
     "VAR-1.G.1",

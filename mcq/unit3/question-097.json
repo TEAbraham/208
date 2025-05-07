@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "Draw subjects’ names out of a hat at random, giving the first $50$ the new weight loss drug and the remaining $50$ a placebo, then compare changes in weight between the two groups."
+      "text": "Draw subjects’ names out of a hat at random, giving the first 50 the new weight loss drug and the remaining 50 a placebo, then compare changes in weight between the two groups."
     }
   ],
   "correct_answer": "Choice 'E' is correct.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This method provides sufficient replication (n1=50 and n2=50), randomization (by drawing names out of a hat), and control (involving a placebo).\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; this provides no control group.\n\nChoice 'B' is incorrect; once the subjects lost weight, it would be more difficult to lose additional weight.\n\nChoice 'C' is incorrect; subjects should be chosen randomly.\n\nChoice 'D' is incorrect; a placebo should be used instead of no treatment to control for the placebo effect.",
   "tags": [
     "VAR-3.D",
     "VAR-3",

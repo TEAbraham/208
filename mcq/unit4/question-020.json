@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWe want to create a simulation based on randomness using a random number table. Since there are $16$ face cards, $16$ two-digit numbers must be assigned. There are $36$ non-face cards so $36$ two-digit numbers must be assigned to them. This leaves $48$ two-digit numbers which will not be used and must be specified to be skipped. In this answer $00$ is the first number used, but this is not required.\n\nThe number of times the simulation is to be done must be specified, and in this case the number is $80$. Then what is being looked for, here, hands with $4$ or more face cards in them, must be counted. Finally, the number obtained should be divided by the number of simulations, which is $80$ in this problem, in order to estimate the probability.\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it fails to specify to skip 00 in the table.\n\nChoice 'B' is incorrect because it fails to say to skip any numbers at all in the table.\n\nChoice 'D' is incorrect because it says to divide by 100, instead of 80 which is the number of simulations.\n\nChoice 'E' is incorrect because the number of assigned digits is incorrect. For example, there are 17\nface card digit pairs when there should be 16\n.",
   "tags": [
     "3.A",
     "UNC-2.A",

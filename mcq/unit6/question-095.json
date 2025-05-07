@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A two-proportion $Z$-interval attempts to estimate the difference between the two proportions.\n\nThe difference (sample proportion $1$ - sample proportion $2$) is calculated, and then a margin of error is attached to this difference.\n\nThus, the correct answer is Choice 'C'.\n\nAs an example, suppose a student wants to examine if gender plays a role of whether one is excited for prom or not. That student can take a random sample of boys and a random sample of girls and ask each group if they are excited about prom.\n\nPerhaps based off sample data, the student finds that 80% of girls are excited about prom, while $72\\%$ of boys are excited about prom. Based off the sample data, $8\\%$ more girls are excited about prom than boys ($80\\% - 72\\% = 8\\%$).\n\nA two proportion interval hopes to give a range that represents the difference between all girls and boys in this context, not just the sample data. For example, perhaps the student calculates a margin of error of $2\\%$ for this interval. Then, the student can attach this margin of error on either side of the interval in order to say we are $95\\%$ confident between $6-10\\%$ more girls in this high school are excited about prom than boys.",
   "tags": [
     "UNC-4",
     "UNC-4.I",

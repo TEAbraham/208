@@ -8,7 +8,7 @@
   ],
   "title": "Which is the Correct Way to Go?",
   "difficulty": "Easy",
-  "question_text": "Two baseball fans were arguing as to which was the better hitting team. One fan claimed his team was better because of $50$ randomly selected seasons over the past $100$ years, his team batted higher than $0.250$ in $30$ of those seasons. The other fan said of $40$ randomly selected seasons over the past $100$ years, in $28$ of those seasons her team batted higher than $0.250.$\nGiven this information, which of the following statistical methods is an appropriate way to compare these two teams?",
+  "question_text": "Two baseball fans were arguing as to which was the better hitting team. One fan claimed his team was better because of $50$ randomly selected seasons over the past $100$ years, his team batted higher than $0.250$ in $30$ of those seasons. The other fan said of $40$ randomly selected seasons over the past $100$ years, in $28$ of those seasons her team batted higher than $0.250.$\nGiven this information, which of the following statistical methods is an appropriate way to compare these two teams?<br>Given this information, which of the following statistical methods is an appropriate way to compare these two teams?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTwo proportions are being compared here. Both are looking at the proportion of a certain number of seasons that a team batted higher than the same amount.\n\nWhile a test of significance could be used, that answer is not available. Therefore, we would want to use a 2-sample z-interval for the difference between population proportions to answer our question.\n\nThus, Choice 'D' is the best answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because we are comparing two proportions, not two means, (though that could be done if we knew the batting averages from each year).\n\nChoice 'B' is incorrect because only one sample is mentioned, and that sample is a mean and not a proportion.\n\nChoice 'C' is incorrect because only one sample proportion is mentioned.\n\nChoice 'E' is incorrect because while a chi-square test for homogeneity can be used to compare proportions, a goodness of fit test examines a distribution.",
   "tags": [
     "UNC-4",
     "UNC-4.I",

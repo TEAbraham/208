@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A chi-squared test for association is best used as an inference procedure for a two-way table with data from a single sample. When the table is $2 \\times 2$, a two-proportion $Z$-test could also be used, but only if a table is $2 \\times 2$.\n\nA chi-squared test for association can be used for $2 \\times 2$ tables AND larger tables involving $2$ categorical variables. For example, one could investigate if there is an association between race (categorical variable #1) and political party preference (categorical variable #2).\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "4.B",
     "DAT-3.K.1",

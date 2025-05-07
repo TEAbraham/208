@@ -14,7 +14,7 @@
   "choices": [
     {
       "letter": "A",
-      "text": "Sally will randomly assign the two earbud brands to her friends by rolling a six-sided number cube for each friend. If the number cube shows a $2, 4,$ or $6$, that friend will get the first brand of earbud. If the number cube shows a $1, 3,$ or $5$, that friend will get the second brand of earbud."
+      "text": "Sally will randomly assign the two earbud brands to her friends by rolling a six-sided number cube for each friend. If the number cube shows a 2,4,\nor 6\n, that friend will get the first brand of earbud. If the number cube shows a 1,3,\nor 5\n, that friend will get the second brand of earbud."
     },
     {
       "letter": "B",
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'B' does not describe a completely randomized experiment because it describes blocking the participants on their music listening practices. A completely randomized experiment does not involve blocking.\n\nExplanation of Distractors\n\nChoice 'A' describes random assignment of treatments.\n\nChoice 'C' describes blinding because her friends will not know which brand of earbud they are using.\n\nChoice 'D' describes control. Sally is making the circumstances of the experiment as similar as possible for all of her subjects.\n\nChoice 'E' describes analyzing the results of the experiment.",
   "tags": [
     "VAR-3.D",
     "VAR-3",

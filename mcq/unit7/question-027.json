@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Statement I is true. For small degrees of freedom, the areas in the tails of the $t$-distribution are larger than for large degrees of freedom.\n\nStatement II is true. To verify, look at the bottom row of a table of values for the $t$-distribution. The values are the same as for the standard normal distribution.\n\nStatement III is false. When the population standard deviation is known, the standard normal distribution should be used.",
   "tags": [
     "3.D",
     "UNC-4",

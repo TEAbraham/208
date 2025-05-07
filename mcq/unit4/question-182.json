@@ -9,12 +9,7 @@
   "title": "Comparing Skew in Binomial Distributions",
   "difficulty": "Hard",
   "question_text": "From the given information, list the binomial distributions in order from the most normal to the most heavily skewed left.<br>Binomial Distribution A: $n = 5, p = 0.98$\nBinomial Distribution B: $n = 10, p = 0.75$\nBinomial Distribution C: $n = 50, p = 0.50$\nBinomial Distribution D: $n = 50, p = 0.75$",
-  "image_files": [
-    "images/question-182-img1.PNG",
-    "images/question-182-img2.PNG",
-    "images/question-182-img3.PNG",
-    "images/question-182-img4.PNG"
-  ],
+  "image_files": [],
   "tables": [],
   "choices": [
     {
@@ -39,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Both the number of observations (sample size) n\nand the probability of success p\nhelp to determine the shape of a binomial distribution. As n\ngrows larger, the shape of the binomial distribution will begin to appear more normal regardless of the value of p\n.\n\nIn fact, when both np≥10\nand n(1−p)≥10\nwe may use a normal approximation for a binomial distribution. Distributions C and D are the only distributions where both of these criteria are satisfied, and, therefore, would be the only distributions of those given for which it would be appropriate to use a normal approximation.\n\nAs it turns out however, Distribution C will already be symmetric as a binomial distribution since the probability of success p\nequals the probability of failure 1−p\n. You can get a sense for this by completing a few calculations.\n\nLet the random binomial variable X\nrepresent the number of successes in our sample of size n=50\n. The formula for calculating the probability of exactly k\nsuccesses is:\n\np(X=k)=(\nn\nk\n)pk(1−p)n−k\n\nThis formula can be found in the reference materials provided with the A.P. Exam. Notice:\n\np(X=0)=(\n50\n0\n)(0.50)0(0.50)50=(0.50)50\n\n...and:\n\np(X=50)=(\n50\n50\n)(0.50)50(0.50)0=(0.50)50\n\n...which shows that p(X=0)=p(X=50)\n.\n\nAlso:\n\np(X=1)=(\n50\n1\n)(0.50)1(0.50)49\n\n...and:\n\np\n(\nX\n=\n49\n)\n=\n(\n50\n49\n)\n(\n0.50\n)\n49\n(\n0.50\n)\n1\n\nSince\n(\n50\n1\n)\n=\n(\n50\n49\n)\nthese calculations confirm that\np\n(\nX\n=\n1\n)\n=\np\n(\nX\n=\n49\n)\n.\n\nThis same symmetry will continue throughout the distribution and can be used to help you understand that Distribution C is the most normal. Distribution C is shown below.\n\nCreated for Albert.io. Copyright 2016. All rights reserved.\n\n\n\nDue to the large number of observations, Distribution D will also be approximately normal, but not as normal as Distribution C. We can determine the general shape of the distribution without actually calculating probabilities. Since the probability of success\n(\np\n=\n0.75\n)\nis greater than the probability of failure\n(\np\n=\n0.25\n)\n, we would generally expect there to be more successes than failures. That is, larger values of X will be more likely than smaller values of X. This distribution is slightly skewed to the left. Distribution D is shown below.\n\nCreated for Albert.io. Copyright 2016. All rights reserved.\n\n\n\nNeither Distribution A nor Distribution B meet the criteria for using a normal approximation.\n\nLet's begin by considering Distribution B. While the probability of success\np\nis the same as that for Distribution D, the sample size is much smaller. The distribution will be skewed left. Distribution B is shown below.\n\nCreated for Albert.io. Copyright 2016. All rights reserved.\n\n\n\nFor Distribution A, since the probability of success is so large\n(\np\n=\n0.98\n)\n, we would expect mostly successes even we are only making\n5\nobservations. In fact, using the formula above, we can determine:\n\np\n(\nX\n=\n5\n)\n=\n(\n5\n5\n)\n(\n0.98\n)\n5\n(\n0.02\n)\n0\n=\n(\n0.98\n)\n5\n=\n0.904\n\nTherefore, we can establish that Distribution A is very heavily skewed left. Distribution A is shown below.\n\nCreated for Albert.io. Copyright 2016. All rights reserved.\n\n\n\nTherefore, Distribution C is most normal, followed by Distribution D, followed by Distribution B, and finally Distribution A.",
   "tags": [
     "UNC-3.A.2",
     "3.A",

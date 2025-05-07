@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "When selecting samples of the same size, $n$, the samples will rarely result in statistics that are the same. This is the definition of sampling variability. Therefore, when taking samples of the same size, $n$, the sample means will most likely not be the same value.\n\nSo, Jayla, in fact did nothing wrong. The differences in the sample means are most likely due to the fact of sampling variability.\n\nChoice 'A' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nWhen selecting samples of the same size,\nn\n, the samples will rarely result in statistics that are the same. This is the definition of sampling variability. Therefore, when taking samples of the same size,\nn\n, the sample means will most likely not be the same value.\n\nSo, Jayla, in fact did nothing wrong. The differences in the sample means are most likely due to the fact of sampling variability.\n\nChoice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect. As mentioned above, two different sample means are completely possible. Therefore, Jayla did not make a mistake in her calculations.\n\nChoice 'C' is incorrect. Just because the means are different, does not imply that bias is present.\n\nChoice 'D' is incorrect. Although Jayla could've found the median, we are led to believe that she found the mean, and we should assume as such.\n\nChoice 'E' is incorrect. Different means does not imply that the original source of data was incorrect, or incomplete. The difference is due to the fact of sampling variability.",
   "tags": [
     "VAR-1.G",
     "VAR-1.G.1",

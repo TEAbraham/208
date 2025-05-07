@@ -10,7 +10,7 @@
   ],
   "title": "Probability Distribution: Everybody Needs a Hero",
   "difficulty": "Easy",
-  "question_text": "At Burger Bell when someone buys a Hero Meal they receive an action figure. The distribution of action figures is shown in the table below.<br>Assuming each Hero Meal is independent of one another, what is the probability when someone buys two Hero Meals they get two of the same action figures?",
+  "question_text": "At Burger Bell when someone buys a Hero Meal they receive an action figure. The distribution of action figures is shown in the table below.<br>Assuming each Hero Meal is independent of one another, what is the probability when someone buys two Hero Meals they get two of the same action figures?<br>Assuming each Hero Meal is independent of one another, what is the probability when someone buys two Hero Meals they get two of the same action figures?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Action Figure</th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th></tr></thead><tbody><tr><td>P(x)</td><td>0.30</td><td>0.10</td><td>0.10</td><td>0.50</td></tr></tbody></table>"
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "If someone receives two of the same action figures then we want to find\n\nP(A and A) or P(B and B) or P(C and C) or P(D and D)\n\nSince it is stated the events are independent then the\n$$P(A\\text{ and } A)=P(A\\cdot A)$$\nThis will be true for the other events as well.\n\nSince the events are disjoint the word or indicates we will sum up all the probabilities.\n\nP(A and A) or P(B and B) or P(C and C) or P(D and D):\n\n$$P(A\\cdot A) +P(B\\cdot B) + P(C\\cdot C) + P(D\\cdot D)$$\n\nSubstituting the values in:\n\n$$(0.30\\cdot 0.30)+(0.10\\cdot 0.10)+(0.10\\cdot 0.10)+(0.50\\cdot 0.50)=0.36$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as this is the probability of getting two A action figures.\n$P(A \\text{ and } A)= P(A\\cdot A) =(0.30\\cdot 0.30)=0.09$\n\nChoice 'B' is incorrect as this assumes the probability of receiving each action figure is $0.25$ since there are four choices. However, the probabilities are not uniformly distributed based on the probability distribution table.\n\nThe incorrect work is: $(0.25\\cdot 0.25)+(0.25\\cdot 0.25)+(0.25\\cdot 0.25)+(0.25\\cdot 0.25)=0.25$\n\nChoice 'D' is incorrect as this is the probability not receiving two of the same action figures. This is the complement of Choice 'C'.\n\nChoice 'E' is incorrect for two reasons. This comes from using the probability from Choice 'B' and then taking the complement of it.",
   "tags": [
     "VAR-4.E",
     "3.A",

@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "Center = 0.51; spread = 12%"
+      "text": "Center = $0.51$; spread = $12\\%$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Estimators must have low bias and low variability. Low bias in a sampling distribution is defined as the mean of the sampling distribution being equal to the true population mean. Low variability in this situation is based on a low standard deviation.\n\nChoice 'D' is correct; it is the only solution that has no bias and also has the lowest variability since the standard deviation is only 4%.",
   "tags": [
     "UNC-3.I",
     "4.B",

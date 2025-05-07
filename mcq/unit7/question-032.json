@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Use this formula below to calculate the interval:\n\n$$\\bar { X } \\pm t\\dfrac{s}{\\sqrt{n}}$$\n\nThe sample mean, $X$, is $65.5$. The critical $t$-value, using the $T$-distribution table, is $2.064$ when one matches $95\\%$ confidence with $n-1 = 24$ degrees of freedom.\n\nThe sample standard deviation, $s$, is $11.3$.\n\nThus, the correct answer is Choice 'D'.\n\nThe number of observations, $n$, is $25$, so the square root of that value is $5$.\n\nExplanation of Distractors\n\nChoice 'E' is incorrect and results from identifying degrees of freedom as $25$ and finding $2.060$ in the $T$-distribution table.",
   "tags": [
     "3.D",
     "UNC-4",

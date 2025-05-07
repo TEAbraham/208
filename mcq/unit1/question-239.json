@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To earn All-Conference recognition for the boys standard, the girls must jump $2$ or more standard deviations away from the mean of the boys standard. They must jump at least:\n\n$$18.9+1.9+1.9 = 22.7\\text{ feet}$$\n\nCalculate the Z score of a girl who can jump $22.7\\text{ feet}$:\n\n$$\\dfrac{(22.7-16.5)}{2.2} = 2.82$$\n\n$\\text{P(z < 2.82)} = .0024$ using the standard normal table.\n\nSince there are $1{,}000$ girls surveyed, $1000 \\cdot 0.0024 = 2.4$.\n\nOne would expect about $2$ (or $3$) girls to be this exceptional.\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To solve this problem, we must first convert the raw data to a $z$-score. The formula for calculating $z$ is:\n\n$$z = \\frac { x - \\mu }{ \\sigma }$$\n\n...where x is the observed value or value of interest, μ is the mean, and σ is the standard deviation.\n\nz=\n73250−72381\n565\n=1.538\n\nSince we are looking for the probability that David would be able to achieve more than 73,250 consecutive jumps, we would then look for:\n\np(z>calculated value):p(z>1.538)=0.06\n\nWe can complete the calculation for p(z>1.538) using either the z-table or the TI83/84 graphing calculator's normalcdf function. The normalcdf function finds probabilities associated with given z-scores. The syntax is: normalcdf(lower bound, upper bound, mean, standard deviation).\n\nIn this case you would:\n\nThe calculator will return the value of 0.06\n. This is the answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. It is the complement of the answer found in Choice 'D'.\n\nChoice 'C' is incorrect. It is the complement of the correct answer and represents the probability that David will have achieved fewer than 73,250\nconsecutive jumps on the randomly selected day.\n\nChoice 'D' is incorrect. It looks at 72,381\nas a fraction of 73,250\n. There is no valid reason to do this.\n\nChoice 'E' is incorrect. While it is true that David may be improving over time, the day in question is being randomly selected from one that is already in his records and therefore part of the overall distribution. Since it is selected at random, perhaps it comes from a time when he was more practiced, or perhaps not.",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

@@ -18,11 +18,11 @@
     },
     {
       "letter": "B",
-      "text": "Survey 10 subjects, record the number of cavities they have."
+      "text": "Survey $10$ subjects, record the number of cavities they have."
     },
     {
       "letter": "C",
-      "text": "Survey 10\nsubjects, record the percent who brush their teeth daily."
+      "text": "Survey $10$ subjects, record the percent who brush their teeth daily."
     },
     {
       "letter": "D",
@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "None of the responses are correct since 10\nsubjects is too small a sample size for sample proportions."
+      "text": "None of the responses are correct since 10 subjects is too small a sample size for sample proportions."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'A' is incorrect; this deals with binomial probability since the question asks how many out of 10\nbrush their teeth daily.\n\nChoice 'B' is incorrect; this deals with sample means since the number of cavities recorded is measured.\n\nChoice 'C' is correct; this deals with a yes or no answer and records the percentage who brush their teeth daily.\n\nChoice 'D' is incorrect; this selection deals with geometric probability where the variable of interest is number of trials until success.\n\nChoice 'E' is incorrect; while a sample size of 10\nfor sample proportions is certainly not ideal, having a sample this small does not mean we are no longer dealing with sample proportions.",
   "tags": [
     "UNC-1.B.2",
     "2.A",

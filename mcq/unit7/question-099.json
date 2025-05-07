@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nComputing a confidence interval for the difference of two means uses this formula:\n\n$$(\\bar{x}_{1}-\\bar{x}_{2})\\pm t^{*}\\sqrt{\\dfrac{s_1^2}{n_{1}}+\\dfrac{s_2^2}{n_{2}}}$$\n\n...where the $\\bar{x}'s$ are the sample means, $t^{*}$ is the critical value, the $s's$ are the two sample standard deviations, and the $n's$ are the two sample sizes.\n\nWhile the values for $\\bar{x}$, $s$ and $n$ are taken from the problem, $t^{*}$ must be derived from Table $B$. Each sample size is $35$, and we are supposed to take the smaller of the $n-1$ values. Since $34$ is not in the table, we go to the next lower number which is $30$. So using the table and the $30$ line, look up the $t^{*}$ value on the $95\\%$ confidence level column to find the value $2.042$ taken from the $t$-distribution. Note: The calculator nearly always gives a slightly higher value for the margin of error, but that answer is not one of the choices here.\n\nNow, plugging in our values we get:\n\n$$(171-168)\\pm2.042\\sqrt{\\dfrac{14^2}{35}+\\dfrac{11^2}{35}}\\approx 3\\pm6.15$$\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because this answer was calculated by forgetting to use a $t^{*}$ value.\n\nChoice 'C' is incorrect because this answer was calculated by forgetting to take the square root in the standard error.\n\nChoice 'D' is incorrect because this answer was calculated by forgetting to square the sample standard deviations in the standard error.\n\nChoice 'E' is incorrect because the wrong $t^{*}$ value used. The value for a $90\\%$ confidence was chosen by mistake.",
   "tags": [
     "UNC-4.V.1",
     "UNC-4.Y.2",

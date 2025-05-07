@@ -39,8 +39,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The number of lawns that Ben will mow in a week is a random variable that we will call $x$. We will use the probability distribution given to find the mean or expected value of $x$.\n\nThe formula is:\n\nμx=∑(xi)(pi)=(x1)(p1)+(x2)(p2)+......+(xn)(pn)\n\nFill in the formula:\n\nμX=(5)(0.41)+(6)(0.35)+(7)(0.21)+(8)(0.03)=5.86\n\nNow we can find the average expected earnings by multiplying the μx\nby $25\n:\n\nμkX=k⋅μx\n\nμkX=(5.86)($25)=$146.50\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The mean is 5.86\n, but this is not a dollar amount. It is the expected number of lawns mowed per week.\n\nChoice 'B' is incorrect. It assumes that an average of 5\nlawns will be mowed each week.\n\nChoice 'D' is incorrect. It assumes that an average of 6\nlawns will be mowed each week. While it is true that the number of lawns mowed in a given week can only be a whole number, we are looking for the average. An average need not be a whole number.\n\nChoice 'E' is incorrect. This answer assumes that the average number of lawns mowed per week can be found be taking the average of the possible values of x\nand arriving at a mean of 6.5\n.",
   "tags": [
     "VAR-5.C.2",
     "VAR-5",

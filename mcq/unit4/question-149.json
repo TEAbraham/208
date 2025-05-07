@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "For Statement I, if two random variables are independent, then there is no association connecting them. Knowing something about one random variable tells you nothing about the other. Therefore, the correlation between them should be $0$.\n\nStatement II accurately describes how to find the mean of the sum of two random variables. Simply add the individual means. This is actually true even if the two random variables are not independent!\n\nBe careful about Statement III. Your instinct may tell you that since we are looking at the distribution of differences that we should subtract the individual variances. However, variances add, whether we are looking at the sum or difference of the two independent random variables.",
   "tags": [
     "VAR-5.E",
     "VAR-5.E.2",

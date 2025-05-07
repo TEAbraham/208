@@ -7,7 +7,7 @@
   ],
   "title": "Ice Cream Containers",
   "difficulty": "Hard",
-  "question_text": "An ice cream company ran two assembly lines for two of its most popular flavors. Assembly line $1$ had a mean container weight of $15.8$ ounces with a standard deviation of $0.6$ ounces. Assembly line $2$ had a mean container weight of $16.1$ ounces with a standard deviation of $0.7$ ounces.\nIf $40$ containers are to be sampled from each assembly line, what is the probability that the weights do not differ by more than $0.1$ ounce in either direction? Round your answer to the nearest percent.",
+  "question_text": "An ice cream company ran two assembly lines for two of its most popular flavors. Assembly line $1$ had a mean container weight of $15.8$ ounces with a standard deviation of $0.6$ ounces. Assembly line $2$ had a mean container weight of $16.1$ ounces with a standard deviation of $0.7$ ounces.\nIf $40$ containers are to be sampled from each assembly line, what is the probability that the weights do not differ by more than $0.1$ ounce in either direction? Round your answer to the nearest percent.<br>If $40$ containers are to be sampled from each assembly line, what is the probability that the weights do not differ by more than $0.1$ ounce in either direction? Round your answer to the nearest percent.",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -17,7 +17,7 @@
     },
     {
       "letter": "B",
-      "text": "$91\\%$"
+      "text": "91%"
     },
     {
       "letter": "C",
@@ -25,7 +25,7 @@
     },
     {
       "letter": "D",
-      "text": "$88\\%$"
+      "text": "88%"
     },
     {
       "letter": "E",
@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nIn order to find a probability for this difference of sample means for this sampling distribution, two parameters must be calculated. The sampling distribution of the difference of the sample means is simply equal to the subtraction of the two given sample means. The sampling distribution for the difference of the sample standard deviation is equal to this formula:\n\n√\nσ\n2\n1\nn1\n+\nσ\n2\n2\nn2\n\nThus, the mean of the differences here is equal to 15.8−16.1=−0.3\nounces OR 16.1−15.8=0.3\nounces. Both means will be used because the problem asks for \"either direction.\"\n\nAnd the standard deviation of the differences is equal to:\n\n√\n0.6\n2\n40\n+\n0.7\n2\n40\n≈\n0.146\n\n...ounces.\n\nNow two\nz\n-scores must be calculated using this formula:\nz\n=\n¯\nx\n−\nμ\nσ\n, where\n¯\nx\n=\n0.1\n, the difference we are looking for in the problem.\n\nWe get\nz\n=\n0.1\n−\n0.3\n0.146\n≈\n−\n1.37\nand\nz\n=\n−\n0.1\n−\n(\n0.3\n)\n0.146\n≈\n−\n2.74\n.\n\nLooking up\n−\n1.37\nin Table\nA\nwe see\n0.0853\n, and looking up\n−\n2.74\nwe see\n0.0032\n. The complement of this (the probability that the difference is greater than\n−\n0.1\n) is\n0.9969\n. Since this is an \"inbetween\" problem these two table values should be subtracted and not added. So we get\n0.9969\n−\n0.0853\n=\n0.9116\nor\n91\n%\n.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the answer was subtracted from\n1\n.\n\nChoice 'C' is incorrect because the table numbers were added and found to be more than\n1\n.\n\nChoice 'D' is incorrect because the numerator and denominator were reversed in calculating the\nz\n-scores and the table values were added instead of being subtracted.\n\nChoice 'E' is incorrect because the numerator and denominator were reversed in calculating the\nz\n-scores.",
   "tags": [
     "4.B",
     "UNC-3",

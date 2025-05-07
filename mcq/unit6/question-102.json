@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since the $p$-value is $0.0782$, there is evidence of a difference in proportion of those speeding at the $10\\%$ level. Therefore, a $90\\%$ interval will not contain zero.\n\nExplanation of Distractors\n\nChoices 'B', 'C', and 'D' are all incorrect; the $p$-value is not less than $5\\%$ or $1\\%$, so one cannot make statements of a $95\\%$ or $99\\%$ confidence interval not containing zero.\n\nChoice 'E' is incorrect; there is not enough information to know this, and there is no relevance in the interval capturing the $p$-value.",
   "tags": [
     "UNC-4",
     "UNC-4.I",

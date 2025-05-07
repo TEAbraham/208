@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Two events are independent if the knowledge of one event does not change the probability of the second event happening.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; P(sum of $4$) = $\\frac{3}{36}$, but if you know the first die is a $1$, P(sum of $4$) = $\\frac{1}{6}$.\n\nChoice 'B' is incorrect; (sum of $2$) = $\\frac{1}{36}$, but if you know the first die is a prime, P(sum of $2$) = $\\frac{1}{18}$.\n\nChoice 'D' is incorrect; P(sum of two dice is NOT $12$) = $\\frac{35}{36}$, but if you know the first die is a $6$, P(sum of two dice is NOT $12$) = $\\frac{5}{6}$.\n\nChoice 'E' is incorrect; P(sum of two dice is $12$) = $\\frac{1}{36}$, but if you know the first die is a $6$, P(sum of two dice is $12$) = $\\frac{1}{6}$.",
   "tags": [
     "VAR-4.E.1",
     "VAR-4.E",

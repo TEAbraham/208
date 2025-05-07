@@ -8,7 +8,7 @@
   ],
   "title": "Rotten Tomatoes",
   "difficulty": "Medium",
-  "question_text": "WellMart orders huge numbers of tomatoes to sell. It decides to randomly sample a bunch of tomatoes and finds that $0.16$ of them are rotten. The manager declared that $4$ times as many should have been sampled, and the same proportion of $0.16$ were rotten.\nHow did the width of the confidence interval change, if at all, when the sample size increased by a factor of $4$?",
+  "question_text": "WellMart orders huge numbers of tomatoes to sell. It decides to randomly sample a bunch of tomatoes and finds that $0.16$ of them are rotten. The manager declared that $4$ times as many should have been sampled, and the same proportion of $0.16$ were rotten.\nHow did the width of the confidence interval change, if at all, when the sample size increased by a factor of $4$?<br>How did the width of the confidence interval change, if at all, when the sample size increased by a factor of $4$?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nIt may seem that there is not enough information to solve this confidence interval, but there is actually no need to do so. The width of the confidence interval can be calculated using this formula:\n\n$$\\hat{p}\\pm z^{*}\\sqrt{\\dfrac{\\hat{p}(1-\\hat{p})}{n}}$$\n\n...where $n$ is the sample size, $\\hat{p}$ is the sample proportion, and $z^{*}$ is the critical value.\n\nBecause only the value of $n$ changes, we do not need to know the other values because they will stay the same. Now imagine the part of the formula that follows the $\\pm$ sign is changed this way:\n\n$$z^{*}\\sqrt{\\dfrac{\\hat{p}(1-\\hat{p})}{4n}}$$\n\nNote that the $n$ value is multiplied by $4$. When this is square-rooted, the denominator of the fraction is now doubled. But since it is the denominator, then the size of the value that is added and subtracted actually gets divided by $2$ or cut in half.\n\nThe other way to do this is to assign values and create two confidence intervals using the given proportion of $0.16$.\n\nTo do this quickly, we can use the TI-$84$ calculator and under $1$-Prop $Z$ Int: $x=8$, $n=50$, and $C$-Level $= 0.95$ to get $(0.06, 0.26)$ or an interval of $0.20$ (rounded). Then repeat but multiply $n$ by $4$ to use $n=200$. Since you want the same proportion, you must multiply $x$ by $4$ also, so use $x=32$. Now you get an interval of $(0.11,0.21)$.\n\nThe interval width went from $0.2$ down to $0.1$ which shows that it was cut in half.\n\nSo, Choice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect because this result might occur if the square root of $4$ is not taken.\n\nChoice 'C' is incorrect because no change might be assumed because other values do not change.\n\nChoice 'D' is incorrect because the thinking was simply backwards. The width would decrease, not increase by the value of a factor of $2$.\n\nChoice 'E' is incorrect because of backwards thinking as well as the failure to take the square root of $4$.",
   "tags": [
     "4.B",
     "UNC-4.H.1",

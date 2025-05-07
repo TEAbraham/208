@@ -10,7 +10,7 @@
   ],
   "title": "Finding the Standard Deviation: Running a Mile",
   "difficulty": "Hard",
-  "question_text": "The amount of time it took students to run a mile in their physical education class was recorded. The histogram below shows the distribution of time (in minutes) for these students.<br><br><br><br><br>Which of the following is closest to the standard deviation of the one mile times?",
+  "question_text": "The amount of time it took students to run a mile in their physical education class was recorded. The histogram below shows the distribution of time (in minutes) for these students.<br>Created for Albert.io. Copyright 2017. All rights reserved.<br><br>Which of the following is closest to the standard deviation of the one mile times?",
   "image_files": [
     "images/question-266-img1.png"
   ],
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "First, we should mark the midpoints in each of bins on this histogram. This will make it easier to calculate. For instance, the midpoint of $7$ and $8$ is $7.5$. Try doing this for the rest of the bins.\n\nChoice 'A' is correct. The distribution is approximately normal, which means that $68\\%$ of all values fall within one standard deviation of the mean. If we were to draw the bell-shaped curve on the histogram, $68\\%$ of the values would be approximately between the midpoints of $6.5$ to $8.5$ (inclusive). The standard deviation refers to how far values vary from the mean. Based on the midpoints, it seems that the mean is $7.5$. Therefore, the standard deviation is: $8.5-7.5 = 1$.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect. You might arrive at the answer for one of two reasons:\n\nThe first reason for reaching the incorrect answer is thinking that $95\\%$ of all the values fall within one standard deviation of the mean, meaning between $5.5$ to $9.5$ (inclusive), and then calculating: $7.5-5.5=2$.\n\nThe second possible reason is thinking that, since $68\\%$ of the values are approximately be between the midpoints of $6.5$ to $8.5$ (inclusive), then calculating: $8.5-6.5=2$.\n\nChoice 'C' is incorrect. In this case, the incorrect reasoning is believing all the times in the histogram above fall within one standard deviation, between $4.5$ to $10.5$ (inclusive), and then calculating $7.5-4.5 = 3$.\n\nChoice 'D' is incorrect. For this answer, the incorrect reasoning is that $95\\%$ of all the values fall within one standard deviation of the mean, meaning between $5.5$ to $9.5$ (inclusive), and then calculating $9.5-5.5 =4$.\n\nChoice 'E' is incorrect. The incorrect reasoning is believing all the times in the histogram above fall within one standard deviation, between $4.5$ to $10.5$ (inclusive). Then calculating $10.5-4.5=6$.",
   "tags": [
     "2.A",
     "VAR-2",

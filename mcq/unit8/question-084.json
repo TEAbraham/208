@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Statement I. This is false. A large chi-square value is far out on the right tail, corresponding to a small area and a small P-value, and leading to rejecting the null hypothesis.\n\nStatement II. This is true.\n\nStatement III. This is also true. Looking at the chi-square table, we see that higher degrees of freedom require higher chi-square values to make the right tail probability small.\n\nFor example, $20$ degrees of freedom requires a chi-square value of $31.410$ to produce a $p$ value of $0.05$ or less. Ten degrees of freedom only requires a chi-square value of $18.307$ to produce a $p$ value of $0.05$ or less. A chi-square value of $31.410$ would definitely be extreme enough to reject the null hypothesis.",
   "tags": [
     "VAR-8.M",
     "VAR-8.M.2",

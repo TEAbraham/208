@@ -7,7 +7,7 @@
   ],
   "title": "The Polls",
   "difficulty": "Medium",
-  "question_text": "A candidate running for office was polled at $57\\%$ in City $1$ and at $52\\%$ in City $2$. A newspaper decided to do a new poll and randomly selected $50$ people in City $1$ and $60$ people in City $2$ as to whom they would vote for.\nWhat is the probability that City $2$ can show the candidate ahead by at least $3\\%$ over City $1$? Round to the nearest whole percent.",
+  "question_text": "A candidate running for office was polled at $57\\%$ in City $1$ and at $52\\%$ in City $2$. A newspaper decided to do a new poll and randomly selected $50$ people in City $1$ and $60$ people in City $2$ as to whom they would vote for.\nWhat is the probability that City $2$ can show the candidate ahead by at least $3\\%$ over City $1$? Round to the nearest whole percent.<br>What is the probability that City $2$ can show the candidate ahead by at least $3\\%$ over City $1$? Round to the nearest whole percent.",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTo calculate this probability we need to first calculate the parameters for the sampling distribution of the difference of these two proportions. Those parameters are the mean and the standard deviation.\n\nThe mean is equal to $p_{1}-p_{2}$ which gives us $0.52-0.57=-0.05$. Note that the answer is negative because the question is specifically asking for City $2$ to come out ahead, so, City $2$ must be assigned to $p_{1}$.\n\nThe standard deviation is given by this formula:\n\n$$\\sqrt{\\dfrac{p_{1}(1-p_{1})}{n_{1}}+\\dfrac{p_{2}(1-p_{2})}{n_{2}}}$$\n\nFilling in our values and reversing our cities we get:\n\n$$\\sqrt{\\dfrac{0.52(1-0.52)}{60}+\\dfrac{0.57(1-0.57)}{50}}\\approx 0.095$$\n\nFinally, we compute a $z$-score in order to look up the probability. We plug in our values to get:\n\n$$z=\\dfrac{0.03-(-0.05)}{0.095}=0.84$$\n\nLooking this up in Table $A$ we see the value $0.7995$ that goes with the $z$-score of $0.84$. But, since we are looking for the probability greater than $0.03$ we must subtract this table value from $1$ to get a final answer of $0.2005$ or $20\\%$ as the probability for the candidate to lead by at least $3$ points in City $2$ over City $1$.\n\nSo, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because this is the answer for the person who does not know what to do statistically, but logically figures it is a low probability.\n\nChoice 'B' is incorrect because this is the answer if the minus sign is not included with the $0.05$.\n\nChoice 'C' is incorrect because this is the answer if the minus is not included with the $0.05$ and the two numbers in the numerator are reversed.\n\nChoice 'D' is incorrect because this is the answer if the two numbers in the numerator are reversed.",
   "tags": [
     "4.B",
     "UNC-3.P.1",

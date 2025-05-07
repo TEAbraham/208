@@ -13,7 +13,7 @@
   ],
   "title": "Significance Testing: More Carbonation",
   "difficulty": "Medium",
-  "question_text": "Cepsi claims its soda stays carbonated longer than its main competitor, Poke. Eight sodas of each brand are randomly selected. They are opened, sealed back up, and then stored in a refrigerator. Starting on the third day after the sodas are opened, every two hours the sodas are checked for carbonation. The table below shows the number of days the soda stay carbonated.<br>Which of the following tests should be conducted to determine if Cepsi’s sodas do, in fact, stay carbonated longer than Poke’s soda?",
+  "question_text": "Cepsi claims its soda stays carbonated longer than its main competitor, Poke. Eight sodas of each brand are randomly selected. They are opened, sealed back up, and then stored in a refrigerator. Starting on the third day after the sodas are opened, every two hours the sodas are checked for carbonation. The table below shows the number of days the soda stay carbonated.<br>Which of the following tests should be conducted to determine if Cepsi’s sodas do, in fact, stay carbonated longer than Poke’s soda?<br>Which of the following tests should be conducted to determine if Cepsi’s sodas do, in fact, stay carbonated longer than Poke’s soda?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"><em>Cepsi</em></th><th scope=\"col\">2.9</th><th scope=\"col\">3.5</th><th scope=\"col\">3.1</th><th scope=\"col\">4</th><th scope=\"col\">4.3</th><th scope=\"col\">5.2</th><th scope=\"col\">5</th><th scope=\"col\">4.7</th></tr></thead><tbody><tr><td><em>Poke</em></td><td>4.4</td><td>2.6</td><td>3.2</td><td>3.3</td><td>3.9</td><td>4</td><td>4.9</td><td>5.3</td></tr></tbody></table>"
@@ -41,8 +41,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "First, we must decide if this is a one-sided test or a two-sided test.\n\nSince Cepsi is claiming their sodas stay carbonated longer compared to Poke's sodas then this is a one-sided test. If it were a two-sided test then we would be looking to see if there is a difference ($\\neq $) between the length of carbonation of soda among the two companies.\n\nChoices 'B' and 'E' can be eliminated since they reference two-sided tests.\n\nNext, we must decide if this a two-sample or a paired test.\n\nThe condition to think about here is the independent groups. We can assume the two groups are independent of one another, meaning the length of carbonation in Cepsi's soda does not affect the length of carbonation in Poke's soda. Since the independent group's condition is met, this a two-sample.\n\nAnother way to think about this is that when looking at the table the data is not paired in any way. I could interchange the numbers in Cepsi's row and the numbers that match, respectively, in Poke's row would not have to get interchanged.\n\nChoice 'A' can be eliminated because it references a paired test.\n\nNext, we must decide if this a $z$-test or a $t$-test.\n\nIf we know the standard deviation of the populations then we can use a $z$-test. In this case, we do not know the standard deviation of the populations as we are estimating them by using the standard deviation of the samples (standard errors). Therefore we must use a $t$-test.\n\nTherefore, we can eliminate Choice 'D' on the basis of referencing a $z$-test.\n\nChoice 'C' is the answer.",
   "tags": [
     "VAR-7",
     "1.E",

@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This is a $2$ proportion $z$-interval. The formula for the $2$ proportion $z$-interval is:\n\n$${ (\\hat { p } }_{ 1 }-{ \\hat { p } }_{ 2 })\\pm { z }^{ * }\\sqrt { \\dfrac { ({ \\hat { p } }_{ 1 })(1-{ \\hat { p } }_{ 1 }) }{ { n }_{ 1 } } +\\dfrac { { \\hat { (p } }_{ 2 })({ 1-\\hat { p } }_{ 2 }) }{ { n }_{ 2 } } }$$\n\nNote that the standard deviation for the difference of two proportions is given on the AP formula sheet.\n\nWe can use process of elimination to solve for this. To find the critical value for $98\\%$, look at the $t$-distribution critical value table and look directly above $98\\%$. We can see that for $98\\%$, the critical value is $2.33$. Therefore, we can eliminate Choices 'D' and 'E'.\n\nChoice 'A' is incorrect, because the standard error (the square root component) is wrong.\n\nChoice 'B' is incorrect because the interval was pooled. We pool in $2$ proportion $z$-tests, but not in $2$ proportion $z$-intervals.\n\nPooling is where we average the sample proportions. In this case, $(0.68 + 0.54)/2 = 0.61$; we can use that as our sample proportion.\n\nHere is an alternative approach to solving this problem: If you do not know the formula, run the $2$ proportion $z$-interval on your calculator and see the interval. Then, do the calculations out for all the choices and see which one matches your interval you received on the calculator.",
   "tags": [
     "4.E",
     "DAT-3",

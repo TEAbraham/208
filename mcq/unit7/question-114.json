@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Power occurs when the null hypothesis is correctly rejected, meaning the alternative hypothesis is true.\n\n${ H }_{ 0 }:{ \\mu }_{ U }={ \\mu }_{ C }$\n$ { H }_{ a }:{ \\mu }_{ U }\\neq { \\mu }_{ C }$\n\nBased on the hypotheses, power would be finding there is a difference in the average miles per gallon of gasoline for cars manufactured in the U.S.A compared to China when actually there is a difference.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as this is an example of a Type I error. Choice 'C' is an example of a Type II error.",
   "tags": [
     "UNC-4.AB",
     "UNC-4.AB.1",

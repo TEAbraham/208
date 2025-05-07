@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A geometric distribution refers to the number of trials it takes for the 1st success. The formula for a geometric distribution is:\n\np⋅(1−p)n−1\n\n...where p\nrepresents the probability of success and n\nrepresents the number of trials for the 1st success.\n\nWhen figuring out the shape of this distribution let's calculate some of the probabilities:\n\nn=1\nthe probability is 0.5\n\nn=2\nthe probability is 0.25\n\nn=3\nthe probability is 0.125\n\nn=4\nthe probability is 0.0625\n\nn=5\nthe probability is 0.03125\n\nFrom this, we can see the probability is getting smaller, and therefore, our distribution is skewed right.\n\nIf you have a hard time visualizing it, you can make a relative frequency histogram (probabilities on the y\n-axis and n\n-values on the x\n-axis) you can see the histogram is skewed right.\n\nHere is the geometric distribution when p=0.5\nin 9623\nsamples.\n\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\n\n\nExplanation of Distractors Choices 'A', 'B', 'C', and 'D are all incorrect as none of them are skewed right.",
   "tags": [
     "UNC-3.G.1",
     "4.B",

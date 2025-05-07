@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The data here is paired data and not two sample as the data is paired by twins. When running a significance test for paired data we first take the difference of each pair. We then run a one-sample t procedure about the mean of the difference (${\\mu }_{ D}$).\n\nThe null hypothesis (${ H }_{ 0 } $) represents no difference meaning the value would be $0$.\n\nIn this case, the null hypothesis is:\n\n$${ H }_{ 0 }:\\quad { \\mu }_{ d }=0$$\n\nThe alternative hypothesis (${ H }_{ a }$) is what we are trying to prove or find significant evidence to support it. In this case, we are trying to find significant evidence that the average height of the second born twin is greater than the first born twin.\n\nThe alternative hypothesis is:\n\n$${ H }_{ a }:\\quad { \\mu }_{ d }>0$$\n\nDo not forget to read the problem carefully as it is stated ${ \\mu }_{ d }$ represents the average difference in the height (height of second born minus height of first born) for all pairs of twins.\n\nThis matches Choice 'A'.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect as the alternative hypothesis should be greater than and not less than.\n\nChoices 'C' and 'D' are both incorrect as these hypotheses represent two-sample t-tests and not paired t-tests. This is indicated by the fact there are two separate ${ \\mu }$'s and not one ${ \\mu }$ representing the average difference.\n\nChoice 'E' is incorrect as it taking a two-sample difference and comparing it to a paired difference.",
   "tags": [
     "4.B",
     "DAT-3",

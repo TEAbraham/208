@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since the alternative includes $≠$ we are dealing with a 2 sided test, meaning we are looking for the sum of the probabilities of $z < -1.73$ and $z>1.73$.\n\nBelow is a picture of the data:\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\nMethod 1: Solving by using the Standard Normal Distribution Chart\n\nLooking at the z-score table find the probability that $z<-1.73$. This gives a probability of $0.0418$. Now double that probability since the test is 2 sided. The resulting probability of $0.0836$.\n\nMethod 2: Using the TI Graphing Calculator\n\nUsing the normalcdf function(located by hitting 2nd Vars).\n$2*normalcdf(-99999,-1.73,0,1)=0.0836$\n\nBelow is the calculator input on the TI-84. Since we are dealing with z-scores the mean is $0$ and standard deviation is $1$. We want our lower value to be a very small number so that is why it is $-99999$.\n\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\n\n\nExplanation of Distractors Choice 'A' is incorrect as this represents the p-value in one of two cases. The first case would be $z<-1.73$. The second case would be $z>1.73$. Choice 'B' is incorrect as this is the average of $0.0836$ and $0.0418$. Choice 'D' is incorrect as this is the probability for $-1.73\\le z\\le 1.73$. Choice 'E' is incorrect as this represents the p-value in one of two cases. The first case would be $z>-1.73$. The second case would be $z<-1.73$.",
   "tags": [
     "VAR-6.G.4",
     "3.E",

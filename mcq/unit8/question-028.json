@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The appropriate significance test for this situation would be a ${ \\chi }^{ 2 }$ Test for Goodness of Fit. The conditions for performing this test are:\n\nThe data must be obtained from random sampling. This condition is satisfied as stated in the problem.\n\nAll of the expected counts must be at least $1$. This condition is not satisfied. The expected count for students with a smartphone in the “other” category would be $(30)(0.03)= 0.9$. Since $0.9 < 1$, this condition is violated.\n\nNo more than $20\\%$ of the expected counts are less than $5$. This condition is not satisfied. The expected count for those with a Blackberry is $(30)(0.136) = 4.08$ which is less than $5$. The expected count for the “other” category was also less than $5$. While the expected counts for iPhones and Androids are both greater than $5$, it is also true that $50\\%$ of the expected counts are less than $5$.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. We cannot simply compare one percentage and come to a conclusion.\n\nChoice 'B' is incorrect. It would be highly unusual for all of the expected counts to exactly match the observed counts.\n\nChoice 'C' is incorrect because it refers to an inappropriate type of test. We cannot perform a one-sample $z$-test when working with $4$ different proportions related to a categorical variable.\n\nChoice 'D' is incorrect. Had the conditions necessary for conducting a ${ \\chi }^{ 2 }$ Test for Goodness of Fit been satisfied, then this answer would have been correct.",
   "tags": [
     "4.E",
     "DAT-3",

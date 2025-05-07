@@ -9,7 +9,7 @@
   ],
   "title": "Simulation Digits",
   "difficulty": "Easy",
-  "question_text": "The Athletic Director at a large high school claims $60$% of student-athletes at the school will receive a college scholarship. To simulate a student-athlete receiving a scholarship, which of the following assignment of random digits could be used?<br>Digits $0-4$ represent a student-athlete receiving a scholarship and digits $5-9$ represent a student-athlete not receiving a scholarship.<br>Digits $00-59$ represent a student-athlete receiving a scholarship and digits $60-99$ represent a student-athlete not receiving a scholarship.<br>Digits $00-60$ represent a student-athlete receiving a scholarship and digits $61-99$ represent a student-athlete not receiving a scholarship.<br>Digits $0-6$ represent a student-athlete receiving a scholarship and digits $7-9$ represent a student-athlete not receiving a scholarship.",
+  "question_text": "The Athletic Director at a large high school claims $60$% of student-athletes at the school will receive a college scholarship. To simulate a student-athlete receiving a scholarship, which of the following assignments of random digits could be used?<br>Digits $0-4$ represent a student-athlete receiving a scholarship and digits $5-9$ represent a student-athlete not receiving a scholarship.<br>Digits $00-59$ represent a student-athlete receiving a scholarship and digits $60-99$ represent a student-athlete not receiving a scholarship.<br>Digits $00-60$ represent a student-athlete receiving a scholarship and digits $61-99$ represent a student-athlete not receiving a scholarship.<br>Digits $0-6$ represent a student-athlete receiving a scholarship and digits $7-9$ represent a student-athlete not receiving a scholarship.",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice ‘B’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nOur goal is to simulate a $60$% likelihood.\n\nThe assignment of digits $00-59$ allows for $60$ unique two-digit values to represent $60$% likelihood. The remaining digits $60-99$ represent the $40$ unique two-digit values that represent the other $40$% of student-athletes who do not receive a scholarship.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect: Using digits $0 - 4$ simulates a $50$% likelihood as there are 5 unique digits between $0$ and $4$, inclusive.\n\nChoice ‘C’ is incorrect: Using digits $0 - 6$ simulates a $70$% likelihood as there are 7 unique digits between $0$ and $6$, inclusive.\n\nChoice ‘D’ is incorrect: While option II is correct, option IV simulates a $70$% likelihood, as explained above.\n\nChoice ‘E’ is incorrect: Using digits $00 - 60$ simulates a $61$% likelihood as there are 61 unique two-digit values between $00$ and $60$, inclusive.",
   "tags": [
     "DAT-2.C.2",
     "DAT-2",

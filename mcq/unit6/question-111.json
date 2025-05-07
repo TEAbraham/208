@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "With a test statistic of $z = 1.13$, use the standard normal table to find $p (z > 1.13) = 1-0.8708 = 0.1292$.\n\nThis is a two-sided test, so double the $p$-value: $0.1292 \\times 2 = 0.2584$.\n\nSince this is a high $p$-value at all common alpha levels of $1\\%, 5\\%$, and $10\\%$, this constitutes as insufficient evidence to reject $H_0$.\n\nTherefore, this is not enough evidence to say older and younger drivers have different accident rates.\n\nNote that any high $p$-value cannot be thought of as strong, moderate, or weak evidence. Also, note that one can come to the conclusion that no evidence of change exists since $p$ is so large.\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "4.B",
     "UNC-4.M",

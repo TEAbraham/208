@@ -27,16 +27,15 @@
     },
     {
       "letter": "D",
-      "text": "815 people"
+      "text": "$815\\text{ people}$"
     },
     {
       "letter": "E",
-      "text": "301 people"
+      "text": "$301\\text{ people}$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Set up the equation below, with the following corresponding variables:\n\n$$m=z\\sqrt { \\frac { \\hat {p } (1-\\hat {p } ) }{ n } } $$\n\nSolve to get $n = 1156.3216$. Round up in this case to the final answer of $1{,}157$.\n\nA sample size of $1{,}156$ will have a margin of error greater than $2\\%$.\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "4.C",
     "UNC-4.C.4",

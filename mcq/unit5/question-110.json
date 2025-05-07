@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice ‘D’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe Central Limit Theorem states that if you have a population with mean $\\mu$ and standard deviation $\\sigma$ and take sufficiently large random samples from the population with replacement, then the distribution of the sample means will be approximately normally distributed.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect. This is a correct statement - as more and more realtor's salaries are observed, the average salary does get even closer to the average $\\mu$ of all realtors: $\\mu_\\bar{x} = \\mu$. However, that is not a fact stated by the Central Limit Theorem.\n\nChoice ‘B’ is incorrect. The Central Limit Theorem states the distribution of the sample mean will be approximately Normal, regardless of the shape of the population distribution.\n\nChoice ‘C’ is incorrect. The Central Limit Theorem states the distribution of the sample mean will be approximately Normal, regardless of the shape of the population distribution.\n\nChoice ‘E’ is incorrect. Very rarely will any distribution be exactly Normal. To say a distribution is exactly Normal implies exactly 68% of all observations lie within 1 standard deviation of the mean, exactly 95% of all observations lie within 2 standard deviations of the mean, and exactly 99.7% of all observations lie within 3 standard deviations of the mean.",
   "tags": [
     "UNC-3.H.2",
     "3.C",

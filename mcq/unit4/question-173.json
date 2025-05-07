@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "$$P(2 \\text{ or fewer}) = 0.5^8+0.5^7 \\cdot 0.5^1 \\cdot { _{ 8 }{ C }_{ 1 } }+0.5^6 \\cdot 0.5^2 \\cdot { _{ 8 }{ C }_{ 3 } }= 0.1445$$\n\nWhile this probability is not overly high, it does show it would not be surprising for a fair coin to have $2$ or fewer heads. Therefore, it is not enough evidence to say the coin is unfair.\n\nThus, the correct answer is Choice 'D'.\n\nTypically, the probability would have to be a minimum of $0.1$ to think that the coin could be unfair. More on this topic will be discussed in formal inference questions.",
   "tags": [
     "UNC-3.A.2",
     "3.A",

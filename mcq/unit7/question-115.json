@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nComputing a confidence interval for the difference of two means uses this formula:\n\n$$(\\bar{x}_{1}-\\bar{x}_{2})\\pm t^{*}\\sqrt{\\dfrac{s_1^2}{n_{1}}+\\dfrac{s_2^2}{n_{2}}}$$\n\n...where the $\\bar{x}'s$ are the sample means, $t^{*}$ is the critical value, the $s's$ are the two sample standard deviations, and the $n's$ are the two sample sizes.\n\nWe are told to use $60$ degrees of freedom so we look up to see the value $2.390$ in Table B to use as our critical value.\n\nNow, plugging in our values we get:\n\n$$(32.3-31.8)\\pm2.390\\sqrt{\\dfrac{0.8^2}{37}+\\dfrac{0.7^2}{39}}\\approx 0.5\\pm0.413 = (0.087, 0.913)$$\n\nNow, when evaluating a confidence interval we look to see if zero is included in the interval. If it is included, we say that there is not a likely difference between the means. If it is not included then we say that there is a likely difference. In this case, one brand of ice cream does appear to weigh more than the other.\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because this a $95\\%$ confidence interval calculated by mistake and the answer should be 'yes.'\n\nChoice 'B' is incorrect because this a $95\\%$ confidence interval calculated by mistake\n\nChoice 'D' is incorrect because the answer should be 'yes.'\n\nChoice 'E' is incorrect because the $z^{*}$ value was used and the degrees of freedom were ignored so the confidence interval calculation is wrong.",
   "tags": [
     "4.B",
     "UNC-4.AA.1",

@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "An unbiased estimator is one where the expected value of the estimator equals the actual value of the parameter it estimates.\n\nThe definition of an unbiased sampling distribution is that the expected value of the sample mean is equal to the population mean $\\mu$. When samples are randomly selected and free from common biases, such as undercoverage and nonresponse, they are more likely to represent the population accurately. As a result, the sample mean will have an expected value equal to the population mean, satisfying the condition of an unbiased estimator.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; samples will have variability and possible skewness or outliers, but if the estimator is unbiased, things will even out over many samples.\n\nChoice 'B' is incorrect; the variability of the sample mean is always known and can be easily calculated.\n\nChoice 'C' is incorrect; unbiased estimators deal with the mean of many sample means, not simply the mean of a single sample.\n\nChoice 'E' is incorrect; the expected value of x does not change; it is always µ.",
   "tags": [
     "UNC-3.I",
     "4.B",

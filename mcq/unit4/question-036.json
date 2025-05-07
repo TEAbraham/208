@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This is a combination problem, as opposed to a permutation. With permutations, order matters. An example of permutations could be the number of ways $10$ runners finish a race. In this case, it certainly matters who is 1st versus who is 10th.\n\nA combination problem does not focus on order. Having the shooter miss $2$ free throws and then make the next $8$, is no different than the shooter making $8$, and then missing $2$ free throws.\n\nIt is important to note that permutations are not part of the AP curriculum.\n\nThe number of combinations of $r$ set of objects from $n$ trials, $_nC_r$, is given by the following formula:\n\nn!\nr!(n−r)!\n\nSimply substitute 10 for n, and 8 for r to get the following formula.\n\n[10!]\n[8!⋅2!]\n=45\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "4.B",
     "VAR-4.C",

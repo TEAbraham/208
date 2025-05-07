@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The number of customers in the sample who are NOT satisfied with the current opening hours is $500-181 = 319$. Therefore, the sample proportion is: $\\frac{319}{500} = 0.638$.\n\nFor a $99\\%$ confidence interval, $Z = 2.576$.\n\nThe calculations for the confidence interval are as follows:\n\n$$\\bar{P} \\pm Z \\sqrt{\\dfrac{\\bar{P}(1-P)}{n}} $$\n\n$$= 0.638 \\pm 2.576 \\sqrt{\\dfrac{0.638(0.362)}{500}}$$\n\n$$=0.638 \\pm 2.576(0.02149) $$\n\n$$= 0.638 \\pm 0.05536$$\n\n$$=0.58263 \\text{ or } 0.69336$$\n\nWe can conclude that, yes, the true proportion is greater than half or $50\\%$ since the confidence interval obtained is greater than $0.5$ or $50\\%$.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "4.E",
     "DAT-3",

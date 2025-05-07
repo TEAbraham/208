@@ -27,16 +27,15 @@
     },
     {
       "letter": "D",
-      "text": "0.02"
+      "text": "$0.02$"
     },
     {
       "letter": "E",
-      "text": "0.80"
+      "text": "$0.80$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nProbabilities based on a random variable distribution can be easily found.\n\nFirst, always check that the probabilities add up to 1 to ensure that it is a valid distribution. In this problem, 0.02+0.08+0.10+0.25+0.55=1. They do!\n\nThen, see what the question is asking. There are several ways this problem can be done, but when there is context, it is best to use it. Here, you are asked to find the probability that she does not get less than a B\n. Therefore, you are trying to find the probability that Chris does get an A\nor a B\n. These two outcomes are complements. Because these two possibilities are mutually exclusive, the probabilities can simply be added: 0.25+0.55=0.80\n.\n\nSo, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it represents the probability that Chris receives a grade lower than a B\n.\n\nChoice 'B' is incorrect because it represents the probability that Chris does not receive an A\n.\n\nChoice 'C'is incorrect because it represents the probability that Chris does not receive a B\n.\n\nChoice 'D'is incorrect because it represents Chris' hopeful answer (not an F\n!).",
   "tags": [
     "4.B",
     "VAR-5",

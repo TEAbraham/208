@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'A' is incorrect; a $2$ sample T-test is only used to test sample means. This problem deals with proportions.\n\nChoice 'B' is incorrect; again, a T-test is used for sample means. This problem deals with proportions.\n\nChoice 'C' is incorrect; goodness of fit is used for one-way charts with data measuring only one characteristic or attribute. It is used to ascertain if the collected data match (fit) a particular model.\n\nChoice 'D' is correct; a chi-square test for independence is the preferred statistical test for studying the relationship between categorical variables with multiple attributes.\n\nChoice 'E' is incorrect; analysis of variance is used to deal with sample means. This problem deals with proportions.",
   "tags": [
     "4.B",
     "DAT-3.K.1",

@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Statement I is correct; if the data comes from one single sample, a chi-squared test for association will be used.\n\nStatement II is correct; if the data comes from multiple samples, a chi-squared test for homogeneity will be used.\n\nStatement III is also correct; if the data is in the form of a $2 \\times 2$ table, then a two-proportion $Z$-test could also be used.\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "VAR-8.J.2",
     "VAR-8.J.1",

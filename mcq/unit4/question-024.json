@@ -26,7 +26,7 @@
     },
     {
       "letter": "D",
-      "text": "$0.8$"
+      "text": "0.8"
     },
     {
       "letter": "E",
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The probability of getting a job from both companies = 0.30\nas stated in the problem.\n\nThe probability of getting a job from ONLY company A is: Probability of A – Probability of both A and B:\n\n=0.6−0.3=0.3\n\nThe probability of getting a job from ONLY company B is: Probability of B – Probability of both A and B:\n\n=0.5−0.3=0.2\n\nTherefore, the probability of getting neither job = 1\n– {Probability of only A + Probability of only B + Probability of both A and B}:\n\n=1–(0.3+0.2+0.3)=0.2\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "VAR-4.A.1",
     "3.A",

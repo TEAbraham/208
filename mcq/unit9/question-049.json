@@ -9,7 +9,7 @@
   ],
   "title": "Time Spent Online",
   "difficulty": "Medium",
-  "question_text": "A sample of $10\\text{ students}$ were randomly selected and observed for a week to determine how many hours they spent on the Internet in a given week.<br>The observations were recorded along with each student’s GPA in the table above. The below is a computer output based on the data:<br>What is the equation for a $95\\%$ confidence interval on the true slope?",
+  "question_text": "A sample of $10\\text{ students}$ were randomly selected and observed for a week to determine how many hours they spent on the Internet in a given week.<br>The observations were recorded along with each student’s GPA in the table above. The below is a computer output based on the data:<br>What is the equation for a $95\\%$ confidence interval on the true slope?<br>What is the equation for a $95\\%$ confidence interval on the true slope?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Student</th><th scope=\"col\">Internet Usage</th><th scope=\"col\">GPA</th></tr></thead><tbody><tr><td>1</td><td>20</td><td>2.2</td></tr><tr><td>2</td><td>12</td><td>3.2</td></tr><tr><td>3</td><td>18</td><td>2.6</td></tr><tr><td>4</td><td>16</td><td>2.7</td></tr><tr><td>5</td><td>8</td><td>3.8</td></tr><tr><td>6</td><td>22</td><td>2.5</td></tr><tr><td>7</td><td>14</td><td>2.8</td></tr><tr><td>8</td><td>5</td><td>3.9</td></tr><tr><td>9</td><td>19</td><td>2.4</td></tr><tr><td>10</td><td>10</td><td>3.4</td></tr></tbody></table>",
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The confidence interval for the slope is calculated as:\n\n$$b \\pm t ^* { SE }_{ b }$$\n\nThe computer output shows the slope, $b$, as $-0.10235$ and ${ SE }_{ b }= 0.01007.$\n\n$t^*$ with $n-2$ ($8$) degrees of freedom = $2.306$ when looking the charts.\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "VAR-7.M",
     "VAR-7",

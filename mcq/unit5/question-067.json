@@ -22,7 +22,7 @@
     },
     {
       "letter": "C",
-      "text": "0.3245"
+      "text": "$0.3245$"
     },
     {
       "letter": "D",
@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "Near 0\n, as the z\n-score is off the standard normal charts."
+      "text": "Near 0, as the z-score is off the standard normal charts."
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "First, find the standard deviation of the proportion using the formula below, where n=115\nand p=0.64\n, to get 0.04476\n:\n\n√\np(1−p)\nn\n\nStandardize this value:\n\nz=\nx−μ\nσ\n\nz=\n56\n115\n−0.64\n0.04476\n=−3.42\n\nP(z < -3.42)=0.0003\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "UNC-3.K.1",
     "UNC-3",

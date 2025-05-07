@@ -8,7 +8,7 @@
   ],
   "title": "A New Restaurant",
   "difficulty": "Easy",
-  "question_text": "The manager of a new restaurant wishes to know if there is local interest in the cuisine his restaurant offers prior to signing a contract in Foodtown, NY. He obtains a complete list of all residents of Foodtown and decides to select a simple random sample of $150$ residents. He will send sample menus and an invitation for a complimentary lunch to the $150$ residents randomly chosen.\nWhat is the likelihood that all $150$ randomly chosen residents will live in the same neighborhood?",
+  "question_text": "The manager of a new restaurant wishes to know if there is local interest in the cuisine his restaurant offers prior to signing a contract in Foodtown, NY. He obtains a complete list of all residents of Foodtown and decides to select a simple random sample of $150$ residents. He will send sample menus and an invitation for a complimentary lunch to the $150$ residents randomly chosen.\nWhat is the likelihood that all $150$ randomly chosen residents will live in the same neighborhood?<br>What is the likelihood that all $150$ randomly chosen residents will live in the same neighborhood?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice ‘B’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A Simple Random Sample is a sample taken in such a way so that each individual has an equal chance of being chosen and each group of size n has an equal chance of being chosen.\n\nThus, obtaining a sample of $150$ residents that all live in the same neighborhood is just as likely as getting any of the many possible samples of size $150$ residents that can be taken from the entire city.\n\nSo, Choice ‘B’ is the correct answer.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect: While a simple random sample ensures a random selection of residents will be selected, it does not guarantee the residents selected will be spread throughout the city.\n\nChoice ‘C’ is incorrect: While each neighborhood could be considered a cluster, it is not specified in the question that the design of the study involves clustering of the population. Even if the design of the study involved clusters, each cluster would be equally likely to be chosen.\n\nChoice ‘D’ is incorrect: This is a misleading formula that would not result in the probability being asked for.\n\nChoice ‘E’ is incorrect: As stated above, a simple random sample ensures each group of $150$ is just as likely to be chosen as any other group of size $150$, but that does not imply any of the groups are likely to be chosen.",
   "tags": [
     "DAT-2",
     "DAT-2.A",

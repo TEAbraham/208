@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice ‘C’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nIn order to calculate the $P$-value of a significance test, the degrees of freedom must first be calculated. For a one-way table, the chi-square goodness of fit test is most appropriate, where $\\text {degrees of freedom} = \\text {number of categories} - 1$.\n\nHere, the degrees of freedom equals $ 4 - 1 = 3 $ since there are $4$ categories.\n\nThe $P$-value of a chi-square test is found by calculating the area to the right of the chi-square test statistic. One method of calculating the $P$-value of a chi-square test is using the $\\chi^2\\text{cdf} ()$ command in the calculator.\n\nHere, the $P$-value = $\\chi^2\\text{cdf}$ ($6.58$, $\\infty$, $3$) = $0.0866$.\n\nThe other method of calculating the $P$-value of a chi-square test is by using Table C.\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect: The value of $0.0866$ is not greater than $0.20$.\n\nChoice ‘B’ is incorrect: The value of $0.0866$ is not between $0.10$ and $0.20$.\n\nChoice ‘D’ is incorrect: The value of $0.0866$ is not between $0.01$ and $0.05$.\n\nChoice ‘E’ is incorrect: The value of $0.0866$ is not less than $0.01$.",
   "tags": [
     "VAR-8.G.1",
     "VAR-8.G",

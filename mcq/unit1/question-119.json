@@ -12,10 +12,8 @@
   ],
   "title": "Shape of a Frequency Plot from a Percentile Plot",
   "difficulty": "Medium",
-  "question_text": "Given the percentile plot shown, what can be said about the shape of the frequency plot?<br><br>Copyright for Albert.io.2017. All rights reserved",
-  "image_files": [
-    "images/question-119-img1.PNG"
-  ],
+  "question_text": "Given the percentile plot shown, what can be said about the shape of the frequency plot?<br>",
+  "image_files": [],
   "tables": [],
   "choices": [
     {
@@ -40,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Locating 50% on the y-axis, we can see that the median is about 400. We also see that the mean is greater than the median, as the mean is non-resistant to the extreme values in the 600s and 700s. The 600s and 700s only appear in about 1% of the data.\n\nSince the mean is greater than the median, the shape is skewed right.\n\nThis matches correct answer Choice 'A'.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect because, if the distribution was skewed to the left, a small percentage of frequencies would occur between 0 to 100 while a large percentage of frequencies would occur between 600 and 700.\n\nChoice 'C' is incorrect because, if the distribution was symmetric, a large percentage of the values would not be clustered at the beginning or end of the percentile plot.\n\nChoice 'D' is incorrect because, if the distribution was uniform, all the values would have the same percent chance of occurring meaning the graph of the percentile plot would be a diagonal line.\n\nChoice 'E' is incorrect because, if the distribution was bimodal, there would be two clusters of data.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.2",

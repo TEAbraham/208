@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Mr.&nbsp;Abraham">
+
+<title>Chi-Square Tests</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="chi-square_tests_files/libs/clipboard/clipboard.min.js"></script>
+<script src="chi-square_tests_files/libs/quarto-html/quarto.js"></script>
+<script src="chi-square_tests_files/libs/quarto-html/popper.min.js"></script>
+<script src="chi-square_tests_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="chi-square_tests_files/libs/quarto-html/anchor.min.js"></script>
+<link href="chi-square_tests_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="chi-square_tests_files/libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="chi-square_tests_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="chi-square_tests_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="chi-square_tests_files/libs/bootstrap/bootstrap-c0367b04c37547644fece4185067e4a7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Chi-Square Tests</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Mr.&nbsp;Abraham </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="chi-square-tests-for-categorical-data" class="level1">
+<h1>8. Chi-square tests for Categorical data</h1>
+<section id="categorical-data" class="level2">
+<h2 class="anchored" data-anchor-id="categorical-data">8.1 Categorical data</h2>
+<ul>
+<li>Identify categorical, nominal, and ordinal variables.</li>
+<li>Interpret values in a contingency table.</li>
+<li>Use a contingency table to calculate proportions.</li>
+<li>Interpret bar charts.</li>
+</ul>
+<section id="categorical-data-1" class="level3">
+<h3 class="anchored" data-anchor-id="categorical-data-1">Categorical data</h3>
+<p>Statistical methods like <span class="math inline">\(t\)</span>-tests and linear regression are useful for analyzing quantitative (numeric) data. However, often data is not numeric, requiring different statistical methods. Non-numeric data is said to be categorical. This material discusses ways to summarize categorical data and draw conclusions about the relationship between two categorical variables.</p>
+<p><strong><em>Categorical data</em></strong> is data that can only take on the value (usually a label) of one of several categories. Ex: The status of a loan application, seasons, and U.S. companies are categorical variables. A loan application can be approved or denied, seasons can be fall, winter, spring, or summer, and U.S. companies can be Wal-Mart, McDonalds, UPS, etc. Categorical data is also called qualitative data (known by qualities, rather than quantities). Analyzing categorical data typically involves counting the instances of each category.</p>
+<p>Two types of categorical variables are often distinguished:</p>
+<ul>
+<li>A <strong><em>nominal variable</em></strong> is a categorical variable whose categories have no ordering, existing in name only, like apples, oranges, and grapes. (“Nominal” means “in name only”).</li>
+<li>An <strong><em>ordinal variable</em></strong> is a categorical variable whose categories have an ordering, like disagree, neutral, and agree.</li>
+</ul>
+<p>The difference is sometimes relevant. Ex: On a chart, the ordinal variables would almost always be sorted along the <span class="math inline">\(x\)</span>-axis, listed as “small medium large” rather than arbitrarily as “small large medium.” In this material, all types of categorical data will be treated the same.</p>
+</section>
+<section id="contingency-tables" class="level3">
+<h3 class="anchored" data-anchor-id="contingency-tables">Contingency tables</h3>
+<p>Numerical and graphical methods can summarize quantitative data such as height, weight, or age. Examples of numerical measures include the mean and standard deviation. Example graphical methods include box plots, histograms, and scatter plots. However, those numerical and graphical methods do not make sense for categorical variables. Instead, tables are often used to provide numerical summaries of categorical data.</p>
+<p>A <strong><em>contingency table</em></strong> displays the number of observations in each category.</p>
+<p><em>8.1.2: Creating a contingency table.</em></p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/8.1.2.gif" controls=""> </p>
+<p>Captions:<br>
+1. The data can be summarized using a contingency table with two categorical variables: Death and Gilbert. 2. Each value in the table corresponds to the number of incidences of each outcome. 3. The rest of the values in the table are filled accordingly.</p>
+</section>
+<section id="proportions" class="level3">
+<h3 class="anchored" data-anchor-id="proportions">Proportions</h3>
+<p>Comparing categories can be difficult using only counts. Ex: The number of deaths for shifts Kristen Gilbert worked was <span class="math inline">\(40\)</span>, which is similar to the <span class="math inline">\(34\)</span> deaths on shifts she did not work. Comparing the counts of shifts with deaths is misleading without also considering the total number of shifts possible. Rather than using the count, a helpful summary is the proportion in a category.</p>
+<p><em>8.1.4: Using proportion in a contingency table.</em></p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/8.1.4.gif" controls=""> </p>
+<p>Captions:<br>
+1. The proportion of shifts where deaths and no deaths occurred can be included in the contingency table. 2. A proportion can be calculated for each value in the table. 3. The rest of the proportions can be calculated in a similar manner. 4. The proportions displayed are known as “row proportions,” because each value is divided by the Gilbert total for the corresponding row.</p>
+</section>
+<section id="graphical-displays-of-categorical-data" class="level3">
+<h3 class="anchored" data-anchor-id="graphical-displays-of-categorical-data">Graphical displays of categorical data</h3>
+<p>A <strong><em>stacked bar chart</em></strong> is a bar chart that depicts two or more groups on a single bar chart, with the proportion in each group having a different color in the bar. A stacked bar chart is helpful to visualize categorical data. Sometimes a bar’s height represents a count, and other times represents a proportion.</p>
+<p>Examples of both types of graphical displays for the Kristen Gilbert data are shown below. Notice on the chart displaying proportions that the heights of both bars are the same, as the total proportion must be <span class="math inline">\(1\)</span>. The choice of chart type depends on the situation.</p>
+<p><em>Figure 8.1.1: Stacked bar chart of Kristen Gilbert data using counts.</em></p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/8.1.1.png" controls=""> </p>
+<p><em>Figure 8.1.2: Stacked bar chart of Kristen Gilbert data using proportions.</em></p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/8.1.2.png" controls=""> </p>
+</section>
+</section>
+<section id="fishers-exact-test" class="level2">
+<h2 class="anchored" data-anchor-id="fishers-exact-test">8.2 Fisher’s exact test</h2>
+<ul>
+<li>Complete a <span class="math inline">\(2\times2\)</span> contingency table with missing values.</li>
+<li>List the conditions and steps for Fisher’s exact test.</li>
+<li>Apply Fisher’s exact test for comparing proportions.</li>
+</ul>
+<section id="times2-contingency-tables" class="level3">
+<h3 class="anchored" data-anchor-id="times2-contingency-tables"><span class="math inline">\(2\times2\)</span> contingency tables</h3>
+<p>A question often asked when discussing contingency tables is whether the proportions of one categorical variable are the same across another categorical variable. <strong><em>Fisher’s exact test</em></strong> is a method of calculating the exact <span class="math inline">\(p\)</span>-value for contingency tables. This hypothesis test is often used with <span class="math inline">\(2\times2\)</span> contingency tables where each of the two variables studied has exactly two categories. The idea behind Fisher’s exact test is to calculate how unusual the observed contingency table is under the null hypothesis that the proportions are the same.</p>
+<p>Fisher’s exact test is based on the assumption that the row and column totals are fixed. Under this assumption, if at least three of the totals are known, the <span class="math inline">\(2\times2\)</span> contingency table can be completed knowing only one of the four observations.</p>
+<p><em>8.2.1: Completing a contingency table.</em></p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/8.2.1.gif" controls=""> </p>
+<p>Captions:<br>
+1. Occasionally, the contingency table provided may contain missing data. To complete the contingency table, only four values are needed: <span class="math inline">\(1\)</span> observation and <span class="math inline">\(3\)</span> totals. 2. The remaining <span class="math inline">\(3\)</span> observations and <span class="math inline">\(2\)</span> totals can be calculated from the known values.</p>
+</section>
+<section id="calculating-cell-probabilities" class="level3">
+<h3 class="anchored" data-anchor-id="calculating-cell-probabilities">Calculating cell probabilities</h3>
+<p>Fisher’s exact test calculates the probability of the observed contingency table. Ex: How unusual are <span class="math inline">\(7\)</span> correct guesses of orange juice cans if <span class="math inline">\(11\)</span> of the <span class="math inline">\(20\)</span> samples are in cans. Under the assumption that the probability of correctly guessing the container is random, each observation count follows a hypergeometric distribution.</p>
+<p><em>Example 8.2.1: Calculating the probability of an observation.</em></p>
+<p>n the earlier animation, what is the probability that the instructor correctly guesses <span class="math inline">\(7\)</span> of the orange juice samples that came from a can, assuming that the row and column totals of the contingency table below are fixed?</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/8.2.1.png" controls=""> </p>
+<p><em>Solution</em></p>
+<p>Let <span class="math inline">\(X\)</span> be the random variable representing the number of correctly identified orange juice samples from a can. Under the assumptions about row and column totals, <span class="math inline">\(XX\)</span> follows a hypergeometric distribution with the following parameters:</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/8.2.2.png" controls=""> </p>
+<p>Thus, the probability of correctly guessing exactly <span class="math inline">\(7\)</span> of the <span class="math inline">\(11\)</span> orange juice samples that came from a can, when guessing a total of <span class="math inline">\(10\)</span> samples from cans, is <span class="math inline">\(0.1500357\)</span>.</p>
+<p>Although the same set of calculations can be performed for each of the four cells, the probability obtained would always be the same (<span class="math inline">\(0.1500357\)</span>).</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/8.2.3.png" controls=""> </p>
+<p>As seen in the probability mass function above, the probability for <span class="math inline">\(X=7\)</span> is approximately <span class="math inline">\(0.15\)</span>. Correctly guessing more than <span class="math inline">\(7\)</span> orange juice samples from cans would be even more unusual.</p>
+</section>
+<section id="fishers-exact-test-1" class="level3">
+<h3 class="anchored" data-anchor-id="fishers-exact-test-1">Fisher’s exact test</h3>
+<p>Fisher’s exact test uses the hypergeometric distribution to calculate the probability that the observed contingency table (or one even more unusual) would occur under the null hypothesis: <span class="math inline">\(H_0:p_1=p_2\)</span> where <span class="math inline">\(p_1\)</span> and <span class="math inline">\(p_2\)</span> are the proportions in a category for one variable based on the categories of the second variable. Ex: Fisher’s exact test can be used to test the null hypothesis that the instructor is randomly guessing whether orange juice is in a bottle or can (<span class="math inline">\(H_0:p_{can}=p_{bottle}\)</span> where <span class="math inline">\(p_{can}\)</span> is the probability of guessing a can and <span class="math inline">\(p_{bottle}\)</span> is the probability of guessing a bottle, in both cases when the true container is a can) versus the alternative hypothesis that the instructor is more likely to say that canned orange juice actually came from a can than from a bottle (<span class="math inline">\(H_a:p_{can}\gt p_{bottle}\)</span>).</p>
+<p><em>Procedure 8.2.1: Fisher’s exact test for a <span class="math inline">\(2\times2\)</span> contingency table.</em></p>
+<ol type="1">
+<li><p>Set the null and alternative hypotheses <span class="math display">\[H_0:p_1=p_2\]</span><span class="math display">\[H_a:p_1\lt p_2\]</span><span class="math display">\[H_a:p_1\gt p_2\]</span> where <span class="math inline">\(p_1\)</span> is the population proportion for group 1 and <span class="math inline">\(p_2\)</span> is the population proportion for group 2.</p></li>
+<li><p>Specify the significance level <span class="math inline">\(\alpha\)</span>, usually <span class="math inline">\(\alpha=0.05\)</span>.</p></li>
+<li><p>Calculate probabilities by using the following steps:</p>
+<ul>
+<li>Assume that the row and column totals are fixed. Ex: The number of cans and bottles of orange juice sampled are set as are the number of times the instructor guessed the orange juice was in a can or a bottle.</li>
+<li>Figure out all the possible tables using the fixed totals.</li>
+<li>Calculate the probability for each of the possible tables.</li>
+<li>Determine which tables are as unlikely as or more unlikely than the observed table.</li>
+</ul></li>
+<li><p>Add the probabilities for the observed contingency table and more unlikely tables to get the p-value.</p></li>
+<li><p>Make a decision given a previously selected significance level <span class="math inline">\(\alpha\)</span>, typically <span class="math inline">\(0.05\)</span>.</p>
+<ul>
+<li>If the <span class="math inline">\(p\)</span>-value is less than the significance level, sufficient evidence exists to reject the null hypothesis <span class="math inline">\(H_0\)</span> in favor of the alternative hypothesis <span class="math inline">\(H_a\)</span>.</li>
+<li>If the <span class="math inline">\(p\)</span>-value is greater than or equal to the significance level, insufficient evidence exists to reject the null hypothesis <span class="math inline">\(H_0\)</span>.</li>
+</ul></li>
+</ol>
+<p>The probabilities are calculated using the hypergeometric distribution.</p>
+<p><em>Example 8.2.2: Fisher’s exact test applied to the orange juice example.</em></p>
+<p>In the earlier orange juice example, the instructor could just as easily flip a coin to decide where a sample came from. Since the instructor has a clear preference for orange juice from a can, would the probability of the instructor correctly identifying a sample from a can be greater than the probability of identifying another sample from a bottle?</p>
+<p><em>Solution</em></p>
+<ol type="1">
+<li><span class="math inline">\(H_0:p_{can}=p_{bottle}\)</span> and <span class="math inline">\(H_a:p_{can}\gt p_{bottle}\)</span>, where <span class="math inline">\(p_{can}\)</span> is the probability of correctly identifying a sample coming from a can and <span class="math inline">\(p_{bottle}\)</span> is the probability of correctly identifying a sample coming from a bottle.</li>
+<li><span class="math inline">\(\alpha=0.05\)</span></li>
+<li>Computer software can calculate the probabilities. The details of which are beyond the scope of the material in this book</li>
+<li>Statistical software outputs the <span class="math inline">\(p\)</span>-value as <span class="math inline">\(0.1849\)</span>.</li>
+<li>Since the <span class="math inline">\(p\)</span>-value (<span class="math inline">\(0.1849\)</span>) is greater than the significance levels <span class="math inline">\(\alpha\)</span>, insufficient evidence exists to reject the null hypothesis <span class="math inline">\(H_0\)</span>. Thus, the statistic instructor’s students were justified in being skeptical of their instructor’s alleged ability to distinguish an orange juice sample coming from a can versus another sample coming from a bottle</li>
+</ol>
+</section>
+<section id="two-sided-hypothesis-tests" class="level3">
+<h3 class="anchored" data-anchor-id="two-sided-hypothesis-tests">Two-sided hypothesis tests</h3>
+<p>In the orange juice example, the <span class="math inline">\(p\)</span>-value was the probability of getting another contingency table more unusual than the observed table. The instructor claimed that she was able to differentiate between orange juice from a can and orange juice from a bottle. If the claim were true, more correct guesses than incorrect would be expected. A more unlikely table, assuming the null hypothesis is true, is one containing more correct guesses. The <span class="math inline">\(p\)</span>-value was calculated by adding the probabilities of <span class="math inline">\(7\)</span> (the observed value), <span class="math inline">\(8\)</span>, <span class="math inline">\(9\)</span>, <span class="math inline">\(10\)</span>, and <span class="math inline">\(11\)</span> correct guesses. If instead, no specific reason existed to justify a one-sided hypothesis, a two sided hypothesis test would have been more appropriate: <span class="math inline">\(H_0:p_1=p_2\)</span> vs <span class="math inline">\(H_a:p_1\ne p_2\)</span> where <span class="math inline">\(p_1\)</span> and <span class="math inline">\(p_2\)</span> are the proportions in a category for one variable based on the categories of the second variable. Ex: A study was planned with two groups: control and treatment. If appropriately randomized, the proportion of women in each group should be approximately the same.</p>
+</section>
+</section>
+<section id="introduction-to-chi-square-tests" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-to-chi-square-tests">8.3 Introduction to chi-square tests</h2>
+<ul>
+<li>Calculate expected cell counts for a contingency table.</li>
+<li>Calculate a chi-squared test statistic.</li>
+<li>List the conditions and steps for a chi-square test for comparing proportions.</li>
+<li>Apply a chi-square test using a <span class="math inline">\(2\times2\)</span> contingency table.</li>
+</ul>
+<section id="chi-square-tests-and-expected-cell-counts" class="level3">
+<h3 class="anchored" data-anchor-id="chi-square-tests-and-expected-cell-counts">Chi-square tests and expected cell counts</h3>
+<p>Fisher’s exact test provides exact <span class="math inline">\(p\)</span>-values but requires a great deal of computation. Computing probabilities for all possible tables is very time-consuming, so an approximation, the chi-square test, is sometimes used when the sample size is large. Although less necessary for smaller contingency tables due to advances in computational speed, the chi-square approximation is still needed for larger contingency tables.</p>
+<p>As with Fisher’s exact test, the idea behind the chi-square test is to calculate how unusual the observed contingency table is under the null hypothesis. The chi-square test compares the observed values in each cell of a contingency table to the expected values. An expected cell count is calculated by multiplying the row total by the column total and dividing by the overall total. Ex: Deaths occurred on <span class="math inline">\(4.5\%\)</span> of shifts, which is obtained after dividing the total of the first column by the total number of shifts. If the proportion of shifts with a death occurring is the same for both Kristen Gilbert’s shifts and shifts Gilbert did not work, then <span class="math inline">\(4.5\%\)</span> of the Gilbert’s shifts are expected to have a death. Since Gilbert worked a total of <span class="math inline">\(257\)</span> shifts, the expected number of Kristen Gilbert’s shifts with a death occurring is <span class="math inline">\((257)(0.045)\approx 11.59\)</span> as shown in the animation below.</p>
+<p><em>8.3.1: Calculating expected counts.</em></p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/8.3.1.gif" controls=""> </p>
+<p>Captions: 1. The expected value for each observation should be calculated under the assumption that the proportion of shifts where death occurs is the same for both shifts. 2. Each expected count can be calculated by multiplying the corresponding row and column totals and then dividing by the overall total. 3. The remaining expected counts are calculated in the same manner. 4. Each row or column should add up to the corresponding total.</p>
+</section>
+<section id="constructing-the-test-statistic" class="level3">
+<h3 class="anchored" data-anchor-id="constructing-the-test-statistic">Constructing the test statistic</h3>
+<p>The chi-squared test statistic measures how different the observed table is compared to the expected table, assuming the null hypothesis is true. The statistic compares the observed and expected cell counts. Specifically, <span class="math display">\[\chi^2=\sum{\frac{(observed\ count\ - expected\ count)^2}{expected\ count}}\]</span> The difference in observed and expected cell counts is squared to account for the fact that some of the absolute differences will be positive and some will be negative. Squaring the differences ensures that all terms will be positive. Dividing by the expected count is necessary to scale the differences as a percentage. Ex: If the expected count is <span class="math inline">\(5\)</span>, a squared difference of <span class="math inline">\(10\)</span> is <span class="math inline">\(200\%\)</span> of the expected count <span class="math inline">\((10/5=2)\)</span>. A squared difference of <span class="math inline">\(10\)</span> is much less relative to an expected count of <span class="math inline">\(500(10/500=0.02)\)</span>. The value <span class="math inline">\(\frac{(observed\ count\ - expected\ count)^2}{expected\ count}\)</span> for a cell is called a chi-square contribution term.</p>
+<p><em>8.3.3: Calculating the chi-squared test statistic.</em></p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/8.3.3.gif" controls=""> </p>
+<p>Captions:<br>
+1. To calculate the chi-squared test statistic, the observed and expected tables found in the previous animation are needed. 2. The square of the difference between the observed and the expected counts are divided by the expected count. 3. The chi-square contribution terms that correspond to each cell are summed. 4. The chi-squared test statistic is the sum of the terms that correspond to each cell, which is <span class="math inline">\(86.47\)</span>.</p>
+</section>
+<section id="chi-squared-test-for-proportions" class="level3">
+<h3 class="anchored" data-anchor-id="chi-squared-test-for-proportions">Chi-squared test for proportions</h3>
+<p>A chi-squared test can be used to compare the population proportions in two groups. The null hypothesis that the two groups have equal population proportions, <span class="math inline">\(p_1=p_2\)</span>. The alternate hypothesis for a chi-squared test is always two-sided, meaning that the proportions are not equal. Thus, if the null hypothesis is rejected, no conclusion can be made on which proportion is larger.</p>
+<p>The chi-square approximation requires large sample sizes, particularly if the proportion tested for either group is close to <span class="math inline">\(0\)</span> or <span class="math inline">\(1\)</span>. A rule of thumb is that all expected cell counts should be at least <span class="math inline">\(5\)</span>. For a <span class="math inline">\(2\times2\)</span> contingency table, Fisher’s exact test is recommended when cell counts are small.</p>
+<p><em>Procedure 8.3.1: Chi-squared test for proportions.</em></p>
+<ol type="1">
+<li>Set the null and alternative hypotheses <span class="math display">\[H_0:p_1=p_2\]</span><span class="math display">\[H_a:p_1\ne p_2\]</span> where <span class="math inline">\(p_1\)</span> is the population proportion for group 1 and <span class="math inline">\(p_2\)</span> is the population proportion for group 2.<br>
+</li>
+<li>Specify the significance level <span class="math inline">\(\alpha\)</span>, typically <span class="math inline">\(\alpha=0.05\)</span>.</li>
+<li>Use statistical software to calculate the test statistic: <span class="math display">\[\chi^2=\sum{\frac{(observed\ count\ - expected\ count)^2}{expected\ count}}\]</span></li>
+<li>Use statistical software to find the <span class="math inline">\(p\)</span>-value. If the null hypothesis is true, then the <span class="math inline">\(\chi^2\)</span> test statistic has a chi-squared distribution with 1 degree of freedom.<br>
+</li>
+<li>Make a decision given a previously selected significance level <span class="math inline">\(\alpha\)</span>, typically <span class="math inline">\(0.05\)</span>.
+<ul>
+<li>If the <span class="math inline">\(p\)</span>-value is less than the significance level, sufficient evidence exists to reject the null hypothesis <span class="math inline">\(H_0\)</span> in favor of the alternative hypothesis <span class="math inline">\(H_a\)</span>.</li>
+<li>If the <span class="math inline">\(p\)</span>-value is greater than or equal to the significance level, insufficient evidence exists to reject the null hypothesis <span class="math inline">\(H_0\)</span>.</li>
+</ul></li>
+</ol>
+</section>
+</section>
+<section id="chi-square-test-for-homogeneity-and-independence" class="level2">
+<h2 class="anchored" data-anchor-id="chi-square-test-for-homogeneity-and-independence">8.4 Chi-square test for homogeneity and independence</h2>
+<ul>
+<li>Calculate expected cell counts for a contingency table with more than two rows or columns.</li>
+<li>List the conditions and steps for a chi-square test of independence.</li>
+<li>Apply a chi-square test of independence.</li>
+<li>Adjust categories to meet chi-square conditions.</li>
+<li>Lis the conditions and steps for a chi-square test of homogeneity.</li>
+<li>Determine whether a chi-square test of independence or homogeneity is more suitable.</li>
+</ul>
+<section id="comparing-variables-with-more-than-two-categories" class="level3">
+<h3 class="anchored" data-anchor-id="comparing-variables-with-more-than-two-categories">Comparing variables with more than two categories</h3>
+<p>Investigators often wish to compare two variables with more than two categories. Ex: Data involving parole violations and punishment records are collected. Punishment records include no prison time, <span class="math inline">\(1\)</span>-<span class="math inline">\(2\)</span> years in prison, or at least <span class="math inline">\(3\)</span> years in prison. Violations are annotated as parole violation and no violation. While Fisher’s exact test can be used for variables with more than two categories, calculating all possible contingency tables quickly becomes infeasible. For that reason, the chi-squared test is typically used for larger than <span class="math inline">\(2\times2\)</span> contingency tables.</p>
+<p>As with <span class="math inline">\(2\times2\)</span> tables, expected cell counts must be calculated before conducting the test. The expected cell count is again calculated by multiplying the row total by the column total and dividing by the overall total.</p>
+<p>Researchers believe that a punishment record while in prison is associated with success or failure while on parole. The animation below uses data on punishments records and parole violations involving <span class="math inline">\(2,963\)</span> inmates at the Illinois State Reformatory (Source).</p>
+<p><em>8.4.1: Calculating the expected counts for a <span class="math inline">\(3\times2\)</span> contingency table.</em></p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/8.4.1.gif" controls=""> </p>
+<p>Captions:<br>
+1. Researchers believe that a punishment record while in prison is associated with success or failure while on parole. Parole violation data is displayed in the table above. 2. Each expected count can be calculated by multiplying the corresponding row and column totals and then dividing by the overall total. 3. The expected number of parole violators who received no punishment is <span class="math inline">\(491\)</span>. 4. The expected number of parole non-violators who didn’t receive any punishment is <span class="math inline">\(1,336\)</span>. 5. The remaining expected counts are calculated in the same manner. 6. If the process is done correctly, each row or column should add up to the corresponding total.</p>
+</section>
+<section id="chi-square-test-of-independence" class="level3">
+<h3 class="anchored" data-anchor-id="chi-square-test-of-independence">Chi-square test of independence</h3>
+<p>The steps for performing a chi-squared test for larger tables are the same as for <span class="math inline">\(2\times2\)</span> tables. However, the degrees of freedom for the chi-square distribution are different. For a table with <span class="math inline">\(r\)</span> rows and <span class="math inline">\(c\)</span> columns, the test statistic for a chi-squared test follows a chi-squared distribution with <span class="math inline">\((r-1)(c-1)\)</span> degrees of freedom. Additionally, the hypotheses are usually stated in a different manner.</p>
+<p>For larger tables, the chi-square approximation requires large sample sizes. A rule of thumb is that all expected cell counts should be at least <span class="math inline">\(5\)</span>.</p>
+<p><em>Procedure 8.4.1: Chi-square test of independence.</em></p>
+<ol type="1">
+<li>Set the null and alternative hypothesis <span class="math display">\[H_0: The\ two\ variables\ are\ independent.\]</span><span class="math display">\[H_a: The\ two\ variables\ are\ not\ independent.\]</span> Equivalently, the null hypothesis is that no association exists between the two variables, in which case, the alternative hypothesis is that association exists between the variables.</li>
+<li>Specify the significance level <span class="math inline">\(\alpha\)</span>, typically <span class="math inline">\(\alpha=0.05\)</span>.</li>
+<li>Use statistical software to find the test statistic, <span class="math display">\[\chi^2=\sum{\frac{(observed\ count\ - expected\ count)^2}{expected\ count}}\]</span></li>
+<li>Use statistical software to find the <span class="math inline">\(p\)</span>-value. If the null hypothesis is true, the <span class="math inline">\(\chi^2\)</span> test statistic has a chi-squared distribution with degrees of freedom equal to <span class="math inline">\((r-1)(c-1)\)</span> where <span class="math inline">\(r\)</span> is the number of categories of the first variable (rows in the table) and <span class="math inline">\(c\)</span> is the number of categories of the second variable (columns in the table).</li>
+<li>Make a decision given a previously selected significance level <span class="math inline">\(\alpha\)</span>, typically <span class="math inline">\(0.05\)</span>.
+<ul>
+<li>If the <span class="math inline">\(p\)</span>-value is less than the significance level, sufficient evidence exists to reject the null hypothesis, <span class="math inline">\(H_0\)</span>, in favor of the alternative hypothesis, <span class="math inline">\(H_a\)</span>. Sufficient evidence exists to conclude that the two variables are not independent.</li>
+<li>If the <span class="math inline">\(p\)</span>-value is greater than or equal to the significance level, insufficient evidence exists to reject the null hypothesis, <span class="math inline">\(H_0\)</span>, in favor of the alternative hypothesis, <span class="math inline">\(H_a\)</span>. Insufficient evidence exists to conclude that the two variables are not independent.</li>
+</ul></li>
+</ol>
+</section>
+<section id="chi-squared-assumptions" class="level3">
+<h3 class="anchored" data-anchor-id="chi-squared-assumptions">Chi-squared assumptions</h3>
+<p>For the chi-square approximation to be valid, every expected cell count must be sufficiently large. At least <span class="math inline">\(5\)</span> is the rule of thumb. For larger tables with expected cell counts that are less than <span class="math inline">\(5\)</span>, Fisher’s exact test may not be an option. One alternative is to combine categories of one or both variables to increase the cell sizes. Often, a logical way to combine categories exists.</p>
+<p><em>Example 8.4.1: Combining categories to satisfy expected cell count assumption.</em></p>
+<p>Suppose researchers wish to study the relationship between education level and voter preference by polling likely voters in a local election. The following results regarding which candidate voters are most likely to vote for are obtained in the table below.</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/8.4.1.png" controls=""> </p>
+<p>The expected cell counts are shown below.</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/8.4.1a.png" controls=""> </p>
+<p>Not all expected cell counts are at least <span class="math inline">\(5\)</span>. Combining the last three columns of the observed table into a single column “Bachelor’s degree or higher” satisfies the minimum cell count assumption. Ex: For the first candidate, combining the “Bachelor’s degree,” “Master’s degree,” and “Doctoral degree” columns of the observed table results in <span class="math inline">\(3+2+1=6\)</span> observations. Since the row and column sums are fixed, the expected counts for the “High school” and “Some college” columns remain unchanged. All expected cell counts in the “Bachelor’s degree or greater” column changed to satisfy the assumption.</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/8.4.1b.png" controls=""> </p>
+<p>If a logical way to combine categories exists, categories should be combined. Ex: A survey response has five possible answers: strongly agree, agree, neutral, disagree and strongly disagree. Combining strongly agree and agree or strongly disagree and disagree makes sense. However, combining agree and disagree does not. A logical way to combine ordinal variables usually exists whereas sometimes no logical way exists for nominal variables.</p>
+<p><em>Example 8.4.2: Combining categories to satisfy expected cell count assumption.</em></p>
+<p>Sometimes, categories cannot be combined in a natural manner. Ex: Suppose data was collected from dog owners on breed of dog and whether they lived in an urban, suburban or rural area.</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/8.4.2.png" controls=""> </p>
+<p>The expected cell counts are shown below.</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/8.4.2a.png" controls=""> </p>
+<p>Since some expected cell counts are less than <span class="math inline">\(5\)</span>, certain categories of the observed table should be combined. However, no obvious way to combine categories exist. In this situation, the observed columns for less popular dog breeds (Akita, Doberman Pinscher and Great Dane) can be combined into a single column labeled as “Other” as shown in the table below.</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/8.4.2b.png" controls=""> </p>
+<p>If any expected cell count is small (generally less than <span class="math inline">\(5\)</span>), Fisher’s exact test should be used for comparison. In cases where Fisher’s test is not feasible, categories may be combined. The results from the original data and the data with combined categories should always be compared. All analyses should be considered in context. A minimum expected cell count of <span class="math inline">\(5\)</span> is just a rule of thumb.</p>
+</section>
+<section id="chi-square-test-of-independence-or-homogeneity" class="level3">
+<h3 class="anchored" data-anchor-id="chi-square-test-of-independence-or-homogeneity">Chi-square test of independence or homogeneity</h3>
+<p>The null hypothesis for a chi-square test of independence is that two variables are independent. A related test is the chi-square test of homogeneity. Mathematically, the two tests are equivalent and will always result in the same test statistic and <span class="math inline">\(p\)</span>-value. However, the null hypothesis for the chi-square test of homogeneity is that the distribution of one variable is the same across all categories of the other variable.<br>
+<em>Procedure 8.4.2: Chi-square test of homogeneity.</em></p>
+<ol type="1">
+<li>Set the null hypothesis <span class="math display">\[H_0:\]</span><span class="math display">\[p_{1,1}=p_{1,2}=\ldots=p_{1,J}\]</span><span class="math display">\[p_{2,1}=p_{2,2}=\ldots=p_{2,J}\]</span><span class="math display">\[\vdots\ \ \ \ \ \ \ \ \ \ \ \ \ \vdots\]</span><span class="math display">\[p_{I,1}=p_{I,2}=\ldots=p_{I,J}\]</span><span class="math display">\[p_{1,1}=p_{2,1}=\ldots=p_{I,1}\]</span><span class="math display">\[p_{1,2}=p_{2,2}=\ldots=p_{I,2}\]</span><span class="math display">\[\vdots\ \ \ \ \ \ \ \ \ \ \ \ \ \vdots\]</span><span class="math display">\[p_{1,J}=p_{2,J}=\ldots=p_{I,J}\]</span>where <span class="math inline">\(i=1,2,\ldots,I\)</span> represent the categories of the first variable and <span class="math inline">\(j=1,2,\ldots,J\)</span> represent the categories of the second variable. Fundamentally, the null hypothesis says that the distribution of one variable is the same across all sampled populations. Set the alternative hypothesis <span class="math inline">\(H_a: \text{At least one of the probability statements is false.}\)</span></li>
+<li>Specify the significance level <span class="math inline">\(\alpha\)</span> , typically <span class="math inline">\(\alpha=0.05\)</span></li>
+<li>Use to find the test statistic, <span class="math display">\[\chi^2=\sum{\frac{(observed\ count\ - expected\ count)^2}{expected\ count}}\]</span> The test statistic for the chi-square test of independence and the chi-square test of homogeneity are identical.</li>
+<li>Use to find the <span class="math inline">\(p\)</span>-value. If the null hypothesis is true, the <span class="math inline">\(\chi^2\)</span> test-statistic has a chi-squared distribution with degrees of freedom equal to <span class="math inline">\((r-1)(c-1)\)</span> where <span class="math inline">\(r\)</span> is the number of categories of the first variable (rows in the table) and <span class="math inline">\(c\)</span> is the number of categories of the second variable (columns in the table).</li>
+<li>Make a decision given a previously selected significance level <span class="math inline">\(\alpha\)</span>, typically <span class="math inline">\(0.05\)</span>
+<ul>
+<li>If the <span class="math inline">\(p\)</span>-value is less than the significance level, sufficient evidence exists to reject the null hypothesis, <span class="math inline">\(H_0\)</span>, in favor of the alternative hypothesis, <span class="math inline">\(H_a\)</span>. Conclude that the distribution of one variable is not the same across categories of the other variable.</li>
+<li>If the <span class="math inline">\(p\)</span>-value is greater than or equal to the significance level, insufficient evidence exists to reject the null hypothesis, <span class="math inline">\(H_0\)</span>, in favor of the alternative hypothesis, <span class="math inline">\(H_a\)</span>. Conclude that the distribution of one variable is the same across categories of the other variable.</li>
+</ul></li>
+</ol>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

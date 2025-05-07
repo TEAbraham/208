@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWhen examining a scatterplot using linear regression we are looking for a line. When points appear to deviate dramatically from the line we can call them outliers.\n\nInfluential points may or may not include outliers. These are points that dramatically change the equation of the regression line if removed. Another type of point which may be an influential point is a high leverage point. This point may not seem as obvious because it could actually lie to the line. What defines this point as high leverage is that its x value is far away from the rest of the points, lower or higher.\n\nIn this problem, the x values range from 1 to 9. The only point in the answers with an x value which lies far from this range is (14, 20)$.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because this point lies right next to the line, barely outside the x value range.\n\nChoice 'C' is incorrect because, while this point may be an outlier with its high y\nvalue, its x\nvalue is right in the range.\n\nChoice 'D' is incorrect because, while this point may be an outlier with its low y\nvalue, its x\nvalue is right in the range.\n\nChoice 'E' is incorrect because, while this point has the same x\nvalue as one of the given points, and a different y\nvalue, it is still close to being on the line and its x\nvalue is in range.",
   "tags": [
     "DAT-1",
     "DAT-1.I",

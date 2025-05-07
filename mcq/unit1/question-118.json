@@ -9,7 +9,7 @@
   ],
   "title": "Sodas at the Movies",
   "difficulty": "Easy",
-  "question_text": "The histogram below displays the volume in fluid ounces dispensed from a soda machine of a random sample of sodas sold at a movie theater.<br>Which of the following is the best appropriate interpretation of this graph?<br><br><br><br>",
+  "question_text": "The histogram below displays the volume in fluid ounces dispensed from a soda machine of a random sample of sodas sold at a movie theater.<br>Which of the following is the best appropriate interpretation of this graph?<br><br>Created for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-118-img1.png"
   ],
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is correct.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The histogram displays the volumes of soda dispensed in the\nx\n-axis and the frequency of those measures in the\ny\n-axis.\n\nThe two clusters representing sizes are made clear by their median peaks. The frequencies of other volumes close to those medians them, implying variation in the filling of those sizes. The dispensed amount could have been either more or less than the size allotted in the cup, accounting for the differences in volume.\n\nExplanation of Distractors\n\nChoices 'A' and 'C' are incorrect because a histogram is not a time plot. Trends over time cannot be seen in a histogram.\n\nChoice 'B' is incorrect because it describes two categorical variables that are not related to the volume of the drinks.\n\nChoice 'E' is incorrect because a single average should not be reported when a distribution is bimodal. Very few drinks were dispensed around 18 ounces, so it doesn't make sense to use 18 ounces as a summary statistic for the entire set of soft drinks.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.1",

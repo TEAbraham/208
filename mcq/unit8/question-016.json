@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Statement I is incorrect; the chi-squared distribution is right skewed, not normal.\n\nStatement II is incorrect; degrees of freedom is $n = 1$, where $n$ is the number of proportions studied.\n\nStatement III is correct; chi-squared tests can determine only if differences exist, but cannot determine whether one proportion is significantly higher or lower than the others.\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "VAR-8.C",
     "VAR-8.C.1",

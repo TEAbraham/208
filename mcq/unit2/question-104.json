@@ -8,7 +8,7 @@
   ],
   "title": "Regression Output: Circumference and Melon Weight",
   "difficulty": "Easy",
-  "question_text": "Farmer MacDonald sells his melons at a roadside stand. He hates carrying along his scale for weighing the melons though and wonders if there is a way to predict the weight ($\\hat {y}$) of a melon by measuring its circumference ($x$).<br>Luckily, his son Junior is taking AP Statistics and knows just what to do! After weighing (in pounds) and measuring the circumference (in inches) of a random sample of melons, Junior uses a statistical software package to develop the equation of the LSRL. Computer output is shown below.<br><br><br><br><br>Which of the following gives the equation of the LSRL?",
+  "question_text": "Farmer MacDonald sells his melons at a roadside stand. He hates carrying along his scale for weighing the melons though and wonders if there is a way to predict the weight ($\\hat {y}$) of a melon by measuring its circumference ($x$).<br>Luckily, his son Junior is taking AP Statistics and knows just what to do! After weighing (in pounds) and measuring the circumference (in inches) of a random sample of melons, Junior uses a statistical software package to develop the equation of the LSRL. Computer output is shown below.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>Which of the following gives the equation of the LSRL?",
   "image_files": [
     "images/question-104-img1.png"
   ],
@@ -16,7 +16,7 @@
   "choices": [
     {
       "letter": "A",
-      "text": "^\ny\n=\n0.623\n+\n1.02\nx"
+      "text": "ˆ\ny\n=0.623+1.02x"
     },
     {
       "letter": "B",
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In this situation, the explanatory variable,\nx\n, is the circumference of the melon in inches and the response variable,\n^\ny\n, is the predicted weight of the melon in pounds.\n\nTo find the equation of the LSRL from the computer output, look at the column labeled \"Coef\". The value of\n1.02\nfound where the column labeled \"Coef\" intersects with the row labeled \"Constant\" is the\ny\n-intercept of the LSRL. Keep in mind that the\ny\n-intercept is, in fact, a constant and this value does not change with the value of\nx\n.\n\nThe value of\n0.623\nfound where the column labeled \"Coef\" intersects with the row labeled \"Variable\" is the slope of the LSRL. The slope describes the predicted rate at which the weight will change when the circumference of the melon increases by\n1\nand is the value that\nx\nwill be multiplied by in the equation. The equation of the LSRL is:\n^\ny\n=\n1.02\n+\n0.623\nx\n.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it reverses the values of the slope and\ny\nintercept in forming the equation of the LSRL.\n\nChoices 'C', 'D' and 'E' are all incorrect as they use values in the computer output that are unrelated to the actual equation of the LSRL.",
   "tags": [
     "4.B",
     "DAT-1.H.2",

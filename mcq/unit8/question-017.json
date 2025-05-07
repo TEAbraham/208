@@ -22,16 +22,15 @@
     },
     {
       "letter": "D",
-      "text": "H0: There is no association between prize winnings and frequency.\nHa: There is an association between prize winnings and frequency."
+      "text": "$H_0$: There is no association between prize winnings and frequency.\n$H_a$: There is an association between prize winnings and frequency."
     },
     {
       "letter": "E",
-      "text": "H0\n: Prize-winning and frequency are independent.\nHa\n: Prize-winning and frequency are not independent."
+      "text": "$H_0$: Prize-winning and frequency are independent.\n$H_a$: Prize-winning and frequency are not independent."
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A chi-squared goodness of fit test must always by nature have a two-sided alternative. Chi-squared tests can never test a certain direction (one being greater or less than it should be).\n\nExplanation of Distractors\n\nChoices 'B' and 'C' are incorrect; see above explanation.\n\nChoices 'D' and 'E' are incorrect; these point toward a test for association/independence, which can only be completed when dealing with two categorical variables. This problem, however, concerns only one categorical variable (prize distribution).",
   "tags": [
     "1.F",
     "VAR-8.B.1",

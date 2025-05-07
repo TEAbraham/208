@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTo test the conditions of a test for the difference of two population proportions, we will first calculate the combined proportion given by this formula:\n\n$$\\hat{p}_{c}=\\dfrac{n_{1}\\hat{p}_{1}+n_{2}\\hat{p}_{2}}{n_{1}+n_{2}}$$\n\nPlugging in our values we get:\n\n$$\\hat{p}_{c}=\\dfrac{(100)(0.82)+(90)(0.90)}{100+90}\\approx0.858$$\n\nWe also need to plug in our $n$ values and use $1-\\hat{p}_{c}\\approx0.142$.\n\nIn this problem the expression correctly calculated is $(100)(1-0.858)\\approx14.2$\n\nSo, Choice 'D' correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because $n_{1}$ should be $\\leq510$, not $520$.\n\nChoice 'B' is incorrect because $n_{1}\\hat{p}_{c}$ should be $=(100)(0.858)\\approx85.8$. The $\\hat{p}$ values were reversed in the $\\hat{p}_{c}$ calculation.\n\nChoice 'C' is incorrect because $n_{2}\\hat{p}_{c}$ should be $=(90)(0.858)\\approx77.2$. The $\\hat{p}$ values were reversed in the $\\hat{p}_{c}$ calculation.\n\nChoice 'E' is incorrect because $n_{2}(1-\\hat{p}_{c})$ should $=(90)(0.142)\\approx12.8$ The digits were reversed.",
   "tags": [
     "4.C",
     "VAR-6.J",

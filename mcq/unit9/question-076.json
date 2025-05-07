@@ -26,11 +26,11 @@
     },
     {
       "letter": "C",
-      "text": "s\n≈\n0.7171"
+      "text": "s≈0.7171"
     },
     {
       "letter": "D",
-      "text": "s\n≈\n0.6943"
+      "text": "s≈0.6943"
     },
     {
       "letter": "E",
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe standard deviation of the response values about the true regression line, σ\n, can be approximated as follows:\n\ns\n=\n√\nΣ\n(\ny\ni\n−\n^\ny\ni\n)\n2\nn\n−\n2\n≈\n√\n(\n−\n0.0629\n)\n2\n+\n(\n−\n1.063\n)\n2\n+\n(\n−\n0.0629\n)\n2\n+\n.\n.\n.\n+\n(\n−\n1.194\n)\n2\n16\n−\n2\n≈\n0.7423\n\nSo, Choice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect.\n\nThe mistake made here was finding the sum of the residuals first, then squaring that sum before dividing by\n14\n. The sum of the residuals should always be\n≈\n0\n. As such, the very small value obtained is merely rounding error from the calculator.\n\nChoice 'C' is incorrect.\n\nThe mistake made here is incorrectly dividing the sum of the squares of the residuals by one less than the quantity of data points,\n15\n. To correct this error, simply divide by two less than the number of data points; in this case,\n14\n.\n\nChoice 'D' is incorrect.\n\nThis mistake made here is incorrectly dividing by the number of data points,\n16\n. To correct this error, simply divide by two less than the number of data points; in this case,\n14\n.\n\nChoice 'E' is incorrect.\n\nA least-squares regression line that is computed from sample data estimates the true population regression line. Consequently, the residuals estimate how much the sample response varies about the true response. If the residuals are given, we can compute an approximation for\nσ\n, the variability of the change in crabgrass about the true regression line using the following formula:\n\ns\n=\n√\nΣ\n(\ny\ni\n−\n^\ny\ni\n)\n2\nn\n−\n2",
   "tags": [
     "UNC-4.AC",
     "UNC-4",

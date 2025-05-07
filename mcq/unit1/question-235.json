@@ -9,7 +9,7 @@
   ],
   "title": "Up in the Rockies: Comparing Z-Scores",
   "difficulty": "Medium",
-  "question_text": "The $50$ highest mountain peaks in Colorado have an average height of $13,891.1$ feet. Mount Elbert is the tallest at $14,440$ feet. Standardized z-scores for four of the other mountains (of the $50$ highest) are given below.\nList these mountains in order from tallest to shortest.<br>Henry Mountain: $z = -1.64$\nMount Massive: $z = 1.40$\nMount Powell: $z = -0.80$\nPike's Peak: $z = 0.58$",
+  "question_text": "The $50$ highest mountain peaks in Colorado have an average height of $13,891.1$ feet. Mount Elbert is the tallest at $14,440$ feet. Standardized z-scores for four of the other mountains (of the $50$ highest) are given below.\nList these mountains in order from tallest to shortest.<br>List these mountains in order from tallest to shortest.<br>Henry Mountain: $z = -1.64$\nMount Massive: $z = 1.40$\nMount Powell: $z = -0.80$\nPike's Peak: $z = 0.58$",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A z-score tells us how many standard deviations an observation is above or below the mean.\n\nPositive z-scores indicate that the observed value is above the mean. Since Mount Massive and Pike's Peak both have positive z-scores, both have heights that are above the mean. The larger the positive z-score is, the more standard deviations the observed value is above the mean.\n\nMount Massive's z-score of $1.40$ is greater than Pike's Peak's z-score of $0.58$, therefore, we can conclude that Mount Massive is taller than Pike's Peak. This means that Mount Massive is the tallest mountain listed and Pike's Peak is the second tallest mountain listed.\n\nNegative z-scores indicate that the observed value is below the mean. Since Henry Mountain and Mount Powell both have negative z-scores, both have heights that are below the mean. The larger the absolute value of a negative z-score is, the more standard deviations the observed value is below the mean.\n\nMount Henry's z-score of $-1.64$ has an absolute value of $1.64$ which is greater than the absolute value of the z-score for Mount Powell $(0.80)$, therefore, we can conclude that Mount Henry is shorter than Mount Powell and is in fact the shortest mountain listed.\n\nChoice 'C' lists the mountains correctly from tallest to shortest.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. We cannot simply ignore the positive/negative nature of a z-score and look only at the absolute value. This answer choice assumes that we can do so.\n\nChoice 'B' is incorrect and simply reverses the order of the mountains listed in Choice 'A'.\n\nChoice 'D' is incorrect because it lists the order of the mountains from shortest to tallest.\n\nChoice 'E' is incorrect. It interchanges the order of the two tallest mountains and interchanges the order of the two shortest mountains.",
   "tags": [
     "VAR-2.C.1",
     "2.D",

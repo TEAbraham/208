@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The least squares line will always have two components; a slope and $y$-intercept. The general form for the least squares regression line is:\n\n$$y = a + bx$$\n\n...where $b$ represents the slope, and $a$ represents the $y$-intercept.\n\n$a = 83.527$ and $b = 1.0632$ based off the problem, giving us the following equation:\n\ny=83.527+1.0632x\n\n...where y represents predicted rental price and x represents square footage.\n\nSince x=1200, then rent is predicted by the following formula:\n\ny=83.527+1.0632(1200)=1359.37\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "4.B",
     "DAT-1.H",

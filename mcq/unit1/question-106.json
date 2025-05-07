@@ -9,7 +9,7 @@
   ],
   "title": "Getting To School: A Histogram",
   "difficulty": "Easy",
-  "question_text": "Billy surveyed $27$ of his friends and asked how long it took for them to get to school each morning. Results of his survey are shown in the histogram below.<br><br><br><br><br>[question-stem] What percent of those surveyed said they were able to get to school in under $10$ minutes? [question-stem]",
+  "question_text": "Billy surveyed $27$ of his friends and asked how long it took for them to get to school each morning. Results of his survey are shown in the histogram below.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>[question-stem] What percent of those surveyed said they were able to get to school in under $10$ minutes? [question-stem]",
   "image_files": [
     "images/question-106-img1.PNG"
   ],
@@ -17,7 +17,7 @@
   "choices": [
     {
       "letter": "A",
-      "text": "13%"
+      "text": "13\n%"
     },
     {
       "letter": "B",
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We know that Billy surveyed\n27\nof his friends and need to determine how many said less than\n10\nminutes. We can do this by matching up the height of the corresponding bars with the frequency found on the vertical axis.\n\nKeep in mind that observations associated with the value shown on the horizontal axis are included in the bar to the right of that value. The frequencies are as follows:\n\n2\nbut less than\n4\nminutes:\n1\nindividual\n4\nbut less than\n6\nminutes:\n2\nindividuals\n6\nbut less than\n8\nminutes:\n4\nindividuals\n8\nbut less than\n10\nminutes:\n6\nindividuals\n\nTherefore,\n1\n+\n2\n+\n4\n+\n6\n=\n13\nindividuals said less than\n10\nminutes.\n\nNow we need to determine what percent of\n27\nis\n13\n. We can do this as shown below:\n\n13\n27\n=\n0.4815\n≈\n48\n%\n\nThe correct value is found in Choice 'C'.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The frequency of those who said less than\n10\nminutes is\n13\n, but this is not the percent.\n\nChoice 'B' is incorrect. This is the percent of individuals who said\n8\nbut less than\n10\nminutes.\n\nChoice 'D' is incorrect. This percentage includes those in the\n10\nbut less than\n12\nminutes category. However, the problem asks for the percent who would say less than\n10\nminutes.",
   "tags": [
     "UNC-1.I.5",
     "2.A",

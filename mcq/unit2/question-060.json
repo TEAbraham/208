@@ -8,7 +8,7 @@
   ],
   "title": "Complaints and Sales",
   "difficulty": "Medium",
-  "question_text": "<br><br><br><br>A small retailer believes there is an association between the number of complaints in a given month and sales volume.<br>To investigate this relationship, he retrieves the past $24\\text{ months}$ of data using the number of complaints as the independent variable and store sales as the dependent variable. The scatterplot above represents this data.<br>Using the graph, which of the following statements is correct?",
+  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved.<br><br>A small retailer believes there is an association between the number of complaints in a given month and sales volume.<br>To investigate this relationship, he retrieves the past $24\\text{ months}$ of data using the number of complaints as the independent variable and store sales as the dependent variable. The scatterplot above represents this data.<br>Using the graph, which of the following statements is correct?",
   "image_files": [
     "images/question-060-img1.JPG"
   ],
@@ -20,7 +20,7 @@
     },
     {
       "letter": "B",
-      "text": "The slope of this scatterplot is $0$."
+      "text": "The slope of this scatterplot is\n0\n."
     },
     {
       "letter": "C",
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "There is a negative non-linear relationship between the number of complaints and monthly sales. The scatterplot shows that as\nx\nmonthly complaints increase,\ny\nmonthly sales decrease. This is a negative relationship.\n\nHowever, the relationship is apparent only after\n15\nor more complaints; therefore, the relationship is non-linear. The slope is negative and non-zero.\n\nThe scatterplot is a graph of bivariate data and cannot show the skew for univariate data. To determine skew, we would need to form frequency distributions for the\nx\nvariables and\ny\nvariables separately.\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "4.B",
     "DAT-1.C",

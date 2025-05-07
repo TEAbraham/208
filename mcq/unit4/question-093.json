@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The probability of making four free throws is equal to the complement of a having a miss within the first four shots.\n\nFirst, we must find the individual probabilities:\n\n$$P(1) = 0.25$$\n\n$$P(2) = 0.75 \\cdot 0.25$$\n\n$$P(3) = 0.75 \\cdot 0.75 \\cdot 0.25$$\n\n$$P(4) = 0.75 \\cdot 0.75 \\cdot 0.75 \\cdot 0.25$$\n\nThen we take the sum of these probabilities, which represents the probability of a missed shot within three or fewer shots:\n\n$$(0.25)+(0.75 \\cdot 0.25)+(0.75 \\cdot 0.75\\cdot 0.25)+ (0.75 \\cdot 0.75 \\cdot 0.75 \\cdot 0.25) = 0.683594$$\n\n...and subtract from $1$ to find the complement of that probability:\n\n$$1-0.683594 = 0.316406$$\n\nChoice 'C' is correct.",
   "tags": [
     "VAR-4.E",
     "3.A",

@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Statements I and II are correct; the standard normal distribution will always be symmetric and have a mean of $0$ and standard deviation of $1$.\n\nStatement III is incorrect; by definition, the standard normal distribution will always be normal and is not dependent on sample size. Sampling distributions, however, will always be roughly normal if the sample size is more than $30$.\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "2.D",
     "VAR-2.A.1",

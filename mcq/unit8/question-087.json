@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice ‘D’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe appropriate test to use here is a Chi-Square Test for Goodness of Fit. The Goodness of Fit Test is used to analyze categorical data given in a one-way table. Here, the categorical variable is Skittle color.\n\nA Goodness of Fit Test tests the null hypothesis that a categorical variable has a specified distribution. Here, the null hypothesis claims The distribution of all Skittle colors are equal in proportion.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect: A chi-square test of association involves analyzing the results of a study of two categorical variables. Here, there is one categorical variable.\n\nChoice ‘B’ is incorrect: A $1$-sample $z$ test for a population proportion is appropriate when analyzing the results of a single proportion. Skittles makes five colors, so this is a study of multiple proportions.\n\nChoice ‘C’ is incorrect: A $1$-sample $z$ test for a population average is appropriate to use when analyzing a quantitative variable.\n\nChoice ‘E’ is incorrect: A $2$-sample $z$ test for the difference in population proportions is used to analyze the results of comparing two proportions (not five).",
   "tags": [
     "VAR-8.C",
     "VAR-8.C.1",

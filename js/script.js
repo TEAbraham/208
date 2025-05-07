@@ -1,15 +1,17 @@
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
 import {
     getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut,
     onAuthStateChanged, GoogleAuthProvider
 } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
 import {
-  getFirestore, collection, getDocs, getDoc, query, where, doc
+  getFirestore, collection, getDocs, getDoc, query, where, doc, setDoc, serverTimestamp
 } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
-import { app } from "./firebase-config.js";
+import { firebaseConfig } from "./firebase-config.js";
 
+const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
-const provider = new GoogleAuthProvider();
-const db = getFirestore();
+const db = getFirestore(app);
+const provider = new GoogleAuthProvider
 
 provider.addScope('https://www.googleapis.com/auth/classroom.courses.readonly');
 provider.addScope('https://www.googleapis.com/auth/classroom.coursework.me.readonly');
@@ -180,9 +182,8 @@ onAuthStateChanged(auth, async (user) => {
   const currentPage = window.location.pathname.split("/").pop();
   const logoutButton = document.getElementById('logoutButton');
 
-  // Check if we've already redirected once in this session
   if (typeof window.authChecked === 'undefined') {
-    window.authChecked = true; // only run this logic once
+    window.authChecked = true;
 
     if (!user && currentPage !== "index.html" && currentPage !== "") {
       localStorage.setItem("redirectAfterLogin", window.location.href);
@@ -192,17 +193,26 @@ onAuthStateChanged(auth, async (user) => {
     if (logoutButton) logoutButton.style.display = user ? 'block' : 'none';
   }
 
-  if (user) {
-    document.getElementById("user-email").textContent = `${user.email}`;
+  if (!user) return;
 
-    const progress = {};  // Track score per unit
+  const emailSpan = document.getElementById("user-email");
+  if (emailSpan && user?.email) {
+    emailSpan.textContent = user.email;
+  }
 
-    const answersRef = await collection(db, "student_answers");
+  try {
+    const token = await user.getIdTokenResult();
+    const isAdmin = token.claims.admin === true;
+
+    if (!isAdmin) return; // ⛔ prevent read errors for non-admins
+
+    const progress = {};
+    const answersRef = collection(db, "student_answers");
     const snapshot = await getDocs(query(answersRef, where("userId", "==", user.uid)));
 
     snapshot.forEach(doc => {
       const data = doc.data();
-      const unit = data.questionId.split("_")[0];  // e.g., "unit1"
+      const unit = data.questionId.split("_")[0];
       const difficulty = (data.difficulty || "medium").toLowerCase();
       const correct = data.correct;
 
@@ -210,24 +220,18 @@ onAuthStateChanged(auth, async (user) => {
       const basePoints = pointMap[difficulty] || 2;
 
       if (!progress[unit]) progress[unit] = 0;
-
-      if (correct) {
-        progress[unit] += basePoints;
-      } else {
-        progress[unit] -= 1;  // Incorrect answer penalty
-      }
+      progress[unit] += correct ? basePoints : -1;
     });
 
-    // Update UI for each unit link
     Object.entries(progress).forEach(([unit, points]) => {
       const link = document.querySelector(`a[href="${unit}/"]`);
       if (link) {
-        if (points >= 25) {
-          link.textContent += ` ✅ (${points} pts)`;
-        } else {
-          link.textContent += ` 🟡 (${points} pts)`;
-        }
+        link.textContent += points >= 25 ? ` ✅ (${points} pts)` : ` 🟡 (${points} pts)`;
       }
     });
+
+  } catch (e) {
+    console.warn("⚠️ Background read failed:", e);
   }
 });
+

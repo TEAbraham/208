@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "First, we must turn each of the raw values into $z$-scores. The formula for calculating $z$ is:\n\n$$z=\\frac { x-\\mu }{ \\sigma }$$\n\n...where $x$ is the observed value or value of interest.\n\n$$z=\\frac { 170- 210 }{ 25 }=-1.6$$\n\n...and:\n\n$$z=\\frac { 225-210 }{ 25 } =0.6$$\n\nSo we are looking for $p(-1.6 < z < 0.6)$. The easiest way to find this answer is to use your TI83/84 graphing calculator's normalcdf function. The normalcdf function finds probabilities associated with given $z$-scores. The syntax is: normalcdf(lower bound, upper bound, mean, standard deviation). In this case you would:\n\nEnter 2nd, DISTR\nChoose normalcdf\nEnter -1.6, 0.6, 0, 1\n\nEnter again and the calculator will return the value of about $0.67$.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect and represents $p(z < -1.6)$.\n\nChoice 'B' is incorrect and represents $p(z > 0.6)$.\n\nChoice 'D' is incorrect and represents $p(z < 0.6)$.\n\nChoice 'E' is incorrect and represents $p(z > -1.6)$.",
   "tags": [
     "VAR-2.B",
     "VAR-2.B.1",

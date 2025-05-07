@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "For sample means, when the sample size is under $30$, as long as the sample shows no strong skewness or outliers when graphed, the normal / large counts condition for T procedures is met.\n\nFor $T$ procedures to be used, the sample must be random, and the sampling distribution must be approximately normal.\n\nThe problem states that the sample is random, and the sampling distribution will be approximately normal for a sample of size $n = 16$ as long as the data shows no strong skewness or outliers.\n\nThus, the correct answer is Choice 'E'.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. In this case, the sample is not over $30$. Furthermore, T procedures can be used for samples under $30$ if the data shows no strong skewness or outliers.\n\nChoice 'B' is incorrect. If the parent population is approximately normal, T procedures can be used for samples such as $n = 16$. However, Choice 'B' is incorrect as this selection states that T procedures can ONLY be used if the population is approximately normal. One can use T procedures with non normal populations as well if the sample is large enough.\n\nChoice 'C' is incorrect. When sample sizes are at least $30$, either T or Z procedures can be used for sample means. However, when the sample size is $16$, as in this problem, and the population standard deviation is unknown, only T procedures can be used.\n\nChoice 'D' is incorrect. One would need to see that the sample shows no strong skewness or outliers since the sample size is under $30$.",
   "tags": [
     "UNC-4.P.1",
     "4.C",

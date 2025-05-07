@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A $p$-value is always calculated based upon the assumption that the null hypothesis is true and using the sampling distribution that relates to the null hypothesis.\n\nThe $p$-value gives us the probability of obtaining a sample mean at least as far away from the null hypothesis as we did when the null hypothesis is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The $p$-value does not represent the probability that the sample statistic equals the population parameter.\n\nChoice 'B' is incorrect. The $p$-value does not identify a level of confidence in our results.\n\nChoice 'C' is a correct statement! However, it is not a way to interpret the $p$-value. Rather, it identifies the type of decision we might make about the null hypothesis and statistical significance based upon the $p$-value.\n\nChoice 'D' is incorrect. The $p$-value represents the probability of making a Type $I$ error, not a Type $II$ error.",
   "tags": [
     "4.B",
     "UNC-4.T",

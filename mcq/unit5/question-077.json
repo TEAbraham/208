@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nSince the test scores represent a normally distributed, continuous random variable, we can use it to find the score that would be in the top $10\\%$ of IQ scores. We solve this problem using the formula:\n\n$$z=\\dfrac{\\bar{x}-\\mu}{\\sigma}$$\n\n...where $z$ represents the $z$-score, $\\bar{x}$ represents the statistic or unknown in the problem, $\\mu$ represents the mean of the population, and $\\sigma$ represents the standard deviation of the population.\n\nWe need to find the appropriate z-score by first using Table A. Since we want to find the cutoff for the top 10% of scores, we need to look for 0.9000 in the body of the table. The closest we can come is 0.8997 which gives us a z-score of 1.28.\n\nWe plug in the given value of 1.28 for z, the given population mean of 100 for μ, and the given population standard deviation of 15 for σ to obtain this equation:\n\n1.28=\nˉ\nx\n−100\n15\n\nSolving this equation we find that\nˉ\nx\n=119.2 which was rounded up to 120 in the answers.\n\nso, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because this answer would occur if the two numbers in the numerator were reversed.\n\nChoice 'B' is incorrect because this is simply the mean being repeated.\n\nChoice 'C' is incorrect because it is one standard deviation above the mean which would put it at about the top 16%\n.\n\nChoice 'E' is incorrect because it is two standard deviations above the mean. While this score is in the top 10%\n, the question asks for the minimum score so that this value is too high (nearly in the top 2%\n)..",
   "tags": [
     "VAR-6.B.2",
     "VAR-6.B",

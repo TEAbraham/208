@@ -8,34 +8,33 @@
   ],
   "title": "Misuse of $r$",
   "difficulty": "Medium",
-  "question_text": "Which of the following statements uses r, the correlation coefficient, correctly?",
+  "question_text": "Which of the following statements uses $r$, the correlation coefficient, correctly?",
   "image_files": [],
   "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The correlation between price of pizza and number of toppings is r=0.98\ndollars per topping."
+      "text": "The correlation between price of pizza and number of toppings is $r = 0.98$ dollars per topping."
     },
     {
       "letter": "B",
-      "text": "There is a moderate correlation (r=0.56\n) between hours studying for a test and percent correct on the test."
+      "text": "There is a moderate correlation ($r = 0.56$) between hours studying for a test and percent correct on the test."
     },
     {
       "letter": "C",
-      "text": "There is a strong correlation (\nr\n=\n0.82\n) between race and musical preference."
+      "text": "There is a strong correlation ($r = 0.82$) between race and musical preference."
     },
     {
       "letter": "D",
-      "text": "The correlation between age and shoe size is\nr\n=\n1.34\n."
+      "text": "The correlation between age and shoe size is $r = 1.34$."
     },
     {
       "letter": "E",
-      "text": "If the correlation between a person’s AP Stats grade and AP English grade is 0\n.68\n; the correlation becomes\n−\n0.68\nwhen explanatory and response variables are switched."
+      "text": "If the correlation between a person’s AP Stats grade and AP English grade is 0.68; the correlation becomes −0.68 when explanatory and response variables are switched."
     }
   ],
   "correct_answer": "Choice 'A' is incorrect; correlation cannot have units.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'B' is correct. Hours studying and grades on a test are both quantitative variables that could have a possible correlation.\n\nChoice 'C' is incorrect; correlation is calculated only from quantitative variables; while there may be some association between race and music, correlation cannot be calculated.\n\nChoice 'D' is incorrect; r must be between −1\nand 1\n.\n\nChoice 'E' is incorrect; when explanatory and response variables are switched, the correlation remains the same.",
   "tags": [
     "4.B",
     "DAT-1.C",

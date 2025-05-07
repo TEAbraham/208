@@ -22,11 +22,11 @@
     },
     {
       "letter": "C",
-      "text": "0.58,\n√\n100(0.58)(0.42)"
+      "text": "$0.58,\\quad \\sqrt { 100(0.58)(0.42) } $"
     },
     {
       "letter": "D",
-      "text": "0.58,\n√\n(0.55)(0.45)\n100"
+      "text": "$0.58,\\quad \\sqrt { \\dfrac { (0.55)(0.45) }{ 100 } } $"
     },
     {
       "letter": "E",
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Sampling distribution refers to the distribution of values taken by a statistic in all possible samples of the same size from the same population.\n\nFirst lets find the mean of the sampling distribution for sample proportion(μ\nˆ\np\n).\n\nμ\nˆ\np\n=p\n\n...where p\nrepresents the population proportion which in this case is 0.58\n(percentage of all adult in Pleasantville who own a Facebook account).\n\nChoices 'A' and 'B' can be eliminated.\n\nThe standard deviation for the sampling distribution of the sample proportions(σ\nˆ\np\n) is given by:\n\nσ\nˆ\np\n=\n√\n(p)(1−p)\nn\n\nIn this case:\n\nσ\nˆ\np\n=\n√\n(0.58)(1−0.58)\n100\n\nChoice 'E' is our answer.\n\nExplanations of Distractors Choice 'A' and 'B' were already discussed. Choice 'C' is incorrect as the standard deviation component is wrong. The value of\n100\nshould had been divided inside the square root instead of multiplied. Choice 'D' is incorrect as\n0.58\nand\n0.42\nshould had been used instead of\n0.55\nand\n0.45\nin the standard deviation.\n\nNote that the formulas for the mean and standard deviation of the sampling distribution of sample proportions are provided on the AP Exam.",
   "tags": [
     "UNC-3.K.1",
     "UNC-3",

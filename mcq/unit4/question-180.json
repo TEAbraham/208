@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The four requirements for the binomial setting are:\n\nThe number of observations is set at $10$. On each observation, the respondent will either answer “baseball” or some other sport. Therefore, we can consider there to be only two possible outcomes on each observation. Since the individuals surveyed were selected at random, it is reasonable to assume that each outcome is independent.\n\nAlso, since there is an overall (unknown) percentage of people who would answer “baseball”, we can assume that the probability of answering “baseball” is the same for each of the $10$ respondents.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. While Melissa has $3$ chances to guess the correct number, she may or may not need all $3$ chances. Perhaps she will guess correctly on the first guess. Therefore, the number of observations is not fixed. Also, if she guesses a number and finds out that she was wrong, she will not guess the same number again. Therefore, her chance of guessing successfully changes with each guess.\n\nChoice 'B' is incorrect. While Myra wants to end up with $3$ peaches that she is satisfied with, we do not know how many peaches she will have to inspect in order to achieve this. The number of observations is not fixed.\n\nChoice 'C' is incorrect. Since Tanya is asking her neighbors to rate their satisfaction on a scale of $1$ to $10$, there are more than $2$ possible outcomes on each observation.\n\nChoice 'D' is incorrect. While the company may send surveys to $250$ people, we are not sure how many of the $250$ people will respond. It is very unlikely that all $250$ will respond. Therefore, the number of observations is not set.",
   "tags": [
     "UNC-3.B",
     "3.A",

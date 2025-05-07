@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Statements I and II are correct. Residuals represent the difference between the observed response variable and the predicted response variable that is predicted off the least squares regression line. Two properties of residuals that one needs to memorize is that the sum of residuals is equal to zero, and the average of the residuals is also zero.\n\nStatement III is incorrect; residuals represent the difference between the observed response variable and predicted response variable. On a scatterplot, the response variable is represented on the y (or vertical) axis. Therefore, residuals represent the vertical distance between observed and predicted, not horizontal.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "DAT-1.E.1",
     "DAT-1.E",

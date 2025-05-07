@@ -30,8 +30,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "For a two-way table, degrees of freedom will be:\n\n$$(r-1) \\times (c-1)$$\n\n...where $r$ is the number of rows and $c$ is the number of columns.\n\nSince this is a $3 \\times 2$ table, the appropriate degrees of freedom will be:\n\n$$(3-1) \\times (2-1) = 2$$\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "VAR-8.H",
     "3.A",

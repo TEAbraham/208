@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When using notation to describe the characteristics of a normal distribution, the $N$ identifies the distribution as being normal. It is followed by two numbers set inside parentheses.\n\nThe first of the two numbers identifies the mean of the distribution while the second of the two numbers identifies the standard deviation of the distribution.\n\nDistribution $A$ is identified as $N(28, 1.2)$.\n\nTherefore distribution $A$ is normal, with a mean of $28$ and a standard deviation of $1.2$.\n\nDistribution $B$ is identified as $N(25, 1.8)$.\n\nTherefore, distribution $B$ is normal with a mean of $25$ and standard deviation of $1.8$.\n\nFrom this, we can see that Distribution $A$ has a larger mean and smaller standard deviation. Choice 'B' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Notation for a normal distribution does not identify a population size. Also, the standard deviation was incorrectly viewed as being the mean.\n\nChoice 'C' is incorrect. If you made this mistake, you probably were thinking that the first number identified was the standard deviation and the second number was the mean. You had it reversed.\n\nChoice 'D' is incorrect. Since the variance is the square of the standard deviation and since Distribution $A$ had a smaller standard deviation than Distribution $B$, Distribution $A$ will also have a lower variance than Distribution $B$.\n\nChoice 'E' is incorrect. Distribution $A$ has a higher mean.",
   "tags": [
     "2.D",
     "VAR-2",

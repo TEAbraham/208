@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nFirst, the alternative hypothesis needs to state that Granny Green believes her peas would have greater than $6$ peas in a pod. Because she is using a one-sample t-test for a mean, she would need to use the population parameter, $\\mu$, in her hypothesis; it would be written as $H_{a}: \\mu>6$.\n\nTo verify conditions two general topics must be addressed: checking for independence and checking for an approximation of normality for the sampling distribution of $\\bar{x}$.\n\nTo check for independence Granny G. must sample randomly, which it says she did, and she must choose a sample which is at least $10$ times greater in size than her sample. Since her sample is $40$, and since she has thousands of pea plants, then this condition is met.\n\nTo check for an approximation of normality for the sampling distribution of $\\bar{x}$, Granny Green simply must have a sample size greater than $30$, which she does. So, this condition is also met.\n\nSo, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because, though $H_{a}$ is correct, Granny G. did meet the conditions for independence.\n\nChoice 'B' is incorrect because, though the statement about conditions is correct, $H_{a}$ is not because it uses a $p$ instead of a $\\mu$.\n\nChoice 'C' is incorrect because, though $H_{a}$ is correct, Granny G. did meet the conditions for showing that the sampling distribution was approximately normal.\n\nChoice 'E' is incorrect because, though the statement about conditions is correct, $H_{a}$ is not because it uses an $ \\bar{x}$ instead of a $\\mu$.",
   "tags": [
     "4.C",
     "VAR-7.D",

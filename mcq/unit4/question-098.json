@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice ‘C’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "First, let us find the probability of $B$. Since events $A$ and $B$ are independent then we can use the formula:\n\nP(A and B)=P(A)⋅P(B)\n\n0.04=0.40⋅P(B)\n\n0.10=P(B)\n\nThe following formula can be used to find the P(A or B):\n\nP(A or B)=P(A)+P(B)–P(A and B)\n\nP(A or B)=0.40+0.10−0.04=0.46\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect. This is the solution for the P(A or B)–P(A)\n.\n\nChoice ‘B’ is incorrect. This is determined by incorrectly thinking B\nis the complement of A\n.\n\nP(B)=1−P(A)\n\nP(B)=1−0.40=0.60\n\nChoice ‘D’ is incorrect. This probability was computed by assuming the probability of the two events are disjoint, meaning P(A and B)=0\n.\n\nP(A or B)=0.40+0.10=0.50\n\nChoice ‘E’ is incorrect. The is the complement of P(A or B)\n.",
   "tags": [
     "VAR-4.E.1",
     "VAR-4.E",

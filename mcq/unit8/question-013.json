@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is correct; chi-squared goodness of fit tests are performed when testing multiple proportions of the same variable. The variable of interest here is the proportion of snakes in each of the four areas, so four proportions are present.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'B' is incorrect; a two-sample T-test is most appropriate here.\n\nChoice 'C' is incorrect; a linear regression T-test is most appropriate here.\n\nChoice 'D' is incorrect; a one-proportion Z-test is most appropriate here.\n\nChoice 'E' is incorrect; a chi-squared test for association is most appropriate here.",
   "tags": [
     "VAR-8.E.1",
     "4.C",

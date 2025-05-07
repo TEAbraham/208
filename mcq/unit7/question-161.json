@@ -7,7 +7,7 @@
   ],
   "title": "Vaccine Ages",
   "difficulty": "Medium",
-  "question_text": "A state agency was looking at the average age of people receiving a certain vaccine. It wanted to see if this age was significantly different between City A and City B. City A had an average age of $54.$3 years and City B had an average age of $52.9$ years.\nIf the agency was to run a $2$-Sample $t$-Test for the difference of these means, how should the hypotheses be written?",
+  "question_text": "A state agency was looking at the average age of people receiving a certain vaccine. It wanted to see if this age was significantly different between City A and City B. City A had an average age of $54.$3 years and City B had an average age of $52.9$ years.\nIf the agency was to run a $2$-Sample $t$-Test for the difference of these means, how should the hypotheses be written?<br>If the agency was to run a $2$-Sample $t$-Test for the difference of these means, how should the hypotheses be written?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWhen using a $2$-Sample $t$-Test for the difference of means, the null hypothesis is always written with an equals sign and can be written either of two ways:\n\n$H_{o}: \\mu_{1}-\\mu_{2}=0$ or $H_{o}: \\mu_{1}=\\mu_{2}$\n\nFor this problem, $A$ and $B$ were inserted as subscripts to denote the two city names.\n\nThe alternative hypothesis can include three different signs: $\\neq, <$, and $>$. Which sign is chosen depends upon the writing in the question. To use the $<$ or $>$ signs it must be clearly stated that the test is trying to show that one mean is greater than or less than the other. In this problem the word different was used, so that a $\\neq$ sign should be used. The answer can be written in either of two ways:\n\n$H_{o}: \\mu_{1}-\\mu_{2}\\neq0$ or $H_{o}: \\mu_{1}\\neq\\mu_{2}$\n\nSo, Choice 'D' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because a number was used in the hypotheses instead of zero. The $1.4$ came from subtracting the two sample means, but this should not be used in the hypotheses.\n\nChoice 'B' is incorrect because it both uses the number 1.4 instead of 0 and it uses a less than sign in the alternative hypothesis.\n\nChoice 'C' is incorrect because it uses inequality signs in both of the hypotheses. It should never be used in Ho and is used incorrectly in Ha.\n\nChoice 'E' is incorrect because the signs are switched between the two hypotheses.",
   "tags": [
     "1.F",
     "VAR-7.G.1",

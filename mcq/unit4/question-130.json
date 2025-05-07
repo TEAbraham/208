@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Variances of random variables can be added - but only when the random variables are independent. It is easy to forget this condition, but it is critical!\n\nExplanation of Distractors\n\nChoice 'B' is incorrect because the variance of A+B is NOT always the sum of the variance of A and the variance of B. This statement is only correct if the variables are known to be independent.\n\nChoices 'A' and 'C' are incorrect because we can never find the standard deviation of the sum of two random variables by adding the individual standard deviations. It makes no difference whether or not the variables are independent.\n\nChoice 'E' is incorrect. If A and B are independent, then the standard deviation of A+B is the square root of the sum of the variance of A and the variance of B,",
   "tags": [
     "VAR-5.E",
     "VAR-5.E.3",

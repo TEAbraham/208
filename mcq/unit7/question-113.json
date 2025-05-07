@@ -26,8 +26,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This correctly shows how to interpret a two-sample $T$-interval, estimating the difference.\n\nExplanation of Distractors\n\nChoices 'A' and 'B' are incorrect; a two-sample $T$-interval attempts to measure the difference between the two means, not a single mean.\n\nChoice 'C' is incorrect. Since this entire interval is above zero, there is evidence the manager’s hotel has more guests than the competitor’s, but one cannot say this is significant at the $5\\%$ level because intervals are two-sided by nature, and the statement in (C) is one-sided.",
   "tags": [
     "UNC-4.AA.1",
     "UNC-4.AA",

@@ -8,7 +8,7 @@
   ],
   "title": "Accuracy in Predicting the Height of a Sunflower?",
   "difficulty": "Easy",
-  "question_text": "Melanie planted a sunflower seed and decided to track its growth. Letting $x$ represent the number of days since the seed was planted and letting $y$ represent the plant's height in inches, she carefully gathered data each day beginning on day $7$ when the seed sprouted and continued for $30\\text{ days}$ after that. She then developed the following LSRL:<br>$$\\hat { y } =-6.78+1.43x$$<br>The correlation for the relationship was $r=0.972$.<br>Melanie wonders how tall her sunflower will be $6\\text{ months}$ after the seed was planted and decides to use the LSRL to make a prediction.\nWhich of the following statements would best describe the accuracy of her prediction?",
+  "question_text": "Melanie planted a sunflower seed and decided to track its growth. Letting $x$ represent the number of days since the seed was planted and letting $y$ represent the plant's height in inches, she carefully gathered data each day beginning on day $7$ when the seed sprouted and continued for $30\\text{ days}$ after that. She then developed the following LSRL:<br>$$\\hat { y } =-6.78+1.43x$$<br>The correlation for the relationship was $r=0.972$.<br>Melanie wonders how tall her sunflower will be $6\\text{ months}$ after the seed was planted and decides to use the LSRL to make a prediction.\nWhich of the following statements would best describe the accuracy of her prediction?<br>Which of the following statements would best describe the accuracy of her prediction?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "It would be impossible to use the LSRL for making a prediction about the height of the sunflower in 6 months. since the LSRL was created using data that related height to number of days (not months) since the seed sprouted."
+      "text": "It would be impossible to use the LSRL for making a prediction about the height of the sunflower in $6\\text{ months}$. since the LSRL was created using data that related height to number of days (not months) since the seed sprouted."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Extrapolation occurs when we try to use a LSRL to make predictions for values that are far away from the data used to create the LSRL.\n\nPredictions made in this manner are likely to be inaccurate because the patterns of growth that were present during the first month after the seed sprouted may not be the same as patterns of growth 6 months later. As humans, it is reasonable to assume that a sunflower will grow for a period and eventually will reach its maximum height.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. It is true that a correlation value near 1 represents a very strong relationship. Therefore, the LSRL may be extremely accurate for predicting the sunflower's height during the first 30 days after the seed sprouted and perhaps for slightly after the first 30 days. However, we would not expect accuracy in making a prediction about the height in 6 months.\n\nChoice 'B' is incorrect. The value of r2\ndoes not provide a level of accuracy that can be expected by making predictions from the LSRL. Rather, an r2\nvalue of 0.945\nindicates that about 94.5%\nof the variability in the height of the sunflower can be explained by the relationship described by the LSRL.\n\nChoice 'C' is incorrect. A correlation of 1\nindicates a perfect linear relationship between two quantitative variables and represents the strongest possible type of positive, linear relationship. Even though the correlation in this relationship is not exactly 1\n, the relationship is still a very strong one. The strength of the relationship, however, cannot overcome problems presented by the use of extrapolation.\n\nChoice 'E' is incorrect. We certainly could use the LSRL to make a prediction by converting 6 months\nto the corresponding number of days. However, the prediction is still likely to be inaccurate.",
   "tags": [
     "DAT-1.G.1",
     "DAT-1.G.2",

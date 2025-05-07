@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "When we believe that the design of the label has no effect on the people who chose label $A$, that means the people are choosing label $A$ by chance. Therefore, since there are only two options of labels to choose from, the probability of selecting label $A$ purely by chance is $\\frac{1}{2}$.\n\nThe probability of selecting label $A$ purely by chance (if the labels do not have any effect on the person's choice) is $0.5$.\n\nChoice 'C' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nWhen we believe that the design of the label has no effect on the people who chose label $A$, that means the people are choosing label $A$ by chance. Therefore, since there are only two options of labels to choose from, the probability of selecting label $A$ purely by chance is $\\frac{1}{2}$.\n\nThe probability of selecting label $A$ purely by chance (if the labels do not have any effect on the person's choice) is $0.5$.\n\nChoice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Simply because the labels had no effect on the outcome of the choice by the random group does not imply that the probability $= 0$. This implies that there is a $\\frac{1}{2}$ or $0.5$ probability of selecting Label $A$.\n\nChoice 'B' is incorrect. This would be the proportion of random people in the focus group that selected Label $B$, not the probability of selecting Label $A$ if the labels did not have an effect on the person's choice.\n\nChoice 'D' is incorrect. This would be the proportion of random people in the focus group that selected Label $A$, not the probability of selecting Label $A$ if the labels did not have an effect on the person's choice.\n\nChoice 'E' is incorrect. Since a probability of $1$ implies that the outcome always occurs, this does not apply in this scenario.",
   "tags": [
     "VAR-1.H",
     "VAR-1.H.1",

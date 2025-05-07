@@ -27,7 +27,7 @@
     },
     {
       "letter": "D",
-      "text": "A double blind experiment using completely randomized design. The researcher would randomly assign 15 individuals to receive the new medication and 15 individuals to receive the current treatment."
+      "text": "A double blind experiment using completely randomized design. The researcher would randomly assign $15$ individuals to receive the new medication and $15$ individuals to receive the current treatment."
     },
     {
       "letter": "E",
@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In order to be able to compare the effects of the new medication with the current treatment, we must establish two groups. One group will be the treatment group and will be given the new medication while the other group will be the control group and will receive the current treatment.\n\nBy completely randomizing which patients get which treatment, we hope to create treatment groups that are similar in composition to each other so that we might attribute any differences in our results to the treatment itself and not to any special characteristics within the individual groups.\n\nA double-blind experiment would provide further control in this experiment. In a double-blind experiment, neither the individuals who are receiving treatment, nor those who have contact with these individuals knows which treatment is being administered to which individual.\n\nIf an individual knew which treatment they were receiving, it could alter their perception about the effects of the treatment. For instance, if a patient knew they were being given the new medication, they might have an expectation that their symptoms would be alleviated which might make them report a decrease in symptoms regardless of the medication's true effect.\n\nIf an individual who was in contact with someone receiving treatment (perhaps the doctor) knew which treatment was being given, they might unintentionally communicate this information in some way. Either individual having knowledge of which treatment is received could potentially distort the results of the study.\n\nChoice 'D' describes the best way in which to conduct the study.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. If individuals receive both treatments, it will be impossible to compare the results of the treatments or to determine which treatment was causing an observed effect.\n\nChoice 'B' is incorrect. A double-blind experiment is preferable to a single-blind experiment in which only the person receiving treatment would be unaware of which treatment was received.\n\nChoice 'C' is incorrect. The use of a placebo, or fake medication, would not be appropriate in this situation and could even be considered unethical. Since there is a current treatment that can help to alleviate symptoms for those who suffer from this disease, it would not be right to withhold all treatment.\n\nAlso, since our goal is to see if the new medication will help those with the disease to live longer lives, a third group is unnecessary.\n\nChoice 'E' is incorrect. While block design is often used when researchers suspect that different groups within the population will react differently to the treatment, the method of blocking described here seems inappropriate.\n\nThe disease is known to be fatal for all individuals who have the disease so there might not be an expectation that some individuals would react better to the new medication than others. Furthermore, using this type of block design would not allow researchers to generalize the results of the study to all sufferers of the disease.",
   "tags": [
     "VAR-3.D",
     "VAR-3",

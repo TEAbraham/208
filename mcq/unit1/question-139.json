@@ -9,7 +9,7 @@
   ],
   "title": "Apartments for Rent: A Histogram",
   "difficulty": "Medium",
-  "question_text": "Jack is an apartment broker who helps connect landlords with tenants who want to rent an apartment. Currently, there are $35$ one-bedroom apartments available for rent in town. The histogram below shows the distribution of rents on these apartments.<br><br><br><br><br>Jill is looking for an apartment in town, but can only afford to spend a maximum of $\\$1000$ for rent each month.\nAbout what percent of the apartments currently available would Jill definitely be able to afford?",
+  "question_text": "Jack is an apartment broker who helps connect landlords with tenants who want to rent an apartment. Currently, there are $35$ one-bedroom apartments available for rent in town. The histogram below shows the distribution of rents on these apartments.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>Jill is looking for an apartment in town, but can only afford to spend a maximum of $\\$1000$ for rent each month.\nAbout what percent of the apartments currently available would Jill definitely be able to afford?<br>About what percent of the apartments currently available would Jill definitely be able to afford?",
   "image_files": [
     "images/question-139-img1.PNG"
   ],
@@ -17,11 +17,11 @@
   "choices": [
     {
       "letter": "A",
-      "text": "13%"
+      "text": "13\n%"
     },
     {
       "letter": "B",
-      "text": "21%"
+      "text": "21\n%"
     },
     {
       "letter": "C",
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In a histogram, observations associated with a value labeled on the horizontal axis are included in the bar to the right of that label. Here, apartments with a rent of\n$\n1000\nare included in the purple bar of the given histogram.\n\nHowever, this bar includes all apartments with rents of\n$\n1000\nbut less than\n$\n1100\nper month. In other words, it may include some apartments that Jill can afford, but may also include some apartments that Jill cannot afford. We simply don't know how many (if any) of the\n8\nobservations included in the purple bar are for apartments that Jill can afford.\n\nTherefore, we should not include these observations when calculating the percent of apartments that Jill can definitely afford.\n\nTo find the number of apartments that Jill can definitely afford, find the frequencies for each bar to the left of\n1000\non the horizontal axis by matching up the height of the bar with the frequency shown on the vertical axis. Then, add these values together.\n\n2\n+\n5\n+\n6\n=\n13\n\nThere are\n13\napartments that Jill can afford and\n35\napartments available. We need to find what percent of\n35\nis\n13\n. Calculate this percentage as follows:\n\n13\n35\n=\n0.3714\n\n0.3714\n×\n100\n≈\n37\n%\n\nChoice 'C' is the correct choice.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as it provides the number of apartments that Jill can definitely afford. It does not provide the percent.\n\nChoice 'B' is incorrect. This is the number of apartments with a rent under\n$\n1100\n.\n\nChoice 'D' is incorrect. This value assumes that half of the apartments represented in the purple bar of the histogram are apartments that Jill can afford. We do not know this to be true.\n\nChoice 'E' is incorrect because it provides the percent of apartments with rents of less than\n$\n1100\nper month.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.1",

@@ -14,19 +14,19 @@
   "choices": [
     {
       "letter": "A",
-      "text": "People who do not respond may have different opinions on supporting the music festival than those who do respond. The city council should survey an additional $226\\text{ subjects}$ to get the survey size back to $500$."
+      "text": "People who do not respond may have different opinions on supporting the music festival than those who do respond. The city council should survey an additional 226 subjects\nto get the survey size back to 500\n."
     },
     {
       "letter": "B",
-      "text": "People who did not respond may have different opinions on supporting the music festival than those who did respond. The city council should use some other method to attempt to contact those $226\\text{ subjects}$ who did not respond."
+      "text": "People who did not respond may have different opinions on supporting the music festival than those who did respond. The city council should use some other method to attempt to contact those 226 subjects\nwho did not respond."
     },
     {
       "letter": "C",
-      "text": "There will be a larger margin of error in this sample since 226 people did not respond. The city council should send additional surveys out until n=500."
+      "text": "There will be a larger margin of error in this sample since 226 people\ndid not respond. The city council should send additional surveys out until n=500\n."
     },
     {
       "letter": "D",
-      "text": "The subjects who responded are more likely to have lied about their true feelings regarding the festival. The city council should contact these 274 subjects a second time and ask them how they feel about hosting the event."
+      "text": "The subjects who responded are more likely to have lied about their true feelings regarding the festival. The city council should contact these 274 subjects\na second time and ask them how they feel about hosting the event."
     },
     {
       "letter": "E",
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The biggest issue with non-response in any situation is that those who choose not to respond may have different opinions than those who do choose to respond. One cannot say those who responded might be for the concert, but it is likely that there is a difference in proportions of support.\n\nThe city council should use some alternative method of contacting those who did not respond, such as calling or visiting.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "VAR-3.E.1",
     "VAR-3.E",

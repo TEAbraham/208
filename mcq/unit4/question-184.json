@@ -21,11 +21,11 @@
     },
     {
       "letter": "B",
-      "text": "$4$"
+      "text": "4"
     },
     {
       "letter": "C",
-      "text": "$12$"
+      "text": "12"
     },
     {
       "letter": "D",
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Even though a value of 2\nwas rolled 17 times\nbefore, each roll is independent, which means that each roll carries the same probable outcome of a 2\nas every roll before it and every roll after.\n\nThe expected value can be calculated:\n\nExpected=np\n\n=72⋅(\n1\n6\n)\n\n=12\n\n...which is consistent with Choice 'C'.",
   "tags": [
     "4.B",
     "UNC-3.D",

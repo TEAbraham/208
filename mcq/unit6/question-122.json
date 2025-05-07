@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The two sample sizes ${ n }_{ 1 }$ and ${ n }_{ 2 }$ for the men and women are too small.\n\nTo show this, first calculate the combined proportion of those who have a vegetable garden:\n\n$$p^* = \\dfrac{(3+5)}{(20+20)} = \\dfrac{8}{40} = 0.2$$\n\nThe requirement is that $(n) (p^*) ≥ 5$ and that $(n) (1-p^*) ≥ 5$ for each of the two samples. For men, $(n) (p^*) = (20)(0.15) = 3$, which is a clear violation of the requirement.\n\nThe requirement is met for the female sample. The way to avoid this violation is to increase the sample sizes for both males and females.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; the problem clearly states random selection of those from the community.\n\nChoice 'B' is incorrect; for this condition to be violated, each population must be less than $10$ times each sample size. One can assume each population is at least $200$ each.\n\nChoice 'C'is incorrect; proportions follow the z distribution, so this would not be considered a violation.",
   "tags": [
     "4.C",
     "VAR-6.J",

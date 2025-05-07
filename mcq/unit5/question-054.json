@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The central limit theorem (CLT) tells us that the mean of sample means is the population mean, so the new mean is the same as the original $\\mu$ of $4.5$.\n\nThe CLT also states that the standard deviation of the sampling distribution of means is obtained by dividing the population standard deviation by the square root of the sample size:\n\n$$\\text{Standard deviation}=\\dfrac{\\text{Population Standard Deviation}}{\\sqrt{\\text{sample size}}}$$\n\nThus, the new standard deviation is $\\dfrac{\\sigma}{\\sqrt{ 4}} = \\dfrac{\\sigma}{2} = \\dfrac{2.87}{2} = 1.44$.\n\nThe shape of the new distribution will be a histogram that is unimodal and symmetric since the sample means will tend to cluster near the mean $\\mu$.\n\nWhile the new shape is approximately normal, it is technically still a histogram. If the population size were larger, and more samples of size n were taken, the resulting histogram would be essentially a smooth normal curve.\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "UNC-3.Q.1",
     "UNC-3",

@@ -9,7 +9,7 @@
   ],
   "title": "Least to Greatest Correlation",
   "difficulty": "Easy",
-  "question_text": "Order the correlation coefficient value from least to greatest from the given scatterplots.<br><br><br><br>",
+  "question_text": "Order the correlation coefficient value from least to greatest from the given scatterplots.<br><br>Created for Albert.io. Copyright 2016. All rights reserved.",
   "image_files": [
     "images/question-052-img1.png"
   ],
@@ -25,7 +25,7 @@
     },
     {
       "letter": "C",
-      "text": "B<C<D<A"
+      "text": "B\n<\nC\n<\nD\n<\nA"
     },
     {
       "letter": "D",
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Notice that the question says \"least to greatest,\" not \"weakest to strongest.\" The first graph shows a strong negative linear association (it fits a tight linear pattern).\n\nTherefore, scatterplot\nB\nis the smallest number since it has the strongest negative correlation. This eliminates Choices 'B', 'C', 'E'.\n\nThe next lowest correlation will be the other negative linear association (scatterplot\nD\n). This, leaves Choice 'A' as the correct answer.",
   "tags": [
     "4.B",
     "DAT-1.C",

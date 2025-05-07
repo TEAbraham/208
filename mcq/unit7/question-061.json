@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since this is a mean with an unknown standard deviation, we are dealing with a one-sample $t$-interval. To find the critical value ($t^*$) for a one-sample $t$-interval, you need to find where the confidence level and degrees of freedom (D.O.F) intersect on the $t$-chart.\n\nIn this case, we find where the $95\\%$ confidence level and the D.O.F. of $24$ intersect. The $24$ D.O.F. comes from $n-1$, where $n$ is the sample size, so in this case $25-1$. We find that they intersect at $2.064$.\n\nAlternative Method\n\nAn alternative approach to doing this is using the TI-84. On the TI-84:\n\nPress 2nd Vars\nSelect invT\nEnter $0.975$ ($95\\%$ central area + $2.5\\%$ of the area on the left tail) and the D.O.F. of $24$\nPress Enter\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the critical value $1.711$ represents a $90$% confidence with $24$ degrees of freedom.\n\nA common wrong answer is Choice 'B', which represents a $z$-interval. This is not a $z$-interval, since the population standard deviation is unknown.\n\nChoice 'C' is incorrect because $2.056$ represents a $95$% confidence with $26$ degrees of freedom. In this case instead of subtracting one from the sample size to find the degrees of freedom, one was added to the sample size.\n\nAnother common wrong answer is Choice 'D', which comes from using your sample size of $25$ as the degrees of freedom.",
   "tags": [
     "VAR-7.E",
     "VAR-7.E.1",

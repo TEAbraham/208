@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is incorrect; in a least squares regression one hopes to keep R-squared high as possible to get a strong model.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'B' is correct; this is simply the definition of the least squares regression line and how it is formed.\n\nChoice 'C' is incorrect; the squares are formed by the vertical distance, not the horizontal distance.\n\nChoice 'D' is incorrect; while the residuals should be as small as possible, this is not exactly how the least squares regression line is formed.\n\nChoice 'E' is incorrect; minimizing the squares does pull the line toward outliers, but the main purpose of the least squares regression line is not to keep the line as close to outliers as possible.",
   "tags": [
     "4.B",
     "DAT-1.H",

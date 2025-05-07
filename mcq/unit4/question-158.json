@@ -22,20 +22,19 @@
     },
     {
       "letter": "C",
-      "text": "0.5327"
+      "text": "$0.5327$"
     },
     {
       "letter": "D",
-      "text": "0.0235"
+      "text": "$0.0235$"
     },
     {
       "letter": "E",
-      "text": "0.2389"
+      "text": "$0.2389$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To find the mean for the total process, we can add the means: 21+41=62 seconds.\n\nStandard deviations cannot be added, but variances can in order to then find the standard deviation:\n\nVariance of the entire process:\n\n32+182=333\n\nRemember that variance is calculated by squaring standard deviation.\n\nThe standard deviation of the entire process, therefore, is\n√\n333\n=18.25\n.\n\nThe next process is to standardize the value of 1 minute\nand 15 seconds\n(or a total of 75 seconds\n):\n\nz=\n(75−62)\n(18.25)\n=0.71\n\nUsing the standard normal table, we find that at a z\n-score of 0.71\nis at the 0.7611\npoint and we want to know the portion of the distribution above that point:\n\nP(z>0.71)=1−0.7611=0.2389\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "VAR-5.E",
     "VAR-5.E.2",

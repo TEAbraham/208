@@ -9,7 +9,7 @@
   ],
   "title": "What Relaxes You Most? Studying a Pie Chart",
   "difficulty": "Easy",
-  "question_text": "A random sample of $350$ adults was surveyed to determine what relaxes people the most during times of stress. Results of the survey are displayed in the pie chart below.<br><br><br><br><br>How many individuals responded with \"listening to music\"?",
+  "question_text": "A random sample of $350$ adults was surveyed to determine what relaxes people the most during times of stress. Results of the survey are displayed in the pie chart below.<br><br>How many individuals responded with \"listening to music\"?",
   "image_files": [
     "images/question-050-img1.PNG"
   ],
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "As shown in the key to the right of the pie chart, the response \"listening to music\" is displayed in red. The chart itself identifies the corresponding percent as\n28\n%\n. Since\n350\npeople were surveyed, we need to find\n28\n%\nof\n350\n.\n\n(\n0.28\n)\n(\n350\n)\n=\n98\n\nTherefore,\n98\nindividuals responded with \"listening to music\".\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The orange portion of the pie chart displays\n5\n%\n. This section corresponds with a response of \"other\" and is a percent, not an actual number.\n\nChoice 'B' is incorrect and represents the percent of those surveyed who said \"listening to music\". Since\n350\nindividuals were surveyed, this is not an actual number of individuals who responded \"listening to music\".\n\nChoice 'C' is incorrect and corresponds with the approximate number of individuals who responded \"exercise/sports\".\n\nChoice 'E' is incorrect. You will get\n100\nif you add all the values shown in the pie chart. The pie chart displays\n100\n%\nof the responses to the survey, but we are only interested in the number of individuals who responded \"listening to music\".",
   "tags": [
     "UNC-1.C.3",
     "2.A",

@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Use your calculator for a one-proportion confidence interval, with $X = 64$, $n = 100$, and a CI of $0.95$.\n\nYou get a CI $(95)$ of $(0.54592, 0.73408)$.\n\nSince the point estimate for p is $0.64$, it is in the middle of the interval. Subtract $0.64$ from $0.7348$ to get the margin of error, which is $0.09408$. That rounds to $0.094$.\n\nAn alternate way is to use the formula for a confidence interval for a population proportion:\n\n$$p \\pm z \\sqrt{\\dfrac{p(1-p)}{n}}$$\n\nSubstituting $0.64$ for $p$, $100$ for $n$, and $1.96$ for $z$ yields $0.64\\pm(1.96)(0.048)$.\n\nThus, the confidence interval becomes $0.64\\pm0.09408$, which again rounds to $0.64\\pm0.094$.\n\nTherefore, the correct answer is Choice 'B'.",
   "tags": [
     "4.E",
     "DAT-3",

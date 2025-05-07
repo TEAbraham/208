@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Created for Albert.io. Copyright 2017. All rights reserved.\n\n\n\nAn IQR of $12$ means that $50\\%$ of the values in this normal curve will be at $µ ± 6$, which are $74$ and $86$. The curve above shows the middle $50\\%$ (IQR) shaded in, with $25\\%$ of the data on the left tail, and $25\\%$ of the data on the left tail.\n\nThe z-value corresponding to $74$ is $-0.675$, which is found by looking in the SNC table for the $z$-value associated with a left-tail probability of $0.25$ (or by using the Inv Norm command on a calculator).\n\nNow use the conversion formula:\n\n$$z =\\dfrac{ X-\\mu}{\\sigma}$$\n\nSubstitute as follows:\n\n$$-0.675 =\\dfrac{ (74-80)}{\\sigma }$$\n\n$$(-0.675)(\\sigma) = -6$$\n\nThen solve for $\\sigma$:\n\n$$\\dfrac{(-6)}{(-0.675)} ≈ 8.9$$\n\nChoice 'C', or $9$, is the closest choice.",
   "tags": [
     "VAR-2.B.2",
     "2.D",

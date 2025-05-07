@@ -9,7 +9,7 @@
   ],
   "title": "Prices of the Cheap Seats: A Boxplot",
   "difficulty": "Easy",
-  "question_text": "Erin is a sportswriter who is planning an article on \"Getting to a Game on a Budget\". She has researched how much it would cost to purchase the cheapest ticket at all $30\\text{ parks}$ where professional baseball is played. The data is displayed below.<br><br><br><br><br>From the following, what would be the most reasonable estimate for the mean price of the cheap seats?",
+  "question_text": "Erin is a sportswriter who is planning an article on \"Getting to a Game on a Budget\". She has researched how much it would cost to purchase the cheapest ticket at all $30\\text{ parks}$ where professional baseball is played. The data is displayed below.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>From the following, what would be the most reasonable estimate for the mean price of the cheap seats?",
   "image_files": [
     "images/question-109-img1.PNG"
   ],
@@ -17,15 +17,15 @@
   "choices": [
     {
       "letter": "A",
-      "text": "$9"
+      "text": "$\n9"
     },
     {
       "letter": "B",
-      "text": "$11"
+      "text": "$\n11"
     },
     {
       "letter": "C",
-      "text": "$12"
+      "text": "$\n12"
     },
     {
       "letter": "D",
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The figure provided is of a boxplot which visually displays a five-number summary.\n\nThe second vertical segment in the boxplot shows the location of the median ticket price. Since this vertical segment is above\n$\n12\non the horizontal axis, we know the median is\n$\n12\n.\n\nAbout half the values in the distribution are below the median and about half of the values are above the median. Since the values above the median are more spread out, the distribution of ticket prices is skewed right.\n\nIn a distribution that is skewed right, the mean will be larger than the median since the higher values will bring the mean up. Therefore, we would expect the mean to be more than the median of\n$\n12\n. We can eliminate Choices 'A', 'B', and 'C'.\n\nSince the maximum ticket price shown in the boxplot is\n$\n27\n, and only about\n25\n%\nof the ticket prices would be above the quartile\n3\nvalue of\n$\n18\n(found at the third vertical segment on the boxplot), a mean of\n$\n25\nwould not be reasonable. The higher values would not pull the mean up that much. Therefore, Choice 'E' is also eliminated, and the correct choice is Choice 'D'.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.2",

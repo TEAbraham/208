@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "First, find the expected counts. If they were evenly distributed, each flavor would occur $25\\%$ of the time since there are four distinct flavors.\n\nOne would expect $84\\cdot 0.25 = 21\\text{ candies}$ of each flavor in every bag.\n\nFind each component of the test statistic to see that lemon contributes the most.\n\nCherry: $\\dfrac{(23-21)^2}{21} = 0.19$\n\nStrawberry: $\\dfrac{(24-21)^2}{21} = 0.43 $\n\nOrange: $\\dfrac{(21-21)^2}{21} = 0$\n\nLemon: $\\dfrac{(16-21)^2}{21} = 1.19$\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "VAR-8.F",
     "3.E",

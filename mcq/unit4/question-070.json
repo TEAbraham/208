@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In order for Maria to win for the first time on her $4^\\text{th}$ play of the game, she must lose $3\\text{ games}$ in a row, and then win a game.\n\nWe are looking for $p(\\text{loss, loss, loss, win})$ or in the geometric setting we are looking for $p(x=4)$, where $x$ is the number of games needed to obtain the first win.\n\nWe can calculate this probability using the multiplication rule:\n\nFirst, if $p(\\text{win}) = 0.65$, we know $p(\\text{loss}) = 1 – 0.65 = 0.35$.\n\n$$p(\\text{loss, loss, loss, win}) = (0.35)(0.35)(0.35)(0.65) = 0.0279$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. It represents the probability of losing $4\\text{ games}$ in a row and then winning on the fifth game.\n\nChoice 'C' is incorrect. This is the probability that Maria will win exactly one game in four attempts and was calculated as a binomial probability.\n\nChoice 'D' is incorrect. It represents the probability that Maria will win $4\\text{ games}$ in a row.\n\nChoice 'E' is incorrect. We cannot assume that the probability of winning a single game is equal to the probability of winning for the first time on the fourth attempt at the game.",
   "tags": [
     "VAR-4.E.1",
     "VAR-4.E",

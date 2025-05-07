@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Statement I is false; to linearize data, one must take the log of the $y$-values only.\n\nStatement II is true; the correlation coefficient, $r$, is calculated from a linear standpoint, so $r$ will show a stronger correlation if the data is linearized.\n\nStatement III is false; even if the correlation is high, one can increase the correlation by transforming the data to a more appropriate model.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "DAT-1.D.2",
     "2.C",

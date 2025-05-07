@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To calculate this probability, several transformations must take place over three steps.\n\n1. Find the mean of annual revenue:\n\n$$ \\text{mean revenue per year} = 84.3 \\times 115.32 \\times 12 = \\$116{,}657.71$$\n\n2. Find the standard deviation of annual revenue. To calculate standard deviation, first find the standard deviation of revenue per month.\n\n$$\\text{standard deviation of revenue per month} = 12.6 \\times \\$115.32 = \\$1{,}453.03$$\n\nThe next step will be to find the standard deviation of annual revenue; standard deviations cannot be added, but variances can.\n\nThe variance annual income is $\\$1{,}453.03^2= \\$2{,}111{,}296.18$. Add this value up $12$ times (or multiply by $12$) to find the variance for the year is $\\$25{,}335{,}554.17$. The standard deviation is the square root of this value, which is $\\$5{,}033.44$.\n\n3. Find the Z-score of obtaining more than $\\$125{,}000$ in revenue, given the mean of annual revenue is $\\$116{,}657.71$ and standard deviation of annual revenue is $\\$5{,}033.44$.\n\n$$\\dfrac{(125{,}000-116{,}657.71)}{5033.44} = 1.66$$\n\n$$P(z > 1.66) = 1-0.9515 = 0.0485$$\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "VAR-5.E",
     "VAR-5.E.2",

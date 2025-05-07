@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nRemember: we're asked to find the answer choice that is not true.\n\nProbabilities are always numbers between 0 and 1. They are based on long-run data and can be determined using the law of large numbers.\n\nFor example, if a coin is tossed 10 times it would not be surprising to get 7 heads and 3tails. But if it were tossed 1000 times, a result of 700 heads and 300 tails would be shocking. We would expect both numbers to be closer to 500.\n\nOne way to estimate probabilities for a random event is to use simulation. Simulation estimates, it does not calculate, probabilities.\n\nSo, Choice 'B', which is not true, is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it is true. Probabilities cannot be negative or greater than 1\n.\n\nChoice 'C' is incorrect because it is true. The basis of the law of large numbers is to examine data in the long run.\n\nChoice 'D' is incorrect because it is true. Simulation is used to estimate probabilities.\n\nChoice 'E' is incorrect because it is true. It is one way of defining probability.",
   "tags": [
     "3.A",
     "UNC-2.A",

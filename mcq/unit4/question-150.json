@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When two independent distributions are combined (added), the means are added.\n\nThe snack pack’s mean weight is $6+16 = 22$ ounces. When two independent distributions are combined (added), the variances are added, and then the square root of the sum is taken to yield the new standard deviation.\n\nThus, the snack pack has a variance of $(0.5)^2+(2)^2= 4.25$.\n\nThe standard deviation is $\\sqrt{4.25} = 2.06$.\n\nThus, the correct answer is Choice 'B'",
   "tags": [
     "VAR-5.E",
     "VAR-5.E.2",

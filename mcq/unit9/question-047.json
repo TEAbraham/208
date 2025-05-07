@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A least-squares regression line is an equation of the form:\n\n$$\\hat { y } ={ b }_{ 0 }+{ b }_{ 1 }x $$\n\n...where ${ b }_{ 0 }$ is the $y$-intercept and ${ b }_{ 1 }$ is the slope.\n\nBoth of these values, however, were calculated based upon a set of observations in the form of $(x, y)$.\n\nTherefore, both ${ b }_{ 0 }$ and ${ b }_{ 1 }$ are statistics that came from a certain sample. They are estimates of what the true $y$-intercept and true slope would be for the true regression equation $y=\\alpha +\\beta x$.\n\nWe can conduct inference about the true $y$-intercept or the true slope. In AP Statistics, we tend to only concentrate on inference about the slope.\n\nExplanation of Distractors\n\nChoices 'A', 'B' and 'C' are incorrect. Although we spend a lot of time in AP Statistics talking about proportions and means, these parameters are not relevant to least-squares regression lines.\n\nAlso, values obtained from observing a sample are statistics, not parameters. A least-squares regression line is an equation of the form $\\hat { y } ={ b }_{ 0 }+{ b }_{ 1 }x $ where ${ b }_{ 0 }$ is the $y$-intercept and ${ b }_{ 1 }$ is the slope. Both of these values, however, were calculated based upon a set of observations in the form of $(x, y)$.\n\nTherefore, both ${ b }_{ 0 }$ and ${ b }_{ 1 }$ are statistics that came from a certain sample. They are estimates of what the true $y$-intercept and true slope would be for the true regression equation $y=\\alpha +\\beta x$.\n\nChoice 'E' is incorrect. While we would expect sampling variability to produce different statistics for different samples, we do not perform inference about the sample itself or about the variability between different observations within the sample.",
   "tags": [
     "VAR-7.M",
     "VAR-7",

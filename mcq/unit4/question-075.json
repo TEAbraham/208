@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The definition of independence is $P\\text{(A|B) = }P\\text{(A)}$. In this situation, let event $\\text{A}$ be Own, and event $\\text{B}$ be Younger.\n\nThus:\n\nP(Own|Younger)=\n29\n60\n=0.48\n\n...whereas:\n\nP(Own)=\n56\n100\n=0.56\n\nSince these two probabilities are different, we can say that age and home ownership are not independent.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; the two items being compared do not address the concept of independence.\n\nChoice 'B' is incorrect; raw numbers cannot be used for valid comparisons unless all sample sizes are equal.\n\nChoice 'C' is incorrect; this selection compares the wrong probabilities\n\nChoice 'E' is incorrect; this selection gives a purported explanation, not a statistical comparison.",
   "tags": [
     "VAR-4.E.1",
     "VAR-4.E",

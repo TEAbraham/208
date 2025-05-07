@@ -8,7 +8,7 @@
   ],
   "title": "Combining Standard Deviations: Spinner",
   "difficulty": "Medium",
-  "question_text": "Let $X$ represent the number where an arrow stops on a spinner that is numbered $1$ through $4$. The expected value of $X$ is $2.5$ and the standard deviation of $X$ is approximately $1.118$. The spinner will be spun twice, and the numbers the arrow stops on will be added.<br>Which of the following values is closest to the standard deviation of the resulting sum?",
+  "question_text": "Let $X$ represent the number where an arrow stops on a spinner that is numbered $1$ through $4$. The expected value of $X$ is $2.5$ and the standard deviation of $X$ is approximately $1.118$. The spinner will be spun twice, and the numbers the arrow stops on will be added.<br>Which of the following values is closest to the standard deviation of the resulting sum?<br>Which of the following values is closest to the standard deviation of the resulting sum?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Finding the standard deviation can be found by finding the variance (standard deviation squared) of the resulting sum first.\n\nThis can be done by squaring the standard deviation and adding the variance to itself:\n\n$${ \\text{Variance} }_{ X+X }={ \\sigma }_{ x+x }^{ 2 }={ \\sigma }_{ x }^{ 2 }+{ \\sigma }_{ x }^{ 2 }$$\n\n$${ (1.118) }^{ 2 }+{ (1.118) }^{ 2 }\\approx 2.500$$\n\nOnce the variance is found, take the square root of the variance to get the standard deviation:\n\n$$=\\sqrt { 2.500 }=1.581$$\n\nChoice 'C' is our answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as this the standard deviation of the spinner being spun once.\n\nChoice 'B' is incorrect as this is the square root when the standard deviation is added twice.\n\nChoice 'D' is incorrect as the standard deviation was added to itself.\n\nChoice 'E' is incorrect as this the answer for the variance.",
   "tags": [
     "VAR-5.E",
     "VAR-5.E.2",

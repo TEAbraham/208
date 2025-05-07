@@ -9,11 +9,8 @@
   ],
   "title": "Taking a SRS of Student Council Members",
   "difficulty": "Easy",
-  "question_text": "A state convention for student council members has been announced. Washington High School is allowed to send $5$ students and the advisor has decided to select a SRS of interested student council members in order to determine who will represent their school at the state convention.<br><br><br><br><br>Each of the $25$ students who expressed interest in attending the state convention was assigned a unique numerical code as shown above.<br>If the random digits provided are used to select the SRS, which of the following students will NOT be included in the SRS?",
-  "image_files": [
-    "images/question-037-img1.PNG",
-    "images/question-037-img2.PNG"
-  ],
+  "question_text": "A state convention for student council members has been announced. Washington High School is allowed to send $5$ students and the advisor has decided to select a SRS of interested student council members in order to determine who will represent their school at the state convention.<br><br>Each of the $25$ students who expressed interest in attending the state convention was assigned a unique numerical code as shown above.<br>If the random digits provided are used to select the SRS, which of the following students will NOT be included in the SRS?",
+  "image_files": [],
   "tables": [],
   "choices": [
     {
@@ -38,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The first step in gathering a SRS is to assign each individual in the population a unique numerical code. This has already been done. Next, move through the random digits provided, two digits at a time until you find 5 unique codes that correspond with individuals in the population.\n\nThese individuals become part of the SRS. Ignore two digit codes that do not correspond with individuals in the population.\n\nBelow, two digit codes are alternately highlighted and underlined.\n\nCreated for Albert.io. Copyright 2016. All rights reserved.\n\n\n\nThe first two digit code found that corresponds with one of the students is 04\n. Deanna becomes part of the SRS. Choice 'B' is incorrect.\n\nThe next code that corresponds with a student is 23\n, which makes William part of the SRS. Choice 'E' is incorrect.\n\nThe next code that corresponds with a student is 02\n, which makes Brad part of the SRS. Choice 'A' is incorrect.\n\nThe next code that corresponds with a student is 18\n, which makes Sam part of the SRS. Choice 'D' is incorrect.\n\nThe next code that corresponds with a student is 23\n. However, William was already selected to be part of the SRS.\n\nThe next code that corresponds with a student is 14\n, which makes Norleen part of the SRS.\n\nThe next code that corresponds with a student is 09\n, which makes Irma part of the SRS.\n\nThe next code that corresponds with a student is 15\n, which makes Olga part of the SRS.\n\nWe now have 7\nstudents selected to attend the State Student Council Convention. They are:\nDeanna, William, Brad, Sam, Norleen, Irma, and Olga.\n\nFrancisco was not one of the student selected; therefore, Choice 'C' is the correct choice.",
   "tags": [
     "DAT-2.C.2",
     "DAT-2",

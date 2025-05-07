@@ -23,20 +23,19 @@
     },
     {
       "letter": "C",
-      "text": "$0.026$"
+      "text": "0.026"
     },
     {
       "letter": "D",
-      "text": "Approximately $1$."
+      "text": "Approximately 1\n."
     },
     {
       "letter": "E",
-      "text": "$0.989$"
+      "text": "0.989"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "First, find:\n\nP( make all 10)=0.810⋅0.20⋅10C0=0.107\n\nTherefore:\n\nP(he doesn’t make all 10)=1–0.107=0.893\n\nThen find the probability he makes all the free throws at least during one game.\n\nP\n(\n makes all the free throws at least during one game\n)\n=\n1\n−\nP\n(\n never makes all free throws\n)\n\n=\n1\n−\n0.893\n32\n=\n0.973\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "UNC-3.B",
     "3.A",

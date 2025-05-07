@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nIn doing a $t$-test for slope in a regression model, a similar approach to hypotheses is used as with other tests of significance. Instead of using $p$ or $\\mu$, here we use $\\beta$, beta, which is the population value of the slope for the regression line.\n\nThe null hypothesis is what is assumed to be true. While it is possible to assume a given slope, it is more common to test for an association between the variables by assuming that there is none in the first place. Whether zero or another slope value is used, the null hypothesis always uses an equals sign.\n\nThe alternative hypothesis is what we want to prove to be true. Here we set $\\beta$ to be less than, greater than, or not equal to zero or some other value. The sign is chosen based on the wording in the question. If not clearly less than or greater than, or one-sided, then a two-sided test should be used with a not equal to sign used. In this problem, because it says that as the amount of caffeine increases that the amount of sleep decreases, then this is saying to show that the slope is negative.\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because an $=$ sign is used instead of a $<$ sign.\n\nChoice 'B' is incorrect because a $>$ sign is used instead of a $<$ sign.\n\nChoice 'D' is incorrect because a $\\neq$ sign is used instead of a $<$ sign.\n\nChoice 'E' is incorrect because the letter $b$ is used instead of a $\\beta$; the population variable should be used. Also, there is an $=$ used instead of a $<$ sign.",
   "tags": [
     "1.F",
     "VAR-7.K",

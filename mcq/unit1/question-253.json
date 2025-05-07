@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We can find the relative ranking by converting each score to standardized $z$-scores using:\n\n$$z = \\dfrac{(X-\\mu)}{\\sigma}$$\n\n...where $z$ is the $z$-score, $X$ is the sample, $\\mu$ is the population mean, and $\\sigma$ is the population standard deviation.\n\nZack’s score = $\\dfrac{(680-500)}{100} = 1.8$\n\nNick’s score = $\\dfrac{(27-18)}{6} = 1.5$\n\nThus, Zack’s score is better.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; raw scores cannot be validly compared.\n\nChoice 'C' is incorrect; it is stated that the two tests measure the same kind of ability.\n\nChoice 'D' is incorrect; is disproven by the work shown above in answer (B).\n\nChoice 'E' is incorrect; it is valid to compare the performance on the two tests because they measure the same kind of ability.",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

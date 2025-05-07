@@ -26,16 +26,15 @@
     },
     {
       "letter": "D",
-      "text": "$95\\%$"
+      "text": "95%"
     },
     {
       "letter": "E",
-      "text": "$99\\%$"
+      "text": "99%"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe formula for a confidence interval for the difference of two proportions is:\n\n(\nˆ\np\n1−\nˆ\np\n2)±z∗\n√\nˆ\np\n1(1−\nˆ\np\n1)\nn1\n+\nˆ\np\n2(1−\nˆ\np\n2)\nn2\n\n...where\nˆ\np\n1\nand\nˆ\np\n2\nare the given proportions, n1\nand n2\nare the given sample sizes, and z∗\nis the critical value for the given confidence level.\n\nHowever, we need to take a different first step. Since we know that the difference in proportions is 0.05\n, we first need to find\nˆ\np\n2\n. We know that\nˆ\np\n1=0.25\n, since that is the result of dividing 25\nby 100\n. Therefore we would solve 0.25−\nˆ\np\n2=0.05\nto find that\nˆ\np\n2=0.2\n.\n\nThen we need to find our missing n2\nvalue. In this case we simply say that 16\ndivided by what number gives us 0.2\n? The answer here is n2=80\n.\n\nNow we have enough values to plug into the confidence interval formula in order to solve for\nz\n∗\nwhich will finally indicate to us, by using Table B, what the confidence level is. In this problem, we assume all conditions have been verified, we will plug in the values using the subtraction part of the formula since we know the value of the lower bound:\n\n(\n0.25\n−\n0.20\n)\n−\nz\n∗\n√\n0.25\n(\n1\n−\n0.25\n)\n100\n+\n0.2\n(\n1\n−\n0.2\n)\n80\n=\n−\n0.072\n\nThe first steps are to subtract\n0.05\nfrom each side and then square each side of the equation:\n\nz\n2\n∗\n(\n0.25\n(\n1\n−\n0.25\n)\n100\n+\n0.2\n(\n1\n−\n0.2\n)\n80\n)\n=\n0.014884\n\nThen, simplify what is in the parentheses (what was under the square root sign) to get:\n\nz\n2\n∗\n(\n0.003875\n)\n=\n0.014884\n\nFinally, divide each side by\n0.003875\nand then square root the answer to get\n1.959\nwhich essentially equals\n1.96\n. You can check Table B to see that this critical value goes with a confidence level of\n95\n%\n.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nNote: Solving this problem requires a series of steps where any number of mistakes could be made. Remember not to round decimals before getting to the answer! Not coming up with a recognizable critical value would most likely lead a student to guess. Therefore, these distractors simply contain the most common confidence levels.\n\nChoice 'A' is incorrect because it would have come from a\nz\n∗\nvalue of\n2.326\n.\n\nChoice 'B' is incorrect because it would have come from a\nz\n∗\nvalue of\n1.645\n.\n\nChoice 'C' is incorrect because there are always some who think that not enough information is given.\n\nChoice 'E' is incorrect because would have come from a\nz\n∗\nvalue of\n2.576\n.",
   "tags": [
     "3.D",
     "UNC-4.K.1",

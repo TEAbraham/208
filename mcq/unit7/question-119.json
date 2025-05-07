@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Using the smaller of n1−1 and n2−1 is sometimes referred to as using a “conservative approach”. There is a very messy formula for calculating degrees of freedom to a more accurate (and often non-integer) value.\n\nWhen performing tests on the calculator, you might notice the calculator identify such a number for degrees of freedom. However, this messy formula was not offered as one of the answer choices.\n\nTherefore, Choice 'C' is the best choice.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. In a two-sample t\n-test for the difference between two means, we will always be completing inference related to two different populations. However, the degrees of freedom is unrelated to the number of populations.\n\nChoice 'B' is incorrect. When completing inference, we prefer to use a more conservative approach which may result in a larger p\n-value than is actually the case. Doing so requires us to use the smaller of the two sample sizes, not the larger of the two sample sizes.\n\nChoice 'D\" is incorrect because we do not pool sample sizes when completing inference for means.\n\nChoice 'E' is incorrect because we do not pool sample sizes when completing inference for means and using n−2\ndegrees of freedom is never appropriate when working with a t\n-distribution.",
   "tags": [
     "VAR-7",
     "1.E",

@@ -8,7 +8,7 @@
   ],
   "title": "Minitab Output",
   "difficulty": "Medium",
-  "question_text": "The data below shows mini tab output for the relationship between the number of cricket chirps per minute and temperature.<br>The regression equation for this relationship is:<br>$Temp = 44+0.993x$<br>Which of the following statements is true concerning the least squares regression line?",
+  "question_text": "The data below shows mini tab output for the relationship between the number of cricket chirps per minute and temperature.<br>The regression equation for this relationship is:<br>$Temp = 44+0.993x$<br>Which of the following statements is true concerning the least squares regression line?<br>Which of the following statements is true concerning the least squares regression line?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Predictor</th><th scope=\"col\">Coef</th><th scope=\"col\">St Dev</th><th scope=\"col\">t Ratio</th><th scope=\"col\">P</th></tr></thead><tbody><tr><td>Constant</td><td>44.013</td><td>1.827</td><td>24.09</td><td>0</td></tr><tr><td>Number</td><td>0.99340</td><td>0.06523</td><td>15.23</td><td>0</td></tr><tr><td>S=1.536</td><td>R-Sq = 95.9%</td><td>R-sq(adj) = 95.5%</td><td>--</td><td>--</td></tr></tbody></table>"
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Slope is the change in $y$ for every one unit of change in $x$.\n\nSo for every extra chirp per minute, one would expect the temperature to be about $0.993$ degrees higher. None of the other selections give an accurate representation of slope.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "4.B",
     "DAT-1.H.2",

@@ -9,36 +9,33 @@
   ],
   "title": "Yoga Class Histogram",
   "difficulty": "Medium",
-  "question_text": "Shivani leads classes at a local yoga studio. For the past two weeks, she has kept track of how many students have been in each class. The results are displayed below.<br><br><br><br><br>Which of the following best describes the shape and median of the distribution?",
-  "image_files": [
-    "images/question-073-img1.PNG"
-  ],
+  "question_text": "The shape is unimodal and the median is at $7.5$.",
+  "image_files": [],
   "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The shape is unimodal and the median is at\n7.5\n."
+      "text": "The shape is unimodal and the median is at $7.5$."
     },
     {
       "letter": "B",
-      "text": "The shape is skewed right and the median is at about\n12.5\n."
+      "text": "The shape is skewed right and the median is at about $12.5$."
     },
     {
       "letter": "C",
-      "text": "The shape is skewed right and the median is at\n15\n."
+      "text": "The shape is skewed right and the median is at $15$."
     },
     {
       "letter": "D",
-      "text": "The shape is skewed left and the median is at\n15\n."
+      "text": "The shape is skewed left and the median is at $15$."
     },
     {
       "letter": "E",
-      "text": "The shape is skewed left and the median is at about\n17\n."
+      "text": "The shape is skewed left and the median is at about $17$."
     }
   ],
-  "correct_answer": "Choice 'E' is the correct answer.",
+  "correct_answer": "The shape is skewed left and the median is at about $17$.",
   "solution": "",
-  "explanations": {},
   "tags": [
     "UNC-1.H.1",
     "UNC-1.H",

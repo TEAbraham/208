@@ -30,8 +30,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The empirical rule says that if the data is approximately normal, $68\\%$ of the data will be within one standard deviation while $95\\%$ of the data will be within two standard deviations, and $99.7\\%$ of the data will be within three standard deviations of the mean.\n\nThis problem shows the value $163$ exactly one standard deviation above the mean as:\n\n$$\\frac{(163-154)}{9} = 1$$\n\nTherefore, $68\\%$ of games score between $145$ and $163\\text{ points } (\\text{Mean} + 1 \\text{ SD})$.\n\nUsing complementary probabilities, $100\\%-68\\%$ = $32\\%$ of the data must be outside this range. Since the normal distribution is symmetric, $16\\%$ of observations must be less than $145$, and $16\\%$ of observations must be greater than $163$.\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "2.D",
     "VAR-2",

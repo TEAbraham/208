@@ -9,10 +9,8 @@
   ],
   "title": "Histogram Shape",
   "difficulty": "Easy",
-  "question_text": "A local weatherman decided to look at historical data of low temperatures for a city during the months of December, January, and February. The weatherman plotted these temperatures in a histogram shown below.<br><br><br><br><br>Assuming the frequency is on an even scale, how could one describe the shape of this histogram?",
-  "image_files": [
-    "images/question-068-img1.png"
-  ],
+  "question_text": "A local weatherman decided to look at historical data of low temperatures for a city during the months of December, January, and February. The weatherman plotted these temperatures in a histogram shown below.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>Assuming the frequency is on an even scale, how could one describe the shape of this histogram?",
+  "image_files": [],
   "tables": [],
   "choices": [
     {
@@ -37,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The skewness in any histogram will follow the tail. Since this histogram has a longer left tail than right tail, the histogram is left skewed.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "UNC-1.H.1",
     "UNC-1.H",

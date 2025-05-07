@@ -11,36 +11,33 @@
   ],
   "title": "IQR of a Boxplot: Mark's Pushups",
   "difficulty": "Easy",
-  "question_text": "Mark started working out, and every day he recorded the number of pushups he could do in a row.<br>According to the boxplot, what is the approximate interquartile range (IQR) of the numbers?<br><br><br><br>",
-  "image_files": [
-    "images/question-111-img1.PNG"
-  ],
+  "question_text": "Mark started working out, and every day he recorded the number of pushups he could do in a row.<br>According to the boxplot, what is the approximate interquartile range (IQR) of the numbers?<br>",
+  "image_files": [],
   "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "20\n−\n100"
+      "text": "$20-100$"
     },
     {
       "letter": "B",
-      "text": "27\n−\n90"
+      "text": "$27-90$"
     },
     {
       "letter": "C",
-      "text": "40"
+      "text": "$40$"
     },
     {
       "letter": "D",
-      "text": "63"
+      "text": "$63$"
     },
     {
       "letter": "E",
-      "text": "80"
+      "text": "$80$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The interquartile range (IQR) represents Q3-Q1.\n\nIn this case, it is approximately: $90-27=63$.\n\nExplanation of Distractors Choice 'A' is incorrect as this represents the interval of the data set. Choice 'B' is incorrect as this represents the interval from Quartile 1 to Quartile 3. Choice 'C' is incorrect as this represents half the range. Choice 'E' is incorrect as this represents the range(maximum value - minimum value).",
   "tags": [
     "UNC-1.L.2",
     "2.B",

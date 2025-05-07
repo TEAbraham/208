@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "There are two ways to find the area under the curve for a $t$-distribution.\n\nUsing a table\n\nFind the row for $5$ degrees of freedom. Read across the row to find $2.015$. Look to the top of that column to find the area of $0.05$.\n\nUsing a calculator\n\nUse the tcdf function with a lower bound of $2.015$, an upper bound of $99$ (or larger) and $5$ degrees of freedom.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. This represents half of the area to the right of the $t$ value with $5$ degrees of freedom.\n\nChoice 'B' is incorrect. This is the value reported if you use $6$ degrees of freedom instead of $5$.\n\nChoice 'D' is incorrect. This is the value reported if you use $4$ degrees of freedom instead of $5$.\n\nChoice 'E' is incorrect. This represents double the area to the right of the $t$ value with $5$ degrees of freedom.",
   "tags": [
     "DAT-3.F",
     "4.E",

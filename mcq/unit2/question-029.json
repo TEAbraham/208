@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWhen looking at a two-way table a number of different calculations can be done. In this problem you are asked to find the conditional frequency for a given cell. This compares a frequency count to a marginal total.\n\nWhen calculating a conditional frequency for a given cell you want to divide the cell count by either the row or column total depending upon what is being asked. In this problem you are given only the column and not the row. Further, the row is not specified in the answers. The answer, then, would be to divide the cell count or value by the total of column 2.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because dividing the cell value by the total of the entire table gives a marginal frequency.\n\nChoice 'C' is incorrect because dividing the cell value by the number of columns does not yield a usable answer.\n\nChoice 'D' is incorrect because dividing the cell value by the number of rows does not yield a usable answer.\n\nChoice 'E' is incorrect because dividing the cell value by the number of columns and rows does not yield a usable answer.",
   "tags": [
     "2.C",
     "UNC-1.Q",

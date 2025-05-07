@@ -7,7 +7,7 @@
   ],
   "title": "A. P. Exam Scores - Are They Independent?",
   "difficulty": "Hard",
-  "question_text": "Sam has been studying really hard for both the A. P. Calculus exam and the A. P. Statistics exam. He feels very confident that he will get either a $4$ or $5$ on the Statistics exam and that he will get at least a $3$ on the Calculus exam. Sam has estimated the joint probabilities associated with the two exams and his estimates are shown in the table below.<br>Based on these probabilities, are the scores that Sam will achieve on the two exams independent? Why or why not?",
+  "question_text": "Sam has been studying really hard for both the A. P. Calculus exam and the A. P. Statistics exam. He feels very confident that he will get either a $4$ or $5$ on the Statistics exam and that he will get at least a $3$ on the Calculus exam. Sam has estimated the joint probabilities associated with the two exams and his estimates are shown in the table below.<br>Based on these probabilities, are the scores that Sam will achieve on the two exams independent? Why or why not?<br>Based on these probabilities, are the scores that Sam will achieve on the two exams independent? Why or why not?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\"></th><th scope=\"col\">A.P. Calculus</th><th scope=\"col\"></th><th scope=\"col\"></th></tr></thead><tbody><tr><td></td><td>Scores</td><td>5</td><td>4</td><td>3</td></tr><tr><td>A.P. Statistics</td><td>5</td><td>0.3</td><td>0.2</td><td>0.1</td></tr><tr><td></td><td>4</td><td>0.2</td><td>0.1</td><td>0.1</td></tr></tbody></table>"
@@ -23,20 +23,19 @@
     },
     {
       "letter": "C",
-      "text": "Yes. They are independent because the probability of getting a 5 on the Calculus exam and a 4 on the Statistics exam is the same as the probability of getting a 5 on the Statistics exam and a 4 on the Calculus exam."
+      "text": "Yes. They are independent because the probability of getting a $5$ on the Calculus exam and a $4$ on the Statistics exam is the same as the probability of getting a $5$ on the Statistics exam and a $4$ on the Calculus exam."
     },
     {
       "letter": "D",
-      "text": "No. They are not independent because the probability of getting a 5 on the Statistics exam changes if we know that the score on the Calculus exam is a 4."
+      "text": "No. They are not independent because the probability of getting a $5$ on the Statistics exam changes if we know that the score on the Calculus exam is a $4$."
     },
     {
       "letter": "E",
-      "text": "No. They are not independent because there are 3\npossible outcomes on the Calculus exam but only 2\npossible outcomes on the Statistics exam."
+      "text": "No. They are not independent because there are 3 possible outcomes on the Calculus exam but only 2 possible outcomes on the Statistics exam."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Two random variables are independent if knowing the outcome of one random variable does not change the probabilities associated with the other random variable. In this case, if the two scores were independent, then it should be true that:\n\np(5 on Statistics|4 on Calculus)=p(5 on Statistics)\n\nRecall the formula for conditional probability:\n\np(A|B)=\np(A and B)\np(B)\n\nFrom the table, we know:\n\np(5 on Statistics|4 on Calculus)=\n0.2\n(0.2+0.1)\n=0.67\n\np(5 on Statistics)=\n(0.3+0.2+0.1)\n(0.3+0.2+0.1+0.2+0.1+0.1)\n=0.60\n\n0.67\n≠\n0.60\n, so the scores are not independent.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. There still could be some association between two totally separate courses and exams. Since both are math courses, the ability to do well in one could be related to the ability to do well in the other. Also, this answer is not based upon the probabilities given in the table.\n\nChoice 'B' correctly explains the fact that\np\n(\n5\n on Statistics\n|\n5\n on Calculus\n)\n=\np\n(\n5\n on Statistics\n)\n.\n\nFrom the table:\n\np\n(\n5\n on Statistics\n|\n5\n on Calculus\n)\n=\n0.3\n(\n0.3\n+\n0.2\n)\n=\n0.60\n\np\n(\n5\n on Statistics\n)\n=\n0.60\n\n...(calculation shown above).\n\nThese probabilities are equal and may lead you to think that the random variables are independent. However, it is not sufficient that the rule for independence is only satisfied once. It must be satisfied throughout the entire table of probabilities.\n\nChoice 'C' is incorrect. The type of relationship between probabilities that is described here has nothing to do with independence.\n\nChoice 'E' is incorrect. The number of outcomes possible for each of the two random variables has nothing to do with the possibility of the random variables being independent.",
   "tags": [
     "VAR-4.E.1",
     "VAR-4.E",

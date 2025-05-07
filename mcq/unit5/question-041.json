@@ -8,7 +8,7 @@
   ],
   "title": "Pumpkin Time",
   "difficulty": "Medium",
-  "question_text": "There has been a tradition of pumpkin growing contests in both the East and West Coasts with thousands of pumpkins being entered. In the past, the average entered pumpkin on the East Coast weighed $360$ pounds with a standard deviation of $60$ pounds. The average pumpkin entered on the West Coast weighed $340$ pounds.<br>This year, random samples of $36$ pumpkins were taken on the East Coast and $24$ pumpkins on the West Coast (both coasts' pumpkins were shown to be normally distributed).\nGiven that the standard deviation of the sampling distribution of the difference of sample means is $14$, find the standard deviation of the pumpkins on the west coast.",
+  "question_text": "There has been a tradition of pumpkin growing contests in both the East and West Coasts with thousands of pumpkins being entered. In the past, the average entered pumpkin on the East Coast weighed $360$ pounds with a standard deviation of $60$ pounds. The average pumpkin entered on the West Coast weighed $340$ pounds.<br>This year, random samples of $36$ pumpkins were taken on the East Coast and $24$ pumpkins on the West Coast (both coasts' pumpkins were shown to be normally distributed).\nGiven that the standard deviation of the sampling distribution of the difference of sample means is $14$, find the standard deviation of the pumpkins on the west coast.<br>Given that the standard deviation of the sampling distribution of the difference of sample means is $14$, find the standard deviation of the pumpkins on the west coast.",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nSince we are being asked about the standard deviation, we want to use the standard deviation formula for the sampling distribution of the difference of means. Note that we need to know sample sizes and standard deviations, but the means are not needed here.\n\nThe standard deviation for the sampling distribution for the difference of the sample means is equal to this formula where the $\\sigma$'s stand for the standard deviations and the $n$'s stand for the sample sizes:\n\n$$\\sqrt{\\dfrac{\\sigma^{2}_{1}}{n_{1}}+\\dfrac{\\sigma^{2}_{2}}{n_{2}}}$$\n\nWe want to plug in the numbers from the problem, but leaving $\\sigma_{2}$ as the variable we need to solve for. We also need to set the standard deviation formula equal to the given value of $14$. We get:\n\n$$\\sqrt{\\dfrac{60^{2}}{36}+\\dfrac{\\sigma^{2}_{2}}{24}}=14$$\n\nFirst, square both sides and simplify $\\dfrac{60^{2}}{36}$ to get:\n\n$${100+\\dfrac{\\sigma^{2}_{2}}{24}}=196$$\n\nThen subtract $100$ from both sides and then multiply both sides by $24$ to get:\n\n$$\\sigma^{2}_{2}=2304$$\n\nFinally, take the square root of $2304$ to obtain the value of the standard deviation for the pumpkins on the west coast as $48$ pounds.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the square root of the answer was mistakenly taken.\n\nChoice 'B' is incorrect because it was solved by assuming that $60\\div36$ must equal $40\\div24$.\n\nChoice 'C' is incorrect because the $60$ was paired with the $24$ instead of the $36$. The fractions were mixed up.\n\nChoice 'E' is incorrect because, well, it was assumed that the standard deviations were the same for both coasts.",
   "tags": [
     "UNC-3.T",
     "UNC-3.T.1",

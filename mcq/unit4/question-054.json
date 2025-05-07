@@ -26,12 +26,11 @@
     },
     {
       "letter": "E",
-      "text": "0.15"
+      "text": "$0.15$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To solve this problem, you can either use a tree diagram or simply consider the two different ways a test could show up positive:\n\nOR\n\nAdd the two probabilities together:\n\n$$(0.15 \\cdot 0.98)+(0.85 \\cdot 0.08) = 0.215$$\n\nThus, the correct answer is Choice 'D'.\n\nAlternatively, one could use a tree diagram for this problem. A tree diagram is useful in that it conveniently displays all possible outcomes for college athletes in this context.\n\nWhen making a tree diagram, the base of the tree diagram is the non-conditional probabilities. In this situation, the base of the tree diagram is whether the individual uses steroids or not. The branches of the tree diagram are the non-conditional probabilities. In this situation, the branches of the tree diagram represent what the test result shows given one uses steroids, and given one does not use steroids.\n\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\n\n\nSimply add the two branches in the tree diagram that give a positive result:\n\n$$0.147 + 0.068 = 0.215$$",
   "tags": [
     "3.A",
     "VAR-4.D.2",

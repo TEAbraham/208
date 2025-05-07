@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "First, find the probability of one game having a sum of under 140 points.\n\n140−154\n9\n=−1.56\n\nP(z<−1.56)=0.0594\n\nChoice 'A' is the correct answer.\n\nThis represents the probability of one game having such low scoring.\n\nSimply take 0.05943\nto find the probability of all three games being this low scoring.\n\n0.05943=0.00021",
   "tags": [
     "VAR-4.E",
     "3.A",

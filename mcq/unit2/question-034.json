@@ -8,7 +8,7 @@
   ],
   "title": "Restaurant Preference: A Two Way Table",
   "difficulty": "Medium",
-  "question_text": "For his final statistics project, Ramsey completed a study to determine which of $4$ local restaurants students at his school preferred. After gathering data he organized the counts for each restaurant into the table shown below.<br>$\\ $\nWhat is the conditional distribution of gender for those who prefer Cayenne?",
+  "question_text": "For his final statistics project, Ramsey completed a study to determine which of $4$ local restaurants students at his school preferred. After gathering data he organized the counts for each restaurant into the table shown below.<br>$\\ $\nWhat is the conditional distribution of gender for those who prefer Cayenne?<br>What is the conditional distribution of gender for those who prefer Cayenne?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Pancake Factory</th><th scope=\"col\">Onion Garden</th><th scope=\"col\">Emerald Wednesdays</th><th scope=\"col\">Cayenne</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Boys</td><td>25</td><td>28</td><td>12</td><td>43</td><td>108</td></tr><tr><td>Girls</td><td>30</td><td>33</td><td>27</td><td>32</td><td>122</td></tr><tr><td>Total</td><td>55</td><td>61</td><td>39</td><td>75</td><td>230</td></tr></tbody></table>"
@@ -28,7 +28,7 @@
     },
     {
       "letter": "D",
-      "text": "Boys: $\\dfrac { 43 }{ 75 } $\nGirls: $\\dfrac { 32 }{ 75 } $"
+      "text": "Boys:\n43\n75\nGirls:\n32\n75"
     },
     {
       "letter": "E",
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We are looking for the distribution of gender using the condition that the individual prefers Cayenne.\n\nIn this survey, 75\npeople preferred Cayenne. These are the only individuals who meet the condition. Therefore, we will look at how those 75\nindividuals are distributed by gender. Since 43\nof the 75\nindividuals who prefer Cayenne are boys and 32\nof the 75\nindividuals who prefer Cayenne are girls, the correct choice is Choice 'D'.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. This choice identifies the proportion of boys who prefer Cayenne and the proportion of girls who prefer Cayenne.\n\nChoice 'B' is incorrect. This choice does not make use of the fact that we are only interested in those who prefer Cayenne. It reports the proportion of those surveyed who were boys that preferred Cayenne and the proportion of those surveyed who were girls that preferred Cayenne.\n\nChoice 'C' is incorrect and simply identifies what proportion of those surveyed were boys along with what proportion of those surveyed were girls.\n\nChoice 'E' is incorrect and provides the conditional distribution of gender for those who prefer Pancake Factory.",
   "tags": [
     "2.C",
     "UNC-1.Q",

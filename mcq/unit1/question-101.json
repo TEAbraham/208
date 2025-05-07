@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Resistant refers to not being influenced by extreme values or outliers.\n\nThe range is equal to the maximum value minus the minimum value. Therefore, the range is a non-resistant measure of spread, since the maximum or minimum value could be an outlier. We can, therefore, eliminate Choices 'A' and 'E'.\n\nThe standard deviation refers to how far individual values vary from the mean. Just like the mean, in order to find the standard deviation, all values are taken into consideration, which indicates that outliers would be used to calculate the mean.\n\nTherefore, the standard deviation is a non-resistant measure of spread, so we can eliminate Choices 'B' and 'D'\n\nThe interquartile range (IQR) refers to Q3-Q1, which does not take extreme values or outliers into account.",
   "tags": [
     "2.C",
     "UNC-1.K",

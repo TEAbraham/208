@@ -17,19 +17,19 @@
   "choices": [
     {
       "letter": "A",
-      "text": "t\n-interval for slope"
+      "text": "$t$-interval for slope"
     },
     {
       "letter": "B",
-      "text": "z\n-interval for slope"
+      "text": "z-interval for slope"
     },
     {
       "letter": "C",
-      "text": "β\n-interval for slope"
+      "text": "β-interval for slope"
     },
     {
       "letter": "D",
-      "text": "2\n-sample z\n-interval for slope"
+      "text": "2-sample z-interval for slope"
     },
     {
       "letter": "E",
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Correct Choice",
-  "solution": "",
-  "explanations": {},
+  "solution": "'Choice A' is the correct choice.\n\nThe appropriate procedure is a t\n-distribution for slope since the point estimate is b\n, the sample slope.\n\nExplanation of Distractors\n\n'Choice B' is incorrect.\n\nSince the true standard deviation of slope is unknown, a z\n-distribution is insufficient.\n\n'Choice C' is incorrect.\n\nβ\nis the true parameter for slope, and thus it should never be confused or used as a point-estimate.\n\n'Choice D' is incorrect.\n\nThe mistake is assuming that jump frequency and jump height should be treated as two separate variables and compared. The slope is the amount that jump height increases/decreases for every unit change in jump frequency. As such, a\n2\n-sample interval is incorrect. Instead, utilize a\nt\n-interval for the point estimate\nb\nto build a confidence interval that estimates the true slope,\nβ\n.\n\n'Choice E' is incorrect.\n\nThough the slope,\nβ\n, is a single variable, we must use\nb\nas our point estimate, and\nS\nE\nb\nas our standard error for the slope. It follows that a\nt\n-interval for slope with\nn\n−\n2\n=\n10\n−\n2\n=\n8\ndegrees of freedom is the correct procedure.",
   "tags": [
     "UNC-4.AC.3",
     "UNC-4.AC",

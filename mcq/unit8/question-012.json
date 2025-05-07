@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Statement I is incorrect; a chi-squared test is usually performed on a single sample, or can be performed on multiple samples or an experiment where subjects are randomly assigned into different groups. However, the sample does not HAVE to be 2 independent random samples\n\nStatement II is correct. This is a condition necessary for Chi Squared. Some textbooks add that all expected counts must be over 1, and no more than 20% of expected counts can be less than 5. However, the general consensus is that all expected counts must be at least 5.\n\nStatement III is incorrect. That is correct for 1 proportion Z procedures, but not Chi Squared.\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "VAR-8.E.1",
     "4.C",

@@ -10,7 +10,7 @@
   ],
   "title": "Regression Slope $t$-Interval Formula Work: Height and Wingspan",
   "difficulty": "Medium",
-  "question_text": "NBA scouts are always interested in the relationship between the height of NBA players and their wingspans. An NBA scout randomly selects $20$ players and measures their heights and respective wingspans. Below is the computer regression analysis of wingspan and height:<br>Dependent variable is: Wingspan<br>$R^2 = 0.787$\n$S=2.23$<br>Assuming all of the conditions have been satisfied, which of the following gives a $95\\%$ confidence interval for the slope of the regression line?",
+  "question_text": "NBA scouts are always interested in the relationship between the height of NBA players and their wingspans. An NBA scout randomly selects $20$ players and measures their heights and respective wingspans. Below is the computer regression analysis of wingspan and height:<br>Dependent variable is: Wingspan<br>$R^2 = 0.787$\n$S=2.23$<br>Assuming all of the conditions have been satisfied, which of the following gives a $95\\%$ confidence interval for the slope of the regression line?<br>Assuming all of the conditions have been satisfied, which of the following gives a $95\\%$ confidence interval for the slope of the regression line?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">Coefficient</th><th scope=\"col\">SE(Coeff)</th><th scope=\"col\">t-ratio</th><th scope=\"col\">P-value</th></tr></thead><tbody><tr><td>Constant</td><td>-2.273</td><td>0.39</td><td>-5.83</td><td>&lt;0.0001</td></tr><tr><td>Height</td><td>1.084</td><td>0.24</td><td>4.51</td><td>&lt;0.0001</td></tr></tbody></table>"
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The formula for a slope regression $t$-interval is:\n\n$$b\\pm ({ t }_{ n-2 }^{ * }\\cdot { S.E. }_{ b })$$\n\n...where $b$ represents the sample slope, $t$ is the critical value with $n-2$ degrees of freedom, and the final part is the standard error of the slope.\n\nThe slope in this case $1.084$, as that represents the coefficient of the height, meaning the number in front of the height. Looking at our answer choices, we can eliminate Choices 'A' and 'B'.\n\nTo find the critical value for $t$, we are given $18$ degrees of freedom and $95\\%$ confidence. Looking at the $t$-distribution table, find where $18$ degrees of freedom and $95\\%$ intersect. You will see that is at $2.101$. As a result, Choice 'E' shows all of these correctly placed.\n\nWe can, therefore, eliminate Choices 'C' and 'D'.\n\nIn addition, Choice 'D' is the trap, because it uses the degrees of freedom as the sample size ($20$) and $n - 2$ ($20-2=18$).",
   "tags": [
     "4.B",
     "DAT-3",

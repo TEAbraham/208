@@ -9,7 +9,7 @@
   ],
   "title": "Graph Residual",
   "difficulty": "Easy",
-  "question_text": "<br><br><br><br>Using the graph, estimate the residual based on the least squares regression line for the point ($59,10$).",
+  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved.<br><br>Using the graph, estimate the residual based on the least squares regression line for the point ($59,10$).",
   "image_files": [
     "images/question-084-img1.jpg"
   ],
@@ -25,7 +25,7 @@
     },
     {
       "letter": "C",
-      "text": "About\n−\n7\n."
+      "text": "About −7\n."
     },
     {
       "letter": "D",
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A residual is the distance between the observed\ny\nand the predicted\ny\nfrom the least squares regression line (LSRL).\n\nIt appears the LSRL would pass through about\n3\nfor\ny\n, so the residual would be about\n10\n−\n3\n=\n7\n.\n\nThus, the correct answer is Choice 'A'.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect. The observed\ny\nvalue is about\n10\n, but residuals are found by subtracting predicted values from observed values.\n\nChoice 'C' is incorrect. Since the point is above where the least squares regression line would be, the residual must be positive.\n\nChoice 'D' is incorrect. A residual of zero would be right on the least squares regression line. One could sketch a plausible least squares regression line and see that this point is well above the line.\n\nChoice 'E' is incorrect. Although\n59\nis the coordinate of the point in question, residuals are observed\ny\nminus predicted\ny\n. The value\n59\nis the\nx\ncoordinate of the point.",
   "tags": [
     "DAT-1.E.1",
     "DAT-1.E",

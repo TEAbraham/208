@@ -12,9 +12,7 @@
   "title": "Normal Distribution: Giganticville",
   "difficulty": "Medium",
   "question_text": "The distribution of heights of $4\\text{-year-old boys}$ in the town of Giganticville is approximately normally distributed with a mean of $78.0$ inches and standard deviation of $4.3\\text{ inches}$.<br>Manute, a $4\\text{-year-old-boy}$ from Giganticville has a height that is $0.23$ standard deviations below the mean. His $4\\text{-year-old-boy}$ neighbor Mugsy is at the $45^\\text{th}$ percentile of the height distribution.<br>What percentile is Manute's height, and how does his height compare to Mugsy's height?",
-  "image_files": [
-    "images/question-248-img1.PNG"
-  ],
+  "image_files": [],
   "tables": [],
   "choices": [
     {
@@ -39,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "First, let us find what percentile Manute's height is. Since Manute's height is $0.23$ standard deviations below the mean, we are looking to find the P ($z < -0.23$). Since we have the z-score, then the mean, $\\mu $, is represented by $0$ and the standard deviation, $\\sigma$, is represented by $1$.\n\nDrawing a picture of the data can help eliminate some answers:\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\nLooking at the picture we can see that less than $50$% of the region is shaded in. Therefore, we can eliminate Choices 'D' and 'E'.\n\nWe can either solve for the percentile of Manute's height by using a graphing calculator (which will be easier) or Table A.\n\nUsing a TI-84\nPress the 2nd key.\nPress VARS.\nSelect Normalcdf.\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\nThe lower value is $-9999999$ as in a normal distribution curve the tails go off to infinity. The upper value will be $-0.23$ as this is the z-score for Manute's height.\n\nBy pressing enter, we can see Choice 'A' is our answer as Manute is at the $41$st percentile, compared to Mugsy being at the $45$th percentile.\n\nUsing Table A\n\nUsing Table A, locate $-0.2$ in the left-hand column and $0.03$ in the top row. Find where those values intersect. The corresponding entry is $0.4090$.\n\nManute being in the $41$ percentile represents he is taller than $41$% of $4$-year old boys-from Giganticville compare to Mugsy who is taller than $45$% of $4$-year old boys from Giganticville.\n\nChoice 'A' is our answer.\n\nExplanation of Distractors Choice 'B' is incorrect because Manute is shorter than Mugsy based on their percentiles. Choice 'C' is incorrect because the percentile is incorrect and even if $46$ was the correct percentile this would mean Manute would be taller than Mugsy. Choices 'D' and 'E' are incorrect because the $59th$ percentile represents the height for someone $0.23$ standard deviations above the mean.",
   "tags": [
     "VAR-2.C.1",
     "2.D",

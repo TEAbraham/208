@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We want the interval to contain $0$, meaning that we fail to reject the null hypotheses. In order to solve for this, we need to figure out the significance level of each one of the intervals and see if the $p$-value falls above or below the significance level.\n\nStatement I. For a $90\\%$ confidence interval, the significance level is $10\\%$. Since our $p$-value of $0.04 < 0.10$, we reject the null hypotheses. Therefore, Statement I is false.\n\nStatement II. For a $95\\%$ confidence interval, the significance level is $5\\%$. Since our $p$-value of $0.04<0.05$, we reject the null hypotheses. Therefore, Statement II is false.\n\nStatement III. For a $99\\%$ confidence interval, the significance level is $1\\%$. Since our $p$-value of $0.04>0.01$ we fail to reject the null hypotheses. Therefore, Statement III is true.",
   "tags": [
     "4.E",
     "DAT-3.D.1",

@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The easiest way to find this probability is by using your $TI83/84$ calculator's normalcdf function.\n\nThe syntax is: normalcdf(lower bound, upper bound, mean, standard deviation)\nSince z-scores are given, we know the mean is $0$ and standard deviation is $1$.\nTo find the answer:\n\nPress $2nd$\nPress VARS (DISTR)\nChoose $2$ (normalcdf)\nEnter $-0.8,-0.2,0,1$\nPress Enter\n\nThe calculator will return an answer of about $0.209$. The answer is Choice 'A'.\n\nNOTE: This answer can also be determined using the z-table provided with the AP Exam. The z-table provides lower tail probabilities associated with specific z-scores (or areas to the left of specific z-scores).\n\nFirst we would need to find $p(z < -0.2)$. To do this, look down the first column to find $z = -0.2$. Follow across this row to the very first column under $z = 0.00$. This forms the z-score of $z = -0.20$.\n\nThe corresponding value in the z-table is $0.4207$ which represents $p(z < -0.20)$. However, this is not the value we want - Choice 'B' is incorrect. In the same way we can find the lower tail probability associated with $z = -0.8$. We find $p(z < -0.8) = 0.2119$.\n\nHowever, we are looking for $p(-0.8 < z < -0.2)$. Since $-0.2 > -0.8$, the probability associated with $p(z < -0.20)$ includes $p(z < -0.80)$. We do not wish to include this probability and must subtract it out. We find our final answer as $0.4207 - 0.2119 = 0.2088$ or approximately $0.209$.\n\nIn a normal distribution, $p(z < 0) = 0.5$. Since both of the given z-scores are less than $0$, we also know that our answer must be less than $0.5$. This eliminates Choices 'C', 'D', and 'E' as possible answers.",
   "tags": [
     "VAR-2.B",
     "3.A",

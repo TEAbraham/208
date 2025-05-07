@@ -4,23 +4,25 @@
   "topics": [],
   "title": "Dog Size and Adoption Rates: Graphical Displays",
   "difficulty": "Easy",
-  "question_text": "Are small, medium, and large sized dogs adopted from animal shelters at the same rate? Rebecca surveyed several rescue organizations about recent dog adoptions and was able to gather the data displayed below.<br>Which of the following graphs appropriately displays the relative frequency of each dog size for adopted dogs?",
-  "image_files": [],
+  "question_text": "Are small, medium, and large sized dogs adopted from animal shelters at the same rate? Rebecca surveyed several rescue organizations about recent dog adoptions and was able to gather the data displayed below.<br>Which of the following graphs appropriately displays the relative frequency of each dog size for adopted dogs?<br>Which of the following graphs appropriately displays the relative frequency of each dog size for adopted dogs?",
+  "image_files": [
+    "images/question-014-img1.PNG"
+  ],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Small</th><th scope=\"col\">Medium</th><th scope=\"col\">Large</th></tr></thead><tbody><tr><td>Number of Dogs Adopted</td><td>28</td><td>43</td><td>35</td></tr></tbody></table>"
   ],
   "choices": [
     {
       "letter": "A",
-      "text": ""
+      "text": "<br><br>"
     },
     {
       "letter": "B",
-      "text": ""
+      "text": "<br><br>"
     },
     {
       "letter": "C",
-      "text": ""
+      "text": "<br><br>"
     },
     {
       "letter": "D",
@@ -32,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Relative frequency identifies each category as a proportion or percent of the total number of observations.\n\nThe total number of dogs is:\n\n$$28+43+35=106$$\n\nNext, calculate the relative frequency for each dog size:\n\nSmall: $\\dfrac{28}{106}=0.264\\approx26\\%$\nMedium: $\\dfrac{43}{106}=0.406\\approx41\\%$\nLarge: $\\dfrac{35}{106}=0.330\\approx33\\%$\n\nThe pie chart shown in Choice 'D' accurately displays these proportions so Choice 'D' is the correct answer.\n\nExplanation of Distractors\n\nChoices 'A' and 'B' are both incorrect because they display the actual frequency for each dog size, not the relative frequency.\n\nChoice 'C' is incorrect because the percents are not quite accurate and because the percents for medium sized dogs and large dogs have been reversed.\n\nChoice 'E' is incorrect. In this situation, dog size is being reported as a categorical variable. A scatterplot is not an appropriate way to display information related to categorical data. Rather, a scatterplot can be used to show the relationship between two quantitative variables.",
   "tags": [
     "VAR-8.A.1",
     "VAR-8.A.3",

@@ -9,7 +9,7 @@
   ],
   "title": "Houston Budget: A Pie Chart",
   "difficulty": "Easy",
-  "question_text": "A magazine article showed the pie chart below to describe how a typical adult living in Houston spends their money.<br><br><br><br><br>If Sarah (who lives in Houston) earns $\\$60,000$ a year, how much would we expect her to spend each month for rent?",
+  "question_text": "A magazine article showed the pie chart below to describe how a typical adult living in Houston spends their money.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>If Sarah (who lives in Houston) earns $\\$60,000$ a year, how much would we expect her to spend each month for rent?",
   "image_files": [
     "images/question-051-img1.PNG"
   ],
@@ -17,28 +17,27 @@
   "choices": [
     {
       "letter": "A",
-      "text": "$36"
+      "text": "$\n36"
     },
     {
       "letter": "B",
-      "text": "$1500"
+      "text": "$\n1500"
     },
     {
       "letter": "C",
-      "text": "$1800"
+      "text": "$\n1800"
     },
     {
       "letter": "D",
-      "text": "$3600"
+      "text": "$\n3600"
     },
     {
       "letter": "E",
       "text": "$\n21\n,\n600"
     }
   ],
-  "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "correct_answer": "Choice 'C' is the correct answer.",
+  "solution": "We want to determine how much we would expect Sarah to pay for rent each month, so first, we should determine how much money she makes each month. She earns\n$\n60\n,\n000\na year, so divide this by\n12\nto determine how much she earns each month.\n\n$\n60\n,\n000\n÷\n12\n=\n$\n5000\n\nSarah earns\n$\n5000\neach month.\n\nThe portion of the pie chart labeled \"Rent\" is also labeled as accounting for\n36\n%\nof the budget in Houston. Now we need to determine how much is\n36\n%\nof\n$\n5000\n. We can do this as follows:\n\n(\n0.36\n)\n(\n$\n5000\n)\n=\n$\n1800\n\nChoice 'C' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect and simply takes\n36\n%\n, drops the percent and turns it into a dollar amount. An unreasonable dollar amount!\n\nChoice 'B' is incorrect. This is how much we would expect Sarah to spend on groceries each month.\n\nChoice 'D' is incorrect. This value is double the correct number, or represents the percent multiplied by\n100\nand then turned into a dollar amount.\n\nChoice 'E' is incorrect because this is how much we would expect Sarah to spend on rent in one year.",
   "tags": [
     "UNC-1.C.3",
     "2.A",

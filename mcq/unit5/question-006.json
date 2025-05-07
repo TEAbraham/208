@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "Since the sample size of 84 is sufficiently large, the sampling distribution will be approximately normal with a center at 2.8 and a standard deviation of 0.7."
+      "text": "Since the sample size of $84$ is sufficiently large, the sampling distribution will be approximately normal with a center at $2.8$ and a standard deviation of $0.7$."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "According to the Central Limit Theorem, if the sample size n is sufficiently large, then the sampling distribution for the sample mean,\nˉ\nx\n, will be approximately normal.\n\nWhile some sources say that n=30 is sufficiently large and other sources claim that n=40 is required, the sample size in this situation is n=84. This sample size is certainly large enough for us to conclude that the sampling distribution will be approximately normal. Choices 'A' and 'B' can be eliminated.\n\nChoice 'C' can also be eliminated because it reports an incorrect sample size (and also an incorrect center and standard deviation). Although surveys were mailed to 500 adults, the actual sample consists only of those adults who returned the survey.\n\nThe center of the sampling distribution, μ\nˉ\nx\nis always equal to the population parameter. or the actual mean that describes the entire population. We know that the population parameter is 2.8 and this value is correctly reported in both Choices 'D' and 'E'.\n\nThe standard deviation of the sampling distribution is found using the following formula which can be found in the reference materials provided on the A. P. Exam:\n\nσ\nˉ\nx\n=\nσ\n√\nn\n\nFilling in the formula, we get:\n\nσ\nˉ\nx\n=\n0.7\n√\n84\n=0.076\n\nChoice 'D' is the correct answer since it provides the correct shape, center, and standard deviation of the sampling distribution.\n\nChoice 'E' is incorrect because it reports the standard deviation of the entire population distribution rather than the standard deviation of the sampling distribution.",
   "tags": [
     "UNC-3.R.2",
     "UNC-3.R.1",

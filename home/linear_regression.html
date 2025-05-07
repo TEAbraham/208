@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Mr.&nbsp;Abraham">
+
+<title>Linear Regression</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="linear_regression_files/libs/clipboard/clipboard.min.js"></script>
+<script src="linear_regression_files/libs/quarto-html/quarto.js"></script>
+<script src="linear_regression_files/libs/quarto-html/popper.min.js"></script>
+<script src="linear_regression_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="linear_regression_files/libs/quarto-html/anchor.min.js"></script>
+<link href="linear_regression_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="linear_regression_files/libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="linear_regression_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="linear_regression_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="linear_regression_files/libs/bootstrap/bootstrap-c0367b04c37547644fece4185067e4a7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Linear Regression</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Mr.&nbsp;Abraham </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="linear-regression" class="level1">
+<h1>9. Linear Regression</h1>
+<section id="introduction-to-linear-regression" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-to-linear-regression">9.1 Introduction to Linear Regression</h2>
+<ul>
+<li>Interpret a regression line.</li>
+<li>Define predictor and response variables.</li>
+<li>Interpret a population regression function.</li>
+</ul>
+<section id="regression-lines" class="level3">
+<h3 class="anchored" data-anchor-id="regression-lines">Regression lines</h3>
+<p><strong><em>Linear regression</em></strong> is a way to model the linear relationship between two quantitative variables, using a line drawn through those variables’ data points, known as a <strong><em>regression line</em></strong>. Ex: The animation below shows a scatterplot with several data points that represent house price and house size for <span class="math inline">\(5\)</span> houses in Eugene, Oregon, with a trendline drawn through the scatter plot. A common use of a regression line is to make predictions.</p>
+<p><em>9.1.1: House price and house size scatterplot.</em></p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/9.1.1.gif" controls=""> </p>
+<p>Captions: 1. A particular house with <span class="math inline">\(1683\)</span> square feet sold for a price of <span class="math inline">\(\$259,900\)</span>. 2. Other houses with the indicated square feet sold for other prices. 3. The trend suggests that as house square feet increase, house prices also increase. The relationship appears to be linear. 4. The linear regression line summarizes the relationship, but individual data points are typically above or below the line. 5. A common use of a linear regression model is to make predictions. Ex: The model predicts that a <span class="math inline">\(2200\)</span> square foot house would sell for about <span class="math inline">\(\$280,000\)</span>.</p>
+<p><em>9.1.2: College football rank and coach salaries.</em></p>
+<p>Below is a scatterplot showing all <span class="math inline">\(128\)</span> college football team rankings and the total salary for each team’s head coach. The regression line shows that higher salaries tend to be related to better rank.</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/9.1.2.png" controls=""> </p>
+<ol type="1">
+<li>The #1 ranked team’s coach earns what approximate salary?</li>
+<li>About eight coaches have salaries very near to <span class="math inline">\(\$4\)</span> million. What is the approximate range of ranks for those coaches’ eight teams?</li>
+<li>What rank would a regression line predict if a coach is paid <span class="math inline">\(\$4\)</span> million?</li>
+<li>Do most of the <span class="math inline">\(128\)</span> data points lie on the regression line?</li>
+<li>A team hires a coach with a salary of <span class="math inline">\(\$4\)</span> million, but ends up with a rank of <span class="math inline">\(100\)</span>. Is the regression line wrong?</li>
+</ol>
+<p><em>Solution</em></p>
+<ol type="1">
+<li><span class="math inline">\(\$7\)</span> million</li>
+<li><span class="math inline">\(10\)</span> to <span class="math inline">\(70\)</span></li>
+<li><span class="math inline">\(32\)</span></li>
+<li>No</li>
+<li>No</li>
+</ol>
+</section>
+<section id="response-and-predictor-variables" class="level3">
+<h3 class="anchored" data-anchor-id="response-and-predictor-variables">Response and predictor variables</h3>
+<p>In a linear regression involving two variables, the <strong><em>response variable</em></strong> is the variable being modeled or predicted, while the <strong><em>predictor variable</em></strong> is the variable used to predict the response. Ex: As shown in the example above, team rank has a relation to total coach salary that is approximately linear. In the scatterplot with rank on the vertical <span class="math inline">\(Y\)</span> axis and salary on the horizontal <span class="math inline">\(X\)</span> axis, the regression line slopes downwards. This downward slope means colleges with larger salaries tend to have better rankings than colleges with lower salaries. Here, ranking is known as the response variable, while total salary is the predictor variable.</p>
+<p>The response variable often responds in some way to a change in the predictor. Knowing the value of a predictor often allows one to predict the response. In a linear regression, the response variable is sometimes called the <strong><em>dependent variable</em></strong> or <strong><em>output</em></strong> or <strong><em>outcome</em></strong>. Also, in a linear regression, a predictor variable is sometimes called an <strong><em>independent variable</em></strong> or <strong><em>input</em></strong> or <strong><em>covariate</em></strong>.</p>
+</section>
+<section id="population-regression-function" class="level3">
+<h3 class="anchored" data-anchor-id="population-regression-function">Population regression function</h3>
+<p>The linear regression line shows the overall linear relationship among the plotted points. Each position along the line represents where one would expect <span class="math inline">\(Y\)</span> to be given a particular <span class="math inline">\(X\)</span> , based on the linear relationship. Assuming the data represents a population, the line is called a population regression function.</p>
+<p>The <strong><em>population regression function</em></strong> in terms of the Greek letter beta <span class="math inline">\(\beta\)</span> is <span class="math inline">\(E(Y)=\beta_0+\beta_1X\)</span> , where <span class="math inline">\(\beta_0\)</span> and <span class="math inline">\(\beta_1\)</span> are the intercept and slope parameters respectively. The notation <span class="math inline">\(E(Y)\)</span> means expected value of <span class="math inline">\(Y\)</span>.</p>
+<p><em>9.1.4: Population linear regression function.</em></p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/9.1.4.gif" controls=""> </p>
+<p>Captions:<br>
+1. If the data represents the whole population, a line that represents the relationship between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> can be obtained. 2. <span class="math inline">\(\beta_0\)</span> represents the intercept parameter, which is the <span class="math inline">\(Y\)</span> value of the intersection point between the line and the vertical axis. 3. <span class="math inline">\(\beta_1\)</span>represents the slope parameter, which is the ratio between the line’s rise and run. 4. The equation for the population linear regression line is <span class="math inline">\(E(Y)=\beta_0+\beta_1X\)</span>.</p>
+</section>
+</section>
+<section id="least-squares-method" class="level2">
+<h2 class="anchored" data-anchor-id="least-squares-method">9.2 Least Squares Method</h2>
+<ul>
+<li>Interpret regression error in a linear regression model.</li>
+<li>Calculate the sum of squared errors for a regression equation.</li>
+<li>Use the method of least squares to find the slope and intercept for a linear regression equation.</li>
+</ul>
+<section id="regression-error" class="level3">
+<h3 class="anchored" data-anchor-id="regression-error">Regression error</h3>
+<p>A particular data point has an actual value for <span class="math inline">\(Y\)</span>. Relative to the regression line, that point may be:</p>
+<ul>
+<li>above the line: <span class="math inline">\(Y\gt E(Y)\)</span></li>
+<li>below the line: <span class="math inline">\(Y\lt E(Y)\)</span>, or</li>
+<li>on the line: <span class="math inline">\(Y=E(Y)\)</span></li>
+</ul>
+<p>For each actual data point <span class="math inline">\(Y\)</span>, a (positive or negative) value can be added to the expected value <span class="math inline">\(E(Y)\)</span> to achieve <span class="math inline">\(Y\)</span>, as below. The <strong><em>linear regression model</em></strong> is <span class="math inline">\(Y = \beta_0 + \beta_1X + \epsilon\)</span>, where <span class="math inline">\(\epsilon\)</span> is the regression error term.</p>
+<p>A <strong><em>regression error</em></strong>, <span class="math inline">\(\epsilon=Y-E(Y)\)</span>, is a statistical error modeled as a random variable with a normal distribution that has zero mean and constant variance. The regression error is:</p>
+<ul>
+<li>positive for points that lie above the regression line,</li>
+<li>negative for points that lie below the regression line, and</li>
+<li>zero for points that lie on the regression line.</li>
+</ul>
+<p><em>9.2.1: Regression error.</em></p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/9.2.1.gif" controls=""> </p>
+<p>Captions: 1. The distance between each point and the line is the regression error <span class="math inline">\(\epsilon\)</span>. 2. Points above the population regression line have a positive regression error. 3. Points below the population regression line have a negative regression error. 4. Points on the population regression line have a regression error of zero.</p>
+</section>
+<section id="sum-of-squared-errors" class="level3">
+<h3 class="anchored" data-anchor-id="sum-of-squared-errors">Sum of squared errors</h3>
+<p>Summing the <em>absolute errors</em> is one method to measure how far the line is from the points. Another method to measure error is by computing the <em>sum of squared errors</em>. The sum of squared errors is the sum of the squared differences between the <span class="math inline">\(Y\)</span> values of the data points and the values obtained from the regression line.</p>
+<p><em>Example 9.2.2: Computing the sum of squared errors.</em></p>
+<p>Given the data points below, compute the sum of squared errors for the regression equation <span class="math inline">\(E(Y)=7+2X\)</span>.</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/9.2.2.png" controls=""> </p>
+<p><em>Solution</em></p>
+<p>For each value of <span class="math inline">\(X\)</span>, the regression values from the equation <span class="math inline">\(E(Y)=7+2X\)</span> are obtained. The errors are the difference between the <span class="math inline">\(Y\)</span> values of the data points and the regression values, <span class="math inline">\(Y-E(Y)\)</span>.</p>
+<p>For example, for the first value of <span class="math inline">\(X=0\)</span>, <span class="math inline">\(E(Y)=7+2(0)=7\)</span> which gives an error of <span class="math inline">\(Y-E(Y)=5-7=-2\)</span> and a squared error of <span class="math inline">\(-2^2=4\)</span>. These values complete the first column of the table below.</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/9.2.2a.png" controls=""> </p>
+<p>Thus, the sum of the squared errors is <span class="math inline">\(4+64+36+16=120\)</span>.</p>
+</section>
+<section id="least-squares-method-1" class="level3">
+<h3 class="anchored" data-anchor-id="least-squares-method-1">Least squares method</h3>
+<p>The <strong><em>method of least squares</em></strong> derives a linear regression model by minimizing the sum of squared errors. For a sample with <span class="math inline">\(n\)</span> observations, the sum of squared errors is <span class="math inline">\(\sum_{i=1}^{n}(Y_i-\beta_0-\beta_1X_i)^2\)</span>.</p>
+<p>The <strong><em>sample linear regression function</em></strong> is <span class="math inline">\(\hat{Y}=b_0+b_1X\)</span>, where <span class="math inline">\(\hat{Y}\)</span> are the predicted or fitted response values based on the linear regression model, and the regression parameter estimators, <span class="math inline">\(b_0\)</span> and <span class="math inline">\(b_1\)</span> are the values of the regression parameters, <span class="math inline">\(\beta_0\)</span> and <span class="math inline">\(\beta_1\)</span> that minimize the sum of squared errors.</p>
+<p>The “hat” notation in <span class="math inline">\(\hat{Y}\)</span> is a statistical convention that denotes a sample estimate. <span class="math inline">\(\hat{Y}=b_0+b_1X\)</span> is the sample linear regression line that estimates the population linear regression line <span class="math inline">\(E(Y)=\beta_0+\beta_1X\)</span> .</p>
+<p>A <strong><em>linear regression fitted value</em></strong>, <span class="math inline">\(\hat{Y}=b_0+b_1X\)</span>, is the predicted value of <span class="math inline">\(Y\)</span> for the <span class="math inline">\(i\)</span>th sample value of <span class="math inline">\(X\)</span> based on the sample linear regression line.</p>
+<p>A <strong><em>linear regression residual</em></strong>, <span class="math inline">\(\epsilon=Y_i-\hat{Y}_i\)</span>, is the <span class="math inline">\(i\)</span>th estimated regression error based on the sample linear regression line.</p>
+<p>For the data above, <span class="math inline">\(b_0=2\)</span> and <span class="math inline">\(b_1=3\)</span> minimize the sum of squared errors. Thus, the sample linear regression line is <span class="math inline">\(\hat{Y}=2+3X\)</span>. The fitted value when <span class="math inline">\(X_1=0\)</span> is <span class="math inline">\(\hat{Y}_1=2+3(0)=2\)</span>. The corresponding regression residual is <span class="math inline">\(\epsilon_1=Y_1-\hat{Y}_1=5-2=3\)</span>.</p>
+</section>
+</section>
+<section id="linear-regression-assumptions" class="level2">
+<h2 class="anchored" data-anchor-id="linear-regression-assumptions">9.3 Linear regression assumptions</h2>
+<ul>
+<li>List the conditions for creating a linear regression model.</li>
+<li>Interpret a residual plot.</li>
+</ul>
+<section id="linear-regression-assumptions-1" class="level3">
+<h3 class="anchored" data-anchor-id="linear-regression-assumptions-1">Linear regression assumptions</h3>
+<p>Not all data can be modeled using linear regression. Certain assumptions need to be met in order to determine whether the relationship between an explanatory variable and a response variable is linear. The following assumptions or conditions should be met before creating a linear regression model:</p>
+<ul>
+<li>the true relationship is linear</li>
+<li>errors have equal variance around the line</li>
+<li>errors are normally distributed</li>
+<li>the observations are independent</li>
+</ul>
+<p>The details of each condition are beyond the scope of the material. The first step, naturally, is to create a scatter plot. Sometimes, looking at the scatter plot is not sufficient, so a residual plot is needed. A <strong><em>residual plot</em></strong> graphs the relationship between the difference in the actual and predicted value, and the explanatory variable. For the assumptions to be satisfied, the residuals should have no discernable pattern. That is, the residuals should have a mean of zero, constant variance, and independent of each other.</p>
+<p><em>Example 9.3.1: Violations of the assumptions: Non-linearity.</em></p>
+<p>Does the underlying data for the residual plot below satisfy linearity?</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/9.3.1.png" controls=""> </p>
+<p><em>Solution</em></p>
+<p>No.&nbsp;The residual plot above shows a quadratic pattern. Looking at the values, the residuals are mostly positive for values of <span class="math inline">\(X\)</span> less than <span class="math inline">\(4\)</span> and greater than <span class="math inline">\(6\)</span>, and mostly negative for values of <span class="math inline">\(X\)</span> between <span class="math inline">\(4\)</span> and <span class="math inline">\(6\)</span>. This residual pattern implies that a non-linear relationship exists between the explanatory and response variables.</p>
+<p><em>Example 9.3.2: Violations of the assumptions: Non-constant variance.</em></p>
+<p>Does the underlying data for the residual plot below indicate that the errors have equal variance around the line?</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/9.3.2.png" controls=""> </p>
+<p><em>Solution</em></p>
+<p>No.&nbsp;The residuals follow a megaphone pattern. This means that the variance in predicted values increases as the value of the explanatory variable increases. A similar situation occurs when the residuals follow a funnel pattern. In that situation, the variance in predicted values decreases as the value of the explanatory variable increases.</p>
+</section>
+</section>
+<section id="correlation-and-coefficient-of-determination" class="level2">
+<h2 class="anchored" data-anchor-id="correlation-and-coefficient-of-determination">9.4 Correlation and coefficient of determination</h2>
+<ul>
+<li>Determine the strength and direction of a correlation based on the sample correlation coefficient <span class="math inline">\(R\)</span>.</li>
+<li>Identify the correlation coefficient <span class="math inline">\(R\)</span> from a scatter plot.</li>
+<li>Interpret the coefficient of determination <span class="math inline">\(R^2\)</span>.</li>
+</ul>
+<section id="correlation" class="level3">
+<h3 class="anchored" data-anchor-id="correlation">Correlation</h3>
+<p><strong><em>Correlation</em></strong> describes the association or dependence between two variables. A <strong><em>positive correlation</em></strong> between two variables means that as one variable increases, the other variable increases as well. A <strong><em>negative correlation</em></strong> between two variables means that as one variable increases, the other variable decreases. The strength of correlation between a predictor variable and a response variable can be measured by the correlation coefficient. The population correlation coefficient is denoted by <span class="math inline">\(\phi\)</span> and the sample correlation coefficient is denoted by <span class="math inline">\(R\)</span>.</p>
+<p>The strength of correlation can be described by the absolute value of <span class="math inline">\(R\)</span>. The table below gives a rough guideline.</p>
+<p><em>Table 9.4.1: Strength of correlation.</em></p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/9.4.1.png" controls=""> </p>
+<p><em>9.4.1: Correlation.</em></p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/9.4.1.gif" controls=""> </p>
+<p>Captions:<br>
+1. A positive correlation means that as one variable <span class="math inline">\(X\)</span> increases, the other variable <span class="math inline">\(Y\)</span> also increases. 2. The closer the points are to the regression line, the closer the absolute value of the correlation coefficient is to <span class="math inline">\(1\)</span>. 3. A negative correlation means that as one variable <span class="math inline">\(X\)</span> increases, the other variable <span class="math inline">\(Y\)</span> decreases.</p>
+</section>
+<section id="correlation-matrix" class="level3">
+<h3 class="anchored" data-anchor-id="correlation-matrix">Correlation matrix</h3>
+<p>Often, applications deal with more than one variable. A <strong><em>correlation matrix</em></strong> is a table that shows the correlation coefficients between each pair of variables. In the participation activity below, the correlation coefficient for Exam1 and Exam2 can be found in row <span class="math inline">\(2\)</span>, column <span class="math inline">\(1\)</span> of the table.</p>
+<p><em>9.4.3: Finding the correlation between the variables.</em></p>
+<p>Use the coefficient matrix below to answer the questions below about the correlation between exam scores in the ExamScores dataset.</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/9.4.3.png" controls=""> </p>
+<ol type="1">
+<li>What is the correlation coefficient between Exam1 and Exam4?</li>
+<li>What is the sign or direction of the correlation between Exam1 and Exam4?</li>
+<li>What is the strength of the correlation between Exam1 and Exam4?</li>
+</ol>
+<p><em>Solution</em></p>
+<ol type="1">
+<li><span class="math inline">\(0.261306\)</span></li>
+<li>Positive</li>
+<li>Weak</li>
+</ol>
+</section>
+<section id="coefficient-of-determination" class="level3">
+<h3 class="anchored" data-anchor-id="coefficient-of-determination">Coefficient of determination</h3>
+<p>Another quantity that shows how well a regression equation represents the data is the square of the correlation coefficient, known as the coefficient of determination. The <strong><em>coefficient of determination</em></strong>, denoted by <span class="math inline">\(R^2\)</span>, gives the ratio of the variance in the response variable explained by the predictor variable. Conceptually, the coefficient of determination is a measure of how closely the regression line follows the pattern of the data. The farther the actual data points are from the regression line, the less useful the line actually is in predicting the value of the response variable.</p>
+<p><em>Example 9.4.4: Coefficient of determination.</em></p>
+<p>Packed cell volume or hematocrit is the percentage volume of red blood cells in blood. PCV is commonly measured as part of routine blood tests. A researcher examines how well the amount of hemoglobin (Hb) in blood can predict packed cell volume (PCV) by creating a scatter plot with a regression or trendline as shown in the figure below.</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/9.4.4.png" controls=""> </p>
+<p>What is the interpretation of <span class="math inline">\(R^2\)</span>?</p>
+<p><em>Solution</em></p>
+<p>The coefficient of determination <span class="math inline">\(R^2\)</span> gives the strength of the model. Specifically, <span class="math inline">\(R^2\)</span> measures the variation in the response variable that can be explained by the variation in the explanatory variable.</p>
+<p>A coefficient of determination of <span class="math inline">\(0.757\)</span> means that <span class="math inline">\(75.7\%\)</span> of the variation in packed cell volume can be explained by the variation in hemoglobin.</p>
+</section>
+</section>
+<section id="interpreting-fitted-models" class="level2">
+<h2 class="anchored" data-anchor-id="interpreting-fitted-models">9.5 Interpreting fitted models</h2>
+<ul>
+<li>Interpret the slope and intercept of a sample linear regression line.</li>
+</ul>
+<section id="fitted-models" class="level3">
+<h3 class="anchored" data-anchor-id="fitted-models">Fitted models</h3>
+<p>A population linear regression line has the form <span class="math inline">\(E(Y)=\beta_0+\beta_1X\)</span>, where <span class="math inline">\(beta_0\)</span> is the intercept parameter and <span class="math inline">\(\beta_1\)</span> is the slope parameter. Since <span class="math inline">\(beta_0\)</span> and <span class="math inline">\(beta_1\)</span> are rarely known, estimators <span class="math inline">\(b_0\)</span> and <span class="math inline">\(b_1\)</span> are needed to build linear models used for predicting the value of the response variable <span class="math inline">\(Y\)</span>. The sample linear regression line is <span class="math inline">\(\hat{Y}=b_0+b_1X\)</span>, which gives the fitted values for <span class="math inline">\(Y\)</span>.</p>
+<p>The animation below gives the reaction times (in milliseconds) of <span class="math inline">\(6\)</span> adult drivers after consuming alcohol (in standard drink units). Reaction time is the response variable and alcohol consumption is the explanatory variable.</p>
+<p><em>9.5.1: Estimates for the slope and intercept regression parameters.</em></p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/9.5.1.gif" controls=""> </p>
+<p>Captions: 1. The sample simple linear regression line represents the linear relationship between <span class="math inline">\(Y\)</span> and <span class="math inline">\(X\)</span>. 2. <span class="math inline">\(b_0\)</span> represents the <span class="math inline">\(Y\)</span>-intercept of the line, or the fitted value of <span class="math inline">\(Y\)</span> when <span class="math inline">\(X=0\)</span>. 3. The fitted value of <span class="math inline">\(Y\)</span> increases from <span class="math inline">\(28\)</span> to <span class="math inline">\(34\)</span> and <span class="math inline">\(X\)</span> increases from <span class="math inline">\(4\)</span> to <span class="math inline">\(5\)</span>. The slope is the change in <span class="math inline">\(Y\)</span>, denoted by <span class="math inline">\(\delta{Y}\)</span> divided by the change in <span class="math inline">\(X\)</span>, denoted by <span class="math inline">\(\delta{X}\)</span>. 4. The <span class="math inline">\(b_1\)</span> represents the slope of the line, which is <span class="math inline">\(6\)</span>.</p>
+</section>
+<section id="interpreting-regression-parameter-estimates" class="level3">
+<h3 class="anchored" data-anchor-id="interpreting-regression-parameter-estimates">Interpreting regression parameter estimates</h3>
+<p>The estimates for the population regression parameters, <span class="math inline">\(b_0\)</span> and <span class="math inline">\(b_1\)</span>, can be interpreted as follows:</p>
+<ul>
+<li><span class="math inline">\(b_0\)</span> represents the <strong><em>estimated simple linear regression <span class="math inline">\(Y\)</span>-intercept</em></strong>, which is the fitted value of <span class="math inline">\(Y\)</span> when <span class="math inline">\(X=0\)</span>.</li>
+<li><span class="math inline">\(b_1\)</span>represents the <strong><em>estimated simple linear regression slope</em></strong>, which is the change in the fitted value of <span class="math inline">\(Y\)</span> per unit change in <span class="math inline">\(X\)</span>.</li>
+</ul>
+<p>The <span class="math inline">\(Y\)</span>-intercept, <span class="math inline">\(b_0\)</span>, has a practical meaning for datasets in which the predictor variable <span class="math inline">\(X\)</span> can take on a value of <span class="math inline">\(0\)</span> or values near <span class="math inline">\(0\)</span>. The measurement unit of <span class="math inline">\(b_0\)</span> is the same as the measurement unit of the response <span class="math inline">\(Y\)</span> variable. The slope, <span class="math inline">\(b_1\)</span>, always has a practical meaning. The measurement unit of <span class="math inline">\(b_1\)</span> is the same as the measurement unit of <span class="math inline">\(Y\)</span> per measurement unit of <span class="math inline">\(X\)</span>.</p>
+<p><em>Example 9.5.1: Interpreting regression parameter estimates.</em></p>
+<p>The regression line <span class="math inline">\(\hat{Y}=4+6X\)</span> predicts a driver’s reaction time (in milliseconds) using the amount of alcohol consumed (in standard alcohol units).<br>
+1. What is the interpretation for the intercept estimate? 2. What is the measurement unit for the intercept estimate? 3. What is the interpretation for the slope estimate? 4. What is the measurement unit for the slope estimate?</p>
+<p><em>Solution</em></p>
+<ol type="1">
+<li>The interpretation of the intercept estimate is the fitted value of the driver’s reaction time when the driver has had <span class="math inline">\(0\)</span> standard alcohol units.</li>
+<li>The measurement unit for the intercept estimate is milliseconds, the same units as the reaction time.</li>
+<li>The interpretation of the slope estimate is the change in the fitted value of the driver’s reaction time per unit increase in alcohol consumption.</li>
+<li>The measurement unit for the slope estimate is milliseconds per standard alcohol unit.</li>
+</ol>
+</section>
+</section>
+<section id="confidence-and-prediction-intervals" class="level2">
+<h2 class="anchored" data-anchor-id="confidence-and-prediction-intervals">9.6 Confidence and prediction intervals</h2>
+<ul>
+<li>Define what a confidence interval and prediction interval are for a sample linear regression line.</li>
+<li>Identify when to use a confidence interval and when to use a prediction interval.</li>
+</ul>
+<section id="confidence-and-prediction-intervals-1" class="level3">
+<h3 class="anchored" data-anchor-id="confidence-and-prediction-intervals-1">Confidence and prediction intervals</h3>
+<p>Each fitted value is given by <span class="math inline">\(\hat{Y}_i=b_0+b_1X_i\)</span> for each sample observation <span class="math inline">\(X_i\)</span>. Fitted values have two different interpretations:</p>
+<ol type="1">
+<li><span class="math inline">\(\hat{Y}\)</span> represents the estimated mean of the probability distribution of <span class="math inline">\(Y\)</span> for a fixed value of <span class="math inline">\(X\)</span>. In this context, <span class="math inline">\(\hat{Y}\)</span> estimates the mean, <span class="math inline">\(E(Y)\)</span>, for a fixed value of <span class="math inline">\(X\)</span>. Ex: the average reaction time for a group of individuals who have consumed a fixed amount of alcohol</li>
+<li><span class="math inline">\(\hat{Y}\)</span> also represents the predicted value of an individual instance of <span class="math inline">\(Y\)</span> from the probability distribution of <span class="math inline">\(Y\)</span> for a fixed value of <span class="math inline">\(X\)</span>. In this context, <span class="math inline">\(\hat{Y}\)</span> predicts <span class="math inline">\(Y\)</span> for a fixed value of <span class="math inline">\(X\)</span>. Ex: the reaction time for one individual who has consumed a fixed amount of alcohol</li>
+</ol>
+<p>A <strong><em>simple linear regression confidence interval for the mean</em></strong> is an interval around <span class="math inline">\(\hat{Y}\)</span> that quantifies sampling uncertainty when <span class="math inline">\(\hat{Y}\)</span> is used to estimate <span class="math inline">\(E(Y)\)</span> for any fixed value of <span class="math inline">\(X=x^*\)</span>. The confidence interval is given by <span class="math display">\[\hat{Y}\pm t^*_{n-2}s_y\sqrt{\frac{1}{n}+\frac{(x^*-\bar{x})^2}{(n-1)s^2_x}}\]</span><br>
+where <span class="math inline">\(s_y\)</span> is the residual standard error.<br>
+A <strong><em>simple linear regression prediction interval for an individual response</em></strong> is an interval around <span class="math inline">\(\hat{Y}\)</span> that quantifies sampling uncertainty when <span class="math inline">\(\hat{Y}\)</span> is used to predict <span class="math inline">\(Y\)</span> for a fixed value of <span class="math inline">\(X=x^*\)</span>. The prediction interval is given by <span class="math display">\[\hat{Y}\pm t^*_{n-2}s_y\sqrt{1+{\frac{1}{n}+\frac{(x^*-\bar{x})^2}{(n-1)s^2_x}}}\]</span><br>
+where <span class="math inline">\(s_y\)</span> is the the residual standard error.</p>
+<p><em>Figure 9.6.1: Confidence and prediction intervals.</em></p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/9.6.1.png" controls=""> </p>
+</section>
+</section>
+<section id="testing-linear-regression-parameters" class="level2">
+<h2 class="anchored" data-anchor-id="testing-linear-regression-parameters">9.7 Testing linear regression parameters</h2>
+<ul>
+<li>Compare sample and population regression lines.</li>
+<li>Apply a <span class="math inline">\(t\)</span>-test for the linear regression slope parameter.</li>
+<li>Apply a <span class="math inline">\(t\)</span>-test for the linear regression intercept parameter.</li>
+<li>Define, calculate, and interpret <span class="math inline">\(t\)</span> confidence intervals for the slope parameter of a linear regression.</li>
+<li>Apply an ANOVA <span class="math inline">\(F\)</span>-test for the linear regression slope parameter.</li>
+<li>Interpret an ANOVA table.</li>
+<li>Calculate the coefficient of determination <span class="math inline">\(R^2\)</span> from the ANOVA table.</li>
+</ul>
+<section id="population-and-sample-regression-lines" class="level3">
+<h3 class="anchored" data-anchor-id="population-and-sample-regression-lines">Population and sample regression lines</h3>
+<p>The sample regression parameter estimators, <span class="math inline">\(b_0\)</span> and <span class="math inline">\(b_1\)</span>, are the values of the population regression parameters, <span class="math inline">\(\beta_0\)</span> and <span class="math inline">\(\beta_1\)</span>, that minimize the sum of squared errors for the model <span class="math inline">\(E(Y)=\beta_0+\beta_1X\)</span>, where <span class="math inline">\(\beta_0\)</span> is the intercept parameter and <span class="math inline">\(\beta_1\)</span> is the slope parameter. The estimator, <span class="math inline">\(b_1\)</span>, is an unbiased estimate of <span class="math inline">\(\beta_1\)</span>, which means that under repeated sampling, the expected value of <span class="math inline">\(b_1\)</span> equals <span class="math inline">\(\beta_1\)</span>. However, the value of <span class="math inline">\(b_1\)</span> for a particular sample will generally not be equal to <span class="math inline">\(\beta_1\)</span>. The value of <span class="math inline">\(b_1\)</span> differs from <span class="math inline">\(\beta_1\)</span> because of sampling variation, as illustrated in the following animation.</p>
+<p><em>9.9.1: Visualizing population and sample regression lines.</em></p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/9.9.1.gif" controls=""> </p>
+<p>Captions:<br>
+1. Suppose no population linear relationship exists between <span class="math inline">\(Y\)</span> and <span class="math inline">\(X\)</span>. Therefore, the population regression line has a zero slope. 2. Sample data from such a population may have a linear relationship, which implies that the sample regression line has a non-zero slope. 3. However, a sample with a regression line that has a slope close to zero may exist. 4. Alternatively, a negative population linear relationship exists between <span class="math inline">\(Y\)</span> and <span class="math inline">\(X\)</span>. 5. Sample data from such a population will likely have a negative linear relationship, which implies that a sample regression line would have a slope that is far from zero. 6. In practice, the population regression line is not known, so inference is made on the population regression line based on the sample regression line.</p>
+</section>
+<section id="testing-the-linear-regression-slope-parameter" class="level3">
+<h3 class="anchored" data-anchor-id="testing-the-linear-regression-slope-parameter">Testing the linear regression slope parameter</h3>
+<p>The estimator <span class="math inline">\(b_1\)</span> is a single number used to estimate <span class="math inline">\(\beta_1\)</span>. If <span class="math inline">\(\beta_1\)</span> were equal to <span class="math inline">\(0\)</span>, then no linear relationship would exist between <span class="math inline">\(Y\)</span> and <span class="math inline">\(X\)</span>. However, in such a circumstance, as illustrated in the animation above, sampling uncertainty could lead to a non-zero estimator, <span class="math inline">\(b_1\)</span>. To determine whether <span class="math inline">\(b_1\)</span> is sufficiently far from <span class="math inline">\(0\)</span> to reject the possibility that <span class="math inline">\(\beta_1=0\)</span> in the population, the <span class="math inline">\(t\)</span>-test can be used.</p>
+<p><em>Procedure 9.9.1: <span class="math inline">\(t\)</span>-test for the slope parameter.</em></p>
+<ol type="1">
+<li>Set the null hypothesis, <span class="math inline">\(H_0:\beta_1=0\)</span>, versus the alternative hypothesis, <span class="math inline">\(H_a:\beta_1\ne0\)</span>.</li>
+<li>Specify the significance level <span class="math inline">\(\alpha\)</span>, typically <span class="math inline">\(\alpha=0.05\)</span>.</li>
+<li>Use statistical software to find the <span class="math inline">\(t\)</span>-statistic, which is <span class="math inline">\(b_1\)</span> divided by the standard error of <span class="math inline">\(b_1\)</span>.</li>
+<li>Use statistical to calculate the <span class="math inline">\(p\)</span>-value that corresponds to the <span class="math inline">\(t\)</span>-statistic. The <span class="math inline">\(p\)</span>-value is the probability of observing a <span class="math inline">\(t\)</span>-statistic at least as far from <span class="math inline">\(0\)</span> as the one observed, if the null hypothesis were true. The reference <span class="math inline">\(t\)</span>-distribution has <span class="math inline">\(n-p\)</span> degrees of freedom, where <span class="math inline">\(n\)</span> is the sample size and <span class="math inline">\(p\)</span> is the number of regression parameters (typically the number of predictor variables plus one for the intercept).</li>
+<li>Make a decision based on a previously selected significance level, typically <span class="math inline">\(0.05\)</span>:
+<ul>
+<li>If the <span class="math inline">\(p\)</span>-value is less than the significance level, reject the null hypothesis, <span class="math inline">\(H_0:\beta_1=0\)</span>, in favor of the alternative hypothesis, <span class="math inline">\(H_a:\beta_1\ne0\)</span>. Conclude that <span class="math inline">\(\beta_1\)</span> is statistically significantly different from <span class="math inline">\(0\)</span>, which means that a statistically significant linear relationship exists between <span class="math inline">\(Y\)</span> and <span class="math inline">\(X\)</span>.</li>
+<li>If the <span class="math inline">\(p\)</span>-value is greater than or equal to the significance level, fail to reject the null hypothesis, <span class="math inline">\(H_0:\beta_1=0\)</span>, in favor of the alternative hypothesis, <span class="math inline">\(H_a:\beta_1\ne0\)</span>. Conclude that <span class="math inline">\(\beta_1\)</span> is not statistically significantly different from <span class="math inline">\(0\)</span>, which means that a statistically significant linear relationship does not exist between <span class="math inline">\(Y\)</span> and <span class="math inline">\(X\)</span>.</li>
+</ul></li>
+</ol>
+<p><em>Example 9.9.1: Testing a simple linear regression slope.</em></p>
+<p>The ExamScores dataset is a record of <span class="math inline">\(4\)</span> exam scores for <span class="math inline">\(50\)</span> students. <span class="math inline">\(Y=Exam4\)</span> is the response variable and <span class="math inline">\(X=Exam2\)</span> is the predictor variable. The teacher believes that a linear relationship exists between Exam4 scores and Exam2 scores. Does sufficient evidence exist to support the teacher’s claim at the <span class="math inline">\(\alpha=0.05\)</span> significance level? Use the partial output below.</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/9.9.1.png" controls=""> </p>
+<p><em>Solution</em></p>
+<ol type="1">
+<li>The null hypothesis is that no linear relationship exists between Exam4 scores and Exam2 scores. The alternative hypothesis is that a linear relationship exists between scores from both exams. Mathematically, <span class="math display">\[H_0:\beta_1=0\]</span><span class="math display">\[H_a:\beta_1\ne0\]</span></li>
+<li><span class="math inline">\(\alpha=0.05\)</span></li>
+<li>The output gives <span class="math inline">\(t=2.324803\)</span>.</li>
+<li>The output gives the <span class="math inline">\(p\)</span>-value as <span class="math inline">\(P(t\le-2.325\)</span> or <span class="math inline">\(t\ge2.325)=0.024359\)</span>.</li>
+<li>Since the <span class="math inline">\(p\)</span>-value is less than the significance level <span class="math inline">\((0.024\lt0.05)\)</span>, the null hypothesis is rejected. Thus, statistically significant evidence exists to support the teacher’s claim that exam 4 scores and exam 2 scores are linearly dependent.</li>
+</ol>
+<p><em>9.9.2: Testing a simple linear regression slope.</em></p>
+<p>The Disease dataset is a record of disease marker levels and treatment times for <span class="math inline">\(12\)</span> patients. <span class="math inline">\(Y=Disease\)</span> is the response variable that measures the level of the disease marker and <span class="math inline">\(X=Time\)</span> is the predictor variable that gives the treatment time in months for each patient. A researcher claims that a linear relationship exists between disease marker levels and treatment times.</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/9.9.2.png" controls=""> </p>
+<ol type="1">
+<li>What is the null hypothesis for testing whether a linear relationship exists between disease level and treatment time?</li>
+<li>What is the alternative hypothesis for testing whether a linear relationship exists between disease level and treatment time?</li>
+<li>Given that the <span class="math inline">\(p\)</span>-value is <span class="math inline">\(0.0006\)</span>, what is the decision based on a significance level of <span class="math inline">\(\alpha=0.05\)</span>?</li>
+<li>What is the conclusion about whether a linear relationship exists between disease marker level and treatment time?</li>
+</ol>
+<p><em>Solution</em></p>
+<ol type="1">
+<li><span class="math inline">\(H_0:\beta_1=0\)</span></li>
+<li><span class="math inline">\(H_a:\beta_1\ne0\)</span></li>
+<li>Reject <span class="math inline">\(H_0\)</span></li>
+<li>A statistically significant relationship exists</li>
+</ol>
+<p>The slope test above is a two-tailed test, which means that the null hypothesis can be rejected for <span class="math inline">\(t\)</span>-statistics that are either negative and far from zero, or positive and far from zero. Occasionally, a one-tailed test is used when a specific reason exists to test for a positive (or negative) linear relationship.</p>
+<p><em>9.9.3: One-tailed test for the slope.</em></p>
+<p>Another researcher claims that as treatment times increase, disease level markers decrease. Does statistically significant evidence exist to support the researcher’s claim? Use the linear regression model for the Disease dataset below.</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/9.9.3.png" controls=""> </p>
+<ol type="1">
+<li>What is the alternative hypothesis for a one-tailed test for a negative linear relationship between disease level and treatment time?</li>
+<li>The <span class="math inline">\(t\)</span>-statistic for the two-tailed slope test for this example is <span class="math inline">\(t=-\frac{2}{0.4062}=-4.924\)</span>. What is the <span class="math inline">\(t\)</span>-statistic for a one-tailed test for a negative linear relationship between disease level and treatment time?</li>
+<li>What is the <span class="math inline">\(p\)</span>-value for a one-tailed test for a negative linear relationship between treatment time and disease level?</li>
+<li>What is the conclusion about whether a negative linear relationship exists between disease level and treatment time, based on a significance level of <span class="math inline">\(0.05\)</span>?</li>
+<li>What would be the conclusion about whether a positive linear relationship exists between disease level and treatment time, based on a significance level of <span class="math inline">\(0.05\)</span>? Hint: The <span class="math inline">\(p\)</span>-value for testing for a positive relationship is the area under the probability curve to the right of the test statistic, which is <span class="math inline">\(1-0.0005=0.9995\)</span> in this case.</li>
+</ol>
+<p><em>Solution</em></p>
+<ol type="1">
+<li><span class="math inline">\(H_a:\beta_1\lt0\)</span></li>
+<li><span class="math inline">\(t=-4.924\)</span></li>
+<li><span class="math inline">\(\frac{0.0006}{2}=0.0003\)</span></li>
+<li>A statistically significant negative linear relationship exists.</li>
+<li>A statistically significant positive linear relationship does not exist.</li>
+</ol>
+</section>
+<section id="testing-the-intercept-parameter" class="level3">
+<h3 class="anchored" data-anchor-id="testing-the-intercept-parameter">Testing the intercept parameter</h3>
+<p>Rarely, a reason may exist to test the possibility that the intercept parameter, <span class="math inline">\(\beta_0\)</span>, is zero in the population. Testing <span class="math inline">\(\beta_0=0\)</span> is only warranted if the response variable <span class="math inline">\(Y\)</span> could possibly be zero when the predictor variable <span class="math inline">\(X\)</span> is zero. Ex: In the treatment time and disease example above, the disease level cannot possibly be zero when treatment time is zero. Thus, testing <span class="math inline">\(\beta_0=0\)</span> is not warranted for this example. In examples where testing <span class="math inline">\(\beta_0=0\)</span> is warranted, the intercept test is performed similarly as the slope test above.</p>
+<p><em>9.9.4: Testing a simple linear regression intercept.</em></p>
+<p>In a particular manufacturing process, <span class="math inline">\(X\)</span> is the predictor variable that represents the number of items produced during a <span class="math inline">\(1\)</span>-hour time period and <span class="math inline">\(Y\)</span> is the response variable that represents the number of rejected items during that time. The <span class="math inline">\(t\)</span>-statistic for the simple linear regression intercept, <span class="math inline">\(\beta_0\)</span>, fit to these data is <span class="math inline">\(t=\frac{1}{1.830=0.546\)</span> with a <span class="math inline">\(p\)</span>-value of <span class="math inline">\(0.300\)</span>.</p>
+<ol type="1">
+<li>Is testing <span class="math inline">\(\beta_0=0\)</span> warranted for this example?</li>
+<li>What are the hypotheses for testing whether zero rejected items could be present on average when zero items were produced?</li>
+<li>Given that the <span class="math inline">\(p\)</span>-value is <span class="math inline">\(0.300\)</span>, what is the decision based on a significance level of <span class="math inline">\(0.05\)</span>?</li>
+<li>What is the conclusion about whether the intercept is not statistically significantly different from zero, in other words, whether zero rejected items could be present on average when zero items are produced?</li>
+</ol>
+<p><em>Solution</em></p>
+<ol type="1">
+<li>Yes</li>
+<li><span class="math inline">\(H_0:\beta_0=0\)</span> versus <span class="math inline">\(H_a:\beta_0\ne0\)</span></li>
+<li>Fail to reject <span class="math inline">\(H_0\)</span></li>
+<li>The intercept is not statistically significantly different from zero.</li>
+</ol>
+</section>
+<section id="confidence-intervals-for-regression-parameters" class="level3">
+<h3 class="anchored" data-anchor-id="confidence-intervals-for-regression-parameters">Confidence intervals for regression parameters</h3>
+<p>The slope estimator, <span class="math inline">\(b_1\)</span>, provides a single number to estimate <span class="math inline">\(\beta_1\)</span>. To quantify sampling uncertainty about a single number used to estimate <span class="math inline">\(\beta_1\)</span>, one can calculate an interval around the number. A <strong><em>onfidence interval for the slope</em></strong> is an interval around <span class="math inline">\(b_1\)</span> that quantifies sampling uncertainty when <span class="math inline">\(b_1\)</span> is used to estimate <span class="math inline">\(\beta_1\)</span>. Although far less common, the confidence interval for the intercept can also be calculated.</p>
+<p><em>Example 9.9.4: Finding a confidence interval for the slope.</em></p>
+<p>The ExamScores dataset is a record of <span class="math inline">\(4\)</span> exam scores for <span class="math inline">\(50\)</span> students. <span class="math inline">\(Y=Exam4\)</span> is the response variable and <span class="math inline">\(X=Exam2\)</span> is the predictor variable. The teacher believes that a linear relationship exists between Exam4 scores and Exam2 scores. Find a <span class="math inline">\(99\%\)</span> confidence level for the slope. Use the partial output below.</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/9.9.4.png" controls=""> </p>
+<p><em>Solution</em></p>
+<p>The confidence interval in the output is a <span class="math inline">\(95\%\)</span> confidence interval. The regression line has two parameters, the slope and intercept parameters, so <span class="math inline">\(p=2\)</span>. At the <span class="math inline">\(99\%\)</span> confidence level with degrees of freedom <span class="math inline">\(n-p=50-2=48\)</span>, the critical value is <span class="math inline">\(t^*=2.407\)</span>. Thus, the <span class="math inline">\(99\%\)</span> confidence interval for the slope is, <span class="math display">\[[0.1788-(2.407)(0.3077),0.1788+(2.407)(0.3077)]=[-0.007,0.364]\]</span></p>
+</section>
+<section id="analysis-of-variance-f-test" class="level3">
+<h3 class="anchored" data-anchor-id="analysis-of-variance-f-test">Analysis of Variance <span class="math inline">\(F\)</span>-test</h3>
+<p>Since the population regression line is given by <span class="math inline">\(E(Y)=\beta_0+\beta_1X\)</span>, determining whether an association exists between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> is equivalent to determining whether <span class="math inline">\(\beta_1\ne0\)</span>. The association between two variables can be tested using the ANOVA <span class="math inline">\(F\)</span>-test. The <strong><em>simple linear regression ANOVA <span class="math inline">\(F\)</span>-test</em></strong> is a method for testing <span class="math inline">\(H_0:\beta_0=0\)</span> versus <span class="math inline">\(H_a:\beta_0\ne0\)</span>. For simple linear regression, the ANOVA <span class="math inline">\(F\)</span>-test is equivalent to the slope <span class="math inline">\(t\)</span>-test, which is covered in an earlier section. However, when testing for association involving multiple predictor variables, the ANOVA <span class="math inline">\(F\)</span>-test and slope <span class="math inline">\(t\)</span>-tests are not equivalent.</p>
+<p>The ANOVA table includes the following quantities:</p>
+<ul>
+<li>The <strong><em>residual sum of squares</em></strong> is <span class="math inline">\(SSE=\sum_{i=1}^n(Y_i-\hat{Y}_i)^2\)</span>, where <span class="math inline">\(\hat{Y}_i\)</span> is the <span class="math inline">\(i\)</span>th fitted response variable.</li>
+<li>The <strong><em>residual degrees of freedom</em></strong> is <span class="math inline">\(n-p\)</span>.</li>
+<li>The <strong><em>residual mean square</em></strong> is <span class="math inline">\(MSE=\frac{SSE}{n-p}\)</span>.</li>
+<li>The <strong><em>regression sum of squares</em></strong> is <span class="math inline">\(SSR=\sum_{i=1}^n(\hat{Y}_i-\bar{Y})^2\)</span>, where <span class="math inline">\(\hat{Y}_i\)</span> is the <span class="math inline">\(i\)</span>th fitted response variable and <span class="math inline">\(\bar{Y}\)</span> is the sample mean of the response values.</li>
+<li>The <strong><em>regression degrees of freedom</em></strong> is <span class="math inline">\(p-1\)</span>, where <span class="math inline">\(p\)</span> is the number of regression parameters. Ex: Simple linear regression has <span class="math inline">\(p=2\)</span> regression parameters, so the regression degrees of freedom is <span class="math inline">\(1\)</span>.</li>
+<li>The <strong><em>regression mean square</em></strong> is the regression sum of squares divided by the regression degrees of freedom, <span class="math inline">\(MSR=\frac{SSR}{p-1}\)</span>. Ex: For simple linear regression, <span class="math inline">\(MSR=\frac{SSR}{1}=SSR\)</span>.</li>
+<li>The <strong><em>total sum of squares</em></strong> is <span class="math inline">\(SSTO=\sum_{i=1}^n(Y_i-\bar{Y})^2\)</span>. Note that <span class="math inline">\(SSTO=SSR+SSE\)</span>.</li>
+<li>The <strong><em>total degrees of freedom</em></strong> is <span class="math inline">\(n-1\)</span>. Here <span class="math inline">\(n\)</span> is the sample size. Note that <span class="math inline">\(n-1=(p-1)+(n-p)\)</span>, so total degrees of freedom = regression degrees of freedom + residual degrees of freedom.</li>
+</ul>
+<p>The quantities above can be summarized using an ANOVA table.</p>
+<p><em>9.9.6: Composition of the ANOVA table.</em></p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/9.9.6.gif" controls=""> </p>
+<p>Captions:<br>
+1. Total sum of squares is partitioned into regression and residual sums of squares. <span class="math inline">\(SSTO=SSR+SSE\)</span>. 2. Total degrees of freedom is partitioned into regression and residual degrees of freedom. <span class="math inline">\(n-1=(p-1)+(n-p)\)</span>. 3. Regression mean square is the sum of squares divided by the degrees of freedom. <span class="math inline">\(MSR=\frac{SSR}{p-1}\)</span>. 4. Residual mean square is the sum of squares divided by the degrees of freedom. <span class="math inline">\(MSE=\frac{SSE}{n-p}\)</span>. 5. ANOVA <span class="math inline">\(F\)</span>-statistic is the ratio of the regression mean square to the residual mean square. <span class="math inline">\(F=\frac{MSR}{MSE}\)</span>. 6. The <span class="math inline">\(p\)</span>-value is the probability of observing an <span class="math inline">\(F\)</span>-statistic at least as large as the one observed, if the null hypothesis were true.</p>
+<p><em>Procedure 9.9.6: Simple linear regression ANOVA <span class="math inline">\(F\)</span>-test.</em></p>
+<p>The steps for the ANOVA <span class="math inline">\(F\)</span>-test are as follows:</p>
+<ol type="1">
+<li>Set the null hypothesis, <span class="math inline">\(H_0:\beta_1=0\)</span>, versus the alternative hypothesis, <span class="math inline">\(H_a:\beta_1\ne0\)</span>.</li>
+<li>Specify the significance level <span class="math inline">\(\alpha\)</span>, typically <span class="math inline">\(\alpha=0.05\)</span>.</li>
+<li>Use statistical software to find the <span class="math inline">\(F\)</span>-statistic, which is the regression mean square divided by the residual mean square. The ANOVA <span class="math inline">\(F\)</span>-statistic is the same as the square of the slope <span class="math inline">\(t\)</span>-statistic. <span class="math display">\[F=\frac{MSR}{MSE}\]</span></li>
+<li>Use statistical software to find the <span class="math inline">\(p\)</span>-value that corresponds to the <span class="math inline">\(F\)</span>-statistic. The <span class="math inline">\(p\)</span>-value is the probability of observing an <span class="math inline">\(F\)</span>-statistic at least as far from <span class="math inline">\(0\)</span> as the one observed, if the null hypothesis were true. The reference <span class="math inline">\(F\)</span>-distribution has <span class="math inline">\(p-1\)</span> numerator degrees of freedom and <span class="math inline">\(n-p\)</span> denominator degrees of freedom. The ANOVA <span class="math inline">\(F\)</span>-test has the same <span class="math inline">\(p\)</span>-value as the slope <span class="math inline">\(t\)</span>-test.</li>
+<li>Make a decision based on a previously selected significance level, typically <span class="math inline">\(0.05\)</span>:
+<ul>
+<li>If the <span class="math inline">\(p\)</span>-value is less than the significance level, reject the null hypothesis, <span class="math inline">\(H_0:\beta_1=0\)</span>, in favor of the alternative hypothesis, <span class="math inline">\(H_a:\beta_1\ne0\)</span>. Conclude that <span class="math inline">\(\beta_1\)</span> is significantly different from <span class="math inline">\(0\)</span>, which means that a statistically significant linear relationship exists between <span class="math inline">\(Y\)</span> and <span class="math inline">\(X\)</span>.</li>
+<li>If the <span class="math inline">\(p\)</span>-value is greater than or equal to the significance level, fail to reject the null hypothesis, <span class="math inline">\(H_0:\beta_1=0\)</span>, in favor of the alternative hypothesis, <span class="math inline">\(H_a:\beta_1\ne0\)</span>. Conclude that <span class="math inline">\(\beta_1\)</span> is not significantly different from <span class="math inline">\(0\)</span>, which means that a statistically significant linear relationship does not exist between <span class="math inline">\(Y\)</span> and <span class="math inline">\(X\)</span>.</li>
+</ul></li>
+</ol>
+<p><em>Example 9.9.6: Using the ANOVA table and performing the <span class="math inline">\(F\)</span>-test for simple linear regression.</em></p>
+<p>The teacher of a statistics class with 50 students believes that scores in the first exam predict how well students do in the fourth exam. The ANOVA table where Exam4 is the response variable and Exam1 is the predictor variable is given below.</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/9.9.6.png" controls=""> </p>
+<ol type="a">
+<li><p>Find the regression mean square <span class="math inline">\(MSR\)</span> and the residual mean square <span class="math inline">\(MSE\)</span>.</p></li>
+<li><p>Perform an ANOVA <span class="math inline">\(F\)</span>-test to determine whether sufficient evidence exists to support the teacher’s belief at the <span class="math inline">\(\alpha=0.10\)</span> significance level.</p></li>
+</ol>
+<p><em>Solution</em></p>
+<ol type="a">
+<li><p>To find <span class="math inline">\(MSR\)</span>, the regression sum of squares is divided by the regression degrees of freedom (<span class="math inline">\(p-1\)</span>). <span class="math display">\[MSR=\frac{SSR}{p-1}=\frac{219.116}{1}=219.166\]</span> To find <span class="math inline">\(MSE\)</span>, the residual mean square is divided by the residual degrees of freedom (<span class="math inline">\(n-p\)</span>). <span class="math display">\[MSE=\frac{SSE}{n-p}=\frac{2963.334}{48}=61.736\]</span></p></li>
+<li></li>
+</ol>
+<ol type="1">
+<li>The null hypothesis is that no association exists between Exam4 and Exam1. The alternative hypothesis is that an association exists between scores in the first exam and the fourth exam. Mathematically, the null hypothesis is that the slope parameter is zero and the alternative hypothesis is that the slope parameter is not equal to zero as given below. <span class="math display">\[H_0:\beta_0=0\]</span><span class="math display">\[H_a:\beta_0\ne0\]</span></li>
+<li><span class="math inline">\(\alpha=0.10\)</span></li>
+<li>From the ANOVA table, <span class="math inline">\(F=3.5187655\)</span></li>
+<li>From the ANOVA table, the <span class="math inline">\(p\)</span>-value is <span class="math display">\[p-value=P(F\ge3.518)\approx0.0676808\]</span></li>
+<li>Since the <span class="math inline">\(p\)</span>-value is less than the significance level <span class="math inline">\(\alpha=0.10\)</span>, sufficient evidence exists to support the hypothesis that an association exists between Exam4 and Exam1.</li>
+</ol>
+</section>
+<section id="the-coefficient-of-determination" class="level3">
+<h3 class="anchored" data-anchor-id="the-coefficient-of-determination">The coefficient of determination</h3>
+<p>The <strong><em>coefficient of determination</em></strong>, denoted by <span class="math inline">\(R^2\)</span> is another measure of correlation. The coefficient of determination is useful because the quantity measures the proportion of total variation in the response variable, <span class="math inline">\(Y\)</span>, that is accounted for by the linear regression model. Intuitively, the value of <span class="math inline">\(R^2\)</span> can be viewed as a quantitative way of measuring certainty when making predictions from a model. Although <span class="math inline">\(R^2\)</span> can easily be calculated by squaring the Pearson correlation coefficient, <span class="math inline">\(R^2\)</span> can also be calculated from the values in the ANOVA table: <span class="math inline">\(R^2=\frac{SSTO-SSE}{SSTO}=\frac{SSR}{SSTO}T\)</span>.</p>
+<p><span class="math inline">\(SSTO\)</span> and <span class="math inline">\(SSE\)</span> measure different quantities:</p>
+<ul>
+<li>The best prediction of <span class="math inline">\(Y\)</span> if one ignores <span class="math inline">\(X\)</span> is the sample mean of <span class="math inline">\(Y\)</span>, <span class="math inline">\(\bar{Y}\)</span>. Thus, the total sum of squares, <span class="math inline">\(SSTO=\sum_{i=1}^n(Y_i-\bar{Y})^2\)</span> measures the variation in <span class="math inline">\(Y\)</span> ignoring <span class="math inline">\(X\)</span>.</li>
+<li>The best prediction of <span class="math inline">\(Y\)</span> based on the simple linear regression model is <span class="math inline">\(\hat{Y}\)</span>. Thus, the residual sum of squares, <span class="math inline">\(SSE=\sum_{i=1}^n(Y_i-\hat{Y})^2\)</span>, measures the variation remaining in <span class="math inline">\(Y\)</span> after using <span class="math inline">\(X\)</span> to predict <span class="math inline">\(Y\)</span>.</li>
+</ul>
+<p>The value of <span class="math inline">\(R^2\)</span> is typically expressed as a percentage between <span class="math inline">\(0\%\)</span> and <span class="math inline">\(100\%\)</span>:</p>
+<ul>
+<li>If a strong linear relationship exists between <span class="math inline">\(Y\)</span> and <span class="math inline">\(X\)</span>, using <span class="math inline">\(X\)</span> to predict <span class="math inline">\(Y\)</span> will leave little variation remaining in <span class="math inline">\(Y\)</span>. Then <span class="math inline">\(SSE\)</span> will be small and <span class="math inline">\(R^2\)</span> will be high (generally greater than <span class="math inline">\(90\%\)</span>).</li>
+<li>Conversely, if a linear relationship does not exist between <span class="math inline">\(Y\)</span> and <span class="math inline">\(X\)</span>, using <span class="math inline">\(X\)</span> to predict <span class="math inline">\(Y\)</span> will leave a lot of variation remaining in <span class="math inline">\(Y\)</span>. Then <span class="math inline">\(SSE\)</span> will be close to <span class="math inline">\(SSTO\)</span> and <span class="math inline">\(R^2\)</span> will be low (close to <span class="math inline">\(0\%\)</span>).</li>
+</ul>
+<p><em>Example 9.9.7: Finding and interpreting the coefficient of determination.</em></p>
+<p>Consider the data involving the statistics class of 50 students where Exam1 is the predictor variable and Exam4 is the response variable.</p>
+<p>Find and interpret the quantities involved in calculating the coefficient of determination. Use the data from the ANOVA table below.</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/9.9.9.png" controls=""> </p>
+<p><em>Solution</em></p>
+<p><span class="math inline">\(SSR=219.166351\)</span> measures the variation between fitted values and the sample mean of Exam4 scores.</p>
+<p><span class="math inline">\(SSE=2963.333649\)</span> measures the variation remaining in Exam4 after using Exam1 to predict Exam4 scores.</p>
+<p>The total sum of squares <span class="math inline">\(SSTO\)</span> is calculated by adding <span class="math inline">\(SSR\)</span> and <span class="math inline">\(SSE\)</span>. <span class="math inline">\(SSTO\)</span> represents the variation in Exam4 scores ignoring Exam1 scores. <span class="math display">\[SSTO=SSR+SSE=219.166351+2963.333649=3180.5\]</span> To calculate <span class="math inline">\(R^2\)</span>, <span class="math inline">\(SSR\)</span> is divided by <span class="math inline">\(SSTO\)</span>. <span class="math display">\[R^2=\frac{SSR}{SSTO}=\frac{219.166351}{3180.5}\approx0.068\]</span> Thus, approximately <span class="math inline">\(6.8\%\)</span> of the total variation in Exam4 scores is accounted for by the linear regression model with Exam1 as a predictor.</p>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

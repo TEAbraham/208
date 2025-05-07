@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWhen finding a confidence interval for the slope of a regression line, the following formula should be used:\n\n$$b\\pm t^{*} (SE_{b})$$\n\n...where $b$ is the slope of the line of best fit, $t^{*}$ is the critical value, and $ SE_{b}$ is the standard error of the slope.\n\nTo use this formula, we need to know how to read the computer data. For a confidence interval, the $T$ and $P$ columns are ignored. Also, ignore the \"constant\" line. Thus, only two numbers from the table are used in this problem to construct the confidence interval.\n\nThese two values come from the $x$ value line. Were a real problem described, this row would have the $x$ variable listed. In this problem we have the slope value, or $b$, as $0.5678$ and the standard error, or $SE_{b}$, as $0.0769$.\n\nNext, we need to use Table $B$ to find the value of the critical value or $t^{*}$. Since our sample size is $42$, and we know that the degrees of freedom for this type of interval is $n-2$, then we use a d.f. of $42-2=40$ from the table. Using the $95\\%$ confidence level column, we find a $t^{*}$ value of $2.021$.\n\nSubstituting the above values into our formula for a confidence interval we get:\n\n$$0.5678 \\pm (2.021)(0.0769)$$\n\n...which simplifies to $0.5678 \\pm 0.1554$.\n\nSo, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the wrong value from the table is used for the slope.\n\nChoice 'B' is incorrect because the wrong values from the table are used for the slope and the standard error.\n\nChoice 'C' is incorrect because the wrong critical value, $1.96$ or $z^{*}$, is used\n\nChoice 'D' is incorrect because the wrong value from the table is used for the standard error.",
   "tags": [
     "3.D",
     "UNC-4.AF",

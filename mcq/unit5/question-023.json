@@ -26,16 +26,15 @@
     },
     {
       "letter": "D",
-      "text": "Both 80.2 and 77.3 are parameters."
+      "text": "Both $80.2$ and $77.3$ are parameters."
     },
     {
       "letter": "E",
-      "text": "Parameter: 80.2; 77.3 is neither a statistic nor a parameter."
+      "text": "Parameter: $80.2$; $77.3$ is neither a statistic nor a parameter."
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A statistic describes a sample, while parameter describes the population.\n\nFor example, if I sample 100 random people in the United States and find that 46% plan to vote Republican in the next election, the value\n46\n100\n=0.46 is a statistic.\n\nThe unknown percentage who actually do vote Republican on election day is a parameter because this value describes the population. Note, the population is defined as who we want information about.\n\nIn this particular problem, Mr. Jones's class of size n=30\nis a sample, and ALL students who take biology at the school is the population. Therefore, the score of 80.2\nis a statistic since it describes the sample, while the score of 77.3\nis a parameter because it describes the population.\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "UNC-3.J",
     "UNC-3.J.1",

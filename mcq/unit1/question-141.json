@@ -9,7 +9,7 @@
   ],
   "title": "Name That Distribution!",
   "difficulty": "Medium",
-  "question_text": "The dotplot below shows fifty values of a specific variable.<br>Which of the following is most likely the variable being displayed?<br><br><br><br>",
+  "question_text": "The dotplot below shows fifty values of a specific variable.<br>Which of the following is most likely the variable being displayed?<br>",
   "image_files": [
     "images/question-141-img1.png"
   ],
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since the dotplot displays a bimodal distribution, the situation being displayed most likely is made of two subgroups.\n\nChoice 'E' would likely be bimodal because typical 8-year-olds would be able to run a lower number of laps than typical 15-year-olds. We would expect to see two different subgroups, which we see with the bimodal distribution.\n\nExplanation of Distractors\n\nChoice 'A' would likely have a unimodal and symmetric distribution.\n\nChoice 'B' would likely have a unimodal and skewed right distribution. There would be many less expensive cars and a few more expensive cars.\n\nChoice 'C' would likely have a unimodal and symmetric distribution.\n\nChoice 'D' would likely have a unimodal and symmetric distribution.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.1",

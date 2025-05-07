@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In this situation, we use the formula below, where $n = 5$, $x = 1$, $µ = 1.02$, and $σ = 0.03$, to find a $z$-score of $-1.49$:\n\n$$\\text{Standard Score:} = z =\\dfrac{\\bar{x} - \\mu}{\\frac{\\sigma}{\\sqrt(n)}}$$\n\nWe then use the standard normal chart to find $p(z<-1.49) = 0.0681$.\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "UNC-3.Q.1",
     "UNC-3",

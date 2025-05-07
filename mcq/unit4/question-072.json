@@ -16,28 +16,27 @@
   "choices": [
     {
       "letter": "A",
-      "text": "14\n%"
+      "text": "$14\\%$"
     },
     {
       "letter": "B",
-      "text": "24\n%"
+      "text": "$24\\%$"
     },
     {
       "letter": "C",
-      "text": "36\n%"
+      "text": "$36\\%$"
     },
     {
       "letter": "D",
-      "text": "76\n%"
+      "text": "$76\\%$"
     },
     {
       "letter": "E",
-      "text": "86\n%"
+      "text": "$86\\%$"
     }
   ],
-  "correct_answer": "Choice 'B' is the correct answer.",
+  "correct_answer": "<br><br>",
   "solution": "",
-  "explanations": {},
   "tags": [
     "VAR-4.E.1",
     "VAR-4.E",

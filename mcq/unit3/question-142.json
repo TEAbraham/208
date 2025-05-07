@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The type of socket used to measure the bulbs is a confounding variable since the socket may influence how long the bulb burns; the sockets may be mechanically different, and we cannot assume that the sockets will burn evenly and equally. A better experimental design would block by socket.\n\nThe socket is therefore considered a confounding variable and must be controlled for: fifteen bulbs from each brand would be randomly assigned to one of the two sockets, and the other $15$ to the second socket. Comparisons can then be made within each block. Alternately, only one socket can be used to test all the light bulbs, but this process would take twice the amount of time.\n\nThe study does not need to be blind; the researcher cannot influence how long the bulbs burn by knowing which bulb is being tested.\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "VAR-3.E.1",
     "VAR-3.E",

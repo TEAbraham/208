@@ -22,7 +22,7 @@
     },
     {
       "letter": "C",
-      "text": "$P \\left( z >\\dfrac { 5-4.1 }{ 0.88 } \\right)$"
+      "text": "P(z>\n5−4.1\n0.88\n)"
     },
     {
       "letter": "D",
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The general formula given the on the AP exam for a standardized test statistic is:\n\nz=\nstatistic−parameter\nstandard deviation of statistics\n\nIn our case, the formula will be using is:\n\nz=\n¯\nx\n−μ\nσ\n√\nn\n\nFirst, we must identify the sample mean(\n¯\nx\n) and the population mean(μ\n). It states that the average time it takes for a student to walk to class is 4.1 minutes\nwhich represents the population average (parameter).\n\nThe sample mean (statistic) is 5 minutes\nas this is the average time of the 100 students\nwho were randomly selected.\n\nP(z>\n5−4.1\n0.88\n√\n100\n)\n\nChoice 'E' is our answer.\n\nNote that the formula for the standard deviation for the mean will be given on the A.P. Exam.\n\nExplanation of Distractors Choices 'A' and B are incorrect because the numerators are reversed.\n5\nis being treated as the population mean and not the sample mean. Choice 'C' is incorrect as the standard deviation was not divided by the square root of the sample size. Choice 'D is incorrect because the standard deviation in this choice was treated as a proportion and not a mean.\n\nNote that the standard deviation given in Choice 'D' is the formula for the standard deviation of proportions, not for means.",
   "tags": [
     "UNC-3.Q.1",
     "UNC-3",

@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This accurately uses the formula for a one-sample $t$-interval.\n\nIf you are using your TI-84 calculator, you can use the following procedure:\n\nThe output is $\\bf (44179, 48227)$.\n\nChoice 'D' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; one cannot generalize information from Jacksonville, FL, to the entire United States.\n\nChoice 'B' is incorrect; this uses a one-sample $z$-interval, which incorrectly assumes a population standard deviation.\n\nChoice 'C' is incorrect; this fails to use the correct $t^*$.\n\nChoice 'E' is incorrect; the sample is randomly chosen, and the sampling distribution will be approximately normal with $n = 100$, so assumptions are met.",
   "tags": [
     "3.D",
     "UNC-4",

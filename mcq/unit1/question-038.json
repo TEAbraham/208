@@ -17,15 +17,15 @@
   "choices": [
     {
       "letter": "A",
-      "text": "Over half of the Sales department participate in the 401k program."
+      "text": "Over half of the Sales department participate in the\n401\nk program."
     },
     {
       "letter": "B",
-      "text": "Accounting/Finance has the most people participating in the 401k program."
+      "text": "Accounting/Finance has the most people participating in the\n401\nk program."
     },
     {
       "letter": "C",
-      "text": "The number of people participating in the 401k program is equal for Human Resources and IT."
+      "text": "The number of people participating in the\n401\nk program is equal for Human Resources and IT."
     },
     {
       "letter": "D",
@@ -33,12 +33,11 @@
     },
     {
       "letter": "E",
-      "text": "The relative frequency of the Sales and IT employees who participate combined is 0.40\n."
+      "text": "The relative frequency of the Sales and IT employees who participate combined is\n0.40\n."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solutions\n\nThe data about the employees who participate in the\n401\nk program represents a Categorical Variable. The categorical variable is represented visually with a bar chart.\n\nThe height of each bar on the chart represents the proportion of each individual department's participation in the program. Looking at the height of the bars, sales clearly have the second highest relative frequency of employees in their department participating in the program, well behind accounting/finance.\n\nChoice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The sales department's relative frequency is a little above\n0.40\n, but clearly not over\n0.50\n; therefore, it is not over half.\n\nChoice 'B' is incorrect. Although Accounting/Finance has the highest relative frequency of employees who participate, we do not know the size of the department, so we cannot make an assumption on the number of people who participate.\n\nChoice 'C' is incorrect. Again, because we do not know the number of people in each department, we cannot make an assumption on the number of people who participate, even if the relative frequencies are the same.\n\nChoice 'E' is incorrect. The Sales department has a relative frequency of slightly greater than\n0.40\n. So, even if the two groups had the same number of people, their combined relative frequency would not be\n0.40\n.",
   "tags": [
     "UNC-1.E",
     "UNC-1.D",

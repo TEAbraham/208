@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nComputing a confidence interval for the difference of two means uses this formula:\n\n$$(\\bar{x}_{1}-\\bar{x}_{2})\\pm t^{*}\\sqrt{\\dfrac{s_1^2}{n_{1}}+\\dfrac{s_2^2}{n_{2}}}$$\n\n...where the $\\bar{x}'s$ are the sample means, $t^{*}$ is the critical value, the $s's$ are the two sample standard deviations, and the $n's$ are the two sample sizes.\n\nWe will plug in the information given and solve for $t^{*}$. We will set the equation equal to the upper bound since it is given to us and use only the plus sign in front of $t^{*}$. We get:\n\n$$(2.1-2.9)+t^{*}\\sqrt{\\dfrac{1.2^2}{31}+\\dfrac{1.6^2}{31}}=0.02$$\n\nSimplify to get $-0.8+t^{*}(0.359)=0.02$ and $t^{*}\\approx2.284$\n\nSo, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because this answer was chosen because it is the $z^{*}$ value for a $95\\%$ confidence interval which is used for differences in proportions.\n\nChoice 'B' is incorrect because this answer was calculated by assuming a $d.f.=60$ for a $95\\%$ confidence interval. This cannot be assumed.\n\nChoice 'C' is incorrect because, though the correct method was followed, the standard deviations were not squared in the calculation.\n\nChoice 'D' is incorrect because the sample means were subtracted the wrong way which meant that the upper bound should have been solved as the lower bound. This result gave a negative result for $t^{*}$ and the negative sign was dropped.",
   "tags": [
     "3.D",
     "UNC-4.Y.2",

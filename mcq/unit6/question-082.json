@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A type II error occurs when we fail to reject a null hypothesis that is false.\n\nPower is the probability that we will correctly reject a null hypothesis which is false.\n\nIf our null hypothesis is false, we will either reject it or fail to reject it. Since these are the only two options, the probabilities associated with both events must add up to $1$. Power and type II errors are complementary events.\n\nThat is:\n\n$$\\text{(probability of a type II error}) + (\\text{power}) = 1$$\n\nFill in the value for power provided in the problem:\n\n$$\\text{(probability of a type II error) + (0.92) = 1}$$\n\nSubtract $0.92$ from both sides of the equation:\n\n$$\\text{(probability of a type II error)} = 1 - 0.92$$\n\n$$\\text{(probability of a type II error)} = 0.08$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. This value is half of the $\\alpha$ level.\n\nChoice 'B' is incorrect. This correct power was divided by $2$ to obtain this value. Although the test involved a two-sided alternative hypothesis, there would be no need to divide power by $2$.\n\nChoice 'C' is incorrect. This is the $\\alpha$ level which represents the probability of making a type I error.\n\nChoice 'E' is incorrect. The probability of making a type II error is not equal to the power of the test.",
   "tags": [
     "4.B",
     "UNC-5.D.1",

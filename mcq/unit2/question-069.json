@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The removal of the influential points greatly bring the slope down, from $0.0081$ to $-0.17$, and correlation from $0.69$ to $0.000358$. The three influential points are in the top right corner of the scatterplot. Typically influential points are far away from the rest of the points in the $x$ (explanatory) direction.\n\nThe definition of a point or points being influential is that removing them would markedly change a calculation. In the context of a scatterplot with bivariate data, calculations of importance could include correlation, the slope of the least squares regression line, or both.\n\nIt would not be necessary for one to be able to calculate the slope or correlation with and without these points. However, one should see that with these points the slope will be slightly positive while without these points, the slope would be negative.\n\nAlso, one should be able to see that with these points, a strong to moderate correlation exists, but without these points almost no correlation exists. Without these points, it is unclear if $y$ increases or decreases as $x$ increases.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; the correlation is positive.\n\nChoice 'B' is incorrect; the correlation appears moderate ($r = 0.69$ if calculated) but you should be able to estimate by eye-balling the scatterplot.\n\nChoice 'C' is incorrect; with three influential points, you should be wary of using the model as is.\n\nChoice 'E' is incorrect; removing those data points changes both the slope and correlation.",
   "tags": [
     "4.B",
     "DAT-1.C",

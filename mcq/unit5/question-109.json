@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice ‘B’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTo find the minimum height a student can have to be considered the top $12$% of heights in the class, a normal probability is calculated. First, Table A, the Normal Distribution Table, is used to look up an area of $0.88$, as Table A gives the percent of values that lie below a $z-\\text{score}$. So for this setting, since the height that marks the top $12$% is desired, the $z-\\text{score}$ that corresponds to the area of $0.88$ must be located.\n\nThe $z-\\text{score}$ that corresponds to the area of $0.88$ is $1.17$.\n\nNext, the $z-\\text{score}$ of $1.17$ must be unstandardized, or converted into a data value relating to the heights of students in this class. To do this, use the z-score formula:\n$$z-\\text{score} = \\dfrac{\\text{data value} - \\text{mean}} {\\text{standard deviation}}$$\n\nHere, the $z-\\text{score} = 1.17 = \\dfrac{\\text{height} - 68.5} {2.42}$\n\nWhen this equation is solved for $\\text{height}$, the solution is $71.3$.\n\nAlternatively, the calculator can be used to calculate this height by using the following command: $\\text{invnorm}(0.88, 68.5, 2.72)$\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect. This value is the maximum height a student could have to be considered the bottom $12$% of heights in this class.\n\nChoice ‘C’ is incorrect. This value is the median height, or the $50$th percentile of heights of students in this class.\n\nChoice ‘D’ is incorrect. This height is the minimum height a student can have to be considered the top $10$% of heights in the class.\n\nChoice ‘E’ is incorrect. This height is the minimum height a student can have to be considered the top 1.2% of heights in the class.",
   "tags": [
     "VAR-6.B.2",
     "VAR-6.B",

@@ -10,7 +10,7 @@
   ],
   "title": "Cumulative Relative Frequency - AP Statistics Mock Exam",
   "difficulty": "Hard",
-  "question_text": "<br><br><br><br>The cumulative relative frequency plot shown above displays fifty AP Statistics mock exam scores.<br>Which of the following conclusions can be drawn from the graph?",
+  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved.<br><br>The cumulative relative frequency plot shown above displays fifty AP Statistics mock exam scores.<br>Which of the following conclusions can be drawn from the graph?",
   "image_files": [
     "images/question-148-img1.png"
   ],
@@ -22,15 +22,15 @@
     },
     {
       "letter": "B",
-      "text": "60%\nof the students scored a four or higher."
+      "text": "60\n%\nof the students scored a four or higher."
     },
     {
       "letter": "C",
-      "text": "About 30%\nof the students scored a three."
+      "text": "About\n30\n%\nof the students scored a three."
     },
     {
       "letter": "D",
-      "text": "100%\nof the students scored a five."
+      "text": "100\n%\nof the students scored a five."
     },
     {
       "letter": "E",
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A cumulative relative frequency is running total of the relative frequencies (\n%\nof times something happens in a data set). The cumulative relative frequency is the sum of all of the relative frequencies up to that point.\n\nChoice 'E' is correct. Since\n30\n%\nof the students scored three or less, then\n70\n%\nof the students scored higher than a three.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. When observing the data, it looks like we have the coordinate (\n2\n,\n15\n%\n). This indicates that\n25\n%\nof the scores were two or less, which means that\n85\n%\nof the scores were higher than two. Therefore, most students did receive a qualifying score on the mock exam.\n\nChoice 'B' is incorrect. When observing the data, it looks like we have the coordinate (\n4\n,\n60\n%\n). This indicates that\n60\n%\nof the students scored a four or less.\n\nChoice 'C' is incorrect. When observing the data, it looks like we have the coordinate (\n3\n,\n30\n%\n). This indicates that\n30\n%\nof the scores were three or less. We can also observe the coordinate of approximately (\n2\n,\n5\n%\n). This would indicate that all of the scores could not have been three's, since\n5\n%\nof the scores were two or less.\n\nChoice 'D' is incorrect. The coordinate (\n5\n,\n100\n%\n) suggests that\n100\n%\nof the students scored five or less.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.1",

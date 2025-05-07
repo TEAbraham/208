@@ -9,7 +9,7 @@
   ],
   "title": "Scatterplot vs. Residual Plot",
   "difficulty": "Hard",
-  "question_text": "<br><br><br><br>Consider the scatterplot to the left and its accompanying residual plot to the right.<br>Which of the following statements is TRUE?",
+  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved.<br><br>Consider the scatterplot to the left and its accompanying residual plot to the right.<br>Which of the following statements is TRUE?",
   "image_files": [
     "images/question-095-img1.jpg"
   ],
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Residual plots should show no pattern, and this residual plot clearly does.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; residual plots will have zero correlation even if there is some pattern.\n\nChoice 'B' is incorrect; while the data does not appear exactly linear since the data still remains close to the LSRL, there will be a strong correlation. However, a transformed model will have an even stronger correlation.\n\nChoice 'C' is incorrect; while the residual plot does show a linear model might not be best, it is not because the residuals are overly large. In fact, it appears that the residuals have fairly low values.\n\nChoice 'E' is incorrect; a residual of\n0\nis what is predicted; therefore, this model overpredicts, then underpredicts, and then overpredicts once again.",
   "tags": [
     "DAT-1.F.2",
     "DAT-1.F.1",

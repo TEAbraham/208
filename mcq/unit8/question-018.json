@@ -26,12 +26,11 @@
     },
     {
       "letter": "E",
-      "text": "$H_o:$ Sports drinks and preference are homogeneous\nHa: Sports drinks and preference are not homogeneous"
+      "text": "$H_o:$ Sports drinks and preference are homogeneous\n$H_a:$ Sports drinks and preference are not homogeneous"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A chi-squared test will always have a null hypothesis that there is no association between the two variables mentioned (or that the variables are independent). The alternative hypothesis is that there IS an association (or that the variables are NOT independent).\n\nThis matches Choice 'C'.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; the problem states the school wishes only to look for a relationship, not if more people are drawn to sports drinks in a certain location.\nChoice 'B' is incorrect; the null and alternative hypotheses are switched here.\n\nChoice 'D' is incorrect; since the hypothesis uses the word “number,” it does not appropriately describe what the school hopes to inspect.\n\nChoice 'E' is incorrect; this is a test for independence, not homogeneity.",
   "tags": [
     "1.F",
     "VAR-8.B.1",

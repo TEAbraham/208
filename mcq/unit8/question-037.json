@@ -11,7 +11,7 @@
   ],
   "title": "Plant Manager | 1 of 2",
   "difficulty": "Hard",
-  "question_text": "A plant manager wants to see if there are different proportions of defective items among the four machines at her automotive plant.<br>She randomly selects $100$ automobile parts from each of the four machines, as shown in the table below:<br>Is there appropriate evidence the machines are not equal concerning proportions of defective products?",
+  "question_text": "A plant manager wants to see if there are different proportions of defective items among the four machines at her automotive plant.<br>She randomly selects $100$ automobile parts from each of the four machines, as shown in the table below:<br>Is there appropriate evidence the machines are not equal concerning proportions of defective products?<br>Is there appropriate evidence the machines are not equal concerning proportions of defective products?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Machine</th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th></tr></thead><tbody><tr><td>Number of Defective Parts</td><td>58</td><td>55</td><td>51</td><td>66</td></tr></tbody></table>"
@@ -39,8 +39,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The easiest way to find the answer is to put this data in as a matrix form, as shown below.\n\nSince each sample is size $100$, it follows that if $58\\text{ parts}$ from machine A are defective, then $100-58 = 42\\text{ parts}$ for machine A are NOT defective. Complete this process for the other machines.\n\nThe expected counts for each cell can be found via computer software, graphing calculator, or by hand using the formula:\n\nExpected count for each cell:\n\n$$\\dfrac{\\text{(row total)} \\cdot \\text{(column total)}}{\\text{(table total)}}$$\n\nThe expected counts are in the table below:\n\nThe chi-squared test statistic is the summation of each term:\n\n$$ { x }^{ 2 }=\\sum { \\dfrac { { \\left( O-E \\right) }^{ 2 } }{ E } } $$\n\nChi-squared($x^2$) =\n\n$$=\\dfrac{(58-57.5)^2}{57.5}+\\dfrac{(42-42.5)^2}{42.5}+ \\dfrac{(55-57.5)^2}{57.5}+\\dfrac{(45-42.5)^2}{42.5}+\\dfrac{(51-57.5)^2}{57.5}+\\dfrac{(49-42.5)^2}{42.5}+\\dfrac{(66-57.5)^2}{57.5} + \\dfrac{(34-42.5.5)^2}{42.5} $$\n\n$$= 4.95$$\n\nThe $p$-value by calculator is $0.17539$ or by charts is $0.15 < p < 0.2$. With a high $p$-value compared to common alpha levels of $1\\%, 5\\%$, or $10\\%$, there is insufficient evidence the machines give different proportions of defective parts.\n\nThus, the correct answer is Choice 'D'",
   "tags": [
     "4.E",
     "DAT-3",

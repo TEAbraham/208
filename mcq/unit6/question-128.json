@@ -30,8 +30,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Find the test statistic by using a TI-83/84 calculator to see $z = 1.04$ or use the formula below where:\n\n${ p }_{ 1 }= \\dfrac{34}{50} = 0.68$\n${ p }_{ 2 }= \\dfrac{29}{50} = 0.58$\n${ n }_{ 1 }= 50$\n${ n }_{ 2 }= 50$\n\n$$z= \\dfrac{\\hat{p_1} - \\hat{p_2}}{\\sqrt{\\hat{p}(1-\\hat{p}\\left(\\dfrac{1}{n_1} + \\dfrac{1}{n_2}\\right)}}$$\n\nPooled $\\hat{p} = \\dfrac{(34+29)}{(50+50)} = 0.63$\n\nUsing the standard normal table, $\\text{P(z >1.04)} = 0.1492$.\n\nSince this is a two-sided test, the $p$-value is $0.1492 \\cdot 2 = 0.2984$.\n\nThus, the correct answer is Choice 'E'.\n\nNote: On the AP test, the formula's listed are not given in their entirety. However, it is given on the test that a test statistic is found by:\n(statistic - parameter) / standard deviation of statistic. Furthermore, the standard deviation formula is given on the AP test as well. A student only needs to put the pieces together rather than simply memorize a formula.",
   "tags": [
     "VAR-6.K",
     "3.E",

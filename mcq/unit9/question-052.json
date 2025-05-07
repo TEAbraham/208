@@ -9,7 +9,7 @@
   ],
   "title": "Linear Regression Slope T-test: NBA Players Height vs Wingspan",
   "difficulty": "Medium",
-  "question_text": "NBA scouts are always interested in the relationship between the height of NBA players and their respective wingspans. An NBA scout randomly selects $19$ players and measures their heights and wingspans. Below is the computer regression analysis of height and wingspan.<br>Dependent variable is wingspan.\n$R^2 = 0.787$\n$S = 2.23$\nDegrees of Freedom = $17$<br>Assuming the conditions for inference are met, is there evidence of a linear association between height and wingspan of NBA players at the significance level $\\alpha =0.01$ ?",
+  "question_text": "NBA scouts are always interested in the relationship between the height of NBA players and their respective wingspans. An NBA scout randomly selects $19$ players and measures their heights and wingspans. Below is the computer regression analysis of height and wingspan.<br>Dependent variable is wingspan.\n$R^2 = 0.787$\n$S = 2.23$\nDegrees of Freedom = $17$<br>Assuming the conditions for inference are met, is there evidence of a linear association between height and wingspan of NBA players at the significance level $\\alpha =0.01$ ?<br>Assuming the conditions for inference are met, is there evidence of a linear association between height and wingspan of NBA players at the significance level $\\alpha =0.01$ ?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">Coefficient</th><th scope=\"col\">SE(Coeff)</th><th scope=\"col\">t-ratio</th><th scope=\"col\">P-value</th></tr></thead><tbody><tr><td>Constant</td><td>-2.273</td><td>0.945</td><td>-2.405</td><td>&lt;0.014</td></tr><tr><td>Height</td><td>1.084</td><td>0.24</td><td>4.52</td><td>&lt;0.0001</td></tr></tbody></table>"
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This question is asking whether there is a linear association between height and wingspan of NBA Players. The type of test we are going to run is a regression slope t-test.\n\nThe hypotheses are:\n\n${ H }_{ 0 }:\\beta =0$\n$ {H }_{ A }:\\beta \\neq 0$\n\n...where $\\beta$ represents the population slope.\n\nThe alternative hypothesis is $\\neq$ to $0$ since we are trying to find evidence of a linear relationship.\n\nWhen given a regression analysis table like the one above it will always be for a two-sided test unless stated otherwise.\n\nIn this case, since we are dealing with the slope, we are going to look for the $P$-value that relates to the slope.\n\nAll of the numbers that relate to the slope are in the row of data for our explanatory variable which in this case is Height.\n\nThe $P$-value given here is $<0.0001$.\n\nSince the $P$-value of approximately $0$ is less than $0.01$, there is sufficient evidence of a linear association.\n\nChoices 'A' and 'B' can be eliminated as that $P$-value deals with the $y$-intercept.\n\nChoice 'C' can be eliminated as there is sufficient evidence.\n\nNext, we will find the slope of LSRL to determine if we have a positive or negative linear association. The slope, in this case, is $1.084$ which is positive so therefore we have a positive linear association.\n\nChoice 'D' is our answer.\n\nOne thing to note is since we are looking for the direction of the linear association we would have to divide the $P$-value by $2$ because a linear regression analysis table always deals with two-sided tests unless stated otherwise.",
   "tags": [
     "4.E",
     "DAT-3.N.2",

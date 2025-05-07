@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice ‘B’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nFor a Chi-square Test for Independence, the null hypothesis states the two categorical variables are independent, or not related. If the variables are independent, the proportion of one variable will equal the proportion of the next variable.\n\nIn this case, the null hypothesis states that teaching level and job satisfaction are independent, and thus, the proportion of high school teachers satisfied with their job is equal to the proportion of middle school teachers satisfied with their job.\n\nThus, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect: These hypotheses are swapped - the null hypothesis is a statement of equality and thus should say the proportions are the same.\n\nChoice ‘C’ is incorrect: These hypotheses are swapped - the null hypothesis is a statement of equality and thus should say the variables (teaching level and job satisfaction) should not be related, making the proportion of high school teachers satisfied with their job equal to the proportion of middle school teachers satisfied with their job.\n\nChoice ‘D’ is incorrect: These hypotheses are swapped - the null hypothesis is a statement of equality and thus should say the proportions are equal.\n\nChoice ‘E’ is incorrect: These hypotheses involve a third variable - gender - that is not a variable this test is analyzing.",
   "tags": [
     "1.F",
     "VAR-8.I",

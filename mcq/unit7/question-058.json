@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTwo aspects are examined in this mean difference test between values in matched pairs: the hypotheses and the conditions.\n\nThe hypotheses for this test would look like this:\n\n$$H_{0}: \\mu_{d}= 0$$\n\n$$H_{a}: \\mu_{d}\\neq 0$$\n\nThe null hypothesis always uses an equals sign and the letter mu in a test of means. It also always is equal to zero in a matched pairs test because it assumes that the two numbers, in this case driving times, are the same. So, when subtracted, the difference would be zero.\n\nThe alternative hypothesis looks like the null hypothesis except for the sign. In this case, because the problem is looking at whether the driving times are different, a $\\neq$ sign is used.\n\nIn terms of conditions to be verified, randomness occurs because the girls flip a coin each day to decide who drives which route. To check that the sampling distribution of the differences is approximately normal, the sample simply needs to be larger than $30$, which is at $32$,\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because, while the comment is correct, the hypothesis should include a $\\neq$ sign.\n\nChoice 'B' is incorrect because, while the hypothesis is correct, no, the difference does not need to be reversed because whether it equals zero or not is what is being tested.\n\nChoice 'D' is incorrect because, while the comment is correct, the hypothesis should include a equals sign.\n\nChoice 'E' is incorrect because, while the hypothesis is correct, routes were assigned at random via a coin flip.",
   "tags": [
     "VAR-7.C.2",
     "VAR-7.C",

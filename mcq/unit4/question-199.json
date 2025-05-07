@@ -10,13 +10,13 @@
   ],
   "title": "Marty's Prom: Binomial or Geometric Distribution?",
   "difficulty": "Medium",
-  "question_text": "Marty has an $87$% chance of a girl saying \"yes\" to him to prom.<br>What is the probability it takes until the third girl before one says \"yes\" to be his prom date?",
+  "question_text": "Marty has an 87% chance of a girl saying \"yes\" to him to prom.<br>What is the probability it takes until the third girl before one says \"yes\" to be his prom date?",
   "image_files": [],
   "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "$\\begin{pmatrix} 10 \\\\ 3 \\end{pmatrix}(0.87)^{3}(0.13)^{7}$"
+      "text": "(\n10\n3\n)(0.87)3(0.13)7"
     },
     {
       "letter": "B",
@@ -32,12 +32,11 @@
     },
     {
       "letter": "E",
-      "text": "(\n0.87\n)\n2\n(\n0.13\n)"
+      "text": "(0.87)2(0.13)"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "First, we must decide if this is a binomial distribution or a geometric distribution. Since there are no fixed trials, and we are looking at the number of trials until the first success, this leads us to conclude we have a geometric distribution. The formula for a geometric distribution is:\n\np\n∗\n(\n1\n−\np\n)\nn\n−\n1\n\n...where\np\nrepresents the probability of success and\nn\nrepresents the number of trials.\n\nIn this case\np\nis\n0.87\nand\nn\n=\n3\n. Therefore, our answer is Choice 'D'.\n\nYou could also work this out logically. If it takes Marty until the third girl to say yes this indicates:\n\nThe first girl says no and the second girl says no and the third girl says yes. Since the trials are independent, we can multiply the probabilities:\n.13\n∗\n.13\n∗\n.87\n.\n\nBoth choices 'A' and 'B' are incorrect as they represent a binomial distribution and not a geometric distribution. Choice 'A' is the probability out of\n10\ngirls exactly\n3\nsay yes. Choice 'B' is the probability out of\n10\ngirls exactly\n7\nsay yes. Choice 'E' is incorrect as that would be the probability that the third girl says yes to Marty if had a\n13\n% chance of a girl saying yes compared to\n87\n%.",
   "tags": [
     "UNC-3.G.1",
     "4.B",

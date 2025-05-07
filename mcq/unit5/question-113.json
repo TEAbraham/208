@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Correct Answer",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'D' is the correct choice.\n\nSolution\n\nRemember: we're asked to find the choice that is NOT true.\n\nBefore assuming that the sampling distribution of\nˆ\np\nis approximately normal, remember to verify the Large Counts Condition: the count of successes and failures in a sample of size n is each at least 10.\n\nA sample size of 20 fish is NOT large enough to use the normal approximation as the expected number of native brown trout in a sample of 20 is 20(0.4)=8 and 8≱10. Therefore, Choice 'D' is NOT true.\n\nExplanation of Distractors\n\nChoice 'A' is an incorrect choice.\n\nThe mean of the sampling distribution of\nˆ\np\nis an unbiased estimator of the parameter p\n. In other words, μ\nˆ\np\n=p=0.40\n. Therefore, Choice 'A' is TRUE.\n\nChoice 'B' is an incorrect choice.\n\nIt is safe to assume that the pond has at least 10(30)\nor 300\nfish since we are explicitly told that there are \"thousands\" of fish in the pond. The standard deviation of the sampling distribution of\nˆ\np\nis\n√\n(04)(0.6)\n30\n≈0.09\n. Therefore, Choice 'B' is TRUE.\n\nChoice 'C' is an incorrect choice.\n\nThe sample size of 30\nfish satisfies the large counts condition since 30(0.4)=12>10\nand 30(0.6)=18>10\n. Consequently, it is safe to use the Normal Approximation for the sampling distribution of sample proportions. Therefore, Choice 'C' is TRUE.\n\nChoice 'E' is an incorrect choice.\n\nA sample size of\n20\nfish still satisfies the\n10\n%\nCondition since we are explicitly told that the population of fish is in the thousands. Moreover, since the sample size is the sole factor of the denominator, all else being equal, smaller sample sizes arithmetically and conceptually result in larger standard deviation of sample proportions. Therefore, Choice 'E' is TRUE",
   "tags": [
     "4.B",
     "UNC-3.L",

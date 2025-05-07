@@ -8,10 +8,8 @@
   ],
   "title": "Class Size Vs. Final Class Average: A Scatterplot",
   "difficulty": "Easy",
-  "question_text": "Teachers at a large high school have become concerned that increasing class sizes hinder their ability to deliver quality instruction and consequently have a negative impact on student's grades.<br>To investigate, a committee of teachers selected a random sample of classes offered at the high school during the previous school year. For each class, they recorded the number of students in the class and the final average grade for students in the class (expressed as a percent). To reduce variability, they only selected classes considered to be at the \"standard\" level . No honors/advanced classes were included in their sample and no remedial/low level classes were included in their sample. A scatterplot of the data is shown below.<br><br><br><br><br>Based upon the scatterplot, what can the committee conclude?",
-  "image_files": [
-    "images/question-054-img1.PNG"
-  ],
+  "question_text": "Teachers at a large high school have become concerned that increasing class sizes hinder their ability to deliver quality instruction and consequently have a negative impact on student's grades.<br>To investigate, a committee of teachers selected a random sample of classes offered at the high school during the previous school year. For each class, they recorded the number of students in the class and the final average grade for students in the class (expressed as a percent). To reduce variability, they only selected classes considered to be at the \"standard\" level . No honors/advanced classes were included in their sample and no remedial/low level classes were included in their sample. A scatterplot of the data is shown below.<br><br>Based upon the scatterplot, what can the committee conclude?",
+  "image_files": [],
   "tables": [],
   "choices": [
     {
@@ -32,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "For this particular high school, the smallest class size during the previous school year was\n10\nstudents and the largest class size during the previous year was\n35\nstudents."
+      "text": "For this particular high school, the smallest class size during the previous school year was $10$ students and the largest class size during the previous year was $35$ students."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Notice that as the values of $x$ increase, the values of $y$ tend to decrease. There is a general downward or negative trend to the points seen in the scatterplot. Since $x$ represents the class size and $y$ represents a final average class grade, Choice 'C' offers the proper interpretation of the pattern and must be the conclusion of the committee.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as it implies causation. Even if a relationship is very strong, we cannot assume a cause and effect relationship between the two variables.\n\nChoice 'B' is incorrect because it claims that the scatterplot provides proof that larger class sizes lead to lower grades. The only way to establish proof is through a properly designed and well-controlled experiment.\n\nChoice 'D' is incorrect. Classes with fewer student tended to have higher final average grades.\n\nChoice 'E' is incorrect. While the smallest class size seen in this scatterplot is $10$ and the largest class size seen in this scatterplot is $35$, the scatterplot was created using data from a sample of classes during the previous year. It is possible that there were other classes that were not included in the sample that had either fewer than $10$ students or more than $35$ students.",
   "tags": [
     "DAT-1.B.3",
     "2.C",

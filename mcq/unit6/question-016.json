@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Use the formula below to calculate a one-proportion $z$-interval. The sample proportion is $0.48$. Since the problem states this is a $99\\%$ confidence interval, use tables to find the critical value $z^* = 2.576$. The sample size, $n$, is $100$.\n\n$$\\hat{p} \\pm z^{*} \\sqrt{\\dfrac{\\hat{p}(1-\\hat{p})}{n}}$$\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "UNC-4.A",
     "UNC-4.A.1",

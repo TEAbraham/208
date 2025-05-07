@@ -8,7 +8,7 @@
   ],
   "title": "More SuperChips",
   "difficulty": "Medium",
-  "question_text": "There had been some recent complaints about the SuperChips Cookie Company that there were fewer chocolate chips per cookie than there used to be. Ten years ago there was shown to be an average of $12$ chips per cookie. The current company president decided to randomly sample $100$ cookies off the line and have the chips counted as he wanted to show that the number of chips per cookie had not changed. The average number of chips from the sample was $11$.\nCan the president go ahead and proceed with the test?",
+  "question_text": "There had been some recent complaints about the SuperChips Cookie Company that there were fewer chocolate chips per cookie than there used to be. Ten years ago there was shown to be an average of $12$ chips per cookie. The current company president decided to randomly sample $100$ cookies off the line and have the chips counted as he wanted to show that the number of chips per cookie had not changed. The average number of chips from the sample was $11$.\nCan the president go ahead and proceed with the test?<br>Can the president go ahead and proceed with the test?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nHere we are trying to see if the president should go ahead and do a test for the population mean of the number of chocolate chips in his SuperChips Cookies.\n\nTo do this test he must verify the conditions of the test. First is the test for independence. We can assume that there are at least $10$ times $100$ cookies coming down the assembly line; that is, the sample is less than $10\\%$ the size of the population. In addition, the sample must be randomly taken, which it is.\n\nHe must also test that the sampling distribution of the mean is approximately normal. This is accomplished by the fact his sample size should is greater than $30$, which $100$ is. So, conditions have been verified.\n\nNow, the question is whether the number $11$ is significantly different from $12$? The only way to find this out is to carry out the test of the means and see if in fact they can be proven to have stayed the same. So, yes, he should carry out the test.\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because simply having a large sample size does not meet all of the conditions to be verified.\n\nChoice 'B' is incorrect because the answer should be 'yes' and in fact, the sample size of $100$ does verify this condition.\n\nChoice 'D' is incorrect because the answer should be 'yes' and seeing a different number does not 'prove' anything.\n\nChoice 'E' is incorrect because the answer should be 'yes' and this is not a matched-pairs situation.",
   "tags": [
     "4.C",
     "VAR-7.D",

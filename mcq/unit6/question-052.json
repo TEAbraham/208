@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Hypothesis tests attempt to calculate a $p$-value; the probability of getting a result or more extreme than the one that was actually observed, given the null hypothesis is true. If this probability is low, it means that a result such as ours is unlikely to happen by chance, and this serves as evidence the change did occur.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; hypothesis tests can never give evidence of no change (for the null). Tests can give only evidence of change or fail to give evidence of change.\n\nChoice 'B' is incorrect; one can never assign a probability to the null (or alternative) hypothesis being true.\n\nChoice 'D' is incorrect; hypothesis tests always are based off the condition that the null hypothesis is true. Therefore, the part of \"given change occurred\" is incorrect.\n\nChoice 'E' is incorrect; low $p$-values can give evidence of chance. The lower the $p$-value, the stronger the evidence. However, one can never prove chance occurred.",
   "tags": [
     "4.B",
     "DAT-3",

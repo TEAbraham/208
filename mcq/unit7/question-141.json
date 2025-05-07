@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Performing a two-sample $T$-test using a calculator or software package gives a p-value of $0.19575$. At alpha levels $1\\%$, $5\\%$, or $10\\%$, this is a high $p$-value. Therefore, there is insufficient evidence to reject the null.\n\nSpecifically, there is insufficient evidence that the second store has employees with more experience than the first store.\n\nNote: A high $p$-value can never be thought of as “evidence.”\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "4.E",
     "DAT-3.H.1",

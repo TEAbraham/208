@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "Use the normal approximation to the binomial because np≥10 and n(1−p)≥10."
+      "text": "Use the normal approximation to the binomial because $np \\ge 10$ and $n(1-p) \\ge 10$."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "One can use the normal approximation to the binomial when $np \\ge 10$ and $n(1-p) \\ge 10$. In this problem:\n\n$$np = (25)(0.45) = 11.25$$\n\n...and:\n\nn(1−p)=(25)(0.55)=13.75\n\n...so the conditions for using the normal approximation are met.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; there are many lines from the sample space that would be required in order to calculate the entire probability, not just the one line listed here.\n\nChoice 'B' is incorrect; it states the wrong standard deviation; it should be\n√\n(25)(0.45)(0.55)\n≈2.49.\n\nAdditionally, the calculator requires that you input the values of n\nand p\n, not μ\nand σ\n.\n\nChoice 'C' is incorrect; a large sample size in and of itself does not automatically allow the use of the normal approximation.\n\nChoice 'D' is incorrect; binomial formula would have to be used 13 times, for each of the values of interest for X\n(13≤X≤25\n), to calculate the desired probability.",
   "tags": [
     "VAR-6.B.2",
     "VAR-6.B",

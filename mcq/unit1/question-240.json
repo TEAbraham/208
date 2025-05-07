@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "If a player's score is in the $80\\text{th}$ percentile, then that player's score is equal to or better than $80\\%$ of all scores. This means that the probability of any score being less than or equal to this player's score is $0.80$.\n\nThe $z$-table shows the area to the left of the given $z$-score, or the probability of: $z < (\\text{the given }z\\text{-score})$.\n\nSo we are looking for the $z$-score that corresponds with an area of $0.80$ to the left. The closest entry in the $z$-table that corresponds with this is $z = 0.84$.\n\nNOTE: you can also find this answer using the invNorm function on your TI83/84 graphing calculator. This function allows you to identify the area to the left of your desired $z$-score and will provide you with the appropriate $z$-score. The syntax is: invNorm(area to the left).\n\nIn this case you would:\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. This gives the $z$-score that corresponds with the $20\\text{th}$ percentile.\n\nChoice 'B' is incorrect. This gives the $z$-score that corresponds with approximately the $21\\text{st}$ percentile. We cannot simply take the given percentile and turn it into a decimal. Making the value negative compounds the mistake.\n\nChoice 'C' is incorrect. We cannot assume $z = 0.80$ corresponds with the $80\\text{th}$ percentile.\n\nChoice 'E' is incorrect. Percentile values and $z$-score values are not equivalent. The $80\\text{th}$ percentile does not correspond with a $z$-score of $80$.",
   "tags": [
     "VAR-2.B",
     "VAR-2.B.1",

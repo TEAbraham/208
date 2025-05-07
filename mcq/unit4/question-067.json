@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We are looking for $p(x>4)$, where $x$ is the number of rolls required in order to get “doubles” for the first time. We can approach this in two ways.\n\nThe first approach is easiest and uses the formula:\n\n$$p(x>k)=(1-p)^{k}$$\n\n$$p(x>4)={ \\left( 1-\\dfrac { 1 }{ 6 } \\right) }^{ 4 }=0.4823$$\n\nWe can get the same answer using the complement principle. That is:\n\n$$p(x>4)=1-p(x\\le4)=1-[p(x=1)+p(x=2)+p(x=3)+p(x=4)]$$\n\nPlug in numbers:\n\n$$p(x>4)=1-\\left[ \\left( \\dfrac { 1 }{ 6 } \\right) +\\left( \\dfrac { 5 }{ 6 } \\right) \\left( \\dfrac { 1 }{ 6 } \\right) +\\left( \\dfrac { 5 }{ 6 } \\right) \\left( \\dfrac { 5 }{ 6 } \\right) \\left( \\dfrac { 1 }{ 6 } \\right) +\\left( \\dfrac { 5 }{ 6 } \\right) \\left( \\dfrac { 5 }{ 6 } \\right) \\left( \\dfrac { 5 }{ 6 } \\right) \\left( \\dfrac { 1 }{ 6 } \\right) \\right] =0.4823$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. It represents the probability that the $4^\\text{th}\\text{ roll}$ of the dice will be the first roll of doubles.\n\nChoice 'B' is incorrect. It represents the probability that exactly one roll of doubles will appear in $4\\text{ rolls}$ of the dice and was calculated as a binomial probability.\n\nChoice 'C' is incorrect. It represents the probability that the first roll of doubles will occur before the $4^\\text{th}\\text{ roll}$ of the dice. That is, on the first, second or third roll.\n\nChoice 'E' is incorrect. It is the complement of the correct answer.",
   "tags": [
     "VAR-4.E",
     "3.A",

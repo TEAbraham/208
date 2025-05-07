@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "For all four descriptions, both $np$ and $n(1-p)$ are greater than $10$, so they should all have nearly normal sampling distributions. Choice 'E' is incorrect.\n\n0.27 would be more unusual for a sampling distribution centered at 0.30 than one centered at 0.26, so Choices 'A' and 'B' are incorrect.\n\nThe formula for the standard deviation is:\n\nσ\nˆ\np\n=\n√\np(1−p)\nn\n\nSince n is in the denominator, a larger sample size creates a smaller standard deviation.\n\nA smaller standard deviation, in turn, generates a larger z-score and, therefore, a more unusual observation. Choice 'C' is incorrect because it has a smaller sample size.",
   "tags": [
     "UNC-3.L",
     "3.C",

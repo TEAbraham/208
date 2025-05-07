@@ -9,7 +9,7 @@
   ],
   "title": "Probability Distribution: Everybody Needs a Hero Part II",
   "difficulty": "Hard",
-  "question_text": "At Burger Bell when someone buys a Hero Meal they receive an action figure. The distribution of action figures is shown in the table below.<br>Assuming each Hero Meal is independent of one another, what is the probability when someone buys two Hero Meals they get action figures A and B?",
+  "question_text": "At Burger Bell when someone buys a Hero Meal they receive an action figure. The distribution of action figures is shown in the table below.<br>Assuming each Hero Meal is independent of one another, what is the probability when someone buys two Hero Meals they get action figures A and B?<br>Assuming each Hero Meal is independent of one another, what is the probability when someone buys two Hero Meals they get action figures A and B?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Action Figure</th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th></tr></thead><tbody><tr><td>P(x)</td><td>0.30</td><td>0.10</td><td>0.10</td><td>0.50</td></tr></tbody></table>"
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct choice.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since it is stated the events are independent then the\n$$P(A\\text{ and } B)=P(A)\\cdot P(B)$$\n\n$$P(A)\\cdot P(B)=0.3\\cdot 0.1=0.03$$\n\nHowever Choice 'A' is incorrect because this only takes into consideration if they receive action figure A first and action figure B second. We need to also take into consideration if they receive action figure B first and action figure A second.\n\nWhat we need to find then is the P(A and then B) or P(B and then A).\nSince the events are disjoint the word or indicates we will sum up all the probabilities.\n\nP(A and then B) or P(B and then A) = P(A)⋅P(B)+P(B)⋅P(A)\n\nSubstituting the values in:\n\n0.3⋅0.1+0.1⋅0.3=0.06\n\nExplanation of Distractors\n\nChoice 'C' is incorrect as this represents the case of P((A or B) and (B or A)).\n\nChoice 'D' is incorrect as this represents the case of P(A or B).\n\nChoice 'E' is incorrect as this represents the case of P((A or B) or (B or A)).",
   "tags": [
     "VAR-4.E.1",
     "VAR-4.E",

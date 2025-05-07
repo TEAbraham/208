@@ -24,7 +24,7 @@
     },
     {
       "letter": "C",
-      "text": "$0.29$"
+      "text": "0.29"
     },
     {
       "letter": "D",
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This is a conditional probability problem, where the “given” is that the person selected is a smoker.\n\nLooking at the probability table, you see that only two categories involve smokers, so consider the two combined probabilities:\n\n0.09+0.22=0.31\n\n...as the new sample space. Observe that 0.09\nof the 0.31\ndescribes a person with cancer.\n\nThus, the probability that a person has been diagnosed with cancer, given that the individual is a smoker, is:\n\n0.09\n0.31\n=\n0.29\n\nAnother way to solve this is to use the formula for conditional probability:\n\nP\n(\nA\n|\nB\n)\n=\nP\n(\nA\n∩\nB\n)\nP\n(\nB\n)\n\nIn this question, event\nA\nis the diagnosis of cancer, and event B is the act of being a smoker. Plugging the appropriate values into the formula yields the same result as above:\n\nP\n(\nA\n|\nB\n)\n=\n0.09\n0.31\n=\n0.29\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "VAR-4.D.1",
     "3.A",

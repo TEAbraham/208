@@ -8,7 +8,7 @@
   ],
   "title": "What is the Probability?",
   "difficulty": "Easy",
-  "question_text": "How do Americans really feel about their jobs?<br>A random sample of $100$ working American men and $100$ working American women were asked to describe how they feel about their job. Responses, by gender, are shown in the table below.<br>What is the probability that a randomly selected person from among those surveyed would say that they \"Love It\"?",
+  "question_text": "How do Americans really feel about their jobs?<br>A random sample of $100$ working American men and $100$ working American women were asked to describe how they feel about their job. Responses, by gender, are shown in the table below.<br>What is the probability that a randomly selected person from among those surveyed would say that they \"Love It\"?<br>What is the probability that a randomly selected person from among those surveyed would say that they \"Love It\"?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Love It</th><th scope=\"col\">Like It</th><th scope=\"col\">Neutral</th><th scope=\"col\">Dislike It</th><th scope=\"col\">Hate It</th></tr></thead><tbody><tr><td>Men</td><td>31</td><td>42</td><td>6</td><td>12</td><td>9</td></tr><tr><td>Women</td><td>39</td><td>39</td><td>3</td><td>14</td><td>5</td></tr></tbody></table>"
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To find the probability, we would use the following formula:\n\n$$p(\\text{Love It})=\\dfrac{\\text{total number who said \"Love It\"}}{\\text{total number surveyed}}$$\n\nFilling in the formula, we get:\n\n$$p(\\text{Love It})=\\dfrac{31+39}{100+100}=0.35$$\n\nChoice 'C' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. This value probably represents a pure guess or is based on the (incorrect) assumption that each response was equally likely.\n\nChoice 'B' is incorrect and represents the probability that a man who was surveyed said \"Love It\".\n\nChoice 'D' is incorrect and represents the probability that a woman who was surveyed said \"Love It\".\n\nChoice 'E' is incorrect. Although a total of $70$ individuals said \"Love It\", the total number of individuals surveyed was $200$. Therefore, $70\\%$ does not represent the percent of those sampled who said \"Love It\".",
   "tags": [
     "VAR-4.A.1",
     "VAR-4.A.3",

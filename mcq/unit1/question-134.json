@@ -10,7 +10,7 @@
   ],
   "title": "Penguin: Determining Outliers",
   "difficulty": "Medium",
-  "question_text": "A random sample of the weights of $40\\text{ Emperor penguins}$ (in pounds) is taken. The table below displays the summary statistics.<br>Using the IQR method, which conclusion can be drawn about the number of outliers in this data set?",
+  "question_text": "A random sample of the weights of $40\\text{ Emperor penguins}$ (in pounds) is taken. The table below displays the summary statistics.<br>Using the IQR method, which conclusion can be drawn about the number of outliers in this data set?<br>Using the IQR method, which conclusion can be drawn about the number of outliers in this data set?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">Median</th><th scope=\"col\">Standard Deviation</th><th scope=\"col\">Minimum</th><th scope=\"col\">Q1</th><th scope=\"col\">Q3</th><th scope=\"col\">Maximum</th></tr></thead><tbody><tr><td>Weight</td><td>40</td><td>56.1</td><td>42.3</td><td>7.2</td><td>21.3</td><td>32.5</td><td>54.2</td><td>88.7</td></tr></tbody></table>"
@@ -26,20 +26,19 @@
     },
     {
       "letter": "C",
-      "text": "There are no more than 1 outlier."
+      "text": "There are no more than $1$ outlier."
     },
     {
       "letter": "D",
-      "text": "There are at least 2 outliers."
+      "text": "There are at least $2$ outliers."
     },
     {
       "letter": "E",
-      "text": "There are no more than 2 outliers."
+      "text": "There are no more than $2$ outliers."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To determine if there are any outliers we need to first calculate the value for the Interquartile Range (IQR).\n\n$$IQR=Q3-Q1$$\n\n$$IQR=54.2-32.5$$\n\n$$IQR=21.7$$\n\nTo determine if we have any high-value outliers the following formula can be used:\n\n$$Outlier > Q3+1.5\\times (IQR)$$\n\n$$Outlier > 54.2+1.5(21.7)$$\n\n$$Outlier > 86.75$$\n\nWe can see that we have a maximum value of $88.7$ which is greater than $86.75$ indicating $88.7$ is an outlier. Since we do not know all the values, there may be some outliers between $86.75$ and $88.7$. Right now we can say we have at least $1$ outlier.\n\nAs a result, Choices 'A' and 'C' can be eliminated.\n\nTo determine if we have any low-value outliers the following formula can be used:\n\n$$Outlier < Q1-1.5\\times (IQR)$$\n\n$$Outlier < 32.5-1.5(21.7)$$\n\n$$Outlier < -0.05$$\n\nIn this case, there are no low outliers. Therefore, we are not guaranteed to have at least $2$ outliers. We may or may not, but since we do not know the individual values, we cannot say for certain if we have at least $2$ or even less than $2$ outliers.\n\nChoices 'D' and 'E' can be eliminated.\n\nChoice 'B' is our answer.",
   "tags": [
     "UNC-1.L.1",
     "UNC-1.L.2",

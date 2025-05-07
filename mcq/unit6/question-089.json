@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "There are two independent populations we are examining in this situation (men and women), so a two-proportion $z$-interval is more appropriate.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; this problem deals with proportions, which never follow the $T$ distribution.\n\nChoice 'B' is incorrect; since $np$ and $n(1-p)$ are both well over $10$, the sampling distribution will be approximately normal.\n\nChoice 'D' is incorrect; standard deviation can be found using the following formula:\n\n$$\\sqrt { \\dfrac { { p }_{ 1 }(1-{ p }_{ 1 }) }{ { n }_{ 1 } } +\\dfrac { { p_{ 2 }(1- }{ p }_{ 2 }) }{ { n }_{ 2 } } } $$\n\nIn this case, the first samples proportion:\n\n$${ p }_{ 1 }= \\dfrac { 312 }{ 720 } = 0.433$$\n\nThe second sample proportion:\n\n$${ n }_{ 2 }=\\dfrac { 240 }{ 780 } =0.308$$\n\nSample sizes ${ n }_{ 1 }$ and ${ n }_{ 2 }$ are $720$ and $780$, respectively.\n\nChoice 'E' is incorrect; there is no information in the problem that suggests that bias occurs.",
   "tags": [
     "4.B",
     "UNC-5.D.1",

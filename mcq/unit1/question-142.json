@@ -28,7 +28,7 @@
     },
     {
       "letter": "D",
-      "text": "−12%"
+      "text": "$-12\\%$"
     },
     {
       "letter": "E",
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since the data appears symmetric, the mean will be approximately the same as the median. The median appears to be around $14\\%$.\n\nRemember, the median in any distribution is a point such that half of the observations are greater and half of the observations are less than that point.\n\nTherefore, the mean will also be near 14%\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.1",

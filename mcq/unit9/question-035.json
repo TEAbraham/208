@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nA $t$-test for slope uses linear regression to estimate the slope between two variables. Both variables should be quantitative in nature. Whether or not the $y$ variable is consistently responding to an $x$ variable can be shown in part through the value of the slope. A regression equation is calculated from the data and is used to predict values for one variable based on the other. The $t$-test then tests to see how sure we are of a possible association between the two variables.\n\nIn this problem, the answer asks people how old they are and how many times they voted in the past. Both variables are quantitative. While the predictive aspect might work in either direction, it is likely that the two numbers may well be associated.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because there are two sampling groups and they are being asked a yes or no question. Thus, this is a two-sample test for a difference of proportions (or possibly a chi-square test for homogeneity).\n\nChoice 'C' is incorrect because a group of people are being asked $3$ questions with qualitative answers. Thus, this is a chi-square test for independence.\n\nChoice 'D' is incorrect because a group of people are being asked one question that is quantitative. Thus, this is a one-sample test for means.\n\nChoice 'E' is incorrect because there are two sampling groups and they are being asked one questions that is quantitative. Thus, this is a two-sample test for a difference of means.",
   "tags": [
     "VAR-7.J.1",
     "VAR-7",

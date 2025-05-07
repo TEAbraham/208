@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "${ Q }_{ 1 }$ represents the cutoff for the bottom $25^{th}$ percentile and ${ Q }_{ 3 }$ represents the cutoff for the bottom $75^{th}$ percentile.\n\nWhile the median represents the $50^{th}$ percentile, it is not necessarily true that the median value is the midpoint (halfway point) between ${ Q }_{ 1 }$ and ${ Q }_{ 3 }$. All we are guaranteed is that the median is somewhere between ${ Q }_{ 1 }$ and ${ Q }_{ 3 }$, meaning somewhere between $38$ and $60$.\n\nStatement I is incorrect so we can eliminate Choices 'A' and 'D'.\n\nStatement II is incorrect because a data set can have high values or low values that can result in the mean not between the two quartiles since the mean is non-resistant to extreme values. Therefore, the mean does not always fall in between the interquartile range. Choices 'B' and 'D' can be eliminated.\n\nStatement III is incorrect. 22 is the value for the IQR (interquartile range), not the range of the data. Choice 'C' is incorrect.\n\nTherefore, Choice 'E' is the correct answer.",
   "tags": [
     "UNC-1.I.3",
     "UNC-1.I.4",

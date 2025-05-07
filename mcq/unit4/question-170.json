@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Remember, this situation deals with binomial probability due to the following factors:\n\nOtherwise, one could find individual binomial calculations and add them up.\n\nInstead of finding the probability of the sum of 0, 1, 2... ....7 defective chips, it would be quicker to find the $P(x =8, x = 9, x= 10)\\text{ chips}$ and take the compliment of this probability.\n\n$$P(\\text{fewer than }8) = 1-P (8\\text{ or more})$$\n\n$$= 1-[P(8)+P(9)+P(10)]$$\n\n$$= 1-[0.95^8\\cdot 0.05^2\\cdot{ _{ 10 }{ C }_{ 8 } }+0.95^9 \\cdot 0.05 \\cdot { _{ 10 }{ C }_{ 9 } }+0.95^{10}]$$\n\n$$= 1-0.9885$$\n\n$$= 0.0115$$\n\nThus, the correct answer is Choice 'D'.\n\nNote: Although you can use calculator commands on the exam, it is important to know how to calculate binomial probabilities by hand as well.",
   "tags": [
     "UNC-3.B",
     "3.A",

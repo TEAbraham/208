@@ -11,7 +11,7 @@
   ],
   "title": "Boxplot: Outlier Effect on the Mean and Standard Deviation",
   "difficulty": "Medium",
-  "question_text": "<br><br><br>Looking at the modified boxplot, what will happen to the mean and standard deviation when the outlier of $23$ is removed?",
+  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved.<br>Looking at the modified boxplot, what will happen to the mean and standard deviation when the outlier of $23$ is removed?<br>Looking at the modified boxplot, what will happen to the mean and standard deviation when the outlier of $23$ is removed?",
   "image_files": [
     "images/question-156-img1.PNG"
   ],
@@ -39,8 +39,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The mean and standard deviation are non-resistant measures of center and spread respectively. This indicates the mean and standard deviation will change in response to data addition or removal. Therefore, Choice 'E' can be eliminated.\n\nWhen we remove the low outlier of\n23\nthe mean will increase since the mean gets lower when the value of\n23\nis included. As a result, Choices 'A' and 'B' can be eliminated.\n\nStandard deviation is how far the individual values vary from the mean.\n\nBy removing the low outlier of\n23\nthe values will be more concentrated (thus closer) around the mean than before. This will create a smaller spread about the mean. Therefore, the standard deviation will decrease. Choice 'C' can be eliminated.\n\nAs a result, Choice 'D' is our answer because mean will increase (since the set is losing a lower contributing value) and standard deviation will decrease (smaller spread around mean).",
   "tags": [
     "2.C",
     "UNC-1.M",

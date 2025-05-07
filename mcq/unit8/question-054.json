@@ -8,7 +8,7 @@
   ],
   "title": "Concerns About Climate Change: An Expected Count",
   "difficulty": "Easy",
-  "question_text": "Are American adults and Canadian adults equally concerned about climate change? A random sample of American adults and a random sample of Canadian adults were asked if they were \"very concerned\", \"somewhat concerned\" or \"not very concerned\" about the issue. The table below shows how many adults answered with each response.<br>Assuming that the proportions of those who would provide each response is the same for American adults as for Canadian adults, what is the expected count for how many American adults would say \"very concerned\"?",
+  "question_text": "Are American adults and Canadian adults equally concerned about climate change? A random sample of American adults and a random sample of Canadian adults were asked if they were \"very concerned\", \"somewhat concerned\" or \"not very concerned\" about the issue. The table below shows how many adults answered with each response.<br>Assuming that the proportions of those who would provide each response is the same for American adults as for Canadian adults, what is the expected count for how many American adults would say \"very concerned\"?<br>Assuming that the proportions of those who would provide each response is the same for American adults as for Canadian adults, what is the expected count for how many American adults would say \"very concerned\"?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">American Adults</th><th scope=\"col\">Canadian Adults</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Very Concerned</td><td>29</td><td>38</td><td>67</td></tr><tr><td>Somewhat Concerned</td><td>48</td><td>52</td><td>100</td></tr><tr><td>Not Very Concerned</td><td>25</td><td>22</td><td>47</td></tr><tr><td>Total</td><td>102</td><td>112</td><td>214</td></tr></tbody></table>"
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The expected count for any cell in a two-way table can be calculated as follows:\n\n$$\\text{Expected Count} =\\dfrac{\\text{(row total)(column total)}}{\\text{table total}}$$\n\nFill in the formula using the total for the row labeled \"very concerned\" and the total from the column labeled \"American Adults\":\n\n$$\\text{Expected Count}=\\dfrac{(67)(102)}{214}=31.93$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it is the actual number of American adults surveyed who said \"very concerned\".\n\nChoice 'C' is incorrect because an expected count should not be rounded to a whole number.\n\nChoice 'D' is incorrect. This value was calculated by determining what percent of Canadian adults said \"very concerned\" and then applying that percent to the $102$ American adults surveyed. Assuming the distribution is the same for both populations does not mean that we assume that the sample proportion for one of the populations is the correct proportion for that response.\n\nChoice 'E' is incorrect and represents the expected count for how many Canadian adults we would expect to say \"very concerned\".",
   "tags": [
     "VAR-8.H",
     "3.A",

@@ -8,7 +8,7 @@
   ],
   "title": "Sampling Distributions and Nurse's Salaries",
   "difficulty": "Medium",
-  "question_text": "A typical nurse's salary (in dollars) can range from $\\$25{,}000$ to $\\$55{,}000$ per year. A computer is programmed to randomly choose $20\\text{ nurse's salaries}$ from among the $200\\text{ nurses}$ employed at a hospital and compute the standard deviation.<br>The computer repeats this process a total of $50\\text{ times}$. The sampling distribution of the standard deviation of the nurse's salaries is shown below.<br><br><br><br><br>One of the points on this sampling distribution, $\\$8{,}165$, is highlighted.<br>What does this value represent?",
+  "question_text": "A typical nurse's salary (in dollars) can range from $\\$25{,}000$ to $\\$55{,}000$ per year. A computer is programmed to randomly choose $20\\text{ nurse's salaries}$ from among the $200\\text{ nurses}$ employed at a hospital and compute the standard deviation.<br>The computer repeats this process a total of $50\\text{ times}$. The sampling distribution of the standard deviation of the nurse's salaries is shown below.<br><br>One of the points on this sampling distribution, $\\$8{,}165$, is highlighted.<br>What does this value represent?",
   "image_files": [
     "images/question-073-img1.JPG"
   ],
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Based on the graph, we can see that this is a histogram measuring the standard deviations of the nurses' salaries. Therefore, the highlighted data point is one measure of a standard deviation of one nurse's salary.\n\nExplanation of Distractors\n\nChoices 'A' and 'B' - The sampling distribution displays the standard deviations from repeated samples. It does not display actual salary values for individual nurses.\n\nChoice 'C' - Because the computer has the values of all\n200\n nurse's salaries\n, the population standard deviation already exists and can be found by the computer. There is no uncertainty (\n14\n%\nchance) about the true standard deviation.\n\nChoice 'E' - The average standard deviation of the samples of nurse's salaries can be found in the center of the sampling distribution, around\n$\n10,200\n.",
   "tags": [
     "UNC-3.H.2",
     "UNC-3.H.1",

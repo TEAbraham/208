@@ -8,7 +8,7 @@
   ],
   "title": "Let's Play Ball",
   "difficulty": "Medium",
-  "question_text": "Danny wanted to do a simulation on the types of hits in baseball. While the percentages change slightly from year to year, he found that in $2020$ that approximately $63\\%$ of hits were singles, $18\\%$ were doubles, $15\\%$ were home runs, and $4\\%$ were triples. Danny wanted to simulate $200$ at bats using these percentages.\nHow would he assign numbers using a random number table? Then, how would he calculate the estimated probabilities from using his table?",
+  "question_text": "Danny wanted to do a simulation on the types of hits in baseball. While the percentages change slightly from year to year, he found that in $2020$ that approximately $63\\%$ of hits were singles, $18\\%$ were doubles, $15\\%$ were home runs, and $4\\%$ were triples. Danny wanted to simulate $200$ at bats using these percentages.\nHow would he assign numbers using a random number table? Then, how would he calculate the estimated probabilities from using his table?<br>How would he assign numbers using a random number table? Then, how would he calculate the estimated probabilities from using his table?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "Let 01 to 63 indicate a single, let 64 to 81 indicate a double, let 82 to 85 indicate a triple, and let 86 to 99 and 00 indicate a home run.\nDanny would then count up the number in each category and divide each number by 200."
+      "text": "Let $01$ to $63$ indicate a single, let $64$ to $81$ indicate a double, let $82$ to $85$ indicate a triple, and let $86$ to $99$ and $00$ indicate a home run.\nDanny would then count up the number in each category and divide each number by $200$."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTo estimate a probability using simulation, one way is to use a random number table. All possible numbers within a certain number of digits must be used. Here, because the percentages add up to 100%, and there are 100 two digit numbers, no numbers on the table need to be skipped.\n\nWhile you can start counting at either 00 or 01, the correct answer here begins at 01. Then you would use the number of numbers that would correspond to the given percentage. For example, home runs account for approximately 15% of hits, so 15 numbers should be assigned to home runs.\n\nTo obtain the estimated probabilities, Danny would need to count up the number in each category and divide by the total number of trials, in this case, 200\n. For example, let's say that Danny found there to be 32\nhome runs. Dividing this by 200\nwould give a percentage of 16%\n, close to the expected 15%\n.\n\nSo, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because, while the numbering is correct, Danny must divide each category by 200\nand not by the percentages.\n\nChoice 'B' is incorrect because, while the numbering is correct, Danny must divide each category by 200\nand not by 100\n.\n\nChoice 'C' is incorrect because while the numbering is correct, and note that the numbering is different here, Danny must divide each category by 200\nand not by 100\n.\n\nChoice 'D' is incorrect because Danny used only 17\nnumbers for the doubles instead of 18\n. While he would have been correct to say to skip 00\n, given his numbers, the assigned numbers for doubles is still wrong.",
   "tags": [
     "3.A",
     "UNC-2.A",

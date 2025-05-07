@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This question deals with being able to recognize a binomial distribution and being able to substitute the appropriate values into the formula.\n\nThe requirements for a binomial distribution are met:\n\nThe formula for a binomial distribution is:\n\n$$\\begin{pmatrix} n \\\\ k \\end{pmatrix}(p)^{k}(1-p)^{n-k}$$\n\n...where $k$ stands for the number of successes which in this case is four, $p$ is the probability of success, and $n$ is the number of trials. (This formula is given on the AP Exam.)\n\nTherefore, our answer is Choice 'A'.\n\nA common wrong answer would be to select Choice 'C'. However, it does not take into account all the possible combinations of making $4$ out of $10$ free throws.\n\nExplanation of Distractors Choice 'B' is incorrect as this represents the probability he makes exactly six free throws. Choice 'C' is incorrect as this does not take into account all the possibilities he makes four free throws. Choice 'D' is as this represents one combination of making exactly six free throws. Choice 'E' is incorrect as this does not take into account all the possibilities he makes four free throws, and it should be multiplication among the probabilities instead of division.",
   "tags": [
     "UNC-3.A.2",
     "3.A",

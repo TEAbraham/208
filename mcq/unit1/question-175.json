@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is correct.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The mean is sensitive to outliers and the median is resistant to outliers. Imagine a distribution with values of 5,5,5,5, and 55. The median would be 5, but the mean would be 15.\n\nTherefore, if Turtle's distribution has a mean of 104 seconds and a median of 96 seconds, then the mean is greater than the median. So Turtle has a mean greater than the median and likely has a right skew.\n\nBobosaur's mean and median are identical, which means his data likely has no skew.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because Turtle has a mean time which is greater than his median. If there is no skew, then the mean is near the median.\n\nChoice 'B' is incorrect because Turtle has a mean time which is greater than his median, which results in a right skew. To have a left skew, the mean should be less than the median.\n\nChoice 'D' is incorrect both because Turtle should have a right skew and because Bobosaur should have no skew. Since Bobosaur has the same mean and median, Bobosaur should have no skew. If Bobosaur had a left skew, the mean would be below the median.\n\nChoice 'D' is incorrect both because Turtle should have a right skew and because Bobosaur should have no skew. Since Bobosaur has the same mean and median, Bobosaur should have no skew. If Bobosaur had a right skew, the mean would be above the median.",
   "tags": [
     "UNC-1.O",
     "2.D",

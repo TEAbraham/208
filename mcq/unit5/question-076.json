@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nHere we look at the normal distribution of orange Meese's Pieces as a continuous random variable To find the probability we need to calculate $z$-scores using this formula:\n\n$$z=\\dfrac{\\bar{x}-\\mu}{\\sigma}$\n\nwhere z represents the z-score,\nˉ\nx\nrepresents the statistics in the problem, μ represents the mean of the population, and σ represents the standard deviation of the population.\n\nWe need to find two z-scores in order to find the probability. In each case we use μ=240 and σ=6. We separately plug in the two given values of\nˉ\nx\nwhere it equals 225 and 250 to get these two equations:\n\nz=\n225−240\n6\nand z=\n250−240\n6\n.\n\nSolving each equation, we obtain values for z\nof −2.5\nand 1.67\n.\n\nWe then look up these two z\n-scores in Table A\nto find two values that must be subtracted. So, we get 0.9525−0.0062=0.9463\n.\n\nNote that while we need the z\n-scores to find our answers, the probability can be written in terms of the z\n-scores or the X\nvalues. In this case, the latter is used. Also, if a calculator is used the probability might be slightly different, but not by much.\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the z\n-scores are used but the variable z\nis not.\n\nChoice 'B' is incorrect because the probability value is wrong as the smaller table value was not subtracted.\n\nChoice 'D' is incorrect because the probability has been subtracted from 1\n.\n\nChoice 'E' is incorrect because the two table values were added instead of subtracted.",
   "tags": [
     "VAR-6.B",
     "3.A",

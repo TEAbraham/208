@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This type dataset is called a matched pair. In each game, the winning score is matched with the losing score, with the winning score going into X and the losing score going into Y.\n\nThe team that scored the most points ever in a game must have won, and so that value goes in X and is larger than any value in Y. So the maximum of X is larger than the maximum of Y.\n\nSimilarly, the team that scored the fewest points ever in a game must have lost and that value goes in Y, so the minimum of Y is lower than the minimum of X. If you put each game in the same row and put the winning score in column X and the losing score in column Y, then the value in column X is greater than the value of column Y for every row. Therefore, the mean of X must be greater than the mean of Y.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect because we do not know enough information to say which group has a larger standard deviation.\n\nChoice ‘B’ is incorrect because we do not have enough information to know which mode is higher.\n\nChoice ‘C’ is incorrect because we do not have any information about the spread of X or of Y. Therefore, we cannot know about the IQR or the variance.\n\nChoice ‘E’ is incorrect because we do not know about the spread of X or Y and therefore cannot determine anything about their ranges.",
   "tags": [
     "UNC-1.O",
     "2.D",

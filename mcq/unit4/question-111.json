@@ -16,28 +16,27 @@
   "choices": [
     {
       "letter": "A",
-      "text": "The distribution is skewed to the left. Its center is a B, and there is some amount of spread."
+      "text": "The distribution is skewed to the left. Its center is a $B$, and there is some amount of spread."
     },
     {
       "letter": "B",
-      "text": "The distribution is skewed to the right. Its center is a B, and there is some amount of spread."
+      "text": "The distribution is skewed to the right. Its center is a $B$, and there is some amount of spread."
     },
     {
       "letter": "C",
-      "text": "The distribution is skewed to the left. Its center is a C, and there is some amount of spread."
+      "text": "The distribution is skewed to the left. Its center is a $C$, and there is some amount of spread."
     },
     {
       "letter": "D",
-      "text": "The distribution is symmetric. Its center is a\nB\n, and there is some amount of spread."
+      "text": "The distribution is symmetric. Its center is a B, and there is some amount of spread."
     },
     {
       "letter": "E",
-      "text": "The distribution is symmetric. Its center is a\nC\n, and there is some amount of spread."
+      "text": "The distribution is symmetric. Its center is a C\n, and there is some amount of spread."
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nA distribution is described in terms of its shape, center, and spread.\n\nShape refers to whether the distribution is symmetric or skewed. It can be skewed to the right or the left. In this example we can see that the professor gives mostly A\n's and B\n's. Thus, with fewer grades on the left side of the distribution, we would say that it is left-skewed.\n\nCenter can be measured in different ways, but it is essentially where the median will fall. Because more than half of the grades in this distribution are a B\n, we can be sure that the median of the distribution, the center, is in fact a B\n.\n\nSpread refers to the variability of the distribution or how spread out the data points are. Here we can infer only that there is some amount of spread since so few of the points represent the lower three grades.\n\nSo, Choice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect because it says the distribution is skewed to the right when it should say to the left.\n\nChoice 'C' is incorrect because it says that the center is a\nC\ngrade when it should be a\nB\n.\n\nChoice 'D' is incorrect because it says that the shape of the distribution is symmetric when it should be skewed.\n\nChoice 'E' is incorrect because it both says that the shape of the distribution is symmetric when it should be skewed, and it gives the center as a\nC\ngrade when it should be a\nB\n.",
   "tags": [
     "VAR-5.B.1",
     "VAR-5",

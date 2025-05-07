@@ -15,28 +15,27 @@
   "choices": [
     {
       "letter": "A",
-      "text": "Randomly select 100 students\nwho have taken the ACT once, have them take the prep course, and then have them take the ACT a second time. Randomly select another 100 students\nwho have taken the ACT once and have them take the ACT again without the prep course. Compare the increase in ACT scores of the two groups."
+      "text": "Randomly select $100\\text{ students}$ who have taken the ACT once, have them take the prep course, and then have them take the ACT a second time. Randomly select another $100\\text{ students}$ who have taken the ACT once and have them take the ACT again without the prep course. Compare the increase in ACT scores of the two groups."
     },
     {
       "letter": "B",
-      "text": "Randomly select 100 students\n, enroll them in the prep course, then have them take the ACT. Randomly select another 100 students\n, do not allow them to take the prep course, then have them take the ACT. Compare ACT scores of the two groups."
+      "text": "Randomly select $100\\text{ students}$, enroll them in the prep course, then have them take the ACT. Randomly select another $100\\text{ students}$, do not allow them to take the prep course, then have them take the ACT. Compare ACT scores of the two groups."
     },
     {
       "letter": "C",
-      "text": "Find 100\nrandomly chosen students who have taken the prep course, then have these students take the ACT. Compare these scores to the ACT scores of 100\nrandomly chosen students who have not taken the prep course."
+      "text": "Find $100$ randomly chosen students who have taken the prep course, then have these students take the ACT. Compare these scores to the ACT scores of $100$ randomly chosen students who have not taken the prep course."
     },
     {
       "letter": "D",
-      "text": "Randomly select\n100\n students\nwho have not taken the ACT or the prep course and have them take the ACT once, then take the prep course, and then finally take the ACT a second time. Compare the difference in scores on the ACT."
+      "text": "Randomly select 100 students who have not taken the ACT or the prep course and have them take the ACT once, then take the prep course, and then finally take the ACT a second time. Compare the difference in scores on the ACT."
     },
     {
       "letter": "E",
-      "text": "Randomly select\n200\n students\n, pair each student up with another who is about the same age, and have one student in each pair take the prep course while the other does not. Compare ACT scores of each of the\n100\n pairs\n."
+      "text": "Randomly select 200 students\n, pair each student up with another who is about the same age, and have one student in each pair take the prep course while the other does not. Compare ACT scores of each of the 100 pairs\n."
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This situation controls for the variables that the other answer options do not, as detailed below.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect; this selection does not control for intelligence; simply by chance, some individuals might be more intelligent than others.\n\nChoice 'C' is incorrect; people who choose to sign up for the course are most likely more motivated; signing up for the course should not be voluntary when evaluating the course’s effectiveness.\n\nChoice 'D' is incorrect; students could easily increase their ACT score the second time regardless of the prep course.\n\nChoice 'E' is incorrect; pairing by age does not make sense; however, the pairing system could work if the students were paired up in terms of similar ACT score before the class.",
   "tags": [
     "VAR-3.D",
     "VAR-3.E",

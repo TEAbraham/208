@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "0.8944"
+      "text": "$0.8944$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The question asks to find $P(X \\ge 1)$.\n\nFirst use the conversion formula to find the equivalent $z$-value of $1\\text{ ounce}$:\n\n$$z = \\dfrac{(X-\\mu)}{\\sigma} $$\n\n$$z = \\dfrac{(1-1.1)}{0.08} = -1.25$$\n\nNow use the table of standard normal probabilities or your calculator to find $P(z\\ge-1.1) = 1 – 0.1056 = 0.8944$\n\nThe table will give you the left area of the graph shown above, and so to answer the question asked, you must subtract this probability from 1.\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

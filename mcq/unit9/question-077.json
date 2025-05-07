@@ -9,34 +9,35 @@
   ],
   "title": "Crabgrass Confidence Interval",
   "difficulty": "Easy",
-  "question_text": "Rob applied preventative herbicide/fertilizer to stop crabgrass in his lawn. He applied $4$ levels of treatment, each to $4$ sections of his lawn at random, and recorded the change in crabgrass plants per square meter. The data is given below:\nLoading question supplement...\nRegression analysis was performed and a $98\\%$ confidence interval for the slope of the true regression line of change in crabgrass on treatment was constructed.<br>$98\\%$ Confidence Interval: $ (-1.134, -0.8364)$<br>Interpret the meaning of this interval in context.",
-  "image_files": [],
+  "question_text": "Rob applied preventative herbicide/fertilizer to stop crabgrass in his lawn. He applied $4$ levels of treatment, each to $4$ sections of his lawn at random, and recorded the change in crabgrass plants per square meter. The data is given below:\nRegression analysis was performed and a $98\\%$ confidence interval for the slope of the true regression line of change in crabgrass on treatment was constructed.<br>$98\\%$ Confidence Interval: $ (-1.134, -0.8364)$<br>Interpret the meaning of this interval in context.",
+  "image_files": [
+    "images/question-077-img1.jpeg"
+  ],
   "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "We are $98\\%$ confident that the mean change in crab grass plants per square meter is between $-1.134$ and $-0.8364$ plants."
+      "text": "We are 98% confident that the mean change in crab grass plants per square meter is between −1.134 and −0.8364 plants."
     },
     {
       "letter": "B",
-      "text": "The slope of the true regression line relating change in crab grass and herbicide/fertilizer is between $-1.134$ and $-0.8364$ approximately $98\\%$ of the time."
+      "text": "The slope of the true regression line relating change in crab grass and herbicide/fertilizer is between −1.134\nand −0.8364\napproximately 98%\nof the time."
     },
     {
       "letter": "C",
-      "text": "If Rob were to perform the same experiment many times, we would expect approximately $98\\%$ of the sample regression slopes to fall between $-1.134$ and $-0.8364$."
+      "text": "If Rob were to perform the same experiment many times, we would expect approximately 98%\nof the sample regression slopes to fall between −1.134\nand −0.8364\n."
     },
     {
       "letter": "D",
-      "text": "Rob can expect the herbicide/fertilizer to kill between $-1.134$ and $-0.8364$ on $98\\%$ of the sections of his lawn."
+      "text": "Rob can expect the herbicide/fertilizer to kill between −1.134\nand −0.8364\non 98%\nof the sections of his lawn."
     },
     {
       "letter": "E",
-      "text": "We are 98% confident that the interval from −1.134 to −0.8364 crab grass plants per square meter captures the slope of the true regression line relating change in crab grass and herbicide/fertilizer."
+      "text": "We are 98%\nconfident that the interval from −1.134\nto −0.8364\ncrab grass plants per square meter captures the slope of the true regression line relating change in crab grass and herbicide/fertilizer."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nA level C\nconfidence interval means that if the experiment were repeated many times under the same methods, approximately C%\nof the resulting intervals would capture the true parameter in question.\n\nThus, we can say that we are 98%\nthe interval from −1.134\nto −0.8364\ncrabgrass plants per square meter captures the slope of the true regression line relating change in crabgrass and herbicide/fertilizer.\n\nSo, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect.\n\nThis incorrect interpretation is made as if the parameter is a population mean. The inference procedure is about slope which involves both variables, change in crab grass and herbicide/fertilizer applied.\n\nChoice 'B' is incorrect.\n\nThis incorrect interpretation assumes that true regression slope depends on the upper and lower bounds of the confidence interval.\n\nSince the confidence interval is a combination of the slope point-estimate and the margin of error, the process used can be expected to generate intervals within which the true slope lies approximately\n98\n%\nof the time.\n\nChoice 'C' is incorrect.\n\nThis incorrect interpretation assumes that true regression slope depends on the upper and lower bounds of the confidence interval.\n\nSince the confidence interval is a combination of the slope point-estimate and the margin of error, the process used can be expected to generate intervals within which the true slope lies approximately\n98\n%\nof the time.\n\nChoice 'D' is incorrect.\n\nThe mistake here is two-fold. The interval was interpreted as a mean number of crab grass plants killed and the\n98\n%\nas a proportion of effective treatment locations. Neither of these is correct.",
   "tags": [
     "4.B",
     "UNC-4.AG.2",

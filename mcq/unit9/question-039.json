@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nUsually when writing hypotheses for a $t$-test for slope using regression, we would use a beta, $\\beta$ for both the null and alternative hypotheses.\n\nFor the null hypothesis, when we set beta equal to zero, what we are really saying is that no slope implies no association between our two variables. In other words, the two variables do not move together.\n\nFor the alternative hypothesis, when we set beta not equal to, less than, or greater than zero, what we are really saying is that there is an association between the two variables. In other words, the two variables do move together. Because this problem is stated as being two-sided, then we are saying that the slope could be positive or negative, therefore those words would not be used in the hypothesis.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the null and alternative hypotheses are reversed.\n\nChoice 'C' is incorrect because the alternative hypothesis inserts the word \"positive\" which is wrong because it is a two-sided test.\n\nChoice 'D' is incorrect because the alternative hypothesis inserts the word \"negative\" which is wrong because it is a two-sided test.\n\nChoice 'E' is incorrect because the null hypothesis states the alternative one and the alternative one states the word \"positive.\"",
   "tags": [
     "1.F",
     "VAR-7.K",

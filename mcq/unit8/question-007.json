@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nOne of the very reasons for statistical testing, or using tests of significance, is to determine if something has occurred by random chance or whether we can conclude a reason for what has happened. For example, does a new drug help patients, does a certain battery brand last longer than others, or does the distribution of candy colors follow a given distribution?\n\nTo test these ideas, we first decide upon a test and then check to verify its conditions. To test for the distribution of colors of the candy we would use a chi-square test. Even if you do not know the specifics of this test, in every test you have seen the need for a large enough sample size; $50$ bags is large enough for any test. Therefore, a statistical test can be (and was) done to show that the color distribution obtained had a very high probability of occurring not by chance or as a result of random variation.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the initial answer should be 'no.' The comment is certainly true, but would not extend to a distribution change over $50$ bags.\n\nChoice 'B' is incorrect because the initial answer should be 'no.' Since the insides of the bags were unknown, and they were randomly distributed to students, the randomness criteria was met.\n\nChoice 'C' is incorrect because the initial answer should be 'no.' In a chi-square distribution, the approximation to the normal is not used.\n\nChoice 'E' is incorrect because, well, while this comment may be true, it does not explain why the result occurred or that it was the result of a statistical test.",
   "tags": [
     "VAR-1.J",
     "VAR-1.J.1",

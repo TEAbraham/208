@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The formula for calculating the standard deviation of a sample mean can be found in the reference materials that are provided with the AP exam. The formula provided is:\n\n$$\\dfrac { \\sigma }{ \\sqrt { n } } $$\n\n...where $\\sigma$ represents the standard deviation of the entire population and $n$ represents the sample size.\n\nWe do not know the standard deviation of the entire population, but we do know $s$, the standard deviation of the sample. To find the standard error, we simply replace $\\sigma$ in the formula above with $s$ and fill in the formula as follows:\n\n$$\\dfrac { s }{ \\sqrt { n } } =\\dfrac { 21.2 }{ \\sqrt { 20 } } =4.74$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect and results from switching the numerator and denominator in the formula for standard error.\n\nChoice 'B' is incorrect and results from taking a square root in the numerator of the formula as well as in the denominator.\n\nChoice 'D' is incorrect because it incorrectly assumes that the sample standard deviation is equal to the standard error.\n\nChoice 'E' is incorrect. We do not need to know the standard deviation for the games played prior to the new rules being enacted because we are not completing a $2$-sample test. We only have data from a sample of games played after the new rules were enacted and therefore we can only perform a $1$-sample test.",
   "tags": [
     "VAR-7.E",
     "VAR-7.E.1",

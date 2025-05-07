@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In this geometric setting, we are looking for:\n\np(X=2 or X=3)\n\n...where X is the number of students who need to be questioned in order to find one who participates in at least one extracurricular activity.\n\nWe can solve this problem using a combination of the multiplication rule and the addition rule for mutually exclusive events.\n\nSince p(participates)=0.58, we know p(does not participate)=1–0.58=0.42\n\np(X=2 or X=3)=p(X=2)+p(X=3)\n\nIf X=2\n, then the first person questioned does not participate in at least one extra-curricular and the second student does.\n\np(X=2)=(0.42)(0.58)=0.2436\n\nIf X=3\n, then the first person questioned does not participate in and least one extra-curricular and the second person does not participate, and the third student questioned does.\n\np(X=3)=(0.42)(0.42)(0.58)=0.1023\n\nTherefore:\n\np(X=2 or X=3)=0.2436+0.1023=0.3459\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. It represents the probability that the third student questioned will be the first who participates in at least one extra-curricular activity.\n\nChoice 'B' is incorrect. It represents the probability that the second student questioned will be the first who participates in at least one extra-curricular activity.\n\nChoice 'D' is incorrect. We cannot assume that the probability of one student participating will equal the probability of needing to question\n2\nor\n3\nstudents before finding one who participates in at least one extra-curricular activity.\n\nChoice 'E' is incorrect. It represents the probability either one out of two students who are questioned participates OR one out of three students who are questioned participates in at least one extra-curricular activity. It was calculated using a sum of two binomial probabilities.",
   "tags": [
     "VAR-4.E",
     "3.A",

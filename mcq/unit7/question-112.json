@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Based on the computer output, the $p$-value for this test is $0.537$, which is considered a high $p$-value at all common alpha levels. Therefore, one should side with $H_0$, meaning there was a failure to find evidence of a difference in weights.\n\nExplanation of Distractors\n\nChoices 'A' and 'B' are incorrect; these attempt to draw conclusions that hypothesis tests are incapable of. Hypothesis tests can only give evidence for the alternative hypothesis or fail to give evidence for the alternative hypothesis.\n\nChoice 'D' is incorrect; a high $p$-value is connected with a failure to find evidence.\n\nChoice 'E' is incorrect; the samples are random and independent, and the distributions of the populations are approximtately to ensure approximate normality in the sampling distribution, so the conditions are met.",
   "tags": [
     "4.D",
     "UNC-4.AA.1",

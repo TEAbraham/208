@@ -16,11 +16,11 @@
   "choices": [
     {
       "letter": "A",
-      "text": "Continuous uniform distribution\nMean = $4.5$"
+      "text": "Continuous uniform distribution\nMean = 4.5"
     },
     {
       "letter": "B",
-      "text": "Discrete uniform distribution\nMean = $4.5$"
+      "text": "Discrete uniform distribution\nMean = 4.5"
     },
     {
       "letter": "C",
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "First, calculate the mean. Since digits from a random numbers table are relatively evenly distributed, it would be logical to assume that there were, on average, five students whose last phone digit was each of the\n1\n-digit numbers from the random numbers table.\n\nTherefore, the mean of these digits will be:\n\n5\n×\n0\n+\n5\n×\n1\n+\n5\n×\n2\n+\n5\n×\n3\n+\n5\n×\n4\n+\n5\n×\n5\n+\n5\n×\n6\n+\n5\n×\n7\n+\n5\n×\n8\n+\n5\n×\n9\n\n...divided by the number of students,\n50\n. The arithmetic yields\n225\n50\n=\n4.5\n=\nμ\n.\n\nThe shape of the distribution will be flat, with no humps, since each digit is equally likely. This flat shape is called a uniform distribution.\n\nIt will be a discrete uniform distribution since only whole number digits can be possible answers, unlike a continuous uniform distribution, which has a flat shape, but there is an infinite number of possible values, such as\n1.28\nor\n3.32227\n.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "UNC-3.R.1",
     "3.C",

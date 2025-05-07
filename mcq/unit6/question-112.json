@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The first thing to identify is the null hypothesis:\n\n$${ H }_{ 0 }:{ p }_{ m }={ p }_{ f }\\Rightarrow { H }_{ 0 }:{ p }_{ m }-{ p }_{ f }=0$$\n\nLooking at the confidence interval, we can see that $0\\%$ falls outside $7\\%$ to $12\\%$. From this, we can eliminate Choices 'A' and 'B'.\n\nSince the null hypothesis falls outside the interval, this indicates we must reject the null hypothesis. Therefore, we can eliminate Choice 'D'.\n\nChoice 'E' is incorrect, because when the null hypothesis is rejected, that means there is sufficient evidence for the alternative hypotheses.\n\nIn this case, the alternative hypothesis is that the proportion of men who prefer the steak dinner over the chicken dinner is greater than the proportion of women who prefer to the steak dinner over the chicken dinner.",
   "tags": [
     "UNC-4.N.1",
     "4.D",

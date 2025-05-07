@@ -26,16 +26,15 @@
     },
     {
       "letter": "D",
-      "text": "$0.64$"
+      "text": "0.64"
     },
     {
       "letter": "E",
-      "text": "$0.68$"
+      "text": "0.68"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We are looking for the probability that the attendance at the randomly selected game is within 200\npeople of the average of 16,785\n. Remember, it could be up to 200\npeople below or 200\npeople above 16,785\n.\n\nTherefore, we are looking for p(16,785−200<x<16,785+200)\nor p(16,585<x<16,985)\nwhere x\nis the attendance at the randomly selected game.\n\nFirst, we must turn each of the raw values into z\n-scores. The formula for calculating z\nis:\n\nz=\nx−μ\nσ\n\n...where x\nis the observed value or value of interest.\n\nz=\n16585−16785\n432\n=−0.463\n\nz=\n16985−16785\n432\n=0.463\n\nSo we are looking for p(−0.463<z<0.463)\n. The easiest way to find this answer is to use your TI83/84 graphing calculator's normalcdf function. The normalcdf function finds probabilities associated with given z\n-scores. The syntax is: normalcdf(lower bound, upper bound, mean, standard deviation).\n\nIn this case you would:\n\nThe calculator will return the value of about\n0.36\n. This is the answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. It represents the probability that the attendance at the randomly selected game will be more than\n200\npeople above the average. Alternatively, it could also represent the probability that the attendance would be more than\n200\npeople below the average.\n\nChoice 'C' is incorrect. While the normal distribution curve does demonstrate symmetry around the mean value, and while\n16\n,\n585\nand\n16\n,\n985\nare symmetric values around the mean, we cannot assume that the area of the curve beneath these two values will be\n0.50\n.\n\nChoice 'D' is incorrect. It represents the probability that the attendance at the randomly selected game will differ from the average by more than\n200\npeople. It is the complement of the correct answer or\n1\n−\n(the correct answer)\n.\n\nChoice 'E' is incorrect. It represents the probability that attendance at the randomly selected game is greater than\n16\n,\n585\n. Alternatively, it could represent the probability that the attendance is less than\n16\n,\n985\n.",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

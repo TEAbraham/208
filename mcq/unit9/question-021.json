@@ -11,7 +11,7 @@
   ],
   "title": "Standard Error of Residuals: NBA Height and Wingspan",
   "difficulty": "Easy",
-  "question_text": "NBA scouts are always interested in the relationship between the height of NBA players and their respective wingspans. An NBA scout randomly selects $19$ players and measures their heights and wingspans. Below is the computer regression analysis of height and wingspan.<br>Dependent variable is wingspan.\n$R^2 = 0.787$\n$S = 2.23$\nDegrees of Freedom = $17$<br>Which of the following represents the standard error of the residuals?",
+  "question_text": "NBA scouts are always interested in the relationship between the height of NBA players and their respective wingspans. An NBA scout randomly selects $19$ players and measures their heights and wingspans. Below is the computer regression analysis of height and wingspan.<br>Dependent variable is wingspan.\n$R^2 = 0.787$\n$S = 2.23$\nDegrees of Freedom = $17$<br>Which of the following represents the standard error of the residuals?<br>Which of the following represents the standard error of the residuals?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">Coefficient</th><th scope=\"col\">SE(Coeff)</th><th scope=\"col\">t-ratio</th><th scope=\"col\">P-value</th></tr></thead><tbody><tr><td>Constant</td><td>-2.273</td><td>0.39</td><td>-5.83</td><td>&lt;0.0001</td></tr><tr><td>Height</td><td>1.084</td><td>0.24</td><td>4.52</td><td>&lt;0.0001</td></tr></tbody></table>"
@@ -39,8 +39,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The letter $S$ denotes the standard error of the residuals in a regression analysis table. Choice 'E' is our answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as this value is the standard error of the slope.\n\nChoice 'B' is incorrect as this is the standard error of the slope divided by the square root of the sample size.\n\nChoice 'C' is incorrect as this is the standard error of the y-intercept.\n\nChoice 'D' is incorrect as this the standard error of the y-intercept divided by the square root of the sample size.",
   "tags": [
     "DAT-1.F.2",
     "DAT-1.F.1",

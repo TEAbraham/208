@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Finding the standard deviation of the difference of two proportions involves adding the two variances just as we do when combining two random variables. We then take the square root of that sum to complete the formula:\n\n$${ \\sigma }_{ { p }_{ B }-{ p }_{ F } }=\\sqrt { \\frac { (0.15)(0.85) }{ 80 } +\\frac { (0.20)(0.80) }{ 80 } } =0.06$$\n\nExplanation of Distractors\n\nChoice 'A': Sampling distributions focus on the true difference in the proportions when finding the mean and the standard deviation. We can then use that sampling distribution to decide if an observed difference from two samples is unusual.\n\nChoice 'B': The proportion of flights delayed on one airline are not related to the proportion of flights delayed on another airline. The two samples can be considered independent.\n\nChoice 'C': Combining the two samples is appropriate when we conduct a hypothesis test for the difference between two proportions. It is not appropriate for a sampling distribution.\n\nChoice 'E': Choice 'D' correctly points out that the standard deviation was calculated incorrectly.",
   "tags": [
     "4.B",
     "UNC-3.P.1",

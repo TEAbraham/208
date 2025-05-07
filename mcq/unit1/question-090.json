@@ -27,20 +27,19 @@
     },
     {
       "letter": "C",
-      "text": "Mean: $82$\nStandard Deviation: $10$"
+      "text": "Mean: 82\nStandard Deviation: 10"
     },
     {
       "letter": "D",
-      "text": "Mean: $82$\nStandard Deviation: $13$"
+      "text": "Mean: 82\nStandard Deviation: 13"
     },
     {
       "letter": "E",
-      "text": "Mean: $82$\nStandard Deviation: $15$"
+      "text": "Mean: 82\nStandard Deviation: 15"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When adding a set amount to each individual value, the center (mean) will increase by the amount that individual values were increased.\n\nHowever, the standard deviation will remain unchanged. The reason for this is that the standard deviation represents a spread.\n\nTherefore, when five is added to every value in a data set, we simply shift the values five units to the right and therefore, the spread does not change.\n\nExplanation of Distractors Choices 'A' and 'B' are incorrect as the mean should be increase by 5\n. Choices 'D' and 'E' are incorrect as the standard deviation will remain the same.",
   "tags": [
     "UNC-1.I.2",
     "2.C",

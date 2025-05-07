@@ -9,7 +9,7 @@
   ],
   "title": "Meaning of Slope in Speed and Mileage Relationship",
   "difficulty": "Easy",
-  "question_text": "The speed (in kilometers per hour) and mileage (in kilometers per liter) of $13\\text{ cars}$ was measured. The regression equation is as follows:<br>$$\\text{Mileage (km per liter)}= -1.8 + 0.536 \\times \\text{Speed (km per hour)}$$<br>According to this model, an increase in speed of $10$ kilometers per hour would change the fuel economy by",
+  "question_text": "The speed (in kilometers per hour) and mileage (in kilometers per liter) of $13\\text{ cars}$ was measured. The regression equation is as follows:<br>$$\\text{Mileage (km per liter)}= -1.8 + 0.536 \\times \\text{Speed (km per hour)}$$<br>According to this model, an increase in speed of $10$ kilometers per hour would change the fuel economy by<br>According to this model, an increase in speed of $10$ kilometers per hour would change the fuel economy by",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Predictor</th><th scope=\"col\">Coef</th><th scope=\"col\">SE Coef</th><th scope=\"col\">T</th><th scope=\"col\">P</th></tr></thead><tbody><tr><td>Constant</td><td>-1.8</td><td>8.357</td><td>-0.22</td><td>0.8333</td></tr><tr><td>Kilometers per hour</td><td>0.536</td><td>0.1192</td><td>4.5</td><td>0.001</td></tr></tbody></table>"
@@ -29,7 +29,7 @@
     },
     {
       "letter": "D",
-      "text": "An increase of 0.536 kilometers per liter."
+      "text": "An increase of $0.536\\text{ kilometers per liter}$."
     },
     {
       "letter": "E",
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We are asked about how an increase in speed would change the fuel economy. In other words, speed is like the independent variable, x\n, and fuel economy is like the dependent variable, y\n. To find how y\nchanges with respect to x\n, we need the slope. By definition, the slope is the change in y\ndivided by the change in x\n. We need to look at our given equation to understand what these numbers are.\n\nLooking at the equation, if we increase speed by 1\n, mileage increases by 0.536\n. So if speed changes by 10\n, fuel economy changes by 5.36\n.\n\nThus, the correct answer is Choice 'A'.\n\nCommon Error\n\nA common error is to calculate the mileage at 10 km per hour\n:\n\nMileage (km per liter)=−1.8+0.536×Speed (km per hour)\n\nMileage (km per liter)=−1.8+0.536×10\n\nMileage (km per liter)=−1.8+5.36\n\nMileage (km per liter)=3.56\n\nThis is the mileage at 10 km per hour\n, but it does not represent the change in fuel economy. That is only the term 0.536×Speed (km per hour)\n.",
   "tags": [
     "2.C",
     "DAT-1",

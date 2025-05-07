@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A linear regression $T$-test or $T$-interval should be used when there are two quantitative variables.\n\nOftentimes, one wants to determine if there is a linear relationship (either positive or negative) between two quantitative variables. A linear regression $T$ test will either give evidence of a linear relationship between those variables, or fail to give sufficient evidence of a linear relationship between those variables. A linear regression $T$ interval will give a range of values to estimate the slope of the population regression line of the two variables.\n\nFor example, suppose one quantitative variable is the number of minutes one studies per week for an individual course, and the second quantitative variable is the students' current grade in that class. A linear regression $T$ test can determine if a linear relationship exists between those variables, and a linear regression $T$ interval can estimate the slope of the regression line between time studied and current grade in the class.\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "4.B",
     "DAT-3",

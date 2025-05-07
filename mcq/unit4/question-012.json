@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nYou need to be able to comfortably label what is needed in a simulation. In this case, the suits in the deck of cards can be ignored. You are interested in matching the numbers or rankings of the cards, for example, two queens.\n\nTo use simulation to estimate a probability, randomness is essential. So, to find how often two of a kind might be chosen, there must be a way to denote 13 categories. Each of the correct methods will be explained below. But, the incorrect method would be to use a 5-sided die. There is simply no way to match the 5 options offered by the die to the 13 different ranked cards that could be chosen.\n\nSo, Choice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect because a 13\nsided die works. It could be used where each side is assigned to the 13\ndifferent cards. For example, Ace =1\n, Two =2\n, etc. You would roll the die twice.\n\nChoice 'C' is incorrect because a random number table should nearly always work! Two digit numbers could be assigned, such as Ace =01\n, Two=02\n, etc. Another way to do this would be to have each of the 13\ncards have 9\ntwo-digit numbers assigned with 3\nnumbers to skip. You would choose two consecutive numbers.\n\nChoice 'D' is incorrect because it works. Twenty-six slips of paper could be used in two sets numbered from 1\nto 13\n. One piece of paper would be drawn from each set.\n\nChoice 'E' is incorrect because the cards work. Simply deal out two cards, record, then shuffle and deal again.",
   "tags": [
     "UNC-2.A.4",
     "3.A",

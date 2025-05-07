@@ -4,7 +4,7 @@
   "topics": [],
   "title": "Activities vs. GPAs: Independence",
   "difficulty": "Medium",
-  "question_text": "A random survey was conducted at a large suburban high school to determine if a relationship exists between being involved in extracurricular activities and higher grades.<br>The data is show in the two-way table below:<br>What would be an appropriate calculation to show that having a high GPA (over $3.0$) and being involved in music are not independent?",
+  "question_text": "A random survey was conducted at a large suburban high school to determine if a relationship exists between being involved in extracurricular activities and higher grades.<br>The data is show in the two-way table below:<br>What would be an appropriate calculation to show that having a high GPA (over $3.0$) and being involved in music are not independent?<br>What would be an appropriate calculation to show that having a high GPA (over $3.0$) and being involved in music are not independent?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">--</th><th scope=\"col\">Music</th><th scope=\"col\">Athletics</th><th scope=\"col\">Both</th><th scope=\"col\">Neither</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>GPA <span class=\"tex2jax_process\">$&lt;2.0$</span></td><td><span class=\"tex2jax_process\">$8$</span></td><td><span class=\"tex2jax_process\">$11$</span></td><td><span class=\"tex2jax_process\">$4$</span></td><td><span class=\"tex2jax_process\">$14$</span></td><td><span class=\"tex2jax_process\">$37$</span></td></tr><tr><td><span class=\"tex2jax_process\">$2.0\\le$</span> GPA <span class=\"tex2jax_process\">$\\le 3.0$</span></td><td><span class=\"tex2jax_process\">$19$</span></td><td><span class=\"tex2jax_process\">$19$</span></td><td><span class=\"tex2jax_process\">$25$</span></td><td><span class=\"tex2jax_process\">$16$</span></td><td><span class=\"tex2jax_process\">$79$</span></td></tr><tr><td>GPA <span class=\"tex2jax_process\">$\\ge 3.0$</span></td><td><span class=\"tex2jax_process\">$20$</span></td><td><span class=\"tex2jax_process\">$7$</span></td><td><span class=\"tex2jax_process\">$15$</span></td><td><span class=\"tex2jax_process\">$17$</span></td><td><span class=\"tex2jax_process\">$59$</span></td></tr><tr><td>Total</td><td><span class=\"tex2jax_process\">$47$</span></td><td><span class=\"tex2jax_process\">$37$</span></td><td><span class=\"tex2jax_process\">$44$</span></td><td><span class=\"tex2jax_process\">$47$</span></td><td><span class=\"tex2jax_process\">$175$</span></td></tr></tbody></table>"
@@ -20,11 +20,11 @@
     },
     {
       "letter": "C",
-      "text": "The probability that GPA is over 3.0, among those in neither music nor athletics, is 36.2%.\nThe probability that GPA is over 3.0, among those in music, is 42.6%."
+      "text": "The probability that GPA is over $3.0$, among those in neither music nor athletics, is $36.2\\%$.\nThe probability that GPA is over $3.0$, among those in music, is $42.6\\%$."
     },
     {
       "letter": "D",
-      "text": "The probability of being involved in music and athletics is 25.1%.\nThe probability of being involved in music and athletics, given a GPA over 3.0, is 25.4%."
+      "text": "The probability of being involved in music and athletics is $25.1\\%$.\nThe probability of being involved in music and athletics, given a GPA over $3.0$, is $25.4\\%$."
     },
     {
       "letter": "E",
@@ -32,8 +32,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "By definition, two events, A and B, are NOT independent if:\n\n$$\\text{P(A)} \\neq \\text{P(A given B)}$$\n\nKnowing that the students are involved in music changes the probability of their having a 3.0 GPA or higher.\n\nExplanation of Distractors\n\nChoice 'B', 'C', and 'D' are incorrect; these calculations also involve categories such as athletics, both, and neither. The problem clearly states to simply compare music.\n\nChoice 'E' is incorrect; a chi-squared test will give the broader result of determining if GPA and activities are independent, but this test cannot inspect certain rows or columns within a two-way table.",
   "tags": [
     "UNC-1.Q.1",
     "UNC-1.Q",

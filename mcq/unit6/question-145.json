@@ -8,7 +8,7 @@
   ],
   "title": "Say Cheese!",
   "difficulty": "Medium",
-  "question_text": "A company producing packages of cheese needs to make sure that it sells cheese that is fresh. To check the freshness of the cheese, $50$ packages are selected randomly at a time, and the proportion of spoiled packages is assessed. Generally $2\\%$ of the packages are spoiled, but it is hoped this percentage can be shown to have decreased. The packages will be tested at a $5\\%$ significance level.\nWhich of the following could increase the probability of a Type II Error?",
+  "question_text": "A company producing packages of cheese needs to make sure that it sells cheese that is fresh. To check the freshness of the cheese, $50$ packages are selected randomly at a time, and the proportion of spoiled packages is assessed. Generally $2\\%$ of the packages are spoiled, but it is hoped this percentage can be shown to have decreased. The packages will be tested at a $5\\%$ significance level.\nWhich of the following could increase the probability of a Type II Error?<br>Which of the following could increase the probability of a Type II Error?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nA number of factors can affect the value of the probability of a Type II error of a significance test. For example, the following could all increase this type of error:\n\nWhen the value of the power is decreased since: power $= 1-$ Type II error.\n\nWhen the sample size is lowered.\n\nWhen the true parameter is closer to the assumed value.\n\nWhen the standard error is increased. Note that the standard error for this problem is\n√\n0.02(1−0.02)\n50\n≈0.057\nIf the denominator is decreased, which is the sample size, the value of the standard error will increase.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it states that the power has increased which would lower the value of the Type II error.\n\nChoice 'B' is incorrect because it says the sample size has increased which would lower the value of the Type II error.\n\nChoice 'D' is incorrect because it states that the standard error has decreased which would lower the value of the Type II error.\n\nChoice 'E' is incorrect because it states that the true parameter is farther away from the assumed proportion which would lower the value of the Type II error.",
   "tags": [
     "UNC-5.C.1",
     "UNC-5",

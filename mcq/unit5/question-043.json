@@ -7,7 +7,7 @@
   ],
   "title": "Wrens or Hens?",
   "difficulty": "Medium",
-  "question_text": "In their baseball league, near the end of the season, the Wrens were to play the Hens. The Wrens had averaged $8.2$ runs per game with a standard deviation of $3.0$ runs during the season. The Hens averaged $5.4$ runs per game with a standard deviation of $2.5$ runs during the season. Each team had played $112$ games thus far.\nNow that they will play each other, what is the probability that the Wrens will beat the Hens by at least $3$ runs? Round to the nearest percent.",
+  "question_text": "In their baseball league, near the end of the season, the Wrens were to play the Hens. The Wrens had averaged $8.2$ runs per game with a standard deviation of $3.0$ runs during the season. The Hens averaged $5.4$ runs per game with a standard deviation of $2.5$ runs during the season. Each team had played $112$ games thus far.\nNow that they will play each other, what is the probability that the Wrens will beat the Hens by at least $3$ runs? Round to the nearest percent.<br>Now that they will play each other, what is the probability that the Wrens will beat the Hens by at least $3$ runs? Round to the nearest percent.",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -29,12 +29,11 @@
     },
     {
       "letter": "E",
-      "text": "97%"
+      "text": "$97\\%$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nIn order to find a probability for this difference of sample means for this sampling distribution, two parameters must be calculated. The sampling distribution of the difference of the sample means is simply equal to the subtraction of the two given sample means. The sampling distribution for the difference of the sample standard deviation is equal to this formula:\n\n√\nσ\n2\n1\nn1\n+\nσ\n2\n2\nn2\n\nThus, the mean of the differences is equal to 8.2−5.4=2.8\nruns.\n\nAnd the standard deviation of the differences is equal to:\n\n√\n32\n112\n+\n2.52\n112\n≈0.369\n\n...runs.\n\nNow the z\n-score must be calculated using this formula: z=\nˉ\nx\n−μ\nσ\n, where\nˉ\nx\n=3\n, the number we are looking for in the problem.\n\nWe get z=\n3−2.8\n0.369\n≈0.54\n.\n\nLooking up 0.54\nin Table A\nwe see 0.7054\n, but since this problem calls for \"at least\" 3\nor more runs, this is a \"greater than\" problem, so this answer must be subtracted from 1\n. We get 1−0.7054=0.2946\nor 29%\n.\n\nSo, Choice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect because the numerator and denominator were switched in calculating the\nz\n-score and then that probability was not subtracted from\n1\n.\n\nChoice 'C' is incorrect because the standard deviations were not squared and the probability was not subtracted from\n1\n.\n\nChoice 'D' is incorrect because the probability was not subtracted from\n1\n.\n\nChoice 'E' is incorrect because the numerator and denominator were switched in calculating the\nz\n-score.",
   "tags": [
     "4.B",
     "UNC-3",

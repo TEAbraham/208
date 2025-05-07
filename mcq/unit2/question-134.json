@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "The correlation, $r$, gives the direction and quantifies the strength of the linear association between two quantitative variables. A correlation is considered strong if its value is close to $1$ or $-1$.\n\nIn this case, as the number of touchdowns increases, the number of points will increase by a constant $6$. For example,\n\nSince points are increasingly constantly, the graph would be perfectly linear in a positive direction, as both variables are increasing. Therefore, the correlation would be $r = 1$.\n\nChoice 'D' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nThe correlation, $r$, gives the direction and quantifies the strength of the linear association between two quantitative variables. A correlation is considered strong if its value is close to $1$ or $-1$.\n\nIn this case, as the number of touchdowns increases, the number of points will increase by a constant 6. For example,\n\nSince points are increasingly constantly, the graph would be perfectly linear in a positive direction, as both variables are increasing. Therefore, the correlation would be r=1.\n\nChoice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Although points will constantly go up by 6, the correlation will not equal 0.06.\n\nChoice 'B' is incorrect. The constant rate of change is 6, but this does not tell us the value of the correlation.\n\nChoice 'C' is incorrect. A correlation of −1\nwould mean a perfectly linear, negative association. Since both variables are increasing, the association is positive, not negative.\n\nChoice 'E' is incorrect. A correlation of 0\nwould mean a very, weak linear association, and since points are increasing constantly, the correlation is perfectly linear.",
   "tags": [
     "2.C",
     "DAT-1",

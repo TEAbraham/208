@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We know form the prompt that there is an $8\\%$ chance of getting approved for the loan from any given bank, meaning there is a $92\\%$ chance of not getting approved by any given bank.\n\nTo find the answer, we have to find the probability of at least one bank granting the loan among the $10$ different banks that are attempted. This give us the following:\n\n$$\\text{P(at least one)} = 1-\\text{P(none)} $$\n\n$$= 1-(0.92)^{10} $$\n\n$$= 0.5656$$\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "4.B",
     "VAR-4.C",

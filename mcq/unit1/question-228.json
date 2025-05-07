@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In a normal distribution, $68\\%$ of the values are distributed within one standard deviation symmetrically around the mean, while $95\\%$ of the values are distributed within two standard deviations symmetrically around the mean, and virtually all the values are within three standard deviations of the mean.\n\nThe grades described in this problem follow this type of distribution. If $68\\%$ of the grades fall within one standard deviation from the mean, and these grades are between $75$ and $85$, then those $10\\text{ points}$ are split by the mean with half the values above the mean and half the values below the mean. The mean must then be $80$ with $5\\text{ points}$ as the standard deviation.\n\nTo check if this is correct, two standard deviations from the mean would be 2(5)=10± the mean.\n\nTen points above the mean would be 90, and 10 points below the mean would be 70; therefore, 95% of the grades should be distributed between 70 and 90, just as the professor stated.\n\nFinally, since all the grades are within three standard deviations of the mean, 3(5)=15 points±the mean, then all the grades should be between 80±15, which is between 65 and 95.\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "3.A",
     "VAR-2",

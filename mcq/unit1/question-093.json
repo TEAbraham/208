@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The amount of time it takes Abner to paint a medium sized room is a random variable we will call R\n.\nThe amount of time it takes Abijah to paint a medium sized room is also a random variable that we will call H\n.\n\nWe are looking for the standard deviation of R−H\n. However, we cannot find the difference in standard deviations by subtracting the individual standard deviations. When dealing with independent random variables, variances can always be added (even when looking for the difference between the random variables), but standard deviations can never be added (or subtracted).\n\nTo find the standard deviation of the difference then, first find the sum of the variances.\n\nσ\n2\nR+H\n=σ\n2\nR\n+σ\n2\nH\n\nσ\n2\nR+H\n=(0.63)2+(0.45)2=0.5994\n\nThen find the standard deviation by taking the square root.\n\nσ\nR\n−\nH\n=\n√\nσ\n2\nR\n+\nH\n=\n√\n0.5994\n=\n0.7742\n\nSince Choice 'D' provides the value that is closest to\n0.7742\n, it is the correct choice.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. This value is the difference in the two standard deviations. However, we cannot subtract standard deviations.\n\nChoice 'B' is incorrect. You will arrive at this answer if you subtract the variances and then take the square root of the result. Even when looking for a difference between two independent random variables, variances must be added.\n\nChoice 'C' is incorrect and is the average of the two standard deviations.\n\nChoice 'E' is incorrect and is the sum of the two standard deviations. Standard deviations cannot be added even if the random variables are independent.",
   "tags": [
     "UNC-1.I.2",
     "2.C",

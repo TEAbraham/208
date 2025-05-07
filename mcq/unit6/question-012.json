@@ -32,12 +32,11 @@
     },
     {
       "letter": "E",
-      "text": "Not all of the 100 seniors know the pop star."
+      "text": "Not all of the $100$ seniors know the pop star."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The margin of error tells us how close the estimate (statistic) is to the unknown parameter. In our sample 90% of students' highlight of the prom was the pop star's performance. Therefore since the margin of error is 5% then we can be very confident the proportion of students whose highlight of the prom was the pop star will be within the interval of (0.85,0.95). This indicates the furthest away the sample percentage will be from the population percentage in this interval is 0.05 or 5%. point estimate ± margin of error\n0.90±.05= (0.85,0.95)\n\nExplanation of Distractors Choice 'A', 'B', 'D', and 'E' are incorrect as none of these explanations mention anything about comparing the sample percentage to the population percentage.",
   "tags": [
     "3.D",
     "UNC-4.C.2",

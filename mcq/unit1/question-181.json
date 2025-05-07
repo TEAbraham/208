@@ -9,7 +9,7 @@
   ],
   "title": "Gender and Heights",
   "difficulty": "Medium",
-  "question_text": "<br><br><br><br>Heights of men and women were measured, and the modified box plot above was constructed. The male heights are represented in the top box plot, and the female heights are represented in the bottom one.<br>Which of the following statements is true?",
+  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved.<br><br>Heights of men and women were measured, and the modified box plot above was constructed. The male heights are represented in the top box plot, and the female heights are represented in the bottom one.<br>Which of the following statements is true?",
   "image_files": [
     "images/question-181-img1.png"
   ],
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The male representations have wider boxes and longer whiskers; the outlier also adds to the variability.\n\nExplanation of Distractors\n\nChoice 'B' in incorrect; the male height distribution appears right skewed without the one outlier.\n\nChoice 'C' is incorrect; the female distribution appears symmetric.\n\nChoice 'D' is incorrect; the tallest woman reaches the 1st quartile for male heights, so the tallest woman is taller than roughly 25% of all of the men measured.\n\nChoice 'E' is incorrect; a modified box plot plots all points that are outliers, and the men's box plot plots only one man below the minimum for females.",
   "tags": [
     "UNC-1.N.1",
     "2.D",

@@ -22,20 +22,19 @@
     },
     {
       "letter": "C",
-      "text": "−1.96 points"
+      "text": "$-1.96\\text{ points}$"
     },
     {
       "letter": "D",
-      "text": "1.96 points"
+      "text": "$1.96\\text{ points}$"
     },
     {
       "letter": "E",
-      "text": "4 points"
+      "text": "$4\\text{ points}$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Residuals are measures of the difference between an expected value and an observed value in a relationship. This problem is calculated as follows:\n\nObserved y=80\nPredicted y=10+(0.81⋅84)=78.04\n\n(observed)−(predicted)=80−78.04=1.96\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "DAT-1.E.1",
     "DAT-1.E",

@@ -28,12 +28,11 @@
     },
     {
       "letter": "E",
-      "text": "Approximately normal, with a center of 3 or 4; one must give integer values for center since a police officer cannot give out a non-integer amount of tickets on a given day."
+      "text": "Approximately normal, with a center of $3$ or $4$; one must give integer values for center since a police officer cannot give out a non-integer amount of tickets on a given day."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When drawing a histogram, the center is the point where approximately half of the area is to the left, and approximately half of the area is to the right. This corresponds to a value of near 3.5. The center can be a non-integer.\n\nThe shape, when graphed, will be approximately normal. No real-life data is perfectly normal, so the word “approximately” or some similar word must be used in front of it.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "4.B",
     "VAR-5.B.1",

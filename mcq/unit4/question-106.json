@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A random variable is a variable that describes the outcome of some random phenomenon. All of the situations described relate to random phenomena.\n\nA discrete random variable has a countable number of outcomes.\n\nWe can count the number of outcomes in Choice 'A' since the only possible outcomes are 0,1,2,3,...11,12.\n\nLikewise, we can count the number of outcomes in Choice 'B' since the only possible outcomes are 0,1,2,3,...9,10.\n\nIn Choice 'D', we know that the only possible outcomes are 0,1,2,3,4\nor 5\n(assuming a 5\n-day school week).\n\nWe can also count the number of outcomes for Choice 'C' even if we don't know exactly what those outcomes are. It makes sense that we might have to call for repair 0\n, 1\nor 2\ntimes, all the way up to the number of days in the month.\n\nWe may even have to call for repairs several times in one day. The fact remains that the number of times we call for a repair is countable.\n\nChoice 'E' however, represents a continuous situation. Time is continuous. While the tools we use to measure time may only be accurate to a certain decimal, in reality, we cannot truly count all of the different possibilities for the number of minutes, or seconds (or days) it takes to run a mile. Choice 'E' is the correct answer.\n\nSince discrete random variables and continuous random variables are dealt with very differently in statistics, it is important to determine which type of variable you are working with.",
   "tags": [
     "VAR-5",
     "VAR-5.A",

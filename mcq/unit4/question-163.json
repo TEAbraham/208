@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Remember, we are asked to find the option that is not true.\n\nIn the binomial setting, the variable of interest is the number of successes in the set number of observations.\n\nPretend you wanted to randomly roll the number 5\non a six-sided dice. Therefore, if there were a total of 4 observations\n, there could be 6\ndifferent outcomes 0−6\n. However, each of these falls into one of two categories: success or failure. This represents a total of 6\ndifferent outcomes to the binomial situation, not just 2\n.\n\nDo not be too quick to accept a statement as being true without knowing the full context of the situation. Very specifically, in the binomial setting the outcome of each observation must fall into only one of two possible categories. Remember to read all answer choices before making a selection and always choose the best answer.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect. In order for a situation to be binomial, the probability of success must be the same on each observation.\n\nChoice 'C' is incorrect. Each observation must be independent in order for a situation to qualify as being binomial.\n\nChoice 'D' is incorrect. While the number of successes in a binomial situation is not limited to only two possibilities, the number of outcomes on a single observation is limited to only two possibilities. This is a requirement of the binomial setting and is being stated very specifically in choice 'D'.\n\nChoice 'E' is incorrect. In the binomial setting, the number of observations must be fixed at a constant number.",
   "tags": [
     "UNC-3.A.2",
     "3.A",

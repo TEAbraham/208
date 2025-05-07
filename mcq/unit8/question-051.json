@@ -4,7 +4,7 @@
   "topics": [],
   "title": "Math Program: Expected Counts",
   "difficulty": "Medium",
-  "question_text": "Suppose a high school principal wishes to determine if students in her after-school math program perform better than those not in the program.<br>The principal randomly selected $115\\text{ students}$ for an after-school study session that runs $3\\text{ days per week}$ for $1\\text{ hour}$ each day, focusing solely on math.<br>The grade distribution of these students’ math grades is compared to the historical grade distribution of students’ math grades at this high school. The data is below:<br>The expected counts for this problem are",
+  "question_text": "Suppose a high school principal wishes to determine if students in her after-school math program perform better than those not in the program.<br>The principal randomly selected $115\\text{ students}$ for an after-school study session that runs $3\\text{ days per week}$ for $1\\text{ hour}$ each day, focusing solely on math.<br>The grade distribution of these students’ math grades is compared to the historical grade distribution of students’ math grades at this high school. The data is below:<br>The expected counts for this problem are<br>The expected counts for this problem are",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th><th scope=\"col\">F</th></tr></thead><tbody><tr><td>After-School Program (Counts)</td><td>28</td><td>38</td><td>36</td><td>9</td><td>4</td></tr><tr><td>Historical Grade Distribution (%)</td><td>18%</td><td>32%</td><td>25%</td><td>20%</td><td>5%</td></tr></tbody></table>"
@@ -32,8 +32,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The expected counts are counts one would expect to get if the null hypothesis were true.\n\nIf the null hypothesis were true, then $18\\%$ of the sample would get As, $32\\%$ would get Bs, and so on.\n\nBy that logic,\n\n$(0.18) \\times 115 = 20.7$ would get A's\n$(0.32) \\times 115 = 36.8$ would get B's\n$(0.25) \\times 115 = 28.75$ would get C's\n$(0.2) \\times 115 = 23$ would get D's\n$(0.05) \\times 115 = 5.75$ would get F's\n\nThis matches Choice 'E'.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; this gives observed counts.\n\nChoices 'B' and 'C' are incorrect; these give percentages, not counts.\n\nChoice 'D' is incorrect; this rounds the expected counts; NEVER round the expected counts, as these expected counts are used in calculating the chi-squared test statistic.",
   "tags": [
     "VAR-8.H",
     "3.A",

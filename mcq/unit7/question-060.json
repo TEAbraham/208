@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A one-proportion $z$-test would be used to determine the true proportion who prefer one of the sodas. A two-proportion $z$-test would NOT be used here since the proportions are not independent.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; measuring weight loss would involve means, not proportions of the population.\n\nChoice 'B' is incorrect; proportions could be used here, but one would use a two-proportion $z$-test to compare the groups on each of the drugs.\n\nChoice 'D' is incorrect; this involves two independent proportions (older vs. younger).\n\nChoice 'E' is incorrect; this involves a mean, not proportion.",
   "tags": [
     "4.B",
     "DAT-3.E",

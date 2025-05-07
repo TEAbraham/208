@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D\" is the correct answer.",
-  "solution": "When dealing with categorical data, one can find the expected counts of the distribution by taking a sample size and multiplying it by the proportion for that category. In this case, we are told there is a random sample of $200$ customers, and we already know from the table that $34\\%$ of customers prefer to use their phone. Therefore, to find the expected number of customers who prefer phone,\n\n$\\text{Expected Counts } = 200(0.34) = 68 \\text{ Customers}$\n\nChoice 'D' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nWhen dealing with categorical data, one can find the expected counts of the distribution by taking a sample size and multiplying it by the proportion for that category. In this case, we are told there is a random sample of $200$ customers, and we already know from the table that $34\\%$ of customers prefer to use their phone. Therefore, to find the expected number of customers who prefer phone,\n\n$\\text{Expected Counts } = 200(0.34) = 68 \\text{ Customers}$\n\nChoice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The data in this distribution is categorical, not quantitative.\n\nChoice 'B' is incorrect. Since phone is 0.34 and laptop is 0.35, people actually prefer laptop over phone.\n\nChoice 'C' is incorrect. If we take the proportion of customers that prefer phone or other devices, we get 0.34+0.10=0.44 and since 0.44<0.50, customers do not use these two over half of the time.\n\nChoice 'E' is incorrect. Since the information is categorical, and not quantitative, the data could be displayed in a bar chart, not a histogram.",
   "tags": [
     "VAR-1.J",
     "VAR-1.J.1",

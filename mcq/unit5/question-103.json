@@ -14,28 +14,27 @@
   "choices": [
     {
       "letter": "A",
-      "text": ""
+      "text": "<br><br>"
     },
     {
       "letter": "B",
-      "text": ""
+      "text": "<br><br>"
     },
     {
       "letter": "C",
-      "text": ""
+      "text": "<br><br>"
     },
     {
       "letter": "D",
-      "text": ""
+      "text": "<br><br>"
     },
     {
       "letter": "E",
-      "text": ""
+      "text": "<br><br>"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choices 'A' and 'B' are incorrect because they both show non-whole number possibilities for the range. The range for all samples is calculated by subtracting the largest number from the smallest number. Since all of the possible faces are whole numbers, the range must be a whole number.\n\nChoices 'D' and 'E' are incorrect because a range of 6 is not possible. The largest possible face is a 6 and the smallest possible face is a 1. Therefore, the largest possible range is 5.\n\nIt is possible to have a range of 0 if all three dice show the same value.",
   "tags": [
     "UNC-3.H.2",
     "UNC-3.H.1",

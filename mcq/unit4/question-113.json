@@ -8,7 +8,7 @@
   ],
   "title": "Finding the Mean from a Probability Distribution Table: Hat Day",
   "difficulty": "Easy",
-  "question_text": "The number of hats a vendor sells before baseball game has the following probability distribution:<br>If each hat sells for $\\$20$, what is the expected total dollar amount a vendor will make for selling hats before a baseball game?",
+  "question_text": "The number of hats a vendor sells before baseball game has the following probability distribution:<br>If each hat sells for $\\$20$, what is the expected total dollar amount a vendor will make for selling hats before a baseball game?<br>If each hat sells for $\\$20$, what is the expected total dollar amount a vendor will make for selling hats before a baseball game?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Number of hats (X)</th><th scope=\"col\">0</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th></tr></thead><tbody><tr><td>P(x)</td><td>0.05</td><td>0.10</td><td>0.15</td><td>0.28</td><td>0.24</td><td>0.18</td></tr></tbody></table>"
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To find the expected value of the total dollar amount we need to first find the expected number of hats sold before a baseball game.\n\nThe formula given on the AP Exam for expected value of mean from a probability distribution table is:\n\nE(X)=μX=∑(xi)(pi)\n\nThe work for this problem looks like:\n\n(0⋅0.05)+(1⋅0.10)+(2⋅0.15)+(3⋅0.28)+(4⋅0.24)+(5⋅0.18)=3.10\n\nAnother way to find the average number of hats found before a baseball game is to enter x\n-values into L1\nand probabilities into L2\nof TI graphing calculator.\n\nThen do 1-Var Stats (from Stat-Calc) with List being L1 and FreqList being L2 . Hit enter and your mean (expected value) will be represented by\n¯\nx\n.\n\nThe expected number of hats sold before a baseball game will be 3.10\n(do not round). Now multiply 3.10\nby 20\ndollars to get the total amount of money made which is $62\n.\n\nExplanation of Distractors Choice 'A' is incorrect as this is the expected dollar amount the vendor makes by selling one hat. Choice 'B' is incorrect as this answer comes from assuming the expected dollar amount the vendor makes by selling one hat is 2.50\nand then multiplying that by 20\n. Choice 'C is incorrect as this answer comes from rounding the expected dollar amount the vendor makes by selling one hat to 3.00\nand then multiplying that by 20\n.\nChoice 'E' is incorrect as this answer comes from rounding the expected dollar amount the vendor makes by selling one hat is 4.00\nand then multiplying that by 20\n.",
   "tags": [
     "VAR-5.C.2",
     "VAR-5.C.1",

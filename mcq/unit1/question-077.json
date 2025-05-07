@@ -9,10 +9,9 @@
   ],
   "title": "Girls Shot Put Distances: Describe the Distribution",
   "difficulty": "Easy",
-  "question_text": "The histogram below shows results for the $23$ girls who competed in the shot put event at a state track and field meet.<br><br><br><br><br>Which of the following best describes the distribution?",
+  "question_text": "The histogram below shows results for the $23$ girls who competed in the shot put event at a state track and field meet.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>Which of the following best describes the distribution?",
   "image_files": [
-    "images/question-077-img1.PNG",
-    "images/question-077-img2.PNG"
+    "images/question-077-img1.PNG"
   ],
   "tables": [],
   "choices": [
@@ -38,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "One easy way to determine the shape of a distribution from a histogram is to outline the histogram as shown below.\n\nCreated for Albert.io. Copyright 2016. All rights reserved.\n\n\n\nSince the outline is mound shaped on the left and more spread out on the right, we can conclude that the distribution is skewed right.\n\nChoices 'B' and 'C' can be eliminated because the distribution is not skewed left.\n\nThe histogram has only one peak, or one most common interval of values. Therefore, as well as being skewed right, we can also conclude that the distribution is unimodal! Most of the distances were\n11\nbut less than\n12\nmeters.\n\nTo determine which choice provides the best description of the distribution, we need to consider the range and the median.\n\nThe left-most bar in the histogram indicates that the lowest distance was at least\n9\nbut less than\n10\nmeters. The right-most bar in the histogram indicates that the highest distance was at least\n14\nbut less than\n15\nmeters. If we assume that the minimum distance was\n9\nand the maximum distance was something very close to\n15\n, like\n14.99\nfor example, then we might say that the range was approximately\n6\n.\n\nHowever, we do not know even this much to be true! We only know that the minimum distance was at least\n9\nbut less than\n10\nmeters. Perhaps the minimum distance was\n9.9\nmeters. Likewise, we only know that the maximum distance was at least\n14\nbut less than\n15\nmeters. It is possible that the maximum distance was only\n14.1\nmeters. Under this scenario, the range would be\n14.1\n−\n9.9\n=\n4.2\nmeters which is not close to a range of\n6\n!\n\nIt seems then, that we should also eliminate Choices 'A' and 'E' since we cannot be certain that the range is\n6\nmeters.\n\nThis leaves Choice 'D'.\n\nChoice 'D' correctly identifies the distribution as being skewed right and also says that the median is between\n11\nand\n12\nmeters. While we cannot determine the exact value of the median, we can verify that the median is between\n11\nand\n12\nmeters.\n\nThe median is the middle number (or average of two middle numbers) when the observations are arranged in order from lowest to highest. Since there were\n23\nobservations, the\n12\nth\nhighest value would be the median. Find the median by matching up the height of each bar with the frequency shown on the vertical axis. Keep track of cumulative frequencies until you reach the\n12\nth\nhighest value.\n\nThis means that the\n12\nth\nhighest value is somewhere between\n11\nand\n12\nmeters.\n\nChoice 'D' accurately describes the distribution.",
   "tags": [
     "UNC-1.H.1",
     "UNC-1.H",

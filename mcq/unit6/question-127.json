@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To calculate the $p$-value from the $z$-statistic, use your TI83/84 graphing calculator's normalcdf function. The syntax is: normalcdf(lower bound, upper bound, mean, standard deviation).\n\nSince we have a $z$-score, we are using the standard normal distribution whose mean is $0$ and standard deviation is $1$.\n\nTherefore, we would:\n\nThe calculator will return the $p$-value of $p = 0.14$.\n\nSince $0.14 > 0.05$, we do not have sufficient evidence to suggest that our null hypothesis is false. Therefore, it could be true that the proportion of females who are gamers now equals the proportion of males who are gamers.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Since our $z$-statistic is positive and our alternative hypothesis is $H_a = p_{males} > p_{females}$, this would imply that the observed proportion of males who are gamers is greater than the observed proportion of females who are gamers. Also, we cannot assess statistical significance solely by comparing the observed proportions.\n\nChoice 'B' is incorrect because again, we cannot simply compare the observed proportions.\n\nChoice 'D' is incorrect because it reports inaccurate information about the $p$-value and as a result comes to an incorrect conclusion about the hypotheses.\n\nChoice 'E' is incorrect. Based upon the Empirical Rule, approximately $16\\%$ of observations will be more than one standard deviation above the mean. While this percentage is a bit low, it is not considered a rare enough occurrence for us to reject the null hypothesis. Also, we can never prove that our null hypothesis is either true or false.",
   "tags": [
     "4.E",
     "DAT-3.D.1",

@@ -9,7 +9,7 @@
   ],
   "title": "Correlation: Finding the Correlation Using a Scatterplot",
   "difficulty": "Easy",
-  "question_text": "Which of the following could be the value of the correlation coefficient for the data represented in the scatterplot?<br><br><br><br>",
+  "question_text": "Which of the following could be the value of the correlation coefficient for the data represented in the scatterplot?<br><br>Created for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-049-img1.png"
   ],
@@ -17,15 +17,15 @@
   "choices": [
     {
       "letter": "A",
-      "text": "−0.98"
+      "text": "−\n0.98"
     },
     {
       "letter": "B",
-      "text": "−0.87"
+      "text": "−\n0.87"
     },
     {
       "letter": "C",
-      "text": "−0.32"
+      "text": "−\n0.32"
     },
     {
       "letter": "D",
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The scatterplot above shows a relatively strong(very little scatter) negative linear association. In terms of correlation the stronger the relationship is the closer the correlation is to negative one or positive one. Since the scatterplot is negative then choice 'B' is our answer.\n\nChoice 'A' is incorrect. If the correlation is\n−\n0.98\n, then almost all of the points on the scatterplot would fall on a line.\n\nChoice 'C' is incorrect. If the correlation is\n−\n0.32\n, then the points on the scatterplot would be more scattered and show a less linear form.\n\nChoices 'D' and 'E' are incorrect. The scatterplot shows a negative association (negative slope), which indicates the correlation is negative.",
   "tags": [
     "DAT-1.B.3",
     "2.C",

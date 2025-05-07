@@ -9,7 +9,9 @@
   "title": "Student Absences",
   "difficulty": "Hard",
   "question_text": "An administrator reads a report that says \"The National Rate of Absenteeism for High School Students is $5\\%$\". She wonders if this holds true for her school. She takes an SRS of $50$ students from her high school and finds the absentee rate to be $10\\%$.<br>To see if it is possible that her school was in line with the national absenteeism rate, even though her sample provided a much larger proportion, she used a statistical software to simulate samples of size $50$ with a known parameter value of $5\\%$.<br>Below is the sampling distribution of the administrator's simulation.<br>Can the administrator claim that her school's absenteeism rate is in line with the national average?",
-  "image_files": [],
+  "image_files": [
+    "images/question-010-img1.jpeg"
+  ],
   "tables": [],
   "choices": [
     {
@@ -34,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "When making an inference on a set of data, there are typically two conclusions that can be made. In this case those conclusions are:\n\nI. The proportion of $0.05$ is true, and the sample proportion of $0.10$ happened purely by chance\n\nOr\n\nII. The proportion of $0.05$ is not true, and the sample proportion of $0.10$ tells us the proportion must be higher\n\nThe simulation was run to see if $0.10$ would happen purely by chance if the proportion of students absent was truly $0.05$. As you can see from the dot plot, $0.10$ did not happen by chance in many trials, we can come to the conclusion that the proportion of students absent at the administrator's high school must be higher than $0.05$.\n\nChoice 'D\" is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nWhen making an inference on a set of data, there are typically two conclusions that can be made. In this case those conclusions are:\n\nI. The proportion of $0.05$ is true, and the sample proportion of $0.10$ happened purely by chance\n\nOr\n\nII. The proportion of $0.05$ is not true, and the sample proportion of $0.10$ tells us the proportion must be higher\n\nThe simulation was run to see if $0.10$ would happen purely by chance if the proportion of students absent was truly $0.05$. As you can see from the dot plot, $0.10$ did not happen by chance in many trials, we can come to the conclusion that the proportion of students absent at the administrator's high school must be higher than $0.05$.\n\nChoice 'D\" is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. As expected, a majority of the samples from our simulation were around $0.05$ because our known population proportion was $0.05$. The simulation was run to see if $0.10$ were possible, or likely, to happen if $0.05$ were true.\n\nChoice 'B' is incorrect. Again, we would expect a majority of the samples to produce a proportion less than $0.10$ as the true proportion of our simulation was $0.05$. This is not evidence that the absenteeism rate is truly $0.05$\n\nChoice 'C' is incorrect. Since $0.10$ did not occur in our trial, it is actually evidence against the true proportion being $0.05$, not for it.\n\nChoice 'E' is incorrect. Just because the administrator's proportion happened to be $0.10$, it does not imply the population proportion is exactly $0.10$. Due to sampling variability, the sample proportions will often differ from the population proportion.",
   "tags": [
     "VAR-1.H",
     "VAR-1.H.1",

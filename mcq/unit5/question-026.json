@@ -18,24 +18,23 @@
     },
     {
       "letter": "B",
-      "text": "0.481 is a statistic that represents the proportion of adult women in this sample who take a multi-vitamin daily."
+      "text": "$0.481$ is a statistic that represents the proportion of adult women in this sample who take a multi-vitamin daily."
     },
     {
       "letter": "C",
-      "text": "0.481 is a parameter that represents the proportion of adult women in this sample who take a multi-vitamin daily."
+      "text": "$0.481$ is a parameter that represents the proportion of adult women in this sample who take a multi-vitamin daily."
     },
     {
       "letter": "D",
-      "text": "0.481 is a parameter that represents the true proportion of adult women who take a multi-vitamin daily."
+      "text": "$0.481$ is a parameter that represents the true proportion of adult women who take a multi-vitamin daily."
     },
     {
       "letter": "E",
-      "text": "250\nis a statistic that represents the true number of adult women in every sample of size n=520\nwho would say that they take a multi-vitamin daily."
+      "text": "$250$ is a statistic that represents the true number of adult women in every sample of size $n=520$ who would say that they take a multi-vitamin daily."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since 250 out of 520 adult women surveyed said that they do take a multi-vitamin daily, the sample proportion in this case is:\n250\n520\n=0.481.\n\nA statistic is a value that describes a sample.\n\nA parameter is a value that describes the entire population.\n\nSince 0.481 describes the sample, it is a statistic describing the proportion of adult women in that particular sample who take a multi-vitamin daily.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because a statistic does not describe the entire population.\n\nChoice 'C' is incorrect because the given value is not a parameter and because a parameter does not describe the sample proportion.\n\nChoice 'D' is incorrect because the given value is not a parameter.\n\nChoice 'E' is incorrect. While 250\nadult women in this sample said they take a multi-vitamin daily, different samples of size n=520\nwill produce different results. This is known as sampling variability.",
   "tags": [
     "UNC-3.I",
     "4.B",

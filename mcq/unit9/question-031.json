@@ -32,12 +32,11 @@
     },
     {
       "letter": "E",
-      "text": "We are $95\\%$ confident that the interval from $7.93$ to $15.19$ miles per gallon captures the true slope of the regression relating gas tank size and miles driven."
+      "text": "We are 95% confident that the interval from 7.93 to 15.19 miles per gallon captures the true slope of the regression relating gas tank size and miles driven."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWhen finding a confidence interval for the slope of a regression line, the following formula should be used:\n\nb±t∗(SEb)\n\n...where b\nis the slope of the line of best fit, t∗\nis the critical value, and SEb\nis the standard error of the slope.\n\nTo use this formula we need to know how to read the computer data. For a confidence interval, the T\nand P\ncolumns are ignored. Also, ignore the \"constant\" line. Thus, only two numbers from the table are used in this problem to construct the confidence interval.\n\nThese two values come from the \"gas tank\" line which is the x\nvariable. In this problem we have the slope value, or b\n, as 11.56\nand the standard error, or SEb\n, as 1.769\n.\n\nNext, we need to use Table B\nto find the value of the critical value or t∗\n. Since our sample size is 29\n, and we know that the degrees of freedom for this type of interval is n−2\n, then we use a d.f. of 29−2=27\nfrom the table. Using the 95%\nconfidence level column, we find a t∗\nvalue of 2.052\n.\n\nSubstituting the above values into our formula for a confidence interval we get:\n\n11.56±(2.052)(1.769)\n\nThis simplifies to 11.56±3.63\nwhich results in a confidence interval of (7.93,15.19)\nwith a unit of miles per gallon.\n\nFinally, we need to interpret our confidence interval which will say that we are\n95\n%\nconfident that our interval captures the true slope of the regression relating our two variables.\n\nSo, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the interval is wrong. It was based on the numbers in the \"constant\" row instead of those in the \"gas tank\" row.\n\nChoice 'B' is incorrect because the interval is wrong. It was based on the\nz\n∗\nvalue instead of the correct\nt\n∗\nvalue$. In addition, the interpretation refers to the mean of the interval which is wrong.\n\nChoice 'C' is incorrect because the interval is wrong. It was based on the\nz\n∗\nvalue instead of the correct\nt\n∗\nvalue.\n\nChoice 'D' is incorrect because, while the interval is correct, the interpretation refers to the mean of the interval which is wrong.",
   "tags": [
     "UNC-4.AH.1",
     "UNC-4",

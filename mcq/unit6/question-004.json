@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "Since you simulate the bag of marbles $50$ times, you have $50$ total observations on the dot plot given. Then looking at the dots, there is only $1$ sample that produced a sample proportion of at least $0.80$.\n\nTherefore, we only have $\\frac{1}{50}$ samples that produced a sample proportion of $0.80$, therefore the proportion of samples that is at least $0.80$ is equal to $0.02$.\n\nChoice 'A' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nSince you simulate the bag of marbles $50$ times, you have $50$ total observations on the dot plot given. Then looking at the dots, there is only $1$ sample that produced a sample proportion of at least $0.80$.\n\nTherefore, we only have $\\frac{1}{50}$ samples that produced a sample proportion of $0.80$, therefore the proportion of samples that is at least $0.80$ is equal to $0.02$.\n\nChoice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect. The dot plot shows $50$ random samples, so the denominator of the fraction is $50$, not $20$ which is the sample size for each sample.\n\nChoice 'C' is incorrect. This is the claimed proportion of red marbles in the teacher's bag of marbles.\n\nChoice 'D' is incorrect. This is the proportion of red marbles you produced in your sample when sampling from the bag of marbles.\n\nChoice 'E' is incorrect. This is the proportion of samples that produced less than $0.80$, not at least $0.80$.",
   "tags": [
     "VAR-1.H",
     "VAR-1.H.1",

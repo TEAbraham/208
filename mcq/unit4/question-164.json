@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The conditions of a binomial setting are:\n\nConditions 2, 3, and 4 listed above are also conditions for the geometric setting. Condition 1 is not appropriate to the geometric setting. In the geometric setting, we are interested in how many observations it takes to obtain the first success.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. In the geometric setting, the probability of success is the same on each observation.\n\nChoice 'B' is incorrect. In the geometric setting, all observations must be independent.\n\nChoice 'D' is incorrect. In the geometric setting, each observation must fall into one of just two possible outcomes\n\nChoice 'E' is incorrect. The only difference between the two settings is described by Choice 'C'.",
   "tags": [
     "UNC-3.A.2",
     "3.A",

@@ -8,7 +8,7 @@
   ],
   "title": "Finding the LSRL from a Computer Output: Height and Wingspan",
   "difficulty": "Medium",
-  "question_text": "NBA scouts are always interested in the relationship between the height of NBA players and their respective wingspans. An NBA scout randomly selects $20$ players and measures their heights and wingspans. Below is the computer regression analysis of height and wingspan.<br>Dependent variable: Wingspan\n$R^2 = 0.787$\n$S = 2.23$\nDegrees of Freedom = $18$<br>Write the equation for the least squares regression line.",
+  "question_text": "NBA scouts are always interested in the relationship between the height of NBA players and their respective wingspans. An NBA scout randomly selects $20$ players and measures their heights and wingspans. Below is the computer regression analysis of height and wingspan.<br>Dependent variable: Wingspan\n$R^2 = 0.787$\n$S = 2.23$\nDegrees of Freedom = $18$<br>Write the equation for the least squares regression line.<br>Write the equation for the least squares regression line.",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">Coefficient</th><th scope=\"col\">SE(Coeff)</th><th scope=\"col\">t-ratio</th><th scope=\"col\">P-value</th></tr></thead><tbody><tr><td>Constant</td><td>-2.273</td><td>0.39</td><td>-5.83</td><td>&lt;0.0001</td></tr><tr><td>Height</td><td>1.084</td><td>0.24</td><td>4.52</td><td>&lt;0.0001</td></tr></tbody></table>"
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To find the least squares regression line, you must identify the dependent variable as the $y$-variable. In this case, the $y$-variable is Wingspan, so we can eliminate Choices 'C', 'D' and 'E'.\n\nWhen looking at the table to find the regression equation, the only thing to pay attention to is the coefficient column. A coefficient is a number in front of the variable, so the constant coefficient ($-2.273$) represents the $y$-intercept and $1.084$ represents the slope (the number that goes in front of the height).\n\nTherefore, the answer is Choice 'A'.",
   "tags": [
     "4.B",
     "DAT-1.H.2",

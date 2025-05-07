@@ -24,7 +24,7 @@
     },
     {
       "letter": "C",
-      "text": "There is evidence of a difference in weights at the $5\\%$ and $10\\%$ levels, but not at the $1\\%$ level."
+      "text": "There is evidence of a difference in weights at the 5% and 10% levels, but not at the 1% level."
     },
     {
       "letter": "D",
@@ -32,12 +32,11 @@
     },
     {
       "letter": "E",
-      "text": "There is evidence Alaskan huskies weigh more than Siberian huskies at the 1%,5%, and 10% alpha levels."
+      "text": "There is evidence Alaskan huskies weigh more than Siberian huskies at the 1%,5%\n, and 10%\nalpha levels."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "From the computer output, the p\n-value = 0.002\n. A p\n-value lower than 1%,5%\n, and 10%\n, can give evidence of a difference in weights.\n\nSince this is a two-sided test, one can say there is a difference only in weights based on these results. Only a one-sided test could say that Alaskan Huskies weigh more than Siberian huskies.\n\nExplanation of Distractors\n\nChoice 'E' is incorrect because that conclusion can only be made by a one-sided test.",
   "tags": [
     "4.C",
     "VAR-7.H",

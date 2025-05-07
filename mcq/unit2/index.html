@@ -1,35 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Firebase -->
-    <script type="module">
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
-      import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword, signOut, onAuthStateChanged, signInWithPopup, GoogleAuthProvider  } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
-      import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
-      import { firebaseConfig } from '../../js/firebase-config.js';
-
-      const app = initializeApp(firebaseConfig);
-      const auth = getAuth(app);
-      const db = getFirestore(app);
-
-      // Check if user is logged in
-      onAuthStateChanged(auth, (user) => {
-          if (!user) {
-              // User not logged in, save current page before redirecting
-              localStorage.setItem("redirectAfterLogin", window.location.href);
-              window.location.href = "../../index.html";
-          }
-      });
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unit 2</title>
+    <title>unit 2</title>
 
     <!-- CSS Imports -->
     <link rel="stylesheet" type="text/css" href="../../css/jquery-ui.css" />
     <link rel="stylesheet" type="text/css" href="../../css/jquery.fullpage.css" />
     <link rel="stylesheet" href="../../css/home.css">
-    <link rel="stylesheet" href="style.css">
     <!--Fonts-->
     <link href="//fonts.googleapis.com/css?family=Lato:100,200,300,400" rel="stylesheet" type="text/css">
     <!--Font Awesome-->
@@ -48,8 +27,8 @@
     <script src="../../js/d3.v7.min.js"></script>
     <script src="../../js/d3.v7.hexbin.min.js"></script>
     <!-- Module scripts -->
-    <script type="module" src="../../js/script.js"></script>
-    <script type="module" src="../../js/home.js"></script>
+    <script type="module" src="../../js/script.js" defer></script>
+    <script type="module" src="../../js/home.js" defer></script>
     <!-- MathJax for rendering LaTeX -->
     <script>
         window.MathJax = {
@@ -63,6 +42,100 @@
         };
     </script>
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+    <style>
+      .interactive-wrapper {
+        display: block;
+        width: auto;
+        margin: 0 auto;
+        text-align: left;
+    }
+    
+    .Row {
+        display: table;
+        width: 100%;
+        table-layout: fixed;
+        border-spacing: 10px;
+    }
+    .Column {
+        display: table-cell;
+        vertical-align: top;
+    }
+    
+    label {
+        font-weight: bold;
+        display: block;
+        margin: 10px 0 5px;
+    }
+    
+    svg {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    
+    .button-1.perspective {
+        padding: 8px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        border: 1px solid #46C8B2;
+        background-color: white;
+        color: #333;
+    }
+    
+    .button-1.perspective.active,
+    .button-1.perspective:hover {
+        background-color: #46C8B2;
+        color: white;
+    }
+    
+    .button-1.active,.button-1:hover, .button-1-s:hover{
+        border: 1px solid #46C8B2;
+        background-color: #46C8B2;
+        color:white;
+    }
+    
+    .tooltip {
+        font-size: 12px;
+        font-family: sans-serif;
+        color: #333;
+        background-color: white;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        pointer-events: none;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+        position: absolute;
+        opacity: 0;
+        z-index: 10;
+    }
+    
+    @media screen and (min-width: 320px) {
+        .axis text {
+            font-size: 8px;
+        }
+    }
+    
+    @media screen and (min-width: 680px) {
+        .axis text {
+            font-size: 15px;
+        }
+    }
+    
+    #mcq-container {
+        user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+      }
+      
+      @media print {
+        body {
+          display: none;
+        }
+      }
+      
+    </style>
   </head>
   <body>
       <header class="menu-top">
@@ -97,12 +170,21 @@
                   <li><a href="../../apps/binomial_distribution/">Binomial Distribution</a></li>
                   <li><a href="../../apps/geometric_distribution/">Geometric Distribution</a></li>
                   <li><a href="../../apps/random_variables/">Random Variables</a></li>
-                  <li><a href="../../apps/sampling_distributions/">Sampling Distributions</a></li>
+                  <li><a href="../../apps/sampling_distributions/">Confidence Intervals</a></li>
                 </ul>
               </li>
               <li class="dropdown">
                 <a href="../../mcq/" class="dropbtn">MCQ</a>
               </li>
+              <li class="dropdown">
+                <a href="../../frq/" class="dropbtn">FRQ</a>
+            </li>
+            <li class="dropdown">
+                <a href="../../collegeboard/" class="dropbtn">CollegeBoard</a>
+            </li>
+            <li class="dropdown">
+                <a href="../../prep/" class="dropbtn">Exam Prep</a>
+            </li>
               <li id="logoutButton" style="display:none;"><a href="../../index.html" onclick="logout('../../index.html')">Logout</a></li>
           </ul>
           <span id="user-email" style="color:darkgreen; margin-left: 1em;"></span>
@@ -118,8 +200,9 @@
         <br>
         <div id="question-choices" style="margin-bottom: 1em;"></div>
         <br>
+        <button id="back-question" class="button-1 perspective" style="padding: 10px 20px; font-size: 1em;">Back</button>
         <button id="submit" class="button-1 perspective" style="padding: 10px 20px; font-size: 1em;">Submit Answer</button>
-        <button id="next-question" class="button-1 perspective" style="padding: 10px 20px; font-size: 1em; display: none;">Next Question</button>
+        <button id="next-question" class="button-1 perspective" style="padding: 10px 20px; font-size: 1em;">Skip</button>
         <br>
         <div id="feedback" style="margin-top: 1em; font-weight: bold;"></div>
         <div id="question-correct_answer" style="margin-bottom: 1em; font-size: 1.2em; visibility: hidden;"></div>
@@ -127,8 +210,437 @@
         <br>
       </main>
 
-      <!-- Quiz logic -->
-      <script type="module" src="script.js"></script>
+<!-- Quiz logic -->
+<script type="module">
+// ─────────────────────────────────────────────────────────────────────────────
+// 1) Imports & Initialization
+// ─────────────────────────────────────────────────────────────────────────────
+import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
+import {
+  getAuth,
+  onAuthStateChanged,
+  signOut,
+  GoogleAuthProvider,
+  signInWithPopup,
+} from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
+import {
+  getFirestore,
+  collection,
+  query,
+  where,
+  orderBy,
+  getDocs,
+  getDoc,
+  doc,
+  setDoc,
+  addDoc,
+  serverTimestamp,
+} from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
 
+import { firebaseConfig } from "../../js/firebase-config.js";
+
+const app   = initializeApp(firebaseConfig);
+const auth  = getAuth(app);
+const db    = getFirestore(app);
+// ✅ Expose for DevTools testing
+window.firebaseApp = app;
+window.auth = auth;
+window.db = db;
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 2) Cached DOM references
+// ─────────────────────────────────────────────────────────────────────────────
+const DOM = {
+  mcqContainer:      document.getElementById("mcq-container"),
+  unitScore:         document.getElementById("unit-score"),
+  title:             document.getElementById("question-title"),
+  difficulty:        document.getElementById("question-difficulty"),
+  text:              document.getElementById("question-text"),
+  images:            document.getElementById("question-images"),
+  tables:            document.getElementById("question-tables"),
+  choices:           document.getElementById("question-choices"),
+  feedback:          document.getElementById("feedback"),
+  correctAnswer:     document.getElementById("question-correct_answer"),
+  solution:          document.getElementById("question-solution"),
+  explanation:       document.getElementById("question-explanations"),
+  submitBtn:         document.getElementById("submit"),
+  skipBtn:           document.getElementById("skip-question"),
+  nextBtn:           document.getElementById("next-question"),
+};
+
+// infer current unit from URL, default to “unit1”
+const unit = (window.location.pathname.match(/unit\d+/) || ["unit2"])[0];
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 3) Application state
+// ─────────────────────────────────────────────────────────────────────────────
+let allQuestions    = [];
+let currentQuestion = null;
+let selectedAnswer  = null;
+let questionStart   = null;
+let questionIndex = 0;
+let submittedStatus = {};
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 4) Auth & initial data load
+// ─────────────────────────────────────────────────────────────────────────────
+onAuthStateChanged(auth, async user => {
+  if (!user) {
+    localStorage.redirectAfterLogin = location.href;
+    location.href = "../index.html";
+    return;
+  }
+
+  auth.currentUser.getIdTokenResult().then(result => {
+    console.log("🛡️ Auth token claims:", result.claims);
+    if (result.claims.admin) {
+      console.log("✅ User is an admin");
+    } else {
+      console.log("👤 User is NOT an admin");
+    }
+  });
+
+  DOM.mcqContainer.style.display = "block";
+  await loadQuestions();
+  await updateScoreDisplay();
+  showQuestionAt(questionIndex);
+});
+
+// fetch all MCQs for this unit
+async function loadQuestions() {
+  const qSnap = await getDocs(
+    query(collection(db, "mcq_questions"), where("unit", "==", unit))
+  );
+  allQuestions = qSnap.docs.map(d => ({ id: d.id, ...d.data() }));
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 5) Score calculation & display
+// ─────────────────────────────────────────────────────────────────────────────
+async function updateScoreDisplay() {
+  const userId = auth.currentUser.uid;
+  let score = 0, count = 0;
+  const reward  = { easy: 1, medium: 2, hard: 3 };
+  const penalty = { easy: -3, medium: -2, hard: -1 };
+
+  try {
+    const answersSnap = await getDocs(
+      query(collection(db, "student_answers"), where("userId", "==", userId))
+    );
+
+    answersSnap.forEach(doc => {
+      const d = doc.data();
+      if (!d.questionId.startsWith(`${unit}_`)) return;
+      const lvl = (d.difficulty || "medium").toLowerCase();
+      const delta = d.correct ? reward[lvl] : penalty[lvl];
+      if (score < 25) {
+        score = Math.min(25, score + delta);
+        count++;
+      }
+    });
+
+  } catch (err) {
+    console.warn("⚠️ Failed to fetch student_answers:", err);
+  }
+
+  DOM.unitScore.textContent = `Unit Progress: ${score}/25 pts` + (score >= 25 ? " ✅" : "");
+  await maybeLogCompletion(score, count);
+}
+
+// log unit_completion once when first reaching 25
+async function maybeLogCompletion(score, count) {
+  if (score < 25) return;
+  const ref = doc(db, "unit_completion", `${auth.currentUser.uid}_${unit}`);
+
+  try {
+    const snap = await getDoc(ref);
+    if (!snap.exists()) {
+      await setDoc(ref, {
+        userId:      auth.currentUser.uid,
+        email:       auth.currentUser.email,
+        unit,
+        score:       25,
+        totalAnswers: count,
+        completedAt: Date.now(),
+      });
+      console.log("✅ Unit completion recorded:", `${auth.currentUser.uid}_${unit}`);
+    }
+  } catch (e) {
+  }
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 6) Question rendering & interaction
+// ─────────────────────────────────────────────────────────────────────────────
+function showQuestionAt(index) {
+  selectedAnswer = null;
+  currentQuestion = allQuestions[index];
+  questionStart = Date.now();
+  submittedStatus[index] = submittedStatus[index] || false;
+  DOM.nextBtn.style.display = "inline-block";
+  DOM.nextBtn.textContent = submittedStatus[index] ? "Next" : "Skip";
+  render(currentQuestion);
+  DOM.submitBtn.disabled = true; // Disable submit on load
+}
+
+// Replace navigation functions with cyclic behavior
+function showNextQuestion() {
+  questionIndex = (questionIndex + 1) % allQuestions.length;
+  showQuestionAt(questionIndex);
+}
+
+function showPreviousQuestion() {
+  questionIndex = (questionIndex - 1 + allQuestions.length) % allQuestions.length;
+  showQuestionAt(questionIndex);
+}
+
+// Modify render function to show prior result and highlight previous answer
+function render(q) {
+  if (!q) return;
+
+  DOM.title.textContent = q.title || "";
+  DOM.difficulty.textContent = `Difficulty: ${q.difficulty || "Medium"}`;
+  let cleanedText = (q.question_text || "").replace(/\n/g, "<br>");
+  cleanedText = cleanedText.replace("<br>","<br><br>")
+  DOM.text.innerHTML = cleanedText;
+
+  if (window.MathJax) MathJax.typesetPromise();
+
+  DOM.images.innerHTML = "";
+  const urls = q.images || q.image_files || [];
+  let loadedCount = 0;
+  if (urls.length === 0) {
+    DOM.images.style.display = "none";
+  } else {
+    urls.forEach(url => {
+      const img = document.createElement("img");
+      img.src = url;
+      img.style.maxWidth = "400px";
+      img.style.margin = "5px";
+      img.onload = () => {
+        loadedCount++;
+        if (loadedCount === urls.length) {
+          DOM.images.style.display = "block";
+        }
+      };
+      img.onerror = () => {
+        loadedCount++;
+      };
+      img.style.display = "none";
+      DOM.images.appendChild(img);
+    });
+    const interval = setInterval(() => {
+      if (loadedCount >= urls.length) {
+        DOM.images.querySelectorAll("img").forEach(img => img.style.display = "block");
+        clearInterval(interval);
+      }
+    }, 100);
+  }
+
+  DOM.tables.innerHTML = "";
+  (q.tables || []).forEach(html => {
+    if (window.MathJax) MathJax.typesetPromise();
+    const el = document.createElement("div");
+    el.innerHTML = html;
+    DOM.tables.appendChild(el);
+  });
+
+  DOM.choices.innerHTML = "";
+  (q.choices || []).forEach(choice => {
+    const btn = document.createElement("button");
+    btn.innerHTML = `<strong>${choice.letter}:</strong> ${choice.text}`;
+    btn.className = "button-1 perspective";
+    btn.style.display = "block";
+    btn.style.marginBottom = "0.5em";
+    btn.style.textAlign = "left";
+    btn.dataset.letter = choice.letter;
+    btn.onclick = () => {
+      selectedAnswer = choice.letter;
+      document.querySelectorAll("#question-choices button").forEach(b => b.style.background = "");
+      btn.style.background = "#d0eaff";
+    };
+
+    // Highlight previous answer if already submitted
+    const isSubmitted = submittedStatus[questionIndex];
+    if (isSubmitted && choice.letter === selectedAnswer) {
+      if (selectedAnswer === q.correct_answer) {
+        btn.style.background = "#b4f8c8"; // light green
+      } else {
+        btn.style.background = "#ffb3b3"; // light red
+      }
+    }
+
+    DOM.choices.appendChild(btn);
+  });
+
+  if (window.MathJax) MathJax.typesetPromise();
+
+  const isSubmitted = submittedStatus[questionIndex];
+  if (isSubmitted) {
+    if (selectedAnswer === q.correct_answer) {
+      DOM.feedback.innerText = "✅ Correct (previously submitted)";
+      DOM.feedback.style.color = "green";
+    } else {
+      DOM.feedback.innerText = "❌ Incorrect (previously submitted)";
+      DOM.feedback.style.color = "red";
+    }
+
+    DOM.correctAnswer.style.visibility = "visible";
+    DOM.correctAnswer.innerText = `Correct answer: ${q.correct_answer}`;
+    DOM.solution.style.visibility = "visible";
+    DOM.solution.innerHTML = q.solution || "No solution provided.";
+    if (window.MathJax) MathJax.typesetPromise([DOM.solution]).then(() => {
+      DOM.solution.scrollIntoView({ behavior: "smooth", block: "center" });
+    });
+  } else {
+    DOM.feedback.innerText = "";
+    DOM.feedback.style.color = "";
+    DOM.correctAnswer.style.visibility = "hidden";
+    DOM.correctAnswer.innerText = "";
+    DOM.solution.style.visibility = "hidden";
+    DOM.solution.innerText = "";
+  }
+
+  DOM.nextBtn.style.display = "none";
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 7) Submit / Skip handlers
+// ─────────────────────────────────────────────────────────────────────────────
+
+DOM.backBtn = document.getElementById("back-question");
+DOM.backBtn.onclick = () => {
+  showPreviousQuestion();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
+
+DOM.nextBtn = document.getElementById("next-question");
+DOM.nextBtn.style.display = "inline-block";
+DOM.nextBtn.onclick = () => {
+  // No score action on skip or navigation
+  showNextQuestion();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
+
+DOM.submitBtn.onclick = async () => {
+  await handleSubmit(); // Points are awarded/deducted here only
+  submittedStatus[questionIndex] = true;
+  DOM.nextBtn.textContent = "Next";
+  DOM.nextBtn.style.display = "inline-block";
+};
+
+// Hook into the question choice rendering to enable the submit button
+function enableSubmitOnChoiceSelection() {
+  const choiceButtons = document.querySelectorAll("#question-choices button");
+  choiceButtons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      DOM.submitBtn.disabled = false;
+    });
+  });
+}
+
+// Patch render function to include enableSubmitOnChoiceSelection
+const originalRender = render;
+render = function(question) {
+  originalRender(question);
+  enableSubmitOnChoiceSelection();
+  DOM.nextBtn.style.display = "inline-block";
+};
+
+async function handleSubmit() {
+  if (!selectedAnswer) return alert("Please select an answer.");
+
+  const correctLetter = (currentQuestion.correct_answer?.match(/Choice '([A-E])'/i) || [])[1];
+  const correct = selectedAnswer === correctLetter;
+  const id = currentQuestion.id;
+  const answerRef = doc(db, "student_answers", `${auth.currentUser.uid}_${id}`);
+
+  const payload = {
+    userId:      auth.currentUser.uid,
+    questionId:  id,
+    selected:    selectedAnswer,
+    correct,
+    difficulty:  currentQuestion.difficulty || "medium",
+    timestamp:   Date.now(),
+    timeSpent:   Math.floor((Date.now() - questionStart) / 1000),
+  };
+
+  if ((await getDoc(answerRef)).exists()) {
+    return alert("Already answered—no extra points.");
+  }
+
+  Array.from(DOM.choices.children).forEach(btn => {
+    if (btn.dataset.letter === correctLetter) btn.style.background = "#a6f3a6";
+    else if (btn.dataset.letter === selectedAnswer) btn.style.background = "#fdaaa0";
+  });
+  DOM.feedback.textContent = correct ? "✅ Correct!" : "❌ Incorrect.";
+  DOM.correctAnswer.textContent = currentQuestion.correct_answer;
+  DOM.correctAnswer.style.visibility = "visible";
+  DOM.solution.textContent = currentQuestion.solution;
+  DOM.solution.style.visibility = "visible";
+  DOM.nextBtn.style.display = "inline-block";
+
+  try {
+    await setDoc(answerRef, payload);
+    await updateScoreDisplay();
+  } catch (error) {
+  }
+
+}
+
+async function handleSkip() {
+  const id = currentQuestion.id;
+  const answerRef = doc(db, "student_answers", `${auth.currentUser.uid}_${id}`);
+  try {
+    if (!(await getDoc(answerRef)).exists()) {
+      await setDoc(answerRef, {
+        userId:     auth.currentUser.uid,
+        questionId: id,
+        selected:   null,
+        correct:    false,
+        skipped:    true,
+        difficulty: currentQuestion.difficulty || "medium",
+        timestamp:  Date.now(),
+        timeSpent:  Math.floor((Date.now() - questionStart) / 1000),
+      });
+    }
+    await updateScoreDisplay();
+    showNextQuestion();
+  } catch (error) {
+  }
+
+}
+
+// ─────────────────────────────────────────────────────────────────────────────
+// 8) Anti‑cheating handlers
+// ─────────────────────────────────────────────────────────────────────────────
+document.addEventListener("DOMContentLoaded", () => {
+  const c = DOM.mcqContainer;
+  if (!c) return;
+
+  const logViolation = async type => {
+    alert(`Sorry, ${type} is disabled.`);
+    await addDoc(collection(db, "user_violations"), {
+      userId:    auth.currentUser.uid,
+      event:     type,
+      timestamp: Date.now(),
+      page:      unit,
+    }).catch(error => {
+    });
+
+  };
+
+  ["copy","cut","paste","contextmenu"].forEach(evt =>
+    c.addEventListener(evt, e => { e.preventDefault(); logViolation(evt); })
+  );
+
+  document.addEventListener("keydown", e => {
+    if ((e.ctrlKey||e.metaKey) && e.key === "p") {
+      e.preventDefault();
+      logViolation("print");
+    }
+  });
+});
+</script>
     </body>
 </html>

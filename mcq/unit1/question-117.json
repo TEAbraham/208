@@ -10,9 +10,7 @@
   "title": "Determining First Quartile Value: Calories in Meat",
   "difficulty": "Easy",
   "question_text": "Examine the boxplots of calories below. Calories were measured per $3$ ounces of each type of meat.<br><br>Which type of meat has a first quartile value of $125 \\text{ calories}$?",
-  "image_files": [
-    "images/question-117-img1.jpg"
-  ],
+  "image_files": [],
   "tables": [],
   "choices": [
     {
@@ -37,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The first quartile is not measured at the center of the box; it is measured at the beginning of the first box. The first quartile is shown in red in the image below.\n\nThe first quartile for beef and other meat is somewhere near $140$, and poultry is near $105$.\n\nCreated for Albert.io. Copyright 2016. All rights reserved.\n\n\n\nTherefore, none of the meats has a first quartile of $125$.\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.1",

@@ -8,7 +8,7 @@
   ],
   "title": "A Salty Question",
   "difficulty": "Medium",
-  "question_text": "A spice company was curious as to whether people preferred using salt or pepper. This company sold to many stores on both coasts. The company asked whether sales were higher for salt or pepper in $50$ randomly selected stores on the West Coast and another $50$ on the East Coast. On the West Coast, $30$ stores said that more salt was sold and on the East Coast, $18$ stores said that more salt was sold.\nWhich would be the correct conclusion for a $95\\%$ confidence interval?",
+  "question_text": "A spice company was curious as to whether people preferred using salt or pepper. This company sold to many stores on both coasts. The company asked whether sales were higher for salt or pepper in $50$ randomly selected stores on the West Coast and another $50$ on the East Coast. On the West Coast, $30$ stores said that more salt was sold and on the East Coast, $18$ stores said that more salt was sold.\nWhich would be the correct conclusion for a $95\\%$ confidence interval?<br>Which would be the correct conclusion for a $95\\%$ confidence interval?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe formula for a confidence interval for the difference of two proportions is:\n\n$$(\\hat{p}_{1}-\\hat{p}_{2})\\pm z^{*}\\sqrt{\\dfrac{\\hat{p}_{1}(1-\\hat{p}_{1})}{n_{1}}+\\dfrac{\\hat{p}_{2}(1-\\hat{p}_{2})}{n_{2}}}$$\n\n...where $\\hat{p}_{1}$ and $\\hat{p}_{2}$ are the given proportions, ${n_{1}}$ and ${n_{2}}$ are the given sample sizes, and $z^{*}$ is the critical value for the given confidence level.\n\nIn this problem, we assume all conditions have been verified, we will plug in the values:\n\n$$(0.60-0.36)\\pm 1.960\\sqrt{\\dfrac{0.6(1-0.6)}{50}+\\dfrac{0.36(1-0.36)}{50}}$$\n\nSimplify this to get $0.24\\pm0.19=(0.05, 0.43)$.\n\nNow we need to make a conclusion that inserts the confidence interval into a statement which supplies the context of the problem. In this case: We are $95\\%$ confident that the interval from $0.05$ to $0.43$ captures the true difference in the proportions of salt preference shown by store sales of the West Coast over the East Coast.\n\nSo, Choice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect because the numbers are wrong as no $z^*$ was included in the calculation.\n\nChoice 'C' is incorrect because the calculation mistakenly used the critical value for a $90\\%$ confidence interval, so the numbers are wrong.\n\nChoice 'D' is incorrect because the answer describes a probability rather than a difference.\n\nChoice 'E' is incorrect because the answer describes a probability rather than a difference and the numbers are wrong.",
   "tags": [
     "UNC-4.N.1",
     "4.D",

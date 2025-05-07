@@ -9,7 +9,7 @@
   ],
   "title": "Finding a Proportion Based off a Histogram: Students Absent",
   "difficulty": "Medium",
-  "question_text": "The histogram below displays the number of students absent per day over a twenty day period in a Statistics class.<br>What is the proportion of days where at least two students were absent from this Statistics class?<br><br><br><br>",
+  "question_text": "The histogram below displays the number of students absent per day over a twenty day period in a Statistics class.<br>What is the proportion of days where at least two students were absent from this Statistics class?<br><br>Created for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When looking a histogram it is important to note each bar includes the left endpoint, but not the right endpoint. For example the first bar includes $0$ but not $1$), meaning the first bar is read as $0\\le X<1$ where $X$ represents students absent per day.\n\nWe are looking to find the P(X≥2) . To find the number of days in which at least 2 students were absent from class we are going to start at the third bar and add that frequency to all the frequencies of the bars after it. Once we find that cumulative value we will divide it by 20 (total number of days).\n\n5+2+1+2+1+1=12\n\n12\n20\n=0.60\n\nChoice 'E' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as this represents the probability of only second bar, or the proportion of days that exactly two students were absent from the Statistics class over the twenty day period.\n\nChoice 'B' is incorrect as this represents the probability of only the third bar, or the proportion of days that exactly three students were absent from the Statistics class over the twenty day period.\n\nChoice 'C' is incorrect as this represents the P(X≥3)\n, failing to include when two students are absent as well.\n\nChoice 'D' is incorrect as this represents P(0≤X<2)\n.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.1",

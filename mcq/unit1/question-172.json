@@ -10,7 +10,7 @@
   ],
   "title": "Exam Scores | 2 of 2",
   "difficulty": "Medium",
-  "question_text": "<br><br><br><br>These side-by-side stemplots represent the scores on the final exam for a statistics teacher’s $1^\\text{st}$ period class $(n = 29)$ on the left and $5^\\text{th}$ period class $(n = 22)$ on the right. The scores are raw scores, out of a possible $100\\text{ points}$.<br>Which of the following statements is true?",
+  "question_text": "Created for Albert.io. Copyright 2016. All rights reserved.<br><br>These side-by-side stemplots represent the scores on the final exam for a statistics teacher’s $1^\\text{st}$ period class $(n = 29)$ on the left and $5^\\text{th}$ period class $(n = 22)$ on the right. The scores are raw scores, out of a possible $100\\text{ points}$.<br>Which of the following statements is true?",
   "image_files": [
     "images/question-172-img1.png"
   ],
@@ -26,7 +26,7 @@
     },
     {
       "letter": "C",
-      "text": "If the data for the two groups were combined, the range would be unchanged from that of\n1\nst\nperiod."
+      "text": "If the data for the two groups were combined, the range would be unchanged from that of 1st\nperiod."
     },
     {
       "letter": "D",
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The range for 1st\nperiod is 95−49=46\n. The range for the combined data will still be 46\n, because the lowest value for 5th\nperiod is greater than the lowest value for 1st\nperiod, and the highest value for 5th\nperiod is equal to the highest value for 1st\nperiod.\n\nThus, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; the combined distribution would have an even higher frequency of values in the 80′s\nand 90s\n, with no tapering off above the 90′s\n.\n\nChoice 'B' is incorrect; with unequal sample sizes, one would have to calculate a weighted mean to calculate the combined mean. If the periods were the same size, however, this answer would have been correct.\n\nChoice 'D' is incorrect;\n5\nth\nperiod has more clustering than\n1\nst\nperiod does.\n\nChoice 'E' is incorrect;\n5\nth\nperiod has very little skewness because of its tight clustering in the\n80\n′\ns\nand\n90\n′\ns\n, while\n1\nst\nperiod has a gentler tapering of its scores from the modal group in the\n80\n′\ns\n, and thus is more skewed than\n5\nth\nperiod is.",
   "tags": [
     "UNC-1.N.1",
     "2.D",

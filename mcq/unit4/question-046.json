@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When the question says, “given that they support Bill”, it means that we can focus only on the row of Bill supporters.\n\nThe $142$ Canadian Bill supporters go in the numerator, and the $245$ total Bill supporters go in the denominator:\n\n$$\\frac{142}{245}\\approx 58\\%$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it takes $\\frac{89}{577}$. This incorrectly uses the Canadian Ted supporters as the numerator and incorrectly uses all $577$ people as the denominator.\n\nChoice ‘B’ is incorrect because it incorrectly uses Canadian Ted supporters as the numerator and incorrectly uses all Canadians as the denominator.\n\nChoice ‘C’ is incorrect because it does not take into account the nationality of the person. It only uses the $245$ Bill supporters as the numerator and uses the $577$ total people as the denominator.\n\nChoice ‘E’ is incorrect because it is the probability that a person supports Bill given that they are Canadian. This is not the same thing as the probability that a person is Canadian given that they support Bill.",
   "tags": [
     "VAR-4.D.1",
     "3.A",

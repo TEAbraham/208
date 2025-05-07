@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The interquartile range (IQR) is found by subtracting the $Q1$ from the $Q3$.\n\nThe easiest way to find the $Q1$ and $Q3$ is to find the median first because it sits between $Q1$ and $Q3$, dividing the numbers equally. In this case, the median is $29$: There are seven numbers on both sides of $29$.\n\n$$\\{ 5, 9, 13, \\mathbf{14}, 18, 24, 24, \\color{red}{29}, 30, 31, 37, \\mathbf{39}, 48, 55, 62 \\}$$\n\nThus, $14$ is the $Q1$: There are three numbers on each side of $14$ within the first seven numbers of the set. Similarly, $39$ is the $Q3$ number because it evenly divides the second half of the set.\n\n$39-14 = 25$, which is the IQR.\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "UNC-1.I.4",
     "UNC-1.J.2",

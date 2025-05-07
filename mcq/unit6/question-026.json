@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The $99\\%$ confidence interval will be wider than the $90\\%$ confidence interval.\n\nConsider an example. Suppose a weatherman says the average temperature today will be between $70$ to $72$ degrees today, while another weatherman says the average temperature will be between $60$ to $80$ degrees. Which weatherman would be more confident in capturing the average temperature? The second weatherman would be more confident, because not only does his interval contain the first weatherman's interval, but he has more room in his interval to capture the average temperature.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The sample size will affect the width of the interval, but it will not affect which level will be wider.\n\nChoice 'B' is incorrect. Using $z$-statistics or a $t$-statistics will affect the length of the interval, but it will not affect which confidence level will be wider.\n\nChoice 'C' is incorrect. If the data is taken from the same sample, then the higher the confidence level, the wider the interval.\n\nChoice 'D' is incorrect. The $90\\%$ confidence interval will not be as wide as the $99\\%$ confidence interval.",
   "tags": [
     "UNC-4.H.2",
     "UNC-4.H",

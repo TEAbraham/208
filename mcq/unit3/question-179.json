@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice ‘B’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nA Stratified Random Sample involves separating a population into groups, called strata, based on common characteristics. Within each stratum, a simple random sample is selected, and the selected units are combined to form the final sample.\n\nBecause students and teachers could potentially have different opinions, they are first grouped into strata. A random sample is then taken from each of the two strata.\n\nThe scenario in the prompt describes a Stratified Random Sample.\n\nChoice 'B' is correct.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect: A simple random sample allows for every person at the school to have an equal chance of being chosen. By first dividing the population into students and teachers, this eliminates a student's opportunity to be chosen once $30$ students have been selected.\n\nChoice ‘C’ is incorrect: A cluster sample involves first dividing the entire population into mini-populations, called clusters. Ideally, there is heterogeneity within each cluster, and clusters are similar to one another in their composition. A simple random sample of clusters is selected from the population to form the sample of clusters. Data are collected from all observations in the selected clusters.\n\nChoice ‘D’ is incorrect: A block design is a type of experiment in which treatments are imposed on subjects. This setting includes a survey of people where no treatment is being given.\n\nChoice ‘E’ is incorrect: A convenience sample involves selecting people for a sample in a manner that is easy (or convenient) to do. An example of a convenience sample would be surveying the first $10$ students that arrive on campus one morning.",
   "tags": [
     "DAT-2.C.2",
     "DAT-2.C.4",

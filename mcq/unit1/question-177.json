@@ -9,7 +9,7 @@
   ],
   "title": "Par 3 Golf Course | 2 of 2",
   "difficulty": "Medium",
-  "question_text": "<br><br><br><br>In golf, par is determined by the number of strokes a golfer without advantage (or handicap, as it is termed) is expected to take on a given hole.<br>The dot plots shown above are for two groups of golfers on a par $3$ course. The top dot plot is a summary of the total scores for $9\\text{ holes}$ by $16$ inexperienced golfers, and the bottom dot plot is a summary of the total scores on the same course for $16$ experienced golfers.<br>If the data for the two sets of golfers were combined and a new dot plot were created using the same scaling as the original two dot plots, then",
+  "question_text": "Created for Albert.io. Copyright 2016. All rights reserved.<br><br>In golf, par is determined by the number of strokes a golfer without advantage (or handicap, as it is termed) is expected to take on a given hole.<br>The dot plots shown above are for two groups of golfers on a par $3$ course. The top dot plot is a summary of the total scores for $9\\text{ holes}$ by $16$ inexperienced golfers, and the bottom dot plot is a summary of the total scores on the same course for $16$ experienced golfers.<br>If the data for the two sets of golfers were combined and a new dot plot were created using the same scaling as the original two dot plots, then",
   "image_files": [
     "images/question-177-img1.png"
   ],
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The new dot plot will be skewed to the right. When combining the graphs one can see a longer right tail, making the graph right skewed.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; when these two sets of data are combined, the large spread of the inexperienced golfers dot plot will be lessened by the clustering of the experienced golfers dot plot, and thus the variability of the combined dot plot will be less than that of the inexperienced golfers dot plot but more than that of the experienced golfers dot plot.\n\nChoice 'B' is incorrect; this makes no sense because the combined dot plot gives no information about the difficulty of the course for inexperienced golfers alone.\n\nChoice 'C' is incorrect; the rough bell shape of the experienced golfers dot plot is not enhanced by incorporating the inexperienced golfers’ scores; there is little overlap of the scores for the two dot plots, and thus the combined dot plot will be almost a uniform (flat) shape, except for the outliers.\n\nChoice 'E' is incorrect; the median of the new dot plot is\n27.5\n, while the mean of the two individual medians is\n(\n29.5\n+\n26.5\n)\n2\n=\n56\n2\n=\n28\n. There is no general rule that says that the median of two combined distributions equals the mean of the two original medians.",
   "tags": [
     "UNC-1.N.1",
     "2.D",

@@ -8,7 +8,7 @@
   ],
   "title": "Are Driver's Age and Traffic Tickets Associated?",
   "difficulty": "Hard",
-  "question_text": "Young adults in a small town are convinced that age has something to do with whether or not the police will give a driver a ticket when stopped for a traffic violation. The table below summarizes police records from traffic violation stops during the previous year.<br>Which of the following statements is FALSE?",
+  "question_text": "Young adults in a small town are convinced that age has something to do with whether or not the police will give a driver a ticket when stopped for a traffic violation. The table below summarizes police records from traffic violation stops during the previous year.<br>Which of the following statements is FALSE?<br>Which of the following statements is FALSE?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Driver's Age</th><th scope=\"col\">Ticket Issued</th><th scope=\"col\">Warning Issued</th><th scope=\"col\">Total</th></tr></thead><tbody><tr><td>Under 25</td><td>24</td><td>18</td><td>42</td></tr><tr><td>25 - 45</td><td>42</td><td>37</td><td>79</td></tr><tr><td>Over 45</td><td>15</td><td>28</td><td>43</td></tr><tr><td>Total</td><td>81</td><td>83</td><td>164</td></tr></tbody></table>"
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "While it is true that more than half of the tickets were issued to drivers in the 25-45 age category, most of the drivers who were stopped for a traffic violation in the first place were in this age category. It makes sense then, that the highest proportion of tickets issued would be to drivers in this category.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. It is true that the under 25 age category has the highest proportion of tickets issued. About $57\\%$ of those under 25 received a ticket while only about $53\\%$ of those in the 25-45 age category received a ticket and about $35\\%$ of those in the over 45 category received a ticket. This provides at least some evidence that there is a relationship between a driver's age and whether or not a ticket is issued.\n\nChoice 'B' is incorrect. It is a true statement and uses the conditional probability definition of independence to establish the fact that driver's age and whether a ticket is issued are NOT independent. If being under 25 and getting a ticket were independent, $p(\\text{ticket})$ would equal $p(\\text{ticket}|\\text{under 25})$. However:\n\n$$p(\\text{ticket})=\\frac { 81 }{ 164 } =0.494$$\n\n...while:\n\n$$p(\\text{ticket}|\\text{under 25})=\\frac { 24 }{ 42 } =0.571$$\n\nChoice 'C' is incorrect. It is a true statement and uses the multiplication property for independent events to establish a lack of independence. If being under 25 and getting a ticket were independent, $p(\\text{being under 25 AND getting a ticket})$ would equal $p(\\text{being under 25})\\cdot p(\\text{getting a ticket})$. However:\n\n$$p(\\text{being under 25 AND getting a ticket}) = \\frac { 24 }{ 164 } =0.146$$\n\n...while:\n\n$$p(\\text{being under 25})\\cdot p(\\text{getting a ticket})=\\left( \\frac { 42 }{ 164 } \\right) \\left( \\frac { 81 }{ 164 } \\right) =0.126$$\n\nChoice 'E' is incorrect. This is a true statement which approaches the idea of independence through the use of a ${ \\chi }^{ 2 }$ test. The resulting $p$-value is $p=0.079$, which is low, but not low enough to reject the null hypothesis of independence at the traditional $\\alpha=0.05$ level.",
   "tags": [
     "VAR-8.H",
     "3.A",

@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Use the formula below to calculate margin of error for a two-proportion Z-interval:\n\nE=zα/2\n√\n^\np1\n(1−\n^\np1\n)\nn1\n+\n^\np2\n(1−\n^\np2\n)\nn2\n\nUse 0.03 for E, the margin of error. This value is given to you in the problem.\n\nUse 1.96 for z from the standard normal table, since the problem states 95% confidence. The tables given to you on the AP test will provide this value.\n\nSince no prior information is known, use the conservative estimate 0.5\nfor both proportions (p1\nand p2\n). Use p=0.5\nas a conservative estimate whenever no prior information is given.\n\nUse algebra to solve for n=2,134.22\n, rounding up to 2,135\n.\n\nNote that n1=n2\nbased off information given in the problem.\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "UNC-4.L",
     "3.D",

@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Any inferential procedure uses sample data to get a snapshot about a population. In this situation, the problem states the coach is curious as to who is better this year.\n\nSince all the data is available for this year, it is clear that Bobby is faster this year since he has a lower mean time. Therefore, no tests or intervals make sense to perform for this problem.\n\nThus, the correct answer is Choice 'A'.\n\nA two sample T-test is used to determine if one population mean is significantly higher, lower, or different from another population mean.\n\nIf, for example, one wants to determine if runners who are wearing track spikes run faster than those who are not wearing track spikes, one could take a random sample of race times where athletes are forced to wear spikes, and another independent random sample of those who are forced to go without track spikes, and perform a 2 sample T-test on this data.\n\nThis problem, as discussed above, does not deal with sample data that hopes to represent the population. The population, or who we are interested in, are the track times this season, according to the stem of the problem. This data is already known.",
   "tags": [
     "4.B",
     "DAT-3",

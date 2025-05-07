@@ -22,7 +22,7 @@
     },
     {
       "letter": "C",
-      "text": "Obtain a list of all undergraduate college students, number them, and use a random number generator to randomly select $5{,}000$ college students and ask these $5{,}000$ students how often they exercise."
+      "text": "Obtain a list of all undergraduate college students, number them, and use a random number generator to randomly select 5,000 college students and ask these 5,000 students how often they exercise."
     },
     {
       "letter": "D",
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This statement will yield a truly random selection, and the sample size is large enough to reduce variability.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; bias could be introduced if these five universities are somehow dramatically different than other universities.\n\nChoice 'B' is incorrect; this problem gives no reason to believe that school size affects the frequency of exercising.\n\nChoice 'D' is incorrect; by selecting 10\nstudents from every university, students in smaller colleges have a better chance of getting picked and so would be better represented. Also, by going to the bookstore, students who do not frequent the bookstore as often will be underrepresented.\n\nChoice 'E' is incorrect; convenience samples cannot be generalized to the population. Clearly, students who go to the health club exercise more often than the overall population.",
   "tags": [
     "DAT-2.C.2",
     "DAT-2",

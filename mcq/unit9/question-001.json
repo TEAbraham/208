@@ -16,11 +16,11 @@
   "choices": [
     {
       "letter": "A",
-      "text": "The old model is appropriate because\n0.68\nis not contained in the sampling distribution."
+      "text": "The old model is appropriate because 0.68 is not contained in the sampling distribution."
     },
     {
       "letter": "B",
-      "text": "The data is not valid because the consultant only took a sample of size\n30\nfrom\n2002\n."
+      "text": "The data is not valid because the consultant only took a sample of size 30\nfrom 2002\n."
     },
     {
       "letter": "C",
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer",
-  "solution": "When using inference to look at slope of regression models, we want to be able to see if the slope of the old model is still appropriate based on the new model. Since we took many samples from the old data, and simulated a sampling distribution for the slope of the regression line, we were provided with many slopes that could have been a possibility from the old model. When we examined the data, we did not see the new slope,\n0.68\nin the sampling distribution.\n\nTherefore, we can concluded that the old model is no longer a sufficient model to predict wait time for the company, and they should use the new model.\n\nChoice 'C' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nWhen using inference to look at slope of regression models, we want to be able to see if the slope of the old model is still appropriate based on the new model. Since we took many samples from the old data, and simulated a sampling distribution for the slope of the regression line, we were provided with many slopes that could have been a possibility from the old model. When we examined the data, we did not see the new slope, 0.68\nin the sampling distribution.\n\nTherefore, we can concluded that the old model is no longer a sufficient model to predict wait time for the company, and they should use the new model.\n\nChoice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Since we did not see\n0.68\nin the sampling distribution, that means this number could not have happened purely by chance if the old model was still correct, thus having a probability of\n0\n.\n\nChoice 'B' is incorrect. A sample of size\n30\nis more than sufficient when simulating a sampling distribution.\n\nChoice 'D' is incorrect. The data consultant absolutely should not ignore the data, and use the data to make the correct conclusion that the new model should be used for prediction, not the old model.\n\nChoice 'E' is incorrect. Since the probability of the new sloped happening, if the old model is used, is approximately\n0\n, there is sufficient and convincing evidence that the models are different.",
   "tags": [
     "1.A",
     "VAR-1.K",

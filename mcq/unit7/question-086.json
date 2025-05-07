@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A confidence interval is used to sample and estimate where the population mean could be.\n\nBy constructing an interval of $470{,}000$ to $520{,}000$, we think the mean could be in this range, and we are using a process that gets it right $95\\%$ of the time in the long run.\n\nWe can assign $95\\%$ to the overall process of intervals at that confidence level catching the unknown mean, but we can never assign a specific probability to this particular interval.\n\nThus, the correct answer is Choice 'B'.\n\nChoice 'A' is incorrect. We can never assign a probability to a particular confidence interval.\n\nChoice 'C' is incorrect for the same reason; we can never assign a probability to a particular confidence interval.\n\nChoice 'D' is incorrect. Intervals attempt to catch the unknown mean, and cannot do anything else.\n\nChoice 'E' is incorrect. This interval attempts to catch the unknown mean amount of people watching this program, and does not deal with proportions.",
   "tags": [
     "VAR-7.E",
     "VAR-7.E.1",

@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since this question asks about the likelihood of a sample proportion, first consider if it is appropriate to use the normal model.\n\nSince:\n\nnp=(25)(0.5)\n\n=12.5≥10\n\n\nn(1−p)=(25)(0.5)\n\n=12.5≥10\n\n...the sampling distribution should be nearly normal. Choice 'E' is incorrect.\n\nThe sampling distribution will have a mean of 0.5 and a standard deviation of\n\nσ\nˆ\np\n=\n√\np(1−p)\nn\n\n=\n√\n(0.5)(0.5)\n25\n\n=0.1\n\nFind the z\n-score:\n\nz=\n0.4−0.5\n0.1\n\n=−1\n\nOn your calculator:\n\nnormalcdf(-99,-1,0,1) =0.16\n\nYou may also use the z\n-score table to convert the z\n-score of −1\nto a percent.\n\nA 16%\nprobability is not too low, so there is little reason to believe the deck has an unusually small proportion of red cards.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect. This represents an incorrect calculation using incorrect sample size n=10\ninstead of n=25\n. This is then used to calculate a z\n-score of approximately −0.64\n, with a p\n-value of 0.26\n.\n\nChoice 'C' is incorrect and represents the complement of the probability in Choice 'B'.\n\nChoice 'D' is incorrect. This is the complement of the calculated probability 0.16\n, or the probability of z=1\ninstead of z=−1\n.",
   "tags": [
     "UNC-3.K.1",
     "UNC-3",

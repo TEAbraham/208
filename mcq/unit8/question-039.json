@@ -9,7 +9,7 @@
   ],
   "title": "Rolling Dice",
   "difficulty": "Hard",
-  "question_text": "Suppose at a local casino, a player rolls $4$ six-sided die.<br>The player wins a dollar each time he gets a $1$ or $2$ on one of the dice, so each game the player could win anywhere from $\\$0$ to $\\$4$.<br>The player plays the game $100$ times and is disappointed with the outcome. He wonders if the dice are fair. Out of the $100$ trials, the player ended up with the following distribution of winnings:<br>Is there sufficient evidence the dice are unfair?",
+  "question_text": "Suppose at a local casino, a player rolls $4$ six-sided die.<br>The player wins a dollar each time he gets a $1$ or $2$ on one of the dice, so each game the player could win anywhere from $\\$0$ to $\\$4$.<br>The player plays the game $100$ times and is disappointed with the outcome. He wonders if the dice are fair. Out of the $100$ trials, the player ended up with the following distribution of winnings:<br>Is there sufficient evidence the dice are unfair?<br>Is there sufficient evidence the dice are unfair?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Winnings</th><th scope=\"col\"><span>$</span>0</th><th scope=\"col\"><span>$</span>1</th><th scope=\"col\"><span>$</span>2</th><th scope=\"col\"><span>$</span>3</th><th scope=\"col\"><span>$</span>4</th></tr></thead><tbody><tr><td>Frequency</td><td>21</td><td>42</td><td>30</td><td>7</td><td>0</td></tr></tbody></table>"
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In this situation, the binomial probability is needed to calculate the expected number of times that a $1$ or $2$ shows when the $4$ dice are rolled. Define x as the number of $1$ or $2$.\n\n$P (x = 0) = \\Big(\\dfrac{4}{6}\\Big)^{4} = 0.1975$\n$P (x = 1) = \\Big(\\dfrac{2}{6}\\Big)\\Big(\\dfrac{4}{6}\\Big)^3 \\binom{4}{1} = 0.3951$\n$P (x = 2) = \\Big(\\dfrac{2}{6}\\Big)^2 \\Big(\\dfrac{4}{6}\\Big)^2 \\binom{4}{2} = 0.2963$\n$P (x = 3) = \\Big(\\dfrac{2}{6}\\Big)^3 \\Big(\\dfrac{4}{6}\\Big) \\binom{4}{3} = 0.0988$\n$P (x = 4) = \\Big(\\dfrac{2}{6}\\Big)^4 = 0.0123$\n\nRemember that when determining the binomial probability, you need to use $\\binom{n}{m}$, which is the same as $_n C _m=\\frac{n!}{m!(n-m)! }$.\n\nWhen performing $100$ trials, using these probabilities, the expected counts are as follows:\n\nPerform a chi-squared goodness of fit test:\n\n$$ { \\chi }^{ 2 }=\\sum { \\dfrac { { \\left( O-E \\right) }^{ 2 } }{ E } } $$\n\n$\\dfrac{(21-19.75)^2}{19.75}+\\dfrac{(42-39.51)^2}{39.51}+\\dfrac{(30-29.63)^2}{29.63}+\\dfrac{(7-9.88)^2}{9.88}+\\dfrac{(0-1.23)^2}{1.23} = 2.31$\n\nWhen you look up the $\\chi^2$ test statistic, the p-value is over $0.25$ (or $0.32$, to be exact).\n\nWith a high $p$-value (compared to the standard $1\\%, 5\\%$, and $10\\%$ cutoffs), there is insufficient evidence to say the dice are unfair.",
   "tags": [
     "VAR-8.F",
     "3.E",

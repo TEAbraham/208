@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The mean of the differences will be the difference in the two proportions, which is $0.6-0.57 = 0.03$.\n\nThe standard deviation is a bit more complicated, and it requires the use of the formula:\n\n$$\\sqrt{\\dfrac{\\hat{p_1}(1- \\hat{p_1})}{n_1} + \\dfrac{\\hat{p_2}(1- \\hat{p_2})}{n_2}}$$\n\nSubstitute $100$ for both ${ n }_{ 1 }$ and ${ n }_{ 2 }$ as these are the sample sizes. $\\hat{p_1}= 0.6$, and $\\hat{p_2}= 0.57$.\n\nThis yields $ \\sigma = 0.06965$, which rounds to $0.07$.\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "UNC-3.N",
     "UNC-3",

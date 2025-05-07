@@ -30,7 +30,7 @@
     },
     {
       "letter": "D",
-      "text": "South America and Australia golfers make up 5%\nof the field."
+      "text": "South America and Australia golfers make up $5\\%$ of the field."
     },
     {
       "letter": "E",
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "Remember: the prompt asks us to find the choice that is not supported by the table.\n\nThe table above is an example of a frequency table, but the frequencies are given as relative frequencies instead of counts. It is important to note that percentages, relative frequencies, and rates all give the same information as proportions.\n\nThe table given is the breakdown for the background of the golfers in the field. European golfers make up 15%\nof the field, where as Asian golfers make up 8%\nof the field. Since half of 15%\nis 7.5%\n, Asian golfer make up more than half of the European golfers, not less than.\n\nChoice 'E' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nRemember: the prompt asks us to find the choice that is not supported by the table.\n\nThe table above is an example of a frequency table, but the frequencies are given as relative frequencies instead of counts. It is important to note that percentages, relative frequencies, and rates all give the same information as proportions.\n\nThe table given is the breakdown for the background of the golfers in the field. European golfers make up 15%\nof the field, where as Asian golfers make up 8%\nof the field. Since half of 15%\nis 7.5%\n, Asian golfer make up more than half of the European golfers, not less than.\n\nChoice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. North America has 72%\nof the golfers in the field, which is the largest amount by far and represents the majority of the field.\n\nChoice 'B' is incorrect. European golfers make up 15%\nof the field, while Asia, South America and Australia only make up a combined 13%\nof the field.\n\nChoice 'C' is incorrect. Since Asia has 8%\nof the golfers in the field, this more than double the amount of golfers from South America, 3%\n.\n\nChoice 'D' is incorrect. If you add South American and Australia's relative frequency, they would add to\n0.05\n, which is\n5\n%\nof the field.",
   "tags": [
     "UNC-1.A.1",
     "UNC-1.B.2",

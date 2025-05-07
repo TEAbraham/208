@@ -8,7 +8,7 @@
   ],
   "title": "All Boys and Girls",
   "difficulty": "Medium",
-  "question_text": "Pete is doing an experiment at his research facility. He gets $50$ volunteers to be a part of the study, $25$ males and $25$ females. He will flip a coin to randomly assign the treatments to the subjects. When he randomly assigned the subjects to the treatments, group $1$ contained all $25$ males, while group $2$ contained all $25$ females.<br>Pete believes his coin must be defective.\nIs Pete correct?",
+  "question_text": "Pete is doing an experiment at his research facility. He gets $50$ volunteers to be a part of the study, $25$ males and $25$ females. He will flip a coin to randomly assign the treatments to the subjects. When he randomly assigned the subjects to the treatments, group $1$ contained all $25$ males, while group $2$ contained all $25$ females.<br>Pete believes his coin must be defective.\nIs Pete correct?<br>Is Pete correct?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "When introducing statistics, it is important to examine random and non-random patterns. Patterns in data will help us answer questions about a set of data. Even when data seems to be random or non-random, the presence of a pattern does not imply a random or non-random pattern.\n\nEven though the groups ended up being all males and all females, since the researcher used a chance process, the groups are still considered to be random. Albeit a small probability, but using a chance process can still lead to non-random looking groups.\n\nChoice 'D' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nWhen introducing statistics, it is important to examine random and non-random patterns. Patterns in data will help us answer questions about a set of data. Even when data seems to be random or non-random, the presence of a pattern does not imply a random or non-random pattern.\n\nEven though the groups ended up being all males and all females, since the researcher used a chance process, the groups are still considered to be random. Albeit a small probability, but using a chance process can still lead to non-random looking groups.\n\nChoice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. There is a non-zero probability of getting all males and all females in the groups, even if it's very small.\n\nChoice 'B' is incorrect. Although very slim, there does exist a probability of getting no males and no females in the groups, so we are not guaranteed one gender in each group.\n\nChoice 'C' is incorrect. Although a coin is two-sided, it does not guarantee that each group will have half male and half female.\n\nChoice 'E' is incorrect. Even though a coin is a 50−50\nchance process, this simply means that each subject has a 50−50\nchance to be assigned to each treatment.",
   "tags": [
     "VAR-1.F",
     "VAR-1.F.1",

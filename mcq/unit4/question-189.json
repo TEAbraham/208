@@ -31,12 +31,11 @@
     },
     {
       "letter": "E",
-      "text": "11.20"
+      "text": "$11.20$"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The formula given in this example is the binomial formula(formula is given on the AP exam):\n\n$$\\begin{pmatrix} n \\\\ k \\end{pmatrix}(p)^{k}(1-p)^{n-k}$$\n\nThe standard deviation of binomial distribution is given by the formula (formula is given on AP exam):\n\nσ=\n√\nn⋅p⋅(1−p)\n\n...where p is the probability of a specific outcome and n is the number of samples.\n\nThus, since n=20 and p=0.44,\nσ=\n√\n20⋅0.44⋅(1−0.44)\n=2.22\n\nChoice 'B' is the correct answer.\n\nExplanation of Distractors Choice 'A' is incorrect as this represents p⋅(1−p)\n. Choice 'C' is incorrect as this represents n⋅p⋅(1−p)\n. Choice 'D' is incorrect as this represents n⋅p\nwhich is the mean of a binomial distribution. Choice 'E' is incorrect as this represents n⋅(1−p)\n.",
   "tags": [
     "UNC-3.C.1",
     "UNC-3",

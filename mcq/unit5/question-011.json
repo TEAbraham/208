@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The sampling distribution of the differences in sample proportions should be nearly normal as long as n\\hat { p } \\ge 10 and n(1-\\hat { p } )\\ge 10.\n\n({ n }_{ F })({ p }_{ F })=(60)(0.12)=7.2\\ngeq 10\n({ n }_{ F })(1-{ p }_{ F })=(60)(0.88)=52.8\\ge 10\n({ n }_{ C })({ p }_{ C })=(55)(0.2)=11.0\\ge 10\n({ n }_{ C })(1-{ p }_{ C })=(55)(0.8)=44.0\\ge 10\n\nAs we can see, the first condition is not met, so it will not be nearly normal.\n\nExplanation of Distractors\n\nChoice 'A': This choice only checks the nearly normal condition for one of the sodas. The condition must be met for both sodas.\n\nChoice 'B': This choice refers to the Central Limit Theorem which only applies to means, not proportions.\n\nChoices 'D' and 'E': Neither the true proportions nor the sample sizes need to be the same in order for a sampling distribution to be nearly normal.",
   "tags": [
     "4.B",
     "UNC-3.P.1",

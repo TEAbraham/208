@@ -8,7 +8,7 @@
   ],
   "title": "Hector's Test",
   "difficulty": "Hard",
-  "question_text": "Hector has been assigned to do a chi-square test for independence for his university's statistics class. He has decided to see if there is an association between class year and grade point average, with grade point average split into $3$ categories. He plans to sample $100$ students thinking that this number will give him high enough cell counts.\nThe following five answers contain a hypothesis and a condition for his test. Four of the $5$ answers contain an incorrect statement. Find the answer which is fully correct.",
+  "question_text": "Hector has been assigned to do a chi-square test for independence for his university's statistics class. He has decided to see if there is an association between class year and grade point average, with grade point average split into $3$ categories. He plans to sample $100$ students thinking that this number will give him high enough cell counts.\nThe following five answers contain a hypothesis and a condition for his test. Four of the $5$ answers contain an incorrect statement. Find the answer which is fully correct.<br>The following five answers contain a hypothesis and a condition for his test. Four of the $5$ answers contain an incorrect statement. Find the answer which is fully correct.",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nFor this problem we need to look at both the hypotheses and the conditions for a chi-square test for independence which looks to see if two categorical variables are related.\n\nThe null hypothesis for this test assumes that there is no association or relationship between the two categorical variables; that is, the two variables are independent.\n\nThe alternative hypothesis for this test assumes that there is an association or relationship between the two categorical variables; that is, the two variables are dependent.\n\nTwo areas must be checked to proceed with a chi-square test for independence: independence and counts.\n\nTo check for independence two conditions must be verified:\n\n$1$) Data should be collected using a simple random sample.\n\n$2$) The sample size should be less than or equal to $10\\%$ the size of the population.\n\nTo check for counts all counts (the numbers in the table) should be greater than $5$.\n\nSo, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the hypothesis is correct for the chi-square test for homogeneity, not for independence. The condition is correct.\n\nChoice 'B' is incorrect because, though the hypothesis is correct, the condition should say less than, not greater than,$10\\%$ the size of the university's population of students.\n\nChoice 'C' is incorrect because the hypothesis is correct for the chi-square test for homogeneity, not for independence. The condition is correct.\n\nChoice 'D' is incorrect because, though the hypothesis is correct, the condition should say data should be collected using a simple random sample.",
   "tags": [
     "4.C",
     "1.F",

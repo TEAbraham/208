@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThis is a $2$-sample $t$-test. Our null hypothesis assumes that the means are equal, and our alternative states that they are not equal. We calculate the test statistic:\n\n$$t=\\dfrac{(\\bar{x}_{H}-\\bar{x}_{L})-(\\mu_{H}-\\mu_{L})}{\\sqrt{\\dfrac{s^{2}_{H}}{n_{H}}+\\dfrac{s_{L}^{2}}{n_{L}}}}$$\n\n...where the $\\bar{x}$ terms are our sample means, the $\\mu$ terms, since they are assumed to be equal, cancel out to equal $0$, and the $s$ and $n$ terms come from our problem to give us:\n\n$$t=\\dfrac{(18.1-19)-(0)}{\\sqrt{\\dfrac{1.3^{2}}{25}+\\dfrac{1.6^{2}}{25}}}=-2.18$$\n\nWe then calculate the degrees of freedom to be $25 + 25 -2 = 48$. This line is not in the table, but reading down to the d.f.=$40$ line we see that our $p$-value falls between $0.01$ and $0.02$. Because Ha stated that the means are different, we must double the $p$-value to conclude that it is between $0.02$ and $0.04$. Our calculator gives us $0.03$.\n\nSince these $p$-values are all less than our significance level of $0.05$, we can reject Ho. Thus, we can state that the different doses do result in a different number of headaches in the two samples. We can guess that the higher dosage is better, but we have not proved this.\n\nSo, Choice 'A' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect because the answer states that Ho cannot be rejected, but it can.\n\nChoice 'C' is incorrect because its conclusion about the dosages is incorrect and it is also incorrect about the $p$-value being greater.\n\nChoice 'D' is incorrect because it says that the $p$-value is greater, and it is not.\n\nChoice 'E' is incorrect because it has seemingly ignored the results of the test.",
   "tags": [
     "4.E",
     "DAT-3.H.1",

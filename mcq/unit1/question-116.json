@@ -10,7 +10,7 @@
   ],
   "title": "Median Cost for Boarding Duke: Stemplot",
   "difficulty": "Easy",
-  "question_text": "Daisy is planning a vacation and will need to board her pet dog Duke while she is away. After gathering data from all of kennels in her area, she produced the stemplot below to display the distribution of costs for boarding Duke for one night.<br><br><br><br><br>What is the median price of boarding Duke for one night?",
+  "question_text": "Daisy is planning a vacation and will need to board her pet dog Duke while she is away. After gathering data from all of kennels in her area, she produced the stemplot below to display the distribution of costs for boarding Duke for one night.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>What is the median price of boarding Duke for one night?",
   "image_files": [
     "images/question-116-img1.PNG",
     "images/question-116-img2.PNG"
@@ -39,8 +39,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The median is the middle value (or average of the two middle values) when the observations are arranged in order.\n\nBy counting values shown in the stemplot, we can determine that there were\n32\nobservations. The median then, would be the average of the\n16\nth\nand\n17\nth\nhighest values.\n\nTo find these values, start from the bottom of the stemplot and work your way upward. Remember to always start from the left value in a row since the values are arranged in rows from lowest value to highest value.\n\nThe middle two values are highlighted in the stemplot below. Since both of these values correspond with a cost of\n$\n26\n, the median is\n$\n26\n.\n\nCreated for Albert.io. Copyright 2016. All rights reserved.\n\n\n\nCalculator function to find median\n\nYou could also find the median by entering all\n32\nvalues into your\nT\nI\n83\n/\n84\ncalculator and having the calculator determine the median. Instructions are as follows:\n\nPress STAT\nWhile EDIT is highlighted, press ENTER\nEnter all\n32\nvalues into\nL\n1\n\nPress STAT\nHighlight CALC\nWhile\n1\n-Var Stats is highlighted, press ENTER\nPress Enter again\n\nThe calculator will return a lot of information. Move down the screen to find\nMed\n=\n26\n.\n\nChoice 'C' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. You may arrive at this answer if you start counting at the top of the stemplot and move downward while also counting from left to right along a row. If you are counting from the top down, you must move from right to left along the rows since this will keep the values in order from highest to lowest.\n\nChoice 'B' is incorrect. While\n$\n24.00\nis one of the most common values (one of the modes), and visually appears to be near the middle of the distribution, it is not the median.\n\nChoice 'D' is incorrect. You may arrive at this answer through simple errors in miscounting!\n\nChoice 'E' is incorrect because it represents the mean of the distribution.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.1",

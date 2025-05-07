@@ -14,28 +14,27 @@
   "choices": [
     {
       "letter": "A",
-      "text": "No. The annual savings would only average $0.51\nand four large frozen caramel macchiatos with chocolate granola drizzle will cost much more than that."
+      "text": "No. The annual savings would only average $\\$0.51$ and four large frozen caramel macchiatos with chocolate granola drizzle will cost much more than that."
     },
     {
       "letter": "B",
-      "text": "No. The annual savings would only average $6.12\n. That might be enough to buy one large frozen caramel macchiato with chocolate granola drizzle, but not four!"
+      "text": "No. The annual savings would only average $\\$6.12$. That might be enough to buy one large frozen caramel macchiato with chocolate granola drizzle, but not four!"
     },
     {
       "letter": "C",
-      "text": "Probably. As long as one large frozen caramel macchiato with chocolate granola drizzle costs\n$\n6.63\nor less, the mean annual savings will be enough to cover the cost of four."
+      "text": "Probably. As long as one large frozen caramel macchiato with chocolate granola drizzle costs $\\$6.63$ or less, the mean annual savings will be enough to cover the cost of four."
     },
     {
       "letter": "D",
-      "text": "Probably. As long as one large frozen caramel macchiato with chocolate granola drizzle costs\n$\n8.84\nor less, the mean annual savings will be enough to cover the cost of four."
+      "text": "Probably. As long as one large frozen caramel macchiato with chocolate granola drizzle costs $\\$8.84$ or less, the mean annual savings will be enough to cover the cost of four."
     },
     {
       "letter": "E",
-      "text": "Yes. The annual savings would average\n$\n180.44\n. That should be more than enough to cover the cost of four large frozen caramel macchiatos with chocolate granola drizzle."
+      "text": "Yes. The annual savings would average $\\$180.44$. That should be more than enough to cover the cost of four large frozen caramel macchiatos with chocolate granola drizzle."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since the mean (average) cost for one box of name brand cereal is $\\$3.98$ and the mean cost for one box of store brand cereal is $\\$3.47$, we can find the mean savings on one box of cereal by subtracting.\n\n$$\\$3.98-\\$3.47=\\$0.51$$\n\nThere are 52 weeks in one year, so we can find the mean total amount of savings over the course of one year by multiplying.\n\n($0.51)(52)=$26.52\n\nIn order for $26.52 to cover the cost of four large frozen caramel macchiatos with chocolate granola drizzle, the maximum cost of one large frozen caramel macchiato with chocolate granola drizzle can be no more than:\n\n$26.52\n4\n=$6.63\n\nTherefore, Choice 'C' is the correct answer.\n\nNOTE: While this problem can be approached very logically as outlined above, we could also be much more statistically formal in our approach.\n\nThe cost of one box of name brand cereal is a random variable we could call B. The cost of one box of store brand cereal is also a random variable we could call S\n\nμB=$3.98\n\nμS=$3.47\n\nTo find the mean difference between two random variables, we simply subtract the individual means. Therefore:\n\nμB−S=μB−μS\n\n=$3.98−$3.47\n\n=$0.51\n\nSince we are assuming that an individual would buy one box of cereal each week for one year (or 52\nweeks), we would continue as follows:\n\n52⋅(μB−S)\n\n=52⋅$0.51\n\n=$26.52\n\nIf the cost of one large frozen caramel macchiato with chocolate granola drizzle is $6.63\n(or less), then the cost of four drinks would be 4⋅($6.63)\n(or less). Therefore, the mean annual savings would be enough to cover the cost of 4 drinks\n.\n\nAgain, Choice 'C' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because\n$\n0.51\nis the average savings on buying only one box of store brand cereal.\n\nChoice 'B' is incorrect since\n$\n6.12\nis the average savings for buying one box of store brand cereal each month for\n12\n months\n.\n\nChoice 'D' is incorrect and may represent a pure guess. If each large frozen caramel macchiato with chocolate granola drizzle costs\n$\n8.84\n, then the mean annual savings needed to cover the cost of four drinks would be\n(\n4\n)\n(\n$\n8.84\n)\n=\n$\n35.36\n, which is more than the true mean annual savings of\n$\n26.52\n.\n\nChoice 'E' is incorrect because\n$\n180.44\nis the average cost of buying one box of store brand cereal each week for\n52\nweeks.",
   "tags": [
     "UNC-1.O",
     "2.D",

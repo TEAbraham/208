@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The distribution of the difference in their times is approximately normal with a mean of 0.2 seconds (62.5−62.3) and a variance of 1.22+1.42=3.4.\n\nStandard deviation is the square root of the variance, which = 1.84.\n\nNext, we standardize:\n\nz=\n(0−0.2)\n1.84\n=−0.11\n\nUsing the standard normal table, we find that:\n\nP(z<−0.11)=0.4562\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "VAR-5.E",
     "VAR-5.E.2",

@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When performing a hypothesis test, all conclusions must be in the context of the null hypothesis. A low $p$-value, relative to alpha, will give evidence to reject the null hypothesis. A high $p$-value relative to alpha will fail to give evidence to reject the null.\n\nIn this situation, since the $p$-value of $1.3\\%$ is less than $5\\%$, there is sufficient evidence to reject the null hypothesis.\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "4.E",
     "DAT-3.H.1",

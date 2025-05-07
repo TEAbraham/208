@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'A' is correct; by choosing $40$ successive days, rather than choosing $40$ days at random from (perhaps) an entire year, you run the risk of losing the independence of your observations. If there is a heavy rain on one day, for example, your salinity measures could be affected by that one rainstorm for several days.\n\nEven though this violation is not a deal-breaker for the experiment, it should be mentioned in your experimental report as a possible source of error, and caution should be used in generalizing results.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect; sample size is plenty large enough.\n\nChoice 'C' is incorrect; since the sample size is large (greater than about $30$), approximate normality of the sampling distribution is assured by the central limit theorem.\n\nChoice 'D' is incorrect; when performing a t-test, one assumption is the population standard deviation is unknown.\n\nChoice 'E' is incorrect; the p-value is not a condition. P-value refers to a probability value obtained after the test statistic is calculated.",
   "tags": [
     "VAR-1.I.1",
     "1.A",

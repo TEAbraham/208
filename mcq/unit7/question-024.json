@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A correct interpretation of a confidence level must mention not only that the goal is to catch the unknown population mean but also that this refers to not catching it in the long term or in many trials.\n\nIt is important to note that interpreting the confidence interval is very different than interpreting the confidence level.\n\nIf a problem asks to interpret the confidence interval, a student needs to make a statement using the phrase \"95% confident\" in a fashion similar to statement (a). However, interpreting the confidence level is an entirely different question. When asked to interpret the confidence level, make sure to include two elements. For example, if the interval is at $95\\%$ confidence, make sure to mention:\n\n$i.$ The idea that the process works 95% of the time in the long run\n$ii.$ The idea that by saying \"works\", one means it captures the true unknown population mean.\n\nLastly, make sure to provide context.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; this gives a correct interpretation of the confidence interval, but not the confidence level.\n\nChoice 'C' is incorrect; confidence intervals simply cannot measure something such as this.\n\nChoice 'D' is incorrect; this would be correct if the word “sample” were replaced with “population.”\n\nChoice 'E' is incorrect. It is true that our interval will catch the population mean 95% of the time in the long run. However, the population mean is unknown and may have changed from last year.",
   "tags": [
     "3.D",
     "UNC-4",

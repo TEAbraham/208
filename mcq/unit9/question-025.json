@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nLet's look at the formula given for a confidence interval used to estimate the slope of a regression model:\n$$b\\pm t^{*} (SE_{b})$$\n\nTo increase the width of a confidence interval means that the margin of error must be increased. This is because the margin of error is what follows the plus or minus sign. Thus, when you are adding or subtracting a bigger number, the width will increase.\n\nSince the margin of error is equal to the critical value times the standard error, then either of these values increasing would cause the margin of error to increase. The correct answer here is to increase the sample size. This is because the sample size, or $n$, is in the denominator of the standard error. Thus, when $n$ is increased, then the width of the confidence interval will decrease which makes this the exception.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because increasing the critical value increases the margin of error which increases the sample size.\n\nChoice 'B' is incorrect because increasing the value of $t^{*}$ increases the margin of error which increases the sample size.\n\nChoice 'C' is incorrect because increasing the standard error increases the margin of error which increases the sample size.\n\nChoice 'E' is incorrect because increasing the margin of error increases the sample size.",
   "tags": [
     "UNC-4.AI",
     "4.B",

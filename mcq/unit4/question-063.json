@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The term “at most 3\n” also means 3\nor fewer. To find the solution then, we add all probabilities for X=0\n, 1\n, 2\n, and 3\n:\n\n0.1+0.3+0.4+0.1=0.9\n\nChoice 'E' is the correct answer.",
   "tags": [
     "VAR-4.E.3",
     "VAR-4.E",

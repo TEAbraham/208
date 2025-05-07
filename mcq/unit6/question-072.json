@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "All an interval can do is hope to catch the true population proportion. This interval goes from $0.67$ to $0.74$, so the true population proportion of adult alligators in Florida is probably in this range.\n\nOne cannot attach a probability to a single confidence interval. The interval has already been calculated, so no randomness remains. The interval either caught or failed to catch the true population proportion.\n\nHowever, one can say that in the long run, if many intervals were conducted, $99\\%$ of these intervals will catch the population proportion.\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "4.E",
     "DAT-3",

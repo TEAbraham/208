@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nSince we want to see a chi-square test for independence described, we must look for two categorical variables. In this problem, we have tire type and the wear of the tire.\n\nThis test requires one population. Here the tires are specified as coming from one factory. There are two types of tire and $3$ conditions of wear, so the $100$ tires will be entered into $6$ categorical answers.\n\nThis test specifically looks to see if there is an association between the two variables. Here, the test asks if this is such an association between tire wear and condition.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because this description of a test matches a chi-square test for goodness of fit.\n\nChoice 'B' is incorrect because this description of a test matches a test for a population proportion.\n\nChoice 'C' is incorrect because this description of a test matches a test for the difference of two population means.\n\nChoice 'E' is incorrect because description of a test matches a chi-square test for homogeneity.",
   "tags": [
     "VAR-8.J.2",
     "VAR-8",

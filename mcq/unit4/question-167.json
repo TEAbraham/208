@@ -33,12 +33,11 @@
     },
     {
       "letter": "E",
-      "text": "0.242⋅0.766⋅[\n8!\n(2!⋅6!)\n]"
+      "text": "$0.24^2 \\cdot 0.76^6 \\cdot \\left[\\dfrac{8!}{(2! \\cdot 6!)}\\right]$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Essentially, the binomial formula finds the probability of one outcome of a given event and multiplies that by the number of ways the event could happen.\n\nChoice 'E' is correct; this is the only answer option that correctly uses the binomial formula.",
   "tags": [
     "UNC-3.A.2",
     "UNC-3.A.1",

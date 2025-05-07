@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This problem tests students’ ability to use the normal tables and algebra to solve for the mean. Using Table A from your AP Statistics tables, you can find where the $z$-value would be for approximately $0.9900$, which ends up being at $2.3$ and $0.03$ with a $p$-value of $0.9901$.\n\nSet up the following equation and solve for $x$ to get $x = 250$:\n\n$$\\frac{350-x}{43} = 2.33$$\n\n$$350-x=100.19$$\n\n$$-x=-249.81$$\n\n$$x=249.81$$\n\nChoice 'A' is correct.",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

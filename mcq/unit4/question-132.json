@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The expected value of the sum on the two slips of paper can be found by finding the expected value of each separate slip of paper and then adding them together.\n\nThe formula for expected value is given by:\n\n$$E(x)={ \\mu }_{ x }=\\sum { { x }_{ i }{ p }_{ i } }$$\n\nThe expected value of the 5 slips of paper is:\n\n$$=(0.2)(1)+(0.2)(2)+(0.2)(3)+(0.2)(4)+(0.2)(5)$$\n\n$$=(0.2)(1+2+3+4+5)$$\n\n$$=3$$\n\nThe expected value of the 4 slips of paper is:\n\n$$=(0.25)(20)+(0.25)(21)+(0.25)(22)+(0.25)(23)$$\n\n$$=(0.25)(20+21+22+23)$$\n\n$$=21.5$$\n\nAdd the two expected values:\n\n$$3+21.5=24.5$$\n\nChoice 'D' is our answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as this is the total expected value divided by $2$.\n\nChoice 'B' is incorrect as this is the incorrect total expected value(rounded) and then divided by $2$.\n\nChoice 'C' is incorrect as this is the difference of the expected values.\n\nChoice 'E' is incorrect as expected values do not get rounded.\n\nAn easier approach to have found the expected values would just have to been to find the midrange, given by:\n\n$$\\dfrac {\\text{ Maximum value + Minimum value} }{ 2 } $$\n\nsince all the values have the same probability of occurring.\n\nFor instance, with the five slips of paper, the expected value could have been found by:\n\n$$\\dfrac { 5+1 }{ 2 } =3$$",
   "tags": [
     "VAR-5.E",
     "VAR-5.E.2",

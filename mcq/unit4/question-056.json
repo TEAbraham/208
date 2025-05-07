@@ -8,7 +8,7 @@
   ],
   "title": "Probability: Making Free Throws",
   "difficulty": "Hard",
-  "question_text": "A professional basketball player has a $60$% chance of making his first throw. If he makes his first free throw, there is a $70$% chance he makes his second free throw. If he does not make his first throw, there is a $45$% chance he makes his second free throw.\nIf this professional basketball player has made his second free throw, what is the probability he missed his first throw?",
+  "question_text": "A professional basketball player has a $60$% chance of making his first throw. If he makes his first free throw, there is a $70$% chance he makes his second free throw. If he does not make his first throw, there is a $45$% chance he makes his second free throw.\nIf this professional basketball player has made his second free throw, what is the probability he missed his first throw?<br>If this professional basketball player has made his second free throw, what is the probability he missed his first throw?",
   "image_files": [
     "images/question-056-img1.PNG"
   ],
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This type of a probability is a conditional probability, as we already know something has happened, meaning a condition has been satisfied.\n\nThe event that we know has happened is the player has made the second free throw. In this case, we are asked to find the probability the player misses the first free throw given he made the second free throw.\nM1\nwill represent a make on the first free throw and M2\nwill represent a make on the second free throw. M\nc\n1\nwill represent a miss on the first free throw and M\nc\n2\nwill represent a miss on the second free throw.\n\nThe formula for conditional probability is:\n\nP(B/A)=\nP(B∩A)\nP(A)\n\n...where the\nP\n(\nB\n∩\nA\n)\nrepresents the probability that events B and A occur.\n\nIn our case we are trying to solve for:\n\nP\n(\nM\nc\n1\n/\nM\n2\n)\n=\nP\n(\nM\nc\n1\n∩\nM\n2\n)\nP\n(\nM\n2\n)\n\nA tree diagram will help in organizing all the information and providing a visualization. Please see picture below:\n\n\n\nNow that we know:\n\nP\n(\nM\nc\n1\n/\nM\n2\n)\n=\nP\n(\nM\nc\n1\n∩\nM\n2\n)\nP\n(\nM\n2\n)\n\nWe need to break down the denominator, which is the tricky part. When finding the probability he makes the second free we must take into account if he made the first free throw or missed the first free throw. Or represents that when we find these two probabilities we must add them together.\n\nTherefore in the denominator we are looking for the probability he made the first throw and made the second free throw or he missed the first throw and made the second free throw.\n\nThe formula would look like this:\n\nP\n(\nM\nc\n1\n/\nM\n2\n)\n=\nP\n(\nM\nc\n1\n∩\nM\n2\n)\nP\n(\nM\nc\n1\n∩\nM\n2\n)\no\nr\nP\n(\nM\n1\n∩\nM\n2\n)\n\nSubstitute the values:\n\nP\n(\nM\nc\n1\n/\nM\n2\n)\n=\n(\n0.40\n∙\n0.45\n)\n(\n0.60\n∙\n0.70\n)\n+\n(\n0.40\n∙\n0.45\n)\n\n=\n0.18\n0.42\n+\n0.18\n\n=\n0.30\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as this is the joint probability of missing the first free throw and making the second free throw, meaning just the numerator was computed.\n\nChoice 'C' is incorrect as the denominator was computed incorrectly. In this case it was done as:\n\nP\n(\nM\nc\n1\n/\nM\n2\n)\n=\n(\n0.40\n∙\n0.45\n)\n(\n0.45\n)\n\n=\n0.40\n\nChoice 'D' is incorrect as the numerator was computed incorrectly. In this case it was performed as:\n\nP\n(\nM\nc\n1\n/\nM\n2\n)\n=\n0.40\n(\n0.60\n∙\n0.70\n)\n+\n(\n0.40\n∙\n0.45\n)\n\n=\n0.40\n0.42\n+\n0.18\n\n=\n0.67\n\nChoice 'E' is incorrect as the complement was found.",
   "tags": [
     "VAR-4.D.1",
     "3.A",

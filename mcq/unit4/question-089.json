@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To roll a Yahtzee, a player could roll five $1$'s or five $2$'s or five $3$'s or five $4$'s or five $5$'s or five $6$'s.\n\n$p(\\text{five $1$'s})$ can be found using the multiplication rule. That is:\n\n$$p(1, 1, 1, 1, 1) = \\left( \\frac { 1 }{ 6 } \\right) \\cdot \\left( \\frac { 1 }{ 6 } \\right) \\cdot \\left( \\frac { 1 }{ 6 } \\right) \\cdot \\left( \\dfrac { 1 }{ 6 } \\right) \\cdot \\left( \\dfrac { 1 }{ 6 } \\right) ={ \\left( \\frac { 1 }{ 6 } \\right) }^{ 5 }$$\n\n$p(\\text{five $2$'s})$ is calculated exactly the same way and produces the same answer as $p(\\text{five $1$'s})$.\n\nIn fact:\n\n$$p(\\text{five $\n1$'s})=p(\\text{five $2$'s})=p(\\text{five $3$'s})=p(\\text{five $4$'s})=p(\\text{five $5$'s})=p(\\text{five $6$'s})$$\n\nTherefore:\n\n$$p(\\text{Yahtzee})={ \\left( \\dfrac { 1 }{ 6 } \\right) }^{ 5 }\\cdot 6$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as it does not account for all five dice being rolled. It simply represents the probability of rolling a specific (unknown) number when a single dice is tossed.\n\nChoice 'B' is incorrect because it does not account for the fact that a Yahtzee could be achieved by rolling any one of the six possible outcomes on every dice. This represents the probability of rolling $5$ dice which result in the same specific (unknown) number, such as rolling five $1$'s.\n\nChoice 'D' is incorrect. We cannot simply multiply the probability of rolling a specific (unknown) number by $5$ to account for the fact that five dice are being tossed.\n\nChoice 'E' is incorrect. Although the actual probability is quite close to zero, there is still a very small probability that a player will toss a Yahtzee on their first roll of the dice.",
   "tags": [
     "VAR-4.E.1",
     "VAR-4.E",

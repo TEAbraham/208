@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Mr.&nbsp;Abraham">
+
+<title>Hypothesis Testing</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="hypothesis_testing_files/libs/clipboard/clipboard.min.js"></script>
+<script src="hypothesis_testing_files/libs/quarto-html/quarto.js"></script>
+<script src="hypothesis_testing_files/libs/quarto-html/popper.min.js"></script>
+<script src="hypothesis_testing_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="hypothesis_testing_files/libs/quarto-html/anchor.min.js"></script>
+<link href="hypothesis_testing_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="hypothesis_testing_files/libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="hypothesis_testing_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="hypothesis_testing_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="hypothesis_testing_files/libs/bootstrap/bootstrap-c0367b04c37547644fece4185067e4a7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Hypothesis Testing</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Mr.&nbsp;Abraham </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="hypothesis-testing" class="level1">
+<h1>6. Hypothesis Testing</h1>
+<section id="hypothesis-testing-1" class="level2">
+<h2 class="anchored" data-anchor-id="hypothesis-testing-1">6.1 Hypothesis testing</h2>
+<ul>
+<li>Identify and write hypotheses.</li>
+<li>Define and write null and alternative hypotheses.</li>
+<li>Select the best type of alternative hypotheses for a scenario.</li>
+<li>Interpret test statistics and p-values.</li>
+<li>Determine if a result is statistically significant and/or practically significant.</li>
+<li>Identify type I and type II errors.</li>
+<li>List the steps of a hypothesis test.</li>
+</ul>
+<section id="hypothesis" class="level3">
+<h3 class="anchored" data-anchor-id="hypothesis">Hypothesis</h3>
+<p>A hypothesis is a proposed explanation of a phenomenon, usually as a starting point for further analysis. Ex: If the mean lifetime of a battery is less than what the product manual says, a hypothesis would be that the mean is less than the stated value.</p>
+<p>Subsequent analysis may result in rejecting the hypothesis. Ex: Observing that the battery lives of a sample is much less than stated gives evidence to support the hypothesis.</p>
+</section>
+<section id="forming-a-hypothesis-involving-one-population" class="level3">
+<h3 class="anchored" data-anchor-id="forming-a-hypothesis-involving-one-population">Forming a hypothesis involving one population</h3>
+<p>Sometimes, a hypothesis involves a statement about a single population. Ex: A statement about the mean battery life only applies to the population of all batteries of the same type from a specific manufacturer.</p>
+<p>A hypothesis can involve data with more than one variable. A common hypothesis involves determining whether variables in a dataset are correlated.</p>
+<p><em>6.1.2: A common hypothesis relates to correlation of variables in a sample.</em></p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/6.1.2.gif" controls=""> </p>
+<p>Captions: 1. If a population is known, a line can be drawn showing the correlation between height and weight. 2. If a sample is taken, a line can also be drawn. A hypothesis may ask if the correlation in the sample is strong enough to infer the correlation exists in the population.</p>
+</section>
+<section id="forming-a-hypothesis-involving-two-populations" class="level3">
+<h3 class="anchored" data-anchor-id="forming-a-hypothesis-involving-two-populations">Forming a hypothesis involving two populations</h3>
+<p>Investigating a hypothesis involving two populations is also common. Ex: Given samples from two populations, a hypothesis might be that the two populations have the same mean. In other words, the difference between the two sample means is statistically insignificant. The challenge is that the only available data is from the samples, not the populations. Ex: Salaries for all male and female employees in any given city are generally unknown, but salaries for samples of 50 males and 50 females in that city can be known.</p>
+<p><em>6.1.4: A common hypothesis asks whether two populations have the same mean vs.&nbsp;different means.</em></p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/6.1.4.gif" controls=""> </p>
+<p>Captions:<br>
+1. Hair color does not impact salary. The mean salaries for the population of blondes and brunettes are the same. The small difference in sample means is just due to chance. 2. In these populations, smokers and non-smokers have different mean salaries. The larger difference in sample means is statistically significant.</p>
+</section>
+<section id="null-and-alternative-hypotheses" class="level3">
+<h3 class="anchored" data-anchor-id="null-and-alternative-hypotheses">Null and alternative hypotheses</h3>
+<p>A <strong><em>hypothesis</em></strong> is a claim about the parameters of one or more populations. <strong><em>Hypothesis testing</em></strong> is the formal process by which a hypothesis is rejected or not rejected. Hypothesis testing compares two competing hypotheses about a population, the null hypothesis and the alternative hypothesis.</p>
+<p>A <strong><em>null hypothesis</em></strong>, denoted by <span class="math inline">\(H_0\)</span> , is a statement assumed to be true unless sufficient data indicates otherwise. A null hypothesis is a statement of equality between the true value of the population parameter and a commonly accepted value, referred to as the hypothesized value, or a statement of no difference between the parameters of two populations. Ex: The statements “The mean salary of an individual living in San Francisco is equal to <span class="math inline">\(\$75,000\)</span>” and “The mean salary of an individual living in San Francisco is the same as the mean salary of an individual living in Austin” are examples of null hypotheses.</p>
+<p>An <strong><em>alternative hypothesis</em></strong>, denoted by <span class="math inline">\(H_a\)</span> , is a statement that contradicts <span class="math inline">\(H_0\)</span> . An alternative hypothesis asserts that the true value of the population parameter is not the same as the hypothesized value or that the parameters for two populations are different. Ex: “The mean salary of an individual living in San Francisco is not equal to <span class="math inline">\(\$75,000\)</span>” and “The mean salary of an individual living in San Francisco is different from the mean salary of an individual living in Austin” are examples of alternative hypotheses.</p>
+<p><em>6.1.6: Null and alternative hypotheses.</em></p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/6.1.6.gif" controls=""> </p>
+<p>Captions: 1. A hypothesis is a claim about a population parameter.<br>
+2. A statement about the population parameter or population parameters involving equality is a null hypothesis.<br>
+3. A statement about the population parameter or population parameters involving an inequality is an alternative hypothesis.</p>
+<p><em>Example 6.1.1: Do non-smokers earn more than smokers?</em></p>
+<p>Among Northern California’s unemployed, 60 non-smokers and 29 smokers were surveyed after getting jobs, and those two samples’ mean salaries were <span class="math inline">\(\$32,000\)</span> and <span class="math inline">\(\$24,000\)</span> , respectively. Researchers posed two hypotheses:</p>
+<ul>
+<li><dl>
+<dt>(Null hypothesis) <span class="math inline">\(H_0\)</span></dt>
+<dd>
+Non-smokers do NOT earn more than smokers.
+</dd>
+</dl></li>
+<li><dl>
+<dt>(Alternative hypothesis) <span class="math inline">\(H_a\)</span></dt>
+<dd>
+Non-smokers earn more than smokers.
+</dd>
+</dl></li>
+</ul>
+<p>Through analysis of data, the researchers rejected the null hypothesis (do not earn more); the large salary difference among the two samples is unlikely explainable by chance. The researchers favored the alternative hypothesis, that non-smokers do earn more. Note that the study makes no claim that smoking causes lower salary; for example, smokers might have another trait that causes both lower salary and smoking.</p>
+</section>
+<section id="types-of-alternative-hypothesis" class="level3">
+<h3 class="anchored" data-anchor-id="types-of-alternative-hypothesis">Types of alternative hypothesis</h3>
+<p>An alternative hypothesis may be left-tailed, right-tailed, or two-tailed depending on the nature of the difference from the null hypothesis.</p>
+<ul>
+<li>A left-tailed alternative hypothesis asserts that the value of a parameter is less than the value asserted in the null hypothesis.</li>
+<li>A right-tailed alternative hypothesis asserts that the value of a parameter is greater than the value asserted in the null hypothesis.</li>
+<li>A two-tailed alternative hypothesis asserts that the value of a parameter is not equal to, that is, either less than or greater than the value asserted in the null hypothesis.</li>
+</ul>
+</section>
+<section id="comparative-experiments" class="level3">
+<h3 class="anchored" data-anchor-id="comparative-experiments">Comparative experiments</h3>
+<p>Sometimes a person creates hypotheses and analyzes existing data, such as examining U.S. Census Bureau data to compare employment statistics between 1970 and 2010. However, other times a person poses a hypothesis and then conducts a study to generate data to be analyzed. In one kind of study, the sample is divided into a <strong><em>treatment group</em></strong> who was given a treatment being studied (like doing daily exercise), and a <strong><em>control group</em></strong> who was not (like not doing daily exercise), with individuals randomly assigned to a group.</p>
+</section>
+<section id="test-statistic" class="level3">
+<h3 class="anchored" data-anchor-id="test-statistic">Test statistic</h3>
+<p>Sufficient data from samples of populations are needed to test a hypothesis. Factors such as the sampling method, the sample size, and the magnitude of the difference in the average salary affect whether the hypothesis should be rejected. A <strong><em>sample statistic</em></strong> is a statistic calculated from the sample, rather than the overall population. A <strong><em>population parameter</em></strong> is a statistic which is true for the entire population. Population parameters are generally unknown. Ex: Is the average IQ really 100? If IQs are obtained from a sample of the population and the sample mean, which is a sample statistic, is calculated, the sample mean may be different from 100. However, the difference may be due to chance, and the population mean may actually be 100.</p>
+<p>The central goal of hypothesis testing is to determine whether the null hypothesis can be rejected in favor of the alternative hypothesis. Using a sample, evidence is obtained to determine whether the difference between a hypothesized value of a parameter and the sample statistic is due to chance.</p>
+<p>A <strong><em>test statistic</em></strong> is a value calculated from sample data during hypothesis testing that measures the degree of agreement between the sample statistic and the parameter asserted in the null hypothesis. Mathematically, the test statistic is the difference between the estimate and the value asserted in the null hypothesis divided by the standard error.</p>
+<p><em>6.1.10: People commonly ask whether the value for the population mean is as hypothesized.</em></p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/6.1.10.gif" controls=""> </p>
+<p>Captions: 1. The parameters of a population, such as mean and standard deviation, are usually unknown. In this case, the population mean is hypothesized to be <span class="math inline">\(3\)</span> . 2. A random sample is drawn from the population. 3. A sample statistic is a value calculated from the sample. In this case, the sample has a mean of <span class="math inline">\(3.4\)</span> and a standard deviation of <span class="math inline">\(1.14\)</span> . 4. The standard error is the sample standard deviation <span class="math inline">\(s\)</span> divided by the square root of the sample size <span class="math inline">\(n\)</span> , which yields <span class="math inline">\(0.51\)</span> . 5. A test statistic is used to determine if the difference between the sample statistic and the hypothesized parameter is due to chance.</p>
+<p>Some common hypothesis tests and associated test statistics are shown in the following table. The specific methods and formulas used to find these test statistics are introduced elsewhere.</p>
+<p><em>Table 6.1.1: Hypothesis tests and associated test statistics.</em></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Application</th>
+<th>Hypothesis test</th>
+<th>Test statistic</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>One or two population <span class="math inline">\(\mu\)</span>,<span class="math inline">\(p\)</span>, known <span class="math inline">\(\sigma\)</span></td>
+<td><span class="math inline">\(z\)</span>-test</td>
+<td><span class="math inline">\(z\)</span>-statistic</td>
+</tr>
+<tr class="even">
+<td>One or two population <span class="math inline">\(\mu\)</span>, unknown <span class="math inline">\(\sigma\)</span></td>
+<td><span class="math inline">\(t\)</span>-test</td>
+<td><span class="math inline">\(t\)</span>-statistic</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="p-value-and-statistical-significance" class="level3">
+<h3 class="anchored" data-anchor-id="p-value-and-statistical-significance"><span class="math inline">\(p\)</span>-value and statistical significance</h3>
+<p>Intuitively, inferences cannot be made from a trivially small difference between populations or a difference between populations in which the sample sizes are very small, as differences can be observed by chance in such cases. The concept of statistical significance formalizes the intuition of making inferences about populations from observed sample statistics. A <strong><em>statistically significant</em></strong> result differs enough from a null hypothesis that a conclusion can be inferred about the population.</p>
+<p>In hypothesis testing, the probability of obtaining a result that is as extreme or more extreme than the data if the null hypothesis were true is known as the <span class="math inline">\(p\)</span> -value. The <span class="math inline">\(p\)</span> -value of a result is determined from the test statistic. If the <span class="math inline">\(p\)</span> -value is less than a specified significance level, denoted by <span class="math inline">\(\alpha\)</span> , then two possibilities exist.</p>
+<ul>
+<li>The null hypothesis is true and the observed data is relatively unusual with a sample statistic that is extreme simply due to chance.</li>
+<li>The null hypothesis is false and the alternative hypothesis provides a more reasonable explanation for the population parameter.</li>
+</ul>
+<p>In most fields, <span class="math inline">\(\alpha = 0.05\)</span> is used most often as the significance level for hypothesis testing. Thus, the probability that a result with an extreme deviation from the null hypothesis is due to chance must be <span class="math inline">\(5\%\)</span> or less for the result to be considered statistically significant.</p>
+<p>A <strong><em>practically significant</em></strong> result implies that the magnitude of the difference between the hypothesized value of a parameter and the sample statistic is large enough to be meaningful in real life. Statistical significance does not necessarily imply practical significance of a result. Ex: A statistically significant difference in the number of employees at a company arriving to work at 8:00 am and the number of employees arriving at 7:59 am is likely of little practical significance.</p>
+</section>
+<section id="type-i-and-type-ii-errors" class="level3">
+<h3 class="anchored" data-anchor-id="type-i-and-type-ii-errors">Type I and type II errors</h3>
+<p>In hypothesis testing, a researcher can decide to reject the null hypothesis or fail to reject the null hypothesis. In reality, the null hypothesis is either true or false. Thus, the researcher can make an error by rejecting a true null hypothesis or failing to reject a false null hypothesis. A <strong><em>type I error</em></strong> is the incorrect rejection of a true null hypothesis, and a <strong><em>type II error</em></strong> is the failure to reject a false null hypothesis. In other words, a type I error is a false positive and a type II error is a false negative.</p>
+<p>The significance level of a hypothesis test, denoted <span class="math inline">\(\alpha\)</span> , is the probability of making a type I error. The probability of making a type II error is denoted <span class="math inline">\(\beta\)</span> , and the probability <span class="math inline">\(1-\beta\)</span> of avoiding type II errors is the power of the hypothesis test.</p>
+<p>The following animation illustrates the relationship between the truth of <span class="math inline">\(H_0\)</span> , the decision made, and type I and type II errors.</p>
+<p><em>6.1.12: Type I and type II errors.</em></p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/6.1.12.gif" controls=""> </p>
+<p>Captions:<br>
+1. In hypothesis testing, the null hypothesis <span class="math inline">\(H_0\)</span> is either true or false. 2. Two decisions are possible. Either <span class="math inline">\(H_0\)</span> is rejected, or <span class="math inline">\(H_0\)</span> fails to be rejected. 3. Rejecting <span class="math inline">\(H_0\)</span> is the correct decision if <span class="math inline">\(H_0\)</span> is false. 4. However, rejecting <span class="math inline">\(H_0\)</span> if <span class="math inline">\(H_0\)</span> is true is known as a type I error. The probability of a type I error is the significance level of the test, denoted <span class="math inline">\(\alpha\)</span> . 5. Failing to reject <span class="math inline">\(H_0\)</span> is the correct decision if <span class="math inline">\(H_0\)</span> is true. 6. However, failing to reject <span class="math inline">\(H_0\)</span> if <span class="math inline">\(H_0\)</span> is false is known as a type II error. The probability of a type II error is denoted <span class="math inline">\(\beta\)</span> . 7. The power of a statistical test is <span class="math inline">\(1-\beta\)</span> . Ideally, a statistical test should have a low significance level <span class="math inline">\((\alpha)\)</span> and high power <span class="math inline">\((1-\beta)\)</span> .</p>
+</section>
+<section id="the-hypothesis-testing-procedure" class="level3">
+<h3 class="anchored" data-anchor-id="the-hypothesis-testing-procedure">The hypothesis testing procedure</h3>
+<p>Hypotheses can be phrased and tested for many different scenarios and types of data, the details of which will be covered in other sections. However, hypothesis testing always follows the same general procedure, which is displayed below.</p>
+<p><em>Procedure 6.1.1: Hypothesis testing.</em></p>
+<p>Given a random sample of data from a population.</p>
+<ol type="1">
+<li>Set the null hypothesis <span class="math inline">\(H_0\)</span> and the alternative hypothesis <span class="math inline">\(H_a\)</span> in the appropriate symbols.</li>
+<li>Specify the significance level using the symbol <span class="math inline">\(\alpha\)</span> .</li>
+<li>Calculate sample statistics and the test statistic.</li>
+<li>Calculate the corresponding <span class="math inline">\(p\)</span>-value.</li>
+<li>Decide whether to reject <span class="math inline">\(H_0\)</span> or fail to reject <span class="math inline">\(H_0\)</span> by comparing the <span class="math inline">\(p\)</span>-value to the significance level <span class="math inline">\(\alpha\)</span>.
+<ul>
+<li>If <span class="math inline">\(p\)</span>-value is less than the significance level <span class="math inline">\(\alpha\)</span>, then sufficient evidence exists to reject the null hypothesis <span class="math inline">\(H_0\)</span> in favor of the alternative hypothesis <span class="math inline">\(H_a\)</span>.</li>
+<li>If <span class="math inline">\(p\)</span>-value is greater than or equal to the significance level <span class="math inline">\(\alpha\)</span>, then insufficient evidence exists to reject the null hypothesis <span class="math inline">\(H_0\)</span>.</li>
+</ul></li>
+</ol>
+<p>After deciding whether to reject <span class="math inline">\(H_0\)</span> or fail to reject <span class="math inline">\(H_0\)</span>, the conclusion should be interpreted in the context of the original data.</p>
+</section>
+</section>
+<section id="hypothesis-tests-for-a-population-mean" class="level2">
+<h2 class="anchored" data-anchor-id="hypothesis-tests-for-a-population-mean">6.2 Hypothesis tests for a population mean</h2>
+<ul>
+<li>List the conditions and steps for a <span class="math inline">\(z\)</span>-test for a population mean.</li>
+<li>Apply a <span class="math inline">\(z\)</span>-test for a population mean.</li>
+<li>List the conditions and steps for a <span class="math inline">\(t\)</span>-test for a population mean.</li>
+<li>Apply a <span class="math inline">\(t\)</span>-test for a population mean.</li>
+</ul>
+<section id="z-test-for-population-means" class="level3">
+<h3 class="anchored" data-anchor-id="z-test-for-population-means"><span class="math inline">\(z\)</span>-test for population means</h3>
+<p>A <span class="math inline">\(z\)</span> -test is a hypothesis test in which the <span class="math inline">\(z\)</span> -statistic follows a normal distribution. The <span class="math inline">\(z\)</span> -test for a population mean can be used to determine whether the population mean is the same as the hypothesized mean <span class="math inline">\(\mu_0\)</span> , assuming that the population standard deviation <span class="math inline">\(\sigma\)</span> is known. When performing a hypothesis test involving the mean of a single population with a known population standard deviation, the distribution of the <span class="math inline">\(z\)</span> -test statistic is assumed to be normal with a mean of <span class="math inline">\(\mu_0\)</span> and a standard deviation of <span class="math inline">\(\frac{\sigma}{\sqrt{n}}\)</span> . In practice, the population standard deviation is rarely known, so a more useful test involves the <span class="math inline">\(t\)</span> -distribution because the standard deviation of a sample can always be computed.</p>
+<p><em>Conditions for performing the <span class="math inline">\(z\)</span> -test for a population mean</em></p>
+<ul>
+<li>Randomness. Data should be collected randomly by means of simple random sampling, stratified random sampling, or cluster sampling. For the examples presented in this material, this condition can be assumed.</li>
+<li>Independence. Each observation should not affect other observations. In most surveys, sampling is performed without replacement, which means that a person or an observation is not used twice. For sampling without replacement, the sample size should be less than <span class="math inline">\(10\%\)</span> of the population size to guarantee independence.</li>
+<li>Normality. The sampling distribution should be approximately normal, which is guaranteed either when the sample size is at least <span class="math inline">\(30\)</span> by the CLT or when the data’s parent distribution is also normal.</li>
+</ul>
+<p><em>Procedure 6.2.1: Hypothesis testing for population means.</em></p>
+<p>Given a randomly selected sample taken from a population with a known population standard deviation <span class="math inline">\(\sigma\)</span> . Apply the following steps:</p>
+<ol type="1">
+<li><p>Set the null and alternative hypotheses <span class="math display">\[H_0:\mu=\mu_0\]</span><span class="math display">\[H_a:\mu\gt\mu_0(right-tailed)\]</span><span class="math display">\[H_a:\mu\lt\mu_0(left-tailed)\]</span><span class="math display">\[H_a:\mu\ne\mu_0(two-tailed)\]</span> where <span class="math inline">\(\mu\)</span> is the population mean and <span class="math inline">\(mu_0\)</span> is the hypothesized population mean. Only the alternative hypothesis appropriate for the test should be used.</p></li>
+<li><p>Specify the significance level <span class="math inline">\(\alpha\)</span> , typically <span class="math inline">\(\alpha=0.05\)</span> .</p></li>
+<li><p>For a test of a population mean <span class="math inline">\(\mu\)</span> , the relevant sample statistic is the sample mean <span class="math inline">\(\bar{x}\)</span> and the relevant test-statistic is <span class="math inline">\(z\)</span> . Use statistical software to calculate <span class="math display">\[z=\frac{\bar{x}-\mu_0}{\frac{\sigma}{\sqrt{n}}}\]</span></p></li>
+<li><p>Use statistical software or a <span class="math inline">\(z\)</span>-distribution table to find the <span class="math inline">\(p\)</span>-value that corresponds to <span class="math inline">\(z\)</span> by taking the area in the normal distribution in the direction of the alternative hypothesis. For right-tailed, take the area to the right of <span class="math inline">\(z\)</span> . For left-tailed, take the area to the left of <span class="math inline">\(z\)</span> . For two-tailed, take area to the left of <span class="math inline">\(-|z|\)</span> and area to the right of <span class="math inline">\(|z|\)</span> .</p></li>
+<li><p>Make a decision given a previously selected significance level <span class="math inline">\(\alpha\)</span> . If the <span class="math inline">\(p\)</span>-value is less than the significance level, sufficient evidence exists to reject the null hypothesis <span class="math inline">\(H_0\)</span> in favor of the alternative hypothesis <span class="math inline">\(H_a\)</span> . If the <span class="math inline">\(p\)</span>-value is greater than or equal to the significance level, insufficient evidence exists to reject the null hypothesis <span class="math inline">\(H_0\)</span> .</p></li>
+</ol>
+<p>The null hypothesis can be described as saying that the population mean is not different from the hypothesized mean. However, the null hypothesis is usually defined as a claim of equality. In addition, for a right or left-tailed test, rejecting a null hypothesis implies that a population mean less or greater than the hypothesized mean, respectively, will also be rejected. Thus, the convention is to always express the null hypothesis as a statement of equality.</p>
+<p><em>Example 6.2.1: Mean battery life.</em></p>
+<p>A popular electronics website wants to determine whether a smartphone has an <span class="math inline">\(7.8\)</span> hour battery life as claimed by the manufacturer in response to user complaints of poor battery life. The website sampled <span class="math inline">\(10\)</span> smartphones with a mean battery life of <span class="math inline">\(7.6\)</span> hours. The population standard deviation of the battery life is <span class="math inline">\(\sigma=0.57\)</span> hours. Does sufficient evidence exist that the battery life of the smartphone is actually lower than the manufacturer’s claim at a significance level of <span class="math inline">\(\alpha=0.05\)</span> ?</p>
+<p><em>Solution</em></p>
+<ol type="1">
+<li>The null hypothesis is that the smartphone’s mean battery life is <span class="math inline">\(\mu_0=7.8\)</span> hours. Because customers believe that the mean battery life is lower, the hypothesis test is left-tailed. That is, the alternative hypothesis is that the smartphone’s mean battery life is less than <span class="math inline">\(7.8\)</span> hours. Mathematically, <span class="math display">\[H_0:\mu=7.8\]</span> <span class="math display">\[H_a:\mu\lt7.8\]</span></li>
+<li><span class="math inline">\(\alpha=0.05\)</span></li>
+<li>Since <span class="math inline">\(\bar{x}=7.6\)</span> , <span class="math inline">\(n=10\)</span> , and <span class="math inline">\(\sigma=0.57\)</span> , the test statistic is <span class="math display">\[z=\frac{7.6-7.8}{\frac{0.57}{\sqrt{10}}} \approx - 1.110\]</span></li>
+<li>Using software or a <span class="math inline">\(z\)</span>-distribution table, the <span class="math inline">\(p\)</span>-value is <span class="math display">\[p-value=P(z\le-1.110)\approx0.133\]</span></li>
+</ol>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/6.2.1.png" controls=""> </p>
+<ol start="5" type="1">
+<li>Since the <span class="math inline">\(p\)</span>-value is greater than the significance level <span class="math inline">\(\alpha=0.05\)</span>, insufficient evidence exists to support the hypothesis that the mean battery life of the smartphone is less than the manufacturer’s claim.</li>
+</ol>
+<p>Although the mean battery life of the <span class="math inline">\(10\)</span> sampled smartphones is less than the manufacturer’s claim, the lower mean could have occurred due to chance. The probability that the sample mean battery life is at most <span class="math inline">\(7.6\)</span> hours is <span class="math inline">\(13.3\%\)</span> , which is much higher than the probability of incorrectly rejecting the manufacturer’s claim that the smartphone has a mean battery life of <span class="math inline">\(7.8\)</span> hours. Thus, the lower sample mean can be attributed to chance.</p>
+<p><em>TI-84CE</em></p>
+<p><video width="600" height="400" src="https://ap-statistics.web.app/img/stats/6.2.1.mp4" controls=""> </video></p>
+<p><em>Example 6.2.2: Carry-on baggage volume.</em></p>
+<p>An airline conducts a study on the volume of carry-on luggage. Many flight attendants believe that the average volume of carry-on luggage passengers bring onto airplanes exceeds the allowed <span class="math inline">\(1.6
+ft^3\)</span>. The airline samples <span class="math inline">\(73\)</span> pieces of carry-on luggage with an average volume of <span class="math inline">\(1.7
+ft^3\)</span>. Does sufficient evidence exist that passengers routinely bring luggage that exceeds the maximum allowed volume given a population standard deviation of <span class="math inline">\(\sigma=0.29
+ft^3\)</span> at a significance level of <span class="math inline">\(\alpha=0.10\)</span> ?</p>
+<ol type="1">
+<li>The null hypothesis is that the mean carry-on luggage volume is at most <span class="math inline">\(1.6
+ft^3\)</span>. Since flight attendants believe that the luggage passengers carry routinely exceeds the limit, the hypothesis test is right-tailed. That is, the alternative hypothesis is that the mean volume of carry-on luggage is greater than <span class="math inline">\(1.6
+ft^3\)</span>. Mathematically, <span class="math display">\[H_0:\mu=1.6\]</span><span class="math display">\[H_a:\mu\gt1.6\]</span></li>
+<li><span class="math inline">\(\alpha=0.10\)</span></li>
+<li>Since <span class="math inline">\(\bar{x}=1.7\)</span> , <span class="math inline">\(n=73\)</span> , and <span class="math inline">\(\sigma=0.29\)</span> , the test statistic is <span class="math display">\[z=\frac{1.7-1.6}{\frac{0.29}{\sqrt{73}}}\approx2.946\]</span></li>
+<li>Using software or a <span class="math inline">\(z\)</span>-distribution table, the <span class="math inline">\(p\)</span>-value is <span class="math inline">\(P(z\ge2.946)\approx0.002\)</span>.</li>
+</ol>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/6.2.2.png" controls=""> </p>
+<ol start="5" type="1">
+<li>Since the <span class="math inline">\(p\)</span>-value is less than the significance level <span class="math inline">\(\alpha=0.1\)</span>, sufficient evidence exists to support the hypothesis that passengers routinely exceed the allowed volume limit for carry-on luggage.</li>
+</ol>
+<p>The maximum carry-on allowance of <span class="math inline">\(1.6
+ft^3\)</span> suggests that the null hypothesis should be <span class="math inline">\(\mu\le1.6\)</span> . However, the null hypothesis is defined as a claim of equality. In addition, rejecting a null hypothesis of <span class="math inline">\(\mu=1.6\)</span> implies that a population mean of less than <span class="math inline">\(1.6\)</span> will also be rejected. Thus, the convention is to always express the null hypothesis as a statement of equality and so <span class="math inline">\(H_0:\mu=1.6\)</span> .</p>
+<p>Although the mean volume of the <span class="math inline">\(73\)</span> sampled carry-on luggage is greater than the manufacturer’s claim, the greater mean volume could have occurred due to chance. However, the probability that the sample mean luggage volume is at least <span class="math inline">\(1.6
+ft^3\)</span> is <span class="math inline">\(0.2\%\)</span> , which is much lower than the probability of incorrectly rejecting the claim that the mean is less than <span class="math inline">\(1.6
+ft^3\)</span>. Thus, the greater sample mean cannot be attributed to chance.</p>
+<p><em>TI-84CE</em></p>
+<p><video width="600" height="400" src="https://ap-statistics.web.app/img/stats/6.2.2.mp4" controls=""> </video></p>
+</section>
+<section id="students-t-test" class="level3">
+<h3 class="anchored" data-anchor-id="students-t-test">Student’s <span class="math inline">\(t\)</span>-test</h3>
+<p>Because the population standard deviation is rarely known, the <span class="math inline">\(t\)</span> -test is commonly used to compare the observed sample mean to a hypothesized mean. The following conditions must be met to use the <span class="math inline">\(t\)</span> -distribution.</p>
+<p><em>Conditions for the <span class="math inline">\(t\)</span>-distribution</em></p>
+<ul>
+<li>Randomness. Data should be collected randomly by means of simple random sampling, stratified random sampling, or cluster sampling. For the examples presented in this material, this condition can be assumed.</li>
+<li>Independence. Each observation should not affect other observations.</li>
+<li>Normality. The <span class="math inline">\(t\)</span>-distribution can be used if the underlying population distribution is approximately normal. In most cases, the normality of the underlying distribution cannot be determined. Thus, the sample size determines whether the <span class="math inline">\(t\)</span>-distribution can be used.
+<ul>
+<li>If the sample size is less than <span class="math inline">\(15\)</span>, the <span class="math inline">\(t\)</span>-distribution can be used if the data is not skewed or no outliers are present.</li>
+<li>If the sample size is between <span class="math inline">\(15\)</span> and <span class="math inline">\(30\)</span>, the <span class="math inline">\(t\)</span>-distribution can be used even if the data is mildly skewed and no outliers are present.</li>
+<li>The <span class="math inline">\(t\)</span>-distribution can always be used when the sample size is sufficiently large and no outliers are present.</li>
+</ul></li>
+</ul>
+<p><em>Procedure 6.2.2: The <span class="math inline">\(t\)</span>-test</em></p>
+<ol type="1">
+<li>Set the null and alternative hypotheses <span class="math display">\[H_0:\mu=\mu_0\]</span> <span class="math display">\[H_a:\mu\gt\mu_0\]</span> <span class="math display">\[H_a:\mu\lt\mu_0\]</span> <span class="math display">\[H_a:\mu\ne\mu_0\]</span></li>
+</ol>
+<p>where <span class="math inline">\(\mu\)</span> is the population mean and <span class="math inline">\(\mu_0\)</span> is the hypothesized population mean. Only the alternative hypothesis appropriate for the test should be used.</p>
+<ol start="2" type="1">
+<li>Specify the significance level <span class="math inline">\(\alpha\)</span>, typically <span class="math inline">\(\alpha=0.05\)</span>.</li>
+<li>For the <span class="math inline">\(t\)</span>-test of a population mean <span class="math inline">\(\mu\)</span>, the relevant sample statistic is the sample mean <span class="math inline">\(\bar{x}\)</span> and the relevant test statistic is <span class="math inline">\(t\)</span>. Use statistical software to calculate <span class="math inline">\(t\)</span> and the degrees of freedom <span class="math inline">\(df\)</span>: <span class="math display">\[t=\frac{\bar{x}-\mu_0}{\frac{s}{\sqrt{n}}}\]</span> and <span class="math display">\[df=n-1\]</span></li>
+<li>Use statistical software or a <span class="math inline">\(t\)</span>-distribution table to find the <span class="math inline">\(p\)</span>-value that corresponds to <span class="math inline">\(t\)</span> by taking the area in the student’s t-distribution in the direction of the alternative hypothesis. For right-tailed, take the area to the right of <span class="math inline">\(t\)</span>. For left-tailed, take the area to the left of <span class="math inline">\(t\)</span>. For two-tailed, take area to the left of <span class="math inline">\(-|t|\)</span> and area to the right of <span class="math inline">\(|t|\)</span>.</li>
+<li>Make a decision given a previously selected significance level <span class="math inline">\(\alpha\)</span>, typically <span class="math inline">\(0.05\)</span>.
+<ul>
+<li>If the <span class="math inline">\(p\)</span>-value is less than the significance level, sufficient evidence exists to reject the null hypothesis <span class="math inline">\(H_0\)</span> in favor of the alternative hypothesis <span class="math inline">\(H_a\)</span>.</li>
+<li>If the <span class="math inline">\(p\)</span>-value is greater than or equal to the significance level, insufficient evidence exists to reject the null hypothesis <span class="math inline">\(H_0\)</span>.</li>
+</ul></li>
+</ol>
+<p><em>Example 6.2.3: Circumference of basketballs.</em></p>
+<p>The mean circumference of basketballs produced in a manufacturing facility is supposed to be <span class="math inline">\(29\)</span> inches. A random sample of <span class="math inline">\(25\)</span> basketballs has a mean of <span class="math inline">\(29.1\)</span> inches with a sample standard deviation of <span class="math inline">\(0.217\)</span> inches. The quality control supervisor claims that the mean circumference of the basketballs produced in the facility is different from <span class="math inline">\(29\)</span> inches. At the <span class="math inline">\(\alpha=0.01\)</span> significance level, does sufficient evidence exist to support the supervisor’s claim?</p>
+<p><em>Solution</em></p>
+<ol type="1">
+<li>The null hypothesis is that the mean circumference of basketballs produced in the facility is <span class="math inline">\(29\)</span> inches. Since the supervisor’s claim is that the mean circumference is different from <span class="math inline">\(29\)</span> inches, the hypothesis test is two-tailed. Mathematically, <span class="math display">\[H_0:\mu=29\]</span> <span class="math display">\[H_a:\mu\ne29\]</span></li>
+<li><span class="math inline">\(\alpha=0.01\)</span></li>
+<li>Since <span class="math inline">\(\bar{x}=29.1\)</span>, <span class="math inline">\(n=25\)</span>, and <span class="math inline">\(s=0.217\)</span>, the test statistic is <span class="math display">\[t=\frac{\bar{x}-\mu_0}{\frac{s}{\sqrt{n}}}=\frac{29.1-29}{\frac{0.217}{\sqrt{25}}}\approx2.304\]</span> and <span class="math display">\[df=25-1=24\]</span>.</li>
+<li>Using software or a <span class="math inline">\(t\)</span>-distribution table, the two-tailed <span class="math inline">\(p\)</span>-value is <span class="math inline">\(P(t\le-2.30 \text{ or } t\ge2.30)=0.030\)</span>.</li>
+</ol>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/6.2.3.png" controls=""> </p>
+<ol start="5" type="1">
+<li>Since the <span class="math inline">\(p\)</span>-value is greater than the significance level <span class="math inline">\((0.030\gt0.01)\)</span>, insufficient evidence exists to support the claim that the mean circumference of basketballs produced in the facility is different than <span class="math inline">\(29\)</span> inches.</li>
+</ol>
+<p>Because the population standard deviation <span class="math inline">\(\sigma\)</span> is unknown, the <span class="math inline">\(t\)</span>-test was used instead of the <span class="math inline">\(z\)</span>-test.</p>
+<p><em>TI-84CE</em></p>
+<p><video width="600" height="400" src="https://ap-statistics.web.app/img/stats/6.2.3.mp4" controls=""> </video></p>
+<p><em>6.2.4: Exam scores.</em></p>
+<p>Using the ExamScores dataset, a teacher found that the mean score for Exam2 is <span class="math inline">\(79.4\)</span>, which is below the expected mean of <span class="math inline">\(83\)</span>. At the <span class="math inline">\(\alpha=0.05\)</span> significance level, does sufficient evidence exist that the mean score of the class is lower than the expected mean? Use the output below.</p>
+<p><img width="200" src="https://ap-statistics.web.app/img/stats/6.2.4.png" controls=""> </p>
+<ol type="1">
+<li>What is the null hypothesis <span class="math inline">\(H_0\)</span>?</li>
+<li>What is the alternative hypothesis <span class="math inline">\(H_a\)</span>?</li>
+<li>What is the <span class="math inline">\(p\)</span>-value?</li>
+<li>What is the conclusion for the <span class="math inline">\(t\)</span>-test?</li>
+</ol>
+<p><em>Solution</em></p>
+<ol type="1">
+<li><span class="math inline">\(\mu=83\)</span></li>
+<li><span class="math inline">\(\mu\lt83\)</span></li>
+<li><span class="math inline">\(0.041\)</span></li>
+<li>Reject <span class="math inline">\(H_0\)</span></li>
+</ol>
+</section>
+</section>
+<section id="hypothesis-test-for-a-population-proportion" class="level2">
+<h2 class="anchored" data-anchor-id="hypothesis-test-for-a-population-proportion">6.3 Hypothesis test for a population proportion</h2>
+<ul>
+<li>List the conditions and steps for a <span class="math inline">\(z\)</span>-test for a population proportion.</li>
+<li>Apply a <span class="math inline">\(z\)</span>-test for a population proportion.</li>
+</ul>
+<section id="z-test-for-a-population-proportion" class="level3">
+<h3 class="anchored" data-anchor-id="z-test-for-a-population-proportion"><span class="math inline">\(z\)</span>-test for a population proportion</h3>
+<p>The <span class="math inline">\(z\)</span>-test can also be used to determine whether the population proportion is the same as the hypothesized proportion <span class="math inline">\(p_0\)</span>. When performing a hypothesis test involving the proportion of a single population, the distribution of the <span class="math inline">\(z\)</span>-test statistic is assumed to be normal with a mean of <span class="math inline">\(p_0\)</span> and a standard deviation of <span class="math inline">\(\sqrt{\frac{p_0(1-p_0)}{n}}\)</span> .</p>
+<p>The conditions that must be satisfied are similar to those of the <span class="math inline">\(z\)</span> -test for a population mean. However, to satisfy the normality condition, both <span class="math inline">\(np_0\)</span> and <span class="math inline">\(n(1-p_0)\)</span> should be at least <span class="math inline">\(5\)</span> , where <span class="math inline">\(n\)</span> is the sample size and <span class="math inline">\(p_0\)</span> is the hypothesized proportion.</p>
+<p>The relationship between confidence intervals and hypothesis testing for proportions is similar to the relationship between confidence intervals and hypothesis testing for means. That is, a confidence interval for a population proportion that contains the hypothesized proportion means that the null hypothesis will not be rejected.</p>
+<p><em>Procedure 6.3.1: Hypothesis testing for population proportion.</em></p>
+<p>Given a randomly selected sample taken from a population</p>
+<ol type="1">
+<li><p>Set the null and alternative hypotheses<span class="math display">\[H_0:p=p_0\]</span><span class="math display">\[H_a:p\gt p_0\text{ (right-tailed)}\]</span><span class="math display">\[H_a:p\lt p_0\text{ (left-tailed)}\]</span><span class="math display">\[H_a:p\ne p_0\text{ (two-tailed)}\]</span>where <span class="math inline">\(p\)</span> is the population proportion and <span class="math inline">\(p_0\)</span> is the hypothesized population proportion. Only the alternative hypothesis appropriate for the test should be used.</p></li>
+<li><p>Specify the significance level <span class="math inline">\(\alpha\)</span>, typically <span class="math inline">\(\alpha=0.05\)</span>.</p></li>
+<li><p>For a test of population proportion <span class="math inline">\(p\)</span>, the relevant sample statistic is the sample proportion <span class="math inline">\(\hat{p}\)</span> and the relevant test statistic is <span class="math inline">\(z\)</span>. Use statistical software to calculate <span class="math display">\[z=\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}\]</span></p></li>
+<li><p>Use statistical software or a <span class="math inline">\(z\)</span>-distribution table to find the <span class="math inline">\(p\)</span>-value that corresponds to <span class="math inline">\(z\)</span> by taking the area in the normal distribution in the direction of the alternative hypothesis. For right-tailed, take the area to the right of <span class="math inline">\(z\)</span>. For left-tailed, take the area to the left of <span class="math inline">\(z\)</span>. For two-tailed, take area to the left of <span class="math inline">\(-|z|\)</span> and area to the right of <span class="math inline">\(|z|\)</span>.</p></li>
+<li><p>Make a decision given a previously selected significance level <span class="math inline">\(\alpha\)</span>.</p>
+<ul>
+<li>If the <span class="math inline">\(p\)</span>-value is less than the significance level, sufficient evidence exists to reject the null hypothesis <span class="math inline">\(H_0\)</span> in favor of the alternative hypothesis <span class="math inline">\(H_a\)</span>.</li>
+<li>If the <span class="math inline">\(p\)</span>-value is greater than or equal to the significance level, insufficient evidence exists to reject the null hypothesis <span class="math inline">\(H_0\)</span>.</li>
+</ul></li>
+</ol>
+<p><em>6.3.1: Hypothesis testing for population proportion.</em></p>
+<p>An elementary teacher wants to know if the school has a higher proportion of left-handed students than the usual proportion of <span class="math inline">\(0.10\)</span> . The teacher surveys a random sample of <span class="math inline">\(50\)</span> students, and finds that <span class="math inline">\(7\)</span> are left-handed.</p>
+<ol type="1">
+<li>What is the sample proportion <span class="math inline">\(\hat{p}\)</span>?</li>
+<li>What is the hypothesized proportion <span class="math inline">\(p_0\)</span>?</li>
+<li>What is the sample size <span class="math inline">\(n\)</span>?</li>
+<li>What is the test statistic <span class="math inline">\(z\)</span>?</li>
+</ol>
+<p><em>Solution</em></p>
+<ol type="1">
+<li><span class="math inline">\(0.14\)</span></li>
+<li><span class="math inline">\(0.10\)</span></li>
+<li><span class="math inline">\(50\)</span></li>
+<li><span class="math inline">\(0.943\)</span></li>
+</ol>
+<p><em>TI-84CE</em></p>
+<video width="600" height="400" src="https://ap-statistics.web.app/img/stats/6.3.0.mp4" controls="">
+</video>
+<p><em>Example 6.3.1: Human sex ratio.</em></p>
+<p>The human sex ratio is the ratio of the number of males to the number of females within a certain age group. According to a 2002 study on sex ratios, the expected ratio of males to females is <span class="math inline">\(106\)</span> to <span class="math inline">\(100\)</span> or <span class="math inline">\(0.515\)</span> . Because of cultural norms and national health policies, some nations may have a much higher or much lower sex ratio. In a random sample of <span class="math inline">\(189\)</span> people, <span class="math inline">\(85\)</span> people are males. Does sufficient evidence exist that the sex ratio of males to females in the population is different than expected at the <span class="math inline">\(\alpha=0.05\)</span> significance level?</p>
+<p><em>Solution</em></p>
+<ol type="1">
+<li>Since the dataset contains binary categorical data, the hypothesis test involves a population proportion rather than a population mean. The null hypothesis is that the sex ratio of males to females is <span class="math inline">\(0.515\)</span>. Since the question asks if the ratio is different, the hypothesis test is two-tailed with an alternative hypothesis that the sex ratio of males to females is not <span class="math inline">\(0.515\)</span>. Mathematically, <span class="math display">\[H_0:p=0.515\]</span><span class="math display">\[H_a:p\ne0.515\]</span></li>
+<li><span class="math inline">\(\alpha=0.05\)</span></li>
+<li>85 of 189 people in the sample are males, so the sample proportion is <span class="math inline">\(\hat{p}=\frac{85}{189}\approx 0.450\)</span>. Since <span class="math inline">\(p_0=0.515\)</span> and <span class="math inline">\(n=189\)</span>, the test statistic is <span class="math display">\[z=\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}=\frac{0.45-0.515}{\sqrt{\frac{0.515(1-0.515)}{189}}}\approx -1.795\]</span></li>
+<li>Using software or a <span class="math inline">\(z\)</span>-distribution table, the <span class="math inline">\(p\)</span>-value is <span class="math inline">\(P(z\le-1.795\text{ or }z\ge1.795)\approx0.073\)</span>.</li>
+</ol>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/6.3.1.png" controls=""> </p>
+<ol start="5" type="1">
+<li>Since the <span class="math inline">\(p\)</span>-value is greater than the significance level <span class="math inline">\(\alpha=0.05\)</span>, insufficient evidence exists to support the claim that the sex ratio in the population from which the same is drawn is different than the expected sex ratio of <span class="math inline">\(0.515\)</span>.</li>
+</ol>
+<p>The <span class="math inline">\(p\)</span>-value of a two-tailed test is twice that of a one-tailed test. Since the question is framed as a difference from the expected proportion, the area above <span class="math inline">\(z=1.79\)</span> is included in the <span class="math inline">\(p\)</span>-value. Note that had the question stated that the sex ratio of males to females is lower instead of different, then the results would have been that sufficient evidence exists to conclude that sex ratio of males to females is lower than the expected ratio of <span class="math inline">\(0.515\)</span> because the <span class="math inline">\(p\)</span>-value for a one-tailed test is <span class="math inline">\(0.037\)</span>.</p>
+<p><em>Example 6.3.2: Customer satisfaction.</em></p>
+<p>After a series of scandals, the percentage of satisfied customers of an airline dipped to an all time low of <span class="math inline">\(47\%\)</span>. As a result, aggressive changes were implemented to improve customer experience and a public relations firm was hired to rehabilitate the airline’s image. To determine if their efforts are successful, a survey was conducted to determine if customers were satisfied or unsatisfied with the airline. <span class="math inline">\(132\)</span> of the <span class="math inline">\(240\)</span> respondents answered that their experience was satisfactory. Does sufficient evidence exist that the company’s efforts were succeeding at the <span class="math inline">\(\alpha=0.05\)</span> significance level? That is, does statistically significant evidence exist that suggests that the proportion of satisfied customers is higher?</p>
+<p><em>Solution</em></p>
+<ol type="1">
+<li>Since the survey asked if the customers were satisfied or unsatisfied, the dataset contains binary categorical data. Thus, the hypothesis test involves a population proportion instead of a population mean. The null hypothesis is that the customer satisfaction proportion holds steady. Since the board of directors want to know if the changes are successful in increasing customer satisfaction, the hypothesis test is right-tailed with an alternative hypothesis that the percentage of satisfied customers is higher. Mathematically, <span class="math display">\[H_0:p=0.47\]</span><span class="math display">\[H_a:p\gt0.47\]</span></li>
+<li><span class="math inline">\(\alpha=0.05\)</span></li>
+<li><span class="math inline">\(132\)</span> of the <span class="math inline">\(240\)</span> respondents viewed their experience as satisfactory, so the sample proportion is <span class="math inline">\(\hat{p}=\frac{132}{240}=0.55\)</span>. Since <span class="math inline">\(p_0=0.47\)</span> and <span class="math inline">\(n=240\)</span>, the test statistic is <span class="math display">\[z=\frac{\hat{p}-p_0}{\sqrt{\frac{p_0(1-p_0)}{n}}}=\frac{0.55-0.47}{\sqrt{\frac{0.47(1-0.47)}{240}}}\approx 2.483\]</span></li>
+<li>Using software or a <span class="math inline">\(z\)</span>-distribution table, the <span class="math inline">\(p\)</span>-value is <span class="math inline">\(P(z\ge2.483)\approx0.007\)</span>.</li>
+</ol>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/6.3.2.png" controls=""> </p>
+<ol start="5" type="1">
+<li>Since the <span class="math inline">\(p\)</span>-value is less than the significance level <span class="math inline">\(\alpha=0.05\)</span>, sufficient evidence exists to support the claim that the customer satisfaction is higher than the all time low of <span class="math inline">\(47\%\)</span>.</li>
+</ol>
+<p><em>6.3.2: Exam scores proportion.</em></p>
+<p>Using the ExamScores dataset, a teacher found that <span class="math inline">\(31\)</span> of <span class="math inline">\(50\)</span> students scored over <span class="math inline">\(80\)</span> in Exam1, which is over the expected proportion of <span class="math inline">\(0.5\)</span>. At the <span class="math inline">\(\alpha=0.01\)</span> significance level, does sufficient evidence exist that the proportion of scores over <span class="math inline">\(80\)</span> is greater than <span class="math inline">\(0.5\)</span>? Use the output below.</p>
+<p><img width="200" src="https://ap-statistics.web.app/img/stats/6.3.3.png" controls=""> </p>
+<ol type="1">
+<li>What is the null hypothesis <span class="math inline">\(H_0\)</span>?</li>
+<li>What is the alternative hypothesis <span class="math inline">\(H_a\)</span>?</li>
+<li>What is the <span class="math inline">\(p\)</span>-value?</li>
+<li>What is the conclusion for the <span class="math inline">\(z\)</span>-test?</li>
+</ol>
+<p><em>Solution</em></p>
+<ol type="1">
+<li><span class="math inline">\(p=0.5\)</span></li>
+<li><span class="math inline">\(p\gt0.5\)</span></li>
+<li><span class="math inline">\(0.0448\)</span></li>
+<li>Fail to reject <span class="math inline">\(H_0\)</span></li>
+</ol>
+</section>
+</section>
+<section id="hypothesis-tests-for-the-difference-between-two-population-means" class="level2">
+<h2 class="anchored" data-anchor-id="hypothesis-tests-for-the-difference-between-two-population-means">6.4 Hypothesis tests for the difference between two population means</h2>
+<ul>
+<li>Determine whether data is paired or unpaired.</li>
+<li>List the conditions and steps for a <span class="math inline">\(t\)</span>-test for paired data.</li>
+<li>Apply a <span class="math inline">\(t\)</span>-test for paired data.</li>
+<li>List the conditions and steps for a <span class="math inline">\(t\)</span>-test for unpaired data.</li>
+<li>Apply a <span class="math inline">\(t\)</span>-test for unpaired data.</li>
+</ul>
+<section id="comparing-two-populations" class="level3">
+<h3 class="anchored" data-anchor-id="comparing-two-populations">Comparing two populations</h3>
+<p>Hypothesis testing involving a one-sample test determines whether an observed value differs statistically from a hypothesized population value. Sometimes, differences between two populations are studied instead. Ex: Pollsters often look at issues in which the opinions of two different groups may vary, such as political preferences of men compared to those of women.</p>
+<p>Hypothesis tests involving two samples follow the same steps. A survey is conducted and statistics are calculated. The appropriate standard error is computed for the model. The test statistic is the difference between the observed and hypothesized value divided by the standard error.</p>
+<p>The <span class="math inline">\(t\)</span>-test discussed analyzes the difference between the sample mean and the hypothesized value of the population mean. A similar method exists to compare the means of two different populations. The <strong><em>two-sample <span class="math inline">\(t\)</span>-test</em></strong> is used to determine if a statistically significant difference exists between two population means. Two types of two-sample <span class="math inline">\(t\)</span>-tests exist: paired and unpaired.</p>
+<p>In a <strong><em>paired <span class="math inline">\(t\)</span>-test</em></strong> or <strong><em>dependent <span class="math inline">\(t\)</span>-test</em></strong>, a sample taken from one population is exposed to two different treatments. The main idea is that measurements are recorded from the same group, usually before and after a treatment is applied or when each of two treatments is applied. Ex: A group of professional cycling athletes is selected for a study on the effects of caffeine dosage on exhaustion times. The populations are the cyclists for each of two dosages. The samples are the measured exhaustion times for each dosage, which implies dependence because the measurements were taken from the same group.</p>
+<p>In an <strong><em>unpaired <span class="math inline">\(t\)</span>-test</em></strong> or <strong><em>independent <span class="math inline">\(t\)</span>-test</em></strong>, a sample taken from one population is not related to a different sample taken from another population. In contrast to the paired <span class="math inline">\(t\)</span>-test, measurements from an unpaired <span class="math inline">\(t\)</span>-test are recorded from different groups when exposed to the same treatment. Ex: The effect of caffeine intake on exhaustion times is studied by measuring the exhaustion times of a randomly selected group of <span class="math inline">\(9\)</span> professional cyclists taking caffeine pills and another group of <span class="math inline">\(9\)</span> cyclists not taking caffeine pills. The two populations are all cyclists taking caffeine pills and those who are not taking the pills. The samples are the measured exhaustion times from the two groups, each with <span class="math inline">\(9\)</span> cyclists, which implies independence because the times are for two different groups of cyclists.</p>
+</section>
+<section id="paired-t-test" class="level3">
+<h3 class="anchored" data-anchor-id="paired-t-test">Paired <span class="math inline">\(t\)</span>-test</h3>
+<p>To obtain probabilities for a paired <span class="math inline">\(t\)</span>-test, the paired <span class="math inline">\(t\)</span>-statistic is needed. This is calculated by taking the differences (denoted <span class="math inline">\(d\)</span>) between the two measurements for each member of the group. The formula involves finding the mean and standard deviation of the differences between corresponding measurements: <span class="math display">\[t=\frac{\bar{d}-\mu_d}{\frac{s_d}{\sqrt{n}}}\]</span> where <span class="math inline">\(s_d\)</span> is the sample standard deviation of the differences, <span class="math inline">\(\bar{d}\)</span> is the mean difference between the samples, and <span class="math inline">\(n\)</span> is the sample size. The most common scenario is that the hypothesized mean difference is <span class="math inline">\(0\)</span>. However, this scenario is not necessary. Ex: To continue the development of a new drug, a measurable improvement in the condition of the subjects must be seen. In this situation, the null hypothesis would be that the mean difference is the minimum amount of improvement set by the manufacturer in order to continue developing the drug. The differences are assumed to come from a normal distribution. Thus, the differences can be seen as a single sample following a <span class="math inline">\(t\)</span>-distribution, which means that a paired <span class="math inline">\(t\)</span>-test is equivalent to a one-sample <span class="math inline">\(t\)</span>-test.</p>
+<p>*Procedure 6.4.1: Paired <span class="math inline">\(t\)</span>-test.</p>
+<p>Given two randomly selected samples of size <span class="math inline">\(n\)</span> taken from each of two populations with unknown population standard deviation <span class="math inline">\(\sigma\)</span>,</p>
+<ol type="1">
+<li>Set the null and alternative hypotheses: <span class="math display">\[H_0:\mu_d=0\]</span><span class="math display">\[H_a:\mu_d\gt0\text{ (right-tailed)}\]</span><span class="math display">\[H_a:\mu_d\lt0\text{ (left-tailed)}\]</span><span class="math display">\[H_a:\mu_d\ne0\text{ (two-tailed)}\]</span> where <span class="math inline">\(\mu_d\)</span> is the mean difference between the populations. Only the alternative hypothesis appropriate for the test should be used.</li>
+<li>Specify the significance level <span class="math inline">\(\alpha\)</span>, typically <span class="math inline">\(\alpha=0.05\)</span>.</li>
+<li>For a paired <span class="math inline">\(t\)</span>-test of the difference of means <span class="math inline">\(\mu_d\)</span>, the relevant sample statistic is mean difference <span class="math inline">\(\bar{d}\)</span> and the relevant test-statistic is <span class="math inline">\(t\)</span>. Use statistical software to calculate <span class="math display">\[t=\frac{\bar{d}-\mu_d}{\frac{s_d}{\sqrt{n}}}\text{ and }df=n-1\]</span></li>
+<li>Use statistical software or a <span class="math inline">\(t\)</span>-distribution table to find the <span class="math inline">\(p\)</span>-value that corresponds to <span class="math inline">\(t\)</span> by taking the area in the student’s t-distribution in the direction of the alternative hypothesis.</li>
+<li>Make a decision given a previously selected significance level <span class="math inline">\(\alpha\)</span>.
+<ul>
+<li>If the <span class="math inline">\(p\)</span>-value is less than the significance level, sufficient evidence exists to reject the null hypothesis, <span class="math inline">\(H_0\)</span>, in favor of the alternative hypothesis, <span class="math inline">\(H_a\)</span>.</li>
+<li>If the <span class="math inline">\(p\)</span>-value is greater than or equal to the significance level, insufficient evidence exists to reject the null hypothesis, <span class="math inline">\(H_0\)</span>.</li>
+</ul></li>
+</ol>
+<p><em>Example 6.4.1: Improvement in exam scores.</em></p>
+<p>In the ExamScores dataset, four exam scores of the same <span class="math inline">\(50\)</span> students are recorded. The teacher believes that students scored worse on Exam2 than Exam1. Does statistically significant evidence exist to support the teacher’s belief at the <span class="math inline">\(\alpha=0.05\)</span> significance level? Use the output below to answer the question. This output is from the t-Test: Paired Two Sample for Means routine in the Excel Data Analysis ToolPak.</p>
+<p><img width="200" src="https://ap-statistics.web.app/img/stats/6.4.1.png" controls=""> </p>
+<p><em>Solution</em></p>
+<p>Since both exams are taken by the same group of students, the hypothesis test is a paired <span class="math inline">\(t\)</span>-test.</p>
+<ol type="1">
+<li>The null hypothesis is that the mean Exam1 scores and the mean Exam2 scores are the same. The alternative hypothesis is that the mean Exam1 scores is greater than the mean Exam2 scores. Mathematically, <span class="math display">\[H_0:\mu_d=0\]</span><span class="math display">\[H_a:\mu_d\gt0\]</span> Since the same students took each exam, a hypothesis test for paired data should be used.</li>
+<li><span class="math inline">\(\alpha=0.05\)</span></li>
+<li>The toolpak output gives <span class="math inline">\(t=1.417925\)</span> and <span class="math inline">\(df=49\)</span>.</li>
+<li>The toolpak output gives the one-tailed <span class="math inline">\(p\)</span>-value as <span class="math inline">\(0.081271\)</span>.</li>
+<li>Since the <span class="math inline">\(p\)</span>-value is greater than the significance level <span class="math inline">\((0.081271\gt0.05)\)</span>, insufficient statistical evidence exists to support the teacher’s claim that students’ scores were worse on Exam2 than on Exam1.</li>
+</ol>
+<p><em>6.4.2: Caffeine and athletic performance.</em></p>
+<p>The Caffeine dataset uses data from “The Effect of Different Dosages of Caffeine on Endurance Performance Time”, International Journal of Sports Medicine and gives the endurance times (in minutes) of <span class="math inline">\(9\)</span> athletes when given a caffeine dose of <span class="math inline">\(5\)</span> milligrams and <span class="math inline">\(13\)</span> milligrams. A researcher wants to know if the dosages of caffeine affect endurance time. The following output is from the t-Test: Paired Two Sample for Means routine in the Excel Data Analysis ToolPak.</p>
+<p><img width="200" src="https://ap-statistics.web.app/img/stats/6.4.2.png" controls=""> </p>
+<ol type="1">
+<li>What is the null hypothesis <span class="math inline">\(H_0\)</span>?</li>
+<li>What is the alternative hypothesis <span class="math inline">\(H_a\)</span>?</li>
+<li>What is the <span class="math inline">\(p\)</span>-value?</li>
+<li>What is the conclusion for the <span class="math inline">\(t\)</span>-test?</li>
+</ol>
+<p><em>Solution</em></p>
+<ol type="1">
+<li><span class="math inline">\(\mu_d=0\)</span></li>
+<li><span class="math inline">\(\mu_d\ne0\)</span></li>
+<li><span class="math inline">\(0.907\)</span></li>
+<li>Fail to reject <span class="math inline">\(H_0\)</span></li>
+</ol>
+</section>
+<section id="unpaired-t-test" class="level3">
+<h3 class="anchored" data-anchor-id="unpaired-t-test">Unpaired <span class="math inline">\(t\)</span>-test</h3>
+<p>The <span class="math inline">\(t\)</span>-test statistic for unpaired data is different from that of paired data. The formula involves subtracting the means of the two samples. Since only sample means are subtracted and not individual observations, sample sizes do not need to be equal. The degrees of freedom is usually calculated using statistics software. Although <span class="math inline">\(\mu_1-\mu_2\)</span> can be any number based on the hypothesized means for the two populations, most of the time, the accepted difference between the means of the populations is <span class="math inline">\(0\)</span>. Finally, the formula for the <span class="math inline">\(t\)</span>-statistic above assumes that the variances are unequal. In most practical instances, the equality of variances should be verified using the Fisher’s <span class="math inline">\(F\)</span>-test before performing the unpaired <span class="math inline">\(t\)</span>-test. However, this is beyond the scope of the material.</p>
+<p><em>Procedure 6.4.2: Unpaired <span class="math inline">\(t\)</span>-test.</em></p>
+<p>Given two randomly selected samples taken from each of two independent populations with unknown population standard deviation <span class="math inline">\(\sigma\)</span>,</p>
+<ol type="1">
+<li>Set the null and alternative hypotheses: <span class="math display">\[H_0:\mu_1=\mu_2\]</span><span class="math display">\[H_a:\mu_1\gt\mu_2\text{ (right-tailed)}\]</span><span class="math display">\[H_a:\mu_1\lt\mu_2\text{ (left-tailed)}\]</span><span class="math display">\[H_a:\mu_1\ne\mu_2\text{ (two-tailed)}\]</span> where <span class="math inline">\(\mu_1\)</span> and <span class="math inline">\(\mu_2\)</span> are the means of the populations. Only the alternative hypothesis appropriate for the test should be used.</li>
+<li>Specify the significance level <span class="math inline">\(\alpha\)</span>, typically <span class="math inline">\(\alpha=0.05\)</span>.</li>
+<li>Use statistical software to calculate the <span class="math display">\[t=\frac{\overline{x_1}-\overline{x_2}}{\sqrt{\frac{s^2_1}{n_1}+\frac{s^2_2}{n_2}}}\text{ and }df\approx n_1+n_2-2\]</span></li>
+<li>Use statistical software or a <span class="math inline">\(t\)</span>-distribution table to find the <span class="math inline">\(p\)</span>-value that corresponds to <span class="math inline">\(t\)</span> by taking the area in the student’s t-distribution in the direction of the alternative hypothesis.</li>
+<li>Make a decision given a previously selected significance level <span class="math inline">\(\alpha\)</span>.
+<ul>
+<li>If the <span class="math inline">\(p\)</span>-value is less than the significance level, sufficient evidence exists to reject the null hypothesis, <span class="math inline">\(H_0\)</span>, in favor of the alternative hypothesis, <span class="math inline">\(H_a\)</span>.</li>
+<li>If the <span class="math inline">\(p\)</span>-value is greater than or equal to the significance level, insufficient evidence exists to reject the null hypothesis, <span class="math inline">\(H_0\)</span>.</li>
+</ul></li>
+</ol>
+<p><em>Example 6.4.2: Packing machines.</em></p>
+<p>To improve production capacity, a manufacturing company buys a new machine that claims to pack <span class="math inline">\(50\)</span> widgets in a carton faster than the old machine can. The Machines dataset records the amount of time (in seconds) each machine can complete the packing task for <span class="math inline">\(10\)</span> batches of <span class="math inline">\(50\)</span> widgets. Does sufficient evidence exist at the <span class="math inline">\(\alpha=0.05\)</span> significance level to support the claim that the new machines can pack widgets faster? Use the output below to answer the question.</p>
+<p><img width="200" src="https://ap-statistics.web.app/img/stats/6.4.3.png" controls=""> </p>
+<p><em>Solution</em></p>
+<p>Since the times are taken from two different machines, the hypothesis test is an unpaired <span class="math inline">\(t\)</span>-test.</p>
+<ol type="1">
+<li>The null hypothesis is that the mean packing time for the old machine <span class="math inline">\(\mu_1\)</span> and the mean packing time for the new machine <span class="math inline">\(\mu_2\)</span> is the same. The alternative hypothesis is that the mean packing time for the old machine is greater than the mean packing time for the new machine, because a faster machine implies a lower mean time. Mathematically, <span class="math display">\[H_0:\mu_1=\mu_2\]</span><span class="math display">\[H_a:\mu_1\gt\mu_2\]</span></li>
+<li><span class="math inline">\(\alpha=0.05\)</span></li>
+<li>The toolpak output gives <span class="math inline">\(t=-3.3972\)</span> and <span class="math inline">\(df=18\)</span>.</li>
+<li>The toolpak output gives the one-tailed <span class="math inline">\(p\)</span>-value as <span class="math inline">\(0.001606\)</span>.</li>
+<li>Since the <span class="math inline">\(p\)</span>-value is less than the significance level <span class="math inline">\((0.001606\lt0.05)\)</span>, sufficient statistical evidence exists to reject the null hypothesis that mean packing time for both machines is the same.</li>
+</ol>
+<p><em>6.4.3: Memory.</em></p>
+<p>The Memory dataset contains the number of errors made while completing a memory-related task by a group of <span class="math inline">\(10\)</span> people taking a fictional memory enhancement drug and by another group of <span class="math inline">\(10\)</span> people not taking the drug. A researcher in the study claims that the fictional drug is effective in reducing the number of errors in memory-related tasks.</p>
+<p>Let <span class="math inline">\(\mu_1\)</span> be the mean number of errors in the group taking the drug and <span class="math inline">\(\mu_2\)</span> be the mean number of errors in the group not taking the drug.</p>
+<p><img width="200" src="https://ap-statistics.web.app/img/stats/6.4.4.png" controls=""> </p>
+<ol type="1">
+<li>What is the null hypothesis <span class="math inline">\(H_0\)</span>?</li>
+<li>What is the alternative hypothesis <span class="math inline">\(H_a\)</span>?</li>
+<li>What is the <span class="math inline">\(p\)</span>-value?</li>
+<li>What is the conclusion for the <span class="math inline">\(t\)</span>-test?</li>
+</ol>
+<p><em>Solution</em></p>
+<ol type="1">
+<li><span class="math inline">\(\mu_1=\mu_2\)</span></li>
+<li><span class="math inline">\(\mu_1\lt\mu_2\)</span></li>
+<li><span class="math inline">\(0.009\)</span><br>
+</li>
+<li>Reject <span class="math inline">\(H_0\)</span></li>
+</ol>
+</section>
+</section>
+<section id="hypothesis-test-for-the-difference-between-two-population-proportions" class="level2">
+<h2 class="anchored" data-anchor-id="hypothesis-test-for-the-difference-between-two-population-proportions">6.5 Hypothesis test for the difference between two population proportions</h2>
+<ul>
+<li>List the conditions and steps for a <span class="math inline">\(z\)</span>-test for two population proportions.</li>
+<li>Apply a <span class="math inline">\(z\)</span>-test for two population proportions.</li>
+</ul>
+<section id="z-test-for-two-population-proportions" class="level3">
+<h3 class="anchored" data-anchor-id="z-test-for-two-population-proportions"><span class="math inline">\(z\)</span>-test for two population proportions</h3>
+<p>The <span class="math inline">\(z\)</span>-test can also be used to determine whether the proportions of two distinct populations are the same. When performing a hypothesis test involving the proportion of two distinct populations, the distribution of the <span class="math inline">\(z\)</span>-test statistic is assumed to be normal.</p>
+<p>The conditions that must be satisfied are similar to those of the <span class="math inline">\(z\)</span>-test for proportions involving two distinct populations. However, to satisfy the normality condition, all counts should be at least <span class="math inline">\(5\)</span>.</p>
+<p><em>Procedure 6.5.1: Hypothesis testing for two population proportions.</em></p>
+<p>Given two randomly selected samples each taken from a distinct population</p>
+<ol type="1">
+<li>Set the null and alternative hypotheses <span class="math display">\[H_0:p_1=p_2\]</span><span class="math display">\[H_a:p_1\gt p_2\text{ (right-tailed)}\]</span><span class="math display">\[H_a:p_1\lt p_2\text{ (left-tailed)}\]</span><span class="math display">\[H_a:\mu_1\ne p_2\text{ (two-tailed)}\]</span> where <span class="math inline">\(p_1\)</span> and <span class="math inline">\(p_2\)</span> are proportions from distinct populations. Only the alternative hypothesis appropriate for the test should be used.</li>
+<li>Specify the significance level <span class="math inline">\(\alpha\)</span>, typically <span class="math inline">\(\alpha=0.05\)</span>.</li>
+<li>For a test of two population proportions <span class="math inline">\(p_1\)</span> and <span class="math inline">\(p_2\)</span>, the relevant sample statistic is the difference of sample proportions <span class="math inline">\(\hat{p_1}-\hat{p_2}\)</span> and the relevant test statistic is <span class="math inline">\(z\)</span>. Use statistical software to calculate <span class="math display">\[z=\frac{\hat{p_1}-\hat{p_2}}{SE_{est}}=\frac{\hat{p_1}-\hat{p_2}}{\sqrt{\hat{p}(1-\hat{p})(\frac{1}{n_1}+\frac{1}{n_2})}}\]</span> where <span class="math inline">\(\hat{p}=\frac{x_1+x_2}{n_1+n_2}\)</span>. Here, <span class="math inline">\(x_1\)</span> and <span class="math inline">\(x_2\)</span> are the number of successes in each group.</li>
+<li>Use statistical software or a <span class="math inline">\(z\)</span>-distribution table to find the <span class="math inline">\(p\)</span>-value corresponding to <span class="math inline">\(z\)</span>.</li>
+<li>Make a decision given a previously selected significance level <span class="math inline">\(\alpha\)</span>, typically <span class="math inline">\(0.05\)</span>.
+<ul>
+<li>If the <span class="math inline">\(p\)</span>-value is less than the significance level, sufficient evidence exists to reject the null hypothesis <span class="math inline">\(H_0\)</span> in favor of the alternative hypothesis <span class="math inline">\(H_a\)</span>.</li>
+<li>If the <span class="math inline">\(p\)</span>-value is greater than or equal to the significance level, insufficient evidence exists to reject the null hypothesis <span class="math inline">\(H_0\)</span>.</li>
+</ul></li>
+</ol>
+<p><em>Example 6.5.1: Voting by region.</em></p>
+<p>The campaign team of a candidate running for statewide office is concerned about the candidate’s appeal to both the northern and southern regions of the state. A recent survey of voting aged adults found that if the elections were held that day, <span class="math inline">\(70\)</span> of <span class="math inline">\(132\)</span> northerners and <span class="math inline">\(63\)</span> of <span class="math inline">\(105\)</span> southerners would vote for the candidate. The standard error is estimated to be <span class="math inline">\(0.0649\)</span>. Does sufficient evidence exist that suggest that the percentages of northerners and southerners who would vote for the candidate are different at the <span class="math inline">\(\alpha=0.05\)</span> significance level?</p>
+<p><em>Solution</em></p>
+<ol type="1">
+<li>The null hypothesis is that the proportion of northerners and the proportion of southerners who would vote for the candidate are the same. Since the question asks if the percentages of northerners and southerners voting for the candidate are different, the hypothesis test is two-tailed with an alternative hypothesis that the population proportions are different. Mathematically, <span class="math display">\[H_0:p_1=p_2\]</span><span class="math display">\[H_a:p_1\ne p_2\]</span> where <span class="math inline">\(p_1\)</span> is the population proportion of northerners who would vote for the candidate and <span class="math inline">\(p_2\)</span> is the population proportion of southerners who would vote for the candidate.</li>
+<li><span class="math inline">\(\alpha=0.05\)</span></li>
+<li>The survey found that <span class="math inline">\(70\)</span> of <span class="math inline">\(132\)</span> northerners and <span class="math inline">\(63\)</span> of <span class="math inline">\(105\)</span> southerners would vote for the candidate. Thus, <span class="math display">\[\hat{p_1}=\frac{\text{northerners who would vote for the candidate}}{\text{number of northerners in the survey}}=\frac{70}{132}\approx0.530\]</span><span class="math display">\[\hat{p_2}=\frac{\text{southerners who would vote for the candidate}}{\text{number of southerners in the survey}}=\frac{63}{105}\approx0.600\]</span> The test statistic is <span class="math display">\[z=\frac{\hat{p_1}-\hat{p_2}}{SE_{est}}=\frac{0.530-0.600}{0.0649}\approx-1.079\]</span></li>
+<li>Using software or a <span class="math inline">\(z\)</span>-distribution table, the <span class="math inline">\(p\)</span>-value is <span class="math display">\[p-\text{value}=P(z\le-1.079\text{ or }z\ge1.079)\approx0.280\]</span></li>
+<li>Since the <span class="math inline">\(p\)</span>-value is greater than the significance level <span class="math inline">\((0.280\gt0.05)\)</span>, insufficient evidence exists to suggest that population proportions for northerners and southerners who would vote for the candidate are different.</li>
+</ol>
+<p><em>Example 6.5.2: Adverse reaction to drugs.</em></p>
+<p>A medical researcher tests two types of drugs that are designed to slow the progression of a disease. In a random sample of patients taking drug <span class="math inline">\(1\)</span>, <span class="math inline">\(18\)</span> out of <span class="math inline">\(25\)</span> patients developed an adverse reaction. In a random sample of patients taking drug <span class="math inline">\(2\)</span>, <span class="math inline">\(21\)</span> out of <span class="math inline">\(30\)</span> people developed an adverse reaction. The standard error is estimated to be <span class="math inline">\(0.123\)</span>. At a <span class="math inline">\(\alpha=0.01\)</span> significance level, does sufficient evidence exist showing that the proportion of patients taking drug <span class="math inline">\(1\)</span> who develop an adverse reaction is greater than that of patients taking drug <span class="math inline">\(2\)</span>?</p>
+<p><em>Solution</em></p>
+<ol type="1">
+<li>The null hypothesis is that the proportion of patients developing an adverse reaction is the same for the population taking drug <span class="math inline">\(1\)</span> and the population taking drug <span class="math inline">\(2\)</span>. Since the question asks if the proportion of patients developing an adverse reaction to drug <span class="math inline">\(1\)</span> is greater than that of patients developing an adverse reaction to drug <span class="math inline">\(2\)</span>, the hypothesis test is right-tailed. Mathematically, <span class="math display">\[H_0:p_1=p_2\]</span><span class="math display">\[H_a:p_1\gt p_2\]</span></li>
+<li><span class="math inline">\(\alpha=0.01\)</span></li>
+<li>In the study, <span class="math inline">\(18\)</span> of <span class="math inline">\(25\)</span> people taking drug <span class="math inline">\(1\)</span> and <span class="math inline">\(21\)</span> of <span class="math inline">\(30\)</span> people taking drug <span class="math inline">\(2\)</span> developed an adverse reaction. Thus,<span class="math display">\[\hat{p_1}=\frac{\text{people taking drug 1 who developed an adverse reaction}}{\text{number of people taking drug 1}}=\frac{18}{25}=0.72\]</span><span class="math display">\[\hat{p_2}=\frac{\text{people taking drug 2 who developed an adverse reaction}}{\text{number of people taking drug 2}}=\frac{21}{30}=0.70\]</span>The test statistic is <span class="math display">\[z=\frac{\hat{p_1}-\hat{p_2}}{SE_{est}}=\frac{0.72-0.70}{0.123}\approx0.163\]</span></li>
+<li>Using software or a <span class="math inline">\(z\)</span>-distribution table, the <span class="math inline">\(p\)</span>-value is <span class="math inline">\(P(z\ge0.16)\approx0.435\)</span>.</li>
+</ol>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/6.5.2.png" controls=""> </p>
+<ol start="5" type="1">
+<li>Since the <span class="math inline">\(p\)</span>-value is greater than the significance level <span class="math inline">\((0.435\gt0.01)\)</span>, insufficient evidence exist suggesting that the proportion of patients taking drug <span class="math inline">\(1\)</span> who develop an adverse reaction is greater than that of patients taking drug <span class="math inline">\(2\)</span>.</li>
+</ol>
+</section>
+</section>
+<section id="one-way-analysis-of-variance-one-way-anova" class="level2">
+<h2 class="anchored" data-anchor-id="one-way-analysis-of-variance-one-way-anova">6.6 One-way analysis of variance (one-way ANOVA)</h2>
+<p>List the conditions and steps for one-way analysis of variance Apply a <span class="math inline">\(z\)</span>-test for two population proportions. Use Tukey’s honestly significant differences to compare groups.</p>
+<section id="comparing-three-or-more-populations" class="level3">
+<h3 class="anchored" data-anchor-id="comparing-three-or-more-populations">Comparing three or more populations</h3>
+<p>The unpaired <span class="math inline">\(t\)</span> -test determines whether a statistically significant difference exists between the means of two populations. However, many situations require that means be compared among three or more populations. Ex: A researcher wants to classify penguin species based on flipper length by using a method called <span class="math inline">\(k\)</span> -means clustering. As a first step, the researcher checks whether the mean flipper length differs among three species of penguin: Adelie, Chinstrap, and Gentoo. A possible method to compare the means is to perform three unpaired <span class="math inline">\(t\)</span> -tests: one between Adelie and Gentoo, another between Adelie and Chinstrap, and finally between Gentoo and Chinstrap. Although the details are beyond the scope of the material, the probability of rejecting the null hypothesis that no significant difference in population means exists, when using multiple <span class="math inline">\(t\)</span> -tests is <span class="math inline">\(14\%\)</span> . Thus, a different approach is needed.</p>
+<p>One-way analysis of variance (one-way ANOVA) controls for the errors associated with comparing multiple population means. <strong><em>One-way analysis of variance (one-way ANOVA)</em></strong> determines whether a statistically significant difference exists among the means of three or more populations. Equivalently, ANOVA tests for an association between a categorical predictor variable and a response variable. Ex: In the penguin study, the predictor variable is the type of species and the response variable is flipper length. Data scientists and statisticians often refer to a categorical predictor variable as a factor and a possible value of a factor as a level. If the factor only has two levels, then ANOVA is equivalent to a two-sample <span class="math inline">\(t\)</span> -test with equal variances.</p>
+</section>
+<section id="one-way-anova" class="level3">
+<h3 class="anchored" data-anchor-id="one-way-anova">One-way ANOVA</h3>
+<p>A model can certainly have multiple predictor variables. However, the material on ANOVA will only cover models with one predictor variable. A <strong><em>one-way ANOVA</em></strong> compares the means of three or more groups of one predictor variable.</p>
+<p>The one-way ANOVA hypothesis test follows the same process as previously discussed tests. The null hypothesis for a one-way ANOVA is that all of the group means are equal. Caution should be exercised when stating the alternative hypothesis because the negation of the null hypothesis does not say that all group means are unequal. Instead, the alternative hypothesis should state that two groups with unequal means exist. The rest of the hypothesis test involves finding the <span class="math inline">\(F\)</span> -statistic and the <span class="math inline">\(p\)</span> -value to make a decision based on a significance level.</p>
+<p>The underlying assumptions for the one-way ANOVA are given below.</p>
+<p><em>Assumptions for one-way ANOVA</em></p>
+<ul>
+<li>Independence. Samples should be independent and drawn randomly.</li>
+<li>Normality. The underlying distribution of the populations from which the samples are drawn should be approximately normal.</li>
+<li>Homogeneity. The variances of the population distributions should be equal.</li>
+</ul>
+<p><em>Procedure 6.6.1: One-way ANOVA.</em></p>
+<p>Given <span class="math inline">\(k\)</span> groups taken from independent populations,</p>
+<ol type="1">
+<li><p>Set the null and alternative hypotheses <span class="math display">\[H_0:\mu_1=\mu_2=...=\mu_k\]</span> <span class="math display">\[H_a:\mu_i\ne\mu_j,\ for\ some\ i\ne j\]</span> where <span class="math inline">\(\mu_1\)</span> and <span class="math inline">\(\mu_2\)</span> are means from independent populations.</p></li>
+<li><p>Specify the significance level <span class="math inline">\(\alpha\)</span>, typically <span class="math inline">\(\alpha=0.05\)</span></p></li>
+<li><p>Use statistical software to calculate the test-statistic <span class="math display">\[F=\frac{between-group\ variance}{within\ group\ variance}\]</span></p></li>
+<li><p>Use statistical software to find the <span class="math inline">\(p\)</span>-value that corresponds to area to the right of <span class="math inline">\(F\)</span>.</p></li>
+<li><p>Make a decision given a previously selected significance level <span class="math inline">\(\alpha\)</span>, typically <span class="math inline">\(\alpha=0.05\)</span>.</p>
+<ul>
+<li>If the <span class="math inline">\(p\)</span>-value is less than the significance level, sufficient evidence exists to reject the null hypothesis <span class="math inline">\(H_0\)</span> in favor of the alternative hypothesis <span class="math inline">\(H_a\)</span>.</li>
+<li>If the <span class="math inline">\(p\)</span>-value is greater than or equal to the significance level, insufficient evidence exists to reject the null hypothesis <span class="math inline">\(H_0\)</span>.</li>
+</ul></li>
+</ol>
+<p><em>Example 6.6.1: Mean of exam scores.</em></p>
+<p>A teacher believes that the exams created for the class varies in difficulty because of the differences in mean exam scores. Does sufficient evidence exist at the <span class="math inline">\(\alpha=0.01\)</span> level to support the teacher’s belief that the exams scores have different means? Use the ANOVA table below.</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/6.6.1.png" controls=""> </p>
+<p><em>Solution</em></p>
+<ol type="1">
+<li>The null hypothesis is that the mean exam scores are all the same. The alternative hypothesis is that the means of at least two exam scores are different. Mathematically, <span class="math display">\[H_0:\mu_1=\mu_2=\mu_3=\mu_4\]</span><span class="math display">\[H_a:\mu_i\ne\mu_j,\ for\ some\ i\ne j\]</span><br>
+</li>
+<li><span class="math inline">\(\alpha=0.01\)</span></li>
+<li>The ANOVA table output gives <span class="math inline">\(F=3.856961\)</span>.</li>
+<li>The ANOVA table output gives the <span class="math inline">\(p\)</span>-value that corresponds to <span class="math inline">\(F=3.857\)</span> as <span class="math inline">\(P(F\ge3.857)=0.010349\)</span>.</li>
+<li>Since the <span class="math inline">\(p\)</span>-value is greater than the significance level <span class="math inline">\((0.0103\gt0.01)\)</span>, the null hypothesis is not rejected. That is, at the <span class="math inline">\(\alpha=0.01\)</span> significance level, insufficient statistical evidence exists to support the claim that the mean exam scores are different.</li>
+</ol>
+<p>The alternative hypothesis to an <span class="math inline">\(F\)</span> test is that at least two of the means are unequal. Although the means of all exam scores could be all be statistically different, the <span class="math inline">\(F\)</span> test cannot determine which of the exams have statistically different means.</p>
+<p><em>6.6.2: Mean flipper lengths of penguin species.</em></p>
+<p>A researcher wanted to check the possibility of running a classification algorithm based on penguin flipper lengths. Among other things the researcher checks is whether the means of the flipper lengths for each of the factor levels are actually different.</p>
+<p>Does sufficient evidence exist to conclude that the mean flipper length of the three penguin species are not the same? Use the ANOVA table below.</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/6.6.2.png" controls=""> </p>
+<ol type="1">
+<li>What is the null hypothesis <span class="math inline">\(H_0\)</span>?</li>
+<li>What is the alternative hypothesis <span class="math inline">\(H_a\)</span>?</li>
+<li>What is the conclustion of the test?</li>
+</ol>
+<p><em>Solution</em></p>
+<ol type="1">
+<li><span class="math inline">\(H_0:\mu_{Ade}=\mu_{Chin}=\mu_{Gen}\)</span></li>
+<li><span class="math inline">\(H_a:\mu_i\ne\mu_j,\ for\ some\ penguin\ species\ i\ne j\)</span></li>
+<li>Reject <span class="math inline">\(H_0\)</span></li>
+</ol>
+</section>
+<section id="post-hoc-tests" class="level3">
+<h3 class="anchored" data-anchor-id="post-hoc-tests">Post-hoc tests</h3>
+<p>If the null hypothesis is not rejected, then no further work is necessary. However, if the null hypothesis is rejected, further analysis is required because the <span class="math inline">\(F\)</span>-test does not determine which groups have different means. <strong><em>Post-hoc analysis</em></strong> determines which groups have different means, which group has the highest or lowest mean, and other relationships between the groups.</p>
+<p>The <strong><em>Tukey Honestly Significant Difference (HSD)</em></strong> procedure gives the <span class="math inline">\(95\%\)</span> confidence intervals for the mean difference between pairwise groups and determines which mean difference is statistically significant.</p>
+<p>If <span class="math inline">\(0\)</span> falls in the confidence interval, then the difference between the means is not statistically significant. In other words, the null hypothesis that the means of the two groups are the same should not be rejected.</p>
+<p><em>Example 6.6.3: Determining which exams have statistically different means.</em></p>
+<p>Suppose the ExamScores dataset is tested at a significance level of <span class="math inline">\(\alpha=0.05\)</span>. Thus, a post-hoc test should be performed to determine which two means are statistically equal because the null hypothesis that the means are statistically the same is rejected. Which two groups have statistically different means? Use the output below of the Tukey’s HSD test.</p>
+<p><img width="600" src="https://ap-statistics.web.app/img/stats/6.6.3.png" controls=""> </p>
+<p><em>Solution</em></p>
+<p>The output above shows that the confidence interval for the comparison between the means of Exam1 and Exam3 does not contain <span class="math inline">\(0\)</span>. Thus, sufficient statistical evidence exists to support the claim that the means of Exam1 and Exam3 are different.</p>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

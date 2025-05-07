@@ -26,16 +26,15 @@
     },
     {
       "letter": "D",
-      "text": "Yes - because the random number generator will make sure that 50% of the numbers are even and 50% are odd"
+      "text": "Yes - because the random number generator will make sure that $50\\%$ of the numbers are even and $50\\%$ are odd"
     },
     {
       "letter": "E",
-      "text": "Yes - because the number of assignments is so large, that the percent is guaranteed to be 50%"
+      "text": "Yes - because the number of assignments is so large, that the percent is guaranteed to be $50\\%$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "When dealing with randomness and probability, it is important to note that probability is unpredictable in the short run, but in the long run approaches\na pattern. This does not necessarily imply that it is guaranteed to be a certain percentage, or observations, even though we have enough trials.\n\nSo when Mr. Anderson believes that his random number generator will guarantee him that half of the assignments will be turned in, he is not correct. Even though the probability of having the students turn in their assignment is 50%\n, probability is never a guarantee and the overall percentage at the end will be left up to fate!\n\nChoice 'A' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nWhen dealing with randomness and probability, it is important to note that probability is unpredictable in the short run, but in the long run approaches a pattern. This does not necessarily imply that it is guaranteed to be a certain percentage, or observations, even though we have enough trials.\n\nSo when Mr. Anderson believes that his random number generator will guarantee him that half of the assignments will be turned in, he is not correct. Even though the probability of having the students turn in their assignment is 50%, probability is never a guarantee and the overall percentage at the end will be left up to fate!\n\nChoice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect. If we set the random number generator to select numbers from 1−10\n, it will select numbers, no matter the digits. If you are using a random digit table, make sure your numbers all have the same amount of digits, for example 01−10\n.\n\nChoice 'C' is incorrect. Even though half the numbers are even and half are odd, Mr. Anderson is not guaranteed a 50−50\nsplit.\n\nChoice 'D' is incorrect. The random number generator will select the numbers randomly, which implies that each number has an equally likely opportunity to be selected and result in randomly selected numbers.\n\nChoice 'E' is incorrect. It is true that as the number of observations increase, the proportion of successes will approach the true probability value, but it is not guaranteed to be exactly 50%",
   "tags": [
     "VAR-1.F",
     "VAR-1.F.1",

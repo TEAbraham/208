@@ -9,7 +9,7 @@
   ],
   "title": "Boys Shot Put Distances: Percentile from a Histogram",
   "difficulty": "Easy",
-  "question_text": "The histogram below shows results for the $23\\text{ boys}$ who competed in the shot put event at a state track and field meet.<br><br><br><br><br>Of the following, which is the best estimate of the distance needed (in meters) to be at the $75^\\text{th}\\text{ percentile}$?",
+  "question_text": "The histogram below shows results for the $23\\text{ boys}$ who competed in the shot put event at a state track and field meet.<br><br>Of the following, which is the best estimate of the distance needed (in meters) to be at the $75^\\text{th}\\text{ percentile}$?",
   "image_files": [
     "images/question-110-img1.PNG"
   ],
@@ -17,11 +17,11 @@
   "choices": [
     {
       "letter": "A",
-      "text": "$14.5$"
+      "text": "14.5"
     },
     {
       "letter": "B",
-      "text": "$15.75$"
+      "text": "15.75"
     },
     {
       "letter": "C",
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The\n75\nth\n percentile\nis the value that is greater than or equal to\n75\n%\nof the observations. Since there are\n23\nobservations, we need to determine what number is\n75\n%\nof\n23\n. This can be done as follows:\n\n(\n0.75\n)\n(\n23\n)\n=\n17.25\n\nThis means that when listed in order from smallest to largest, the\n18\nth\nobservation is the value that is at the\n75\nth\n percentile\n. It is the value that we know will be greater than or equal to\n75\n%\nof the observations.\n\nTo find this value, match the height of each bar to the corresponding frequency of observations. Keep track of the cumulative frequency until you reach the\n18\nth\nlargest observation.\n\nThis tells us that the\n18\nth\nlargest observation is somewhere between\n15\nand\n16\n meters\n.\n\nChoice 'B' is the correct choice because it is the only value provided which falls between\n15\nand\n16\n meters\n.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. This would be a reasonable estimate for the center of the distribution, or the\n50\nth\n percentile\n.\n\nChoice 'C' is incorrect. This would be a reasonable estimate for the\n19\nth\n observation\nwhen listed from smallest to largest.\n\nChoice 'D' is incorrect. This value represents\n75\n%\nof\n23\nbut does not correspond with the\n75\nth\n percentile\n.\n\nChoice 'E' is incorrect. This might be a reasonable estimate for the maximum distance.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.1",

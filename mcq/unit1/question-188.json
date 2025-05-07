@@ -9,7 +9,7 @@
   ],
   "title": "Lottery Tickets I | 3 of 3",
   "difficulty": "Hard",
-  "question_text": "Each month for the past year, Barbara and Pauline have purchased $30\\text{ scratch-off lottery tickets}$ each. Barbara always buys Florida Gold scratch-off tickets, and Pauline always buys Lotsa Cash scratch-off tickets.<br>They have kept track of their number of winning tickets each month. Below are the results of the number of tickets that have been winners each month during the $12\\text{ months}$ of their record-keeping. (For ease of calculation, the data have been ordered from smallest to largest, not chronologically.)<br>What can be said when comparing the variability of these two distributions?",
+  "question_text": "Each month for the past year, Barbara and Pauline have purchased $30\\text{ scratch-off lottery tickets}$ each. Barbara always buys Florida Gold scratch-off tickets, and Pauline always buys Lotsa Cash scratch-off tickets.<br>They have kept track of their number of winning tickets each month. Below are the results of the number of tickets that have been winners each month during the $12\\text{ months}$ of their record-keeping. (For ease of calculation, the data have been ordered from smallest to largest, not chronologically.)<br>What can be said when comparing the variability of these two distributions?<br>What can be said when comparing the variability of these two distributions?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Barbara (Florida Gold)</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">6</th><th scope=\"col\">6</th><th scope=\"col\">6</th><th scope=\"col\">7</th><th scope=\"col\">7</th><th scope=\"col\">8</th><th scope=\"col\">8</th><th scope=\"col\">14</th></tr></thead><tbody><tr><td>Pauline (Lotsa Cash)</td><td>5</td><td>7</td><td>7</td><td>8</td><td>8</td><td>8</td><td>8</td><td>9</td><td>9</td><td>10</td><td>12</td><td>17</td></tr></tbody></table>"
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Both distributions have outliers, but of the remaining data values, Lotsa Cash values are closer to its center than those of Florida Gold, as indicated by its smaller IQR of $2$, compared to the IQR of $4$ for Lotsa Cash.\n\nEven with the outliers included, the variability of Florida Gold is smaller.\n\nAlthough it is not necessary to calculate the standard deviations of these two distributions to answer the question correctly, the standard deviation for Florida Gold is $3.2$, compared to $3$ for Lotsa Cash.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; the range is only one rough indicator of the variability of a distribution. One must look at several aspects of a distribution to assess its variability.\n\nChoice 'C' is incorrect; medians indicate only the middle of a distribution, not its variability.\n\nChoice 'D' is incorrect; the presence of an outlier is only one indication of the variability of a distribution.\n\nChoice 'E' is incorrect; while it is true that Florida Gold’s IQR is twice that of Lotsa Cash’s, this is no mathematical prediction of the relative sizes of their standard deviations.",
   "tags": [
     "UNC-1.O",
     "2.D",

@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "Weight = 45(Height)−24.5"
+      "text": "$\\text{Weight = 45(Height)} -24.5$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In this case, height is the explanatory variable, and weight is the response. It is necessary to differentiate between explanatory and response variables. In this case, it makes more logical sense to say a change in height corresponds to a change in weight, compared to a change in weight corresponds to a change in height.\n\nSince height is the explanatory variable, define x as the height.\nSince predicted weight is the response variable, use y as the predicted weight.\n\nUse this equation to find the slope:\n\nSlope=r⋅\n(Sy)\n(Sx)\n\nSlope=0.76⋅(\n24.5\n3.4\n)\n\nSlope=5.48\n\nThe least squares regression line must pass through the mean of both variables. One can substitute the means and solve to find the y\n-intercept:\n\n204=5.48(68)+y\n\ny=−168.64\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "DAT-1.G.1",
     "DAT-1.G.2",

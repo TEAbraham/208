@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "If we know the standard deviation of the entire population (which is unlikely), then we use the $z$-distribution to complete tests for a population mean.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. We cannot use the $z$-distribution unless we know the population standard deviation.\n\nChoice 'B' is incorrect. We would use the $t$-distribution when the population standard deviation is not known, but the sample standard deviation was known or could be calculated. We would not use the $t$-distribution if we know the population standard deviation.\n\nChoice 'D' is incorrect because we would use the $t$-distribution if we know the sample standard deviation, but not the population standard deviation.\n\nChoice 'E' is incorrect. We would not perform two separate procedures. Rather, we would choose the correct procedure based upon whether or not we know the population standard deviation.",
   "tags": [
     "DAT-3.E",
     "VAR-7.E",

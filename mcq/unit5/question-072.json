@@ -22,7 +22,7 @@
     },
     {
       "letter": "C",
-      "text": "Samples of $45$ will be randomly chosen from a skewed right Population A.\nSamples of $55$ will be randomly chosen from a bimodal Population B."
+      "text": "Samples of $45$ will be randomly chosen from a skewed right Population A.\nSamples of 55 will be randomly chosen from a bimodal Population B."
     },
     {
       "letter": "D",
@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "Samples of 82 will be randomly chosen from a skewed left Population A.\nSamples of 67 will be randomly chosen from a skewed right Population B."
+      "text": "Samples of 82\nwill be randomly chosen from a skewed left Population A.\nSamples of 67\nwill be randomly chosen from a skewed right Population B."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In order for the sampling distribution of\n¯\nx\nA−\n¯\nx\nB\nto be nearly normal, we must check to see if the sampling distributions of\n¯\nx\nA\nand\n¯\nx\nB\nare BOTH nearly normal.\n\nIn Choice 'B', the sampling distribution of\n¯¯¯\nx\nA\nwill not be nearly normal because the population is skewed left and the sample size of\n12\nis too small for the Central Limit Theorem to apply.\n\nThe other answer choices are correct because:\n\nThe Central Limit Theorem states that a sampling distribution should be nearly normal (even if the population is not) as long as the size of the sample being taken is larger than\n30\n.\n\nWhen the population is known to be nearly normal, then the sampling distribution should also be nearly normal even with a small sample size.",
   "tags": [
     "UNC-3.H.5",
     "UNC-3.H.2",

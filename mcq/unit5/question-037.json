@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "As stated in the problem, the couple selected a sample of 10 random apples from a tree. Due to the fact of Sampling Variability, not all samples of size 10 are guaranteed to have a mean of 75 grams. Some samples will produce a mean that is greater, while some will produce a mean that is less.\n\nTherefore, not all samples of size 10 will result in a mean weight of 75 grams.\n\nChoice 'D' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nAs stated in the problem, the couple selected a sample of $10$ random apples from a tree. Due to the fact of Sampling Variability, not all samples of size $10$ are guaranteed to have a mean of $75$ grams. Some samples will produce a mean that is greater, while some will produce a mean that is less.\n\nTherefore, not all samples of size $10$ will result in a mean weight of $75$ grams.\n\nChoice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Ten apples is not enough apples to safely conclude that the mean of the weight of the apples will be 75 grams.\n\nChoice 'B' is incorrect. As stated above, due to sampling variability, not all samples of size 10 will result in the same mean.\n\nChoice 'C' is incorrect. If the apples are selected at random, we can safely infer data about the population, but we cannot guarantee the mean will be 75 grams.\n\nChoice 'E' is incorrect. The Large Counts Condition is only used with Sampling Distributions dealing with proportions. Therefore, it does not apply in this scenario.",
   "tags": [
     "VAR-1.G",
     "VAR-1.G.1",

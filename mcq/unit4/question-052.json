@@ -24,20 +24,19 @@
     },
     {
       "letter": "C",
-      "text": "$20\\%$"
+      "text": "20%"
     },
     {
       "letter": "D",
-      "text": "$25\\%$"
+      "text": "25%"
     },
     {
       "letter": "E",
-      "text": "$26\\%$"
+      "text": "26%"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When the question says, ‘given that her favorite type of footwear is Ballet Flats,' it means that we can focus on the Ballet Flats column.\n\nWithin the Ballet Flats column, 37\nyoung women are in High School out of a total of 193\nyoung women.\n37\n193\nrounds to 19%\n.\n\nExplanation of Distractors\n\nChoice 'A' divides the 37\nHigh School women who prefer Ballet Flats by the total amount of women in the entire survey, 748\n. This is the correct numerator, but the incorrect denominator. Since the question tells us that these women prefer Ballet Flats, we should not include the women who prefer the other types of shoes.\n\nChoice 'C' mixes up the conditional. This would be correct if the question asked what was the probability that a young woman preferred Ballet Flats given that she is in High School.\n37\n188\nis 20%\n.\n\nChoice 'D' figures out what proportion of the survey takers were in High School.\n185\n748\nrounds to 25%\n.\n\nChoice 'E' figures out what proportion of the survey takers preferred Ballet Flats.\n193\n748\nrounds to 26%\n.",
   "tags": [
     "3.A",
     "VAR-4.D.2",

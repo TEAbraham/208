@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This problem describes a confidence interval for the average height (mean) and the population standard deviation is unknown, so the $t$-distribution should be used.\n\nExplanation of Distractors\n\nChoices 'A', 'B', and 'D' are incorrect. $Z$-distributions are used in confidence intervals for proportions and for means when the population standard deviation is known.\n\nChoice 'E' is incorrect. Chi-square distributions are used in hypothesis tests comparing counts of categorical variables.",
   "tags": [
     "UNC-4.P.1",
     "4.C",

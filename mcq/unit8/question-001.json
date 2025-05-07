@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'C\" is the correct answer.",
-  "solution": "To calculate the expected counts for a certain category, one must multiply the sample size by the proportion for that category. For instance, the manager is taking a random sample of $50$ employees and $30\\%$ of the employees are in the Accounting Department. Therefore,\n\n\n\n$$50(0.3) = 15 \\text{ employees}$$\n\nTherefore, the manager should expect $15$ employees from the Accounting department.\n\nChoice 'C' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nTo calculate the expected counts for a certain category, one must multiply the sample size by the proportion for that category. For instance, the manager is taking a random sample of $50$ employees and $30\\%$ of the employees are in the Accounting Department. Therefore,\n\n\n\n$$50(0.3) = 15 \\text{ employees}$$\n\nTherefore, the manager should expect $15$ employees from the Accounting department.\n\nChoice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Even though the company has $30\\%$ employees from the Accounting department, we must find $30\\%$ of $50$ employees, which is $15$ employees.\n\nChoice 'B' is incorrect. The manager would expect $20$ employees from the Sales department, since $50(0.4) = 20$ employees\n\nChoice 'D' is incorrect. The manager would expect 10 employees from Management, since 50(0.2)=10 employees\n\nChoice 'E' is incorrect. The manager would expect 2.5 employees from both the Human Resource Department and Public Relations Department, since 50(0.05)=2.5 employees",
   "tags": [
     "VAR-1.J",
     "VAR-1.J.1",

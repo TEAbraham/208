@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The easiest way to visualize this problem is with a tree diagram.\n\nThe probability of each of the four possible paths is obtained by multiplying the two probabilities along each path.\n\nEither of two paths results in a win:\n\nPlay at home and win, with $P = 0.6 \\cdot 0.7 = 0.42$\n\nPlay away and win, with P=0.4⋅0.35=0.14\n\nAdd these disjoint probabilities together to result in the overall probability of winning a game:\n\n(0.42+0.14)=0.56\n\nTherefore, the basketball team has a 56% chance, or 0.56 probability, of winning the game, so Choice 'D' is correct.",
   "tags": [
     "VAR-4.E.3",
     "VAR-4.E",

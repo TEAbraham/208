@@ -10,7 +10,7 @@
   ],
   "title": "Stemplot Comparison",
   "difficulty": "Medium",
-  "question_text": "Students in the day and evening classes of a statistics course at a local university were given the same test. Below are back-to-back stemplots for the test results from the two classes.<br><br><br><br><br>Key: 8|2|0 - 28 and 20<br>What can be said about the scores for these two groups of students?",
+  "question_text": "Students in the day and evening classes of a statistics course at a local university were given the same test. Below are back-to-back stemplots for the test results from the two classes.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>Key: 8|2|0 - 28 and 20<br>What can be said about the scores for these two groups of students?",
   "image_files": [
     "images/question-171-img1.JPG"
   ],
@@ -22,7 +22,7 @@
     },
     {
       "letter": "B",
-      "text": "The median for each of the distributions is a grade in the 60\n’s."
+      "text": "The median for each of the distributions is a grade in the\n60\n’s."
     },
     {
       "letter": "C",
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The distribution of day students has a longer left tail and is therefore left skewed. The evening students seem to have a roughly normal (bell-shaped) distribution.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; the distribution of day students has a longer left tail and is therefore skewed left.\n\nChoice 'B' is incorrect; the median for day students is\n71\n, and the median for evening students is\n66\n.\n\nChoice 'C'is incorrect; simply by looking at the stem plot, one can see the day students have data that is centered higher than the evening students do.\n\nChoice 'E' is incorrect; the range for the day students is\n95\n−\n28\n=\n67\n, while the range for the evening students is\n99\n−\n20\n=\n79\n.",
   "tags": [
     "UNC-1.N.1",
     "2.D",

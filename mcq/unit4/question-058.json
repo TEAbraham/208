@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Knowing which of the United States was selected does not in any way change the probabilities associated with selecting a European country. Both selections are coming from separate pools and selecting from one pool (of States for example) has no effect on what will happen when selecting from the other pool.\n\nExplanation of Distractors\n\nChoices 'A', 'B','D', and 'E all describe situations involving no replacement. The idea of replacement refers to whether or not a selection that has been made is put back into the mix and can possibly be selected again. If there is no replacement, then the probabilities associated with making a selection are changed with subsequent selections.\n\nIn Choice 'A', once the first “King” has been selected, there are now fewer cards and fewer “Kings” in the deck and the probability of selecting another “King” has changed. That is $p(\\text{King} | \\text{King}) \\neq p(\\text{King})$. Or in other words, the probability of selecting a second King given that the first selection was a King is not equal to the probability of selecting a King in the first place.\n\nSimilar problems arise in Choice 'E' (if the first number you selected was wrong, the probability that you will select the same number again should now be $0$), Choice 'D' (once a male is selected, the probability of another male has changed), and in Choice 'B' (once a penny is selected, there is one fewer coin in the jar which changes probabilities associated with later selections).\n\nKnowing which of the United States was selected does not in any way change the probabilities associated with selecting a European country. Both selections are coming from separate pools and selecting from one pool (of States for example) has no effect on what will happen when selecting from the other pool.",
   "tags": [
     "VAR-4.E.1",
     "VAR-4.E",

@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTo find the p-value, we must first calculate the value of\nˆ\np\nc:\n\nˆ\np\nc=\nn1\nˆ\np\n1+n2\nˆ\np\n2\nn1+n2\n\n...where the\nˆ\np\nvalues are the two sample proportions,\n\nˆ\np\n1=\n68\n400\n=0.17\nand\nˆ\np\n2=\n88\n400\n=0.22\n, and the n\nvalues are both equal to 400\n.\n\nWe get:\n\nˆ\np\nc=\n(400)(0.17)+(400)(0.22)\n400+400\n=0.195\n\nThen, we plug in this value and the others we have found to find the test statistic, z\n:\n\n(\nˆ\np\n1−\nˆ\np\n2)−0\n√\nˆ\np\nc(1−\nˆ\np\nc)\n√\n1\nn1\n+\n1\nn2\n\nSo we get:\n\nz\n=\n(\n0.17\n−\n0.22\n)\n−\n0\n√\n0.195\n(\n1\n−\n0.195\n)\n√\n1\n400\n+\n1\n400\n=\n−\n1.78\n\nUsing Table B, we find that\n−\n1.78\nfalls between the\np\n-values of\n0.025\nand\n0.05\n, but because the question is\n2\n-sided, that is, looking for a difference and not whether one proportion is greater than the other, the\np\n-value must be doubled. Thus, we say that our\np\n-value falls between\n0.05\nand\n0.10\n.\n\nFinally, because our\np\n-value is greater than the given\nα\n=\n0.05\n, we fail to reject Ho. This means that we cannot show that there is a difference in the two proportions.\n\nChoice 'B' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the\np\n-values need to be doubled and they were not.\n\nChoice 'C' is incorrect because it says to reject Ho and that should not be done.\n\nChoice 'D' is incorrect because the\np\n-values are not doubled and it falsely says to reject Ho.\n\nChoice 'E' is incorrect because it says to reject Ho even though the following part of the sentence is correct.",
   "tags": [
     "DAT-3.C",
     "4.B",

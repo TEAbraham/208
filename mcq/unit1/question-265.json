@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Use the standard normal table to determine the first percentile is $2.33$ standard deviations below the mean.\n\nTo find the thinnest, solve the following equation:\n\n$$-2.33 =\\dfrac{ (x-0.5)}{0.03}$$\n\n$$x = 0.43$$\n\nUse the standard normal table to determine the $99^\\text{th}$ percentile is $2.33$ standard deviations above the mean.\n\nTo find the thickest, solve the following equation:\n\n$$2.33 =\\dfrac{ (x-0.5)}{0.03}$$\n\n$$x = 0.57$$\n\nThus, the range is $0.43$ to $0.57$.\n\nTherefore, the correct answer is Choice 'D'.",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

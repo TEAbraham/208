@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We can use the LSRL to determine the predicted price ($\\hat {y}$) of staying at a $4$ star hotel. Since $x$ represents the number of stars in a hotel's rating, simply substitute in $4$ as the value of $x$ in the LSRL.\n\n$$\\hat { y } =27.54+50.27(4)=228.62$$\n\nSince the predicted price is in dollars, the correct answer is $\\$228.62$.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. This value is the slope of the LSRL and represents the amount that the price would be predicted to increase if the star rating increased by 1\nstar.\n\nChoice 'B' is incorrect and probably represents an attempt at a pure guess. Since there is no penalty for guessing on the A. P. Exam, it is worth trying to guess if you don't know how to complete the problem.\n\nChoice 'C' is incorrect. You would arrive at this answer if you forgot to include the y\n-intercept as part of the calculation from the LSRL. We cannot disregard the y-intercept. The following calculation is incorrect: (50.27)(4)=201.08\n\nChoice 'E' is incorrect. This value results from improperly applying order of operations when completing the calculation. Remember to complete the multiplication first and then add on the value of the y-intercept. The following calculation is incorrect: (27.54+50.27)(4)=311.24",
   "tags": [
     "DAT-1.G.1",
     "DAT-1.G.2",

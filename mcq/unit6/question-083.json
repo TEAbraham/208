@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A type I error occurs when the null hypothesis is rejected (meaning the alternative hypothesis is taken) when really the null hypothesis is actually true.\n\nIn this case, the null and alternative hypotheses are:\n\n${ H }_{ 0 }:\\mu =8\\text{ minutes}$\n${ H }_{ a }:\\mu >8\\text{ minutes}$\n\nBobby concludes the average wait time it takes the valet company to get a car is greater than $8\\text{ minutes}$, when it is actually $8\\text{ minutes}$.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as this is the explanation of a Type II error in the context of this situation. A Type II error is when we fail to reject the null hypothesis when we should have rejected the null hypothesis in favor of the alternative.\n\nChoice 'C' is incorrect as this is the explanation of power in the context of this situation. Power is when we correctly reject the null hypothesis in favor of the alternative.\n\nChoice 'D' is incorrect as we never accept the null hypothesis.",
   "tags": [
     "4.B",
     "UNC-5.D.1",

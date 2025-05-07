@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "Change the value of\nˆ\np\nso that it gets closer to 0.5."
+      "text": "Change the value of $\\hat{p}$ so that it gets closer to 0.5."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWe use the formula for a confidence interval:\n\n$$\\hat{p} \\pm z^{*}\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n} }$$\n\n...where $\\hat{p}$ is the sample proportion, n is the sample size, and $z^*$ is the critical value.\n\nNotice that the width of a confidence interval will decrease as the value to the right side of the $\\pm$ sign decreases. This right side is called the margin of error. Thus, we need to check each of the answer choices to see its effect on this value. Note that the sample size is on the bottom of the fraction. Thus, as the value of n increases, the value of the fraction decreases, which also decreases the value of the margin of error, which in turn decreases the width of the confidence interval.\n\nSo, Choice 'B' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because as the value of z∗ increases, the value of the margin of error also increases, which means that the width would increase, not decrease.\n\nChoice 'C' is incorrect because as the value of the confidence level increases, so does the value of z∗. Thus, like Choice 'A', the width would increase, not decrease.\n\nChoice 'D' is incorrect because we have already stated that as the margin of error decreases, so does the width of the confidence interval.\n\nChoice 'E' is incorrect. As the value of\nˆ\np\nmoves away from 0.5\nin either direction, the width of the interval will decrease. But Choice 'E' states that it moves closer, so it will increase. This is more difficult than the other answers to see and can be best shown by simply changing the value of\nˆ\np\nin a given problem. Note also that the same distance away will decrease the value by the same amount. So, for example, a\nˆ\np\nvalue of 0.6\nwill decrease the width of a confidence interval by the same amount as a\nˆ\np\nvalue of 0.4\n.",
   "tags": [
     "UNC-4.H.2",
     "UNC-4.H",

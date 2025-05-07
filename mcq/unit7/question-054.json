@@ -8,7 +8,7 @@
   ],
   "title": "ACT Improvement?",
   "difficulty": "Medium",
-  "question_text": "A national test prep firm advertised that ACT scores would go up after taking one of its courses. To test this, an outside research firm decided to run a matched-pairs test. Forty randomly selected students would take an ACT test before the course and then again after the course. The before and after scores would then be examined and tested to see if there was any improvement.\nWhich of the following would be the correct set of hypotheses for this test?",
+  "question_text": "A national test prep firm advertised that ACT scores would go up after taking one of its courses. To test this, an outside research firm decided to run a matched-pairs test. Forty randomly selected students would take an ACT test before the course and then again after the course. The before and after scores would then be examined and tested to see if there was any improvement.\nWhich of the following would be the correct set of hypotheses for this test?<br>Which of the following would be the correct set of hypotheses for this test?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTwo hypotheses must be written for this special type of test for a population mean, called a matched pairs: a null hypothesis and an alternative hypothesis. The hypotheses for this test always use $\\mu_{d}$ where the $d$ is defined by the subtraction of the two given values.\n\nThe null hypothesis always uses an equals sign. The $\\mu_{d}$ is set equal to zero, the value believed to be, or hypothesized to be, true. In this problem, it is assumed that there is no change in ACT scores so the difference of the after and before scores would be zero.\n\nThe alternative hypothesis is what we are trying to prove. This time the sign could be a $<$, $>$, or a $\\neq$ depending upon the wording of the question. In this problem the research firm is trying to show that the ACT scores improved so that the difference in scores would now be greater than zero.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the before and after scores subtraction is backward.\n\nChoice 'C' is incorrect because the alternative hypothesis uses a $\\neq$ sign instead of the $>$ sign.\n\nChoice 'D' is incorrect because the hypotheses are written as if for a test of comparing two independent means, which is not appropriate here as the same person's scores are being compared.\n\nChoice 'E' is incorrect because $\\bar{x}$ is being used instead of $\\mu$ and the alternative hypothesis uses a $\\neq$ sign instead of the $>$ sign..",
   "tags": [
     "VAR-7.C.2",
     "VAR-7.C",

@@ -11,7 +11,7 @@
   ],
   "title": "Interpreting a Residual Plot: Speed and Average Gas Mileage",
   "difficulty": "Hard",
-  "question_text": "A least squares regression analysis of average gas mileage versus speed (mph) produces the following residual plot:<br><br><br><br><br>Based on the residual plot, which of the following statement(s) must be TRUE?<br>I. The relationship between speed and average gas mileage is non-linear.<br>II. The average gas mileage decreased as speed increased from $35$ mph to $60$ mph.<br>III. The regression equation would overestimate the average miles per gallon the car gets when the speed is $10$ miles per hour.",
+  "question_text": "A least squares regression analysis of average gas mileage versus speed (mph) produces the following residual plot:<br>Created for Albert.io. Copyright 2017. All rights reserved.<br><br>Based on the residual plot, which of the following statement(s) must be TRUE?<br>I. The relationship between speed and average gas mileage is non-linear.<br>II. The average gas mileage decreased as speed increased from $35$ mph to $60$ mph.<br>III. The regression equation would overestimate the average miles per gallon the car gets when the speed is $10$ miles per hour.",
   "image_files": [
     "images/question-097-img1.png"
   ],
@@ -39,8 +39,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "It might be helpful to break down each one of the possible answers. First, recall that the horizontal line going through the residual plot at\n0\nis the least squares regression line.\n\nStatement I is correct, as there is an apparent curve in the residual plot, indicating that the data is non-linear.\n\nStatement II is incorrect. We cannot conclude from the residual plot if the average miles per gallon decreases from the speeds of\n35\nto\n60\nmiles per hour. The residual plot does not tell us anything about the particular form of this non-linear shape.\n\nWhat it does tell us is that from\n35\nto\n45\nmiles per hour, we underestimated, since the horizontal line of\n0\n(the LSRL) falls below these points on the residual plot. From\n50\n−\n60\nmiles per hour, we overestimated, since the horizontal line of\n0\n(the LSRL) is above these points.\n\nStatement III is correct. At\n10\nmiles per hour, the horizontal line (LSRL) falls above the point, meaning our prediction overestimates the least squares regression line.",
   "tags": [
     "DAT-1.E.1",
     "DAT-1.E",

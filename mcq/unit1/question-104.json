@@ -30,16 +30,15 @@
     },
     {
       "letter": "D",
-      "text": "Standard Deviation: Divided by 1.61\nVariance: Divided by 1.61"
+      "text": "Standard Deviation: Divided by $1.61$\nVariance: Divided by $1.61$"
     },
     {
       "letter": "E",
-      "text": "Standard Deviation: Divided by 1.61\n\nVariance: Divided by 2.59"
+      "text": "Standard Deviation: Divided by 1.61\nVariance: Divided by 2.59"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When everything is divided by 1.61, the standard deviation will also be divided by 1.61.\n\nThe variance represents the standard deviation squared.\nσ2=(1.61)2=2.59\nTherefore the variance will get divided by 2.59\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because both the standard deviation and variance will change.\n\nChoice 'B' is incorrect because the standard deviation will change and the variance will be divided by 2.59\n.\n\nChoice 'C' is incorrect because the variance will change.\n\nChoice 'D' is incorrect because the variance will be divided by 2.59",
   "tags": [
     "2.C",
     "UNC-1.J.4",

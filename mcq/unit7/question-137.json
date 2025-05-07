@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Calculating the test statistic more accurately does not have any effect on the power of a statistical test.\n\nThe power of a hypothesis test is the probability of rejecting a false null hypothesis (a correct decision). Its formula is:\n\n$$1-\\beta$$\n\n...where $\\beta$ is the probability of not rejecting a null hypothesis when you should reject it.\n\nThis matches Choice 'C'.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; if one increases α, this decreases β, and thus increases the power.\n\nChoices 'B' and 'D' are incorrect; increasing the sample size decreases the standard deviation of the sampling distribution, and thus makes the sample data more accurate, lessening the probability of making an incorrect decision. As a result, the power is then increased when the sample size is increased.\n\nChoice 'E'is incorrect; moving the alternative further from the original null hypothesis makes it easier to reject a false null hypothesis, thus increasing the power of the test.",
   "tags": [
     "VAR-7.I",
     "VAR-7.I.1",

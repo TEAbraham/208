@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The question here is asking you to construct a one sample $t$-interval for means. It is a $t$-interval and not a $z$-interval, as the population standard deviation is unknown and we are using the sample standard deviation (standard error).\n\nIf you have a hard time remembering whether to use a $z$- or $t$-interval for means, remember the mnemonic, \"Mr. T. is mean.\"\n\nThe formula for a one sample $t$-interval for means is:\n\n$$\\overline { x } \\pm { t }^*_{ n-1 }\\frac { { s }_{ \\overline { x } } }{ \\sqrt { n } } $$\n\nBy using the formula, right away we can eliminate Choices 'D' and 'E', as they do not show $0.68$ being divided by the square root of $16$.\n\nThe $n-1$ represents the degrees of freedom, which in our case is $16-1=15$. Looking up where $15$ degrees of freedom and $95\\%$ confidence intersect on the $t$-distribution table, we find that $t^*=2.131$. Therefore, our answer is Choice 'C'.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as the $1.96$ is the $z^*$ and not a $t^*$.\n\nChoice 'B' is incorrect as the sample size of $16$ was used as the degrees of freedom to find $t^*$, when it should have been $15$.",
   "tags": [
     "UNC-4.Q.3",
     "3.D",

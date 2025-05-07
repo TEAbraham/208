@@ -27,16 +27,15 @@
     },
     {
       "letter": "D",
-      "text": "$20$"
+      "text": "20"
     },
     {
       "letter": "E",
-      "text": "$21$"
+      "text": "21"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This is a geometric distribution as this problem meets the geometric requirements.\n\n1) Two outcomes per trials: Eat banana or not eat banana 2) Independent: States it in the stem of the question 3) Counting the number of trials up to and including when the 1st chimpanzee eats a banana 4) Probability of success is the same per trial which p =0.05\n\nThe mean for a geometric distribution (formula not given on AP exam) is μ=\n1\np\nprobability of success.\n\nThe principle behind this formula is since the probability of success is p\nper each trial say p=0.25=\n1\n4\nthen we would expect it to take average of 4\ntrial to get the first success.\n\nOur answer can be determined:\n\nμ=\n1\n0.05\n=20\n\n...which is Choice 'D'.",
   "tags": [
     "UNC-3.E.2",
     "UNC-3.E",

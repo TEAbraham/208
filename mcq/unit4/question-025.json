@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since coin flips are independent, what has happened in past trials does not change the probability of any future trials. Even though there were $505$ heads in the first trial, one cannot claim that heads are more likely to come up in future trials.\n\nConversely, one also cannot say that more tails will be likely in future trials to bring the proportion closer to $50\\%$.\n\nWhile variability exists, the most likely amount of heads would be $500$ as $1000\\cdot 0.5 = 500$.\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "4.B",
     "VAR-4.B.1",

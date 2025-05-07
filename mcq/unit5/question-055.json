@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When calculated, the z-score is:\n\n$$\\dfrac{(3.1-2.84)}{\\left(\\dfrac{(0.45)}{\\sqrt{30}}\\right)} = 3.16$$\n\nA z-score (also called a standard score) communicates how far from the mean a data point is. The z-score is a measure of how many standard deviations below or above the population mean a raw score is.\n\nA z-score of $3.16$ means the students in the addtional study sessions performed much better than their peers; their results are $3.16$ standard deviations above the mean of their peers.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; the students were randomly chosen, so this experiment was performed appropriately.\n\nChoice 'B' is incorrect; a sample of size $30$ is sufficiently large.\n\nChoice 'C' is incorrect; the z-score was incorrectly calculated.\n\nChoice 'E' is incorrect; since the $30$ students were chosen at this school, it makes sense to compare them to the school average, NOT the national average.",
   "tags": [
     "UNC-3.R.2",
     "3.C",

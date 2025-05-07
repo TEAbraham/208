@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "By definition of the first quartile, about 25% of the data is less than 16; 25% percent of 500=125.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; 28 is the third quartile, so only 125 females scored greater than 28.\n\nChoice 'B' is incorrect; this distribution is not symmetric, as the distance from the median to the minimum is 7, but the distance from the median to the maximum is 15.\n\nChoice 'C' is incorrect; by 1.5\n*(IQR) method, 36\nis not an outlier.\n\nChoice 'E' is incorrect; rather, 125\nfemales scored more than 28\n.",
   "tags": [
     "UNC-1.I.4",
     "2.C",

@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Find the expected counts either by TI-$83/84$ calculator or by hand.\n\nBy hand the formula for each cell is\n\n(row total*column total)/table total\n\nExpected counts are as follows:\n\nObserved counts are as follows:\n\nThe chi-squared test statistic is used by the following formula:\n\n$ { x }^{ 2 }=\\sum { \\frac { { \\left( O-E \\right) }^{ 2 } }{ E } } $\n\nChi-squared = $[\\dfrac{(78-75.9)^2}{75.9}]+[\\dfrac{(98-72.22)^2}{72.22}]+[\\dfrac{(54-81.88)^2}{81.88}]+[\\dfrac{(87-89.1)^2}{89.1}]+[\\dfrac{(59-84.78)^2}{84.78}]+[\\dfrac{(124-96.12)^2}{96.12}]$\n\n$= 0.058+9.2+9.49+0.049+7.84+8.08 = 34.72$\n\nUsing the chi-squared table to look this up at $2$ degrees of freedom, you get a p-value of p < $0.0005$, since $34.72$ is off the charts.\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "VAR-8.F",
     "3.E",

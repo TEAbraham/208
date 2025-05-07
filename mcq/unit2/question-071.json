@@ -8,7 +8,7 @@
   ],
   "title": "Weight vs Height Scatterplots Based on Gender",
   "difficulty": "Hard",
-  "question_text": "Examine the scatterplot below.<br><br><br><br><br>Which of the following statements is/are true?<br>I. Combining the female and male data results in a stronger correlation than inspecting their correlations separately.<br>II. When inspecting males and females separately, females have a weaker correlation.<br>III. Since gender is categorical, this image represents a misuse of scatterplots.",
+  "question_text": "Examine the scatterplot below.<br>Created for Albert.io. Copyright 2017. All rights reserved.<br><br>Which of the following statements is/are true?<br>I. Combining the female and male data results in a stronger correlation than inspecting their correlations separately.<br>II. When inspecting males and females separately, females have a weaker correlation.<br>III. Since gender is categorical, this image represents a misuse of scatterplots.",
   "image_files": [
     "images/question-071-img1.jpg"
   ],
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Statement I is correct; males seem to have a moderate correlation and females have a weak positive correlation. However, when inspected together, there appears a fairly strong positive correlation.\n\nStatement II is correct; the correlation for females is fairly weak to nonexistent, but the correlation for males is moderate.\n\nStatement III is incorrect; it is a good statistical process to break quantitative data into categorical variables in a scatterplot. This plot shows the user much more detailed information than if males and females were not plotted separately.\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "4.B",
     "DAT-1.C",

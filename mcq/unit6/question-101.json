@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nLet's first quote directly from the AP® Statistics Course and Exam Description:\n\n\"In order to calculate confidence intervals to estimate a difference between proportions, we must check for independence and that the sampling distribution is approximately normal:\n\na. To check for independence:\n\ni. Data should be collected using two independent, random samples or a randomized experiment.\n\nii. When sampling without replacement, check that $n_{1}\\leq10\\%N_{1}$ and $n_{2}\\leq10\\%N_{2}$.\n\nb. To check that sampling distribution of $\\hat{p}_{1}-\\hat{p}_{2}$ is approximately normal (shape).\n\ni. For categorical variables, check that $n_{1}\\hat{p}_{1}$, $n_{1}(1-\\hat{p}_{1})$, $n_{2}\\hat{p}_{2}$, and $n_{2}(1-\\hat{p}_{2})$ are all greater than or equal to some predetermined value, typically $5$ or $10$.\"\n\nNow put in simpler terms: For independence make sure that samples are selected randomly and that those sample sizes are smaller than $10\\%$ of the size of the population. And for approximate normality, make sure that the $4$ values above are all greater than, most commonly, $10$. These verify conditions for a confidence interval for the difference between two proportions.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because only one condition is mentioned.\n\nChoice 'B' is incorrect because the reasons for the conditions are not given and only two of the four inequalities that must be checked for normality are given.\n\nChoice 'C' is incorrect because in the check for independence the number $30$ is given instead of $10$.\n\nChoice 'E' is incorrect because it reverses the words \"independence\" and \"approximate normality,\" thus the reasons for the conditions are wrong.",
   "tags": [
     "4.C",
     "UNC-4.J.1",

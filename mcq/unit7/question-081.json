@@ -8,7 +8,7 @@
   ],
   "title": "Hypothesis Test vs. Interval",
   "difficulty": "Medium",
-  "question_text": "An exercise physiologist is interested in the effect of exercise on heart rate.<br>She has the subjects walk slowly for $5\\text{ minutes}$ and records their heart rates. Then she has the subjects run vigorously for $5\\text{ minutes}$ and records their heart rates again.<br>The differences are recorded (heart rate after running - heart rate before running), with results below:<br>One-Sample $T$: Differences<br>Test of $\\mu = 0$ vs. $\\mu \\neq 0$<br><br>Why could a confidence interval be more useful in this situation than a hypothesis test?",
+  "question_text": "An exercise physiologist is interested in the effect of exercise on heart rate.<br>She has the subjects walk slowly for $5\\text{ minutes}$ and records their heart rates. Then she has the subjects run vigorously for $5\\text{ minutes}$ and records their heart rates again.<br>The differences are recorded (heart rate after running - heart rate before running), with results below:<br>One-Sample $T$: Differences<br>Test of $\\mu = 0$ vs. $\\mu \\neq 0$<br><br>Why could a confidence interval be more useful in this situation than a hypothesis test?<br>Why could a confidence interval be more useful in this situation than a hypothesis test?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">StDev</th><th scope=\"col\">SE Mean</th><th scope=\"col\">95% CI</th><th scope=\"col\">T</th><th scope=\"col\">P</th></tr></thead><tbody><tr><td>Differences</td><td>8</td><td>59.88</td><td>10.36</td><td>3.66</td><td>(51.22,68.53)</td><td>16.35</td><td>0.000</td></tr></tbody></table>"
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A hypothesis test gives only two outcomes: either evidence of change ($H_a$) or failure to find evidence of change ($H_0$). In this situation, all a hypothesis test tells us is that there’s strong evidence of an increase in heart rate.\n\nHowever, a confidence interval gives more detailed information by estimating the magnitude of the increase. In this situation, the confidence interval can tell the user that the increase is probably somewhere near $60$ beats per minute.\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "DAT-3.F",
     "4.E",

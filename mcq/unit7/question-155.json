@@ -8,7 +8,7 @@
   ],
   "title": "Are the Batteries Lasting Long Enough?",
   "difficulty": "Hard",
-  "question_text": "The Durabell Battery company was concerned about the life of its EE battery. In the past, the EE battery had a mean life span of $34$ hours, but the company was concerned that the battery life had decreased. It took a random sample of $40$ batteries from its assembly plant and tested them. The mean life span was $33.4$ hours with a standard deviation of $2.4$ hours.\nUsing a significance level of $\\alpha=0.05$, which of the following is an appropriate conclusion of a one-sample $t$-test for the population mean of the EE battery?",
+  "question_text": "The Durabell Battery company was concerned about the life of its EE battery. In the past, the EE battery had a mean life span of $34$ hours, but the company was concerned that the battery life had decreased. It took a random sample of $40$ batteries from its assembly plant and tested them. The mean life span was $33.4$ hours with a standard deviation of $2.4$ hours.\nUsing a significance level of $\\alpha=0.05$, which of the following is an appropriate conclusion of a one-sample $t$-test for the population mean of the EE battery?<br>Using a significance level of $\\alpha=0.05$, which of the following is an appropriate conclusion of a one-sample $t$-test for the population mean of the EE battery?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTo do this 1-sample $t$-test, we would have to assume a mean life of $34$ hours as our null hypothesis, and our alternative hypothesis would be to show that there is a decrease of less than a $34$ hour battery life. We would then check conditions and compute our t statistic as:\n\n$$t=\\dfrac{33.4-34}{\\frac{2.4}{\\sqrt{40}}} = -1.58$$\n\nUsing Table B, with a d.f. of $30$ (since $40-1$ is not there), and ignoring the negative sign, we would see that $1.58$ falls between $1.310$ and $1.617$. Then we would find that the $p$-value is between $0.05$ and $0.10$. A calculator gives us a more precise value of $0.06$.\n\nSince our $p$-value is higher than the significance level of $0.05$, we cannot reject our null hypothesis. Therefore, we cannot conclude that the mean battery life has decreased on the basis of our test. However, it should be noted that this was a close call and perhaps a second test should be done!\n\nSo, Choice 'E' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because, while the observation may be true, no t-test was run.\n\nChoice 'B' is incorrect because the $p$-value is incorrect. The $0.94$ would have resulted from using a > sign in the alternative hypothesis.\n\nChoice 'C' is incorrect because it falsely says to reject the null hypothesis.\n\nChoice 'D' is incorrect because it has an incorrect $p$-value. The $0.12$ would result from using a $\\neq$ sign in the alternative hypothesis which requires the doubling of the $p$-value.",
   "tags": [
     "DAT-3.F",
     "DAT-3",

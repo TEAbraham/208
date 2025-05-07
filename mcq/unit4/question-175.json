@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Use the binomial formula to calculate this. First, find the probability of the first $8\\text{ computer chips}$ working and then the remaining $2$ not working. Since the events are independent, you can simply multiply them:\n\n$P(\\text{first }8\\text{ working and the next }2\\text{ not working}) = 0.95^8 \\cdot 0.05^2$\n\nThis is only one way the event can happen, so next multiply this by the number of ways it can happen:\n\n$$_nC_r={ _{ 10 }{ C }_{ 8 } }=\\dfrac { 10! }{ (8!\\cdot 2!) } =45$$\n\n$$0.95^8 \\cdot 0.05^2 \\cdot { _{ 10 }{ C }_{ 8 } } = 0.0746$$\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "UNC-3.B",
     "3.A",

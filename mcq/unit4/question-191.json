@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The problem states that the entire system fails if one or more of the O-rings fail.\n\nThis means that all four of the O-rings must function properly. Since the O-rings function independently, we can use the multiplication rule of probability for independent events to calculate the following:\n$$\\text{P(O-ring working)} = 0.95$$\n\n$$\\text{P(4 O-rings working)} = 0.95 \\cdot 0.95 \\cdot 0.95 \\cdot 0.95$$\n\n$$\\text{P(4 O-rings working)} =0.815$$\n\nAn alternate way to solve this problem is to use a binomial probability model, where $n = 4$, $P = 0.95$, and we are interested in calculating the probability that all $4$ of the $4$ O-rings operate properly. On your calculator, use binompdf (4, 0.95, 4) $= 0.815$.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "UNC-3.C.1",
     "UNC-3",

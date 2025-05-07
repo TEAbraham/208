@@ -8,7 +8,7 @@
   ],
   "title": "Probability from a Bar Graph",
   "difficulty": "Medium",
-  "question_text": "Just for fun, Isabella decided to survey several of her friends to determine what language they were studying at school. All of Isabella's friends that were surveyed reported studying one and only one language. The results are shown in the bar graph below.<br><br><br><br><br>If $2$ of Isabella's friends are selected at random from among those surveyed, which of the following shows how to calculate the probability that both said \"Italian\"?",
+  "question_text": "Just for fun, Isabella decided to survey several of her friends to determine what language they were studying at school. All of Isabella's friends that were surveyed reported studying one and only one language. The results are shown in the bar graph below.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>If $2$ of Isabella's friends are selected at random from among those surveyed, which of the following shows how to calculate the probability that both said \"Italian\"?",
   "image_files": [
     "images/question-048-img1.PNG"
   ],
@@ -16,28 +16,27 @@
   "choices": [
     {
       "letter": "A",
-      "text": "9\n60"
+      "text": "$\\dfrac{9}{60}$"
     },
     {
       "letter": "B",
-      "text": "2\n(\n9\n60\n)"
+      "text": "$2{ \\left( \\dfrac { 9 }{ 60 } \\right) }$"
     },
     {
       "letter": "C",
-      "text": "(\n9\n60\n)\n2"
+      "text": "${ \\left( \\dfrac { 9 }{ 60 } \\right) }^{ 2 }$"
     },
     {
       "letter": "D",
-      "text": "(\n9\n60\n)\n(\n8\n59\n)"
+      "text": "$\\left( \\dfrac { 9 }{ 60 } \\right) \\left( \\dfrac { 8 }{ 59 } \\right) $"
     },
     {
       "letter": "E",
-      "text": "(\n9\n)\n(\n8\n)\n60"
+      "text": "$\\dfrac { (9)(8) }{ 60 } $"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In order to calculate the probability that both friends said \"Italian\", we must use the general multiplication rule. This rule says:\n\n$$p\\left( A\\cap B \\right) =p(A)\\bullet p(B|A)$$\n\nIn context:\n\n$$p( \\text{first \"Italian\"}\\cap \\text{second \"Italian\")} $$\n\n$$=p\\text{(first \"Italian\")}\\cdot p\\text{(second \"Italian\" GIVEN the first was \"Italian\")}$$\n\nTo find $p\\text{(first \"Italian\")}$, we need to determine the total number surveyed. We can do this by matching the height of each bar to the frequency shown on the vertical axis and then adding the individual frequencies for each language. From left to right on the graph, we would have:\n\n$$17+10+14+9+4+6=60 \\text{ friends surveyed}$$\n\nOf the $60$ friends surveyed, $9$ said \"Italian\". Therefore,\n\n$$p\\text{(first \"Italian\")}=\\dfrac{9}{60}$$\n\nTo find $p\\text{(second \"Italian\" GIVEN the first was \"Italian)}$ we would assume that the first friend selected said \"Italian\" and then determine the probability that the second friend said \"Italian\" by working only with the friends who are left to be selected.\n\nAfter the first person is selected, there are only $59$ friends left to be selected. Of those $59$ friends, there are $8$ remaining who said\"Italian\". Therefore:\n\n$$p\\text{(second \"Italian\" GIVEN the first was \"Italian)}=\\dfrac{8}{59}$$\n\nNow we can fill these values into the general multiplication rule:\n\n$$p( \\text{first \"Italian\"}\\cap \\text{second \"Italian\")} =\\left( \\dfrac { 9 }{ 60 } \\right) \\left( \\dfrac { 8 }{ 59 } \\right)$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect and is the probability that one randomly selected friend will have said \"Italian\".\n\nChoice 'B' is incorrect. We cannot multiply the probability that one friend will say \"Italian\" by $2$ to account for the second friend.\n\nChoice 'C' is incorrect. This calculation assumes that the probability of the second friend saying \"Italian\" is the same as for the first friend. This ignores the fact that once the first friend has be selected, there are fewer surveyed individuals to select from.\n\nChoice 'E' is incorrect. While the numerator of the fraction is correct, the denominator does not account for the fact that two selections were made.",
   "tags": [
     "3.A",
     "VAR-4.D.2",

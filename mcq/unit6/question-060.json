@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To conduct this test, Boris would use the following null hypothesis:\n\n$H_0: p= 0.15$\n\nThe fact that Boris got a $p$-value of $0.93$ indicates that his sample proportion was greater than $0.15$ and that the area under the curve to the left of his sample proportion was $0.93$. Also, his alternative hypothesis must have been:\n\n$H_a: p < 0.15$\n\nCreate a sketch of the normal distribution curve to incorporate these facts. This will allow you to notice that the area to the right of his sample proportion would be $0.07$. This would be the $p$-value if his alternative hypothesis had been:\n\n$H_a: p > 0.15$\n\nTo find the corresponding $p$-value for a two-sided test, simply multiply by $2$.\n\n$$(0.07)(2) = 0.14$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. There is no reason why this would be the $p$-value.\n\nChoice 'B' is incorrect. As stated above, this would be the $p$-value that would correspond with a one-sided alternative hypothesis in the greater than direction.\n\nChoice 'D' is incorrect. It represents the area under the curve to the right of center, but to the left of the sample proportion.\n\nChoice 'E' is incorrect as it represents the complement of the correct answer. That is, $1 – 0.14 = 0.86$.",
   "tags": [
     "VAR-6.G.4",
     "VAR-6.G.1",

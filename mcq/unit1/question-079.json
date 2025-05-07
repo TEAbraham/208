@@ -16,28 +16,27 @@
   "choices": [
     {
       "letter": "A",
-      "text": "$1, 2.5, 4, 5.5, 7$"
+      "text": "1,2.5,4,5.5,7"
     },
     {
       "letter": "B",
-      "text": "$19, 30, 40, 50, 78$"
+      "text": "19,30,40,50,78"
     },
     {
       "letter": "C",
-      "text": "$19, 35.50, 44, 53.50, 78$"
+      "text": "19,35.50,44,53.50,78"
     },
     {
       "letter": "D",
-      "text": "$19, 36, 44, 54, 78$"
+      "text": "19,36,44,54,78"
     },
     {
       "letter": "E",
-      "text": "$19, 33.75, 48.50, 63.25, 78$"
+      "text": "19,33.75,48.50,63.25,78"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The 5\n-number summary identifies (in order), the minimum value, the Q1\nvalue, the median, the Q3\nvalue and the maximum value in a distribution.\n\nIn the stemplot, the minimum value of\n$\n19\ncan be found at the bottom of the stemplot and the maximum value of\n$\n78\ncan be found at the top of the stemplot.\n\nChoice 'A' can be eliminated because it does not report the correct minimum and maximum values.\n\nThe median is the middle value (or the average of the two middle values) when the observations are arranged in order from smallest to largest. By counting values in the stemplot, we can determine that there were\n28\nsalons surveyed. Therefore, the median is the average of the\n14\nth\nand\n15\nth\nlargest values.\n\nTo find these values, start from the bottom of the stemplot and work your way upward. Remember to always start from the left value in a row since the values are arranged in rows from lowest value to highest value.\n\nThe middle two values are boxed in blue in the stemplot below. Since both of these values correspond with a cost of\n$\n44\n, the median is\n$\n44\n.\n\nChoices 'B' and 'E' can be eliminated because they do not report the correct value for the median.\n\n\n\nThe median separates the data into an upper half of data and a lower half of data. To find the\nQ\n1\nvalue, we must find the middle value (or average of two middle values) in the lower half of the data. We would be looking for the average of the\n7\nth\nand\n8\nth\nlargest values. These values are boxed in red in the stemplot above. The\n7\nth\nlargest value is\n35\nand the\n8\nth\nlargest value is\n36\n. The average of these two values is\n$\n35.50\nand therefore,\n$\n35.50\nis the\nQ\n1\nvalue.\n\nTo find the\nQ\n3\nvalue, we must find the middle value (or average of two middle values) in the upper half of the data. We would be looking for the average of the\n21\nst\nand\n22\nnd\nlargest values. These values are boxed in black in the stemplot above. The\n21\nst\nlargest value is\n53\nand the\n22\nnd\nlargest value is\n54\n. The average of these two values is\n$\n53.50\nand therefore,\n$\n53.50\nis the\nQ\n3\nvalue.\n\nChoice 'C' provides the correct\n5\n-number summary and is the correct answer.\n\nChoice 'D' is incorrect because it rounds the values for\nQ\n1\nand\nQ\n3\n. These values should not be rounded to a whole number.\n\nNOTE: You could also find the median by entering all\n28\nvalues into your\nT\nI\n83\n/\n84\ncalculator and having the calculator determine the median. Instructions are as follows:\n\nPress STAT\nWhile EDIT is highlighted, press ENTER\nEnter all\n28\nvalues into\nL\n1\n\nPress STAT\nHighlight CALC\nWhile\n1\n-Var Stats is highlighted, press ENTER\nPress Enter again\n\nYour calculator will return a lot of information. Move down the screen to see\nminX\n=\n19\n\nQ\n1\n=\n35.5\n\nMed\n=\n44\n\nQ\n3\n=\n53.5\n\nmaxX\n=\n78",
   "tags": [
     "UNC-1.I.4",
     "2.C",

@@ -8,7 +8,7 @@
   ],
   "title": "Sampling Distribution of a Median",
   "difficulty": "Easy",
-  "question_text": "All of the numbers from $1$ to $50$ are written on slips of paper and placed in a hat. The slips are thoroughly mixed, five slips of paper are chosen, and the median is recorded. This process is repeated a total of $150\\text{ times}$ and the medians are displayed in a dotplot:<br><br>Based on this sampling distribution, which of the following statements is true?",
+  "question_text": "All of the numbers from $1$ to $50$ are written on slips of paper and placed in a hat. The slips are thoroughly mixed, five slips of paper are chosen, and the median is recorded. This process is repeated a total of $150\\text{ times}$ and the medians are displayed in a dotplot:<br>Created for Albert.io. Copyright 2017. All rights reserved.<br><br>Based on this sampling distribution, which of the following statements is true?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "There is an $87.3\\%$ chance of obtaining a sample median less than $15$."
+      "text": "There is an 87.3% chance of obtaining a sample median less than 15."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'C' is correct because there are 13 sample medians below 15.\n13\n150\n=8.7%.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it ignores the fact that 150 samples were taken.\n2\n150\n=1.3%. There is a 1.3% chance of obtaining a sample median of 45 or more.\n\nChoice 'B' is incorrect because it ignores sampling variability. It is true that the population median is 25.5\n, but that doesn't mean that all sample medians will be 25.5\n. Different samples may produce medians that are larger or smaller than 25.5\n.\n\nChoice 'D' incorrectly includes the six sample medians that equal 15\n.\n\nChoice 'E' would be correct if it said, \"There is an 87.3%\nchance of obtaining a sample median larger than 15\n\".",
   "tags": [
     "UNC-3.H.2",
     "UNC-3.H.1",

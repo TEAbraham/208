@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To use the standard deviation formula shown below, the population must be at least 10 times the sample. In this problem, the population is 500 and the sample size is n=115.\n\n√\np(1−p)\nn\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; the problem said it was an SRS.\n\nChoice 'C' is incorrect; the sampling distribution is approximately normal in this situation since n(p)\nand n(1−p)\nare both greater than 10\n, where n=115\nand p=0.64\n.\n\nChoice 'D' is incorrect; it is clear the sample sizes are large enough since the np\nand n(1−p)\nconditions are met.",
   "tags": [
     "UNC-3.K.2",
     "UNC-3",

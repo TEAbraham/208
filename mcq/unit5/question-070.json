@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When looking for the statistic that does the best job of estimating the parameter, look for the statistic that has an unbiased estimator with the least amount of variability (spread).\n\nTo solve this, we can use the process of elimination. Choices 'A' and 'C' are unbiased estimators, as the centers of these histograms are\n150\n, which equal the parameter value.\n\nChoices 'B' and 'D' are biased estimators, as the centers of the histograms are not equal to the parameter value (\n150\n). Therefore, we can eliminate Choices 'B' and 'D'.\n\nLooking at the variability, we can see that Choice 'C' would have a smaller spread than Choice 'A' based off the standard deviation. Choice 'C' has a smaller standard deviation as there are a lot more values closer to the mean than further away compared to Choice 'A' which has a lot more values further away from the mean than closer to the mean.",
   "tags": [
     "UNC-3.I",
     "4.B",

@@ -26,16 +26,15 @@
     },
     {
       "letter": "D",
-      "text": "±95%"
+      "text": "$±95\\%$"
     },
     {
       "letter": "E",
-      "text": "±30%"
+      "text": "$±30\\%$"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Use the formula below:\n\n$$m = z^{*} \\sqrt{\\dfrac{p^{*}(1-p^{*})}{n}}$$\n\nThe correct $z^{*}$ for $95\\%$ confidence is $1.96$ using the standard normal table.\n\nThe correct $p^{*}$ is $0.3$ using the information given in the problem.\n\nSince the sample size is 250, n=250.\n\nCorrectly substituting these values into the formula yields a margin of error of 5.68%.\n\nThus, the correct answer is Choice 'C'.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. This selection measures only half the length of the true interval.\n\nChoice 'B' is incorrect. This selection measures the entire length of the confidence interval. The margin of error will always be half the length of the interval.\n\nChoice 'D' is incorrect. This simply restates the confidence level. The confidence level should not necessarily be equal to the margin of error.\n\nChoice 'E' is incorrect. This simply restates the sample proportion. The margin of error will be added to and subtracted from this figure, but this figure of 30%\ndoes not represent the margin of error.",
   "tags": [
     "UNC-4.C.4",
     "UNC-4.C.3",

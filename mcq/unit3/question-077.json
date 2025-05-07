@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Undercoverage means that certain groups are excluded from the sample, based on how the sample was conducted.",
-  "solution": "",
-  "explanations": {},
+  "solution": "For example, if the survey is conducted via e-mail, the survey is excluding all subjects in the population who do not have an e-mail address.\n\nThus, the correct answer is Choice 'D'.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. While undercoverage can reduce the sample size, the biggest problem with undercoverage is the type of people the survey is missing out on, not simply the fact that the sample size is a little bit smaller. From a statistical standpoint, a sample of size $n = 1500$ versus $n = 1400$ are very similar, as long as subjects are randomly selected.\n\nChoice 'B' is incorrect. Once again, with undercoverage the problem is not the fact that now sample sizes are a little bit smaller.\n\nChoice 'C' is incorrect. While wording of the question is important to consider in a survey, it is entirely different from undercoverage bias.\n\nChoice 'E' is incorrect. While it is important to have complete and accurate calculations based off the sample data, one of the conditions for these calculations is that the data come from an unbiased sample that is representative of the larger population.",
   "tags": [
     "DAT-2",
     "DAT-2.E.3",

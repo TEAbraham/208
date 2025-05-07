@@ -18,7 +18,7 @@
     },
     {
       "letter": "B",
-      "text": "All the restaurants do not have the same chance of being chosen. The manager is only selecting pairs of numbers from the random digit table. Restaurants with the numbers $100$ to $150$ have no chance of being chosen."
+      "text": "All the restaurants do not have the same chance of being chosen. The manager is only selecting pairs of numbers from the random digit table. Restaurants with the numbers 100 to 150 have no chance of being chosen."
     },
     {
       "letter": "C",
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "All restaurants do not have the same chance of being chosen. Choice 'B' correctly points out the major flaw.\n\nExplanation of Distractors\n\nChoice 'A' does not correctly identify the sampling flaw. There is no randomness in choosing restaurants with numbers that are multiples of 15\n.\n\nChoice 'C' is incorrect because the digits on a random digit table are independent of each other. If one digit is a\n3\n, the next digit has an equal chance of being any of the digits from\n0\nto\n9\n. Restaurants labeled with double digits have the same chance of being chosen as restaurants without double digits.\n\nChoice 'D' is incorrect because the manager is making an attempt to randomly select the restaurants.\n\nChoice 'E' is incorrect because the manager is using a random digit table. Proper use of a random digit table greatly reduces the chances of the manager inappropriately affecting the sample.",
   "tags": [
     "DAT-2",
     "DAT-2.E.3",

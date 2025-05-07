@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When finding the residual for this type of problem, there are two steps:\n\nChoice 'A' is incorrect because the incorrect value was substituted into the LSRL for the number of girls. $15$ was substituted in for the girls instead of $11$. Even if $15$ was the correct value, however, the residual would not have been $-15.3$.\n\nChoice 'B' is correct. The number of girls (11) was correctly substituted into the LSRL to get the predicted number of boys in the class (17.9), and the correct residual was computed, as seen below:\n\nActual - Predicted\n\n⇓\n\ny−\nˆ\ny\n= Residual\n\n⇓\n\n15−17.9=−2.9\n\nChoice 'C' is incorrect. The correct number of girls (11) was substituted into the LSRL to get the predicted number of boys in the class to (17.9). However, the formula for the residual is:\n\n Actual value - Predicted value\n\n⇓\n\ny−\nˆ\ny\n\nIn this case, the incorrect calculation was:\n\n Predicted - Actual\n\n⇓\n\n17.9−15=2.9\n\nChoice 'D' is incorrect because the incorrect number of girls was substituted into the LSRL. 15\nwas substituted in for the number of girls instead of 11\n.\n\nChoice 'E' is incorrect. The correct number of girls (11\n) was substituted into the LSRL, but the residual was never calculated.\n\nˆ\ny\n=−5.2+2.1(11)=17.9",
   "tags": [
     "DAT-1.E.1",
     "DAT-1.E",

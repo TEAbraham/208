@@ -8,7 +8,7 @@
   ],
   "title": "Family Game Night Probability",
   "difficulty": "Medium",
-  "question_text": "It’s family game night in Cocoa Beach. Residents settle in to play their favorite game and eat their favorite snack.<br>A random sample of $115\\text{ families}$ were asked their preferred game and snack, and the results are presented in the two-way table below.<br>What is the probability of being neither a Yahtzee enthusiast nor one who prefers chips and dip?",
+  "question_text": "It’s family game night in Cocoa Beach. Residents settle in to play their favorite game and eat their favorite snack.<br>A random sample of $115\\text{ families}$ were asked their preferred game and snack, and the results are presented in the two-way table below.<br>What is the probability of being neither a Yahtzee enthusiast nor one who prefers chips and dip?<br>What is the probability of being neither a Yahtzee enthusiast nor one who prefers chips and dip?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Pizza Rolls</th><th scope=\"col\">Chips and Dip</th><th scope=\"col\">Cookies</th></tr></thead><tbody><tr><td>Yahtzee</td><td>10</td><td>3</td><td>12</td></tr><tr><td>Trivial Pursuit</td><td>8</td><td>14</td><td>7</td></tr><tr><td>Monopoly</td><td>14</td><td>17</td><td>7</td></tr><tr><td>Wii Bowling</td><td>12</td><td>7</td><td>4</td></tr></tbody></table>"
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Eliminate the Yahtzee row and the Chips and Dip column, and you are left with:\n\n$$8+14+12+7+7+4 = 52$$\n\n...families that prefer neither Yahtzee nor chips and dip.\n\nNow we need to create the proportion out of the total $115 \\text{ families}$.\n\nThus, the correct answer for this problem is $\\frac{52}{115}$ which is Choice 'C'.\n\nIf you answered Choice 'B', you may have mistakenly eliminated the Chips and Dip column twice: once when you eliminated Yahtzee and again when you eliminated Chips and Dip.",
   "tags": [
     "VAR-4.A.1",
     "VAR-4.A.3",

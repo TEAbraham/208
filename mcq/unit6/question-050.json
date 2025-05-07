@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A $p$-value is always calculated based upon the assumption that the null hypothesis is true. In this case, Carter's null hypothesis would have been:\n\n$${ H }_{ 0 }: \\mu = 5$$\n\nBased on sampling variability, we know that a sample mean of $4.25$ hours is possible even if the true mean really is $5$ hours. The $p$-value, however, tells us how likely this is to happen - in this case, only about $3.8\\%$ of the time.\n\nExplanation of Distractors\n\nChoice 'A' while a correct statement, is not an interpretation of the $p$-value. Rather, it describes a decision Carter might make about his null hypothesis.\n\nChoice 'C' is incorrect and makes no sense. In $10$ observations, it is not possible for $3.8\\%$ of the laptops to have a battery life of $4.25$ hours or less. $3.8\\%$ of $10$ would be $0.38$ computers.\n\nChoice 'D' is incorrect since $3.8\\%$ relates to a probability associated with a sample of $10$ observations. It is not applicable to a single observation, nor to an exact value of $4.25$ hours.\n\nChoice 'E' is incorrect because $3.8\\%$ does not describe a characteristic of the entire population of laptop batteries.",
   "tags": [
     "4.B",
     "DAT-3",

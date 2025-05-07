@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice ‘A’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWhen a one-way table is give in a chi-square setting, it usually contains the observed values from the study. In order to calculate the expected value of any cell from the two-way table, use the formula\n\n$\\text{expected value} = \\dfrac{(\\text {row total})(\\text {column total})}{\\text {table total}}$\n\nFor this setting, the expected values are given in the table below:\n\nThe formula for calculating the chi-square test statistic, $\\chi^2$, is given on the official Statistics A.P. Formula Sheet.\n\n$\\chi^2$ = $\\Sigma$ $\\dfrac{(\\text {observed value - expected value})^2}{\\text {expected value}}$\n\nHere, the chi-square test statistic, $\\chi^2$ = $\\Sigma$ $\\dfrac{(\\text {observed value - expected value})^2}{\\text {expected value}}$ = $\\dfrac{(11 - 14.325)^2}{14.325}$ + $\\dfrac{(23 - 19.35)^2}{19.35}$ + $\\dfrac{(21 - 15.6)^2}{15.6}$ + $\\dfrac{(11 - 17.25)^2}{17.25}$ + $\\dfrac{(9 - 8.475)^2}{8.475}$ = $5.63$\n\nChoice 'A' is correct.\n\nExplanation of Distractors\n\nChoice ‘B’ is incorrect: $6.56$ is the value calculated if each fraction had the observed value in the denominator, rather than the expected value.\n\nChoice ‘C’ is incorrect: $0.229$ is the correct value for the P-value for the test.\n\nChoice ‘D’ is incorrect: $4$ is the correct value for the degrees of freedom for this setting.\n\nChoice ‘E’ is incorrect: $0.0023$ is the value calculated without squaring the numerator of each fraction that contributes to the total sum.",
   "tags": [
     "VAR-8.F",
     "3.E",

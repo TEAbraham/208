@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In this case, all four conditions are met for the geometric distribution:\n\n1. Is each trial independent?\n\nYes, getting one question correct has no bearing on getting the next question correct.\n\n2. Only two outcomes?\n\nYes, the student either gets the question correct or incorrect.\n\n3.\nSame Probability?\n\nYes, with five possibilities there is no question that is systematically harder to get correct than another.\n\n4.\nVariable of interest is the number of trials until success?\n\nYes, she is answering questions until she gets one wrong. “Success” does not necessarily have to be a positive outcome.\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "UNC-3.G.1",
     "4.B",

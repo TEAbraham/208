@@ -8,7 +8,7 @@
   ],
   "title": "Age vs. Test Score on Standardized Test",
   "difficulty": "Hard",
-  "question_text": "Suppose all students took a standardized test at a local school.<br>The students were between ages $8$ and $12\\text{ years old}$.<br>Linear regression was performed on age vs. test score. The computer output is below:<br><br><br><br><br>Which of the following statements is true?",
+  "question_text": "Suppose all students took a standardized test at a local school.<br>The students were between ages $8$ and $12\\text{ years old}$.<br>Linear regression was performed on age vs. test score. The computer output is below:<br>Created for Albert.io. Copyright 2017. All rights reserved.<br><br>Which of the following statements is true?",
   "image_files": [
     "images/question-071-img1.jpg"
   ],
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The definition of slope is the change of\ny\nfor one change in\nx\n. Using this definition in the context of the problem, every year, on average, test scores will increase by\n0.4349\n.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; with a very low\np\n-value (\np\n=\n0.0003421\n), strong evidence exists of a linear relationship between age and test scores.\n\nChoice 'C' is incorrect; this attempts to explain slope in the context of the problem but gives the value for the\ny\n-intercept, not the slope.\n\nChoice 'D' is incorrect; increases in this model will most likely level off, and it is always unwise to predict values far outside the range of data.\n\nChoice 'E' is incorrect; a low\np\n-value means a result such as this one would be very unlikely to happen by chance. Since the\np\n-value is so low (\np\n=\n0.0003421\n), there is strong evidence of a linear relationship between age and test score.",
   "tags": [
     "2.C",
     "DAT-1",

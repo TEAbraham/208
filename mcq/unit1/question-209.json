@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "If $x$ is an observation from a normal distribution with a known mean and standard deviation, the z-score of $x$ is:\n\n$$z=\\dfrac { \\text{x}-\\text{mean }}{ \\text{standard deviation} } $$\n\n1) Substitute the values into the formula:\n\n$$1.37=\\dfrac { 24-20 }{ \\sigma }$$\n\n2) Solve for the standard deviation:\n\n$$1.37=\\dfrac { 24-20 }{ \\sigma } $$\n\n$$ 1.37\\sigma =4$$\n\n$$ \\sigma =\\dfrac { 4 }{ 1.37 } $$\n\n$$ \\sigma=2.92$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as $20$ and $24$ were incorrectly placed in the numerator.\n\nChoice 'B' is incorrect as this is $\\dfrac { -1.37 }{ 4 }$.\n\nChoice 'C' is incorrect as this is $\\dfrac { 1.37 }{ 4 }$.\n\nChoice 'E' is incorrect as this is $4\\cdot 1.37$.",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

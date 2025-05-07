@@ -9,11 +9,9 @@
   ],
   "title": "Miller Family Reunion",
   "difficulty": "Hard",
-  "question_text": "The stemplot below displays the ages of the family members at the Miller family reunion.<br>Describe the shape of the distribution of ages.<br><br><br><br>",
+  "question_text": "The stemplot below displays the ages of the family members at the Miller family reunion.<br>Describe the shape of the distribution of ages.<br><br>Created for Albert.io. Copyright 2018. All rights reserved.",
   "image_files": [
-    "images/question-071-img1.png",
-    "images/question-071-img2.png",
-    "images/question-071-img3.png"
+    "images/question-071-img1.png"
   ],
   "tables": [],
   "choices": [
@@ -39,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Shape can be determined from a stemplot since the digits in the \"leaves\" usually occupy the same amount of space. The stemplot can be turned on its side to see the shape of the distribution. For example if the stemplot is turned on its side, we can see that the Millers' age distribution appears skewed right (the tail is on the right).\n\nCreated for Albert.io. Copyright 2018. All rights reserved.\n\nHowever, notice that the \"stems\" are in reverse order. The tail is in the smaller numbers, so this is a skewed left distribution. If we re-order the stems from smallest to largest, the skew can be seen in its proper direction:\n\nCreated for Albert.io. Copyright 2018. All rights reserved.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect and results from not paying attention to the order in which the stemplot is laid out. You may have incorrectly assumed by looking at the first image above that the distribution was skewed right.\n\nChoice 'B' is incorrect because there are not two peaks of near equal distribution.\n\nChoice 'D' is incorrect because there is clearly a cluster near the upper age distribution. A uniform distribution would show similar frequencies across all ages.\n\nChoice 'E' is incorrect because a stemplot gives the raw data which could be used to create a histogram. However, since each frequency is displayed, and depending on the key, the intervals are variable depending on the data, it is a good use to display distribution of the data.",
   "tags": [
     "UNC-1.H.1",
     "UNC-1.H",

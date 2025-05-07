@@ -26,7 +26,7 @@
     },
     {
       "letter": "D",
-      "text": "Yes, the sample average represents a 2.5% increase over the 2013-2014 costs. Since this is less than 5%, our results are statistically significant at the α=0.05 level."
+      "text": "Yes, the sample average represents a $2.5\\%$ increase over the 2013-2014 costs. Since this is less than $5\\%$, our results are statistically significant at the $\\alpha = 0.05$ level."
     },
     {
       "letter": "E",
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Mr. Nye is interested in a population mean, but only knows the standard deviation of the sample. A one-sample $t$-test is appropriate with the following hypotheses:\n\n$${ H }_{ 0 }: \\mu = 24{,}706$$\n\n$${ H }_{ a }: \\mu > 24{,}706$$\n\n...where $\\mu$ is the true mean cost of tuition, fees, etc. at the current time.\n\nBefore conducting our test, we must check to make sure that the conditions are satisfied. The conditions are:\n\nWe must have a random sample from our population of interest. This condition appears to be satisfied since Mr. Nye randomly selected one school from each state.\n\nThe sampling distribution is approximately normal. In sample sizes greater than $40$, this is generally true if there are no outliers. Since $n = 50$ and we know there are no outliers, we will consider this condition to be satisfied.\n\nHaving verified that our conditions are satisfied, we can proceed to finding the value of the $t$-statistic. The formula is:\n\n$$t = \\frac { \\overline { x } - \\mu }{ \\dfrac { s }{ \\sqrt { n } } }$$\n\nFilling in the formula:\n\n$$t = \\frac { 25{,}322-24{,}706 }{ \\dfrac { 2{,}375 }{ \\sqrt { 50 } } } = 1.834$$\n\nSince our hypothesis is one-sided in the greater than direction, we are now looking for $p(t > 1.834)$. In order to calculate this, we must first determine the degrees of freedom. In a $t$-test for means, $df = n – 1$ where $n$ is the number of observations.\n\nHere, $n = 50$, so $df = 50 – 1 = 49$. To find the $p$-value, use your TI83/84 graphing calculator's tcdf function. The syntax is: tcdf(lower bound, upper bound, df).\n\nIn this case you would:\n\nHit 'Enter', and your calculator will return the $p$-value of $0.036$. Since $0.036 < 0.05$, our results are statistically significant at the $\\alpha = 0.05$ level.\n\nThis provides good evidence to suggest that the total costs for tuition, fees, etc. is now greater than $$24,706$ and we can conclude that total costs have probably increased.\n\nNOTE: On a free-response problem it is very important to show all of your work. However, on a multiple choice problem of this nature, you can find the $p$-value directly using your TI83/84 graphing calculator. Here are the instructions:\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it represents the $p$-value associated with the two-sided alternative hypothesis of ${ H }_{ a }: \\mu \\neq 24{,}706$\n\nChoice 'B' is incorrect. We cannot assess statistical significance simply by looking at a change in the actual dollar amount.\n\nChoice 'D' is incorrect. We cannot look at the percentage of change in tuition and fees and connect it to a level of statistical significance.\n\nChoice 'E' is incorrect. As noted above, conditions appear to be satisfied.",
   "tags": [
     "UNC-4.T",
     "4.D",

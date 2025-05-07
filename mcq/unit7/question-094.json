@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Use the $t$-distribution table to look up $23$ degrees of freedom ($n-1$) to find that $2.45$ is between two critical values of $2.177$ and $2.5$.\n\nMove up the chart to see the upper tail probability is between $1\\%$ and $2\\%$. Therefore, the $p$-value must be between $1\\%$ and $2\\%$. Compared to $5\\%$, this $p$-value is a low $p$-value. Reject $H_0$ at $5\\%$.\n\nRemember to state decisions in terms of rejecting $H_0$ or failing to reject $H_0$.\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "VAR-1.J",
     "VAR-1.J.1",

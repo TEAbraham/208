@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nFormulas are given to you to find the mean and standard deviation for the binomial distribution.\n\nThe mean is not asked for here, but you would need to know it to answer and understand the second part. The formula for the mean is np where n stands for the number examined, in this case 100, and p stands for the given decimal, here, 0.18. So, the mean for this problem is 100(0.18)=18. Not a surprise!\n\nThe standard deviation uses this formula:\n√\nnp(1−p\n. For this problem we would plug in for n and p and get\n\n√\n(100)(0.18)(1−0.18)\n≈3.84\n\nThe standard deviation indicates how much you would expect the mean to vary on average. Here, then, if 100\nAmericans were sampled, we would expect the number of those with hazel eyes to vary from 18\nby 3.84\non average. Or, we would expect to see about 18±3.84\npeople with hazel eyes. Or, 14\nto 22\nmore realistically!\n\nSo, Choice 'B' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the square root was not taken so that the value is wrong.\n\nChoice 'C' is incorrect because here 0.18\nwas used instead of 18\nthus rendering the value too small.\n\nChoice 'D' is incorrect because the number is referred to as the variance where it is actually the standard deviation. Also, no meaning is given.\n\nChoice 'E' is incorrect because the number given is the variance, yet it is called the standard deviation. Wrong on two counts!",
   "tags": [
     "UNC-3.C.1",
     "UNC-3",

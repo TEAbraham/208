@@ -26,16 +26,15 @@
     },
     {
       "letter": "D",
-      "text": "Since government is a required daily course, survey all the students in the government classes during one school day until n=100."
+      "text": "Since government is a required daily course, survey all the students in the government classes during one school day until $n = 100$."
     },
     {
       "letter": "E",
-      "text": "Have each of the 10 members of the student council ask 10 of their friends, telling the members try to ask different types of people."
+      "text": "Have each of the $10$ members of the student council ask $10$ of their friends, telling the members try to ask different types of people."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A simple random sample must ensure that every person at the school has an equal chance of being selected. Only Choice 'C' does this.\n\nExplanation of Distractors\n\nChoice 'D' comes close, but students who are absent that day have no chance of being part of the survey.",
   "tags": [
     "DAT-2.C.2",
     "DAT-2",

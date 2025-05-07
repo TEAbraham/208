@@ -9,10 +9,9 @@
   ],
   "title": "R&C Insurance Charges: Percentile from a Stemplot",
   "difficulty": "Easy",
-  "question_text": "When paying medical and dental claims, an insurance company will only pay the amount that it deems reasonable and customary (R&C) for the procedure that has been performed.<br>It is time to update the R&C payment schedule for dental cleanings for adults and the insurance company has contacted a random sample of dentists to inquire about their charge for this procedure. Results are displayed below.<br><br><br><br><br>If the R&C payment will be set at the $80\\text{th}$ percentile, what will be the amount the insurance company will pay for this procedure?",
+  "question_text": "When paying medical and dental claims, an insurance company will only pay the amount that it deems reasonable and customary (R&C) for the procedure that has been performed.<br>It is time to update the R&C payment schedule for dental cleanings for adults and the insurance company has contacted a random sample of dentists to inquire about their charge for this procedure. Results are displayed below.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>If the R&C payment will be set at the $80\\text{th}$ percentile, what will be the amount the insurance company will pay for this procedure?",
   "image_files": [
-    "images/question-107-img1.PNG",
-    "images/question-107-img2.PNG"
+    "images/question-107-img1.PNG"
   ],
   "tables": [],
   "choices": [
@@ -38,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "By counting, we can determine that there were\n34\n observations\n. About\n80\n%\nof values will be at or below the\n80\nth\n percentile\n. Therefore, we need to determine what is\n80\n%\nof\n34\n. This is done as follows:\n\n(\n0.80\n)\n(\n34\n)\n=\n27.2\n\nThis means that the\n27\nth\nhighest value is the value at the\n80\nth\n percentile\n. To find this number, start counting values from the bottom of the stemplot (where the minimum value of\n59\nis represented) towards the top of the stemplot where larger values are displayed. Be careful to always count from left to right since the lower values are arranged on the left part of any row.\n\nThe\n27\nth\nvalue counted will be the number\n92\nhighlighted below.\n\nCreated for Albert.io. Copyright 2016. All rights reserved.\n\nChoice 'D' is the correct choice.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect and is the value you will arrive at if you start counting downward from the top of the stemplot in order to reach the\n27\nth\nnumber.\n\nChoice 'B' is incorrect and is the value after the one described in Choice 'A' above.\n\nChoice 'C' is incorrect and is just the percentile.\n\nChoice 'E' is incorrect. You will reach this value if you count from right to left along the rows while counting from the bottom of the stemplot upward.",
   "tags": [
     "UNC-1.I.5",
     "2.A",

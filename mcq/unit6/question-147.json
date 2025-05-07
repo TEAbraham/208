@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nAn interval estimate is simply a confidence interval which gives the range, at a given confidence level, of the change in proportions. In this problem we wish to look at how much the percentage of $5$ diamond ratings changed. To do this we use this formula:\n\n(\nˆ\np\n1−\nˆ\np\n2)±z∗\n√\nˆ\np\n1(1−\nˆ\np\n1)\nn1\n+\nˆ\np\n2(1−\nˆ\np\n2)\nn2\n\n...where the p-hats are the sample proportions\nˆ\np\n1=\n42\n50\n=0.840 and\nˆ\np\n2=\n40\n54\n=0.741, z∗=1.96 based on the 95% confidence level given, and the values of n are the two sample sizes of 50 and 54.\n\nWe get:\n\n(0.840−0.788)±1.96\n√\n0.840(1−0.840)\n50\n+\n0.741(1−0.741)\n54\n\n=0.099±0.155\n=(−0.056,0.254)\n\nSo, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because a 90%\nconfidence level was used by mistake with a z∗=1.645\n.\n\nChoice 'B' is incorrect because the two sample proportions were mixed up.\n\nChoice 'C' is incorrect because a 99%\nconfidence level was used by mistake with a z∗=2.576\n.\n\nChoice 'D' is incorrect because the sample proportions alone are used. While these numbers are important to examine, they do not give the actual interval estimate of change.",
   "tags": [
     "UNC-4.L",
     "3.D",

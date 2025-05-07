@@ -8,7 +8,7 @@
   ],
   "title": "Bidders and Auction Prices",
   "difficulty": "Medium",
-  "question_text": "An artist frequently sells his oil paintings on an online auction site. He wants to determine if there is a relationship between the number of bidders for his artwork and the final auction price.<br>Consider the following values for numbers of bidders ($x$) and auction prices ($y$):<br>A regression analysis resulted in the following output:<br><br><br><br><br>What is the value of the residual for the point with an $x$-value of $2$?",
+  "question_text": "An artist frequently sells his oil paintings on an online auction site. He wants to determine if there is a relationship between the number of bidders for his artwork and the final auction price.<br>Consider the following values for numbers of bidders ($x$) and auction prices ($y$):<br>A regression analysis resulted in the following output:<br>Created for Albert.io. Copyright 2017. All rights reserved.<br><br>What is the value of the residual for the point with an $x$-value of $2$?",
   "image_files": [
     "images/question-090-img1.JPG"
   ],
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The value of the residual is the actual value minus the predicted value. The actual value refers to the corresponding value of\ny\nfor\nx\n, in this case,\n2\n.\n\nThe corresponding value for\nx\n=\n2\nis\ny\n=\n1245\n. Using the regression output, we see that the slope is\n6.436508\nand the\ny\n-intercept is\n1104.643\n. The least squares line is:\n\n1104.643\n+\n6.436508\nx\n\nUsing this equation and plugging in\nx\n=\n2\n, the predicted value of\ny\nis\n1117.516\n.\n\nThe residual is calculated as (actual)-(predicted), or\n1245\n−\n1117.516\n=\n127.4841\n.\n\nThus, the correct answer is Choice 'B'.\n\nNote: one could also estimate the correct answer based off the residual plot.",
   "tags": [
     "DAT-1.E.1",
     "DAT-1.E",

@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When two independent random variables (in this case, the two apple weights) are subtracted, take the difference of the means.\n\nSince we are combining two identical distributions, the difference of the two means will be $(5)-(5) = 0$; thus, the new $µ = 0$. To calculate the standard deviation of the difference of two random variables, first add the variances of the individual distributions.\n\nFor this problem, the variance is the square of the standard deviation: ($0.5$)($0.5$) = $0.25$ for the original distribution. The new distribution, therefore, has a variance of $(0.25)+(0.25) = 0.5$.\n\nTo get the standard deviation of this new distribution of apple weight differences, take the square root of the new variance: $\\sigma = \\sqrt{0.5}$.\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "VAR-5.E",
     "VAR-5.E.2",

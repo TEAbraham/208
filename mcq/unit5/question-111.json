@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice ‘B’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nIncreasing the sample size from $200$ to $500$ reduces the variance, or the spread, of values of the statistic displayed in the sampling distribution. The larger the sample, the less likely it is to get extreme values (small and large). In addition, the larger the sample size, the closer the sample is to the actual population that is being studied.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect. Bias is present when a statistic tends to overestimate or underestimate a parameter. Bias can result from many reasons, including sampling or measurement errors, or unrepresentative samples. The size of the sample does not have an effect on the bias that is or is not present.\n\nChoice ‘C’ is incorrect. Nonresponse occurs when subjects chosen to be part of a sample refuse to participate. The size of a sample has no effect on the nonresponse rate.\n\nChoice ‘D’ is incorrect. While increasing the sample size decreases the variance of a statistic, like $\\bar{x}$ or $\\hat{p}$, it does not decrease the likelihood of any one respondent from responding in a certain manner. In both small and large samples, it is possible (and sometimes likely) to get extreme values from one subject.\n\nChoice ‘E’ is incorrect. As stated in the solution above, the larger the sample, the closer the sample is to the actual population that is being studied and will thus be more accurate in representing the population being studied.",
   "tags": [
     "UNC-3.I",
     "4.B",

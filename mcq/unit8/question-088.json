@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice ‘D’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe most important aspect of a study is the idea of randomness. Using random selection in choosing the $80$ students minimizes the effects of lurking variables and reduces bias.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect: The chi-square distribution is a family of right-skewed density curves. Thus, the normal condition does not apply to chi-square settings.\n\nChoice ‘B’ is incorrect: In a chi-square setting, there is no requirement for the number of categories.\n\nChoice ‘C’ is incorrect: One of the conditions for a chi-square hypothesis test is requiring all expected values to be at least $5$. The only requirement for an observed count is each observed count must be at least one.\n\nChoice ‘E’ is incorrect: In a chi-square setting, the requirement for expected counts is that each is at least $5$, but all do not need to be equal.",
   "tags": [
     "VAR-8.C",
     "VAR-8.C.1",

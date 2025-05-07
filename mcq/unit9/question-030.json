@@ -27,16 +27,15 @@
     },
     {
       "letter": "D",
-      "text": "(9.2,10.2)\nWe are 99% confident that the interval from 9.2 to 10.2 contains the slope of the true regression line relating grade point average and starting salary. We have convincing evidence that there is no association between theses two variables."
+      "text": "$(9.2, 10.2)$\nWe are $99\\%$ confident that the interval from $9.2$ to $10.2$ contains the slope of the true regression line relating grade point average and starting salary. We have convincing evidence that there is no association between theses two variables."
     },
     {
       "letter": "E",
-      "text": "(9.465,9.935)\nWe are 99%\nconfident that the interval from 9.465\nto 9.935\ncontains the slope of the true regression line relating grade point average and starting salary. We have convincing evidence that there is an association between theses two variables."
+      "text": "(9.465,9.935)\nWe are 99% confident that the interval from 9.465 to 9.935 contains the slope of the true regression line relating grade point average and starting salary. We have convincing evidence that there is an association between theses two variables."
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWhen finding a confidence interval for the slope of a regression line, the following formula should be used:\n\nb±t∗(SEb)\n\n...where b\nis the slope of the line of best fit, t∗\nis the critical value, and SEb\nis the standard error of the slope.\n\nWhile we are given the values for b\n(9.7\n, the slope from the equation) and SEb\n(0.25\n, the standard error), we need to use Table B\nto find the value of the critical value or t∗\n. Since our sample size is 65\n, and we know that the degrees of freedom for this type of interval is n−2\n, then we use a d.f. of 65−2=63\nthen dropping down to 60\nto conservatively use the table. Using the 99%\nconfidence level column, we find a t∗\nvalue of 2.660\n.\n\nSubstituting the above values into our formula for a confidence interval we get: 9.7±(2.660)(0.25)\nwhich simplifies to 9.7±0.665\nor (9.035,10.365)\n.\n\nNow we need to interpret the interval. A standard way of describing the interval would be to say we are 99%\nconfident that our interval contains the true slope of our regression model. We would also include the context of the problem. In addition, we would note that, since our interval does not contain zero, we have evidence that there is an association between grade point average and starting salary.\n\nSo, Choice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect because there is an association between the variables.\n\nChoice 'C' is incorrect because the interval is mistakenly based on the critical value for a\n95\n%\nconfidence level.\n\nChoice 'D' is incorrect because the interval is mistakenly based on the critical value for a\n95\n%\nconfidence level and because there is an association between the variables.\n\nChoice 'E' is incorrect because a numerical mistake was made and the confidence interval values are wrong.",
   "tags": [
     "UNC-4.AH.1",
     "UNC-4",

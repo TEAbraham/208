@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A larger proportion of women in Alaska than in Rhode Island would mean that\nˆ\np\nRI−\nˆ\np\nA<0\n.\n\nThe sampling distribution for pRI−pA\nshould be nearly normal because:\n\n(nRI)(pRI)=(50)(0.517)=25.85≥10\n\n(nRI)(1−pRI)=(50)(0.483)=24.15≥10\n\n(nA)(pA)=(50)(0.480)=24.0≥10\n\n(nA)(1−pA)=(50)(0.520)=26.0≥10\n\nThe sampling distribution will have a mean of 0.037\nand a standard deviation of:\nσpRI−pA=\n√\n(0.517)(0.483)\n50\n+\n(0.480)(0.520)\n50\n=0.100\n\nP(\nˆ\np\nRI−\nˆ\np\nA<0)=P(z<\n0−0.037\n0.1\n)=P(z<−0.37)=0.356\n\nOn a calculator: normalcdf\n(\n−\n99\n,\n−\n0.37\n,\n0\n,\n1\n)\n=\n0.356\n\nExplanation of Distractors\n\nChoices 'B' and 'C' are incorrect and represent an incorrect calculation. The\nz\n-score was calculated by:\n\n√\n51.7\n−\n48\n50\n\n=\n0.27\n\n...which results in a\np\n-value of\n0.606\non the\nz\n-score distribution table. Choice 'C' is incorrect. Choice 'B' is the complementary answer.\n\nChoice 'D' is incorrect. This is the complement of the correct answer. You can also find this distractor if you use\nz\n=\n0.37\ninstead of the negative value.",
   "tags": [
     "UNC-3.N",
     "UNC-3",

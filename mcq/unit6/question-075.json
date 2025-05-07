@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'A' is correct; if the null hypothesis is true, you would not want to reject it. At a set $\\alpha$-level (alpha), for example $ \\alpha =0.05$, you are essentially saying that if an “unusual” experimental result occurs, one that would happen by chance only $5\\%$ of the time or less, then this would be grounds to reject the null hypothesis.\n\nHowever, occasionally ($5\\%$ of the time, to be exact) an unusual result occurs even when the null hypothesis is true. The null hypothesis will be mistakenly rejected even though it is true. This is a type I error, and its probability is always equal to the value that is set for $\\alpha$.\n\nChoices 'B' and 'C' are incorrect; these describe correct statistical decisions, not errors.\n\nChoice 'D' is incorrect; it describes a type II error, with probability $\\alpha$.\n\nChoice 'E' is incorrect; type I and type II errors relate to a single hypothesis test.",
   "tags": [
     "UNC-5.A.1",
     "UNC-5.A",

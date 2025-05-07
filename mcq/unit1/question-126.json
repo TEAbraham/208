@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is correct.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The principle difference between a boxplot and a modified boxplot is that outliers are plotted separately.\n\nThe whiskers in a modified boxplot extend to the greatest and least points that are not outliers.\n\nOutliers are plotted separately by the following criteria:\n\nLow outliers are below:\nQ\n1\n−\n(\n1.5\n(\nI\nQ\nR\n)\n)\n\nHigh outliers are above:\nQ\n3\n+\n(\n1.5\n(\nI\nQ\nR\n)\n)",
   "tags": [
     "UNC-1.L.2",
     "2.B",

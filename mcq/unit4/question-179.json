@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The easiest way to solve this is by using the calculator function binomcdf ($22, 0.7, 16$). The result is $0.687$, but this is the probability that $16$ or fewer plants survive.\n\nThe question asks the probability that $17$ or more plants survive, so you must subtract your calculator answer from $1$ to get the correct answer of $0.313$.\n\nThus, the correct answer is Choice 'B'.\n\nAlternatively, you could determine the solution by hand.\n\nThe probability that $17$ plants out of the $22$ survive can be represented by the first $17$ plants survive times the next $5$ plants do not survive times the number of different ways $17$ out of $22$ plants can survive.\n\n$$0.7^{17} \\cdot 0.3^{5} \\cdot {}_{22} C_{17}$$\n\nUse the same methods to find the probabilities of $18, 19, 20, 21,$ and $22$ plants survive, and find the sum of these probabilities.",
   "tags": [
     "UNC-3.B",
     "3.A",

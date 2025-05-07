@@ -8,7 +8,7 @@
   ],
   "title": "Red Candies",
   "difficulty": "Easy",
-  "question_text": "The Spittles company claimed that there were $20\\%$ red candies in its fun-size packs and $20\\%$ red candies in its jumbo size bags. A test was run where the proportion of red candies in $80$ samples of each size type were to be recorded.\nWhat would the mean and standard deviation be for the sampling distribution for this difference in sample proportions?",
+  "question_text": "The Spittles company claimed that there were $20\\%$ red candies in its fun-size packs and $20\\%$ red candies in its jumbo size bags. A test was run where the proportion of red candies in $80$ samples of each size type were to be recorded.\nWhat would the mean and standard deviation be for the sampling distribution for this difference in sample proportions?<br>What would the mean and standard deviation be for the sampling distribution for this difference in sample proportions?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -26,16 +26,15 @@
     },
     {
       "letter": "D",
-      "text": "The mean of the differences, μ, is equal to 0.4.\nThe standard deviation of the differences, σ, is equal to 0."
+      "text": "The mean of the differences, $\\mu$, is equal to $0.4$.\nThe standard deviation of the differences, $\\sigma$, is equal to $0$."
     },
     {
       "letter": "E",
-      "text": "The mean of the differences, μ\n, is equal to 0.4\n.\nThe standard deviation of the differences, σ\n, is equal to 0.036\n."
+      "text": "The mean of the differences, $\\mu$, is equal to $0.4$.\nThe standard deviation of the differences, $\\sigma$, is equal to $0.036$."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTo find the two parameters for this sampling distribution for a difference in proportions we need to find the mean and the standard deviation of that difference. To do so we use the following two formulas:\n\n$$\\mu_{\\hat{p}_{1}-\\hat{p}_{2}}=p_{1}-p_{2}$$\n\n$$\\sigma_{\\hat{p}_{1}-\\hat{p}_{2}}=\\sqrt{\\dfrac{p_{1}(1-p_{1})}{n_{1}}+\\dfrac{p_{2}(1-p_{2})}{n_{2}}}$$\n\nNow we plug in values. Both values for p are equal to 0.20 and both values for n are equal to 80. We get:\n\nμ\nˆ\np\n1−\nˆ\np\n2=0.20−0.20=0\n\nσ\nˆ\np\n1−\nˆ\np\n2=\n√\n0.20(1−0.20)\n80\n+\n0.20(1−0.20)\n80\n≈0.063\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it was assumed that since both values were equal, that the differences would be taken of each.\n\nChoice 'C' is incorrect because, though the mean is correct, the square root was not taken in the calculation of the standard deviation.\n\nChoice 'D' is incorrect because both answers are wrong. The means were added and then subtracted.\n\nChoice 'E' is incorrect because both answers are wrong. The means were added and the standard deviation had two digits reversed.",
   "tags": [
     "UNC-3.N",
     "UNC-3",

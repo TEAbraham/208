@@ -9,7 +9,7 @@
   ],
   "title": "Boxplots and Five Number Summary: Golf - Is It a Sport?",
   "difficulty": "Medium",
-  "question_text": "The boxplots below show the age of the members of two local golf organizations, The Fore-fathers and Tee-rific.<br>Which if the following statements is best supported by the boxplots?<br><br><br><br>",
+  "question_text": "The boxplots below show the age of the members of two local golf organizations, The Fore-fathers and Tee-rific.<br>Which if the following statements is best supported by the boxplots?<br><br>Created for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-128-img1.png"
   ],
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A five number summary gives you just that, five numbers. Specifically, those numbers are the minimum, first quartile, median, third quartile, and maximum. A boxplot does not give much information beyond that.\n\nYou know that about one-quarter of the observations lie between the first quartile and the median, but you do not know where in that interval they lie. In this case, the Fore-fathers have two large gaps and a bimodal distribution. Tee-rific has an approximately uniform distribution. However, the two groups have the same five number summary.\n\nChoice 'A' is incorrect because it is easy to calculate the range from a five number summary. The range is calculated as maximum – minimum. Since the maximum and minimum are part of a five number summary, the range can be calculated.\n\nChoice 'C' is incorrect because the Inter Quartile Range, or IQR, is calculated as the difference between the third quartile and the first quartile. Since both the third quartile and first quartile are part of a five number summary, the IQR can be calculated from a five number summary.\n\nChoice 'D' is incorrect because a five number summary contains both the median and the maximum, so this difference can be calculated.",
   "tags": [
     "UNC-1.L.2",
     "2.B",

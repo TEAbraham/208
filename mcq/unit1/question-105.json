@@ -30,7 +30,7 @@
     },
     {
       "letter": "D",
-      "text": "There are more buying prices between the $1\\text{st}$ quartile and the median than there are between the median and $3\\text{rd}$ quartile."
+      "text": "There are more buying prices between the 1st quartile and the median than there are between the median and 3rd quartile."
     },
     {
       "letter": "E",
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since the distribution is skewed to the right, this indicates that the tail of the distribution extends out to the right (larger values). Therefore, there is a larger spread between the maximum and the third quartile than between the minimum and first quartile.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The median is the middle number or the average of the two middle numbers. In some instances, the median could be the average of the first and third quartiles (if many of the values are the same), but not always.\n\nChoice 'B' is incorrect. In a skewed right distribution (skewed toward the larger values), the mean is larger than the median, as the mean is affected by extremes (nonresistant), whereas the median is not affected by extremes (resistant).\n\nChoice 'D' is incorrect. 25%\nof the buying prices are between both the first quartile and the median (50%−25%\n) and the third quartile and median (75%−50%\n).\n\nChoice 'E' is incorrect. There are fewer buying prices greater than the mean since the distribution is skewed to the right.",
   "tags": [
     "UNC-1.I.3",
     "UNC-1.I.2",

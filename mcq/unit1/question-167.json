@@ -41,8 +41,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "With a stemplot we can take advantage of the fact that all of the data values are shown in the graph in order from smallest to largest. For each stemplot, you can cross out the smallest and largest number one at a time while working your way to the center number, the median.\n\nIf there are two center numbers, then the median is the average of the two numbers.\n\nWe can determine that there are\n16\nvalues in the first set in Choice 'A'. Therefore, the median will be the average of the two terms in the\n8\nth\nand\n9\nth\npositions. For Choice 'A', we have\n56\nand\n66\n:\n\nMedian\n=\nA\n+\nB\n2\n\n=\n56\n+\n66\n2\n\n=\n122\n2\n\n=\n61\n\nTherefore, Choice 'A' is correct.\n\nAnother approach would be to notice that the distribution in Choice 'A' is skewed left so the median will be higher than in the symmetric stemplots in Choices 'B', 'D', and 'E'. The distribution in Choice 'C' is skewed right so the median will be lower than the others.\n\nExplanation of Distractors\n\nThe median in Choice 'B' is\n46\n.\n\nThe median in Choice 'C' is\n39\n.\n\nThe median in Choice 'D' is\n42\n.\n\nThe median in Choice 'E' is\n42\n.",
   "tags": [
     "UNC-1.N.1",
     "2.D",

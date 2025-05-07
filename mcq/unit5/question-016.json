@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The mean of the proportion is $\\dfrac{35}{50} = 70\\%$.\n\nThe standard deviation of the proportion $6.48\\%$, using the formula below, substituting $p = 0.7$ and $n = 50$:\n\n$$\\sigma = \\sqrt{\\dfrac{p(1-p)}{n}}$$\n\n$$\\sigma = \\sqrt{\\dfrac{0.7(1-0.7)}{50}}$$\n\n$$\\sigma =6.48$$\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "UNC-3.K.1",
     "UNC-3",

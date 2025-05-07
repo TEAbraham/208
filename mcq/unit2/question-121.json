@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "First, plot the data to see the form is clearly exponential. Alternatively, one could calculate the correlation coefficient of $(\\text{year}, \\text{profits})$, and also calculate the correlation between $(\\text{year}, \\log (\\text{profits}))$ to see $(\\text{year}, \\log (\\text{profits}))$ has a higher $r$-value.\n\nOnce it is obvious that the data has exponential form, take the log of the $y$-values (profit) to linearize the data given in the table of the prompt.\n\nComputer printout or a calculator will show the equation (rounded):\n\n$$\\log{\\text{(Profits)}} = 0.09 {\\text{(Year)}} + 0.15$$\n\nVia TI 83/84 graphing calculator:\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "2.C",
     "DAT-1",

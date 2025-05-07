@@ -9,7 +9,7 @@
   ],
   "title": "Advantages of Stratified Random Sampling",
   "difficulty": "Medium",
-  "question_text": "A school district has hired a new janitorial services company and the superintendent wants to inspect a random sample of classrooms in each of the district's eight total schools in order to see how well the rooms are being cleaned. Each of the eight schools has its own building.<br>The superintendent has decided to conduct a stratified random sample where the eight different school buildings represent eight different strata.\nIn this situation, what is an advantage to using stratified random sampling?",
+  "question_text": "A school district has hired a new janitorial services company and the superintendent wants to inspect a random sample of classrooms in each of the district's eight total schools in order to see how well the rooms are being cleaned. Each of the eight schools has its own building.<br>The superintendent has decided to conduct a stratified random sample where the eight different school buildings represent eight different strata.\nIn this situation, what is an advantage to using stratified random sampling?<br>In this situation, what is an advantage to using stratified random sampling?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Stratified random sampling is a specific method of sample design in which the entire population of interest (all of the classrooms in all of the schools in this district) are first divided into strata (consisting of the different schools) and then a simple random sample (of individual classrooms) is selected from each strata to create the final sample that will be used.\n\nOne advantage of stratified random sampling is that it guarantees that the final sample will have representation from all of the different strata. In this case, it is important that the superintendent be able to inspect classrooms in every school. If he had decided to use a different type of sample, it is possible that one (or more) schools would not be inspected at all. If the cleanliness of the classrooms in these schools was different from that of the schools that were included in the sample (much dirtier perhaps) then the superintendent's final assessment of the performance of the new janitorial services company would be inaccurate.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Using a stratified random sample may end up being more difficult and time-consuming since it means that the superintendent will definitely have to visit all eight schools in the district.\n\nChoice 'C' is incorrect. Non-response bias occurs when an individual who has been selected to be part of a sample refuses to provide information or cannot be contacted. The classrooms cannot refuse to be inspected.\n\nChoice 'D' is incorrect. The superintendent's population of interest is all of the classrooms in all of the buildings in his school district. No matter what sampling technique he uses, the superintendent would not visit classrooms outside his district. The superintendent himself would make sure of that!\n\nChoice 'E' is incorrect. A simple random sample is a terrific way of selecting a sample if individuals within the population tend to be similar with respect to the variable of interest. However, if differences exist between different groups within the population of interest, using a simple random sample will not allow us to notice this difference.",
   "tags": [
     "DAT-2",
     "DAT-2.D.1",

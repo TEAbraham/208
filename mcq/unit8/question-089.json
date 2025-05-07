@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice ‘B’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe appropriate test to use here is a Chi-Square Goodness of Fit Test. The Goodness of Fit Test is used to analyze categorical data given in a one-way table.\n\nA Goodness of Fit Test tests the null hypothesis that a categorical variable has a specified distribution. Here, the null hypothesis claims births are evenly distributed among the days of the week.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect: The null hypothesis is always a statement of equality. The null hypothesis for this setting should claim the proportion of birthdays on a Monday is equal to the proportion of birthdays on a Tuesday, etc.\n\nChoice ‘C’ is incorrect: If the goal is to hypothesize about the true proportion of births that occur on a Friday, these hypotheses would be correct. However, the goal is to analyze births for each day of the week, not just Friday.\n\nChoice ‘D’ is incorrect: As stated above, the null hypothesis is always a statement of equality. Thus, this set of hypotheses is incorrect and should be written as answer choice C, if the goal is to test a single proportion.\n\nChoice ‘E’ is incorrect: This set of hypotheses is appropriate to use for a Chi-Square Test for Association, but two categorical variables need to be analyzed.",
   "tags": [
     "1.F",
     "VAR-8.B.1",

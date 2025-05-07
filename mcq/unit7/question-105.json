@@ -10,7 +10,7 @@
   ],
   "title": "Construction of a Type of Mean interval : Who Gets Paid More?",
   "difficulty": "Hard",
-  "question_text": "You have probably heard that men are typically paid more than women for the same type of job. A researcher wanted to investigate this claim. Using information from a census, the researcher randomly selected $10$ occupations and looked at the median salary (in dollars) for men and women from each occupation. The median salaries per occupation and the differences (man-woman) are given in the table below. Each occupation is listed as a letter.<br><br><br><br><br>Which of the following represents a $90\\%$ confidence interval for the average difference in the median prices per occupation between men and women?",
+  "question_text": "You have probably heard that men are typically paid more than women for the same type of job. A researcher wanted to investigate this claim. Using information from a census, the researcher randomly selected $10$ occupations and looked at the median salary (in dollars) for men and women from each occupation. The median salaries per occupation and the differences (man-woman) are given in the table below. Each occupation is listed as a letter.<br>Created for Albert.io. Copyright 2017. All rights reserved.<br><br>Which of the following represents a $90\\%$ confidence interval for the average difference in the median prices per occupation between men and women?",
   "image_files": [
     "images/question-105-img1.png"
   ],
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To solve for this, you must first realize this is paired data and not two-sample. The data is paired by occupation, meaning there is a man and woman that goes to each occupation.\n\nThis is also a $t$-interval, since the population standard deviation is unknown and we are using a sample standard deviation. Remember the mnemonic Mr. T is mean.\n\nA paired $t$-interval for means is run the same way as a one-sample $t$-interval for means. In this case, we use the differences (data from row 3) of each occupation for data. Put that data into your calculator and run the $t$-interval, or you could do the work out by hand.\n\nIf you have TI-84:\n\nEnter the data in L1\nGo to Stat\nGo to Test\nSelect T-interval\nSelect Data and L1\nChange the level to .90\nCalculate\n\nExplanation of Distractors\n\nChoice 'B' is incorrect, as that is the answer for a paired $z$-interval for means.\n\nChoice 'C' is incorrect, as that is the answer for a two sample $t$-interval for means.\n\nChoice 'D' is incorrect, as that is the answer for a two sample $z$-interval for means.\n\nChoice 'E' is incorrect, as this answer comes from the minimum difference and maximum difference of the occupations.",
   "tags": [
     "3.D",
     "UNC-4.Y.1",

@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The formula given in this example is the binomial formula (formula is given on the AP exam)\n\n$$\\begin{pmatrix} n \\\\ k \\end{pmatrix}(p)^{k}(1-p)^{n-k}$$\n\nThe mean of binomial distribution is given by the formula(formula is given on AP exam)\n$$\\mu =n\\bullet p$$\n\nIn our case, since $n=20$ and $p=0.44$,\n\n$$\\mu=20\\bullet 0.44=8.8$$\n\nChoice 'C' is our answer.\n\nExplanations of Distractors Choice 'A' is incorrect as this value is computed by 10∙0.44 Choice 'B' is incorrect as this value is computed by 10∙0.56 Choice 'D' is incorrect as this value is computed by 20∙0.50 Choice 'E' is incorrect as this value is computed by 20∙0.56",
   "tags": [
     "UNC-3.C.1",
     "UNC-3",

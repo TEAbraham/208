@@ -20,24 +20,23 @@
     },
     {
       "letter": "B",
-      "text": "At least 20 of the scores are less than 60."
+      "text": "At least $20$ of the scores are less than $60$."
     },
     {
       "letter": "C",
-      "text": "Of the scores, 0.0228\nare less than 60\n."
+      "text": "Of the scores, $0.0228$ are less than $60$."
     },
     {
       "letter": "D",
-      "text": "At least 637\nof the scores are less than 60\n."
+      "text": "At least 637 of the scores are less than 60."
     },
     {
       "letter": "E",
-      "text": "Most likely, no more than about 213\nsubjects can be expected to score either less than 60\nor more than 76\n."
+      "text": "Most likely, no more than about 213 subjects can be expected to score either less than 60 or more than 76."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since it is unknown whether the scores are normally distributed, Chebyshev’s Inequality (or \"Chebyshev’s Theorem\") must be used.\n\nChebyshev’s Inequality states that no more than\n1\nk2\nof observations can be k\nor more standard deviations from the mean.\n\nLet's first find our k\nvalue by doing the following calculation:\n\nk=\n(mean−x)\nStandard Deviation\n\n(68−60)\n4\n=k=2\n\nSo, we can now say that no more than\n1\n22\n=\n1\n4\n=25%\nof observations can be 2\nor more standard deviations from the mean of 68 points\n.\n\nWe could then also say 75%\nof the 850\ntotal scores (meaning 637.5\nscores) should be between two (since k=2\n) standard deviations below the mean (a score of 60\n) and two standard deviations above the mean (a score of 76\n).\n\nSince 25%\nof 850= 213\n, we would expect no more than about 213\nsubjects to score either less than 60\nor more than 76\n.\n\nTherefore, the correct answer is Choice 'E'.",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

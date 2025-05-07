@@ -12,10 +12,9 @@
   ],
   "title": "Spinning a Wheel for a Discount: Determining Shape",
   "difficulty": "Medium",
-  "question_text": "A car dealership is having a big promotion where customers who purchase a car can spin a spinner to determine how much of a discount they will get off the purchase price. Discounts range from $\\$500$ to $\\$2500$.<br>The spinner is shown below and all wedges on the spinner are equal in area.<br><br><br><br><br>If a boxplot was created to display the distribution of discount amounts, what would the boxplot reveal about the shape of the distribution?",
+  "question_text": "A car dealership is having a big promotion where customers who purchase a car can spin a spinner to determine how much of a discount they will get off the purchase price. Discounts range from $\\$500$ to $\\$2500$.<br>The spinner is shown below and all wedges on the spinner are equal in area.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>If a boxplot was created to display the distribution of discount amounts, what would the boxplot reveal about the shape of the distribution?",
   "image_files": [
-    "images/question-121-img1.PNG",
-    "images/question-121-img2.PNG"
+    "images/question-121-img1.PNG"
   ],
   "tables": [],
   "choices": [
@@ -41,8 +40,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "From the spinner, we first need to determine the frequency of each discount amount. We can do this by counting up how many sections on the spinner relate to each discount.\n\n$\n500\ndiscount -\n2\nsections\n$\n750\ndiscount -\n7\nsections\n$\n1000\ndiscount -\n5\nsections\n$\n1500\ndiscount -\n3\nsections\n$\n2000\ndiscount -\n2\nsections\n$\n2500\ndiscount -\n1\nsection\n\nSince most of the frequency is concentrated in the smaller discount amounts, the shape of the distribution would be skewed right.\n\nChoice 'C' is the correct answer.\n\nWe can verify this by entering the discount amounts (the correct number of times) into our\nT\nI\n83\n/\n84\ncalculator and having the calculator produce the corresponding boxplot. Calculator instructions are as follows:\n\nPress STAT\nWhile EDIT is highlighted, press ENTER\nIn\nL\n1\n, enter the values found on the spinner. (Remember to enter\n500\ntwo times,\n750\nseven times, etc.)\nPress\n2\nnd\n\nPress\nY\n=\n\nWhile\n1\n(forPlot\n1\n) is highlighted, press ENTER\nHighlight On to turn the plot on\nSelect the modified boxplot as the Type of plot\nMake sure XList identifies\nL\n1\n\nPress ZOOM\nPress\n9\n\nThe calculator will show a boxplot similar to the one shown below.\n\nCreated for Albert.io. Copyright 2016. All rights reserved.\n\n\n\nSince the boxplot is more stretched out on the right, the distribution is skewed right.\n\nExplanation of Distractors\n\nSince the distribution is skewed right, this makes Choices 'A', 'B', and 'D' incorrect since these all reference a different type of shape.\n\nChoice 'E' is incorrect. The variable of interest is the amount of the discount, which is a quantitative variable. The spinner is simply a way to determine how much of a discount the customer will receive. And while it is true that the spinner might really just be a pie chart in disguise, this does not change the fact that the variable of interest is quantitative. Therefore, a boxplot is an appropriate type of graphical display.",
   "tags": [
     "UNC-1.L.2",
     "2.B",

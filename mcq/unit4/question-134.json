@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice ‘C’ is our answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We are dealing with a linear transformation.\n\nSince the mean is measure of center, the new mean will be:\n\n$$4X-7$$\n\n$$=(4)(28)-7$$\n\n$$=105$$\n\nSince the standard deviation is a measure of spread, the new standard deviation will be:\n\n$$4X$$\n\n$$=(4)(9)$$\n\n$$=36$$\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect as the standard deviation gets multiplied by $4$.\n\nChoice ‘B’ is incorrect as the standard deviation will not get subtracted by $7$.\n\nChoice ‘D’ is incorrect as the mean will get subtracted by $7$, but the standard deviation will not.\n\nChoice ‘E’ is incorrect as the mean will get subtracted by $7$.",
   "tags": [
     "VAR-5.E",
     "VAR-5.E.2",

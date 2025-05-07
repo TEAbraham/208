@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The average of digits $1$ through $10$ is:\n\n$$\\dfrac{1+2+3+4+5+6+7+8+9+10}{10} = 5.5$$\n\nSamples of size 30 will average near 5.5, but will be distributed around 5.5. This distribution will be approximately normal as a consequence of the central limit theorem.\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "UNC-3.H.5",
     "UNC-3.H.2",

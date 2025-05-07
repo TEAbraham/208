@@ -8,7 +8,7 @@
   ],
   "title": "Correlation Coefficient for Scatterplot",
   "difficulty": "Medium",
-  "question_text": "<br>The approximate correlation of the data is r= ?",
+  "question_text": "<br>The approximate correlation of the data is $r =$ ?",
   "image_files": [
     "images/question-064-img1.jpg",
     "images/question-064-img2.jpg",
@@ -40,8 +40,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Remember the correlation coefficient, r, represents only linear data. Although this data does show a clear pattern, it is not even close to linear (straight line) form. Therefore, the correlation will be exactly zero for data such as this.\n\nThus, the correct answer is Choice 'A'.\n\nCorrelations of -0.1 will show a very weak negative linear correlation, while correlations of -0.5 will show a moderately weak negative linear correlation.\n\nBelow are scatterplots with those approximate correlations.\n\n-0.1\n\n-0.5\n\nCorrelations of 0.1 will show a very weak positive linear correlation, while correlations of 0.5 will show a moderately weak positive linear correlation.\n\nBelow are scatterplots with those approximate correlations.\n\n0.1\n\n0.5",
   "tags": [
     "2.C",
     "DAT-1",

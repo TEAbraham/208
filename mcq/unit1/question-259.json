@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "If Marco finished ahead of other runners, it was because he finished the race in less time. The $z$-table shows the area to the left of the given $z$-score, or the proportion of $z$-values $<$ (the given $z$-score).\n\nTherefore, using the $z$-table we can determine $p(z < -0.33)$. To find this value, look down the column of $z$-scores to find $z = -0.3$. Then move across the row to where it intersects with $0.03$.\n\nThis represents where $z = -0.33$. The entry in this cell $= 0.3707$. This means that about $37.07\\%$ of runners had running times less than Marco. We want to know how many runners had times that were greater than Marco's time.\n\nTo determine this we simply subtract $37.07\\%$ from $100\\%$ and arrive at our answer of $62.93\\%$.\n\nNote: you can also find this answer using the normalcdf function on your TI83/84 graphing calculator. The syntax is: normalcdf (lower bound, upper bound, mean, standard deviation).\n\nIn this case:\n\nThe calculator will return the value of about $0.6293$ which is about $62.93\\%$.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. A z-score cannot be turned into a percentage directly. A z-score does not represent a percentage. Rather, a z-score identifies how many standard deviations the observation was above or below the mean. Furthermore, this answer simply disregards the negative sign.\n\nChoice 'B' is incorrect. This answer assumes that a z-score of −0.33 represents a fraction of\n1\n3\n. This is not true. The negative sign was also disregarded in this solution.\n\nChoice 'C' is incorrect. It represents the proportion of runners who finished ahead of Marco.\n\nChoice 'E' is incorrect. It assumes that −0.33 represents a fraction of\n1\n3\n(disregarding the negative sign) and then subtracts this value from 1.",
   "tags": [
     "VAR-2.B",
     "VAR-2.B.1",

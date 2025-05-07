@@ -8,7 +8,7 @@
   ],
   "title": "Lights On!",
   "difficulty": "Hard",
-  "question_text": "Nicky was just hired at the Specific Electric Company. He was asked to compare the average lifespan of the new light bulbs with that of the old bulbs. His manager told him that he wanted to statistically show that the new lights last longer so that they can be advertised that way. Fortunately, the company has a machine that can hasten the life of the bulbs so it would not take Nicky a very long time to measure their lifespans. He was told to test $25$ random light bulbs of each type.\nWhich of the following is the best statistical method to try to show that the new light bulbs last significantly longer than the old light bulbs?",
+  "question_text": "Nicky was just hired at the Specific Electric Company. He was asked to compare the average lifespan of the new light bulbs with that of the old bulbs. His manager told him that he wanted to statistically show that the new lights last longer so that they can be advertised that way. Fortunately, the company has a machine that can hasten the life of the bulbs so it would not take Nicky a very long time to measure their lifespans. He was told to test $25$ random light bulbs of each type.\nWhich of the following is the best statistical method to try to show that the new light bulbs last significantly longer than the old light bulbs?<br>Which of the following is the best statistical method to try to show that the new light bulbs last significantly longer than the old light bulbs?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe light bulbs would come from two different populations, and the measurement is a number, not a proportion, so a two sample examination of means must be done. To prove evidence to show statistical significance, a test must be done.\n\nFinally, because the samples are small, it will be necessary to use the t distribution and thus $t^*$.\n\nSo, Choice 'E' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because a Chi-Square Goodness of Fit Test examines the distribution of categorical variables.\n\nChoice 'B' is incorrect because, while we do subtract the means in calculating the $t$ statistic, we do not do that it to change which test we use. We must do a two-sample test.\n\nChoice 'C' is incorrect because a test is better to prove something than an interval, but more so incorrect because a $z$ interval is mentioned instead of a $t$ interval.\n\nChoice 'D' is incorrect because it uses $z$, which presupposes two large samples, which we do not have.",
   "tags": [
     "VAR-7",
     "1.E",

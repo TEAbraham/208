@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWhen setting up a confidence interval for estimating the slope of a regression line, many conditions must be verified. These conditions fall under $4$ categories:\n\nFirst, it should be verified that the true relationship between the variables is in fact linear. Analysis of residuals may be done to check this. This is the answer to this very question.\n\nSecond, the standard deviation for $y$ does not vary with $x$. Again, analysis of residuals may be done to check for this.\n\nThird, independence must be verified through using random sampling and checking that the sample size is less than or equal to $10\\%$ of the population size.\n\nFinally, to check for skewness it is best to make sure that the sample size is greater than $30$.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because this condition applies to chi-square methods, not to slope.\n\nChoice 'C' is incorrect because the answer should state $x$ values and not $y$ values.\n\nChoice 'D' is incorrect because the answer should use the term \"less\" than and not \"greater\" than.\n\nChoice 'E' is incorrect because it should say that the responses to the $x$ values are normally distributed, not the $x$ values themselves.",
   "tags": [
     "4.C",
     "UNC-4",

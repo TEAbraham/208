@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since the deck is equally split between red and black cards, the psychic has a $0.5$ chance of guessing the card’s color correctly without having any special abilities.\n\nLet $H_0$ be $P = 0.5$ and $H_a$ be $P > 0.5$, where $P$ = proportion of correct guesses at alpha $= 0.05$. The test statistic is calculated as follows:\n\n$$z=\\dfrac{\\hat{p} - p_0}{\\sqrt{\\dfrac{p_0(1-p_0)}{n}}}$$\n\nSince this is a one-sided test, to find an upper tail probability of $5\\%$ (since alpha $= 5\\%$ as stated in the problem), the $Z$-score is $1.645$ using the standard normal table. Therefore:\n\n$z = 1.645$\n$n = 208$ as given by the problem.\n${ p }_{ 0 }= 0.50$, since if there was psychic ability, there would be a 50-50 chance of guessing correct.\n\nUse algebra to solve for $\\hat{p}= 0.557$\n\nThe psychic would need to correctly identify at least $0.557$ of the cards correctly out of the $208$:\n\n$$0.557(208) = 115.86$$\n\nTherefore, he would have to correctly identify $116\\text{ cards}$ for the researcher to believe that he is not guessing.\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "4.E",
     "DAT-3.D.1",

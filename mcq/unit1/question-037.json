@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Given the situation, we know that we are going to get frequency responses based on flavors - this falls under a categorical data type.\n\nThe mode is the most frequent answer.\n\nThis makes sense for either categorical or quantitative data. It is just the most common answer in the entire survey.\n\nChoice 'C' is the correct answer.\n\nExplanation of Distractors\n\nWhat is the average of lemon and watermelon? There is no answer to that question, and taking the mean of categorical data is illogical, so Choice ‘A’ is incorrect.\n\nTo find the median, we would have to be able to order clearly the values. This is easy to do with quantitative data, but how do you order Apple, Blueberry, Cherry, Dorian, and Espresso? I would go with Apple, but you might disagree. So Choice 'B' is incorrect.\n\nSince the mean cannot be calculated, the standard deviation cannot be calculated either. Choice 'D' is incorrect as well.\n\nSince Choice 'C' is the correct answer, it quickly invalidates Choice 'E'.",
   "tags": [
     "UNC-1.E",
     "2.D",

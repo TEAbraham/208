@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "When multiplying both data sets by a constant x, the correlation coefficient increases by the factor of x."
+      "text": "When multiplying both data sets by a constant $x$, the correlation coefficient increases by the factor of $x$."
     }
   ],
   "correct_answer": "Choice 'A' is incorrect; the opposite is true. r must have no units attached to it.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'B' is correct; a correlation near −1 suggests a strong negative correlation, and a correlation near 1 suggests a strong positive correlation.\n\nChoice 'C'is incorrect; correlation can only describe linear relationships.\n\nChoice 'D' is incorrect; when switching the x and y variables, correlation is exactly 1.\n\nChoice 'E' is incorrect; changing any units to data does not change the correlation.",
   "tags": [
     "4.B",
     "DAT-1.C",

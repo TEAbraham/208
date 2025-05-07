@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A two-sample $T$ procedure should be selected since the data comes from two independent samples.\n\nSince the problem states that the marathon director wishes to estimate the difference, an interval should be used.\n\nA two-sample $T$-test would only give evidence or fail to give evidence of a difference between the two groups, or an increase, but it would not attempt to* measure *the difference.\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "VAR-8.M",
     "VAR-8.M.2",

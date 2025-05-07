@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "If two events are independent, then $P(A)$ remains the same with or without given information.\n\nSo if $P(A) = P(A|B)$, then the given information has not changed the probability of the event; therefore, the two events are independent.\n\nIf the given information changes the probability of the event such that $P(A) ≠ P(A|B)$, then the two events are not independent. For this example, let M = males, F = females, and I = a vote of yes to increase.\n\nFirst the table must be revised to show joint and marginal probabilities as follows:\n\nIs P(I)=P(I|M)? If yes, then the two are independent events. However:\n\nP(I)=0.5075\n\nP(I|M)=\n0.2195\n0.52\n=0.4222\n\nTherefore, the two events are not independent.\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "VAR-4.E.3",
     "VAR-4.E",

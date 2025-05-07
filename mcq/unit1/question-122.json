@@ -9,7 +9,7 @@
   ],
   "title": "Estimating Spread from a Histogram",
   "difficulty": "Medium",
-  "question_text": "The distributions of three variables are shown below. Each distribution contains fifty observations.<br>Which answer choice lists the distributions in order from the smallest to largest amount of spread?<br><br>Graph I:<br>Graph II:<br>Graph III:",
+  "question_text": "The distributions of three variables are shown below. Each distribution contains fifty observations.<br>Which answer choice lists the distributions in order from the smallest to largest amount of spread?<br><br>Graph I:<br>Graph II:<br>Created for Albert.io. Copyright 2017. All rights reserved.<br>Graph III:<br>Created for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-122-img1.png",
     "images/question-122-img2.png",
@@ -39,8 +39,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Measures of spread (standard deviation, interquartile range, range, etc.) help us understand how far the observations are from the center of a distribution. If most of the measurements are close to the center of the distribution, the measure of spread will be small. If most of the measurements are far from the center of the distribution, the measure of spread will be larger.\n\nIn comparing these three graphs it is helpful to notice that the horizontal axis is the same for all three and that all three graphs have the same number of observations.\n\nGraph I has most of its measurements far from the center (the high bars are far from the center), so this distribution would have a large spread.\n\nGraph II has most of its measurements close to the center (the high bars are close to the center), so this distribution would have a small spread.\n\nGraph III has a uniform distribution, so its spread would be somewhere between Graphs I and II.\n\nTherefore, the correct answer would be II, III, and I.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.1",

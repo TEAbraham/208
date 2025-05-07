@@ -31,12 +31,11 @@
     },
     {
       "letter": "E",
-      "text": "$0.6833$"
+      "text": "0.6833"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "First find the mean: nP=25⋅0.45=11.25\n.\n\nThen find the standard deviation:\n√\n(25⋅0.45⋅0.55)\n=2.487\n.\n\nMean+1 standard deviation=11.25+2.487=8.763 to 13.737\n\nUse this range to find the probability that x\nequals 9,10,11,12,\nand 13\n.\n\nP(x=9)=0.459⋅0.5516⋅25C9\n\nP(x=10)=0.4510⋅0.5515⋅25C10\n\nP(x=11)=0.4511⋅0.5514⋅25C11\n\nP(x=12)=0.4512⋅0.5513⋅25C12\n\nP(x=13)=0.4513⋅0.5512⋅25C13\n\nAdd these probabilities up to get\n0.6833\n, or\n68.33\n%\n.\n\nThus, the correct answer is Choice 'E'.\n\nNote: one could come up with the solution\n68\n%\nusing the\n68\n−\n95\n−\n99.7\nrule as well",
   "tags": [
     "UNC-3.C.1",
     "UNC-3",

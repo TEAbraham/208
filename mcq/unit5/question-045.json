@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Use the equation below to find a $z$-score of $2.56$, where:\n\n$n = 5$\n$\\sigma = 1.4$\n$x = 5$\n$\\mu = 3.4$:\n\n$$z= \\dfrac{\\bar{X} - \\mu}{\\frac{\\sigma}{\\sqrt{n}}}$$\n\nUse the standard normal table to find:\n\nP(z > 2.56)=1−0.9948=0.0052\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "UNC-3.Q.1",
     "UNC-3",

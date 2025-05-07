@@ -11,8 +11,7 @@
   "difficulty": "Medium",
   "question_text": "For the past $24$ days, Oscar has been keeping track of the number of hot dogs sold daily at his hot dog cart. His data is displayed in the stemplot below.<br><br>Which of the following statements accurately describes the outliers in this distribution?",
   "image_files": [
-    "images/question-136-img1.PNG",
-    "images/question-136-img2.PNG"
+    "images/question-136-img1.PNG"
   ],
   "tables": [],
   "choices": [
@@ -22,7 +21,7 @@
     },
     {
       "letter": "B",
-      "text": "There is only one outlier and it occurs at\n12\nhot dogs."
+      "text": "There is only one outlier and it occurs at 12\nhot dogs."
     },
     {
       "letter": "C",
@@ -38,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To determine whether there are any outliers, we first need to find the values associated with\nQ\n1\nand\nQ\n3\n.\n\nThe median is the middle value (or average of the two middle values) when the observations are arranged in order. With\n24\nobservations, we are looking for the average of the\n12\nth\nand\n13\nth\nhighest values.\n\nTo find these values, start from the bottom of the stemplot and work your way upward. Remember to always start from the left value in a row since the values are arranged in rows from lowest value to highest value.\n\nCreated for Albert.io. Copyright 2016. All rights reserved.\n\n\n\nThe\n12\nth\nand\n13\nth\nhighest values are boxed in blue in the graph above. The corresponding values are\n37\nand\n38\nhot dogs. The average of these two numbers is\n37.5\nwhich represents the median of the distribution.\n\nMore importantly, in this case,\n37.5\nis the value which divides the distribution into a top half of numbers and a bottom half of numbers. The red mark above shows where the dividing line is.\n\nTo find the\nQ\n1\nvalue, we need to find the middle of the lower\n12\nvalues. This would be the average of the\n6\nth\nand\n7\nth\nvalues when the observations are arranged from smallest to largest. These values are circled in black above and correspond with\n29\nand\n30\nhot dogs. The average of\n29\nand\n30\nis\n29.5\nso the\nQ\n1\nvalue is\n29.5\n.\n\nTo find\nQ\n3\n, we need to find the middle of the\n12\nvalues that fall above the median. This would be the average of the\n18\nth\nand\n19\nth\nvalues when the observations are arranged from smallest to largest. These values are also circled in black in the graph shown above. Since both the\n18\nth\nand\n19\nth\nvalues are at\n42\n, the\nQ\n3\nvalue is\n42\n.\n\nNow we need to determine the\nI\nQ\nR\n.\n\nI\nQ\nR\n=\nQ\n3\n−\nQ\n1\n\nI\nQ\nR\n=\n42\n−\n29.5\n=\n12.5\n\nA low outlier is an observation that falls below\nQ\n1\n−\n1.5\nI\nQ\nR\n. Therefore, a low outlier would be a value that is less than\n29.5\n−\n1.5\n(\n12.5\n)\nor a value less than\n10.75\n. No such values exist, so there are no low outliers.\n\nSince we know that\n12\nis not an outlier, at this point, we can eliminate Choices 'B', 'D', and 'E'.\n\nA high outlier is an observation that falls above\nQ\n3\n+\n1.5\nI\nQ\nR\n. Therefore, a high outlier would be a value that is greater than\n42\n+\n1.5\n(\n12.5\n)\nor a value greater than\n60.75\n. The only value displayed in the stemplot which is greater than\n60.75\nis\n62\nwhich makes\n62\nthe one and only outlier in this distribution.\n\nNote: You could also determine whether or not there are outliers by entering all\n24\nvalues into your\nT\nI\n83\n/\n84\ncalculator and having the calculator produce a modified boxplot. Instructions are:\n\nPress STAT\nWhile EDIT is highlighted, press Enter\nIn L1 enter all\n24\nobservations. Be careful to enter the number of hot dogs sold with the correct frequencies.\nPress 2nd\nPress Y=\nWhile Plot1 is highlighted, press Enter\nHighlight On\nChoose the modified boxplot (showing outliers) as the Type of graph\nEnsure that L1 is identified as the Xlist\nPress ZOOM\nPress 9\n\nYour calculator will show you the corresponding boxplot, and you will be able to see that there is only one high outlier.\n\nChoice 'C' is the correct answer.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.1",

@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The z-scores can be found using the following formula:\n\nz=\nˆ\np\n−p0\n√\np0(1−p0)\nn\n\nFirst poll:\nˆ\np\n=0.5\n\nSecond poll:\nˆ\np\n=0.48\n\nn=50\nfor each sample\np0=0.52\nfor each sample\n\nUsing the formula, the poll with a sample proportion of 50%\ngives a z\n-score of −0.28\n:\n\nP(z<−0.28)=0.3897\n\nThe poll with a sample proportion of 48%\ngives a z\n-score of −0.56\n:\n\nP(z<−0.56)=0.2877\n\nBoth of these are rather high probabilities. Therefore, both of these samples could have easily happened by chance, even if the candidate will still get 52%\nof the vote. While it is possible the candidate will lose the election, these two samples taken individually do not provide convincing evidence this will happen.\n\nNote: These two samples taken together could provide evidence at some level that the candidate will lose the election, but the problem asked to compare these samples individually.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "UNC-3.K.1",
     "UNC-3",

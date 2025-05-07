@@ -10,7 +10,7 @@
   ],
   "title": "Chi-Square Goodness of Fit: Voter Population",
   "difficulty": "Medium",
-  "question_text": "A politician projects that the population of voters who support him will be evenly divided between younger voters, middle-aged voters, and older voters. The table below shows the distribution of a random sample of 120 of the politician's supporters.<br>What is the value of the ${ \\chi }^{ 2 }$ statistic for the goodness of fit test on these data?",
+  "question_text": "A politician projects that the population of voters who support him will be evenly divided between younger voters, middle-aged voters, and older voters. The table below shows the distribution of a random sample of 120 of the politician's supporters.<br>What is the value of the ${ \\chi }^{ 2 }$ statistic for the goodness of fit test on these data?<br>What is the value of the ${ \\chi }^{ 2 }$ statistic for the goodness of fit test on these data?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Younger Voters</th><th scope=\"col\">Middle-aged Voters</th><th scope=\"col\">Older Voters</th></tr></thead><tbody><tr><td>27</td><td>34</td><td>59</td></tr></tbody></table>"
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The formula to find the test statistic for ${ \\chi }^{ 2 }$ is:\n\n$$\\sum { { \\frac { \\text{(Observed-Expected)} }{ \\text{Expected} } }^{ 2 } } $$\n\nThe problem states the politician expects the percentage of his supporters to be evenly divided among the three groups. In this case the expected number of supporters for each group will be $\\frac { 120 }{ 3 } =40$.\n\nSubstitute the values into the ${ \\chi }^{ 2 }$ formula:\n\n$${ \\frac { (27-40) }{ 40 } }^{ 2 }+{ \\frac { (34-40) }{ 40 } }^{ 2 }+{ \\frac { (59-40) }{ 40 } }^{ 2 }=14.15$$\n\nAlternative Approach using the TI-84:\nEnter your observed counts into List 1.\nEnter your expected counts into List 2.\nHit the Stat key then go over to test and select ${ \\chi }^{ 2 }$ GOF. Below is the information for the input screen.\n\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\n\n\nThe degrees of freedom in a ${ \\chi }^{ 2 }$ goodness of fit test is $n-1$ where $n$ represents the categories. In this case, the degrees of freedom is $3-1=2$.\n\nOnce you entered the information in press calculate:\n\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\n\n\nThe ${ \\chi }^{ 2 }=14.15$.\n\nChoice 'C' is the correct answer.\n\nExplanation of Distractors Choices 'A', 'B', 'D', and 'E' are incorrect as the chi-square value is not in any of these intervals.",
   "tags": [
     "VAR-8.F",
     "3.E",

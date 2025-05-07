@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "Approximately normal with a μ\n¯\nx\n=3.5 and a σ\n¯\nx\n=\n1.708\n√\n48"
+      "text": "Approximately normal with a ${ \\mu }_{ \\overline { x } }=3.5$ and a $ \\sigma _{ \\overline { x } }=\\dfrac { 1.708 }{ \\sqrt { 48 } } $"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "First, let us discuss the shape of the sampling distribution. Since the shape of the individual rolls were uniform and the sample size is relatively large, $(48 >30)$, then by the Central Limit Theorem, the shape of the sampling distribution is approximately normal.\n\nThe formula(which is given on the AP exam) for the standard deviation of the sampling distribution for sample means is:\n\nσ\n¯\nx\n=\nσ\n√\nn\n\nIn this case σ\n¯\nx\n=\n1.708\n√\n48\n.\n\nChoice 'E' is our answer.\n\nExplanation of Distractors Choices 'A' and 'B' are incorrect as the shape of the sampling distribution would be approximately normal by the Central Limit Theorem and not uniform. Choice 'A' would also be incorrect as the standard deviation was never divided by the square root of the sample size.\n\nChoice 'C' is incorrect as the shape of the sampling distribution would be approximately normal instead of normal. In order for the shape of the sampling distribution to be normal the shape of the population must be normal.\n\nChoice 'D' is incorrect as the standard deviation was never divided by the square root of the sample size.",
   "tags": [
     "UNC-3.Q.2",
     "UNC-3.Q.1",

@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Degrees of freedom is $n-2$ for linear regressions such as this.\n\nSince there are $50\\text{ ordered pairs}$, the degrees of freedom $= 50-2 = 48$.\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "VAR-7.M",
     "VAR-7",

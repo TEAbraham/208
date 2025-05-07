@@ -41,8 +41,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Off the bat, we can see that Choices 'A' and 'B' discuss spread.\n\nMultiplying each score by $2.6$ will stretch the data, therefore creating a larger spread.\n\nHowever, subtracting $1.4$ from each score will shift all the scores down, which means that the spread will still remain the same. Therefore, Choice 'A' is the false statement.\n\nChoices 'C', 'D', and 'E' discuss positions. Positions are affected by multiplication and subtraction, so all of these choices are true. Thus, we can eliminate these options.\n\nNote: spread is affected by multiplication and division, and not addition and subtraction. Positions will be affected by all four of these operations.\n\nAn alternative approach to solving this would be to create an original data set and calculate the standard deviation, IQR, Q3, mean, and median on your calculator.\n\nThen transform all of the data using the equation given and calculate the standard deviation, IQR, Q3, mean, and median on your calculator. Compare your answers to the choices and see which one is not true.",
   "tags": [
     "2.C",
     "UNC-1.J.4",

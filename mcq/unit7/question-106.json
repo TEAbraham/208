@@ -7,7 +7,7 @@
   ],
   "title": "Size of the Samples",
   "difficulty": "Easy",
-  "question_text": "A research firm was trying to decide how large or small its samples should be when constructing confidence intervals for clients. Suppose it was taking samples of two independent means and it chose these sample sizes: $n_{1}=42$ and $n_{2}=52$. For this research the firm wanted to increase the width of the interval as much as possible by changing these sample sizes.\nChoose the answer below which would achieve the greatest increase in the width of the confidence interval.",
+  "question_text": "A research firm was trying to decide how large or small its samples should be when constructing confidence intervals for clients. Suppose it was taking samples of two independent means and it chose these sample sizes: $n_{1}=42$ and $n_{2}=52$. For this research the firm wanted to increase the width of the interval as much as possible by changing these sample sizes.\nChoose the answer below which would achieve the greatest increase in the width of the confidence interval.<br>Choose the answer below which would achieve the greatest increase in the width of the confidence interval.",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWhen all else stays the same, the width of the confidence interval increases as the sample size decreases. And, the width of the confidence interval decreases as the sample size increases. The width is the subtraction of the lower bound from the upper bound.\n\nIn this problem, the company wants to create the greatest distance between the bounds as it reasonably can. Therefore, it wants to lower the sample sizes as much as possible while keeping them greater than $30$ to more easily verify conditions.\n\nSo, Choice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect because, while these numbers will increase the width, the numbers are not as small as the answer so that the width would not be as big.\n\nChoice 'C' is incorrect because here, one sample is increased so the width will become slightly smaller.\n\nChoice 'D' is incorrect because one sample size increased and the other decreased so the width will be approximately the same.\n\nChoice 'E' is incorrect because both numbers increased so that the width will decrease instead of increase.",
   "tags": [
     "4.B",
     "UNC-4.AB",

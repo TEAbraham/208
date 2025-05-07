@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A simulation should be repeated many times in order to gain insight into the correct probability. A total of $10,000\\text{ simulations}$ is a large number of simulations and should be able to help us determine the probability of a “natural” with a good degree of accuracy.\n\nTo find the actual probability of a natural, it may be easiest to list out the actual ways that a sum of $7$ or $11$ can occur. Here are the successful outcomes:\n\n$1$ and $6$\n$6$ and $1$\n$2$ and $5$\n$5$ and $2$\n$3$ and $4$\n$4$ and $3$\n$5$ and $6$\n$6$ and $5$\n\nRemember that each die is a separate die and the outcomes must be counted separately. Also, remember that there are $36$ total ways a pair of dice can land:\n\n(6 outcomes on the first dice)(6 outcomes on the second dice)=36 total outcomes\n\nTherefore, the true probability of a “natural” is\n8\n36\nor about 0.222.\n\nExplanation of Distractors\n\nChoices 'A' and 'B' are incorrect, because they both claim that 10,000 simulations is too few to provide any accuracy, and also because they report the wrong probability.\n\nChoices 'C' and 'D' are incorrect because they report the wrong probability.",
   "tags": [
     "UNC-2.A.4",
     "3.A",

@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The experiment described uses matched pairs design to make sure that the height of the baked soufflés can be explained by whether or not an extra egg white was included in the recipe and is not simply a result of what oven is used for baking. We would use a paired $t$-test where the parameter of interest is the mean difference in the height of the two soufflés baked in the same oven using the two different recipes.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because we are not interested in the mean height of all soufflés. Determining the mean height of all soufflés would not allow us to determine if adding an extra egg white to the recipe increases the height of the baked soufflés.\n\nChoice 'B' is incorrect. Although it might appear that this situation involves two separate populations, (soufflés made with the extra egg white and those made with the original recipe), the heights of the two types of soufflés are not independent since pairs of soufflés (one of each type) are being baked in the same oven. Therefore, we would not use a $2$-sample $t$-test.\n\nChoice 'D' is incorrect. A test of homogeneity is used to assess whether the distribution of proportions related to a categorical variable is the same for two or more independent populations. We do not have independent populations nor are we interested in proportion. Our parameter of interest is mean.\n\nChoice 'E' is incorrect because we do not have two independent populations and we are not interested in proportions.",
   "tags": [
     "VAR-7",
     "1.E",

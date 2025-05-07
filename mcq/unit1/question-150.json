@@ -11,7 +11,7 @@
   ],
   "title": "Boxplot: Effect on the Range and IQR by an Outlier",
   "difficulty": "Hard",
-  "question_text": "<br><br><br><br>Looking at the modified boxplot, what will happen to the range and IQR(interquartile range) when the outlier of $23$ is removed?",
+  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved.<br><br>Looking at the modified boxplot, what will happen to the range and IQR(interquartile range) when the outlier of $23$ is removed?",
   "image_files": [
     "images/question-150-img1.PNG"
   ],
@@ -39,8 +39,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The range can be found by:\n\nRange\n=\nMaximum Value\n−\n Minimum  Value\n\nIn this case, when the low outlier of\n23\nis removed we can see the range will decrease. Therefore Choices 'D' and 'E' can be eliminated.\n\nApproximate range with the outlier:\n64\n−\n23\n=\n41\n\nApproximate range without the outlier:\n64\n−\n32\n=\n32\n\nThe interquartile range (IQR) is a resistant measure of spread, and can be found by:\n\nIQR\n=\nQ\n3\n−\nQ\n1\n\nWhen the outlier of\n23\nis removed, the IQR will not change significantly.\n\nTherefore, Choices 'A' and 'B' can be eliminated.",
   "tags": [
     "UNC-1.L.2",
     "2.B",

@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWhen stating a conclusion for a confidence interval we use the confidence level to state that we are that amount confident that the difference of our two proportions falls within the range of the confidence interval. In addition, it is essential to use context in the conclusion. In this case, we are $95\\%$ confident that the confidence interval $(-0.21, 0.15)$ captures the difference in population proportions of the drug and the placebo.\n\nWhen the two bounds of the confidence interval have opposite signs, this means that zero is included. And when zero is included, this means we cannot state that either proportion is greater than or less than the other. In this case, zero is included so there is no difference between the effectiveness of the drug and the placebo.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it states that a difference exists when it does not.\n\nChoice 'C' is incorrect because, while subtracting the bounds gives the width of the interval, it does not tell us the difference between the proportions.\n\nChoice 'D' is incorrect because, while we believe that there is no difference, we cannot state that we are $95\\%$ sure of this.\n\nChoice 'E' is incorrect because subtracting the bounds does not give us a probability.",
   "tags": [
     "4.D",
     "UNC-4.M",

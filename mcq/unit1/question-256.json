@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Probabilities associated with the normal distribution curve correspond to the relevant areas under the curve. For any specific value of z\n, the probability is zero.\n\nFor example, suppose we found our z\nvalue to be 1.7\n. Based on the normal distribution curve, p(z=1.7)=0\nsince an area under the curve cannot be established at this particular value of z\n. Therefore, p(z≥1.7)=p(z>1.7)\n. This is true for any value of z\nwhich makes Choice 'A' the false statement.\n\nExplanation of Distractors\n\nChoice 'B' is a true statement. Since the area under the normal distribution curve is 1\nand since z≥k\nand z≤k\nare complementary events (one or the other must be true), we know their probabilities must add to 1\n. Therefore, to find the probability that one event is true we simply subtract the probability of the other event being true from 1\n.\n\nChoice 'C' is a true statement. The direction of the inequality does not matter. Since p(z=k)=0\n, this statement must be true.\n\nChoice 'D' is a true statement. The standard normal distribution curve upon which z\n-scores are based is centered at 0\n. Half of the area of the curve is to the right of a z\n-score of 0\nwhile half is to the left. Therefore, if k=0\n, then p(z<0)=0.50\n.\n\nChoice 'E' is a true statement. As noted above, half of the area under the normal distribution curve falls above a z\n-score of 0\n. Therefore, if our z\n-score is greater than 0\n, our observation is to the right of the center and the area to the right of that will be less than 0.50\n.",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

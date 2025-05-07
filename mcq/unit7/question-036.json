@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "For a particular confidence interval, we have a stated level (in this case, $90\\%$) of confidence concerning the value of the unknown population mean.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect; the interval either does or does not contain the true value of the unknown population mean, $µ$. Therefore, one cannot give a probability interpretation of the confidence interval.\n\nChoice 'C' is incorrect; one cannot generalize results to other confidence intervals based on this one.\n\nChoice 'D' is incorrect; this is a correct interpretation of a confidence level (i.e., all $90\\%$ confidence intervals), but it is not a correct interpretation of a particular confidence interval such as the one in this question.\n\nChoice 'E' is incorrect; confidence intervals hope to establish a range of values that capture the unknown population mean in repeated samples. Confidence intervals do not describe the proportion of data within a certain interval.",
   "tags": [
     "4.B",
     "UNC-4.S",

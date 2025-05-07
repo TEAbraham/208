@@ -22,11 +22,11 @@
     },
     {
       "letter": "C",
-      "text": "$-1.5$"
+      "text": "−1.5"
     },
     {
       "letter": "D",
-      "text": "$1.75$"
+      "text": "1.75"
     },
     {
       "letter": "E",
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe model used for linear regression is\nˆ\ny\n=a+bx\n, where x\nis known as the explanatory variable and\nˆ\ny\nis known as both the response variable and the predicted value.\n\nIn this problem, we are given values for x\nand\nˆ\ny\n. We are also given the y\n-intercept which is represented by a\nin the model. Therefore, you need to plug in these 3\nvalues and solve for b\n, the slope.\n\nSolve: 8=26+12b\n\nWe find: −18=12b\nor b=−1.5\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the predicted value and the explanatory variable were reversed.\n\nChoice 'B' is incorrect because the negative sign was omitted from the answer.\n\nChoice 'D' is incorrect because the predicted value and the explanatory variable were reversed and the negative sign was omitted from the answer.\n\nChoice 'E' is incorrect because the y\nvalue was divided by the x\nvalue to find the slope (which ignored the y\n-intercept).",
   "tags": [
     "DAT-1.D.2",
     "2.C",

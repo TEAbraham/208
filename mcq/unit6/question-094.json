@@ -8,7 +8,7 @@
   ],
   "title": "Check the Polls",
   "difficulty": "Easy",
-  "question_text": "National polls for a political candidate were being compared between two different polling companies.<br>A person was commissioned to analyze the results by creating a confidence interval for the difference between the two proportions.\nWhich of the following pairs of checks would fail to verify the conditions for the confidence interval?",
+  "question_text": "National polls for a political candidate were being compared between two different polling companies.<br>A person was commissioned to analyze the results by creating a confidence interval for the difference between the two proportions.\nWhich of the following pairs of checks would fail to verify the conditions for the confidence interval?<br>Which of the following pairs of checks would fail to verify the conditions for the confidence interval?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTo verify conditions for a confidence interval for differences in proportions first it must be determined that the samples were randomly selected. In addition, the following expressions must all be greater than or equal to $10$:\n\n$$n_{1}\\hat{p}_{1} \\quad n_{1}(1-\\hat{p}_{1}) \\quad n_{2}\\hat{p}_{2} \\quad n_{2}(1-\\hat{p}_{2})$$\n\nIn this problem, the random selection is stated. Filling in the above expressions we get:\n\n$$\\dfrac{22}{32}\\times32=22$$\n\n$$(1-\\dfrac{22}{32})\\times32=10$$\n\n$$\\dfrac{31}{34}\\times34=31$$\n\n$$(1-\\dfrac{31}{34})\\times34=3$$\n\nHere the first $3$ expressions are all greater than or equal to $10$, but the last one is not which means it has failed to verify the required condition.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because these values are both greater than or equal to $10$.\n\nChoice 'C' is incorrect because the first expression is greater than or equal to $10$ and the second expression is true.\n\nChoice 'D' is incorrect because these values are both greater than or equal to $10$.\n\nChoice 'E' is incorrect because these values are both greater than or equal to $10$.",
   "tags": [
     "4.C",
     "UNC-4.J.1",

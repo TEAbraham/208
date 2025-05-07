@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A larger average number of marshmallows in Brand 'A' would mean that\n¯\nx\nA−\n¯\nx\nB>0 .\n\nThe sampling distribution for\n¯\nx\nA−\n¯\nx\nB should be nearly normal because both sample sizes are large enough for the Central Limit Theorem to apply, even if we do not know the shape of the population distributions.\n\nThe mean of the sampling distribution will be:\n\nμ\n¯\nx\nA−\n¯\nx\nB=μ\n¯\nx\nA−μ\n¯\nx\nB\n\n=31.5−35.6\n\n=−4.1\n\nThe standard deviation of the sampling distribution will be:\n\nσ\n¯\nx\nA−\n¯\nx\nB=\n√\nσ12\nn1\n+\nσ22\nn2\n\n=\n√\n6.02\n35\n+\n7.62\n35\n\n=1.637\n\nNow we can determine the\nz\nscore:\n\nz\n=\nX\n−\nμ\n¯¯¯\nx\nA\n−\n¯¯¯\nx\nB\nσ\n¯¯¯\nx\nA\n−\n¯¯¯\nx\nB\n\n=\n0\n−\n(\n−\n4.1\n)\n1.637\n\n=\n2.505\n\nUsing the\nz\ntable we can find the\np\nvalue:\n\nP\n(\n¯¯¯\nx\nA\n−\n¯¯¯\nx\nB\n>\n0\n)\n=\nP\n(\nz\n>\n2.505\n)\n=\n0.006\n\nUsing a calculator: normalcdf(2.505,99,0,1)\n=\n0.006\n\nChoice 'A' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect. This results from incorrectly calculating\nσ\n¯¯¯\nx\nA\n−\n¯¯¯\nx\nB\n:\n\n=\nσ\n1\n2\n+\nσ\n2\n2\nn\n\n=\n6\n2\n+\n7.6\n2\n35\n\n=\n2.679\n\n...and then calculating a\nz\nscore of\n−\n1.53\n, resulting in the\np\nvalue of\n0.063\n.\n\nChoice 'C' is the complement of incorrect answer, Choice 'B'.\n\nChoice 'D' is the complement of the correct answer, Choice 'A'. We are concerned with the probability past this\nz\nvalue, not before.",
   "tags": [
     "UNC-3.T.2",
     "UNC-3.T",

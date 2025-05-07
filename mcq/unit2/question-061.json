@@ -9,7 +9,9 @@
   "title": "Find the Correlation of the Difference Between Two Variables",
   "difficulty": "Medium",
   "question_text": "Boys and girls were paired up in a classroom in such a way that the difference between the heights of each in the pair was equal to two. Each pair had one boy and one girl. Within each pair, the boy was taller than the girl.<br>When plotted, the correlation, $r$, between these two variables equals:",
-  "image_files": [],
+  "image_files": [
+    "images/question-061-img1.PNG"
+  ],
   "tables": [],
   "choices": [
     {
@@ -34,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct choice.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Let $B$ represent the height of a boy and $G$ represent the height of a girl. If the difference between the height the height of each boy and girl is two, then the equation would be:\n\n$$B-G=2$$\n\n$$B=2+G$$\n\nA correlation of $1$ would indicate if we were to make a scatterplot of this data and then fit a least squares regression line to the data all of the points would fall on the least square regression line. This is true in this case as for every one increase in girls' heights, the boys' heights increase by one. There is no variation of the observed points from the least squares regression line.\n\nBelow is an example of what the scatterplot would look like:\n\n\n\nExplanation of Distractors\n\nChoices 'A' and 'B' are incorrect. The correlation would have to be positive, because if the value of one variable increases, then the other variable must also increase in order for the difference between the two variables to be $2$.\n\nChoice 'C' is incorrect. There is a strong linear relationship, as this data is perfectly linear. Therefore, the correlation cannot be $0$.\n\nChoice 'D' is incorrect. The difference between the two variable must be $2$. This indicates that the points will lie on a straight line, representing perfect correlation. Since the relationship is positive, then the correlation must be $1$.",
   "tags": [
     "2.C",
     "DAT-1",

@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice ‘C’ is correct.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Conditions must be checked when performing any test of significance or creating a confidence interval. In either case, you follow these four steps: - State (the parameter you will use or test) - Plan (the appropriate inference method you will use) - Do (perform your calculations) - Conclude (interpret your result).\n\nChecking conditions occurs in the Plan step which you do in order to choose your test of significance or confidence interval.\n\nIn this problem, the correct answer states that it is important to make sure that the sample size is not larger than $10\\%$ of the size of the population size in order to check for independence when estimating a population proportion.\n\nSo, Choice ‘C’ is correct.\n\nExplanation of Distractors\n\nChoice A is incorrect. It uses a ≤ sign when the true check looks for a value greater than or equal to 10.\n\nChoice B is incorrect. It describes failures as n\nˆ\np\nwhen in fact failures are denoted by n(1−\nˆ\np\n).\n\nChoice D is incorrect. It describes a check for an approximately normal sampling distribution, not for independence as stated.\n\nChoice E is incorrect. It describes a check for independence, not for an approximately normal sampling distribution as stated.",
   "tags": [
     "4.C",
     "UNC-4.B",

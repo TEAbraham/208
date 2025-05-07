@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice ‘B’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWhen analyzing a chi-square goodness of fit test, the degrees of freedom is one less than the number of categories.\n\nIn this case, the categories are the possible outcomes on the spinner, so values $0$ through $9$, inclusive. Thus, there are $10$ categories and degrees of freedom = $10 - 1 = 9$.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect: There are $10$ categories (the values $0$, $1$, $2$, $3$, $4$, $5$, $6$, $7$, $8$, and $9$).\n\nChoice ‘C’ is incorrect: The degrees of freedom = the number of categories $- 1$.\n\nChoice ‘D’ is incorrect: Although the spinner is spun $100$ times, the number of trials does not affect the degrees of freedom.\n\nChoice ‘E’ is incorrect: As stated above, the number of trials does not affect the degrees of freedom.",
   "tags": [
     "VAR-8.F",
     "3.E",

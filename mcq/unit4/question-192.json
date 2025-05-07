@@ -14,11 +14,11 @@
   "choices": [
     {
       "letter": "A",
-      "text": "About 0.90438."
+      "text": "About $0.90438$."
     },
     {
       "letter": "B",
-      "text": "About 0.99573\n."
+      "text": "About 0.99573."
     },
     {
       "letter": "C",
@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "About\n0.91352\n."
+      "text": "About 0.91352\n."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The equations below correctly perform this procedure:\n\nP(0 defective)=0.9910=0.90438\n\nP\n(1 defective)\n=\n10\n×\n0.99\n9\n×\n0.01\n=\n0.09135\n\nP\n(at most one)\n=\n0.90438\n+\n0.09135\n=\n0.99573\n\nThus, the correct answer is Choice 'B'.\n\nThere are\n10\n ways\nwe could have one defective bulb. The one defective could be the first, or it could be the second, or the third, etc. So we find the probability that one bulb is defective and the other\n9\nare not defective, and multiply by the number of ways it can happen.\n\nOn the other hand, the probably of zero defectives is simply\n0.99\n10\nsince there is only one way we can have zero defective bulbs.\n\nNote #1: Remember, this situation deals with binomial probability since it satisfies the following conditions:\n\nNote #2: Be careful with language such as \"at most one defective\". This means one could be defective, or zero could be defective. Since the events\nP\n(\nx\n=\n0\n)\nand\nP\n(\nx\n=\n1\n)\nare mutually exclusive, one can simply add these probabilities.",
   "tags": [
     "UNC-3.C.1",
     "UNC-3",

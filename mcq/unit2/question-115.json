@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We can use process of elimination to determine the answer. First, substitute the ordered pair $(\\overline { x } ,\\overline { y } )$ and see which equations the ordered pairs hold true for. Note that the LSRL always passes through the coordinates for the mean of $x$ and the mean of $y$.\n\nFor instance, when we substitute $(4,12)$ into Choice 'A', we get the true equation:\n\n$$12= 11.2 + 0.2(4)$$\n\nThen we can simplify to see if it a possibility:\n\n$$12= 11.2 + 0.8$$\n\n$$12=12$$\n\n...so Choice 'A' is a possibility.\n\nWhen we substitute $(4,12)$ into Choice 'B', we get:\n\n$$12 = 8 + 0.75(4)$$\n\nThen we can simplify to see if it a possibility:\n\n$$12 = 8 + 3$$\n\n$$12\\neq 11$$\n\n...which is not true. Therefore, Choice 'B' is eliminated.\n\nDoing this for the rest of the choices, we can also eliminate Choices 'C' and 'D, as they are not true statements.\n\nNow we have to choose between Choices 'A' and 'E'. We have to pay attention to the slope of both equations. The formula for the slope of a regression line, when given the means and standard deviations (which is given on the AP Exam), is:\n\n$$b=r\\frac { { s }_{ y } }{ { s }_{ x } } $$\n\nIn our case, then slope:\n\n$$=r\\dfrac { 6 }{ 8 } =0.75r$$\n\nSince correlation ranges between $-1$ and $1$, the highest slope we can have is $0.75$ ($0.75 \\cdot 1$). Thus, Choice 'E' is eliminated, as we can not have a slope of $2$ in this case since the correlation would have to be higher than $1$ in order to get the slope of $2$.\n\nChoice 'A' is the correct answer.",
   "tags": [
     "DAT-1.G.1",
     "DAT-1.G.2",

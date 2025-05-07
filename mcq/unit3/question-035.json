@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "Separate by age groups using the latest census data from the community. The age groups would be $18-30$, $31-45$, $46-65$, and $65$ and over. Randomly select $125\\text{ citizens}$ ages $18-30$, $125\\text{ citizens}$ ages $31-45$, $125\\text{ citizens}$ ages $46-65$, and $125\\text{ citizens}$ ages $65$ and over."
+      "text": "Separate by age groups using the latest census data from the community. The age groups would be 18−30, 31−45, 46−65, and 65 and over. Randomly select 125 citizens ages 18−30, 125 citizens ages 31−45, 125 citizens ages 46−65, and 125 citizens ages 65 and over."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A simple random sample is a sample in which every group of size n individuals has an equal chance to be chosen. In this case, we are looking for the option in which in every possible sample of size 500 has an equal chance of being chosen.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as this an example of systematic sampling.\n\nChoice 'B' is incorrect as not every possible sample of 500 citizens\nhave an equal chance of being selected since some citizens do not have a phone or their phone number is unlisted.\n\nChoice 'D' is incorrect as not every possible sample of 500 citizens have an equal chance of being selected. In this design, we are limited to 250\ncitizens from two age brackets. If this was a simple random sample, we should be able to get a sample of, say, 500 citizens\nin the age range of 31−45\n.\n\nChoice 'E' is incorrect as this is an example of a stratified random sample. In this design, we are limited to 125 citizens\nfrom each age bracket. If this was a simple random sample, we should be able to get a sample of say 500\ncitizens in the age range of 31−45\n.",
   "tags": [
     "DAT-2.C.2",
     "DAT-2",

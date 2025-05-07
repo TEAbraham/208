@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Statement I is false. When there are multiple clusters it is most appropriate to state the approximate centers of each of the clusters.\n\nStatement II is false. Gaps are not a result of poor data collection. Gaps simply mean that there were no measurements observed for that range of possibilities.\n\nStatement III is true. A histogram will only show clusters if the subgroups are remarkably different from each other with respect to the variable being measured.\n\nFor example, a histogram of people's ages would show multiple clusters if the subgroups of students and teachers are displayed in the same histogram.\n\nOn the other hand, a histogram of the number of movies seen per year would not show multiple clusters for students and teachers.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.1",

@@ -13,10 +13,8 @@
   ],
   "title": "Boxplot: Shape, Mean vs. Median, S.D. vs. IQR",
   "difficulty": "Hard",
-  "question_text": "<br><br><br><br>Looking at the boxplot, which of the following choices below is TRUE?",
-  "image_files": [
-    "images/question-146-img1.PNG"
-  ],
+  "question_text": "Created for Albert.io. Copyright 2016. All rights reserved.<br><br>Looking at the boxplot, which of the following choices below is TRUE?",
+  "image_files": [],
   "tables": [],
   "choices": [
     {
@@ -41,8 +39,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The shape of the boxplot is skewed right as the distance from the minimum to the median is much smaller than the distance from the median to the maximum. We can eliminate Choices 'D' and 'E', which suggest that the distribution is skewed left.\n\nThe mean is non-resistant (gets affected by extremes) measure of center, whereas the median is a resistant measure of center. In this case, it appears we have an extremely high value (60), which indicates the mean will get pulled towards 60, whereas the median will not. Therefore, the mean will be bigger than the median. Choice 'B' can be eliminated.\n\nThe standard deviation is a non-resistant measure of spread as it takes into account how far all the individual values vary from the mean. The IQR is a resistant measure of spread as the IQR can be found by taking Q3 minus Q1. The IQR, in this case, is 26−10=16. However, we cannot determine if the standard deviation if less than 16 or greater than 16 as we do not know all the individual data points. This means we can eliminate Choice 'A'.\n\nFor example, if the sample data were {5,10,17,26,60}, the standard deviation would be 21.824 which is bigger than 16.\n\nHowever, if the sample data were {5,10,10,10,17,17,17,26,26,26,60\n}, the standard deviation would be 15.028\nwhich is less than 16\n. Choice 'C' is our answer.",
   "tags": [
     "UNC-1.L.2",
     "2.B",

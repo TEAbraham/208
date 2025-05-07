@@ -8,7 +8,7 @@
   ],
   "title": "From One Graphical Representation to Another",
   "difficulty": "Hard",
-  "question_text": "At The Marvelous Marshmallow Market, customers were invited to suggest a new flavor for marshmallows. The finalists were announced and a vote was held. Results of the vote are displayed in the graph below.<br><br><br><br><br>If $200$ votes were cast, which of the following graphs displays the frequency distribution for the votes?",
+  "question_text": "At The Marvelous Marshmallow Market, customers were invited to suggest a new flavor for marshmallows. The finalists were announced and a vote was held. Results of the vote are displayed in the graph below.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>If 200 votes were cast, which of the following graphs displays the frequency distribution for the votes?",
   "image_files": [
     "images/question-044-img1.PNG",
     "images/question-044-img2.PNG",
@@ -41,8 +41,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In the segmented bar graph given, the blue portion of the graph corresponds to votes for red velvet cake. The length of the blue portion of the bar is located above\n40\n%\non the horizontal axis so we know that red velvet cake had\n40\n%\nof the votes. We also know that\n200\n votes\nwere cast so we can determine exactly how many votes were for red velvet cake.\n\n(\n0.40\n)\n(\n200\n)\n=\n80\n\nChoice 'D' presents the only graph where red velvet cake corresponds to a frequency of\n80\n. Therefore, Choice 'D' is the correct choice..\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it does not present a frequency distribution. Rather, percents for each flavor are given. This shows the relative frequency of votes for each flavor.\n\nChoices 'B' and 'C' are both incorrect because they show the percents from the given segmented bar graph as actual counts or frequencies. The percents and counts would be the same if only\n100\n votes\nwere cast. Since\n200\n votes\nwere cast the true count of votes for each flavor is double what is shown on these two graphs.\n\nChoice 'E' is incorrect. What kind of graph is this? It looks like an attempt to make a boxplot from categorical data. A boxplot is not an appropriate way to display categorical data.\n\nNote: technically, since there is no space between the bars in the graphs shown in Choices 'C' and 'D', some might argue that these graphs represent histograms. True bar graphs have spaces between the bars.\n\nFurthermore, bar graphs are generally used to display distributions related to categorical variables, while histograms display data related to quantitative variables. With or without spaces however, it is clear from the key that the bars shown in Choices 'C' and 'D' represent the frequencies related to a categorical variable. Choice 'D' is the best answer.",
   "tags": [
     "UNC-1.C.3",
     "2.B",

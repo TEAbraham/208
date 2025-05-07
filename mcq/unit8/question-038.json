@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Only bean preferences has changed greatly. One can see that in the table below:\n\nA Chi-squared goodness of fit test can be very helpful, as it can examine many proportions at once (in this case 5 proportions). However, even one proportion differing can greatly influence the Chi-squared test statistic and give evidence of a change in the distribution.\n\nIt is true that now there is evidence that the distribution of vegetables has changed. However, it would be helpful to see that there is evidence that the proportion of those who choose beans as their favorite vegetable has changed, while the rest of the data has relatively remained the same. With beans removed from the 5 categories, insufficient evidence of any change would exist.\n\nA one-proportion $Z$-test would be more appropriate to show this change. A one-proportion $Z$-test inspects a single proportion, and in this case could be used to see if the proportion of those favoring beans has significantly changed.\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "VAR-8.F",
     "3.E",

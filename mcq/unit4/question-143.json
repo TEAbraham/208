@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The easier part to find is the total mean. This can be found by adding the total ounces of the 4 cheeseburgers and 4 small fries:\n\n$${ \\mu }_{ 4F+4C }=3+3+3+3+5+5+5+5=4(3)+4(5)=32 \\ \\text{ ounces}$$\n\nChoices 'A' and 'B' can be eliminated. Note that $8$ represents the number of cheeseburgers and fries, but does not take into account their masses.\n\nTo find the total standard deviation, we must first find the variance. The variance is the standard deviation squared (${ \\sigma }^{ 2 }$).\n\n$${ \\sigma }_{ 4F+4C }^{ 2 }={ (0.2) }^{ 2 }+{ (0.2) }^{ 2 }+{ (0.2) }^{ 2 }+{ (0.2) }^{ 2 }+{ (0.4) }^{ 2 }+{ (0.4) }^{ 2 }+{ (0.4) }^{ 2 }+{ (0.4) }^{ 2 }=0.80 \\ { \\text{ounces} }^{ 2 }$$\n\nTo find the standard deviation we must square root the variance:\n\n$$\\sqrt { { \\sigma }^{ 2 } } =\\sigma =\\sqrt { 0.80 \\ { \\text{ounces} }^{ 2 } } = 0.8944 \\ \\text{ounces}$$\n\nChoice 'C' is incorrect as the combined variance was never found. The standard deviations were just added together.\n\nChoice 'D' is incorrect as the square root of the variance was never taken.",
   "tags": [
     "VAR-5.E",
     "VAR-5.E.2",

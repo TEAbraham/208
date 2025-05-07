@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The first step is to determine the z-values for the cut-off scores. Use the conversion formula:\n\n$$z = \\dfrac{(X-\\mu)}{\\sigma} = \\dfrac{(75-100)}{15} = -1.67$$\n\nThe lower cutoff is $-1.67$. Because of the symmetry of the normal curve, the upper cutoff will be z = $+1.67$.\n\nThe problem now becomes finding $P(z ≤ -1.67)$ or $P(z \\ge 1.67)$.\n\nUse a table of standard normal probabilities or a calculator to determine these values, according to the sketch above.\n\nThis means that the entire shaded region is ($0.0475 \\times 2$) = $0.095$, which represents about $9.5\\%$ of the first graders. Thus, $9.5\\%$ of the $1,200$ children, or about $114$ children, will be expected enrollees in the enrichment programs.\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

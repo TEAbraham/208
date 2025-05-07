@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Find the $z$-score that represents a score that adds to up $185$ by plugging in the mean and standard deviation to the standard score equation:\n\n$$\\dfrac{(185-154)}{9} = 3.44$$\n\nUse the standard normal table to find,\n\n$$P(z>3.44) = 1-0.9997 = 0.0003$$\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

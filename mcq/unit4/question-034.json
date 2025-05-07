@@ -26,16 +26,15 @@
     },
     {
       "letter": "D",
-      "text": "0.4096"
+      "text": "$0.4096$"
     },
     {
       "letter": "E",
-      "text": "0.5904"
+      "text": "$0.5904$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A simple solution is as follows:\n\n$$\\text{P(at least 1)} = 1-\\text{P(none) }$$\n\n$$= 1-0.36 = 0.64$$\n\nAlternatively:\n\n$$\\text{P(at least 1) = P(makes 1st and misses 2nd) +P(makes 1st and makes 2nd)}$$\n\n$$=(0.64) \\times (0.36)+(0.64) \\times (0.64) = 0.64$$\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "4.B",
     "VAR-4.C",

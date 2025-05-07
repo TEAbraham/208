@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Because the football fan is interested in comparing the number of births for $12\\text{ months}$ (categories), a Chi-square Goodness-of-Fit test is most appropriate here.\n\nExplanation of Distractors\n\nA $t$-distribution is appropriate for hypothesis tests involving one or two means. Choice 'C' is incorrect.\n\nA $z$-distribution is appropriate for hypothesis tests involving one or two proportions, or in hypothesis tests where the standard deviation of the population is known. Choices 'A' and 'B' are incorrect.\n\nChoice 'D' is incorrect because this experiment is comparing categories, not proportions.",
   "tags": [
     "4.E",
     "DAT-3",

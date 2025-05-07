@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "For low degrees of freedom, the chi-square distribution is symmetric while the t-distribution is skewed right."
+      "text": "For low degrees of freedom, the chi-square distribution is symmetric while the $t$-distribution is skewed right."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Chi-square values are always positive while $t$-values can be positive or negative. We can verify this difference by looking at the $t$-value table and the chi-square distribution table in the AP exam materials.\n\nExplanation of Distractors\n\nChoice 'A' - Both the chi-square distribution and the $t$-distribution change based on the number of degrees of freedom.\n\nChoice 'B' - The $t$-distribution is used to write both confidence intervals and hypothesis tests, but the chi-square distribution is used only to write hypothesis tests.\n\nChoice 'D' - Both distributions become more nearly normal as the degrees of freedom get very large. The t-distribution is unimodal and symmetric for all degrees of freedom. The chi-square distribution is skewed right unless the degrees of freedom is very large.\n\nChoice 'E' - The t-distribution is symmetric and the chi-square distribution is skewed right for low degrees of freedom.",
   "tags": [
     "VAR-8.C",
     "VAR-8.C.1",

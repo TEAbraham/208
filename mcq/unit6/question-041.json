@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'A' is incorrect; this situation deals with two populations (males and females), so a two-proportion Z-test would be appropriate.\n\nChoice 'B' is correct; this situation deals with a single proportion; specifically, the proportion who would vote for the political candidate.\n\nChoice 'C' is incorrect; this selection deals with two categorical variables, each with several proportions, so a chi-squared test for association would be appropriate.\n\nChoice 'D' is incorrect. While this situation does deal with a single proportion, an interval, not a test would best determine the true proportion who prefer Coke over Pepsi in a blind taste test.\n\nChoice 'E' is incorrect. This situation deals with sample means, not proportions. A one sample or possibly two sample T procedure could be used here depending on how the data was collected.",
   "tags": [
     "VAR-6.E.1",
     "VAR-6.E",

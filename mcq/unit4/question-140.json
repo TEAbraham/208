@@ -26,16 +26,15 @@
     },
     {
       "letter": "D",
-      "text": "1.2725"
+      "text": "$1.2725$"
     },
     {
       "letter": "E",
-      "text": "1.3500"
+      "text": "$1.3500$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To find the variance for the difference between two independent random variables, we must add the individual variances. Variances add, even when the random variables are being subtracted. In this case:\n\nσ\n2\nA−B\n=σ\n2\nA\n+σ\n2\nB\n\nWe are given σA, the standard deviation of A and σB, the standard deviation of B. Fill in the above formula as follows:\n\nσ\n2\nA−B\n=(1.1)2+(0.25)2=1.2725\n\nChoice 'D' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect and is the variance of B\n.\n\nChoice 'B' is incorrect and is the variance of A\n.\n\nChoice 'C' is incorrect and is the difference between the two variances (A−B\n). It is not however, the variance of the difference between the variables A\nand B\n.\n\nChoice 'E' is incorrect and is the sum of the standard deviation of A\nand the standard deviation of B\n. It is not however, the standard deviation of the difference of A−B\n. Even if the variables are independent, standard deviations cannot be added.",
   "tags": [
     "VAR-5.E",
     "VAR-5.E.3",

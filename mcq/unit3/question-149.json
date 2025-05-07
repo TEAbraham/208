@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "The weight loss drug is most likely effective; losing 11.6 pounds is both a practically and statistically significant amount."
+      "text": "The weight loss drug is most likely effective; losing 11.6 pounds\nis both a practically and statistically significant amount."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In the context of an experiment, volunteers are acceptable as long as treatments are randomized. Since the placebo group lost more weight than the group on the new drug, any weight loss could easily be attributed to other factors.\n\nControl groups are useful as they serve as a baseline for comparison. In this context, the control group helps to determine how much weight subjects would lose if the treatment had no helpful weight loss effects.\n\nIn order to determine that the weight loss drug was helpful in losing weight, the subjects would have needed to lose considerably more weight than the control group. Furthermore, this would have to be supported by statistically significant results from a 2-sample\nT\ntest.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "VAR-3.E",
     "4.B",

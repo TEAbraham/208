@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The dietitian performed $20\\text{ hypothesis tests}$ of the same experiment, and only one of the tests was statistically significant. When experiments are repeated, there is a high probability that at least one of the groups will produce a result that is unlikely, simply because the experiment has been repeated so many times.\n\nIn a situation with $20\\text{ independent experiments}$, each with an alpha level of $0.05$, we would expect one of the experimental results to be significant, [$E(X) = (n)(p)= (20)(0.05) = 1$], just due to chance. The $5\\%$ significance level is also the probability of a type I error. Every time the test is performed, there is a $5\\%$ risk of incorrectly deciding the weight loss plan is effective, when in fact, it is not effective. Therefore, one should never perform many different hypothesis tests, simply hoping for one of these tests to provide statistical significance.\n\nExplanation of Distractors\n\nChoices 'A', 'B', and 'C' are incorrect; these are all misleading statements that do not tell the entire statistical story.\n\nChoices 'D' is incorrect; it is not known if people lost weight or not. The best strategy would have been to combine all $280\\text{ subjects}$ into one large group and then test the results of the single mean.",
   "tags": [
     "4.B",
     "UNC-4.S",

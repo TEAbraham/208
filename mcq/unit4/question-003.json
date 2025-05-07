@@ -25,7 +25,7 @@
     },
     {
       "letter": "D",
-      "text": "No - Since there's only two outcomes, you would be guaranteed 5 \"heads\" and 5 \"tails\" on the 10 flips."
+      "text": "No - Since there's only two outcomes, you would be guaranteed $5$ \"heads\" and $5$ \"tails\" on the $10$ flips."
     },
     {
       "letter": "E",
@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer",
-  "solution": "A coin is a great example of a chance device as it has two equal outcomes with the same probability. Flipping a coin will result in either a \"heads\" outcome or a \"tails\" outcome.\n\nWhen we examine the data from a chance device, it is important to note that fact that simply because there is a pattern in the data, this does not imply that the data is not random. On each flip, the coin still have an equally likely chance to land on \"heads\" or \"tails\", therefore it is theoretically possible to have 10\n\"tails\" in a row.\n\nChoice 'B' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nA coin is a great example of a chance device as it has two equal outcomes with the same probability. Flipping a coin will result in either a \"heads\" outcome or a \"tails\" outcome.\n\nWhen we examine the data from a chance device, it is important to note that fact that simply because there is a pattern in the data, this does not imply that the data is not random. On each flip, the coin still have an equally likely chance to land on \"heads\" or \"tails\", therefore it is theoretically possible to have $10$ \"tails\" in a row.\n\nChoice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Just because we had $10$ \"tails\" on the first ten flips, does not guarantee that the next $10$ will be heads. In the long run, we should see an approximately $50-50$ split between heads and tails, but that is after many attempts.\n\nChoice 'C' is incorrect. Although it may have a small probability of occurring, there is a probability of getting 10 tails in a row, so it is not impossible.\n\nChoice 'D' is incorrect. As mentioned above, we are not guaranteed a 50−50 split for the outcomes. But, it in long run, we should expect an approximate 50−50 split after many attempts.\n\nChoice 'E' is incorrect. This is a common misconception as a coin does have equal probabilities on landing on \"heads\" or \"tails\". Therefore, \"tails\" will fail many times!",
   "tags": [
     "VAR-1.F",
     "VAR-1.F.1",

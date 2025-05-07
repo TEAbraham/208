@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "$Q1$ is calculated such that $\\text{P(x < Q1)} = 0.25$. Look up the $25^\\text{th}\\text{ percentile}$ in the standard normal table to find the corresponding $z$-score is $-0.675$ (between $-0.67$ and $-0.68$).\n\nUse the following equation to find $x$:\n\n$$-0.675 =\\dfrac{ (x-42)}{6}$$\n\n$$x = 37.95$$\n\nTherefore, the first quartile is $37.95$.\n\n$Q3$ is calculated such that $\\text{P (x < Q3)} =0 .75$. Look up the $75^\\text{th}\\text{ percentile}$ in the standard normal table to find the corresponding $z$-score is $0.675$ (between $0.67$ and $0.68$).\n\nUse the following equation to find $x$:\n\n$$0.675 = \\dfrac{(x-42)}{6}$$\n\n$$x = 46.05$$\n\nTherefore, the third quartile is $46.05$.\n\nThe IQR is $Q3-Q1: 46.05-37.95 = 8.1$.\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "VAR-2.B",
     "UNC-1.J.2",

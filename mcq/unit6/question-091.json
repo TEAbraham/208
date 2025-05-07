@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A type I error occurs when the null hypothesis is rejected (meaning the alternative hypothesis is taken) when really the null hypothesis is actually true.\n\nIn this case, the null and alternative hypotheses are:\n\n${ H }_{ 0 }:$ The efficiency rate of the new boiler is $91\\%$.\n${ H }_{ a }:$ The efficiency rate of the new boiler is less than $91\\%$.\n\nThe alternative hypothesis if the efficiency rate of the new boiler is less than $91\\%$ as this what the company's competitor is trying to prove.\n\nThe type I error would be the company's competitor rejecting the null hypothesis and finding the efficiency rate to be less than $91\\%$ when really it is $91\\%$.\n\nPlease add Explanation of Distractors Choice 'B' is incorrect as this is the explanation of a Type II error in the context of this situation. A Type II error is when we fail to reject the null hypothesis when we should have rejected the null hypothesis in favor of the alternative. Choice 'C' is incorrect as we never accept the null hypothesis. Choice 'D' is incorrect as this is the explanation of power in the context of this situation. Power is when we correctly reject the null hypothesis in favor of the alternative.",
   "tags": [
     "4.B",
     "UNC-5.D.1",

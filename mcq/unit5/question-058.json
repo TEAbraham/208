@@ -7,7 +7,7 @@
   ],
   "title": "Cereal Time",
   "difficulty": "Medium",
-  "question_text": "Two top cereal producers were competing with each other by putting game cards in their cereal boxes. Bix cereal claimed that $22\\%$ of their boxes contained winning cards and Bops cereal claimed that $20\\%$ of their boxes contained winning cards. In an attempt to test this, a consumer goods company purchased $40$ boxes of Bix and $38$ boxes of Bops cereals.\nWhat is the probability that the proportion of winning cards in Bops was $15\\%$ or less of the winning cards in Bix?",
+  "question_text": "Two top cereal producers were competing with each other by putting game cards in their cereal boxes. Bix cereal claimed that $22\\%$ of their boxes contained winning cards and Bops cereal claimed that $20\\%$ of their boxes contained winning cards. In an attempt to test this, a consumer goods company purchased $40$ boxes of Bix and $38$ boxes of Bops cereals.\nWhat is the probability that the proportion of winning cards in Bops was $15\\%$ or less of the winning cards in Bix?<br>What is the probability that the proportion of winning cards in Bops was $15\\%$ or less of the winning cards in Bix?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTo calculate this probability we need to first calculate the parameters for the sampling distribution of the difference of these two proportions. Those parameters are the mean and the standard deviation.\n\nThe mean is equal to $p_{1}-p_{2}$. Plugging in we get $0.22-0.20=0.02$.\n\nThe standard deviation is given by this formula:\n\n$$\\sqrt{\\dfrac{p_{1}(1-p_{1})}{n_{1}}+\\dfrac{p_{2}(1-p_{2})}{n_{2}}}$$\n\nFilling in our values we get:\n\n$$\\sqrt{\\dfrac{0.22(1-0.22)}{40}+\\dfrac{0.20(1-0.20)}{38}}\\approx 0.092$$\n\nFinally, we compute a $z$-score in order to look up the probability. We plug in our values to get:\n\n$z=\\dfrac{0.15-0.02}{0.092}\\approx 1.41$.\n\nBecause this is a less than problem, we look in Table $A$ at the $1.41$ value of $z$ and see $0.9207$. This is the probability that Bix cereals contain more game-winning cards than Bops cereals by a difference of $15\\%$ or less.\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because in the $z$-score calculation, both the numerator and denominator were reversed as well as the two numbers in the numerator.\n\nChoice 'B' is incorrect because the numerator and the denominator of the $z$-score calculation were reversed.\n\nChoice 'D' is incorrect because two digits are reversed in the answer.\n\nChoice 'E' is incorrect because it reversed the two numbers in the numerator of the $z$-score calculation.",
   "tags": [
     "4.B",
     "UNC-3.P.1",

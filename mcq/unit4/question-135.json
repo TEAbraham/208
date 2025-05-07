@@ -14,28 +14,27 @@
   "choices": [
     {
       "letter": "A",
-      "text": "The median is 23\nand the IQR is 33\n."
+      "text": "The median is $23$ and the IQR is $33$."
     },
     {
       "letter": "B",
-      "text": "The median is 23\nand the IQR is 113\n."
+      "text": "The median is $23$ and the IQR is $113$."
     },
     {
       "letter": "C",
-      "text": "The median is 23\nand the IQR is 120\n."
+      "text": "The median is $23$ and the IQR is $120$."
     },
     {
       "letter": "D",
-      "text": "The median is 30\nand the IQR is 113\n."
+      "text": "The median is $30$ and the IQR is $113$."
     },
     {
       "letter": "E",
-      "text": "The median is\n30\nand the IQR is\n120\n."
+      "text": "The median is $30$ and the IQR is $120$."
     }
   ],
   "correct_answer": "Choice ‘C’ is our answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We are dealing with a linear transformation.\n\nSince the median is measure of center, the new median will be:\n\n$$3X-7$$\n\n$$=(3)(10)-7$$\n\n$$=23$$\n\nSince the IQR is a measure of spread, the new IQR will be:\n\n$$3X$$\n\n$$=(3)(40)$$\n\n$$=120$$\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect as the IQR gets affected by multiplication and not subtraction.\n\nChoice ‘B’ is incorrect as the IQR will not get subtracted by $7$.\n\nChoice ‘D’ is incorrect as the median will get subtracted by $7$, but the IQR will not.\n\nChoice ‘E’ is incorrect as the median will get subtracted by $7$.",
   "tags": [
     "VAR-5.F.1",
     "VAR-5.F",

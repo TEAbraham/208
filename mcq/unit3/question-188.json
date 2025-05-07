@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice ‘C’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nIn a statistical design of experiments, blocking is the arranging of experimental units in groups (blocks) that are similar to one another.\n\nIf the purpose of the experiment is to compare two hair shampoos that claim to moisturize scalps, grouping the volunteers into blocks by the condition of their scalp (oily, normal, and dry) prior to using the shampoo will minimize the results of the lurking variable, scalp condition.\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect: If the blocks are intended to group the volunteers with common characteristics (in this case, scalp condition), giving the same shampoo to all subjects in the block will not result in comparing the two shampoos.\n\nChoice ‘B’ is incorrect: The definition of a block in an experiment includes the subjects be grouped by a common characteristic.\n\nChoice ‘D’ is incorrect: If subjects within each block were as different as possible, this would not be a block design.\n\nChoice ‘E’ is incorrect: The statistician could conduct this study in a blind manner by not telling the subjects which shampoo they use; however, this is not a factor in blocking.",
   "tags": [
     "VAR-3",
     "VAR-3.C.8",

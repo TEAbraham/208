@@ -32,8 +32,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Remember, a chi-squared goodness of fit test gives only two-sided results.\n\nTo attempt to show the program helps, one could do a one-proportion $Z$-test on the proportion of those in the program with A's compared to everybody else. Additional one-proportion $Z$-tests can be performed with the rest of the grades (B's, C's, and so on).\n\nExplanation of Distractors\n\nChoice 'B' is incorrect; when dealing with two proportions, a two-proportion test may be appropriate. However, this table deals with several proportions on a single variable.\n\nChoice 'C' is incorrect; a linear regression $T$-test is suited for quantitative data, not the categorical data in this table.\n\nChoice 'D' and 'E' and both incorrect; ANY chi-squared test is two-sided and will not test for improvement.",
   "tags": [
     "4.E",
     "DAT-3.L",

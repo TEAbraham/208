@@ -9,7 +9,7 @@
   ],
   "title": "Scatterplot: Older Sibling vs. Younger Sibling",
   "difficulty": "Hard",
-  "question_text": "On the first day of school, $10$ randomly selected sibling combinations were asked how excited they were to come back to school. They were asked to rate their excitement on a scale from $1$ (very unhappy about coming back) to $10$ (very excited).<br>The scatterplot below displays their excitement levels, with the older siblings' ratings on the vertical axis and the younger siblings' ratings on the horizontal axis.<br>Albert.io. Copyright 2016<br>Which of the following is an accurate statement?",
+  "question_text": "On the first day of school, $10$ randomly selected sibling combinations were asked how excited they were to come back to school. They were asked to rate their excitement on a scale from $1$ (very unhappy about coming back) to $10$ (very excited).<br>The scatterplot below displays their excitement levels, with the older siblings' ratings on the vertical axis and the younger siblings' ratings on the horizontal axis.<br>Albert.io. Copyright 2016<br>Which of the following is an accurate statement?<br>Which of the following is an accurate statement?",
   "image_files": [
     "images/question-045-img1.png"
   ],
@@ -33,12 +33,11 @@
     },
     {
       "letter": "E",
-      "text": "Fewer ratings of\n8\nor more were assigned to younger siblings than to older siblings."
+      "text": "Fewer ratings of 8\nor more were assigned to younger siblings than to older siblings."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Observing the graph, we can see a cluster for younger siblings' ratings between 7\nand 10\nand one for older siblings' ratings between 1\nand 4\n.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Observing the graph, we can see that there are coordinates where the older sibling is not equal to the younger sibling--for example, the coordinate\n(\n1\n,\n10\n)\n.\n\nChoice 'B' is incorrect. Range is defined as (maximum\n−\nminimum). The range for the older siblings is\n10\n−\n1\n=\n9\n. The range for the younger siblings is also\n10\n−\n1\n=\n9\n.\n\nChoice 'D' is incorrect. The association is strong, with a correlation approximately\n−\n0.94\n. The outlier of\n(\n1\n,\n10\n)\npulls the points along the line.\n\nChoice 'E' is incorrect. There were more ratings of\n8\nor more assigned to younger siblings than older siblings.",
   "tags": [
     "UNC-1.S",
     "UNC-1.S.1",

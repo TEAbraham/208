@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The definition of a type I error is rejecting $H_0$ when in fact $H_0$ is true.\n\nAn easy way to think of a type I error is to make the change, when in fact no change should have been made. In this situation, it would mean deciding the proportions of winning by the company are NOT what they are advertised to be, when in fact they are.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect; this represents a type II error.\n\nChoices 'C', 'D', and 'E' are incorrect; chi-squared tests are, by nature, two-sided and cannot claim that contestants are more or less likely to win prizes than advertised.",
   "tags": [
     "4.E",
     "DAT-3.L",

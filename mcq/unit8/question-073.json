@@ -8,7 +8,7 @@
   ],
   "title": "The Use of Video Replay in Professional Sports: Type of Test",
   "difficulty": "Medium",
-  "question_text": "The use of video replay in professional sports has been expanding, and many major sports now offer teams the ability to challenge certain calls that are made during the game. Michael is an avid fan and wonders if the proportion of games in which a challenge is lodged is the same in professional baseball, hockey, and football. Here is his data:<br>Assuming all conditions for inference are met, what is the appropriate type of test for Michael to conduct?",
+  "question_text": "The use of video replay in professional sports has been expanding, and many major sports now offer teams the ability to challenge certain calls that are made during the game. Michael is an avid fan and wonders if the proportion of games in which a challenge is lodged is the same in professional baseball, hockey, and football. Here is his data:<br>Assuming all conditions for inference are met, what is the appropriate type of test for Michael to conduct?<br>Assuming all conditions for inference are met, what is the appropriate type of test for Michael to conduct?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Challenge Lodged</th><th scope=\"col\">No Challenge Lodged</th></tr></thead><tbody><tr><td>Baseball</td><td>13</td><td>21</td></tr><tr><td>Hockey</td><td>8</td><td>14</td></tr><tr><td>Football</td><td>10</td><td>7</td></tr></tbody></table>"
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "One clue to the fact that a ${ \\chi }^{ 2 }$ test may be appropriate is the fact that our data is presented to us in the form of a two-way table. The table contains information about three independent populations (all professional baseball games, all hockey games, and all football games). For each of these populations, the variable of interest is categorical (whether or not a challenge was lodged during a game).\n\nA test of homogeneity is used to assess whether the distribution of proportions related to a categorical variable is the same for two or more independent populations. This is precisely what Michael is trying to do.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Although we could investigate the mean number of challenges lodged per game in these three sports, that is not the intent of this study. We are not interested in a population mean.\n\nChoice 'B' is incorrect. We have three independent populations and cannot assess differences between all three populations by using a $2$-sample $z$-test for proportions. We could use this test to assess whether the proportion of games in which a challenge was lodged was the same for any two of the populations, but not for all three at the same time.\n\nChoice 'C' is incorrect. We are interested in comparing proportions, not means.\n\nChoice 'E' is incorrect. We could use this test to check for an association between type of sport and the use of challenges. However, that is not the intent of this study.\n\nIt is important to read the question carefully and make sure you understand the intent of the study prior to determining which test to use.",
   "tags": [
     "4.E",
     "DAT-3.L",

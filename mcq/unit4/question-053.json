@@ -9,24 +9,26 @@
   "title": "Probabilities and Production Line Defects",
   "difficulty": "Medium",
   "question_text": "A factory utilizes two different production lines ($A$ and $B$) for manufacturing gizmos. Since production line $A$ is faster, it is able to produce $60\\%$ of the gizmos, with the remaining gizmos coming off of production line $B$. It is known that $2\\%$ of the gizmos from production line $A$ and $4\\%$ of the gizmos from production line $B$ will contain some small defect.<br>Based upon this, if a gizmo is randomly selected from among all gizmos produced at this factory and the gizmo is found to have a defect, what is the probability the gizmo came off production line $B$?",
-  "image_files": [],
+  "image_files": [
+    "images/question-053-img1.png"
+  ],
   "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "$0.667$"
+      "text": "0.667"
     },
     {
       "letter": "B",
-      "text": "$0.571$"
+      "text": "0.571"
     },
     {
       "letter": "C",
-      "text": "$0.5$"
+      "text": "0.5"
     },
     {
       "letter": "D",
-      "text": "$0.429$"
+      "text": "0.429"
     },
     {
       "letter": "E",
@@ -34,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We are told that the randomly selected gizmo is defective. This is a given condition. We are trying to find the probability that the gizmo came from production line\nB\ngiven that the gizmo is defective. That is, we are looking for\np\n(\nB\n|\ndefect\n)\n.\n\nWe can solve this problem using the formula for conditional probability.\n\np\n(\nB\n|\ndefect\n)\n=\np\n(\nB\n and  defect\n)\np\n(\ndefect\n)\n\nIn order to find the probabilities we need for both the numerator and denominator, it is helpful to organize our information in the form of a tree diagram.\n\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\n\n\nTo find\np\n(\nB\n and defect\n)\n, we need to use the general multiplication rule:\n\np\n(\nB\n and defect\n)\n=\np\n(\nB\n)\n⋅\np\n(\ndefect\n|\nB\n)\n=\n(\n0.4\n)\n(\n0.04\n)\n=\n0.016\n\nTo find\np\n(\ndefect\n)\n, we need to remember that a gizmo can be defective AND come from production line\nA\nOR a gizmo can be defective AND come from production line\nB\n.\n\nWe will need to use both the multiplication rule and the addition rule for mutually exclusive events.\n\np\n(\ndefect\n)\n=\np\n(\nA\n and defect\n)\n+\np\n(\nB\n and defect\n)\n=\n(\n0.6\n)\n(\n0.02\n)\n+\n(\n0.4\n)\n(\n0.04\n)\n=\n0.028\n\nFinally:\n\np\n(\nB\n and defect\n)\np\n(\ndefect\n)\n=\n0.016\n0.028\n=\n0.571\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. It assumes that since the probability of a defective gizmo on line\nB\nis twice the probability of a defective gizmo from line\nA\n, the\np\n(\nB\n|\ndefect\n)\n=\n2\n⋅\np\n(\nA\n|\ndefect\n)\nand that both probabilities must add up to\n1\n. It does not take into account that production line\nA\nproduces a larger proportion gizmos overall.\n\nChoice 'C' is incorrect. It assumes equally shared production of gizmos between production lines\nA\nand\nB\n, and equal rates of defects on the two production lines. This is not the case.\n\nChoice 'D' is incorrect. It is the complement of the correct answer and represents\np\n(\nA\n|\ndefect\n)\n.\n\nChoice 'E' is incorrect. It represents\np\n(\nB\n and defective\n)\n.",
   "tags": [
     "3.A",
     "VAR-4.D.2",

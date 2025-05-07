@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The $z$-table shows the area to the left of the given $z$-score or the probability of $z < (\\text{the given $z$-score})$. If we are looking for $p(z < -1.26)$, go down the left column of the $z$-table until you reach $-1.2$ then follow this row across until it intersects with the column labeled $.06$. Together this represents the $z$-score of $-1.26$ and the entry you will find in this cell $(0.1038)$ gives $p(z < -1.26)$.\n\nNote: you can also find this answer using the normalcdf function on your TI83/84 graphing calculator. The syntax is: normalcdf(lower bound, upper bound, mean, standard deviation).\n\nIn this case:\n\nEnter *2nd, DISTR *\nChoose normalcdf\nEnter -10^99, -1.26, 0, 1\n\nThe calculator will return the value of about $0.1038$.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect. It represents $p(z < -1.25)$ and can be found by counting over on the $z$-table six spaces from $z = -1.2$. This ignores the value of $z = -1.20$ and considers it to be $z = -1.21$. Also, keep in mind that we can only find probabilities associated with $z$-scores that are strictly between $z = -1.25$ and $z = -1.26$ using the calculator.\n\nChoice 'C' is incorrect. It represents $p(z < -1.20)$.\n\nChoice 'D' is incorrect. It represents $p(z < 1.20)$.\n\nChoice 'E' is incorrect. It represents $p(z < 1.26)$.",
   "tags": [
     "VAR-2.B",
     "3.A",

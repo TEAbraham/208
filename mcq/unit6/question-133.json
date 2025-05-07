@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Even a small difference can be considered statistically significant. It’s likely that only $50\\%-51\\%$ prefer the new logo over the old one. With such a small difference, it may not be worth the time and money to make the new logo.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; the problem states that this is a random sample and assumes then that there is no bias.\n\nChoice 'C' is incorrect; a $p$-value of $0.02$ is considered quite low.\n\nChoice 'D' is incorrect; the data will be approximately normal since $np$ and $n(1-p)$ are far greater than $10$.\n\nChoice 'E' is incorrect; see Choice 'B' explanation.",
   "tags": [
     "4.E",
     "DAT-3.D.1",

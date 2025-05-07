@@ -11,11 +11,7 @@
   "title": "Max Battery Life",
   "difficulty": "Hard",
   "question_text": "A popular cell phone maker allows its users to measure the \"Max Battery Life\" to determine the health of the battery. This compares the user's current battery life to the life of the battery when it was new. A data scientist for the company wants to create a linear regression model for a random sample of $22$ phones and determine the Max Battery Life after a certain amount of time (in months).<br>Below is the scatter plot (with the regression line plotted), a table of the regression data, and a model sampling distribution if the researcher simulated a sampling distribution for his data:<br>What question cannot be answered by the provided information?",
-  "image_files": [
-    "images/question-010-img1.jpeg",
-    "images/question-010-img2.jpeg",
-    "images/question-010-img3.jpeg"
-  ],
+  "image_files": [],
   "tables": [],
   "choices": [
     {
@@ -24,7 +20,7 @@
     },
     {
       "letter": "B",
-      "text": "What is the change in predicted Max Battery Life for an increase of\n1\nmonth for the sample data?"
+      "text": "What is the change in predicted Max Battery Life for an increase of $1$ month for the sample data?"
     },
     {
       "letter": "C",
@@ -40,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer",
-  "solution": "Choice 'E' is correct.\n\nWhen looking at sample data to make an inference regarding the population data, to have convincing evidence, the statistic must be so rare, that it couldn't have possibly happened by chance. When looking at the simulated sampling distribution, the value of our slope\nb\n=\n−\n1.5039\nor less occurs numerous times by chance.\n\nAdditionally, since\n0\noccurs enough in our sampling distribution many times, this is also an indication that there is no convincing evidence for the negative slope.\n\nTherefore, we are not able to answer the question definitively. The slope could be negative, or the slope could be positive.\n\nChoice 'E' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nChoice 'E' is correct.\n\nWhen looking at sample data to make an inference regarding the population data, to have convincing evidence, the statistic must be so rare, that it couldn't have possibly happened by chance. When looking at the simulated sampling distribution, the value of our slope b=−1.5039 or less occurs numerous times by chance.\n\nAdditionally, since 0 occurs enough in our sampling distribution many times, this is also an indication that there is no convincing evidence for the negative slope.\n\nTherefore, we are not able to answer the question definitively. The slope could be negative, or the slope could be positive.\n\nChoice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Since we have the regression information for the sample data, the sample slope is negative as shown in the regression line, or the scatterplot.\n\nChoice 'B' is incorrect. Since the sample data provided a slope of −1.5039\n, we know what happens to the predicted Max Battery Life when the age increases by 1\nmonth.\n\nChoice 'C' is incorrect. Even though we aren't given the correlation coefficient, r\n, we are given the coefficient of determination, r2\n. Therefore, we can find a correlation by taking the square root of r2\n. This would produce ±r\n, and since the slope of the sample data has a negative slope, the correlation will be negative.\n\nChoice 'D' is incorrect. When determining if data is linear, you should look at many aspects. The scatterplot shows a generally linear form, meanwhile, the r2\nvalue is extremely high, and the s\nvalue is relatively low. All-in-all, the data seems to be fairly linear.",
   "tags": [
     "1.A",
     "VAR-1.K",

@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since the chips are from a large population, this situation is close to being independent, so the probabilities can be multiplied because running the operation \"without replacement\" has no effect on the individual probabilities with each successive check.\n\n$$0.95 \\cdot 0.95 \\cdot 0.95 \\cdot 0.95 \\cdot 0.95 \\cdot 0.95 \\cdot 0.95 \\cdot 0.95 \\cdot 0.95 \\cdot 0.95$$\n\n$$\\text{OR simply: }(0.95)^{10} = 0.5987$$\n\nThus, the correct answer is Choice 'A'.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect. The probability of $0.95$ refers to simply the probability of a single chip NOT being defective.\n\nChoice 'C' is incorrect. The probability of $0.05$ refers to simply the probability of a single chip being defective.\n\nChoice 'D' is incorrect. The probability of $0.000976$ refers to zero NON-defective chips of the $10$ chosen ($0.5^{10}$).\n\nChoice 'E' is incorrect. The probability of $0.4283$ the compliment of zero defective chips chosen out of $10$.",
   "tags": [
     "VAR-4.E.1",
     "VAR-4.E",

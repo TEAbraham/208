@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To solve this problem, first find the probability of winning a free entree. We know that the distribution of all possible prizes must add up to $100\\%$.\n\nTherefore:\n\n$$p(\\text{Entree}) = 100 – 50 – 20 – 15 – 10 = 5\\% \\text{ or } 0.05$$\n\nThen use the addition rule for mutually exclusive events.\n\n$$p(\\text{Appetizer OR Entree}) = p(\\text{Appetizer})+p(\\text{Entree}) = 0.15 + 0.05 = 0.20$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect since it only represents the probability of winning a free entree.\n\nChoice 'B' is incorrect since it only represents the probability of winning a free appetizer.\n\nChoice 'C' is incorrect because it assumes that the events are independent and that there is a possibility of winning both a free appetizer AND a free entree. This answer choice can be arrived at with the following calculation:\n\n$$p(\\text{Appetizer OR Entree}) = 0.15 + 0.05 - (0.15)(0.05)$$\n\nKeep in mind, however, that each ticket reveals a single prize. Therefore, the event of winning a free appetizer and the event of winning a free entree are mutually exclusive. That is, with one ticket, you cannot win both prizes. So, $p(\\text{Appetizer AND Entree}) = 0$, NOT $(0.15)(0.05)$\n\nChoice 'E' is incorrect. It could represent the probability of winning only a discount. Alternatively, it could represent the probability of winning any type of food/beverage item.",
   "tags": [
     "VAR-4.D.1",
     "3.A",

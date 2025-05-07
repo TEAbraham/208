@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nStatisticians may choose to use transformed data in order to create models which may be more linear in form. Both the explanatory and the response variables can be changed by a variety of methods from squaring to taking logarithms. One or both variables may be transformed.\n\nTransformed data can display greater linearity by increasing the r2 value bringing it closer to 1 and by changing the value of the residuals. These changes in residuals create more randomness or scatter in the residual plot which serves as greater evidence for linearity.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it is true that one way of transforming variables is to take the natural log of each of the response variables.\n\nChoice 'B' is incorrect because it is true that transformed data can result in data which is more linear in form.\n\nChoice 'C' is incorrect because it is true that transformed data can result in an r2\nvalue closer to 1\nwhich indicates the regression line is a more appropriate model.\n\nChoice 'E' is incorrect because it is true that one way of transforming variables is to square each of the explanatory variables.",
   "tags": [
     "DAT-1",
     "DAT-1.J",

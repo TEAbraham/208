@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "One can reject ${H}_{0}$ with a low $p$-value. Compared to $1\\%, 5\\%$, or $10\\%$, the p-value of $19\\%$ represents a high $p$-value. Therefore, one cannot reject ${H}_{0}$ at any of the common alpha levels of $1\\%, 5\\%$, or $10\\%$.\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "4.B",
     "DAT-3",

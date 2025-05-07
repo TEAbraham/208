@@ -30,8 +30,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A chi-squared test for association best determines whether a relationship exists between $2$ categorical variables that have several different levels.\n\nIn this situation, the variables are location and whether or not one buys a sports drink.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; three locations were used, so the data cannot be in a $2x2$ table, and therefore, a two-proportion Z-test cannot be used.\n\nChoice 'C' is incorrect; the data comes from one large sample, so a chi-squared test for homogeneity cannot be used.\n\nChoice 'D' is incorrect; there are two variables used in this situation, so a goodness of fit test cannot be used.\n\nChoice 'E' is incorrect; there is no such thing as a chi-squared test for normality.",
   "tags": [
     "VAR-8.J.2",
     "VAR-8.J.1",

@@ -27,16 +27,15 @@
     },
     {
       "letter": "D",
-      "text": "17.306"
+      "text": "$17.306$"
     },
     {
       "letter": "E",
-      "text": "37.239"
+      "text": "$37.239$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Substitute 45 in for S:\n\n^\nlogA\n=0.971+0.363⋅logs=0.971+0.363⋅log45\n\n^\nlogA\n=1.571\n\nRaise both sides to be exponents of 10 to cancel out the log:\n\n10\n^\nlogA\n=101.571\n\nA=37.239\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because 1.571\ncomes from:\n\n^\nlogA\n=0.971+0.363⋅logs=0.971+0.363⋅log45\n\nEach side was not raised to the power of 10\n. You found\n^\nlogA\n, not A\n.\n\nChoice 'B' is incorrect as 45\nwas incorrectly substituted into a instead of s. Also incorrectly s was incorrectly solved for following that as both sides were not raised to the power of 10\n.\n\nChoice 'C' is incorrect because of raising both sides to the power of 10\n, both sides were raised to the power of e\n.\n\nChoice 'D' is incorrect because the logs were never take into consideration. The equation looked like\n^\n(a)\n=0.971+0.363(s)\n45\nwas then substituted in.\n^\n(a)\n=0.971+0.363(45)",
   "tags": [
     "2.C",
     "DAT-1",

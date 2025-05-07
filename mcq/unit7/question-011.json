@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A confidence interval can be constructed as follows:\n\n$$\\text{Confidence Interval =Statistic }\\pm\\text{ Margin of Error}$$\n\nThe statistic, in this case, is the sample mean of $\\$914.32$.\n\nThe lower bound of the interval is:\n\n$$\\text{Lower Bound = Statistic - Margin of Error}$$\n\nFilling in this formula we get:\n\n$$\\$863.57=\\$914.32- \\text{ margin of error}$$\n\nSubtract $\\$914.32$ from each side of the equation to get:\n\n$$-\\$50.75=- \\text{margin of error}$$\n\nMultiplying both sides of the equation by $-1$ we find:\n\n$$\\$50.75=\\text{margin of error}$$\n\nThe upper bound of the interval can now be found using the formula:\n\n$$\\text{Upper Bound = Statistic + Margin of Error}$$\n\nFilling in this formula we get:\n\n$$\\text{Upper Bound}=\\$914.32+\\$50.75=\\$965.07$$\n\nTherefore, $\\$965.07$ is the largest cost estimated by the confidence interval.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect and represents only the margin of error.\n\nChoice 'B' is incorrect and represents the width or range of the confidence interval. This value is twice the margin of error.\n\nChoice 'C' is incorrect. This value can be determined by adding half the margin of error to the estimate. While the margin of error is half the width of the confidence interval, we would not cut the margin of error in half to find the upper bound of the interval from the given information.\n\nChoice 'E' is incorrect. This value can be found by adding twice the margin of error to the estimate. Once you have found the margin of error, however, you should not double it before adding to the statistic.",
   "tags": [
     "3.D",
     "UNC-4",

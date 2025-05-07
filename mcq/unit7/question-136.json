@@ -9,7 +9,7 @@
   ],
   "title": "One-Sample T-Test Output",
   "difficulty": "Medium",
-  "question_text": "An exercise physiologist is interested in the effect of exercise on heart rate.<br>She has subjects walk slowly for $5\\text{ minutes}$ and records their heart rates. Then she has the subjects run vigorously for $5\\text{ minutes}$ and records their heart rates again.<br>The differences are recorded, (heart rate after running - heart rate before running), with results below:<br>One-Sample T: Differences<br>Test of $\\mu$ = $0$ vs. > $0$<br>What is a valid interpretation of the hypothesis test given from the computer output?",
+  "question_text": "An exercise physiologist is interested in the effect of exercise on heart rate.<br>She has subjects walk slowly for $5\\text{ minutes}$ and records their heart rates. Then she has the subjects run vigorously for $5\\text{ minutes}$ and records their heart rates again.<br>The differences are recorded, (heart rate after running - heart rate before running), with results below:<br>One-Sample T: Differences<br>Test of $\\mu$ = $0$ vs. > $0$<br>What is a valid interpretation of the hypothesis test given from the computer output?<br>What is a valid interpretation of the hypothesis test given from the computer output?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">N</th><th scope=\"col\">Mean</th><th scope=\"col\">StDev</th><th scope=\"col\">SE Mean</th><th scope=\"col\">96% CI</th><th scope=\"col\">T</th><th scope=\"col\">P</th></tr></thead><tbody><tr><td>Differences</td><td>12</td><td>59.88</td><td>10.36</td><td>3.66</td><td>(51.22, 68.53)</td><td>16.35</td><td>0.000</td></tr></tbody></table>"
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A small $p$-value ($p = 0$) and a test statistic far from zero ($t = 16.35$) gives evidence that heart rate goes up.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; although the average increase was $59.88$ (near $60$), a hypothesis test cannot determine how much the increase is; it will tell us only that there either is an increase or there is not.\n\nChoice 'C' is incorrect; a sample size of $n = 12$ is not optimal but is not a significant cause for concern.\n\nChoice 'D' is incorrect; there is nothing in the problem that shows clear bias. The fact that this is a paired experiment makes it less worrisome that this may not be an SRS.\n\nChoice 'E' is incorrect; a low p-value does give us evidence of an increase in heart rate in this situation.",
   "tags": [
     "4.E",
     "DAT-3.H.1",

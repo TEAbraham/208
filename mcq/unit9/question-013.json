@@ -28,16 +28,15 @@
     },
     {
       "letter": "D",
-      "text": "2.045"
+      "text": "$2.045$"
     },
     {
       "letter": "E",
-      "text": "2.048"
+      "text": "$2.048$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The critical value (t∗), when calculating a slope t-interval, has degrees of freedom n−2, where n is the sample size. In this case, the degrees of freedom is: 30−2=28.\n\nOn the t-distribution chart, find where 95% confidence and 28 degrees of freedom intersect.\n\nExplanation of Distractors Choice 'A' is incorrect as this is the critical value for a z-interval of 95% confidence. Choice 'B' is incorrect as this would be the critical value for 32 degrees of freedom and 95% confidence. Choice 'C' is incorrect as this would be the critical value for 30 degrees of freedom and 95% confidence. Choice 'D' is incorrect as this would be the critical value for 29 degrees of freedom and 95% confidence.",
   "tags": [
     "UNC-4.AC.3",
     "UNC-4.AC",

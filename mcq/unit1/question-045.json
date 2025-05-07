@@ -9,7 +9,7 @@
   ],
   "title": "Comparing Movie Ratings: A Graphical Display",
   "difficulty": "Medium",
-  "question_text": "A random sample of $90\\text{ adults}$ and a random sample of $90\\text{ kids}$ were asked to provide their opinion on a recently released superhero movie they had seen at the theater. Results of the survey are displayed below.<br><br><br><br><br>Which of the following statements is NOT supported by the graphical display?",
+  "question_text": "A random sample of $90\\text{ adults}$ and a random sample of $90\\text{ kids}$ were asked to provide their opinion on a recently released superhero movie they had seen at the theater. Results of the survey are displayed below.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>Which of the following statements is NOT supported by the graphical display?",
   "image_files": [
     "images/question-045-img1.PNG"
   ],
@@ -17,7 +17,7 @@
   "choices": [
     {
       "letter": "A",
-      "text": "Approximately 70% of kids said the movie was \"Good\" or \"Excellent\", but fewer than 60% of adults said the movie was \"Good\" or \"Excellent\"."
+      "text": "Approximately\n70\n%\nof kids said the movie was \"Good\" or \"Excellent\", but fewer than\n60\n%\nof adults said the movie was \"Good\" or \"Excellent\"."
     },
     {
       "letter": "B",
@@ -25,7 +25,7 @@
     },
     {
       "letter": "C",
-      "text": "Approximately 20%\nof individuals surveyed said the movie was \"Terrible\"."
+      "text": "Approximately\n20\n%\nof individuals surveyed said the movie was \"Terrible\"."
     },
     {
       "letter": "D",
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In the segmented bar graphs, the response \"Terrible\" is indicated in purple. Connect the purple portion of both graphs to the relative frequency shown on the horizontal axis. For both graphs, the purple portion of the bar starts about midway between\n80\n%\nand\n100\n%\n.\n\nWe might reasonably estimate that the purple portion of the graphs starts at about\n90\n%\nand reaches to\n100\n%\n. Since\n100\n%\n−\n90\n%\n=\n10\n%\n, we can estimate that about\n10\n%\nof adults and about\n10\n%\nof kids said the movie was \"Terrible\". However, adding these two percents will not tell us what percent of all individuals surveyed said \"Terrible\".\n\nSince\n90\n adults\nwere surveyed and\n10\n%\nsaid the movie was \"Terrible\", the actual number of adults who said \"Terrible\" was:\n\n(\n0.10\n)\n(\n90\n)\n=\n9\n\nSince\n90\n kids\nwere surveyed and\n10\n%\nsaid the movie was \"Terrible\", the actual number of kids who said \"Terrible\" was:\n\n(\n0.10\n)\n(\n90\n)\n=\n9\n\nThen, the total number of individuals surveyed who said \"Terrible\" is\n9\n+\n9\n=\n18\n. A total of\n90\n+\n90\n=\n180\n individuals\nwere surveyed, so the percent of those surveyed who said \"Terrible\" is:\n\n18\n180\n=\n0.10\n=\n10\n%\n\nSince the totals are the same in each sample,\n10\n%\nfrom both samples would yield an overall result of\n10\n%\n.\n\nChoice 'C' is the correct choice since it provides a statement that is not supported by the graphical display.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because this statement is supported by the graphical display. The response \"Excellent\" is displayed in blue and the response \"Good\" is displayed in red. These two colors are right next to each other at the start of each bar graph. For adults, the combined blue and red portion of the bar does not reach to\n60\n%\nwhile for kids it extends to about\n70\n%\n.\n\nChoice 'B' is incorrect because this statement is supported by the graphical display. For both graphs, the combined blue and red portion of the bar does extend past\n50\n%\non the horizontal axis. Since more than\n50\n%\nof both groups said \"Good\" or \"Excellent\", more than half of those surveyed responded with one of these two words.\n\nChoice 'D' is incorrect because this statement is supported by the graphical display and the fact that the same number of kids and adults were surveyed. The response \"OK\" is represented in green on both graphs. It is visually obvious that green represents a bigger portion of the adults' bar graph than the kids' bar graph.\n\nChoice 'E' is incorrect because this statement is supported by the graphical display. The blue portion of the kids' graph is about twice as large as the blue portion of the adults' graph and the same number of adults and kids were surveyed.",
   "tags": [
     "2.A",
     "UNC-1.C.1",

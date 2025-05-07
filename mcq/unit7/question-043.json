@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since we do not want the confidence interval to contain $23.7$, this indicates that we want to reject the null hypotheses.\n\nFor each one of the confidence levels, create the significance level that corresponds to the confidence level. Then, see if you would reject or fail to reject the null hypotheses using the $p$-value and significance level.\n\nFor a $90\\%$ confidence level, the significance level is $10\\%$. $0.034 < 0.10$; therefore, we reject the null hypotheses.\n\nFor a $95\\%$ confidence level, the significance level is $5\\%$. $0.034 < 0.05$; therefore, we reject the null hypotheses.\n\nFor a $96\\%$ confidence level, the significance level is $4\\%$. $0.034 < 0.04$; therefore, we reject the null hypotheses.\n\nFor a $97\\%$ confidence level, the significance level is $3\\%$. $0.034 > 0.03$; therefore, we fail to reject the null hypotheses.\n\nFor a $99\\%$ confidence level, the significance level is $1\\%$. $0.034> 0.01$; therefore, we fail to reject the null hypotheses.\n\nThe largest confidence interval that will not contain $23.7$ is $96\\%$. Choice 'C' is correct.",
   "tags": [
     "4.B",
     "UNC-4.S",

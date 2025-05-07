@@ -9,7 +9,7 @@
   ],
   "title": "Battery Times",
   "difficulty": "Medium",
-  "question_text": "A recent experiment was performed involving $150\\text{ generic batteries}$ and $150\\text{ brand-name batteries}$. The designers of the experiment used each battery for a fixed task and determined how many trials the battery could perform before it died.<br>The results are presented in the boxplots below.<br><br><br><br><br>About how many of the batteries lasted more than $200\\text{ trials}$?",
+  "question_text": "A recent experiment was performed involving $150\\text{ generic batteries}$ and $150\\text{ brand-name batteries}$. The designers of the experiment used each battery for a fixed task and determined how many trials the battery could perform before it died.<br>The results are presented in the boxplots below.<br>Created for Albert.io. Copyright 2017. All rights reserved.<br><br>About how many of the batteries lasted more than $200\\text{ trials}$?",
   "image_files": [
     "images/question-127-img1.jpg"
   ],
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Based on the boxplots, brand-name batteries have a 3rd quartile of about\n200\n trials\n.\n\nTherefore, about\n150\n⋅\n0.25\n=\n37.5\nof these batteries last more than\n200\n trials\n.\n\nGeneric batteries have a first quartile of about\n200\n trials\n.\n\nTherefore, about\n150\n×\n0.75\n=\n112.5\nof these batteries last more than\n200\n trials\n.\n\n37.5\n+\n112.5\n=\n150\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "UNC-1.L.2",
     "2.B",

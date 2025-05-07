@@ -8,34 +8,33 @@
   ],
   "title": "Increasing the Fish Population",
   "difficulty": "Medium",
-  "question_text": "A state Wildlife and Fisheries agent is trying to stimulate the growth of the population of a certain type of fish. She will conduct an experiment that involves randomly assigning $3\\text{ different treatments}$ to $36\\text{ fish}$ to determine which treatment will cause the largest amount of weight gain in the fish. The agent wants to make sure that the $3\\text{ treatment groups}$ each have exactly $12\\text{ fish}$.<br>Which of the following methods should be used to assign the treatments?",
+  "question_text": "A state Wildlife and Fisheries agent is trying to stimulate the growth of the population of a certain type of fish. She will conduct an experiment that involves randomly assigning 3 different treatments to 36 fish to determine which treatment will cause the largest amount of weight gain in the fish. The agent wants to make sure that the 3 treatment groups each have exactly 12 fish.<br>Which of the following methods should be used to assign the treatments?",
   "image_files": [],
   "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "Catch $36\\text{ fish}$. For each fish roll a six-sided number cube. If the cube shows a $1$ or $2$, the fish will receive treatment 'A'. If the cube shows a $3$ or $4$, the fish will receive treatment 'B'. If the cube shows a $5$ or $6$, the fish will receive treatment 'C'."
+      "text": "Catch 36 fish\n. For each fish roll a six-sided number cube. If the cube shows a 1\nor 2\n, the fish will receive treatment 'A'. If the cube shows a 3\nor 4\n, the fish will receive treatment 'B'. If the cube shows a 5\nor 6\n, the fish will receive treatment 'C'."
     },
     {
       "letter": "B",
-      "text": "As each fish is caught, draw a number from a random digit table. If the number is $1$, $2$, or $3$, the fish will receive treatment 'A'. If the number is $4$, $5$, or $6$, the fish will receive treatment 'B'. If the number is $7$, $8$, or $9$, the fish will receive treatment 'C'. If the number is $0$, a new number will be drawn. If a treatment group already has $12\\text{ fish}$ then another number will be chosen to assign the fish to one of the other groups."
+      "text": "As each fish is caught, draw a number from a random digit table. If the number is 1\n, 2\n, or 3\n, the fish will receive treatment 'A'. If the number is 4\n, 5\n, or 6\n, the fish will receive treatment 'B'. If the number is 7\n, 8\n, or 9\n, the fish will receive treatment 'C'. If the number is 0\n, a new number will be drawn. If a treatment group already has 12 fish\nthen another number will be chosen to assign the fish to one of the other groups."
     },
     {
       "letter": "C",
-      "text": "The first $12\\text{ fish}$ caught will be assigned to treatment 'A', the second $12\\text{ fish}$ to treatment 'B' and the last $12\\text{ fish}$ to treatment 'C'."
+      "text": "The first\n12\n fish\ncaught will be assigned to treatment 'A', the second\n12\n fish\nto treatment 'B' and the last\n12\n fish\nto treatment 'C'."
     },
     {
       "letter": "D",
-      "text": "Catch 36 fish and assign each fish a unique number between 1 and 36. Write the numbers from 1 to 36 on separate slips of paper. Place the slips in a fish bowl and mix them up. Draw 12 slips of paper. The fish corresponding to those numbers will receive treatment 'A'. Draw 12 more slips of paper. The fish corresponding to those numbers will receive Treatment 'B'. The remaining fish will receive treatment 'C'."
+      "text": "Catch\n36\n fish\nand assign each fish a unique number between\n1\nand\n36\n. Write the numbers from\n1\nto\n36\non separate slips of paper. Place the slips in a fish bowl and mix them up. Draw\n12\n slips\nof paper. The fish corresponding to those numbers will receive treatment 'A'. Draw\n12\n more slips\nof paper. The fish corresponding to those numbers will receive Treatment 'B'. The remaining fish will receive treatment 'C'."
     },
     {
       "letter": "E",
-      "text": "All of these methods will randomly assign the treatments to 3 groups of 12 fish."
+      "text": "All of these methods will randomly assign the treatments to\n3\n groups\nof\n12\n fish\n."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'D' seems inconvenient, but it is the only choice that describes a truly random assignment of treatment for all\n36\n fish\n.\n\nExplanation of Distractors\n\nChoice 'A' does not guarantee\n12\n fish\nin each group. By rolling dice, there is random assignment, but there could be\n20\n fish\nin the first group,\n12\n fish\nin the second group, and\n4\n fish\nin the third group.\n\nChoice 'B' is not completely random because the last few fish that are caught are placed in the group that is not full yet. This introduces a confounding variable because the last few fish that are caught are probably faster or stronger fish who will all show good growth for the treatment they receive.\n\nChoice 'C' includes no randomness and leaves the experiment vulnerable to a confounding variable. It could be that the first\n12\n fish\ncaught are the slower, weaker fish and would show the least amount of growth at the end of the experiment regardless of the treatment they received.",
   "tags": [
     "VAR-3.D",
     "VAR-3.E",

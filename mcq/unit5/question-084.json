@@ -7,7 +7,7 @@
   ],
   "title": "How Many Candies?",
   "difficulty": "Hard",
-  "question_text": "The company which makes the very popular N & N Candies has two assembly lines that fill jumbo bags with what is supposed to be $400$ candies. It has been found that the first assembly line fills the bags with an average of $398$ candies with a standard deviation of $6$ candies. The other assembly line fills bags with an average of $401$ candies with a standard deviation of $8$ candies. Suppose $36$ bags are randomly sampled from the first assembly line and $32$ bags are randomly sampled from the second assembly line.\nWhat is the probability of finding that the bags from the two assembly lines differ by more than a total of $5$ candies?",
+  "question_text": "The company which makes the very popular N & N Candies has two assembly lines that fill jumbo bags with what is supposed to be $400$ candies. It has been found that the first assembly line fills the bags with an average of $398$ candies with a standard deviation of $6$ candies. The other assembly line fills bags with an average of $401$ candies with a standard deviation of $8$ candies. Suppose $36$ bags are randomly sampled from the first assembly line and $32$ bags are randomly sampled from the second assembly line.\nWhat is the probability of finding that the bags from the two assembly lines differ by more than a total of $5$ candies?<br>What is the probability of finding that the bags from the two assembly lines differ by more than a total of $5$ candies?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -29,12 +29,11 @@
     },
     {
       "letter": "E",
-      "text": "0.8749"
+      "text": "$0.8749$"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nIn order to find a probability for this difference of sample means for this sampling distribution, two parameters must be calculated. The sampling distribution of the difference of the sample means is simply equal to the subtraction of the two given sample means. The sampling distribution for the difference of the sample standard deviations is equal to this formula:\n\n√\nσ\n2\n1\nn1\n+\nσ\n2\n2\nn2\n\nThus, the mean of the differences here is equal to 398−401=−3\ncandies OR 401−398=3\ncandies. Both means will be used because the problem asks for a difference in both directions.\n\nAnd the standard deviation of the differences is equal to:\n\n√\n62\n36\n+\n82\n32\n≈1.732\n\n...candies.\n\nNow two z\n-scores must be calculated using this formula: z=\nˉ\nx\n−μ\nσ\n, where\nˉ\nx\n=5\n, the difference we are looking for in the problem.\n\nWe get z=\n5−3\n1.732\n≈1.15\nand z=\n5−(−3)\n1.732\n≈4.61\n.\n\nSince we are looking for a difference in the numbers of candies as being more than or greater than 5\n, both probabilities would be a \"greater than\". So, both Table A\nvalues need to be subtracted from 1\n.\n\nLooking up\n1.15\nin Table\nA\nwe see\n0.8749\nso\n1\n−\n0.8749\n=\n0.1251\n. Looking up\n4.61\nwe see a number higher than the table and thus higher than\n0.9998\n. Thus, we need to assume a value of nearly\n1\n, but subtracting it from\n1\nwould give us a value of nearly\n0\n.\n\nIn this type of problem, we should add the two table values, but in this case, we will call the second value essentially\n0\nand our answer would be\n0.1251\n. Think about it, if there is an average difference of\n3\ncandies, then finding a difference of\n5\nfrom the lower number to the higher number will very likely not occur.\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because seeing a\nz\n-score off the table past\n0.9998\n, then being nearly\n1\nwas assumed.\n\nChoice 'B' is incorrect because seeing a\nz\n-score off the table past\n0.9998\nit was assumed that the answer should have\n1\nsubtracted so the answer would be nearly\n0\n.\n\nChoice 'D' is incorrect because the square root sign was not applied to the calculation of the standard deviation.\n\nChoice 'E' is incorrect because the answer was subtracted from\n1\n.",
   "tags": [
     "4.B",
     "UNC-3",

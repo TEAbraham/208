@@ -21,7 +21,7 @@
     },
     {
       "letter": "C",
-      "text": "Yes. These predictions are not always reasonable, but in this case they might be as the 400 pound man could be very tall and very strong."
+      "text": "Yes. These predictions are not always reasonable, but in this case they might be as the 400\npound man could be very tall and very strong."
     },
     {
       "letter": "D",
@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThis question about linear regression is all about extrapolation. Extrapolation means predicting values beyond the range of input values on which the regression model is based. The farther away from that range of values, the less reliable the prediction becomes.\n\nIn this example, 300\npounds is very close the the high of 280\npounds. Using the model this would result in a a prediction of 60\nhome runs hit, not a common amount but it has been done. However, 400\npounds is much farther away from the range of input values for the explanatory variable. It would result in a prediction of 100\nhome runs which has never been done. Therefore, predicting for 300\npounds is reasonable, but much higher than that is not.\n\nSo, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because this is simply untrue. There are times when extrapolation makes a lot of sense.\n\nChoice 'B' is incorrect because this is simply untrue. There are times when it is reasonable and there are times when it is not.\n\nChoice 'C' is incorrect because, while a\n400\npound man may be tall and strong, it is still unlikely that he will hit\n100\nhome runs. The number is just too high and this answer does not make it reasonable.\n\nChoice 'D' is incorrect because, while the\n100\nnumber is too high, hitting\n60\nhome runs is not. Still, the decision on whether to extrapolate should be made on how close the numbers are to the original range used in creating the model.",
   "tags": [
     "DAT-1.D.3",
     "2.C",

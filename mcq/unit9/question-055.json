@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A sample size of $n = 20$ gives $18$ degrees of freedom. With bivariate data, degrees of freedom is calculated by $n - 2$, where $n$ represents the number or ordered pairs.\n\nThe problem asks for a $99\\%$ confidence interval. Linear Regression uses the $T$ distribution, so using the $T$ table, find where $99\\%$ confidence meets $18$ degrees of freedom to find a critical $t^*$ value of $2.878$.\n\nThe standard error of the slope, also known as $SE_b$, represents how far the typical sample slope will be from the unknown population slope. This is given in the problem, and also will be used in the formula.\n\nA $99\\%$ confidence interval goes from $0.424$ to $0.931$ using the equation below:\n\n$$\\text{Interval}= \\text{Sample Slope} \\pm t \\times ({ SE }_{ b})$$\n\n$$\\text{Interval}= 0.6776 \\pm 2.878(0.08807)$$\n\nThis interval hopes to estimate the unknown population slope; a population slope of zero would represent no linear relationship, a population slope below zero would represent a negative linear relationship, and a population slope above zero would represent a positive linear relationship.\n\nSince the entire interval (that gives plausible values of the true unknown population slope) is above zero, we have evidence of a positive linear relationship.\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "4.E",
     "DAT-3.N.2",

@@ -16,19 +16,19 @@
   "choices": [
     {
       "letter": "A",
-      "text": "Company B had a higher proportion sign up for the warranty than Company A."
+      "text": "Company\nB\nhad a higher proportion sign up for the warranty than Company\nA\n."
     },
     {
       "letter": "B",
-      "text": "Company C had a higher proportion sign up than Company A and B combined."
+      "text": "Company\nC\nhad a higher proportion sign up than Company\nA\nand\nB\ncombined."
     },
     {
       "letter": "C",
-      "text": "More people signed up for Company B\n's warranty than not."
+      "text": "More people signed up for Company\nB\n's warranty than not."
     },
     {
       "letter": "D",
-      "text": "Company C\nhad approximately twice the proportion sign up than Company A\n."
+      "text": "Company\nC\nhad approximately twice the proportion sign up than Company\nA\n."
     },
     {
       "letter": "E",
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "The bar chart is a visualization of a categorical variable. The variable is the proportion of people who sign up for a warranty on their coffee maker. The segmented bar chart shows the proportion who has signed up for the warranty and the proportion who did not sign up for the warranty.\n\nLooking at Company\nC\n, they had approximately\n0.70\nsign up for the warranty, while Company\nA\nhad about\n0.35\nand Company\nB\nhad approximately\n0.55\n, so Company\nC\ndid not have more than Company\nA\nand\nB\ncombined.\n\nChoice 'B' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nThe bar chart is a visualization of a categorical variable. The variable is the proportion of people who sign up for a warranty on their coffee maker. The segmented bar chart shows the proportion who has signed up for the warranty and the proportion who did not sign up for the warranty.\n\nLooking at Company\nC\n, they had approximately\n0.70\nsign up for the warranty, while Company\nA\nhad about\n0.35\nand Company\nB\nhad approximately\n0.55\n, so Company\nC\ndid not have more than Company\nA\nand\nB\ncombined.\n\nChoice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Company\nB\nhad approximately\n0.55\nsign up for the warranty, whereas Company\nC\nonly had approximately\n0.35\n, so this is true.\n\nChoice 'C' is incorrect. Since Company\nB\nhad over\n0.50\nsign up for the warranty, more people did sign up then not.\n\nChoice 'D' is incorrect. Since Company\nC\nhad about\n0.70\nsign up for the warranty, this is approximately twice the amount of Company\nA\n,\n0.35\n.\n\nChoice 'E' is incorrect. If you add up all the proportions that did sign up for the warranty, it adds to approximately\n165\n300\n, which is greater than half.",
   "tags": [
     "UNC-1.E",
     "UNC-1.D",

@@ -26,16 +26,15 @@
     },
     {
       "letter": "D",
-      "text": "There are $3$ factors and $18$ treatments."
+      "text": "There are 3\nfactors and 18\ntreatments."
     },
     {
       "letter": "E",
-      "text": "There are $4$ factors, but we cannot determine the number of treatments without knowing how many greenhouses the horticulturalist will use."
+      "text": "There are 4\nfactors, but we cannot determine the number of treatments without knowing how many greenhouses the horticulturalist will use."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In an experiment, the factors are the different explanatory variables that are proposed to have an effect on the experimental units under study. Often, the factors are applied at different levels. Combinations of different factors at different levels form the treatments. A single treatment consists of each factor applied at one specific level.\n\nIn this study, there are 3\nfactors. The factors are the amount of sunlight, the amount of water, and the temperature at which the seedlings are grown.\n\nSunlight can be applied at three different levels: full sun, partial sun, and shade. Water can also be applied at three different levels: little water, moderate water, and plenty of water. Temperature is being applied at two different levels: 70\ndegrees, and 85\ndegrees.\n\nIn this study, there are 18\ndifferent treatments. They are:\n\nFull sun, little water, 70\ndegrees\nFull sun, moderate water, 70\ndegrees\nFull sun, plenty of water, 70\ndegrees\nFull sun, little water, 85\ndegrees\nFull sun, moderate water, 85\ndegrees\nFull sun, plenty of water, 85\ndegrees\n\nPartial sun, little water,\n70\ndegrees\nPartial sun, moderate water,\n70\ndegrees\nPartial sun, plenty of water,\n70\ndegrees\nPartial sun, little water,\n85\ndegrees\nPartial sun, moderate water,\n85\ndegrees\nPartial sun, plenty of water,\n85\ndegrees\n\nShade, little water,\n70\ndegrees\nShade, moderate water,\n70\ndegrees\nShade, plenty of water,\n70\ndegrees\nShade, little water,\n85\ndegrees\nShade, moderate water,\n85\ndegrees\nShade, plenty of water,\n85\ndegrees\n\nWithout actually listing out every single treatment we can determine that there are\n18\ntreatments by using the Fundamental Counting Principle: This principle says that if one event can occur in\na\nways and a second event can occur in\nb\nways, then together they can occur in\na\nb\nways. The principle can also be extended to account for more than two events.\n\nHere, we want to know in how many ways we can combine\n3\ndifferent options for sunlight,\n3\ndifferent options for water level, and\n2\ndifferent options for temperature.\n\n(\n3\n)\n(\n3\n)\n(\n2\n)\n=\n18\n\nChoice 'D' is the correct answer.",
   "tags": [
     "VAR-3.E",
     "4.B",

@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The tennis game must use the geometric probability model because it is unknown from the start of the game how many points will be played before someone wins.\n\nThe key observation is that if the players tie at either three or four points each, then it is possible for the game to continue indefinitely, with players exchanging points back and forth ad infinitum.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; it is possible for the game to go on forever, as described below, which is characterizes the geometric probability model, NOT the binomial probability model.\n\nChoice 'B' is incorrect; the normal probability model described here is just the normal approximation to the binomial, so it is not correct.\n\nChoice 'C'is incorrect; when describing a model as linear, one assumes the data is bivariate with an explanatory and response variable. This is not the case in this situation.\n\nChoice 'D' is incorrect; the exponential model primarily addresses waiting times between the occurrence of two events, and the tennis game does not address time between successive points.",
   "tags": [
     "UNC-3.E.2",
     "UNC-3.E",

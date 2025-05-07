@@ -10,7 +10,9 @@
   "title": "Mens' Heights: Correct Z-score Equation When Given Percentile",
   "difficulty": "Hard",
   "question_text": "Men's heights are approximately normally distributed with a mean of $69\\text{ inches}$ and a standard deviation of $2.8\\text{ inches}$.<br>Which of the following equations can be used to find the height $x$ in which $24\\%$ of the heights fall below?",
-  "image_files": [],
+  "image_files": [
+    "images/question-251-img1.PNG"
+  ],
   "tables": [],
   "choices": [
     {
@@ -34,9 +36,8 @@
       "text": "$0.71=\\dfrac { x-69 }{ 2.8 }$"
     }
   ],
-  "correct_answer": "Choice 'A' is the correct answer.",
+  "correct_answer": "<br><br>",
   "solution": "",
-  "explanations": {},
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

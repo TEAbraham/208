@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When every piece of raw data is multiplied by a constant, both the mean and the standard deviation are also multiplied by this constant.\n\nThus, the original mean of $1.8$ is multiplied by $2.54$ to yield $4.57\\text{ centimeters}$ as the new mean.\n\nLikewise, the original standard deviation of 0.5 is multiplied by 2.54 to yield 1.27 centimeters as the new standard deviation.\n\nTherefore, the correct answer is Choice 'A'.",
   "tags": [
     "UNC-1.I.2",
     "2.C",

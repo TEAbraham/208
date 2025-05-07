@@ -28,16 +28,15 @@
     },
     {
       "letter": "D",
-      "text": "0.30"
+      "text": "$0.30$"
     },
     {
       "letter": "E",
-      "text": "0.20"
+      "text": "$0.20$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWe can find a marginal relative frequency by using a two-way table. To do this the row total or column total is divided by the total for the entire table.\n\nIn this problem the question asks for the marginal relative frequency for sedans. Thus, the sedan column must be added which gives us a total of 60 sedans. Then this number is divided by the sum of all of the numbers in the table. Either by adding, or by seeing that there are 100 of each gender, we get a total of 200 vehicles. Thus, 60 divided by 200 gives us a marginal relative frequency of 0.30 for sedans.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because this number resulted from dividing by only 100\n,\n\nChoice 'B' is incorrect because this number is the proportion of women driving sedans.\n\nChoice 'C' is incorrect because this number is the marginal relative frequency for SUV's.\n\nChoice 'E' is incorrect because this number is the proportion of men driving sedans.",
   "tags": [
     "UNC-1.Q.1",
     "2.C",

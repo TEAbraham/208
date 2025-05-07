@@ -9,7 +9,7 @@
   ],
   "title": "Regression Slope $t$-Interval: Dow Jones and Year",
   "difficulty": "Hard",
-  "question_text": "In February of 2009, the Dow Jones Industrial Average (DJI) reached a low not seen in 10 years. Since then, the Dow Jones has been steadily increasing. Analysts have been studying the relationship between the high points of the Dow Jones for each year since 2009. A computer regression analysis of the data is given below:<br>Dependent variable is: Dow Jones Industrial Average (DJI)\n$R^2 = 93.33\\%$\n$s= 1116.14$, with $6-2= 4$ D.O.F.<br>Assuming all of the conditions have been satisfied, which of the following gives a $90\\%$ confidence interval for the slope of the regression line?",
+  "question_text": "In February of 2009, the Dow Jones Industrial Average (DJI) reached a low not seen in 10 years. Since then, the Dow Jones has been steadily increasing. Analysts have been studying the relationship between the high points of the Dow Jones for each year since 2009. A computer regression analysis of the data is given below:<br>Dependent variable is: Dow Jones Industrial Average (DJI)\n$R^2 = 93.33\\%$\n$s= 1116.14$, with $6-2= 4$ D.O.F.<br>Assuming all of the conditions have been satisfied, which of the following gives a $90\\%$ confidence interval for the slope of the regression line?<br>Assuming all of the conditions have been satisfied, which of the following gives a $90\\%$ confidence interval for the slope of the regression line?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\"></th><th scope=\"col\">Coefficient</th><th scope=\"col\"></th><th scope=\"col\">s.e Coeff</th><th scope=\"col\"></th><th scope=\"col\">t-ratio</th><th scope=\"col\"></th><th scope=\"col\">prob</th></tr></thead><tbody><tr><td>Constant</td><td></td><td>8224.89</td><td></td><td>735.23</td><td></td><td>16.06</td><td></td><td>0.00001</td></tr><tr><td>Year</td><td></td><td>1993.35</td><td></td><td>123.34</td><td></td><td>7.47</td><td></td><td>0.0017</td></tr></tbody></table>"
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The formula for a slope regression $t$-interval is:\n\n$$b\\pm ({ t }_{ n-2 }^{ * }\\cdot { S.E. }_{ b })$$\n\n...where $b$ represents the sample slope, $t$ is the critical value with $n-2$ degrees of freedom, and the final part is the standard error of the slope.\n\nIn this case, the slope is $1993.35$, as that represents the coefficient of the year, meaning the number in front of the year.\n\nTo find the critical value for $t$, we are given $4$ degrees of freedom and $90\\%$ confidence. Looking at the $t$-chart, find where $4$ degrees of freedom and $90\\%$ intersect. You will see that is at $2.132$.\n\nPutting it all together, we have:\n\n$$b\\pm ({ t }_{ n-2 }^{ * }\\cdot { S.E. }_{ b })$$\n\n$$1993.35\\pm (2.132)(123.34)$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the critical value is $2.132$, which is not used in the slope formula.\n\nChoice 'B' is the trap because it uses the degrees of freedom as the sample size ($6$) and not the (sample size $- 2$) ($6-2=4$), which is given the table.\n\nChoices 'D' and 'E' are incorrect because the slope used was $8224.89$, which is the coefficient of the constant, not the year.",
   "tags": [
     "VAR-7.M",
     "VAR-7",

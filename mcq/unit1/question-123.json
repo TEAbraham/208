@@ -9,7 +9,7 @@
   ],
   "title": "Repaving Bottleneck City",
   "difficulty": "Medium",
-  "question_text": "Bottleneck City will be repaving many of its roads but needs to prioritize its projects. The roads that are used most often will be repaved first. The histogram below displays the number of cars that traveled on Main Street between noon and 1 pm each day for $90\\text{ days}$.<br><br><br><br><br>Which choice gives the most reasonable estimates of the median and interquartile range for the number of cars driving on Main Street?",
+  "question_text": "Bottleneck City will be repaving many of its roads but needs to prioritize its projects. The roads that are used most often will be repaved first. The histogram below displays the number of cars that traveled on Main Street between noon and 1 pm each day for $90\\text{ days}$.<br>Created for Albert.io. Copyright 2017. All rights reserved.<br><br>Which choice gives the most reasonable estimates of the median and interquartile range for the number of cars driving on Main Street?",
   "image_files": [
     "images/question-123-img1.JPG"
   ],
@@ -21,15 +21,15 @@
     },
     {
       "letter": "B",
-      "text": "Median\n=\n13\n\nIQR\n=\n19"
+      "text": "Median=13\n\nIQR =19"
     },
     {
       "letter": "C",
-      "text": "Median\n=\n138\n\nIQR\n=\n50"
+      "text": "Median =138\n\nIQR =50"
     },
     {
       "letter": "D",
-      "text": "Median\n=\n138\n\nIQR\n=\n200"
+      "text": "Median =138\n\nIQR =200"
     },
     {
       "letter": "E",
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "While a histogram does not show the actual numbers of cars for all\n90\n days\n, we can use the frequencies of the bins to estimate the median. The middle value on a list of\n90\n numbers\nis between the\n45\nth\nand\n46\nth\nvalues. Counting up from the left end of the histogram:\n4\n+\n14\n+\n20\n=\n38\n.\n\nSo the first\n38\nvehicle numbers are below\n125\n. Adding the next bin means that\n58\n values\nare below\n150\n. This means that the\n45\nth\nand\n46\nth\nvalues (median) are between\n125\nand\n150\n.\n138\nis a reasonable estimate for the median.\n\nThe interquartile range is found by subtracting Q3 - Q1. Using a similar process we can find these values. The first quartile is the\n23\nrd\nnumber from the low end of the list and the third quartile is the\n68\nth\nnumber.\n\nThe\n23\nrd\nnumber falls in the bin from\n100\nto\n125\nand the\n68\nth\nnumber falls in the bin from\n150\nto\n175\n.\n50\nis a reasonable estimate for the IQR.\n\nExplanation of Distractors\n\nChoices 'A' and 'B' are incorrect. The median was incorrectly determined as\n13\n, which is not in the range of the number of vehicles per street.\n\nChoice 'D' is incorrect. The IQR is incorrectly calculated and based on the total range of the data, not the interquartile range.\n\nChoice 'E' is incorrect. This is a common error made by anyone looking at the graph and assuming that it was symmetrical and normally distributed on the range of the\nx\n-axis.",
   "tags": [
     "UNC-1.L.1",
     "UNC-1.L.2",

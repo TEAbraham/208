@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The first step in finding the standard deviation of the total weight of the bananas is to find the variance (${ \\sigma }^{ 2 }$).\n\n$${ \\sigma }_{ 3B }^{ 2 }=({ 0.6 })^{ 2 }+({ 0.6 })^{ 2 }+({ 0.6 })^{ 2 }$$\n\n$$=3({ 0.6 })^{ 2 }$$\n\n$$=1.08 \\text{ ounces}$$\n\nThe second step is to square root the variance:\n\n$$=\\sqrt { 1.08 } $$\n\n$$=1.04 \\ \\text{ ounces}$$\n\nChoice 'C' is our answer.\n\nExplanation of Distractors Choice 'A' represents the variation being divided by three. Choice 'B' represents the standard deviation being added three times and then being divided by three. This is an incorrect method. Choice 'D' is incorrect as this is the variation of the total weight of the three bananas. Choice 'E' represents the standard deviation being added three times which is an incorrect method.",
   "tags": [
     "VAR-5.E",
     "VAR-5.E.2",

@@ -13,7 +13,7 @@
   "choices": [
     {
       "letter": "A",
-      "text": "P\n(\n^\np\nw\n−\n^\np\ne\n>\n0.25\n)\n≈\n0.0004"
+      "text": "P(\nˆ\np\nw−\nˆ\np\ne>0.25)≈0.0004"
     },
     {
       "letter": "B",
@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe mean of the sampling distribution of the difference in sample proportions of red oaks from the west-facing slope and the east-facing slope is\nμ\n^\np\nw\n−\n^\np\ne\n=\np\nw\n−\np\ne\n=\n0.82\n−\n0.73\n=\n0.09\n.\n\nVerify the\n10\n%\nCondition\n\nThe population of trees on the west and east slopes must be at least\n560\nand\n400\n, respectively. The density of oak trees is\n550\nper acre; at\n200\nacres, the population of red oaks in the forest is approximately\n110,000\n.\nIt is safe to assume that the population on each slope is larger than\n10\n(\n56\n)\n=\n560\nand\n10\n(\n40\n)\n=\n400\n. Thus, the standard deviation of the sampling distribution is\nσ\n^\np\nw\n−\n^\np\ne\n=\n√\n(\np\nw\n)\n(\n1\n−\np\nw\n)\nn\nw\n+\n(\np\ne\n)\n(\n1\n−\np\ne\n)\nn\ne\n=\n√\n(\n0.82\n)\n(\n0.18\n)\n56\n+\n(\n0.73\n)\n(\n0.27\n)\n40\n≈\n0.0870\n\nVerify the Large Counts Condition\n\nThe expected number of oak trees in each sample should be at least\n10\n.\n\nn\nw\n(\n^\np\nw\n)\n=\n56\n(\n.82\n)\n≈\n46\n≥\n10\nand\nn\nw\n(\n1\n−\n^\np\nw\n)\n=\n56\n(\n.18\n)\n≈\n10\n≥\n10\n\nn\ne\n(\n^\np\ne\n)\n=\n40\n(\n.73\n)\n≈\n29\n≥\n10\nand\nn\ne\n(\n1\n−\n^\np\ne\n)\n=\n40\n(\n.27\n)\n≈\n11\n≥\n10\n\nThus, we can assume that the sampling distribution of the difference in proportions of red oak trees on the west-facing slope and the east-facing slope is Approximately Normal.\n\nCalculations\n\nP\n(\n^\np\nw\n−\n^\np\ne\n>\n0.25\n)\n\nP\n(\n(\n^\np\nw\n−\n^\np\ne\n)\n−\nμ\n^\np\nw\n−\n^\np\ne\nσ\n^\np\nw\n−\n^\np\ne\n>\n0.25\n−\n0.09\n0.0870\n)\n\nP\n(\nz\n>\n1.839\n)\n=\n1\n−\nP\n(\nz\n<\n1.839\n)\n≈\n0.0329\n\nUsing TI-84: normalcdf(0.25,1E99,0.09,0.0870)\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect.\n\nThe standard deviation was incorrectly computed using the square root of the difference in variances. Remember that even though we are considering a difference in sample proportions, the standard deviation of the sampling distribution will be the square root the the sum of the variances.\n\nChoice 'B' is incorrect.\n\nThe standard deviation was incorrectly computed using the pooled proportion. Pooling is used in hypothesis testing when we are building a model under the assumption that the proportions are equal. That is not the case here where we know the population proportion of red oaks on the west-facing and east-facing slopes are different.\n\nChoice 'D' is incorrect.\n\nThe Normal probability calculations were likely performed with variance instead of standard deviation. The incorrect standardized\nz\n-score was large enough to make a difference in proportion of oak tress on the west and east coast nearly impossible.\n\nChoice 'E' is incorrect.\n\nBecause the Large Counts Condition is satisfied (see above), the sampling distribution of the difference in proportion of red oaks on the west slope and east slope is approximately Normal even if the population distribution is unknown.\n\nFurthermore, since the\n10\n%\nCondition is satisfied (see above), the standard deviation of the difference in proportion of red oaks on the west slope and east slope can be approximated.\n\nThus Normal Probability calculations are safe.",
   "tags": [
     "4.B",
     "UNC-3.P.1",

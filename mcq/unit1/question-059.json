@@ -10,9 +10,7 @@
   "title": "Test Scores",
   "difficulty": "Hard",
   "question_text": "Mr. Johnson is teaching his class about stemplots. He decides to take the latest test scores (in percents) and plot the data in a stemplot to show his class. He purposely makes a mistake on his graph.<br>What mistake did Mr. Johnson make?",
-  "image_files": [
-    "images/question-059-img1.png"
-  ],
+  "image_files": [],
   "tables": [],
   "choices": [
     {
@@ -37,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "The test scores are compiled in a stemplot, or stem and leaf plot. In a stemplot, each data value is split into a \"stem\" (the first digit or digits), and a \"leaf\" (usually the last digit).\n\nIn our stemplot, the data is correctly split into stems and leaves. The mistake Mr. Johnson made, was not having a key to display what the data represents. It is very important to include a key at the bottom of your graph (for example, $5 | 7 = 57\\%$) to show what the data inside the graph means.\n\nChoice 'D' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nThe test scores are compiled in a stemplot, or stem and leaf plot. In a stemplot, each data value is split into a \"stem\" (the first digit or digits), and a \"leaf\" (usually the last digit).\n\nIn our stemplot, the data is correctly split into stems and leaves. The mistake Mr. Johnson made, was not having a key to display what the data represents. It is very important to include a key at the bottom of your graph (for example, $5 | 7 = 57\\%$) to show what the data inside the graph means.\n\nChoice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Even though there were no scores in the 70s, Mr. Johnson correctly included this stem to show the gap between the values.\n\nChoice 'B' is incorrect. The amount of leaves did not warrant Mr. Johnson to split the stems. We split stems when one stem, or multiple stems, have a long stretch of leaves that affect the shape of the graph.\n\nChoice 'C' is incorrect. Since the data is quantitative, Mr. Johnson is able to make a stemplot or a hisogram. He chose a stemplot.\n\nChoice 'E' is incorrect. Although most scores only have a single-digit stem, Mr. Johnson correct used 10 as the stem for 100 because it is all the digits except the last one.",
   "tags": [
     "UNC-1.G.2",
     "2.A",

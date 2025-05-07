@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTwo areas must be checked to proceed with a chi-square test for homogeneity: independence and counts.\n\nTo check for independence (and this should not be confused with the chi-square test for independence), two conditions must be verified:\n\n$1$) Data should be collected using a stratified random sample or a randomized experiment.\n\n$2$) The sample size should be less than or equal to $10\\%$ the size of the population.\n\nTo check for counts all counts (the numbers in the table) should be greater than $5$.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because all cell counts should be greater than $5$, not $10$.\n\nChoice 'C' is incorrect because the sample size should be less than, not greater than, $10\\%$ the size of the population.\n\nChoice 'D' is incorrect because $30$ as a minimum sample size does not apply to chi-square tests as the chi-square distribution does not approximate the normal distribution.\n\nChoice 'E' is incorrect because this is a condition for the chi-square test for independence, not for homogeneity, as is being asked for in this problem.",
   "tags": [
     "4.C",
     "VAR-8",

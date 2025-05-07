@@ -9,7 +9,7 @@
   ],
   "title": "Information from a Boxplot: Odometer Readings",
   "difficulty": "Easy",
-  "question_text": "A car's odometer keeps track of how many miles the car has been driven. A transportation safety group was interested in knowing the average odometer reading of cars that are currently being driven and decided to investigate. To gather data, they surveyed a random sample of $80\\text{ licensed drivers}$. Each driver was asked to report the odometer reading on the car that they drive the most. Results of the survey are shown in the boxplot below.<br><br><br><br><br>Which of the following statements is correct?",
+  "question_text": "A car's odometer keeps track of how many miles the car has been driven. A transportation safety group was interested in knowing the average odometer reading of cars that are currently being driven and decided to investigate. To gather data, they surveyed a random sample of $80\\text{ licensed drivers}$. Each driver was asked to report the odometer reading on the car that they drive the most. Results of the survey are shown in the boxplot below.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>Which of the following statements is correct?",
   "image_files": [
     "images/question-114-img1.PNG"
   ],
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A boxplot divides the data into four quartiles with approximately\n25\n%\nof the data in each quartile. That is:\n\nThe values\n32,000\nand\n72,000\ncorrespond with\nQ\n1\nand\nQ\n3\nvalues, respectively. Therefore, about\n50\n%\nof the data is between these two values.\n\nKeep in mind that the\nQ\n3\nvalue represents the cutoff for the\n75\nth\npercentile and the\nQ\n1\nvalue represents the cutoff for the\n25\nth\npercentile. Since\n80\n drivers\nwere surveyed and\n50\n%\nof\n80\nis\n40\n, we can conclude that approximately\n40\n drivers\nsaid their car odometer reading was between about\n32,000\nand\n72,000\n miles\n.\n\nChoice 'C' is the correct choice.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The horizontal axis displays thousands of miles. Therefore, the median is about\n58,000\n miles\n.\n\nChoice 'B' is incorrect. The median value is just a little less than\n60,000\n. Therefore, about half of the drivers reported an odometer reading below\n60,000\n miles\n. More than half said below\n70,000\n miles\n.\n\nChoice 'D' is incorrect. To check this statement, we first need to calculate the IQR:\n\nI\nQ\nR\n=\nQ\n3\n−\nQ\n1\n\nThe\nQ\n3\nvalue is found below the third vertical segment in the boxplot. We could estimate this value to be about\n72,000\n miles\n.\n\nThe\nQ\n1\nvalue is found below the first vertical segment in the boxplot. We could estimate this value to be about\n32,000\n miles\n.\n\nI\nQ\nR\n=\n72,000\n−\n32,000\n=\n40,000\n\nA high outlier is an observation that falls above\nQ\n3\n+\n1.5\nI\nQ\nR\n. In this case a high outlier is greater than\n72,000\n+\n1.5\n(\n40,000\n)\nor greater than\n132,000\n miles\n. The dot on the boxplot which represents an outlier is closer to\n140,000\n miles\nthan to\n130,000\n miles\n, so it must be greater than\n132,000\nand is, in fact, an outlier.\n\nChoice 'E' is incorrect. The presence of the outlier skews the distribution a bit to the right. Even without the outlier, however, there is a lack of symmetry in the boxplot which would lead us to conclude that the distribution is not completely normal.",
   "tags": [
     "UNC-1.L.2",
     "2.B",

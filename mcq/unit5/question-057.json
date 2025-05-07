@@ -8,7 +8,7 @@
   ],
   "title": "Those AP Exams",
   "difficulty": "Medium",
-  "question_text": "Suppose that School $a$ claims that $0.84$ of its students take at least one AP exam and School $b$ claims that $0.78$ of its students take at least one AP exam. Random samples of $100$ students are taken from each school.\nWhat is the probability that School $a$'s proportion of students taking at least one AP exam is at least $10\\%$ higher than School $b$'s?",
+  "question_text": "Suppose that School $a$ claims that $0.84$ of its students take at least one AP exam and School $b$ claims that $0.78$ of its students take at least one AP exam. Random samples of $100$ students are taken from each school.\nWhat is the probability that School $a$'s proportion of students taking at least one AP exam is at least $10\\%$ higher than School $b$'s?<br>What is the probability that School $a$'s proportion of students taking at least one AP exam is at least $10\\%$ higher than School $b$'s?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTo calculate this probability, we need to first calculate the parameters for the sampling distribution of the difference of these two proportions. Those parameters are the mean and the standard deviation. The mean is equal to $p_{1}-p_{2}$, but let's call it $p_{a}-p_{b}$ to represent the two schools.\n\nThe mean is simply the difference of the two given proportions.\n\nSo, $0.84-0.78=0.06$.\n\nThe standard deviation is given by this formula:\n\n$$\\sqrt{\\dfrac{p_{a}(1-p_{a})}{n_{a}}+\\dfrac{p_{b}(1-p_{b})}{n_{b}}}$$\n\nFilling in our values where both values of $n$ are equal to $100$ and the two given proportions are $0.84$ and $0.78$ we get:\n\n$$\\sqrt{\\dfrac{0.84(1-0.84)}{100}+\\dfrac{0.78(1-0.78)}{100}}\\approx 0.0553$$\n\nFinally, we compute a $z$-score in order to look up the probability. We plug in our values to get\n\n$$z=\\dfrac{0.10-0.06}{0.0553}=0.72$$\n\nLooking this up in Table $A$ we see the value $0.7642$ that goes with the $z$-score of $0.72$. But, since we are looking for the probability greater than $0.10$ we must subtract this table value from $1$ to get a final answer of $0.2358$ as the probability for School $a$'s proportion of students taking at least one AP exam as being at least $10\\%$ higher than that of School $b$'s.\n\nSo, Choice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect because this result of nearly zero could occur if the square root was not applied to the calculation of the standard deviation.\n\nChoice 'C' is incorrect because the numerator and denominator of the $z$-score fraction were reversed.\n\nChoice 'D' is incorrect because this is simply the difference of the given means.\n\nChoice 'E' is incorrect because the two values in the numerator of the $z$-score calculation were switched. Or, the problem was solved as a \"less than\" problem.",
   "tags": [
     "UNC-3.P.1",
     "UNC-3",

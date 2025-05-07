@@ -22,11 +22,11 @@
     },
     {
       "letter": "C",
-      "text": "29.62"
+      "text": "$29.62$"
     },
     {
       "letter": "D",
-      "text": "23.62"
+      "text": "$23.62$"
     },
     {
       "letter": "E",
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This problem requires a backward normal calculation.\n\nSet up the equation below, where n=35,µ=22.4\n, and σ=3.1\n. Use the normal chart to look up the 99%\npercentile to find z=2.33\n.\n\nz=\nˉ\nx\n−μ\nσ\n√\nn\n\nUse algebra to solve for x\nto find that x=23.62\n.\n\nThus, the correct answer is Choice 'D'",
   "tags": [
     "UNC-3.Q.1",
     "UNC-3",

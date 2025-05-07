@@ -8,7 +8,7 @@
   ],
   "title": "Those Testing Errors",
   "difficulty": "Easy",
-  "question_text": "A company manufactures television sets. It wants to keep the number of defective sets it makes low and believes that it makes fewer that $1\\%$ defective sets. The company tests this claim using a test of proportions with a significance level of $0.05$. The power of the test is $0.80$.\nWhich of the following gives the probability of a Type II error for this test?",
+  "question_text": "A company manufactures television sets. It wants to keep the number of defective sets it makes low and believes that it makes fewer that $1\\%$ defective sets. The company tests this claim using a test of proportions with a significance level of $0.05$. The power of the test is $0.80$.\nWhich of the following gives the probability of a Type II error for this test?<br>Which of the following gives the probability of a Type II error for this test?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe definition of the power of a test is $1$ minus the probability of a Type II error, or $1-\\beta$. Therefore, if we know the power of the test, simply subtract it from $1$ to find the probability of a Type II error. In this case: $1-0.80=0.20$.\n\nIn this problem, we are given two other numbers. The $0.05$ is both the significance level as well as the probability of a Type I error. The $1\\%$ is the number that we would use as $0.01$ in our hypotheses.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because $0.80$ is simply the given value of the power of the test.\n\nChoice 'C' is incorrect because $0.05$ is the given significance level. This value is also the probability of committing a Type I error.\n\nChoice 'D' is incorrect because we would get this answer by mistakenly subtracting the significance level value from $1$.\n\nChoice 'E' is incorrect because $0.01$ would be used as the $p_{0}$ value, not as a number specifically used in the calculation of testing errors.",
   "tags": [
     "UNC-5",
     "UNC-5.B.3",

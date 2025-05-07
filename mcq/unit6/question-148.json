@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nFirst, let's calculate the confidence interval using the formula:\n\n$$(p_{1}-p_{2})\\pm z^{*}\\sqrt{\\frac{p_{1}(1-p_{1})}{n_{1}}+\\frac{p_{2}(1-p_{2})}{n_{2}}}$$\n\n...where $p_{1}$ and $p_{2}$ are the two sample proportions and $n_{1}$ and $n_{2}$ are the two sample sizes. $z^{*}$ is the critical value.\n\nIn this problem, $p_{1}=\\frac{45}{90}=0.5$ and $p_{2}=\\frac{50}{80}=0.625$, $n_{1}=90$ and $n_{2}=80$. $z^{*}=1.96$ based on the $95\\%$ confidence level.\n\nWe get:\n\n$$(0.5-0.625)\\pm 1.96\\sqrt{\\frac{0.5(1-0.5)}{90}+\\frac{0.625(1-0.625)}{80}}$$\n\nThis results in a confidence interval of (−0.273,0.023).\n\nSince 0 is included in this confidence interval we cannot conclude that improvement has been shown at the 95% level. But note that since 0.023 is so close to 0, that lower levels of confidence would in fact show improvement!\n\nThus, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because while it is true that the sample proportions did improve, the question asked for the confidence interval to be used.\n\nChoice 'B' is incorrect because 0\nis in fact included in the interval. This result could be obtained by either a math error or by using a lower confidence level.\n\nChoice 'C' is incorrect because, yes, while the samples do need to be independent of each other, this is not enough to support the results of the confidence interval.\n\nChoice 'D' is incorrect because the sample sizes are, in fact, large enough. When the values of n1\nˆ\np\n1,n1(1−\nˆ\np\n1)\n, and n2\nˆ\np\n2,n2(1−\nˆ\np\n2)\nare calculated, they can all be shown to be greater than 10\n.",
   "tags": [
     "4.B",
     "UNC-4.M",

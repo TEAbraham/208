@@ -12,7 +12,7 @@
   ],
   "title": "Comparing Distributions: Grocery Shopping of Men versus Women",
   "difficulty": "Medium",
-  "question_text": "The boxplots below display the number of minutes that single men grocery shop compared to single women.\nBased on these boxplots, which of the following is the correct conclusion about the data collected in this study?<br><br><br>",
+  "question_text": "The boxplots below display the number of minutes that single men grocery shop compared to single women.\nBased on these boxplots, which of the following is the correct conclusion about the data collected in this study?<br>Based on these boxplots, which of the following is the correct conclusion about the data collected in this study?<br>Created for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-179-img1.png"
   ],
@@ -40,8 +40,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Usually, this type of question is a free response question, where the test-taker is asked to compare two distributions. When comparing two distributions, there are four components that need to be addressed. They are: the center, unusual features, shape, and spread (C.U.S.S.). In this case, there are no unusual features that we can observe.\n\nExplanation of Distractors\n\nChoices 'A' and 'B' are incorrect. When looking at both distributions, we can see that the shapes of both distributions are both skewed to the right.\n\nChoice 'E' is incorrect. We can observe that the median of the men (\n33\n) is lower than the median of the women (\n47\n), which indicates that single men tend to spend less time grocery shopping than single women.\n\nChoice 'D' is incorrect. Based on the IQR (Q3-Q1) and the range (Max-Min), we can see that the men's data is less spread out than the women's data. The IQR for the men is\n18\n(\n43\n−\n25\n), and the range is\n46\n(\n63\n−\n17\n), compared to the women's IQR of\n29\n(\n63\n−\n34\n) and range of\n52\n(\n80\n−\n28\n).",
   "tags": [
     "UNC-1.N.1",
     "2.D",

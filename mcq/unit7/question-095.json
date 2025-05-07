@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "You could perform a one-sample $T$-test using a TI-83/84 calculator and find $p = 0.00130454$.\n\nOtherwise, by hand, use the equation below to find $t = 3.8697$, where $\\bar{X} = 5785.34$, $s = 385.23$, $\\mu = 5355$, and $n = 12$.\n\n$$t = \\dfrac{\\bar{X} - \\mu}{\\frac{s}{\\sqrt{n}}}$$\n\nLook up this critical value ($t = 3.8697$) in the $t$-table distribution at $12-1 = 11$ degrees of freedom to find that the critical value $t = 3.8697$ is between is $0.001$ and $0.0025$.\n\nTherefore, Choice 'D' is correct since our p-value is below all common alpha levels of $1\\%$, $5\\%$ and $10\\%$.",
   "tags": [
     "DAT-3.F",
     "4.B",

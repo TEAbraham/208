@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A total of $30\\text{ observations}$ or more would be sufficiently large to satisfy the Central Limit Theorem (CLT). However, the CLT only applies to means – not to proportions. Also, there is not a single population, but rather there are two separate populations when working with a two-sample $z$-test for proportions.\n\nFinally, when working with proportions, we work with the sampling distribution. There is no such thing as a population distribution for proportions. The proportion is what it is for the entire population.\n\nExplanation of Distractors\n\nThe other choices are all necessary conditions. For Choice 'C', some textbooks/sources say that both populations must be at least $20$ times their respective sample size while others claim that $10$ times the sample size is sufficient.\n\nIn either event, Choice 'C' would represent a necessary condition as it is written in general terms. The same is true for Choice 'E'. Some textbooks/sources claim that there must be at least $10$ expected successes and $10$ expected failures in each population while others claim that the magic number is $5$ when working with two samples.\n\nNote: some textbooks/sources do not even refer to this condition in terms of success and failure. Rather, they list the condition as:\n\n$$n\\hat { { p }_{ 1 } } \\ge 10$$\n\n$$ n\\left( 1-\\hat { { p }_{ 1 } } \\right) \\ge 10$$\n\n$$ n\\hat { { p }_{ 2 } } \\ge 10$$\n\n$$ n\\left( 1-\\hat { { p }_{ 2 } } \\right) \\ge 10$$",
   "tags": [
     "4.E",
     "DAT-3.D.2",

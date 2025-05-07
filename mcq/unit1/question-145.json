@@ -43,8 +43,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Standard deviation represents how far the individual values vary from the mean, or how far the average distance of a value is from the mean.\n\nIn this case, to find the largest standard deviation, we need to find where is there more values further away from the mean values that are closer to the mean. In Choice 'E', there are more values further away from the mean than closer to the mean compared to any of the other possible choices. Therefore, Choice 'E' is our answer.\n\nTo explain further, Choice 'A' has a smaller standard deviation than Choice 'E' because there are more values closer to the mean than further away.\n\nA longer approach to solving this would be to put the data points from Choice 'A' into List 1 of your calculator. Then, do 1 Var Stats and get the standard deviation. Repeat this process for the next four choices and then compare their standard deviations.\n\nExplanation of Distractors Choices 'A', 'B', 'C' and 'D' are all incorrect as because in all these cases there a lot less values further away from the mean than choice 'E'.",
   "tags": [
     "UNC-1.H.1",
     "UNC-1.H",

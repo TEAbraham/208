@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "According to the empirical rule, since the data is approximately normal, about $68\\%$ of the data lies within one standard deviation. Therefore, $16\\%$ of the data is more than one standard deviation below the mean, and $16\\%$ of the data is more than one standard deviation above the mean:\n\n$$68\\%+16\\% = 84\\%$$\n\n$84\\%$ of the data will be greater than one standard deviation below the mean.\n\nWe can find this value by taking the mean and subtracting one standard deviation:\n\n$$=10-1.5$$\n\n$$=8.5$$\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "2.D",
     "VAR-2",

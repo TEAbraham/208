@@ -18,7 +18,7 @@
     },
     {
       "letter": "B",
-      "text": "The network should secure that every possible subgroup of $180\\text{ customers}$ should have the same chance of being chosen as the sample."
+      "text": "The network should secure that every possible subgroup of 180 customers should have the same chance of being chosen as the sample."
     },
     {
       "letter": "C",
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A well-designed survey requires random selection of each subject so that the results can be generalized to the population. For this reason, Choices 'A' and 'E' are required features, and are incorrect answers.\n\nChoice 'B' describes a simple random sample, which is NOT required. A stratified random sample or a cluster sample are both valid methods for selecting a sample, but they do not ensure that all possible subgroups have the same chance of being selected.\n\nChoice 'C' is required because the sample needs to be representative of the population of interest (in this case, the cable network's customers).\n\nChoice 'D' is required because different wordings for different subjects would introduce response bias into the study.",
   "tags": [
     "VAR-3.E",
     "4.B",

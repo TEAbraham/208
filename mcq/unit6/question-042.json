@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To solve this problem, use the equation below:\n\n$$z= \\dfrac{\\hat{p_1} - \\hat{p_2}}{\\sqrt{\\hat{p}(1-\\hat{p}\\left(\\dfrac{1}{n_1} + \\dfrac{1}{n_2}\\right)}}$$\n\nTo have an upper tail probability of $5\\%$ or less, $z$ must be at least $1.645$ based on the standard normal table.\n\nSubstitute $81$ for ${ { n }_{ 1 } } $ and ${ { n }_{ 2} }$ and$\\frac{54}{81}$ for ${ { P}_{ 1 } }$.\n\n${ { P }_{ 2 } } $ is $(\\frac{x}{81})$, where $x$ is the maximum number of away games the team could win for there to be evidence at the $5\\%$ level.\n\nThe pooled $\\hat{p}$ is $\\frac{(54+x)}{(81+81)}$.\n\nSolve for $x$ to find the maximum number of games is $43$.\n\nIf the team wins more than $43\\text{ away games}$, not enough evidence exists to believe that there is such a thing as home-field advantage. If the team wins $43$ or fewer away games, there is a big enough difference to believe, at the $5\\%$ level, that home-field advantage exists.\n\nThus, the correct answer is Choice 'B'\n\nNote: Choice 'E' is incorrect; it does not matter how good the team is at home; they could potentially be as good or better if home-field advantage did not exist.",
   "tags": [
     "VAR-6.E.1",
     "VAR-6.E",

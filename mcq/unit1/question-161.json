@@ -10,7 +10,7 @@
   ],
   "title": "Boxplot Comparisons: Price of the Sweet Seats",
   "difficulty": "Easy",
-  "question_text": "Manny dreams of seeing a game in every Major League ballpark. Recently he visited the website for each of the $30$ teams in the Major League and looked at how much it would cost to purchase the best single ticket available at the ballpark. Boxplots for both the American League (AL) teams and National League (NL) teams are shown below. Prices are in dollars.<br><br><br><br><br>Which of the following statements can be justified by a comparison of the boxplots?",
+  "question_text": "Manny dreams of seeing a game in every Major League ballpark. Recently he visited the website for each of the $30$ teams in the Major League and looked at how much it would cost to purchase the best single ticket available at the ballpark. Boxplots for both the American League (AL) teams and National League (NL) teams are shown below. Prices are in dollars.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>Which of the following statements can be justified by a comparison of the boxplots?",
   "image_files": [
     "images/question-161-img1.PNG"
   ],
@@ -26,7 +26,7 @@
     },
     {
       "letter": "C",
-      "text": "The 25th percentile\nfor the American League is higher than the 25th percentile\nfor the National League."
+      "text": "The\n25\nth\n percentile\nfor the American League is higher than the\n25\nth\n percentile\nfor the National League."
     },
     {
       "letter": "D",
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The range is found as follows:\n\nRange = Maximum Value - Minimum Value\n\nHowever, it can be difficult to determine the exact maximum values and the exact minimum values from the boxplots given. A more visual way to determine the range is to compare the lengths of both boxplots (from start to finish). It does appear that the range of both distributions is approximately the same.\n\nTo find the IQR:\n\nIQR=Q3-Q1\n\n...where\nQ\n3\nis the quartile\n3\nvalue or value at the\n75\nth\n percentile\nand\nQ\n1\nis the quartile\n1\nvalue or value at the\n25\nth\n percentile\n. The\nQ\n3\nvalue is found at the third vertical segment in the boxplot and the\nQ\n1\nvalue is found at the first vertical segment in the boxplot.\n\nAgain, determining exact values from the boxplots given is difficult. However, we can also find the IQR visually by looking at the length of the box formed between the first vertical segment and the last vertical segment in the boxplot. It is clear that the length of the box is larger for the AL than for the NL. Therefore, it is true that the IQR is smaller for the NL.\n\nChoice 'E' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. When looking at a boxplot, the maximum value in the distribution can be found by matching up the right-most part of the boxplot with the corresponding value along the horizontal axis. For the AL, the maximum ticket price appears to be\n$\n600\n. Wow! That is just a little bit above the maximum ticket price for the NL.\n\nChoice 'B' is incorrect. The second vertical segment in a boxplot represents the location of the median or the\n50\nth\n percentile\n. About half of the data in the distribution is above the median and about half is below. Since both distributions show a greater spread to the right of the median, both distributions are skewed right.\n\nChoice 'C' is incorrect. The first vertical segment in a boxplot represents the location of the\n25\nth\n percentile\n. For the AL, this value is a little above\n$\n100\nwhile for the NL this value is above\n$\n150\n.\n\nChoice 'D' is incorrect. While it is true that the median price is about the same for both the AL and NL, the median is actually a little bit higher for the AL.",
   "tags": [
     "UNC-1.N.1",
     "2.D",

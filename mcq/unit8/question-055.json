@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe chi-square test for homogeneity looks to see if there are differences in distributions of a categorical variable across populations\n\nThe null hypothesis for this test assumes that there is no difference in distributions of a categorical variable across populations.\n\nThe alternative hypothesis for this test assumes that there is a difference in distributions of a categorical variable across populations.\n\nNote that if only two populations are involved, then a test for a difference in population proportions could also be done.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because this is the alternative hypothesis for the chi-square test for independence.\n\nChoice 'C' is incorrect because this is the null hypothesis for the chi-square test for goodness of fit.\n\nChoice 'D' is incorrect because this is the alternative hypothesis for the chi-square test for homogeneity.\n\nChoice 'E' is incorrect because this is the null hypothesis for the chi-square test for independence.",
   "tags": [
     "1.F",
     "VAR-8.I",

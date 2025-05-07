@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nIf you sketch out these points the problem becomes quite easy. But, using your knowledge of a scatterplot, you know that you are looking to see if the points form a line. These points, in fact, do form a perfect line. Because they form a perfect line then there is no outlier and the association would be strong.\n\nNow, simply by looking at the points, as you order the points by the x values, 0,2,8,12, then look at their y values, 8,7,4,2, you can see that as the x values increase, the y values decrease. This means that since the variables are moving in opposite directions, the association between the variables is negative. (And the slope is −0.5 if you calculated it!)\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the points do form a line.\n\nChoice 'B' is incorrect because, since the points form a line, there are no outliers.\n\nChoice 'D' is incorrect because, since the points form a line, the association between the variables would be strong.\n\nChoice 'E' is incorrect because, since the association is negative, it cannot be positive.",
   "tags": [
     "DAT-1",
     "DAT-1.A.3",

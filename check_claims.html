@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Check Firebase Auth Claims</title>
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
+    import {
+      getAuth,
+      onAuthStateChanged,
+      signOut
+    } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
+    import { firebaseConfig } from "./js/firebase-config.js"; // Adjust path if needed
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+
+    const status = document.getElementById("status");
+    const emailSpan = document.getElementById("user-email");
+    const uidSpan = document.getElementById("user-uid");
+    const claimsPre = document.getElementById("claims");
+
+    onAuthStateChanged(auth, async user => {
+      if (!user) {
+        status.textContent = "❌ Not logged in.";
+        return;
+      }
+
+      emailSpan.textContent = user.email;
+      uidSpan.textContent = user.uid;
+
+      const token = await user.getIdTokenResult(true); // force refresh
+      claimsPre.textContent = JSON.stringify(token.claims, null, 2);
+    });
+
+    window.logout = () => {
+      signOut(auth).then(() => {
+        window.location.reload();
+      });
+    };
+  </script>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2em;
+    }
+    pre {
+      background: #f0f0f0;
+      padding: 1em;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+    button {
+      padding: 8px 12px;
+      background-color: #46C8B2;
+      border: none;
+      color: white;
+      cursor: pointer;
+      margin-top: 1em;
+    }
+  </style>
+</head>
+<body>
+  <h1>🔐 Check Firebase Auth Claims</h1>
+  <p id="status">Loading...</p>
+  <p><strong>Email:</strong> <span id="user-email"></span></p>
+  <p><strong>UID:</strong> <span id="user-uid"></span></p>
+  <p><strong>Custom Claims:</strong></p>
+  <pre id="claims">Loading...</pre>
+  <button onclick="logout()">Logout</button>
+</body>
+</html>

@@ -40,8 +40,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since the alternative includes $≠$ we are dealing with a 2 sided test meaning we are looking for the sum of the probabilities of $t < -1.348$ and $t >1.348$.\n\nBelow is a picture of the data:\n\nMethod 1 (easier approach): Using the TI graphing calculator.\nIn a one sample t-test the degrees of freedom is $n-1$.\n\nIn this case, the degrees of freedom is $51-1=50$.\n\nUsing the tcdf function (located by hitting 2nd Vars).\n\nBelow is the calculator input on the TI-84.\n. This will give the P-value for a one-sided test.\n\n2*tcdf(-99999,-1.384,50)=0.1837\n\nMethod 1: Solving by using the t-distribution table.\n\nLooking at the t distribution table find 50 degrees of freedom. Using 50 D.OF. go across that row and find the two critical values that $1.348$ fall in between.\n\n$1.348$ falls in between $1.299$ and $1.676$.\nGo to the top of those respective columns and see what interval of probability is. The interval of probability is exclusively between $0.05$ and $0.10$.\n\nSince this a 2 sided test we must double those P-values and therefore our P-value will range between but not including $0.10$ and $0.20$.\n\nSince $1.384$ is closer to $1.299$ than $1.677$ we can see our probability will be closer to $0.20$.\n\n~Explanation of Distractors\n\nChoice 'D' is incorrect because more than likely the P-value found was for a one sided test($0.092$). This value should have been doubled since test test was two-sided.\n\nChoice 'C' is incorrect as more than likely the P-value of $0.092$ was divided by $2$ when it should have been doubled.",
   "tags": [
     "4.E",
     "VAR-7.E",

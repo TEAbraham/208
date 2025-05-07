@@ -8,7 +8,7 @@
   ],
   "title": "A Test of Baseball Cards",
   "difficulty": "Medium",
-  "question_text": "Hank and Mickey both collected baseball cards. They wanted to know if the proportions of pitchers depicted on cards varied between the two major baseball card companies, Dopps and Upper Teck. So, they each ordered $500$ random baseball cards, Hank from Dopps and Mickey from Upper Teck.\nTo compare their proportions of pitchers using a test of significance for two proportions, what would their hypotheses be?",
+  "question_text": "Hank and Mickey both collected baseball cards. They wanted to know if the proportions of pitchers depicted on cards varied between the two major baseball card companies, Dopps and Upper Teck. So, they each ordered $500$ random baseball cards, Hank from Dopps and Mickey from Upper Teck.\nTo compare their proportions of pitchers using a test of significance for two proportions, what would their hypotheses be?<br>To compare their proportions of pitchers using a test of significance for two proportions, what would their hypotheses be?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nA null hypothesis for a test of two proportions is always written with an equals sign. It may be written one of two ways:\n\nLike this $H_{o}: p_{1}-p_{2}=0$ or like this $H_{a}: p_{1} = p_{2}$\n\nLetters may indicate specific variables or the numbers $1$ and $2$ are used in general.\n\nAn alternative hypothesis for a test of two proportions is written with a greater than, a less than or a not equals to sign. The decision of which to use depends upon the wording of the question. It may be written the with the signs in either position as shown in the null hypotheses above. In this problem there is nothing to indicate which baseball card company has a higher proportion of pitchers on its baseball cards, so that is why the ≠ sign is used.\n\nChoice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because a < sign is used in the alternative hypothesis instead of the ≠ sign.\n\nChoice 'B' is incorrect because\nˆ\np\nis used to designate the variables instead of simply p.\n\nChoice 'D' is incorrect because it makes two separate mistakes using\nˆ\np\nas a variable as well as switching signs between the two hypotheses.\n\nChoice 'E' is incorrect because it has the signs for the null and alternative hypotheses switched.",
   "tags": [
     "VAR-6.H.3",
     "1.F",

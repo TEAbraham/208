@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This problem makes sure students recognize this as a two-sample $T$-procedure, and it also tests the logic and properties of significance testing. Less variability in samples will give us stronger evidence of change if all other factors remain equal.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; two independent samples are being tested in this situation.\n\nChoice 'B' is incorrect; the standard deviations would need to be included in the problem to make this conclusion.\n\nChoice 'C' is incorrect; from what is known of the problem, the samples are random, and sample sizes of $n = 53$ are large enough for the sampling distribution to be approximately normal.\n\nChoice 'D' is incorrect; increasing to $n = 100$ gives the opportunity to get stronger evidence, which results in a lower $P$-value and higher test statistic.",
   "tags": [
     "DAT-3.H.1",
     "4.B",

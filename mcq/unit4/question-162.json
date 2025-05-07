@@ -9,35 +9,32 @@
   "title": "Probability of Combining Two Normal Independent Variables",
   "difficulty": "Hard",
   "question_text": "A farm stand sells apples and tomatoes as well as other fruits and vegetables The distributions for the weights of the apples and tomatoes are each approximately normal. The mean weight of an apple is $4.68$ ounces with a standard deviation of $0.20$ ounces. The mean weight of a tomato is $4.19$ ounces with a standard deviation of $0.18$ ounces.<br>What is the probability when you randomly select one tomato and one apple that the tomato will weigh more than the apple?",
-  "image_files": [
-    "images/question-162-img1.PNG"
-  ],
+  "image_files": [],
   "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.007"
+      "text": "$0.007$"
     },
     {
       "letter": "B",
-      "text": "0.034"
+      "text": "$0.034$"
     },
     {
       "letter": "C",
-      "text": "0.966"
+      "text": "$0.966$"
     },
     {
       "letter": "D",
-      "text": "0.993"
+      "text": "$0.993$"
     },
     {
       "letter": "E",
-      "text": "1"
+      "text": "$1$"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We are looking to find the probability that a tomato weighs more than an apple meaning:\n\n$$P(T>A)$$\n\n...where $T$ represents tomato and $A$ represents apple.\n\nIn the problem, it is stated that both distributions are normal, so we are going to use a normal model to find this probability.\n\nThe $P(T>A)$ is equivalent to $P(T-A>0)$ when we subtract $A$ from both sides. Since we are using a normal model we need to find the mean and standard deviation of the difference between the weight of a tomato and apple.\n\nThe difference in the mean weight between a tomato and an apple can be found by subtracting the individual means.\n\n$${ \\mu }_{ T-A }={ \\mu }_{ T }-{ \\mu }_{ A }=4.19-4.68=-0.49 \\ \\text{ounces}$$\n\nThe difference in the standard deviation between a tomato and an apple can be found by finding the variance( ${ \\sigma }^{ 2 }$). Remember variance always add and never subtract.\n\n$${ \\sigma }_{ T-A }^{ 2 }={ \\sigma }_{ T }^{ 2 }+{ \\sigma }_{ A }^{ 2 }={ (0.18) }^{ 2 }+{ (0.20) }^{ 2 }=0.0724$$\n\nNow square root the variance to get the standard deviation: $\\sqrt { 0.0724 } =0.269$ounces\n\nNow to find the probability we are going to use the $\\text{normalcdf}$ function on the graphing calculator. The lower value we will enter is $0$ since the $P(T-A>0)$. The upper value we will enter is some really large number say $99999999$. The mean is $-0.49$. The standard deviation is $0.269$.\n\nBelow is a picture of what your input screen would look like on a TI-84.\nAlbert.io. Copyright 2016\n\nAlbert.io. Copyright 2016\n\nPress enter, and you will get a probability of $0.034$.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the variances were subtracted (apple-tomato) rather than added.\n\nChoice 'C' is incorrect as this is the answer for $P (T < A)$ rather than $P (T > A)$.\n\nChoice 'D' is incorrect as the variances were subtracted rather than added and also this was finding $P (T < A)$ rather than $P (T > A)$.\n\nChoice 'E' is incorrect as the variance was never found.",
   "tags": [
     "VAR-5.E",
     "VAR-5.E.2",

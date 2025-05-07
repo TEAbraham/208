@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "The correlation, $r$, is a measure of the linear association between two quantitative variables. Correlation is unit-free, and always between $−1$ and $1$, inclusive. A value of $r = 0$ indicates that there is no linear association. A value of $r = -1$ or $r = 1$ indicates that there is a perfect linear association.\n\nTo interpret the correlation, one must discuss strength and direction. Since it's a measure of linear association, the form of the graph will always be linear. Therefore, since the correlation is $0.82$, the correlation is strong, while also being positive.\n\nChoice 'D' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nThe correlation, $r$, is a measure of the linear association between two quantitative variables. Correlation is unit-free, and always between $−1$ and $1$, inclusive. A value of $r = 0$ indicates that there is no linear association. A value of $r = -1$ or $r = 1$ indicates that there is a perfect linear association.\n\nTo interpret the correlation, one must discuss strength and direction. Since it's a measure of linear association, the form of the graph will always be linear. Therefore, since the correlation is $0.82$, the correlation is strong, while also being positive.\n\nChoice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. This would be the correct interpretation of the slope of the least-squares regression line, if the value given was the slope.\n\nChoice 'B' is incorrect. This would be the correct interpretation of the y intercept of the least-squares regression line, if the value given was the y intercept.\n\nChoice 'C' is incorrect. This would be the correct interpretation of r2, the percent of variation, if the value given was r2.\n\nChoice 'E' is incorrect. The correlation is always unit free, so there is no need for a unit on the value.",
   "tags": [
     "4.B",
     "DAT-1.C",

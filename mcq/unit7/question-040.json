@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "If all things remain equal, larger samples would be less variable, thus reducing the margin of error. Therefore, since the sample increased from $100$ to $1{,}000\\text{ subjects}$, the margin of error will decrease.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The center of a confidence interval is based off of the point estimator; in this case, the point estimator is the sample mean. Since the sample mean remains unchanged, the interval will not be centered any higher or lower.\n\nChoice 'B' is incorrect. Increasing confidence actually increases the margin of error. Larger confidence means the interval must catch the unknown parameter a higher percentage of the time. To compensate for this, the margin of error would have to be larger resulting in a wider interval.\n\nChoice 'D' is incorrect. Larger samples always decrease variability, if all other things remain unchanged.\n\nChoice 'E' is incorrect. The sample increased greatly; the new sample is $10$ times larger than the old sample. Therefore, the margin of error would decrease substantially.",
   "tags": [
     "UNC-4.U.1",
     "UNC-4",

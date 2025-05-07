@@ -18,11 +18,11 @@
     },
     {
       "letter": "B",
-      "text": "A table of random numbers is used to generate $500$ phone numbers from a list of parents whose children are in elementary school. These parents are called to determine their concerns about the nutritional value of their children’s snacks."
+      "text": "A table of random numbers is used to generate 500 phone numbers from a list of parents whose children are in elementary school. These parents are called to determine their concerns about the nutritional value of their children’s snacks."
     },
     {
       "letter": "C",
-      "text": "A table of random numbers is used to generate $500$ phone numbers from a list of parents whose children are in elementary school. These parents are interviewed in person to determine their concerns about the nutritional value of their children’s snacks."
+      "text": "A table of random numbers is used to generate 500 phone numbers from a list of parents whose children are in elementary school. These parents are interviewed in person to determine their concerns about the nutritional value of their children’s snacks."
     },
     {
       "letter": "D",
@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "From a list of all parents of elementary school children in a certain town, 500 parents are selected using a table of random numbers. These parents are then given a choice of two coupon sets: one set is for healthy snacks, and the other set is for unhealthy snacks. The parents can pick only one set of coupons. Their choices are recorded and tabulated."
+      "text": "From a list of all parents of elementary school children in a certain town, 500\nparents are selected using a table of random numbers. These parents are then given a choice of two coupon sets: one set is for healthy snacks, and the other set is for unhealthy snacks. The parents can pick only one set of coupons. Their choices are recorded and tabulated."
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Simple random sampling is a probability sampling technique in which each element in the population has a known and equal chance of being selected.\n\nTo draw this sample, the nutritionist needs a sampling frame, such as a list of all parents of elementary school children. A random number generator, or a table of random numbers, is then used to select the sample. An observational study records the behavior of people without asking questions.\n\nExplanation of Distractors\n\nChoices 'A' and 'D' are incorrect; they clearly introduce bias via their understanding of the survey and how it would reflect upon them.\n\nChoices 'B' and 'C' are incorrect; these are reasonable procedures, but the question asks for the best method.",
   "tags": [
     "VAR-3.D",
     "VAR-3",

@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The test that Cara would conduct would be a one sample $z$-test for proportions. In order to conduct this test, it must be true that $np \\ge 10$, and $n\\left( 1-p \\right) \\ge 10$ where $n$ is the number of observations and $p$ is the hypothesized proportion. Here, $p = 0.65$ and we need to calculate $n$.\n\nFill in the inequalities and solve. Do not forget to round up to the next whole number.\n\n$$0.65n \\ge 10\\Rightarrow n \\ge 16$$\n\n$$(1-0.65)n \\ge 10\\Rightarrow n \\ge 29$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Just because our hypothesis involves a percentage does not mean that we need to sample $100\\text{ adults}$.\n\nChoice 'B' is incorrect. A hypothesized percentage of $65\\%$ does not translate to the need to sample $65\\text{ adults}$.\n\nChoice 'C' is incorrect. If we were conducting a test for a population mean, then a sample size of $30$ would be considered sufficiently large to apply the Central Limit Theorem. However, the CLT only applies to means – not to proportions.\n\nChoice 'E' is incorrect. It is not sufficient for $np \\ge 10$ to be true. Both this and $n\\left( 1-p \\right) \\ge 10$ must be true.",
   "tags": [
     "4.B",
     "UNC-5.C.1",

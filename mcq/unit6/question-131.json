@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Statement I is true; large samples, as long as no additional bias is present, reduce variability, give a better snapshot of the population and reduce both Type I and II errors.\n\nStatement II is false; lower alpha levels require stronger evidence, which increases the chance of missing the change and committing a type II error. Higher alpha levels reduce a Type II error.\n\nStatement III is false; power is $1-p$ and power is the probability of not making a Type II error. A Type II error involves failing to reject the null hypothesis when it is in fact false. A Type I error involves rejecting the null hypothesis when it is in fact true.\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "4.B",
     "DAT-3.D.1",

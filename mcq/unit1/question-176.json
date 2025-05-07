@@ -13,7 +13,7 @@
   ],
   "title": "Parallel Boxplots: Male Pulse Rates Versus Female Pulse Rates",
   "difficulty": "Medium",
-  "question_text": "A study was conducted to compare male pulse rates and female pulse rates.<br>Based on the information displayed in the boxplots, which of the following statements is TRUE?<br><br><br><br>",
+  "question_text": "A study was conducted to compare male pulse rates and female pulse rates.<br>Based on the information displayed in the boxplots, which of the following statements is TRUE?<br><br>Created for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-176-img1.PNG"
   ],
@@ -41,8 +41,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This problem will require us to review each statement for its accuracy based on the data.\n\nWe can see\nQ\n1\nfor the females is about\n67\nas\nQ\n2\nfor the males is about\n63\n.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as both distributions are skewed right. This can be seen as in both distributions the median is closer to the minimum value than the maximum value.\n\nChoice 'C' is incorrect. The distribution for the males is skewed right. This indicates the mean is greater than the median as the mean is nonresistant to the high extreme values/outliers.\n\nChoice 'D' is incorrect.\n\nInterquartile range(IQR)=\nQ\n3\n−\nQ\n1\n\nApproximate Female IQR\n=\n80\n−\n68\n=\n12\n\nApproximate Male IQR\n=\n74\n−\n60\n=\n14\n\nChoice 'E' is incorrect because we cannot determine from the boxplot how many data points there are. The identification of the two data points on the female plot are called outliers, or data outside the interquartile range. They do not represent more or less data.",
   "tags": [
     "UNC-1.O",
     "2.D",

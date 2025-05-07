@@ -10,7 +10,7 @@
   ],
   "title": "Cumulative Relative Frequency; MLB Salary",
   "difficulty": "Medium",
-  "question_text": "The cumulative relative frequency plot below displays one hundred major league baseball players' salaries (in millions) in 1994. The salaries were rounded to the nearest dollar.<br><br><br><br><br>Which of the salary brackets below contains the smallest amount of players?",
+  "question_text": "The cumulative relative frequency plot below displays one hundred major league baseball players' salaries (in millions) in 1994. The salaries were rounded to the nearest dollar.<br>Created for Albert.io. Copyright 2017. All rights reserved.<br><br>Which of the salary brackets below contains the smallest amount of players?",
   "image_files": [
     "images/question-124-img1.png"
   ],
@@ -18,15 +18,15 @@
   "choices": [
     {
       "letter": "A",
-      "text": "$1,000,000\nto $2,000,000"
+      "text": "$\n1\n,\n000\n,\n000\nto\n$\n2\n,\n000\n,\n000"
     },
     {
       "letter": "B",
-      "text": "$2,000,001\nto $3,000,000"
+      "text": "$\n2\n,\n000\n,\n001\nto\n$\n3\n,\n000\n,\n000"
     },
     {
       "letter": "C",
-      "text": "$3,000,001\nto $4,000,000"
+      "text": "$\n3\n,\n000\n,\n001\nto\n$\n4\n,\n000\n,\n000"
     },
     {
       "letter": "D",
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A cumulative relative frequency is a running total of the relative frequencies (\n%\nof times that something happens in a data set). The cumulative relative frequency is the sum of all the relative frequencies up to that point.\n\nWe can observe that about\n10\n%\n(\n100\n%\n−\n90\n%\n) of players had a salary between\n$\n4\n,\n000\n,\n001\nand\n$\n5\n,\n000\n,\n000\n.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. We can observe that about\n20\n%\nof players had a salary between\n$\n1\n,\n000\n,\n000\nand\n$\n2\n,\n000\n,\n000\n.\n\nChoice 'B' is incorrect. We can observe that about\n30\n%\n(\n50\n%\n−\n20\n%\n) of players had a salary between\n$\n2\n,\n000\n,\n001\nand\n$\n3\n,\n000\n,\n000\n.\n\nChoice 'C' is incorrect. We can observe that about\n40\n%\n(\n90\n%\n−\n50\n%\n) of players had a salary between\n$\n3\n,\n000\n,\n001\nand\n$\n4\n,\n000\n,\n000\n.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.1",

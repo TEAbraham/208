@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "If the test gives evidence at the $10\\%$ level, this means the $p$-value must be less than $10\\%$.\n\nSince the problem states evidence of a difference was found, the test is a two sided test. In a two-sided test, the $p$-value is doubled, so when going to a one-sided test, the $p$-value will be half of what it originally was.\n\nTherefore, we know the $p$-value must be less than $5\\%$, giving significant evidence at the $5\\%$ level. The highest the p-value could be is $5\\%$.\n\nThus, the correct answer is Choice 'B'.\n\nGenerally, two-sided tests are used if one simply wants to test if something is different from the status quo, while one-sided tests are used to determine if a specific increase or decrease has happened. For example, suppose a new additive is used in a certain laundry detergent.\n\nOne could perform a one-sided test to determine if this new additive results in increased whiteness of the clothing after washing or one could perform a two-sided test to determine if the whiteness of clothing is simply different when washed with detergent with this new additive.",
   "tags": [
     "4.B",
     "DAT-3",

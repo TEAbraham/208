@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since the problem states the individual has normal blood pressure, only focus on the $(11+21) = 32\\text{ people}$ with normal blood pressure. Of these $32$, there are $21$ with normal cholesterol.\n\nTherefore, the probability that a person has normal cholesterol, given that he or she has normal blood pressure, is $\\frac{21}{32}$.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "3.A",
     "VAR-4.D.2",

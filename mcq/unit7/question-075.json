@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The null hypothesis indicates no change from the status quo, which in this case, means weekly sales will stay at $\\$6{,}515$ per week. The alternative hypothesis indicates some type of change.\n\nThe manager feels that the price slashing will increase sales, so the appropriate alternative hypothesis suggests the weekly sales may now be more than $\\$6{,}515$ per week.\n\nThus, the correct answer is Choice 'C'.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; this points toward a paired $T$-test, which is incorrect in this particular context.\n\nChoice 'B' is incorrect; this points toward a two-sided test; this test, however, is one-sided, as the manager wishes to test if the change increased sales.\n\nChoice 'D' and 'E' are incorrect; these use the sample means in the hypothesis, which should never be used in setting up hypotheses.",
   "tags": [
     "DAT-3.F",
     "4.E",

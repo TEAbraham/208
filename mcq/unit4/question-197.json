@@ -23,20 +23,19 @@
     },
     {
       "letter": "C",
-      "text": "98.5"
+      "text": "$98.5$"
     },
     {
       "letter": "D",
-      "text": "33"
+      "text": "$33$"
     },
     {
       "letter": "E",
-      "text": "66.67"
+      "text": "$66.67$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The formula for the mean of a geometric distribution is (\n1\nP\n), where P is the probability of success.\n\nIn this situation:\n\n(\n1\nP\n)=(\n1\n.015\n)=66.67\n\nMean or expected value should never be rounded to a whole number for future calculations.\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "UNC-3",
     "UNC-3.F.1",

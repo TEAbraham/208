@@ -7,7 +7,7 @@
   ],
   "title": "Honors Math?",
   "difficulty": "Easy",
-  "question_text": "At a very large high school, the principal wanted to look at the number of male and female students taking advanced math courses. It was known that the average number has been $560$ girls and $520$ boys with standard deviations of $40$ and $45$ respectively. Random samples were drawn of $42$ girls and $38$ boys.\nWhat is the mean and standard deviation of the sampling distribution of this difference of sample means?",
+  "question_text": "At a very large high school, the principal wanted to look at the number of male and female students taking advanced math courses. It was known that the average number has been $560$ girls and $520$ boys with standard deviations of $40$ and $45$ respectively. Random samples were drawn of $42$ girls and $38$ boys.\nWhat is the mean and standard deviation of the sampling distribution of this difference of sample means?<br>What is the mean and standard deviation of the sampling distribution of this difference of sample means?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTwo parameters must be calculated for this difference of sample means.\n\nThe sampling distribution mean of the difference of the sample means is simply equal to the subtraction of the two given sample means. The mean of the differences is equal to $560-520=40$ honors courses in math being taken. Note that the answer could also be $-40$ depending upon what is being asked.\n\nThe standard deviation for the sampling distribution for the difference of the sample means is equal to this formula where the $\\sigma$'s stand for the standard deviations and the $n$'s stand for the sample sizes:\n\n$$\\sqrt{\\dfrac{\\sigma^{2}_{1}}{n_{1}}+\\dfrac{\\sigma^{2}_{2}}{n_{2}}}$$\n\nPlugging in the numbers from the problem we get:\n\n$\\sqrt{\\dfrac{40^{2}}{42}+\\dfrac{45^{2}}{38}}\\approx9.560$ honors courses in math being taken.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors~\n\nChoice 'A' is incorrect because the standard deviation did not have its square root taken.\n\nChoice 'C' is incorrect because the standard deviation calculation did not have the individual standard deviations get squared.\n\nChoice 'D' is incorrect because the means were added instead of being subtracted.\n\nChoice 'E' is incorrect because the means were added instead of being subtracted and the standard deviation did not have its square root taken.",
   "tags": [
     "UNC-3.T",
     "UNC-3.T.1",

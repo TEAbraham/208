@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When working with proportions, we always use a $z$-distribution. When testing for a difference between two population proportions, our null hypothesis (which we assume to be true) would be:\n\n$$H_0: p_1 = p_2 \\Rightarrow p_1 - p_2 = 0$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. In a binomial distribution, $n$ is the fixed number of observations and $p$ is the probability of success. We would not use this distribution when working with population proportions because we are interested in the proportion related to the entire population, not the proportion related to a fixed number of observations within the population.\n\nChoice 'C' is incorrect. We would use a $t$-distribution when conducting tests related to means or linear regression, not a difference in proportions.\n\nChoice 'D' is incorrect. We would use a ${ \\chi }^{ 2 }$ distribution when assessing goodness of fit (for many proportions) or when testing for homogeneity of populations or for independence between two categorical variables. Also, degrees of freedom in a ${ \\chi }^{ 2 }$ test is not equal to the (total number of observations $– 1$).",
   "tags": [
     "DAT-3.C",
     "4.B",

@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We can use the process of elimination to solve this problem. First, substitute the ordered pair $(\\overline { x } ,\\overline { y } )$ and see which equations the ordered pairs hold true for. Note that the LSRL always passes through the coordinates for the mean of $x$ and the mean of $y$.\n\nFor instance, when we substitute $(10,15)$ into Choice 'A', that comes out to be a true statement:\n$$ 15= -25 + 4(10)$$\n\n...so Choice 'A' is a possibility.\n\nWhen we substitute $(10,15)$ into Choice 'B', we get:\n\n$$15 = 8 + 0.5(10)$$\n\n...which is not true.\n\nDoing this for the rest of the choices, we can eliminate Choices 'C' and 'D', as they are not true statements.\n\nNow we have to choose between Choices 'A' and 'E'. We have to pay attention to the slope of both equations. The formula for the slope of a regression line, when given the means and standard deviations (as you will see on the AP Exam), is:\n\n$$b=r\\dfrac { { s }_{ y } }{ { s }_{ x } } $$\n\nIn our case:\n\n$$\\text{slope }=r\\dfrac { 6 }{ 12 } =0.5r$$\n\nSince correlation ranges between $-1$ and $1$, the highest slope we can have is $0.5$ ($0.5 \\cdot 1$). Thus, Choice 'A' is eliminated as we can not have a slope of $4$ in this case.\n\nThe correct answer is Choice 'E'.",
   "tags": [
     "DAT-1.G.1",
     "DAT-1.G.2",

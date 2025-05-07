@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This is a correct interpretation of slope in the context of this problem. The slope is the predicted change in $y$ for one change in $x$. For this problem, as horsepower increases by $1\\text{ unit}$, predicted mpg decreases by $0.0516$.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; this describes the $y$-intercept, not the slope.\n\nChoice 'B' is incorrect; the pattern in the residuals does NOT show a good fitting model.\n\nChoice 'C' is incorrect; this in an inaccurate interpretation of slope; the slope in this problem is $-0.0516$, NOT $5.3564$.\n\nChoice 'E' is incorrect; the $P$-value is $2.4035 \\times 10^{-10}$, which is an extremely small number. When the $P$-value $\\le \\sigma$, then we reject $H_0: \\beta_1 = 0$ and conclude a significant relationship between horsepower of car and mpg.",
   "tags": [
     "4.E",
     "DAT-3.N.2",

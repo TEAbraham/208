@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.\nThe median will occur at the 11th value as this is the middle value when there are 21 values.",
-  "solution": "",
-  "explanations": {},
+  "solution": "However, the value of the median can repeat itself until we get to Q3(cutoff for the $75$th percentile) which is $27$. To find Q3, we take the median of the values to the right of the overall median. For instance, in this case, Q3 is the average of the $16$th and $17$th value. Therefore, $19$ can be the $16\\text{th}$ value, but anything after the $16\\text{th}$ value has to be bigger than $19$.\n\nExample: Starting at the $11\\text{th}$ value\nLocation:\n$$11 \\quad 12 \\quad 13 \\quad 14 \\quad 15 \\quad 16 \\quad 17 \\quad 18 \\quad 19 \\quad 20 \\quad 21$$\n\nValue:\n$$19 \\quad 19 \\quad 19 \\quad 19 \\quad 19 \\quad 19 \\quad 35 \\quad 35 \\quad 35 \\quad 36 \\quad 40$$\n\nAs you can see, the median is the $11\\text{th}$ value but is also the same value as the $12\\text{th}$ through the $16\\text{th}$ value. The Q3 is the average of the $16\\text{th}$ and $17\\text{th}$ values, making that $27$. Therefore we only $5$ guaranteed values that are above $19$.\n\nExplanation of Distractors\n\nNote that the problem says ALWAYS. The most common incorrect answer is Choice 'D', as the median will be assumed to be the 11th value and there are 10 values after the median.\n\nChoice 'A' is incorrect because the median and Q3 are not equal to each other. This tells us from the explanation above there has to be at least 5 values above 19 since Q3 is equal to 27.\n\nChoice 'C' is incorrect as the 16th value can be 19 because Q3 is the average of the 16th and 17th value.\n\nChoice 'E' is incorrect as the median is the 11\nth value which means there are only 10\nvalues above the median so it is impossible for there to ever be 11\nvalues above the median.",
   "tags": [
     "4.B",
     "UNC-1.K",

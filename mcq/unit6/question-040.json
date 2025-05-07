@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Power is the probability of correctly rejecting the null hypothesis.\n\nPower will be smallest when the significance level is the smallest, as the null hypothesis will have a higher probability of being rejected. Since we want the smallest power, we want the smallest significance level. Choices 'B' and 'D' can be eliminated with significance levels of $\\alpha=0.05$.\n\nRegarding the sample size, the power will be the smallest when the sample size is the smallest. The reason for this is with a smaller sample size we will be less likely to correctly reject the null hypothesis. Choices 'C' and 'E' can be eliminated with larger sample sizes or assuming not enough information was provided\n\nThus, our answer is Choice 'A'.",
   "tags": [
     "1.F",
     "VAR-6.D.1",

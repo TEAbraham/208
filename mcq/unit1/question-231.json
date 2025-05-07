@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "If $98\\%$ of samples are over a certain weight, look in the standard normal table for the $2^\\text{nd}\\text{ percentile}$.\n\nThe $Z$-score for the $2^\\text{nd}\\text{ percentile}$ is between $-2.05$ and $-2.06$. Students can choose either one or split the difference at $-2.055$.\n\nThen use the equation below and solve to get $x = 0.5034\\text{ lbs}$:\n\n$$\\dfrac{(x – 0.75) }{ 0.12} = -2.055$$\n\n$$x-0.75=-0.2466$$\n\n$$x=0.5034$$",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

@@ -21,7 +21,7 @@
     },
     {
       "letter": "C",
-      "text": "1\n6"
+      "text": "$\\dfrac{1}{6}$"
     },
     {
       "letter": "D",
@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nRemember: we're asked to find the probability that your sum is NOT 5\n?\n\nThe clearest way to figure out the probability is to write out the sample space.\n\nHere it is:\n\nThere are\n9\noutcomes in the sample space which means the denominator of the fraction should be\n9\n(unless simplified). There are\n2\nways to add to\n5\n. This means that there are\n9\n−\n2\n=\n7\nways that do not add to\n5\n.\n\nSo,\n7\n9\nor Choice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect because this is the probability of spinning a sum of\n5\n.\n\nChoice 'C' is incorrect because it could be that the person saw\n5\nas one number out of\n6\n.\n\nChoice 'D' is incorrect because, while the numerator is right, the denominator is wrong. Some people are thinking that\n2\nspinners times\n3\nnumbers is equal to\n6\n, but this is not the denominator.\n\nChoice 'E' is incorrect because both the numerator and denominator are wrong.",
   "tags": [
     "VAR-4.A.4",
     "3.A",

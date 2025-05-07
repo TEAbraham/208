@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To solve this problem, you will use the fact that each column adds up to the bottom number and each row adds up to the number of the right. You can subtract to find total Upper Classmen:\n\n$$\\text{Total}=\\text{Upper Classmen} + \\text{Freshmen}$$\n\n$$\\text{Total}- \\text{Freshmen}=\\text{Upper Classmen} $$\n\n$$542-156=\\text{Upper Classmen}$$\n\n$$386=\\text{Upper Classmen}$$\n\nNext, you can subtract the 280 upper classmen who live off campus from the 386 total upper classmen to find that there are 106 upper classmen who live on campus.\n\nTotal Upper Classmen=Upper Classmen On Campus+Upper Classmen Off Campus\n\nTotal Upper Classmen−Upper Classmen On Campus=Upper Classmen Off Campus\n\n386−280=Upper Classmen Off Campus\n\n106=Upper Classmen Off Campus\n\nExplanation of Distractors\n\nIf you put any number other 106 in the cell for On Campus Upper Classmen and then do the addition, then you will get errors.\n\nChoice 'B' has too many Upper Classmen in On Campus housing. Adding the 84 Freshmen Off Campus to 216 Upper Classmen would give 300 total students in On Campus Housing. The totals column shows that there are only 190 students in On Campus housing.\n\nChoice 'C' uses addition when you should have used subtraction. You may have performed:\n\n190+84=274\n\n...when you should have performed:\n\n190−84=106\n\nChoice 'D' has too many Upper Classmen in On Campus housing. Adding the 280 Upper Classmen in Off Campus housing to the 312 Upper Classmen in On Campus housing adds to 592 total Upper Classmen. The entire school only has 542 students, so this cannot be correct.\n\nChoice 'E' is the total amount of Upper Classmen at the school. You calculated:\n\n542−156=386\n\nHowever, the prompt only asks for how many Upper Classmen live in On Campus housing.",
   "tags": [
     "UNC-1.P",
     "2.D",

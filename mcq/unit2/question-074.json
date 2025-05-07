@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe model used for linear regression is $\\hat{y}=a+bx$, where $x$ is known as the explanatory variable and $\\hat{y}$ is known as the response variable.\n\nIn this problem you are given values for $a$ and $b$. Since you are given the explanatory variable you also have the value for $x$. Thus, you want to plug in the value of $6$ for $x$ and solve for the value of $\\hat{y}$, the response variable.\n\nSolve: $\\hat{y}=-12+2.5(6)$\n\nYou get $\\hat{y}=-12+15 = 3$.\n\nSo, Choice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect because the negative sign was left off of the $y$-intercept or the $12$.\n\nChoice 'C' is incorrect because the $6$ was plugged into the $\\hat{y}$ variable and $x$ was solved for.\n\nChoice 'D' is incorrect because nothing was done!\n\nChoice 'E' is incorrect because of an arithmetic error.",
   "tags": [
     "DAT-1.D.2",
     "2.C",

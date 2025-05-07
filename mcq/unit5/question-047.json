@@ -8,34 +8,37 @@
   ],
   "title": "Texas County Populations",
   "difficulty": "Medium",
-  "question_text": "The campaign director for a Texas governor's candidate is planning a multi-stage sample survey. In the first stage, the director will randomly choose 15 counties. The partial histogram below shows the population by county for Texas (the five highest outlier counties have been omitted).<br><br><br><br><br>The average population for all 254 counties is 99,423 people with a standard deviation of 354,429 people.<br>Describe the sampling distribution of the mean population for samples of 15 counties.",
-  "image_files": [],
+  "question_text": "The campaign director for a Texas governor's candidate is planning a multi-stage sample survey. In the first stage, the director will randomly choose 15 counties. The partial histogram below shows the population by county for Texas (the five highest outlier counties have been omitted).<br>Created for Albert.io. Copyright 2017. All rights reserved.<br><br>The average population for all 254 counties\nis 99,423 people\nwith a standard deviation of 354,429 people\n.<br>Describe the sampling distribution of the mean population for samples of 15 counties\n.",
+  "image_files": [
+    "images/question-047-img1.JPG",
+    "images/question-047-img2.JPG",
+    "images/question-047-img3.JPG"
+  ],
   "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "<br><br>\n\nμ\n¯\nx\n=99,423\n, σ\n¯\nx\n=354,429"
+      "text": "Created for Albert.io. Copyright 2017. All rights reserved.\n\nμ\n¯¯¯\nx\n=\n99,423\n,\nσ\n¯¯¯\nx\n=\n354,429"
     },
     {
       "letter": "B",
-      "text": "<br><br>\n\nμ\n¯\nx\n=99,423\n, σ\n¯\nx\n=91,513"
+      "text": "Created for Albert.io. Copyright 2017. All rights reserved.\n\nμ\n¯¯¯\nx\n=\n99,423\n,\nσ\n¯¯¯\nx\n=\n91,513"
     },
     {
       "letter": "C",
-      "text": "<br><br>\n\nμ\n¯\nx\n=99,423\n, σ\n¯\nx\n=354,429"
+      "text": "Created for Albert.io. Copyright 2017. All rights reserved.\n\nμ\n¯¯¯\nx\n=\n99,423\n,\nσ\n¯¯¯\nx\n=\n354,429"
     },
     {
       "letter": "D",
-      "text": "<br><br>\n\nμ\n¯¯¯\nx\n=\n99,423\n,\nσ\n¯¯¯\nx\n=\n91,513"
+      "text": "Created for Albert.io. Copyright 2017. All rights reserved.\n\nμ\n¯¯¯\nx\n=\n99,423\n,\nσ\n¯¯¯\nx\n=\n91,513"
     },
     {
       "letter": "E",
-      "text": "<br><br>\n\nμ\n¯¯¯\nx\n=\n99,423\n,\nσ\n¯¯¯\nx\n=\n22,239"
+      "text": "Created for Albert.io. Copyright 2017. All rights reserved.\n\nμ\n¯¯¯\nx\n=\n99,423\n,\nσ\n¯¯¯\nx\n=\n22,239"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When describing a distribution it is important to include three features:\n\nShape: Because the sample size is only\n15\n, the Central Limit Theorem will not apply. Since the population is skewed right, the sampling distribution will also be skewed right.\n\nCenter: The mean of the sampling distribution is the same as the population mean.\n\nSpread:\n\nσ\n¯¯¯\nx\n=\nσ\n√\nn\n\n=\n354,429\n√\n15\n\n=\n91,513\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. We cannot assume that the sample standard deviation is the same as the population standard deviation.\n\nChoices 'C', 'D', and 'E' are incorrect. These represent nearly normal distributions, which are incorrect.",
   "tags": [
     "4.B",
     "UNC-3.S.1",

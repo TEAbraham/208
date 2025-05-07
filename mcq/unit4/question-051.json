@@ -9,7 +9,7 @@
   ],
   "title": "Favorite Movie Genre and an Associated Probability",
   "difficulty": "Medium",
-  "question_text": "The Film Club distributed a survey to students at their high school to determine the students' favorite genre of movie. The survey asked an individual to select only one favorite. Not everyone returned the survey, but here are the results of those who did:<br>If a survey indicated that the respondent's favorite genre was either Sci-Fi or Horror, what is the probability that the respondent was male?",
+  "question_text": "The Film Club distributed a survey to students at their high school to determine the students' favorite genre of movie. The survey asked an individual to select only one favorite. Not everyone returned the survey, but here are the results of those who did:<br>If a survey indicated that the respondent's favorite genre was either Sci-Fi or Horror, what is the probability that the respondent was male?<br>If a survey indicated that the respondent's favorite genre was either Sci-Fi or Horror, what is the probability that the respondent was male?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Action</th><th scope=\"col\">Drama</th><th scope=\"col\">Sci-Fi</th><th scope=\"col\">Comedy</th><th scope=\"col\">Horror</th></tr></thead><tbody><tr><td>Male</td><td>24</td><td>11</td><td>15</td><td>16</td><td>10</td></tr><tr><td>Female</td><td>17</td><td>21</td><td>12</td><td>18</td><td>4</td></tr></tbody></table>"
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We are told that the survey answer was either Sci-Fi or Horror. This is a given condition. We are trying to find the probability that the survey was from a male given the response was either Sci-Fi or Horror.\n\nThat is, we are looking for p(male|Sci-Fi or Horror). We can solve this using the basic definition of probability which says:\n\np(event)=\n(# of ways event can happen)\n(total # of outcomes in the sample space)\n\nIn this case, we limit the number of events in the sample space to those that satisfy the given condition: 27+14=41 people who responded with either Sci-Fi or Horror.\n\nThen, the number of those who are male is: 15+10=25. Putting it together, we have:\n\np(male|Sci-Fi or Horror)=\n25\n41\n=0.61\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. It represents the probability of selecting a survey where the response was either Sci-Fi or Horror.\n\nChoice 'B' is incorrect. It represents the probability of selecting a survey from a male.\n\nChoice 'C' is incorrect. It represents p(male|Sci-Fi)\n.\n\nChoice 'E' is incorrect. It represents p(male|Horror)\n.",
   "tags": [
     "VAR-4.D.1",
     "3.A",

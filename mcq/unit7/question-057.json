@@ -8,7 +8,7 @@
   ],
   "title": "Who Wins?",
   "difficulty": "Medium",
-  "question_text": "Five interns work for a large popcorn company. They are in a competition to see who can come up with the best idea to help with popcorn sales. They are required to use some sort of statistical test. Their five ideas are listed in the answer choices shown. Four are in the running because they seemed to make sense, but one did not make sense.\nWhich one mentions a test which does not coordinate with the information to be collected?",
+  "question_text": "Five interns work for a large popcorn company. They are in a competition to see who can come up with the best idea to help with popcorn sales. They are required to use some sort of statistical test. Their five ideas are listed in the answer choices shown. Four are in the running because they seemed to make sense, but one did not make sense.\nWhich one mentions a test which does not coordinate with the information to be collected?<br>Which one mentions a test which does not coordinate with the information to be collected?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nAny statistical technique must examine the correct type of information. Since four of the questions are correct, learning can be had simply by reading them.\n\nHere, the answer contains some inconsistent information. When asked about money spent, people would respond with a number. For example, \"We spent about $\\$40$ on popcorn in the last month.\" This $40$ is a number, not a proportion. Therefore, a significance test or confidence interval should be done on a sample mean here, not a proportion.\n\nSo, Choice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect because Bob made a good suggestion. He wants to test the mean amount of popcorn sales from movie theaters.\n\nChoice 'C' is incorrect because Carly made a good suggestion. She wants to test the proportion of convenience store sales that were popcorn.\n\nChoice 'D' is incorrect because Dan made a good suggestion. He wants to use a confidence interval to compare the means of popcorn sales of two different types of stores.\n\nChoice 'E' is incorrect because Eduardo made a good suggestion. He wants to construct a confidence interval for the mean sales of popcorn in grocery stores.",
   "tags": [
     "VAR-7",
     "VAR-7.B.1",

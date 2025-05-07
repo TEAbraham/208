@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since $2000(0.53)$ and $2000(0.47)$ are each greater than $10$, this binomial distribution is also approximately normal.\n\n$\\text{Mean} = nP = 2000\\cdot 0.53 = 1060$\n\n$\\text{Standard deviation} = \\sqrt{(2000\\cdot 0.53\\cdot 0.47)} = 22.32$\n\nNext, set up the equation: $\\dfrac{(1000-1060)}{22.32} = -2.69$\n\n$$P(z > -2.69) = 0.0036$$\n\nThus, the correct answer is Choice 'A'\n\nNote #1: One could have used sample proportions in this question instead.\n\nMean =p=0.53\n\nVariance =\n(0.53)(0.47)\n2000\n=0.00012455\n\nStandard Deviation=\n√\n(0.00012455)\n=0.0116\n\nShape: Still roughly normal since 2000(0.53) and 2000(0.47) are each greater than 10.\n\n(0.53−0.50)\n0.116\n=−2.69\n\nP(z>−2.69)=0.0036\n\nSample proportions and the binomial distribution are essentially the same as the binomial distribution. The only difference is that sample proportions involve the proportion of people with white houses, while the binomial distribution involves the number of people with white houses (out of the 2000 surveyed)\n\nNote #2: In this question, and many others, it's essential that one can determine the difference between sample means and sample proportions/binomial. There is an entirely different set of rules for shape, center, and spread for sample means.\n\nQuestions involving sample proportions and the binomial distribution have 2 outcomes; yes or no. For example, in the question above, subjects will answer the question, \"Is your house painted white\" with only a yes or no answer. Sample means, on the other hand, are answered with numbers, An example involving sample means could be: \"How much did you have to pay to buy your house?\".",
   "tags": [
     "VAR-6.B.2",
     "VAR-6.B",

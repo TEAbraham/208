@@ -8,7 +8,7 @@
   ],
   "title": "Shoe Sizes and Ages",
   "difficulty": "Easy",
-  "question_text": "Researchers measured $9$ random students and recorded their shoe sizes and ages in the scatterplot below.<br>Image created using Desmos (CC BY-SA 4.0)<br>Which of the following statements is true considering the scatterplot above?",
+  "question_text": "Researchers measured $9$ random students and recorded their shoe sizes and ages in the scatterplot below.<br>Which of the following statements is true considering the scatterplot above?",
   "image_files": [
     "images/question-055-img1.png"
   ],
@@ -16,7 +16,7 @@
   "choices": [
     {
       "letter": "A",
-      "text": "The point (4,9\n) is an influential point."
+      "text": "The point (\n4\n,\n9\n) is an influential point."
     },
     {
       "letter": "B",
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The plot shows a positive correlation, but it appears only moderate. You may input the data into your calculator to get a correlation value of\nr\n=\n0.64\n. However, you should be able to eye-ball the correlation to be somewhere in the\nr\n=\n0.5\nto\nr\n=\n0.7\nrange.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; removing point (\n4\n,\n9\n) does not markedly change the correlation or LSRL.\n\nChoice 'B'is incorrect; there is clearly a positive, not negative, correlation.\n\nChoice 'C' is incorrect; the correlation is moderate, not strong.\n\nChoice 'E' is incorrect; this point is not far enough outside the overall pattern to be considered a regression outlier.",
   "tags": [
     "4.B",
     "DAT-1.C",

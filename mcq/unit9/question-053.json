@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Statement I is true; since the entire slope is above $0$, strong evidence exists of a relationship. Since this is a $95\\%$ confidence interval, $p$ must be less than $0.05$.\n\nStatement II is true; the sample slope is $\\frac{(76.2+50.2)}{2} = 63.2$. Per definition of slope, it is the predicted increase in sales for every one extra degree increase in temperature.\n\nStatement III is false; extrapolation is never safe. In this context, at some point, the temperature will be hot enough that sales would decrease as people would not want to be outside or drive to the ice cream shop.\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "4.B",
     "DAT-3",

@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since there are $20\\text{ pairs}$, there is:\n\n$$\\text{ degrees of freedom}=n-2 $$\n\n$$= 20-2 $$\n\n$$= 18 $$\n\nUse the $T$-distribution table to find that the critical values that surround $3.19$ at $18$ degrees of freedom are $2.878$ and $3.197$.\n\nMove up the chart to find the $p$-value is $0.0025$ and $0.005$.\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "VAR-7.M",
     "VAR-7",

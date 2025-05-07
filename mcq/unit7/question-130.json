@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A two-sample $T$-test should be performed to determine if a significant difference exists between two independent samples representing two populations.\n\nChoice 'C' is correct; this by definition is the appropriate situation for a two sample T-test.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; a two-proportion $Z$-test would be appropriate for the situation in Choice 'A'. A 2-sample $T$ test would not be appropriate because proportions are not being studied.\n\nChoice 'B is incorrect; the $T$ distribution does not assume the population standard deviation is known. Use the $Z$ distribution when the population standard deviation is assumed to be known.\n\nChoice 'D' is incorrect; a linear regression $T$-test deals with bivariate data that has an explanatory/response relationship would be appropriate for this situation mentioned in Choice 'D'.\n\nChoice 'E' is incorrect; a chi-squared test would be appropriate for the selection mentioned in Choice 'E' as it is used to test multiple proportions dealing with categorical variables.",
   "tags": [
     "4.E",
     "DAT-3.H.1",

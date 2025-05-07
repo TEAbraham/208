@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice ‘C’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTo calculate the expected value in a two-way table, use the formula:\n\n$$\\text{expected value} = \\dfrac{(\\text {row total})(\\text {column total})}{\\text {table total}}$$\n\nFor the cell marked with the #, the expected value is:\n\n$$\\dfrac{31 \\text{ x } 32}{77} = 12.88$$\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect: $31.5$ is the average of the row total ($31$) and the column total ($32$).\n\nChoice ‘B’ is incorrect: $12.833$ is the table total ($77$) divided by $6$.\n\nChoice ‘D’ is incorrect: $10.667$ is the column total ($32$) divided by $3$.\n\nChoice ‘E’ is incorrect: $15.5$ is the row total ($31$) divided by $2$.",
   "tags": [
     "VAR-8.D",
     "VAR-8.A.1",

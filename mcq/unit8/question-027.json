@@ -12,7 +12,7 @@
   ],
   "title": "Math Program: Chi Squared Goodness of Fit",
   "difficulty": "Medium",
-  "question_text": "Suppose a high school principal wishes to determine if students in her after-school math program perform better than those not in the program.<br>The principal randomly selected $115\\text{ students}$ for an after-school study session that runs $3\\text{ days per week}$ for $1\\text{ hour}$ each day, focusing solely on math.<br>The grade distribution of these students’ math grades is compared to the historical grade distribution of students’ math grades at this high school. The data is below:<br>What conclusion can be drawn from the data when performing a chi-squared goodness of fit test?",
+  "question_text": "Suppose a high school principal wishes to determine if students in her after-school math program perform better than those not in the program.<br>The principal randomly selected $115\\text{ students}$ for an after-school study session that runs $3\\text{ days per week}$ for $1\\text{ hour}$ each day, focusing solely on math.<br>The grade distribution of these students’ math grades is compared to the historical grade distribution of students’ math grades at this high school. The data is below:<br>What conclusion can be drawn from the data when performing a chi-squared goodness of fit test?<br>What conclusion can be drawn from the data when performing a chi-squared goodness of fit test?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th><th scope=\"col\">F</th></tr></thead><tbody><tr><td>After-School Program (Counts)</td><td>28</td><td>38</td><td>36</td><td>9</td><td>4</td></tr><tr><td>Historical Grade Distribution (%)</td><td>18%</td><td>32%</td><td>25%</td><td>20%</td><td>5%</td></tr></tbody></table>"
@@ -40,8 +40,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When performing a chi-squared goodness of fit test, the test statistic is $13.51$ with a $p$-value between $0.005$ and $0.01$.\n\nWith such a low $p$-value, there is strong evidence that students in this program score differently than everybody else.\n\nHowever, a chi-squared test cannot prove that the program improves math grades.\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "4.E",
     "DAT-3",

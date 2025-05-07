@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Use your calculator function for a two-sample $t$-interval, with a confidence level of $0.95$, without pooling the variance. The result will be $(-5.83, 7.83)$.\n\nNote: When the variances are close to equal, one could pool the variances and get an appropriate answer. However, there is no reason to pool the variances when performing the test on your calculator. Clicking \"no\" on the pooling variances option will always get the appropriate answer.\n\nThus, the correct answer is Choice 'D'.\n\nOne could alternatively calculate the interval by hand. Use the following formula:\n\n$$(x_1 - x_2) \\pm t^{ *} \\sqrt{\\dfrac{(s_1)^{2}}{n_1} + \\dfrac{(s_2)^{2}}{n_2}}$$\n\nThe first mean, $x_1$, is $30.20$.\nThe second mean, $x_2$, is $29.20$.\n\nThe first standard deviation, $s_1$, is $4.025$.\nThe second standard deviation, $s_2$, is $5.167$.\n\nThe first sample size, $n$ is $5$, as well as the second sample size.\n\nThe $t^*$ using the more conservative degrees of freedom of $n - 1$ of the smaller sample size is $2.776$. One can find this on the $T$ table by finding where $95\\%$ confidence meets $4$ degrees of freedom (Degrees of freedom $= n - 1 = 5 - 1 = 4$)\n\nNote: The calculator will get a slightly more precise value. When performing this interval by hand, one should get: $-7.13$ to $9.13$. This answer is quite different than doing it by calculator since it uses $4$ degrees of freedom and a calculator calculates the exact degrees of freedom. However, if one chooses to do the problem by hand, find the selection (a-e) that is the next most precise with the same point estimator of one in this case.",
   "tags": [
     "3.D",
     "UNC-4.Y.1",

@@ -29,12 +29,11 @@
     },
     {
       "letter": "E",
-      "text": "$0.02\\pm0.171$"
+      "text": "0.02±0.171"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe formula for a confidence interval for the difference of two proportions is:\n\n(\nˆ\np\n1−\nˆ\np\n2)±z∗\n√\nˆ\np\n1(1−\nˆ\np\n1)\nn1\n+\nˆ\np\n2(1−\nˆ\np\n2)\nn2\n\n...where\nˆ\np\n1\nand\nˆ\np\n2\nare the given proportions, n1\nand n2\nare the given sample sizes, and z∗\nis the critical value for the given confidence level.\n\nIn this problem, we assume all conditions have been verified, we will plug in the values:\n\n(0.33−0.31)±2.576\n√\n0.33(1−0.33)\n60\n+\n0.31(1−0.31)\n55\n\nSimplify this to get 0.02±0.224\n. Note that the first term could also be negative.\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because a 90%\nconfidence was calculated.\n\nChoice 'B' is incorrect because the square root was not taken in the calculation of the standard error.\n\nChoice 'D' is incorrect because a 95%\nconfidence was calculated and the proportions were subtracted with the decimal point in the wrong place.\n\nChoice 'E' is incorrect because a\n95\n%\nconfidence was calculated.",
   "tags": [
     "3.D",
     "UNC-4.K.1",

@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The purpose of a confidence interval is to capture the parameter, which in this case is the population mean.\n\nWhen looking for the correct answer, look for something that mentions the population mean or true mean. Choices 'A', 'C', and 'E' don't refer to the population mean, so those answers can be eliminated.\n\nChoice 'A' is incorrect, as it never refers to the population mean.\n\nChoice 'B' correctly interprets a confidence level.\n\nChoice 'C' is incorrect, as it refers to the sample mean and not the population mean.\n\nChoice 'D' is incorrect. The probability that the true average is this interval is either $0$ or $1$ and not $.99$. The population mean is a fixed value, so the population mean is either in the interval ($100\\%$ chance) or not in the interval ($0\\%$ chance).\n\nChoice 'E' is incorrect, as it refers to individual data and not the population mean.",
   "tags": [
     "UNC-4.O.1",
     "UNC-4",

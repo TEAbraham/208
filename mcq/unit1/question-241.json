@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To answer this question, you must be able to correctly find and interpret the $z$-scores. You need to know the general formula of:\n\n$$\\text{Standardized test statistic }=\\dfrac {\\text{statistic-parameter} }{\\text{standard deviation of statistic}}$$\n\nIn this case:\n\n$$z=\\dfrac { x-\\mu }{ \\sigma }$$\n\nDanielle's AP Statistics $z$-score and interpretation is as follows:\n\n$$z=\\frac { 77-81 }{ 4 } =-1$$\n\nTherefore, Danielle scored one standard deviation below the mean on her AP Statistics test.\n\nDanielle's AP U.S. History $z$-score and interpretation:\n\n$$ z=\\frac { 67-73 }{ 8 } =-0.75$$\n\nDanielle scored $.75$ standard deviations below the mean on her AP U.S. History test. This is a higher $z$-score compared to her AP Statistics $z$-score, as $-0.75 > -1$.\n\nChoice 'B': This is correct. Danielle's $z$-score was higher on the AP U.S. History Test.\n\nExplanation of Distractors\n\nChoice 'A': This is incorrect, as her $z$-score was higher on the AP U.S. History test.\n\nChoice 'C': This is incorrect. Danielle's $z$-scores were different on both tests.\n\nChoice 'D': This is incorrect. We do not need to know all the students' scores from each test, just the average and standard deviation in order to compute the $z$-score.\n\nChoice 'E': This is incorrect. The problem states the scores were normally distributed for each test, therefore we can use $z$-scores to solve the problem.",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

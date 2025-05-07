@@ -9,9 +9,7 @@
   "title": "Puzzle Competition",
   "difficulty": "Medium",
   "question_text": "In a puzzle competition, competitors are given a different puzzle to solve for each round.<br>The first round presents a puzzle known to be normally distributed with a solution time of $\\mu = 3\\text{ minutes}$ and $\\sigma=0.4\\text{ minutes}$. The fastest $20\\%$ of competitors advance to the next round.<br>To the nearest tenth of a minute, what cutoff score will advance a competitor to the next round?",
-  "image_files": [
-    "images/question-221-img1.png"
-  ],
+  "image_files": [],
   "tables": [],
   "choices": [
     {
@@ -36,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Created for Albert.io. Copyright 2016. All rights reserved.\n\n\n\nFirst, note that the fastest solution times will be less than the mean solution time of $3\\text{ minutes}$, so the answer should be a value below $3$. This is important: the fastest speeds would be the lowest times.\n\nTo solve this problem, use either a table of standard normal probabilities or the “inverse normal” function on a calculator.\n\nThis problem presents a probability of $20\\%$, so look in the body of the table, and you will find a $z$-value closest to $-0.84$ corresponding to an area of $0.20$ as shown in the image above.\n\nNow use the conversion formula:\n\n$$z = \\dfrac{(X-\\mu)}{\\sigma}$$\n\n...to find the cutoff score.\n\n$$-0.84 =\\dfrac{ (X-3)}{0.4}$$\n\n$$(-.84)(0.4) = X-3$$\n\n$$-0.336 = X-3$$\n\n$$2.66=X$$\n\nSo $X$ is $3-0.336$, or $2.66$, which rounds to $2.7$.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

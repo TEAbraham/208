@@ -9,7 +9,7 @@
   ],
   "title": "Mean vs. Median",
   "difficulty": "Hard",
-  "question_text": "Consider the histogram below.<br><br><br><br><br>Approximately where, on the graph, is the median compared to the mean?",
+  "question_text": "Consider the histogram below.<br><br>Approximately where, on the graph, is the median compared to the mean?",
   "image_files": [
     "images/question-072-img1.jpg"
   ],
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This graph is clearly left skewed. Skewness follows the direction of the tail, and one can see the graph has a longer left tail than right tail. The mean is a measure of center that is not resistant to skewness. Therefore, the mean will be pushed to the left if the graph is left skewed, the mean will be pushed to the right if the graph is right skewed. The median, on the other hand, is resistant to skewness, and will be more in the center of the data compared to the mean.\n\nChoice 'A' is incorrect. While the graph is left skewed, this skewness will bring the mean to the left of the median.\n\nChoice 'C' is incorrect. High outliers would bring the mean to right of the median (and consequently the median to the left of the mean), but there are no high outliers in this graph.\n\nChoice 'D' is incorrect. The graph is clearly left skewed, not right skewed.\n\nChoice 'E' is incorrect. The distribution is not roughly normal. One can see the left tail is longer than the right tail.\n\nChoice 'B' is incorrect; there are no obvious outliers based off of this graph.",
   "tags": [
     "UNC-1.H",
     "2.D",

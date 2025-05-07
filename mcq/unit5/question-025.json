@@ -22,11 +22,11 @@
     },
     {
       "letter": "C",
-      "text": "72% and 67% are both statistics."
+      "text": "$72\\%$ and $67\\%$ are both statistics."
     },
     {
       "letter": "D",
-      "text": "72%\nand 67%\nare both parameters."
+      "text": "$72\\%$ and $67\\%$ are both parameters."
     },
     {
       "letter": "E",
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A statistic is an estimate of the value of an unknown parameter.\n\nA week before the election, the actual percentage of voters who will cast a ballot is unknown, so 72% is an estimate of the percent of voters who will vote; therefore, it’s a statistic.\n\nAfter the election, the 67%\nfigure is the actual value of the true percent of voters who cast a ballot; therefore, it’s a parameter.\n\nThus, the correct answer is Choice 'A'.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect. This selection incorrectly uses the terms parameter and statistic. Parameters describe the population, and based off the stem of the question the population proportion is 67%\n. Statistics, on the other hand, describe a sample, and based off the stem of the question the sample proportion is 72%\n\nChoice 'C' is incorrect. While 72%\nis from a sample, and is therefore a statistic, the 67%\nfigure describes the population and is a parameter.\n\nChoice 'D' is incorrect. While 67%\ndescribes a population is a parameter, the 72%\nfigure describes a sample and is therefore a statistic.\n\nChoice 'E' is incorrect. One can actually calculate the standard deviation of the sampling distribution in this context, but regardless, knowing the standard deviation does not change how we use terms such as statistic and parameter.",
   "tags": [
     "UNC-3.J",
     "UNC-3.J.1",

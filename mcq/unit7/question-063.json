@@ -30,8 +30,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In significance testing we are testing about parameter( a numeric value described by the population). In significance testing for means we always use $\\mu$ as this represents the variable for the population mean . $\\overline { x }$ represents the variable of the sample mean.\n\nChoices 'A', 'B', and 'C' can be eliminated.\n\nThe alternative hypothesis is the claim about the population that we are trying to find evidence for. Reading the second sentence in the question Bobby believes the valet company's time to get a car is greater than $8\\text{ minutes}$.\n\nThe alternative hypothesis, in this case, would be ${ H }_{ a }:\\mu >8\\text{ minutes}$ as this is what is trying to be proven.\n\nChoice 'D' can be eliminated as the alternative hypothesis in this case is less than.\n\nChoice 'E' is the answer.",
   "tags": [
     "DAT-3.F",
     "4.E",

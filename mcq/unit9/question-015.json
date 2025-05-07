@@ -9,7 +9,7 @@
   ],
   "title": "Point Estimate for the Slope Given a Table",
   "difficulty": "Easy",
-  "question_text": "Is there an association between someone eating large quantities of chocolate and being overweight? A random sample of $26$ women had their body fat percentage measured and were also were asked how much chocolate they eat a day. A computer regression analysis of the data is given below:<br>Dependent variable is: Body fat\n$R^2 = 20.26\\%$\n$s= 7.89 $<br>Assuming the conditions have been satisfied and using $95\\%$ confidence, which of the following represents the point estimate for the slope $t$-interval?",
+  "question_text": "Is there an association between someone eating large quantities of chocolate and being overweight? A random sample of $26$ women had their body fat percentage measured and were also were asked how much chocolate they eat a day. A computer regression analysis of the data is given below:<br>Dependent variable is: Body fat\n$R^2 = 20.26\\%$\n$s= 7.89 $<br>Assuming the conditions have been satisfied and using $95\\%$ confidence, which of the following represents the point estimate for the slope $t$-interval?<br>Assuming the conditions have been satisfied and using $95\\%$ confidence, which of the following represents the point estimate for the slope $t$-interval?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\">Coefficient</th><th scope=\"col\">s.e Coeff</th><th scope=\"col\">t-ratio</th><th scope=\"col\">prob</th></tr></thead><tbody><tr><td>Constant</td><td>23.231</td><td>1.567</td><td>14.32</td><td>0.00001</td></tr><tr><td>Chocolate</td><td>0.0543</td><td>0.0217</td><td>2.21</td><td>0.037</td></tr></tbody></table>"
@@ -21,7 +21,7 @@
     },
     {
       "letter": "B",
-      "text": "0.0543"
+      "text": "$0.0543$"
     },
     {
       "letter": "C",
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The formula for a slope regression t\n-interval is:\n\nb±(t\n∗\nn−2\n⋅S.E.b)\n\n...where the point estimate is the content before the ±\n, which in this case is b\n, or the sample slope.\n\nThe sample slope (b\n) is given in the table. It is the coefficient of the x\n-variable, which in this case is the coefficient of the chocolate. Looking at this value in the table, we can see that it is 0.0543\n.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as\n0.0217\nrepresents the standard error of the slope. Choice 'C' is incorrect as\n1.567\nrepresents the standard error of the y-intercept. Choice 'D' is incorrect as\n7.89\nrepresents the standard deviation of the residuals. Choice 'E' is incorrect as\n23.231\nrepresents the value for the y-intercept.",
   "tags": [
     "3.D",
     "UNC-4.AF",

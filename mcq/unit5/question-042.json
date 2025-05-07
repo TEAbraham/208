@@ -7,7 +7,7 @@
   ],
   "title": "Pick a Hotel",
   "difficulty": "Medium",
-  "question_text": "Great Eastern Hotels reported an average stay of $4.8$ nights with a standard deviation of $2.8$ nights, while Motel Seven reported an average stay of $2.2$ nights with a standard deviation of $1.7$ nights. Random samples of $45$ hotels from each hotel chain were taken by a company that was hired to answer the question: \"What is the probability that the average stay at a Motel Seven is $3$ nights or less than an average stay at a Great Eastern Hotel?\"\nWhat is that answer? Round your answer to the nearest percent.",
+  "question_text": "Great Eastern Hotels reported an average stay of $4.8$ nights with a standard deviation of $2.8$ nights, while Motel Seven reported an average stay of $2.2$ nights with a standard deviation of $1.7$ nights. Random samples of $45$ hotels from each hotel chain were taken by a company that was hired to answer the question: \"What is the probability that the average stay at a Motel Seven is $3$ nights or less than an average stay at a Great Eastern Hotel?\"\nWhat is that answer? Round your answer to the nearest percent.<br>What is that answer? Round your answer to the nearest percent.",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -25,16 +25,15 @@
     },
     {
       "letter": "D",
-      "text": "89%"
+      "text": "$89\\%$"
     },
     {
       "letter": "E",
-      "text": "79%"
+      "text": "$79\\%$"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nIn order to find a probability for this difference of sample means for this sampling distribution, two parameters must be calculated. The sampling distribution of the difference of the sample means is simply equal to the subtraction of the two given sample means. The sampling distribution for the difference of the sample standard deviation is equal to this formula:\n\n√\nσ\n2\n1\nn1\n+\nσ\n2\n2\nn2\n\nThus, the mean of the differences is equal to 4.8−2.2=2.6 nights.\n\nAnd the standard deviation of the differences is equal to:\n\n√\n2.82\n45\n+\n1.72\n45\n≈0.488\n\n...nights.\n\nNow the z\n-score must be calculated using this formula: z=\nˉ\nx\n−μ\nσ\n, where\nˉ\nx\n=3\n, the number we are looking for in the problem.\n\nWe get z=\n3−2.6\n0.488\n≈0.82\n.\n\nLooking up 0.82\nin Table A\nwe see 0.7939\n, and since this problem calls for \"less than\" 3\nnights, we are done. The probability that the average stay at a Motel Seven is 3\nnights or less than an average stay at a Great Eastern Hotel is about 79%\n.\n\nSo, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the probability was subtracted from 1\n.\n\nChoice 'B' is incorrect because no square root was taken when calculating the standard deviation.\n\nChoice 'C' is incorrect because the numerator and denominator were flipped in the calculation of the\nz\n-score and the probability was subtracted from\n1\n.\n\nChoice 'D' is incorrect because the numerator and denominator were flipped in the calculation of the\nz\n-score.",
   "tags": [
     "4.B",
     "UNC-3",

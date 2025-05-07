@@ -8,7 +8,7 @@
   ],
   "title": "Finding LSRL: Dow Jones and Year",
   "difficulty": "Medium",
-  "question_text": "In February of 2009, the Dow Jones Industrial Average (DJI) reached its lowest point in 10 years. Since then, the Dow Jones has been steadily increasing. Analysts have been studying the relationship between the highs of the Dow Jones for each year since 2009. A computer regression analysis of the data is given below:<br>Dependent variable is: Dow Jones Industrial Average (DJI)<br>$R^2 = 93.33\\%$\n$s= 1116.14$ with $6-2= 4$ D.O.F.<br>What is the equation for the least squares regression line?",
+  "question_text": "In February of 2009, the Dow Jones Industrial Average (DJI) reached its lowest point in 10 years. Since then, the Dow Jones has been steadily increasing. Analysts have been studying the relationship between the highs of the Dow Jones for each year since 2009. A computer regression analysis of the data is given below:<br>Dependent variable is: Dow Jones Industrial Average (DJI)<br>$R^2 = 93.33\\%$\n$s= 1116.14$ with $6-2= 4$ D.O.F.<br>What is the equation for the least squares regression line?<br>What is the equation for the least squares regression line?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Variable:</th><th scope=\"col\">Coefficient</th><th scope=\"col\">s.e Coeff</th><th scope=\"col\">t-ratio</th><th scope=\"col\">prob</th></tr></thead><tbody><tr><td>Constant:</td><td>8224.89</td><td>735.23</td><td>16.06</td><td>0.00001</td></tr><tr><td>Year:</td><td>1993.35</td><td>123.34</td><td>7.47</td><td>0.0017</td></tr></tbody></table>"
@@ -16,7 +16,7 @@
   "choices": [
     {
       "letter": "A",
-      "text": "$\\widehat { year } =8224.89\\text{ DJI}+1993.35$"
+      "text": "^\nyear\n=8224.89 DJI+1993.35"
     },
     {
       "letter": "B",
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To find the least squares regression line, you must identify the dependent variable as the y\n-variable. The y\n-variable in this case is DJI, so we can eliminate Choices 'A' and 'B'.\n\nWhen looking at the output to find the regression equation, the only thing to pay attention to is the coefficient column. The coefficient is the number in front of the variable, so the constant coefficient (\n8224.89\n) represents the\ny\n-intercept and\n19933.35\nrepresents the number that goes in front of the year, meaning the slope.\n\nExplanation of Distractors\n\nChoices 'A' and 'B' were already discussed.\n\nChoice 'C' the values for the slope and y-intercept need to be interchanged.\n\nChoice 'E' the value of\n93.33\n% represents the variation and not the slope. The value of\n1116.14\nrepresents the standard error of residuals and not the y-intercept.",
   "tags": [
     "DAT-1.G.1",
     "DAT-1.G.2",

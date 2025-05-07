@@ -11,7 +11,7 @@
   ],
   "title": "Finding Margin of Error: Body Fat and Chocolate Consumed",
   "difficulty": "Hard",
-  "question_text": "Is there an association between someone eating large quantities of chocolate and being overweight? A random sample of $26\\text{ women}$ had their body fat percentage measured and were asked how much chocolate they eat a day. A computer regression analysis of the data is given below:<br>Dependent variable is: Body fat\n$R^2 = 20.26\\%$\n$s= 7.89 $<br>Assuming the conditions have been satisfied and using $95\\%$ confidence, which of the following represents the margin of error for the slope $t$-interval?",
+  "question_text": "Is there an association between someone eating large quantities of chocolate and being overweight? A random sample of $26\\text{ women}$ had their body fat percentage measured and were asked how much chocolate they eat a day. A computer regression analysis of the data is given below:<br>Dependent variable is: Body fat\n$R^2 = 20.26\\%$\n$s= 7.89 $<br>Assuming the conditions have been satisfied and using $95\\%$ confidence, which of the following represents the margin of error for the slope $t$-interval?<br>Assuming the conditions have been satisfied and using $95\\%$ confidence, which of the following represents the margin of error for the slope $t$-interval?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Variable</th><th scope=\"col\"></th><th scope=\"col\">Coefficient</th><th scope=\"col\"></th><th scope=\"col\">s.e Coeff</th><th scope=\"col\"></th><th scope=\"col\">t-ratio</th><th scope=\"col\"></th><th scope=\"col\">prob</th></tr></thead><tbody><tr><td>Constant</td><td></td><td>23.231</td><td></td><td>1.567</td><td></td><td>14.32</td><td></td><td>0.00001</td></tr><tr><td>Chocolate</td><td></td><td>0.0543</td><td></td><td>0.0217</td><td></td><td>2.21</td><td></td><td>0.037</td></tr></tbody></table>"
@@ -39,8 +39,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The formula for a slope regression $t$-interval is:\n\n$$b\\pm ({ t }_{ n-2 }^{*}\\cdot { S.E. }_{ b })$$\n\n...where the margin of error is the content after the $\\pm$. In this case, the margin of error is :\n\n$$({ t }_{ n-2 }^{ * }\\cdot { S.E. }_{ b })$$\n\nTo find the margin of error, first find the critical value. We have $95\\%$ confidence with $24$ ($26-2$) degrees of freedom. Looking at the $t$-distribution chart find where $95\\%$ confidence and $24$ D.O.F. intersect; they come together at $2.064$. Therefore, we can eliminate Choices 'A', 'C', and 'E'.\n\nThe standard error of the slope is given on the table. It is represented by the standard error coefficient of the $x$-variable, which in this case is the standard error of the chocolate. Looking at the table the value for this is $0.0217$.\n\nTherefore, the correct answer is Choice 'B'.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect and results from the pulling the $p$ value of the $t$-distribution at degrees of freedom of $26$ instead of $24$.\n\nChoices 'C', 'D', and 'E' are incorrect as they are divided by the square root of the sample size.",
   "tags": [
     "VAR-7.M",
     "VAR-7",

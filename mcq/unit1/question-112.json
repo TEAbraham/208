@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A boxplot is directly constructed from the five-number summary consisting of minimum, first quartile, median, third quartile, and maximum.\n\nTo find these values, arrange the data in ascending order (from least to greatest).\n\nThe minimum is the lowest value while the maximum is the highest value.\n\nThe median is the middle value when the values are arranged from least to greatest. If there are two middle values, the median is the average of these values.\n\nThe first quartile is the median of the lower half of the data; specifically, it's the middle number between the lowest observation and the median of the data set.\n\nThe third quartile is the median of the upper half of the data; specifically, it is the middle number between the median and the highest observation of the data set.\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "UNC-1.L.2",
     "2.B",

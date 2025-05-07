@@ -8,7 +8,7 @@
   ],
   "title": "Probability Distribution: Everybody Needs a Hero Part III",
   "difficulty": "Easy",
-  "question_text": "At Burger Bell when someone buys a Hero Meal they receive an action figure. The distribution of action figures is shown in the table below.<br>Burger Bell has just run out of Action Figure D.\nWhat is the probability someone now receives Action Figure A when they buy a Hero Meal?",
+  "question_text": "At Burger Bell when someone buys a Hero Meal they receive an action figure. The distribution of action figures is shown in the table below.<br>Burger Bell has just run out of Action Figure D.\nWhat is the probability someone now receives Action Figure A when they buy a Hero Meal?<br>What is the probability someone now receives Action Figure A when they buy a Hero Meal?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Action Figure</th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th></tr></thead><tbody><tr><td>P(x)</td><td>0.30</td><td>0.10</td><td>0.10</td><td>0.50</td></tr></tbody></table>"
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This question is dealing with conditional probability as the condition is Burger Bell has just run out of Action Figure D. This question is really asking what is the probability someone gets A given they have to get A or B or C?\n\n$$P(A/A\\quad or\\quad B\\quad or\\quad C)\\quad =\\frac { P(A) }{ P(A\\quad or\\quad B\\quad or\\quad C) } =\\frac { 0.3 }{ 0.3+0.1+0.1 } =0.6$$\n\nChoice 'D' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is the incorrect choice as this is the probability of someone receiving A given that D did not run out.\n\nChoice 'B' is incorrect as the probability of someone receiving A or B or C don't have equal probabilities when action figure D has ran out.\n\nChoice 'C' is incorrect is as this is the probability someone does not receive A given that D ran out.\n\nChoice 'E' is incorrect as this is the probability obtained by multiplying $0.30$ by $3$ (remaining categories).",
   "tags": [
     "3.A",
     "VAR-4.D.2",

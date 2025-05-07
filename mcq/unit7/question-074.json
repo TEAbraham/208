@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When our sample contains known outliers, we can only use the $t$-distribution for large sample sizes (generally more than $40$).\n\nExplanation of Distractors\n\nChoice 'A' describes an appropriate time to use a $t$-distribution. If we know the population distribution is approximately normal, the sampling distribution will be as well.\n\nChoice 'B' describes the fact that Talia will randomly select her sample from her population of interest. This is an important condition for conducting a $t$-test.\n\nChoice 'C' tells us that our results are not affected by response bias. This is a good thing! One form of response bias is when people who are surveyed knowingly provide inaccurate information.\n\nChoice 'D' describes the fact that we do not know the population standard deviation. That is ok. In fact, that is the reason that we would choose to conduct a $t$-test rather than a $z$-test.",
   "tags": [
     "DAT-3.F",
     "4.E",

@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "$n = 200$ and $p =0.70$"
+      "text": "n=200 and p=0.70"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The standard deviation for the sampling distribution of the sample proportion (σ\nˆ\np\n) is:\n\nσ\nˆ\np\n=\n√\n(p)(1−p)\nn\n.\n\nWe can substitute the values for each of the choices into the formula and see which one yields the correct solution.\n\nTo save time, by looking at the choices we know that when the sample size increases the variability (spread) decreases which means the standard deviation will decrease.\n\nWe can eliminate Choices 'A' and 'B' as they both share the same p\nvalues as Choices 'D' and 'E', but have smaller sample sizes.\n\nSubstituting the values from Choice 'C':\n\nσ\nˆ\np\n=\n√\n(0.1)(1−0.1)\n200\n=0.021\n\nSubstituting the values from Choice 'D':\n\nσ\nˆ\np\n=\n√\n(0.4)(1−0.4)\n200\n=0.035\n\nSubstituting the values from Choice 'E':\n\nσ\nˆ\np\n=\n√\n(\n0.7\n)\n(\n1\n−\n0.7\n)\n200\n=\n0.032\n\nChoice 'C' is our answer.",
   "tags": [
     "UNC-3.K.1",
     "UNC-3",

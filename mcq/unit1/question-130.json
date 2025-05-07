@@ -11,7 +11,7 @@
   ],
   "title": "Ranking Standard Deviations Based on Histograms",
   "difficulty": "Medium",
-  "question_text": "The three histograms below represent the distribution of three data sets, each containing the same number of points, ranging from one-ten inclusive.\nWhich of the of the choices ranks the histograms' standard deviations from smallest to largest?<br><br><br><br><br><br><br><br><br><br><br>",
+  "question_text": "The three histograms below represent the distribution of three data sets, each containing the same number of points, ranging from one-ten inclusive.\nWhich of the of the choices ranks the histograms' standard deviations from smallest to largest?<br>Which of the of the choices ranks the histograms' standard deviations from smallest to largest?<br>Created for Albert.io. Copyright 2017. All rights reserved.<br><br>Created for Albert.io. Copyright 2017. All rights reserved.<br><br>Created for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-130-img1.png",
     "images/question-130-img2.png",
@@ -41,8 +41,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Standard deviation represents how far the individual values vary from the mean, or the average distance a value is from the mean. In this case, the smallest standard deviation will be Graph 'B' because there are many more values closer to the mean than further away.\n\nIt might be tempting to say that Graph 'A' has the smallest standard deviation because you think that it is zero. However, in order for the standard deviation to be zero, all of the values have to be the same (meaning no spread), which would be represented by one bar.\n\nThe graph with the largest standard deviation is Graph 'C', as it has many more values further away from the mean than closer to it.\n\nTherefore, to place these in increasing order, it would be\nB\n,\nA\n,\nC\n, or Choice 'D'.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.1",

@@ -8,7 +8,7 @@
   ],
   "title": "Was the New Mattress Successful?",
   "difficulty": "Medium",
-  "question_text": "A company was offering a $30$-day trial on its new mattress product. The CEO of the company believed that the mattress would be successful as long as only $10\\%$ of its customers returned their mattresses. The owner of a large store was afraid that the percentage would be greater than this, so $80$ random customers were selected and it was found that $12$ of them returned their mattress.\nWas the product successful at a significance level of $0.05$?",
+  "question_text": "A company was offering a $30$-day trial on its new mattress product. The CEO of the company believed that the mattress would be successful as long as only $10\\%$ of its customers returned their mattresses. The owner of a large store was afraid that the percentage would be greater than this, so $80$ random customers were selected and it was found that $12$ of them returned their mattress.\nWas the product successful at a significance level of $0.05$?<br>Was the product successful at a significance level of $0.05$?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThis is a 1-Proportion Test of Significance where we would assume a null hypothesis of p=0.1 and an alternative hypothesis that p>0.1.\n\nWe would find our test statistic, z, by using this formula:\n\nz=\nˆ\np\n−po\n√\npo(1−po)\nn\n\n...where our po=0.1,\nˆ\np\n=\n12\n80\n=0.15, and n=80 to get:\n\n1.49=\n0.15−0.1\n√\n0.1(1−0.1)\n80\n\nUsing Table B and this value of z\n, we can see that the p\n-value is between 0.05\nand 0.10\n. Because our significance level is below this range, we cannot reject the null hypothesis, and therefore, yes, the mattress would be considered successful.\n\nSo, Choice 'B' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because this higher p\n-value was obtained by assuming a two-sided alternative hypothesis.\n\nChoice 'C' is incorrect because, though the p\n-value is correct, the conclusion is not; we cannot reject the null hypothesis when the p\n-value is higher than the significance level.\n\nChoice 'D' is incorrect both because this higher p\n-value was obtained by assuming a two-sided alternative hypothesis and we cannot reject the null hypothesis when the p\n-value is higher than the significance level.\n\nChoice 'E' is incorrect because a significance test cannot be concluded by only comparing the proportions.",
   "tags": [
     "4.E",
     "DAT-3",

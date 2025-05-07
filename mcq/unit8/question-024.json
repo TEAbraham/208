@@ -4,7 +4,7 @@
   "topics": [],
   "title": "Math Program: Test Statistic and $p$-value",
   "difficulty": "Medium",
-  "question_text": "Suppose a high school principal wishes to determine if students in her after-school math program perform better than those not in the program.<br>The principal randomly selected $115\\text{ students}$ for an after-school study session that runs $3\\text{ days per week}$ for $1\\text{ hour}$ each day, focusing solely on math.<br>The grade distribution of these students’ math grades is compared to the historical grade distribution of students’ math grades at this high school. The data is below:<br>When performing a chi-squared goodness of fit test, the appropriate chi-squared test statistic and $p$-value are approximately what?",
+  "question_text": "Suppose a high school principal wishes to determine if students in her after-school math program perform better than those not in the program.<br>The principal randomly selected $115\\text{ students}$ for an after-school study session that runs $3\\text{ days per week}$ for $1\\text{ hour}$ each day, focusing solely on math.<br>The grade distribution of these students’ math grades is compared to the historical grade distribution of students’ math grades at this high school. The data is below:<br>When performing a chi-squared goodness of fit test, the appropriate chi-squared test statistic and $p$-value are approximately what?<br>When performing a chi-squared goodness of fit test, the appropriate chi-squared test statistic and $p$-value are approximately what?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th><th scope=\"col\">F</th></tr></thead><tbody><tr><td>After-School Program (Counts)</td><td>28</td><td>38</td><td>36</td><td>9</td><td>4</td></tr><tr><td>Historical Grade Distribution (%)</td><td>18%</td><td>32%</td><td>25%</td><td>20%</td><td>5%</td></tr></tbody></table>"
@@ -32,8 +32,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The chi-squared test statistic is the summation of each difference of the observed minus expected counts squared, divided by the expected counts as given by the formula below:\n\n$$\\sum{\\dfrac{(O-E)^2 }{E}}$$\n\nSubstitute the values to get the test statistic as shown:\n\n$$=\\dfrac{(28-20.7)^2}{20.7}+\\dfrac{(38-36.8)^2}{36.8}+\\dfrac{(36-28.75)^2}{28.75}+\\dfrac{(9-23)^2}{23}+\\dfrac{(4-5.75)^2}{5.75} $$\n\n$$= 13.496$$\n\nUse the chi-squared distribution table to look up $13.51$ with $n-1 = 5-1 = 4$ to find the test statistic is between the critical values $13.28$ and $14.86$, and the upper tail probabilities are between $0.005$ and $0.01$.\n\nTo find a specific $p$-value, we can use our calculators. If you're using a TI-83 or TI-84, we can find the area under the Chi-square curve like this:\n\nWe find an exact $p$-value of around $0.009$.\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "VAR-8.F",
     "3.E",

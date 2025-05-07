@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The $t$-distribution is centered at zero for all degrees of freedom. At low degrees of freedom, the $t$-distribution has a lower peak and larger tails creating a larger spread. As the degrees of freedom increases, the $t$-distribution becomes more normal with smaller tails, creating a smaller spread.\n\nSo, as the degrees of freedom decrease, the center remains the same, the spread increases and the shape becomes less normal. Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoices 'A', 'B', and 'C' are incorrect because the center will not change.\n\nChoice 'D' is incorrect because as degrees of freedom decreases, the spread will increase and the shape will become less and less normal. Otherwise, we would seek to have less degrees of freedom rather than more in a study!",
   "tags": [
     "VAR-7",
     "VAR-7.A",

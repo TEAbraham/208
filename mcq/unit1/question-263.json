@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Based off of the mean and standard deviation, this year’s snowfall amounts put the town $7.19\\text{ standard deviations}$ above the mean.\n\n$$\\dfrac{(124.5-54)}{9.8} = 7.19$$\n\nOne should know that anything $4$ to $5\\text{ standard deviations}$ away from the mean is extremely unlikely. It is likely a mistake was made in recording the snowfall totals this year.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect; this is a huge abnormality, being $7.19\\text{ standard deviations}$ above the mean.\n\nChoice 'C' is incorrect; while both IQR and standard deviation are measures of spread, knowing the standard deviation is $9.8$ does not necessarily tell anything about the IQR.\n\nChoice 'D' is incorrect; while snowfall totals could be right skewed, from the information given (mean, standard deviation), one does not necessarily know that this distribution is right skewed.\n\nChoice 'E' is incorrect; while this statement could be true, one cannot determine where the median is relative to the mean when given only the mean and standard deviation.",
   "tags": [
     "VAR-2.C.1",
     "2.D",

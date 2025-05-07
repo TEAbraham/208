@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The $\\$10$ won and $\\$2$ lost have no use in calculating the answer, so we can disregard that information.\n\nTo find the probability, one could add up the probability of winning on the first day with the respective probabilities of winning on the each of the following days.\n\nA much quicker calculation, however, is to find the probability of winning by the seventh day as the complement of not winning at all:\n\n$$P(\\text{winning by seventh day}) = 1-P(\\text{not winning at all})$$\n\n$$1-\\left(\\dfrac{5}{6}\\right)^7= 1-0.279=0.721$$\n\nNote: the probability of winning is $\\frac{1}{6}$ as there are $6$ doubles out of $36$ outcomes when two die are rolled.\n\nTherefore, the probability of losing is $\\frac{5}{6}$.\n\nThus, the correct answer is Choice 'B'.\n\nChoice 'A' is incorrect. This represents the probability she wins on the 7th day, but not that her first win is on the 7th day.\n\nChoice 'C' is incorrect. This represents the probability her first win is on the 7th day, but not that her first win happens by the 7th day (as in on the 7th day or before).\n\nChoice 'D' is incorrect. This represents the expected value of winnings given the $10$ dollars for a win and $2$ dollars for a loss. However, the problem asks for the probability, not expected value.\n\nChoice 'E' is incorrect. This uses the correct formula, but incorrectly uses the probability of doubles as $0.5$",
   "tags": [
     "VAR-4.E.1",
     "VAR-4.E",

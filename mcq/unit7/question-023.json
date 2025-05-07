@@ -10,7 +10,7 @@
   ],
   "title": "Constructing Certain Types of Mean Intervals: Respect Your Boss",
   "difficulty": "Medium",
-  "question_text": "An insurance company is assessing two of its regional managers (Manager $A$ and Manager $B$) on how well-respected they are by their employees. The insurance company randomly selects $40$ employees from both regions.<br>They ask the employees to rate how much they respect their managers on a $1-10$ scale, with $1$ representing no respect and $10$ representing the utmost respect. Here are the summary results:<br>Which of the following represents a $99\\%$ confidence interval for the difference in the averages between how much company $A$'s employees respect their manager when compared with company $B$'s?",
+  "question_text": "An insurance company is assessing two of its regional managers (Manager $A$ and Manager $B$) on how well-respected they are by their employees. The insurance company randomly selects $40$ employees from both regions.<br>They ask the employees to rate how much they respect their managers on a $1-10$ scale, with $1$ representing no respect and $10$ representing the utmost respect. Here are the summary results:<br>Which of the following represents a $99\\%$ confidence interval for the difference in the averages between how much company $A$'s employees respect their manager when compared with company $B$'s?<br>Which of the following represents a $99\\%$ confidence interval for the difference in the averages between how much company $A$'s employees respect their manager when compared with company $B$'s?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\">Company</th><th scope=\"col\">N</th><th scope=\"col\">Average</th><th scope=\"col\">Standard Deviation</th></tr></thead><tbody><tr><td>A</td><td>40</td><td>8.1</td><td>1.4</td></tr><tr><td>B</td><td>40</td><td>6.2</td><td>1.1</td></tr></tbody></table>"
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This is a $2$-sample $t$-interval for means. It is $2$-sample instead of paired because the groups are independent, meaning the employees' decisions from company $A$ do not affect the employees' decisions from company $B$.\n\nThis is a $t$-interval, since we are using the sample standard deviation (standard error) and not the population standard deviation. As a reminder, Mr. T is mean, so use $t$-intervals for means.\n\nPut that data into your calculator and run the $t$-interval, or you could do the work out by hand\n\nIf you have TI-84 go to Stat, then Test, then 2 sample T-interval. Choose the Stats over the Data and enter your information. Hit enter to calculate.\n\nHere is the input screen for the calculator:\nCopyright for Albert.io.2017. All rights reserved\n\nCopyright for Albert.io.2017. All rights reserved\n\nHere is the output screen for the calculator:\nCopyright Albert.io.2017. All rights reserved\n\nCopyright Albert.io.2017. All rights reserved\n\nChoice 'B' is incorrect as this answer represents a $2$-sample z-interval for means. Choice 'C' is incorrect as this answer represents a paired t-interval for means. Choice 'D' is incorrect as this answer represents a paired z-interval for means. Choice 'E' is incorrect as the endpoint of that interval represents the two sample means.",
   "tags": [
     "3.D",
     "UNC-4",

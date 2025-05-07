@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This question shows a drawback of stem and leaf plots. If you only look at the shape and do not look closely, you will think that $21$ and $29$ are the same. They both go in the same row of the graph.\n\nHowever, $29$ is more similar to $31$ than to $21$ even though $29$ and $31$ are in different rows. Bart’s range is $59 - 21 = 38$, and Lisa’s range is $51 - 29 = 22$.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect because Bart’s scores are very bimodal, and Lisa’s scores are unimodal with a small spread. Most of Lisa’s scores are between $39$ and $41$, while Bart has a cluster at $31$ and another cluster at $49$. It is not enough to just look at the shape of the stem and leaf plot. You must also read the actual numbers. If this information had been presented as a dot plot, then the shape difference would be quite obvious.\n\nChoice ‘B’ is incorrect because Bart’s scores range from $59 -21 = 38$, and Lisa’s scores range from $51 - 29 = 22$.\n\nChoice ‘C’ is incorrect because Bart’s scores are much more spread out and have a much higher standard deviation.\n\nChoice ‘D’ is incorrect because both Bart and Lisa have a mean of exactly $40$.",
   "tags": [
     "UNC-1.N.1",
     "2.D",

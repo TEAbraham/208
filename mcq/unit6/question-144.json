@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nUsing the formula for the value of the test statistic, z:\n\nz=\nˆ\np\n−p0\n√\np0(1−p0)\nn\n\n...where\nˆ\np\n= sample proportion =\n140\n200\n≈0.7,\n\np0=\nnull value of the parameter =0.634\n, and n=\nsample size =200\n.\n\nPlugging in these values gives you Choice 'D'.\n\nCalculating the value of the test statistic, you should get z≈1.94\n.\n\nUsing Table B from the formula packet, look on the bottom line labeled z∗\nto find the value of 1.94\nsitting between 1.645 and 1.96. Then, looking at the top of the table where it says \"Upper tail probability p,\" you can see that the p\n-value lies between 0.025\nand 0.05\n.\n\nAlso, note that because the question asks for \"higher than\" the national average, the p\n-value should be read directly from the table.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the numerator values of the test statistic are reversed. In addition, the p\n-value has been doubled as if it were a 2\n-tailed test.\n\nChoice 'B' is incorrect because the denominator uses the\n^\np\nvalue instead of the\np\n0\nvalue. The\np\n-value has been doubled here as well.\n\nChoice 'C' is incorrect because it uses an incorrect formula that looks like a\nz\n-score.\n\nChoice 'E' is incorrect because all of the\n^\np\nvalues and\np\n0\nvalues have been reversed.",
   "tags": [
     "3.E",
     "VAR-6.G",

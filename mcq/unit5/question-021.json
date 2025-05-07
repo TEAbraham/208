@@ -9,7 +9,7 @@
   ],
   "title": "Biased Estimator From a Graph",
   "difficulty": "Easy",
-  "question_text": "The figure below shows histograms of four different sampling distributions intended to estimate the same parameter. The value of the parameter is $150$.<br><br>Which statistic(s) are biased estimators?",
+  "question_text": "The figure below shows histograms of four different sampling distributions intended to estimate the same parameter. The value of the parameter is $150$.<br>Loading question supplement...<br>Which statistic(s) are biased estimators?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -23,20 +23,19 @@
     },
     {
       "letter": "C",
-      "text": "Statistics A and C"
+      "text": "Statistics $A$ and $C$"
     },
     {
       "letter": "D",
-      "text": "Statistics B and D"
+      "text": "Statistics $B$ and $D$"
     },
     {
       "letter": "E",
-      "text": "Statistics C\nand D"
+      "text": "Statistics $C$ and $D$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The definition of a biased estimator is one in which the center of the sampling distribution does not equal the true value of the parameter.\n\nThis means that when we look one at one the histograms, the center of the that histogram does not equal $150$ (parameter value).\n\nBy looking at the center of the histograms, we can see Statistic $D$ and Statistic $B$ are not equal to the population parameter of $150$. Therefore, our answer is Choice 'D'.\n\nThe histograms of Statistics $A$ and $C$ show centers of $150$, which equals the parameter value, indicating that they are unbiased estimators.",
   "tags": [
     "UNC-3.J",
     "UNC-3.J.1",

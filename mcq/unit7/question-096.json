@@ -7,7 +7,7 @@
   ],
   "title": "Tennis Anyone?",
   "difficulty": "Easy",
-  "question_text": "A company was hired to compare the bounce height of two brands of tennis balls using a $90\\%$ confidence interval. A bounce method was established and $15$ balls were randomly selected and tested from each brand. Brand $1$ had a mean bounce height of $5.8$ feet and a standard deviation of $1.1$ feet. Brand $2$ had a bounce height of $5.3$ feet and a standard deviation of $0.9$ feet.\nAssuming that all conditions were met and that a $d.f. = 14$ would be used, find the margin of error of this confidence interval.",
+  "question_text": "A company was hired to compare the bounce height of two brands of tennis balls using a $90\\%$ confidence interval. A bounce method was established and $15$ balls were randomly selected and tested from each brand. Brand $1$ had a mean bounce height of $5.8$ feet and a standard deviation of $1.1$ feet. Brand $2$ had a bounce height of $5.3$ feet and a standard deviation of $0.9$ feet.\nAssuming that all conditions were met and that a $d.f. = 14$ would be used, find the margin of error of this confidence interval.<br>Assuming that all conditions were met and that a $d.f. = 14$ would be used, find the margin of error of this confidence interval.",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe margin of error used in computing a confidence interval for the difference of two means uses this formula:\n\n$$t^{*}\\sqrt{\\dfrac{s_1^2}{n_{1}}+\\dfrac{s_2^2}{n_{2}}}$$\n\n...where $t^{*}$ is the critical value, the $s's$ are the two sample standard deviations, and the $n's$ are the two sample sizes.\n\nWhile the values for $s$ and $n$ are taken from the problem, $t^{*}$ must be derived from Table $B$. The problem states to use $14$ degrees of freedom. So using the table and the $14$ line, look up the $t^{*}$ value on the $90\\%$ confidence level column to find the value $1.761$ taken from the $t$-distribution.\n\nNow, plugging in our values we get:\n\n$$1.761\\sqrt{\\dfrac{1.1^2}{15}+\\dfrac{0.9^2}{15}}\\approx0.646$$\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because this answer was calculated by using the $d.f.$ value of $14$ rather than the critical value.\n\nChoice 'B' is incorrect because this answer was calculated by forgetting to take the square root in the standard error.\n\nChoice 'D' is incorrect because this answer was calculated by mistakenly computing a $95\\%$ value for the confidence level.\n\nChoice 'E' is incorrect because the critical value was omitted and this value is the standard error.",
   "tags": [
     "UNC-4.X",
     "3.D",

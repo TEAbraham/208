@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The objective of this question is to be able to identify the correct mechanical work for a one proportion z-interval. The formula for a one-proportion z-interval is:\n\n$$\\widehat { p } \\pm z^*\\sqrt { \\dfrac { \\widehat { p } (1-\\widehat { p } ) }{ n } }$$\n\n...where $\\widehat { p } $ represents the sample proportion, $n$ represents the sample size, and $z^*$ represents the critical value.\n\nChoice 'A' is correct, as $\\widehat { p } $ is the proportion of left-handed students in our samples, which is $\\dfrac { 7 }{ 150 } =0.14$, $n$ is $150$, and when we look up $95\\%$ confidence, our $z^*$ (critical value) is $1.96$.\n\nSubstituting these values into the formula for one proportion $z$-interval, our answer is Choice 'A'.\n\nExplanation of Distractors\n\nChoices 'B' and 'D' are incorrect. If you forget the formula, you can use the process of elimination to eliminate some answers. Refer to the formula sheet you receive as part of the AP exam and look up the formula for the standard deviation of proportions, and you will see that there is division inside the square root. This will eliminate Choices 'B' and 'D'.\n\nChoice 'C' is incorrect, as $0.86$ is used as the point estimate instead of $0.14$. Choice 'E' is incorrect as the critical value of $2.576$ is used for a $99$% confidence interval and not a $95$% confidence interval. Also the standard error is incorrect.\n\nYou could also run the one proportion $z$-interval on your calculator and get the interval. Then do the arithmetic out for all the choices and see which one matches. This may take a little longer, but it will help you arrive at the correct answer.",
   "tags": [
     "4.E",
     "DAT-3",

@@ -8,7 +8,7 @@
   ],
   "title": "Describing an Association: Linear vs. Non-Linear",
   "difficulty": "Easy",
-  "question_text": "Looking at the scatterplot, which of the following describes the nature of the association?<br><br><br><br>",
+  "question_text": "Looking at the scatterplot, which of the following describes the nature of the association?<br><br>Created for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-076-img1.png"
   ],
@@ -28,16 +28,15 @@
     },
     {
       "letter": "D",
-      "text": "There is a strong positive non-linear association between\nx\nand\ny\n."
+      "text": "There is a strong positive non-linear association between x\nand y\n."
     },
     {
       "letter": "E",
-      "text": "There is a weak positive non-linear association between\nx\nand\ny\n."
+      "text": "There is a weak positive non-linear association between x\nand y\n."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The association is positive. Therefore, we can eliminate Choices 'B' and 'C'.\n\nThe association appears to be curved. Therefore, we can eliminate Choice 'A'.\n\nThe association appears to be strong, as there is little scatter and it follows a general pattern (it appears to be cubed). Therefore, we can eliminate Choice 'E'.",
   "tags": [
     "DAT-1.D.3",
     "2.C",

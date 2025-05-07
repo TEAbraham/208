@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The mean is easy to find, so let us find this first. If the vendor sells $6\\text{ hot dogs per inning}$ then over four innings he/she will sell:\n\n$$\\mu = 6 + 6+6+6$$\n\n$$=(6)(4)$$\n\n$$=24$$\n\nThus, we can eliminate Choices 'D' and 'E' since they do not reflect a mean of $24$.\n\nTo find the standard deviation, first, we must find the variance (standard deviation squared) of the total number of hot dogs sold over four innings. To find the variance we will find it much like we did for the mean by adding up the variances of each inning:\n\n$${ \\sigma }^{ 2 }={ (1.6) }^{ 2 }+{ (1.6) }^{ 2 }+{ (1.6) }^{ 2 }+{ (1.6) }^{ 2 }$$\n\n$$=4\\bullet { (1.6) }^{ 2 }$$\n\n$$=10.24$$\n\nNext, we have have to take the square root of the variance to get the standard deviation:\n\n$$\\sqrt { { \\sigma }^{ 2 } } =3.2$$\n\nChoice 'A' is our answer.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect as the standard deviation of $1.6$ was added four times. The variance was never found. Choice 'C' is incorrect as this is the variance of the total number of hot dogs sold in four innings. Choice 'D' is incorrect as this is not the total average of the number of hot dogs sold in four innings, but $1.5$ represents the average number of hot dogs sold per one-fourth of an inning. Choice 'E' is incorrect based on the average explanation in choice 'D' and the standard deviation in choice 'B'.",
   "tags": [
     "VAR-5.E",
     "VAR-5.E.3",

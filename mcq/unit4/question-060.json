@@ -24,20 +24,19 @@
     },
     {
       "letter": "C",
-      "text": "Events $A$ and $B$ are not disjoint (mutually exclusive), but they are independent."
+      "text": "Events A and B are not disjoint (mutually exclusive), but they are independent."
     },
     {
       "letter": "D",
-      "text": "Events $A$ and $B$ are neither disjoint (mutually exclusive) nor independent."
+      "text": "Events A\nand B\nare neither disjoint (mutually exclusive) nor independent."
     },
     {
       "letter": "E",
-      "text": "Events $A$ and $B$ are complementary."
+      "text": "Events A\nand B\nare complementary."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The two events are mutually exclusive or disjoint because they cannot both happen at the same time; Corinne cannot have both an A and a B in statistics at the same time.\n\nThe two events are not independent. The definition of independence tells us that if one event occurs, the probability of the other event occurring is unaffected.\n\nIn this case, if it is known that Corinne has an A, then the probability that she has a B is equal to 0\n, and vice versa.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "VAR-4.E",
     "3.A",

@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Statement I is incorrect; if the original model is the best model available, the residual plot should show no pattern.\n\nStatement II is correct; if the original plot shows a curved pattern, it is likely the form is exponential.\n\nStatement III is incorrect; some models will simply have a weak correlation, regardless of any transformations. This could indicate either a weak correlation or that a transformation is needed. A plot of the residuals will give a better indication of whether or not a transformation is needed.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "2.C",
     "DAT-1",

@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A point estimator is a statistic that provides an estimate of the population parameter. In confidence intervals, point estimators represent the center of the confidence interval.\n\nTo find the point estimator, find the center (midpoint) of the confidence interval:\n\n$$\\text{Point Estimate} = \\dfrac{ \\text{Maximum Value + Minimum Value }}{ 2 } $$\n\n$$=\\dfrac { 101+96 }{ 2 } $$\n\n$$= 98.5 \\text{ mph}$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as $2.5$ represents the margin of error.\n\nChoice 'B' is incorrect as $5$ represents the range.\n\nChoice 'C' is incorrect as $96$ represents the minimum value.\n\nChoice 'E' is incorrect as $101$ represents the maximum value.",
   "tags": [
     "3.D",
     "UNC-4",

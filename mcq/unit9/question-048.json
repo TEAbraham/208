@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This problem tests the ability to interpret results from linear regression.\n\nA linear regression $T$-test will give evidence of a linear relationship (positive or negative) if the $p$-value is close to $0$.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; this is a positive relationship, so the correlation coefficient, $r$, will be close to $1$, not $-1$.\n\nChoice 'C' is incorrect; a residual plot with the points haphazardly scattered shows that a linear model is the best fit, but it does not prove that the linear model has a strong positive relationship.\n\nChoice 'D' is incorrect; just because our sample data has a slope of $1$ does not necessarily mean a strong correlation exists.\n\nChoice 'E' is incorrect; while influential points and outliers can weaken a linear model, their lack of presence does not automatically make the model good.",
   "tags": [
     "4.E",
     "DAT-3.N.2",

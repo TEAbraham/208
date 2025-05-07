@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe $t$ distribution is used to approximate the standard Normal distribution when the standard deviation of the distribution is not known. It uses an $s$ instead of a $\\sigma$ to represent the standard deviation.\n\nIt has the same approximate shape as the standard Normal distribution but is more spread out at the tails. This spread, or area, increases as the degrees of freedom increase. These degrees of freedom are denoted by $df=n-1$. The larger tails mean that values farther from the mean are more likely in the t distribution. The t distribution is used more often when the sample size is smaller.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the spread of the $t$ distribution is greater than that of the standard Normal distribution.\n\nChoice 'C' is incorrect because the $t$ distribution uses degrees of freedom and as they increase they approximate the standard Normal curve more closely.\n\nChoice 'D' is incorrect because the $t$ distribution uses $s$ instead of $\\sigma$ to calculate a test statistic.\n\nChoice 'E' is incorrect because the $t$ distribution is symmetric about 0, single-peaked, and bell-shaped.",
   "tags": [
     "VAR-7.A.1",
     "VAR-7",

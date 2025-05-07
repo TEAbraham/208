@@ -39,8 +39,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Before machine E was added, the observed counts for defective parts was $57$ for each machine, and the observed counts for not defective was $43$ for each machine. One can find expected counts via computer software, calculator, or by hand.\n\n$$\\text{Expected count}= \\dfrac{\\text{(row total)} \\cdot \\text{(column total)}}{\\text{(table total)}}$$\n\nSince the added machine was exactly as expected ($57$ and $43$), this additional point will not add to the test statistic. Furthermore, adding this machine will increase degrees of freedom from $3$ to $4$. With higher degrees of freedom and not a great increase in the test statistic, the $p$-value will increase.\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "4.B",
     "DAT-3",

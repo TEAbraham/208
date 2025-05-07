@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTo determine probabilities for the sampling distribution for the difference of two means, we must show that the sampling distribution can be modelled by a normal distribution. Two conditions for this are: to either have the knowledge that the two distributions are normally distributed or to know that both sample sizes are of size 30 or larger.\n\nWhile it is standard to take samples that are smaller than 10% of the population, that is not always essential, though it may lower the value of the standard deviation.\n\nThis last piece of information is irrelevant here, for this problem contains a sample size of 24, clearly less than 30, so that is enough information to tell us, no, we cannot show normality and calculate probabilities.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because both samples must be of size 30\nor larger.\n\nChoice 'B' is incorrect because this is not enough information to make this decision.\n\nChoice 'C' is incorrect because this information is irrelevant as one sample size is not large enough.\n\nChoice 'E' is incorrect because , while it correctly answers 'no,' we do have enough information to calculate our parameters.",
   "tags": [
     "4.B",
     "UNC-3",

@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In general, a high $p$-value exists in a linear regression T-test, therefore giving evidence for ${H}_{0}$.\n\nHowever, in this situation, ${H}_{0}$ says the slope = $1$, indicating a direct linear relationship.\n\nTherefore, there is insufficient evidence of a direct linear relationship, but it is certainly possible some linear relationship exists.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "4.E",
     "DAT-3.N.2",

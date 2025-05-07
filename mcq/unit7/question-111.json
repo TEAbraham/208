@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The interval contains zero, which means a failure to find evidence of any real difference.\n\nExplanation of Distractors\n\nChoices 'A' and 'B' are incorrect; the value $2.68$ is only the SAMPLE mean difference. Based on the $p$-value and interval, there is not enough evidence of a population mean difference, and answers (A) and (B) imply population means.\n\nChoices 'D' and 'E' are incorrect; confidence intervals for two-sample $T$ procedures will always be centered on the sample mean difference. Therefore, the intervals will always contain the sample mean difference.",
   "tags": [
     "UNC-4.A.1",
     "UNC-4.AA",

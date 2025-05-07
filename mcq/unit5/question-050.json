@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Sampling distribution refers to the distribution of values taken by a statistic in all possible samples of the same size from the same population.\n\nFirst, let us find the mean of the sampling distribution of the sample means(${ \\mu }_{ \\overline { x } }$).\n\nThe formula which is given on the AP Exam is:\n\n$${ \\mu }_{ \\overline { x } }=\\mu $$\n\n...where $\\mu $ represents the population average.\n\nSo in this case,\n\n$${ \\mu }_{ \\overline { x } }=\\mu= 4.1$$\n\nChoices 'D' and 'E' can be eliminated.\n\nThe formula(also given on AP Exam) for the standard deviation for the sampling distribution of sample means is given by:\n\n$$\\sigma _{ \\overline { x } }=\\dfrac { \\sigma }{ \\sqrt { n } } $$\n\n...where $\\sigma $ represents the population standard deviation\n\nIn our case,\n\n$$\\sigma _{ \\overline { x } }=\\dfrac { 0.98 }{ \\sqrt { 50 } }$$\n\nChoice 'A' is our answer.",
   "tags": [
     "UNC-3.S.1",
     "UNC-3",

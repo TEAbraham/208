@@ -8,7 +8,7 @@
   ],
   "title": "Preferences: Family Game Night",
   "difficulty": "Easy",
-  "question_text": "It’s family game night in Cocoa Beach. Residents settle in to play their favorite game and eat their favorite snack.<br>A random sample of $115\\text{ families}$ were asked their preferred game and snack, and the results are presented in the two-way table below.<br>What are the game preferences in order, from most popular to least popular?",
+  "question_text": "It’s family game night in Cocoa Beach. Residents settle in to play their favorite game and eat their favorite snack.<br>A random sample of $115\\text{ families}$ were asked their preferred game and snack, and the results are presented in the two-way table below.<br>What are the game preferences in order, from most popular to least popular?<br>What are the game preferences in order, from most popular to least popular?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Pizza Rolls</th><th scope=\"col\">Chips and Dip</th><th scope=\"col\">Cookies</th></tr></thead><tbody><tr><td>Yahtzee</td><td>10</td><td>3</td><td>12</td></tr><tr><td>Trivial Pursuit</td><td>8</td><td>14</td><td>7</td></tr><tr><td>Monopoly</td><td>14</td><td>17</td><td>7</td></tr><tr><td>Wii Bowling</td><td>12</td><td>7</td><td>4</td></tr></tbody></table>"
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Calculating the marginal (row) totals yields the following, in order from most popular to least popular with these $115\\text{ families}$:\n\nMonopoly (38), Trivial Pursuit (29), Yahtzee (25), and Wii Bowling (23).\n\nAs an example, Monopoly totals are found by adding the following terms:\n\n14+17+7=38\n\nThus, the correct answer is Choice 'C'.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Monopoly has the highest number of people who enjoy playing it, (38), not Yahtzee (25).\n\nChoice 'B' is incorrect. Monopoly has the highest number of people who enjoy playing it (38\n), not Wii Bowling (23\n).\n\nChoice 'D' is incorrect. Monopoly has the highest number of people who enjoy playing it (38\n), once again making this selection incorrect.\n\nChoice 'E' is incorrect. Monopoly has the highest number of people who enjoy playing it (38\n), not Trivial Pursuit (29\n).",
   "tags": [
     "UNC-1.B.2",
     "2.A",

@@ -8,7 +8,7 @@
   ],
   "title": "Is the Test Valid?",
   "difficulty": "Hard",
-  "question_text": "For a senior project, a student wishes to compare the proportions of girls and boys taking AP exams in Calculus. In her school, there are more than $1{,}000$ boys and $1{,}000$ girls. She randomly samples $30$ girls and $20$ boys and asks if they are taking a Calculus AP exam. $16$ boys responded yes and $24$ girls responded yes. While she performs the test and is pleased with her work, she realizes she forgot to check the conditions.\nDo these results verify the conditions of her making any statistical inference while comparing these two proportions?",
+  "question_text": "For a senior project, a student wishes to compare the proportions of girls and boys taking AP exams in Calculus. In her school, there are more than $1{,}000$ boys and $1{,}000$ girls. She randomly samples $30$ girls and $20$ boys and asks if they are taking a Calculus AP exam. $16$ boys responded yes and $24$ girls responded yes. While she performs the test and is pleased with her work, she realizes she forgot to check the conditions.\nDo these results verify the conditions of her making any statistical inference while comparing these two proportions?<br>Do these results verify the conditions of her making any statistical inference while comparing these two proportions?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThere are three conditions that need to be verified when using inference to test for a difference in two population proportions:\n\n1) Samples from both populations must be done randomly and the populations must be independent.\n\n2) Sample sizes from both populations must be smaller than $10\\%$ of the population sizes.\n\n3) The difference of the population proportions must be approximately normal. To do this, first a combined proportion must be calculated as follows:\n\nˆ\np\nc=\nn1\nˆ\np\n1+n2\nˆ\np\n2\nn1+n2\nwhere the\nˆ\np\nvalues are the two sample proportions,\nˆ\np\n1=\n16\n20\n=0.8 and\nˆ\np\n2=\n24\n30\n=0.8, and the n values are the sample sizes to get:\n\nˆ\np\nc=\n(20)(0.8)+(30)(0.8)\n20+30\n=0.8\n\nThen, we check that all four of the following values are greater than or equal to a value, usually 10\n. These would be:\n\nn1\nˆ\np\n1\n\nn1(1−\nˆ\np\n1)\n\nn2\nˆ\np\n2\n\nn\n2\n(\n1\n−\n^\np\n2\n)\n\nPlugging in our values we would get:\n(\n20\n)\n(\n0.8\n)\n=\n16\n,\n(\n20\n)\n(\n1\n−\n0.8\n)\n=\n4\n,\n(\n30\n)\n(\n0.8\n)\n=\n24\nand\n(\n30\n)\n(\n1\n−\n0.8\n)\n=\n6\n.\n\nWhile some problems will accept\n5\nas the lowest acceptable number, most use\n10\n, and in this case, we obtain a\n4\nwhich is simply too low, so our conditions cannot be verified.\n\nThus, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because while the first two of the above conditions are met, the third one is not addressed so that the conditions cannot be fully verified.\n\nChoice 'B' is incorrect because, though the second condition is met, the next comment does not satisfy any condition (it is simply true).\n\nChoice 'C' is incorrect because the second comment that all values are greater than 10 is simply not true according to our solution, therefore, the conditions are not met.\n\nChoice 'D' is incorrect because, though partly true, it does not explain why the conditions cannot be verified as explained above in the solution.",
   "tags": [
     "4.C",
     "VAR-6.J",

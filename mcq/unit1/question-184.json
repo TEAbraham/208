@@ -10,7 +10,7 @@
   ],
   "title": "Histograms and Boxplots: Donut Sales",
   "difficulty": "Medium",
-  "question_text": "<br><br><br><br>The two boxplots above represent the number of dozens of donuts sold per day for the same $120$ day period in both $2010$ and in $2011$ for a donut shop in Milwaukee.<br>If two histograms were created from these two box plots, which of the following statements would be true?",
+  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved.<br><br>The two boxplots above represent the number of dozens of donuts sold per day for the same $120$ day period in both $2010$ and in $2011$ for a donut shop in Milwaukee.<br>If two histograms were created from these two box plots, which of the following statements would be true?",
   "image_files": [
     "images/question-184-img1.png"
   ],
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We are presented with two boxplots demonstrating the 5-number summaries for the years $2011$ and $2010$.\n\nSince the $2011$ median is greater than the $2010$ $ Q1$, the $2011$ histogram center would be to the right of $2010$’s.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; the left whisker for the $2011$ box plot is very short, so the left side of the resulting histogram would not be left skewed.\n\nChoice 'B' is incorrect; the range between the $2010$ median and $Q3$ is very small, and the range between $Q3$ and the maximum is large; the data is skewed right.\n\nChoice 'D' is incorrect; the range between the $2010$ median and $Q3$ is significantly smaller than the same range for $2011$. This difference would give the respective histograms a different shape.\n\nChoice 'E' is incorrect; the two distributions have nearly identical values for their respective ranges: about $55$ for $2010$ and about $50$ for $2011$.",
   "tags": [
     "UNC-1.N.1",
     "2.D",

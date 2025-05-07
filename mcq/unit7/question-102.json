@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'A' is incorrect. First, the data is not paired in any way. We expect the boys' group to be independent of the girls' group, making this a two sample. Also, since we don't know the standard deviation of the population (we are sampling $100\\text{ students}$), it cannot be a $z$-interval.\n\nChoice 'B' is incorrect. The data is not paired. We expect the boys' group to be independent of the girls' group, making this two-sample data.\n\nChoice 'C' is incorrect. We do not know the standard deviation of the two different populations (we are sampling $50\\text{ boys}$ and $50\\text{ girls}$), so it cannot be a $z$-interval.\n\nChoice 'D' is correct. For an interval to be a two sample, the groups must independent of each other, meaning they do not affect each other. In this case, we do not expect the boys' distance to college to effect the girl's distance. It is also a $t$-interval, because we are using the sample standard deviations (standard errors). If you have a hard time remembering whether to use a $z$- or $t$-interval, remember the phrase, \"Mr. T is mean\". This reminds you to use $t$-intervals for means.\n\nChoice 'E' is incorrect. We are looking for the average difference which indicates we are dealing with means.",
   "tags": [
     "UNC-4.V.1",
     "UNC-4.V.2",

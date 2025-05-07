@@ -27,16 +27,15 @@
     },
     {
       "letter": "D",
-      "text": "On a TI-83 or -84 calculator, type in RandInt (1,12), where 1−11 represent not a bankruptcy and 12 represents a bankruptcy. Repeat this process and calculate the number of trials it takes until a bankruptcy occurs. Repeat this process 1,000 times. Find the average number of trials until a bankruptcy and compare this to the theoretical mean of 6.4 trials until the first bankruptcy."
+      "text": "On a TI-83 or -84 calculator, type in RandInt ($1,12$), where $1-11$ represent not a bankruptcy and $12$ represents a bankruptcy. Repeat this process and calculate the number of trials it takes until a bankruptcy occurs. Repeat this process $1{,}000\\text{ times}$. Find the average number of trials until a bankruptcy and compare this to the theoretical mean of $6.4\\text{ trials}$ until the first bankruptcy."
     },
     {
       "letter": "E",
-      "text": "Put 12 tags\nnumbered 1−12\nin a hat. Label tags 1−11\nnot a bankruptcy and tag number 12\na bankruptcy. Draw tags out of the hat, with replacement, recording the number of bankruptcies found. Perform at least 1,000 trials\nand find the proportion of bankruptcies compared to the theoretical proportion of\n1\n12\n."
+      "text": "Put $12\\text{ tags}$ numbered $1-12$ in a hat. Label tags $1-11$ not a bankruptcy and tag number $12$ a bankruptcy. Draw tags out of the hat, with replacement, recording the number of bankruptcies found. Perform at least $1{,}000\\text{ trials}$ and find the proportion of bankruptcies compared to the theoretical proportion of $\\frac{1}{12}$."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'C' is correct; this accurately meets the conditions of geometric simulation.\n\nNote that the cash values mentioned in the problem do not figure into choosing the appropriate simulation methods.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; the simulation method is correct but should be more than 10 trials.\n\nChoice 'B' is incorrect; the numbers must be replaced to simulate independent events, such as spinning the wheel.\n\nChoice 'D' is incorrect; the theoretical mean is:\n\n1\nP\n=\n1\n(\n1\n12\n)\n=12\n\n...not 6.4\n.\n\nChoice 'E' is incorrect; this simulation could be used to determine if the wheel is unfair, but it is not a geometric simulation, as the problem asks for.",
   "tags": [
     "UNC-2.A.2",
     "UNC-2.A.4",

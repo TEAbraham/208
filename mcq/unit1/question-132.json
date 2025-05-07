@@ -10,7 +10,7 @@
   ],
   "title": "Five Number Summary: Keeping Up with the Statistics",
   "difficulty": "Medium",
-  "question_text": "The publicity agency for a famous family tracks how many retweets each tweet receives. All tweets from May 4th to October 3rd were analyzed. The amount of retweets (in thousands) is summarized below.<br>Which statement is true?",
+  "question_text": "The publicity agency for a famous family tracks how many retweets each tweet receives. All tweets from May 4th to October 3rd were analyzed. The amount of retweets (in thousands) is summarized below.<br>Which statement is true?<br>Which statement is true?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">Minimum</th><th scope=\"col\">Q<span class=\"tex2jax_process\">$_1$</span></th><th scope=\"col\">Median</th><th scope=\"col\">Q<span class=\"tex2jax_process\">$_3$</span></th><th scope=\"col\">Maximum</th></tr></thead><tbody><tr><td>@Chloe</td><td>47</td><td>54</td><td>72</td><td>82</td><td>103</td></tr><tr><td>@Cylie</td><td>45</td><td>77</td><td>83</td><td>91</td><td>105</td></tr><tr><td>@Cendall</td><td>32</td><td>37</td><td>66</td><td>95</td><td>256</td></tr></tbody></table>"
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice ‘D’ is correct.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The 1.5 IQR rule says that a potential outlier would be at least 1.5 IQRs below the first quartile or at least 1.5 IQRs above the third quartile. Calculate the IQR by doing Q3 - Q1.\n\nThe IQR is $28$ for @Chloe, $14$ for @Cylie, and $58$ for @Cendall.\n\nSo 1.5 IQR is $42$ for @Chloe, $21$ for @Cylie, and $87$ for @Cendall.\n\nFor @Chloe an outlier would be below $12 (54 - 42)$ or above $124 (82 + 42)$. For @Cylie an outlier would be below $56$ or above $112$. For @Cendall an outlier would be below $50$ or above $182$.\n\nTherefore, @Cylie has a minimum of $45$ which is a potential outlier and @Cendall has a maximum of $256$, which is also a potential outlier.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect because both the minimum and maximum for @Chloe are within 1.5 IQRs of Q1 and Q3, respectively, so there are no outliers.\n\nChoice ‘B’ is incorrect because @Cendall also has a potential outlier.\n\nChoice ‘C’ is incorrect because @Cylie also has a potential outlier.\n\nChoice ‘E’ because both @Cylie and @Cendall have potential outliers.",
   "tags": [
     "UNC-1.L.1",
     "2.B",

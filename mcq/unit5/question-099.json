@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The sample proportion is\n204\n980\n=0.20816. The standard deviation, using the formula below, with n=980 and p=0.25, is σ=0.01383.\n\nσ=\n√\np(1−p)\nn\n\nσ=\n√\n0.25(1−0.25)\n980\n\nσ=0.01383\n\nFind the z-score by determining\n(0.20816−0.25)\n0.01383\n=−3.02.\n\nAs this result is more than three standard deviations away from the mean, it can be considered strong evidence that the network is covering fewer national news stories than it should. One could continue by using the normal table to look up a probability, but it is not necessary for this problem.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; n⋅p\nmust be greater than 10\n, which is true in this case.\n\nChoice 'B' is incorrect; by sampling variability, the sample could easily be less (or greater) than the mean. This analysis is not in depth enough to determine if the network is covering less national news than it should.\n\nChoice 'D' is incorrect; it is not proper statistics to simply compare percentages without factoring variability.\n\nChoice 'E' is incorrect; all conditions for sample proportions are met in this problem.",
   "tags": [
     "UNC-3.L",
     "3.C",

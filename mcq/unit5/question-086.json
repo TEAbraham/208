@@ -32,12 +32,11 @@
     },
     {
       "letter": "E",
-      "text": "$3,804.00"
+      "text": "$\\$3{,}804.00$"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "First, find how many standard deviations above the mean the males are.\n\nThe $z$-score for males is:\n\n$$\\dfrac{(3804-3201)}{\\left(\\dfrac{1240}{\\sqrt{30}}\\right)} = 2.66$$\n\nNext, set up the following equation for females:\n\n$$2.66 =\\dfrac{ (x-2401)}{\\left(\\dfrac{984}{\\sqrt{30}}\\right)}$$\n\nNow solve for $x$:\n\n(\n984\n√\n30\n)2.66=\n(x−2401)\n(\n984\n√\n30\n)\n(\n984\n√\n30\n)\n\nx=(\n984\n√\n30\n)2.66+2401\n\nx=2878.88\n\nThus, the correct answer is Choice 'B'.\n\nThe sample of 30 females must earn an average of $2,878.88 to claim that females have benefited as much as males from this initiative.",
   "tags": [
     "UNC-3.Q.2",
     "UNC-3.Q.1",

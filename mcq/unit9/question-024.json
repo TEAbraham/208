@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWhen finding a confidence interval for the slope of a regression line, the following formula should be used:\n\n$$b\\pm t^{*} (SE_{b})$$\n\n...where $b$ is the slope of the line of best fit, $t^{*}$ is the critical value, and $ SE_{b}$ is the standard error of the slope.\n\nIn this problem, since we are asked for the lower bound, we need only use the minus sign. So, we fill in the given values to get:\n\n$$4.6-(2..000)(1.2)=4.6-2.4=2.2$$\n\nNow, to interpret a confidence interval we are $95\\%$ confident that the true slope will be contained within the interval. Therefore, we are $95\\%$ confident that the true slope cannot be less than the lower bound.\n\nSo, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the value is the sum of the three given numbers.\n\nChoice 'B' is incorrect because the value is the the upper bound, not the lower bound. Also, the explanation is wrong because the true slope is not likely to be greater than the upper bound.\n\nChoice 'C' is incorrect because this value ignores the critical value in its calculation.\n\nChoice 'D' is incorrect because this value ignores the critical value in its calculation and the explanation is wrong because the true slope is not likely to be greater than the upper bound.",
   "tags": [
     "4.B",
     "UNC-4.AG.1",

@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "If the data is taken from the same sample, then the higher the confidence level, the wider the interval.\n\nIt might be helpful to think of an example. Suppose a weatherman says the average temperature today will be between $70$ to $72$ degrees. Suppose another weatherman says the average temperature will be between $60$ to $80$ degrees today.\n\nWhich weatherman would you be more confident in capturing the average temperature? The second weatherman's interval not only contains the first weatherman's interval, but is bigger. Remember, the bigger the confidence level, the wider the interval.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The $95\\%$ confidence interval will not be as a wide as the $99\\%$ confidence interval.\n\nChoice 'C' is incorrect. If the data is taken from the same sample, then the bigger the confidence level, the wider the interval.\n\nChoice 'D' is incorrect. Different sample sizes will affect the width of the interval, but the size of the samples won't affect which level will be wider.\n\nChoice 'E' is incorrect. Choosing between the population variance and sample variance will affect the length of the interval, but it won't affect which confidence level will be wider.",
   "tags": [
     "UNC-4.H.2",
     "UNC-4.H",

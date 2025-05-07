@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice ‘A’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWhen a computer printout is given after regression is performed, the t test statistic can be found in the second row, under the column header T. This value was intentionally not given here. To calculuate the t test statistic for inference on the slope of a linear relationship, use the formula\n\n$$t = \\dfrac{\\text{ b } }{\\text {SE}_{b}}$$\n\nHere:\n\n$$t = \\dfrac{\\text{ b } }{\\text {SE}_{b}} = \\dfrac{0.03013}{0.02448} = 1.23$$\n\nSo, Choice 'A' is correct.\n\nExplanation of Distractors\n\nChoice ‘B’ is incorrect: From the printout, this number can be found in the first row, under the column header T. This is the value of the test statistic if inference was being done on the y-intercept of the population regression line, rather than on the slope of the population regression line.\n\nChoice ‘C’ is incorrect: This value is the correct value of the P-value of the test being conducted here.\n\nChoice ‘D’ is incorrect: This value is the P-value for a significance test if inference was being done on the y-intercept of the population regression line, rather than on the slope of the population regression line.\n\nChoice ‘E’ is incorrect: This value is the reciprocal of the correct value of the t test statistic.",
   "tags": [
     "VAR-7.M",
     "VAR-7",

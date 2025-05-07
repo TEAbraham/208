@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The formula for a one-proportion $z$-interval is:\n\n$$\\hat { p } \\pm z\\sqrt { \\dfrac { \\hat { p } (1-\\hat { p } ) }{ n } }$$\n\nThe margin of error is the content after the $\\pm $, meaning that it is:\n\n$$z\\sqrt { \\dfrac { \\hat { p } (1-\\hat { p } ) }{ n } } $$\n\nWhat we are interested in in this case is what we would have to do to $n$. In order to reduce the margin of error, we have to make $n$ larger, as it is in the denominator. By process of elimination, we can therefore eliminate Choices 'B' and 'C'.\n\nTo explain further, we want the margin of error to be reduced to one-fifth of the original interval, meaning we want to go from:\n\nz\n√\nˆ\np\n(1−\nˆ\np\n)\nn\n\n...to:\n\n1\n5\n(z\n√\nˆ\np\n(1−\nˆ\np\n)\nn\n)\n\nSince n\nis inside the square root, we must think of what number gives us 5\nwhen we calculate its square root. It is 25\n, as you can see in the following statement:\n\n1\n5\n(z\n√\nˆ\np\n(1−\nˆ\np\n)\nn\n)=z\n√\nˆ\np\n(1−\nˆ\np\n)\n25n\n\nOur answer is Choice 'E'.\n\nEasy way to think about if this question comes up. If they ask to reduce margin of error by one-third, we would multiply the sample size by 9\n(32\n).\n\nIf they ask to reduce margin of error by one-fourth, we would multiply the sample size by 42\n.\n\nIn general, if they ask to reduce margin of error by one/nth, we would multiply the sample size by\nn\n2\n.\n\nExplanation of Distractors Choices 'B' and 'C' were already discussed. Choice 'D' is incorrect as\n5\nshould have been squared.",
   "tags": [
     "UNC-4.C.4",
     "UNC-4.C.3",

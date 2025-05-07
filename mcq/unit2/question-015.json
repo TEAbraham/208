@@ -9,10 +9,8 @@
   ],
   "title": "Display of Gender Distribution by Class",
   "difficulty": "Easy",
-  "question_text": "The following graph displays the frequency distribution of gender by class level at a small private high school.<br><br><br><br><br>Which of the following statements is NOT supported by the graph?",
-  "image_files": [
-    "images/question-015-img1.PNG"
-  ],
+  "question_text": "The following graph displays the frequency distribution of gender by class level at a small private high school.<br><br>Which of the following statements is NOT supported by the graph?",
+  "image_files": [],
   "tables": [],
   "choices": [
     {
@@ -25,7 +23,7 @@
     },
     {
       "letter": "C",
-      "text": "Girls represent about\n25\n%\nof the junior class."
+      "text": "Girls represent about $25\\%$ of the junior class."
     },
     {
       "letter": "D",
@@ -37,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Although the y-axis is not labeled, we are told that the graph represents a frequency distribution. Therefore, we know the y-axis is presenting counts of individuals. In the graph, the height of each bar corresponds with the total number of students in each class.\n\nThis number is segmented into two colors where red represents girls and blue represents boys. This segmentation allows us to determine the approximate number of boys and girls in each class.\n\nChoice 'C' is a statement that is NOT supported by the graph. Therefore, it is the correct choice for this problem. It would appear that the junior class contains about 53 or 54 students as indicated by the total height of the bar.\n\nFrom the height of the blue portion of the bar we might estimate that there are about 28\nor 29\nboys in the junior class. This would mean that there might be about 25\ngirls in the junior class, but the number of girls would not be 25%\nof the total number of juniors.\n\nExplanation of Distractors\n\nChoice 'A' seems to be reasonably correct. While it may be difficult to determine the exact number of students in the freshman class, a reasonable estimate would be about 48\n. Looking at the height of the blue portion of this bar allows us to estimate the number of boys to be about 24\nor 25\n.\n\nBoth of these values are about half of the overall total number of students in the freshman class and would indicate that the number of girls is about the same as the number of boys.\n\nChoice 'B' is a correct statement. By visual inspection, we can determine that the proportion of red shown in the bar for the sophomore class is greater than the proportion of blue shown in the same bar. This would indicate that there are more girls in this class than boys.\n\nWe can also determine this information by estimating that the number of sophomore boys (represented by the height of the blue portion of the bar) is about 21\nor 22\nwhich is less than half the total number of sophomores.\n\nThe total number of sophomores is clearly 50\nas shown by the height of the entire bar. A similar analysis of the other classes would verify that the sophomore class is the only class that clearly contains more girls than boys.\n\nChoice 'D' is a correct statement that can be verified by the fact that the height of the bar for the senior class is taller than that of any other class.\n\nChoice 'E' seems to be a reasonably correct statement. As an estimate of the overall total number of students in the school, we might add the approximate number of students in each class which is seen by the total height of each of the bars.\n\n48+50+54+58=210\n\nNow estimate the total number of boys by adding the approximate number of boys in each class which is seen by the heights of the blue portions in each bar.\n\n25\n+\n21\n+\n29\n+\n30\n=\n105\n\nEven with slightly different approximations you should feel fairly confident that the total number of boys is about half the total number of students. This would confirm that there are approximately the same number of girls and boys at this school.",
   "tags": [
     "UNC-1.P",
     "2.D",

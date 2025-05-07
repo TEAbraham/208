@@ -4,7 +4,7 @@
   "topics": [],
   "title": "Math Program: Rejecting the Null Hypothesis",
   "difficulty": "Medium",
-  "question_text": "Suppose a high school principal wishes to determine if students in her after-school math program perform better than those not in the program.<br>The principal randomly selected $115\\text{ students}$ for an after-school study session that runs $3\\text{ days per week}$ for $1\\text{ hour}$ each day, focusing solely on math.<br>The grade distribution of these students’ math grades is compared to the historical grade distribution of students’ math grades at this high school. The data is below:<br>At the $5\\%$ alpha level, one would reject $H_0$ if the test statistic exceeds",
+  "question_text": "Suppose a high school principal wishes to determine if students in her after-school math program perform better than those not in the program.<br>The principal randomly selected $115\\text{ students}$ for an after-school study session that runs $3\\text{ days per week}$ for $1\\text{ hour}$ each day, focusing solely on math.<br>The grade distribution of these students’ math grades is compared to the historical grade distribution of students’ math grades at this high school. The data is below:<br>At the $5\\%$ alpha level, one would reject $H_0$ if the test statistic exceeds<br>At the $5\\%$ alpha level, one would reject $H_0$ if the test statistic exceeds",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">A</th><th scope=\"col\">B</th><th scope=\"col\">C</th><th scope=\"col\">D</th><th scope=\"col\">F</th></tr></thead><tbody><tr><td>After-School Program (Counts)</td><td>28</td><td>38</td><td>36</td><td>9</td><td>4</td></tr><tr><td>Historical Grade Distribution (%)</td><td>18%</td><td>32%</td><td>25%</td><td>20%</td><td>5%</td></tr></tbody></table>"
@@ -32,8 +32,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since there are five different grade categories, the degrees of freedom is $5-1 = 4$.\n\nLook at the chi-squared distribution table to find that $4$ degrees of freedom meet a $5\\%$ upper tail probability at $9.49$.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "VAR-8.G.1",
     "VAR-8.G",

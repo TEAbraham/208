@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The first step in finding the differences in the standard deviation is to find the variance. Remember that variances always add and never subtract:\n\n$${ \\sigma }_{ X-Y }^{ 2 }={ \\sigma }_{ x }^{ 2 }+{ \\sigma }_{ Y }^{ 2 }$$\n\n$$=({ 7) }^{ 2 }+({ 5 })^{ 2 }$$\n\n$$=74$$\n\nThe second step is to square root the variance:\n\n$$\\sqrt { 74 }=8.60$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as this is the variance.\n\nChoice 'B' is incorrect as the two standard deviations were just added together.\n\nChoice 'D' is incorrect as this is the average of the two standard deviations.\n\nChoice 'E' is incorrect as the standard deviations were subtracted.",
   "tags": [
     "VAR-5.E",
     "VAR-5.E.2",

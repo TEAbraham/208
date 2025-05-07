@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "One of the consequences of the central limit theorem is the sampling distribution will look more normal than individual observations. As sample sizes become larger and larger, the sampling distribution, even from strongly skewed populations, will look closer and closer to normal.\n\nWhile there is no definitive cutoff, as the sample size approaches $n=30$ the sampling distribution will be approximately normal no matter what the shape of the population is. In this problem, since the sample size is only $n=8$, the sampling distribution will still be skewed, but not as strongly skewed as the population with individual observations.\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "UNC-3.H.2",
     "UNC-3.H.1",

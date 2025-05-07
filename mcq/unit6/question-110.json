@@ -30,8 +30,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Looking up $z = 1.56$ in the standard normal chart gives an upper tail probability of $0 .9406 = 0.0594$. Doubling this $p$-value, since it is a two-sided test, gives a $p$-value of $0.1188$.\n\nSince this is a high p-value compared to even the highest common alpha level of $0.1$, this result fails to give evidence that order makes a difference.\n\nHigh $p$-values can never give strong evidence of no difference; they simply fail to give good evidence of a difference.\n\nThus, the correct answer is Choice 'D'.\n\nNote: Even though a high $p$-value exists (at the $5\\%$ and $10\\%$ level), one cannot say this gives evidence of no difference. High $p$-values simply fail to give evidence of change, but they do NOT prove no change happened.\n\nIt might be similar to think of this like a criminal trial. A jury will never prove a defendant innocent. They either will have sufficient evidence to convict the defendant, or fail to have sufficient evidence to convict the defendant.",
   "tags": [
     "UNC-4.N.1",
     "4.D",

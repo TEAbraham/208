@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Disjoint events, by definition, cannot happen at the same time.\n\nTherefore, if one event happens, the probability of the second event happening becomes zero. In turn, since the probability of the second event changes, the events cannot be independent.\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "4.B",
     "VAR-4.C",

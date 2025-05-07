@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nA categorical variable takes on category names, not quantitative values. Therefore, both variables in the answer must be categorical. In this case, grade level, despite occasionally being represented as a number, is categorical because it is not an actual quantity. Whether the student wears a backpack or not is categorical as well.\n\nThen the question becomes whether there is a relationship between the two variables. Does one variable somehow rely on the other one? In other words, does one variable affect the other so that the results are not random? In many schools, course loads vary by grade level. It is possible that a junior taking a more heavy course load is more likely to carry a backpack than other grade levels. Collecting data might well indicate whether this is true or not.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because one of the variables is quantitative (GPA) and the other is categorical (favorite subject).\n\nChoice 'C' is incorrect because, while both variables are likely related, these scores are both quantitative variables.\n\nChoice 'D' is incorrect because, while both variables are categorical, it is unlikely that students in a certain lunch period prefer a certain type of book, so the variables are not likely related.\n\nChoice 'E' is incorrect because, while both variables are likely related, the number of hours slept and the number of times tardy are both quantitative variables.",
   "tags": [
     "VAR-1.D",
     "VAR-1.D.1",

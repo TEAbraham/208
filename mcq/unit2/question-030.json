@@ -9,7 +9,7 @@
   ],
   "title": "Age, Politics and Conditional Distributions",
   "difficulty": "Hard",
-  "question_text": "Researchers wanted to investigate how an individual's age relates to his or her political leanings. A random sample of $100$ individuals in each of three age categories was asked to classify themselves as being \"Liberal\" or \"Conservative\". The results are displayed in the side-by-side bar graph below.<br><br><br><br><br>Based on this display, what is the conditional distribution of Liberals by age category?",
+  "question_text": "Researchers wanted to investigate how an individual's age relates to his or her political leanings. A random sample of $100$ individuals in each of three age categories was asked to classify themselves as being \"Liberal\" or \"Conservative\". The results are displayed in the side-by-side bar graph below.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>Based on this display, what is the conditional distribution of Liberals by age category?",
   "image_files": [
     "images/question-030-img1.PNG"
   ],
@@ -17,7 +17,7 @@
   "choices": [
     {
       "letter": "A",
-      "text": "Liberals = 51.67%\n\nConservative = 48.33%"
+      "text": "Liberals = 51.67%\nConservative = 48.33%"
     },
     {
       "letter": "B",
@@ -29,7 +29,7 @@
     },
     {
       "letter": "D",
-      "text": "Age\n25\nand Under =\n45.16\n%\n\nAge\n26\n−\n55\n=\n32.26\n%\n\nOver Age\n55\n=\n22.58\n%"
+      "text": "Age 25\nand Under = 45.16%\n\nAge 26−55\n= 32.26%\n\nOver Age 55\n= 22.58%"
     },
     {
       "letter": "E",
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since we are looking for the conditional distribution of Liberals, we are only interested in those who said they were Liberal. This is the given condition. We will then determine the percentage of liberals in each age category.\n\nFirst, find the number of Liberals in each age category by matching the height of each blue bar with the frequency shown on the vertical axis.\n\nTherefore, the total number of Liberals is\n70\n+\n50\n+\n35\n=\n155\n.\n\nDetermining percentages by age category we find:\n\nChoice 'D' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect and simply shows the percentage of those surveyed who said they were Liberal along with the percentage of those surveyed who said they were Conservative.\n\nChoice 'B' is incorrect and reports the percentage of Liberals in each age category.\n\nChoice 'C' is incorrect and shows the percentage of those surveyed who were within in each age category.\n\nChoice 'E' is incorrect. It can be done!",
   "tags": [
     "2.C",
     "UNC-1.Q",

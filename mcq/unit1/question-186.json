@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice ‘C’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The interquartile range (IQR) is calculated as Q3 - Q1. The IQR for teachers is $27$ and the IQR for students is $20$. The median for teachers is $41$ and for students is $19$.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect because the standard deviation cannot be calculated from the five number summary. The teachers’ standard deviation could be higher or lower than the students’.\n\nChoice ‘B’ is incorrect because the variance cannot be calculated from the five number summary. The students’ variance could be higher or lower than the teachers’.\n\nChoice ‘D’ is incorrect because the standard deviation cannot be calculated from the five number summary. The teachers’ standard deviation could be higher or lower than the students’.\n\nChoice ‘E’ is incorrect because the mode cannot be calculated from the five number summary.",
   "tags": [
     "UNC-1.O",
     "2.D",

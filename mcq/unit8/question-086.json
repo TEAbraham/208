@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice ‘E’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTo calculate the expected value in a one-way table, use the formula:\n\n$$\\text {expected value} = (\\text {sample size})(\\text {population proportion})$$\n\nFor an AP Exam score of a $5$, the expected value = $108$ $\\text{ x }$ $13.9$% = $15.012$\n\nSo, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect: $13.9$ is the percent of the population that earned a $5$ on the exam in $2016$.\n\nChoice ‘B’ is incorrect: $5$ is the correct value for the degrees of freedom for this setting. In a one-way table, $ \\text {degrees of freedom} = (\\text {number of categories}) - 1$\n\nChoice ‘C’ is incorrect: $108$ is the sample size taken for the study.\n\nChoice ‘D’ is incorrect: $27800$ is the value that results when multiplying the population size of $200000$ by the population proportion of $13.9$%.",
   "tags": [
     "VAR-8.D",
     "3.A",

@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The residual for a data point is calculated as follows: y−\nˆ\ny\nwhere y is the actual value (in this case the actual birth weight) and\nˆ\ny\nis the predicted value (predicted birth weight) obtained from the LSRL.\n\nWe know the actual birth weight of the baby is y=8.0 pounds. However, we need to find the predicted birth weight for a mother who is 28 years old by using the LSRL. The equation of the LSRL is:\n\nˆ\ny\n=3.23+0.15x\n\nFill in the mother's age of 28\nas the value of x\n.\n\nˆ\ny\n=3.23+0.15(28)=7.43\n\nThat is, the LSRL predicts that a 28\nyear old mother will give birth to a baby weighing 7.43\npounds.\n\nNow we can find the residual:\n\ny−\nˆ\ny\n=8.0−7.43=0.57\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. This value is double the incorrect value obtained in Choice 'B', There would be no reason to double a calculated residual.\n\nChoice 'B' is incorrect and results from completing the subtraction in the wrong direction. This answer was obtained by using the following incorrect calculation:\nˆ\ny\n−y\n\nChoice 'D' is incorrect. This value is double the correct answer. As noted above, there is no reason to double a calculated residual.\n\nChoice 'E' is incorrect. This answer would be obtained by incorrectly substituting 28\nas the value of\nˆ\ny\nand then solving the LSRL equation for x\n. It is important to keep track of what the variables represent.",
   "tags": [
     "4.B",
     "DAT-1.H.2",

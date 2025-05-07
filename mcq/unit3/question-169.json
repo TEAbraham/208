@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "A research design is only necessary when sample is conducted, so there is no need for an experimental design since the entire population of 500 patients\nat this clinic is being measured."
+      "text": "A research design is only necessary when sample is conducted, so there is no need for an experimental design since the entire population of $500\\text{ patients}$ at this clinic is being measured."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The study must be double-blind so that both the researcher and the patients do not know which group they are in. This ensures that all patients, regardless of which dosage or treatment they receive, will be treated equally.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; the diet plan is a constant for all the patients in this clinic, so there is no need to block for its effect.\n\nChoices 'B' and 'D' are incorrect; stratifying is never a term used in the context of experiments. Furthermore, a placebo is important with drug trials when the effects of the drugs are unknown.\n\nThis establishes a control group, which helps to separate out the effects from the actual drug and the effects of merely being part of an experiment. A different drug with known results could be used as the control group, but that is not the case here.\n\nChoice 'E' is incorrect; the problem clearly states that the 500 patients are treated as a sample, not the population.",
   "tags": [
     "VAR-3.D",
     "VAR-3.E.1",

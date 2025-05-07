@@ -8,7 +8,7 @@
   ],
   "title": "Tossing Weighted Die",
   "difficulty": "Hard",
-  "question_text": "A $6$-sided die is weighted so that not every number is equally likely to appear when the die is tossed. The table below shows the probability distribution.<br>Suppose the die is tossed and we are told that the result is a number greater than $4$. Based on this information, what is the probability that the result was a $6$?",
+  "question_text": "A $6$-sided die is weighted so that not every number is equally likely to appear when the die is tossed. The table below shows the probability distribution.<br>Suppose the die is tossed and we are told that the result is a number greater than $4$. Based on this information, what is the probability that the result was a $6$?<br>Suppose the die is tossed and we are told that the result is a number greater than $4$. Based on this information, what is the probability that the result was a $6$?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\" style=\"text-align: center;\">Result (X)</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th><th scope=\"col\">6</th></tr></thead><tbody><tr><td style=\"text-align: center;\">p(X)</td><td>0.12</td><td>0.14</td><td>0.08</td><td>0.27</td><td>0.25</td><td>0.14</td></tr></tbody></table>"
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "We know that the result was a number greater than $4$. This is a given condition. Therefore, we are looking for the probability of rolling a $6$ given that we rolled a number greater than $4$. We can use the formula for conditional probability.\n\n$$p(6|\\text{number}>4)=\\frac { p(6\\text{ is rolled}) }{ p(\\text{number}>4) } $$\n\nKeep in mind that the only values greater than $4$ are rolling a $5$ or a $6$:\n\n$$=\\frac { 0.14 }{ (0.25+0.14) } $$\n\n$$= 0.36$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. It represents the probability of obtaining a $6$ while having no known information about the result. You might also arrive at this answer by trying to use the multiplication property to find $p(6 \\text{ AND number}>4)$.\n\nIf a $6$ is obtained, it is obviously a number$>4$. Furthermore, we must obtain a $6$ and a number$>4$ on ONE roll of the dice. These are not independent or even separate events. Therefore, finding $p(6 \\text{ AND number}>4)$ by multiplying $(0.25)(0.14)$ is incorrect.\n\nChoice 'B' is incorrect. It represents $p(6|\\text{number}\\ge4)$.\n\nChoice 'D' is incorrect. It represents $p(\\text{number}>4)$.\n\nChoice 'E' is incorrect. It represents $p(\\text{number}\\ge4)$.",
   "tags": [
     "VAR-4.E.3",
     "VAR-4.E",

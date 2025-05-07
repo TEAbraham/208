@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'A' is incorrect; there is nothing in the problem that suggests people would lie about what party they voted for.\n\nChoice 'B' is incorrect; the data comes from two independent samples, and ${ n }_{ 1 }{ p̂ }_{ 1 }, { n }_{ 1 }(1-{ p̂ }_{ 1 }), { n }_{ 2 }{ p̂ }_{ 2 }$ and ${ n }_{ 2 }(1-{ p̂ }_{ 2 })$ are at least $5$, where ${ n }_{ 1 }$ and ${ n }_{ 2 }$ are samples sizes and ${ p̂ }_{ 1 }$ and ${ p̂ }_{ 2 }$ are sample proportions. Therefore, conditions are met.\n\nChoice 'C' is incorrect; the calculations are correct when doing a two-proportion Z-test.\n\nChoice 'D' is incorrect; since the p-value was high, no evidence of change was found, so a type I error (incorrectly rejecting the null hypothesis) cannot be made.\n\nChoice 'E' is correct; with such small sample sizes, there is low power. It is quite possible that younger people are more likely to vote Democrat, but in this situation the samples are so small, we are unable to detect these differences.",
   "tags": [
     "DAT-3.C",
     "4.B",

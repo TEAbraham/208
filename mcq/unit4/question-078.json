@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since the winners are chosen with replacement, there is a 15% probability of success on any trial. The probability a winner is drawn by the fourth trial (meaning within four trials) is the sum of the probability that the winner is drawn on the first trial, plus the respective probabilities that the winner is drawn on the second, third, and fourth trials.\n\nP(first trial) =0.15\nP(second trial) =0.85⋅0.15\nP(third trial) =0.85⋅0.85⋅0.15\nP(fourth trial) =0.85⋅0.85⋅0.85⋅0.15\n\nThe sum of these numbers is 0.478.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "VAR-4.E.3",
     "VAR-4.E",

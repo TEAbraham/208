@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.\nIn this case we have a linear transformation. If $Y= a + bX$ is a linear transformation of the random variable X, then\n$${ \\mu }_{ y }=a+b{ \\mu }_{ x }$$",
-  "solution": "",
-  "explanations": {},
+  "solution": "This tells us mean gets effected by both multiplication and addition. Therefore, we will substitute $14.2$, the value of the mean, into the equation for x.\n\n$$y=5.1(14.2)+8=80.42$$\n\nChoices 'D' and 'E' can both be eliminated since they display a mean of $72.42$.\n\nThe variance is the standard deviation squared. If $Y= a + bX$ is a linear transformation of the random variable X, then\n$${ \\sigma }_{ y }=\\left| b \\right| { \\sigma }_{ x }$$\n.\n\nThis tells us the standard deviation gets effected by multiplication and not addition.\n$$5.1\\bullet 3.2= 16.32$$\n\nThe variance can now be found by squaring the new standard deviation.\n\n$${ (16.32) }^{ 2 }=266.34$$\n\nExplanations of Distractors Choice 'A' is incorrect as the variance is not effected by addition. Choice 'C' is incorrect as $16.32$ is the standard deviation. Choices 'D' and 'E' have already been discussed.",
   "tags": [
     "VAR-5.E",
     "VAR-5.E.2",

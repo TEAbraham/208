@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "$0.5$"
+      "text": "0.5"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "First, determine the value of p and its standard deviation σp.\n\nThe value of p is 0.37. The standard deviation σp is determined by the formula:\n\n√\np(1−p)\nn\n\nSubstituting gives p=0.37\n, and n=100\ngives approximately 0.0482\n.\n\nOur sample statistic\nˆ\np\nis 45/100=0.45\n. Use the conversion formula to calculate the z\n-value for this sample statistic:\n\nz=\nˆ\np\n−p\n standard deviation of p\n\nz=\n(0.45−0.37)\n(0.0482)\n\nz=\n0.08\n0.0482\n\nz=1.66\n\nThis means that our\nˆ\np\nis 1.66\nstandard deviations above the true mean p\nof 0.37\n.\n\nUse the table of standard normal probabilities or your calculator to find the area under the standard normal curve that lies to the right of z=1.66\n. The answer, then, is 0.0485\n, which rounds to 0.05\n.\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "UNC-3.K.1",
     "3.C",

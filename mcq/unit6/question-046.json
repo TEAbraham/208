@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since this problem deals with proportions, one must use the symbol $p$ rather than $\\mu$.\n\nThe null hypothesis, $H_0$, is a statement of status quo. This means that the proportion of college kids who brush their teeth is $39\\%$, which is no different than everybody else.\n\nThe problem states, however, that it’s possible a higher proportion of college kids do not brush their teeth twice daily. Therefore, it makes sense to have the alternative hypothesis, $H_a$ be $p > 0.39$.\n\nNever state hypotheses in terms of values taken from the sample or samples.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "1.F",
     "VAR-6.D.3",

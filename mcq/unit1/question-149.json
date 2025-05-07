@@ -9,7 +9,7 @@
   ],
   "title": "Boxplot of Teenager Weights",
   "difficulty": "Hard",
-  "question_text": "A doctor measured the weights (in kg) of teenagers and constructed a boxplot of the data, shown below.<br><br><br><br><br>What could be the potential reason(s) that the graph does not accurately represent the data?<br><br>I. The data could be bimodal, which the graph would not correctly show.\nII. It is unclear if there is only one data value at $95\\text{ kg}$ or many values near $95\\text{ kg}$.\nIII. It is unclear what the center is in this graphical display.",
+  "question_text": "A doctor measured the weights (in kg) of teenagers and constructed a boxplot of the data, shown below.<br>Created for Albert.io. Copyright 2017. All rights reserved.<br><br>What could be the potential reason(s) that the graph does not accurately represent the data?<br><br>I. The data could be bimodal, which the graph would not correctly show.\nII. It is unclear if there is only one data value at $95\\text{ kg}$ or many values near $95\\text{ kg}$.\nIII. It is unclear what the center is in this graphical display.",
   "image_files": [
     "images/question-149-img1.jpg"
   ],
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Statement I is correct; a boxplot does a poor job of showing shape of the distribution, especially if the distribution is bimodal (two peaked).\n\nStatement II is correct; the boxplot gives us very little information about how many observations are at a certain point. All we know is about\n25\n%\nof observations are between\n67\n kg\nand\n95\n kg\n.\n\nStatement III is incorrect; the median can always be found in any boxplot. In this situation, the median appears to be near\n64\n kg\n.\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "UNC-1.L.2",
     "2.B",

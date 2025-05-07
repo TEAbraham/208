@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "First, find the probability of finding $5$ receipts that average $\\$150$.\n\nUse the equation below, where $n = 5, σ = 45.1, x = 150$, and $µ =98.22$, to find a z-score of $2.57$:\n\n$$z=\\dfrac{\\bar{X} - \\mu}{\\frac{\\sigma}{\\sqrt{n}}}$$\n\nUse the standard normal table to find:\n\n$$P (z>2.57) = 1-0.9949 = 0.0051$$\n\nTo find the probability of $5$ receipts that are greater than $\\$150$, first, find the probability of one receipt being over $\\$150$.\n\nUse the equation below, where $σ = 45.1, n = 1, x = 150$, and $µ = 98.22$, to find the $z = 1.15$:\n\n$$z=\\dfrac{\\bar{X} - \\mu}{\\frac{\\sigma}{\\sqrt{n}}}$$\n\n$$P (z>1.15) = 1-0.8749 = 0.1251$$\n\nThis represents the probability of $1$ receipt being greater than $\\$150$.\n\nThe probability of $5$ receipts each being over $\\$150$ is:\n\n$$0.1251^5= 0.0000306$$\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "4.B",
     "3.C",

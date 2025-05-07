@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "To solve this problem, we would use the equation for the margin of error which equals the standard error times the critical value. The equation looks like this:\n\n$$ME = z^{*}\\sqrt{\\frac{\\hat{p}(1-\\hat{p})}{n} }$$\n\n...where $ME$ is the margin of error, $n$ is the sample size, $\\hat{p}$ is the sample proportion, and $z^*$ is the critical value.\n\nTo solve this, we would plug in $0.04$ for ME and $1.96$ for $z^*$, given $95\\%$ confidence.\n\nSince we do not know the value of $\\hat{p}$, we would use the conservative estimate of 0.5. Thus, your equation to solve would look like this:\n\n$$0.04 = 1.96\\sqrt{\\frac{0.5(1-0.5)}{n} }$$\n\nWe can first divide each side by $1.96$, then note that when you take the square root of $(0.5)(0.5)$ you end up with $0.5$! So our equation would then look like this:\n\n$$0.020408 =\\frac{0.5}{\\sqrt{n}}$$\n\nNow, we cross-multiply and divide 0.5 by 0.020408, and then square this answer to get 600.26.\n\nNote: when computing a sample size always round up. So the answer here is 601 students.\n\nExplanation of Distractors\n\nChoice B is incorrect because 600.26 is rounded down instead of being rounded up.\n\nChoice C is incorrect because the wrong value of z∗ is used. The value used to obtain this answer is 1.645 which is used for 90% confidence.\n\nChoice D is incorrect because the 0.5 value was mixed up with the margin of error. This answer came from letting\nˆ\np\n=0.4.\n\nChoice is incorrect because the answer did not get squared. While this is a common math mistake, it shows why it is important to consider your answer. Would surveying only 25\nstudents make sense?",
   "tags": [
     "3.D",
     "UNC-4.C.1",

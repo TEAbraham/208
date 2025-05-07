@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice ‘B’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe purpose of a Linear Regression Significance Test is to determine if the data gives convincing evidence of a linear relationship between the two quantitative variables. Here, the experimenter is testing the theory that weight gain will increase when the dosage is increased - thus, there will be a positive slope relating the two variables.\n\nThe correct hypotheses are Ho: $\\beta = 0$ vs Ha: $\\beta > 0$.\n\nSo, Choice 'B' is correct.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect: These hypotheses are swapped - the null hypothesis is a statement of equality and thus should say the slope equals zero.\n\nChoice ‘C’ is incorrect: In this set of hypotheses, the alternative hypotheses states the slope is greater than or equal to zero. The alternative hypothesis is not a statement of equality.\n\nChoice ‘D’ is incorrect: As stated above, the alternative hypothesis is not a statement of equality.\n\nChoice ‘E’ is incorrect: If the correct alternative hypothesis considered any linear relationship (positive slope or negative slope), this set of hypotheses would be switched from the correct set. The null hypothesis is a statement of equality.",
   "tags": [
     "1.F",
     "VAR-7.K",

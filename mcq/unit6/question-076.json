@@ -30,8 +30,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When performing a hypothesis test, either by hand or calculator, the result is a test statistic $z = 1.845$ and $p = 0.0325$. At the $5\\%$ level, this is a low $p$-value, giving evidence to support that college kids are less likely than the general public to brush their teeth twice daily.\n\nBased on this, only a type I error could be made at this point, since the decision to reject the null was made. A type I error occurs when rejecting the null, when in fact the null hypothesis is true. Therefore, the researcher would decide college students brush their teeth less often when in reality this is not the case.\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "4.B",
     "UNC-5.D.1",

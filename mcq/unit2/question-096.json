@@ -26,7 +26,7 @@
     },
     {
       "letter": "D",
-      "text": "$23$"
+      "text": "23"
     },
     {
       "letter": "E",
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In this case, we want to find the actual number of boys in Mr. Law's class.\n\nStep 1: Find the predicted number of boys in Mr. Law's class by substituting 12\nin for g\ninto the LSRL:\n\nPredicted boys=−5.2+2.1(12)=20\n\nStep 2: Now use the residual formula to solve for the actual number of boys:\n\nResidual = Actual # of boys - Predicted # of boys\n\n⇓\n\n3= Actual # of boys −20\n\nAdd 20\nto each side to solve:\n\n23= Actual number of boys\n\nExplanation of Distractors Choice 'A' is incorrect as the formula for the residual is wrong here. The formula used in this case was\nResidual=Predicted−Actual\n. Choice 'B' is incorrect as 20\nrepresents the predicted number of boys in the class. Choice 'C' is incorrect as when we substituted 12\ninto the equation, 5.2\ndid not get subtracted and the predicted value for the number of boys in the class was 25.2\n. Then the formula for the residual was incorrect. The formula used in this case was\nResidual=Predicted−Actual\n. Choice 'E' is incorrect as when we substituted 12\ninto the equation, 5.2\ndid not get subtracted and the predicted value for the number of boys in the class was 25.2\n.",
   "tags": [
     "DAT-1.E.1",
     "DAT-1.E",

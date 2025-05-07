@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "It accurately describes the law of large numbers as it relates to probability.\n\nChoice 'A' is a false statement. As the sample size grows larger, the standard deviation of the sampling distribution will grow smaller. This will create a smaller margin of error in a confidence interval.\n\nChoice 'B' is a true statement. However, it does not describe the Law of Large Numbers. Rather, it relates to a condition that is necessary in order to perform a t-test for a population mean.\n\nChoice 'D' is also a true statement. However, it does not describe the Law of Large Numbers. Rather, it is one of the conditions necessary for the construction of a confidence interval for a population proportion. In general, a sample is considered sufficiently large if:\n\nn\nˆ\np\n≥10 AND n(1−\nˆ\np\n)≥10\n\nThis is also sometimes referred to as the success/failure condition. That is, the sample size is considered to be sufficiently large if our sample consists of at least 10\nsuccesses and at least 10\nfailures.\n\nChoice 'E' is an incorrect interpretation of the law of large numbers.",
   "tags": [
     "VAR-5.D.1",
     "VAR-5.D",

@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "If each month averages $2.183\\text{ inches}$, the mean annual rainfall is $2.183\\cdot 12 = 26.196\\text{ inches}$.\n\nRemember, standard deviations cannot be added, but variances can be added.\n\nThe variances of each month are the sum of the variances of each month:\n\n$$0.424^{2}+0.424^{2}+......+0.424^{2}= 2.157$$\n\nTherefore, the standard deviation of each month is the square root of $2.157$, which is $1.469$.\n\nUse the standard deviation formula below, where $\\mu = 26.196$, $x = 25$, and $\\sigma = 1.469$, to find $z = -0.81.$\n\n$$z = \\dfrac{x- \\mu}{\\sigma}$$\n\n$$z = \\dfrac{25- 26.196}{1.469} = -0.81$$\n\n$$P(z<-0.81) = 0.2090$$\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

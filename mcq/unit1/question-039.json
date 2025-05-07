@@ -8,33 +8,34 @@
   "title": "Blood Type: Predictions From A Relative Frequency Graph",
   "difficulty": "Medium",
   "question_text": "The student council at Crosstown High School is organizing a blood drive. The relative frequencies of different blood types in the United States is shown in the graph below.<br>If $160$ students donate blood, about how many of these donors would be expected to have Type A blood?",
-  "image_files": [],
+  "image_files": [
+    "images/question-039-img1.png"
+  ],
   "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "$40$"
+      "text": "40"
     },
     {
       "letter": "B",
-      "text": "$45$"
+      "text": "45"
     },
     {
       "letter": "C",
-      "text": "$64$"
+      "text": "64"
     },
     {
       "letter": "D",
-      "text": "$72$"
+      "text": "72"
     },
     {
       "letter": "E",
-      "text": "$85$"
+      "text": "85"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The graph provided stacks the relative frequencies of each blood type. Notice that the full height of the bar matches up along the vertical axis with a relative frequency of\n1\nor\n100\n%\n. We know then, that\n100\n%\nof the population is represented and that there are only four different main blood types.\n\nThe blue bar at the bottom of the stack represents Type O blood. The height of the blue bar matches up along the vertical axis with a relative frequency of\n0.45\nor\n45\n%\n.\n\nThe next bar in the stack, the orange bar, represents Type A blood. This is the blood type we are interested in. Notice that the top of the orange bar matches up along the vertical axis with a relative frequency of\n0.85\nor\n85\n%\n. This value includes both the relative frequency of Type O blood and the relative frequency of Type A blood. That is:\n\nrelative frequency of Type O \n+\n relative frequency of Type A \n=\n0.85\n\nSince we know the relative frequency of Type O is\n0.45\n, we can substitute this value into the above equation. We get:\n\n0.45\n+\n relative frequency of Type A \n=\n0.85\n\nSubtracting\n0.45\nfrom both sides of the equation we find:\n\nrelative frequency of Type A \n=\n0.40\n or \n40\n%\n\nNext, we need to determine \"how many\" of the\n160\ndonors would be expected to have Type A blood. To find this count (or frequency), we simply find\n40\n%\nof\n160\n. We do so as follows:\n\n(\n0.40\n)\n(\n160\n)\n=\n64\n\nNOTE: The vertical scale provided may make it difficult to initially establish that exactly\n45\n%\nof individuals have Type O blood. However, you can also notice that the height that the blue bar extends above\n0.40\nis about the same as the height the orange bar extends above\n0.80\n. In this way you can also estimate the relative frequency of Type A to be\n0.40\nor\n40\n%\n, and the expected number of Type A donors to be\n64\n.\n\nChoice 'C' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The relative frequency of Type A blood is\n0.40\nor\n40\n%\n. Since percent means \"out of\n100\n\", if there had been\n100\ndonors then this answer would correctly identify how many would be expected to have Type A blood. However, the number of donors was\n160\nso we would expect more than\n40\ndonors to have Type A blood.\n\nChoice 'B' is incorrect. The relative frequency of Type O blood is\n0.45\nor\n45\n%\n. We are not interested in Type O blood, nor are we trying to identify a relative frequency.\n\nChoice 'D' is incorrect. This would be the number of donors who are expected to have Type O blood.\n\nChoice 'E' is incorrect. The top of the orange portion of the bar matches up with a relative frequency of\n0.85\n. However, this relative frequency includes both Type O and Type A blood and does not represent an actual frequency.",
   "tags": [
     "UNC-1.D",
     "UNC-1.C.3",

@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "Variables in data can be classified into two different types: quantitative or categorical.\n\nIn this case, there are four quantitative variables: Batting Average, Hits, Homeruns, and Runs batted in. These values all take on a numeric value where we can find an average.\n\nThere is only one value on the table that can be put into categories or groups. Therefore, the hand that the player bats with is a categorical variable.\n\nChoice 'E' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nVariables in data can be classified into two different types: quantitative or categorical.\n\nIn this case, there are four quantitative variables: Batting Average, Hits, Homeruns, and Runs batted in. These values all take on a numeric value where we can find an average.\n\nThere is only one value on the table that can be put into categories or groups. Therefore, the hand that the player bats with is a categorical variable.\n\nChoice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Since the batting average of the player is numeric value, it is a quantitative variable.\n\nChoice 'B' is incorrect. Since the number of hits the player had is a numeric value, it is a quantitative variable.\n\nChoice 'C' is incorrect. Since the number of homeruns the player had is a numeric value, it is a quantitative variable.\n\nChoice 'D' is incorrect. Since the number of runs batted in the player had is a numeric value, it is a quantitative variable.",
   "tags": [
     "VAR-1.C.1",
     "VAR-1.B",

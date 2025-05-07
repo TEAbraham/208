@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "Yes, as the probability of randomly picking 5 wearing polos is 0.44."
+      "text": "Yes, as the probability of randomly picking $5$ wearing polos is $0.44$."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "If the selection were truly random, the probability of selecting 5 wearing polos in a row would be quite low:\n\nP(5 wearing polos in a row)=\n8\n18\n⋅\n7\n17\n⋅\n6\n16\n⋅\n5\n15\n⋅\n4\n14\n=0.0065\n\nWith such a low probability, this gives appropriate evidence that the selection was not random.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "VAR-4.E.1",
     "VAR-4.E",

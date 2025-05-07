@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A small $p$-value leads to rejection of the null hypothesis. How small it has to be depends on the pre-chosen value of alpha. The stated value of alpha is the largest acceptable probability that the experimental result would occur purely by chance.\n\nWith an alpha of $0.05$, for example, we are saying that the least likely $5\\%$ of outcomes are so unusual that it is more likely that the null hypothesis is false than having such an unusual outcome occur by chance.\n\nA $p$-value is the specific probability calculated for that particular outcome’s having happened by chance alone, and thus, the p-value must be less than alpha in order to obtain a statistically significant result.\n\nThus, the correct answer is Choice 'E'.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. While $5\\%$ is a common alpha level, the p-value must be less than a given alpha level to be statistically significant.\n\nChoice 'B' is incorrect. A small alpha level means one is requiring stronger evidence to reject the null hypothesis. However, deciding on a small alpha level does not make a result statistically significant.\n\nChoice 'C' is incorrect. A $p$-value must be lower than alpha to be statistically significant, not greater than alpha.\n\nChoice 'D' is incorrect. There is no common multiple of alpha that is used to determine statistical significance.",
   "tags": [
     "4.B",
     "DAT-3",

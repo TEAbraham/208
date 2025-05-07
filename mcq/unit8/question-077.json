@@ -9,7 +9,7 @@
   ],
   "title": "Allergies by U.S. Region: Determining Degrees of Freedom",
   "difficulty": "Medium",
-  "question_text": "As part of the 2012 National Health Interview Survey, the U.S. Census Bureau collected data from about $73{,}661\\text{ children}$ under the age of $18\\text{ years}$. The report provided frequencies of different types of allergies for these children and frequencies were broken down by U.S. region.<br>Data is shown in the table below:<br>How many degrees of freedom would be used when conducting a ${ \\chi }^{ 2 }$ test to see if there is evidence of an association between U.S. region and types of allergies in children under the age of $18$?",
+  "question_text": "As part of the 2012 National Health Interview Survey, the U.S. Census Bureau collected data from about $73{,}661\\text{ children}$ under the age of $18\\text{ years}$. The report provided frequencies of different types of allergies for these children and frequencies were broken down by U.S. region.<br>Data is shown in the table below:<br>How many degrees of freedom would be used when conducting a ${ \\chi }^{ 2 }$ test to see if there is evidence of an association between U.S. region and types of allergies in children under the age of $18$?<br>How many degrees of freedom would be used when conducting a ${ \\chi }^{ 2 }$ test to see if there is evidence of an association between U.S. region and types of allergies in children under the age of $18$?",
   "image_files": [],
   "tables": [
     "<table><thead><tr><th scope=\"col\"></th><th scope=\"col\">No Allergies</th><th scope=\"col\">Hay Fever</th><th scope=\"col\">Respiratory Allergies</th><th scope=\"col\">Food Allergies</th><th scope=\"col\">Skin Allergies</th></tr></thead><tbody><tr><td>Northeast</td><td>7,776</td><td>1,074</td><td>1,108</td><td>698</td><td>1,321</td></tr><tr><td>Midwest</td><td>10,966</td><td>1,310</td><td>1,684</td><td>937</td><td>1,900</td></tr><tr><td>South</td><td>16,132</td><td>2,621</td><td>3,452</td><td>1,554</td><td>3,476</td></tr><tr><td>West</td><td>11,413</td><td>1,636</td><td>1,581</td><td>910</td><td>2,112</td></tr></tbody></table>"
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The number of degrees of freedom can be calculated as $(r -1)(c -1)$ where $r$ is the number of rows and $c$ is the number of columns in the two-way table. Here, we have $4\\text{ rows}$ and $5\\text{ columns}$. Therefore:\n\n$$df = (4 – 1)(5 – 1) = (3)(4) = 12$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it simply represents the number of rows. Do not take the smaller of $r$ and $c$ when determining degrees of freedom. Also, we cannot find $df$ by subtracting $1$ from the larger of $r$ and $c$.\n\nChoice 'B' is incorrect and simply represents the number of columns.\n\nChoice 'D' is incorrect. We cannot find the degrees of freedom by multiplying $r$ and $c$.\n\nChoice 'E' is incorrect. There were $73{,}661\\text{ observations}$ in the sample, but it is inappropriate to use $n – 1$ degrees of freedom for a ${ \\chi }^{ 2 }$ test. Rather, we would use $n – 1$ degrees of freedom when conducting a $t$-test for means.",
   "tags": [
     "VAR-8.M",
     "VAR-8.M.2",

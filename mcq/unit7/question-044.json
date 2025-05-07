@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This is paired, because the two types of sneakers are paired to the subjects, meaning each subject receives both treatments. It is also a $t$-interval, because we are using the sample standard deviation (standard error). If you have a problem remembering whether to use the $z$- or $t$-interval, remember the phrase, \"Mr. T is mean\". This indicates that you should use $t$-intervals for means.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Since we do not know the standard deviation of the population (we are sampling $200$ people), it cannot be a $z$-interval.\n\nChoice 'C' is incorrect. Each subject is receiving both treatments, which indicates a match pair design. Also, since we do not know the standard deviation of the population (we are sampling $200$ people), it cannot be a $z$-interval.\n\nChoice 'D' is incorrect. Each subject is receiving both treatments, which indicates a match paired design.\n\nChoice 'E' is incorrect. We are looking for the average difference, which indicates that we are dealing with means.",
   "tags": [
     "UNC-4.T",
     "4.D",

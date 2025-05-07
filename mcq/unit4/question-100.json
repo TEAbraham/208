@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In this situation, the probably of success is not quite independent: once a winner is picked, future success is less likely.\n\nThe probability of winning by the third ticket is the sum of the following probabilities:\n\nP(winner by first ticket) =\n75\n300\n\nP(winner by second ticket) =\n225\n300\n×\n75\n299\n\nP(winner by third ticket) =\n225\n300\n×\n224\n299\n×\n75\n298\n\nThe sum of these probabilities is 0.579538.\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "VAR-4.E",
     "3.A",

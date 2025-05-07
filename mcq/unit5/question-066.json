@@ -22,11 +22,11 @@
     },
     {
       "letter": "C",
-      "text": "1,278"
+      "text": "$1{,}278$"
     },
     {
       "letter": "D",
-      "text": "1,809"
+      "text": "$1{,}809$"
     },
     {
       "letter": "E",
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The standard deviation of a proportion can be given by the following formula:\n\nσ\nˆ\np\n=\n√\np(1−p)\nn\n\nSubstitute 0.01\nfor the desired standard deviation and 0.34\nfor p\n, since last year’s survey value of 0.34\nis the best guess for p\n.\n\nUse algebra to solve for n=2244\n.\n\nσ\nˆ\np\n=\n√\np(1−p)\nn\n\nσ\n2\nˆ\np\n=\np(1−p)\nn\n\nn=\np(1−p)\nσ\n2\nˆ\np\n\nn=\n0.34(1−0.34)\n0.012\n\nn=2244\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "UNC-3.K.1",
     "UNC-3",

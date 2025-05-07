@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "Since rolling two dice represent a chance model, the sum produced when rolling two dice will be random on each turn. For example, since each number on each die has a $\\frac{1}{6}$ probability of showing on each roll, each sum has it's own probability. Therefore the sums will not always average out to be $7$.\n\nThe players next roll is not guaranteed to have an average of $7$, and in fact can be any number from $2-12$.\n\nChoice 'A' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nSince rolling two dice represent a chance model, the sum produced when rolling two dice will be random on each turn. For example, since each number on each die has a\n1\n6\nprobability of showing on each roll, each sum has it's own probability. Therefore the sums will not always average out to be 7.\n\nThe players next roll is not guaranteed to have an average of 7, and in fact can be any number from 2−12.\n\nChoice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect. Since each roll is independent of the previous rolls, past outcomes do not change the probability of future outcomes. Therefore, 8,7,\n& 6\ncan still be rolled.\n\nChoice 'C' is incorrect. A probability of\n1\n6\nsimply means that in many trials, we'd expect to see a sum of 7\nabout\n1\n6\nth of the time.\n\nChoice 'D' is incorrect. Even though 7\nis the most likely outcome for a sum when two dice are rolled, it does not guarantee this amount for average of three rolls.\n\nChoice 'E' is incorrect. The sum of all three turns will not always equal 21\n, therefore the average will not always be 7\n.",
   "tags": [
     "VAR-1.G",
     "VAR-1.G.1",

@@ -13,7 +13,7 @@
   ],
   "title": "Comparing Mean and Standard Deviation from Two Histograms",
   "difficulty": "Easy",
-  "question_text": "<br><br><br><br>The histograms above represent the distribution for Ms. Dorman's students' test scores on the first two chapter tests. [question-stem] Which of the following statements is true?[question-stem]",
+  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved.<br><br>The histograms above represent the distribution for Ms. Dorman's students' test scores on the first two chapter tests. [question-stem] Which of the following statements is true?[question-stem]",
   "image_files": [
     "images/question-165-img1.PNG"
   ],
@@ -41,8 +41,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since both distributions are approximately normal, the means can be found in the peak.\n\nIn this case, we can see that the mean of the Chapter One test is between\n70\nto\n79\n, and for the Chapter Two test, the mean is between\n80\nto\n89\n. Since Chapter Two has the larger mean test score, we can eliminate Choices 'A', 'B' and 'E'.\n\nStandard deviation is a type of spread. Since both shapes are approximately normal, we are looking for the graph that is more spread out. In this case, it is the Chapter One test, which eliminates Choice 'D' and makes Choice 'C' the solution.",
   "tags": [
     "UNC-1.N.1",
     "2.D",

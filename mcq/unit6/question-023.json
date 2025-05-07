@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The reference materials provided with the AP Exam give the following formula for calculating the standard deviation of a sample proportion:\n\n$$\\sqrt { \\dfrac { (p)(1-p) }{ n } } $$\n\n...where $p$ represents the population proportion and $n$ represents the sample size.\n\nWhen constructing a confidence interval, we do not know the population proportion, but are trying to produce an estimate. Also, we are not trying to test our sample proportion against a hypothesized proportion.\n\nTherefore, when constructing a confidence interval, we use the observed proportion and the following, slightly adjusted formula for standard deviation.\n\n$$\\sqrt { \\dfrac { (\\hat{p})(1-\\hat{p}) }{ n } } $$\n\n...where $\\hat{p}$ represents the sample (observed) proportion.\n\nFirst, calculate $\\hat{p}$ as follows:\n\n$$\\dfrac{27}{225}=0.12$$\n\nThen, filling in the formula:\n\n$$\\sqrt { \\dfrac { (0.12)(0.88) }{ 225 } } $$\n\n...we obtain Choice 'B' as the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it uses the hypothesized proportion in the calculation.\n\nChoice 'C' is incorrect because it uses an incorrect formula. Always check the reference materials if you are unsure of the correct formula!\n\nChoices 'D' and 'E' are incorrect. Both use the formula for calculating the standard deviation of a binomial random variable which focuses on counts - not proportions. Since we are looking for the standard deviation of a proportion, using this formula is not appropriate.",
   "tags": [
     "3.D",
     "UNC-4.C.1",

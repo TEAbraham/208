@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "If the original mean is multiplied by $2$ with $10$ added to the result, then the new mean is:\n\n$$(25)(2)+10 = 60$$\n\nThe standard deviation is unaffected by the addition of a constant, so the new standard deviation is $(5)(2) = 10$.\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "VAR-5.E",
     "VAR-5.E.2",

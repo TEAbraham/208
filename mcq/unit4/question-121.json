@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "As $n$ increases, the values of the sample mean $\\bar{x}$ and $s$ will vary significantly."
+      "text": "As n increases, the values of the sample mean\nˉ\nx\nand s will vary significantly."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The law of large numbers says that if you increase the sample size, the mean of the sample will get closer and closer to the true population mean μ\n.\n\nChoice 'B' is correct; this statement accurately addresses the law of large numbers.\n\nExplanation of Distractors\n\nChoices 'A' and 'C' are incorrect; while the law stated above verifies that the sample mean,\nˉ\nx\n, is an unbiased estimate of μ\n, the same statement does not hold for s\n, because s\nis a biased estimate of σ\n. Remember that there are different formulas for computing s\nand σ\n.\n\nChoice 'D' is incorrect; population distribution is unaffected by sample size.\n\nChoice 'E' is incorrect; as n increases, the values of the sample mean\nˉ\nx\nand s\nwill vary less, not more.",
   "tags": [
     "VAR-5.D.1",
     "VAR-5.D",

@@ -42,8 +42,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The easiest way to see the correct solution is first to look at the “both” part of the Venn diagram.\n\nIn Choice 'D',\n21\nrepresents the number of individuals with both normal blood pressure and normal cholesterol, and the two-way chart shows that this is a correct value for that entry.\n\nNow, look at the entire NBP circle, with two entries that give us\n(\n11\n+\n21\n)\n=\n32\n. This value again agrees with the two-way table because the total for all of those with normal blood pressure is\n32\n.\n\nNext, look at the entire NC circle, with two values that give us\n(\n21\n+\n8\n)\n=\n29\n. Again, this total of\n29\nagrees with the two-way table’s total value for those with normal cholesterol readings.\n\nFinally, the value of\n13\nfor Neither should agree with the two-way table corresponding to those who have neither normal blood pressure nor normal cholesterol, which is\n13\n. In all of the other choices, at least, one of the entries in the Venn diagram does not agree with the two-way chart.\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "UNC-1.P",
     "2.D",

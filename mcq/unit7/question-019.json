@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The question here is asking about how to construct a one-sample $t$-interval for means. It is a $t$-interval and not a $z$-interval, as the population standard deviation is unknown and we are using the sample standard deviation (standard error).\n\nIf you have a hard time remembering whether to use a $z$- or $t$-interval for means, remember the mnemonic \"Mr. T. is mean.\"\n\nThe formula for a one sample $t$-interval for means is:\n\n$$\\overline { x } \\pm { t }^*_{ n-1 }\\frac { { s }_{ \\overline { x } } }{ \\sqrt { n } }$$\n\nThe $n-1$ represents the degrees of freedom, which in our case is $27-1=26$. Looking up where $26$ degrees of freedom and $99\\%$ confidence intersect on the $t$-distribution table, we find that $t^*= 2.779$.\n\nExplanation of Distractors\n\nBy the degrees of freedom and the $t^*$ value, we can eliminate Choices 'B', 'C' and 'E'.\n\nThe correct answer is Choice 'A' rather than Choice 'D' because we have to divide by the square root of the sample size and not the square root of the degrees of freedom $(n-1)$ in the standard error component.",
   "tags": [
     "3.D",
     "UNC-4",

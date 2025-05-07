@@ -30,8 +30,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "As seen in the counts below, one of the four expected counts is less than $5$ ($3.255$).\n\n\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; see the answer explanations below.\n\nChoice 'B' is incorrect; the problem deals with giving prizes away to customers, so there is no reason to doubt randomness.\n\nChoice 'C' is incorrect; the expected counts are calculated below, and all are greater than $1$.\n\nChoice 'E' is incorrect; this condition hints at one-proportion $Z$-tests, not chi-squared.",
   "tags": [
     "DAT-3.I.1",
     "4.B",

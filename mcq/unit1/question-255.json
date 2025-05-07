@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "First, we must determine the $z$-score that corresponds to the $90^{th}\\text{ percentile}$. Using the $z$-table, look for the entry closest to $0.90$ and then match it up with the related $z$-score of $z = 1.28$.\n\nTo use the TI83/84 graphing calculator you will need to use the invNorm function. The invNorm function provides the $z$-score that corresponds with a given area to the left. The syntax is invNorm(area to the left).\n\nIn this case:\n\nEnter again and the calculator will return the $z$-score of $z \\approx 1.28$.\n\nNow that we know the $z$-score, we can fill in the formula for calculating $z$ with all of the information that we know, and can solve for the standard deviation, $\\sigma$:\n\n$$z = \\dfrac { x - \\mu }{ \\sigma } $$\n\n$$1.28 = \\dfrac { 64.42 - 38.46 }{ \\sigma }$$\n\n$$1.28\\sigma = 25.96 $$\n\n$$\\sigma = 20.28125$$\n\nBut, the problem asks for the variance. Therefore, to find the final answer, we simply square $\\sigma$:\n\n$${ \\sigma }^{ 2 } = { \\left( 20.28125 \\right) }^{ 2 } = 411.33$$\n\n(Note: if you use the actual value for $z$ from your calculator without rounding, you will find a more accurate answer at the end of the calculation: $\\sigma ^2 = 410.334$)\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. This value represents the square root rather than the square of the standard deviation.\n\nChoice 'B' is incorrect. This value represents the standard deviation calculated from an incorrect $z$-score of $1.96$.\n\nChoice 'C' is incorrect. This is the standard deviation, not the variance.\n\nChoice 'D' is incorrect. This value is the variance calculated from an incorrect $z$-score of $1.96$.",
   "tags": [
     "VAR-2.B.2",
     "VAR-2.B",

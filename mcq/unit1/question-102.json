@@ -17,15 +17,15 @@
   "choices": [
     {
       "letter": "A",
-      "text": "75\nof the men in this sample weigh at least 192 pounds\n."
+      "text": "$75$ of the men in this sample weigh at least $192\\text{ pounds}$."
     },
     {
       "letter": "B",
-      "text": "25\nof the men in this sample weigh, at most, 153 pounds\n."
+      "text": "$25$ of the men in this sample weigh, at most, $153\\text{ pounds}$."
     },
     {
       "letter": "C",
-      "text": "50\nof the men in this sample can weigh, at most, 171 pounds\n."
+      "text": "50 of the men in this sample can weigh, at most, 171 pounds."
     },
     {
       "letter": "D",
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'A' is false statement.\n192\npounds represents the third quartile. The third quartile is the cutoff for the bottom\n75\n%\nto the top\n25\n%\n, meaning\n25\nof the men in this sample weigh at least\n192\npounds.\n\nChoice 'B' is not always a false statement. For instance,\n53\npounds represents the first quartile. The first quartile is the cutoff for the bottom\n25\n%\nto the top\n75\n%\n, meaning that their could be\n25\nmen in this sample weigh at most\n153\npounds.\n\nChoice 'C' is a true statement.\n171\npounds represents the median value, which indicates the value in the middle\n50\n%\n. The question that may be asked is, why is \"at most\" used instead of \"less than,\" since there is an even number of values. This is because when we find the median of an even number of values, we have to average the two middle numbers, which could both be\n171\npounds.\n\nChoice 'D' is a true statement.\n171\npounds represents the median value. The question that may be asked is, why use \"at least\" and not \"greater than,\" since there is an even number of values? When we find the median of an even number of values, we have to average the two middle numbers, which could both be\n171\npounds.\n\nChoice 'E' is a not always a false statement.\n192\npounds represents the third quartile. The third quartile is the cutoff for the bottom\n75\n%\nto the top\n25\n%\nmeaning we could have\n25\nof the men in this sample that weigh at least\n192\npounds.",
   "tags": [
     "UNC-1.I.4",
     "2.C",

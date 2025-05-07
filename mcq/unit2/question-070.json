@@ -8,7 +8,7 @@
   ],
   "title": "Variation: Find the Variation with the Scatterplot",
   "difficulty": "Hard",
-  "question_text": "Which of the following could be the value of the variation (coefficient of determination) for the data represented in the scatterplot?<br><br><br><br>",
+  "question_text": "Which of the following could be the value of the variation (coefficient of determination) for the data represented in the scatterplot?<br><br>Created for Albert.io. Copyright 2017. All rights reserved.",
   "image_files": [
     "images/question-070-img1.png"
   ],
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Based on the negative slope, we can assume that the correlation ($r$) is negative. The correct correlation is $-0.80$.\n\nTo find the variation ($r^2$), we must square the correlation:\n\n$$variation=r^2$$\n\n$$variation = -(0.80)^2$$\n\n$$variation = 0.64=64\\%$$\n\nWhen $-0.80$ is squared, the resulting value is $0.64$, which is $64\\%$.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. It was right to square $-0.8$; however, the variation is positive when we square $-0.8$.\n\nChoice 'B' is incorrect. This is the trap in this question: it asked about variation, and not correlation. The scatterplot shows a relative strong negative linear association. The correlation appears to be approximately $-0.80$. The variation is the square of the correlation.\n\nChoice 'C' is incorrect. This answer is reached by mistakenly thinking that the correlation is $0.64$ and then squaring it to get the variation.\n\nChoice 'E' is incorrect, as the correlation was changed to a percentage and became positive.",
   "tags": [
     "2.C",
     "DAT-1",

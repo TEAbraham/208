@@ -31,12 +31,11 @@
     },
     {
       "letter": "E",
-      "text": "Let $000$-$350$ be men and $351$-$750$ be women.\nSkip 751−999."
+      "text": "Let $000$-$350$ be men and $351$-$750$ be women.\nSkip $751-999$."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTo estimate a probability using simulation, one way is to use a random number table. All possible numbers within a certain number of digits must be used. Here, since we have 750 people, 3 digits should be used. Four or more digits could be used, but that would be more work.\n\nThe men and women must be delineated so they would each be assigned a different set of numbers. What the numbers are is arbitrary. Usually the numbering begins with either 000 or 001. In this case 000 was used.\n\nNumbers not assigned must always be thrown out or skipped when chosen from the table. Since there are 750 people, 250 numbers must be skipped. So, for example, if the number 865 was chosen from the table, it would be skipped and the next 3 digit number less than 750 would be chosen.\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it assigns numbers to 401\nwomen instead of 400\n.\n\nChoice 'B' is incorrect because it fails to say to skip 000\n.\n\nChoice 'D' is incorrect because it fails to say to skip any numbers.\n\nChoice 'E' is incorrect because it assigns numbers to 351\nmen instead of 350\n.",
   "tags": [
     "3.A",
     "UNC-2.A",

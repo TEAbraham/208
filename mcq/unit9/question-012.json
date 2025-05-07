@@ -26,16 +26,15 @@
     },
     {
       "letter": "D",
-      "text": "0.6"
+      "text": "$0.6$"
     },
     {
       "letter": "E",
-      "text": "0.96"
+      "text": "$0.96$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWhen finding a confidence interval for the slope of a regression line, the following formula should be used:\n\n$$b\\pm t^{*} (SE_{b})$$\n\n..where $b$ is the slope of the line of best fit, $t^{*}$ is the critical value, and $ SE_{b}$ is the standard error of the slope.\n\nThe value following the plus or minus sign is also called the margin of error. In this problem, we are given a margin of error equal to 1.2. Thus, since we are also given the t∗ value of 0.8, we simply divide 1.2 by 0.8 to get our standard error answer of 1.5.\n\nSo, Choice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect because the margin of error is simply repeated.\n\nChoice 'C' is incorrect because the upper bound of the interval has been calculated.\n\nChoice 'D' is incorrect because the lower bound of the interval has been calculated.\n\nChoice 'E' is incorrect because the margin of error was multiplied by the critical value instead of being divided by it.",
   "tags": [
     "UNC-4.AE.1",
     "3.D",

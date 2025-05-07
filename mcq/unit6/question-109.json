@@ -30,8 +30,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Perform a two-proportion Z-test by hand, calculator, or computer software to find $z = 1.4459$ and $p = 0.0741$.\n\nCompared to alpha = $10\\%$, this is a low p-value, but not compared to $5\\%$ or $1\\%$.\n\nThus, the correct answer is Choice 'B'.",
   "tags": [
     "UNC-4.N.1",
     "4.D",

@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\n$50\\pm2.492\\lgroup\\dfrac{6}{\\sqrt{25}}\\rgroup=(47.01,52.99)$\n\nWe can see a one sample t confidence interval for a population mean.\n\nThe numbers above have been filled into this formula:\n\n$\\overline{x}\\pm t^{*}\\dfrac{s}{\\sqrt{n}}$, where $t^{*}$ is the critical value based on the degrees of freedom taken from Table B where degrees of freedom is equal to $n-1$, $\\overline{x}$ is the sample mean, $n$ is the sample size, and $s$ is the sample standard deviation.\n\nUsing Table B we can see that with a sample size of 25 that we want to use 25−1=24 degrees of freedom. On that d.f. line look across for the critical value of 2.492 to see that the confidence level is 98%.\n\nThis then allows us to say that we are 98% confident that the this confidence interval captures the population mean. This is the correct way to state a conclusion for a confidence interval.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because we do not know that the population mean is 50 since 50 is the sample mean.\n\nChoice 'B' is incorrect because we do not know if all 25\nvalues are in fact contained in the interval.\n\nChoice 'C' is incorrect because it is too vague. It does not say how it would be correct.\n\nChoice 'E' is incorrect because it gives a confidence level of 99%\ninstead of the correct 98%\n.",
   "tags": [
     "4.B",
     "UNC-4.S",

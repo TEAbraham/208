@@ -7,7 +7,7 @@
   ],
   "title": "Halloween Candy",
   "difficulty": "Medium",
-  "question_text": "Two large candy companies produce Halloween assortment bags which contain Cutsie Rolls as one of the candies in the bags. A firm did a verified study sampling these candy bags from each company and counting the number of Cutsie Rolls contained. It found that Company A had an average of $15$ Cutsie Rolls per bag while Company B had an average of $18$ Cutsie Rolls per bag.\nIf a $95\\%$ confidence interval of the difference of these two means had a margin of error of $2.54$, would you agree that Company B really had more Cutsie Rolls in its Halloween bags?",
+  "question_text": "Two large candy companies produce Halloween assortment bags which contain Cutsie Rolls as one of the candies in the bags. A firm did a verified study sampling these candy bags from each company and counting the number of Cutsie Rolls contained. It found that Company A had an average of $15$ Cutsie Rolls per bag while Company B had an average of $18$ Cutsie Rolls per bag.\nIf a $95\\%$ confidence interval of the difference of these two means had a margin of error of $2.54$, would you agree that Company B really had more Cutsie Rolls in its Halloween bags?<br>If a $95\\%$ confidence interval of the difference of these two means had a margin of error of $2.54$, would you agree that Company B really had more Cutsie Rolls in its Halloween bags?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nA simplified version of the confidence interval for the difference of two means would look like this:\n\n$(\\bar{x}_{1}-\\bar{x}_{2})\\pm$ the margin of error\n\nBecause we are given the value for the margin of error, such a simplified version can be used. Filling in the numbers given in the problem we get:\n\n$$(15-18)\\pm2.54\\approx (-5.54,-0.46)$$\n\nThis means that $95\\%$ of the time we are confident that Company B’s Halloween bags would contain between $0.5$ and $5.5$ more Cutsie Rolls. Note also that zero is not contained in the interval. So, Yes, this is convincing evidence that there are more of these candies in Company B’s Halloween bags.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the answer should be 'yes.'\n\nChoice 'B' is incorrect because the answer should be 'yes.'\n\nChoice 'C' is incorrect because we do know enough to create a confidence interval and evaluate it.\n\nChoice 'E' is incorrect because it states that zero is contained in the interval, which it is not.",
   "tags": [
     "UNC-4.AA.1",
     "UNC-4.AA",

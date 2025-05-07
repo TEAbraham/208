@@ -26,16 +26,15 @@
     },
     {
       "letter": "D",
-      "text": "0.0791"
+      "text": "$0.0791$"
     },
     {
       "letter": "E",
-      "text": "0.4219"
+      "text": "$0.4219$"
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In this situation, the shooter must make three shots, and then miss the fourth. Each free-throw attempt is independent of the previous, so the probability of making the shot is 75% each time. Conversely, there is a 25% chance that he will miss.\n\nP(Score, Score, Score, Miss)\n\n=0.75∗0.75∗0.75∗0.25\n\n=0.1054\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "VAR-4.E.1",
     "VAR-4.E",

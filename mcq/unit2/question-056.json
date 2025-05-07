@@ -10,7 +10,7 @@
   ],
   "title": "Removing Outliers: Baseball",
   "difficulty": "Easy",
-  "question_text": "<br><br><br><br>A baseball manager is hoping to guess the speed of pitches thrown by the opposing pitcher based on how often his players strike out during the season. The manager recorded the number of times each player struck out and the average speed of pitches thrown to that player. The data points for each player are represented by a red dot in the scatterplot above.<br>How would the correlation change if the regression outlier was removed?",
+  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved.<br><br>A baseball manager is hoping to guess the speed of pitches thrown by the opposing pitcher based on how often his players strike out during the season. The manager recorded the number of times each player struck out and the average speed of pitches thrown to that player. The data points for each player are represented by a red dot in the scatterplot above.<br>How would the correlation change if the regression outlier was removed?",
   "image_files": [
     "images/question-056-img1.jpg"
   ],
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is correct.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The point in question is clearly outside the pattern of the rest of the data. Removing it would greatly change the correlation, as correlation is not resistant. Since the points now have a much more clear pattern after removing this outlier, the correlation would increase.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. While this is somewhat subjective, the correlation would increase significantly, since this point is far outside the pattern of data.\n\nChoice 'C' is incorrect. The correlation would increase, not decrease. For the correlation to decrease when a point is removed, that point would have to be directly in the pattern the other points are in.\n\nChoice 'D' is incorrect. The correlation would increase, not decrease.\n\nChoice 'E' is incorrect. The correlation would only remain about the same if the point was roughly in the same pattern as the other points.",
   "tags": [
     "2.C",
     "DAT-1",

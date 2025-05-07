@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Any inference procedure, such as a hypothesis test, is performed on sample data, not on population data. The entire point of inference is to take a sample or samples and hope that gives us information about a population or populations. Therefore, Statement I is true while Statement II is false.\n\nWhen sampling from a finite population and dealing with proportions, the population should be at least $10$ times the sample as a general rule. However, this condition is NOT required for all hypothesis testing. Statement III is false.\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "4.B",
     "DAT-3",

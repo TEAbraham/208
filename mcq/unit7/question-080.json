@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The value in the upper tail to the right of $z = 1.71$ is $1 – 0.9564 = 0.0436$. Since this is a two-sided alternative, you must consider that you were unsure of the experimental result; it could also have occurred in the left tail of the $z$-curve.\n\nThus, the probability calculated must be doubled in order to report the correct $p$-value:\n\n$0.0436 \\cdot 2 = 0.0872$\n\nTherefore, the correct answer is Choice 'B'.",
   "tags": [
     "4.E",
     "DAT-3.E",

@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice ‘C’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nIn a chi-square goodness of fit test, the term goodness of fit is used to compare the observed sample distribution with the expected probability distribution. This type of test is most appropriate when studying one categorical variable.\n\nIn this case, the observed sample distribution is, for each type of wallpaper, the number of phones that have been returned. A goodness of fit test is most appropriate here because, if the type of wallpaper has no effect on the rate of return, the proportion of phones returned with each type of wallpaper should be the same.\n\nThus, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect: A z test for a population proportion is used to test if a single population proportion is equal to a value. This type of test is not appropriate here, as three different proportions are being studied (the proportion of phones returned with a baby photo, the proportion of phones returned with a dog photo, and the proportion of phones returned with an inspirational quote).\n\nChoice ‘B’ is incorrect: A z test for a population mean is used to test if a single population average is equal to a value. This type of test requires the standard deviation of the population be given (or known) and is used to test a quantitative variable. This type of test is not appropriate here, as three different proportions are being studied.\n\nChoice ‘D’ is incorrect: A chi-square test for homogeneity is used for analyzing a categorical variable for two or more populations. Here, the results of a single population are analyzed.\n\nChoice ‘E’ is incorrect: Three proportions are being analyzed here; a $2$-sample z test for population proportions analyzes results from two proportions.",
   "tags": [
     "VAR-8.C",
     "VAR-8.C.1",

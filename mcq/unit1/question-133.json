@@ -9,7 +9,7 @@
   ],
   "title": "Number of AP Classes: Information from a Dotplot",
   "difficulty": "Medium",
-  "question_text": "On the first day of school, Mrs. Jackson asked students in her AP Statistics class how many AP classes they were taking during the current school year. The dotplot below shows the distribution of responses.<br><br><br><br><br>What is the smallest number of AP classes that would put a student in the 80th percentile?",
+  "question_text": "On the first day of school, Mrs. Jackson asked students in her AP Statistics class how many AP classes they were taking during the current school year. The dotplot below shows the distribution of responses.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>What is the smallest number of AP classes that would put a student in the 80th percentile?",
   "image_files": [
     "images/question-133-img1.PNG"
   ],
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The\n25\n dots\nin the dotplot represent the responses of\n25\n students\n. Since the value at the\n80\nth\n percentile\nwill be greater than or equal to\n80\n%\nof the values in the distribution, we first need to determine what number is\n80\n%\nof\n25\n.\n\n80\n%\n of \n25\n=\n(\n0.80\n)\n(\n25\n)\n=\n20\n\nStarting with the dots above the number\n1\n, count up until you reach the\n20\nth\n dot\n. The\n20\nth\n dot\nwill be above the number\n4\nand tells us that about\n80\n%\nof the values were at or below\n4\n. This means that a student with\n4\nAP classes would be in the\n80\nth\n percentile\nfor this distribution.\n\nYou may feel uncomfortable with the fact that above the number\n4\n, there are two \"extra dots\" beyond the\n20\nth\n dot\ncounted in the plot. You might also (correctly) argue that since\n22\nout of\n25\nvalues were at or below\n4\n, having\n4\nAP classes should actually put a student at the\n88\nth\n percentile\n. However, the question only asks about the\n80\nth\n percentile\n. Therefore, Choice 'C' is the best answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Having\n2\nAP classes is greater than or equal to only\n9\nout of\n25\nobservations. Since\n9\n25\n=\n0.36\n, having\n2\nAP classes would be at the\n36\nth\npercentile.\n\nChoice 'B' is incorrect. Having\n3\nAP classes is greater than or equal to\n17\nout of\n25\nobservations. Since\n17\n25\n=\n0.68\n, having\n3\nAP classes would be at the\n68\nth\npercentile.\n\nChoice 'D' is incorrect. Having\n5\nAP classes is greater than or equal to\n24\nout of\n25\nobservations. Since\n24\n25\n=\n0.96\n, having\n5\nAP classes would be at the\n96\nth\npercentile.\n\nChoice 'E' is incorrect. Having\n6\nAP classes is greater than or equal to all\n25\nobservations. Therefore,\n6\nAP classes is at the\n100\nth\npercentile.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.1",

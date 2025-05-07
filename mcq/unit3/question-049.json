@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "In a simple random sample of size 40\n, every possible sub-group of size 40\nin the overall population of seniors at this high school would have an equal chance of being selected.\n\nThis means that the probability of selecting a sample consisting of two students from each homeroom would be the same as the probability of selecting a sample consisting of 40\nstudents from each of two homerooms containing 20\nstudents.\n\nUnder the described sampling method however, a sample consisting of 40\nstudents from each of two homerooms containing 20\nstudents is not possible. Therefore, the method described would not result in a simple random sample of seniors at this high school.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Since we are only interested in making sure each sample of size 40\nhas an equal chance of being selected, it does not matter that the homerooms are all from the same grade.\n\nChoice 'C' is tempting, but is incorrect based upon the definition of SRS. What is important is that each group of size 40\nhas an equal chance of being selected, not that each individual has an equal chance of being selected.\n\nChoices 'D' and 'E' are incorrect because they claim that the sample is a SRS by referring to the idea of \"simple\" or \"random\" without a true understanding of the definition of SRS.",
   "tags": [
     "DAT-2.C.2",
     "DAT-2",

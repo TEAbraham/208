@@ -23,7 +23,7 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Variables</title>
+    <title>Normal Distribution</title>
 
     <!-- CSS Imports -->
     <link rel="stylesheet" type="text/css" href="../../css/jquery-ui.css" />
@@ -101,12 +101,9 @@
                   <li><a href="../../apps/binomial_distribution/">Binomial Distribution</a></li>
                   <li><a href="../../apps/geometric_distribution/">Geometric Distribution</a></li>
                   <li><a href="../../apps/random_variables/">Random Variables</a></li>
-                  <li><a href="../../apps/sampling_distributions/">Sampling Distributions</a></li>
+                  <li><a href="../../apps/confidence_intervals/">Confidence Intervals</a></li>
                 </ul>
               </li>
-              <li class="dropdown">
-                <a href="../../glossary/" class="dropbtn">Glossary</a>
-            </li>
               <li class="dropdown">
                 <a href="../../mcq/" class="dropbtn">MCQ</a>
               </li>
@@ -134,7 +131,7 @@
   <div class="layout">
     <div class="sidebar">
       <div id="input-toggle-area">
-        <label><input type="checkbox" id="toggle-manual"> Use manual inputs</label>
+        <label class="switch"><input type="checkbox" id="toggle-manual"><span class="slider round"></span></label>
       </div>
       <div id="slider-inputs">
         <label>Mean (μ): <span id="mu-label"></span></label>
@@ -316,7 +313,7 @@ function update() {
   else shade = [x1, x2];
 
   const area = d3.area().x(d => x(d.x)).y0(height).y1(d => y(d.y));
-  g.append("path").datum(data.filter(d => d.x >= shade[0] && d.x <= shade[1])).attr("fill", "orange").attr("fill-opacity", 0.3).attr("d", area);
+  g.append("path").datum(data.filter(d => d.x >= shade[0] && d.x <= shade[1])).attr("fill", "#FF9B3C").attr("fill-opacity", 0.3).attr("d", area);
   g.append("path").datum(data).attr("stroke", "black").attr("fill", "none").attr("d", d3.line().x(d => x(d.x)).y(d => y(d.y)));
   g.append("g").attr("transform", `translate(0,${height})`).call(d3.axisBottom(x));
   g.append("g").call(d3.axisLeft(y));
@@ -339,9 +336,9 @@ function update() {
     svg.selectAll("*").remove();
     const width = +svg.attr("width") - 40, height = +svg.attr("height") - 40;
     const g = svg.append("g").attr("transform", "translate(40,20)");
-    const x = d3.scaleLinear().domain([mu - 20, mu + 20]).range([0, width]);
+    const x = d3.scaleLinear().domain([mu - 5, mu + 5]).range([0, width]);
     const y = d3.scaleLinear().domain([0, normalPDF(mu, mu, sigma)]).range([height, 0]);
-    const data = d3.range(mu - 20, mu + 20, 0.1).map(d => ({x: d, y: normalPDF(d, mu, sigma)}));
+    const data = d3.range(mu - 5, mu + 5, 0.1).map(d => ({x: d, y: normalPDF(d, mu, sigma)}));
     let shade = [mu - 4*sigma, mu + 4*sigma];
     if (type === "lower") shade = [mu - 4*sigma, mu + sigma * Math.sqrt(2) * erfInv(2*prob - 1)];
     else if (type === "upper") shade = [mu + sigma * Math.sqrt(2) * erfInv(2*(1 - prob) - 1), mu + 4*sigma];
@@ -351,7 +348,7 @@ function update() {
       shade = [low, high];
     }
     const area = d3.area().x(d => x(d.x)).y0(height).y1(d => y(d.y));
-    g.append("path").datum(data.filter(d => d.x >= shade[0] && d.x <= shade[1])).attr("fill", "orange").attr("fill-opacity", 0.3).attr("d", area);
+    g.append("path").datum(data.filter(d => d.x >= shade[0] && d.x <= shade[1])).attr("fill", "#00d0a1").attr("fill-opacity", 0.3).attr("d", area);
     g.append("path").datum(data).attr("stroke", "black").attr("fill", "none").attr("d", d3.line().x(d => x(d.x)).y(d => y(d.y)));
     g.append("g").attr("transform", `translate(0,${height})`).call(d3.axisBottom(x));
     g.append("g").call(d3.axisLeft(y));

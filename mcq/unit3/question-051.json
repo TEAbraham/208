@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "The engineer will look at the calendar and choose the $20\\text{ days}$ from the following year that he feels will best represent traffic conditions at that intersection."
+      "text": "The engineer will look at the calendar and choose the 20 days from the following year that he feels will best represent traffic conditions at that intersection."
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This method includes a randomization method and then a random selection via a random number table. This way, each day has an equal chance of selection.\n\nExplanation of Distractors\n\nChoice 'A' would be a complete description if it included shuffling the cards. Having them ordered is essentially a lack of randomness.\n\nChoices 'B' and 'D' are incorrect because they will most likely sample only days from the first quarter of the year. These days might be different in an important way from the rest of the year.\n\nChoice 'E' is incorrect because there is no randomness involved. Humans are notoriously bad at choosing a representative sample on their own.",
   "tags": [
     "DAT-2.C.2",
     "DAT-2",

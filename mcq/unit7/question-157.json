@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThere are two areas that must be verified in order to calculate a confidence interval for the difference of two means.\n\nFirst, independence must be verified. This involves knowing that the samples were randomly selected from two independent populations. In addition, each of those populations must be at least $10$ times greater in size than each sample size. In this problem, it is stated that the samples were randomly selected from their populations. One population of $360$ is more than $10$ times the size of its sample, but the other population of $210$ is not. This is why all of the conditions cannot be verified.\n\nSecond, the sampling distribution of the difference of the two population means should be approximately normal in shape. This can be done by ensuring that each sample is greater than $30$. In this case, this is true. If not greater than $30$, then there must be information available to show that skewness is not an issue.\n\nSo, Choice 'C' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because all of the conditions cannot be verified. The population of the first sample is not at least $10$ times larger than its sample size.\n\nChoice 'B' is incorrect because samples simply must be larger than $30$. In all these cases of the prompt, they are.\n\nChoice 'D' is incorrect because, while the problem does not state that the samples are independent of each other, they indeed are. A person cannot qualify to both under age $40$ as well as over age $40$. In other words, no person could qualify to be in each sample, so the two age groups are independent.\n\nChoice 'E' is incorrect because needing more information is unnecessary since the size of both samples is greater than $30$.",
   "tags": [
     "4.C",
     "UNC-4.W.1",

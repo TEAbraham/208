@@ -8,7 +8,7 @@
   ],
   "title": "Take a Tablet",
   "difficulty": "Hard",
-  "question_text": "A company sold two tablet computers: the Earth Tablet and the Air Tablet. The company was looking to investigate whether men or women prefer either tablet. In a random sample of $60$ women, $70\\%$ preferred the Earth Tablet. A random sample of $60$ men showed that $50\\%$ of them preferred the Earth Tablet.\nBased on a $99\\%$ confidence interval, can we be sure that women prefer the Earth Tablet more than the men? Answer \"yes\" or \"no\" and state why.",
+  "question_text": "A company sold two tablet computers: the Earth Tablet and the Air Tablet. The company was looking to investigate whether men or women prefer either tablet. In a random sample of $60$ women, $70\\%$ preferred the Earth Tablet. A random sample of $60$ men showed that $50\\%$ of them preferred the Earth Tablet.\nBased on a $99\\%$ confidence interval, can we be sure that women prefer the Earth Tablet more than the men? Answer \"yes\" or \"no\" and state why.<br>Based on a $99\\%$ confidence interval, can we be sure that women prefer the Earth Tablet more than the men? Answer \"yes\" or \"no\" and state why.",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe formula for a confidence interval for the difference of two proportions is:\n\n$$(\\hat{p}_{1}-\\hat{p}_{2})\\pm z^{*}\\sqrt{\\dfrac{\\hat{p}_{1}(1-\\hat{p}_{1})}{n_{1}}+\\dfrac{\\hat{p}_{2}(1-\\hat{p}_{2})}{n_{2}}}$$\n\n...where $\\hat{p}_{1}$ and $\\hat{p}_{2}$ are the given proportions, ${n_{1}}$ and ${n_{2}}$ are the given sample sizes, and $z^{*}$ is the critical value for the given confidence level.\n\nIn this problem, we assume all conditions have been verified, we will plug in the values:\n\n$$(0.70-0.50)\\pm 2.576\\sqrt{\\dfrac{0.7(1-0.7)}{60}+\\dfrac{0.5(1-0.5)}{60}}$$\n\nSimplify this to get $0.20\\pm0.23=(-0.03, 0.43)$.\n\nNow, we notice that zero is included in the confidence interval. When this happens we cannot be confident that there is a difference. This means that we cannot state that the women prefer the Earth Tablet over the men.\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the answer should be \"no\" and the explanation does not use the confidence interval.\n\nChoice 'B' is incorrect because the answer should be \"no\" and the confidence interval values are wrong since they are based on a $95\\%$ confidence level.\n\nChoice 'D' is incorrect because the confidence interval values are wrong since they are based on a $95\\%$ confidence level.\n\nChoice 'E' is incorrect because the confidence interval values are wrong since they are based on a $98\\%$ confidence level.",
   "tags": [
     "UNC-4.N.1",
     "4.D",

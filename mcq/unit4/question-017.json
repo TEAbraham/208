@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "A school divided its students evenly into 6 groups to assign to its 6 guidance counselors. The students of each counselor were assigned a number from 1 to 6. For a statistics project a student wanted to estimate the probability of picking two random students at a time and seeing if they were of the same gender."
+      "text": "A school divided its students evenly into $6$ groups to assign to its $6$ guidance counselors. The students of each counselor were assigned a number from $1$ to $6$. For a statistics project a student wanted to estimate the probability of picking two random students at a time and seeing if they were of the same gender."
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nHere we describe a simulation which is meant to estimate a probability. The prompt describes a simulation based on use of a die to establish randomness. We must find the answer that best describes the situation it could be simulating.\n\nA 6-sided die implies that we need 6 groups with the same number of items, in this case the numbers represent the 6 counselors. Thus, say a 5 is rolled, then it is assumed that a random student is assigned to the counselor designated by the number 5.\n\nBecause it states that the die is rolled 100 times, this implies a simulation of 100 students. Because the numbers were examined in pairs, there are 50 sets of student pairs or 50 samples. This is why the number of similar pairs is divided by 50 to obtain the estimated probability of whether the pair of students in fact share the same guidance counselor.\n\nSo, Choice 'D' is the correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because the items are somewhat stated out of order. For example the students would not be selected first. It is also unclear how the students would be paired up.\n\nChoice 'B' is incorrect because there is some information lacking. There is no description that the students would be selected in pairs.\n\nChoice 'C' is incorrect because the groups are grouped by total SAT scores with no mention of being split into math and verbal.\n\nChoice 'E' is incorrect because there is no mention of gender in the assignment of guidance counselors.",
   "tags": [
     "UNC-2.A.4",
     "3.A",

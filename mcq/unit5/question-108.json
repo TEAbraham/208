@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice ‘A’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nTo find the percent of the Seniors at this local high school who take more than $32$ minutes to travel to school, a normal probability is calculated. First, calculate the z-score for $32$ minutes by using the z-score formula:\n$$z-\\text{score} = \\dfrac{\\text{data value} - \\text{mean}} {\\text{standard deviation}}$$\n\nHere, the $z-\\text{score} = \\dfrac{32 - 22} {7.8} = \\dfrac{10} {7.8} = 1.39$\n\nNext, Table A, the Normal Distribution Table, is used and the area to the left that corresponds to the $z-\\text{score}$ of $1.39$ is found to be $0.9176$. Thus, the area to the right of the $z-\\text{score}$ of $1.39$ is $1 - 0.9176$ = $0.0824$, the percent of the Seniors at this local high school who take more than $32$ minutes to travel to school.\n\nAlternatively, the calculator can be used to calculate this percent by using the following command: $\\text{normcdf}(32, \\infty, 22, 7.2)$\n\nSo, Choice 'A' is correct.\n\nExplanation of Distractors\n\nChoice ‘B’ is incorrect. This gives the percent of Seniors who take less than $32$ minutes to travel to school.\n\nChoice ‘C’ is incorrect. This gives the percent of Seniors who take between $22$ and $32$ minutes to travel to school.\n\nChoice ‘D’ is incorrect. If Table A was used as described above, but $32$ was used incorrectly as the $z-\\text{score}$, the area to the right of $32$ would be $0$.\n\nChoice ‘E’ is incorrect. This incorrectly gives the value of the $z-\\text{score}$ as a percentage.",
   "tags": [
     "VAR-6.A.3",
     "VAR-6.A",

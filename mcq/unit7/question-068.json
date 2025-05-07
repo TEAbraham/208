@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The problem mentions that we are taking independent samples thus making this a two sample mean t-test.\n\nThe null hypothesis is often a statement of no difference. In this case, the null hypothesis would mean that the two samples are equal.\n\nThe alternative hypothesis is the claim we are trying to find evidence for. So in this case, we are looking to prove that women's exercise heart rates are greater than men's.\n\nChoice 'A' is the correct answer since we are looking to see if women's exercise heart rate is greater than men's exercise heart. Therefore the ${ H }_{ a }:{ \\mu }_{ W }>{ \\mu }_{ M }$.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect as the alternative hypothesis is indicating we are looking to prove women's exercise heart rate is less than men's exercise heart rate.\n\nChoice 'C' is incorrect as the alternative hypothesis is indicating we are looking to prove women's exercise heart rate is different than men's exercise heart rates.\n\nChoices 'D' and 'E' can be eliminated as these hypotheses represent a paired t-test for means.",
   "tags": [
     "DAT-3.F",
     "4.E",

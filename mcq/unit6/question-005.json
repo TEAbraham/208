@@ -7,7 +7,7 @@
   ],
   "title": "Baseball Pitcher",
   "difficulty": "Easy",
-  "question_text": "A baseball player claims he throws $90\\%$ strikes when he's pitching. His AP Statistics attends the next game he pitches, and records the number of strikes. The baseball player threw $80\\%$ strikes during the game the teacher attended.<br>The teacher decides to run a simulation with a random number generator where the proportion of strikes is known to be $0.9$.\nWhat question is the teacher most likely trying to answer?",
+  "question_text": "A baseball player claims he throws $90\\%$ strikes when he's pitching. His AP Statistics attends the next game he pitches, and records the number of strikes. The baseball player threw $80\\%$ strikes during the game the teacher attended.<br>The teacher decides to run a simulation with a random number generator where the proportion of strikes is known to be $0.9$.\nWhat question is the teacher most likely trying to answer?<br>What question is the teacher most likely trying to answer?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "Since the teacher was told the proportion of strikes the student should be throwing was $90\\%$, the teacher should expect the student to be around $90\\%$. When the teacher observed the student, the student only threw $80\\%$ strikes. The teacher has to ask, \"Is this close enough to $90\\%$, or do I have evidence the student is not a $90\\%$ strike-thrower?\"\n\nTherefore, by doing a simulation where the known proportion of strikes thrown is $90\\%$, the teacher is seeing if $80\\%$ happens enough by chance to say the player could actually be a $90\\%$ strike-thrower and this game just happened by chance.\n\nChoice 'D' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nSince the teacher was told the proportion of strikes the student should be throwing was $90\\%$, the teacher should expect the student to be around $90\\%$. When the teacher observed the student, the student only threw $80\\%$ strikes. The teacher has to ask, \"Is this close enough to $90\\%$, or do I have evidence the student is not a $90\\%$ strike-thrower?\"\n\nTherefore, by doing a simulation where the known proportion of strikes thrown is $90\\%$, the teacher is seeing if $80\\%$ happens enough by chance to say the player could actually be a $90\\%$ strike-thrower and this game just happened by chance.\n\nChoice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The simulation will not show how many strikes the player will throw in the next game, it is not a predictive tool.\n\nChoice 'B' is incorrect. The shape of the distribution is unknown until we have a certain number of trials performed.\n\nChoice 'C' is incorrect. Without knowing the true probability of throwing a strike, we cannot find the expected number of strikes thrown.\n\nChoice 'E' is incorrect. Again the simulation is not a predictive tool. Therefore, it will not tell us the proportion of strikes thrown in the next game.",
   "tags": [
     "VAR-1.H",
     "VAR-1.H.1",

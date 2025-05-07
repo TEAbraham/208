@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A Type II Error occurs when you fail to reject the null hypothesis when the null hypothesis is actually false, meaning the alternative hypothesis is true.\n\nExplanation of Distractors Choice 'A' is incorrect as this is an example of a Type I error. A Type I error occurs when the null hypothesis is rejected when the null hypothesis is actually true. Choice 'C' is incorrect as this is an example of power. Power is the probability the null hypothesis is correctly rejected. Choice 'D is incorrect as this is an example of correctly failing to reject the null hypothesis. Choice 'E' is incorrect.\nIn this case:\n\n${ H }_{ 0 }$: The survival rate with the new airbag packs is the same as the old airbag packs.\n${ H }_{ a }$: The survival rate with the new airbag packs is greater than the old airbag packs.\n\nThe alternative hypothesis demonstrates an increased survival rate as this is what the company is trying to prove.\n\nIn this case the Type II error would be the company does not find any evidence that the new airbag packs increased the survival rate(fail to reject the ${ H }_{ 0 }$) when in reality the new airbag packs actually increased the survival rate(${ H }_{ a }$ is true).\n\nChoice 'B' is the correct answer.",
   "tags": [
     "UNC-5.A.1",
     "UNC-5.A",

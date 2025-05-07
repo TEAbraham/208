@@ -15,28 +15,27 @@
   "choices": [
     {
       "letter": "A",
-      "text": "0.9949"
+      "text": "$0.9949$"
     },
     {
       "letter": "B",
-      "text": "0.9960"
+      "text": "$0.9960$"
     },
     {
       "letter": "C",
-      "text": "0.9965"
+      "text": "$0.9965$"
     },
     {
       "letter": "D",
-      "text": "0.9970"
+      "text": "$0.9970$"
     },
     {
       "letter": "E",
-      "text": "0.9978"
+      "text": "$0.9978$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The $z$-table identifies the proportion of observations in a normal distribution that will fall below a given $z$-score. Find the $z$-score of $2.75$ by looking down the first column until you see $2.7$.\n\nThen follow across this row until it intersects with the column labeled $0.05$. Together this represents a $z$-score of $2.75$. The entry at this intersection ($0.9970$) is the proportion of observations that will fall below $z = 2.75$.\n\nChoice 'D' is the correct answer.\n\nIt can be easy to capture an incorrect value when looking at the z-table. Be careful.\n\nExplanation of Distractors\n\nChoice 'A' corresponds with a z-score of 2.57.\n\nChoice 'B' corresponds with a z-score of 2.65.\n\nChoice 'C' corresponds with a z\n-score of 2.70\n.\n\nChoice 'E' corresponds with a z\n-score of 2.85\n.",
   "tags": [
     "VAR-2.B",
     "VAR-2.B.1",

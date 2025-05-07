@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "This situation deals with conditional probability. Remember, formula is:",
-  "solution": "",
-  "explanations": {},
+  "solution": "$$\\text{P(A|B)}=\\dfrac{\\text{P(A and B)}}{\\text{P(B)}}$$\n\nWhatever fact is “given” should be on the bottom of the fraction. In this case, the bottom of the fraction is P(B) = $0.55$, because the problem asks for the probability “given” Sophia gets into school B.\n\nOf all of B, $0.25$ contains A as well. Therefore, the answer is $\\dfrac{0.25}{0.55} = 0.4545$.\n\nThus, the correct answer is Choice 'A'.\n\nNote: This problem could also be solved using a Venn diagram.",
   "tags": [
     "VAR-4.D.1",
     "3.A",

@@ -19,7 +19,7 @@
     },
     {
       "letter": "B",
-      "text": "Sample size large enough; say over $30$."
+      "text": "Sample size large enough; say over 30."
     },
     {
       "letter": "C",
@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Choice 'B' is not a requirement; large sample sizes are helpful, but binomial distributions deal with sample proportions, and larger samples over\n30\nis a requirement that deals more with sample means.\n\nChoice 'A', 'C', 'D', and 'E' correctly outline the four necessary conditions for binomial distribution.",
   "tags": [
     "UNC-3.A.2",
     "3.A",

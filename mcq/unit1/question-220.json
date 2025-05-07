@@ -9,35 +9,32 @@
   "title": "Probability Calculation",
   "difficulty": "Medium",
   "question_text": "On the standard normal curve, $P(-1.1 < z < 0.60)=$",
-  "image_files": [
-    "images/question-220-img1.png"
-  ],
+  "image_files": [],
   "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "0.1357"
+      "text": "$0.1357$"
     },
     {
       "letter": "B",
-      "text": "0.2743"
+      "text": "$0.2743$"
     },
     {
       "letter": "C",
-      "text": "0.59"
+      "text": "$0.59$"
     },
     {
       "letter": "D",
-      "text": "0.6915"
+      "text": "$0.6915$"
     },
     {
       "letter": "E",
-      "text": "0.7257"
+      "text": "$0.7257$"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Created for Albert.io. Copyright 2017. All rights reserved.\n\n\n\nUse either a table of standard normal curve probabilities or your calculator to determine the probability.\n\nUsing the table of standard normal curve probabilities, first look up a $z$-value of $-1.1$, and you will get $0.1357$, which is the area of the standard normal curve from negative infinity to $-1.1$, the left area on the sketch above.\n\nThen look up a $z$-value of $0.6$, and you will get $0.7257$, which is the area from negative infinity to $z = 0.6$. Subtracting these two areas to determine the area of the shaded region yields $0.7257-0.1357 = 0.59$.\n\nIf using a calculator, use the command normalcdf (-1.1,0.6) to get $0.5901$ as the answer.\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "VAR-2.B",
     "VAR-2.B.1",

@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nThe conditions to verify for a test for the difference of population proportions include a check for independence and a check to see that the sampling distribution of the difference of the proportions is approximately normally distributed.\n\nTo check for independence, both samples must be randomly drawn. In addition, both sample sizes must be the same or smaller than 10% of the size of the populations.\n\nTo check for approximate normality, first a pooled standard error,\nˆ\np\nc must be calculated rather than using two separate proportion values. Finally, four expressions must be evaluated to make sure that they are greater than or equal to either 5, or, more commonly, 10.\n\nThese checks are all listed in the first 4 answer choices of this question. When looking at conditions for a test for the difference in population means, then it should be verified that both sample sizes are at least of size 30 or higher.\n\nSo, Choice 'E' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because this is a condition which must be verified.\n\nChoice 'B' is incorrect because this is a condition which must be verified.\n\nChoice 'C' is incorrect because this is a condition which must be verified.\n\nChoice 'D' is incorrect because this is a condition which must be verified.",
   "tags": [
     "4.C",
     "VAR-6.J",

@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The mode is the most common value in the dataset.\n\nFor the Defenders, the most common value is $5.5$. The stem is $5$ and the leaf of $5$ appears three times. These each represent $5.5$ fantasy points for the week.\n\nFor the PointMisers, the mode is actually $0$ points, which appears three times.\n\nThe median is the middle number if the dataset has an odd amount of elements, and is the average of the two middle numbers if the dataset has an even number of elements.\n\nWith $16$ games played, we take the average of the $8\\text{th}$ and $9\\text{th}$ numbers. For the Defenders, the $8\\text{th}$ value is $5.5$ and the $9\\text{th}$ value is $6.0$, so the median is $5.75$. For the PointMisers, the $8\\text{th}$ value is $6.5$ and the $9\\text{th}$ value is $6.8$, so the median is $6.65$. Therefore, The Defenders have a higher mode and the PointMisers have a higher median.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect because the Defenders have a greater mode ($5.5$ versus $0$).\n\nChoice ‘C’ is incorrect because the PointMisers have a greater mean than the Defenders ($6.475$ versus $6.45$).\n\nChoice ‘D’ is incorrect because the Defenders have a greater mode ($5.5$ versus $0$).\n\nChoice ‘E’ both because the PointMisers have a greater mean than the Defenders ($6.475$ versus $6.45$), and the PointMisers do have a mode ($0$).",
   "tags": [
     "UNC-1.N.1",
     "2.D",

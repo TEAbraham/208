@@ -8,7 +8,7 @@
   ],
   "title": "Paper Airplanes",
   "difficulty": "Easy",
-  "question_text": "A statistics student asks $32$ other students to build paper airplanes without specific instructions as to size. He asks them to record both the length of the planes and the length of the flights. He wanted to create a confidence interval for the slope of the regression equation for these variables.\nWhat would the value of the degrees of freedom be to obtain the value of $t^{*}$?",
+  "question_text": "A statistics student asks $32$ other students to build paper airplanes without specific instructions as to size. He asks them to record both the length of the planes and the length of the flights. He wanted to create a confidence interval for the slope of the regression equation for these variables.\nWhat would the value of the degrees of freedom be to obtain the value of $t^{*}$?<br>What would the value of the degrees of freedom be to obtain the value of $t^{*}$?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "31"
+      "text": "$31$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWhen finding the degrees of freedom for constructing a confidence interval for a linear regression model for estimating slope, we would simply subtract 2 from the sample size. So, the degrees of freedom =n−2.\n\nIn this problem, 32 students were making paper airplanes so the sample size is 32. Thus, the degrees of freedom is equal to 32−2=30.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because here the sample size is simply recorded.\n\nChoice 'B' is incorrect because here the sample size had 2 subtracted and then the number was doubled.\n\nChoice 'C' is incorrect because here the sample size was doubled (thinking of 64\npieces of data).\n\nChoice 'E' is incorrect because here 1\ninstead of 2\nwas subtracted from the sample size.",
   "tags": [
     "UNC-4.AC",
     "UNC-4",

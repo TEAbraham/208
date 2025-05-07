@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "This is the requirement for a binomial distribution to be approximately normal.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; distributions of sample means will be roughly normal if the sample is over $30$ due to the central limit theorem. This condition, however, is not true for binomial distributions.\n\nChoices 'B' and 'E' and incorrect; these are binomial requirements, but not for normal distribution.\n\nChoice 'D' is incorrect; this condition deals with the idea that selections must be roughly independent; while being independent is another condition to be binomial, it is not a requirement to be normal.",
   "tags": [
     "VAR-6.C",
     "VAR-6.C.1",

@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "$(-0.034, 0.0683)$"
+      "text": "(−0.034,0.0683)"
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Use the following formula or a TI-83/84 calculator to construct a two-proportion Z-interval:\n\n(\n^\np1\n−\n^\np2\n)±z∗\n√\n^\np1\n(1−\n^\np1\n)\nn1\n+\n^\np2\n(1−\n^\np2\n)\nn2\n\nz∗=1.96\nusing the standard normal chart\n\nn1=50\n\nn2=50\n\np1=\n34\n50\n=0.68\n\np2=\n29\n50\n=0.58\n\nThus, the correct answer is Choice 'B'\n\nNote: On the AP test, the formula's listed are not given in their entirety. However, it is given on the test that a confidence interval is constructed by the following:\n\nstatistic±( critical value⋅standard deviation of statistic)\n\nFurthermore, the standard deviation formula is given on the AP test as well. A student only needs to put the pieces together rather than simply memorize a formula.",
   "tags": [
     "VAR-6.I",
     "VAR-6.I.1",

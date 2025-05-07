@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "$${ \\ln (\\hat{D}) }= 0.94\\ln(30)$$\n\nSubstitute $30$ in for $t$:\n\n$$ { \\ln(\\hat{D}) }= 3.197$$\n\nSimplify:\n\n$$ { e }^{ { \\ln(\\hat{D}) } }={ e }^{ 3.197 }$$\n\nRaise both sides to the $e$:\n\n$$ \\hat { D } = 24.459$$",
   "tags": [
     "2.C",
     "DAT-1",

@@ -28,7 +28,7 @@
     },
     {
       "letter": "D",
-      "text": "r, the correlation of the sample data"
+      "text": "$r$, the correlation of the sample data"
     },
     {
       "letter": "E",
@@ -36,8 +36,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer",
-  "solution": "Since the parent used random samples, n=25\n, the data provided on the table represents sample data. Therefore, we can only find the y-intercept, slope, correlation, standard deviation of the residuals, for our sample data.\n\nThe samples do provide an estimate for the parameter values, but the parameters values (the values for the population regression line) are not given on the table above.\n\nTherefore, we cannot find β\nas it is the slope of the population standard deviation.\n\nChoice 'B' is correct.",
-  "explanations": {},
+  "solution": "Solution\n\nSince the parent used random samples, $n = 25$, the data provided on the table represents sample data. Therefore, we can only find the y-intercept, slope, correlation, standard deviation of the residuals, for our sample data.\n\nThe samples do provide an estimate for the parameter values, but the parameters values (the values for the population regression line) are not given on the table above.\n\nTherefore, we cannot find $\\beta$ as it is the slope of the population standard deviation.\n\nChoice 'B' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Since $a$ is the y-intercept of the sample regression line, this value is provided on the table above.\n\nChoice 'C' is incorrect. Since $b$ is the slope of the sample regression line, this value is provided on the table above.\n\nChoice 'D' is incorrect. Even though we are not explicitly given $r$, we are given $r^2$, in which case we can take the square root and find the correlation of the sample data.\n\nChoice 'E' is incorrect. The standard deviation of the residuals is the proper name for $s$, which is given on the table as well.",
   "tags": [
     "1.A",
     "VAR-1.K",

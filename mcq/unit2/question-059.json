@@ -9,7 +9,7 @@
   ],
   "title": "Categorization of a Point in a Scatterplot",
   "difficulty": "Medium",
-  "question_text": "<br><br><br><br>The scatterplot above shows age and shoe-size data that researchers collected on a random sample of students in a middle school.<br>How would the point ($19, 14$) be categorized?",
+  "question_text": "Created for Albert.io. Copyright 2017. All rights reserved.<br><br>The scatterplot above shows age and shoe-size data that researchers collected on a random sample of students in a middle school.<br>How would the point ($19, 14$) be categorized?",
   "image_files": [
     "images/question-059-img1.jpg"
   ],
@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "An outlier is any point that does not follow the general trend and that has a high residual. While the point (\n19\n,\n14\n) is far away from the rest of the other data, it is still along the general trend.\n\nA high leverage point greatly affects either the slope and/or the correlation because it has a substantially larger or smaller\nx\n-value than the other observations. While the point may lie similarly on the linear regression line and would not affect the slope, it does fit the latter part of the definition of affecting the correlation.\n\nThis point would greatly increase the correlation coefficient, which indicates the strength of a linear trend, by a significant amount.\n\nThe point\n(\n19\n,\n14\n)\nfits the definition of a high leverage point.\n\nThus, the correct answer is Choice 'C'.",
   "tags": [
     "4.B",
     "DAT-1",

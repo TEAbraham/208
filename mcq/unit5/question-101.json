@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Statement I is false. Larger sample sizes yield smaller standard deviations in sampling distributions. The Central Limit Theorem gives us information about the sampling distribution, as it approaches a normal distribution with increasing sample size.\n\nStatement II is false. When the population distribution is nearly normal, the sampling distributions will always be nearly normal - no need for the CLT.\n\nStatement III is false. The Central Limit Theorem states that the larger the sample size, the more normal the shape of the sampling distribution. The shape of the population distribution cannot be changed.",
   "tags": [
     "UNC-3.H.2",
     "UNC-3.H.1",

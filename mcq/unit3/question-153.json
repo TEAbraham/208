@@ -14,7 +14,7 @@
   "choices": [
     {
       "letter": "A",
-      "text": "A difference of $2\\text{ points}$ on the test is not practically significant."
+      "text": "A difference of 2 points on the test is not practically significant."
     },
     {
       "letter": "B",
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "With such large standard deviations, the differences of 2 points\ncould have easily happened by chance. A statistical test could prove this, but by glancing at the standard deviations, it should be obvious without doing any calculations.\n\nThus, the correct answer is Choice 'B'",
   "tags": [
     "VAR-3.E",
     "4.B",

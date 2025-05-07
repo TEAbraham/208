@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice ‘D’ is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWhen two quantitative variables are being tested for a linear relationship, the t distribution is used. In addition, the degrees of freedom takes the form n –2, where n is the number of pairs of data in the sample.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice ‘A’ is incorrect: The t distribution is correct but the degrees of freedom are incorrectly stated. Degrees of freedom n –1 is used for hypothesis tests on the mean of a sample or on the difference between the means of two samples.\n\nChoice ‘B’ is incorrect: The standard normal distribution is used when inference procedures are describing proportions or when the population standard deviation, σ, is known. In most cases, σ will not be known, which is why a hypothesis test is being done in the first place!\n\nChoice ‘C’ is incorrect: The chi-square distribution is used when analyzing data on categorical variables. In order to perform linear regression on data, the data must consist of quantitative variables.\n\nChoice ‘E’ is incorrect: There is only one standard normal distribution. Degrees of freedom are used in other distributions (like the t distribution and the chi-square distribution) in order to select the correct curve, based on sample size, from the family of curves that make up each of those distributions.",
   "tags": [
     "VAR-7.M",
     "VAR-7",

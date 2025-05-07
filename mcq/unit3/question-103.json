@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A matched pair design is a type of a randomized block design. It is used when the experiment has only two treatment conditions; and the units can be grouped into pairs, based on some blocking component. Within each pair, the units are randomly assigned to different treatments.\n\nIn this design, we have created blocks by matching pairs of similar neighborhoods.\n\nAlso, notice the keyword pair in the question.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect as a treatment is being imposed which means this is an experiment.\n\nChoice 'B' is incorrect because in a completely randomized design, the treatments are all assigned to the experimental units by chance. For example, with the 40\nneighborhoods we have in our sample, we would assign each neighborhood a number 1\nthrough 40\n.\n\nUsing a random number generator. we would choose the first 20\nnumbers (ignoring repeats). Those neighborhoods would be assigned the neighborhood watch program and the other 20\nwould not. The reason this is not a match paired design is, in this case, some of the neighborhoods that were paired together in the other design might now both get the neighborhood watch program.\n\nChoice 'D' is incorrect as we only have two treatment conditions and the neighborhoods are grouped into pairs.\n\nChoice 'E' is incorrect as we are using all the neighborhoods within each pair.",
   "tags": [
     "VAR-3.D",
     "VAR-3",

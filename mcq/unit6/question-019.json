@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "One of the assumptions for a one proportion z-interval is that the sample proportion multiplied by the sample size must be greater than $5$ (or $10$), and $1$ minus the sample proportion multiplied by the sample size must be greater than $5$ (or $10$).\n\nThis situation yields $15(0.3) = 4.5$ and $15(0.7) = 10.5$.\n\nSince $4.5$ is less than either standard of $5$ (or $10$), this condition is not met.\n\nThus, the correct answer is Choice 'E'.",
   "tags": [
     "4.C",
     "UNC-4.B",

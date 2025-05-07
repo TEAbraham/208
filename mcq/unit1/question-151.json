@@ -23,11 +23,11 @@
     },
     {
       "letter": "C",
-      "text": "A single histogram, using bar width of 1."
+      "text": "A single histogram, using bar width of $1$."
     },
     {
       "letter": "D",
-      "text": "Two separate histograms: one for men’s shoes, one for women’s shoes, using bar width of 1."
+      "text": "Two separate histograms: one for men’s shoes, one for women’s shoes, using bar width of $1$."
     },
     {
       "letter": "E",
@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A dot plot will give a dot of each value of shoe size.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect; scatter plots are used to plot bivariate data ($2$ variables). Here, the only variable is shoe size.\n\nChoice 'B' is incorrect; bar graphs are used to plot categorical data, not quantitative.\n\nChoice 'C' is incorrect; a single histogram will not accurately give the manager the information she wants because it will not differentiate between men’s and women’s sizes. For example, men’s size $8$ of this shoe will be different than a women’s size 8.\n\nChoice 'D' is incorrect; two different histograms will give the manager a decent snapshot of center, shape, and spread for both men’s and women’s shoe sizes, but since the bars are a width of $1$, the manager will not know how many of each size to order. For example, the manager will not know how many shoes are size $8$ compared to size $8.5$.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.1",

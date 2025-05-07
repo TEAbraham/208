@@ -10,9 +10,7 @@
   "title": "Starting Salaries",
   "difficulty": "Hard",
   "question_text": "Ander and Benat both own their own business. They decided to compile the salary of each of their employees, and make a boxplot to compare salaries of employees at their respective companies. The units are in thousands of dollars.<br><br>Which conclusion can be drawn from these boxplots?",
-  "image_files": [
-    "images/question-192-img1.png"
-  ],
+  "image_files": [],
   "tables": [],
   "choices": [
     {
@@ -37,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Benat's company has a higher minimum salary ($36{,}000$ versus $32{,}000$), a higher Q1 ($42{,}000$ versus $37{,}000$), a higher median ($45{,}000$ versus $39{,}000$), a higher Q3 ($47{,}000$ versus $42{,}000$), and a higher maximum salary ($50{,}000$ versus $48{,}000$) than Ander's company.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Boxplots cannot determine the number of subjects in each sample.\n\nChoice 'B' is incorrect. It does appear that Ander's company does have a slightly large range, but one can clearly see the median of Ander's company is less than that of Benat's.\n\nThe median of a boxplot can be found by the thick dark line that separates the two boxes. Ander's company has a median of approximately 39,000, while Benat's company has a median of approximately 45,000.\n\nChoice 'C' is incorrect. The interquartile range is the distance from the first to the third quartile. It is essentially the length of each of the boxes in the box and whisker plot.\n\nThe IQR at Benat's company is approximately $47 - 41 = 6$ (in thousands of dollars). The IQR at Ander's company is approximately $42 - 37 = 5$ (in thousands of dollars). Therefore, Ander's company has a slightly lower IQR than Benat's.\n\nChoice 'D' is incorrect. While it is true that Ander's company has a lower median than Benat's (39 versus 45 thousand), Ander's company has data that appears roughly symmetric.\n\nWhile it is difficult to determine shape from a boxplot, for the data to be left skewed, the left whisker must be larger than the right whisker, or the left box would have to be larger than the right box.",
   "tags": [
     "UNC-1.N.1",
     "2.D",

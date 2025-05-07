@@ -8,7 +8,7 @@
   ],
   "title": "Can We Proceed?",
   "difficulty": "Medium",
-  "question_text": "We want to create a $99\\%$ confidence interval for the different of the means of the effectiveness of two drugs to reduce the incidence of headaches. Forty-two headache patients are randomly selected from several large medical practices and half of them are given one drug and half the other drug. Determination of which drug was given to which patient was decided by a coin flip. Means and standard deviations of the subjects are obtained.\nWhat conditions need to be verified in order to continue with this study and create a confidence interval?",
+  "question_text": "We want to create a $99\\%$ confidence interval for the different of the means of the effectiveness of two drugs to reduce the incidence of headaches. Forty-two headache patients are randomly selected from several large medical practices and half of them are given one drug and half the other drug. Determination of which drug was given to which patient was decided by a coin flip. Means and standard deviations of the subjects are obtained.\nWhat conditions need to be verified in order to continue with this study and create a confidence interval?<br>What conditions need to be verified in order to continue with this study and create a confidence interval?",
   "image_files": [],
   "tables": [],
   "choices": [
@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nIn order to create a valid confidence interval, two conditions must be verified: one for independence and one to see if the sampling distribution of the differences of the means is approximately normal.\n\nTo check for independence random processes must be used. In addition, each sample size must be smaller than $10\\%$ the size of the population. In this problem two random processes for selection are mentioned. However, we do not know the size of the population of headache patients. This should be checked.\n\nTo check if the sampling distribution of the differences of the means is approximately normal, then either skewness must be checked for or both samples should be greater than $30$. In this problem the two samples are only of size $21$, so skewness of the results needs to be evaluated.\n\nSo, Choice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect because neither check has been completed.\n\nChoice 'C' is incorrect because neither check has been completed.\n\nChoice 'D' is incorrect because the first comment is not true since there are two samples and the second part has already been verified.\n\nChoice 'E' is incorrect because neither check has been completed.",
   "tags": [
     "4.C",
     "UNC-4.W.1",

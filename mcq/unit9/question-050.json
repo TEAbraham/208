@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The $t$-value can be calculated using the following formula:\n\n$$t=\\dfrac { { b }_{ 1 } }{ SE }$$\n\n...where ${ b }_{ 1 }$ is the slope of the least-squares regression line and $SE$ is the standard error of the slope.\n\nFilling in the formula:\n\n$$t = \\dfrac { 1.021 }{ 0.763 } =1.338$$\n\nExplanation of Distractors\n\nChoice 'A' is incorrect and was calculated by reversing the numerator and denominator in the $t$-statistic.\n\nChoice 'B' is incorrect and represents only the standard error of the slope.\n\nChoice 'C' is incorrect and represents the actual slope of the least-squares regression line.\n\nChoice 'E' is incorrect. It was calculated by mistaking the $y$-intercept from the least-squares regression for the slope.",
   "tags": [
     "VAR-7.M",
     "VAR-7",

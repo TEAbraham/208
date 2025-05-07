@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWe are looking at how to define the meaning of a confidence interval which estimates the difference between two population means. The confidence interval gives the range of the differences that we might see.\n\nIn this case, it is the range of how different delivery times are in two cities.\n\nThe confidence level, here $95\\%$, allows us to say that that that percentage of the time we would in fact find the mean difference in delivery times to fall within the given times in the confidence interval.\n\nSo, Choice 'D' is the correct answer.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because $1.26$ hours is simply one end of the range. Both ends are needed to use the interval.\n\nChoice 'B' is incorrect because the two numbers in the confidence interval give the range of the differences; here taking the difference of those two numbers is incorrect.\n\nChoice 'C' is incorrect for two reasons. It again mentions only one end of the range and it talks describes mail delivery between the cities which is not in the prompt.\n\nChoice 'E' is incorrect because again it is discussing mail delivery between the two cities versus mail delivery time within each city.",
   "tags": [
     "UNC-4.Z",
     "4.B",

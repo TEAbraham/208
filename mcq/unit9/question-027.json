@@ -23,7 +23,7 @@
     },
     {
       "letter": "C",
-      "text": "Approximately C% of confidence intervals will contain the true slope of the regression model in repeated random sampling."
+      "text": "Approximately $C\\%$ of confidence intervals will contain the true slope of the regression model in repeated random sampling."
     },
     {
       "letter": "D",
@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nNot much can be offered here since four of the statements about confidence intervals or aspects of confidence intervals for regression models are, in fact, true.\n\nThe answer, however, is untrue. It is correct to say that when a confidence interval does not contain zero, then an association between the variables can be shown.\n\nSo, Choice 'D' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because this relationship is true and can be seen by looking at Table B.\n\nChoice 'B' is incorrect because this is the relationship that exists between the width of a confidence interval and its sample size.\n\nChoice 'C' is incorrect because this is one standard way to interpret a confidence interval for the slope of a regression model.\n\nChoice 'E' is incorrect because this is the definition of the standard error when part of a confidence interval for a regression model.",
   "tags": [
     "UNC-4.AG.1",
     "UNC-4",

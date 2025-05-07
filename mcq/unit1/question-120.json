@@ -19,28 +19,27 @@
   "choices": [
     {
       "letter": "A",
-      "text": "4+0\n2"
+      "text": "4\n+\n0\n2"
     },
     {
       "letter": "B",
-      "text": "0+1+2+3+4\n5"
+      "text": "0\n+\n1\n+\n2\n+\n3\n+\n4\n5"
     },
     {
       "letter": "C",
-      "text": "4+8+5+3+2\n5"
+      "text": "4\n+\n8\n+\n5\n+\n3\n+\n2\n5"
     },
     {
       "letter": "D",
-      "text": "(4⋅0)+(8⋅1)+(5⋅2)+(3⋅3)+(2⋅4)\n5"
+      "text": "(\n4\n⋅\n0\n)\n+\n(\n8\n⋅\n1\n)\n+\n(\n5\n⋅\n2\n)\n+\n(\n3\n⋅\n3\n)\n+\n(\n2\n⋅\n4\n)\n5"
     },
     {
       "letter": "E",
-      "text": "(4⋅0)+(8⋅1)+(5⋅2)+(3⋅3)+(2⋅4)\n4+8+5+3+2"
+      "text": "(\n4\n⋅\n0\n)\n+\n(\n8\n⋅\n1\n)\n+\n(\n5\n⋅\n2\n)\n+\n(\n3\n⋅\n3\n)\n+\n(\n2\n⋅\n4\n)\n4\n+\n8\n+\n5\n+\n3\n+\n2"
     }
   ],
   "correct_answer": "Choice 'E' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The mean is found by averaging all of the values. To find the average, multiply the number of goals scored by its respective frequency and add those values together. Then divide by the total frequency:\n\n(\n4\n⋅\n0\n)\n+\n(\n8\n⋅\n1\n)\n+\n(\n5\n⋅\n2\n)\n+\n(\n3\n⋅\n3\n)\n+\n(\n2\n⋅\n4\n)\n4\n+\n8\n+\n5\n+\n3\n+\n2\n\nWe account for all the different scores and the frequencies of each.\n\nExplanation of Distractors\n\nChoice 'A' is in the incorrect answer as this the value of the midrange.\nmidrange\n=\nmaximum value + minimum value\n2\n=\n4\n+\n0\n2\n\nChoice 'B' is incorrect as this never took into account the frequencies for the number of goals scored.\n\nChoice 'C' is incorrect as this finding the average of the frequencies and not the average number of goals scored per game.\n\nChoice 'D' is incorrect because of the denominator.\n5\nis incorrect because the total in the denominator should be the total frequencies and not the number of classes for goals scored.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.1",

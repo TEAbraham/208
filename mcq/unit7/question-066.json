@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "For a matched pairs $t$-test, we use $n–1$ degrees of freedom where $n$ is the number of observations. Here, $df = 5 – 1 = 4$. To find the $p$-value, we would use the TI83/84 graphing calculator's tcdf function. The syntax is: tcdf(lower bound, upper bound, df).\n\nIn this case you would:\n\nThe calculator will return the $p$-value of $p = 0.23$.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect and makes no sense. A $p$-value must always be between $0$ and $1$ (inclusive). The $t$-statistic does not equal the $p$-value.\n\nChoice 'B' is incorrect and was obtained using the $z$-distribution rather than the $t$-distribution.\n\nChoice 'D' is incorrect. We cannot assume that the absolute value of the $t$-statistic is the $p$-value.\n\nChoice 'E' is incorrect. We had all the information we needed!",
   "tags": [
     "4.B",
     "DAT-3.E",

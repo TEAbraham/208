@@ -30,12 +30,11 @@
     },
     {
       "letter": "E",
-      "text": "Mean = 5.10; standard deviation = 0.0134"
+      "text": "Mean = $5.10$; standard deviation = $0.0134$"
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The average of all sample means is the true population mean, which equals 1.02 oz.\n\nSamples, however, are less variable than individual observations. We find that the standard deviation is 0.0134 using the formula below, where n = 5:\n\nσ\nˉ\nx\n=\nσ\n√\nn\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "UNC-3.Q.1",
     "UNC-3",

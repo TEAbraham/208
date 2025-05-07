@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Statement I is true; the samples must be independent and random.\n\nStatement II is true; the sampling distribution of the difference must be approximately normal. This is achieved when either the populations are approximately normal or the combined sample sizes are over $30$.\n\nStatement III is false; while large samples are optimal, they are not a necessary condition.\n\nThus, the correct answer is Choice 'D'.",
   "tags": [
     "4.B",
     "DAT-3",

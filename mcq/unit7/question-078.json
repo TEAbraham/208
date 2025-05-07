@@ -39,8 +39,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Since the alternative hypothesis includes $ > $ we are dealing with $t>1.734$\n\nBelow is a picture of the data:\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\nMethod 1: Solving by Using the t-distribution Table\n\nIn a one sample t-test, the degrees of freedom is $n-1$.\nIn this case, the degrees of freedom is $30-1=29$.\nUsing t-distribution table, find $29$ degrees of freedom. Once you have located $29$ D.OF. go across that row and find the two critical values that $1.734$ fall in between.\n$1.734$ falls in between $1.699$ and $2.045$.\nGo to the top of those respective columns and see what interval of probability is.\nThe interval of probability is exclusively between $0.025$ and $0.05$.\n\nMethod 2: Using the TI graphing calculator\n\nUsing the tcdf function(located by hitting 2nd Vars).\n$tcdf(1.734,99999, 29)=0.0467$\n\nBelow is the calculator input on the TI-84.\nCreated for Albert.io. Copyright 2017. All rights reserved.\n\nCreated for Albert.io. Copyright 2017. All rights reserved.",
   "tags": [
     "4.B",
     "DAT-3.E",

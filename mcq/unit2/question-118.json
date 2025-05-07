@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The scatterplot shows a negative association.\n\nWhen we remove the point $(9,49)$, the LSRL becomes steeper in the negative direction, meaning that the slope decreases.\n\nFrom this, we can eliminate Choices 'D' and 'E'.\n\nCorrelation measures the strength and direction of a linear relationship. The closer the correlation is to $1$ or $-1$ the stronger the correlation. When the point $(9,49)$ is removed, we can see that the trend in the graph is closer to a line with less scatter, which makes the correlation stronger. However, a stronger correlation does not automatically mean our correlation coefficient will become more positive.\n\nSince the association is in a negative direction, a stronger correlation means the correlation coefficient will become closer to $-1$. Therefore, the correlation coefficient will actually decrease (become more negative) if we remove the point $(9,49)$.\n\nThus, Choice 'A' is correct.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect. The relationship is negative and since the correlation coefficient is getting stronger, it is moving away from 0 (weakest value of correlation) and getting closer to −1 (perfect correlation). Therefore, the value of the correlation coefficient is decreasing (becoming more negative), since the correlation is getting stronger.\n\nChoice 'C' is incorrect as we're removing an influential point that will have a dramatic effect on the correlation.\n\nChoices 'D' and 'E' were already explained.",
   "tags": [
     "4.B",
     "DAT-1.H.2",

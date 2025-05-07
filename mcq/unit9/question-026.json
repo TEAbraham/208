@@ -33,8 +33,7 @@
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nWe can make a confidence interval for the slope of a population model using linear regression. The correct way to state a conclusion should include the context of the regression model being examined. In this problem, however, we are looking for a general answer.\n\nSo, we take the given confidence level, $C$, and use it to state confidently that $C\\%$ of the confidence intervals we could create would contain the true slope of the population linear regression model.\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because we simply cannot state that we know the true slope of the population. We can only estimate it.\n\nChoice 'B' is incorrect because the interval is just that, an interval, which may contain what we are looking for. We do not use the center.\n\nChoice 'D' is incorrect because the interval is just that, an interval, which may contain what we are looking for. We do not use the mean.\n\nChoice 'E' is incorrect because we can never state that we know the exact slope of the population.",
   "tags": [
     "UNC-4.AG.1",
     "4.D",

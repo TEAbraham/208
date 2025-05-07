@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The general formula given the on the AP exam for a standardized test statistic is:\n\nThe formula to solve this question is:\n\nz=\nˆ\np\n−p\n√\n(p)(1−p)\nn\n\nFirst, we must identify the sample proportion(\nˆ\np\n) and the population proportion (p). In this question, it says 52% of the people selected in this sample were females.\n\nTherefore, 0.52\nis our sample proportion and 0.508\nis our population proportion (p\n)\n\nChoice 'D' is our answer.\n\nNote: the formula for the standard deviation for the proportion will be provided on the AP Exam reference sheet.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. The numbers in the numerator should be reversed as it is statistic - parameter\nand not parameter - statistic\n.\n\nAlso Choices 'B' and 'C' the denominators are incorrect. We want to use the standard deviation of the sampling distribution and not the standard error.\n\nChoice 'E' is incorrect as the sample proportion was used in the standard deviation instead of the population proportion.",
   "tags": [
     "UNC-3.K.1",
     "UNC-3",

@@ -28,16 +28,15 @@
     },
     {
       "letter": "D",
-      "text": "0.28"
+      "text": "$0.28$"
     },
     {
       "letter": "E",
-      "text": "0.74"
+      "text": "$0.74$"
     }
   ],
   "correct_answer": "Choice 'C' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Solution\n\nGiven the probability distribution for a random variable, various probabilities can be found once it is checked that the probabilities in the given distribution are equal to $1$.\n\n$$0.18+0.12+ 0.42+ 0.13+0.15=1$$\n\nThey are!\n\nThe next step is to find the probabilities of students choosing veggies or nuts by adding those two together.\n\np(veggies or nuts)=0.13+0.15=0.28\n\nThe question asks to find the complement. A complement is the given probability subtracted from 1. In this case the question could also be asked as \"find the probability of a student not choosing veggies or nuts.\"\n\n1−p (veggies or nuts)=1−0.28=0.72\n\nSo, Choice 'C' is correct.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect because it represents the answer of someone who forgot their cookies! In other words, the cookie probability was not subtracted.\n\nChoice 'B' is incorrect because it represents someone who likely made an arithmetic error and forgot to take the complement as well.\n\nChoice 'D' is incorrect because it represents the answer if the complement is not found; that is, it is the probability of a student choosing veggies or nuts.\n\nChoice 'E' is incorrect because it represents someone who likely made an arithmetic error as it is close to the actual answer.",
   "tags": [
     "4.B",
     "VAR-5",

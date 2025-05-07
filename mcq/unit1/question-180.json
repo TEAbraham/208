@@ -10,37 +10,35 @@
   ],
   "title": "Comparing Boxplots: Grade Distributions",
   "difficulty": "Medium",
-  "question_text": "After giving a recent test, a teacher wanted to compare the distributions of grades earned by students in each of her two AP Statistics classes. The distributions are shown in the boxplots below.<br><br><br><br><br>Based on the boxplots, which of the following is a correct conclusion about the distribution of grades in the two classes?",
+  "question_text": "After giving a recent test, a teacher wanted to compare the distributions of grades earned by students in each of her two AP Statistics classes. The distributions are shown in the boxplots below.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>Based on the boxplots, which of the following is a correct conclusion about the distribution of grades in the two classes?",
   "image_files": [
-    "images/question-180-img1.PNG",
-    "images/question-180-img2.PNG"
+    "images/question-180-img1.PNG"
   ],
   "tables": [],
   "choices": [
     {
       "letter": "A",
-      "text": "The range of scores was larger in Class #1\nthan in Class #2\n, but the IQR was smaller for Class #1\nthan for Class #2\n."
+      "text": "The range of scores was larger in Class #1 than in Class #2, but the IQR was smaller for Class #1 than for Class #2."
     },
     {
       "letter": "B",
-      "text": "About\n75\n%\nof the students in Class\n#\n1\nscored higher on the test than about half the students in Class\n#\n2\n."
+      "text": "About 75% of the students in Class #1 scored higher on the test than about half the students in Class #2."
     },
     {
       "letter": "C",
-      "text": "About\n75\n%\nof the students in Class\n#\n2\nscored higher on the test than almost all of the students in Class\n#\n1\n."
+      "text": "About 75%\nof the students in Class #2\nscored higher on the test than almost all of the students in Class #1\n."
     },
     {
       "letter": "D",
-      "text": "A smaller percentage of students in Class\n#\n1\nachieved scores below their class median than in Class\n#\n2\n."
+      "text": "A smaller percentage of students in Class #1\nachieved scores below their class median than in Class #2\n."
     },
     {
       "letter": "E",
-      "text": "More students in Class\n#\n1\nachieved scores of\n80\nor above on the test than in Class\n#\n2\n."
+      "text": "More students in Class #1\nachieved scores of 80\nor above on the test than in Class #2\n."
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "When looking at a boxplot, the smallest value in the distribution can be found by looking at the value that corresponds to the left-most part of the boxplot.\n\nThe first vertical segment in the boxplot is above the\nQ\n1\nvalue, or the\n25\nth\n percentile\n. The second vertical segment is above the Median or\n50\nth\n percentile\n. The third vertical segment is above the\nQ\n3\nvalue or\n75\nth\n percentile\n, and the maximum value in the distribution can be found by looking at the value that corresponds to the right-most part of the boxplot.\n\nCreated for Albert.io. Copyright 2016. All rights reserved.\n\n\n\nThe boxplot is divided into\n4\n sections\nwhere each section represents about\n25\n%\nof the data. In other words, about\n25\n%\nof the data in a distribution will fall between the Minimum value and the\nQ\n1\nvalue. About\n25\n%\nof the data will fall between the\nQ\n1\nvalue and the Median, and so on.\n\nThis means that about\n75\n%\nof the data will fall above the\nQ\n1\nvalue and about\n50\n%\nof the data (or about half) will fall below the Median. Notice that for Class\n#\n1\nabout\n75\n%\nof the data falls at or above a score of\n80\nwhile for Class\n#\n2\nabout half the data falls at or below a score of\n80\n. Therefore, the correct answer is Choice 'B'.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. Both the range and the IQR are larger for Class\n#\n2\nthan for Class\n#\n1\n.\n\nChoice 'C' is incorrect. About\n75\n%\nof scores in Class\n#\n2\nare above a score of\n70\n. However, no more than\n25\n%\nof students in Class\n#\n1\nscored below\n70\n.\n\nChoice 'D' is incorrect. Since the Median is the middle value (or the average of the two middle values) in any distribution, then it will always be true that about\n50\n%\nof the data in distribution will be below the Median.\n\nChoice 'E' is incorrect. While it is true that a higher percentage of students in Class\n#\n1\nscored\n80\nor above than in Class\n#\n2\n, we do not know how many students are enrolled in each class. Therefore, we cannot compare the number of students in each class who scored\n80\nor above.",
   "tags": [
     "UNC-1.N.1",
     "2.D",

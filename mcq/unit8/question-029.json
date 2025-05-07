@@ -30,8 +30,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Expected counts can be found by putting the two-way table into a matrix on a TI-$83/84$ calculator, running a chi-squared test, and then going into Matrix B to find the expected counts.\n\nOtherwise, by hand, expected counts for any cell in a matrix is:\n\n$$\\dfrac{\\text{(row total)} \\times \\text{(column total)}}{\\text{(table total)}}$$\n\nThe matrix would look like the table below:\n\nThe expected count would be:\n\n$$(98 + 59) \\times \\dfrac{(87 + 59 + 124)}{500} = 84.78$$\n\nNever round expected counts, as these are used in the chi-squared test statistic calculation.\n\nThus, the correct answer is Choice 'A'.",
   "tags": [
     "VAR-8.F",
     "3.E",

@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "Two random variables are independent if knowing the outcome of one random variable does not change the probabilities associated with the other random variable. In this case, knowing how many times the tossed coin landed on “heads” does not change anything or tell us anything about the probability distribution related to large cups of coffee.\n\nExplanation of Distractors\n\nChoice 'B' is incorrect. Whether or not two random variables are independent has nothing to do with how many observations are made for each.\n\nChoices 'C' and 'D' are both incorrect because the number of times the coin will land on “heads” is a discrete random variable (one with a countable number of outcomes) while the number of ounces in a large cup of coffee is a continuous random variable (the number of outcomes cannot be counted since you could have $12\\text{ ounces}$ or $12.1\\text{ ounces}$, or $12.01\\text{ ounces}$, $12.001\\text{ ounces}$, and so on).\n\nChoice 'E' is incorrect. While the outcomes related to these random variables are mutually exclusive, the random variables themselves are not. Mutually exclusive outcomes are such that both cannot occur at the same time. For example, when tossing the coin $8\\text{ times}$, you might end up with $3\\text{ “heads”}$ or $4\\text{ \"heads”}$ but you cannot end up with both of these outcomes. They are mutually exclusive.",
   "tags": [
     "VAR-4.E.1",
     "VAR-4.E",

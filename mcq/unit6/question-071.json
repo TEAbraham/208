@@ -34,8 +34,7 @@
     }
   ],
   "correct_answer": "Choice 'D' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The standard deviation of the sampling distribution is $0.0485$ using the formula below, with $n = 100$ and $p = 0.38$:\n\n$$\\sqrt{\\dfrac{p(1-p)}{n}}$$\n\nFind the $z$-score of getting a sample proportion of $0.45$:\n\n$$\\dfrac{(0.45-0.38)}{0.0485} = 1.44$$\n\nUsing the standard normal table, $P(z > 1.44) = 0.075$.\n\nThis calculation shows that this result would be fairly unlikely to happen if the proportion this year was constant at $38\\%$.\n\nTherefore, one can conclude there is reasonable evidence the mayor is correct.\n\nCompared to $10$%, our probability of $7.5$% was unlikely to happen, since $7.5$% < $10$%. Therefore, there is evidence to support the claim that a higher proportion of people are now walking their dogs.",
   "tags": [
     "4.E",
     "DAT-3",

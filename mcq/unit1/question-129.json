@@ -10,7 +10,7 @@
   ],
   "title": "Portland Precipitation: Center of a Time Plot",
   "difficulty": "Medium",
-  "question_text": "The graph below shows the average amount of precipitation (in inches) for Portland, Oregon for each month throughout the year.<br><br><br><br><br>Based on the graph, what is the best estimate of the center for the distribution of precipitation?",
+  "question_text": "The graph below shows the average amount of precipitation (in inches) for Portland, Oregon for each month throughout the year.<br>Created for Albert.io. Copyright 2016. All rights reserved.<br><br>Based on the graph, what is the best estimate of the center for the distribution of precipitation?",
   "image_files": [
     "images/question-129-img1.PNG"
   ],
@@ -18,11 +18,11 @@
   "choices": [
     {
       "letter": "A",
-      "text": "1 inch"
+      "text": "1\n inch"
     },
     {
       "letter": "B",
-      "text": "3.4 inch"
+      "text": "3.4\n inch"
     },
     {
       "letter": "C",
@@ -38,8 +38,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The graph provided is a time plot which shows how the amount of precipitation in Portland changes throughout the year. The horizontal axis displays months of the year and the vertical axis displays the amount of precipitation (in inches). It is important to recognize that amount of precipitation is our variable of interest. Then, since the variable of interest is quantitative, we should be able to estimate the center.\n\nOne measure of center is the median. The median is the middle value (or average of two middle values) when the observations are arranged in order from smallest to largest. Start by estimating the amount of precipitation for each month as follows:\n\nJanuary:\n6.2\n\nFebruary:\n4.8\n\nMarch:\n4.5\n\nApril:\n3.4\n\nMay:\n2.5\n\nJune:\n1.7\n\nJuly:\n0.6\n\nAugust:\n0.8\n\nSeptember:\n1.5\n\nOctober:\n3.4\n\nNovember:\n6.8\n\nDecember:\n7.0\n\nNext, arrange the values in order from smallest to largest as follows:\n\n0.6\n,\n0.8\n,\n1.5\n,\n1.7\n,\n2.5\n,\n3.4\n,\n3.4\n,\n4.5\n,\n4.8\n,\n6.2\n,\n6.8\n,\n7\n\nSince there are\n12\nvalues, the median is the average of the\n6\nth\nand\n7\nth\nlargest values. Both of these values are\n3.4\n. This means that their average is also\n3.4\nwhich would make the median\n3.4\n.\n\nChoice 'B' is the correct answer.\n\nNOTE: You might also be able to estimate this value visually by noticing that\n3.4\ninches is about in the middle of the\ny\n-values shown. There are\n2\npoints that correspond with this amount of precipitation. Furthermore, there are\n5\npoints that have higher\ny\n-values and\n5\npoints that have lower\ny\n-values so\n3.4\nwould be about the middle of the distribution.\n\nExplanation of Distractors\n\nChoice 'A' is incorrect. You might make this mistake if you look for the middle of the year (Mid-June) and then estimate the corresponding amount of precipitation.\n\nChoice 'C' is incorrect. Our variable of interest is the amount of precipitation - not the months of the year.\n\nChoice 'D' is incorrect. While you are probably more accustomed to looking for center in a histogram, boxplot, stemplot, or dotplot, you can also estimate the center from a time plot.\n\nChoice 'E' is incorrect. It is true that month is a categorical variable, but it is not our variable of interest.",
   "tags": [
     "UNC-1.M",
     "UNC-1.M.1",

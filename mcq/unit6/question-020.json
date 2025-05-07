@@ -37,8 +37,7 @@
     }
   ],
   "correct_answer": "Choice 'A' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "The margin of error represents the length of the point estimate to one of the endpoints of the interval. To put it in simpler terms, it is half the length of the interval.\n\nTo find the margin of error in this case, use the following:\n\n$$\\frac { 0.076-.022 }{ 2 } =0.027$$\n\nExplanation of Distractors\n\nChoice 'B' is incorrect as $0.049$ is the value for the point estimate. Choice 'C' is incorrect as $0.054$ is the range of the interval. Choice 'D' is incorrect as the endpoints of the interval were just added together.",
   "tags": [
     "UNC-4.C.4",
     "UNC-4.C.3",

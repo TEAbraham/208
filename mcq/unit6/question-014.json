@@ -35,8 +35,7 @@
     }
   ],
   "correct_answer": "Choice 'B' is the correct answer.",
-  "solution": "",
-  "explanations": {},
+  "solution": "A point estimator is a statistic that provides an estimate of the population parameter. In confidence intervals, point estimators represent the center of the confidence interval.\n\nTo find the point estimator, find the center (midpoint) of the confidence interval using the following formula:\n\nPoint Estimator=\nUpper+Lower\n2\n\n=\n0.022+0.076\n2\n\n=0.049\n\nChoice 'A' is incorrect as this answer comes from =\n0.076−0.022\n2\n. Choice 'C' is incorrect as this answer comes from 0.076−0.022. Choice 'D' is incorrect as this answer comes from 0.076+0.022.",
   "tags": [
     "UNC-4.D",
     "3.D",
