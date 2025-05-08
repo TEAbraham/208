@@ -1,29 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Firebase -->
-    <script type="module">
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
-      import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
-      import { getFirestore } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
-      import { firebaseConfig } from '../js/firebase-config.js';
-
-      const app = initializeApp(firebaseConfig);
-      const auth = getAuth(app);
-      const db = getFirestore(app);
-
-      onAuthStateChanged(auth, (user) => {
-          if (!user) {
-              localStorage.setItem("redirectAfterLogin", window.location.href);
-              window.location.href = "../index.html";
-          }
-      });
-    </script>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FRQ</title>
-
+<head>
+  <meta charset="UTF-8">
+  <title>FRQ Viewer</title>
     <!-- CSS Imports -->
     <link rel="stylesheet" href="../css/jquery-ui.css">
     <link rel="stylesheet" href="../css/jquery.fullpage.css">
@@ -43,8 +22,55 @@
     <script src="../js/d3.v7.min.js"></script>
     <script type="module" src="../js/script.js"></script>
     <script type="module" src="../js/home.js"></script>
+    <script id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+    img {
+      max-width: 100%;
+      height: auto;
+      margin: 1em 0;
+      display: block;
+    }
+    .question-part {
+      margin: 1.5em 0;
+    }
+    .prompt, .sample, .scoring, .rubric {
+      background: #fff;
+      border-left: 4px solid #fff;
+      padding: 1em;
+      margin-top: 1em;
+    }
+    .prompt { border-color: #6c7ae0; }
+    .sample { border-color: #8ccf4d; display: none; }
+    .scoring, .rubric { display: none; }
+    .sample.shown, .scoring.shown, .rubric.shown { display: block; }
+    .nav-buttons {
+      text-align: center;
+      margin-top: 2em;
+    }
+    .button-1.perspective {
+      padding: 8px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+      border: 1px solid #46C8B2;
+      background-color: white;
+      color: #333;
+  }
+  
+  .button-1.perspective.active,
+  .button-1.perspective:hover {
+      background-color: #46C8B2;
+      color: white;
+  }
+  
+  .button-1.active,.button-1:hover, .button-1-s:hover{
+      border: 1px solid #46C8B2;
+      background-color: #46C8B2;
+      color:white;
+  }
+  </style>
   </head>
-
   <body>
     <header class="menu-top">
       <ul id="menu">
@@ -82,7 +108,7 @@
               </ul>
           </li>
           <li class="dropdown">
-              <a href="../mcq/" class="dropbtn">MCQ</a>
+              <a href="../frq/" class="dropbtn">MCQ</a>
         </li>
         <li class="dropdown">
           <a href="../admin/" class="dropbtn">FRQ</a>
@@ -98,22 +124,165 @@
       <span id="user-email" style="color:darkgreen; margin-left: 1em;"></span>
       <div id="logo"></div>
     </header>
-  <!-- <svg id="bg-animation" width="100%" height="100%" style="position: fixed; top: 0; left: 300; z-index: 1;"></svg> -->
-  <h1>Free Response Questions</h1>
-  <p>Mr. Abraham</p>
-  <nav class="unit-nav" aria-label="FRQ Units">
-    <ul>
-      <li><a href="unit1/">📘 Unit 1</a></li>
-      <li><a href="unit2/">📘 Unit 2</a></li>
-      <li><a href="unit3/">📘 Unit 3</a></li>
-      <li><a href="unit4/">📘 Unit 4</a></li>
-      <li><a href="unit5/">📘 Unit 5</a></li>
-      <li><a href="unit6/">📘 Unit 6</a></li>
-      <li><a href="unit7/">📘 Unit 7</a></li>
-      <li><a href="unit8/">📘 Unit 8</a></li>
-      <li><a href="unit9/">📘 Unit 9</a></li>
-    </ul>
-  </nav>
+    <h1 id="question-title">FRQ Viewer</h1>
 
+    <div class="prompt">
+      <h3>Prompt</h3>
+      <div id="question-prompt"></div>
+      <div id="question-image"></div>
+      <div id="question-text"></div>
+    </div>
+  
+    <div class="sample" id="sample-response">
+      <h3>Sample Response</h3>
+      <div id="sample-text"></div>
+    </div>
+  
+    <div class="scoring" id="scoring-guidelines">
+      <h3>Scoring Guidelines</h3>
+      <div id="scoring-text"></div>
+    </div>
+  
+    <div class="rubric" id="rubric-section">
+      <h3>Rubric</h3>
+      <div id="rubric-text"></div>
+    </div>
+  
+    <div class="nav-buttons">
+      <button id="back-question" class="button-1 perspective" onclick="showPreviousQuestion()">Back</button>
+      <button id="show-solution"class="button-1 perspective" onclick="toggleSolution()">Show Solution</button>
+      <button id="next-question"class="button-1 perspective" onclick="showNextQuestion()">Next</button>
+    </div>
+  
+    <script type="module">
+      // ─────────────────────────────────────────────────────────────────────────────
+      // 1) Imports & Initialization
+      // ─────────────────────────────────────────────────────────────────────────────
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
+      import {
+        getAuth,
+        onAuthStateChanged,
+        signOut,
+        GoogleAuthProvider,
+        signInWithPopup,
+      } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-auth.js";
+      import {
+        getFirestore,
+        collection,
+        query,
+        where,
+        orderBy,
+        getDocs,
+        getDoc,
+        doc,
+        setDoc,
+        addDoc,
+        serverTimestamp,
+      } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
+
+      import { firebaseConfig } from "../js/firebase-config.js";
+
+      const app   = initializeApp(firebaseConfig);
+      const auth  = getAuth(app);
+      const db    = getFirestore(app);
+      // ✅ Expose for DevTools testing
+      window.firebaseApp = app;
+      window.auth = auth;
+      window.db = db;
+      window.toggleSolution = toggleSolution;
+      window.showNextQuestion = showNextQuestion;
+      window.showPreviousQuestion = showPreviousQuestion;
+
+      let questions = [];
+      let index = 0;
+
+      onAuthStateChanged(auth, async user => {
+        if (!user) {
+          localStorage.redirectAfterLogin = location.href;
+          location.href = "../index.html";
+          return;
+        }
+      
+        auth.currentUser.getIdTokenResult().then(result => {
+          console.log("🛡️ Auth token claims:", result.claims);
+          if (result.claims.admin) {
+            console.log("✅ User is an admin");
+          } else {
+            console.log("👤 User is NOT an admin");
+          }
+        });
+      
+        await loadQuestions();
+        await toggleSolution();
+        await showPreviousQuestion();
+        await showNextQuestion();
+
+      });
+      
+      // fetch all MCQs for this unit
+      async function loadQuestions() {
+        const qSnap = await getDocs(
+          collection(db, "frq_questions")
+        );
+        questions = qSnap.docs.map(d => ({ id: d.id, ...d.data() }));
+      }
+      let current = 0;
+
+      function renderField(field) {
+        if (Array.isArray(field)) {
+          return field.map(s => s.trim()).join("<br><br>");
+        }
+        return (field || "").toString().replace(/\n/g, "<br>");
+      }
+
+      async function showQuestion(index) {
+        current = index;
+        const q = questions[index];
+        document.getElementById("question-title").textContent = q.title || `Question ${index + 1}`;
+        document.getElementById("question-prompt").innerHTML = renderField(q.prompt);
+        document.getElementById("question-text").innerHTML = renderField(q.questions);
+        document.getElementById("sample-text").innerHTML = renderField(q.sample);
+        document.getElementById("scoring-text").innerHTML = renderField(q.scoring);
+        document.getElementById("rubric-text").innerHTML = renderField(q.rubric);
+
+        const imgDiv = document.getElementById("question-image");
+        imgDiv.innerHTML = "";
+        const exts = ['png', 'jpg', 'jpeg', 'webp', 'gif'];
+        for (let i = 1; i <= 5; i++) {
+          for (const ext of exts) {
+            const path = `unit${(index + 1)}/images/question-${(index + 1).toString().padStart(3, '0')}-img${i}.${ext}`;
+            const img = new Image();
+            img.src = path;
+            img.onerror = () => {};
+            img.onload = () => imgDiv.appendChild(img);
+          }
+        }
+
+        document.getElementById("sample-response").classList.remove("shown");
+        document.getElementById("scoring-guidelines").classList.remove("shown");
+        document.getElementById("rubric-section").classList.remove("shown");
+
+        if (window.MathJax) MathJax.typesetPromise();
+      }
+
+      async function toggleSolution() {
+        document.getElementById("sample-response").classList.toggle("shown");
+        document.getElementById("scoring-guidelines").classList.toggle("shown");
+        document.getElementById("rubric-section").classList.toggle("shown");
+        if (window.MathJax) MathJax.typesetPromise();
+      }
+
+      async function showNextQuestion() {
+        current = (current + 1) % questions.length;
+        showQuestion(current);
+      }
+
+      async function showPreviousQuestion() {
+        current = (current - 1 + questions.length) % questions.length;
+        showQuestion(current);
+      }
+
+      loadQuestions();
+    </script>
   </body>
-</html>
+  </html>

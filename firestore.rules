@@ -22,6 +22,11 @@ service cloud.firestore {
       allow get, list: if request.auth != null;
     }
 
+    // Allow logged-in users to read questions (excluding correct answers)
+    match /frq_questions/{questionId} {
+      allow get, list: if request.auth != null;
+    }
+
     // Allow students to read/write their own answers
     match /student_answers/{docId} {
       allow read: if request.auth != null;
