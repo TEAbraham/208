@@ -10,7 +10,7 @@ admin.initializeApp({
 const db = admin.firestore();
 
 const rewardPoints = { easy: 1, medium: 2, hard: 3 };
-const penaltyPoints = { easy: -3, medium: -2, hard: -1 };
+// const penaltyPoints = { easy: -3, medium: -2, hard: -1 };
 
 async function backfillSummaryWithEmails() {
   const snapshot = await db.collection("student_answers").get();
@@ -24,7 +24,7 @@ async function backfillSummaryWithEmails() {
     const unit = (qid[0] || "unknown").toString(); // expects unit 1–9
     const difficulty = (data.difficulty || "medium").toLowerCase();
     const reward = rewardPoints[difficulty] ?? 2;
-    const penalty = penaltyPoints[difficulty] ?? -1;
+    // const penalty = penaltyPoints[difficulty] ?? -1;
 
     if (!uid) return;
 
@@ -46,7 +46,8 @@ async function backfillSummaryWithEmails() {
       user.units[unit] = { points: 0, correct: 0, incorrect: 0, everAbove25: false };
     }
 
-    const earned = data.correct ? reward : penalty;
+    const earned = data.correct ? reward : 0;
+    // const earned = data.correct ? reward : penalty;
     user.totalAttempted++;
     user.totalPointsEarned += earned;
     user.totalPointsPossible += reward;

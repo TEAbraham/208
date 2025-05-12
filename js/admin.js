@@ -1,7 +1,7 @@
     // admin.js (Enhanced with: Email, Sortable Columns, CSV Export, Avg Time, D3-based Charts)
     import { initializeApp } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js";
     import {
-      getFirestore, collection, getDocs, query, orderBy, onSnapshot
+      getFirestore, collection, getDoc, getDocs, doc, query, where, orderBy, onSnapshot
     } from "https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js";
     import {
       getAuth, onAuthStateChanged, signOut
@@ -26,17 +26,19 @@
       // 🔐 Get admin claim
       const token = await user.getIdTokenResult();
       const isAdmin = token.claims.admin === true;
-    
-      if (!isAdmin) {
-        alert("You do not have permission to view this page.");
-        return;
+
+      if (isAdmin) {
+        loadDashboard();       // show full dashboard
+        loadStudentSummary();  // show all student summaries
+        document.getElementById("tab-summary").appendChild(buttons);
+      } else {
+        loadOwnSummary(user);  // student can only see their own data
+        // Optional: hide chart areas
+        document.getElementById("unitChart").style.display = "none";
+        document.getElementById("scoreChart").style.display = "none";
       }
-    
-      // ✅ Now safe to run these
-      loadDashboard();
-      loadStudentSummary();
+
     });
-    
 
 async function loadDashboard() {
   const tbody = document.querySelector("#student-summary tbody");
@@ -118,6 +120,63 @@ async function loadStudentSummary() {
 
   renderScoreChart(studentScores);
 }
+
+async function loadOwnSummary(user) {
+  const email = user.email;
+  const uid = user.uid;
+
+  // Clear table
+  const unitTable = document.querySelector("#student-summary tbody");
+  const summaryTable = document.querySelector("#student-summary-table tbody");
+  unitTable.innerHTML = "";
+  summaryTable.innerHTML = "";
+
+  // Get own student_summary doc
+  const summaryDoc = await getDoc(doc(db, "student_summary", uid));
+  if (summaryDoc.exists()) {
+    const data = summaryDoc.data();
+    const unitCells = [];
+    for (let i = 1; i <= 9; i++) {
+      unitCells.push(`<td>${data[`unit${i}`] || 0}</td>`);
+    }
+
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${email}</td>
+      ${unitCells.join("")}
+      <td>${data.totalAttempted || 0}</td>
+      <td>${data.totalCorrect || 0}</td>
+      <td>${data.totalPointsEarned || 0}</td>
+      <td>${data.totalPointsPossible || 0}</td>
+    `;
+    summaryTable.appendChild(tr);
+  }
+
+  // Get own unit completions
+  const snapshot = await getDocs(query(
+    collection(db, "unit_completion"),
+    where("userId", "==", uid)
+  ));
+
+  const unitMap = {};
+  snapshot.forEach(doc => {
+    const unit = doc.data().unit?.toString();
+    if (/^[1-9]$/.test(unit)) unitMap[unit] = 1;
+  });
+
+  const tr = document.createElement("tr");
+  const completeCells = [];
+  let total = 0;
+  for (let i = 1; i <= 9; i++) {
+    const val = unitMap[i.toString()] ? 1 : 0;
+    completeCells.push(`<td>${val}</td>`);
+    total += val;
+  }
+
+  tr.innerHTML = `<td>${email}</td>${completeCells.join("")}<td>${total}</td>`;
+  unitTable.appendChild(tr);
+}
+
 
     
     window.exportCSV = function(tableId, filename) {
@@ -283,5 +342,4 @@ async function loadStudentSummary() {
         <div id="unitChart"></div>
         <div id="scoreChart"></div>
       `;
-      document.getElementById("tab-summary").appendChild(buttons);
     });

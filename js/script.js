@@ -201,11 +201,6 @@ onAuthStateChanged(auth, async (user) => {
   }
 
   try {
-    const token = await user.getIdTokenResult();
-    const isAdmin = token.claims.admin === true;
-
-    if (!isAdmin) return; // ⛔ prevent read errors for non-admins
-
     const progress = {};
     const answersRef = collection(db, "student_answers");
     const snapshot = await getDocs(query(answersRef, where("userId", "==", user.uid)));
