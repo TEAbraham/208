@@ -38,70 +38,87 @@
     });
     
 
-    async function loadDashboard() {
-      const tbody = document.querySelector("#student-summary tbody");
-      tbody.innerHTML = "";
-      const unitCount = {};
-    
-      const snapshot = await getDocs(query(
-        collection(db, "unit_completion"),
-        orderBy("completedAt", "desc")
-      ));
-    
-      snapshot.forEach(doc => {
-        const data = doc.data();
-        const tr = document.createElement("tr");
-        tr.innerHTML = `
-          <td>${data.email || data.userId}</td>
-          <td>${data.unit}</td>
-          <td>${data.score}</td>
-          <td>${data.totalAnswers}</td>
-          <td>${data.completedAt?.toDate().toLocaleString() || ""}</td>
-        `;
-        tbody.appendChild(tr);
-    
-        unitCount[data.unit] = (unitCount[data.unit] || 0) + 1;
-      });
-    
-      renderUnitChart(unitCount);
+async function loadDashboard() {
+  const tbody = document.querySelector("#student-summary tbody");
+  tbody.innerHTML = "";
+
+  const snapshot = await getDocs(collection(db, "unit_completion"));
+
+  const users = {};
+
+  snapshot.forEach(doc => {
+    const data = doc.data();
+    const email = data.email || data.userId;
+    const unit = data.unit?.toString();
+
+    if (!email || !unit) return;
+
+    if (!users[email]) {
+      users[email] = {};
     }
-    
-    async function loadStudentSummary() {
-      const tbody = document.querySelector("#student-summary-table tbody");
-      tbody.innerHTML = "";
-    
-      const snapshot = await getDocs(collection(db, "student_summary"));
-      const studentScores = [];
-    
-      snapshot.forEach(doc => {
-        const data = doc.data();
-        const avgTime = data.totalTimeSpent ? (data.totalTimeSpent / data.totalAttempted).toFixed(1) : "-";
-    
-        const tr = document.createElement("tr");
-        tr.innerHTML = `
-          <td>${data.email || "(unknown)"}</td>
-          <td>${data.totalAttempted || 0}</td>
-          <td>${data.totalCorrect || 0}</td>
-          <td>${data.totalPointsEarned || 0}</td>
-          <td>${data.totalPointsPossible || 0}</td>
-          <td>${avgTime}</td>
-          <td>${data.lastUpdated?.toDate().toLocaleString() || ""}</td>
-        `;
-        tbody.appendChild(tr);
-    
-        studentScores.push({
-          label: data.email,
-          value: data.totalPointsEarned || 0,
-          attempted: data.totalAttempted || 0,
-          possible: data.totalPointsPossible || 0,
-          role: data.email === "tabraham@thsrocks.us" ? "teacher" : "student"
-        });
-        
-        
-      });
-    
-      renderScoreChart(studentScores);
+
+    users[email][unit] = 1;
+  });
+
+  Object.entries(users).forEach(([email, unitMap]) => {
+    const tr = document.createElement("tr");
+
+    let totalComplete = 0;
+    const unitCells = [];
+    for (let i = 1; i <= 9; i++) {
+      const val = unitMap[i.toString()] ? 1 : 0;
+      totalComplete += val;
+      unitCells.push(`<td>${val}</td>`);
     }
+
+    tr.innerHTML = `<td>${email}</td>${unitCells.join("")}<td>${totalComplete}</td>`;
+    tbody.appendChild(tr);
+  });
+}
+
+    
+async function loadStudentSummary() {
+  const tbody = document.querySelector("#student-summary-table tbody");
+  tbody.innerHTML = "";
+
+  const snapshot = await getDocs(collection(db, "student_summary"));
+  const studentScores = [];
+
+  snapshot.forEach(doc => {
+    const data = doc.data();
+    const email = data.email || "(unknown)";
+    const units = data.units || {};
+    const unitCells = [];
+
+    for (let i = 1; i <= 9; i++) {
+      const unitKey = i.toString();
+      const unitPoints = units[unitKey]?.points || 0;
+      unitCells.push(`<td>${unitPoints}</td>`);
+    }
+
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${email}</td>
+      ${unitCells.join("")}
+      <td>${data.totalAttempted || 0}</td>
+      <td>${data.totalCorrect || 0}</td>
+      <td>${data.totalPointsEarned || 0}</td>
+      <td>${data.totalPointsPossible || 0}</td>
+    `;
+    tbody.appendChild(tr);
+
+    studentScores.push({
+      label: email,
+      value: data.totalPointsEarned || 0,
+      attempted: data.totalAttempted || 0,
+      possible: data.totalPointsPossible || 0,
+      role: email === "tabraham@thsrocks.us" ? "teacher" : "student"
+    });
+  });
+
+  renderScoreChart(studentScores);
+}
+
     
     window.exportCSV = function(tableId, filename) {
       const rows = Array.from(document.querySelectorAll(`#${tableId} tr`));
