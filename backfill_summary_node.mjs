@@ -18,10 +18,10 @@ async function backfillSummaryWithEmails() {
 
   snapshot.forEach(doc => {
     const data = doc.data();
+    const uid = data.userId;
     const questionId = data.questionId;
     const qid = typeof questionId === "string" ? questionId.split("_") : [];
-    const unit = (qid[0] || "unknown").toString();
-    const uid = data.userId;
+    const unit = (qid[0] || "unknown").toString(); // expects unit 1–9
     const difficulty = (data.difficulty || "medium").toLowerCase();
     const reward = rewardPoints[difficulty] ?? 2;
     const penalty = penaltyPoints[difficulty] ?? -1;
@@ -35,19 +35,15 @@ async function backfillSummaryWithEmails() {
         totalAttempted: 0,
         totalPointsEarned: 0,
         totalPointsPossible: 0,
-        units: {} // per-unit tracking
+        units: {},           // nested unit info
+        completedUnits: {}   // for tracking > 25 completion
       };
     }
 
     const user = userData[uid];
 
     if (!user.units[unit]) {
-      user.units[unit] = {
-        points: 0,
-        correct: 0,
-        incorrect: 0,
-        everAbove25: false
-      };
+      user.units[unit] = { points: 0, correct: 0, incorrect: 0, everAbove25: false };
     }
 
     const earned = data.correct ? reward : penalty;
@@ -64,25 +60,50 @@ async function backfillSummaryWithEmails() {
       user.units[unit].incorrect++;
     }
 
+    // Track top-level unit fields
+    if (/^[1-9]$/.test(unit)) {
+      const unitKey = `unit${unit}`;
+      user[unitKey] += earned;
+    }
+
     if (user.units[unit].points > 25) {
       user.units[unit].everAbove25 = true;
+      user.completedUnits[unit] = true;
     }
   });
 
+  // Commit summaries + completions
   for (const uid of Object.keys(userData)) {
     try {
       const user = await admin.auth().getUser(uid);
-      userData[uid].email = user.email;
-      userData[uid].lastUpdated = new Date();
+      const record = userData[uid];
+      record.email = user.email;
+      record.lastUpdated = new Date();
 
-      await db.collection("student_summary").doc(uid).set(userData[uid]);
+      await db.collection("student_summary").doc(uid).set(record);
       console.log(`✅ Wrote summary for ${uid}`);
+
+      // Write unit_completion records for units > 25
+      for (const unit of Object.keys(record.completedUnits)) {
+        const unitDoc = {
+          userId: uid,
+          email: record.email,
+          unit,
+          score: record.units[unit]?.points || 0,
+          totalAnswers: (record.units[unit]?.correct || 0) + (record.units[unit]?.incorrect || 0),
+          completedAt: new Date()
+        };
+        await db.collection("unit_completion").add(unitDoc);
+        console.log(`🟩 Marked completion: ${record.email} unit ${unit}`);
+      }
+
     } catch (err) {
       console.error(`❌ Skipped ${uid}: ${err.message}`);
     }
   }
 
-  console.log("🎉 Backfill with unit breakdown complete.");
+  console.log("🎉 Backfill with completions + summary values complete.");
 }
+
 
 backfillSummaryWithEmails();

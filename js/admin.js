@@ -66,7 +66,7 @@ async function loadDashboard() {
     let totalComplete = 0;
     const unitCells = [];
     for (let i = 1; i <= 9; i++) {
-      const val = unitMap[i.toString()] ? 1 : 0;
+      const val = unitMap[`unit${i.toString()}`] ? 1 : 0;
       totalComplete += val;
       unitCells.push(`<td>${val}</td>`);
     }
@@ -91,7 +91,7 @@ async function loadStudentSummary() {
     const unitCells = [];
 
     for (let i = 1; i <= 9; i++) {
-      const unitKey = i.toString();
+      const unitKey = `unit${i.toString()}`;
       const unitPoints = units[unitKey]?.points || 0;
       unitCells.push(`<td>${unitPoints}</td>`);
     }
