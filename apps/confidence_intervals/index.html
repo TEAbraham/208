@@ -269,19 +269,26 @@
 <!-- Confidence Interval Section -->
 <div id="section2" class="Row">
     <div class="Column left">
-      <h3>Confidence Interval</h3>
+      <h3>Confidence Intervals</h3>
       <p>In contrast to point estimators, confidence intervals estimate a parameter by specifying a range of possible values...</p>
   
       <p>Choose a probability distribution to sample from.</p>
       <div class="interactive-wrapper">
         <select id="dist_ci" class="st-dropdown">
           <option disabled selected> -- select a distribution -- </option>
-          <option value="uniform">Uniform</option>
-          <option value="normal">Normal</option>
-          <option value="studentt">Student T</option>
-          <option value="chisquare">Chi Squared</option>
-          <option value="exponential">Exponential</option>
-          <option value="centralF">Fisher–Snedecor</option>
+            <option value="bernoulli" selected>Bernoulli</option>
+            <option value="binomialDiscrete">Binomial</option>
+            <option value="geometric">Geometric</option>
+            <option value="poisson">Poisson</option>
+            <option value="negbin">Negative Binomial</option>
+            <option value="uniform">Uniform</option>
+            <option value="normal">Normal</option>
+            <option value="studentt">Student T</option>
+            <option value="chisquare">Chi Squared</option>
+            <option value="exponential">Exponential</option>
+            <option value="centralF">F</option>
+            <option value="gamma">Gamma</option>
+            <option value="beta">Beta</option>
         </select>
       </div>
   
@@ -313,6 +320,155 @@
 </div>
 
 <script>
+// Extend D3 selection prototype for bringing elements to front/back
+d3.selection.prototype.moveToFront = function() {
+  return this.each(function() {
+      this.parentNode.appendChild(this);
+  });
+};
+
+d3.selection.prototype.moveToBack = function() {
+  return this.each(function() {
+      this.parentNode.insertBefore(this, this.parentNode.firstChild);
+  });
+};
+
+// Additional jStat functions
+jStat.bernoulli = {
+  pdf: (k, p) => (k < 0 || !Number.isInteger(k) || k > 1 || p < 0 || p > 1) ? 0 : jStat.binomial.pdf(k, 1, p),
+  cdf: (k, p) => jStat.binomial.cdf(k, 1, p),
+  mean: (p) => p,
+  sample: (p) => Array.from({length: 1}, () => +(Math.random() < p)).reduce((a, b) => a + b, 0)
+};
+
+jStat.geometric = {
+  pdf: (k, p) => (k < 1 || !Number.isInteger(k) || p < 0 || p > 1) ? 0 : (1-p)**(k-1)*p,
+  cdf: (k, p) => { let sum = 0; for (let i = 1; i <= k; i++) {sum +=jStat.geometric.pdf(i,p) }; return sum  },
+  mean: (p) => 1/p,
+  sample: (p) => Array.from({length: 1}, () => +(Math.random() < p)).reduce((a, b) => a + b, 0)
+};
+
+
+//Additional Functions to JSTAT
+jStat.binomialDiscrete = {};
+
+jStat.binomialDiscrete.pdf = function(k, n, p) {
+  if (k < 0 || !Number.isInteger(k) || k > n || p < 0 || p > 1) {
+      return 0;
+  } else {
+      return jStat.binomial.pdf(k, n, p);
+  }
+}
+
+jStat.binomialDiscrete.cdf = function(k, n, p) {
+  return jStat.binomial.cdf(k, n, p);
+}
+
+jStat.binomialDiscrete.mean = function(n, p) {
+  return n * p;
+}
+
+jStat.binomialDiscrete.sample = function(n, p) {
+  var sum = 0;
+  for (var i = 0; i < n; i++) {
+      sum += +(Math.random() < p);
+  }
+  return sum;
+}
+
+jStat.bernoulli = {};
+
+jStat.bernoulli.pdf = function(k, p) {
+  return jStat.binomialDiscrete.pdf(k, 1, p);
+}
+
+jStat.bernoulli.cdf = function(k, p) {
+  return jStat.binomial.cdf(k, 1, p);
+}
+
+jStat.bernoulli.mean = function(p) {
+  return p;
+}
+
+jStat.bernoulli.sample = function(p) {
+  return +(Math.random() < p);
+}
+
+jStat.negbin.mean = function(r, p) {
+  return (1 - p) * r / p;
+}
+
+jStat.poisson.mean = function(lambda) {
+  return lambda;
+}
+
+const parameters = {
+  bernoulli: ['Probability'],
+  binomialDiscrete: ['Number', 'Probability'],
+  negbin: ['Number', 'Probability'],
+  geometric: ['Probability'],
+  poisson: ['Lambda'],
+  uniform: ['Min', 'Max'],
+  normal: ['Mean', 'Std'],
+  studentt: ['Dof'],
+  chisquare: ['Dof'],
+  exponential: ['Lambda'],
+  centralF: ['Dof1', 'Dof2'],
+  gamma: ['Shape', 'Scale'],
+  beta: ['Alpha', 'Beta']
+};
+
+// Additional components: mini bar chart for counts
+const viewParams = {
+  'bernoulli': [-1, 2],
+  'binomialDiscrete': [-1, 6],
+  'negbin': [-1, 6],
+  'geometric': [-1, 6],
+  'poisson': [-1, 6],
+  'uniform': [-6, 6], 
+  'normal': [-6, 6], 
+  'studentt': [-6, 6],
+  'chisquare': [-1, 11], 
+  'exponential': [-1, 6], 
+  'centralF': [-1, 6], 
+  'gamma': [-1, 6],
+  'beta': [-1, 2],
+  '': []
+};
+
+const initialParams = {
+  bernoulli: [0.5],
+  binomialDiscrete: [5, 0.5],
+  negbin: [5, 0.5],
+  geometric: [0.5],
+  poisson: [5],
+  uniform: [-5, 5],
+  normal: [0, 1],
+  studentt: [5],
+  chisquare: [5],
+  exponential: [1],
+  centralF: [5, 5],
+  gamma: [1, 1],
+  beta: [1, 1]
+};
+
+const parameterRanges = {
+  Probability: [0.01, 1, 0.01],
+  Number: [1, 50, 1],
+  Lambda: [0.01, 10, 0.01],
+  Min: [-10, 0, 0.1],
+  Max: [0, 10, 0.1],
+  Mean: [-10, 10, 0.1],
+  Std: [0.01, 10, 0.01],
+  Dof: [1, 30, 1],
+  Dof1: [1, 30, 1],
+  Dof2: [1, 30, 1],
+  Shape: [0.1, 10, 0.1],
+  Scale: [0.1, 10, 0.1],
+  Alpha: [0.1, 10, 0.1],
+  Beta: [0.1, 10, 0.1]
+};
+
 function confidence() {
     const margin = { top: 15, right: 5, bottom: 15, left: 5 };
     const width = 800;
@@ -382,16 +538,31 @@ function confidence() {
     }
   
     function drawSampling(data, duration) {
-      const lineGen = d3.line()
-        .x(d => xScale(d[0]))
-        .y(d => y1 - yScale(d[1]))
-        .curve(d3.curveBasis);
-  
-      const areaGen = d3.area()
-        .x(d => xScale(d[0]))
-        .y0(y1)
-        .y1(d => y1 - yScale(d[1]))
-        .curve(d3.curveBasis);
+      let lineGen, areaGen;
+
+      if (["bernoulli", "binomialDiscrete", "negbin", "geometric", "poisson"].includes(curr_dist_ci)) {
+        lineGen = d3.line()
+          .x(d => xScale(d[0]))
+          .y(d => y1 - yScale(d[1]))
+          .curve(d3.curveStepAfter);
+
+        areaGen = d3.area()
+          .x(d => xScale(d[0]))
+          .y0(y1)
+          .y1(d => y1 - yScale(d[1]))
+          .curve(d3.curveStepAfter);
+      } else {
+        lineGen = d3.line()
+          .x(d => xScale(d[0]))
+          .y(d => y1 - yScale(d[1]))
+          .curve(d3.curveLinear);
+
+        areaGen = d3.area()
+          .x(d => xScale(d[0]))
+          .y0(y1)
+          .y1(d => y1 - yScale(d[1]))
+          .curve(d3.curveLinear);
+      }
   
       pdfLine.datum(data).transition().duration(duration).attr("d", lineGen);
       pdfArea.datum(data).transition().duration(duration).attr("d", areaGen);
@@ -503,17 +674,7 @@ function confidence() {
       counts = [0, 0];
       updateRectCI();
     }
-  
-    // Additional components: mini bar chart for counts
-    const viewParams = {
-      'uniform': [-6, 6], 'normal': [-6, 6], 'studentt': [-6, 6],
-      'chisquare': [-1, 11], 'exponential': [-1, 5], 'centralF': [-1, 5], '': []
-    };
-    const initialParams = {
-      'uniform': [-5, 5], 'normal': [0, 1], 'studentt': [5],
-      'chisquare': [5], 'exponential': [1], 'centralF': [5, 5], '': []
-    };
-  
+
     const w_ci = 350, h_ci = 200, p_ci = 30;
     const labels = ["Contains μ", "Excludes μ"];
     const xScaleCI = d3.scaleBand().domain(labels).range([0, w_ci - 2 * p_ci]).padding(0.5);
