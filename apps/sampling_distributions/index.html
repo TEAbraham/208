@@ -347,7 +347,7 @@ circle {
   <div class="Column left">
     <h3>Discrete and Continuous</h3>
     <p>There are two major classes of probability distributions.</p>
-  
+
     <div class="interactive-wrapper slider-align">
       <label class="radio-inline">Discrete
         <input type="radio" name="distributions" value="discrete" checked>
@@ -358,12 +358,14 @@ circle {
         <span class="checkmark"></span>
       </label>
     </div>
-  
+
     <!-- Discrete description and dropdown -->
     <div class="definition">
       <p>A discrete random variable has a finite or countable number of possible values.</p>
       <p>If $ X $ is a discrete random variable, then:</p>
+      <div>
       $P(X = x) = f(x) $ <br> $ P(X < x) = F(x)$
+      </div>
       <p>Choose a distribution to visualize:</p>
       <div class="interactive-wrapper">
         <select id="discreteSelect" class="distributions st-dropdown">
@@ -661,13 +663,26 @@ function create_slider(callback, svg, width, height, wpad) {
     .attr("class", "giant-slider")
     .attr("transform", `translate(${wpad}, ${height + 30})`);
 
+  // Background track
   slider.append("line")
     .attr("x1", 0)
     .attr("x2", width)
     .attr("y1", 0)
     .attr("y2", 0)
     .attr("stroke", "#ccc")
-    .attr("stroke-width", 10);
+    .attr("stroke-width", 10)
+    .attr("stroke-linecap", "round"); // 👈 Rounded ends
+
+  // Filled track up to handle
+  const filled = slider.append("line")
+    .attr("class", "filled-track")
+    .attr("x1", 0)
+    .attr("y1", 0)
+    .attr("x2", 0)
+    .attr("y2", 0)
+    .attr("stroke", "darkgreen")
+    .attr("stroke-width", 10)
+    .attr("stroke-linecap", "round"); // 👈 Rounded ends
 
   const handle = slider.append("circle")
     .attr("class", "handle")
@@ -678,6 +693,7 @@ function create_slider(callback, svg, width, height, wpad) {
       .on("drag", function (event) {
         let x = Math.max(0, Math.min(width, event.x));
         d3.select(this).attr("cx", x);
+        filled.attr("x2", x); // 👈 Update filled track
         const percent = x / width;
         callback(percent);
       })
@@ -685,8 +701,10 @@ function create_slider(callback, svg, width, height, wpad) {
 
   return function reset() {
     handle.attr("cx", 0);
+    filled.attr("x2", 0); // 👈 Reset filled track
   };
 }
+
 
 
 const parameters = {

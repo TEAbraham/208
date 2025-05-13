@@ -52,6 +52,11 @@
     <script id="MathJax-script" async
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <style>
+body, html {
+  margin: 10;
+  padding: 10;
+  overflow-x: hidden;
+}
 
 svg {
   width: 100%;
@@ -60,15 +65,17 @@ svg {
 }
 
 .Row {
-    display: table;
-    width: 100%;
-    table-layout: fixed;
-    border-spacing: 10px;
-  }
-.Column {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  width: 100%;
+  gap: 10px;
 }
+
+.Column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
   
 .visualization-wrapper {
   width: 100%;
@@ -78,14 +85,14 @@ svg {
 }
 
 .left {
-  width: 35%;
+  flex: 0 0 35%;
 }
 
 .right {
-  width: 65%;
+  flex: 0 0 65%;
 }
-.header {
 
+.header {
     background-color: #FFF2E8;
     background: -webkit-linear-gradient(rgba(255,242,232, 1), rgba(255,242,232, 1), rgba(255,242,232, 0));
     /* For Safari 5.1 to 6.0 */
@@ -96,7 +103,18 @@ svg {
     background: linear-gradient(rgba(255,242,232, 1), rgba(255,242,232, 1), rgba(255,242,232, 0));
     /* Standard syntax */
 }
+.menu-top {
+  transform: scale(1);
+  will-change: transform;
+  transition: transform 0.25s ease-in-out;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  backface-visibility: hidden;
 
+}
 .interactive-wrapper {
     display: block;
     width: auto;
@@ -153,7 +171,6 @@ background: #FF8B22;
 }
 
 /*Discrete and Continuous*/
-
 svg g image {
   opacity: 0.5;
   cursor: pointer;
@@ -177,7 +194,7 @@ svg g image:hover {
 }
 label {
   padding-right: 10px;
-  font-weight: normal; 
+  font-weight: normal;
 }
 .slider.slider-horizontal {
   width: 140px;
@@ -230,12 +247,11 @@ label {
   display: none;
 }
 .handle {
-  fill: #FF8B22;
+  fill: darkgreen;
 }
 
 
 /*Central Limit Theorem*/
-
 circle {
   fill: #F5D800;
 }
@@ -267,6 +283,69 @@ circle {
     pointer-events: none;
     font-size: 0.9em;
   }
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+#user-list li.active {
+  font-weight: bold;
+}
 
 </style>
 </head>
@@ -324,40 +403,6 @@ circle {
             <a href="../../admin/"><span id="user-email" style="color:darkgreen; margin-left: 1em;"></span></a>
             <div id="logo"></div>
         </header>
-<!-- Discrete and Continuous Section -->
-<div id="section2" class="Row">
-  <div class="Column left">
-    <h3>Discrete and Continuous</h3>
-    <p>There are two major classes of probability distributions.</p>
-  
-    <div class="interactive-wrapper slider-align">
-      <label class="radio-inline">Discrete
-        <input type="radio" name="distributions" value="discrete" checked>
-        <span class="checkmark"></span>
-      </label>
-      <label class="radio-inline">Continuous
-        <input type="radio" name="distributions" value="continuous">
-        <span class="checkmark"></span>
-      </label>
-    </div>
-  
-    <!-- Discrete description and dropdown -->
-    <div class="definition">
-      <p>A discrete random variable has a finite or countable number of possible values.</p>
-      <p>If $ X $ is a discrete random variable, then:</p>
-      $P(X = x) = f(x) $ <br> $ P(X < x) = F(x)$
-      <p>Choose a distribution to visualize:</p>
-      <div class="interactive-wrapper">
-        <select id="discreteSelect" class="distributions st-dropdown">
-
-          <option value="bernoulli" selected>Bernoulli</option>
-          <option value="binomialDiscrete">Binomial</option>
-          <option value="geometric">Geometric</option>
-          <option value="poisson">Poisson</option>
-          <option value="negbin">Negative Binomial</option>
-        </select>
-      </div>
-    </div>
 <!-- Central Limit Theorem Section -->
 <div id="section3" class="Row">
   <div class="Column left">
@@ -368,30 +413,38 @@ circle {
       <label for="alpha_clt">
         $ \alpha$ = <span id="alpha_clt-value">1.00</span>
       </label>
+      <br>
       <input id="alpha_clt" class="inputDist blueSlider" type="range" min="0.1" max="5" step="0.01" value="1.00">
       <br>
       <label for="beta_clt">
         $ \beta$ = <span id="beta_clt-value">1.00</span>
       </label>
+      <br>
       <input id="beta_clt" class="inputDist blueSlider" type="range" min="0.1" max="5" step="0.01" value="1.00">
     </div>
 
-    <p>Set sample size and draw count, then click "Sample." Optionally show the theoretical distribution.</p>
+    <p>Set sample size and sample count, then click "Sample." Optionally show the theoretical distribution.</p>
     <div class="interactive-wrapper">
       <label for="sample">
-        Sample size = <span id="sample-value">1</span>
+        Sample size $n$ = <span id="sample-value">1</span>
       </label>
+      <br>
       <input id="sample" class="inputDist greenSlider" type="range" min="1" max="15" step="1" value="1">
       <br>
-      <label for="draws">
-        Draws = <span id="draws-value">1</span>
+      <label for="samples">
+        Number of Samples = <span id="samples-value">1</span>
       </label>
-      <input id="draws" class="inputDist greenSlider" type="range" min="1" max="50" step="1" value="1">
       <br>
-      <label class="form-check">Theoretical
-        <input class="form-check-input" id="theoretical" type="checkbox">
-        <span class="checkbox-mark"></span>
+      <input id="samples" class="inputDist greenSlider" type="range" min="1" max="50" step="1" value="1">
+      <br>
+      <div>
+        Theoretical
+      <label class="switch">
+        <input  id="theoretical" type="checkbox">
+        <span class="slider round"></span>
       </label>
+      </div>
+      <br>
       <div class="button-1" id="sample">Sample</div>
     </div>
   </div>
@@ -404,7 +457,6 @@ circle {
 <script>
 //Handles functionality of Distributions
 $(function () {
-  discrete_continuous();
   clt();
 });
 
@@ -611,7 +663,7 @@ function updateRangeInput(n, id) {
   }
 }
 
-function redrawPath(dist) {
+function resamplePath(dist) {
   if (!dist || !parameters[dist]) return;
   const paramKeys = parameters[dist];
   for (const key of paramKeys) {
@@ -654,96 +706,6 @@ function redrawPath(dist) {
     .attr("d", line);
 }
 
-function discrete_continuous() {
-  $("input[name='distributions']").on("change", function () {
-    const value = $(this).val();
-    if (value === "discrete") {
-      $("#discreteSelect").parent().parent().show();
-      $("#continuousSelect").parent().parent().hide();
-    } else {
-      $("#discreteSelect").parent().parent().hide();
-      $("#continuousSelect").parent().parent().show();
-    }
-    $('#parameterSliders').hide().empty();
-    $('#resetDist').hide();
-    $("#descriptionTable .distribution").hide();
-    $(".distribution").hide();
-    currentDist = $('.distributions').val();
-    redrawPath(currentDist);
-    $('.distributions').trigger('change');
-  });
-
-  $('.distributions').on('change', function () {
-    const dist = $(this).val();
-    if (!parameters[dist]) return; // invalid or placeholder selection
-
-    currentDist = dist;
-    $('#parameterSliders').empty().show();
-    $('#descriptionTable').show();
-
-    // Hide all rows
-    $("#descriptionTable .distribution").hide();
-    $(".distribution").hide();
-    // Show only the matching distribution
-    $("#descriptionTable ." + dist).show();
-    $("." + dist).show();
-
-    $('#resetDist').show();
-
-    const paramNames = parameters[dist];
-    const paramValues = initialParameters[dist];
-
-    paramNames.forEach((param, i) => {
-      const id = dist + param;
-      const value = paramValues[i];
-      const [min, max, step] = parameterRanges[param] || [0.01, 10, 0.01];
-
-      const inputHTML = `
-        <div style="margin: 10px 0;">
-          <label for="${id}">${param} = <span id="${id}-value">${value}</span></label><br>
-          <input
-            type="range"
-            min="${min}"
-            max="${max}"
-            step="${step}"
-            value="${value}"
-            id="${id}"
-            class="inputDist"
-          >
-        </div>
-      `;
-      $('#parameterSliders').append(inputHTML);
-    });
-
-    $(".inputDist").on("input", function () {
-      const id = this.id;
-      const value = parseFloat(this.value);
-      if (!isNaN(value)) {
-        $("#" + id + "-value").text(value.toFixed(2));
-        redrawPath(currentDist);
-      }
-    });
-
-    currentView = initialView[dist] || [-5, 5];
-    xScaleDist.domain(currentView);
-    yScaleDist.domain([0, 1]);
-    xDist.call(xAxisDist);
-    yDist.call(yAxisDist);
-    currentPercent = 0;
-    reset_slider();
-    redrawPath(dist);
-  });
-
-  $('#resetDist').on('click', function () {
-    $(".distributions:visible").trigger("change");
-  });
-}
-
-$(function () {
-  discrete_continuous();
-  $(".distributions:visible").trigger("change");
-});
-
 //*******************************************************************************//
 //Central Limit Theorem
 //*******************************************************************************//
@@ -765,7 +727,7 @@ function clt() {
   // constants
   var dt = 100,
       n = 1,
-      draws = 1,
+      samples = 1,
       alpha = 1,
       beta = 1,
       y1 = height / 3,
@@ -790,8 +752,8 @@ function clt() {
                   .attr("width", width)
                   .attr("height", (2*y1 - y2));
 
-  // draw horizontal bar
-  function draw_bar(selection, dy, label) {
+  // sample horizontal bar
+  function sample_bar(selection, dy, label) {
     // group
     var axis = selection.append("g").attr("class", "axis");
     // bar
@@ -808,9 +770,9 @@ function clt() {
       .text(label);
   };
   // create three bars
-  svg_clt.call(draw_bar, y1, "draw");
-  svg_clt.call(draw_bar, y1+y2, "average");
-  svg_clt.call(draw_bar, 3*y1, "count");
+  svg_clt.call(sample_bar, y1, "sample");
+  svg_clt.call(sample_bar, y1+y2, "mean");
+  svg_clt.call(sample_bar, 3*y1, "count");
 
 
   // path and area elements
@@ -823,7 +785,7 @@ function clt() {
                                 .moveToBack();
 
   // Update sampling distributions
-  function draw_sampling() {
+  function sample_sampling() {
     // path function
     const line = d3.line()
     .x(d => x_scale_clt(d[0]))
@@ -841,12 +803,12 @@ function clt() {
     // update sampling distribution
   	sampling_path.datum(datum).attr("d", line);
   	sampling_area.datum(datum).attr("d", area);
-    // draw threoretical
-    draw_theoretical(datum);
+    // sample threoretical
+    sample_theoretical(datum);
   }
 
-  // draw theoretical distribution
-  function draw_theoretical(datum) {
+  // sample theoretical distribution
+  function sample_theoretical(datum) {
     // path function
     const line = d3.line()
       .x(d => x_scale_clt(d[0]))
@@ -869,10 +831,10 @@ function clt() {
   // create histogram
   const histogram = d3.bin()
     .domain(x_scale_clt.domain())
-    .thresholds(x_scale_clt.ticks(bins));  
+    .thresholds(x_scale_clt.ticks(bins));
   var bars = svg_clt.append("g").attr("class", "histogram");
 
-  function draw_histogram() {
+  function sample_histogram() {
     // get histrogram of counts
     var data = histogram(counts);
     // update scale
@@ -937,8 +899,8 @@ function clt() {
             .each("end", function() {
               if (!--j) {
                 counts.push(mean);
-                draw_histogram();
-                draw_sampling();
+                sample_histogram();
+                sample_sampling();
               }
               d3.select(this).remove();
             });
@@ -948,11 +910,11 @@ function clt() {
 
   // initiate sampling
   function start_sampling() {
-    dt = 350/Math.pow(1.04, draws);
+    dt = 350/Math.pow(1.04, samples);
     var count = 0;
     interval_clt = setInterval(function() { 
       tick();
-        if (++count === draws){
+        if (++count === samples){
           clearInterval(interval_clt);
         }
     }, dt);
@@ -967,9 +929,9 @@ function clt() {
     svg_clt.selectAll("circle").remove();
     svg_clt.selectAll(".bar").remove();
   
-    // Reset the y-scale domain and redraw
+    // Reset the y-scale domain and resample
     y_scale_clt.domain([0, 3]);
-    draw_sampling();
+    sample_sampling();
   }
   
 
@@ -994,10 +956,10 @@ function clt() {
     reset_clt();
   	});
 
-  // update number of draws
-  d3.select("#draws").on("input", function() {
-    draws = +this.value;
-    d3.select("#draws-value").text(draws);
+  // update number of samples
+  d3.select("#samples").on("input", function() {
+    samples = +this.value;
+    d3.select("#samples-value").text(samples);
   });
 
   // theoretical on/off
@@ -1007,7 +969,7 @@ function clt() {
      } else {
         theoretical_path.attr("opacity", 0);
      }
-     draw_sampling();
+     sample_sampling();
   });
 
   // drop balls
@@ -1016,7 +978,7 @@ function clt() {
     start_sampling();
   });
 
-  draw_sampling();
+  sample_sampling();
 };
 </script>
 
