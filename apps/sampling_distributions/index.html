@@ -611,8 +611,12 @@ jStat.poisson.mean = function(lambda) {
 }
 
 // D3 setup for distGraph
-const xScaleDist = d3.scaleLinear().range([0, 400]);
-const yScaleDist = d3.scaleLinear().range([300, 0]);
+const xScaleDist = d3.scaleLinear()
+  .domain([-5, 5])       // 👈 X domain
+  .range([0, 400]);      // 👈 Actual graph width (500 - 100 padding)
+
+const yScaleDist = d3.scaleLinear()
+  .range([300, 0]);
 
 const xAxisDist = d3.axisBottom(xScaleDist);
 const yAxisDist = d3.axisLeft(yScaleDist);
@@ -825,8 +829,8 @@ if (toggle === 'discrete') {
   });
 
   const [xMin, xMax] = d3.extent(previewData, d => d[0]);
-  if (xMin < currentView[0] || xMax > currentView[1]) {
-    currentView = [Math.floor(xMin) - 1, Math.ceil(xMax) + 1];
+  if (currentView[0] < xMin || currentView[1] > xMax) {
+    currentView = [Math.floor(xMin), Math.ceil(xMax)];
     xScaleDist.domain(currentView);
     xDist.call(xAxisDist);
   }
