@@ -61,7 +61,7 @@ body, html {
 svg {
   width: 100%;
   height: 100%;
-  display: block;
+  flex: 1;
 }
 
 .Row {
@@ -90,6 +90,19 @@ svg {
 
 .right {
   flex: 0 0 65%;
+}
+
+.menu-top {
+  transform: scale(1);
+  will-change: transform;
+  transition: transform 0.25s ease-in-out;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  backface-visibility: hidden;
+
 }
 
 .header {
@@ -288,8 +301,8 @@ circle {
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 40px;
+  height: 26px;
 }
 
 .switch input {
@@ -313,8 +326,8 @@ circle {
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
+  height: 18px;
+  width: 18px;
   left: 4px;
   bottom: 4px;
   background-color: white;
@@ -410,26 +423,32 @@ input:checked + .slider:before {
     <p>The CLT states the sample mean of many i.i.d. variables is approximately normal. Larger samples improve approximation.</p>
 
     <div class="interactive-wrapper">
-      <label for="alpha_clt">
-        $ \alpha$ = <span id="alpha_clt-value">1.00</span>
-      </label>
-      <br>
-      <input id="alpha_clt" class="inputDist blueSlider" type="range" min="0.1" max="5" step="0.01" value="1.00">
-      <br>
-      <label for="beta_clt">
-        $ \beta$ = <span id="beta_clt-value">1.00</span>
-      </label>
-      <br>
-      <input id="beta_clt" class="inputDist blueSlider" type="range" min="0.1" max="5" step="0.01" value="1.00">
+    <select id="dist_clt" class="st-dropdown">
+      <option disabled selected> -- select a distribution -- </option>
+      <option value="bernoulli">Bernoulli</option>
+      <option value="binomialDiscrete">Binomial</option>
+      <option value="geometric">Geometric</option>
+      <option value="poisson">Poisson</option>
+      <option value="negbin">Negative Binomial</option>
+      <option value="uniform">Uniform</option>
+      <option value="normal">Normal</option>
+      <option value="studentt">Student T</option>
+      <option value="chisquare">Chi Squared</option>
+      <option value="exponential">Exponential</option>
+      <option value="centralF">F</option>
+      <option value="gamma">Gamma</option>
+      <option value="beta" selected>Beta</option>
+    </select>
     </div>
+    <div id="parameter-controls" class="interactive-wrapper"></div>
 
     <p>Set sample size and sample count, then click "Sample." Optionally show the theoretical distribution.</p>
     <div class="interactive-wrapper">
-      <label for="sample">
+      <label for="population">
         Sample size $n$ = <span id="sample-value">1</span>
       </label>
       <br>
-      <input id="sample" class="inputDist greenSlider" type="range" min="1" max="15" step="1" value="1">
+      <input id="population" class="inputDist greenSlider" type="range" min="1" max="15" step="1" value="1">
       <br>
       <label for="samples">
         Number of Samples = <span id="samples-value">1</span>
@@ -438,20 +457,21 @@ input:checked + .slider:before {
       <input id="samples" class="inputDist greenSlider" type="range" min="1" max="50" step="1" value="1">
       <br>
       <div>
-        Theoretical
+        <strong>Theoretical</strong>
       <label class="switch">
         <input  id="theoretical" type="checkbox">
         <span class="slider round"></span>
       </label>
       </div>
       <br>
-      <div class="button-1" id="sample">Sample</div>
+      <div class="interactive-wrapper">
+        <div class="button-1 sample_btn" id="start">Start Sampling</div>
+        <div class="button-1 sample_btn" id="stop" style="display:none">Stop Sampling</div>
+      </div>
     </div>
   </div>
   <div class="Column right">
-    <div class="visualization-wrapper">
-      <svg id="cltGraph"></svg>
-    </div>
+    <div id="cltGraph" class="visualization-wrapper"></div>
   </div>
 </div>
 <script>
@@ -584,75 +604,6 @@ function reset_slider() {
   $("#percentDist").val(0);
   currentPercent = 0;
 }
-  
-const parameters = {
-  bernoulli: ['Probability'],
-  binomialDiscrete: ['Number', 'Probability'],
-  negbin: ['Number', 'Probability'],
-  geometric: ['Probability'],
-  poisson: ['Lambda'],
-  uniform: ['Min', 'Max'],
-  normal: ['Mean', 'Std'],
-  studentt: ['Dof'],
-  chisquare: ['Dof'],
-  exponential: ['Lambda'],
-  centralF: ['Dof1', 'Dof2'],
-  gamma: ['Shape', 'Scale'],
-  beta: ['Alpha', 'Beta']
-};
-
-const initialParameters = {
-  bernoulli: [0.5],
-  binomialDiscrete: [5, 0.5],
-  negbin: [5, 0.5],
-  geometric: [0.5],
-  poisson: [5],
-  uniform: [-5, 5],
-  normal: [0, 1],
-  studentt: [5],
-  chisquare: [5],
-  exponential: [1],
-  centralF: [5, 5],
-  gamma: [1, 1],
-  beta: [1, 1]
-};
-
-const parameterRanges = {
-  Probability: [0.01, 1, 0.01],
-  Number: [1, 50, 1],
-  Lambda: [0.01, 10, 0.01],
-  Min: [-10, 0, 0.1],
-  Max: [0, 10, 0.1],
-  Mean: [-10, 10, 0.1],
-  Std: [0.01, 10, 0.01],
-  Dof: [1, 30, 1],
-  Dof1: [1, 30, 1],
-  Dof2: [1, 30, 1],
-  Shape: [0.1, 10, 0.1],
-  Scale: [0.1, 10, 0.1],
-  Alpha: [0.1, 10, 0.1],
-  Beta: [0.1, 10, 0.1]
-};
-
-const initialView = {
-  bernoulli: [-1, 5],
-  binomialDiscrete: [-1, 5],
-  negbin: [-1, 5],
-  geometric: [-1, 5],
-  poisson: [-1, 5],
-  uniform: [-6, 6],
-  normal: [-5, 5],
-  studentt: [-5, 5],
-  chisquare: [-1, 8],
-  exponential: [-1, 5],
-  centralF: [-1, 5],
-  gamma: [-1, 5],
-  beta: [-0.5, 1.5]
-};
-
-let currentDist = "bernoulli";
-let currentView = [-5, 5];
-let currentPercent = 0;
 
 const zoom = d3.zoom().scaleExtent([0.25, 4]).on("zoom", () => {});
 
@@ -672,13 +623,13 @@ function resamplePath(dist) {
 
   const line = d3.line()
     .x(d => xScaleDist(d[0]))
-    .y(d => yScaleDist(d[1]))
+    .y(d => y1 - yScaleDist(d[1]))
     .curve(d3.curveLinear);
 
   const area = d3.area()
     .x(d => xScaleDist(d[0]))
-    .y0(yScaleDist(0))
-    .y1(d => yScaleDist(d[1]))
+    .y0(y1)
+    .y1(d => y1 - yScaleDist(d[1]))
     .curve(d3.curveLinear);
 
   const paramValues = paramKeys.map(k => parseFloat(document.getElementById(dist + k).value));
@@ -706,280 +657,260 @@ function resamplePath(dist) {
     .attr("d", line);
 }
 
-//*******************************************************************************//
-//Central Limit Theorem
-//*******************************************************************************//
-
+// Central Limit Theorem Visualization with Distribution Dropdown
 function clt() {
-  // define width, height, margin
-  var margin = {top: 15, right: 5, bottom: 15, left: 5};
-  var width = 800;//parseInt(d3.select("#cltGraph").style("width")) - margin.left - margin.right,
-      height = 500;
-  // create svg
-  var svg_clt = d3.select("#cltGraph").append("svg")
+  const margin = { top: 20, right: 10, bottom: 20, left: 10 };
+  const fullWidth = 800, fullHeight = 600;
+  const width = fullWidth - margin.left - margin.right;
+  const height = fullHeight - margin.top - margin.bottom;
+
+  const window = d3.select("#cltGraph")
+    .append("svg")
     .attr("width", "100%")
     .attr("height", "100%")
-    .attr("viewBox", "0 0 " + (width + margin.left + margin.right) + " " + (height + margin.top + margin.bottom))
-    .attr("preserveAspectRatio", "xMidYMid meet")
-    .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    .attr("viewBox", `0 0 ${fullWidth} ${fullHeight}`)
+    .attr("preserveAspectRatio", "xMidYMid meet");
 
-  // constants
-  var dt = 100,
-      n = 1,
-      samples = 1,
-      alpha = 1,
-      beta = 1,
-      y1 = height / 3,
-      y2 = height / 4,
-      bins = 20,
-      counts = [],
-      interval_clt;
+  const svg = window.append("g")
+    .attr("class", "clt")
+    .attr("transform", `translate(${margin.left},${margin.top})`);
 
-
-  // scales
-  var x_scale_clt = d3.scaleLinear().domain([0, 1]).range([0, width]);
-  var y_scale_clt = d3.scaleLinear().domain([0, 3]).range([0, height - (2*y1)]);
-  var z_scale_clt = d3.scaleLinear().domain([0, 3]).range([0, y1]);
-
-
-  // clip path
-  var clip_clt = svg_clt.append("clipPath")
-                  .attr("id", "view_clt")
-                  .append("rect")
-                  .attr("x", 0)
-                  .attr("y", height - (2*y1 - y2))
-                  .attr("width", width)
-                  .attr("height", (2*y1 - y2));
-
-  // sample horizontal bar
-  function sample_bar(selection, dy, label) {
-    // group
-    var axis = selection.append("g").attr("class", "axis");
-    // bar
-    axis.append("line")
-      .attr("x1", x_scale_clt(0))
-      .attr("x2", x_scale_clt(1))
-      .attr("y1", dy)
-      .attr("y2", dy);
-    // label
-    axis.append("text")
-      .attr("x", x_scale_clt(0))
-      .attr("y", dy)
-      .attr("dy", "1em")
-      .text(label);
+  const viewParams = {
+    bernoulli: [-1, 2],
+    binomialDiscrete: [-1, 6],
+    negbin: [-1, 6],
+    geometric: [-1, 6],
+    poisson: [-1, 6],
+    uniform: [-6, 6], 
+    normal: [-6, 6], 
+    studentt: [-6, 6],
+    chisquare: [-1, 11], 
+    exponential: [-1, 6], 
+    centralF: [-1, 6], 
+    gamma: [-1, 6],
+    beta: [-1, 2],
   };
-  // create three bars
-  svg_clt.call(sample_bar, y1, "sample");
-  svg_clt.call(sample_bar, y1+y2, "mean");
-  svg_clt.call(sample_bar, 3*y1, "count");
 
+  const initialParams = {
+    bernoulli: [0.5],
+    binomialDiscrete: [5, 0.5],
+    negbin: [5, 0.5],
+    geometric: [0.5],
+    poisson: [5],
+    uniform: [-5, 5],
+    normal: [0, 1],
+    studentt: [5],
+    chisquare: [5],
+    exponential: [1],
+    centralF: [5, 5],
+    gamma: [1, 1],
+    beta: [1, 1]
+  };
 
-  // path and area elements
-  var sampling_path = svg_clt.append("path").attr("id", "pdf"),
-      sampling_area = svg_clt.append("path").attr("id", "pdfArea"),
-      theoretical_path = svg_clt.append("path")
-                                .attr("id", "cdf")
-                                .attr("opacity", 0)
-                                .attr("clip-path", "url(#view_clt)")
-                                .moveToBack();
+  const parameters = {
+    bernoulli: ['Probability'],
+    binomialDiscrete: ['Number', 'Probability'],
+    negbin: ['Number', 'Probability'],
+    geometric: ['Probability'],
+    poisson: ['Lambda'],
+    uniform: ['Min', 'Max'],
+    normal: ['Mean', 'Std'],
+    studentt: ['Dof'],
+    chisquare: ['Dof'],
+    exponential: ['Lambda'],
+    centralF: ['Dof1', 'Dof2'],
+    gamma: ['Shape', 'Scale'],
+    beta: ['Alpha', 'Beta']
+  };
 
-  // Update sampling distributions
-  function sample_sampling() {
-    // path function
-    const line = d3.line()
-    .x(d => x_scale_clt(d[0]))
-    .y(d => y_scale_clt(d[1]))
-    .curve(d3.curveLinear);
-    const area = d3.area()
-      .x(d => x_scale_clt(d[0]))
-      .y0(y_scale_clt(0))
-      .y1(d => y_scale_clt(d[1]))
-      .curve(d3.curveLinear);
-    // pdf data
-    var datum = d3.range(0, 1.05, 0.05).map(function(x) { 
-      return [x, Math.min(jStat.beta.pdf(x, alpha, beta),10)]; 
-    })
-    // update sampling distribution
-  	sampling_path.datum(datum).attr("d", line);
-  	sampling_area.datum(datum).attr("d", area);
-    // sample threoretical
-    sample_theoretical(datum);
+  const parameterRanges = {
+    Probability: [0.01, 1, 0.01],
+    Number: [1, 50, 1],
+    Lambda: [0.01, 10, 0.01],
+    Min: [-10, 0, 0.1],
+    Max: [0, 10, 0.1],
+    Mean: [-10, 10, 0.1],
+    Std: [0.01, 10, 0.01],
+    Dof: [1, 30, 1],
+    Dof1: [1, 30, 1],
+    Dof2: [1, 30, 1],
+    Shape: [0.1, 10, 0.1],
+    Scale: [0.1, 10, 0.1],
+    Alpha: [0.1, 10, 0.1],
+    Beta: [0.1, 10, 0.1]
+  };
+
+  let delay = 350;
+  let n = 1;
+  let currDist = 'beta';
+  let currParams = initialParams[currDist];
+
+  const f = {
+    sample: () => jStat[currDist].sample(...currParams),
+    mu: () => jStat[currDist].mean(...currParams),
+    sigma: () => Math.sqrt(jStat[currDist].variance(...currParams))
+  };
+
+  function pdf(x) {
+    return Math.sqrt(n) / Math.sqrt(2 * Math.PI) / f.sigma()
+      * Math.exp(-n * (x - f.mu()) ** 2 / (2 * f.sigma() ** 2));
   }
 
-  // sample theoretical distribution
-  function sample_theoretical(datum) {
-    // path function
-    const line = d3.line()
-      .x(d => x_scale_clt(d[0]))
-      .y(d => y_scale_clt(d[1]))
-      .curve(d3.curveLinear);
-    // update theoretical distribution
-    if (n == 1) {
-      theoretical_path.datum(datum).attr("d", line);
-      //y_scale_clt.domain([0,3]);
-    } else {
-      var mean = jStat.beta.mean(alpha, beta);
-      var variance = jStat.beta.variance(alpha, beta)/n;
-      var x_mode = jStat.normal.mode(mean, Math.sqrt(variance));
-      y_scale_clt.domain([0, jStat.normal.pdf(x_mode, mean, Math.pow(variance,0.5))]);
-      datum = d3.range(0, 1.05, 0.01).map(function(x) { return [x, jStat.normal.pdf(x, mean, Math.pow(variance,0.5))]; });
-      theoretical_path.datum(datum).attr("d", line);
-    }
-  }
+  const x = d3.scaleLinear().domain(viewParams[currDist]).range([0, width]);
+  const y1 = height / 3, y2 = height / 2;
+  const y = d3.scaleLinear().domain([0, pdf(f.mu())]).range([0, height - y2]);
 
-  // create histogram
-  const histogram = d3.bin()
-    .domain(x_scale_clt.domain())
-    .thresholds(x_scale_clt.ticks(bins));
-  var bars = svg_clt.append("g").attr("class", "histogram");
+  const histogram = d3.bin().domain(x.domain()).thresholds(x.ticks(20));
+  const area = d3.area()
+    .x(d => x(d[0]))
+    .y0(y2)
+    .y1(d => y2 + y(d[1]))
+    .curve(d3.curveBasis);
 
-  function sample_histogram() {
-    // get histrogram of counts
-    var data = histogram(counts);
-    // update scale
-    var ymax = d3.max(data.map(function(d) { return d.y; }));
-    y_scale_clt.domain([0, ymax*bins]);
-    // enter bars
-    var bar = bars.selectAll("g").data(data);
-    var barEnter = bar.enter().append("g").attr("class", "bar");
-    barEnter.append("rect");
-    barEnter.append("text")
-      .attr("y", 3*y1 - 15)
+  svg.append("path").attr("class", "line");
+  svg.append("g").attr("class", "bars");
+
+  const axis = svg.selectAll(".axis")
+    .data([
+      { y: 0, label: "population" },
+      { y: y1, label: "sample mean" },
+      { y: y2, label: "counts" }
+    ])
+    .enter().append("g")
+    .attr("class", "axis")
+    .attr("transform", d => `translate(0,${d.y})`);
+
+  axis.append("path").attr("d", `M0,0H${width}`);
+  axis.append("text")
+    .attr("dominant-baseline", "hanging")
+    .attr("dy", 5)
+    .text(d => d.label);
+
+  let counts = [];
+
+  function renderBars() {
+    if (counts.length < 1) return;
+
+    const data = histogram(counts).map(d => {
+      d.y = d.length / counts.length;
+      return d;
+    }).filter(d => d.x1 > d.x0);
+
+    const ymax = d3.max(data, d => d.y);
+    y.domain([0, ymax / (1 / 20)]);
+
+    let bar = svg.select(".bars").selectAll(".bar").data(data);
+
+    const g = bar.enter().append("g")
+      .attr("class", "bar")
+      .attr("transform", d => `translate(${x(d.x0)},${y2})`);
+
+    g.append("rect")
+      .attr("width", d => (x(d.x1) - x(d.x0)) - 2);
+
+    g.append("text")
+      .attr("x", x(1 / 40))
+      .attr("dy", 10)
+      .attr("dominant-baseline", "hanging")
       .attr("text-anchor", "middle");
-    // update bars
-    bar.select("rect")
-      .attr("x", function(d) { return x_scale_clt(d.x) + 1; })
-      .attr("width", x_scale_clt(data[0].dx) - 1)
-    .transition().duration(250)
-      .attr("y", function(d) { return 3*y1 - y_scale_clt(d.y*bins); })
-      .attr("height", function(d) { return y_scale_clt(d.y*bins); });
-    bar.select("text")
-      .attr("x", function(d) { return x_scale_clt(d.x + 1/(2*bins)); })
-      .text(function(d) { return d.y > 0 ? d3.format("%")(d.y) : ""; });
-    // exit bars
-    bar.exit().remove();
-  };
 
-  // Creates Circles and transitions
-  function tick() {
-    // take samples
-    var data = [];
-    for (var i = 0; i < n; i++) {
-      data.push(jStat.beta.sample(alpha,beta));
-    };
-    var mean = d3.mean(data);
-    // add balls
-    var group = svg_clt.append("g").attr("class", "ball-group");
-    var balls = group.selectAll(".ball").data(data);
-    // animate balls
-    var i = 0, j = 0;
-    balls.enter()
-      .append("circle")
+    bar = g.merge(bar);
+
+    const t = d3.transition().duration(delay / 4);
+
+    bar.select("rect")
+      .transition(t)
+      .attr("height", d => y(d.y / (1 / 20)));
+
+    bar.select("text")
+      .text(d => d.y > 0 ? d3.format(".0%")((d.y)) : "");
+
+    svg.select(".line")
+      .datum(d3.range(x.domain()[0], x.domain()[1], 0.05).map(x => [x, pdf(x)]))
+      .transition(t)
+      .attr("d", area);
+  }
+
+  function renderBalls() {
+    const data = d3.range(n).map(f.sample);
+    const mean = d3.mean(data);
+
+    const ball = svg.append("g").selectAll(".ball").data(data);
+    let i = 0;
+
+    ball.enter().append("circle")
       .attr("class", "ball")
-      .attr("cx", function(d) { return x_scale_clt(d); })
-      .attr("cy", y1)
+      .attr("cx", d => x(d))
+      .attr("cy", 0)
       .attr("r", 5)
-      .transition()
-      .duration(dt)
-      .attr("cy", y1 + y2 - 5)
-      .each(function() { ++i; })
-      .each("end", function() {
-        if (!--i) {
-          balls
-            .transition()
-            .duration(400)
-            .attr("cx", x_scale_clt(mean))
-            .style("fill", "#FF8B22")
-            .transition()
-            .duration(400)
-            .attr("cy", 3*y1-3)
-            .attr("r", 3)
-            .each(function() { ++j; })
-            .each("end", function() {
-              if (!--j) {
-                counts.push(mean);
-                sample_histogram();
-                sample_sampling();
-              }
-              d3.select(this).remove();
-            });
-        };
+      .transition().duration(delay).ease(d3.easeBounce)
+      .attr("cy", y1 - 5)
+      .on("end", function () {
+        d3.select(this)
+          .transition().duration(delay / 4).attr("cy", (y2 + y1) / 2)
+          .transition().duration(delay / 4).attr("cx", x(mean))
+          .transition().duration(delay / 4).ease(d3.easeBounce)
+          .attr("cy", y2 - 3).attr("r", 3)
+          .each(() => ++i)
+          .on("end", function () {
+            if (!--i) counts.push(mean);
+            else d3.select(this).remove();
+          });
       });
   }
 
-  // initiate sampling
-  function start_sampling() {
-    dt = 350/Math.pow(1.04, samples);
-    var count = 0;
-    interval_clt = setInterval(function() { 
-      tick();
-        if (++count === samples){
-          clearInterval(interval_clt);
-        }
-    }, dt);
+  function renderAll() {
+    renderBars();
+    renderBalls();
   }
 
+  let interval_clt;
+
+  function start_sampling() {
+    clearInterval(interval_clt);
+    interval_clt = setInterval(renderAll, delay);
+  }
 
   function reset_clt() {
     clearInterval(interval_clt);
     counts = [];
-  
-    // Remove all SVG elements as before
-    svg_clt.selectAll("circle").remove();
-    svg_clt.selectAll(".bar").remove();
-  
-    // Reset the y-scale domain and resample
-    y_scale_clt.domain([0, 3]);
-    sample_sampling();
+    svg.selectAll("circle").remove();
+    svg.selectAll(".bar").remove();
+    svg.select(".line").attr("d", null);
+    y.domain([0, pdf(f.mu())]);
+    renderBars();
   }
-  
 
-  // update alpha
-  $("#alpha_clt").on("input", function(e) {
-    alpha = parseFloat($(this).val());
-    d3.select("#alpha_clt-value").text(alpha);
+  d3.select("#dist_clt").on("change", function () {
+    currDist = this.value;
+    currParams = initialParams[currDist];
+    x.domain(viewParams[currDist]);
     reset_clt();
   });
 
-  // update beta
-  $("#beta_clt").on("input", function(e) {
-    beta = parseFloat($(this).val());
-    d3.select("#beta_clt-value").text(beta);
-    reset_clt();
-  });
-
-  // update sample size
-  d3.select("#sample").on("input", function() {
+  d3.select("#population").on("input", function () {
     n = +this.value;
     d3.select("#sample-value").text(n);
     reset_clt();
-  	});
-
-  // update number of samples
-  d3.select("#samples").on("input", function() {
-    samples = +this.value;
-    d3.select("#samples-value").text(samples);
   });
 
-  // theoretical on/off
-  $("#theoretical").change(function() {
-     if($(this).is(":checked")) {
-        theoretical_path.attr("opacity", 1);
-     } else {
-        theoretical_path.attr("opacity", 0);
-     }
-     sample_sampling();
+  d3.select("#samples").on("input", function () {
+    const s = +this.value;
+    d3.select("#samples-value").text(s);
   });
 
-  // drop balls
-  $("#form_clt").click(function() {
+  d3.select("#start").on("click", () => {
     clearInterval(interval_clt);
     start_sampling();
   });
 
-  sample_sampling();
-};
+  d3.select("#stop").on("click", () => {
+    clearInterval(interval_clt);
+  });
+
+  renderBars();
+}
+
 </script>
 
   </body>

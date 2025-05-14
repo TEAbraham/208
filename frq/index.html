@@ -227,7 +227,7 @@
         );
         questions = qSnap.docs.map(d => ({ id: d.id, ...d.data() }));
       }
-      let current = 0;
+      let current = index;
 
       function renderField(field) {
         if (Array.isArray(field)) {
@@ -237,7 +237,6 @@
       }
 
       async function showQuestion(index) {
-        current = index;
         const q = questions[index];
         document.getElementById("question-title").textContent = q.title || `Question ${index + 1}`;
         document.getElementById("question-prompt").innerHTML = renderField(q.prompt);
@@ -251,7 +250,7 @@
         const exts = ['png', 'jpg', 'jpeg', 'webp', 'gif'];
         for (let i = 1; i <= 5; i++) {
           for (const ext of exts) {
-            const path = `unit${(index + 1)}/images/question-${(index + 1).toString().padStart(3, '0')}-img${i}.${ext}`;
+            const path = `images/question-${(index + 1).toString().padStart(3, '0')}-img${i}.${ext}`;
             const img = new Image();
             img.src = path;
             img.onerror = () => {};
