@@ -559,6 +559,78 @@ window.Quarto = {
 </ul></li>
 </ul>
 <p>Now let’s build a <strong>logistic regression model</strong> using both BA and ERA to predict tournament inclusion.</p>
+</section>
+<section id="linear-vs-logistic-regression" class="level3">
+<h3 class="anchored" data-anchor-id="linear-vs-logistic-regression">Linear vs Logistic Regression</h3>
+<table width="100%" border="1" cellspacing="2" cellpadding="3" class="wc">
+<tbody>
+<tr class="wch">
+<td>
+<b>Linear Regression</b>
+</td>
+<td>
+<b>Logistic Regression</b>
+</td>
+</tr>
+<tr>
+<td>
+Used to predict the continuous dependent variable using a given set of independent variables.
+</td>
+<td>
+Used to predict the categorical dependent variable using a given set of independent variables.
+</td>
+</tr>
+<tr>
+<td>
+The outputs produced must be a continuous value, such as price and age.
+</td>
+<td>
+The outputs produced must be Categorical values such as 0 or 1, Yes or No.
+</td>
+</tr>
+<tr>
+<td>
+The relationship between the dependent variable and independent variable must be linear.
+</td>
+<td>
+The relationship DOES NOT need to be linear between the dependent and independent variables.
+</td>
+</tr>
+<tr>
+<td>
+Used for solving Regression problems.
+</td>
+<td>
+Used for solving Classification problems.
+</td>
+</tr>
+<tr>
+<td>
+We are finding and using the line of best fit to help us easily predict outputs.
+</td>
+<td>
+We are using the S-curve (Sigmoid) to help us classify predicted outputs.
+</td>
+</tr>
+<tr>
+<td>
+Least square estimation method is used for the estimation of accuracy.
+</td>
+<td>
+Maximum likelihood estimation method is used for the estimation of accuracy.
+</td>
+</tr>
+<tr>
+<td>
+There is a possibility of collinearity between the independent variables.
+</td>
+<td>
+There should not be any collinearity between the independent variable.
+</td>
+</tr>
+</tbody>
+</table>
+<p><img src="../../img/line_v_log.png"></p>
 <div id="f983cae9-d3b5-4a54-b2b9-f1eabab7a591" class="cell" data-tags="[]" data-execution_count="5">
 <details class="code-fold">
 <summary>Code</summary>
@@ -585,7 +657,7 @@ window.Quarto = {
 =================================================================
 Model:              Logit            Method:           MLE       
 Dependent Variable: In_Tournament    Pseudo R-squared: 0.369     
-Date:               2025-05-15 12:39 AIC:              178.6787  
+Date:               2025-05-15 13:15 AIC:              178.6787  
 No. Observations:   300              BIC:              189.7900  
 Df Model:           2                Log-Likelihood:   -86.339   
 Df Residuals:       297              LL-Null:          -136.77   
@@ -949,25 +1021,25 @@ ERA      -1.2776     0.2677   -4.7727   0.0000    -1.8022   -0.7529
 <span id="cb16-51"><a href="#cb16-51" aria-hidden="true" tabindex="-1"></a>sim_wcws, round1_pairs[:<span class="dv">5</span>], super_pairs[:<span class="dv">5</span>]  <span class="co"># show WCWS teams and samples of earlier matchups</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="9">
-<pre><code>(['UCLA',
-  'North Florida',
+<pre><code>(['Liberty',
+  'South Carolina',
   'Florida',
-  'Northwestern',
-  'UCF',
-  'Texas Tech',
-  'Arkansas',
-  'Southeastern La',
+  'Duke',
+  'Texas',
+  'Santa Clara',
+  'Grand Canyon',
+  'UConn',
   'Omaha'],
- [('Marist', 'Liberty', 0.9073297967006272, 0.8229103812442102),
+ [('Liberty', 'Marist', 0.8229103812442102, 0.9073297967006272),
   ('UCLA', 'UC Santa Barbara', 0.8305608346459205, 0.13168878229957526),
-  ('North Florida', 'Virginia', 0.6470622969764526, 0.5119046884915049),
+  ('Virginia', 'North Florida', 0.5119046884915049, 0.6470622969764526),
   ('South Carolina', 'Elon', 0.4027682633338696, 0.1665500956572),
   ('Florida', 'Mercer', 0.6787536646867995, 0.14535952655464804)],
- [('UCLA', 'Marist', 0.8305608346459205, 0.9073297967006272),
-  ('North Florida', 'South Carolina', 0.6470622969764526, 0.4027682633338696),
-  ('Florida', 'Coastal Carolina', 0.6787536646867995, 0.2984797067639155),
-  ('Northwestern', 'Howard', 0.13571055196062007, 0.1778520230708455),
-  ('UCF', 'Texas', 0.2665612913383968, 0.8438190342751233)])</code></pre>
+ [('Liberty', 'UCLA', 0.8229103812442102, 0.8305608346459205),
+  ('South Carolina', 'Virginia', 0.4027682633338696, 0.5119046884915049),
+  ('Florida', 'Georgia', 0.6787536646867995, 0.1660507942651648),
+  ('Duke', 'Kentucky', 0.45617935715153257, 0.10189489159728324),
+  ('Texas', 'UCF', 0.8438190342751233, 0.2665612913383968)])</code></pre>
 </div>
 </div>
 </section>
