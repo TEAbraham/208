@@ -575,15 +575,30 @@ window.Quarto = {
 <span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Display model summary</span></span>
 <span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>logit_summary <span class="op">=</span> logit_model.summary2().as_text()</span>
-<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a>logit_summary</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(logit_summary)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
 <pre><code>Optimization terminated successfully.
          Current function value: 0.287798
-         Iterations 8</code></pre>
-</div>
-<div class="cell-output cell-output-display" data-execution_count="5">
-<pre><code>'                         Results: Logit\n=================================================================\nModel:              Logit            Method:           MLE       \nDependent Variable: In_Tournament    Pseudo R-squared: 0.369     \nDate:               2025-05-15 11:49 AIC:              178.6787  \nNo. Observations:   300              BIC:              189.7900  \nDf Model:           2                Log-Likelihood:   -86.339   \nDf Residuals:       297              LL-Null:          -136.77   \nConverged:          1.0000           LLR p-value:      1.2590e-22\nNo. Iterations:     8.0000           Scale:            1.0000    \n-------------------------------------------------------------------\n          Coef.    Std.Err.      z      P&gt;|z|     [0.025     0.975]\n-------------------------------------------------------------------\nconst    -7.1565     2.6420   -2.7087   0.0068   -12.3348   -1.9781\nBA       34.7254     7.7391    4.4870   0.0000    19.5570   49.8937\nERA      -1.2776     0.2677   -4.7727   0.0000    -1.8022   -0.7529\n=================================================================\n'</code></pre>
+         Iterations 8
+                         Results: Logit
+=================================================================
+Model:              Logit            Method:           MLE       
+Dependent Variable: In_Tournament    Pseudo R-squared: 0.369     
+Date:               2025-05-15 12:39 AIC:              178.6787  
+No. Observations:   300              BIC:              189.7900  
+Df Model:           2                Log-Likelihood:   -86.339   
+Df Residuals:       297              LL-Null:          -136.77   
+Converged:          1.0000           LLR p-value:      1.2590e-22
+No. Iterations:     8.0000           Scale:            1.0000    
+-------------------------------------------------------------------
+          Coef.    Std.Err.      z      P&gt;|z|     [0.025     0.975]
+-------------------------------------------------------------------
+const    -7.1565     2.6420   -2.7087   0.0068   -12.3348   -1.9781
+BA       34.7254     7.7391    4.4870   0.0000    19.5570   49.8937
+ERA      -1.2776     0.2677   -4.7727   0.0000    -1.8022   -0.7529
+=================================================================
+</code></pre>
 </div>
 </div>
 </section>
@@ -616,79 +631,79 @@ window.Quarto = {
 <div id="15d6c965-374d-4b83-80f3-be321fa21aaf" class="cell" data-tags="[]" data-execution_count="6">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Get stats only for bracket teams</span></span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>bracket_stats <span class="op">=</span> merged[merged[<span class="st">"In_Tournament"</span>]].copy()</span>
-<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Normalize team names for matching</span></span>
-<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>bracket_stats[<span class="st">"Normalized_Team"</span>] <span class="op">=</span> bracket_stats[<span class="st">"Team_clean"</span>].<span class="bu">str</span>.lower().<span class="bu">str</span>.replace(<span class="st">" "</span>, <span class="st">""</span>).<span class="bu">str</span>.replace(<span class="st">"state"</span>, <span class="st">"st"</span>)</span>
-<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Normalize bracket names similarly</span></span>
-<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>normalized_bracket_teams <span class="op">=</span> [team.lower().replace(<span class="st">" "</span>, <span class="st">""</span>).replace(<span class="st">"state"</span>, <span class="st">"st"</span>) <span class="cf">for</span> team <span class="kw">in</span> bracket_teams]</span>
-<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a lookup dictionary from normalized names to full team info</span></span>
-<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>team_lookup <span class="op">=</span> <span class="bu">dict</span>(<span class="bu">zip</span>(bracket_stats[<span class="st">"Normalized_Team"</span>], bracket_stats[[<span class="st">"Team_clean"</span>, <span class="st">"BA"</span>, <span class="st">"ERA"</span>]].values))</span>
-<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate all first-round matchups from the bracket (based on top line vs second line ordering)</span></span>
-<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>matchups <span class="op">=</span> [</span>
-<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"texasam"</span>, <span class="st">"saintfrancis"</span>),</span>
-<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"marist"</span>, <span class="st">"liberty"</span>),</span>
-<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"stanford"</span>, <span class="st">"binghamton"</span>),</span>
-<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"weberst"</span>, <span class="st">"oregon"</span>),</span>
-<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"ucla"</span>, <span class="st">"ucsantabarbara"</span>),</span>
-<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"sandiegost"</span>, <span class="st">"arizonast"</span>),</span>
-<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"virginia"</span>, <span class="st">"northflorida"</span>),</span>
-<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"elon"</span>, <span class="st">"southcarolina"</span>),</span>
-<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"florida"</span>, <span class="st">"mercer"</span>),</span>
-<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"georgiatech"</span>, <span class="st">"flaatlantic"</span>),</span>
-<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"georgia"</span>, <span class="st">"coastalcarolina"</span>),</span>
-<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"howard"</span>, <span class="st">"duke"</span>),</span>
-<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"clemson"</span>, <span class="st">"uscupstate"</span>),</span>
-<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"northwestern"</span>, <span class="st">"kentucky"</span>),</span>
-<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"ucf"</span>, <span class="st">"michigan"</span>),</span>
-<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"easternill"</span>, <span class="st">"texas"</span>),</span>
-<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"floridast"</span>, <span class="st">"robertmorris"</span>),</span>
-<span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"southfla"</span>, <span class="st">"auburn"</span>),</span>
-<span id="cb12-33"><a href="#cb12-33" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"mississippist"</span>, <span class="st">"washington"</span>),</span>
-<span id="cb12-34"><a href="#cb12-34" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"brown"</span>, <span class="st">"texastech"</span>),</span>
-<span id="cb12-35"><a href="#cb12-35" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"arizona"</span>, <span class="st">"santaclara"</span>),</span>
-<span id="cb12-36"><a href="#cb12-36" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"grandcanyon"</span>, <span class="st">"olemiss"</span>),</span>
-<span id="cb12-37"><a href="#cb12-37" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"oklahomast"</span>, <span class="st">"indiana"</span>),</span>
-<span id="cb12-38"><a href="#cb12-38" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"saintlouis"</span>, <span class="st">"arkansas"</span>),</span>
-<span id="cb12-39"><a href="#cb12-39" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"miamioh"</span>, <span class="st">"northcarolina"</span>),</span>
-<span id="cb12-40"><a href="#cb12-40" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"ohiost"</span>, <span class="st">"nebraska"</span>),</span>
-<span id="cb12-41"><a href="#cb12-41" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"uconn"</span>, <span class="st">"southeasternla"</span>),</span>
-<span id="cb12-42"><a href="#cb12-42" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"lsu"</span>, <span class="st">"jacksonst"</span>),</span>
-<span id="cb12-43"><a href="#cb12-43" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"belmont"</span>, <span class="st">"virginiatech"</span>),</span>
-<span id="cb12-44"><a href="#cb12-44" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"california"</span>, <span class="st">"omaha"</span>),</span>
-<span id="cb12-45"><a href="#cb12-45" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"bostonu"</span>, <span class="st">"oklahoma"</span>),</span>
-<span id="cb12-46"><a href="#cb12-46" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"alabama"</span>, <span class="st">"texastech"</span>)  <span class="co"># Fix for any duplicate/missing matchup</span></span>
-<span id="cb12-47"><a href="#cb12-47" aria-hidden="true" tabindex="-1"></a>]</span>
-<span id="cb12-48"><a href="#cb12-48" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-49"><a href="#cb12-49" aria-hidden="true" tabindex="-1"></a><span class="co"># Predict upset probabilities using logistic model</span></span>
-<span id="cb12-50"><a href="#cb12-50" aria-hidden="true" tabindex="-1"></a>upsets <span class="op">=</span> []</span>
-<span id="cb12-51"><a href="#cb12-51" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-52"><a href="#cb12-52" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> fav, under <span class="kw">in</span> matchups:</span>
-<span id="cb12-53"><a href="#cb12-53" aria-hidden="true" tabindex="-1"></a>    fav_stats <span class="op">=</span> team_lookup.get(fav)</span>
-<span id="cb12-54"><a href="#cb12-54" aria-hidden="true" tabindex="-1"></a>    under_stats <span class="op">=</span> team_lookup.get(under)</span>
-<span id="cb12-55"><a href="#cb12-55" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> fav_stats <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span> <span class="kw">and</span> under_stats <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span>:</span>
-<span id="cb12-56"><a href="#cb12-56" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Build prediction dataframes</span></span>
-<span id="cb12-57"><a href="#cb12-57" aria-hidden="true" tabindex="-1"></a>        df_fav <span class="op">=</span> pd.DataFrame([[<span class="dv">1</span>, fav_stats[<span class="dv">1</span>], fav_stats[<span class="dv">2</span>]]], columns<span class="op">=</span>[<span class="st">"const"</span>, <span class="st">"BA"</span>, <span class="st">"ERA"</span>])</span>
-<span id="cb12-58"><a href="#cb12-58" aria-hidden="true" tabindex="-1"></a>        df_under <span class="op">=</span> pd.DataFrame([[<span class="dv">1</span>, under_stats[<span class="dv">1</span>], under_stats[<span class="dv">2</span>]]], columns<span class="op">=</span>[<span class="st">"const"</span>, <span class="st">"BA"</span>, <span class="st">"ERA"</span>])</span>
-<span id="cb12-59"><a href="#cb12-59" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Predict win probability</span></span>
-<span id="cb12-60"><a href="#cb12-60" aria-hidden="true" tabindex="-1"></a>        fav_prob <span class="op">=</span> logit_model.predict(df_fav)[<span class="dv">0</span>]</span>
-<span id="cb12-61"><a href="#cb12-61" aria-hidden="true" tabindex="-1"></a>        under_prob <span class="op">=</span> logit_model.predict(df_under)[<span class="dv">0</span>]</span>
-<span id="cb12-62"><a href="#cb12-62" aria-hidden="true" tabindex="-1"></a>        upset_prob <span class="op">=</span> under_prob <span class="op">-</span> fav_prob</span>
-<span id="cb12-63"><a href="#cb12-63" aria-hidden="true" tabindex="-1"></a>        upsets.append({</span>
-<span id="cb12-64"><a href="#cb12-64" aria-hidden="true" tabindex="-1"></a>            <span class="st">"Underdog"</span>: under_stats[<span class="dv">0</span>],</span>
-<span id="cb12-65"><a href="#cb12-65" aria-hidden="true" tabindex="-1"></a>            <span class="st">"Favorite"</span>: fav_stats[<span class="dv">0</span>],</span>
-<span id="cb12-66"><a href="#cb12-66" aria-hidden="true" tabindex="-1"></a>            <span class="st">"Upset Probability"</span>: <span class="bu">round</span>(upset_prob, <span class="dv">3</span>),</span>
-<span id="cb12-67"><a href="#cb12-67" aria-hidden="true" tabindex="-1"></a>            <span class="st">"Underdog Prob"</span>: <span class="bu">round</span>(under_prob, <span class="dv">3</span>),</span>
-<span id="cb12-68"><a href="#cb12-68" aria-hidden="true" tabindex="-1"></a>            <span class="st">"Favorite Prob"</span>: <span class="bu">round</span>(fav_prob, <span class="dv">3</span>)</span>
-<span id="cb12-69"><a href="#cb12-69" aria-hidden="true" tabindex="-1"></a>        })</span>
-<span id="cb12-70"><a href="#cb12-70" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-71"><a href="#cb12-71" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort by highest upset chance</span></span>
-<span id="cb12-72"><a href="#cb12-72" aria-hidden="true" tabindex="-1"></a>upsets_sorted <span class="op">=</span> <span class="bu">sorted</span>(upsets, key<span class="op">=</span><span class="kw">lambda</span> x: x[<span class="st">"Upset Probability"</span>], reverse<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb12-73"><a href="#cb12-73" aria-hidden="true" tabindex="-1"></a>upsets_sorted[:<span class="dv">3</span>]  <span class="co"># show top 3 potential upsets</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Get stats only for bracket teams</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>bracket_stats <span class="op">=</span> merged[merged[<span class="st">"In_Tournament"</span>]].copy()</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Normalize team names for matching</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>bracket_stats[<span class="st">"Normalized_Team"</span>] <span class="op">=</span> bracket_stats[<span class="st">"Team_clean"</span>].<span class="bu">str</span>.lower().<span class="bu">str</span>.replace(<span class="st">" "</span>, <span class="st">""</span>).<span class="bu">str</span>.replace(<span class="st">"state"</span>, <span class="st">"st"</span>)</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Normalize bracket names similarly</span></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>normalized_bracket_teams <span class="op">=</span> [team.lower().replace(<span class="st">" "</span>, <span class="st">""</span>).replace(<span class="st">"state"</span>, <span class="st">"st"</span>) <span class="cf">for</span> team <span class="kw">in</span> bracket_teams]</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a lookup dictionary from normalized names to full team info</span></span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>team_lookup <span class="op">=</span> <span class="bu">dict</span>(<span class="bu">zip</span>(bracket_stats[<span class="st">"Normalized_Team"</span>], bracket_stats[[<span class="st">"Team_clean"</span>, <span class="st">"BA"</span>, <span class="st">"ERA"</span>]].values))</span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Generate all first-round matchups from the bracket (based on top line vs second line ordering)</span></span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>matchups <span class="op">=</span> [</span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"texasam"</span>, <span class="st">"saintfrancis"</span>),</span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"marist"</span>, <span class="st">"liberty"</span>),</span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"stanford"</span>, <span class="st">"binghamton"</span>),</span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"weberst"</span>, <span class="st">"oregon"</span>),</span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"ucla"</span>, <span class="st">"ucsantabarbara"</span>),</span>
+<span id="cb11-20"><a href="#cb11-20" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"sandiegost"</span>, <span class="st">"arizonast"</span>),</span>
+<span id="cb11-21"><a href="#cb11-21" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"virginia"</span>, <span class="st">"northflorida"</span>),</span>
+<span id="cb11-22"><a href="#cb11-22" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"elon"</span>, <span class="st">"southcarolina"</span>),</span>
+<span id="cb11-23"><a href="#cb11-23" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"florida"</span>, <span class="st">"mercer"</span>),</span>
+<span id="cb11-24"><a href="#cb11-24" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"georgiatech"</span>, <span class="st">"flaatlantic"</span>),</span>
+<span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"georgia"</span>, <span class="st">"coastalcarolina"</span>),</span>
+<span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"howard"</span>, <span class="st">"duke"</span>),</span>
+<span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"clemson"</span>, <span class="st">"uscupstate"</span>),</span>
+<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"northwestern"</span>, <span class="st">"kentucky"</span>),</span>
+<span id="cb11-29"><a href="#cb11-29" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"ucf"</span>, <span class="st">"michigan"</span>),</span>
+<span id="cb11-30"><a href="#cb11-30" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"easternill"</span>, <span class="st">"texas"</span>),</span>
+<span id="cb11-31"><a href="#cb11-31" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"floridast"</span>, <span class="st">"robertmorris"</span>),</span>
+<span id="cb11-32"><a href="#cb11-32" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"southfla"</span>, <span class="st">"auburn"</span>),</span>
+<span id="cb11-33"><a href="#cb11-33" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"mississippist"</span>, <span class="st">"washington"</span>),</span>
+<span id="cb11-34"><a href="#cb11-34" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"brown"</span>, <span class="st">"texastech"</span>),</span>
+<span id="cb11-35"><a href="#cb11-35" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"arizona"</span>, <span class="st">"santaclara"</span>),</span>
+<span id="cb11-36"><a href="#cb11-36" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"grandcanyon"</span>, <span class="st">"olemiss"</span>),</span>
+<span id="cb11-37"><a href="#cb11-37" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"oklahomast"</span>, <span class="st">"indiana"</span>),</span>
+<span id="cb11-38"><a href="#cb11-38" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"saintlouis"</span>, <span class="st">"arkansas"</span>),</span>
+<span id="cb11-39"><a href="#cb11-39" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"miamioh"</span>, <span class="st">"northcarolina"</span>),</span>
+<span id="cb11-40"><a href="#cb11-40" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"ohiost"</span>, <span class="st">"nebraska"</span>),</span>
+<span id="cb11-41"><a href="#cb11-41" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"uconn"</span>, <span class="st">"southeasternla"</span>),</span>
+<span id="cb11-42"><a href="#cb11-42" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"lsu"</span>, <span class="st">"jacksonst"</span>),</span>
+<span id="cb11-43"><a href="#cb11-43" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"belmont"</span>, <span class="st">"virginiatech"</span>),</span>
+<span id="cb11-44"><a href="#cb11-44" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"california"</span>, <span class="st">"omaha"</span>),</span>
+<span id="cb11-45"><a href="#cb11-45" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"bostonu"</span>, <span class="st">"oklahoma"</span>),</span>
+<span id="cb11-46"><a href="#cb11-46" aria-hidden="true" tabindex="-1"></a>    (<span class="st">"alabama"</span>, <span class="st">"texastech"</span>)  <span class="co"># Fix for any duplicate/missing matchup</span></span>
+<span id="cb11-47"><a href="#cb11-47" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb11-48"><a href="#cb11-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-49"><a href="#cb11-49" aria-hidden="true" tabindex="-1"></a><span class="co"># Predict upset probabilities using logistic model</span></span>
+<span id="cb11-50"><a href="#cb11-50" aria-hidden="true" tabindex="-1"></a>upsets <span class="op">=</span> []</span>
+<span id="cb11-51"><a href="#cb11-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-52"><a href="#cb11-52" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> fav, under <span class="kw">in</span> matchups:</span>
+<span id="cb11-53"><a href="#cb11-53" aria-hidden="true" tabindex="-1"></a>    fav_stats <span class="op">=</span> team_lookup.get(fav)</span>
+<span id="cb11-54"><a href="#cb11-54" aria-hidden="true" tabindex="-1"></a>    under_stats <span class="op">=</span> team_lookup.get(under)</span>
+<span id="cb11-55"><a href="#cb11-55" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> fav_stats <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span> <span class="kw">and</span> under_stats <span class="kw">is</span> <span class="kw">not</span> <span class="va">None</span>:</span>
+<span id="cb11-56"><a href="#cb11-56" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Build prediction dataframes</span></span>
+<span id="cb11-57"><a href="#cb11-57" aria-hidden="true" tabindex="-1"></a>        df_fav <span class="op">=</span> pd.DataFrame([[<span class="dv">1</span>, fav_stats[<span class="dv">1</span>], fav_stats[<span class="dv">2</span>]]], columns<span class="op">=</span>[<span class="st">"const"</span>, <span class="st">"BA"</span>, <span class="st">"ERA"</span>])</span>
+<span id="cb11-58"><a href="#cb11-58" aria-hidden="true" tabindex="-1"></a>        df_under <span class="op">=</span> pd.DataFrame([[<span class="dv">1</span>, under_stats[<span class="dv">1</span>], under_stats[<span class="dv">2</span>]]], columns<span class="op">=</span>[<span class="st">"const"</span>, <span class="st">"BA"</span>, <span class="st">"ERA"</span>])</span>
+<span id="cb11-59"><a href="#cb11-59" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Predict win probability</span></span>
+<span id="cb11-60"><a href="#cb11-60" aria-hidden="true" tabindex="-1"></a>        fav_prob <span class="op">=</span> logit_model.predict(df_fav)[<span class="dv">0</span>]</span>
+<span id="cb11-61"><a href="#cb11-61" aria-hidden="true" tabindex="-1"></a>        under_prob <span class="op">=</span> logit_model.predict(df_under)[<span class="dv">0</span>]</span>
+<span id="cb11-62"><a href="#cb11-62" aria-hidden="true" tabindex="-1"></a>        upset_prob <span class="op">=</span> under_prob <span class="op">-</span> fav_prob</span>
+<span id="cb11-63"><a href="#cb11-63" aria-hidden="true" tabindex="-1"></a>        upsets.append({</span>
+<span id="cb11-64"><a href="#cb11-64" aria-hidden="true" tabindex="-1"></a>            <span class="st">"Underdog"</span>: under_stats[<span class="dv">0</span>],</span>
+<span id="cb11-65"><a href="#cb11-65" aria-hidden="true" tabindex="-1"></a>            <span class="st">"Favorite"</span>: fav_stats[<span class="dv">0</span>],</span>
+<span id="cb11-66"><a href="#cb11-66" aria-hidden="true" tabindex="-1"></a>            <span class="st">"Upset Probability"</span>: <span class="bu">round</span>(upset_prob, <span class="dv">3</span>),</span>
+<span id="cb11-67"><a href="#cb11-67" aria-hidden="true" tabindex="-1"></a>            <span class="st">"Underdog Prob"</span>: <span class="bu">round</span>(under_prob, <span class="dv">3</span>),</span>
+<span id="cb11-68"><a href="#cb11-68" aria-hidden="true" tabindex="-1"></a>            <span class="st">"Favorite Prob"</span>: <span class="bu">round</span>(fav_prob, <span class="dv">3</span>)</span>
+<span id="cb11-69"><a href="#cb11-69" aria-hidden="true" tabindex="-1"></a>        })</span>
+<span id="cb11-70"><a href="#cb11-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-71"><a href="#cb11-71" aria-hidden="true" tabindex="-1"></a><span class="co"># Sort by highest upset chance</span></span>
+<span id="cb11-72"><a href="#cb11-72" aria-hidden="true" tabindex="-1"></a>upsets_sorted <span class="op">=</span> <span class="bu">sorted</span>(upsets, key<span class="op">=</span><span class="kw">lambda</span> x: x[<span class="st">"Upset Probability"</span>], reverse<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb11-73"><a href="#cb11-73" aria-hidden="true" tabindex="-1"></a>upsets_sorted[:<span class="dv">3</span>]  <span class="co"># show top 3 potential upsets</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="6">
 <pre><code>[{'Underdog': 'Texas Tech',
@@ -781,24 +796,24 @@ window.Quarto = {
 <div id="316e2061-f83d-4f47-9da5-beae58d4cf6f" class="cell" data-tags="[]" data-execution_count="7">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Take top 10 potential upsets for the chart</span></span>
-<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>top_upsets <span class="op">=</span> upsets_sorted[:<span class="dv">10</span>]</span>
-<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="ss">f"</span><span class="sc">{</span>u[<span class="st">'Underdog'</span>]<span class="sc">}</span><span class="ss"> over </span><span class="sc">{</span>u[<span class="st">'Favorite'</span>]<span class="sc">}</span><span class="ss">"</span> <span class="cf">for</span> u <span class="kw">in</span> top_upsets]</span>
-<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>probabilities <span class="op">=</span> [u[<span class="st">'Upset Probability'</span>] <span class="cf">for</span> u <span class="kw">in</span> top_upsets]</span>
-<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot</span></span>
-<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
-<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>bars <span class="op">=</span> plt.barh(labels, probabilities, color<span class="op">=</span><span class="st">"crimson"</span>)</span>
-<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Upset Probability"</span>)</span>
-<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Top 10 Most Likely First-Round Upsets"</span>)</span>
-<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>plt.gca().invert_yaxis()  <span class="co"># highest at top</span></span>
-<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> bar <span class="kw">in</span> bars:</span>
-<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>    width <span class="op">=</span> bar.get_width()</span>
-<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>    plt.text(width <span class="op">+</span> <span class="fl">0.01</span>, bar.get_y() <span class="op">+</span> bar.get_height()<span class="op">/</span><span class="dv">2</span>, <span class="ss">f"</span><span class="sc">{</span>width<span class="sc">:.2f}</span><span class="ss">"</span>, va<span class="op">=</span><span class="st">'center'</span>)</span>
-<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
-<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Take top 10 potential upsets for the chart</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>top_upsets <span class="op">=</span> upsets_sorted[:<span class="dv">10</span>]</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>labels <span class="op">=</span> [<span class="ss">f"</span><span class="sc">{</span>u[<span class="st">'Underdog'</span>]<span class="sc">}</span><span class="ss"> over </span><span class="sc">{</span>u[<span class="st">'Favorite'</span>]<span class="sc">}</span><span class="ss">"</span> <span class="cf">for</span> u <span class="kw">in</span> top_upsets]</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>probabilities <span class="op">=</span> [u[<span class="st">'Upset Probability'</span>] <span class="cf">for</span> u <span class="kw">in</span> top_upsets]</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot</span></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>bars <span class="op">=</span> plt.barh(labels, probabilities, color<span class="op">=</span><span class="st">"crimson"</span>)</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Upset Probability"</span>)</span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Top 10 Most Likely First-Round Upsets"</span>)</span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>plt.gca().invert_yaxis()  <span class="co"># highest at top</span></span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> bar <span class="kw">in</span> bars:</span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>    width <span class="op">=</span> bar.get_width()</span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a>    plt.text(width <span class="op">+</span> <span class="fl">0.01</span>, bar.get_y() <span class="op">+</span> bar.get_height()<span class="op">/</span><span class="dv">2</span>, <span class="ss">f"</span><span class="sc">{</span>width<span class="sc">:.2f}</span><span class="ss">"</span>, va<span class="op">=</span><span class="st">'center'</span>)</span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
@@ -811,44 +826,44 @@ window.Quarto = {
 <div id="a61d9ee8-e5b0-4df0-b9d7-ec7bf89fa89d" class="cell" data-tags="[]" data-execution_count="8">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter valid matchups only</span></span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>valid_matchups <span class="op">=</span> []</span>
-<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> fav, under <span class="kw">in</span> matchups:</span>
-<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> fav <span class="kw">in</span> team_lookup <span class="kw">and</span> under <span class="kw">in</span> team_lookup:</span>
-<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>        valid_matchups.append((fav, under))</span>
-<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Re-run round 1 with valid matchups</span></span>
-<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>round1_results <span class="op">=</span> []</span>
-<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> fav, under <span class="kw">in</span> valid_matchups:</span>
-<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>    fav_stats <span class="op">=</span> team_lookup[fav]</span>
-<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a>    under_stats <span class="op">=</span> team_lookup[under]</span>
-<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a>    df_fav <span class="op">=</span> pd.DataFrame([[<span class="dv">1</span>, fav_stats[<span class="dv">1</span>], fav_stats[<span class="dv">2</span>]]], columns<span class="op">=</span>[<span class="st">"const"</span>, <span class="st">"BA"</span>, <span class="st">"ERA"</span>])</span>
-<span id="cb15-14"><a href="#cb15-14" aria-hidden="true" tabindex="-1"></a>    df_under <span class="op">=</span> pd.DataFrame([[<span class="dv">1</span>, under_stats[<span class="dv">1</span>], under_stats[<span class="dv">2</span>]]], columns<span class="op">=</span>[<span class="st">"const"</span>, <span class="st">"BA"</span>, <span class="st">"ERA"</span>])</span>
-<span id="cb15-15"><a href="#cb15-15" aria-hidden="true" tabindex="-1"></a>    fav_prob <span class="op">=</span> logit_model.predict(df_fav)[<span class="dv">0</span>]</span>
-<span id="cb15-16"><a href="#cb15-16" aria-hidden="true" tabindex="-1"></a>    under_prob <span class="op">=</span> logit_model.predict(df_under)[<span class="dv">0</span>]</span>
-<span id="cb15-17"><a href="#cb15-17" aria-hidden="true" tabindex="-1"></a>    winner <span class="op">=</span> fav_stats[<span class="dv">0</span>] <span class="cf">if</span> fav_prob <span class="op">&gt;</span> under_prob <span class="cf">else</span> under_stats[<span class="dv">0</span>]</span>
-<span id="cb15-18"><a href="#cb15-18" aria-hidden="true" tabindex="-1"></a>    round1_results.append(winner)</span>
-<span id="cb15-19"><a href="#cb15-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-20"><a href="#cb15-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Ensure even number of teams for super regionals</span></span>
-<span id="cb15-21"><a href="#cb15-21" aria-hidden="true" tabindex="-1"></a>even_round1 <span class="op">=</span> round1_results[:<span class="bu">len</span>(round1_results) <span class="op">-</span> <span class="bu">len</span>(round1_results) <span class="op">%</span> <span class="dv">2</span>]</span>
-<span id="cb15-22"><a href="#cb15-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-23"><a href="#cb15-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Group into Super Regionals</span></span>
-<span id="cb15-24"><a href="#cb15-24" aria-hidden="true" tabindex="-1"></a>super_regionals <span class="op">=</span> [(even_round1[i], even_round1[i<span class="op">+</span><span class="dv">1</span>]) <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="bu">len</span>(even_round1), <span class="dv">2</span>)]</span>
-<span id="cb15-25"><a href="#cb15-25" aria-hidden="true" tabindex="-1"></a>super_winners <span class="op">=</span> []</span>
-<span id="cb15-26"><a href="#cb15-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-27"><a href="#cb15-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulate Super Regionals</span></span>
-<span id="cb15-28"><a href="#cb15-28" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> team1, team2 <span class="kw">in</span> super_regionals:</span>
-<span id="cb15-29"><a href="#cb15-29" aria-hidden="true" tabindex="-1"></a>    t1 <span class="op">=</span> team_lookup[team1.lower().replace(<span class="st">" "</span>, <span class="st">""</span>).replace(<span class="st">"state"</span>, <span class="st">"st"</span>)]</span>
-<span id="cb15-30"><a href="#cb15-30" aria-hidden="true" tabindex="-1"></a>    t2 <span class="op">=</span> team_lookup[team2.lower().replace(<span class="st">" "</span>, <span class="st">""</span>).replace(<span class="st">"state"</span>, <span class="st">"st"</span>)]</span>
-<span id="cb15-31"><a href="#cb15-31" aria-hidden="true" tabindex="-1"></a>    df1 <span class="op">=</span> pd.DataFrame([[<span class="dv">1</span>, t1[<span class="dv">1</span>], t1[<span class="dv">2</span>]]], columns<span class="op">=</span>[<span class="st">"const"</span>, <span class="st">"BA"</span>, <span class="st">"ERA"</span>])</span>
-<span id="cb15-32"><a href="#cb15-32" aria-hidden="true" tabindex="-1"></a>    df2 <span class="op">=</span> pd.DataFrame([[<span class="dv">1</span>, t2[<span class="dv">1</span>], t2[<span class="dv">2</span>]]], columns<span class="op">=</span>[<span class="st">"const"</span>, <span class="st">"BA"</span>, <span class="st">"ERA"</span>])</span>
-<span id="cb15-33"><a href="#cb15-33" aria-hidden="true" tabindex="-1"></a>    prob1 <span class="op">=</span> logit_model.predict(df1)[<span class="dv">0</span>]</span>
-<span id="cb15-34"><a href="#cb15-34" aria-hidden="true" tabindex="-1"></a>    prob2 <span class="op">=</span> logit_model.predict(df2)[<span class="dv">0</span>]</span>
-<span id="cb15-35"><a href="#cb15-35" aria-hidden="true" tabindex="-1"></a>    winner <span class="op">=</span> t1[<span class="dv">0</span>] <span class="cf">if</span> prob1 <span class="op">&gt;</span> prob2 <span class="cf">else</span> t2[<span class="dv">0</span>]</span>
-<span id="cb15-36"><a href="#cb15-36" aria-hidden="true" tabindex="-1"></a>    super_winners.append(winner)</span>
-<span id="cb15-37"><a href="#cb15-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-38"><a href="#cb15-38" aria-hidden="true" tabindex="-1"></a>super_winners</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Filter valid matchups only</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>valid_matchups <span class="op">=</span> []</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> fav, under <span class="kw">in</span> matchups:</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> fav <span class="kw">in</span> team_lookup <span class="kw">and</span> under <span class="kw">in</span> team_lookup:</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>        valid_matchups.append((fav, under))</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Re-run round 1 with valid matchups</span></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>round1_results <span class="op">=</span> []</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> fav, under <span class="kw">in</span> valid_matchups:</span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>    fav_stats <span class="op">=</span> team_lookup[fav]</span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>    under_stats <span class="op">=</span> team_lookup[under]</span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>    df_fav <span class="op">=</span> pd.DataFrame([[<span class="dv">1</span>, fav_stats[<span class="dv">1</span>], fav_stats[<span class="dv">2</span>]]], columns<span class="op">=</span>[<span class="st">"const"</span>, <span class="st">"BA"</span>, <span class="st">"ERA"</span>])</span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>    df_under <span class="op">=</span> pd.DataFrame([[<span class="dv">1</span>, under_stats[<span class="dv">1</span>], under_stats[<span class="dv">2</span>]]], columns<span class="op">=</span>[<span class="st">"const"</span>, <span class="st">"BA"</span>, <span class="st">"ERA"</span>])</span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>    fav_prob <span class="op">=</span> logit_model.predict(df_fav)[<span class="dv">0</span>]</span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>    under_prob <span class="op">=</span> logit_model.predict(df_under)[<span class="dv">0</span>]</span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>    winner <span class="op">=</span> fav_stats[<span class="dv">0</span>] <span class="cf">if</span> fav_prob <span class="op">&gt;</span> under_prob <span class="cf">else</span> under_stats[<span class="dv">0</span>]</span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>    round1_results.append(winner)</span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Ensure even number of teams for super regionals</span></span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a>even_round1 <span class="op">=</span> round1_results[:<span class="bu">len</span>(round1_results) <span class="op">-</span> <span class="bu">len</span>(round1_results) <span class="op">%</span> <span class="dv">2</span>]</span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Group into Super Regionals</span></span>
+<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a>super_regionals <span class="op">=</span> [(even_round1[i], even_round1[i<span class="op">+</span><span class="dv">1</span>]) <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="bu">len</span>(even_round1), <span class="dv">2</span>)]</span>
+<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a>super_winners <span class="op">=</span> []</span>
+<span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulate Super Regionals</span></span>
+<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> team1, team2 <span class="kw">in</span> super_regionals:</span>
+<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a>    t1 <span class="op">=</span> team_lookup[team1.lower().replace(<span class="st">" "</span>, <span class="st">""</span>).replace(<span class="st">"state"</span>, <span class="st">"st"</span>)]</span>
+<span id="cb14-30"><a href="#cb14-30" aria-hidden="true" tabindex="-1"></a>    t2 <span class="op">=</span> team_lookup[team2.lower().replace(<span class="st">" "</span>, <span class="st">""</span>).replace(<span class="st">"state"</span>, <span class="st">"st"</span>)]</span>
+<span id="cb14-31"><a href="#cb14-31" aria-hidden="true" tabindex="-1"></a>    df1 <span class="op">=</span> pd.DataFrame([[<span class="dv">1</span>, t1[<span class="dv">1</span>], t1[<span class="dv">2</span>]]], columns<span class="op">=</span>[<span class="st">"const"</span>, <span class="st">"BA"</span>, <span class="st">"ERA"</span>])</span>
+<span id="cb14-32"><a href="#cb14-32" aria-hidden="true" tabindex="-1"></a>    df2 <span class="op">=</span> pd.DataFrame([[<span class="dv">1</span>, t2[<span class="dv">1</span>], t2[<span class="dv">2</span>]]], columns<span class="op">=</span>[<span class="st">"const"</span>, <span class="st">"BA"</span>, <span class="st">"ERA"</span>])</span>
+<span id="cb14-33"><a href="#cb14-33" aria-hidden="true" tabindex="-1"></a>    prob1 <span class="op">=</span> logit_model.predict(df1)[<span class="dv">0</span>]</span>
+<span id="cb14-34"><a href="#cb14-34" aria-hidden="true" tabindex="-1"></a>    prob2 <span class="op">=</span> logit_model.predict(df2)[<span class="dv">0</span>]</span>
+<span id="cb14-35"><a href="#cb14-35" aria-hidden="true" tabindex="-1"></a>    winner <span class="op">=</span> t1[<span class="dv">0</span>] <span class="cf">if</span> prob1 <span class="op">&gt;</span> prob2 <span class="cf">else</span> t2[<span class="dv">0</span>]</span>
+<span id="cb14-36"><a href="#cb14-36" aria-hidden="true" tabindex="-1"></a>    super_winners.append(winner)</span>
+<span id="cb14-37"><a href="#cb14-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-38"><a href="#cb14-38" aria-hidden="true" tabindex="-1"></a>super_winners</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="8">
 <pre><code>['Marist',
@@ -881,78 +896,78 @@ window.Quarto = {
 <div id="fed36b11-1bd1-4022-9caf-22bf1028a063" class="cell" data-tags="[]" data-execution_count="9">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Function to simulate a single game using predicted probabilities</span></span>
-<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> simulate_game(prob1, prob2):</span>
-<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>    total <span class="op">=</span> prob1 <span class="op">+</span> prob2</span>
-<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>    draw <span class="op">=</span> random.random()</span>
-<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> draw <span class="op">&lt;</span> (prob1 <span class="op">/</span> total)</span>
-<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulate round 1 using win probabilities with randomness</span></span>
-<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>sim_round1 <span class="op">=</span> []</span>
-<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a>round1_pairs <span class="op">=</span> []</span>
-<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> fav, under <span class="kw">in</span> valid_matchups:</span>
-<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a>    fav_stats <span class="op">=</span> team_lookup[fav]</span>
-<span id="cb17-15"><a href="#cb17-15" aria-hidden="true" tabindex="-1"></a>    under_stats <span class="op">=</span> team_lookup[under]</span>
-<span id="cb17-16"><a href="#cb17-16" aria-hidden="true" tabindex="-1"></a>    df_fav <span class="op">=</span> pd.DataFrame([[<span class="dv">1</span>, fav_stats[<span class="dv">1</span>], fav_stats[<span class="dv">2</span>]]], columns<span class="op">=</span>[<span class="st">"const"</span>, <span class="st">"BA"</span>, <span class="st">"ERA"</span>])</span>
-<span id="cb17-17"><a href="#cb17-17" aria-hidden="true" tabindex="-1"></a>    df_under <span class="op">=</span> pd.DataFrame([[<span class="dv">1</span>, under_stats[<span class="dv">1</span>], under_stats[<span class="dv">2</span>]]], columns<span class="op">=</span>[<span class="st">"const"</span>, <span class="st">"BA"</span>, <span class="st">"ERA"</span>])</span>
-<span id="cb17-18"><a href="#cb17-18" aria-hidden="true" tabindex="-1"></a>    fav_prob <span class="op">=</span> logit_model.predict(df_fav)[<span class="dv">0</span>]</span>
-<span id="cb17-19"><a href="#cb17-19" aria-hidden="true" tabindex="-1"></a>    under_prob <span class="op">=</span> logit_model.predict(df_under)[<span class="dv">0</span>]</span>
-<span id="cb17-20"><a href="#cb17-20" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-21"><a href="#cb17-21" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> simulate_game(fav_prob, under_prob):</span>
-<span id="cb17-22"><a href="#cb17-22" aria-hidden="true" tabindex="-1"></a>        sim_round1.append(fav_stats[<span class="dv">0</span>])</span>
-<span id="cb17-23"><a href="#cb17-23" aria-hidden="true" tabindex="-1"></a>        round1_pairs.append((fav_stats[<span class="dv">0</span>], under_stats[<span class="dv">0</span>], fav_prob, under_prob))</span>
-<span id="cb17-24"><a href="#cb17-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
-<span id="cb17-25"><a href="#cb17-25" aria-hidden="true" tabindex="-1"></a>        sim_round1.append(under_stats[<span class="dv">0</span>])</span>
-<span id="cb17-26"><a href="#cb17-26" aria-hidden="true" tabindex="-1"></a>        round1_pairs.append((under_stats[<span class="dv">0</span>], fav_stats[<span class="dv">0</span>], under_prob, fav_prob))</span>
-<span id="cb17-27"><a href="#cb17-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-28"><a href="#cb17-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Pair winners for super regionals</span></span>
-<span id="cb17-29"><a href="#cb17-29" aria-hidden="true" tabindex="-1"></a>even_sim_round1 <span class="op">=</span> sim_round1[:<span class="bu">len</span>(sim_round1) <span class="op">-</span> <span class="bu">len</span>(sim_round1) <span class="op">%</span> <span class="dv">2</span>]</span>
-<span id="cb17-30"><a href="#cb17-30" aria-hidden="true" tabindex="-1"></a>sim_super_regionals <span class="op">=</span> [(even_sim_round1[i], even_sim_round1[i<span class="op">+</span><span class="dv">1</span>]) <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="bu">len</span>(even_sim_round1), <span class="dv">2</span>)]</span>
-<span id="cb17-31"><a href="#cb17-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-32"><a href="#cb17-32" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulate super regionals with randomness</span></span>
-<span id="cb17-33"><a href="#cb17-33" aria-hidden="true" tabindex="-1"></a>sim_wcws <span class="op">=</span> []</span>
-<span id="cb17-34"><a href="#cb17-34" aria-hidden="true" tabindex="-1"></a>super_pairs <span class="op">=</span> []</span>
-<span id="cb17-35"><a href="#cb17-35" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-36"><a href="#cb17-36" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> team1, team2 <span class="kw">in</span> sim_super_regionals:</span>
-<span id="cb17-37"><a href="#cb17-37" aria-hidden="true" tabindex="-1"></a>    t1 <span class="op">=</span> team_lookup[team1.lower().replace(<span class="st">" "</span>, <span class="st">""</span>).replace(<span class="st">"state"</span>, <span class="st">"st"</span>)]</span>
-<span id="cb17-38"><a href="#cb17-38" aria-hidden="true" tabindex="-1"></a>    t2 <span class="op">=</span> team_lookup[team2.lower().replace(<span class="st">" "</span>, <span class="st">""</span>).replace(<span class="st">"state"</span>, <span class="st">"st"</span>)]</span>
-<span id="cb17-39"><a href="#cb17-39" aria-hidden="true" tabindex="-1"></a>    df1 <span class="op">=</span> pd.DataFrame([[<span class="dv">1</span>, t1[<span class="dv">1</span>], t1[<span class="dv">2</span>]]], columns<span class="op">=</span>[<span class="st">"const"</span>, <span class="st">"BA"</span>, <span class="st">"ERA"</span>])</span>
-<span id="cb17-40"><a href="#cb17-40" aria-hidden="true" tabindex="-1"></a>    df2 <span class="op">=</span> pd.DataFrame([[<span class="dv">1</span>, t2[<span class="dv">1</span>], t2[<span class="dv">2</span>]]], columns<span class="op">=</span>[<span class="st">"const"</span>, <span class="st">"BA"</span>, <span class="st">"ERA"</span>])</span>
-<span id="cb17-41"><a href="#cb17-41" aria-hidden="true" tabindex="-1"></a>    prob1 <span class="op">=</span> logit_model.predict(df1)[<span class="dv">0</span>]</span>
-<span id="cb17-42"><a href="#cb17-42" aria-hidden="true" tabindex="-1"></a>    prob2 <span class="op">=</span> logit_model.predict(df2)[<span class="dv">0</span>]</span>
-<span id="cb17-43"><a href="#cb17-43" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-44"><a href="#cb17-44" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> simulate_game(prob1, prob2):</span>
-<span id="cb17-45"><a href="#cb17-45" aria-hidden="true" tabindex="-1"></a>        sim_wcws.append(t1[<span class="dv">0</span>])</span>
-<span id="cb17-46"><a href="#cb17-46" aria-hidden="true" tabindex="-1"></a>        super_pairs.append((t1[<span class="dv">0</span>], t2[<span class="dv">0</span>], prob1, prob2))</span>
-<span id="cb17-47"><a href="#cb17-47" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
-<span id="cb17-48"><a href="#cb17-48" aria-hidden="true" tabindex="-1"></a>        sim_wcws.append(t2[<span class="dv">0</span>])</span>
-<span id="cb17-49"><a href="#cb17-49" aria-hidden="true" tabindex="-1"></a>        super_pairs.append((t2[<span class="dv">0</span>], t1[<span class="dv">0</span>], prob2, prob1))</span>
-<span id="cb17-50"><a href="#cb17-50" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb17-51"><a href="#cb17-51" aria-hidden="true" tabindex="-1"></a>sim_wcws, round1_pairs[:<span class="dv">5</span>], super_pairs[:<span class="dv">5</span>]  <span class="co"># show WCWS teams and samples of earlier matchups</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Function to simulate a single game using predicted probabilities</span></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> simulate_game(prob1, prob2):</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>    total <span class="op">=</span> prob1 <span class="op">+</span> prob2</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>    draw <span class="op">=</span> random.random()</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> draw <span class="op">&lt;</span> (prob1 <span class="op">/</span> total)</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulate round 1 using win probabilities with randomness</span></span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>sim_round1 <span class="op">=</span> []</span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>round1_pairs <span class="op">=</span> []</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> fav, under <span class="kw">in</span> valid_matchups:</span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a>    fav_stats <span class="op">=</span> team_lookup[fav]</span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>    under_stats <span class="op">=</span> team_lookup[under]</span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>    df_fav <span class="op">=</span> pd.DataFrame([[<span class="dv">1</span>, fav_stats[<span class="dv">1</span>], fav_stats[<span class="dv">2</span>]]], columns<span class="op">=</span>[<span class="st">"const"</span>, <span class="st">"BA"</span>, <span class="st">"ERA"</span>])</span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>    df_under <span class="op">=</span> pd.DataFrame([[<span class="dv">1</span>, under_stats[<span class="dv">1</span>], under_stats[<span class="dv">2</span>]]], columns<span class="op">=</span>[<span class="st">"const"</span>, <span class="st">"BA"</span>, <span class="st">"ERA"</span>])</span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a>    fav_prob <span class="op">=</span> logit_model.predict(df_fav)[<span class="dv">0</span>]</span>
+<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a>    under_prob <span class="op">=</span> logit_model.predict(df_under)[<span class="dv">0</span>]</span>
+<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> simulate_game(fav_prob, under_prob):</span>
+<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a>        sim_round1.append(fav_stats[<span class="dv">0</span>])</span>
+<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a>        round1_pairs.append((fav_stats[<span class="dv">0</span>], under_stats[<span class="dv">0</span>], fav_prob, under_prob))</span>
+<span id="cb16-24"><a href="#cb16-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb16-25"><a href="#cb16-25" aria-hidden="true" tabindex="-1"></a>        sim_round1.append(under_stats[<span class="dv">0</span>])</span>
+<span id="cb16-26"><a href="#cb16-26" aria-hidden="true" tabindex="-1"></a>        round1_pairs.append((under_stats[<span class="dv">0</span>], fav_stats[<span class="dv">0</span>], under_prob, fav_prob))</span>
+<span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-28"><a href="#cb16-28" aria-hidden="true" tabindex="-1"></a><span class="co"># Pair winners for super regionals</span></span>
+<span id="cb16-29"><a href="#cb16-29" aria-hidden="true" tabindex="-1"></a>even_sim_round1 <span class="op">=</span> sim_round1[:<span class="bu">len</span>(sim_round1) <span class="op">-</span> <span class="bu">len</span>(sim_round1) <span class="op">%</span> <span class="dv">2</span>]</span>
+<span id="cb16-30"><a href="#cb16-30" aria-hidden="true" tabindex="-1"></a>sim_super_regionals <span class="op">=</span> [(even_sim_round1[i], even_sim_round1[i<span class="op">+</span><span class="dv">1</span>]) <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="bu">len</span>(even_sim_round1), <span class="dv">2</span>)]</span>
+<span id="cb16-31"><a href="#cb16-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-32"><a href="#cb16-32" aria-hidden="true" tabindex="-1"></a><span class="co"># Simulate super regionals with randomness</span></span>
+<span id="cb16-33"><a href="#cb16-33" aria-hidden="true" tabindex="-1"></a>sim_wcws <span class="op">=</span> []</span>
+<span id="cb16-34"><a href="#cb16-34" aria-hidden="true" tabindex="-1"></a>super_pairs <span class="op">=</span> []</span>
+<span id="cb16-35"><a href="#cb16-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-36"><a href="#cb16-36" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> team1, team2 <span class="kw">in</span> sim_super_regionals:</span>
+<span id="cb16-37"><a href="#cb16-37" aria-hidden="true" tabindex="-1"></a>    t1 <span class="op">=</span> team_lookup[team1.lower().replace(<span class="st">" "</span>, <span class="st">""</span>).replace(<span class="st">"state"</span>, <span class="st">"st"</span>)]</span>
+<span id="cb16-38"><a href="#cb16-38" aria-hidden="true" tabindex="-1"></a>    t2 <span class="op">=</span> team_lookup[team2.lower().replace(<span class="st">" "</span>, <span class="st">""</span>).replace(<span class="st">"state"</span>, <span class="st">"st"</span>)]</span>
+<span id="cb16-39"><a href="#cb16-39" aria-hidden="true" tabindex="-1"></a>    df1 <span class="op">=</span> pd.DataFrame([[<span class="dv">1</span>, t1[<span class="dv">1</span>], t1[<span class="dv">2</span>]]], columns<span class="op">=</span>[<span class="st">"const"</span>, <span class="st">"BA"</span>, <span class="st">"ERA"</span>])</span>
+<span id="cb16-40"><a href="#cb16-40" aria-hidden="true" tabindex="-1"></a>    df2 <span class="op">=</span> pd.DataFrame([[<span class="dv">1</span>, t2[<span class="dv">1</span>], t2[<span class="dv">2</span>]]], columns<span class="op">=</span>[<span class="st">"const"</span>, <span class="st">"BA"</span>, <span class="st">"ERA"</span>])</span>
+<span id="cb16-41"><a href="#cb16-41" aria-hidden="true" tabindex="-1"></a>    prob1 <span class="op">=</span> logit_model.predict(df1)[<span class="dv">0</span>]</span>
+<span id="cb16-42"><a href="#cb16-42" aria-hidden="true" tabindex="-1"></a>    prob2 <span class="op">=</span> logit_model.predict(df2)[<span class="dv">0</span>]</span>
+<span id="cb16-43"><a href="#cb16-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-44"><a href="#cb16-44" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> simulate_game(prob1, prob2):</span>
+<span id="cb16-45"><a href="#cb16-45" aria-hidden="true" tabindex="-1"></a>        sim_wcws.append(t1[<span class="dv">0</span>])</span>
+<span id="cb16-46"><a href="#cb16-46" aria-hidden="true" tabindex="-1"></a>        super_pairs.append((t1[<span class="dv">0</span>], t2[<span class="dv">0</span>], prob1, prob2))</span>
+<span id="cb16-47"><a href="#cb16-47" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb16-48"><a href="#cb16-48" aria-hidden="true" tabindex="-1"></a>        sim_wcws.append(t2[<span class="dv">0</span>])</span>
+<span id="cb16-49"><a href="#cb16-49" aria-hidden="true" tabindex="-1"></a>        super_pairs.append((t2[<span class="dv">0</span>], t1[<span class="dv">0</span>], prob2, prob1))</span>
+<span id="cb16-50"><a href="#cb16-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-51"><a href="#cb16-51" aria-hidden="true" tabindex="-1"></a>sim_wcws, round1_pairs[:<span class="dv">5</span>], super_pairs[:<span class="dv">5</span>]  <span class="co"># show WCWS teams and samples of earlier matchups</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display" data-execution_count="9">
 <pre><code>(['UCLA',
   'North Florida',
-  'Georgia',
-  'Duke',
-  'Michigan',
-  'Arizona',
-  'Grand Canyon',
-  'UConn',
-  'California'],
- [('Liberty', 'Marist', 0.8229103812442102, 0.9073297967006272),
+  'Florida',
+  'Northwestern',
+  'UCF',
+  'Texas Tech',
+  'Arkansas',
+  'Southeastern La',
+  'Omaha'],
+ [('Marist', 'Liberty', 0.9073297967006272, 0.8229103812442102),
   ('UCLA', 'UC Santa Barbara', 0.8305608346459205, 0.13168878229957526),
   ('North Florida', 'Virginia', 0.6470622969764526, 0.5119046884915049),
   ('South Carolina', 'Elon', 0.4027682633338696, 0.1665500956572),
   ('Florida', 'Mercer', 0.6787536646867995, 0.14535952655464804)],
- [('UCLA', 'Liberty', 0.8305608346459205, 0.8229103812442102),
+ [('UCLA', 'Marist', 0.8305608346459205, 0.9073297967006272),
   ('North Florida', 'South Carolina', 0.6470622969764526, 0.4027682633338696),
-  ('Georgia', 'Florida', 0.1660507942651648, 0.6787536646867995),
-  ('Duke', 'Kentucky', 0.45617935715153257, 0.10189489159728324),
-  ('Michigan', 'Texas', 0.4101944117310347, 0.8438190342751233)])</code></pre>
+  ('Florida', 'Coastal Carolina', 0.6787536646867995, 0.2984797067639155),
+  ('Northwestern', 'Howard', 0.13571055196062007, 0.1778520230708455),
+  ('UCF', 'Texas', 0.2665612913383968, 0.8438190342751233)])</code></pre>
 </div>
 </div>
 </section>
@@ -1069,32 +1084,32 @@ window.Quarto = {
 <div id="e7cebb79-4c59-4c7b-a21d-b43a238085e4" class="cell" data-tags="[]" data-execution_count="10">
 <details class="code-fold">
 <summary>Code</summary>
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> networkx <span class="im">as</span> nx</span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Build a simplified bracket tree to final 8</span></span>
-<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>bracket_tree <span class="op">=</span> nx.DiGraph()</span>
-<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Round 1 -&gt; Super Regionals</span></span>
-<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, (winner, loser, wp, lp) <span class="kw">in</span> <span class="bu">enumerate</span>(round1_pairs):</span>
-<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>    bracket_tree.add_edge(loser, winner, label<span class="op">=</span><span class="ss">f"</span><span class="sc">{</span>wp<span class="sc">:.1%}</span><span class="ss">"</span>)</span>
-<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Super Regionals -&gt; WCWS</span></span>
-<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> winner, loser, wp, lp <span class="kw">in</span> super_pairs:</span>
-<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>    bracket_tree.add_edge(loser, winner, label<span class="op">=</span><span class="ss">f"</span><span class="sc">{</span>wp<span class="sc">:.1%}</span><span class="ss">"</span>)</span>
-<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Position nodes in a bracket layout</span></span>
-<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>pos <span class="op">=</span> nx.spring_layout(bracket_tree, seed<span class="op">=</span><span class="dv">42</span>, k<span class="op">=</span><span class="fl">1.5</span>)</span>
-<span id="cb19-17"><a href="#cb19-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-18"><a href="#cb19-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Draw nodes and edges</span></span>
-<span id="cb19-19"><a href="#cb19-19" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">16</span>, <span class="dv">12</span>))</span>
-<span id="cb19-20"><a href="#cb19-20" aria-hidden="true" tabindex="-1"></a>nx.draw(bracket_tree, pos, with_labels<span class="op">=</span><span class="va">True</span>, node_color<span class="op">=</span><span class="st">"#fff8dc"</span>, edgecolors<span class="op">=</span><span class="st">"black"</span>, node_size<span class="op">=</span><span class="dv">2000</span>, font_size<span class="op">=</span><span class="dv">9</span>)</span>
-<span id="cb19-21"><a href="#cb19-21" aria-hidden="true" tabindex="-1"></a>nx.draw_networkx_edge_labels(bracket_tree, pos, edge_labels<span class="op">=</span>{(u, v): d[<span class="st">"label"</span>] <span class="cf">for</span> u, v, d <span class="kw">in</span> bracket_tree.edges(data<span class="op">=</span><span class="va">True</span>)}, font_size<span class="op">=</span><span class="dv">8</span>)</span>
-<span id="cb19-22"><a href="#cb19-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-23"><a href="#cb19-23" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Simulated Bracket to the Women's College World Series"</span>, fontsize<span class="op">=</span><span class="dv">14</span>, fontweight<span class="op">=</span><span class="st">"bold"</span>)</span>
-<span id="cb19-24"><a href="#cb19-24" aria-hidden="true" tabindex="-1"></a>plt.axis(<span class="st">"off"</span>)</span>
-<span id="cb19-25"><a href="#cb19-25" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
-<span id="cb19-26"><a href="#cb19-26" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> networkx <span class="im">as</span> nx</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Build a simplified bracket tree to final 8</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>bracket_tree <span class="op">=</span> nx.DiGraph()</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Round 1 -&gt; Super Regionals</span></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, (winner, loser, wp, lp) <span class="kw">in</span> <span class="bu">enumerate</span>(round1_pairs):</span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>    bracket_tree.add_edge(loser, winner, label<span class="op">=</span><span class="ss">f"</span><span class="sc">{</span>wp<span class="sc">:.1%}</span><span class="ss">"</span>)</span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Super Regionals -&gt; WCWS</span></span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> winner, loser, wp, lp <span class="kw">in</span> super_pairs:</span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>    bracket_tree.add_edge(loser, winner, label<span class="op">=</span><span class="ss">f"</span><span class="sc">{</span>wp<span class="sc">:.1%}</span><span class="ss">"</span>)</span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Position nodes in a bracket layout</span></span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a>pos <span class="op">=</span> nx.spring_layout(bracket_tree, seed<span class="op">=</span><span class="dv">42</span>, k<span class="op">=</span><span class="fl">1.5</span>)</span>
+<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-18"><a href="#cb18-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Draw nodes and edges</span></span>
+<span id="cb18-19"><a href="#cb18-19" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">16</span>, <span class="dv">12</span>))</span>
+<span id="cb18-20"><a href="#cb18-20" aria-hidden="true" tabindex="-1"></a>nx.draw(bracket_tree, pos, with_labels<span class="op">=</span><span class="va">True</span>, node_color<span class="op">=</span><span class="st">"#fff8dc"</span>, edgecolors<span class="op">=</span><span class="st">"black"</span>, node_size<span class="op">=</span><span class="dv">2000</span>, font_size<span class="op">=</span><span class="dv">9</span>)</span>
+<span id="cb18-21"><a href="#cb18-21" aria-hidden="true" tabindex="-1"></a>nx.draw_networkx_edge_labels(bracket_tree, pos, edge_labels<span class="op">=</span>{(u, v): d[<span class="st">"label"</span>] <span class="cf">for</span> u, v, d <span class="kw">in</span> bracket_tree.edges(data<span class="op">=</span><span class="va">True</span>)}, font_size<span class="op">=</span><span class="dv">8</span>)</span>
+<span id="cb18-22"><a href="#cb18-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-23"><a href="#cb18-23" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Simulated Bracket to the Women's College World Series"</span>, fontsize<span class="op">=</span><span class="dv">14</span>, fontweight<span class="op">=</span><span class="st">"bold"</span>)</span>
+<span id="cb18-24"><a href="#cb18-24" aria-hidden="true" tabindex="-1"></a>plt.axis(<span class="st">"off"</span>)</span>
+<span id="cb18-25"><a href="#cb18-25" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb18-26"><a href="#cb18-26" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
