@@ -12,25 +12,22 @@ admin.initializeApp({
 const db = admin.firestore();
 
 // Root folder where your frq/unit folders live
-const MCQ_ROOT = path.join(__dirname, "./frq");
+const FRQ_ROOT = path.join(__dirname, "./frq");
 
 async function uploadQuestions() {
-  for (let unit = 1; unit <= 9; unit++) {
-    const unitFolder = path.join(MCQ_ROOT, `unit${unit}`);
-    const files = fs.readdirSync(unitFolder);
+    const files = fs.readdirSync(FRQ_ROOT);
 
     for (const file of files) {
       if (file.endsWith(".json")) {
-        const fullPath = path.join(unitFolder, file);
+        const fullPath = path.join(FRQ_ROOT, file);
         const data = JSON.parse(fs.readFileSync(fullPath, "utf8"));
 
-        const docId = `unit${unit}_${data.question_id || file.replace(".json", "")}`;
+        const docId = `${data.question_id || file.replace(".json", "")}`;
         const docRef = db.collection("frq_questions").doc(docId);
         
         await docRef.set({
           ...data,
-          unit: `unit${unit}`,
-          unitLabel: data.unit || `Unit ${unit}`,
+          unitLabel: data.unit,
           filename: file,
           uploadedAt: new Date(),
         });
@@ -39,7 +36,6 @@ async function uploadQuestions() {
         console.log(`✅ Uploaded ${docId}`);
       }
     }
-  }
 
   console.log("🎉 All questions uploaded.");
 }

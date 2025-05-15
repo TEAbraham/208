@@ -107,13 +107,14 @@
     </header>
     <h1><a href=outline.html>AP Statistics</a></h1>
     <p>Trinity High School</p>
-    <p><a href=confidence_intervals.html> Confidence Intervals </a></p><br>
-    <p><a href=hypothesis_testing.html> Hypothesis Testing </a></p><br>
-    <p><a href=chi-square_tests.html> Chi-Square Tests </a></p><br>
-    <p><a href=linear_regression.html> Linear Regression </a></p><br>
-    <p><a href=outline.html> Outline </a></p><br>
-    <p><a href=glossary.html> Glossary </a></p><br>
     <div class="content">
+        <div id="overview">
+            <h3><a href=outline.html> Outline </a></h3>
+            <h3><a href=glossary.html> Glossary </a></h3>
+            <h3><a href=ap_stats_summary.html> Summary </a></h3>
+            <h3><a href=wcws.html> Softball </a></h3>
+            <h3><a href=nash.html> Game Theory </a></h3>
+        </div>
         <div id="unit1" class="section">
             <h2>Unit 1: Exploring One-Variable Data</h2>
             <br>
@@ -225,7 +226,7 @@
         </div>
 
         <div id="unit5" class="section">
-            <h2>Unit 5: Confidence Intervals</h2>
+            <h2><a href=confidence_intervals.html>Unit 5: Confidence Intervals</a></h2>
             <ul>
                 <li><a href="unit5/5A.html">5A: Normal Distributions, Revisited</a></li>
                 <a href="https://kami.app/6CC-Y1K-e1f-KF1" target="_blank" style="color:darkgreen; text-decoration: none;">  &#9679; Notes 1</a>
@@ -283,7 +284,7 @@
         </div>
 
         <div id="unit7" class="section">
-            <h2>Unit 7: Inference for Quantitative Data - Means</h2>
+            <h2><a href=hypothesis_testing.html>Unit 7: Inference for Quantitative Data - Means</a></h2>
             <ul>
                 <li><a href="unit7/7A.html">7A: Confidence Intervals for a Population Mean or Mean Difference</a></li>
                 <a href="https://kami.app/5YR-Zem-uuQ-FVi" target="_blank" style="color:darkgreen; text-decoration: none;">  &#9679; Notes 1</a>
@@ -307,7 +308,7 @@
         </div>
 
         <div id="unit8" class="section">
-            <h2>Unit 8: Inference for Categorical Data - Chi-Square</h2>
+            <h2><a href=chi-square_tests.html>Unit 8: Inference for Categorical Data - Chi-Square</a></h2>
             <ul>
                 <li><a href="unit8/8A.html">8A: Chi-Square Tests for Goodness-of-Fit</a></li>
                 <a href="https://kami.app/3N8-v2s-kK5-z3r" target="_blank" style="color:darkgreen; text-decoration: none;">  &#9679; Notes 1</a>
@@ -325,7 +326,7 @@
         </div>
 
         <div id="unit9" class="section">
-            <h2>Unit 9: Inference for Quantitative Data - Slopes</h2>
+            <h2><a href=linear_regression.html>Unit 9: Inference for Quantitative Data - Slopes</a></h2>
             <ul>
                 <li><a href="unit9/9A.html">9A: Confidence Intervals for the Slope of a Population Regression Line</a></li>
                 <a href="https://kami.app/KJi-SyF-GBy-CVH" target="_blank" style="color:darkgreen; text-decoration: none;">  &#9679; Notes 1</a>
@@ -338,6 +339,90 @@
             </ul>
         </div>
     </div>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".section").forEach(section => {
+    const subs = Array.from(section.querySelectorAll("h4"));
+    const items = Array.from(section.querySelectorAll("ul > *"));
+    const table = document.createElement("table");
+    table.className = "unit-table";
 
+    // Create header
+    const thead = document.createElement("thead");
+    thead.innerHTML = `<tr><th>Unit</th><th>Notes</th><th>Homework</th></tr>`;
+    table.appendChild(thead);
+
+    const tbody = document.createElement("tbody");
+
+    let currentRow = {};
+    for (let el of subs) {
+        el.style.display = "none";
+    }
+    for (let el of items) {
+      if (el.tagName === "H4") {
+        startNewTable();
+        el.after(currentTable);
+      }
+
+      else if (el.tagName === "UL") {
+        el.style.display = "none"; // skip and remove later
+      }
+
+      else if (el.tagName === "LI") {
+        if (Object.keys(currentRow).length > 0) {
+          // Flush the previous row
+          const tr = document.createElement("tr");
+          tr.innerHTML = `
+            <td>${currentRow.unit || ""}</td>
+            <td>${currentRow.notes || ""}</td>
+            <td>${currentRow.hw || ""}</td>
+          `;
+          tbody.appendChild(tr);
+        }
+        // Start new row
+        currentRow = {
+          unit: el.outerHTML,
+          notes: "",
+          hw: ""
+        };
+        el.style.display = "none";
+
+      } else if (el.tagName === "A") {
+        const text = el.textContent.trim();
+        if (text.includes("Notes")) {
+          currentRow.notes += el.outerHTML + "<br>";
+        } else if (text.includes("HW")) {
+          currentRow.hw += el.outerHTML + "<br>";
+        } else {
+          // Catch other types (e.g. TI-84)
+          currentRow.notes += el.outerHTML + "<br>";
+        }
+        el.style.display = "none";
+
+      }
+
+    }
+
+    // Flush the last row
+    if (Object.keys(currentRow).length > 0) {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${currentRow.unit || ""}</td>
+        <td>${currentRow.notes || ""}</td>
+        <td>${currentRow.hw || ""}</td>
+      `;
+      tbody.appendChild(tr);
+    }
+
+    table.appendChild(tbody);
+
+    // Replace <ul> with <table>
+    const ul = section.querySelector("ul");
+    ul.replaceWith(table);
+
+  });
+});
+
+</script>
 </body>
 </html>

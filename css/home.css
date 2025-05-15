@@ -374,3 +374,18 @@ tbody tr:nth-child(even) {
 .chat-msg.teacher { background: #00d0a1; color: white; padding: 4px; border-radius: 4px; margin: 4px 0; }
 .chat-msg.student { background: #64bdff; color: white; padding: 4px; border-radius: 4px; margin: 4px 0; }
 
+.unit-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+.unit-table th,
+.unit-table td {
+  border: 1px solid #ccc;
+  padding: 0.5em;
+  vertical-align: top;
+}
+.unit-table th {
+  background: #f4f4f4;
+  font-weight: bold;
+}
