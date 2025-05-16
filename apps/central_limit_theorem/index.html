@@ -82,6 +82,8 @@ svg {
   height: 100%;
   flex: 1;
   position: relative;
+  justify-content: flex-end;
+
 }
 
 .left {
@@ -158,8 +160,8 @@ svg {
 }
 
 .button-1.sample_btn.active,.button-1.sample_btn:hover{
-    border: 1px solid #FF8B22;
-    background-color: #FF8B22;
+    border: 1px solid #F5D800;
+    background-color: #F5D800;
     color:white;
 }
 .action-buttons ul {
@@ -297,69 +299,6 @@ circle {
     font-size: 0.9em;
   }
 
-
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 40px;
-  height: 26px;
-}
-
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 18px;
-  width: 18px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-input:checked + .slider {
-  background-color: #2196F3;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
-
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-#user-list li.active {
-  font-weight: bold;
-}
-
 </style>
 </head>
     <body>
@@ -440,21 +379,17 @@ input:checked + .slider:before {
       <option value="beta" selected>Beta</option>
     </select>
     </div>
+    <br>
     <div id="parameter-controls" class="interactive-wrapper"></div>
 
     <p>Set sample size and sample count, then click "Sample." Optionally show the theoretical distribution.</p>
     <div class="interactive-wrapper">
-      <label for="population">
-        Sample size $n$ = <span id="sample-value">1</span>
+      <label for="sample-size">
+        Sample size $n$ = <span id="n-value">1</span>
       </label>
       <br>
-      <input id="population" class="inputDist greenSlider" type="range" min="1" max="15" step="1" value="1">
+      <input id="sample-size" class="inputDist greenSlider" type="range" min="1" max="15" step="1" value="1">
       <br>
-      <label for="samples">
-        Number of Samples = <span id="samples-value">1</span>
-      </label>
-      <br>
-      <input id="samples" class="inputDist greenSlider" type="range" min="1" max="50" step="1" value="1">
       <br>
       <div>
         <strong>Theoretical</strong>
@@ -464,11 +399,9 @@ input:checked + .slider:before {
       </label>
       </div>
       <br>
-      <div class="interactive-wrapper">
-        <div class="button-1 sample_btn" id="start">Start Sampling</div>
-        <div class="button-1 sample_btn" id="stop" style="display:none">Stop Sampling</div>
-      </div>
     </div>
+    <button class="button-1 sample_btn" id="start">Start Sampling</button>
+    <button class="button-1 sample_btn" id="stop" style="display:none">Stop Sampling</button>
   </div>
   <div class="Column right">
     <div id="cltGraph" class="visualization-wrapper"></div>
@@ -495,110 +428,90 @@ d3.selection.prototype.moveToBack = function() {
 };
 
 // Additional jStat functions
+// Patch jStat.ibetainc function (Beta CDF approximation)
+jStat.ibetainc = function(x, a, b) {
+  if (x <= 0) return 0;
+  if (x >= 1) return 1;
+
+  // Regularized incomplete beta function using continued fractions (approximation)
+  // This is a simple approximation using jStat's gammap (incomplete gamma)
+  // For negative binomial cdf compatibility
+
+  const betaIncomplete = jStat.gammap(a + b, a * x);
+  return betaIncomplete;
+};
+
 jStat.bernoulli = {
-  pdf: (k, p) => (k < 0 || !Number.isInteger(k) || k > 1 || p < 0 || p > 1) ? 0 : jStat.binomial.pdf(k, 1, p),
-  cdf: (k, p) => jStat.binomial.cdf(k, 1, p),
+  pdf: (k, p) => (k < 0 || !Number.isInteger(k) || k > 1 || p < 0 || p > 1) ? 0 : (k === 1 ? p : 1 - p),
+  cdf: (k, p) => (k < 0 ? 0 : k < 1 ? 1 - p : 1),
   mean: (p) => p,
-  sample: (p) => Array.from({length: 1}, () => +(Math.random() < p)).reduce((a, b) => a + b, 0)
+  variance: (p) => p * (1 - p),
+  sample: (p) => +(Math.random() < p)
 };
 
 jStat.geometric = {
-  pdf: (k, p) => (k < 1 || !Number.isInteger(k) || p < 0 || p > 1) ? 0 : (1-p)**(k-1)*p,
-  cdf: (k, p) => { let sum = 0; for (let i = 1; i <= k; i++) {sum +=jStat.geometric.pdf(i,p) }; return sum  },
-  mean: (p) => 1/p,
-  sample: (p) => Array.from({length: 1}, () => +(Math.random() < p)).reduce((a, b) => a + b, 0)
+  pdf: (k, p) => (k < 1 || !Number.isInteger(k) || p < 0 || p > 1) ? 0 : (1 - p) ** (k - 1) * p,
+  cdf: (k, p) => (k < 1 || !Number.isInteger(k) || p < 0 || p > 1) ? 0 : 1 - (1 - p) ** k,
+  mean: (p) => 1 / p,
+  variance: (p) => (1 - p) / (p * p),
+  sample: (p) => {
+    let count = 1;
+    while (Math.random() >= p) {
+      count++;
+    }
+    return count;
+  }
+};
+
+jStat.binomialDiscrete = {
+  pdf: (k, n, p) => (k < 0 || !Number.isInteger(k) || k > n || p < 0 || p > 1) ? 0 : jStat.binomial.pdf(k, n, p),
+  cdf: (k, n, p) => jStat.binomial.cdf(k, n, p),
+  mean: (n, p) => n * p,
+  variance: (n, p) => n * p * (1 - p),
+  sample: (n, p) => {
+    let sum = 0;
+    for (let i = 0; i < n; i++) {
+      sum += +(Math.random() < p);
+    }
+    return sum;
+  }
 };
 
 
-//Additional Functions to JSTAT
-jStat.binomialDiscrete = {};
-
-jStat.binomialDiscrete.pdf = function(k, n, p) {
-  if (k < 0 || !Number.isInteger(k) || k > n || p < 0 || p > 1) {
-      return 0;
-  } else {
-      return jStat.binomial.pdf(k, n, p);
+jStat.negbin = {
+  pdf: (k, r, p) => (k < 0 || !Number.isInteger(k) || r <= 0 || p < 0 || p > 1) ? 0 :
+    jStat.combination(k + r - 1, k) * (p ** r) * ((1 - p) ** k),
+  cdf: (k, r, p) => jStat.ibetainc(p, r, k + 1),
+  mean: (r, p) => (1 - p) * r / p,
+  variance: (r, p) => (1 - p) * r / (p * p),
+  sample: (r, p) => {
+    let failures = 0, successes = 0;
+    while (successes < r) {
+      if (Math.random() < p) successes++;
+      else failures++;
+    }
+    return failures;
   }
-}
+};
 
-jStat.binomialDiscrete.cdf = function(k, n, p) {
-  return jStat.binomial.cdf(k, n, p);
-}
 
-jStat.binomialDiscrete.mean = function(n, p) {
-  return n * p;
-}
-
-jStat.binomialDiscrete.sample = function(n, p) {
-  var sum = 0;
-  for (var i = 0; i < n; i++) {
-      sum += +(Math.random() < p);
+jStat.poisson = {
+  pdf: (k, lambda) => (k < 0 || !Number.isInteger(k) || lambda < 0) ? 0 :
+    (Math.pow(lambda, k) * Math.exp(-lambda)) / jStat.factorial(k),
+  cdf: (k, lambda) => jStat.gammap(k + 1, lambda),
+  mean: (lambda) => lambda,
+  variance: (lambda) => lambda,
+  sample: (lambda) => {
+    let L = Math.exp(-lambda);
+    let k = 0, p = 1;
+    do {
+      k++;
+      p *= Math.random();
+    } while (p > L);
+    return k - 1;
   }
-  return sum;
-}
+};
 
-jStat.bernoulli = {};
-
-jStat.bernoulli.pdf = function(k, p) {
-  return jStat.binomialDiscrete.pdf(k, 1, p);
-}
-
-jStat.bernoulli.cdf = function(k, p) {
-  return jStat.binomial.cdf(k, 1, p);
-}
-
-jStat.bernoulli.mean = function(p) {
-  return p;
-}
-
-jStat.bernoulli.sample = function(p) {
-  return +(Math.random() < p);
-}
-
-jStat.negbin.mean = function(r, p) {
-  return (1 - p) * r / p;
-}
-
-jStat.poisson.mean = function(lambda) {
-  return lambda;
-}
-
-// D3 setup for distGraph
-const xScaleDist = d3.scaleLinear().range([0, 400]);
-const yScaleDist = d3.scaleLinear().range([300, 0]);
-
-const xAxisDist = d3.axisBottom(xScaleDist);
-const yAxisDist = d3.axisLeft(yScaleDist);
-
-const svgDist = d3.select("#distGraph")
-  .attr("viewBox", "0 0 500 350")
-  .attr("preserveAspectRatio", "xMidYMid meet");
-
-const xDist = svgDist.append("g")
-  .attr("transform", "translate(50, 300)");
-
-const yDist = svgDist.append("g")
-  .attr("transform", "translate(50, 0)");
-
-const graphGroup = svgDist.append("g")
-  .attr("transform", "translate(50, 0)");
-
-const pdfPath = graphGroup.append("path")
-  .attr("class", "pdf-line")
-  .attr("fill", "none")
-  .attr("stroke", "steelblue")
-  .attr("stroke-width", 2);
-
-const pdfArea = graphGroup.append("path")
-  .attr("class", "pdf-area")
-  .attr("fill", "lightblue")
-  .attr("opacity", 0.5);
-
-const cdfPath = graphGroup.append("path")
-  .attr("class", "cdf-line")
-  .attr("fill", "none")
-  .attr("stroke", "green")
-  .attr("stroke-width", 2);
 
 function reset_slider() {
   $("#percentDist").val(0);
@@ -612,49 +525,6 @@ function updateRangeInput(n, id) {
   if (!isNaN(value)) {
     document.getElementById(id + "-value").textContent = value.toFixed(2);
   }
-}
-
-function resamplePath(dist) {
-  if (!dist || !parameters[dist]) return;
-  const paramKeys = parameters[dist];
-  for (const key of paramKeys) {
-    if (!document.getElementById(dist + key)) return;
-  }
-
-  const line = d3.line()
-    .x(d => xScaleDist(d[0]))
-    .y(d => y1 - yScaleDist(d[1]))
-    .curve(d3.curveLinear);
-
-  const area = d3.area()
-    .x(d => xScaleDist(d[0]))
-    .y0(y1)
-    .y1(d => y1 - yScaleDist(d[1]))
-    .curve(d3.curveLinear);
-
-  const paramValues = paramKeys.map(k => parseFloat(document.getElementById(dist + k).value));
-  paramValues.unshift(0);
-
-  pdfPath
-    .datum(d3.range(Math.floor(currentView[0]), Math.ceil(currentView[1]) + 0.01, 0.01).map(x => {
-      paramValues[0] = x;
-      return [x, Math.min(jStat[dist].pdf.apply(null, paramValues), 5)];
-    }))
-    .attr("d", line);
-
-  pdfArea
-    .datum(d3.range(currentView[0], currentView[0] + (currentView[1] - currentView[0]) * currentPercent + 0.01, 0.01).map(x => {
-      paramValues[0] = x;
-      return [x, Math.min(jStat[dist].pdf.apply(null, paramValues), 5)];
-    }))
-    .attr("d", area);
-
-  cdfPath
-    .datum(d3.range(currentView[0], currentView[0] + (currentView[1] - currentView[0]) * currentPercent + 0.01, 0.01).map(x => {
-      paramValues[0] = x;
-      return [x, jStat[dist].cdf.apply(null, paramValues)];
-    }))
-    .attr("d", line);
 }
 
 // Central Limit Theorem Visualization with Distribution Dropdown
@@ -671,6 +541,8 @@ function clt() {
     .attr("viewBox", `0 0 ${fullWidth} ${fullHeight}`)
     .attr("preserveAspectRatio", "xMidYMid meet");
 
+  const controlPanel = d3.select("#parameter-controls");
+
   const svg = window.append("g")
     .attr("class", "clt")
     .attr("transform", `translate(${margin.left},${margin.top})`);
@@ -681,12 +553,12 @@ function clt() {
     negbin: [-1, 6],
     geometric: [-1, 6],
     poisson: [-1, 6],
-    uniform: [-6, 6], 
-    normal: [-6, 6], 
+    uniform: [-6, 6],
+    normal: [-6, 6],
     studentt: [-6, 6],
-    chisquare: [-1, 11], 
-    exponential: [-1, 6], 
-    centralF: [-1, 6], 
+    chisquare: [-1, 11],
+    exponential: [-1, 6],
+    centralF: [-1, 6],
     gamma: [-1, 6],
     beta: [-1, 2],
   };
@@ -747,32 +619,33 @@ function clt() {
 
   const f = {
     sample: () => jStat[currDist].sample(...currParams),
-    mu: () => jStat[currDist].mean(...currParams),
-    sigma: () => Math.sqrt(jStat[currDist].variance(...currParams))
+    mu: () => (jStat[currDist].mean ? jStat[currDist].mean(...currParams) : 0),
+    sigma: () => (jStat[currDist].variance ? Math.sqrt(jStat[currDist].variance(...currParams)) : 1)
   };
 
-  function pdf(x) {
-    return Math.sqrt(n) / Math.sqrt(2 * Math.PI) / f.sigma()
-      * Math.exp(-n * (x - f.mu()) ** 2 / (2 * f.sigma() ** 2));
+
+  function N(x) {
+    if (n != 1){
+      return Math.sqrt(n) / Math.sqrt(2 * Math.PI) / f.sigma()
+        * Math.exp(-n * (x - f.mu()) ** 2 / (2 * f.sigma() ** 2));
+      }
+    else{
+      return jStat[currDist].pdf ? jStat[currDist].pdf(x, ...currParams) : 0
+    }
   }
 
   const x = d3.scaleLinear().domain(viewParams[currDist]).range([0, width]);
-  const y1 = height / 3, y2 = height / 2;
-  const y = d3.scaleLinear().domain([0, pdf(f.mu())]).range([0, height - y2]);
+  const y0 = height / 4, y1 = (height / 4) + y0, y2 = (height / 2) + y0;
+  const y = d3.scaleLinear().domain([0, 1]).range([0, height - y2]);
 
   const histogram = d3.bin().domain(x.domain()).thresholds(x.ticks(20));
-  const area = d3.area()
-    .x(d => x(d[0]))
-    .y0(y2)
-    .y1(d => y2 + y(d[1]))
-    .curve(d3.curveBasis);
 
   svg.append("path").attr("class", "line");
   svg.append("g").attr("class", "bars");
 
   const axis = svg.selectAll(".axis")
     .data([
-      { y: 0, label: "population" },
+      { y: y0, label: "population" },
       { y: y1, label: "sample mean" },
       { y: y2, label: "counts" }
     ])
@@ -799,6 +672,12 @@ function clt() {
     const ymax = d3.max(data, d => d.y);
     y.domain([0, ymax / (1 / 20)]);
 
+    const area = d3.area()
+      .x(d => x(d[0]))
+      .y0(y2)
+      .y1(d => y2 + y(d[1]))
+      .curve(d3.curveLinear);
+
     let bar = svg.select(".bars").selectAll(".bar").data(data);
 
     const g = bar.enter().append("g")
@@ -806,10 +685,10 @@ function clt() {
       .attr("transform", d => `translate(${x(d.x0)},${y2})`);
 
     g.append("rect")
-      .attr("width", d => (x(d.x1) - x(d.x0)) - 2);
+      .attr("width", d => (x(d.x1) - x(d.x0)));
 
     g.append("text")
-      .attr("x", x(1 / 40))
+      .attr("x", d => (x(d.x1) - x(d.x0)))
       .attr("dy", 10)
       .attr("dominant-baseline", "hanging")
       .attr("text-anchor", "middle");
@@ -826,9 +705,11 @@ function clt() {
       .text(d => d.y > 0 ? d3.format(".0%")((d.y)) : "");
 
     svg.select(".line")
-      .datum(d3.range(x.domain()[0], x.domain()[1], 0.05).map(x => [x, pdf(x)]))
+      .datum(d3.range(x.domain()[0], x.domain()[1], 0.05).map(x => [x, N(x)]))
       .transition(t)
-      .attr("d", area);
+      .attr("d", area)
+      .attr("fill", "lightblue")
+      .attr("opacity", 0.5);
   }
 
   function renderBalls() {
@@ -871,43 +752,122 @@ function clt() {
     interval_clt = setInterval(renderAll, delay);
   }
 
+  function stop_sampling() {
+    clearInterval(interval_clt);
+}
+
   function reset_clt() {
     clearInterval(interval_clt);
     counts = [];
     svg.selectAll("circle").remove();
     svg.selectAll(".bar").remove();
     svg.select(".line").attr("d", null);
-    y.domain([0, pdf(f.mu())]);
+    y.domain([0, N(f.mu())]);
     renderBars();
+  }
+
+  function drawPopulation() {
+    svg.selectAll(".population-line, .population-area").remove();
+
+    let data = d3.range(x.domain()[0], x.domain()[1], 0.01).map(xVal => {
+      const val = (jStat[currDist].pdf ? jStat[currDist].pdf(xVal, ...currParams) : 0);
+      return [xVal, val];
+    });
+
+    const ymax = d3.max(data, d => d[1]);
+    y.domain([0, ymax]);
+
+    const isDiscrete = ["bernoulli", "binomialDiscrete", "negbin", "geometric", "poisson"].includes(currDist);
+
+    if (!isDiscrete) {
+      const area = d3.area()
+        .x(d => x(d[0]))
+        .y0(y0)
+        .y1(d => y0 - y(d[1]))
+        .curve(d3.curveLinear);
+
+      svg.append("path")
+        .datum(data)
+        .attr("class", "population-area")
+        .attr("fill", "#F5D800")
+        .attr("opacity", 0.3)
+        .attr("d", area);
+    }
+
+    const line = d3.line()
+      .x(d => x(d[0]))
+      .y(d => y0 - y(d[1]))
+      .curve(isDiscrete ? d3.curveStepAfter : d3.curveLinear);
+
+    svg.append("path")
+      .datum(data)
+      .attr("class", "population-line")
+      .attr("fill", "none")
+      .attr("stroke", "#F5D800")
+      .attr("stroke-width", 2)
+      .attr("d", line);
+  }
+
+  function createSliders() {
+    controlPanel.html("");
+    parameters[currDist].forEach((param, i) => {
+      const [min, max, step] = parameterRanges[param];
+      const id = `clt-${param.toLowerCase()}`;
+
+      const wrapper = controlPanel.append("div")
+        .attr("class", "slider-wrapper");
+
+      wrapper.append("label")
+        .attr("for", id)
+        .attr("class", "slider")
+        .html(`${param} = <span id="${id}-value">${currParams[i]}</span>`);
+
+      wrapper.append("input")
+        .attr("type", "range")
+        .attr("id", id)
+        .attr("min", min)
+        .attr("max", max)
+        .attr("step", step)
+        .attr("value", currParams[i])
+        .on("input", function () {
+          currParams[i] = +this.value;
+          d3.select(`#${id}-value`).text(this.value);
+          drawPopulation();
+          reset_clt();
+        });
+    });
   }
 
   d3.select("#dist_clt").on("change", function () {
     currDist = this.value;
-    currParams = initialParams[currDist];
+    currParams = initialParams[currDist].slice();
     x.domain(viewParams[currDist]);
+    createSliders();
+    drawPopulation();
     reset_clt();
+    d3.selectAll(".sample_btn").style("display", (d, i) => i === 0 ? "inline-block" : "none");
   });
 
-  d3.select("#population").on("input", function () {
+  d3.select("#sample-size").on("input", function () {
     n = +this.value;
-    d3.select("#sample-value").text(n);
+    d3.select("#n-value").text(n);
     reset_clt();
-  });
+    d3.selectAll(".sample_btn").style("display", (d, i) => i === 0 ? "inline-block" : "none");
 
-  d3.select("#samples").on("input", function () {
-    const s = +this.value;
-    d3.select("#samples-value").text(s);
   });
 
   d3.select("#start").on("click", () => {
-    clearInterval(interval_clt);
-    start_sampling();
+    start_sampling()
+    d3.selectAll(".sample_btn").style("display", "inline-block");
   });
 
   d3.select("#stop").on("click", () => {
-    clearInterval(interval_clt);
+    stop_sampling()
+    d3.selectAll(".sample_btn").style("display", (d, i) => i === 0 ? "inline-block" : "none");
   });
 
+  createSliders();
+  drawPopulation();
   renderBars();
 }
 

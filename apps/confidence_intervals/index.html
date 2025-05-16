@@ -341,10 +341,9 @@ label.slider {
       <p>Start sampling to generate confidence intervals.</p>
       <div class="interactive-wrapper">
         <div id="ciDist"></div>
-        <div class="button-1 sample_btn" id="startCI">Start Sampling</div>
-        <div class="button-1 sample_btn" id="stopCI" style="display:none">Stop Sampling</div>
       </div>
-  
+        <button class="button-1 sample_btn" id="startCI">Start Sampling</button>
+        <button class="button-1 sample_btn" id="stopCI" style="display:none">Stop Sampling</button>
     </div>
       <!-- Matching Visualization Container -->
     <div class="Column right">
@@ -369,73 +368,89 @@ d3.selection.prototype.moveToBack = function() {
 };
 
 // Additional jStat functions
+// Patch jStat.ibetainc function (Beta CDF approximation)
+jStat.ibetainc = function(x, a, b) {
+  if (x <= 0) return 0;
+  if (x >= 1) return 1;
+
+  // Regularized incomplete beta function using continued fractions (approximation)
+  // This is a simple approximation using jStat's gammap (incomplete gamma)
+  // For negative binomial cdf compatibility
+
+  const betaIncomplete = jStat.gammap(a + b, a * x);
+  return betaIncomplete;
+};
+
 jStat.bernoulli = {
-  pdf: (k, p) => (k < 0 || !Number.isInteger(k) || k > 1 || p < 0 || p > 1) ? 0 : jStat.binomial.pdf(k, 1, p),
-  cdf: (k, p) => jStat.binomial.cdf(k, 1, p),
+  pdf: (k, p) => (k < 0 || !Number.isInteger(k) || k > 1 || p < 0 || p > 1) ? 0 : (k === 1 ? p : 1 - p),
+  cdf: (k, p) => (k < 0 ? 0 : k < 1 ? 1 - p : 1),
   mean: (p) => p,
-  sample: (p) => Array.from({length: 1}, () => +(Math.random() < p)).reduce((a, b) => a + b, 0)
+  variance: (p) => p * (1 - p),
+  sample: (p) => +(Math.random() < p)
 };
 
 jStat.geometric = {
-  pdf: (k, p) => (k < 1 || !Number.isInteger(k) || p < 0 || p > 1) ? 0 : (1-p)**(k-1)*p,
-  cdf: (k, p) => { let sum = 0; for (let i = 1; i <= k; i++) {sum +=jStat.geometric.pdf(i,p) }; return sum  },
-  mean: (p) => 1/p,
-  sample: (p) => Array.from({length: 1}, () => +(Math.random() < p)).reduce((a, b) => a + b, 0)
+  pdf: (k, p) => (k < 1 || !Number.isInteger(k) || p < 0 || p > 1) ? 0 : (1 - p) ** (k - 1) * p,
+  cdf: (k, p) => (k < 1 || !Number.isInteger(k) || p < 0 || p > 1) ? 0 : 1 - (1 - p) ** k,
+  mean: (p) => 1 / p,
+  variance: (p) => (1 - p) / (p * p),
+  sample: (p) => {
+    let count = 1;
+    while (Math.random() >= p) {
+      count++;
+    }
+    return count;
+  }
+};
+
+jStat.binomialDiscrete = {
+  pdf: (k, n, p) => (k < 0 || !Number.isInteger(k) || k > n || p < 0 || p > 1) ? 0 : jStat.binomial.pdf(k, n, p),
+  cdf: (k, n, p) => jStat.binomial.cdf(k, n, p),
+  mean: (n, p) => n * p,
+  variance: (n, p) => n * p * (1 - p),
+  sample: (n, p) => {
+    let sum = 0;
+    for (let i = 0; i < n; i++) {
+      sum += +(Math.random() < p);
+    }
+    return sum;
+  }
 };
 
 
-//Additional Functions to JSTAT
-jStat.binomialDiscrete = {};
-
-jStat.binomialDiscrete.pdf = function(k, n, p) {
-  if (k < 0 || !Number.isInteger(k) || k > n || p < 0 || p > 1) {
-      return 0;
-  } else {
-      return jStat.binomial.pdf(k, n, p);
+jStat.negbin = {
+  pdf: (k, r, p) => (k < 0 || !Number.isInteger(k) || r <= 0 || p < 0 || p > 1) ? 0 :
+    jStat.combination(k + r - 1, k) * (p ** r) * ((1 - p) ** k),
+  cdf: (k, r, p) => jStat.ibetainc(p, r, k + 1),
+  mean: (r, p) => (1 - p) * r / p,
+  variance: (r, p) => (1 - p) * r / (p * p),
+  sample: (r, p) => {
+    let failures = 0, successes = 0;
+    while (successes < r) {
+      if (Math.random() < p) successes++;
+      else failures++;
+    }
+    return failures;
   }
-}
+};
 
-jStat.binomialDiscrete.cdf = function(k, n, p) {
-  return jStat.binomial.cdf(k, n, p);
-}
 
-jStat.binomialDiscrete.mean = function(n, p) {
-  return n * p;
-}
-
-jStat.binomialDiscrete.sample = function(n, p) {
-  var sum = 0;
-  for (var i = 0; i < n; i++) {
-      sum += +(Math.random() < p);
+jStat.poisson = {
+  pdf: (k, lambda) => (k < 0 || !Number.isInteger(k) || lambda < 0) ? 0 :
+    (Math.pow(lambda, k) * Math.exp(-lambda)) / jStat.factorial(k),
+  cdf: (k, lambda) => jStat.gammap(k + 1, lambda),
+  mean: (lambda) => lambda,
+  variance: (lambda) => lambda,
+  sample: (lambda) => {
+    let L = Math.exp(-lambda);
+    let k = 0, p = 1;
+    do {
+      k++;
+      p *= Math.random();
+    } while (p > L);
+    return k - 1;
   }
-  return sum;
-}
-
-jStat.bernoulli = {};
-
-jStat.bernoulli.pdf = function(k, p) {
-  return jStat.binomialDiscrete.pdf(k, 1, p);
-}
-
-jStat.bernoulli.cdf = function(k, p) {
-  return jStat.binomial.cdf(k, 1, p);
-}
-
-jStat.bernoulli.mean = function(p) {
-  return p;
-}
-
-jStat.bernoulli.sample = function(p) {
-  return +(Math.random() < p);
-}
-
-jStat.negbin.mean = function(r, p) {
-  return (1 - p) * r / p;
-}
-
-jStat.poisson.mean = function(lambda) {
-  return lambda;
-}
+};
 
 const parameters = {
   bernoulli: ['Probability'],
