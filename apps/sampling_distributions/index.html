@@ -53,8 +53,8 @@
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <style>
 body, html {
-  margin: 10;
-  padding: 10;
+  margin: 10px;
+  padding: 10px;
   overflow-x: hidden;
 }
 
@@ -524,132 +524,37 @@ circle {
   </div>
 </div>
 <script>
-//Handles functionality of Distributions
-$(function () {
-  discrete_continuous();
-});
-
-// Extend D3 selection prototype for bringing elements to front/back
-d3.selection.prototype.moveToFront = function() {
-  return this.each(function() {
-      this.parentNode.appendChild(this);
-  });
-};
-
-d3.selection.prototype.moveToBack = function() {
-  return this.each(function() {
-      this.parentNode.insertBefore(this, this.parentNode.firstChild);
-  });
-};
-
-// Additional jStat functions
-// Patch jStat.ibetainc function (Beta CDF approximation)
-jStat.ibetainc = function(x, a, b) {
-  if (x <= 0) return 0;
-  if (x >= 1) return 1;
-
-  // Regularized incomplete beta function using continued fractions (approximation)
-  // This is a simple approximation using jStat's gammap (incomplete gamma)
-  // For negative binomial cdf compatibility
-
-  const betaIncomplete = jStat.gammap(a + b, a * x);
-  return betaIncomplete;
-};
-
-jStat.bernoulli = {
-  pdf: (k, p) => (k < 0 || !Number.isInteger(k) || k > 1 || p < 0 || p > 1) ? 0 : (k === 1 ? p : 1 - p),
-  cdf: (k, p) => (k < 0 ? 0 : k < 1 ? 1 - p : 1),
-  mean: (p) => p,
-  variance: (p) => p * (1 - p),
-  sample: (p) => +(Math.random() < p)
-};
-
-jStat.geometric = {
-  pdf: (k, p) => (k < 1 || !Number.isInteger(k) || p < 0 || p > 1) ? 0 : (1 - p) ** (k - 1) * p,
-  cdf: (k, p) => (k < 1 || !Number.isInteger(k) || p < 0 || p > 1) ? 0 : 1 - (1 - p) ** k,
-  mean: (p) => 1 / p,
-  variance: (p) => (1 - p) / (p * p),
-  sample: (p) => {
-    let count = 1;
-    while (Math.random() >= p) {
-      count++;
-    }
-    return count;
-  }
-};
-
-jStat.binomialDiscrete = {
-  pdf: (k, n, p) => (k < 0 || !Number.isInteger(k) || k > n || p < 0 || p > 1) ? 0 : jStat.binomial.pdf(k, n, p),
-  cdf: (k, n, p) => jStat.binomial.cdf(k, n, p),
-  mean: (n, p) => n * p,
-  variance: (n, p) => n * p * (1 - p),
-  sample: (n, p) => {
-    let sum = 0;
-    for (let i = 0; i < n; i++) {
-      sum += +(Math.random() < p);
-    }
-    return sum;
-  }
-};
-
-
-jStat.negbin = {
-  pdf: (k, r, p) => (k < 0 || !Number.isInteger(k) || r <= 0 || p < 0 || p > 1) ? 0 :
-    jStat.combination(k + r - 1, k) * (p ** r) * ((1 - p) ** k),
-  cdf: (k, r, p) => jStat.ibetainc(p, r, k + 1),
-  mean: (r, p) => (1 - p) * r / p,
-  variance: (r, p) => (1 - p) * r / (p * p),
-  sample: (r, p) => {
-    let failures = 0, successes = 0;
-    while (successes < r) {
-      if (Math.random() < p) successes++;
-      else failures++;
-    }
-    return failures;
-  }
-};
-
-
-jStat.poisson = {
-  pdf: (k, lambda) => (k < 0 || !Number.isInteger(k) || lambda < 0) ? 0 :
-    (Math.pow(lambda, k) * Math.exp(-lambda)) / jStat.factorial(k),
-  cdf: (k, lambda) => jStat.gammap(k + 1, lambda),
-  mean: (lambda) => lambda,
-  variance: (lambda) => lambda,
-  sample: (lambda) => {
-    let L = Math.exp(-lambda);
-    let k = 0, p = 1;
-    do {
-      k++;
-      p *= Math.random();
-    } while (p > L);
-    return k - 1;
-  }
-};
-
 // D3 setup for distGraph
+const svgWidth = 600;
+const svgHeight = 400;
+const margin = { top: 20, right: 20, bottom: 50, left: 50 };
+const innerWidth = svgWidth - margin.left - margin.right;
+const innerHeight = svgHeight - margin.top - margin.bottom;
+
 const xScaleDist = d3.scaleLinear()
-  .domain([-5, 5])       // 👈 X domain
-  .range([0, 400]);      // 👈 Actual graph width (500 - 100 padding)
+  .domain([-5, 5])
+  .range([0, innerWidth]);
 
 const yScaleDist = d3.scaleLinear()
-  .range([300, 0]);
+  .range([innerHeight, 0]);
 
 const xAxisDist = d3.axisBottom(xScaleDist);
 const yAxisDist = d3.axisLeft(yScaleDist);
 
 const svgDist = d3.select("#distGraph")
-  .attr("viewBox", "0 0 500 350")
-  .attr("preserveAspectRatio", "xMidYMid meet");
+  .attr("viewBox", `0 0 ${svgWidth} ${svgHeight}`)
+  .attr("preserveAspectRatio", "xMidYMid meet")
+  .style("width", "100%")
+  .style("height", "100%");
 
 const xDist = svgDist.append("g")
-  .attr("transform", "translate(50, 300)");
+  .attr("transform", `translate(${margin.left}, ${margin.top + innerHeight})`);
 
 const yDist = svgDist.append("g")
-  .attr("transform", "translate(50, 0)");
+  .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 const graphGroup = svgDist.append("g")
-  .attr("transform", "translate(50, 0)");
+  .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 const pdfPath = graphGroup.append("path")
   .attr("class", "pdf-line")
@@ -672,22 +577,22 @@ const cdfPath = graphGroup.append("path")
 const reset_slider_position = create_slider(p => {
   currentPercent = p;
   redrawPath();
-}, svgDist, 400, 300, 50);
+}, svgDist, svgWidth, svgHeight, 50);
 
 function reset_slider() {
   $("#percentDist").val(0);
   currentPercent = 0;
 }
 
-function create_slider(callback, svg, width, height, wpad) {
-  const slider = svg.append("g")
+function create_slider(callback, svgDist, svgWidth, svgHeight, wpad) {
+  const slider = svgDist.append("g")
     .attr("class", "giant-slider")
-    .attr("transform", `translate(${wpad}, ${height + 30})`);
+    .attr("transform", `translate(${wpad}, ${svgHeight + 30})`);
 
   // Background track
   slider.append("line")
     .attr("x1", 0)
-    .attr("x2", width)
+    .attr("x2", svgWidth)
     .attr("y1", 0)
     .attr("y2", 0)
     .attr("stroke", "#ccc")
@@ -712,10 +617,10 @@ function create_slider(callback, svg, width, height, wpad) {
     .attr("cy", 0)
     .call(d3.drag()
       .on("drag", function (event) {
-        let x = Math.max(0, Math.min(width, event.x));
+        let x = Math.max(0, Math.min(svgWidth, event.x));
         d3.select(this).attr("cx", x);
         filled.attr("x2", x); // 👈 Update filled track
-        const percent = x / width;
+        const percent = x / svgWidth;
         callback(percent);
       })
     );
@@ -811,7 +716,25 @@ function redrawPath() {
   const paramKeys = parameters[dist];
   const paramValues = paramKeys.map(k => parseFloat(document.getElementById(dist + k).value));
   paramValues.unshift(0);
+
+  if (!jStat[dist] || typeof jStat[dist].mean !== "function" || typeof jStat[dist].variance !== "function") {
+    console.warn(`Distribution "${dist}" is missing mean/variance definition.`);
+    return;
+  }
+
   const isDiscrete = ["bernoulli", "binomialDiscrete", "negbin", "geometric", "poisson"].includes(dist);
+
+  let mean = jStat[dist].mean.apply(null, paramValues.slice(1));
+  let variance = jStat[dist].variance.apply(null, paramValues.slice(1));
+  let stdDev = Math.sqrt(variance);
+
+  let rangeMin = Math.floor(mean - 4 * stdDev);
+  let rangeMax = Math.ceil(mean + 4 * stdDev);
+
+  // Avoid negatives for non-negative distributions
+  if (["poisson", "negbin", "geometric", "chisquare", "gamma", "exponential"].includes(dist)) {
+    rangeMin = Math.max(0, rangeMin);
+  }
 
   const area = d3.area()
     .x(d => xScaleDist(d[0]))
@@ -824,23 +747,39 @@ function redrawPath() {
     .y(d => yScaleDist(d[1]))
     .curve(isDiscrete ? d3.curveStepAfter : d3.curveLinear);
 
-  // Sample over a wide x-range to detect needed domain
-  const previewData = d3.range(-20, 20.01, 0.1).map(x => {
+
+
+  const previewData = d3.range(rangeMin, rangeMax + 0.1, 0.1).map(x => {
     paramValues[0] = x;
     return [x, Math.min(jStat[dist].pdf.apply(null, paramValues), 5)];
   });
 
-  const [xMin, xMax] = d3.extent(previewData, d => d[0]);
-  if (currentView[0] < xMin || currentView[1] > xMax) {
-    currentView = [Math.floor(xMin), Math.ceil(xMax)];
+  if (currentView[0] < rangeMin || currentView[1] > rangeMax) {
+    currentView = [rangeMin, rangeMax];
     xScaleDist.domain(currentView);
     xDist.call(xAxisDist);
   }
+
 
   const pdfData = d3.range(currentView[0], currentView[1] + 0.01, 0.01).map(x => {
     paramValues[0] = x;
     return [x, Math.min(jStat[dist].pdf.apply(null, paramValues), 5)];
   });
+
+const xStart = Math.ceil(currentView[0]);
+const xEnd = Math.floor(currentView[0] + (currentView[1] - currentView[0]) * currentPercent);
+
+const cdfData = isDiscrete
+  ? d3.range(xStart, xEnd + 1).map(k => {
+      if (!Number.isInteger(k) || k < 0) return [k, 0];
+      paramValues[0] = k;
+      return [k, jStat[dist].cdf.apply(null, paramValues)];
+    })
+  : d3.range(currentView[0], currentView[0] + (currentView[1] - currentView[0]) * currentPercent + 0.01, 0.01).map(x => {
+      paramValues[0] = x;
+      return [x, jStat[dist].cdf.apply(null, paramValues)];
+    });
+
 
   pdfPath
     .datum(pdfData)
@@ -854,11 +793,13 @@ function redrawPath() {
     .attr("d", area);
 
   cdfPath
-    .datum(d3.range(currentView[0], currentView[0] + (currentView[1] - currentView[0]) * currentPercent + 0.01, 0.01).map(x => {
-      paramValues[0] = x;
-      return [x, jStat[dist].cdf.apply(null, paramValues)];
-    }))
-    .attr("d", line);
+    .datum(cdfData)
+    .attr("d", d3.line()
+      .x(d => xScaleDist(d[0]))
+      .y(d => yScaleDist(d[1]))
+      .curve(isDiscrete ? d3.curveStepAfter : d3.curveLinear)
+    );
+
 }
 
 function discrete_continuous() {
@@ -934,7 +875,7 @@ function discrete_continuous() {
         if (!currentDist || !(currentDist in parameters)) return;
         reset_slider_position(); // 👈 reset giant slider
         redrawPath();
-        
+
       }
     });
 
@@ -951,15 +892,15 @@ function discrete_continuous() {
   $('#resetDist').on('click', function () {
     $('.distributions:visible').trigger('change');
     reset_slider_position(); // 👈 reset giant slider
-
   });
 }
 
 $(function () {
   discrete_continuous();
-  $('.distributions:visible').trigger('change');
+  setTimeout(() => {
+    $('.distributions:visible').trigger('change');
+  }, 10);
 });
-
 </script>
 
 </body>

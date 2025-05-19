@@ -53,8 +53,8 @@
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <style>
 body, html {
-  margin: 10;
-  padding: 10;
+  margin: 10px;
+  padding: 10px;
   overflow-x: hidden;
 }
 
@@ -76,7 +76,6 @@ svg {
   flex-direction: column;
 }
 
-  
 .visualization-wrapper {
   width: 100%;
   height: 100%;
@@ -117,18 +116,6 @@ svg {
     /* For Firefox 3.6 to 15 */
     background: linear-gradient(rgba(255,242,232, 1), rgba(255,242,232, 1), rgba(255,242,232, 0));
     /* Standard syntax */
-}
-.menu-top {
-  transform: scale(1);
-  will-change: transform;
-  transition: transform 0.25s ease-in-out;
-  width: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
-  white-space: nowrap;
-  box-sizing: border-box;
-  backface-visibility: hidden;
-
 }
 .interactive-wrapper {
     display: block;
@@ -391,13 +378,6 @@ circle {
       <input id="sample-size" class="inputDist greenSlider" type="range" min="1" max="15" step="1" value="1">
       <br>
       <br>
-      <div>
-        <strong>Theoretical</strong>
-      <label class="switch">
-        <input  id="theoretical" type="checkbox">
-        <span class="slider round"></span>
-      </label>
-      </div>
       <br>
     </div>
     <button class="button-1 sample_btn" id="start">Start Sampling</button>
@@ -412,106 +392,6 @@ circle {
 $(function () {
   clt();
 });
-
-
-// Extend D3 selection prototype for bringing elements to front/back
-d3.selection.prototype.moveToFront = function() {
-  return this.each(function() {
-      this.parentNode.appendChild(this);
-  });
-};
-
-d3.selection.prototype.moveToBack = function() {
-  return this.each(function() {
-      this.parentNode.insertBefore(this, this.parentNode.firstChild);
-  });
-};
-
-// Additional jStat functions
-// Patch jStat.ibetainc function (Beta CDF approximation)
-jStat.ibetainc = function(x, a, b) {
-  if (x <= 0) return 0;
-  if (x >= 1) return 1;
-
-  // Regularized incomplete beta function using continued fractions (approximation)
-  // This is a simple approximation using jStat's gammap (incomplete gamma)
-  // For negative binomial cdf compatibility
-
-  const betaIncomplete = jStat.gammap(a + b, a * x);
-  return betaIncomplete;
-};
-
-jStat.bernoulli = {
-  pdf: (k, p) => (k < 0 || !Number.isInteger(k) || k > 1 || p < 0 || p > 1) ? 0 : (k === 1 ? p : 1 - p),
-  cdf: (k, p) => (k < 0 ? 0 : k < 1 ? 1 - p : 1),
-  mean: (p) => p,
-  variance: (p) => p * (1 - p),
-  sample: (p) => +(Math.random() < p)
-};
-
-jStat.geometric = {
-  pdf: (k, p) => (k < 1 || !Number.isInteger(k) || p < 0 || p > 1) ? 0 : (1 - p) ** (k - 1) * p,
-  cdf: (k, p) => (k < 1 || !Number.isInteger(k) || p < 0 || p > 1) ? 0 : 1 - (1 - p) ** k,
-  mean: (p) => 1 / p,
-  variance: (p) => (1 - p) / (p * p),
-  sample: (p) => {
-    let count = 1;
-    while (Math.random() >= p) {
-      count++;
-    }
-    return count;
-  }
-};
-
-jStat.binomialDiscrete = {
-  pdf: (k, n, p) => (k < 0 || !Number.isInteger(k) || k > n || p < 0 || p > 1) ? 0 : jStat.binomial.pdf(k, n, p),
-  cdf: (k, n, p) => jStat.binomial.cdf(k, n, p),
-  mean: (n, p) => n * p,
-  variance: (n, p) => n * p * (1 - p),
-  sample: (n, p) => {
-    let sum = 0;
-    for (let i = 0; i < n; i++) {
-      sum += +(Math.random() < p);
-    }
-    return sum;
-  }
-};
-
-
-jStat.negbin = {
-  pdf: (k, r, p) => (k < 0 || !Number.isInteger(k) || r <= 0 || p < 0 || p > 1) ? 0 :
-    jStat.combination(k + r - 1, k) * (p ** r) * ((1 - p) ** k),
-  cdf: (k, r, p) => jStat.ibetainc(p, r, k + 1),
-  mean: (r, p) => (1 - p) * r / p,
-  variance: (r, p) => (1 - p) * r / (p * p),
-  sample: (r, p) => {
-    let failures = 0, successes = 0;
-    while (successes < r) {
-      if (Math.random() < p) successes++;
-      else failures++;
-    }
-    return failures;
-  }
-};
-
-
-jStat.poisson = {
-  pdf: (k, lambda) => (k < 0 || !Number.isInteger(k) || lambda < 0) ? 0 :
-    (Math.pow(lambda, k) * Math.exp(-lambda)) / jStat.factorial(k),
-  cdf: (k, lambda) => jStat.gammap(k + 1, lambda),
-  mean: (lambda) => lambda,
-  variance: (lambda) => lambda,
-  sample: (lambda) => {
-    let L = Math.exp(-lambda);
-    let k = 0, p = 1;
-    do {
-      k++;
-      p *= Math.random();
-    } while (p > L);
-    return k - 1;
-  }
-};
-
 
 function reset_slider() {
   $("#percentDist").val(0);
@@ -638,7 +518,9 @@ function clt() {
   const y0 = height / 4, y1 = (height / 4) + y0, y2 = (height / 2) + y0;
   const y = d3.scaleLinear().domain([0, 1]).range([0, height - y2]);
 
-  const histogram = d3.bin().domain(x.domain()).thresholds(x.ticks(20));
+function getHistogram() {
+  return d3.bin().domain(x.domain()).thresholds(x.ticks(20));
+}
 
   svg.append("path").attr("class", "line");
   svg.append("g").attr("class", "bars");
@@ -664,6 +546,7 @@ function clt() {
   function renderBars() {
     if (counts.length < 1) return;
 
+    const histogram = getHistogram(); // new bins every time
     const data = histogram(counts).map(d => {
       d.y = d.length / counts.length;
       return d;
@@ -688,10 +571,17 @@ function clt() {
       .attr("width", d => (x(d.x1) - x(d.x0)));
 
     g.append("text")
-      .attr("x", d => (x(d.x1) - x(d.x0)))
+      .attr("x", d => (x(d.x1) - x(d.x0)) / 2) // center within bar
       .attr("dy", 10)
       .attr("dominant-baseline", "hanging")
-      .attr("text-anchor", "middle");
+      .attr("text-anchor", "middle")
+      .style("font-size", d => {
+        const barWidth = x(d.x1) - x(d.x0);
+        // adjust base font size relative to bar width, clamp to a minimum/maximum
+        const size = Math.min(14, Math.max(8, barWidth / 5));
+        return `${size}px`;
+      });
+
 
     bar = g.merge(bar);
 
@@ -702,7 +592,14 @@ function clt() {
       .attr("height", d => y(d.y / (1 / 20)));
 
     bar.select("text")
-      .text(d => d.y > 0 ? d3.format(".0%")((d.y)) : "");
+      .text(d => {
+        const label = d3.format(".0%")(d.y);
+        const barWidth = x(d.x1) - x(d.x0);
+        const estimatedCharWidth = 7; // average px width per character
+        const maxChars = Math.floor(barWidth / estimatedCharWidth);
+        return label.length <= maxChars ? label : ""; // hide if it won't fit
+      });
+
 
     svg.select(".line")
       .datum(d3.range(x.domain()[0], x.domain()[1], 0.05).map(x => [x, N(x)]))
@@ -757,14 +654,16 @@ function clt() {
 }
 
   function reset_clt() {
+    svg.select(".bars").selectAll(".bar").remove();
     clearInterval(interval_clt);
     counts = [];
     svg.selectAll("circle").remove();
     svg.selectAll(".bar").remove();
     svg.select(".line").attr("d", null);
     y.domain([0, N(f.mu())]);
-    renderBars();
+    renderBars(); // will use fresh histogram via getHistogram()
   }
+
 
   function drawPopulation() {
     svg.selectAll(".population-line, .population-area").remove();
