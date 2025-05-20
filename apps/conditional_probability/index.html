@@ -353,7 +353,7 @@
               <div class="button-1 perspective" id="a">A</div>
               <div class="button-1 perspective" id="b">B</div>
               <div class="button-1 perspective" id="c">C</div>
-              <div class="button-1 perspective active" id="universe">Universe</div>
+              <div class="button-1 perspective" id="universe">Universe</div>
         </div>
       </div>
       <div class="Row">
@@ -588,7 +588,8 @@ function conditional() {
       d3.select(this.parentNode).raise();
     })
     .on("drag", function (event, d) {
-      const mouseX = xScale.invert(event.x);
+      const [x] = d3.pointer(event, this);
+      const mouseX = xScale.invert(x);
       const newX = Math.max(0, Math.min(mouseX, 1 - d.width));
       d.x = newX;
       const i = eventsData.findIndex(e => e.name === d.name);
@@ -596,8 +597,9 @@ function conditional() {
       updateRects(0);
     })
     .on("end", function () {
-      updateRects(0); // Ensure final placement is exact
+      updateRects(0);
     });
+
 
 
   let dragLeft = d3.drag()
@@ -605,7 +607,8 @@ function conditional() {
       d3.select(this).raise();
     })
     .on("drag", function (event, d) {
-      const mouseX = xScale.invert(event.x);
+      const [x] = d3.pointer(event, this);
+      const mouseX = xScale.invert(x);
       const newX = Math.max(0, Math.min(mouseX, d.x + d.width));
       const newWidth = d.x + d.width - newX;
       d.x = newX;
@@ -622,12 +625,14 @@ function conditional() {
     });
 
 
+
   let dragRight = d3.drag()
     .on("start", function (event, d) {
       d3.select(this).raise();
     })
     .on("drag", function (event, d) {
-      const mouseX = xScale.invert(event.x);
+      const [x] = d3.pointer(event, this);
+      const mouseX = xScale.invert(x);
       const newWidth = Math.max(0.01, Math.min(mouseX - d.x, 1 - d.x));
       d.width = newWidth;
       const i = eventsData.findIndex(e => e.name === d.name);
@@ -637,6 +642,7 @@ function conditional() {
     .on("end", function () {
       updateRects(0);
     });
+
 
 
 
