@@ -381,6 +381,169 @@ window.onload = function () {
     });
   });
 };
+function buildTree(perspective, p) {
+  const { pA, pB, pC, pAGivenB, pBGivenA, pAGivenC, pCGivenA, pBGivenC, pCGivenB } = p;
+
+  if (perspective === "a") {
+    return {
+      name: "P", probability: 1,
+      children: [
+        {
+          name: "A|A", probability: 1,
+          children: [
+            {
+              name: "B|A", probability: pBGivenA,
+              children: [
+                { name: "C|A", probability: pCGivenA },
+                { name: "¬C|A", probability: 1 - pCGivenA }
+              ]
+            },
+            {
+              name: "¬B|A", probability: 1 - pBGivenA,
+              children: [
+                { name: "C|A", probability: pCGivenA },
+                { name: "¬C|A", probability: 1 - pCGivenA }
+              ]
+            }
+          ]
+        }
+      ]
+    };
+  } else if (perspective === "b") {
+    return {
+      name: "P", probability: 1,
+      children: [
+        {
+          name: "A|B", probability: pAGivenB,
+          children: [
+            {
+              name: "B|B", probability: 1,
+              children: [
+                { name: "C|B", probability: pCGivenB },
+                { name: "¬C|B", probability: 1 - pCGivenB }
+              ]
+            },
+            {
+              name: "¬B|B", probability: 0,
+              children: [
+                { name: "C|B", probability: pCGivenB },
+                { name: "¬C|B", probability: 1 - pCGivenB }
+              ]
+            }
+          ]
+        },
+        {
+          name: "¬A|B", probability: 1 - pAGivenB,
+          children: [
+            {
+              name: "B|B", probability: 1,
+              children: [
+                { name: "C|B", probability: pCGivenB },
+                { name: "¬C|B", probability: 1 - pCGivenB }
+              ]
+            },
+            {
+              name: "¬B|B", probability: 0,
+              children: [
+                { name: "C|B", probability: pCGivenB },
+                { name: "¬C|B", probability: 1 - pCGivenB }
+              ]
+            }
+          ]
+        }
+      ]
+    };
+  } else if (perspective === "c") {
+    return {
+      name: "P", probability: 1,
+      children: [
+        {
+          name: "A|C", probability: pAGivenC,
+          children: [
+            {
+              name: "B|C", probability: pBGivenC,
+              children: [
+                { name: "C|C", probability: 1 },
+                { name: "¬C|C", probability: 0 }
+              ]
+            },
+            {
+              name: "¬B|C", probability: 1 - pBGivenC,
+              children: [
+                { name: "C|C", probability: 1 },
+                { name: "¬C|C", probability: 0 }
+              ]
+            }
+          ]
+        },
+        {
+          name: "¬A|C", probability: 1 - pAGivenC,
+          children: [
+            {
+              name: "B|C", probability: pBGivenC,
+              children: [
+                { name: "C|C", probability: 1 },
+                { name: "¬C|C", probability: 0 }
+              ]
+            },
+            {
+              name: "¬B|C", probability: 1 - pBGivenC,
+              children: [
+                { name: "C|C", probability: 1 },
+                { name: "¬C|C", probability: 0 }
+              ]
+            }
+          ]
+        }
+      ]
+    };
+  }
+
+  // Default: Universe
+  return {
+    name: "P", probability: 1,
+    children: [
+      {
+        name: "A", probability: pA,
+        children: [
+          {
+            name: "B", probability: pB,
+            children: [
+              { name: "C", probability: pC },
+              { name: "¬C", probability: 1 - pC }
+            ]
+          },
+          {
+            name: "¬B", probability: 1 - pB,
+            children: [
+              { name: "C", probability: pC },
+              { name: "¬C", probability: 1 - pC }
+            ]
+          }
+        ]
+      },
+      {
+        name: "¬A", probability: 1 - pA,
+        children: [
+          {
+            name: "B", probability: pB,
+            children: [
+              { name: "C", probability: pC },
+              { name: "¬C", probability: 1 - pC }
+            ]
+          },
+          {
+            name: "¬B", probability: 1 - pB,
+            children: [
+              { name: "C", probability: pC },
+              { name: "¬C", probability: 1 - pC }
+            ]
+          }
+        ]
+      }
+    ]
+  };
+}
 
 //*******************************************************************************//
 //Conditional Probability
@@ -388,7 +551,7 @@ window.onload = function () {
 function conditional() {
 
   // Constants
-  let fullWidth = document.getElementById("svgBall").clientWidth;
+  let fullWidth = 0; // Global scope
   let currentPerspective = "universe";
   let radius = 5;
   let eventsData = [
@@ -431,7 +594,11 @@ function conditional() {
       const i = eventsData.findIndex(e => e.name === d.name);
       if (i >= 0) eventsData[i].x = newX;
       updateRects(0);
+    })
+    .on("end", function () {
+      updateRects(0); // Ensure final placement is exact
     });
+
 
   let dragLeft = d3.drag()
     .on("start", function (event, d) {
@@ -449,7 +616,11 @@ function conditional() {
         eventsData[i].width = newWidth;
       }
       updateRects(0);
+    })
+    .on("end", function () {
+      updateRects(0);
     });
+
 
   let dragRight = d3.drag()
     .on("start", function (event, d) {
@@ -462,7 +633,11 @@ function conditional() {
       const i = eventsData.findIndex(e => e.name === d.name);
       if (i >= 0) eventsData[i].width = newWidth;
       updateRects(0);
+    })
+    .on("end", function () {
+      updateRects(0);
     });
+
 
 
 
@@ -518,6 +693,7 @@ function conditional() {
 
   //Updates positions of rectangles and lines
   function updateRects(dur) {
+    const conditionedTotal = xWidth.domain()[1] || 1; // Safe denominator
 
     rects
       .transition()
@@ -559,9 +735,9 @@ function conditional() {
       .merge(probRects)
       .transition().duration(dur)
       .attr("x", (d, i) => xScaleProb(i))
-      .attr("y", (d, i) => yScaleProb(calcOverlap(i, currentPerspective) / xWidth.domain()[1]))
+      .attr("y", (d, i) => yScaleProb(calcOverlap(i, currentPerspective) / conditionedTotal))
       .attr("width", xScaleProb.bandwidth())
-      .attr("height", (d, i) => 180 - yScaleProb(calcOverlap(i, currentPerspective) / xWidth.domain()[1]))
+      .attr("height", (d, i) => 180 - yScaleProb(calcOverlap(i, currentPerspective) / conditionedTotal))
       .attr("class", (d) => `${d.name} probability`);
 
     // Bind data to probability labels
@@ -572,10 +748,10 @@ function conditional() {
       .merge(probTexts)
       .transition().duration(dur)
       .attr("x", (d, i) => xScaleProb(i) + xScaleProb.bandwidth() / 2)
-      .attr("y", (d, i) => yScaleProb(calcOverlap(i, currentPerspective) / xWidth.domain()[1]) - 5)
+      .attr("y", (d, i) => yScaleProb(calcOverlap(i, currentPerspective) / conditionedTotal) - 5)
       .attr("text-anchor", "middle")
       .attr("class", (d) => `${d.name} probability-label`)
-      .text((d, i) => (calcOverlap(i, currentPerspective) / xWidth.domain()[1]).toFixed(3));
+      .text((d, i) => (calcOverlap(i, currentPerspective) / conditionedTotal).toFixed(3))
 
     probRects.exit().remove();
     probTexts.exit().remove();
@@ -765,269 +941,12 @@ function conditional() {
     $("#pOfCGivenA_Percentage").text((pCGivenA * 100).toFixed(1));
 
     // Modify the `createProbabilityTree()` function
+    let treeData = buildTree(currentPerspective, {
+      pA, pB, pC,
+      pAAndB, pBAndC, pAAndC,
+      pAGivenB, pBGivenA, pAGivenC, pCGivenA, pBGivenC, pCGivenB
+    });
 
-    let treeData = {
-      name: "P",
-      probability: 1,
-      children: [
-        {
-          name: "A",
-          probability: pA,
-          children: [
-            {
-              name: "B",
-              probability: pB,
-              children: [
-                { name: "C", probability: pC },
-                { name: "¬C", probability: 1 - pC }
-              ]
-            },
-            {
-              name: "¬B",
-              probability: 1 - pB,
-              children: [
-                { name: "C", probability: pC },
-                { name: "¬C", probability: 1 - pC }
-              ]
-            }
-          ]
-        },
-        {
-          name: "¬A",
-          probability: 1 - pA,
-          children: [
-            {
-              name: "B",
-              probability: pB,
-              children: [
-                { name: "C", probability: pC },
-                { name: "¬C", probability: 1 - pC }
-              ]
-            },
-            {
-              name: "¬B",
-              probability: 1 - pB,
-              children: [
-                { name: "C", probability: pC },
-                { name: "¬C", probability: 1 - pC }
-              ]
-            }
-          ]
-        }
-      ]
-    };
-
-
-    if (currentPerspective == 'universe') {
-      treeData = {
-        name: "P",
-        probability: 1,
-        children: [
-          {
-            name: "A",
-            probability: pA,
-            children: [
-              {
-                name: "B",
-                probability: pB,
-                children: [
-                  { name: "C", probability: pC },
-                  { name: "¬C", probability: 1 - pC }
-                ]
-              },
-              {
-                name: "¬B",
-                probability: 1 - pB,
-                children: [
-                  { name: "C", probability: pC },
-                  { name: "¬C", probability: 1 - pC }
-                ]
-              }
-            ]
-          },
-          {
-            name: "¬A",
-            probability: 1 - pA,
-            children: [
-              {
-                name: "B",
-                probability: pB,
-                children: [
-                  { name: "C", probability: pC },
-                  { name: "¬C", probability: 1 - pC }
-                ]
-              },
-              {
-                name: "¬B",
-                probability: 1 - pB,
-                children: [
-                  { name: "C", probability: pC },
-                  { name: "¬C", probability: 1 - pC }
-                ]
-              }
-            ]
-          }
-        ]
-      };
-    } else if (currentPerspective == 'a') {
-      treeData = {
-        name: "P",
-        probability: 1,
-        children: [
-          {
-            name: "A|A",
-            probability: 1,
-            children: [
-              {
-                name: "B|A",
-                probability: pBGivenA,
-                children: [
-                  { name: "C|A", probability: pCGivenA },
-                  { name: "¬C|A", probability: 1 - pCGivenA }
-                ]
-              },
-              {
-                name: "¬B|A",
-                probability: 1 - pBGivenA,
-                children: [
-                  { name: "C|A", probability: pCGivenA },
-                  { name: "¬C|A", probability: 1 - pCGivenA }
-                ]
-              }
-            ]
-          },
-          {
-            name: "¬A|A",
-            probability: 0,
-            children: [
-              {
-                name: "B|A",
-                probability: pBGivenA,
-                children: [
-                  { name: "C|A", probability: pCGivenA },
-                  { name: "¬C|A", probability: 1 - pCGivenA }
-                ]
-              },
-              {
-                name: "¬B|A",
-                probability: 1 - pBGivenA,
-                children: [
-                  { name: "C|A", probability: pCGivenA },
-                  { name: "¬C|A", probability: 1 - pCGivenA }
-                ]
-              }
-            ]
-          }
-        ]
-      };
-    } else if (currentPerspective == 'b') {
-      treeData = {
-        name: "P",
-        probability: 1,
-        children: [
-          {
-            name: "A|B",
-            probability: pAGivenB,
-            children: [
-              {
-                name: "B|B",
-                probability: 1,
-                children: [
-                  { name: "C|B", probability: pCGivenB },
-                  { name: "¬C|B", probability: 1 - pCGivenB }
-                ]
-              },
-              {
-                name: "¬B|B",
-                probability: 0,
-                children: [
-                  { name: "C|B", probability: pCGivenB },
-                  { name: "¬C|B", probability: 1 - pCGivenB }
-                ]
-              }
-            ]
-          },
-          {
-            name: "¬A|B",
-            probability: 1 - pAGivenB,
-            children: [
-              {
-                name: "B|B",
-                probability: 1,
-                children: [
-                  { name: "C|B", probability: pCGivenB },
-                  { name: "¬C|B", probability: 1 - pCGivenB }
-                ]
-              },
-              {
-                name: "¬B|B",
-                probability: 0,
-                children: [
-                  { name: "C|B", probability: pCGivenB },
-                  { name: "¬C|B", probability: 1 - pCGivenB }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    } else if (currentPerspective == 'c') {
-      treeData = {
-        name: "P",
-        probability: 1,
-        children: [
-          {
-            name: "A|C",
-            probability: pAGivenC,
-            children: [
-              {
-                name: "B|C",
-                probability: pBGivenC,
-                children: [
-                  { name: "C|C", probability: 1 },
-                  { name: "¬C|C", probability: 0 }
-                ]
-              },
-              {
-                name: "¬B|C",
-                probability: 1 - pBGivenC,
-                children: [
-                  { name: "C|C", probability: 1 },
-                  { name: "¬C|C", probability: 0 }
-                ]
-              }
-            ]
-          },
-          {
-            name: "¬A|C",
-            probability: 1 - pAGivenC,
-            children: [
-              {
-                name: "B|C",
-                probability: pBGivenC,
-                children: [
-                  { name: "C|C", probability: 1 },
-                  { name: "¬C|C", probability: 0 }
-                ]
-              },
-              {
-                name: "¬B|C",
-                probability: 1 - pBGivenC,
-                children: [
-                  { name: "C|C", probability: 1 },
-                  { name: "¬C|C", probability: 0 }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    }
-
-    if (!treeData || typeof treeData !== "object" || !treeData.children) {
-      console.error("treeData is not properly initialized or missing children");
-      return;
-    }
 
     let width = fullWidth * 0.45;
     let height = 200;
@@ -1102,6 +1021,8 @@ function conditional() {
 
   //Draws SVG and elements according to width
   function draw() {
+    fullWidth = document.getElementById("svgBall").clientWidth;
+
     const padding = 25;
     const w = fullWidth * 0.9;
     const h = 400;
@@ -1139,7 +1060,11 @@ function conditional() {
   calcIndependence();
   updateProbabilities();
   draw();
-  window.addEventListener("resize", draw);
+  let resizeTimeout;
+  window.addEventListener("resize", () => {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(draw, 200);
+  });
 }
 </script>
 <br><footer>Thomas Abraham © 2025</footer></body>
