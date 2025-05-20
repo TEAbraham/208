@@ -357,14 +357,14 @@ circle {
       <option value="geometric">Geometric</option>
       <option value="poisson">Poisson</option>
       <option value="negbin">Negative Binomial</option>
-      <option value="uniform">Uniform</option>
+      <option value="uniform" selected>Uniform</option>
       <option value="normal">Normal</option>
       <option value="studentt">Student T</option>
       <option value="chisquare">Chi Squared</option>
       <option value="exponential">Exponential</option>
       <option value="centralF">F</option>
       <option value="gamma">Gamma</option>
-      <option value="beta" selected>Beta</option>
+      <option value="beta">Beta</option>
     </select>
     </div>
     <br>
@@ -495,7 +495,7 @@ function clt() {
 
   let delay = 350;
   let n = 1;
-  let currDist = 'beta';
+  let currDist = 'uniform';
   let currParams = initialParams[currDist];
 
   const f = {
@@ -573,7 +573,7 @@ function getHistogram() {
 
     g.append("text")
       .attr("x", d => (x(d.x1) - x(d.x0)) / 2) // center within bar
-      .attr("dy", 10)
+      .attr("dy", 15)
       .attr("dominant-baseline", "hanging")
       .attr("text-anchor", "middle")
       .style("font-size", d => {
@@ -607,7 +607,7 @@ function getHistogram() {
       .transition(t)
       .attr("d", area)
       .attr("fill", "lightblue")
-      .attr("opacity", 0.5);
+      .attr("opacity", 0.75);
   }
 
   function renderBalls() {
@@ -772,5 +772,6 @@ function getHistogram() {
 }
 
 </script>
+<footer>© 2025 Thomas Abraham</footer>
 </body>
 </html>
