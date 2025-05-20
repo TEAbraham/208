@@ -80,9 +80,11 @@ svg {
 .visualization-wrapper {
   width: 100%;
   height: 100%;
-  flex: 1;
+  max-width: 100%;
+  overflow-x: hidden;
   position: relative;
 }
+
 
 .left {
   flex: 0 0 35%;
@@ -198,10 +200,7 @@ label {
   padding-right: 10px;
   font-weight: normal;
 }
-.slider.slider-horizontal {
-  width: 140px;
-  margin-right: 10px;
-}
+
 
 #cltGraph{
 	height: 500px;
@@ -590,17 +589,19 @@ function create_slider(callback, svgDist, svgWidth, svgHeight, wpad) {
     .attr("class", "giant-slider")
     .attr("transform", `translate(${wpad}, ${svgHeight + 30})`);
 
+  // Dynamically measure available width
+  const containerWidth = svgWidth - wpad * 2;
+
   // Background track
   slider.append("line")
     .attr("x1", 0)
-    .attr("x2", svgWidth)
+    .attr("x2", containerWidth)
     .attr("y1", 0)
     .attr("y2", 0)
     .attr("stroke", "#ccc")
     .attr("stroke-width", 10)
-    .attr("stroke-linecap", "round"); // 👈 Rounded ends
+    .attr("stroke-linecap", "round");
 
-  // Filled track up to handle
   const filled = slider.append("line")
     .attr("class", "filled-track")
     .attr("x1", 0)
@@ -609,7 +610,7 @@ function create_slider(callback, svgDist, svgWidth, svgHeight, wpad) {
     .attr("y2", 0)
     .attr("stroke", "darkgreen")
     .attr("stroke-width", 10)
-    .attr("stroke-linecap", "round"); // 👈 Rounded ends
+    .attr("stroke-linecap", "round");
 
   const handle = slider.append("circle")
     .attr("class", "handle")
@@ -618,19 +619,20 @@ function create_slider(callback, svgDist, svgWidth, svgHeight, wpad) {
     .attr("cy", 0)
     .call(d3.drag()
       .on("drag", function (event) {
-        let x = Math.max(0, Math.min(svgWidth, event.x));
+        let x = Math.max(0, Math.min(containerWidth, event.x));
         d3.select(this).attr("cx", x);
-        filled.attr("x2", x); // 👈 Update filled track
-        const percent = x / svgWidth;
+        filled.attr("x2", x);
+        const percent = x / containerWidth;
         callback(percent);
       })
     );
 
   return function reset() {
     handle.attr("cx", 0);
-    filled.attr("x2", 0); // 👈 Reset filled track
+    filled.attr("x2", 0);
   };
 }
+
 
 
 
@@ -902,8 +904,12 @@ $(function () {
     $('.distributions:visible').trigger('change');
   }, 10);
 });
+
+window.addEventListener("resize", () => {
+  $('.distributions:visible').trigger('change');
+});
+
 </script>
 
-<footer>© 2025 Thomas Abraham</footer>
-</body>
+<br><footer>Thomas Abraham © 2025</footer></body>
 </html>
