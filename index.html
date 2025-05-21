@@ -9,7 +9,6 @@
     <link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
     <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css" />
     <link rel="stylesheet" type="text/css" href="css/home.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
     <!--Fonts-->
     <link href="//fonts.googleapis.com/css?family=Lato:100,200,300,400" rel="stylesheet" type="text/css">
     <!--Font Awesome-->
@@ -30,20 +29,114 @@
     <!-- Module scripts -->
     <script type="module" src="js/home.js"></script>
     <script type="module" src="js/script.js"></script>
+    <style>
+    body {
+    width: auto;
+    margin-top: 10px;
+    margin: auto;
+    font-family: "Lato", sans-serif;
+    color: #222222;
+    padding: 10px;
+    font-weight: 300;
+    overflow-y: auto;
+    }
+
+    #bg-animation {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1; /* Behind everything */
+    }
+
+    .login-container {
+        position: relative;
+        z-index: 1; /* Above background */
+    }
+
+    .login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: space-between;
+        width: 250px; /* Matches your input width */
+        margin-top: 10px;
+    }
+
+    .button-container button {
+        width: 48%; /* Slightly less than half to have a small gap */
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        color: #fff;
+        background-color: #007bff;
+    }
+
+    .button-container button:hover {
+        background-color: #0056b3;
+    }
+    .tab-container {
+        display: flex;
+        justify-content: left;
+        margin-bottom: 1em;
+    }
+    .tab {
+        padding: 10px 20px;
+        cursor: pointer;
+        border: none;
+        background-color: #ddd;
+        margin: 0 5px;
+        font-weight: bold;
+    }
+    .tab.active {
+        background-color: #fff;
+        border-bottom: 2px solid green;
+    }
+    .tab-content {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+    .tab-content.active {
+        display: flex;
+    }
+    .tab-content input {
+        margin: 5px 0;
+    }
+    </style>
+
 </head>
 <body>
     <svg id="bg-animation" width="100%" height="100%" style="position: fixed; top: -150; left: 300; z-index: 1;"></svg>
 
-    <div class="login-container">
-        <h1>AP Statistics</h1>
-        <p>Trinity High School</p>
-        <input type="email" id="email" placeholder="Email">
-        <input type="password" id="password" placeholder="Password">
+<div class="login-container">
+  <h1>AP Statistics</h1>
+  <p>Trinity High School</p>
 
-        <div class="button-container">
-            <button onclick="signUp()" id="signup">Sign Up</button>
-            <button onclick="login()" id="login">Login</button>
-        </div>
-    </div>
+  <div class="tab-container">
+    <button class="tab active" onclick="showTab('login')">Login</button>
+    <button class="tab" onclick="showTab('signup')">Sign Up</button>
+  </div>
+
+  <div id="login-tab" class="tab-content active button-container">
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Log In</button>
+  </div>
+
+  <div id="signup-tab" class="tab-content button-container">
+    <input type="email" id="email-signup" placeholder="Email">
+    <input type="password" id="password-signup" placeholder="Password">
+    <input type="password" id="confirm-password" placeholder="Confirm Password">
+    <button onclick="signUp()">Sign Up</button>
+  </div>
+</div>
 <br><footer>Thomas Abraham © 2025</footer></body>
 </html>

@@ -112,13 +112,34 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
-window.signUp = () => {
-  const email = document.getElementById('email').value;
-  const password = document.getElementById('password').value;
-  createUserWithEmailAndPassword(auth, email, password).then(() => {
-    alert('Signup successful');
-  }).catch(err => alert(err.message));
+window.showTab = (tab) => {
+  document.querySelectorAll('.tab').forEach(btn => btn.classList.remove('active'));
+  document.querySelectorAll('.tab-content').forEach(div => div.classList.remove('active'));
+
+  document.querySelector(`.tab[onclick="showTab('${tab}')"]`).classList.add('active');
+  document.getElementById(`${tab}-tab`).classList.add('active');
 };
+
+window.signUp = () => {
+  const email = document.getElementById('email-signup').value;
+  const password = document.getElementById('password-signup').value;
+  const confirmPassword = document.getElementById('confirm-password').value;
+
+  if (!email || !password || !confirmPassword) {
+    alert("Please fill out all fields.");
+    return;
+  }
+
+  if (password !== confirmPassword) {
+    alert("Passwords do not match.");
+    return;
+  }
+
+  createUserWithEmailAndPassword(auth, email, password)
+    .then(() => alert('Signup successful'))
+    .catch(err => alert(err.message));
+};
+
 
 window.login = () => {
   const emailInput = document.getElementById("email");
