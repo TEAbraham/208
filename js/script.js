@@ -12,6 +12,8 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
 const provider = new GoogleAuthProvider
+const allowedDomains = ["thsrocks.us", "bishopmcdevitt.org", "hbgdiocese.org"];
+
 
 provider.addScope('https://www.googleapis.com/auth/classroom.courses.readonly');
 provider.addScope('https://www.googleapis.com/auth/classroom.coursework.me.readonly');
@@ -112,6 +114,12 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
+function isAllowedDomain(email) {
+  const domain = email.split("@")[1]?.toLowerCase();
+  return allowedDomains.includes(domain);
+}
+
+
 window.showTab = (tab) => {
   document.querySelectorAll('.tab').forEach(btn => btn.classList.remove('active'));
   document.querySelectorAll('.tab-content').forEach(div => div.classList.remove('active'));
@@ -130,6 +138,11 @@ window.signUp = () => {
     return;
   }
 
+  if (!isAllowedDomain(email)) {
+    alert("Only emails from allowed domains can sign up.");
+    return;
+  }
+
   if (password !== confirmPassword) {
     alert("Passwords do not match.");
     return;
@@ -139,6 +152,7 @@ window.signUp = () => {
     .then(() => alert('Signup successful'))
     .catch(err => alert(err.message));
 };
+
 
 
 window.login = () => {
@@ -155,6 +169,11 @@ window.login = () => {
 
   if (!email || !password) {
     alert("Please enter both email and password.");
+    return;
+  }
+
+  if (!isAllowedDomain(email)) {
+    alert("Only emails from thsrocks.us, bishopmcdevitt.org, or hbgdiocese.org  can log in.");
     return;
   }
 
@@ -190,6 +209,7 @@ window.login = () => {
       }
     });
 };
+
 
 
 window.logout = (redirectTo = "index.html") => {
