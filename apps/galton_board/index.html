@@ -225,8 +225,19 @@ svg {
       <input type="range" id="bias-slider" min="0" max="100" value="50">
       <label>Speed: <span id="speed-val" style="display: none;">500</span></label>
       <input type="range" id="speed-slider" min="10" max="1000" value="500" >
+      <label>
+        <input type="checkbox" id="pascal-toggle">
+        Pascal
+      </label>
+      <label>
+        <input type="checkbox" id="path-toggle">
+        Paths
+      </label>
+
       <button class="button-1 perspective" id="reset-btn">Reset</button>
       <button class="button-1 perspective" id="pause-btn">Pause</button>
+      <button class="button-1 perspective" id="clear-paths-btn">Clear</button>
+
       <div>
         <br>
       The Galton Board displays centuries old mathematical concepts in an innovative, dynamic desktop device.  It incorporates Sir Francis Galton's (1822-1911) invention from 1873 that illustrated the binomial distribution, which for a large number of rows of hexagons and a large number of beads approximates the normal distribution, a concept known as the Central Limit Theorem.  He was fascinated with the order of the bell curve that emerges from the apparent chaos of beads bouncing off of pegs in his board.  According to the Central Limit Theorem, more specifically, the de Moivre (1667-1754)-Laplace(1749-1827) theorem, the normal distribution may be used as an approximation to the binomial distribution under certain conditions.
@@ -253,6 +264,14 @@ svg {
   });
 };
 
+function binomialCoefficient(n, k) {
+  if (k === 0 || k === n) return 1;
+  let result = 1;
+  for (let i = 1; i <= k; i++) {
+    result *= (n - i + 1) / i;
+  }
+  return Math.round(result);
+}
 
 function galton() {
 
@@ -268,10 +287,12 @@ function galton() {
   }
 
   // Galton Board Logic
+  let galtonConfig = { size: 9, bias: 0.5, speed: 500, histogram: Array(10).fill(0) };
   const galtonMargin = { top: 20, right: 30, bottom: 100, left: 30 };
   const galtonWidth = fullWidth;
-  let galtonHeight = 600;
   const spacing = 40;
+  let galtonHeight = galtonConfig.size * spacing + 200;
+
 
   let galtonSvg = d3.select("#galton-chart")
     .append("svg")
@@ -282,111 +303,140 @@ function galton() {
   const galtonGroup = galtonSvg.append("g")
     .attr("transform", `translate(${galtonMargin.left},${galtonMargin.top})`);
 
-  let galtonConfig = { size: 9, bias: 0.5, speed: 500, histogram: Array(10).fill(0) };
 
-  const pegLayer = galtonGroup.append("g");
-  const ballLayer = galtonGroup.append("g");
-  const histLayer = galtonGroup.append("g");
+  const pegLayer = galtonGroup.append("g");       // Bottom
+  const labelLayer = galtonGroup.append("g");     // Middle (for Pascal values)
+  const ballLayer = galtonGroup.append("g");      // Top
+  const histLayer = galtonGroup.append("g");      // Overlayed below pegs
 
   let dropping = true;
 
   function drawGaltonBoard() {
-    pegLayer.selectAll("circle").remove();
+    pegLayer.selectAll("*").remove();
+    labelLayer.selectAll("*").remove(); // Clear old labels too
+
     const size = galtonConfig.size;
+    const showPascal = document.getElementById("pascal-toggle").checked;
+    const r = 10;
+    const angleOffset = Math.PI / 6;
+
     for (let row = 0; row < size; row++) {
       for (let col = 0; col <= row; col++) {
         const cx = galtonWidth / 2 - (row * spacing / 2) + col * spacing;
-    const r = 10; // Radius of hex peg
-    const angleOffset = Math.PI / 6; // 30° rotation
+        const cy = row * spacing;
 
-    const points = Array.from({ length: 6 }, (_, i) => {
-      const angle = angleOffset + (Math.PI / 3) * i;
-      const px = cx + r * Math.cos(angle);
-      const py = row * spacing + r * Math.sin(angle);
-      return [px, py];
-    });
+        const points = Array.from({ length: 6 }, (_, i) => {
+          const angle = angleOffset + (Math.PI / 3) * i;
+          const px = cx + r * Math.cos(angle);
+          const py = cy + r * Math.sin(angle);
+          return [px, py];
+        });
 
-    const hex = pegLayer.append("polygon")
-      .attr("points", points.map(p => p.join(",")).join(" "))
-      .attr("fill", "#666")
-      .attr("stroke", "#444")
-      .attr("stroke-width", 1)
-      .attr("transform", `translate(0, -20)`)
-      .attr("opacity", 0);
+        const hex = pegLayer.append("polygon")
+          .attr("points", points.map(p => p.join(",")).join(" "))
+          .attr("fill", "#666")
+          .attr("stroke", "#444")
+          .attr("stroke-width", 1)
+          .attr("transform", `translate(0, -20)`)
+          .attr("opacity", 0)
 
-    // Animate drop-in
-    hex.transition()
-      .delay((row + col) * 20)
-      .duration(400)
-      .attr("transform", `translate(0, 0)`)
-      .attr("opacity", 1);
+        hex.transition()
+          .delay((row + col) * 20)
+          .duration(400)
+          .attr("transform", `translate(0, 0)`)
+          .attr("opacity", 1);
 
-    // Hover effect (outside transition chain)
-    hex.on("mouseover", function () {
-        d3.select(this)
-          .transition()
-          .duration(200)
-          .attr("fill", "#999");
-      })
-      .on("mouseout", function () {
-        d3.select(this)
-          .transition()
-          .duration(200)
-          .attr("fill", "#666");
-      });
+        // Hover effect
+        hex.on("mouseover", function () {
+            d3.select(this).transition().duration(200).attr("fill", "#999");
+          })
+          .on("mouseout", function () {
+            d3.select(this).transition().duration(200).attr("fill", "#666");
+          });
 
-
-
-
+        // Add Pascal value if enabled
+        if (showPascal) {
+          const value = binomialCoefficient(row, col);
+          labelLayer.append("text")
+            .text(value)
+            .attr("x", cx)
+            .attr("y", cy + 4) // vertically center the text
+            .attr("text-anchor", "middle")
+            .attr("font-size", "10px")
+            .attr("fill", "white")
+            .attr("pointer-events", "none");
+        }
       }
     }
   }
 
-  function dropBallAnimated() {
-    if (!dropping) return;
+function dropBallAnimated() {
+  if (!dropping) return;
 
-    let x = galtonWidth / 2;
-    let y = -10;
-    let position = 0;
-    let delay = 0;
+  const showPaths = document.getElementById("path-toggle").checked;
 
+  let x = galtonWidth / 2;
+  let y = -10;
+  let position = 0;
+  let delay = 0;
+
+  const points = [[x, y]];
+
+  for (let i = 0; i < galtonConfig.size; i++) {
+    const right = Math.random() < galtonConfig.bias;
+    if (right) position++;
+    const deflection = (Math.random() - 0.5) * 2;
+    const xNext = x + (right ? spacing / 2 : -spacing / 2) + deflection;
+    const yBounce = y - 10;
+    const yNext = y + spacing;
+
+    // store both bounce and settle points
+    points.push([xNext, yBounce]);
+    points.push([xNext, yNext]);
+
+    x = xNext;
+    y = yNext;
+    delay += galtonConfig.speed;
+  }
+
+  galtonConfig.histogram[position]++;
+  updateGaltonHistogram();
+
+  if (showPaths) {
+    // Build path string
+    const lineGenerator = d3.line().curve(d3.curveLinear);
+    const pathData = lineGenerator(points);
+
+    ballLayer.append("path")
+      .attr("d", pathData)
+      .attr("stroke", "steelblue")
+      .attr("stroke-width", 1)
+      .attr("fill", "none")
+      .attr("opacity", 0.05);
+  } else {
+    // Default ball animation
     const ball = ballLayer.append("circle")
       .attr("r", 5)
       .attr("fill", "#46C8B2")
-      .attr("cx", x)
-      .attr("cy", y);
+      .attr("cx", points[0][0])
+      .attr("cy", points[0][1]);
 
-    for (let i = 0; i < galtonConfig.size; i++) {
-      const right = Math.random() < galtonConfig.bias;
-      if (right) position++;
-      const r = 10; // same radius used for hex pegs
-      const deflection = (Math.random() - 0.5) * 2; // ±1px
-      const xNext = x + (right ? spacing / 2 : -spacing / 2) + deflection;
-      const yBounce = y - r; // bounce off the top corner
-      const yNext = y + spacing;
-
-
-      ball.transition().delay(delay).duration(galtonConfig.speed / 2)
-        .attr("cx", xNext).attr("cy", yBounce)
-        .attr("fill", right ? "#46C8B2" : "#FF8686");
-
-      ball.transition().delay(delay + galtonConfig.speed / 2).duration(galtonConfig.speed / 2)
-        .attr("cy", yNext);
-
-      x = xNext;
-      y = yNext;
-      delay += galtonConfig.speed;
+    for (let i = 1; i < points.length; i++) {
+      ball.transition().delay((i - 1) * galtonConfig.speed / 2).duration(galtonConfig.speed / 2)
+        .attr("cx", points[i][0])
+        .attr("cy", points[i][1])
+        .attr("fill", i % 2 === 1 ? "#46C8B2" : "#FF8686");
     }
-    // Update histogram AFTER ball finishes dropping
+
     ball.transition()
       .delay(delay)
       .duration(0)
       .on("end", () => {
-        galtonConfig.histogram[position]++;
-        updateGaltonHistogram();
         ball.transition().duration(1000).remove();
       });
   }
+}
+
   function updateGaltonHistogram() {
     const bins = galtonConfig.histogram.length;
     const histHeight = 100;
@@ -440,7 +490,7 @@ function galton() {
   document.getElementById("depth-slider").addEventListener("input", e => {
     const galtonSvgElement = document.getElementById("galton-svg");
     galtonConfig.size = +e.target.value;
-    galtonHeight = galtonConfig.size >= 12 ? 1000 : 600;
+    galtonHeight = galtonConfig.size * spacing + 200;
     galtonSvgElement.setAttribute("height", galtonHeight);
     const val = +e.target.value;
     document.getElementById("depth-val").textContent = val;
@@ -477,7 +527,14 @@ function galton() {
     document.getElementById("pause-btn").textContent = dropping ? "Pause" : "Resume";
   });
 
+  document.getElementById("clear-paths-btn").addEventListener("click", () => {
+    ballLayer.selectAll("path").remove();
+    ballLayer.selectAll("circle").remove();
+  });
+
+
   updateGaltonHistogram();
+  document.getElementById("pascal-toggle").addEventListener("change", drawGaltonBoard);
   drawGaltonBoard();
   setInterval(dropBallAnimated, 500);
 }
