@@ -22,7 +22,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sir Francis Galton</title>
+    <title>Galton Board</title>
 
     <!-- CSS Imports -->
     <link rel="stylesheet" href="../../css/jquery-ui.css">
@@ -216,18 +216,24 @@ svg {
             <a href="../../admin/"><span id="user-email" style="color:darkgreen; margin-left: 1em;"></span></a>
       <div id="logo"></div>
   </header>
-  <h1>Galton Board</h1>
+  <h1>The Galton Board</h1>
   <section class="Row">
     <div class="Column" id="galton-sliders">
       <label>Depth: <span id="depth-val">9</span></label>
       <input type="range" id="depth-slider" min="1" max="25" value="9">
       <label>Bias (% right): <span id="bias-val">50</span></label>
       <input type="range" id="bias-slider" min="0" max="100" value="50">
-      <label>Speed (ms): <span id="speed-val">500</span></label>
-      <input type="range" id="speed-slider" min="10" max="1000" value="500">
+      <label>Speed: <span id="speed-val" style="display: none;">500</span></label>
+      <input type="range" id="speed-slider" min="10" max="1000" value="500" >
       <button class="button-1 perspective" id="reset-btn">Reset</button>
       <button class="button-1 perspective" id="pause-btn">Pause</button>
+      <div>
+        <br>
+      The Galton Board displays centuries old mathematical concepts in an innovative, dynamic desktop device.  It incorporates Sir Francis Galton's (1822-1911) invention from 1873 that illustrated the binomial distribution, which for a large number of rows of hexagons and a large number of beads approximates the normal distribution, a concept known as the Central Limit Theorem.  He was fascinated with the order of the bell curve that emerges from the apparent chaos of beads bouncing off of pegs in his board.  According to the Central Limit Theorem, more specifically, the de Moivre (1667-1754)-Laplace(1749-1827) theorem, the normal distribution may be used as an approximation to the binomial distribution under certain conditions.
+        <br>
+      </div>
     </div>
+
     <div class="Column" id="galton-container">
       <div id="galton-chart"></div>
     </div>
@@ -290,11 +296,48 @@ function galton() {
     for (let row = 0; row < size; row++) {
       for (let col = 0; col <= row; col++) {
         const cx = galtonWidth / 2 - (row * spacing / 2) + col * spacing;
-        pegLayer.append("circle")
-          .attr("cx", cx)
-          .attr("cy", row * spacing)
-          .attr("r", 5)
+    const r = 10; // Radius of hex peg
+    const angleOffset = Math.PI / 6; // 30° rotation
+
+    const points = Array.from({ length: 6 }, (_, i) => {
+      const angle = angleOffset + (Math.PI / 3) * i;
+      const px = cx + r * Math.cos(angle);
+      const py = row * spacing + r * Math.sin(angle);
+      return [px, py];
+    });
+
+    const hex = pegLayer.append("polygon")
+      .attr("points", points.map(p => p.join(",")).join(" "))
+      .attr("fill", "#666")
+      .attr("stroke", "#444")
+      .attr("stroke-width", 1)
+      .attr("transform", `translate(0, -20)`)
+      .attr("opacity", 0);
+
+    // Animate drop-in
+    hex.transition()
+      .delay((row + col) * 20)
+      .duration(400)
+      .attr("transform", `translate(0, 0)`)
+      .attr("opacity", 1);
+
+    // Hover effect (outside transition chain)
+    hex.on("mouseover", function () {
+        d3.select(this)
+          .transition()
+          .duration(200)
+          .attr("fill", "#999");
+      })
+      .on("mouseout", function () {
+        d3.select(this)
+          .transition()
+          .duration(200)
           .attr("fill", "#666");
+      });
+
+
+
+
       }
     }
   }
@@ -303,22 +346,25 @@ function galton() {
     if (!dropping) return;
 
     let x = galtonWidth / 2;
-    let y = 0;
+    let y = -10;
     let position = 0;
     let delay = 0;
 
     const ball = ballLayer.append("circle")
       .attr("r", 5)
-      .attr("fill", "orange")
+      .attr("fill", "#46C8B2")
       .attr("cx", x)
       .attr("cy", y);
 
     for (let i = 0; i < galtonConfig.size; i++) {
       const right = Math.random() < galtonConfig.bias;
       if (right) position++;
-      const xNext = x + (right ? spacing / 2 : -spacing / 2);
-      const yBounce = y - 10;
+      const r = 10; // same radius used for hex pegs
+      const deflection = (Math.random() - 0.5) * 2; // ±1px
+      const xNext = x + (right ? spacing / 2 : -spacing / 2) + deflection;
+      const yBounce = y - r; // bounce off the top corner
       const yNext = y + spacing;
+
 
       ball.transition().delay(delay).duration(galtonConfig.speed / 2)
         .attr("cx", xNext).attr("cy", yBounce)
@@ -413,7 +459,7 @@ function galton() {
   });
 
   document.getElementById("speed-slider").addEventListener("input", e => {
-    const val = +e.target.value;
+    const val = 1010 - +e.target.value;
     document.getElementById("speed-val").textContent = val;
     galtonConfig.speed = val;
     updateGaltonHistogram();
