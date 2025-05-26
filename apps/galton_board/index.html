@@ -68,13 +68,12 @@
 #binomial-container,
 #galton-container {
   background: white;
-  margin: 40px auto;
   padding: 20px;
-  width: 70%;
-  height: 60%;
+  width: 75%;
+  height: 75%;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  overflow: clip;
+  overflow: auto;
 }
 
 #galton-sliders input[type="range"] {
@@ -219,8 +218,8 @@ svg {
   <h1>The Galton Board</h1>
   <section class="Row">
     <div class="Column" id="galton-sliders">
-      <label>Depth: <span id="depth-val">9</span></label>
-      <input type="range" id="depth-slider" min="1" max="25" value="9">
+      <label>Depth: <span id="depth-val">8</span></label>
+      <input type="range" id="depth-slider" min="1" max="25" value="8">
       <label>Bias (% right): <span id="bias-val">50</span></label>
       <input type="range" id="bias-slider" min="0" max="100" value="50">
       <label>Speed: <span id="speed-val" style="display: none;">500</span></label>
@@ -236,7 +235,6 @@ svg {
 
       <button class="button-1 perspective" id="reset-btn">Reset</button>
       <button class="button-1 perspective" id="pause-btn">Pause</button>
-      <button class="button-1 perspective" id="clear-paths-btn">Clear</button>
 
       <div>
         <br>
@@ -258,8 +256,6 @@ svg {
         btn.classList.remove("active")
       );
       this.classList.add("active");
-      changePerspective(this.id);
-      updateRects(1000);
     });
   });
 };
@@ -287,16 +283,17 @@ function galton() {
   }
 
   // Galton Board Logic
-  let galtonConfig = { size: 9, bias: 0.5, speed: 500, histogram: Array(10).fill(0) };
+  let galtonConfig = { size: 8, bias: 0.5, speed: 500, histogram: Array(9).fill(0) };
   const galtonMargin = { top: 20, right: 30, bottom: 100, left: 30 };
-  const galtonWidth = fullWidth;
   const spacing = 40;
+  let galtonWidth = fullWidth;
   let galtonHeight = galtonConfig.size * spacing + 200;
+  let innerWidth = galtonWidth - galtonMargin.left - galtonMargin.right;
 
 
   let galtonSvg = d3.select("#galton-chart")
     .append("svg")
-    .attr("width", galtonWidth)
+    .attr("width", innerWidth)
     .attr("height", galtonHeight)
     .attr("id", "galton-svg");
 
@@ -311,7 +308,22 @@ function galton() {
 
   let dropping = true;
 
+  function hexPoints(cx, cy, r = 10, angleOffset = Math.PI / 6) {
+  return Array.from({ length: 6 }, (_, i) => {
+    const angle = angleOffset + (Math.PI / 3) * i;
+    const px = cx + r * Math.cos(angle);
+    const py = cy + r * Math.sin(angle);
+    return [px, py];
+  }).map(p => p.join(",")).join(" ");
+}
+
   function drawGaltonBoard() {
+    const edgeLayer = galtonGroup.select("g#edge-layer") || galtonGroup.insert("g", ":first-child").attr("id", "edge-layer");
+    edgeLayer.selectAll("*").remove();
+
+    const pegCenters = {};
+    window.pegCenters = pegCenters; // Store globally for dropBallAnimated()
+
     pegLayer.selectAll("*").remove();
     labelLayer.selectAll("*").remove(); // Clear old labels too
 
@@ -322,8 +334,30 @@ function galton() {
 
     for (let row = 0; row < size; row++) {
       for (let col = 0; col <= row; col++) {
-        const cx = galtonWidth / 2 - (row * spacing / 2) + col * spacing;
+        const cx = innerWidth / 2 - (row * spacing / 2) + col * spacing;
         const cy = row * spacing;
+
+        pegCenters[`${row}-${col}`] = [cx, cy];
+
+        if (row < size - 1) {
+          const yChild = cy + spacing;
+          const xLeft = cx - spacing / 2;
+          const xRight = cx + spacing / 2;
+
+          edgeLayer.append("line")
+            .attr("x1", cx).attr("y1", cy)
+            .attr("x2", xLeft).attr("y2", yChild)
+            .attr("stroke", "black")
+            .attr("stroke-width", 4)
+            .attr("fill", "white");
+
+          edgeLayer.append("line")
+            .attr("x1", cx).attr("y1", cy)
+            .attr("x2", xRight).attr("y2", yChild)
+            .attr("stroke", "black")
+            .attr("stroke-width", 4)
+            .attr("fill", "white");
+        }
 
         const points = Array.from({ length: 6 }, (_, i) => {
           const angle = angleOffset + (Math.PI / 3) * i;
@@ -357,14 +391,20 @@ function galton() {
         // Add Pascal value if enabled
         if (showPascal) {
           const value = binomialCoefficient(row, col);
+          const digitCount = value.toString().length;
+          const baseFontSize = 10;
+          const shrinkFactor = 0.85; // shrink by 10% per digit beyond 2
+          const fontSize = baseFontSize * Math.pow(shrinkFactor, Math.max(0, digitCount - 2));
+
           labelLayer.append("text")
             .text(value)
             .attr("x", cx)
-            .attr("y", cy + 4) // vertically center the text
+            .attr("y", cy + 4)
             .attr("text-anchor", "middle")
-            .attr("font-size", "10px")
+            .attr("font-size", `${fontSize.toFixed(1)}px`)
             .attr("fill", "white")
             .attr("pointer-events", "none");
+
         }
       }
     }
@@ -375,46 +415,103 @@ function dropBallAnimated() {
 
   const showPaths = document.getElementById("path-toggle").checked;
 
-  let x = galtonWidth / 2;
-  let y = -10;
-  let position = 0;
-  let delay = 0;
-
-  const points = [[x, y]];
-
-  for (let i = 0; i < galtonConfig.size; i++) {
-    const right = Math.random() < galtonConfig.bias;
-    if (right) position++;
-    const deflection = (Math.random() - 0.5) * 2;
-    const xNext = x + (right ? spacing / 2 : -spacing / 2) + deflection;
-    const yBounce = y - 10;
-    const yNext = y + spacing;
-
-    // store both bounce and settle points
-    points.push([xNext, yBounce]);
-    points.push([xNext, yNext]);
-
-    x = xNext;
-    y = yNext;
-    delay += galtonConfig.speed;
-  }
-
-  galtonConfig.histogram[position]++;
-  updateGaltonHistogram();
-
   if (showPaths) {
-    // Build path string
-    const lineGenerator = d3.line().curve(d3.curveLinear);
-    const pathData = lineGenerator(points);
+    // NEW MODE: Travel along binary tree edges between hex nodes
 
-    ballLayer.append("path")
-      .attr("d", pathData)
-      .attr("stroke", "steelblue")
-      .attr("stroke-width", 1)
-      .attr("fill", "none")
-      .attr("opacity", 0.05);
+    const path = [];
+    let row = 0;
+    let col = 0;
+
+    // Use global pegCenters from drawGaltonBoard()
+    if (!window.pegCenters) return;
+
+    path.push(window.pegCenters[`${row}-${col}`]);
+
+    for (row = 1; row < galtonConfig.size; row++) {
+      let right = Math.random() < galtonConfig.bias;
+      if (right) col++;
+      let key = `${row}-${col}`;
+      let point = window.pegCenters[key];
+      if (point) path.push(point);
+    }
+
+    const finalPeg = window.pegCenters[`${galtonConfig.size - 1}-${col}`];
+    if (finalPeg) {
+      let right = Math.random() < galtonConfig.bias;
+      if (right) col++;
+      const binX = finalPeg[0] + (right ? spacing / 2 : -spacing / 2)
+      const binY = finalPeg[1] + spacing; // drop one level
+      path.push([binX, binY]);
+    }
+
+    // Animate the ball along the path
+    const ball = ballLayer.append("circle")
+      .attr("r", 5)
+      .attr("fill", "#64bdff")
+      .attr("cx", path[0][0])
+      .attr("cy", path[0][1]);
+
+    // Leave fading trail at each step
+    path.forEach((point, i) => {
+      if (i === 0) return;
+
+      const [cx, cy] = path[i - 1];
+      const hex = hexPoints(cx, cy);
+
+      ballLayer.append("polygon")
+        .attr("points", hex)
+        .attr("fill", "white")
+        .attr("stroke", "black")
+        .attr("stroke-width", 1)
+        .attr("opacity", 0.4)
+        .transition()
+        .delay(i * galtonConfig.speed)
+        .duration(1000)
+        .attr("opacity", 0)
+        .remove();
+
+      // Move the main ball
+      ball.transition()
+        .delay(i * galtonConfig.speed)
+        .duration(galtonConfig.speed)
+        .attr("cx", point[0])
+        .attr("cy", point[1])
+        .attr("fill", point[0] > path[i - 1][0] ? "#46C8B2" : "#FF8686")
+      });
+
+
+    ball.transition()
+      .delay(path.length * galtonConfig.speed)
+      .on("end", () => {
+        galtonConfig.histogram[col]++;
+        updateGaltonHistogram();
+        ball.transition().duration(1000).remove();
+      });
+
   } else {
-    // Default ball animation
+    // ORIGINAL MODE: Bounce over pegs
+    let x = innerWidth / 2;
+    let y = -10;
+    let position = 0;
+    let delay = 0;
+    const points = [[x, y]];
+
+    for (let i = 0; i < galtonConfig.size; i++) {
+      const right = Math.random() < galtonConfig.bias;
+      if (right) position++;
+      const deflection = (Math.random() - 0.5) * 2;
+      const xNext = x + (right ? spacing / 2 : -spacing / 2) + deflection;
+      const yBounce = y - 10;
+      const yNext = y + spacing;
+
+      points.push([xNext, yBounce]);
+      points.push([xNext, yNext]);
+
+      x = xNext;
+      y = yNext;
+      delay += galtonConfig.speed;
+    }
+
     const ball = ballLayer.append("circle")
       .attr("r", 5)
       .attr("fill", "#46C8B2")
@@ -422,20 +519,27 @@ function dropBallAnimated() {
       .attr("cy", points[0][1]);
 
     for (let i = 1; i < points.length; i++) {
-      ball.transition().delay((i - 1) * galtonConfig.speed / 2).duration(galtonConfig.speed / 2)
+      ball.transition()
+        .delay((i - 1) * galtonConfig.speed / 2)
+        .duration(galtonConfig.speed / 2)
         .attr("cx", points[i][0])
         .attr("cy", points[i][1])
-        .attr("fill", i % 2 === 1 ? "#46C8B2" : "#FF8686");
+        .attr("fill", i % 2 === 1
+          ? (points[i][0] > points[i - 1][0] ? "#46C8B2" : "#FF8686")
+          : (points[i][0] > points[i - 2][0] ? "#46C8B2" : "#FF8686"));
     }
 
     ball.transition()
       .delay(delay)
       .duration(0)
       .on("end", () => {
+        galtonConfig.histogram[position]++;
+        updateGaltonHistogram();
         ball.transition().duration(1000).remove();
       });
   }
 }
+
 
   function updateGaltonHistogram() {
     const bins = galtonConfig.histogram.length;
@@ -443,8 +547,8 @@ function dropBallAnimated() {
     const maxCount = d3.max(galtonConfig.histogram);
 
     const x = d3.scaleLinear().domain([0, bins - 1]).range([
-      galtonWidth / 2 - (bins - 1) * spacing / 2,
-      galtonWidth / 2 + (bins - 1) * spacing / 2
+      innerWidth / 2 - (bins - 1) * spacing / 2,
+      innerWidth / 2 + (bins - 1) * spacing / 2
     ]);
     const y = d3.scaleLinear().domain([0, maxCount || 1]).range([histHeight, 0]);
 
@@ -453,7 +557,7 @@ function dropBallAnimated() {
 
     bars.enter()
       .append("rect")
-      .attr("x", (_, i) => galtonWidth / 2 - (bins - 1) * spacing / 2 + i * spacing)
+      .attr("x", (_, i) => innerWidth / 2 - (bins - 1) * spacing / 2 + i * spacing)
       .attr("width", barWidth)
       .attr("y", y(0))
       .attr("height", 0)
@@ -526,12 +630,6 @@ function dropBallAnimated() {
     dropping = !dropping;
     document.getElementById("pause-btn").textContent = dropping ? "Pause" : "Resume";
   });
-
-  document.getElementById("clear-paths-btn").addEventListener("click", () => {
-    ballLayer.selectAll("path").remove();
-    ballLayer.selectAll("circle").remove();
-  });
-
 
   updateGaltonHistogram();
   document.getElementById("pascal-toggle").addEventListener("change", drawGaltonBoard);
