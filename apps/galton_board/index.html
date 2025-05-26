@@ -457,6 +457,8 @@ function dropBallAnimated() {
 
       const [cx, cy] = path[i - 1];
       const hex = hexPoints(cx, cy);
+      const prev = path[i - 1];
+      const segmentPath = d3.line()([prev, point]);
 
       ballLayer.append("polygon")
         .attr("points", hex)
@@ -470,14 +472,30 @@ function dropBallAnimated() {
         .attr("opacity", 0)
         .remove();
 
-      // Move the main ball
+      ballLayer.append("path")
+        .attr("d", segmentPath)
+        .attr("stroke", "#F5D800")
+        .attr("stroke-width", 3)
+        .attr("fill", "none")
+        .attr("opacity", 0)
+        .transition()
+        .delay(i * galtonConfig.speed)
+        .duration(100) // instant reveal when it's time
+        .attr("opacity", 0.7)
+        .transition()
+        .delay(i * galtonConfig.speed)
+        .duration(1000)
+        .attr("opacity", 0)
+        .remove();
+
+      // Move the ball
       ball.transition()
         .delay(i * galtonConfig.speed)
         .duration(galtonConfig.speed)
         .attr("cx", point[0])
         .attr("cy", point[1])
-        .attr("fill", point[0] > path[i - 1][0] ? "#46C8B2" : "#FF8686")
-      });
+        .attr("fill", point[0] > prev[0] ? "#46C8B2" : "#FF8686");
+    });
 
 
     ball.transition()
@@ -591,26 +609,43 @@ function dropBallAnimated() {
     histLayer.attr("transform", `translate(0, ${galtonConfig.size * spacing + 40})`);
   }
 
-  document.getElementById("depth-slider").addEventListener("input", e => {
-    const galtonSvgElement = document.getElementById("galton-svg");
-    galtonConfig.size = +e.target.value;
-    galtonHeight = galtonConfig.size * spacing + 200;
-    galtonSvgElement.setAttribute("height", galtonHeight);
-    const val = +e.target.value;
-    document.getElementById("depth-val").textContent = val;
-    galtonConfig.size = val;
-    galtonConfig.histogram = Array(val + 1).fill(0);
-    updateGaltonHistogram();
-    drawGaltonBoard();
-  });
+document.getElementById("depth-slider").addEventListener("input", e => {
+  const galtonSvgElement = document.getElementById("galton-svg");
+  galtonConfig.size = +e.target.value;
+  galtonHeight = galtonConfig.size * spacing + 200;
+  galtonSvgElement.setAttribute("height", galtonHeight);
 
-  document.getElementById("bias-slider").addEventListener("input", e => {
-    const val = +e.target.value;
-    document.getElementById("bias-val").textContent = val;
-    galtonConfig.bias = val / 100;
-    updateGaltonHistogram();
-    drawGaltonBoard();
-  });
+  const val = +e.target.value;
+  document.getElementById("depth-val").textContent = val;
+
+  galtonConfig.size = val;
+  galtonConfig.histogram = Array(val + 1).fill(0);
+
+  // Remove all balls and trails
+  ballLayer.selectAll("circle").remove();
+  ballLayer.selectAll("path").remove();
+  ballLayer.selectAll("polygon").remove();
+
+  updateGaltonHistogram();
+  drawGaltonBoard();
+});
+
+
+document.getElementById("bias-slider").addEventListener("input", e => {
+  const val = +e.target.value;
+  document.getElementById("bias-val").textContent = val;
+  galtonConfig.bias = val / 100;
+
+  // Reset histogram and visuals
+  galtonConfig.histogram = Array(galtonConfig.size + 1).fill(0);
+  ballLayer.selectAll("circle").remove();
+  ballLayer.selectAll("path").remove();
+  ballLayer.selectAll("polygon").remove();
+
+  updateGaltonHistogram();
+  drawGaltonBoard();
+});
+
 
   document.getElementById("speed-slider").addEventListener("input", e => {
     const val = 1010 - +e.target.value;
