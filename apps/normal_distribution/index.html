@@ -343,9 +343,9 @@ function update() {
     const y = d3.scaleLinear().domain([0, normalPDF(mu, mu, sigma)]).range([height, 0]);
     const data = d3.range(mu - 5, mu + 5, 0.1).map(d => ({x: d, y: normalPDF(d, mu, sigma)}));
     const area = d3.area().x(d => x(d.x)).y0(height).y1(d => y(d.y));
-    g.append("path").datum(data.filter(d => Math.abs(d.x - mu) <= sigma)).attr("fill", "#9ecae1").attr("fill-opacity", 0.6).attr("d", area);
-    g.append("path").datum(data.filter(d => Math.abs(d.x - mu) <= 2*sigma)).attr("fill", "#6baed6").attr("fill-opacity", 0.4).attr("d", area);
-    g.append("path").datum(data.filter(d => Math.abs(d.x - mu) <= 3*sigma)).attr("fill", "#3182bd").attr("fill-opacity", 0.2).attr("d", area);
+    g.append("path").datum(data.filter(d => Math.abs(d.x - mu) <= sigma)).attr("fill", "#98ddff").attr("fill-opacity", 0.6).attr("d", area);
+    g.append("path").datum(data.filter(d => Math.abs(d.x - mu) <= 2*sigma)).attr("fill", "#64bdff").attr("fill-opacity", 0.4).attr("d", area);
+    g.append("path").datum(data.filter(d => Math.abs(d.x - mu) <= 3*sigma)).attr("fill", "#2196F3").attr("fill-opacity", 0.2).attr("d", area);
     g.append("path").datum(data).attr("stroke", "black").attr("fill", "none").attr("d", d3.line().x(d => x(d.x)).y(d => y(d.y)));
     g.append("g").attr("transform", `translate(0,${height})`).call(d3.axisBottom(x));
     g.append("g").call(d3.axisLeft(y));
